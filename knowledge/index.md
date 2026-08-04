@@ -9,14 +9,15 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 ## 読み始め
 
 1. [権威順位とライフサイクル](governance/authority-and-lifecycle.md)
-2. [横断ナビゲーション](navigation/)
-3. [改稿ダッシュボード](navigation/overhaul/)
-4. [知識所有者マップ](governance/ownership-map.md)
-5. [オーバーホール中の矛盾判定規則](governance/contradiction-policy.md)
-6. [矛盾監査台帳](contradictions/)
-7. [正史・世界観](world/)
-8. [全体設計](design/)
-9. [リリース計画](roadmap/)
+2. [Open Knowledge Format 0.2 日本語規範解説](research/okf/00-Open-Knowledge-Format-v0.2-日本語解説.md)
+3. [横断ナビゲーション](navigation/)
+4. [改稿ダッシュボード](navigation/overhaul/)
+5. [知識所有者マップ](governance/ownership-map.md)
+6. [オーバーホール中の矛盾判定規則](governance/contradiction-policy.md)
+7. [矛盾監査台帳](contradictions/)
+8. [正史・世界観](world/)
+9. [全体設計](design/)
+10. [リリース計画](roadmap/)
 
 ## 領域
 
@@ -33,7 +34,7 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 - [横断ナビゲーション](navigation/) — 荷札から生成した派生索引
 - [Pawn生産・保管・再生](pawn/) — 91件
 - [プレイヤー向け設定](player-facing/) — 13件
-- [調査・参照](research/) — 109件
+- [調査・参照](research/) — 110件
 - [リリース計画](roadmap/) — 11件
 - [退役済み出典識別台帳](sources/) — 削除済み原本・コード・図版の墓標
 - [OKF保守ツール](tools/) — 概念・索引・監査の保守

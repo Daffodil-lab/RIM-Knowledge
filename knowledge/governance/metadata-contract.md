@@ -1,7 +1,7 @@
 ---
 type: "Governance Rule"
 title: "RIM OKFメタデータ契約"
-description: "各概念ファイルの先頭にはYAML frontmatterを置く。"
+description: "RIM概念ファイルのOKF 0.2標準メタデータと正本所有拡張の必須構造を定める。"
 tags:
   - "okf"
   - "governance"
@@ -13,8 +13,13 @@ canonical_for: "governance/metadata-contract"
 canonical_scope: "okf-governance"
 source_section: "RIM OKFメタデータ契約"
 generated:
-  by: "process:rim-okf-migration"
-  at: "2026-07-26T00:54:52.353Z"
+  by: "process:codex-okf-v02-contract-update"
+  at: "2026-08-04T18:07:08+09:00"
+sources:
+  - id: "official-okf-v02"
+    resource: "https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md"
+    title: "Open Knowledge Format (OKF) Version 0.2"
+    last_modified: "2026-07-24"
 ---
 
 # RIM OKFメタデータ契約
@@ -25,12 +30,25 @@ generated:
 
 - `type`: OKF必須の概念種別。
 
+## OKF 0.2標準
+
+- `generated`: 生成・変換処理の来歴。置く場合は`by`を必須とし、`at`はISO 8601日時にする。RIMでは時差解釈を固定するためタイムゾーン付きを推奨する。
+- `sources`: 出典のリスト。各出典では`resource`を必須とし、`id`、`title`、`author`、`usage_count`、`last_modified`を追加できる。
+- `usage_window`: `usage_count`を集計した期間。
+- `verified`: 出典照合を行った主体と時刻。自動検査と人の確認を別イベントとして記録する。
+- `status`: `draft | stable | deprecated`。省略時は`stable`。
+- `stale_after`: 再確認日を示す`YYYY-MM-DD`。
+- `runtime`: `type: "Attested Computation"`で必須となる実行環境。
+- `parameters`、`computation`、`executor`、`attester`: 実行証明付き計算の入力、計算本体、実行主体、証明主体。
+
+未知の追加キーは保持する。OKF標準キーの構造とRIM拡張キーの意味を混同しない。
+
 ## RIM標準
 
 - `title`: 表示名。
 - `description`: 一文要約。
 - `tags`: 横断分類。
-- `status`: `draft | stable | deprecated`。
+- `status`: OKF標準の状態をRIMの権威判定にも使用する。
 - `authority`: RIM内の権威区分。
 - `knowledge_role`: 所有者、要約、投影、要件、検証、記録等の役割。
 - `content_mode`: `positive-specification | history`。省略時は`positive-specification`として扱い、変更経緯を所有する履歴資料だけ`history`を指定する。
@@ -41,8 +59,8 @@ generated:
 - `normative_basis`: 要件や検証が具体化する上位規範。
 - `granularity`: section、requirement、record、decision、pointer等の粒度。
 - `source_section`: 元文書内の見出しまたはレコードID。
-- `generated`: 移行処理の実行主体と時刻。
-- `sources`: 出典ファイル。
+- `generated`: OKF標準構造を使い、RIMの生成器または移行処理の実行主体と時刻を記録する。
+- `sources`: OKF標準構造を使い、現存する出典と`retired-source://project/...`の由来墓標を記録する。
 - `overhaul_state`: `under-review`の場合、この概念は改稿候補として隔離中。
 - `canon_review`: カタログ項目の正史採否。`candidate | re-audit | accepted | rejected`。
 - `eras`: この概念が明示的に属する時代ID。推測では付けない。
@@ -50,7 +68,7 @@ generated:
 - `organization_names`: 出典に記録されたOrigin／Relation等の生の組織名。
 - `conflict_class`、`conflict_state`、`blocking`: 矛盾監査台帳の分類、処置状態、完成阻害の有無。
 
-未知の追加キーは保持し、`type`がない概念ファイルを作らない。
+`verified`は実際に照合した事実だけを記録する。機械検査を`process:<id>`、人の確認を`human:<id>`として分離し、既存概念へ一括付与しない。
 
 ## 関連項目
 
@@ -61,3 +79,5 @@ generated:
 - 横断索引: [横断ナビゲーション](/navigation/index.md)
 - 設定と実装の分離: [設定クラスと実装値の分離](/authoring/15-設定クラスと実装値の分離.md)
 - 現行資料の記述: [現行資料の正仕様記述](/governance/positive-specification-policy.md)
+- OKF 0.2日本語解説: [Open Knowledge Format 0.2 日本語規範解説](/research/okf/00-Open-Knowledge-Format-v0.2-日本語解説.md)
+- 互換性検証: [OKF保守ツール](/tools/index.md)

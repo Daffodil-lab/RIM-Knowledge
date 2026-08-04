@@ -12,6 +12,7 @@
 - [kombinat-ui-references](kombinat-ui-references/) — 5件
 - [monolyn-practice](monolyn-practice/) — 14件
 - [monolyn-ui](monolyn-ui/) — 14件
+- [Open Knowledge Format](okf/) — 1件
 - [reference-mods](reference-mods/) — 10件
 - [remote-logistics](remote-logistics/) — 8件
 - [theme-overhaul](theme-overhaul/) — 11件
