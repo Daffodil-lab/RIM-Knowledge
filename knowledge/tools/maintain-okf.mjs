@@ -62,6 +62,7 @@ if (args.has("--write")) {
   run("説明とファセットの更新", "refine-okf-descriptions.mjs", ["--write"]);
   run("横断ナビゲーションの更新", "build-okf-navigation.mjs", ["--write"]);
   run("退役済み出典識別子の更新", "normalize-retired-source-links.mjs", ["--write"]);
+  run("矛盾監査台帳集計の更新", "audit-okf-contradictions.mjs", ["--write"]);
 }
 
 run("OKF日時精度正規化の自己試験", "normalize-okf-v02-datetimes.mjs", [
@@ -77,7 +78,7 @@ run("公式OKF 0.2互換性検査", "validate-okf-v02.mjs", []);
 run("RIM OKF構造検査", "validate-okf.mjs", []);
 
 run("領域横断重複監査", "audit-okf-overlap.mjs", ["--check"]);
-run("設定矛盾監査", "audit-okf-contradictions.mjs", []);
+run("設定矛盾監査", "audit-okf-contradictions.mjs", ["--check"]);
 
 console.log(
   `\nOKF統合保守に合格しました（${args.has("--write") ? "更新・検査" : "検査のみ"}）。`,
