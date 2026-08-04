@@ -27,7 +27,8 @@ normative_basis:
   - "/roadmap/04-α版-—-最初の公開候補.md"
 generated:
   by: "process:user-decision"
-  at: "2026-07-30"
+  at: "2026-07-30T00:00:00Z"
+  precision: "date"
 ---
 
 # 52. バニラ優先Shion種族実装境界

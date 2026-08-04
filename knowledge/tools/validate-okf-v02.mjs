@@ -22,6 +22,7 @@ const coverage = {
   concepts: 0,
   reservedFiles: 0,
   generated: 0,
+  generatedDatePrecision: 0,
   sourceConcepts: 0,
   sourceEntries: 0,
   verifiedConcepts: 0,
@@ -326,6 +327,26 @@ function validateConcept(file, text) {
         `generated.atはISO 8601日時を推奨します: ${generated.at}`,
       );
     }
+    if (generated?.precision) {
+      if (generated.precision !== "date") {
+        issue(
+          warnings,
+          file,
+          "generated-precision",
+          `RIM拡張のgenerated.precisionはdateだけを使用します: ${generated.precision}`,
+        );
+      } else {
+        coverage.generatedDatePrecision += 1;
+        if (!/^\d{4}-\d{2}-\d{2}T00:00:00Z$/.test(generated.at || "")) {
+          issue(
+            warnings,
+            file,
+            "generated-date-precision",
+            "generated.precision: dateにはYYYY-MM-DDT00:00:00Z形式のgenerated.atが必要です。",
+          );
+        }
+      }
+    }
   }
 
   const sourceEntry = entries.get("sources");
@@ -451,7 +472,7 @@ if (json) {
   console.log(`OKF 0.2互換性検証（${strict ? "厳格" : "通常"}モード）`);
   console.log(`概念: ${coverage.concepts} / 予約ファイル: ${coverage.reservedFiles}`);
   console.log(
-    `来歴: generated ${coverage.generated} / sources ${coverage.sourceConcepts}概念・${coverage.sourceEntries}件`,
+    `来歴: generated ${coverage.generated}（日付精度 ${coverage.generatedDatePrecision}）/ sources ${coverage.sourceConcepts}概念・${coverage.sourceEntries}件`,
   );
   console.log(
     `信頼・鮮度: verified ${coverage.verifiedConcepts}（人 ${coverage.humanVerifiedConcepts} / 処理 ${coverage.processVerifiedConcepts}）/ 未検証 ${coverage.concepts - coverage.verifiedConcepts} / stale_after ${coverage.staleAfter}`,

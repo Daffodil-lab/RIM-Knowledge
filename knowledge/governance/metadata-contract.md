@@ -13,8 +13,8 @@ canonical_for: "governance/metadata-contract"
 canonical_scope: "okf-governance"
 source_section: "RIM OKFメタデータ契約"
 generated:
-  by: "process:codex-okf-v02-contract-update"
-  at: "2026-08-04T18:07:08+09:00"
+  by: "process:codex-okf-v02-date-precision-update"
+  at: "2026-08-04T18:44:05+09:00"
 sources:
   - id: "official-okf-v02"
     resource: "https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md"
@@ -60,6 +60,7 @@ sources:
 - `granularity`: section、requirement、record、decision、pointer等の粒度。
 - `source_section`: 元文書内の見出しまたはレコードID。
 - `generated`: OKF標準構造を使い、RIMの生成器または移行処理の実行主体と時刻を記録する。
+- `generated.precision`: 元記録が日付だけで実時刻を復元できない場合に`date`を置くRIM拡張。`generated.at`は同日`T00:00:00Z`で表し、この時刻を実際の更新時刻として解釈しない。
 - `sources`: OKF標準構造を使い、現存する出典と`retired-source://project/...`の由来墓標を記録する。
 - `overhaul_state`: `under-review`の場合、この概念は改稿候補として隔離中。
 - `canon_review`: カタログ項目の正史採否。`candidate | re-audit | accepted | rejected`。
@@ -69,6 +70,8 @@ sources:
 - `conflict_class`、`conflict_state`、`blocking`: 矛盾監査台帳の分類、処置状態、完成阻害の有無。
 
 `verified`は実際に照合した事実だけを記録する。機械検査を`process:<id>`、人の確認を`human:<id>`として分離し、既存概念へ一括付与しない。
+
+日付だけの旧`generated.at`は、日付情報を失わずOKF 0.2の日時形式へ合わせるため、`YYYY-MM-DDT00:00:00Z`と`precision: "date"`の組で保持する。既知の日付を現在時刻へ置換せず、未記録の時刻を推測しない。
 
 ## 関連項目
 

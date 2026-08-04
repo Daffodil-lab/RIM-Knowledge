@@ -21,7 +21,8 @@ canonical_scope: "product-architecture"
 content_layer: "implementation"
 generated:
   by: "process:codex-implementation"
-  at: "2026-07-31"
+  at: "2026-07-31T00:00:00Z"
+  precision: "date"
 ---
 
 # Core・公式DLC量産カタログ境界

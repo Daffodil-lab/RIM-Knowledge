@@ -21,24 +21,24 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 
 ## 領域
 
-- [制作・開示](authoring/) — 28件
-- [バックストーリー](backstories/) — 844件
+- [制作・開示](authoring/) — 32件
+- [バックストーリー](backstories/) — 845件
 - [人物](characters/) — 55件
 - [矛盾監査](contradictions/) — 3件
 - [独立開拓団](colony/) — 30件
-- [決定履歴](decisions/) — 378件
-- [全体設計](design/) — 37件
-- [運用規則](governance/) — 7件
+- [決定履歴](decisions/) — 379件
+- [全体設計](design/) — 57件
+- [運用規則](governance/) — 8件
 - [外部連携境界](integrations/) — 8件
 - [Kombinat](kombinat/) — 86件
 - [横断ナビゲーション](navigation/) — 荷札から生成した派生索引
 - [Pawn生産・保管・再生](pawn/) — 91件
 - [プレイヤー向け設定](player-facing/) — 13件
-- [調査・参照](research/) — 110件
-- [リリース計画](roadmap/) — 11件
+- [調査・参照](research/) — 117件
+- [リリース計画](roadmap/) — 12件
 - [退役済み出典識別台帳](sources/) — 削除済み原本・コード・図版の墓標
 - [OKF保守ツール](tools/) — 概念・索引・監査の保守
-- [正史・世界観](world/) — 32件
+- [正史・世界観](world/) — 44件
 
 ## 使い方
 

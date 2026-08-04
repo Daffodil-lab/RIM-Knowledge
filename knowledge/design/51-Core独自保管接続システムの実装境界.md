@@ -26,7 +26,8 @@ normative_basis:
   - "/kombinat/core/12-α完成条件.md"
 generated:
   by: "process:positive-specification-policy"
-  at: "2026-07-27"
+  at: "2026-07-27T00:00:00Z"
+  precision: "date"
 ---
 
 # 51. Core独自保管・接続システムの実装境界

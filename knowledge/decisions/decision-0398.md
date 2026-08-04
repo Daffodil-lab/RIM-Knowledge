@@ -21,7 +21,8 @@ canonical_scope: "decision-history"
 source_section: "確定#398"
 generated:
   by: "process:user-confirmed-storage-redesign"
-  at: "2026-07-27"
+  at: "2026-07-27T00:00:00Z"
+  precision: "date"
 ---
 
 # 確定#398：α版からCore独自保管・接続基盤を採用する

@@ -14,7 +14,8 @@ granularity: concept
 source_section: "3. DSUから採るUIと採らない実装"
 generated:
   by: "process:user-media-ui-review"
-  at: "2026-07-27"
+  at: "2026-07-27T00:00:00Z"
+  precision: "date"
 sources:
   - id: "user-screenshot-dsu-description"
     resource: "/research/kombinat-ui-references/assets/industrial-dsu-description.png"

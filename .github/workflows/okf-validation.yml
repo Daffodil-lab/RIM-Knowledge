@@ -40,6 +40,8 @@ jobs:
           check node knowledge/tools/refine-okf-descriptions.mjs --check
           check node knowledge/tools/build-okf-navigation.mjs --check
           check node knowledge/tools/normalize-retired-source-links.mjs --check
+          check node knowledge/tools/normalize-okf-v02-datetimes.mjs --self-test
+          check node knowledge/tools/normalize-okf-v02-datetimes.mjs --check
           check node knowledge/tools/validate-okf-v02.mjs
           check node knowledge/tools/validate-okf.mjs
 

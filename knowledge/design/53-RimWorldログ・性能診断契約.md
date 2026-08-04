@@ -21,7 +21,8 @@ normative_basis:
   - "/design/52-バニラ優先Shion種族実装境界.md"
 generated:
   by: "process:user-decision"
-  at: "2026-07-30"
+  at: "2026-07-30T00:00:00Z"
+  precision: "date"
 sources:
   - id: "log-publisher-workshop"
     resource: "https://steamcommunity.com/sharedfiles/filedetails/?id=2873415404"

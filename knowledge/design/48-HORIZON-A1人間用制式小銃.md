@@ -21,7 +21,8 @@ normative_basis:
   - "/authoring/14-語彙と命名のレジスター.md"
 generated:
   by: "process:rim-human-weapons-first-rifle-adoption"
-  at: "2026-07-26"
+  at: "2026-07-26T00:00:00Z"
+  precision: "date"
 ---
 
 # 48. HORIZON A1人間用制式小銃

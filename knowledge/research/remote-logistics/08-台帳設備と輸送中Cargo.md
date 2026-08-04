@@ -19,7 +19,8 @@ knowledge_role: draft-proposal
 granularity: concept
 generated:
   by: "process:codex-design-draft"
-  at: "2026-07-31"
+  at: "2026-07-31T00:00:00Z"
+  precision: "date"
 ---
 
 # 台帳設備と輸送中Cargo
