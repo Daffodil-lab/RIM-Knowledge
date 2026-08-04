@@ -1,0 +1,86 @@
+# ソフェル・律法機関 01
+
+範囲: SHION_C027 文字院の徒弟〜33. 撤退路の記述
+
+## 項目
+
+- [SHION_C027 文字院の徒弟](/backstories/formation/SHION_C027.md) — 帝国最盛期の文字院で、律法、契約、祈祷文の書式と校正を学んだ。 （帝国臣民 / 帝国文字院）
+- [SHION_C029 修道院助手](/backstories/formation/SHION_C029.md) — 帝国最盛期の修道院で、書棚の運搬、畑仕事、寝台の修理、食事の支度を順番に経験した。 （帝国修道院 / 帝国臣民）
+- [SHION_C045 ティクーン試験生](/backstories/formation/SHION_C045.md) — ティクーン初期課程で文章と人工知能の命令列を診断した。 （ソフェル / ティクーン学派）
+- [SHION_C078 初めての秘文字校正](/backstories/formation/SHION_C078.md) — 祈祷文そのものではなく、写し間違いを探す役から修業を始めた。 （ソフェル / 地区マソレット工房）
+- [SHION_C079 法衣の内側を読む者](/backstories/formation/SHION_C079.md) — 法衣の表に輝く章句より、裏地へ縫われた修繕記録を好んだ。 （ソフェル / 典礼衣装院）
+- [SHION_C080 ゴーレム名付け助手](/backstories/formation/SHION_C080.md) — 新しいゴーレムへ識別番号と呼び名の両方を与えた、また命令に必要なのは番号だけだったが、帰還時に皆が呼ぶのは名前だった。 （ソフェル / 造体養成舎）
+- [SHION_C081 逆因果句の清掃員](/backstories/formation/SHION_C081.md) — 実習後、床に残った「まだ書かれていない文字」を消す係だった。 （ソフェル / 時間祈祷演習場）
+- [SHION_C082 鉄律の槍持ち](/backstories/formation/SHION_C082.md) — 導師の槍を運び、稽古の前後に刃と条文を同じ布で磨いた。 （帝国系ソフェル / 鉄律修道院）
+- [SHION_C083 蘇生文の立会人](/backstories/formation/SHION_C083.md) — 蘇生文を読む導師の隣で、戻る者の友人が何を恐れているか記録した。 （ソフェル / 復活医療院）
+- [SHION_C348 三つの誤解を正しておく](/backstories/formation/SHION_C348.md) — 帝国律法の清書に携わった経験を、起草者・信仰者・完成形の証人という三つの誤解から語り直す。 （律法起草補佐 / 律法写本班）
+- [SHION_C354 律法学舎の写本刀](/backstories/formation/SHION_C354.md) — 律法学舎で、文字線を一定に削り出す写本刀の研ぎ方と刃角を厳しく学んだ。 （律法学舎 / 律法学舎寮）
+- [SHION_C357 この話は書き残してほしい](/backstories/formation/SHION_C357.md) — この話は書き残してほしいでは、一つ、はっきりお願いしておきたいことがあります。 （統合記録班 / 律法学舎）
+- [SHION_C369 律法はまだ石板ではなかった](/backstories/formation/SHION_C369.md) — 律法はもう厳格な決まりだったと思われがちですが、それは違います。 （混成世代 / 律法学習会）
+- [SHION_C373 三つの思い込みについて](/backstories/formation/SHION_C373.md) — 律法起草補助・儀式楽団・時代認識について、自身へ向けられた三つの誤解を訂正した。 （儀式楽団 / 律法起草補助）
+- [SHION_C379 律法学舎を三度落第した話](/backstories/formation/SHION_C379.md) — 学舎を三度落第したことについて、本人には言い分があります。 （律法学舎 / 律法学舎寄宿組）
+- [SHION_C399 学舎建設隊の墨壺](/backstories/formation/SHION_C399.md) — 線は一度で引け、これが墨壺を任されたときに教師から言われた言葉である。 （学舎建設隊 / 教師）
+- [SHION_C413 律法学舎の灯火番](/backstories/formation/SHION_C413.md) — 学舎の夜、写本机の灯りを絶やさないことが本人の役目だった。 （学舎の老学匠 / 律法学舎）
+- [SHION_C416 イェツィラー学舎の写経見習い](/backstories/formation/SHION_C416.md) — 師は、見習いだった本人にマソレットの一文字も書かせず、まず完成済みの文字を読むことから教えた。 （イェツィラー学舎 / 師のソフェル）
+- [SHION_A015 マソレット写字生](/backstories/mastery/SHION_A015.md) — マソレットの写字生として、原文、異本、後世の注釈を区別して書き写した。 （ソフェル / マソレット共同体）
+- [SHION_A016 ティクーン文法工](/backstories/mastery/SHION_A016.md) — 人工知能の命令列と機械制御を修復した、また修復範囲と依頼者の責任を先に定めた。 （ソフェル / ティクーン工房）
+- [SHION_A017 鉄律の守護者](/backstories/mastery/SHION_A017.md) — 鉄律の守護者として、工房、書庫、避難者の警護を担当した。 （ソフェル / 鉄律会）
+- [SHION_A018 死者名簿の編纂者](/backstories/mastery/SHION_A018.md) — 各党派、帝国軍、無所属避難民の死者名簿を照合した。 （ソフェル / 独立記録院）
+- [SHION_A019 辺境の校正者](/backstories/mastery/SHION_A019.md) — 辺境を巡り、契約書、墓碑、機械命令、学校教材の誤りを直す校正者となった。 （ソフェル / 巡回書記団）
+- [SHION_A020 評議会注解者](/backstories/mastery/SHION_A020.md) — 評議会決議へ適用範囲、反対意見、再検討条件を付す注解者となった。 （ソフェル / 同盟評議会）
+- [SHION_A021 帝国遺構の番人](/backstories/mastery/SHION_A021.md) — 帝国遺構を盗掘と無責任な復元から守り、最盛期の礼拝所、内戦施設、内戦後の拘禁室を時代別に管理した。 （ソフェル / 遺構保存局）
+- [SHION_A022 破門校正官](/backstories/mastery/SHION_A022.md) — 修復対象の拒否を依頼人の命令より優先し、所属していた校正学派から破門された。 （ソフェル離脱者 / 独立工房）
+- [SHION_A023 儀式教師](/backstories/mastery/SHION_A023.md) — 祈り、葬送、成人式を、信仰や文化の異なる生徒へ教える儀式教師となった。 （ソフェル / 共同体学校）
+- [SHION_A024 身体文章設計者](/backstories/mastery/SHION_A024.md) — 利用者の新しい身体を、強度や出力だけでなく、感覚、癖、外見、生活習慣まで含めて設計した。 （ソフェル / 身体設計院）
+- [SHION_A068 マソレット大書記](/backstories/mastery/SHION_A068.md) — 複数文明の秘文字写本を照合し、意味が一致しても歴史の傷まで均してしまわない校訂を行った。 （ソフェル / 星域聖典院）
+- [SHION_A069 鉄律大導師](/backstories/mastery/SHION_A069.md) — 無数の決闘を勝ち抜きながら、戦わずに終えた仲裁を最大の功績とした。 （帝国系ソフェル / 鉄律修道会）
+- [SHION_A070 死者対話の校正者](/backstories/mastery/SHION_A070.md) — 保存人格から生成された返答と、生前に本人が残した言葉を区別して遺族へ示した。 （ソフェル / 追悼通信院）
+- [SHION_A071 帝国祈祷復元者](/backstories/mastery/SHION_A071.md) — 最盛期の祈祷を、内戦後の命令文と混同されない形で復元した。 （公開文化院 / 帝国系ソフェル）
+- [SHION_A072 身体秘文字医](/backstories/mastery/SHION_A072.md) — 人工身体の秘文字配列を治療し、痛覚を消す前に本人がその痛みへ与えた意味を尋ねた。 （ソフェル / 造体医療院）
+- [SHION_A073 星界マソレット](/backstories/mastery/SHION_A073.md) — 星域を跨ぐ秘文字体系を校訂し、時間流の異なる写本を一つの儀式へ接続した。 （ソフェル / 星界校訂会）
+- [SHION_A074 ティクーン公共監査人](/backstories/mastery/SHION_A074.md) — 異常現実改変が公共利益へ使われたか監査し、奇跡という呼び名で費用と被害を隠すことを許さなかった。 （ソフェル / 同盟公共監査院）
+- [SHION_A075 破損奇跡の修復者](/backstories/mastery/SHION_A075.md) — 願いだけ叶えて代価を忘れた装置を修理し、使用者の望みを聞く前に停止機構を作った。 （ソフェル / 異常遺物修復院）
+- [SHION_A076 帝国式装備詠唱師](/backstories/mastery/SHION_A076.md) — 最盛期の装備詠唱を現代素材へ適合させ、内戦後に加えられた服従句を全て除いた。 （装備典礼工房 / 帝国系ソフェル）
+- [SHION_A344 律法草稿班の写字生](/backstories/mastery/SHION_A344.md) — 律法を書き写す仕事は、種を一粒ずつ植えるのに似ている。 （律法学舎 / 律法草稿班出身）
+- [SHION_A354 秩序維持隊の初代隊員](/backstories/mastery/SHION_A354.md) — 秩序維持隊の初代選抜で、武器ではなく当事者双方の話を先に聞く役を担った。 （秩序維持隊 / 律法学舎卒）
+- [SHION_A355 律法院の下級書記](/backstories/mastery/SHION_A355.md) — 俺が律法院の基礎を作った一人だなんて話は誰が広めたのか知らないが、訂正させてくれ。 （律法院 / 律法学舎出身）
+- [SHION_A359 律法学舎最後の教師](/backstories/mastery/SHION_A359.md) — 律法学舎の仮設天幕時代から最後の学年まで、身体更新と人格記録を継ぎながら教え続けた。 （律法学舎 / 律法学舎卒）
+- [SHION_A371 混成学舎の初年度](/backstories/mastery/SHION_A371.md) — 最初の学舎は旧い出身圏ごとに教室を分けていた、それが間違いだったと今なら分かる。 （学舎運営班 / 混成学徒）
+- [SHION_A381 処置を受けた医療班長](/backstories/mastery/SHION_A381.md) — 今の本人は、あの頃の同僚がとうに見送った時間の先にいます。 （統合医療評議班 / 律法学舎）
+- [SHION_A382 帝国最初の設計技師](/backstories/mastery/SHION_A382.md) — 帝国という言葉が公式に使われ始めた頃、俺は最初の統合議事堂の設計図を引いていた。 （統合建築評議班 / 律法学舎）
+- [SHION_A413 律法学舎の若きソフェル](/backstories/mastery/SHION_A413.md) — 律法の写本を任されるようになったのは、灯火番だった頃から数えて十年目のことである。 （律法学舎 / 老学匠）
+- [SHION_A416 イェツィラー学舎のマソレット講師](/backstories/mastery/SHION_A416.md) — 本人が弟子に最初に教えるのは、文字の書き方ではなく、書き損じた紙を燃やす作法である。 （イェツィラー学舎 / 弟子たち）
+- [匿名のソフェル](/characters/anonymous-sofer/00-%E7%8F%BE%E8%A1%8C%E6%AD%A3%E5%8F%B2.md) — 匿名のソフェルは、帝国最盛期から現代同盟まで記録と証言の保全を続ける、シオンの巡回ソフェルである。
+- [1. 本資料の目的](/characters/anonymous-sofer/01-%E6%9C%AC%E8%B3%87%E6%96%99%E3%81%AE%E7%9B%AE%E7%9A%84.md) — 本資料は、プレイヤー向けロア資料とバックストーリー群を編纂している「匿名のソフェル」について、次の事項を統合して定める。
+- [2. 基本定義](/characters/anonymous-sofer/02-%E5%9F%BA%E6%9C%AC%E5%AE%9A%E7%BE%A9.md) — 基本定義は、呼称：匿名のソフェルと本名：非公開を扱う。
+- [3. Tier＋12の意味](/characters/anonymous-sofer/03-Tier-12%E3%81%AE%E6%84%8F%E5%91%B3.md) — 旧数値案: 身体体系のTierとQualityは現行正史では未確定です。
+- [4. 製造目的](/characters/anonymous-sofer/04-%E8%A3%BD%E9%80%A0%E7%9B%AE%E7%9A%84.md) — 匿名のソフェルは、ImperialPeakにおいて、学究・巡回・記録実務を兼ねるソフェルとして製造された。
+- [5. 律法の専門性](/characters/anonymous-sofer/05-%E5%BE%8B%E6%B3%95%E3%81%AE%E5%B0%82%E9%96%80%E6%80%A7.md) — 匿名のソフェルは、律法について非常に高い熟練を持つ。
+- [6. イェツィラーの専門性](/characters/anonymous-sofer/06-%E3%82%A4%E3%82%A7%E3%83%84%E3%82%A3%E3%83%A9%E3%83%BC%E3%81%AE%E5%B0%82%E9%96%80%E6%80%A7.md) — 匿名のソフェルは、優れたイェツィラー使いである。
+- [7. 一般教養](/characters/anonymous-sofer/07-%E4%B8%80%E8%88%AC%E6%95%99%E9%A4%8A.md) — 匿名のソフェルは、最低限の事柄をほぼ全て知っている。
+- [8. 軍事能力](/characters/anonymous-sofer/08-%E8%BB%8D%E4%BA%8B%E8%83%BD%E5%8A%9B.md) — 匿名のソフェルは、一般的な正規兵士と同程度の軍事技術を持つ。
+- [9. 表面的な性格](/characters/anonymous-sofer/09-%E8%A1%A8%E9%9D%A2%E7%9A%84%E3%81%AA%E6%80%A7%E6%A0%BC.md) — 匿名のソフェルは次のように振る舞う、また礼儀正しい 古風な言葉遣いが残る 声を荒らげない 相手が話し終わるまで待つ 訂正する時は確認形式を使う 自分の知識を誇示しない 必要な時は長く説明する 軽い皮肉や乾いた冗談を使う 自分の名や過去を尋ねられると話題を戻す…。
+- [10. 内面的な性格](/characters/anonymous-sofer/10-%E5%86%85%E9%9D%A2%E7%9A%84%E3%81%AA%E6%80%A7%E6%A0%BC.md) — 内面的な性格は、記録を失うことを強く嫌うと他者の証言を勝手に完成させないを扱う。
+- [11. 欠点](/characters/anonymous-sofer/11-%E6%AC%A0%E7%82%B9.md) — 失われる可能性がある資料を放置できない、また危険な場所へ戻る判断をすることがある。
+- [12. ImperialPeak](/characters/anonymous-sofer/12-ImperialPeak.md) — 匿名のソフェルはImperialPeakに製造された。
+- [13. ImperialCivilWar](/characters/anonymous-sofer/13-ImperialCivilWar.md) — 内戦開始後は、次の任務に従事した、また記録保全 住民避難 通信復旧 施設防衛 負傷者搬送 封印の解除と再設定 軍事文書の整理 破損した人格記録の保護 戦争を英雄的に美化しない。
+- [14. PostCivilWarEmpire](/characters/anonymous-sofer/14-PostCivilWarEmpire.md) — 帝国が自らの律法と制度を破る過程を目撃する、また違法命令 公文書の改竄 証言の削除 秘密警察 責任の転嫁 制度名を利用した圧政 記録の非公開化 この経験によって、公式記録だけを信用しない姿勢が形成される。
+- [15. RevolutionaryWar](/characters/anonymous-sofer/15-RevolutionaryWar.md) — 特定政党の中心人物にはならない、また次の勢力と接触する。
+- [16. LongTransition](/characters/anonymous-sofer/16-LongTransition.md) — 同盟建国後、次の資料を接続する仕事へ参加する、また旧帝国資料 革命各党派の文書 地方共同体の記録 軍の報告 新しい同盟制度 改訂された律法解釈 構成諸民族の証言 矛盾を消すのではなく、異なる呼称と立場を並記する編纂方法を確立する。
+- [17. ModernUnion](/characters/anonymous-sofer/17-ModernUnion.md) — 現在は、プレイヤー向けロア資料とバックストーリー群を編纂している。
+- [18. 匿名である理由](/characters/anonymous-sofer/18-%E5%8C%BF%E5%90%8D%E3%81%A7%E3%81%82%E3%82%8B%E7%90%86%E7%94%B1.md) — 匿名は、一つの事件だけに由来しない、また次の理由が重なっている。
+- [19. 専用Formation Record](/characters/anonymous-sofer/19-%E5%B0%82%E7%94%A8Formation-Record.md) — Era： ImperialPeak Slot： Formation 人物限定： 匿名のソフェル。
+- [20. 専用Mastery Record](/characters/anonymous-sofer/20-%E5%B0%82%E7%94%A8Mastery-Record.md) — Era： ModernUnion Slot： Mastery 人物限定： 匿名のソフェル。
+- [21. 基本ゲームデータ](/characters/anonymous-sofer/21-%E5%9F%BA%E6%9C%AC%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%87%E3%83%BC%E3%82%BF.md) — 旧実装案: 以下は人物像をゲームへ投影するための候補値です。
+- [22. 推奨技能値](/characters/anonymous-sofer/22-%E6%8E%A8%E5%A5%A8%E6%8A%80%E8%83%BD%E5%80%A4.md) — 旧実装案: 以下は能力像を示す候補値であり、現行の確定仕様ではありません。
+- [23. 固有特性構成](/characters/anonymous-sofer/23-%E5%9B%BA%E6%9C%89%E7%89%B9%E6%80%A7%E6%A7%8B%E6%88%90.md) — 固定特性は次の4件を推奨する、また1. 博識のソフェル 2. 名を記さない者 3. 記録を捨てない 4. 鉄の意志 Vanillaの「物覚えが早い」「勤労者」は、固有特性と重複するため使用しない。
+- [24. 固有特性：博識のソフェル](/characters/anonymous-sofer/24-%E5%9B%BA%E6%9C%89%E7%89%B9%E6%80%A7-%E5%8D%9A%E8%AD%98%E3%81%AE%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB.md) — この者は律法とイェツィラーに熟練し、帝国最盛期から多様な分野を学び続けてきた。
+- [25. 固有特性：名を記さない者](/characters/anonymous-sofer/25-%E5%9B%BA%E6%9C%89%E7%89%B9%E6%80%A7-%E5%90%8D%E3%82%92%E8%A8%98%E3%81%95%E3%81%AA%E3%81%84%E8%80%85.md) — この者は証言者の名を残し、自分の名を残さない、また称賛や権威よりも、記録の継続と証言者からの信頼を重んじている。
+- [26. 固有特性：記録を捨てない](/characters/anonymous-sofer/26-%E5%9B%BA%E6%9C%89%E7%89%B9%E6%80%A7-%E8%A8%98%E9%8C%B2%E3%82%92%E6%8D%A8%E3%81%A6%E3%81%AA%E3%81%84.md) — 記録は再現できるとは限らない、またこの者は、その事実を知りすぎている。
+- [27. Vanilla特性：鉄の意志](/characters/anonymous-sofer/27-Vanilla%E7%89%B9%E6%80%A7-%E9%89%84%E3%81%AE%E6%84%8F%E5%BF%97.md) — 長い歴史、戦争、帝国崩壊、革命、編纂活動を継続できた精神性を表す。
+- [28. 能力設計方針](/characters/anonymous-sofer/28-%E8%83%BD%E5%8A%9B%E8%A8%AD%E8%A8%88%E6%96%B9%E9%87%9D.md) — 匿名のソフェルは、直接火力による殲滅を主目的としない。
+- [29. 語義照合](/characters/anonymous-sofer/29-%E8%AA%9E%E7%BE%A9%E7%85%A7%E5%90%88.md) — 原則なし、また匿名のソフェルの中心能力として扱う。
+- [30. 律法的保護](/characters/anonymous-sofer/30-%E5%BE%8B%E6%B3%95%E7%9A%84%E4%BF%9D%E8%AD%B7.md) — 対象Pawn一人へ短時間の保護を与えるという方針の適用範囲と条件を定める。
+- [31. 記録復元](/characters/anonymous-sofer/31-%E8%A8%98%E9%8C%B2%E5%BE%A9%E5%85%83.md) — 破損した物体、端末、死体、記録媒体から情報を回収する。
+- [32. 静かな訂正](/characters/anonymous-sofer/32-%E9%9D%99%E3%81%8B%E3%81%AA%E8%A8%82%E6%AD%A3.md) — 敵対Pawnまたは精神異常状態のPawnへ使用する短距離能力。
+- [33. 撤退路の記述](/characters/anonymous-sofer/33-%E6%92%A4%E9%80%80%E8%B7%AF%E3%81%AE%E8%A8%98%E8%BF%B0.md) — 範囲内の味方を生存させるための戦闘支援能力という方針の適用範囲と条件を定める。

@@ -1,0 +1,86 @@
+# 人物・バックストーリー 01
+
+範囲: 実装予約〜SHION_C068 故郷模型の旅行者
+
+## 項目
+
+- [実装予約](/authoring/018-%E5%AE%9F%E8%A3%85%E4%BA%88%E7%B4%84.md) — 次は世界観と両立するが、担当MODで仕様を決めるまで実装確定ではない。
+- [4. 一件の物語の構造](/authoring/04-%E4%B8%80%E4%BB%B6%E3%81%AE%E7%89%A9%E8%AA%9E%E3%81%AE%E6%A7%8B%E9%80%A0.md) — テーマを扱うクエスト、バックストーリー、イベントは、原則として次の五段階から必要な部分を使う。
+- [6. 媒体別の情報予算](/authoring/06-%E5%AA%92%E4%BD%93%E5%88%A5%E3%81%AE%E6%83%85%E5%A0%B1%E4%BA%88%E7%AE%97.md) — 通常プレイで反復する語は、シオン、同盟、本国、Cell、エネルギー、エネルギー結晶、弾薬結晶、ソフェルを中心にする。
+- [10. 廃止・降格された旧要素](/authoring/10-%E5%BB%83%E6%AD%A2%E3%83%BB%E9%99%8D%E6%A0%BC%E3%81%95%E3%82%8C%E3%81%9F%E6%97%A7%E8%A6%81%E7%B4%A0.md) — 旧資料の大規模な構想は、存在を忘れるのではなく、現在の状態を明示して保持する。
+- [20. バックストーリーの形成期と継承語彙](/authoring/20-%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC%E3%81%AE%E5%BD%A2%E6%88%90%E6%9C%9F%E3%81%A8%E7%B6%99%E6%89%BF%E8%AA%9E%E5%BD%99.md) — バックストーリーのChildhoodとAdulthoodを形成期と熟達期として扱い、生物学的な出生、成長、血統、性別役割をシオンへ逆輸入しない。
+- [1. 読み方と能力尺度](/backstories/01-%E8%AA%AD%E3%81%BF%E6%96%B9%E3%81%A8%E8%83%BD%E5%8A%9B%E5%B0%BA%E5%BA%A6.md) — 読み方と能力尺度は、Childhoodは生物学的幼年ではなく、起動後の形成期、教育、最初の手伝い、事故、趣味、所属集団を表す。
+- [4. 新規420稿の割当集計](/backstories/04-%E6%96%B0%E8%A6%8F420%E7%A8%BF%E3%81%AE%E5%89%B2%E5%BD%93%E9%9B%86%E8%A8%88.md) — 各新規稿は主Pool一つとSourceModule一つへ同時算入する。
+- [5. 生成プール互換規則](/backstories/05-%E7%94%9F%E6%88%90%E3%83%97%E3%83%BC%E3%83%AB%E4%BA%92%E6%8F%9B%E8%A6%8F%E5%89%87.md) — 生成プール互換規則は、原則として同一Eraの幼少期と成人期を組み合わせる。
+- [6. 制作上の正史区分](/backstories/06-%E5%88%B6%E4%BD%9C%E4%B8%8A%E3%81%AE%E6%AD%A3%E5%8F%B2%E5%8C%BA%E5%88%86.md) — 制作上の正史区分は、既存稿再監査は旧稿の出来事と技能根拠を保持して口述化した稿である。
+- [7. 拡張稿（§12 Phase A超過分）](/backstories/07-%E6%8B%A1%E5%BC%B5%E7%A8%BF%C2%A712-Phase-A%E8%B6%85%E9%81%8E%E5%88%86.md) — §12拡張計画のPhase A（新設4時代の最初の稿）のうち、ColonizationEraとJourneyEraをドラフト件数から拡張して追加する。
+- [8. 世界観統一の再監査](/backstories/08-%E4%B8%96%E7%95%8C%E8%A6%B3%E7%B5%B1%E4%B8%80%E3%81%AE%E5%86%8D%E7%9B%A3%E6%9F%BB.md) — バックストーリーは具体的な生活場面を残し、実在政治の置換や用語集依存を出荷候補から外して再監査する。
+- [9. 設定本文と実装予約の分離](/backstories/09-%E8%A8%AD%E5%AE%9A%E6%9C%AC%E6%96%87%E3%81%A8%E5%AE%9F%E8%A3%85%E4%BA%88%E7%B4%84%E3%81%AE%E5%88%86%E9%9B%A2.md) — バックストーリー記録では人物の経歴と口述を設定クラス、Pool、出現希少度、技能補正、組合せ規則を実装予約として分離する。
+- [SHION_C001 礼装工房の手伝い](/backstories/formation/SHION_C001.md) — ソフェルの礼装を仕立てる工房で、採寸、布地の選別、刺繍図案の読み方を学んだ。
+- [SHION_C002 夜の食堂で育った](/backstories/formation/SHION_C002.md) — 夜勤者や生物学的睡眠を必要としない住民が集まる食堂で、調理と給仕を手伝った。
+- [SHION_C003 雨量記録員](/backstories/formation/SHION_C003.md) — 居住区の屋上で雨量、酸性度、粉塵、落下物を測り、農場と設備局へ報告した。
+- [SHION_C004 廃船解体場の見習い](/backstories/formation/SHION_C004.md) — 廃船解体場で船体を槌と聴音器で調べ、亀裂、空洞、残留圧力の位置を記した。
+- [SHION_C005 動物診療所の手伝い](/backstories/formation/SHION_C005.md) — 動物診療所で義足、嘴の補強具、角の保護具を作る助手になった。
+- [SHION_C006 記念庭園の園丁](/backstories/formation/SHION_C006.md) — 死者の名を植物の配置で表す記念庭園を手入れした、また季節ごとの剪定と植替えを覚え、遺族が訪れる日には通路と休憩所を静かに整えた。
+- [SHION_C007 採掘場の石彫り](/backstories/formation/SHION_C007.md) — 小惑星採掘場で岩を切り出し、作業後に残る壁面へ航路標識や事故犠牲者の記念像を彫った。
+- [SHION_C008 巡回修理屋](/backstories/formation/SHION_C008.md) — 小さな居住区を巡り、扉、配管、暖房、義肢、通信機を修理する職人に同行した。
+- [SHION_C009 公文書室の手伝い](/backstories/formation/SHION_C009.md) — 長い過渡期の文書工房で、廃棄公文書から封蝋と金属印章を回収した。
+- [SHION_C010 葬送卓の配膳係](/backstories/formation/SHION_C010.md) — 葬送宴で料理を運び、参列者の席と献立を整えた、また死者が蘇生後に自分の宴へ出席することもあるため、驚かず本人用の席と食器を追加する手順を教わった。
+- [SHION_C011 物資倉庫の検品手伝い](/backstories/formation/SHION_C011.md) — 巨大倉庫で油、菌、焦げた配線、腐敗した食料の匂いを覚え、保管棚の異常を探した。
+- [SHION_C012 充電庭の手入れ](/backstories/formation/SHION_C012.md) — 公共充電庭で端子、椅子、植木、雨除けを清掃し、利用者が安全に休める状態を保った。
+- [SHION_C013 義眼工房の見習い](/backstories/formation/SHION_C013.md) — 義眼工房で、交換用の発光色を依頼者の残った目や古い記録へ合わせた。
+- [SHION_C014 設備区画の見回り](/backstories/formation/SHION_C014.md) — 居住区の熱交換設備を見回り、凍結しかけた管、過熱した弁、循環の偏りを点検した。
+- [SHION_C015 種子庫の記録助手](/backstories/formation/SHION_C015.md) — 種子庫で品種、発芽率、収穫量、味、毒性、過去の栽培結果を台帳へ記した。
+- [SHION_C016 図書館の配架手伝い](/backstories/formation/SHION_C016.md) — 増改築を重ねた帝国式書庫で、返却先の分からない本を正しい棚へ戻す仕事をした。
+- [SHION_C017 遊び場の仲裁役](/backstories/formation/SHION_C017.md) — 居住区の盤上遊戯会で、説明書と地域ごとの慣習が食い違った時の仲裁を任された。
+- [SHION_C018 瓶詰め雲の収集家](/backstories/formation/SHION_C018.md) — 旅先の空気を小瓶へ採り、日付、天候、土地の名を添えて集める趣味を持った。
+- [SHION_C019 鐘楼で暮らした](/backstories/formation/SHION_C019.md) — 巡礼の途中で地方聖堂の鐘守一家に預けられ、鐘の時刻、金属の温度、綱の手入れを学んだ。
+- [SHION_C020 夜の天文台通い](/backstories/formation/SHION_C020.md) — 眠りの浅い本人は航路宿の夜番となり、屋根から星、雲、接近する灯火を見張った。
+- [SHION_C021 廃句読点収集家](/backstories/formation/SHION_C021.md) — 改訂で使われなくなった句読点や記号を集め、古い手紙と教本から用例を書き写した。
+- [SHION_C022 武具庫の読み上げ役](/backstories/formation/SHION_C022.md) — 古物市で鎧の傷、補修材、刻印を調べ、以前の持主と使われた時代を推定する手伝いをした。
+- [SHION_C023 旅する似顔絵師](/backstories/formation/SHION_C023.md) — 移動市で似顔絵を描き、顔立ちだけでなく、道具の持ち方、立ち姿、修理痕まで画面へ収めた。
+- [SHION_C024 迷子案内人](/backstories/formation/SHION_C024.md) — 大きな乗換所で迷った旅行者を案内し、目的地、乗継時刻、荷物の量に合わせて経路を選んだ。
+- [SHION_C025 休戦盤大会の常連](/backstories/formation/SHION_C025.md) — 長い過渡期の避難区で、配給を待つ者たちへ盤上遊戯を教えた。
+- [SHION_C026 無言劇の代役](/backstories/formation/SHION_C026.md) — 巡業劇団の台詞役が故障した夜、本人は急きょ代役となり、身振りだけで物語を繋いだ。
+- [SHION_C027 文字院の徒弟](/backstories/formation/SHION_C027.md) — 帝国最盛期の文字院で、律法、契約、祈祷文の書式と校正を学んだ。
+- [SHION_C028 神殿侍祭](/backstories/formation/SHION_C028.md) — 帝国最盛期の地方神殿で、灯火、香炉、参列者の案内、読み上げ順の確認を担当した。
+- [SHION_C029 修道院助手](/backstories/formation/SHION_C029.md) — 帝国最盛期の修道院で、書棚の運搬、畑仕事、寝台の修理、食事の支度を順番に経験した。
+- [SHION_C030 騎士従士](/backstories/formation/SHION_C030.md) — 帝国最盛期の騎士に仕え、武具の整備、訓練記録、儀礼と決闘の手順を学んだ。
+- [SHION_C031 無人書庫の管理役](/backstories/formation/SHION_C031.md) — 帝国最盛期の無人書庫で、湿度、虫害、貸出記録、索引を管理した。
+- [SHION_C032 儀礼行列の補欠](/backstories/formation/SHION_C032.md) — 帝国最盛期の式典で欠員を補い、儀礼槍を持って隊列へ加わった。
+- [SHION_C033 聖像研磨工](/backstories/formation/SHION_C033.md) — 帝国最盛期の神殿工房で、石と金属の聖像を洗浄し、表面の傷を整えた。
+- [SHION_C034 星暦院の観測徒](/backstories/formation/SHION_C034.md) — 帝国最盛期の星暦院で、観測窓の清掃、時刻の読み取り、軌道表への記入を担当した。
+- [SHION_C035 遺物番の徒弟](/backstories/formation/SHION_C035.md) — 内戦後帝国の神殿倉庫で、破損した遺物の番号、封印、貸出先を点検した。
+- [SHION_C036 誤った処刑名簿](/backstories/formation/SHION_C036.md) — 内戦後帝国の地方内務局で、死亡者と処刑者の名簿を清書した。
+- [SHION_C037 避難書庫の運搬員](/backstories/formation/SHION_C037.md) — 帝国人同士の内戦で都市網が分断された時、本人は書庫の避難班に加わり、書物と記憶媒体を地下保管庫へ運んだ。
+- [SHION_C038 停戦線の修復児](/backstories/formation/SHION_C038.md) — 内戦中、短い停戦が結ばれるたび双方の技師と水路や発電設備を修理した。
+- [SHION_C039 内務省の誤配係](/backstories/formation/SHION_C039.md) — 内戦後帝国の内務省で、封書を部署と地域ごとに仕分けた。
+- [SHION_C040 内戦の記録係](/backstories/formation/SHION_C040.md) — 革命連合の部隊で、戦死者、離脱者、帰還者、行方不明者を同じ台帳へ記した。
+- [SHION_C041 連合軍の伝令](/backstories/formation/SHION_C041.md) — 革命連合で、暗号規則と指揮系統の違う部隊間を往復する伝令となった。
+- [SHION_C042 律法を携えた離反者](/backstories/formation/SHION_C042.md) — 内戦後帝国から離反する際、武器より先に最盛期の律法書を持ち出した。
+- [SHION_C043 五つの印章を持つ書記](/backstories/formation/SHION_C043.md) — 長い過渡期に、社会民主党、共産党、ファシスト党、帝国離反者会、無党派評議会の印章を預かった。
+- [SHION_C044 渡り徒弟](/backstories/formation/SHION_C044.md) — 定住地が解散するたび別の開拓団へ移り、農場、工房、警備所で働いた。
+- [SHION_C045 ティクーン試験生](/backstories/formation/SHION_C045.md) — ティクーン初期課程で文章と人工知能の命令列を診断した。
+- [SHION_C046 鉄花園の園丁](/backstories/formation/SHION_C046.md) — 放棄された温室で、金属を取り込んで硬い花弁を作る鉄花の世話を任された。
+- [SHION_C047 無名の登録者](/backstories/formation/SHION_C047.md) — 本人の最初の公的記録には、識別番号、整備履歴、納税記録が揃っていたが、名前と登録者だけが欠けていた。
+- [SHION_C048 二つ目の影](/backstories/formation/SHION_C048.md) — 採掘灯が一つしかない場所でも、本人には二つの影が見えることがあった。
+- [SHION_C049 転生受付の手伝い](/backstories/formation/SHION_C049.md) — 再製造された市民を迎える受付で椅子と案内板を磨いた。
+- [SHION_C050 共同浴場の温度番](/backstories/formation/SHION_C050.md) — 身体規格ごとに違う湯温を管理した、また熱を感じない客にも昔の習慣どおり湯気を用意し、閉館後は友人と足だけ浸した。
+- [SHION_C051 返却義肢の洗浄係](/backstories/formation/SHION_C051.md) — 換装後に返された義肢を洗い、傷と持ち主の記録を照合した。
+- [SHION_C052 家族写真の復元助手](/backstories/formation/SHION_C052.md) — 焼けた写真の色と輪郭を戻した、また顔を推測で描く時は遺族へ何度も尋ね、分からない部分を美しく埋めなかった。
+- [SHION_C053 眠らないパン焼き](/backstories/formation/SHION_C053.md) — 眠らない住民のため、夜明けのない区画でパンを焼いた。
+- [SHION_C054 失踪席の予約係](/backstories/formation/SHION_C054.md) — 行方不明者の席を、帰還予定なしのまま予約し続けた。
+- [SHION_C055 錆雨の傘直し](/backstories/formation/SHION_C055.md) — 金属を腐食させる雨季、本人は傘の骨と外套を直した。
+- [SHION_C056 老犬の散歩番](/backstories/formation/SHION_C056.md) — 何度身体を換えても老いていく犬を毎日同じ道へ連れ出した。
+- [SHION_C057 閉館後の展示替え](/backstories/formation/SHION_C057.md) — 閉館後、帝国と革命の展示を入れ替えた、また同じ剣が英雄の武器と圧政の道具の両方に置かれるため、説明札だけは二枚とも残した。
+- [SHION_C058 記憶茶の給仕](/backstories/formation/SHION_C058.md) — 香りで昔の景色を思い出す茶を給仕した、また同じ配合でも客ごとに違う故郷を語り、時には誰の記憶でもない風景を見た。
+- [SHION_C059 共同墓標の文字洗い](/backstories/formation/SHION_C059.md) — 砂に埋もれた墓標を洗い、読める名だけを書き写した。
+- [SHION_C060 補修布の色分け](/backstories/formation/SHION_C060.md) — 帝国服、革命軍服、現代制服の補修布を色分けした、また似た白でも時代ごとにわずかに違い、持ち主はその差へ驚くほど頑固だった。
+- [SHION_C061 発電床の靴調整](/backstories/formation/SHION_C061.md) — 祭りの歩行で発電する床を保守し、踊り手の靴底を調整した。
+- [SHION_C062 復活者の朝食係](/backstories/formation/SHION_C062.md) — 再製造直後の市民へ、記録に残る好物を作った、また味を忘れた者、嫌いになった者、泣いて食べられない者にも同じ皿を置き、翌朝は別の料理を選ばせた。
+- [SHION_C063 星間便箋蒐集家](/backstories/formation/SHION_C063.md) — 旅先ごとに便箋を集め、もう届かない友人へ手紙を書いた。
+- [SHION_C064 遠回り巡礼者](/backstories/formation/SHION_C064.md) — 最短航路を避け、旧帝国の駅と友人の墓を一つずつ訪ねた。
+- [SHION_C065 無重力釣り仲間](/backstories/formation/SHION_C065.md) — 軌道湖で、水球から逃げる魚を網へ誘導した、また釣果は毎回放し、亡い仲間の竿だけを隣へ固定した。
+- [SHION_C066 古い駅名の暗唱者](/backstories/formation/SHION_C066.md) — 廃線となった駅名を順番に暗唱し、旅仲間の退屈を紛らわせた。
+- [SHION_C067 再会祝いの演奏役](/backstories/formation/SHION_C067.md) — 復活者の再会祝いで、本人が生前に嫌っていた曲を演奏した。
+- [SHION_C068 故郷模型の旅行者](/backstories/formation/SHION_C068.md) — 訪れた土地の模型へ、故郷Твердьの窓を一つずつ付けた。

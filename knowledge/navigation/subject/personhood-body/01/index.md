@@ -1,0 +1,86 @@
+# 身体・人格 01
+
+範囲: 判定規則〜9. 表面的な性格
+
+## 項目
+
+- [判定規則](/authoring/003-%E5%88%A4%E5%AE%9A%E8%A6%8F%E5%89%87.md) — 判定規則は、帝国最盛期の繁栄を嘘にしないとシオンを製品として扱ったことを、繁栄が全員へ同じ人格権を与えた証拠にしないを扱う。
+- [失敗させないもの](/authoring/006-%E5%A4%B1%E6%95%97%E3%81%95%E3%81%9B%E3%81%AA%E3%81%84%E3%82%82%E3%81%AE.md) — 失敗させないものは、救援を失敗させることでしか倫理問題を作れない構成と実は人格が全て消されていた等、善意を無効化する暴露を扱う。
+- [実装予約](/authoring/018-%E5%AE%9F%E8%A3%85%E4%BA%88%E7%B4%84.md) — 次は世界観と両立するが、担当MODで仕様を決めるまで実装確定ではない。
+- [7. 技術とゲーム規模](/authoring/07-%E6%8A%80%E8%A1%93%E3%81%A8%E3%82%B2%E3%83%BC%E3%83%A0%E8%A6%8F%E6%A8%A1.md) — 現実性は手触りであり、文明の上限ではないという方針の適用範囲と条件を定める。
+- [8. 製品・内部モジュール別の責務境界](/authoring/08-%E8%A3%BD%E5%93%81%E3%83%BB%E5%86%85%E9%83%A8%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E5%88%A5%E3%81%AE%E8%B2%AC%E5%8B%99%E5%A2%83%E7%95%8C.md) — 現時点のKombinat追加層は未実装であり、また五つの代表工業資源は実Thing、同盟通貨はAccount残高とする。
+- [9. 不合格条件](/authoring/09-%E4%B8%8D%E5%90%88%E6%A0%BC%E6%9D%A1%E4%BB%B6.md) — 新しい設定、文章、機能は次に該当する場合、再設計する。
+- [19. 基幹旧資料の採否台帳](/authoring/19-%E5%9F%BA%E5%B9%B9%E6%97%A7%E8%B3%87%E6%96%99%E3%81%AE%E6%8E%A1%E5%90%A6%E5%8F%B0%E5%B8%B3.md) — 旧資料を文書単位で復活させず、概念ごとに採用、改稿採用、設定クラス限定、実装予約、廃止、新規補完へ仕分けた監査記録。
+- [8.1 完成図・互換監査](/authoring/8-1-%E5%AE%8C%E6%88%90%E5%9B%B3%E3%83%BB%E4%BA%92%E6%8F%9B%E7%9B%A3%E6%9F%BB.md) — プレイヤーは必要最低限の知識を持ち、便利そうな組合せ、極端な数量、連打、取消、接続変更、全Pawn休眠、Disk輸送、途中のMOD追加・除去を試すと仮定する。
+- [SHION_C031 無人書庫の管理役](/backstories/formation/SHION_C031.md) — 帝国最盛期の無人書庫で、湿度、虫害、貸出記録、索引を管理した。
+- [SHION_C046 鉄花園の園丁](/backstories/formation/SHION_C046.md) — 放棄された温室で、金属を取り込んで硬い花弁を作る鉄花の世話を任された。
+- [SHION_C050 共同浴場の温度番](/backstories/formation/SHION_C050.md) — 身体規格ごとに違う湯温を管理した、また熱を感じない客にも昔の習慣どおり湯気を用意し、閉館後は友人と足だけ浸した。
+- [SHION_C056 老犬の散歩番](/backstories/formation/SHION_C056.md) — 何度身体を換えても老いていく犬を毎日同じ道へ連れ出した。
+- [SHION_C062 復活者の朝食係](/backstories/formation/SHION_C062.md) — 再製造直後の市民へ、記録に残る好物を作った、また味を忘れた者、嫌いになった者、泣いて食べられない者にも同じ皿を置き、翌朝は別の料理を選ばせた。
+- [SHION_C067 再会祝いの演奏役](/backstories/formation/SHION_C067.md) — 復活者の再会祝いで、本人が生前に嫌っていた曲を演奏した。
+- [SHION_C070 友人の誕生日を祝う役](/backstories/formation/SHION_C070.md) — 誕生日を持たない製造個体のため、本人は本人が好きな日を記念日にした。
+- [SHION_C075 多身体体育員](/backstories/formation/SHION_C075.md) — 狐娘型の軽量構成、高荷重構成、部品交換者が同じ競技へ参加できる規則を試した。
+- [SHION_C097 無味覚の香料師](/backstories/formation/SHION_C097.md) — 味覚入力を閉じた身体で香料を調合し、友人の表情だけを計器にした。
+- [SHION_C123 人格照合局の記録見習い](/backstories/formation/SHION_C123.md) — 内戦中、外見や性能だけで存在を分類するのは危険だった。
+- [SHION_C130 本国居住区の老いた動物の世話](/backstories/formation/SHION_C130.md) — 役目を終えた動物を、効率だけで交換するのが嫌だった。
+- [SHION_C137 本国居住区の救出訓練](/backstories/formation/SHION_C137.md) — 不人気だった居住区救出訓練へ人を集め、身体構成と動物に応じて取手・搬送法・合図を直した。
+- [SHION_C148 対機械戦区の識別課程](/backstories/formation/SHION_C148.md) — 対機械戦区では、動く物を全部「敵の人格」と呼ぶ者がいました。
+- [SHION_C150 塔域居住層の仮設住宅づくり](/backstories/formation/SHION_C150.md) — 塔域の帰還者へ歓迎式より先に休息場所を用意し、身体構成と本人の希望に合わせて仮設住宅を直した。
+- [SHION_C161 革命連合後方区の身体競技](/backstories/formation/SHION_C161.md) — 本人は後方区の身体競技で、勝つより相手を壊さず投げる方が得意だった。
+- [SHION_C162 Kombinat避難区の仮設住宅](/backstories/formation/SHION_C162.md) — Kombinat停止夜に、避難者の身体構成と希望を現場で確かめながら仮設住宅を組んだ。
+- [SHION_C169 人格照合局の帰還付き添い](/backstories/formation/SHION_C169.md) — 蘇生した者へ最初から「おかえり」と言わないで求めた。
+- [SHION_C173 本国居住区の異体競技](/backstories/formation/SHION_C173.md) — 本国居住区の身体競技で、共有狐娘型内部の構成差と動物参加者に応じた安全規則を作った。
+- [SHION_C180 継承教室の問いかけ劇](/backstories/formation/SHION_C180.md) — 継承教室の舞台で、故郷・復活・別れに単一の正解を与えず、観客へ問い返した。
+- [SHION_C207 人格照合局の追悼記録読会](/backstories/formation/SHION_C207.md) — 追悼読会では、欠けた人格記録を美しい物語で捏造せず、空白のまま保った。
+- [SHION_C209 透明居住区の秘密搬出](/backstories/formation/SHION_C209.md) — 透明居住区では、救出訓練の身体記録まで全員へ公開されました。
+- [SHION_C221 異なる身体の競技会](/backstories/formation/SHION_C221.md) — 共有する狐娘型の輪郭を保ちながら質量・出力・感覚器の異なる者たちが、安全に競える規則を作った。
+- [SHION_C251 再会祭の義肢工房](/backstories/formation/SHION_C251.md) — 星間市場の再会祭では、戻ってきた人の身体が昔と違うことも珍しくありません。
+- [SHION_C256 自分で選んだ不便](/backstories/formation/SHION_C256.md) — 孵育文化区では、誰にでも快適な部屋と健康な身体が用意されていました。
+- [SHION_C258 照合局の修繕見習い](/backstories/formation/SHION_C258.md) — 内戦中の人格照合局で、本人は壁と避難路を直す班にいました。
+- [SHION_C260 残骸を読む共同食堂](/backstories/formation/SHION_C260.md) — 対機械戦区の共同食堂で、本人は身体ごとに香りと温度を変えて配膳しました。
+- [SHION_C301 Kombinat停止夜の診療所](/backstories/formation/SHION_C301.md) — ヘイハルKombinatの診療所へ通い、身体と工程の故障だけでなく復帰への不安も聞いた。
+- [SHION_C305 祝宴前の力比べ](/backstories/formation/SHION_C305.md) — 共同祝宴堂では、食事の前に身体規格の違う相手と力比べをしました。
+- [SHION_C345 灯を回す、灯を回す](/backstories/formation/SHION_C345.md) — 意味がまだ定まらない時代から、隣へ灯を回す所作を反復し、後の律法形成を身体で覚えた。
+- [SHION_C391 動植物馴化隊の観察日誌](/backstories/formation/SHION_C391.md) — 動植物馴化隊の観察日誌では、記録すること自体が仕事だった。
+- [SHION_A024 身体文章設計者](/backstories/mastery/SHION_A024.md) — 利用者の新しい身体を、強度や出力だけでなく、感覚、癖、外見、生活習慣まで含めて設計した。
+- [SHION_A049 復活者住宅の管理人](/backstories/mastery/SHION_A049.md) — 蘇生直後の住民が暮らす住宅を管理し、本人より先に戻った家具と、本人より遅れて戻る記憶を同じ部屋で待った。
+- [SHION_A054 古服再生師](/backstories/mastery/SHION_A054.md) — 持主が何度も身体を替えた後も、最初の外套を直し続けた。
+- [SHION_A055 動物終生保護官](/backstories/mastery/SHION_A055.md) — 短命な動物を複製で置き換えず、一生ごとの癖を記録して看取った。
+- [SHION_A059 無音歌劇監督](/backstories/mastery/SHION_A059.md) — 聴覚の異なる身体と真空環境の観客へ、振動と光だけの歌劇を演出した。
+- [SHION_A061 人格連続性医](/backstories/mastery/SHION_A061.md) — 蘇生後の記憶欠損を治療しながら、欠けた部分を家族の望む物語で埋めないよう注意した。
+- [SHION_A063 多構成身体建築士](/backstories/mastery/SHION_A063.md) — 同じ狐娘型でも重量、感覚、可動域、保守条件の異なる身体と、外部住民が同じ建物を使えるよう設計した。
+- [SHION_A065 復活獣医](/backstories/mastery/SHION_A065.md) — 絶滅動物を蘇らせるだけでなく、戻った個体が以前の群れへ馴染めるまで付き添った。
+- [SHION_A070 死者対話の校正者](/backstories/mastery/SHION_A070.md) — 保存人格から生成された返答と、生前に本人が残した言葉を区別して遺族へ示した。
+- [SHION_A072 身体秘文字医](/backstories/mastery/SHION_A072.md) — 人工身体の秘文字配列を治療し、痛覚を消す前に本人がその痛みへ与えた意味を尋ねた。
+- [SHION_A081 本国公共医療功労者](/backstories/mastery/SHION_A081.md) — 所属や身体規格を問わない医療網を築き、蘇生後の長期支援を治療の一部にした。
+- [SHION_A092 復活船団衛生長](/backstories/mastery/SHION_A092.md) — 避難船で死者の保存、負傷者の治療、蘇生後の再会を一つの医療計画として扱った。
+- [SHION_A105 人格照合局の記録官](/backstories/mastery/SHION_A105.md) — 人格照合局では、事実、推測、後世の注釈を別の欄へ分けました。
+- [SHION_A112 異常封じ込め隊の動物義肢技師](/backstories/mastery/SHION_A112.md) — 異常封じ込め隊で、傷ついた動物の義肢を作っていました。
+- [SHION_A143 自治評議区の身体競技指導員](/backstories/mastery/SHION_A143.md) — 自治評議区で、共有狐娘型内部の質量・出力差と外部参加者の身体差に応じた競技規則を教えた。
+- [SHION_A148 離散船団の終生飼養員](/backstories/mastery/SHION_A148.md) — 離散船団で、役目を終えた救助動物を最後まで世話しました。
+- [SHION_A174 孵育文化区の舞台演出家](/backstories/mastery/SHION_A174.md) — 孵育文化区では、誰にでも快適な身体と部屋が用意されました。
+- [SHION_A185 塔域居住層の精密工](/backstories/mastery/SHION_A185.md) — 塔の救難具を利用者の身体構成と操作習慣に合わせ、暗闇でも触れて判別できるよう調整した。
+- [SHION_A186 自治評議区の合奏指導者](/backstories/mastery/SHION_A186.md) — 自治評議区で、身体と党歴の異なる奏者のずれを一つの拍へ押し込めず、曲の一部としてまとめた。
+- [SHION_A191 塔域居住層の徒手警護員](/backstories/mastery/SHION_A191.md) — 塔域居住層で人の流れを読み、武器を抜かず群衆を分け、端末投影と独立人格を混同しない確認を守った。
+- [SHION_A203 人格照合局の徒手警護員](/backstories/mastery/SHION_A203.md) — 人格照合局では、外見が同じ者同士を見物しようと群衆が集まることがあった。
+- [SHION_A220 封鎖観測地の動物義肢技師](/backstories/mastery/SHION_A220.md) — 封鎖地の動物は、脚の傷だけでなく毛や皮膚の色まで変わっていた。
+- [SHION_A227 特殊任務学校の身体競技指導員](/backstories/mastery/SHION_A227.md) — 特殊任務学校で、相手を壊さず止めるための受け身と力加減を実演中心で教えた。
+- [SHION_A235 本国居住区の救護医](/backstories/mastery/SHION_A235.md) — 本国居住区では、珍しい身体の事故も日常の転倒も同じ入口から運ばれてきた。
+- [SHION_A239 立入制限地の身体競技指導員](/backstories/mastery/SHION_A239.md) — 立入制限地へ入る者には、強さよりも安全に止まる技術が必要だと教えた。
+- [SHION_A251 後方支援庁の身体競技指導員](/backstories/mastery/SHION_A251.md) — 後方支援庁で身体競技を教えると、遊んでいるように見られた。
+- [SHION_A260 人格照合局の再会連絡官](/backstories/mastery/SHION_A260.md) — 人格照合局で再会を手伝う時、本人は「以前と同じ本人です」とは約束しなかった。
+- [SHION_A265 人格照合局の坑道監督](/backstories/mastery/SHION_A265.md) — 人格照合局の地下保管庫を広げる時、本人は地層の音を聞き、戻れる順番で掘らせた。
+- [SHION_A280 本国居住区の保護区飼育員](/backstories/mastery/SHION_A280.md) — 本国居住区の保護区で、役目を終えた動物にも日課と隠れ場所を用意し、信頼されるまで待った。
+- [SHION_A287 塔域居住層の身体競技指導員](/backstories/mastery/SHION_A287.md) — 塔域の身体競技では、全員を同じ規格へ合わせる案を評議会で退けた。
+- [SHION_A359 律法学舎最後の教師](/backstories/mastery/SHION_A359.md) — 律法学舎の仮設天幕時代から最後の学年まで、身体更新と人格記録を継ぎながら教え続けた。
+- [SHION_A391 動植物馴化隊の調教師](/backstories/mastery/SHION_A391.md) — 新しい星の獣を慣らす仕事は、扉を少しずつ開けるようなものだと自分は考えている。
+- [匿名のソフェル](/characters/anonymous-sofer/00-%E7%8F%BE%E8%A1%8C%E6%AD%A3%E5%8F%B2.md) — 匿名のソフェルは、帝国最盛期から現代同盟まで記録と証言の保全を続ける、シオンの巡回ソフェルである。
+- [1. 本資料の目的](/characters/anonymous-sofer/01-%E6%9C%AC%E8%B3%87%E6%96%99%E3%81%AE%E7%9B%AE%E7%9A%84.md) — 本資料は、プレイヤー向けロア資料とバックストーリー群を編纂している「匿名のソフェル」について、次の事項を統合して定める。
+- [2. 基本定義](/characters/anonymous-sofer/02-%E5%9F%BA%E6%9C%AC%E5%AE%9A%E7%BE%A9.md) — 基本定義は、呼称：匿名のソフェルと本名：非公開を扱う。
+- [3. Tier＋12の意味](/characters/anonymous-sofer/03-Tier-12%E3%81%AE%E6%84%8F%E5%91%B3.md) — 旧数値案: 身体体系のTierとQualityは現行正史では未確定です。
+- [4. 製造目的](/characters/anonymous-sofer/04-%E8%A3%BD%E9%80%A0%E7%9B%AE%E7%9A%84.md) — 匿名のソフェルは、ImperialPeakにおいて、学究・巡回・記録実務を兼ねるソフェルとして製造された。
+- [5. 律法の専門性](/characters/anonymous-sofer/05-%E5%BE%8B%E6%B3%95%E3%81%AE%E5%B0%82%E9%96%80%E6%80%A7.md) — 匿名のソフェルは、律法について非常に高い熟練を持つ。
+- [6. イェツィラーの専門性](/characters/anonymous-sofer/06-%E3%82%A4%E3%82%A7%E3%83%84%E3%82%A3%E3%83%A9%E3%83%BC%E3%81%AE%E5%B0%82%E9%96%80%E6%80%A7.md) — 匿名のソフェルは、優れたイェツィラー使いである。
+- [7. 一般教養](/characters/anonymous-sofer/07-%E4%B8%80%E8%88%AC%E6%95%99%E9%A4%8A.md) — 匿名のソフェルは、最低限の事柄をほぼ全て知っている。
+- [8. 軍事能力](/characters/anonymous-sofer/08-%E8%BB%8D%E4%BA%8B%E8%83%BD%E5%8A%9B.md) — 匿名のソフェルは、一般的な正規兵士と同程度の軍事技術を持つ。
+- [9. 表面的な性格](/characters/anonymous-sofer/09-%E8%A1%A8%E9%9D%A2%E7%9A%84%E3%81%AA%E6%80%A7%E6%A0%BC.md) — 匿名のソフェルは次のように振る舞う、また礼儀正しい 古風な言葉遣いが残る 声を荒らげない 相手が話し終わるまで待つ 訂正する時は確認形式を使う 自分の知識を誇示しない 必要な時は長く説明する 軽い皮肉や乾いた冗談を使う 自分の名や過去を尋ねられると話題を戻す…。

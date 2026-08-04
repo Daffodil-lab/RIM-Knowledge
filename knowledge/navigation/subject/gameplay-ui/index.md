@@ -1,0 +1,68 @@
+# ゲームプレイ・UI
+
+62件。
+
+## 項目
+
+- [0. 結論](/colony/00-%E7%B5%90%E8%AB%96.md) — Coreの最初のプレイ可能対象を、本国政府の正規指揮系統と保証された補給へ恒常的に属さず、自分たちの判断と共同資産で辺境に暮らしを作る小規模な独立開拓団へ固定する。
+- [1. 文書状態と判断の強さ](/colony/01-%E6%96%87%E6%9B%B8%E7%8A%B6%E6%85%8B%E3%81%A8%E5%88%A4%E6%96%AD%E3%81%AE%E5%BC%B7%E3%81%95.md) — 文書状態と判断の強さは、ユーザーの最新決定とシオンShion正史コアv2.mdを扱う。
+- [2. 「独立」の定義](/colony/02-%E7%8B%AC%E7%AB%8B%E3%81%AE%E5%AE%9A%E7%BE%A9.md) — 独立開拓団は、規模、統治制度、職業、思想ではなく、次の本国関係を満たす組織の大分類である。
+- [3. 標準Core開拓団](/colony/03-%E6%A8%99%E6%BA%96Core%E9%96%8B%E6%8B%93%E5%9B%A3.md) — Core α版の標準団は、本人たちの合意で組織された民間の小規模開拓団である。
+- [4. 共同体の原則](/colony/04-%E5%85%B1%E5%90%8C%E4%BD%93%E3%81%AE%E5%8E%9F%E5%89%87.md) — 全独立開拓団に同一憲法を正史化しない、またCore α版の標準団だけが共有する簡易盟約として、次を採用する。
+- [5. 技術と物質的制約](/colony/05-%E6%8A%80%E8%A1%93%E3%81%A8%E7%89%A9%E8%B3%AA%E7%9A%84%E5%88%B6%E7%B4%84.md) — Core α版の標準三人団は次を持ち得るという方針の適用範囲と条件を定める。
+- [6. 日常と俗世性](/colony/06-%E6%97%A5%E5%B8%B8%E3%81%A8%E4%BF%97%E4%B8%96%E6%80%A7.md) — 独立開拓団の魅力を、欠乏と工業だけにしない、また生活を作る行為そのものをCoreの早期ゲームへ置く。
+- [7. 現地住民、救援、善意の非対称性](/colony/07-%E7%8F%BE%E5%9C%B0%E4%BD%8F%E6%B0%91-%E6%95%91%E6%8F%B4-%E5%96%84%E6%84%8F%E3%81%AE%E9%9D%9E%E5%AF%BE%E7%A7%B0%E6%80%A7.md) — Core α版の標準団は国家代表ではないが、同盟文明の善意を持つ。
+- [8. 標準開始シナリオ](/colony/08-%E6%A8%99%E6%BA%96%E9%96%8B%E5%A7%8B%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — Core α決定: 仮の表示名を次とするという方針の適用範囲と条件を定める。
+- [9. α版ゲームループとβ予約](/colony/09-%CE%B1%E7%89%88%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%AB%E3%83%BC%E3%83%97%E3%81%A8%CE%B2%E4%BA%88%E7%B4%84.md) — 長い設定説明より、開始状況と現在の不足を先に見せる。
+- [10. α／βの境界](/colony/10-%CE%B1-%CE%B2%E3%81%AE%E5%A2%83%E7%95%8C.md) — 工業基盤を内部完成させてからShion独立開拓団をαへ統合し、独立したMVP／Foundation製品は設けない。
+- [11. 現在の実装状態](/colony/11-%E7%8F%BE%E5%9C%A8%E3%81%AE%E5%AE%9F%E8%A3%85%E7%8A%B6%E6%85%8B.md) — 2026-07-25時点で、Core製品として受入済みの実装はない。
+- [12. 目標パッケージ構造](/colony/12-%E7%9B%AE%E6%A8%99%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E6%A7%8B%E9%80%A0.md) — CoreはRimWorld 1.6、Royalty、Ideology、Biotech、Anomaly、Odysseyを必須とする。
+- [13. Assembly責務](/colony/13-Assembly%E8%B2%AC%E5%8B%99.md) — αでは、Kombinatとの開始接続、最低限の初期化、エラー表示に必要な責務だけを実装する。
+- [14. 最小データモデル](/colony/14-%E6%9C%80%E5%B0%8F%E3%83%87%E3%83%BC%E3%82%BF%E3%83%A2%E3%83%87%E3%83%AB.md) — 開始立場と初期工業状態をデータ駆動にするという方針の適用範囲と条件を定める。
+- [15. ScenarioDefとPawn生成](/colony/15-ScenarioDef%E3%81%A8Pawn%E7%94%9F%E6%88%90.md) — XMLで表現できるThing、人数、文章をC番号へ直書きしない。
+- [16. 工業管制塔](/colony/16-Field-Ledger-Terminal.md) — コアMODからコンビナートへ入る最初の可視入口とする。
+- [17. Field Workshopのαコンテンツ](/colony/17-Field-Workshop%E3%81%AE%CE%B1%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84.md) — Core独自Storageと、Kombinat追加層の発注・多段生産・消費・流通・通貨、独立開拓団用の代表的な三段閉路を同じα公開候補で完成させる。
+- [18. 独立状態のUI](/colony/18-%E7%8B%AC%E7%AB%8B%E7%8A%B6%E6%85%8B%E3%81%AEUI.md) — 複雑な外交画面をα版へ作らない、また開始情報または簡易情報カードで次を示す。
+- [19. 救援クエスト縦切り](/colony/19-%E6%95%91%E6%8F%B4%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E7%B8%A6%E5%88%87%E3%82%8A.md) — 一件目は、魂や復活ではなく物質的に分かりやすい救援にする。
+- [20. バックストーリー最小セット](/colony/20-%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC%E6%9C%80%E5%B0%8F%E3%82%BB%E3%83%83%E3%83%88.md) — 全カタログをCoreへ一括投入しないという方針の適用範囲と条件を定める。
+- [21. α版の実装フェーズ](/colony/21-%CE%B1%E7%89%88%E3%81%AE%E5%AE%9F%E8%A3%85%E3%83%95%E3%82%A7%E3%83%BC%E3%82%BA.md) — Phase 0〜4で工業基盤を内部完成させ、Phase 5でShion種族と独立開始を統合し、Phase 6でα公開候補を検証する。
+- [22. 検証仕様](/colony/22-%E6%A4%9C%E8%A8%BC%E4%BB%95%E6%A7%98.md) — 検証仕様は、独立を反乱、追放、犯罪として固定していない。
+- [23. 失敗時の規則](/colony/23-%E5%A4%B1%E6%95%97%E6%99%82%E3%81%AE%E8%A6%8F%E5%89%87.md) — エラー時にRed Star支援やHive機能を代替起動しない。
+- [24. 暫定調整項目](/colony/24-%E6%9A%AB%E5%AE%9A%E8%AA%BF%E6%95%B4%E9%A0%85%E7%9B%AE.md) — 次は実プレイで決める、また本文正史へ固定しない。
+- [25. 保護候補と廃止](/colony/25-%E4%BF%9D%E8%AD%B7%E5%80%99%E8%A3%9C%E3%81%A8%E5%BB%83%E6%AD%A2.md) — 採用時は固有名、外部参照、現テーマとの整合を再監査する。
+- [26. レッドスターとの比較](/colony/26-Red-Star%E3%81%A8%E3%81%AE%E6%AF%94%E8%BC%83.md) — レッドスターの支援は、物語上の看板や低確率イベントではない。
+- [27. The Hiveとの境界](/colony/27-The-Hive%E3%81%A8%E3%81%AE%E5%A2%83%E7%95%8C.md) — The Hiveの設定資料は保存するが、独立開拓団実装の抽象化要件にしない。
+- [28. Definition of Done](/colony/28-Definition-of-Done.md) — Core独立開拓団α版は、次を全て満たした時に完成する。
+- [29. 野心と産業進行](/colony/29-%E9%87%8E%E5%BF%83%E3%81%A8%E7%94%A3%E6%A5%AD%E9%80%B2%E8%A1%8C.md) — ゲームクリア級の目標は、遠征共同体が目標に必要な産業能力を現地で構築し、継続運用できることを要求する。
+- [0. 出典と利用範囲](/research/kombinat-ui-references/00-%E5%87%BA%E5%85%B8%E3%81%A8%E5%88%A9%E7%94%A8%E7%AF%84%E5%9B%B2.md) — ユーザー提供映像をKombinatのUI・操作研究に限定して利用し、画像・コード・固有表現のコピー元にはしない。
+- [1. MonolynのネットワークUIから採るもの](/research/kombinat-ui-references/01-Monolyn%E3%81%AE%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AFUI%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — Monolynの集中資源、生産一覧、選択時ネットワーク表示から、Kombinatへ採用する情報設計を抽出する。
+- [3. DSUから採るUIと採らない実装](/research/kombinat-ui-references/03-DSU%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8BUI%E3%81%A8%E6%8E%A1%E3%82%89%E3%81%AA%E3%81%84%E5%AE%9F%E8%A3%85.md) — DSUの検索・任意排出・Pawnアクセスは参照するが、中央Mapセルへ内容物を集積する保管方式は採用しない。
+- [4. 要求中間素材作成の操作イメージ](/research/kombinat-ui-references/04-%E8%A6%81%E6%B1%82%E4%B8%AD%E9%96%93%E7%B4%A0%E6%9D%90%E4%BD%9C%E6%88%90%E3%81%AE%E6%93%8D%E4%BD%9C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8.md) — 在庫とRecipeを並べ、最終品の要求から不足中間品と総材料を確認する簡潔な操作モデルをKombinatへ適用する。
+- [0. Purpose](/research/monolyn-practice/00-Purpose.md) — This document records the user-provided summary of real player practice around Monolyn Race from Steam Workshop Q&A, Steam Workshop…。
+- [1. Source status](/research/monolyn-practice/01-Source-status.md) — The details below are treated as a user-provided field report from public player discussion and strategy notes.。
+- [2. Basic loop and onboarding problems](/research/monolyn-practice/02-Basic-loop-and-onboarding-problems.md) — Reported player issue、具体的にはPrayer is not handled as an ordinary Job.とPlayers assign Meditate through the Schedule tab.を扱う。
+- [3. Light management in real play](/research/monolyn-practice/03-Light-management-in-real-play.md) — Reported player issue、具体的にはThere is no direct electricity-to-Light conversion.とAs colony wealth/scale grows, Light income can fall…。
+- [4. Baptism use and costs](/research/monolyn-practice/04-Baptism-use-and-costs.md) — Reported player practice、具体的にはConverting other races through a baptismal font is a basic way to secure Monolyn personnel.とBaptism may…。
+- [5. Terminal body operation](/research/monolyn-practice/05-Terminal-body-operation.md) — Reported player confusion、具体的にはDestroyed mechanical terminal bodies cannot be revived through the baptismal font.とThey need Terminal:…。
+- [6. Base structure and expansion play](/research/monolyn-practice/06-Base-structure-and-expansion-play.md) — Reported player practice、具体的にはTower can share Light, materials, and personnel regardless of location.とPlayers use this to run a main…。
+- [7. Compatibility problems](/research/monolyn-practice/07-Compatibility-problems.md) — Reported issues、具体的にはVanilla Research Panel can conflict with Tower decoding/research and auto-cancel it.とVE Framework-related faction…。
+- [8. The four real Monolyn management layers](/research/monolyn-practice/08-The-four-real-Monolyn-management-layers.md) — The reported practical Monolyn loop appears to combine four resource-management layers、具体的にはprayer/meditation schedule…。
+- [9. Adopt / avoid table for Shion Nexus](/research/monolyn-practice/09-Adopt-avoid-table-for-Shion-Nexus.md) — Adopt / avoid table for Shion Nexusは、Monolyn player-practice pattern：Shion Nexus decisionとCentral Tower as colony-scale identity：Adopt…。
+- [10. Alpha impact](/research/monolyn-practice/10-Alpha-impact.md) — This reference does not change Alpha 0.1 scope.。
+- [11. Performance cautions](/research/monolyn-practice/11-Performance-cautions.md) — Avoid importing these patterns without hard limits、具体的にはschedule-driven labor loops that require many pawns;とunbounded resource demand…。
+- [12. Final lesson](/research/monolyn-practice/12-Final-lesson.md) — Monolyn is valuable because players actually build around its Tower, Light, baptism, and terminal systems.。
+- [13. Source links recorded by user](/research/monolyn-practice/13-Source-links-recorded-by-user.md) — Source links recorded by userは、Monolyn Race - Steam Workshop Q&A:…。
+- [0. Purpose](/research/monolyn-ui/00-Purpose.md) — This document records the user-provided summary of Monolyn Race UI and system feedback from developer Q&A, bug report threads, and…。
+- [1. Source status](/research/monolyn-ui/01-Source-status.md) — The details below are treated as a user-provided field report from public player feedback and strategy/review sources.。
+- [2. Overall system reception](/research/monolyn-ui/02-Overall-system-reception.md) — Reported NamuWiki-style evaluation、具体的にはMonolyn is high quality, but unusual compared with many existing mods.とIts prayer UI,…。
+- [3. Delayed or opaque feedback](/research/monolyn-ui/03-Delayed-or-opaque-feedback.md) — Reported issue、具体的にはA player can interact with the Tower and receive a vague message like something has happened, but see no immediate…。
+- [4. Icon and description ambiguity](/research/monolyn-ui/04-Icon-and-description-ambiguity.md) — Reported issue、具体的にはGuardian Flare and Radiant Flare appear to have identical or near-identical descriptions.とDeveloper clarifies their…。
+- [5. Research tab stability](/research/monolyn-ui/05-Research-tab-stability.md) — Reported issue、具体的にはClicking a dedicated research tab such as Shinsung Engineering can cause the description area to disappear, though…。
+- [6. Other compatibility and implementation issues](/research/monolyn-ui/06-Other-compatibility-and-implementation-issues.md) — Reported examples、具体的にはHats Display Selection conflict can make hat-wearing pawns invisible under roofs and cause lag; disabling a…。
+- [7. UI/system strengths to learn from](/research/monolyn-ui/07-UI-system-strengths-to-learn-from.md) — Monolyn strengths reported by players/review、具体的にはstrong faction identity;とTower-centered operation;を扱う。
+- [8. UI/system failures to avoid](/research/monolyn-ui/08-UI-system-failures-to-avoid.md) — Avoid in Shion Nexus alpha、具体的にはcentral actions with delayed invisible outcomes;とprogress that says inactive while active;を扱う。
+- [9. Alpha impact](/research/monolyn-ui/09-Alpha-impact.md) — This reference reinforces current Alpha 0.1 rules.。
+- [10. Shion Nexus UI checklist](/research/monolyn-ui/10-Shion-Nexus-UI-checklist.md) — Before Alpha 0.1 release, confirm、具体的にはCore Inspect explains alive/damaged/destroyed state.とLedger Inspect shows CVE, capacity, shells,…。
+- [11. Performance cautions](/research/monolyn-ui/11-Performance-cautions.md) — UI and feedback systems must not introduce hidden cost.。
+- [12. Final lesson](/research/monolyn-ui/12-Final-lesson.md) — Monolyn's system design is strong because its Tower, Light, Codex, implants, buildings, and terminals form a coherent identity.。
+- [13. Source links recorded by user](/research/monolyn-ui/13-Source-links-recorded-by-user.md) — Source links recorded by userは、NamuWiki Monolyn page:…。

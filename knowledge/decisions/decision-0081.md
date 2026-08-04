@@ -1,0 +1,40 @@
+---
+type: "Decision Log Entry"
+title: "確定#81：階梯連動スタッカブル特性表の新設：+5〜+10区間は同一特性を何度も重ねられるスタッカブル特性（新素材要求・強み弱みペア構造の非適用・miles"
+description: "階梯連動スタッカブル特性表の新設：+5〜+10区間は同一特性を何度も重ねられるスタッカブル特性（新素材要求・強み弱みペア構造の非適用・milesを確定した決定履歴。"
+tags:
+  - "decision-log"
+  - "historical"
+  - "canon"
+status: stable
+authority: historical
+knowledge_role: historical-record
+granularity: decision
+canonical_for: "decisions/decision-0081"
+canonical_scope: "decision-history"
+source_section: "確定#81"
+generated:
+  by: "process:rim-okf-migration"
+  at: "2026-07-26T00:54:52.353Z"
+sources:
+  - id: "migration-source"
+    resource: "retired-source://project/シオンShion_改訂履歴ログ_v1.md"
+    title: "シオン/Shion プロジェクト改訂履歴ログ"
+---
+
+# 確定#81：階梯連動スタッカブル特性表の新設：+5〜+10区間は同一特性を何度も重ねられるスタッカブル特性（新素材要求・強み弱みペア構造の非適用・miles
+
+> 履歴項目です。現行仕様との競合時は、正史コアと現在の仕様概念を優先してください。
+
+階梯連動スタッカブル特性表の新設：+5〜+10区間は同一特性を何度も重ねられるスタッカブル特性（新素材要求・強み弱みペア構造の非適用・milestone的挙動）。−6〜−10区間は専用弱点特性表。
+
+## 関連項目
+
+- 上位索引: [decisions](/decisions/index.md)
+- 同じ出典の前項: [確定#80：確定#53 Tier改造ポイント制の中間値問題を部分的に解決：+5〜+10区間は非線形の加速区間、−6〜−10区間は素材種類数の減少という別軸で](/decisions/decision-0080.md)
+- 同じ出典の次項: [確定#82：−Tier下限フロアの具体的ベンチマーク確定：Lily the Death Flowerの「システム抑制」弱点（命中−2.0/−2.0・回避−5](/decisions/decision-0082.md)
+- 正史: [正史](/world/index.md)
+
+## 出典
+
+- シオン/Shion プロジェクト改訂履歴ログ（退役済み原本: `retired-source://project/シオンShion_改訂履歴ログ_v1.md`） — `確定#81`

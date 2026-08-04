@@ -1,0 +1,86 @@
+# 独立・辺境 01
+
+範囲: 7. 技術とゲーム規模〜SHION_A228 星間市場の仮設建築士
+
+## 項目
+
+- [7. 技術とゲーム規模](/authoring/07-%E6%8A%80%E8%A1%93%E3%81%A8%E3%82%B2%E3%83%BC%E3%83%A0%E8%A6%8F%E6%A8%A1.md) — 現実性は手触りであり、文明の上限ではないという方針の適用範囲と条件を定める。
+- [8. 製品・内部モジュール別の責務境界](/authoring/08-%E8%A3%BD%E5%93%81%E3%83%BB%E5%86%85%E9%83%A8%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E5%88%A5%E3%81%AE%E8%B2%AC%E5%8B%99%E5%A2%83%E7%95%8C.md) — 現時点のKombinat追加層は未実装であり、また五つの代表工業資源は実Thing、同盟通貨はAccount残高とする。
+- [9. 不合格条件](/authoring/09-%E4%B8%8D%E5%90%88%E6%A0%BC%E6%9D%A1%E4%BB%B6.md) — 新しい設定、文章、機能は次に該当する場合、再設計する。
+- [1. 読み方と能力尺度](/backstories/01-%E8%AA%AD%E3%81%BF%E6%96%B9%E3%81%A8%E8%83%BD%E5%8A%9B%E5%B0%BA%E5%BA%A6.md) — 読み方と能力尺度は、Childhoodは生物学的幼年ではなく、起動後の形成期、教育、最初の手伝い、事故、趣味、所属集団を表す。
+- [SHION_C023 旅する似顔絵師](/backstories/formation/SHION_C023.md) — 移動市で似顔絵を描き、顔立ちだけでなく、道具の持ち方、立ち姿、修理痕まで画面へ収めた。 （キャラバン / 無党派）
+- [SHION_C044 渡り徒弟](/backstories/formation/SHION_C044.md) — 定住地が解散するたび別の開拓団へ移り、農場、工房、警備所で働いた。 （複数の独立開拓団 / 無党派）
+- [SHION_C055 錆雨の傘直し](/backstories/formation/SHION_C055.md) — 金属を腐食させる雨季、本人は傘の骨と外套を直した。 （辺境市場 / 無党派）
+- [SHION_C095 帝国人の隣席](/backstories/formation/SHION_C095.md) — 追放された帝国人、同盟の子、党派を諦めた教師と同じ教室で学んだ。 （混住学校 / 独立共同体）
+- [SHION_C104 移動都市の共同食堂育ち](/backstories/formation/SHION_C104.md) — 移動都市の共同食堂で、献立・香り・温度の記憶から失われた街路を語るようになった。 （都市記録局 / 独立開拓者）
+- [SHION_C106 星間市場の動物診療助手](/backstories/formation/SHION_C106.md) — 市場では誰もが値段を話しますが、診療台の獣だけは何も言いません。 （長い過渡期 / 独立開拓者）
+- [SHION_C115 移動都市群の資源調査](/backstories/formation/SHION_C115.md) — 移動都市の地下は、停泊するたび別の地面へ接続します。 （長い過渡期 / 独立開拓者）
+- [SHION_C127 無人構造物の内部探査](/backstories/formation/SHION_C127.md) — 巨大構造物へ入った時、皆が「歓迎された」「試されている」と言いました。 （調査船団 / 無党派）
+- [SHION_C139 月面事業区の採掘遠足](/backstories/formation/SHION_C139.md) — 月を売るような宣伝文句に釣られて、採掘遠足へ参加しました。 （月面共同事業 / 独立開拓者）
+- [SHION_C151 星間市場の資源調査](/backstories/formation/SHION_C151.md) — 星間市場の資源調査は、値札より坑道の方が信用できました。 （星間交易圏 / 独立開拓者）
+- [SHION_C157 立入制限地の救護小屋](/backstories/formation/SHION_C157.md) — 立入制限地の救護小屋では、立入制限地へ行くのは好きだった。 （回収班 / 独立開拓者）
+- [SHION_C166 星間市場の老いた動物の世話](/backstories/formation/SHION_C166.md) — 星間市場では、働けなくなった荷役獣は取引価値を失います。 （長い過渡期 / 独立開拓者）
+- [SHION_C194 移動都市の再会案内](/backstories/formation/SHION_C194.md) — 移動都市の再会案内では、移動都市の地図は、再会相手ごとに違いました。 （都市記録局 / 独立開拓者）
+- [SHION_C200 立入制限地の遠征食](/backstories/formation/SHION_C200.md) — 立入制限地へ持ち込む歓待・救援用の遠征食は、帰還予定日より長く保存できるよう作った。 （回収班 / 独立開拓者）
+- [SHION_C228 月面区の音楽会](/backstories/formation/SHION_C228.md) — 月面区では、音楽は空気も食料も増やさないと言われました。 （月面共同事業 / 独立開拓者）
+- [SHION_C231 制限地で拾った記録](/backstories/formation/SHION_C231.md) — 立入制限地へ行くたび、本人は露店で一番安い焼き菓子を買いました。 （回収班 / 独立開拓者）
+- [SHION_C239 星間市場の道具工房](/backstories/formation/SHION_C239.md) — 星間市場の工房では、同じ道具でも持ち主ごとに握りを変えました。 （星間交易圏 / 独立開拓者）
+- [SHION_C246 市場裏の仮住まい](/backstories/formation/SHION_C246.md) — 星間市場の裏には、到着した晩だけ使う仮住まいが並んでいました。 （星間交易圏 / 独立開拓者）
+- [SHION_C248 旅立ちの保存食](/backstories/formation/SHION_C248.md) — 移動都市から旅立つ人には、到着日ではなく「食べる日」を聞いて保存食を作りました。 （長い過渡期 / 独立開拓者）
+- [SHION_C251 再会祭の義肢工房](/backstories/formation/SHION_C251.md) — 星間市場の再会祭では、戻ってきた人の身体が昔と違うことも珍しくありません。 （星間交易圏 / 独立開拓者）
+- [SHION_C277 答えない構造物との航路](/backstories/formation/SHION_C277.md) — 無人構造物の調査船には、蘇生直後の仲間も乗っていました。 （調査船団 / 無党派）
+- [SHION_C279 無言の構造物読書会](/backstories/formation/SHION_C279.md) — 調査船では、用途不明の構造物について古い報告を読む会を開きました。 （調査船団 / 無党派）
+- [SHION_C283 名前の違う地下街](/backstories/formation/SHION_C283.md) — 移動都市の地下区画が崩れた時、地図にある名と住民の呼ぶ名が違っていました。 （都市記録局 / 独立開拓者）
+- [SHION_C294 最初の足跡を直す班](/backstories/formation/SHION_C294.md) — 月面事業区で、本人は遊び半分に修繕班へついて回りました。 （月面共同事業 / 独立開拓者）
+- [SHION_C297 制限地の安全菜園大会](/backstories/formation/SHION_C297.md) — 立入制限地の外縁で、本人たちは菜園大会を開きました。 （回収班 / 独立開拓者）
+- [SHION_C309 答えなき船の菜園](/backstories/formation/SHION_C309.md) — 無人構造物を追う調査船で、本人は共同菜園を世話しました。 （調査船団 / 無党派）
+- [SHION_C310 境界のない畑](/backstories/formation/SHION_C310.md) — 土地は誰のものでもない、と最初に決めたのは本人たちの班だった。 （開拓団 / 耕作班）
+- [SHION_C312 数字が黙らせた喧嘩](/backstories/formation/SHION_C312.md) — 移住船団の配給会議で、台所の余剰を数え、数字によって大人たちの党派争いを具体的な相談へ戻した。 （移住船団 / 船内評議会）
+- [SHION_C316 名もなき開墾の手](/backstories/formation/SHION_C316.md) — 最初の入植地を切り開いたのは英雄的な少人数だった、とよく言われますが違います。 （開墾班 / 第一次入植）
+- [SHION_C326 先達の小刀](/backstories/formation/SHION_C326.md) — 先達はよく言っていました、「見張りは何も起きない夜こそ良い夜だ」と。 （開拓団 / 見張り班）
+- [SHION_C328 豆しかない理由](/backstories/formation/SHION_C328.md) — 台所番というのは、入植地で一番地味な役目です、少なくとも本人はそう思っていました。 （台所番 / 入植地）
+- [SHION_C329 星の名を付け替えた頃](/backstories/formation/SHION_C329.md) — 今の本人は落ち着いて話せますが、それは船が着いてからの話である。 （移住船団 / 医務班）
+- [SHION_C333 土に合わせる種](/backstories/formation/SHION_C333.md) — 土に合わせる種では、種は土を選ばない、土が種を選ぶ。 （開拓団 / 種苗班）
+- [SHION_C334 数字を止めない役目](/backstories/formation/SHION_C334.md) — 本人が入植初期の重要な決定に加わらなかったことを、怠慢だと言う人がいます。 （測候班 / 第一次入植）
+- [SHION_C401 漁労開拓隊の網繕い](/backstories/formation/SHION_C401.md) — 「その結び方じゃまた破れるよ」って幼馴染みに言われて、本人は「じゃあ教えて」って言い返した。 （漁労開拓隊 / 幼馴染み）
+- [SHION_C409 開拓団の墓標彫り](/backstories/formation/SHION_C409.md) — もしあなたが開拓の旅で誰かを亡くしたことがあるなら、木に名前を彫るあの作業の重さが分かると思います。 （開拓団 / 石工）
+- [SHION_C411 交易船団の見習い荷役](/backstories/formation/SHION_C411.md) — 俺が最初にもらった仕事は、積み荷の重さを目で当てることだった。 （荷役長 / 交易船団）
+- [SHION_C412 辺境行政府の文書運び](/backstories/formation/SHION_C412.md) — 書記官から預かった書類を落とさないよう、本人はいつも両手で抱えて走っていました。 （書記官 / 辺境行政府）
+- [SHION_A018 死者名簿の編纂者](/backstories/mastery/SHION_A018.md) — 各党派、帝国軍、無所属避難民の死者名簿を照合した。 （ソフェル / 独立記録院）
+- [SHION_A022 破門校正官](/backstories/mastery/SHION_A022.md) — 修復対象の拒否を依頼人の命令より優先し、所属していた校正学派から破門された。 （ソフェル離脱者 / 独立工房）
+- [SHION_A025 独立開拓者](/backstories/mastery/SHION_A025.md) — 行政圏外の谷で、出身の異なる移住者と住居、畑、発電設備を築いた。 （独立開拓団 / 無党派）
+- [SHION_A026 キャラバン修理師](/backstories/mastery/SHION_A026.md) — キャラバンに同行し、車軸、鞍、冷却器、調理設備を移動中に修理した。 （独立キャラバン / 無党派）
+- [SHION_A027 開拓地調停人](/backstories/mastery/SHION_A027.md) — 開拓地で土地、水、配給、旧党派の旗を巡る争いを仲裁した。 （旧党派混成 / 独立開拓団）
+- [SHION_A028 辺境農芸師](/backstories/mastery/SHION_A028.md) — 土地の毒性、昼の長さ、利用できる水、住民の食文化に合わせて作物を選ぶ農芸師となった。 （農業開拓団 / 無党派）
+- [SHION_A029 遺物回収屋](/backstories/mastery/SHION_A029.md) — 廃墟から工具、医薬品、記録媒体、再利用できる建材を回収した。 （独立回収団 / 無党派）
+- [SHION_A030 救難記録編纂者](/backstories/mastery/SHION_A030.md) — 救難信号、捜索範囲、目撃情報、発見物を地図へまとめ、次の隊が同じ場所を無駄に探さないようにした。 （独立救難隊 / 無党派）
+- [SHION_A031 通信塔夜番](/backstories/mastery/SHION_A031.md) — 夜間の通信塔で、救難信号、商取引、定時連絡、住民の私信を受信した。 （辺境通信網 / 無党派）
+- [SHION_A032 植民地万能工](/backstories/mastery/SHION_A032.md) — 小さな植民地で本人は壁を直し、畑を刈り、動物を追い、夕食を作った。 （小規模植民地 / 無党派）
+- [SHION_A036 長距離斥候](/backstories/mastery/SHION_A036.md) — 集落やキャラバンより先行し、毒性降下物、獣道、待伏せ跡、安全な水場を調べる長距離斥候となった。 （辺境偵察隊 / 無党派）
+- [SHION_A038 異常対応員](/backstories/mastery/SHION_A038.md) — 原因不明の設備、生物、信号を調べる異常対応員となった。 （独立封鎖班 / 無党派）
+- [SHION_A040 外からの社会改良者](/backstories/mastery/SHION_A040.md) — 同盟の役職を辞め、外部で診療所、食堂、労働相談所を運営した。 （社会民主党離脱者 / 独立相互扶助団）
+- [SHION_A048 昨日の修理者](/backstories/mastery/SHION_A048.md) — 本人が集落へ到着すると、故障設備の一部は前日に同じ署名と工具痕で修理されていた。 （不明 / 複数の辺境集落）
+- [SHION_A085 独立星港建設者](/backstories/mastery/SHION_A085.md) — 社会民主党員、旧共産党員、ファシスト離党者、帝国離反者、無党派が使う星港を建てた。 （混成開拓評議会 / 独立開拓団）
+- [SHION_A086 故郷種子の運び手](/backstories/mastery/SHION_A086.md) — 回収された故郷から種子を運び、別の空の下へ同じ花を植えた。 （移民農業隊 / 独立開拓団）
+- [SHION_A087 辺境共同体史家](/backstories/mastery/SHION_A087.md) — 党派の指導者より、井戸を掘った者、最初に冬を越した動物、喧嘩の後も残った料理を記録した。 （開拓地記録会 / 独立開拓団）
+- [SHION_A088 蘇生設備の巡回工](/backstories/mastery/SHION_A088.md) — 小集落を巡り、使われないことを願われる蘇生設備を整備した。 （独立開拓団 / 辺境医療網）
+- [SHION_A089 孤行開拓測量士](/backstories/mastery/SHION_A089.md) — 無人天体を一人で測り、未来の共同体が住める谷と掘ってはいけない墓域を地図へ分けた。 （単独先遣隊 / 独立開拓団）
+- [SHION_A092 復活船団衛生長](/backstories/mastery/SHION_A092.md) — 避難船で死者の保存、負傷者の治療、蘇生後の再会を一つの医療計画として扱った。 （星域避難船団 / 無党派）
+- [SHION_A093 帰還船団救命長](/backstories/mastery/SHION_A093.md) — 時間嵐で分断された帰還船団を追い、蘇生設備へ届く前の救命で多数を帰した。 （星域帰還船団 / 帝国離反者系）
+- [SHION_A096 小共同体優先論者](/backstories/mastery/SHION_A096.md) — 宇宙全体の理想より、目の前の開拓地で誰も飢えず友人が帰れる一日を優先した。 （旧社会民主党系 / 独立開拓評議会）
+- [SHION_A118 月面事業区の射撃教官](/backstories/mastery/SHION_A118.md) — 月面事業区の射撃教官では、月面事業区で射撃を教えました。 （月面共同事業 / 独立開拓者）
+- [SHION_A127 星間市場の臨床医](/backstories/mastery/SHION_A127.md) — 星間市場の臨床医では、星間市場で旅人と商人を診ました。 （星間交易圏 / 独立開拓者）
+- [SHION_A131 星間市場の徒手警護員](/backstories/mastery/SHION_A131.md) — 星間市場の祭りで武器を使わず揉め事をほどき、翌日も取引できる信用と荷獣の安全を守った。 （星間交易圏 / 独立開拓者）
+- [SHION_A147 星間市場の記念庭園師](/backstories/mastery/SHION_A147.md) — 星間市場の記念庭園師では、星間市場に記念庭園を作りました。 （星間交易圏 / 独立開拓者）
+- [SHION_A149 移動都市群の精密工](/backstories/mastery/SHION_A149.md) — 移動都市群の精密工では、移動都市群を巡り、祭りの機構と道具を直しました。 （都市記録局 / 独立開拓者）
+- [SHION_A155 無人構造物調査船の救助員](/backstories/mastery/SHION_A155.md) — 趣味の調査航行が高じて、無人巨大構造物へ向かう船の救助員になりました。 （調査船団 / 無党派）
+- [SHION_A162 立入制限地の舞台演出家](/backstories/mastery/SHION_A162.md) — 立入制限地の回収班で舞台を作り、危険遺物の密売摘発にも同行しました。 （回収班 / 独立開拓者）
+- [SHION_A175 星間市場の巡回医](/backstories/mastery/SHION_A175.md) — 星間市場の巡回医では、星間市場を巡って診療しました。 （星間交易圏 / 独立開拓者）
+- [SHION_A176 無人構造物調査船の討論調停人](/backstories/mastery/SHION_A176.md) — 無人巨大構造物を巡り、調査員の討論をまとめました。 （調査船団 / 無党派）
+- [SHION_A182 移動都市群の保存食職人](/backstories/mastery/SHION_A182.md) — 移動都市で、外部旅人の栄養条件とシオンの感覚上の好みに合わせ、到着後の食卓を先に準備した。 （都市記録局 / 独立開拓者）
+- [SHION_A189 移動都市群の古文書研究者](/backstories/mastery/SHION_A189.md) — 古文書の欠けた一行を、もっともらしい物語で埋めるのは簡単だ。 （都市記録局 / 独立開拓者）
+- [SHION_A193 立入制限地の資源測量士](/backstories/mastery/SHION_A193.md) — 制限地では、価値がありそうだから拾う、という考えが一番危ない。 （回収班 / 独立開拓者）
+- [SHION_A197 移動都市群の外勤精密工](/backstories/mastery/SHION_A197.md) — 移動都市の外壁は、住民が語るよりずっと頻繁に形を変える。 （都市記録局 / 独立開拓者）
+- [SHION_A205 月面事業区の資源測量士](/backstories/mastery/SHION_A205.md) — 月面事業の宣伝図には、危険な斜面も粉塵の流れも描かれていなかった。 （月面共同事業 / 独立開拓者）
+- [SHION_A211 無人構造物調査船の救護医](/backstories/mastery/SHION_A211.md) — 無人構造物へ入った時、皆が作り手の目的を知りたがった。 （調査船団 / 無党派）
+- [SHION_A228 星間市場の仮設建築士](/backstories/mastery/SHION_A228.md) — 星間市場の仮設住宅は、契約書より早く建てる必要があった。 （星間交易圏 / 独立開拓者）

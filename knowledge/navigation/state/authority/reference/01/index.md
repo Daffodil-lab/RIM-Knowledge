@@ -1,0 +1,86 @@
+# reference 01
+
+範囲: 0. 権威順位と状態語〜4. Baptism use and costs
+
+## 項目
+
+- [0. 権威順位と状態語](/design/00-%E6%A8%A9%E5%A8%81%E9%A0%86%E4%BD%8D%E3%81%A8%E7%8A%B6%E6%85%8B%E8%AA%9E.md) — 0. 権威順位と状態語の重複本文を除き、唯一の知識所有者へ案内する項目。
+- [最初に読む：今回のオーバーホールで何を変えたか](/design/000-%E6%9C%80%E5%88%9D%E3%81%AB%E8%AA%AD%E3%82%80-%E4%BB%8A%E5%9B%9E%E3%81%AE%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%9B%E3%83%BC%E3%83%AB%E3%81%A7%E4%BD%95%E3%82%92%E5%A4%89%E3%81%88%E3%81%9F%E3%81%8B.md) — 最初に読む：今回のオーバーホールで何を変えたかの重複本文を除き、唯一の知識所有者へ案内する項目。
+- [1. 中心命題](/design/01-%E4%B8%AD%E5%BF%83%E5%91%BD%E9%A1%8C.md) — 1. 中心命題の重複本文を除き、唯一の知識所有者へ案内する項目。
+- [2. 帝国と同盟：同一文明の二形態](/design/02-%E5%B8%9D%E5%9B%BD%E3%81%A8%E5%90%8C%E7%9B%9F-%E5%90%8C%E4%B8%80%E6%96%87%E6%98%8E%E3%81%AE%E4%BA%8C%E5%BD%A2%E6%85%8B.md) — 2. 帝国と同盟：同一文明の二形態の重複本文を除き、唯一の知識所有者へ案内する項目。
+- [3. シオンの人格と身体](/design/03-%E3%82%B7%E3%82%AA%E3%83%B3%E3%81%AE%E4%BA%BA%E6%A0%BC%E3%81%A8%E8%BA%AB%E4%BD%93.md) — 3. シオンの人格と身体の重複本文を除き、唯一の知識所有者へ案内する項目。
+- [4. 善意の非対称性を物語へ変換する](/design/04-%E5%96%84%E6%84%8F%E3%81%AE%E9%9D%9E%E5%AF%BE%E7%A7%B0%E6%80%A7%E3%82%92%E7%89%A9%E8%AA%9E%E3%81%B8%E5%A4%89%E6%8F%9B%E3%81%99%E3%82%8B.md) — 4. 善意の非対称性を物語へ変換するの重複本文を除き、唯一の知識所有者へ案内する項目。
+- [5. 技術体系と文明的制約](/design/05-%E6%8A%80%E8%A1%93%E4%BD%93%E7%B3%BB%E3%81%A8%E6%96%87%E6%98%8E%E7%9A%84%E5%88%B6%E7%B4%84.md) — 5. 技術体系と文明的制約の重複本文を除き、唯一の知識所有者へ案内する項目。
+- [9. Kombinat内部Runtime](/design/09-Kombinat%E5%86%85%E9%83%A8Runtime.md) — 9. Kombinat内部Runtimeの重複本文を除き、唯一の知識所有者へ案内する項目。
+- [14. 装備、軍事、バランス](/design/14-%E8%A3%85%E5%82%99-%E8%BB%8D%E4%BA%8B-%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9.md) — 旧装備章を、設定クラスとカタログ、実装値と装備解決の二つの所有者へ分離して案内する。
+- [17. 匿名のソフェル](/design/17-%E5%8C%BF%E5%90%8D%E3%81%AE%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB.md) — 匿名のソフェルの重複本文を除き、現行人物像、実装予約、物語候補の所有者へ案内する項目。
+- [19. 現在のリポジトリ事実](/design/19-%E7%8F%BE%E5%9C%A8%E3%81%AE%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E4%BA%8B%E5%AE%9F.md) — 19. 現在のリポジトリ事実の重複本文を除き、唯一の知識所有者へ案内する項目。
+- [21. 保存と版間互換](/design/21-%E4%BF%9D%E5%AD%98%E3%81%A8%E7%89%88%E9%96%93%E4%BA%92%E6%8F%9B.md) — 21. 保存と版間互換の重複本文を除き、唯一の知識所有者へ案内する項目。
+- [22. リリース段階](/design/22-%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E6%AE%B5%E9%9A%8E.md) — 22. リリース段階の重複本文を除き、唯一の知識所有者へ案内する項目。
+- [26. 旧31章クロスウォーク](/design/26-%E6%97%A731%E7%AB%A0%E3%82%AF%E3%83%AD%E3%82%B9%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF.md) — 26. 旧31章クロスウォークの重複本文を除き、唯一の知識所有者へ案内する項目。
+- [27. 今回の廃止・変更台帳](/design/27-%E4%BB%8A%E5%9B%9E%E3%81%AE%E5%BB%83%E6%AD%A2%E3%83%BB%E5%A4%89%E6%9B%B4%E5%8F%B0%E5%B8%B3.md) — 27. 今回の廃止・変更台帳の重複本文を除き、唯一の知識所有者へ案内する項目。
+- [28. 旧資料の利用手順](/design/28-%E6%97%A7%E8%B3%87%E6%96%99%E3%81%AE%E5%88%A9%E7%94%A8%E6%89%8B%E9%A0%86.md) — 28. 旧資料の利用手順の重複本文を除き、唯一の知識所有者へ案内する項目。
+- [29. 文書責務](/design/29-%E6%96%87%E6%9B%B8%E8%B2%AC%E5%8B%99.md) — 29. 文書責務の重複本文を除き、唯一の知識所有者へ案内する項目。
+- [31. 完成条件](/design/31-%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — 31. 完成条件の重複本文を除き、唯一の知識所有者へ案内する項目。
+- [0. Purpose](/research/anomaly-monolith/00-Purpose.md) — This document records user-provided screenshots of RimWorld Anomaly-style monolith structures as a visual reference for the redesigned…。
+- [1. Why Anomaly monoliths are useful](/research/anomaly-monolith/01-Why-Anomaly-monoliths-are-useful.md) — Anomaly monolith visuals are useful because they communicate、具体的にはa unique central object;とdormant mystery;を扱う。
+- [2. What to adopt](/research/anomaly-monolith/02-What-to-adopt.md) — Adopt structurally、具体的にはone strong central block;とside supports or buttresses;を扱う。
+- [3. What not to copy](/research/anomaly-monolith/03-What-not-to-copy.md) — Shion Nexus is not Anomaly horror. It is a quiet ceramic clockwork singularity.。
+- [4. Three-state Core visual lesson](/research/anomaly-monolith/04-Three-state-Core-visual-lesson.md) — The screenshots suggest a useful three-stage language、具体的にはBroken/dormant slab：Dormant Core: dark aperture, sealed face, no strong…。
+- [5. Shape options influenced by Anomaly monoliths](/research/anomaly-monolith/05-Shape-options-influenced-by-Anomaly-monoliths.md) — Shape options influenced by Anomaly monolithsは、central raised slab;とbroad lower platform;を扱う。
+- [6. Color translation](/research/anomaly-monolith/06-Color-translation.md) — Default Nexus Core must not be red. Default is white/void/blue-violet.。
+- [7. Relationship to existing references](/research/anomaly-monolith/07-Relationship-to-existing-references.md) — This reference complements、具体的にはdocs/27VANILLAARCHOTECHRUINSVISUALREFERENCE.mdとdocs/26COLORTHEMEANDEQUIPMENTPALETTE.mdを扱う。
+- [8. Performance and implementation notes](/research/anomaly-monolith/08-Performance-and-implementation-notes.md) — Anomaly-style stage readability should be implemented as static state variants, not animation-heavy effects.。
+- [9. Updated Core prompt guidance](/research/anomaly-monolith/09-Updated-Core-prompt-guidance.md) — Japanese guidance:という方針の適用範囲と条件を定める。
+- [10. Final rule](/research/anomaly-monolith/10-Final-rule.md) — Use Anomaly monoliths as a reference for central-object weight and state escalation, not for horror identity.。
+- [0. Purpose](/research/archotech-ruins/00-Purpose.md) — This document records the visual direction taken from user-provided screenshots of vanilla-style archotech ruins and translates it into…。
+- [1. Why the current complex Core panel direction should change](/research/archotech-ruins/01-Why-the-current-complex-Core-panel-direction-should-change.md) — The previous Nexus Core visual direction risked looking like、具体的にはa complex circuit-board panel;とa generic equipment block;を扱う。
+- [2. Vanilla archotech ruin lessons](/research/archotech-ruins/02-Vanilla-archotech-ruin-lessons.md) — The supplied reference images suggest these useful visual traits、具体的にはlarge simple block masses;とthick black outlines;を扱う。
+- [3. Core visual direction change](/research/archotech-ruins/03-Core-visual-direction-change.md) — Preferred alpha form、具体的にはsimple central vertical mass;とbroad dark base or plinth;を扱う。
+- [4. Three acceptable Core silhouette options](/research/archotech-ruins/04-Three-acceptable-Core-silhouette-options.md) — Preferred alpha choice、具体的にはCore Tower：3x3 tower-like sealed monolith with crown fins and central aperture.：Preferred alpha Core.：Must…。
+- [5. Color translation from vanilla ruins to Shion Nexus](/research/archotech-ruins/05-Color-translation-from-vanilla-ruins-to-Shion-Nexus.md) — Vanilla-like archotech ruins often read through gray, olive, pale panels, and sparse glowing lines. Shion Nexus should shift that…。
+- [6. Updated Nexus Core palette](/research/archotech-ruins/06-Updated-Nexus-Core-palette.md) — Core Tower should use、具体的にはdominant: Enamel White / Pale Ceramic Ivory;とlower support: Blue-Black Navy or dark gray support block;を扱う。
+- [7. Per-state Core visual rules](/research/archotech-ruins/07-Per-state-Core-visual-rules.md) — Per-state Core visual rulesは、State：Visual directionとDormant：dark lens, closed tower face, no ledger line except faint mark.を扱う。
+- [8. Relationship to other alpha buildings](/research/archotech-ruins/08-Relationship-to-other-alpha-buildings.md) — The Core Tower must be visually more important than every other alpha building.。
+- [9. Art prompt direction, not image generation request](/research/archotech-ruins/09-Art-prompt-direction-not-image-generation-request.md) — RimWorld風Nexus Core Towerの形状、配色、材質、禁止表現を将来の画像資産向けに指定する。
+- [10. Final visual rule](/research/archotech-ruins/10-Final-visual-rule.md) — Nexus Core should look like a quiet archotech-like ceramic Core Tower: simple, heavy, readable, and irreplaceable.。
+- [TL;DR](/research/endfield-aic/000-TL;DR.md) — TL;DRは、AIC(Automated Industry Complex／統合工業システム)は、2026年1月22日にグローバル正式リリースされたEndfieldの「ゲームの半分」を占める中核工場システムで…。
+- [Key Findings](/research/endfield-aic/001-Key-Findings.md) — Key Findingsは、PAC(Protocol Anchor Core／Protocol Automation-Core)が全ての中心。
+- [Details(設計分析としての示唆)](/research/endfield-aic/002-Details%E8%A8%AD%E8%A8%88%E5%88%86%E6%9E%90%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E7%A4%BA%E5%94%86.md) — Endfieldの最大の設計的発明は「工場を独立したミニゲームにせず、進行の必須経路に組み込んだ」点にある。
+- [Recommendations(RimWorld種族MOD設計への段階的提言)](/research/endfield-aic/003-RecommendationsRimWorld%E7%A8%AE%E6%97%8FMOD%E8%A8%AD%E8%A8%88%E3%81%B8%E3%81%AE%E6%AE%B5%E9%9A%8E%E7%9A%84%E6%8F%90%E8%A8%80.md) — Recommendations(RimWorld種族MOD設計への段階的提言)は、まず「固定スループット＋詰まり可視化」を核に据える。
+- [Caveats](/research/endfield-aic/004-Caveats.md) — Caveatsは、数値仕様の出典:ベルト速度30個/分、パイプ2 unit/秒、電力値(Thermal Bank/バッテリー)、制御ポート上限1〜5000等は、公式コミュニティwiki(endfield.wiki.gg)とGame8/GameWith等の攻略サイト…。
+- [0. Purpose](/research/external-videos/00-Purpose.md) — This document records external video references that may inform Shion Nexus design.。
+- [1. Fleshbeast Colony gameplay videos](/research/external-videos/01-Fleshbeast-Colony-gameplay-videos.md) — The following URLs were identified by the user as Fleshbeast Colony gameplay videos.。
+- [2. Shion Nexus relevance](/research/external-videos/02-Shion-Nexus-relevance.md) — Fleshbeast Colony remains a structural reference only.。
+- [3. Performance review checklist](/research/external-videos/03-Performance-review-checklist.md) — When reviewing the videos, note、具体的にはwhether the system appears to add many active pawns;とwhether routine work is abstracted or…。
+- [4. Final rule](/research/external-videos/04-Final-rule.md) — These videos are reference evidence for how Fleshbeast Colony feels in play, not a mandate to copy its systems.。
+- [0. Purpose](/research/fleshbeast/00-Purpose.md) — This document records the user-provided analysis of the three-part gameplay videos for Fleshbeast Colony / フレッシュビースト・コロニー and…。
+- [1. Source status](/research/fleshbeast/01-Source-status.md) — The details below are treated as a user-provided field report from gameplay videos.。
+- [2. Core resource and territory system](/research/fleshbeast/02-Core-resource-and-territory-system.md) — Fleshbeast Colony appears to replace ordinary colony economy with Hemogel, a biomass-like resource used for creature production, flesh…。
+- [3. Human mutation, core creation, and division loop](/research/fleshbeast/03-Human-mutation-core-creation-and-division-loop.md) — A mutated human can become a one-per-map Flesh Heart that serves as the colony core and produces Hemogel passively.。
+- [4. Creature system and fusion progression](/research/fleshbeast/04-Creature-system-and-fusion-progression.md) — Creatures can apparently be assigned to a master-like pawn group, similar in feel to mech escort commands: follow, attack, guard, or…。
+- [5. Buildings and infrastructure](/research/fleshbeast/05-Buildings-and-infrastructure.md) — Flesh walls/doors appear instantly from the ground when ordered and consume Hemogel. Flesh doors regenerate extremely quickly and can…。
+- [6. Economy and raid-balance implication](/research/fleshbeast/06-Economy-and-raid-balance-implication.md) — The reported gameplay impression is that many creatures and flesh buildings may have low or poorly counted colony wealth, allowing a…。
+- [7. Adopt / avoid table for Shion Nexus](/research/fleshbeast/07-Adopt-avoid-table-for-Shion-Nexus.md) — Adopt / avoid table for Shion Nexusは、Fleshbeast pattern：Shion Nexus decisionとSingle vulnerable core：Adopt structurally through Nexus…。
+- [8. Alpha impact](/research/fleshbeast/08-Alpha-impact.md) — This reference does not change Alpha 0.1 scope.。
+- [9. Performance cautions](/research/fleshbeast/09-Performance-cautions.md) — Do not import these patterns into Shion Nexus without hard limits、具体的にはauto-expanding territory;とauto-capturing floor;を扱う。
+- [10. Final lesson](/research/fleshbeast/10-Final-lesson.md) — Fleshbeast Colony is a strong reference because it fully commits to being a different colony ecology.。
+- [Boundary](/research/known-code/000-Boundary.md) — Code-level reuse is limited to repositories owned by Daffodil. Monolyn Race, Fleshbeast Colony, Arachnae Swarm 2, Dolls Nest, RimWorld,…。
+- [Sources inspected](/research/known-code/001-Sources-inspected.md) — - Daffodil-lab/Meiko-Race-The-Manufactured-Utopia-A-Clockwork-Fox-Doll at indexed commit aed3ab77724fdab6cf9166abab80bf2dd22a9e96. -…。
+- [Adopted and ported](/research/known-code/002-Adopted-and-ported.md) — Adopted and portedは、Source：Reused idea：Kombinat resultとMeikoNexus.csproj：net472, Krafs.Rimworld.Ref, direct Assemblies…。
+- [Adapt, do not copy directly](/research/known-code/003-Adapt-do-not-copy-directly.md) — Adapt, do not copy directlyは、Legacy code：ReasonとCompNexusCore CVE and digital-material fields：Aggregate reservedCVE floats have no…。
+- [Rejected from the runtime](/research/known-code/004-Rejected-from-the-runtime.md) — - A monolithic Core building Comp as the owner of resource truth. - Separate aggregate reservation totals without reservation records.…。
+- [First vertical-slice guarantees](/research/known-code/005-First-vertical-slice-guarantees.md) — 1. Five canonical inventory resources are Defs; population, labor, bandwidth, capacity, research, fame, and defense readiness are not…。
+- [Next extraction](/research/known-code/006-Next-extraction.md) — The next safe port is the construction-site lifecycle. Replace its reservedCVE/reservedMaterials fields with one Kombinat reservation…。
+- [Build](/research/kombinat-prototype/000-Build.md) — The compiled prototype assembly is written to Assemblies/Kombinat.dll. Do not copy it into the Core package.。
+- [Current status](/research/kombinat-prototype/001-Current-status.md) — No v3 product component is implemented. The next task is to pin the Matter Network baseline, record the MIT notices and adopted files,…。
+- [0. 出典と利用範囲](/research/kombinat-ui-references/00-%E5%87%BA%E5%85%B8%E3%81%A8%E5%88%A9%E7%94%A8%E7%AF%84%E5%9B%B2.md) — ユーザー提供映像をKombinatのUI・操作研究に限定して利用し、画像・コード・固有表現のコピー元にはしない。
+- [1. MonolynのネットワークUIから採るもの](/research/kombinat-ui-references/01-Monolyn%E3%81%AE%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AFUI%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — Monolynの集中資源、生産一覧、選択時ネットワーク表示から、Kombinatへ採用する情報設計を抽出する。
+- [2. Arsenal Codexの直接交換から採るもの](/research/kombinat-ui-references/02-Arsenal-Codex%E3%81%AE%E7%9B%B4%E6%8E%A5%E4%BA%A4%E6%8F%9B%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — 接続保管庫からPawnへ直接装備し、現在装備を同じ取引で返す操作を、Coreの原子的武器交換の参照とする。
+- [3. DSUから採るUIと採らない実装](/research/kombinat-ui-references/03-DSU%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8BUI%E3%81%A8%E6%8E%A1%E3%82%89%E3%81%AA%E3%81%84%E5%AE%9F%E8%A3%85.md) — DSUの検索・任意排出・Pawnアクセスは参照するが、中央Mapセルへ内容物を集積する保管方式は採用しない。
+- [4. 要求中間素材作成の操作イメージ](/research/kombinat-ui-references/04-%E8%A6%81%E6%B1%82%E4%B8%AD%E9%96%93%E7%B4%A0%E6%9D%90%E4%BD%9C%E6%88%90%E3%81%AE%E6%93%8D%E4%BD%9C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8.md) — 在庫とRecipeを並べ、最終品の要求から不足中間品と総材料を確認する簡潔な操作モデルをKombinatへ適用する。
+- [0. Purpose](/research/monolyn-practice/00-Purpose.md) — This document records the user-provided summary of real player practice around Monolyn Race from Steam Workshop Q&A, Steam Workshop…。
+- [1. Source status](/research/monolyn-practice/01-Source-status.md) — The details below are treated as a user-provided field report from public player discussion and strategy notes.。
+- [2. Basic loop and onboarding problems](/research/monolyn-practice/02-Basic-loop-and-onboarding-problems.md) — Reported player issue、具体的にはPrayer is not handled as an ordinary Job.とPlayers assign Meditate through the Schedule tab.を扱う。
+- [3. Light management in real play](/research/monolyn-practice/03-Light-management-in-real-play.md) — Reported player issue、具体的にはThere is no direct electricity-to-Light conversion.とAs colony wealth/scale grows, Light income can fall…。
+- [4. Baptism use and costs](/research/monolyn-practice/04-Baptism-use-and-costs.md) — Reported player practice、具体的にはConverting other races through a baptismal font is a basic way to secure Monolyn personnel.とBaptism may…。

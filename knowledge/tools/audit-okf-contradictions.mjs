@@ -1,0 +1,186 @@
+import fs from "node:fs";
+import path from "node:path";
+
+const ROOT = process.cwd();
+const BUNDLE = path.join(ROOT, "knowledge");
+const CASES = path.join(BUNDLE, "contradictions");
+const errors = [];
+const warnings = [];
+const classCounts = new Map();
+const stateCounts = new Map();
+let concepts = 0;
+let underReview = 0;
+let cases = 0;
+const canonReviewCounts = new Map();
+
+const allowedClasses = new Set([
+  "hard-conflict",
+  "projection-drift",
+  "overhaul-divergence",
+  "protected-unresolved",
+  "implementation-reservation",
+  "historical-difference",
+]);
+const allowedStates = new Set([
+  "active",
+  "quarantined",
+  "resolved",
+  "accepted-unresolved",
+]);
+
+function walk(dir) {
+  const files = [];
+  for (const entry of fs.readdirSync(dir, { withFileTypes: true })) {
+    const full = path.join(dir, entry.name);
+    if (entry.isDirectory()) files.push(...walk(full));
+    else if (entry.name.endsWith(".md")) files.push(full);
+  }
+  return files;
+}
+
+function relative(file) {
+  return path.relative(ROOT, file).replace(/\\/g, "/");
+}
+
+function metadata(text) {
+  const block = text.match(/^---\n([\s\S]*?)\n---\n/)?.[1] || "";
+  const result = {};
+  for (const line of block.split("\n")) {
+    const match = line.match(/^([a-z_]+):\s*(.+)$/i);
+    if (match) result[match[1]] = match[2].replace(/^["']|["']$/g, "");
+  }
+  return result;
+}
+
+if (!fs.existsSync(BUNDLE) || !fs.existsSync(CASES)) {
+  console.error("knowledge/contradictions/ does not exist.");
+  process.exit(1);
+}
+
+for (const file of walk(BUNDLE)) {
+  if (["index.md", "log.md"].includes(path.basename(file))) continue;
+  concepts += 1;
+  const text = fs.readFileSync(file, "utf8").replace(/\r\n?/g, "\n");
+  const meta = metadata(text);
+
+  if (meta.overhaul_state === "under-review") {
+    underReview += 1;
+    const expected = {
+      status: "draft",
+      authority: "protected-draft",
+      knowledge_role: "draft-proposal",
+    };
+    for (const [key, value] of Object.entries(expected)) {
+      if (meta[key] !== value) {
+        errors.push(
+          `${relative(file)}: under-review requires ${key}: ${value}`,
+        );
+      }
+    }
+  }
+
+  if (
+    meta.knowledge_role === "catalog-record" &&
+    meta.canonical_scope?.startsWith("backstory-")
+  ) {
+    const allowedReviewStates = new Set([
+      "candidate",
+      "re-audit",
+      "accepted",
+      "rejected",
+    ]);
+    if (!allowedReviewStates.has(meta.canon_review)) {
+      errors.push(
+        `${relative(file)}: backstory catalog record requires a valid canon_review`,
+      );
+    } else {
+      canonReviewCounts.set(
+        meta.canon_review,
+        (canonReviewCounts.get(meta.canon_review) || 0) + 1,
+      );
+    }
+  }
+
+  if (path.dirname(file) === CASES) {
+    cases += 1;
+    if (!allowedClasses.has(meta.conflict_class)) {
+      errors.push(
+        `${relative(file)}: invalid conflict_class ${meta.conflict_class || "(missing)"}`,
+      );
+    }
+    if (!allowedStates.has(meta.conflict_state)) {
+      errors.push(
+        `${relative(file)}: invalid conflict_state ${meta.conflict_state || "(missing)"}`,
+      );
+    }
+    if (!["true", "false"].includes(meta.blocking)) {
+      errors.push(`${relative(file)}: blocking must be true or false`);
+    }
+    if (meta.conflict_class) {
+      classCounts.set(
+        meta.conflict_class,
+        (classCounts.get(meta.conflict_class) || 0) + 1,
+      );
+    }
+    if (meta.conflict_state) {
+      stateCounts.set(
+        meta.conflict_state,
+        (stateCounts.get(meta.conflict_state) || 0) + 1,
+      );
+    }
+    if (meta.conflict_state === "active" && meta.blocking === "true") {
+      errors.push(`${relative(file)}: unresolved blocking contradiction`);
+    }
+  }
+
+  const isActiveCanon =
+    meta.status === "stable" &&
+    meta.authority === "canonical" &&
+    meta.knowledge_role === "source-of-truth";
+  if (
+    isActiveCanon &&
+    /^\|\s*種族\s*\|\s*シオン[／/]ソフェル\s*\|/m.test(text)
+  ) {
+    errors.push(
+      `${relative(file)}: active canon conflates the Shion species with the Sofer profession`,
+    );
+  }
+}
+
+if (cases === 0) errors.push("no contradiction cases found");
+if (underReview === 0) warnings.push("no concepts are marked under-review");
+
+console.log("# OKF contradiction audit");
+console.log(`Concepts inspected: ${concepts}`);
+console.log(`Contradiction cases: ${cases}`);
+console.log(`Concepts quarantined for overhaul: ${underReview}`);
+console.log(
+  `Backstory canon review: ${[...canonReviewCounts.entries()]
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .map(([key, value]) => `${key}=${value}`)
+    .join(", ")}`,
+);
+console.log(
+  `Classes: ${[...classCounts.entries()]
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .map(([key, value]) => `${key}=${value}`)
+    .join(", ")}`,
+);
+console.log(
+  `States: ${[...stateCounts.entries()]
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .map(([key, value]) => `${key}=${value}`)
+    .join(", ")}`,
+);
+
+if (warnings.length) {
+  console.warn(`Warnings (${warnings.length}):`);
+  for (const warning of warnings) console.warn(`- ${warning}`);
+}
+if (errors.length) {
+  console.error(`Contradiction audit failed with ${errors.length} error(s):`);
+  for (const error of errors) console.error(`- ${error}`);
+  process.exit(1);
+}
+
+console.log("Contradiction audit passed: no unresolved blocking contradiction.");

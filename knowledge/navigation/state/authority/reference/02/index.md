@@ -1,0 +1,51 @@
+# reference 02
+
+範囲: 5. Terminal body operation〜10. 合否判定
+
+## 項目
+
+- [5. Terminal body operation](/research/monolyn-practice/05-Terminal-body-operation.md) — Reported player confusion、具体的にはDestroyed mechanical terminal bodies cannot be revived through the baptismal font.とThey need Terminal:…。
+- [6. Base structure and expansion play](/research/monolyn-practice/06-Base-structure-and-expansion-play.md) — Reported player practice、具体的にはTower can share Light, materials, and personnel regardless of location.とPlayers use this to run a main…。
+- [7. Compatibility problems](/research/monolyn-practice/07-Compatibility-problems.md) — Reported issues、具体的にはVanilla Research Panel can conflict with Tower decoding/research and auto-cancel it.とVE Framework-related faction…。
+- [8. The four real Monolyn management layers](/research/monolyn-practice/08-The-four-real-Monolyn-management-layers.md) — The reported practical Monolyn loop appears to combine four resource-management layers、具体的にはprayer/meditation schedule…。
+- [9. Adopt / avoid table for Shion Nexus](/research/monolyn-practice/09-Adopt-avoid-table-for-Shion-Nexus.md) — Adopt / avoid table for Shion Nexusは、Monolyn player-practice pattern：Shion Nexus decisionとCentral Tower as colony-scale identity：Adopt…。
+- [10. Alpha impact](/research/monolyn-practice/10-Alpha-impact.md) — This reference does not change Alpha 0.1 scope.。
+- [11. Performance cautions](/research/monolyn-practice/11-Performance-cautions.md) — Avoid importing these patterns without hard limits、具体的にはschedule-driven labor loops that require many pawns;とunbounded resource demand…。
+- [12. Final lesson](/research/monolyn-practice/12-Final-lesson.md) — Monolyn is valuable because players actually build around its Tower, Light, baptism, and terminal systems.。
+- [13. Source links recorded by user](/research/monolyn-practice/13-Source-links-recorded-by-user.md) — Source links recorded by userは、Monolyn Race - Steam Workshop Q&A:…。
+- [0. Purpose](/research/monolyn-ui/00-Purpose.md) — This document records the user-provided summary of Monolyn Race UI and system feedback from developer Q&A, bug report threads, and…。
+- [1. Source status](/research/monolyn-ui/01-Source-status.md) — The details below are treated as a user-provided field report from public player feedback and strategy/review sources.。
+- [2. Overall system reception](/research/monolyn-ui/02-Overall-system-reception.md) — Reported NamuWiki-style evaluation、具体的にはMonolyn is high quality, but unusual compared with many existing mods.とIts prayer UI,…。
+- [3. Delayed or opaque feedback](/research/monolyn-ui/03-Delayed-or-opaque-feedback.md) — Reported issue、具体的にはA player can interact with the Tower and receive a vague message like something has happened, but see no immediate…。
+- [4. Icon and description ambiguity](/research/monolyn-ui/04-Icon-and-description-ambiguity.md) — Reported issue、具体的にはGuardian Flare and Radiant Flare appear to have identical or near-identical descriptions.とDeveloper clarifies their…。
+- [5. Research tab stability](/research/monolyn-ui/05-Research-tab-stability.md) — Reported issue、具体的にはClicking a dedicated research tab such as Shinsung Engineering can cause the description area to disappear, though…。
+- [6. Other compatibility and implementation issues](/research/monolyn-ui/06-Other-compatibility-and-implementation-issues.md) — Reported examples、具体的にはHats Display Selection conflict can make hat-wearing pawns invisible under roofs and cause lag; disabling a…。
+- [7. UI/system strengths to learn from](/research/monolyn-ui/07-UI-system-strengths-to-learn-from.md) — Monolyn strengths reported by players/review、具体的にはstrong faction identity;とTower-centered operation;を扱う。
+- [8. UI/system failures to avoid](/research/monolyn-ui/08-UI-system-failures-to-avoid.md) — Avoid in Shion Nexus alpha、具体的にはcentral actions with delayed invisible outcomes;とprogress that says inactive while active;を扱う。
+- [9. Alpha impact](/research/monolyn-ui/09-Alpha-impact.md) — This reference reinforces current Alpha 0.1 rules.。
+- [10. Shion Nexus UI checklist](/research/monolyn-ui/10-Shion-Nexus-UI-checklist.md) — Before Alpha 0.1 release, confirm、具体的にはCore Inspect explains alive/damaged/destroyed state.とLedger Inspect shows CVE, capacity, shells,…。
+- [11. Performance cautions](/research/monolyn-ui/11-Performance-cautions.md) — UI and feedback systems must not introduce hidden cost.。
+- [12. Final lesson](/research/monolyn-ui/12-Final-lesson.md) — Monolyn's system design is strong because its Tower, Light, Codex, implants, buildings, and terminals form a coherent identity.。
+- [13. Source links recorded by user](/research/monolyn-ui/13-Source-links-recorded-by-user.md) — Source links recorded by userは、NamuWiki Monolyn page:…。
+- [0. Purpose](/research/reference-mods/00-Purpose.md) — This document records how three existing RimWorld Workshop mods should be used as structural references for Shion Nexus.。
+- [1. Source links](/research/reference-mods/01-Source-links.md) — Source linksは、Monolyn Race - Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3742031864とFleshbeast Colony -…。
+- [2. High-level comparison](/research/reference-mods/02-High-level-comparison.md) — High-level comparisonは、Mod：Public core idea：Shion Nexus reference value：Do not copyとMonolyn Race：Tower gathers Light through prayer and…。
+- [3. Monolyn Race structural lessons](/research/reference-mods/03-Monolyn-Race-structural-lessons.md) — Monolyn Race is useful because it presents a complete central-resource colony model.。
+- [4. Fleshbeast Colony structural lessons](/research/reference-mods/04-Fleshbeast-Colony-structural-lessons.md) — Fleshbeast Colony expands Anomaly's fleshbeast theme into a colony-scale organic infrastructure. Its public description emphasizes…。
+- [5. Arachnae Swarm 2 structural lessons](/research/reference-mods/05-Arachnae-Swarm-2-structural-lessons.md) — Arachnae Swarm 2 publicly describes a Gestalt consciousness colony centered on a Queen. The Queen commands Overlords, and Overlords…。
+- [6. Combined structural extraction](/research/reference-mods/06-Combined-structural-extraction.md) — The three reference mods suggest the following useful structures、具体的にはCentral resource reservoir：Monolyn Light / Tower, Fleshbeast…。
+- [7. Shion Nexus non-copy rules](/research/reference-mods/07-Shion-Nexus-non-copy-rules.md) — Shion Nexus must not become、具体的にはMonolyn with foxes;とFleshbeast with machines;を扱う。
+- [8. First playable reference priorities](/research/reference-mods/08-First-playable-reference-priorities.md) — First playable reference prioritiesは、Monolyn-style central resource and Tower automation.とMonolyn-style colony support through central…。
+- [9. Final rule](/research/reference-mods/09-Final-rule.md) — The reference mods prove that strong race/colony mods work best when they are not just pawns with stats. They need a colony-scale…。
+- [10. Vivi Raceの非HAR種族実装パターン](/research/reference-mods/10-Vivi-Race%E9%9D%9EHAR%E7%A8%AE%E6%97%8F%E5%AE%9F%E8%A3%85%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3.md) — Vivi RaceがHARを必須所有者にせず、バニラ人型処理、Biotech、独自身体、Pawn render tree、任意HAR互換を組み合わせる構成をShion向けに分類する。
+- [0. 結論](/research/theme-overhaul/00-%E7%B5%90%E8%AB%96.md) — 世界観の根本を捨てる必要はない、また核となる発想は強い。
+- [1. 正式な中心命題](/research/theme-overhaul/01-%E6%AD%A3%E5%BC%8F%E3%81%AA%E4%B8%AD%E5%BF%83%E5%91%BD%E9%A1%8C.md) — 今後は、以下を全コンテンツに優先するという方針の適用範囲と条件を定める。
+- [2. 現行設定の判定](/research/theme-overhaul/02-%E7%8F%BE%E8%A1%8C%E8%A8%AD%E5%AE%9A%E3%81%AE%E5%88%A4%E5%AE%9A.md) — 現時点のKombinat実装は、5資源のWorld台帳、予約、コミット、返還、セーブ状態を持つ基盤であり、テーマ上はほぼ中立である。
+- [3. プレイヤーへ見せる情報の四層](/research/theme-overhaul/03-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%B8%E8%A6%8B%E3%81%9B%E3%82%8B%E6%83%85%E5%A0%B1%E3%81%AE%E5%9B%9B%E5%B1%A4.md) — プレイヤーが覚える必要のある核は四つだけにする。
+- [4. ゲーム内文章の情報予算](/research/theme-overhaul/04-%E3%82%B2%E3%83%BC%E3%83%A0%E5%86%85%E6%96%87%E7%AB%A0%E3%81%AE%E6%83%85%E5%A0%B1%E4%BA%88%E7%AE%97.md) — 既存838件は削除せず、作者用カタログとして保持する。
+- [5. チープな近未来SFを避ける規則](/research/theme-overhaul/05-%E3%83%81%E3%83%BC%E3%83%97%E3%81%AA%E8%BF%91%E6%9C%AA%E6%9D%A5SF%E3%82%92%E9%81%BF%E3%81%91%E3%82%8B%E8%A6%8F%E5%89%87.md) — 現実性は手触りであり、文明の上限ではないという方針の適用範囲と条件を定める。
+- [6. 実在参照と命名の処理](/research/theme-overhaul/06-%E5%AE%9F%E5%9C%A8%E5%8F%82%E7%85%A7%E3%81%A8%E5%91%BD%E5%90%8D%E3%81%AE%E5%87%A6%E7%90%86.md) — 以下はテーマ・トーン再審査ガイドQ0と、近未来／20世紀パスティーシュ回避の両方から優先度が高い。
+- [7. プレイヤーがテーマを意識せず受け取るゲーム表現](/research/theme-overhaul/07-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E3%83%86%E3%83%BC%E3%83%9E%E3%82%92%E6%84%8F%E8%AD%98%E3%81%9B%E3%81%9A%E5%8F%97%E3%81%91%E5%8F%96%E3%82%8B%E3%82%B2%E3%83%BC%E3%83%A0%E8%A1%A8%E7%8F%BE.md) — プレイヤーがテーマを意識せず受け取るゲーム表現は、食事不要のシオンが料理へ時間を使い、効率低下にならないと働かない市民がデバフも非難も受けず、趣味から小さな利益を生むことがあるを扱う。
+- [8. 文章サンプル](/research/theme-overhaul/08-%E6%96%87%E7%AB%A0%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB.md) — 食事も仕事も身体も選べる、狐型機械人シオンの開拓団。
+- [9. 実施順序](/research/theme-overhaul/09-%E5%AE%9F%E6%96%BD%E9%A0%86%E5%BA%8F.md) — 実施順序は、統合資料§1、§7.2、§11.1を中心命題に合わせて改稿する。
+- [10. 合否判定](/research/theme-overhaul/10-%E5%90%88%E5%90%A6%E5%88%A4%E5%AE%9A.md) — 新しい設定・文章・機能は、次の順で判定するという方針の適用範囲と条件を定める。

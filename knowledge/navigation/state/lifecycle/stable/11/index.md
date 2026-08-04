@@ -1,0 +1,86 @@
+# stable 11
+
+範囲: SHION_A343 旧山岳部族圏の狩猟指導員〜2. 基本定義
+
+## 項目
+
+- [SHION_A343 旧山岳部族圏の狩猟指導員](/backstories/mastery/SHION_A343.md) — 船の中に獲物なんているわけないだろう、って最初はみんなに笑われたよ。
+- [SHION_A344 律法草稿班の写字生](/backstories/mastery/SHION_A344.md) — 律法を書き写す仕事は、種を一粒ずつ植えるのに似ている。
+- [SHION_A345 混成家族区画の調停役](/backstories/mastery/SHION_A345.md) — 混成家族区画の調停役では、俺が律法の番人だったなんて話は大げさすぎる。
+- [SHION_A346 儀礼歌唱団の指導者](/backstories/mastery/SHION_A346.md) — 儀礼歌唱団の指導者では、声を合わせる、それが本人の仕事だった。
+- [SHION_A347 医療儀礼班の消毒係](/backstories/mastery/SHION_A347.md) — 消毒液の匂いは律法の儀式にも使われるようになった。
+- [SHION_A348 旧慣習継承者の織物職人](/backstories/mastery/SHION_A348.md) — 師匠はいつも「糸は嘘をつかない、織り手が嘘をつくだけだ」と言っていた。
+- [SHION_A349 種子祭祀班の司祭見習い](/backstories/mastery/SHION_A349.md) — 種子祭祀班の司祭見習いでは、あたしは実りの民の文化を継ぐ。
+- [SHION_A350 儀礼班の道具管理人](/backstories/mastery/SHION_A350.md) — 儀礼班の道具管理人では、儀礼班が使う道具は年々増えていった。
+- [SHION_A351 混住区の水利管理人](/backstories/mastery/SHION_A351.md) — 混住区の水利管理人では、俺は継ぎ接ぎの民の文化を継ぐ。
+- [SHION_A352 統合戸籍局の記録係](/backstories/mastery/SHION_A352.md) — 旧い区画名が消えて、番号だけの住所に変わった日のことは、あまり話したくない。
+- [SHION_A353 帝国建国式典班の演出係](/backstories/mastery/SHION_A353.md) — 帝国が成立した日の式典、あの照明はあたしが仕込んだのよ。
+- [SHION_A354 秩序維持隊の初代隊員](/backstories/mastery/SHION_A354.md) — 秩序維持隊の初代選抜で、武器ではなく当事者双方の話を先に聞く役を担った。
+- [SHION_A355 律法院の下級書記](/backstories/mastery/SHION_A355.md) — 俺が律法院の基礎を作った一人だなんて話は誰が広めたのか知らないが、訂正させてくれ。
+- [SHION_A356 甲板治安班の巡回員](/backstories/mastery/SHION_A356.md) — 甲板治安班の巡回員では、巡回の仕事は単調だった。
+- [SHION_A357 帝国准備評議会の書類整理係](/backstories/mastery/SHION_A357.md) — 帝国という名前が正式に決まる前、評議会には十以上の候補名があって、本人はその全部の書類を作り直す係だった。
+- [SHION_A358 帝国准民候補の農区監督](/backstories/mastery/SHION_A358.md) — 旧い区画ごとに違っていた農区の作付け方式を、本人は一つの方式にまとめる役目を任された。
+- [SHION_A359 律法学舎最後の教師](/backstories/mastery/SHION_A359.md) — 律法学舎の仮設天幕時代から最後の学年まで、身体更新と人格記録を継ぎながら教え続けた。
+- [SHION_A360 船体保守班の耳](/backstories/mastery/SHION_A360.md) — 船体保守班で金属音から継ぎ目の緩みを聞き分け、先達から継いだ工具箱と聴覚技術を磨いた。
+- [SHION_A361 配給厨房の即興者](/backstories/mastery/SHION_A361.md) — 「その根菜、皮ごと煮ちまいな」って厨房の先達がいつも言ってた。
+- [SHION_A362 織機の航海士](/backstories/mastery/SHION_A362.md) — 織機の航海士では、布を織るのは航海と同じじゃとわしは思うとる。
+- [SHION_A363 水耕甲板の低温損傷](/backstories/mastery/SHION_A363.md) — 低温の水耕甲板で触覚センサーと指先外装を傷め、計器を信頼する手順を身につけた。
+- [SHION_A364 壁画班の異論](/backstories/mastery/SHION_A364.md) — 故郷の風景を描いて心を慰めた、とよく言われるけれど違う。
+- [SHION_A365 隔離区画の手順書](/backstories/mastery/SHION_A365.md) — 医療隔離班で、外部居住者の感染症とシオンの汚染状態を分け、隔離・換気・記録を反復した。
+- [SHION_A366 巡回区画の三つの規則](/backstories/mastery/SHION_A366.md) — 持ち場を離れない、武器を見せない、揉め事を数える前に止めるという三規則を守り続けた。
+- [SHION_A367 世帯調整員の台帳](/backstories/mastery/SHION_A367.md) — 世帯調整局で、外部居住者の出生と全住民のパートナー関係・居住区割当を別台帳へ記録した。
+- [SHION_A368 家畜甲板の自慢話](/backstories/mastery/SHION_A368.md) — うちの班が育てた家畜は船の中で一番機嫌が良かったって、これは自慢していいと思う。
+- [SHION_A369 律法以前の祈り手](/backstories/mastery/SHION_A369.md) — 律法以前の祈り手では、まだ名前もなかった、本人たちがしていたことには。
+- [SHION_A370 共同礼拝堂の梁](/backstories/mastery/SHION_A370.md) — 石工文化を継ぐ建築班で、分解・修理できる組継ぎを共同礼拝堂の梁へ採用した。
+- [SHION_A371 混成学舎の初年度](/backstories/mastery/SHION_A371.md) — 最初の学舎は旧い出身圏ごとに教室を分けていた、それが間違いだったと今なら分かる。
+- [SHION_A372 採掘班の沈黙](/backstories/mastery/SHION_A372.md) — 採掘班の沈黙では、その年のことは、あまり話すことがない。
+- [SHION_A373 混成世代の勘違い集](/backstories/mastery/SHION_A373.md) — 混成世代の勘違い集では、よくある誤解が三つある。
+- [SHION_A374 亡き師の言葉を継ぐ厨房番](/backstories/mastery/SHION_A374.md) — 「塩は最後、感謝は最初」って師匠がいつも言ってた。
+- [SHION_A375 医療班の告白](/backstories/mastery/SHION_A375.md) — 医療班の告白では、巡回医療の経過は淡々と記していた。
+- [SHION_A376 仲裁人の想定問答](/backstories/mastery/SHION_A376.md) — 甲板間の揉め事は、たいてい旧い作法と新しい律法のどちらを優先するかで起きた。
+- [SHION_A377 統合行政区の初日](/backstories/mastery/SHION_A377.md) — 出身圏の旗を全部下ろした日のことを聞きたいのですか。
+- [SHION_A378 秩序維持隊の最終巡回](/backstories/mastery/SHION_A378.md) — 秩序維持隊の最終巡回では、秩序維持隊の任務は単純だった。
+- [SHION_A379 帝国准民の自嘲](/backstories/mastery/SHION_A379.md) — 帝国准民なんて肩書きがついた日、俺は道具箱の中身を数えていた。
+- [SHION_A380 農区統合の教訓](/backstories/mastery/SHION_A380.md) — 農区統合の教訓では、自分は作られた民族文化を継ぐ。
+- [SHION_A381 処置を受けた医療班長](/backstories/mastery/SHION_A381.md) — 今の本人は、あの頃の同僚がとうに見送った時間の先にいます。
+- [SHION_A382 帝国最初の設計技師](/backstories/mastery/SHION_A382.md) — 帝国という言葉が公式に使われ始めた頃、俺は最初の統合議事堂の設計図を引いていた。
+- [SHION_A383 統合期の芸術評議員の弁明](/backstories/mastery/SHION_A383.md) — 統合芸術評議班が旧い出身圏の様式をいくつも廃止したことを、今でも責められることがあります。
+- [SHION_A384 統合最後の証人](/backstories/mastery/SHION_A384.md) — 帝国が成立したその日を、まだ覚えている者がどれだけ残っているでしょうか。
+- [SHION_A385 測量隊の杭打ち手](/backstories/mastery/SHION_A385.md) — 本人が組んでいた測量儀は脚の一本がわずかに短くて、水平を取るのにいつも小石を挟んでいました。
+- [SHION_A386 種子船の育種番](/backstories/mastery/SHION_A386.md) — 俺が育てた大豆は発芽率が九割を超えた年があってな、班長にも褒められた。
+- [SHION_A387 移住船団の機関整備工](/backstories/mastery/SHION_A387.md) — あたしの仕事は簡単に言えば冷却管の詰まりを取ることだった。
+- [SHION_A388 巡回医療隊の外科助手](/backstories/mastery/SHION_A388.md) — 手術灯が一つしかない出張診療所で、本人は器具を渡す役だった。
+- [SHION_A389 建設隊の型枠職人](/backstories/mastery/SHION_A389.md) — 建設隊の型枠職人では、型枠は建物の見えない骨格だと本人は思っています。
+- [SHION_A390 第一次入植の炊事番](/backstories/mastery/SHION_A390.md) — うちがやってたことを数えてみると、まず配給の穀物をふやかす時間の調整、次に塩を切らさないための交換交渉、それから鍋底が焦げないよう火加減を見張ること。
+- [SHION_A391 動植物馴化隊の調教師](/backstories/mastery/SHION_A391.md) — 新しい星の獣を慣らす仕事は、扉を少しずつ開けるようなものだと自分は考えている。
+- [SHION_A392 灌漑隊の水路技師](/backstories/mastery/SHION_A392.md) — 水路は真っ直ぐ引けばいいというものではありません。
+- [SHION_A393 地質調査隊の掘削夫](/backstories/mastery/SHION_A393.md) — 地質調査隊の掘削夫では、特別な話なんて別にない。
+- [SHION_A394 港湾建設隊の潜水工](/backstories/mastery/SHION_A394.md) — 耳の奥がぎゅうっと締まる感覚、あれを覚えると潜水の深さが分かるようになる。
+- [SHION_A395 通信中継隊の中継技官](/backstories/mastery/SHION_A395.md) — 通信中継隊の中継技官では、中継塔の保守というのは、故障を待つ仕事である。
+- [SHION_A396 採掘隊の火薬係](/backstories/mastery/SHION_A396.md) — 採掘隊の火薬係では、一番信用されない仕事だったよ、火薬係なんてのは。
+- [SHION_A397 給水隊の配管工](/backstories/mastery/SHION_A397.md) — 配管の継ぎ手はもっと規格を統一するべきだと本人はずっと思っていました。
+- [SHION_A398 環境観測隊の気象観測員](/backstories/mastery/SHION_A398.md) — 空を毎日見て何が分かるのかって聞かれるけど、分かるようになるまでが長いのよ。
+- [SHION_A399 開拓団の狩猟番](/backstories/mastery/SHION_A399.md) — 獲物より先に風を読め、というのが自分の師匠の口癖だった。
+- [SHION_A400 移住船団の帳簿係](/backstories/mastery/SHION_A400.md) — 「この数字、また合わないぞ」と班長に何度も詰め寄られました。
+- [SHION_A401 種子船の記録画工](/backstories/mastery/SHION_A401.md) — 種子船の記録画工では、最初は退屈な仕事だと思っていました。
+- [SHION_A402 巡回医療隊の産婆](/backstories/mastery/SHION_A402.md) — 巡回医療隊で外部居住者の出産を支え、師匠から受け継いだ観察と沈着さを次の担当者へ伝えた。
+- [SHION_A403 建設隊の護衛兵](/backstories/mastery/SHION_A403.md) — 記録には英雄的な防衛戦みたいに書かれるかもしれんが、実際は違う。
+- [SHION_A404 第一次入植の仕立屋](/backstories/mastery/SHION_A404.md) — 古い布を捨てるくらいなら本人に持ってきてほしい、それだけはずっと言い続けてきました。
+- [SHION_A405 地質調査隊の測地画家](/backstories/mastery/SHION_A405.md) — 完成した地図の余白を、獣道を歩き、縮尺を測り、一本ずつ線を引いて埋めた。
+- [SHION_A406 港湾建設隊の荷役頭](/backstories/mastery/SHION_A406.md) — なんで荷役の頭なんて損な役回りを引き受けたのかって。
+- [SHION_A407 通信中継隊の暗号係](/backstories/mastery/SHION_A407.md) — 通信中継隊の暗号係では、覚えている数字が三つあります。
+- [SHION_A408 動植物馴化隊の獣医補](/backstories/mastery/SHION_A408.md) — まず傷口を洗う、それから膿を確認する、それから薬を塗る、それから包帯を巻く。
+- [SHION_A409 灌漑隊の腕っぷし](/backstories/mastery/SHION_A409.md) — 料理番のくせに喧嘩っ早いって、よくからかわれたよ。
+- [SHION_A410 星路建設隊の航路技師](/backstories/mastery/SHION_A410.md) — 本人が打った航路標識は、数えていた頃で九百を超えていました。
+- [SHION_A411 交易船団の交渉員](/backstories/mastery/SHION_A411.md) — 俺の仕事は簡単に言えば、初対面の開拓地相手に値切ることだ。
+- [SHION_A412 辺境行政府の巡察官](/backstories/mastery/SHION_A412.md) — 開拓地が増えれば増えるほど、本人のところに届く訴えも増えました。
+- [SHION_A413 律法学舎の若きソフェル](/backstories/mastery/SHION_A413.md) — 律法の写本を任されるようになったのは、灯火番だった頃から数えて十年目のことである。
+- [SHION_A414 港湾都市の造船匠](/backstories/mastery/SHION_A414.md) — わしが最初に組んだ竜骨は、今も外港に係留されたまま現役で使われとる。
+- [SHION_A415 種Cell研究所の培養手](/backstories/mastery/SHION_A415.md) — 種Cellの増殖速度は、与える鉄の純度でわずかに変わります。
+- [SHION_A416 イェツィラー学舎のマソレット講師](/backstories/mastery/SHION_A416.md) — 本人が弟子に最初に教えるのは、文字の書き方ではなく、書き損じた紙を燃やす作法である。
+- [SHION_A417 サイキック適性検査局の検査官](/backstories/mastery/SHION_A417.md) — 幼い頃、自分の針がほとんど振れなかったことを、本人はこの仕事に就いてから何度も思い出しました。
+- [SHION_A418 帝国拡張艦隊の航宙士](/backstories/mastery/SHION_A418.md) — 格納庫で拾った工具の名前を全部覚えていたのが、今の仕事の始まりだったのかもしれません。
+- [SHION_A419 秘文字工房の彫り師](/backstories/mastery/SHION_A419.md) — うちが挽いた顔料で書いた文字が光った日から、もう長い年月が経つ。
+- [匿名のソフェル](/characters/anonymous-sofer/00-%E7%8F%BE%E8%A1%8C%E6%AD%A3%E5%8F%B2.md) — 匿名のソフェルは、帝国最盛期から現代同盟まで記録と証言の保全を続ける、シオンの巡回ソフェルである。
+- [1. 本資料の目的](/characters/anonymous-sofer/01-%E6%9C%AC%E8%B3%87%E6%96%99%E3%81%AE%E7%9B%AE%E7%9A%84.md) — 本資料は、プレイヤー向けロア資料とバックストーリー群を編纂している「匿名のソフェル」について、次の事項を統合して定める。
+- [2. 基本定義](/characters/anonymous-sofer/02-%E5%9F%BA%E6%9C%AC%E5%AE%9A%E7%BE%A9.md) — 基本定義は、呼称：匿名のソフェルと本名：非公開を扱う。

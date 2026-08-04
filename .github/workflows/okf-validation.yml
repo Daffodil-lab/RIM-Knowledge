@@ -1,0 +1,52 @@
+name: OKF validation
+
+on:
+  pull_request:
+  push:
+    branches:
+      - main
+  workflow_dispatch:
+
+permissions:
+  contents: read
+
+concurrency:
+  group: okf-${{ github.workflow }}-${{ github.ref }}
+  cancel-in-progress: true
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Check out repository
+        uses: actions/checkout@v7.0.1
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v7.0.0
+        with:
+          node-version: "24"
+
+      - name: Run OKF checks
+        shell: bash
+        run: |
+          set -u
+          failed=0
+
+          check() {
+            "$@" || failed=1
+          }
+
+          check node knowledge/tools/refine-okf-descriptions.mjs --check
+          check node knowledge/tools/build-okf-navigation.mjs --check
+          check node knowledge/tools/normalize-retired-source-links.mjs --check
+          check node knowledge/tools/validate-okf.mjs
+
+          overlap_output="$(node knowledge/tools/audit-okf-overlap.mjs)" || failed=1
+          printf '%s\n' "$overlap_output"
+          if ! grep -Fxq 'Pairs at or above 30% containment: 0' <<< "$overlap_output"; then
+            failed=1
+          fi
+
+          check node knowledge/tools/audit-okf-contradictions.mjs
+          exit "$failed"
