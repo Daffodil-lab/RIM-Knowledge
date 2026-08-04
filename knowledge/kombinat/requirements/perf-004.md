@@ -6,7 +6,6 @@ tags:
   - "kombinat"
   - "requirements"
   - "production"
-  - "matter-network"
 organization_groups:
   - "kombinat-communities"
 status: stable
@@ -36,7 +35,6 @@ Core独自Storageの内部Thing数は保管基盤の性能fixtureで別途測り
 - 上位索引: [kombinat/requirements](/kombinat/requirements/index.md)
 - 同じ出典の前項: [PERF-003 長期](/kombinat/requirements/perf-003.md)
 - 同じ出典の次項: [A. 三段生産](/kombinat/requirements/044-A-三段生産.md)
-- 連携境界: [連携境界](/integrations/matter-network/index.md)
 
 ## 出典
 

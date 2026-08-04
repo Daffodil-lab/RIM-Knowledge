@@ -6,7 +6,6 @@ tags:
   - "okf"
   - "governance"
   - "kombinat"
-  - "matter-network"
   - "pawn"
   - "independent-colony"
   - "backstory"
@@ -43,9 +42,8 @@ generated:
 | Kombinatの追加層境界 | [Kombinat中核仕様](/kombinat/core/index.md) | 全体設計の要約 |
 | Kombinatの機能要件 | [Kombinat要件](/kombinat/requirements/index.md) | 中核仕様の要約 |
 | Kombinatの検証 | [Kombinat監査](/kombinat/audit/index.md) | 要件への検証リンク |
-| Matter Network上流境界 | [Matter Network境界](/integrations/matter-network/index.md) | 任意互換を検討する場合の外部連携・無改造境界 |
 | α以後の保管・接続基盤 | [Core独自保管・接続システムの実装境界](/design/51-Core独自保管接続システムの実装境界.md) | 独自Storage、直接転送、任意排出、Kombinat接続の唯一の所有者 |
-| Shion種族のバニラ優先実装とHAR非依存 | [バニラ優先Shion種族実装境界](/design/52-バニラ優先Shion種族実装境界.md) | 種族Def、Xenotype、Gene、依存、保存、性能条件の唯一の所有者 |
+| Shion種族のHuman・Biotech実装 | [バニラ優先Shion種族実装境界](/design/52-バニラ優先Shion種族実装境界.md) | 種族Def、Xenotype、Gene、依存、保存、性能条件の唯一の所有者 |
 | Pawn生産・保管・再生 | [Pawn仕様](/pawn/index.md) | 全体設計の高位境界 |
 | 制作・開示規則 | [制作・開示](/authoring/index.md) | プレイヤー文面への適用 |
 | 公開用の文面と説明順 | [プレイヤー向け設定](/player-facing/index.md) | 世界事実の投影のみ |
@@ -98,7 +96,6 @@ generated:
 - 上位索引: [governance](/governance/index.md)
 - 同じ出典の前項: [RIM OKFメタデータ契約](/governance/metadata-contract.md)
 - 同じ出典の次項: [重複と異なる粒度の管理規則](/governance/duplication-policy.md)
-- 連携境界: [連携境界](/integrations/matter-network/index.md)
 - Kombinat領域: [Kombinat領域](/kombinat/index.md)
 - Pawn領域: [Pawn領域](/pawn/index.md)
 - バックストーリー群: [バックストーリー群](/backstories/index.md)

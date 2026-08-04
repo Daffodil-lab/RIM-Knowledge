@@ -7,7 +7,6 @@ tags:
   - "independent-colony"
   - "gameplay"
   - "kombinat"
-  - "matter-network"
   - "pawn"
   - "equipment"
   - "alpha"
@@ -73,7 +72,6 @@ Recipeは、独立開拓団の生活に直結するものを優先する。
 - 上位索引: [colony](/colony/index.md)
 - 同じ出典の前項: [16. Field Ledger Terminal](/colony/16-Field-Ledger-Terminal.md)
 - 同じ出典の次項: [18. 独立状態のUI](/colony/18-独立状態のUI.md)
-- 連携境界: [連携境界](/integrations/matter-network/index.md)
 - Kombinat領域: [Kombinat領域](/kombinat/index.md)
 - 正規保管仕様: [Core独自保管・接続システムの実装境界](/design/51-Core独自保管接続システムの実装境界.md)
 - Pawn領域: [Pawn領域](/pawn/index.md)

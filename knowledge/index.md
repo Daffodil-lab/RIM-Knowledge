@@ -30,12 +30,11 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 - [決定履歴](decisions/) — 379件
 - [全体設計](design/) — 57件
 - [運用規則](governance/) — 8件
-- [外部連携境界](integrations/) — 8件
-- [Kombinat](kombinat/) — 86件
+- [Kombinat](kombinat/) — 85件
 - [横断ナビゲーション](navigation/) — 荷札から生成した派生索引
 - [Pawn生産・保管・再生](pawn/) — 91件
 - [プレイヤー向け設定](player-facing/) — 13件
-- [参考](reference/) — 1件
+- [参考](reference/) — 2件
 - [調査・参照](research/) — 117件
 - [リリース計画](roadmap/) — 12件
 - [退役済み出典識別台帳](sources/) — 削除済み原本・コード・図版の墓標

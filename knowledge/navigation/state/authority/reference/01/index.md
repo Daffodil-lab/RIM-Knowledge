@@ -1,9 +1,10 @@
 # reference 01
 
-範囲: 0. 権威順位と状態語〜4. Baptism use and costs
+範囲: 11. 現在の実装状態〜4. 要求中間素材作成の操作イメージ
 
 ## 項目
 
+- [11. 現在の実装状態](/colony/11-%E7%8F%BE%E5%9C%A8%E3%81%AE%E5%AE%9F%E8%A3%85%E7%8A%B6%E6%85%8B.md) — 実装済み機能とRelease Gateの現在地はリリース計画が所有し、本節は独立開拓団のα統合面を示す。
 - [0. 権威順位と状態語](/design/00-%E6%A8%A9%E5%A8%81%E9%A0%86%E4%BD%8D%E3%81%A8%E7%8A%B6%E6%85%8B%E8%AA%9E.md) — 0. 権威順位と状態語の重複本文を除き、唯一の知識所有者へ案内する項目。
 - [最初に読む：今回のオーバーホールで何を変えたか](/design/000-%E6%9C%80%E5%88%9D%E3%81%AB%E8%AA%AD%E3%82%80-%E4%BB%8A%E5%9B%9E%E3%81%AE%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%9B%E3%83%BC%E3%83%AB%E3%81%A7%E4%BD%95%E3%82%92%E5%A4%89%E3%81%88%E3%81%9F%E3%81%8B.md) — 最初に読む：今回のオーバーホールで何を変えたかの重複本文を除き、唯一の知識所有者へ案内する項目。
 - [1. 中心命題](/design/01-%E4%B8%AD%E5%BF%83%E5%91%BD%E9%A1%8C.md) — 1. 中心命題の重複本文を除き、唯一の知識所有者へ案内する項目。
@@ -11,9 +12,12 @@
 - [3. シオンの人格と身体](/design/03-%E3%82%B7%E3%82%AA%E3%83%B3%E3%81%AE%E4%BA%BA%E6%A0%BC%E3%81%A8%E8%BA%AB%E4%BD%93.md) — 3. シオンの人格と身体の重複本文を除き、唯一の知識所有者へ案内する項目。
 - [4. 善意の非対称性を物語へ変換する](/design/04-%E5%96%84%E6%84%8F%E3%81%AE%E9%9D%9E%E5%AF%BE%E7%A7%B0%E6%80%A7%E3%82%92%E7%89%A9%E8%AA%9E%E3%81%B8%E5%A4%89%E6%8F%9B%E3%81%99%E3%82%8B.md) — 4. 善意の非対称性を物語へ変換するの重複本文を除き、唯一の知識所有者へ案内する項目。
 - [5. 技術体系と文明的制約](/design/05-%E6%8A%80%E8%A1%93%E4%BD%93%E7%B3%BB%E3%81%A8%E6%96%87%E6%98%8E%E7%9A%84%E5%88%B6%E7%B4%84.md) — 5. 技術体系と文明的制約の重複本文を除き、唯一の知識所有者へ案内する項目。
+- [6. 世界、地理、歴史詳細の保全状態](/design/06-%E4%B8%96%E7%95%8C-%E5%9C%B0%E7%90%86-%E6%AD%B4%E5%8F%B2%E8%A9%B3%E7%B4%B0%E3%81%AE%E4%BF%9D%E5%85%A8%E7%8A%B6%E6%85%8B.md) — 起源地理と移動箱舟は正史へ再採用し、惑星・巨大建造物の一括カタログは候補または不採用へ分離した。
 - [9. Kombinat内部Runtime](/design/09-Kombinat%E5%86%85%E9%83%A8Runtime.md) — 9. Kombinat内部Runtimeの重複本文を除き、唯一の知識所有者へ案内する項目。
+- [12. その他の拡張群](/design/12-%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%8B%A1%E5%BC%B5%E7%BE%A4.md) — 旧内戦期拡張、46MOD構想、旧統合表を将来の再設計に使う参考記録として保持する。
 - [14. 装備、軍事、バランス](/design/14-%E8%A3%85%E5%82%99-%E8%BB%8D%E4%BA%8B-%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9.md) — 旧装備章を、設定クラスとカタログ、実装値と装備解決の二つの所有者へ分離して案内する。
 - [17. 匿名のソフェル](/design/17-%E5%8C%BF%E5%90%8D%E3%81%AE%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB.md) — 匿名のソフェルの重複本文を除き、現行人物像、実装予約、物語候補の所有者へ案内する項目。
+- [18. 旧バックストーリー生成システム](/design/18-%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC%E7%94%9F%E6%88%90%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0.md) — 実用水準に満たない旧バックストーリー生成案を、比較と再設計のための参考資料として保持する。
 - [19. 現在のリポジトリ事実](/design/19-%E7%8F%BE%E5%9C%A8%E3%81%AE%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E4%BA%8B%E5%AE%9F.md) — 19. 現在のリポジトリ事実の重複本文を除き、唯一の知識所有者へ案内する項目。
 - [21. 保存と版間互換](/design/21-%E4%BF%9D%E5%AD%98%E3%81%A8%E7%89%88%E9%96%93%E4%BA%92%E6%8F%9B.md) — 21. 保存と版間互換の重複本文を除き、唯一の知識所有者へ案内する項目。
 - [22. リリース段階](/design/22-%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E6%AE%B5%E9%9A%8E.md) — 22. リリース段階の重複本文を除き、唯一の知識所有者へ案内する項目。
@@ -22,6 +26,7 @@
 - [28. 旧資料の利用手順](/design/28-%E6%97%A7%E8%B3%87%E6%96%99%E3%81%AE%E5%88%A9%E7%94%A8%E6%89%8B%E9%A0%86.md) — 28. 旧資料の利用手順の重複本文を除き、唯一の知識所有者へ案内する項目。
 - [29. 文書責務](/design/29-%E6%96%87%E6%9B%B8%E8%B2%AC%E5%8B%99.md) — 29. 文書責務の重複本文を除き、唯一の知識所有者へ案内する項目。
 - [31. 完成条件](/design/31-%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — 31. 完成条件の重複本文を除き、唯一の知識所有者へ案内する項目。
+- [旧Matter Network統合検討](/reference/matter-network/00-%E6%97%A7%E7%B5%B1%E5%90%88%E6%A4%9C%E8%A8%8E.md) — Matter Network統合検討は終了した過去案件であり、判断経緯を探すための参考入口だけを保持する。
 - [0. Purpose](/research/anomaly-monolith/00-Purpose.md) — This document records user-provided screenshots of RimWorld Anomaly-style monolith structures as a visual reference for the redesigned…。
 - [1. Why Anomaly monoliths are useful](/research/anomaly-monolith/01-Why-Anomaly-monoliths-are-useful.md) — Anomaly monolith visuals are useful because they communicate、具体的にはa unique central object;とdormant mystery;を扱う。
 - [2. What to adopt](/research/anomaly-monolith/02-What-to-adopt.md) — Adopt structurally、具体的にはone strong central block;とside supports or buttresses;を扱う。
@@ -79,8 +84,3 @@
 - [2. Arsenal Codexの直接交換から採るもの](/research/kombinat-ui-references/02-Arsenal-Codex%E3%81%AE%E7%9B%B4%E6%8E%A5%E4%BA%A4%E6%8F%9B%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — 接続保管庫からPawnへ直接装備し、現在装備を同じ取引で返す操作を、Coreの原子的武器交換の参照とする。
 - [3. DSUから採るUIと採らない実装](/research/kombinat-ui-references/03-DSU%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8BUI%E3%81%A8%E6%8E%A1%E3%82%89%E3%81%AA%E3%81%84%E5%AE%9F%E8%A3%85.md) — DSUの検索・任意排出・Pawnアクセスは参照するが、中央Mapセルへ内容物を集積する保管方式は採用しない。
 - [4. 要求中間素材作成の操作イメージ](/research/kombinat-ui-references/04-%E8%A6%81%E6%B1%82%E4%B8%AD%E9%96%93%E7%B4%A0%E6%9D%90%E4%BD%9C%E6%88%90%E3%81%AE%E6%93%8D%E4%BD%9C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8.md) — 在庫とRecipeを並べ、最終品の要求から不足中間品と総材料を確認する簡潔な操作モデルをKombinatへ適用する。
-- [0. Purpose](/research/monolyn-practice/00-Purpose.md) — This document records the user-provided summary of real player practice around Monolyn Race from Steam Workshop Q&A, Steam Workshop…。
-- [1. Source status](/research/monolyn-practice/01-Source-status.md) — The details below are treated as a user-provided field report from public player discussion and strategy notes.。
-- [2. Basic loop and onboarding problems](/research/monolyn-practice/02-Basic-loop-and-onboarding-problems.md) — Reported player issue、具体的にはPrayer is not handled as an ordinary Job.とPlayers assign Meditate through the Schedule tab.を扱う。
-- [3. Light management in real play](/research/monolyn-practice/03-Light-management-in-real-play.md) — Reported player issue、具体的にはThere is no direct electricity-to-Light conversion.とAs colony wealth/scale grows, Light income can fall…。
-- [4. Baptism use and costs](/research/monolyn-practice/04-Baptism-use-and-costs.md) — Reported player practice、具体的にはConverting other races through a baptismal font is a basic way to secure Monolyn personnel.とBaptism may…。

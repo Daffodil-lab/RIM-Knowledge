@@ -5,7 +5,6 @@ description: "物理材料、工業資源、食料、薬品、武器、防具、
 tags:
   - "kombinat"
   - "implementation"
-  - "matter-network"
   - "equipment"
 organization_groups:
   - "kombinat-communities"
@@ -56,7 +55,6 @@ sources:
 - 上位索引: [kombinat/core](/kombinat/core/index.md)
 - 同じ出典の前項: [2. 状態分類](/kombinat/core/02-状態分類.md)
 - 同じ出典の次項: [4. Kombinat追加層の中核型](/kombinat/core/04-Kombinat追加層の中核型.md)
-- 連携境界: [連携境界](/integrations/matter-network/index.md)
 - 設定所有者: [代表工業資源](/world/33-代表工業資源.md)
 - 設定所有者: [同盟通貨](/world/39-同盟通貨.md)
 - 資源実装: [代表工業資源の実装境界](/design/38-代表工業資源の実装境界.md)

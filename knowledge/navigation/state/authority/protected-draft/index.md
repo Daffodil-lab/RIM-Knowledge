@@ -5,8 +5,8 @@
 ## 項目
 
 - [匿名のソフェルの物語フック候補](/characters/anonymous-sofer/54-%E7%89%A9%E8%AA%9E%E3%83%95%E3%83%83%E3%82%AF%E5%80%99%E8%A3%9C.md) — 旧人物資料から核を残した物語案であり、個別に改稿・採用されるまでは現行正史の出来事ではない。
-- [0. 目的](/research/remote-logistics/00-%E7%9B%AE%E7%9A%84.md) — 本書は、無改造Matter NetworkのローカルStorageと、Kombinat追加層の自動生産とは別に検討されていた遠距離物流を、情報を失わず延期するための保護領域である。
-- [1. 延期理由](/research/remote-logistics/01-%E5%BB%B6%E6%9C%9F%E7%90%86%E7%94%B1.md) — 延期理由は、αの完成条件を、無改造Matter Networkの通常入出庫と、Kombinat追加層の発注・多段自動生産へ集中させる。
+- [0. 目的](/research/remote-logistics/00-%E7%9B%AE%E7%9A%84.md) — 本書は、Coreのローカル保管とKombinatの自動生産から分離した遠距離物流を、将来の再検討まで保護する領域である。
+- [1. 延期理由](/research/remote-logistics/01-%E5%BB%B6%E6%9C%9F%E7%90%86%E7%94%B1.md) — 延期理由は、αの完成条件をCoreの通常入出庫とKombinatの発注・多段自動生産へ集中させることにある。
 - [2. 保全する概念](/research/remote-logistics/02-%E4%BF%9D%E5%85%A8%E3%81%99%E3%82%8B%E6%A6%82%E5%BF%B5.md) — 次は廃止ではなく、再検討候補として保全するという方針の適用範囲と条件を定める。
 - [3. 旧Transfer状態案](/research/remote-logistics/03-%E6%97%A7Transfer%E7%8A%B6%E6%85%8B%E6%A1%88.md) — 旧Transfer状態案の定義、境界、参照関係を示す資料。
 - [4. 旧要件の保全](/research/remote-logistics/04-%E6%97%A7%E8%A6%81%E4%BB%B6%E3%81%AE%E4%BF%9D%E5%85%A8.md) — Routeはsource、destination、scope、許可貨物、搬送手段、容量、所要時間、費用、優先度、危険、稼働状態を持つ。
