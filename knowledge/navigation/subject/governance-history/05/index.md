@@ -1,6 +1,6 @@
 # 運用・履歴 05
 
-範囲: 確定#323：秘文字の使い手の名称を「ソフェル」に確定〜現行資料の正仕様記述
+範囲: 確定#323：秘文字の使い手の名称を「ソフェル」に確定〜Open Knowledge Format 0.2 日本語規範解説
 
 ## 項目
 
@@ -68,6 +68,7 @@
 - [オーバーホール中の矛盾判定規則](/governance/contradiction-policy.md) — 改稿差分を誤って矛盾と判定せず、現行正本の衝突だけを止めるための規則。
 - [重複と異なる粒度の管理規則](/governance/duplication-policy.md) — 同じ内容を異なる粒度で必要とする場合でも、事実の所有者は一つにする。
 - [OKF知識の更新手順](/governance/editing-workflow.md) — OKF知識の更新手順は、ルート索引から対象領域を選ぶ。
-- [RIM OKFメタデータ契約](/governance/metadata-contract.md) — 各概念ファイルの先頭にはYAML frontmatterを置く。
+- [RIM OKFメタデータ契約](/governance/metadata-contract.md) — RIM概念ファイルのOKF 0.2標準メタデータと正本所有拡張の必須構造を定める。
 - [知識所有者マップ](/governance/ownership-map.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
 - [現行資料の正仕様記述](/governance/positive-specification-policy.md) — 履歴資料以外の文書は、採用済みの構造、状態、振る舞い、境界、失敗時結果、性能条件を正の仕様として記述する。
+- [Open Knowledge Format 0.2 日本語規範解説](/research/okf/00-Open-Knowledge-Format-v0.2-%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A7%A3%E8%AA%AC.md) — 公式Open Knowledge Format 0.2の必須構造、出典、検証、鮮度、実行証明とRIM拡張の関係を日本語で確認できる参照資料。

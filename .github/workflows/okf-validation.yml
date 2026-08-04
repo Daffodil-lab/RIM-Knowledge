@@ -40,6 +40,7 @@ jobs:
           check node knowledge/tools/refine-okf-descriptions.mjs --check
           check node knowledge/tools/build-okf-navigation.mjs --check
           check node knowledge/tools/normalize-retired-source-links.mjs --check
+          check node knowledge/tools/validate-okf-v02.mjs
           check node knowledge/tools/validate-okf.mjs
 
           overlap_output="$(node knowledge/tools/audit-okf-overlap.mjs)" || failed=1
