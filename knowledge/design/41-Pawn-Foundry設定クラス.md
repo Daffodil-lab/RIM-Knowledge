@@ -21,7 +21,8 @@ canonical_scope: "product-architecture"
 content_layer: "setting-class"
 generated:
   by: "process:rim-canonical-owner-audit"
-  at: "2026-07-26"
+  at: "2026-07-26T00:00:00Z"
+  precision: "date"
 ---
 
 # 41. Pawn Foundry設定クラス

@@ -17,7 +17,8 @@ canonical_scope: "okf-governance"
 source_section: "オーバーホール中の矛盾判定規則"
 generated:
   by: "process:rim-contradiction-audit"
-  at: "2026-07-26"
+  at: "2026-07-26T00:00:00Z"
+  precision: "date"
 ---
 
 # オーバーホール中の矛盾判定規則

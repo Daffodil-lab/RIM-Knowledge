@@ -14,7 +14,8 @@ granularity: concept
 source_section: "2. Arsenal Codexの直接交換から採るもの"
 generated:
   by: "process:user-media-ui-review"
-  at: "2026-07-27"
+  at: "2026-07-27T00:00:00Z"
+  precision: "date"
 sources:
   - id: "user-video-arsenal-codex"
     resource: "/research/kombinat-ui-references/assets/arsenal-codex-direct-swap.png"

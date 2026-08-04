@@ -21,7 +21,8 @@ conflict_state: "resolved"
 blocking: false
 generated:
   by: "process:rim-contradiction-audit"
-  at: "2026-07-26"
+  at: "2026-07-26T00:00:00Z"
+  precision: "date"
 ---
 
 # C-0002 匿名ソフェルのTierとQuality

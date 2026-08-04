@@ -13,8 +13,8 @@ knowledge_role: reference
 granularity: section
 source_section: "GoogleCloudPlatform/knowledge-catalog okf/SPEC.md"
 generated:
-  by: "process:codex-okf-v02-japanese-guide"
-  at: "2026-08-04T18:07:08+09:00"
+  by: "process:codex-okf-v02-date-precision-update"
+  at: "2026-08-04T18:44:05+09:00"
 sources:
   - id: "official-okf-v02"
     resource: "https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md"
@@ -67,6 +67,15 @@ generated:
 ```
 
 `generated`は人による正しさの確認を意味しない。生成と検証は別の事実である。
+
+元資料に日付しかなく実時刻を復元できない場合、RIMはOKF拡張として`precision: "date"`を同じ`generated`内へ置く。`at`の`T00:00:00Z`は日付を機械可読にするための表現であり、実際の更新時刻ではない。
+
+```yaml
+generated:
+  by: "process:rim-legacy-migration"
+  at: "2026-07-26T00:00:00Z"
+  precision: "date"
+```
 
 ## 4. 出典
 
@@ -126,14 +135,16 @@ attester: "process:github-actions"
 
 ## 8. RIMにおける適合層
 
-RIMでは二つの検証層を分ける。
+RIMでは正規化と二つの検証層を分ける。
 
-1. `validate-okf-v02.mjs`: 公式OKF 0.2の構造、来歴、出典、検証、鮮度、実行証明を日本語で検査する。
-2. `validate-okf.mjs`: RIM固有の正本所有、役割、説明文、リンク、バックストーリー要件を検査する。
+1. `normalize-okf-v02-datetimes.mjs`: 日付だけの旧生成来歴を、日付精度を保つRIM拡張付き日時へ正規化する。
+2. `validate-okf-v02.mjs`: 公式OKF 0.2の構造、来歴、出典、検証、鮮度、実行証明を日本語で検査する。
+3. `validate-okf.mjs`: RIM固有の正本所有、役割、説明文、リンク、バックストーリー要件を検査する。
 
 通常モードは公式の必須違反だけで失敗し、推奨事項は警告する。厳格モードは警告も失敗扱いにする。
 
 ```powershell
+node knowledge/tools/normalize-okf-v02-datetimes.mjs --check
 node knowledge/tools/validate-okf-v02.mjs
 node knowledge/tools/validate-okf-v02.mjs --strict
 node knowledge/tools/validate-okf-v02.mjs --json
