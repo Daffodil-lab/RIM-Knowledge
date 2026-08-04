@@ -1,6 +1,14 @@
 import fs from "node:fs";
 import path from "node:path";
 
+const args = new Set(process.argv.slice(2));
+const unknownArgs = [...args].filter((arg) => arg !== "--check");
+if (unknownArgs.length) {
+  console.error(`不明な引数です: ${unknownArgs.join(", ")}`);
+  console.error("使用法: node knowledge/tools/audit-okf-overlap.mjs [--check]");
+  process.exit(2);
+}
+
 const ROOT = process.cwd();
 const BUNDLE = path.join(ROOT, "knowledge");
 const INCLUDED_ROOTS = new Set([
@@ -136,4 +144,9 @@ for (const match of matches.slice(0, 80)) {
   console.log(
     `${(match.score * 100).toFixed(1)}%\t${match.left.relative}\t${match.right.relative}`,
   );
+}
+
+if (args.has("--check") && matches.length > 0) {
+  console.error("領域横断重複監査に失敗しました: 30%以上の包含ペアが残っています。");
+  process.exit(1);
 }
