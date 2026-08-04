@@ -29,12 +29,8 @@
 ## 保守
 
 ```powershell
-node knowledge/tools/refine-okf-descriptions.mjs --check
-node knowledge/tools/build-okf-navigation.mjs --check
-node knowledge/tools/normalize-retired-source-links.mjs --check
-node knowledge/tools/validate-okf.mjs
-node knowledge/tools/audit-okf-overlap.mjs
-node knowledge/tools/audit-okf-contradictions.mjs
+node knowledge/tools/maintain-okf.mjs --write
+node knowledge/tools/maintain-okf.mjs --check
 ```
 
-概念を追加・更新した後は、`node knowledge/tools/refine-okf-descriptions.mjs --write`、`node knowledge/tools/build-okf-navigation.mjs --write`、`node knowledge/tools/normalize-retired-source-links.mjs --write`を実行します。旧原本は削除済みなので、全件再移行は行いません。`knowledge/tools/build-okf.mjs`は初回移行の履歴として残した実行禁止ツールです。
+概念を追加・更新した後は、`maintain-okf.mjs --write`で日時精度、説明、ファセット、横断索引、退役済み出典識別子を固定順に更新し、そのまま全検査を実行します。`--check`はファイルを変更せず、同じ検査だけを実行します。CIは`--write`後の差分を拒否するため、派生資料のcommit漏れを検出します。旧原本は削除済みなので、全件再移行は行いません。`knowledge/tools/build-okf.mjs`は初回移行の履歴として残した実行禁止ツールです。

@@ -5,27 +5,22 @@
 ## 標準更新
 
 ```powershell
-node knowledge/tools/normalize-okf-v02-datetimes.mjs --write
-node knowledge/tools/refine-okf-descriptions.mjs --write
-node knowledge/tools/build-okf-navigation.mjs --write
-node knowledge/tools/normalize-retired-source-links.mjs --write
+node knowledge/tools/maintain-okf.mjs --write
 ```
+
+日時精度、説明とファセット、横断索引、退役済み出典識別子を固定順に更新し、その後に標準検査をすべて実行する。
 
 ## 標準検査
 
 ```powershell
-node knowledge/tools/normalize-okf-v02-datetimes.mjs --check
-node knowledge/tools/refine-okf-descriptions.mjs --check
-node knowledge/tools/build-okf-navigation.mjs --check
-node knowledge/tools/normalize-retired-source-links.mjs --check
-node knowledge/tools/validate-okf-v02.mjs
-node knowledge/tools/validate-okf.mjs
-node knowledge/tools/audit-okf-overlap.mjs
-node knowledge/tools/audit-okf-contradictions.mjs
+node knowledge/tools/maintain-okf.mjs --check
 ```
+
+ファイルを変更せず、日時精度、説明、索引、出典、OKF 0.2互換性、RIM固有構造、領域横断重複、設定矛盾を検査する。
 
 ## 個別保守
 
+- [統合更新・検査](maintain-okf.mjs)
 - [説明・ファセット整備](refine-okf-descriptions.mjs)
 - [横断ナビゲーション生成](build-okf-navigation.mjs)
 - [退役済み出典識別子の正規化](normalize-retired-source-links.mjs)
@@ -39,6 +34,8 @@ node knowledge/tools/audit-okf-contradictions.mjs
 - [バックストーリー層分離](separate-backstory-layers.mjs)
 
 `build-okf.mjs`は削除済み原本から初回移行するための旧生成器であり、現在は実行禁止である。現行`knowledge/`の再生成や上書きには使用しない。
+
+`audit-okf-overlap.mjs --check`は監査結果を表示し、30%以上の領域横断包含ペアが一件でもあれば終了コード1を返す。引数なしでは結果表示だけを行う。
 
 ## 公式OKF 0.2互換性検査
 

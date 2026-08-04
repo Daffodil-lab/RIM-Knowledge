@@ -27,29 +27,12 @@ jobs:
         with:
           node-version: "24"
 
-      - name: Run OKF checks
+      - name: Regenerate and validate OKF
         shell: bash
         run: |
-          set -u
-          failed=0
+          set -euo pipefail
+          node knowledge/tools/maintain-okf.mjs --write
 
-          check() {
-            "$@" || failed=1
-          }
-
-          check node knowledge/tools/refine-okf-descriptions.mjs --check
-          check node knowledge/tools/build-okf-navigation.mjs --check
-          check node knowledge/tools/normalize-retired-source-links.mjs --check
-          check node knowledge/tools/normalize-okf-v02-datetimes.mjs --self-test
-          check node knowledge/tools/normalize-okf-v02-datetimes.mjs --check
-          check node knowledge/tools/validate-okf-v02.mjs
-          check node knowledge/tools/validate-okf.mjs
-
-          overlap_output="$(node knowledge/tools/audit-okf-overlap.mjs)" || failed=1
-          printf '%s\n' "$overlap_output"
-          if ! grep -Fxq 'Pairs at or above 30% containment: 0' <<< "$overlap_output"; then
-            failed=1
-          fi
-
-          check node knowledge/tools/audit-okf-contradictions.mjs
-          exit "$failed"
+      - name: Reject uncommitted generated changes
+        shell: bash
+        run: git diff --exit-code -- .

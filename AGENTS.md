@@ -9,10 +9,9 @@
 - Keep one decision, requirement, concept, or record per file.
 - Add standard Markdown links under `## 関連項目` when creating or changing a concept.
 - Use active OKF concept owners as current authority; `_to_delete/` and `archive/` contain history material.
-- Validate knowledge changes with `node knowledge/tools/validate-okf.mjs`.
-- Audit unmanaged cross-domain duplication with `node knowledge/tools/audit-okf-overlap.mjs`.
-- Audit setting contradictions with `node knowledge/tools/audit-okf-contradictions.mjs`; treat `overhaul-divergence`, protected unresolved questions, implementation reservations, and historical differences separately from active canon conflicts.
-- After changing concepts, run `node knowledge/tools/refine-okf-descriptions.mjs --write`, `node knowledge/tools/build-okf-navigation.mjs --write`, and `node knowledge/tools/normalize-retired-source-links.mjs --write`; verify all three again with `--check`.
+- After changing concepts, run `node knowledge/tools/maintain-okf.mjs --write`; it updates derived material in the required order and runs the complete validation suite.
+- Before handoff, run `node knowledge/tools/maintain-okf.mjs --check` to verify the committed tree without changing files.
+- Treat `overhaul-divergence`, protected unresolved questions, implementation reservations, and historical differences separately from active canon conflicts when interpreting the integrated contradiction audit.
 - Treat `retired-source://project/...` values as provenance tombstones for deleted source files.
 - Maintain the current concept files with the refinement, navigation, normalization, validation, overlap, and contradiction tools; `knowledge/tools/build-okf.mjs` belongs to the retired import history.
 - Treat `knowledge/navigation/` as generated, non-authoritative views. Edit concept metadata or the navigation generator instead of editing generated indexes by hand.
