@@ -1,0 +1,40 @@
+---
+type: "Decision Log Entry"
+title: "確定#3：大目標＝全人類を「同盟」へ統一。全派閥併合の運命だが、telos 不変・戦術は妥協可能。"
+description: "大目標＝全人類を「同盟」へ統一を現行方針として確定した決定履歴。"
+tags:
+  - "decision-log"
+  - "historical"
+  - "canon"
+status: stable
+authority: historical
+knowledge_role: historical-record
+granularity: decision
+canonical_for: "decisions/decision-0003"
+canonical_scope: "decision-history"
+source_section: "確定#3"
+generated:
+  by: "process:rim-okf-migration"
+  at: "2026-07-26T00:54:52.353Z"
+sources:
+  - id: "migration-source"
+    resource: "retired-source://project/シオンShion_改訂履歴ログ_v1.md"
+    title: "シオン/Shion プロジェクト改訂履歴ログ"
+---
+
+# 確定#3：大目標＝全人類を「同盟」へ統一。全派閥併合の運命だが、telos 不変・戦術は妥協可能。
+
+> 履歴項目です。現行仕様との競合時は、正史コアと現在の仕様概念を優先してください。
+
+大目標＝全人類を「同盟」へ統一。全派閥併合の運命だが、telos 不変・戦術は妥協可能。
+
+## 関連項目
+
+- 上位索引: [decisions](/decisions/index.md)
+- 同じ出典の前項: [確定#2：中核の逆説＝豊かで優しいユートピアだが、栄誉（労働英雄）を独占する一握りが評議会を掌握。結果の平等なし（生まれではなく栄誉の独占＝§17）。](/decisions/decision-0002.md)
+- 同じ出典の次項: [確定#4：外交＝世界中に嫌われるが経済依存で取引的平和。](/decisions/decision-0004.md)
+- 正史: [正史](/world/index.md)
+
+## 出典
+
+- シオン/Shion プロジェクト改訂履歴ログ（退役済み原本: `retired-source://project/シオンShion_改訂履歴ログ_v1.md`） — `確定#3`

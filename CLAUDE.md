@@ -1,0 +1,1 @@
+RimwordのMODである事を忘れないで下さいRimwordに適合する要に　Rimword本体とDLCに関する如何なる事は常に調べるように

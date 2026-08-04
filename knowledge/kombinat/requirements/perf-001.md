@@ -1,0 +1,41 @@
+---
+type: "Requirement"
+title: "PERF-001 Event駆動"
+description: "MUST: Queue、Factory、Buffer、Accountの変化をeventで処理し、毎tick全Job・全Recipe・Matter Network内部在庫を走査しない。"
+tags:
+  - "kombinat"
+  - "requirements"
+  - "production"
+  - "matter-network"
+organization_groups:
+  - "kombinat-communities"
+status: stable
+authority: canonical
+knowledge_role: requirement
+granularity: requirement
+canonical_for: "kombinat/requirements/perf-001"
+canonical_scope: "kombinat-requirements"
+source_section: "PERF-001 Event駆動"
+generated:
+  by: "process:rim-okf-migration"
+  at: "2026-07-26T00:54:52.353Z"
+sources:
+  - id: "migration-source"
+    resource: "retired-source://project/Kombinat_発注多段生産_完成要件定義_v2.md"
+    title: "Kombinat発注・多段生産 完成要件定義 v2"
+---
+
+# PERF-001 Event駆動
+
+`MUST`: Queue、Factory、Buffer、Accountの変化をeventで処理し、毎tick全Job・全Recipe・Core独自Storage内部在庫またはMap全体を走査しない。
+
+## 関連項目
+
+- 上位索引: [kombinat/requirements](/kombinat/requirements/index.md)
+- 同じ出典の前項: [SAV-004 同一ビルド](/kombinat/requirements/sav-004.md)
+- 同じ出典の次項: [PERF-002 Planner](/kombinat/requirements/perf-002.md)
+- 連携境界: [連携境界](/integrations/matter-network/index.md)
+
+## 出典
+
+- Kombinat発注・多段生産 完成要件定義 v2（退役済み原本: `retired-source://project/Kombinat_発注多段生産_完成要件定義_v2.md`） — `PERF-001 Event駆動`

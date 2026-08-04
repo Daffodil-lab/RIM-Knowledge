@@ -1,0 +1,86 @@
+# Kombinat・生産物流 01
+
+範囲: 8. 製品・内部モジュール別の責務境界〜25. 検証シナリオ
+
+## 項目
+
+- [8. 製品・内部モジュール別の責務境界](/authoring/08-%E8%A3%BD%E5%93%81%E3%83%BB%E5%86%85%E9%83%A8%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E5%88%A5%E3%81%AE%E8%B2%AC%E5%8B%99%E5%A2%83%E7%95%8C.md) — 現時点のKombinat追加層は未実装であり、また五つの代表工業資源は実Thing、同盟通貨はAccount残高とする。
+- [9. 不合格条件](/authoring/09-%E4%B8%8D%E5%90%88%E6%A0%BC%E6%9D%A1%E4%BB%B6.md) — 新しい設定、文章、機能は次に該当する場合、再設計する。
+- [10. 廃止・降格された旧要素](/authoring/10-%E5%BB%83%E6%AD%A2%E3%83%BB%E9%99%8D%E6%A0%BC%E3%81%95%E3%82%8C%E3%81%9F%E6%97%A7%E8%A6%81%E7%B4%A0.md) — 旧資料の大規模な構想は、存在を忘れるのではなく、現在の状態を明示して保持する。
+- [4. 新規420稿の割当集計](/backstories/04-%E6%96%B0%E8%A6%8F420%E7%A8%BF%E3%81%AE%E5%89%B2%E5%BD%93%E9%9B%86%E8%A8%88.md) — 各新規稿は主Pool一つとSourceModule一つへ同時算入する。
+- [SHION_C001 礼装工房の手伝い](/backstories/formation/SHION_C001.md) — ソフェルの礼装を仕立てる工房で、採寸、布地の選別、刺繍図案の読み方を学んだ。
+- [SHION_C008 巡回修理屋](/backstories/formation/SHION_C008.md) — 小さな居住区を巡り、扉、配管、暖房、義肢、通信機を修理する職人に同行した。
+- [SHION_C013 義眼工房の見習い](/backstories/formation/SHION_C013.md) — 義眼工房で、交換用の発光色を依頼者の残った目や古い記録へ合わせた。
+- [SHION_C014 設備区画の見回り](/backstories/formation/SHION_C014.md) — 居住区の熱交換設備を見回り、凍結しかけた管、過熱した弁、循環の偏りを点検した。
+- [SHION_C033 聖像研磨工](/backstories/formation/SHION_C033.md) — 帝国最盛期の神殿工房で、石と金属の聖像を洗浄し、表面の傷を整えた。
+- [SHION_C105 ヘイハルKombinatの菜園育ち](/backstories/formation/SHION_C105.md) — ヘイハルKombinatの共同菜園で、誰でも直せる古い手押しポンプと停止時の共同作業を好んだ。
+- [SHION_C142 Kombinat保護区の再稼働祭](/backstories/formation/SHION_C142.md) — Kombinatの再稼働祭では、保護区の動物も工程ごとに歩かせました。
+- [SHION_C158 ヘイハルKombinatの再会窓口](/backstories/formation/SHION_C158.md) — Kombinatの再会窓口では、記憶差を故障表のように扱うな、と最初に教わりました。
+- [SHION_C160 ヘイハルKombinatの射撃同好会](/backstories/formation/SHION_C160.md) — Kombinatの射撃同好会は、古い照準器を直して新型と競わせる変わった集まりだった。
+- [SHION_C162 Kombinat避難区の仮設住宅](/backstories/formation/SHION_C162.md) — Kombinat停止夜に、避難者の身体構成と希望を現場で確かめながら仮設住宅を組んだ。
+- [SHION_C195 ヘイハルKombinatの旧工程読書会](/backstories/formation/SHION_C195.md) — 古文書と言っても、本人たちが読んだのは旧式Kombinatの工程書である。
+- [SHION_C242 Kombinatの迷子案内](/backstories/formation/SHION_C242.md) — ヘイハルKombinatは、初めて来た人には機械の国に見えます。
+- [SHION_C245 Kombinat停止夜の誘導](/backstories/formation/SHION_C245.md) — 長い過渡期、ヘイハルKombinatが全面停止した夜がありました。
+- [SHION_C257 Kombinat横断競技](/backstories/formation/SHION_C257.md) — ヘイハルKombinatの横断競技は、速さだけでは勝てません。
+- [SHION_C301 Kombinat停止夜の診療所](/backstories/formation/SHION_C301.md) — ヘイハルKombinatの診療所へ通い、身体と工程の故障だけでなく復帰への不安も聞いた。
+- [SHION_A001 地区設備技師](/backstories/mastery/SHION_A001.md) — 集合居住区の電力、水、暖房、熱交換設備を担当する技師となった。
+- [SHION_A007 動物機工](/backstories/mastery/SHION_A007.md) — 荷獣の鞍、義肢、自動給餌器を同じ工房で整備する動物機工となった。
+- [SHION_A026 キャラバン修理師](/backstories/mastery/SHION_A026.md) — キャラバンに同行し、車軸、鞍、冷却器、調理設備を移動中に修理した。
+- [SHION_A032 植民地万能工](/backstories/mastery/SHION_A032.md) — 小さな植民地で本人は壁を直し、畑を刈り、動物を追い、夕食を作った。
+- [SHION_A048 昨日の修理者](/backstories/mastery/SHION_A048.md) — 本人が集落へ到着すると、故障設備の一部は前日に同じ署名と工具痕で修理されていた。
+- [SHION_A088 蘇生設備の巡回工](/backstories/mastery/SHION_A088.md) — 小集落を巡り、使われないことを願われる蘇生設備を整備した。
+- [SHION_A090 時間災害工兵](/backstories/mastery/SHION_A090.md) — 崩壊する時間区画へ入り、まだ起きていない爆発の瓦礫から避難路を掘った。
+- [SHION_A101 ヘイハルKombinatの精密工](/backstories/mastery/SHION_A101.md) — ヘイハルKombinatで精密部品を仕上げていました。
+- [SHION_A206 ヘイハルKombinatの保存食職人](/backstories/mastery/SHION_A206.md) — ヘイハルKombinatでは、部品より食事の方が長い旅をすることがある。
+- [SHION_A207 ヘイハルKombinatの記念庭園師](/backstories/mastery/SHION_A207.md) — Kombinatの記念庭園に、壊れない記念碑は置かなかった。
+- [SHION_A231 ヘイハルKombinatの共同農園技師](/backstories/mastery/SHION_A231.md) — Kombinatの共同農園は、生産効率だけなら機械へ閉じた方がよかった。
+- [SHION_A234 ヘイハルKombinatの公共壁画家](/backstories/mastery/SHION_A234.md) — Kombinatの壁画へ完成品だけ描けと言われたが、本人は停止した夜を選んだ。
+- [SHION_A242 ヘイハルKombinatの祝宴料理人](/backstories/mastery/SHION_A242.md) — Kombinatの祝宴を任される前、本人は長距離偵察へ出ていた。
+- [SHION_A245 ヘイハルKombinatの復旧精密工](/backstories/mastery/SHION_A245.md) — ヘイハルKombinatが止まった夜、専用部品を待てという声を無視し、皆の工具で直せる継ぎ手を削った。
+- [SHION_A296 ヘイハルKombinatの討論調停人](/backstories/mastery/SHION_A296.md) — ヘイハルKombinatの会議では、生産班と保守班が同じ言葉を別の意味で使っていた。
+- [SHION_A297 ヘイハルKombinatの古文書研究者](/backstories/mastery/SHION_A297.md) — Kombinat史を美しい壁画へまとめろと言われたが、本人は断った。
+- [SHION_A301 ヘイハルKombinatの坑道監督](/backstories/mastery/SHION_A301.md) — ヘイハルKombinatの坑道では、銃を持つより地層の音を聞く方が安心できた。
+- [0. 結論](/colony/00-%E7%B5%90%E8%AB%96.md) — Coreの最初のプレイ可能対象を、本国政府の正規指揮系統と保証された補給へ恒常的に属さず、自分たちの判断と共同資産で辺境に暮らしを作る小規模な独立開拓団へ固定する。
+- [1. 文書状態と判断の強さ](/colony/01-%E6%96%87%E6%9B%B8%E7%8A%B6%E6%85%8B%E3%81%A8%E5%88%A4%E6%96%AD%E3%81%AE%E5%BC%B7%E3%81%95.md) — 文書状態と判断の強さは、ユーザーの最新決定とシオンShion正史コアv2.mdを扱う。
+- [4. 共同体の原則](/colony/04-%E5%85%B1%E5%90%8C%E4%BD%93%E3%81%AE%E5%8E%9F%E5%89%87.md) — 全独立開拓団に同一憲法を正史化しない、またCore α版の標準団だけが共有する簡易盟約として、次を採用する。
+- [5. 技術と物質的制約](/colony/05-%E6%8A%80%E8%A1%93%E3%81%A8%E7%89%A9%E8%B3%AA%E7%9A%84%E5%88%B6%E7%B4%84.md) — Core α版の標準三人団は次を持ち得るという方針の適用範囲と条件を定める。
+- [8. 標準開始シナリオ](/colony/08-%E6%A8%99%E6%BA%96%E9%96%8B%E5%A7%8B%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — Core α決定: 仮の表示名を次とするという方針の適用範囲と条件を定める。
+- [10. α／βの境界](/colony/10-%CE%B1-%CE%B2%E3%81%AE%E5%A2%83%E7%95%8C.md) — 工業基盤を内部完成させてからShion独立開拓団をαへ統合し、独立したMVP／Foundation製品は設けない。
+- [11. 現在の実装状態](/colony/11-%E7%8F%BE%E5%9C%A8%E3%81%AE%E5%AE%9F%E8%A3%85%E7%8A%B6%E6%85%8B.md) — 2026-07-25時点で、Core製品として受入済みの実装はない。
+- [12. 目標パッケージ構造](/colony/12-%E7%9B%AE%E6%A8%99%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E6%A7%8B%E9%80%A0.md) — CoreはRimWorld 1.6、Royalty、Ideology、Biotech、Anomaly、Odysseyを必須とする。
+- [13. Assembly責務](/colony/13-Assembly%E8%B2%AC%E5%8B%99.md) — αでは、Kombinatとの開始接続、最低限の初期化、エラー表示に必要な責務だけを実装する。
+- [14. 最小データモデル](/colony/14-%E6%9C%80%E5%B0%8F%E3%83%87%E3%83%BC%E3%82%BF%E3%83%A2%E3%83%87%E3%83%AB.md) — 開始立場と初期工業状態をデータ駆動にするという方針の適用範囲と条件を定める。
+- [15. ScenarioDefとPawn生成](/colony/15-ScenarioDef%E3%81%A8Pawn%E7%94%9F%E6%88%90.md) — XMLで表現できるThing、人数、文章をC番号へ直書きしない。
+- [16. 工業管制塔](/colony/16-Field-Ledger-Terminal.md) — コアMODからコンビナートへ入る最初の可視入口とする。
+- [17. Field Workshopのαコンテンツ](/colony/17-Field-Workshop%E3%81%AE%CE%B1%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84.md) — Core独自Storageと、Kombinat追加層の発注・多段生産・消費・流通・通貨、独立開拓団用の代表的な三段閉路を同じα公開候補で完成させる。
+- [19. 救援クエスト縦切り](/colony/19-%E6%95%91%E6%8F%B4%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E7%B8%A6%E5%88%87%E3%82%8A.md) — 一件目は、魂や復活ではなく物質的に分かりやすい救援にする。
+- [21. α版の実装フェーズ](/colony/21-%CE%B1%E7%89%88%E3%81%AE%E5%AE%9F%E8%A3%85%E3%83%95%E3%82%A7%E3%83%BC%E3%82%BA.md) — Phase 0〜4で工業基盤を内部完成させ、Phase 5でShion種族と独立開始を統合し、Phase 6でα公開候補を検証する。
+- [22. 検証仕様](/colony/22-%E6%A4%9C%E8%A8%BC%E4%BB%95%E6%A7%98.md) — 検証仕様は、独立を反乱、追放、犯罪として固定していない。
+- [23. 失敗時の規則](/colony/23-%E5%A4%B1%E6%95%97%E6%99%82%E3%81%AE%E8%A6%8F%E5%89%87.md) — エラー時にRed Star支援やHive機能を代替起動しない。
+- [25. 保護候補と廃止](/colony/25-%E4%BF%9D%E8%AD%B7%E5%80%99%E8%A3%9C%E3%81%A8%E5%BB%83%E6%AD%A2.md) — 採用時は固有名、外部参照、現テーマとの整合を再監査する。
+- [28. Definition of Done](/colony/28-Definition-of-Done.md) — Core独立開拓団α版は、次を全て満たした時に完成する。
+- [確定#339：仮称2件を最終確定——「Shion Race: 地場」→「Shion Race: Kombinat」、「分身」→「Shion Race: The Hive」](/decisions/decision-0339.md) — 仮称2件を最終確定——「Shion Race: 地場」→「Shion Race: Kombinat」、「分身」→「Shion Race: The Hive」を確定した決定履歴。
+- [確定#340：母星「Купина」・球状星団「Твердь」の命名、および旧帝国の真アルコテック文明設定](/decisions/decision-0340.md) — 母星「Купина」・球状星団「Твердь」の命名、および旧帝国の真アルコテック文明設定を確定した決定履歴。
+- [確定#344：Tower Ledger／Nexus Core等の用語をA系統（Kombinat）／B系統（The Hive）で改称](/decisions/decision-0344.md) — Tower Ledger／Nexus Core等の用語をA系統（Kombinat）／B系統（The Hive）で改称を確定した決定履歴。
+- [確定#359：Cellは帝国由来の粒子級自己増殖機械](/decisions/decision-0359.md) — Cellは帝国由来の粒子級自己増殖機械を確定した決定履歴。
+- [確定#361：内戦起源・自治構造・辺境警告譚の正史台帳反映](/decisions/decision-0361.md) — 内戦起源・自治構造・辺境警告譚の正史台帳反映を確定した決定履歴。
+- [確定#389：MVP廃止、α公開候補、β終了条件、完成前セーブ互換](/decisions/decision-0389.md) — MVP廃止、α公開候補、β終了条件、完成前セーブ互換を確定した決定履歴。
+- [確定#390：Kombinat停止保存、資産価値、破壊時保全、性能優先方式](/decisions/decision-0390.md) — Kombinat停止保存、資産価値、破壊時保全、性能優先方式を確定した決定履歴。
+- [確定#391：Kombinat遠距離物流の保護延期、AE2系準拠、αのローカルNetwork再構成](/decisions/decision-0391.md) — Kombinat遠距離物流の保護延期、AE2系準拠、αのローカルNetwork再構成を確定した決定履歴。
+- [確定#392：Kombinatを生産・消費・流通へ集約した汎用工業とする](/decisions/decision-0392.md) — Kombinatを生産・消費・流通へ集約した汎用工業とするを確定した決定履歴。
+- [確定#393：β版Pawn Foundry、補充可能個体、登録再実体化、Clone Colony](/decisions/decision-0393.md) — β版Pawn Foundry、補充可能個体、登録再実体化、Clone Colonyを確定した決定履歴。
+- [確定#394：Kombinat完成図の仮想シミュレーション、未知MOD互換契約、復旧不能・無限容量の封鎖](/decisions/decision-0394.md) — Kombinat完成図の仮想シミュレーション、未知MOD互換契約、復旧不能・無限容量の封鎖を確定した決定履歴。
+- [確定#395：Matter NetworkをKombinat倉庫基盤として採用し、物理資源を実Thingへ統一](/decisions/decision-0395.md) — Matter NetworkをKombinat倉庫基盤として採用し、物理資源を実Thingへ統一を確定した決定履歴。
+- [確定#396：装備の抽象指定を装備ファミリー＋非物理ポイントへ簡略化](/decisions/decision-0396.md) — 装備の抽象指定を装備ファミリー＋非物理ポイントへ簡略化を確定した決定履歴。
+- [確定#397：Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外](/decisions/decision-0397.md) — Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外を確定した決定履歴。
+- [確定#398：α版からCore独自保管・接続基盤を採用する](/decisions/decision-0398.md) — Matter Network必須依存を撤回し、α版から通常Map空間を経由しない独自保管・接続基盤と任意排出を採用した決定履歴。
+- [結論](/design/033-%E7%B5%90%E8%AB%96.md) — シオンの製品全体は、一つのCore、分離された内部Runtime、後期の任意例外モジュール、固有の本国支援開始 として再構成する。
+- [7. 製品ファミリーの新しい境界](/design/07-%E8%A3%BD%E5%93%81%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E5%A2%83%E7%95%8C.md) — CoreはDLC非依存製品として設計しない、また開発・配布・標準試験は、RimWorld 1.6にRoyalty、Ideology、Biotech、Anomaly、Odysseyを全て有効化した環境を前提とする。
+- [8. Baseモジュール](/design/08-Base%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB.md) — Core設定は複数の開始立場を許容するが、最初に遊べるα版は数人規模の独立開拓団へ固定する。
+- [9. Kombinat内部Runtime](/design/09-Kombinat%E5%86%85%E9%83%A8Runtime.md) — 9. Kombinat内部Runtimeの重複本文を除き、唯一の知識所有者へ案内する項目。
+- [10. The Hive内部モジュール（後期実装予約）](/design/10-The-Hive%E5%86%85%E9%83%A8%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E5%BE%8C%E6%9C%9F%E5%AE%9F%E8%A3%85%E4%BA%88%E7%B4%84.md) — The Hiveは設計・正史を保護するが、現行の実装対象から外す。
+- [11. レッドスター（製品境界保留）](/design/11-Red-Star%E8%A3%BD%E5%93%81%E5%A2%83%E7%95%8C%E4%BF%9D%E7%95%99.md) — レッドスターは、本国が正式に承認・派遣した開拓団である。
+- [12. その他の拡張群](/design/12-%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%8B%A1%E5%BC%B5%E7%BE%A4.md) — 旧内戦期拡張ファミリーは、回想、証言、断片記録、保存機械記録、残響を主な語り口とする候補を維持する。
+- [20. 目標パッケージ構造](/design/20-%E7%9B%AE%E6%A8%99%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E6%A7%8B%E9%80%A0.md) — 実際のRimWorldバージョン別フォルダは対応対象が決まった時点で追加する。
+- [23. 性能方針](/design/23-%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E6%96%B9%E9%87%9D.md) — シオン関連システムは、正本状態と表示用索引を分離し、イベント駆動の増分更新と有界処理によって大規模プレイを維持する。
+- [25. 検証シナリオ](/design/25-%E6%A4%9C%E8%A8%BC%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — 次をCore v2と本書だけから矛盾なく作れること。

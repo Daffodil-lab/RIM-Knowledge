@@ -1,0 +1,86 @@
+# 人物・バックストーリー 11
+
+範囲: SHION_A370 共同礼拝堂の梁〜29. 語義照合
+
+## 項目
+
+- [SHION_A370 共同礼拝堂の梁](/backstories/mastery/SHION_A370.md) — 石工文化を継ぐ建築班で、分解・修理できる組継ぎを共同礼拝堂の梁へ採用した。
+- [SHION_A371 混成学舎の初年度](/backstories/mastery/SHION_A371.md) — 最初の学舎は旧い出身圏ごとに教室を分けていた、それが間違いだったと今なら分かる。
+- [SHION_A372 採掘班の沈黙](/backstories/mastery/SHION_A372.md) — 採掘班の沈黙では、その年のことは、あまり話すことがない。
+- [SHION_A373 混成世代の勘違い集](/backstories/mastery/SHION_A373.md) — 混成世代の勘違い集では、よくある誤解が三つある。
+- [SHION_A374 亡き師の言葉を継ぐ厨房番](/backstories/mastery/SHION_A374.md) — 「塩は最後、感謝は最初」って師匠がいつも言ってた。
+- [SHION_A375 医療班の告白](/backstories/mastery/SHION_A375.md) — 医療班の告白では、巡回医療の経過は淡々と記していた。
+- [SHION_A376 仲裁人の想定問答](/backstories/mastery/SHION_A376.md) — 甲板間の揉め事は、たいてい旧い作法と新しい律法のどちらを優先するかで起きた。
+- [SHION_A377 統合行政区の初日](/backstories/mastery/SHION_A377.md) — 出身圏の旗を全部下ろした日のことを聞きたいのですか。
+- [SHION_A378 秩序維持隊の最終巡回](/backstories/mastery/SHION_A378.md) — 秩序維持隊の最終巡回では、秩序維持隊の任務は単純だった。
+- [SHION_A379 帝国准民の自嘲](/backstories/mastery/SHION_A379.md) — 帝国准民なんて肩書きがついた日、俺は道具箱の中身を数えていた。
+- [SHION_A380 農区統合の教訓](/backstories/mastery/SHION_A380.md) — 農区統合の教訓では、自分は作られた民族文化を継ぐ。
+- [SHION_A381 処置を受けた医療班長](/backstories/mastery/SHION_A381.md) — 今の本人は、あの頃の同僚がとうに見送った時間の先にいます。
+- [SHION_A382 帝国最初の設計技師](/backstories/mastery/SHION_A382.md) — 帝国という言葉が公式に使われ始めた頃、俺は最初の統合議事堂の設計図を引いていた。
+- [SHION_A383 統合期の芸術評議員の弁明](/backstories/mastery/SHION_A383.md) — 統合芸術評議班が旧い出身圏の様式をいくつも廃止したことを、今でも責められることがあります。
+- [SHION_A384 統合最後の証人](/backstories/mastery/SHION_A384.md) — 帝国が成立したその日を、まだ覚えている者がどれだけ残っているでしょうか。
+- [SHION_A385 測量隊の杭打ち手](/backstories/mastery/SHION_A385.md) — 本人が組んでいた測量儀は脚の一本がわずかに短くて、水平を取るのにいつも小石を挟んでいました。
+- [SHION_A386 種子船の育種番](/backstories/mastery/SHION_A386.md) — 俺が育てた大豆は発芽率が九割を超えた年があってな、班長にも褒められた。
+- [SHION_A387 移住船団の機関整備工](/backstories/mastery/SHION_A387.md) — あたしの仕事は簡単に言えば冷却管の詰まりを取ることだった。
+- [SHION_A388 巡回医療隊の外科助手](/backstories/mastery/SHION_A388.md) — 手術灯が一つしかない出張診療所で、本人は器具を渡す役だった。
+- [SHION_A389 建設隊の型枠職人](/backstories/mastery/SHION_A389.md) — 建設隊の型枠職人では、型枠は建物の見えない骨格だと本人は思っています。
+- [SHION_A390 第一次入植の炊事番](/backstories/mastery/SHION_A390.md) — うちがやってたことを数えてみると、まず配給の穀物をふやかす時間の調整、次に塩を切らさないための交換交渉、それから鍋底が焦げないよう火加減を見張ること。
+- [SHION_A391 動植物馴化隊の調教師](/backstories/mastery/SHION_A391.md) — 新しい星の獣を慣らす仕事は、扉を少しずつ開けるようなものだと自分は考えている。
+- [SHION_A392 灌漑隊の水路技師](/backstories/mastery/SHION_A392.md) — 水路は真っ直ぐ引けばいいというものではありません。
+- [SHION_A393 地質調査隊の掘削夫](/backstories/mastery/SHION_A393.md) — 地質調査隊の掘削夫では、特別な話なんて別にない。
+- [SHION_A394 港湾建設隊の潜水工](/backstories/mastery/SHION_A394.md) — 耳の奥がぎゅうっと締まる感覚、あれを覚えると潜水の深さが分かるようになる。
+- [SHION_A395 通信中継隊の中継技官](/backstories/mastery/SHION_A395.md) — 通信中継隊の中継技官では、中継塔の保守というのは、故障を待つ仕事である。
+- [SHION_A396 採掘隊の火薬係](/backstories/mastery/SHION_A396.md) — 採掘隊の火薬係では、一番信用されない仕事だったよ、火薬係なんてのは。
+- [SHION_A397 給水隊の配管工](/backstories/mastery/SHION_A397.md) — 配管の継ぎ手はもっと規格を統一するべきだと本人はずっと思っていました。
+- [SHION_A398 環境観測隊の気象観測員](/backstories/mastery/SHION_A398.md) — 空を毎日見て何が分かるのかって聞かれるけど、分かるようになるまでが長いのよ。
+- [SHION_A399 開拓団の狩猟番](/backstories/mastery/SHION_A399.md) — 獲物より先に風を読め、というのが自分の師匠の口癖だった。
+- [SHION_A400 移住船団の帳簿係](/backstories/mastery/SHION_A400.md) — 「この数字、また合わないぞ」と班長に何度も詰め寄られました。
+- [SHION_A401 種子船の記録画工](/backstories/mastery/SHION_A401.md) — 種子船の記録画工では、最初は退屈な仕事だと思っていました。
+- [SHION_A402 巡回医療隊の産婆](/backstories/mastery/SHION_A402.md) — 巡回医療隊で外部居住者の出産を支え、師匠から受け継いだ観察と沈着さを次の担当者へ伝えた。
+- [SHION_A403 建設隊の護衛兵](/backstories/mastery/SHION_A403.md) — 記録には英雄的な防衛戦みたいに書かれるかもしれんが、実際は違う。
+- [SHION_A404 第一次入植の仕立屋](/backstories/mastery/SHION_A404.md) — 古い布を捨てるくらいなら本人に持ってきてほしい、それだけはずっと言い続けてきました。
+- [SHION_A405 地質調査隊の測地画家](/backstories/mastery/SHION_A405.md) — 完成した地図の余白を、獣道を歩き、縮尺を測り、一本ずつ線を引いて埋めた。
+- [SHION_A406 港湾建設隊の荷役頭](/backstories/mastery/SHION_A406.md) — なんで荷役の頭なんて損な役回りを引き受けたのかって。
+- [SHION_A407 通信中継隊の暗号係](/backstories/mastery/SHION_A407.md) — 通信中継隊の暗号係では、覚えている数字が三つあります。
+- [SHION_A408 動植物馴化隊の獣医補](/backstories/mastery/SHION_A408.md) — まず傷口を洗う、それから膿を確認する、それから薬を塗る、それから包帯を巻く。
+- [SHION_A409 灌漑隊の腕っぷし](/backstories/mastery/SHION_A409.md) — 料理番のくせに喧嘩っ早いって、よくからかわれたよ。
+- [SHION_A410 星路建設隊の航路技師](/backstories/mastery/SHION_A410.md) — 本人が打った航路標識は、数えていた頃で九百を超えていました。
+- [SHION_A411 交易船団の交渉員](/backstories/mastery/SHION_A411.md) — 俺の仕事は簡単に言えば、初対面の開拓地相手に値切ることだ。
+- [SHION_A412 辺境行政府の巡察官](/backstories/mastery/SHION_A412.md) — 開拓地が増えれば増えるほど、本人のところに届く訴えも増えました。
+- [SHION_A413 律法学舎の若きソフェル](/backstories/mastery/SHION_A413.md) — 律法の写本を任されるようになったのは、灯火番だった頃から数えて十年目のことである。
+- [SHION_A414 港湾都市の造船匠](/backstories/mastery/SHION_A414.md) — わしが最初に組んだ竜骨は、今も外港に係留されたまま現役で使われとる。
+- [SHION_A415 種Cell研究所の培養手](/backstories/mastery/SHION_A415.md) — 種Cellの増殖速度は、与える鉄の純度でわずかに変わります。
+- [SHION_A416 イェツィラー学舎のマソレット講師](/backstories/mastery/SHION_A416.md) — 本人が弟子に最初に教えるのは、文字の書き方ではなく、書き損じた紙を燃やす作法である。
+- [SHION_A417 サイキック適性検査局の検査官](/backstories/mastery/SHION_A417.md) — 幼い頃、自分の針がほとんど振れなかったことを、本人はこの仕事に就いてから何度も思い出しました。
+- [SHION_A418 帝国拡張艦隊の航宙士](/backstories/mastery/SHION_A418.md) — 格納庫で拾った工具の名前を全部覚えていたのが、今の仕事の始まりだったのかもしれません。
+- [SHION_A419 秘文字工房の彫り師](/backstories/mastery/SHION_A419.md) — うちが挽いた顔料で書いた文字が光った日から、もう長い年月が経つ。
+- [匿名のソフェル](/characters/anonymous-sofer/00-%E7%8F%BE%E8%A1%8C%E6%AD%A3%E5%8F%B2.md) — 匿名のソフェルは、帝国最盛期から現代同盟まで記録と証言の保全を続ける、シオンの巡回ソフェルである。
+- [1. 本資料の目的](/characters/anonymous-sofer/01-%E6%9C%AC%E8%B3%87%E6%96%99%E3%81%AE%E7%9B%AE%E7%9A%84.md) — 本資料は、プレイヤー向けロア資料とバックストーリー群を編纂している「匿名のソフェル」について、次の事項を統合して定める。
+- [2. 基本定義](/characters/anonymous-sofer/02-%E5%9F%BA%E6%9C%AC%E5%AE%9A%E7%BE%A9.md) — 基本定義は、呼称：匿名のソフェルと本名：非公開を扱う。
+- [3. Tier＋12の意味](/characters/anonymous-sofer/03-Tier-12%E3%81%AE%E6%84%8F%E5%91%B3.md) — 旧数値案: 身体体系のTierとQualityは現行正史では未確定です。
+- [4. 製造目的](/characters/anonymous-sofer/04-%E8%A3%BD%E9%80%A0%E7%9B%AE%E7%9A%84.md) — 匿名のソフェルは、ImperialPeakにおいて、学究・巡回・記録実務を兼ねるソフェルとして製造された。
+- [5. 律法の専門性](/characters/anonymous-sofer/05-%E5%BE%8B%E6%B3%95%E3%81%AE%E5%B0%82%E9%96%80%E6%80%A7.md) — 匿名のソフェルは、律法について非常に高い熟練を持つ。
+- [6. イェツィラーの専門性](/characters/anonymous-sofer/06-%E3%82%A4%E3%82%A7%E3%83%84%E3%82%A3%E3%83%A9%E3%83%BC%E3%81%AE%E5%B0%82%E9%96%80%E6%80%A7.md) — 匿名のソフェルは、優れたイェツィラー使いである。
+- [7. 一般教養](/characters/anonymous-sofer/07-%E4%B8%80%E8%88%AC%E6%95%99%E9%A4%8A.md) — 匿名のソフェルは、最低限の事柄をほぼ全て知っている。
+- [8. 軍事能力](/characters/anonymous-sofer/08-%E8%BB%8D%E4%BA%8B%E8%83%BD%E5%8A%9B.md) — 匿名のソフェルは、一般的な正規兵士と同程度の軍事技術を持つ。
+- [9. 表面的な性格](/characters/anonymous-sofer/09-%E8%A1%A8%E9%9D%A2%E7%9A%84%E3%81%AA%E6%80%A7%E6%A0%BC.md) — 匿名のソフェルは次のように振る舞う、また礼儀正しい 古風な言葉遣いが残る 声を荒らげない 相手が話し終わるまで待つ 訂正する時は確認形式を使う 自分の知識を誇示しない 必要な時は長く説明する 軽い皮肉や乾いた冗談を使う 自分の名や過去を尋ねられると話題を戻す…。
+- [10. 内面的な性格](/characters/anonymous-sofer/10-%E5%86%85%E9%9D%A2%E7%9A%84%E3%81%AA%E6%80%A7%E6%A0%BC.md) — 内面的な性格は、記録を失うことを強く嫌うと他者の証言を勝手に完成させないを扱う。
+- [11. 欠点](/characters/anonymous-sofer/11-%E6%AC%A0%E7%82%B9.md) — 失われる可能性がある資料を放置できない、また危険な場所へ戻る判断をすることがある。
+- [12. ImperialPeak](/characters/anonymous-sofer/12-ImperialPeak.md) — 匿名のソフェルはImperialPeakに製造された。
+- [13. ImperialCivilWar](/characters/anonymous-sofer/13-ImperialCivilWar.md) — 内戦開始後は、次の任務に従事した、また記録保全 住民避難 通信復旧 施設防衛 負傷者搬送 封印の解除と再設定 軍事文書の整理 破損した人格記録の保護 戦争を英雄的に美化しない。
+- [14. PostCivilWarEmpire](/characters/anonymous-sofer/14-PostCivilWarEmpire.md) — 帝国が自らの律法と制度を破る過程を目撃する、また違法命令 公文書の改竄 証言の削除 秘密警察 責任の転嫁 制度名を利用した圧政 記録の非公開化 この経験によって、公式記録だけを信用しない姿勢が形成される。
+- [15. RevolutionaryWar](/characters/anonymous-sofer/15-RevolutionaryWar.md) — 特定政党の中心人物にはならない、また次の勢力と接触する。
+- [16. LongTransition](/characters/anonymous-sofer/16-LongTransition.md) — 同盟建国後、次の資料を接続する仕事へ参加する、また旧帝国資料 革命各党派の文書 地方共同体の記録 軍の報告 新しい同盟制度 改訂された律法解釈 構成諸民族の証言 矛盾を消すのではなく、異なる呼称と立場を並記する編纂方法を確立する。
+- [17. ModernUnion](/characters/anonymous-sofer/17-ModernUnion.md) — 現在は、プレイヤー向けロア資料とバックストーリー群を編纂している。
+- [18. 匿名である理由](/characters/anonymous-sofer/18-%E5%8C%BF%E5%90%8D%E3%81%A7%E3%81%82%E3%82%8B%E7%90%86%E7%94%B1.md) — 匿名は、一つの事件だけに由来しない、また次の理由が重なっている。
+- [19. 専用Formation Record](/characters/anonymous-sofer/19-%E5%B0%82%E7%94%A8Formation-Record.md) — Era： ImperialPeak Slot： Formation 人物限定： 匿名のソフェル。
+- [20. 専用Mastery Record](/characters/anonymous-sofer/20-%E5%B0%82%E7%94%A8Mastery-Record.md) — Era： ModernUnion Slot： Mastery 人物限定： 匿名のソフェル。
+- [21. 基本ゲームデータ](/characters/anonymous-sofer/21-%E5%9F%BA%E6%9C%AC%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%87%E3%83%BC%E3%82%BF.md) — 旧実装案: 以下は人物像をゲームへ投影するための候補値です。
+- [22. 推奨技能値](/characters/anonymous-sofer/22-%E6%8E%A8%E5%A5%A8%E6%8A%80%E8%83%BD%E5%80%A4.md) — 旧実装案: 以下は能力像を示す候補値であり、現行の確定仕様ではありません。
+- [23. 固有特性構成](/characters/anonymous-sofer/23-%E5%9B%BA%E6%9C%89%E7%89%B9%E6%80%A7%E6%A7%8B%E6%88%90.md) — 固定特性は次の4件を推奨する、また1. 博識のソフェル 2. 名を記さない者 3. 記録を捨てない 4. 鉄の意志 Vanillaの「物覚えが早い」「勤労者」は、固有特性と重複するため使用しない。
+- [24. 固有特性：博識のソフェル](/characters/anonymous-sofer/24-%E5%9B%BA%E6%9C%89%E7%89%B9%E6%80%A7-%E5%8D%9A%E8%AD%98%E3%81%AE%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB.md) — この者は律法とイェツィラーに熟練し、帝国最盛期から多様な分野を学び続けてきた。
+- [25. 固有特性：名を記さない者](/characters/anonymous-sofer/25-%E5%9B%BA%E6%9C%89%E7%89%B9%E6%80%A7-%E5%90%8D%E3%82%92%E8%A8%98%E3%81%95%E3%81%AA%E3%81%84%E8%80%85.md) — この者は証言者の名を残し、自分の名を残さない、また称賛や権威よりも、記録の継続と証言者からの信頼を重んじている。
+- [26. 固有特性：記録を捨てない](/characters/anonymous-sofer/26-%E5%9B%BA%E6%9C%89%E7%89%B9%E6%80%A7-%E8%A8%98%E9%8C%B2%E3%82%92%E6%8D%A8%E3%81%A6%E3%81%AA%E3%81%84.md) — 記録は再現できるとは限らない、またこの者は、その事実を知りすぎている。
+- [27. Vanilla特性：鉄の意志](/characters/anonymous-sofer/27-Vanilla%E7%89%B9%E6%80%A7-%E9%89%84%E3%81%AE%E6%84%8F%E5%BF%97.md) — 長い歴史、戦争、帝国崩壊、革命、編纂活動を継続できた精神性を表す。
+- [28. 能力設計方針](/characters/anonymous-sofer/28-%E8%83%BD%E5%8A%9B%E8%A8%AD%E8%A8%88%E6%96%B9%E9%87%9D.md) — 匿名のソフェルは、直接火力による殲滅を主目的としない。
+- [29. 語義照合](/characters/anonymous-sofer/29-%E8%AA%9E%E7%BE%A9%E7%85%A7%E5%90%88.md) — 原則なし、また匿名のソフェルの中心能力として扱う。

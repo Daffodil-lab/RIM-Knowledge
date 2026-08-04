@@ -1,0 +1,86 @@
+# リリース・実装 03
+
+範囲: REG-005 単一個体として保存〜33. 代表工業資源
+
+## 項目
+
+- [REG-005 単一個体として保存](/pawn/reg-005.md) — MUST: プレイヤー設計を名前とindividualIdを持つ一人のIndividual Archiveとして保存し、必要な時にその個体を生産できる。
+- [REG-006 Clone Source](/pawn/reg-006.md) — MUST: Registered Individual、Authored Individual、Saved Pawn DesignをClone Sourceに指定できる。
+- [REG-007 Clone同時存在](/pawn/reg-007.md) — MUST: 同じClone Sourceから複数Pawnを同時に活動させられる。
+- [REG-008 Clone後の分岐](/pawn/reg-008.md) — MUST: Clone生成後の経験、関係、傷、改造、装備、登録状態を個別に保存し、元個体または他Cloneへ自動同期しない。
+- [REG-009 外部権利の複製](/pawn/reg-009.md) — MUST: Quest所有権、派閥役職、Royalty称号、固有WorldObject参照、固有装備、Bond等を能力と一緒に暗黙複製しない。
+- [REG-010 登録解除](/pawn/reg-010.md) — MUST: Archiveを削除する操作は対象個体、失われる再実体化能力、活動中・Dormant実体、Clone Source参照を表示し、明示確認を要求する。
+- [SAVE-001 保存正本](/pawn/save-001.md) — MUST: Pawn Design、Individual Archive、Clone Lineage、Dormant Record、Generation Request、Recovery Record、各ID、途中状態を保存する。
+- [SAVE-002 Ephemeral不在](/pawn/save-002.md) — MUST: 再資源化済みEphemeral Pawnは、保存・ロード後にWorld Pawn、Relation、Corpse、Archive、参照付き履歴として復活しない。
+- [SAVE-003 同一ビルド往復](/pawn/save-003.md) — MUST: β期間中も同一ビルドの途中保存・ロードを保証する。
+- [SAVE-004 途中状態](/pawn/save-004.md) — MUST: 生産、Dormant化、再配備、回収、再起動、再資源化、再実体化、Cloneの各途中状態から安全に再開する。
+- [SAVE-005 ID一意性](/pawn/save-005.md) — MUST: 保存・ロード後もdesignId、individualId、pawnInstanceId、lineageIdを重複させない。
+- [SAVE-006 Archive欠損](/pawn/save-006.md) — MUST: 欠落Def、破損Archive、利用不能Moduleを無言で置換しない。
+- [UX-001 Pawn Foundry](/pawn/ux-001.md) — MUST: Pawn Foundryの第一階層を次の三つにする。
+- [UX-002 費用Preview](/pawn/ux-002.md) — MUST: 生産前にBody、Module、能力、装備、時間、現在在庫、不足、代替、登録方式を表示する。
+- [UX-003 個体種別](/pawn/ux-003.md) — MUST: Ephemeral、Registered、Design output、Clone、Dormantを、色だけに依存せず文字とIconで区別する。
+- [UX-004 破壊的操作](/pawn/ux-004.md) — MUST: Ephemeral遺体の再資源化とArchive削除は、同じ個体を復元できなくなることを明示する。
+- [UX-005 Clone識別](/pawn/ux-005.md) — MUST: 同名・同外見のCloneを許可しつつ、選択、医療、装備、命令で区別できる短い表示識別子を提供する。
+- [UX-006 簡易注文](/pawn/ux-006.md) — MUST: プレイヤーが詳細設計を開かず、「建築担当を一人」「射手を四人」「この個体のCloneを十人」のような注文を行える。
+- [プレイヤーが最初から知ること](/player-facing/001-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%9C%80%E5%88%9D%E3%81%8B%E3%82%89%E7%9F%A5%E3%82%8B%E3%81%93%E3%81%A8.md) — シオンは、製造された身体を持つ機械の民であり、また一人ずつ別の人格を持ち、人工知能でも集合意識でもありません。
+- [β版のPawn工業](/player-facing/002-%CE%B2%E7%89%88%E3%81%AEPawn%E5%B7%A5%E6%A5%AD.md) — β版では、必要な仕事に適合するランダムなシオン、登録済みの個体、プレイヤーが一から設計した個体、既存個体のCloneをPawn Foundryから生産できます。
+- [最小用語集](/player-facing/012-%E6%9C%80%E5%B0%8F%E7%94%A8%E8%AA%9E%E9%9B%86.md) — これ以上の語は、登場するクエストや機能の中でその都度説明します。
+- [3. Core visual direction change](/research/archotech-ruins/03-Core-visual-direction-change.md) — Preferred alpha form、具体的にはsimple central vertical mass;とbroad dark base or plinth;を扱う。
+- [4. Three acceptable Core silhouette options](/research/archotech-ruins/04-Three-acceptable-Core-silhouette-options.md) — Preferred alpha choice、具体的にはCore Tower：3x3 tower-like sealed monolith with crown fins and central aperture.：Preferred alpha Core.：Must…。
+- [8. Relationship to other alpha buildings](/research/archotech-ruins/08-Relationship-to-other-alpha-buildings.md) — The Core Tower must be visually more important than every other alpha building.。
+- [3. Performance review checklist](/research/external-videos/03-Performance-review-checklist.md) — When reviewing the videos, note、具体的にはwhether the system appears to add many active pawns;とwhether routine work is abstracted or…。
+- [4. Final rule](/research/external-videos/04-Final-rule.md) — These videos are reference evidence for how Fleshbeast Colony feels in play, not a mandate to copy its systems.。
+- [1. Source status](/research/fleshbeast/01-Source-status.md) — The details below are treated as a user-provided field report from gameplay videos.。
+- [2. Core resource and territory system](/research/fleshbeast/02-Core-resource-and-territory-system.md) — Fleshbeast Colony appears to replace ordinary colony economy with Hemogel, a biomass-like resource used for creature production, flesh…。
+- [3. Human mutation, core creation, and division loop](/research/fleshbeast/03-Human-mutation-core-creation-and-division-loop.md) — A mutated human can become a one-per-map Flesh Heart that serves as the colony core and produces Hemogel passively.。
+- [4. Creature system and fusion progression](/research/fleshbeast/04-Creature-system-and-fusion-progression.md) — Creatures can apparently be assigned to a master-like pawn group, similar in feel to mech escort commands: follow, attack, guard, or…。
+- [5. Buildings and infrastructure](/research/fleshbeast/05-Buildings-and-infrastructure.md) — Flesh walls/doors appear instantly from the ground when ordered and consume Hemogel. Flesh doors regenerate extremely quickly and can…。
+- [6. Economy and raid-balance implication](/research/fleshbeast/06-Economy-and-raid-balance-implication.md) — The reported gameplay impression is that many creatures and flesh buildings may have low or poorly counted colony wealth, allowing a…。
+- [7. Adopt / avoid table for Shion Nexus](/research/fleshbeast/07-Adopt-avoid-table-for-Shion-Nexus.md) — Adopt / avoid table for Shion Nexusは、Fleshbeast pattern：Shion Nexus decisionとSingle vulnerable core：Adopt structurally through Nexus…。
+- [8. Alpha impact](/research/fleshbeast/08-Alpha-impact.md) — This reference does not change Alpha 0.1 scope.。
+- [Boundary](/research/known-code/000-Boundary.md) — Code-level reuse is limited to repositories owned by Daffodil. Monolyn Race, Fleshbeast Colony, Arachnae Swarm 2, Dolls Nest, RimWorld,…。
+- [Sources inspected](/research/known-code/001-Sources-inspected.md) — - Daffodil-lab/Meiko-Race-The-Manufactured-Utopia-A-Clockwork-Fox-Doll at indexed commit aed3ab77724fdab6cf9166abab80bf2dd22a9e96. -…。
+- [Adopted and ported](/research/known-code/002-Adopted-and-ported.md) — Adopted and portedは、Source：Reused idea：Kombinat resultとMeikoNexus.csproj：net472, Krafs.Rimworld.Ref, direct Assemblies…。
+- [Adapt, do not copy directly](/research/known-code/003-Adapt-do-not-copy-directly.md) — Adapt, do not copy directlyは、Legacy code：ReasonとCompNexusCore CVE and digital-material fields：Aggregate reservedCVE floats have no…。
+- [Rejected from the runtime](/research/known-code/004-Rejected-from-the-runtime.md) — - A monolithic Core building Comp as the owner of resource truth. - Separate aggregate reservation totals without reservation records.…。
+- [First vertical-slice guarantees](/research/known-code/005-First-vertical-slice-guarantees.md) — 1. Five canonical inventory resources are Defs; population, labor, bandwidth, capacity, research, fame, and defense readiness are not…。
+- [Next extraction](/research/known-code/006-Next-extraction.md) — The next safe port is the construction-site lifecycle. Replace its reservedCVE/reservedMaterials fields with one Kombinat reservation…。
+- [Build](/research/kombinat-prototype/000-Build.md) — The compiled prototype assembly is written to Assemblies/Kombinat.dll. Do not copy it into the Core package.。
+- [Current status](/research/kombinat-prototype/001-Current-status.md) — No v3 product component is implemented. The next task is to pin the Matter Network baseline, record the MIT notices and adopted files,…。
+- [1. Source status](/research/monolyn-practice/01-Source-status.md) — The details below are treated as a user-provided field report from public player discussion and strategy notes.。
+- [2. Basic loop and onboarding problems](/research/monolyn-practice/02-Basic-loop-and-onboarding-problems.md) — Reported player issue、具体的にはPrayer is not handled as an ordinary Job.とPlayers assign Meditate through the Schedule tab.を扱う。
+- [3. Light management in real play](/research/monolyn-practice/03-Light-management-in-real-play.md) — Reported player issue、具体的にはThere is no direct electricity-to-Light conversion.とAs colony wealth/scale grows, Light income can fall…。
+- [4. Baptism use and costs](/research/monolyn-practice/04-Baptism-use-and-costs.md) — Reported player practice、具体的にはConverting other races through a baptismal font is a basic way to secure Monolyn personnel.とBaptism may…。
+- [5. Terminal body operation](/research/monolyn-practice/05-Terminal-body-operation.md) — Reported player confusion、具体的にはDestroyed mechanical terminal bodies cannot be revived through the baptismal font.とThey need Terminal:…。
+- [6. Base structure and expansion play](/research/monolyn-practice/06-Base-structure-and-expansion-play.md) — Reported player practice、具体的にはTower can share Light, materials, and personnel regardless of location.とPlayers use this to run a main…。
+- [7. Compatibility problems](/research/monolyn-practice/07-Compatibility-problems.md) — Reported issues、具体的にはVanilla Research Panel can conflict with Tower decoding/research and auto-cancel it.とVE Framework-related faction…。
+- [8. The four real Monolyn management layers](/research/monolyn-practice/08-The-four-real-Monolyn-management-layers.md) — The reported practical Monolyn loop appears to combine four resource-management layers、具体的にはprayer/meditation schedule…。
+- [9. Adopt / avoid table for Shion Nexus](/research/monolyn-practice/09-Adopt-avoid-table-for-Shion-Nexus.md) — Adopt / avoid table for Shion Nexusは、Monolyn player-practice pattern：Shion Nexus decisionとCentral Tower as colony-scale identity：Adopt…。
+- [10. Alpha impact](/research/monolyn-practice/10-Alpha-impact.md) — This reference does not change Alpha 0.1 scope.。
+- [1. Source status](/research/monolyn-ui/01-Source-status.md) — The details below are treated as a user-provided field report from public player feedback and strategy/review sources.。
+- [2. Overall system reception](/research/monolyn-ui/02-Overall-system-reception.md) — Reported NamuWiki-style evaluation、具体的にはMonolyn is high quality, but unusual compared with many existing mods.とIts prayer UI,…。
+- [3. Delayed or opaque feedback](/research/monolyn-ui/03-Delayed-or-opaque-feedback.md) — Reported issue、具体的にはA player can interact with the Tower and receive a vague message like something has happened, but see no immediate…。
+- [4. Icon and description ambiguity](/research/monolyn-ui/04-Icon-and-description-ambiguity.md) — Reported issue、具体的にはGuardian Flare and Radiant Flare appear to have identical or near-identical descriptions.とDeveloper clarifies their…。
+- [5. Research tab stability](/research/monolyn-ui/05-Research-tab-stability.md) — Reported issue、具体的にはClicking a dedicated research tab such as Shinsung Engineering can cause the description area to disappear, though…。
+- [6. Other compatibility and implementation issues](/research/monolyn-ui/06-Other-compatibility-and-implementation-issues.md) — Reported examples、具体的にはHats Display Selection conflict can make hat-wearing pawns invisible under roofs and cause lag; disabling a…。
+- [8. UI/system failures to avoid](/research/monolyn-ui/08-UI-system-failures-to-avoid.md) — Avoid in Shion Nexus alpha、具体的にはcentral actions with delayed invisible outcomes;とprogress that says inactive while active;を扱う。
+- [9. Alpha impact](/research/monolyn-ui/09-Alpha-impact.md) — This reference reinforces current Alpha 0.1 rules.。
+- [10. Shion Nexus UI checklist](/research/monolyn-ui/10-Shion-Nexus-UI-checklist.md) — Before Alpha 0.1 release, confirm、具体的にはCore Inspect explains alive/damaged/destroyed state.とLedger Inspect shows CVE, capacity, shells,…。
+- [0. 目的](/research/remote-logistics/00-%E7%9B%AE%E7%9A%84.md) — 本書は、無改造Matter NetworkのローカルStorageと、Kombinat追加層の自動生産とは別に検討されていた遠距離物流を、情報を失わず延期するための保護領域である。
+- [1. 延期理由](/research/remote-logistics/01-%E5%BB%B6%E6%9C%9F%E7%90%86%E7%94%B1.md) — 延期理由は、αの完成条件を、無改造Matter Networkの通常入出庫と、Kombinat追加層の発注・多段自動生産へ集中させる。
+- [6. 再開ゲート](/research/remote-logistics/06-%E5%86%8D%E9%96%8B%E3%82%B2%E3%83%BC%E3%83%88.md) — 遠距離物流を再び計画へ入れるには、次を全て満たす。
+- [0. 結論](/roadmap/00-%E7%B5%90%E8%AB%96.md) — 工業基盤を内部完成させてからShion種族を統合し、MVP／Foundationを独立した製品段階として出荷しない。
+- [1. 権威と変更規則](/roadmap/01-%E6%A8%A9%E5%A8%81%E3%81%A8%E5%A4%89%E6%9B%B4%E8%A6%8F%E5%89%87.md) — 本書は、何を世界内の事実とするかではなく、どの段階で何を完成させるかを定める。
+- [2. 既知コードと再利用の方針](/roadmap/02-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A8%E5%86%8D%E5%88%A9%E7%94%A8%E3%81%AE%E6%96%B9%E9%87%9D.md) — 既知コードの再利用率を目標にしない、また既存コード、旧リポジトリ、抽出記録は参考資料であり、最終設計を拘束する正本ではない。
+- [3. 1.0の最終完成像](/roadmap/03-1-0%E3%81%AE%E6%9C%80%E7%B5%82%E5%AE%8C%E6%88%90%E5%83%8F.md) — 最終的なCoreは、少なくとも次を一つの製品として成立させる。
+- [4. α版 — 最初の公開候補](/roadmap/04-%CE%B1%E7%89%88-%E2%80%94-%E6%9C%80%E5%88%9D%E3%81%AE%E5%85%AC%E9%96%8B%E5%80%99%E8%A3%9C.md) — α版は、内部完成した工業基盤へShion種族、図像、独立開始を最後に統合する最初の公開候補である。
+- [5. β版](/roadmap/05-%CE%B2%E7%89%88.md) — β版は、α版に含めなかったコアMODとレッドスターの要素を追加し、両製品を完成へ到達させる期間である。
+- [6. β終了／1.0完成条件](/roadmap/06-%CE%B2%E7%B5%82%E4%BA%86-1-0%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — 1.0以後も、身体、派閥、クエスト、装備、料理、動物、互換Adapter等を追加できる。
+- [7. バージョン運用](/roadmap/07-%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E9%81%8B%E7%94%A8.md) — バージョン番号だけで品質を主張しない、また各版は本書の完了条件と検証記録を伴う。
+- [8. 現在地](/roadmap/08-%E7%8F%BE%E5%9C%A8%E5%9C%B0.md) — 2026-08-02時点で工業基盤の実装作業は存在するが、工業完成マイルストーンとShion統合αは未完成である。
+- [9. 次の作業順](/roadmap/09-%E6%AC%A1%E3%81%AE%E4%BD%9C%E6%A5%AD%E9%A0%86.md) — 工業管理画面の基準画像とRimWorld 1.6画面契約を先に固定し、種族非依存の保管基盤とコンビナートを実装してからシオン種族と図像をα版へ統合する。
+- [10. 変更管理](/roadmap/10-%E5%A4%89%E6%9B%B4%E7%AE%A1%E7%90%86.md) — 本書を更新する場合、少なくとも次を記録するという方針の適用範囲と条件を定める。
+- [11. 工業先行開発マイルストーン](/roadmap/11-%E5%B7%A5%E6%A5%AD%E5%85%88%E8%A1%8C%E9%96%8B%E7%99%BA%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3.md) — シオン固有種族と図像の実装より先に、バニラ人間で検証できるコアMOD保管・コンビナート工業基盤を内部完成させる。
+- [8. 遠征共同体とレッドスター](/world/08-%E9%81%A0%E5%BE%81%E5%85%B1%E5%90%8C%E4%BD%93%E3%81%A8Red-Star.md) — コアMODは、独立団、漂着者、認可団、その他の遠征共同体など、複数の開始立場を許容する。
+- [9. The Hive](/world/09-The-Hive.md) — The Hiveは、通常シオン社会の標準ではない、例外的な単一中枢運営を扱う。
+- [33. 代表工業資源](/world/33-%E4%BB%A3%E8%A1%A8%E5%B7%A5%E6%A5%AD%E8%B3%87%E6%BA%90.md) — Coreで反復して扱う五つの代表工業資源は、Cell、エネルギー結晶、構造材、保守資材、弾薬結晶である。

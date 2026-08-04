@@ -1,0 +1,86 @@
+# 装備・軍事 01
+
+範囲: 1. 旧資料からの再採用〜8. 標準開始シナリオ
+
+## 項目
+
+- [1. 旧資料からの再採用](/authoring/01-%E6%97%A7%E8%B3%87%E6%96%99%E3%81%8B%E3%82%89%E3%81%AE%E5%86%8D%E6%8E%A1%E7%94%A8.md) — 旧資料の「確定」「正史」「唯一の正本」という表示は、現在の採用根拠にならない。
+- [実装予約](/authoring/018-%E5%AE%9F%E8%A3%85%E4%BA%88%E7%B4%84.md) — 次は世界観と両立するが、担当MODで仕様を決めるまで実装確定ではない。
+- [6. 媒体別の情報予算](/authoring/06-%E5%AA%92%E4%BD%93%E5%88%A5%E3%81%AE%E6%83%85%E5%A0%B1%E4%BA%88%E7%AE%97.md) — 通常プレイで反復する語は、シオン、同盟、本国、Cell、エネルギー、エネルギー結晶、弾薬結晶、ソフェルを中心にする。
+- [7. 技術とゲーム規模](/authoring/07-%E6%8A%80%E8%A1%93%E3%81%A8%E3%82%B2%E3%83%BC%E3%83%A0%E8%A6%8F%E6%A8%A1.md) — 現実性は手触りであり、文明の上限ではないという方針の適用範囲と条件を定める。
+- [8. 製品・内部モジュール別の責務境界](/authoring/08-%E8%A3%BD%E5%93%81%E3%83%BB%E5%86%85%E9%83%A8%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E5%88%A5%E3%81%AE%E8%B2%AC%E5%8B%99%E5%A2%83%E7%95%8C.md) — 現時点のKombinat追加層は未実装であり、また五つの代表工業資源は実Thing、同盟通貨はAccount残高とする。
+- [9. 不合格条件](/authoring/09-%E4%B8%8D%E5%90%88%E6%A0%BC%E6%9D%A1%E4%BB%B6.md) — 新しい設定、文章、機能は次に該当する場合、再設計する。
+- [12. 制作時の最終確認](/authoring/12-%E5%88%B6%E4%BD%9C%E6%99%82%E3%81%AE%E6%9C%80%E7%B5%82%E7%A2%BA%E8%AA%8D.md) — 制作時の最終確認は、誰の善意が、何を実際に改善したか分かる。
+- [15. 設定クラスと実装値の分離](/authoring/15-%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%A8%E5%AE%9F%E8%A3%85%E5%80%A4%E3%81%AE%E5%88%86%E9%9B%A2.md) — 存在、分類、用途、歴史、フレーバーと銃器の物理仕様は設定クラスへ置き、射程、性能、CE用Def、素材、工数、製造時間等のゲーム値は実装へ分離する。
+- [4. 新規420稿の割当集計](/backstories/04-%E6%96%B0%E8%A6%8F420%E7%A8%BF%E3%81%AE%E5%89%B2%E5%BD%93%E9%9B%86%E8%A8%88.md) — 各新規稿は主Pool一つとSourceModule一つへ同時算入する。
+- [SHION_C001 礼装工房の手伝い](/backstories/formation/SHION_C001.md) — ソフェルの礼装を仕立てる工房で、採寸、布地の選別、刺繍図案の読み方を学んだ。
+- [SHION_C013 義眼工房の見習い](/backstories/formation/SHION_C013.md) — 義眼工房で、交換用の発光色を依頼者の残った目や古い記録へ合わせた。
+- [SHION_C042 律法を携えた離反者](/backstories/formation/SHION_C042.md) — 内戦後帝国から離反する際、武器より先に最盛期の律法書を持ち出した。
+- [SHION_C057 閉館後の展示替え](/backstories/formation/SHION_C057.md) — 閉館後、帝国と革命の展示を入れ替えた、また同じ剣が英雄の武器と圧政の道具の両方に置かれるため、説明札だけは二枚とも残した。
+- [SHION_C073 全技能基礎課程](/backstories/formation/SHION_C073.md) — 戦闘、建設、農業、医療、芸術、対人を一通り学び、どの教師からも「専門はこれから」と評された。
+- [SHION_C082 鉄律の槍持ち](/backstories/formation/SHION_C082.md) — 導師の槍を運び、稽古の前後に刃と条文を同じ布で磨いた。
+- [SHION_C086 平和軍の馬丁](/backstories/formation/SHION_C086.md) — 出征しない騎兵隊の動物を世話した、また訓練は続いたが、長く戦闘命令は来なかった。
+- [SHION_C127 無人構造物の内部探査](/backstories/formation/SHION_C127.md) — 巨大構造物へ入った時、皆が「歓迎された」「試されている」と言いました。
+- [SHION_C144 機械化訓練地の市民劇](/backstories/formation/SHION_C144.md) — 機械化訓練地の舞台で、本人は装甲兵ではなく避難する市民を演じました。
+- [SHION_C159 平和軍演習院の記録実習](/backstories/formation/SHION_C159.md) — 平和軍演習院では、事実を本文、推測を別紙、後世の注釈を余白へ書きました。
+- [SHION_C185 革命連合後方区の群衆警護](/backstories/formation/SHION_C185.md) — 本人は気が短いので、武器を持たない警護練習を選びました。
+- [SHION_C187 地下灯祭の坑道飾り](/backstories/formation/SHION_C187.md) — 地下灯祭では、坑道の亀裂へ灯りを置き、戻らなかった者の好きな形を壁へ彫りました。
+- [SHION_C191 非常令監視区の修理会](/backstories/formation/SHION_C191.md) — 非常令が出た時、最初に禁止されたのは武器ではなく、修理票の余白に書く冗談だった。
+- [SHION_C200 立入制限地の遠征食](/backstories/formation/SHION_C200.md) — 立入制限地へ持ち込む歓待・救援用の遠征食は、帰還予定日より長く保存できるよう作った。
+- [SHION_C201 開戦前残響域の停戦菜園](/backstories/formation/SHION_C201.md) — 残響域では、戦争を止められたかもしれない瞬間が何度も再現されました。
+- [SHION_C204 特殊任務学校の合奏会](/backstories/formation/SHION_C204.md) — 特殊任務学校の合奏で、軍事作戦と法執行の異なる待機・制止・交渉の間合いを打楽器で表した。
+- [SHION_C208 自治評議区の射撃討議](/backstories/formation/SHION_C208.md) — 自治評議区の射場では、撃つ前に党歴の違う者へ中止条件を説明しました。
+- [SHION_C226 訓練地の保護区通い](/backstories/formation/SHION_C226.md) — 機械化訓練地の保護区で、装甲車を怖がる動物を待つ姿勢を市民避難の誘導へ応用した。
+- [SHION_C232 帰還を競う護衛遊び](/backstories/formation/SHION_C232.md) — 本人たちの遊びは、標的を倒す速さではなく、何人連れて帰れるかを競う護衛戦だった。
+- [SHION_C233 水上の異形競技](/backstories/formation/SHION_C233.md) — 海洋観測区の大会では、共有狐娘型の内部構成や装備によって浮力と水中運動の異なる者が同じ組に入った。
+- [SHION_C245 Kombinat停止夜の誘導](/backstories/formation/SHION_C245.md) — 長い過渡期、ヘイハルKombinatが全面停止した夜がありました。
+- [SHION_C259 毎日の坑道歩き](/backstories/formation/SHION_C259.md) — 本国居住区の坑道を毎日歩き、亀裂と地層音を点検しながら壁画の変化も記録した。
+- [SHION_C273 武器を置いた手と種子](/backstories/formation/SHION_C273.md) — 開戦前の残響域で、本人は故郷の種子を保管していました。
+- [SHION_C274 訓練所の無言の患者](/backstories/formation/SHION_C274.md) — 内戦後の帝国機械化訓練所で、装備稼働率からこぼれ落ちた運搬動物の痛みと飼料不足を記録した。
+- [SHION_C281 鐘の夜の橋守り](/backstories/formation/SHION_C281.md) — 革命連合の山岳連絡区で、本人は住民と荷役動物が渡る橋を守りました。
+- [SHION_C388 港湾護衛隊の帳面](/backstories/formation/SHION_C388.md) — 船団護衛班の見張り番と武器庫の鍵を記録し、数字の厳密さを人を守る引継ぎとして受け継いだ。
+- [SHION_A017 鉄律の守護者](/backstories/mastery/SHION_A017.md) — 鉄律の守護者として、工房、書庫、避難者の警護を担当した。
+- [SHION_A059 無音歌劇監督](/backstories/mastery/SHION_A059.md) — 聴覚の異なる身体と真空環境の観客へ、振動と光だけの歌劇を演出した。
+- [SHION_A069 鉄律大導師](/backstories/mastery/SHION_A069.md) — 無数の決闘を勝ち抜きながら、戦わずに終えた仲裁を最大の功績とした。
+- [SHION_A076 帝国式装備詠唱師](/backstories/mastery/SHION_A076.md) — 最盛期の装備詠唱を現代素材へ適合させ、内戦後に加えられた服従句を全て除いた。
+- [SHION_A085 独立星港建設者](/backstories/mastery/SHION_A085.md) — 社会民主党員、旧共産党員、ファシスト離党者、帝国離反者、無党派が使う星港を建てた。
+- [SHION_A091 同盟親衛射手](/backstories/mastery/SHION_A091.md) — 遠距離射撃で避難路を守り、同族からも稀な精度を認められた。
+- [SHION_A107 共同祝宴堂の徒手警護員](/backstories/mastery/SHION_A107.md) — 共同祝宴堂の混雑を武器なしでほどき、言葉を使わない動物の警告反応も警備情報として待った。
+- [SHION_A108 開戦前残響域の設備技師](/backstories/mastery/SHION_A108.md) — 開戦前の残響が残る区画で、壁と配管と避難路を直しました。
+- [SHION_A119 機械化訓練地の救助員](/backstories/mastery/SHION_A119.md) — 機械化訓練地で、転倒した装甲や狭い操縦区画から負傷者を引き出しました。
+- [SHION_A130 自治評議区の射撃教官](/backstories/mastery/SHION_A130.md) — 自治評議区では、違う党歴を持つ住民へ射撃を教えました。
+- [SHION_A131 星間市場の徒手警護員](/backstories/mastery/SHION_A131.md) — 星間市場の祭りで武器を使わず揉め事をほどき、翌日も取引できる信用と荷獣の安全を守った。
+- [SHION_A137 制裁作戦監査室の精密工](/backstories/mastery/SHION_A137.md) — 制裁部隊の装備を監査しながら、技術大会の審判もしました。
+- [SHION_A148 離散船団の終生飼養員](/backstories/mastery/SHION_A148.md) — 離散船団で、役目を終えた救助動物を最後まで世話しました。
+- [SHION_A162 立入制限地の舞台演出家](/backstories/mastery/SHION_A162.md) — 立入制限地の回収班で舞台を作り、危険遺物の密売摘発にも同行しました。
+- [SHION_A164 開戦前残響域の討論調停人](/backstories/mastery/SHION_A164.md) — 開戦前の残響を再現した討論大会で、停戦派と継戦派を調停しました。
+- [SHION_A173 要塞潜入路の精密工](/backstories/mastery/SHION_A173.md) — 要塞への潜入路で、少人数用の工具と停止機構を作りました。
+- [SHION_A179 山岳連絡区の徒手警護員](/backstories/mastery/SHION_A179.md) — 山岳連絡区の橋を守り、党派の違う部隊が喧嘩すれば武器を抜く前に抱えて離しました。
+- [SHION_A183 機械化訓練地の種子管理官](/backstories/mastery/SHION_A183.md) — 訓練地で本人が守っていたのは、武器庫より種子庫だった。
+- [SHION_A191 塔域居住層の徒手警護員](/backstories/mastery/SHION_A191.md) — 塔域居住層で人の流れを読み、武器を抜かず群衆を分け、端末投影と独立人格を混同しない確認を守った。
+- [SHION_A194 本国居住区の保存食職人](/backstories/mastery/SHION_A194.md) — 本国居住区で、外部居住者の栄養条件とシオンの感覚文化の双方に応じた保存食を作った。
+- [SHION_A196 帰還兵港の動物義肢技師](/backstories/mastery/SHION_A196.md) — 帰還兵港には、兵士だけでなく軍用動物も戻ってきた。
+- [SHION_A203 人格照合局の徒手警護員](/backstories/mastery/SHION_A203.md) — 人格照合局では、外見が同じ者同士を見物しようと群衆が集まることがあった。
+- [SHION_A209 制裁作戦監査室の義肢調整師](/backstories/mastery/SHION_A209.md) — 制裁作戦の後、本人は負傷者の義肢を調整し、同時に部隊の装備も監査した。
+- [SHION_A215 共同祝宴堂の会場警護員](/backstories/mastery/SHION_A215.md) — 共同祝宴堂で武器を使わず衝突を止め、食事を必要としない者も同じ卓へ迎える会場を守った。
+- [SHION_A256 開戦前残響域の終生飼養員](/backstories/mastery/SHION_A256.md) — 開戦前の残響域で、本人は役目を終えた動物の日課を守っていた。
+- [SHION_A263 対機械戦区の徒手警護員](/backstories/mastery/SHION_A263.md) — 対機械戦区では、避難者と飼育動物を武器なしで誘導した。
+- [SHION_A299 旧党派収容記録所の徒手警護員](/backstories/mastery/SHION_A299.md) — 旧党派収容記録所で、本人は武器を持たず収容者と見物人の間へ立った。
+- [SHION_A315 越冬隊の灯守り](/backstories/mastery/SHION_A315.md) — 氷原探査で装備・燃料・外部隊員用食糧を管理し、全員を救えなかった四度目の判断を今も記憶している。
+- [SHION_A321 境界哨戒隊の見張り番](/backstories/mastery/SHION_A321.md) — 今は哨戒に出ることはない、装備の点検を任されているだけだ。
+- [SHION_A354 秩序維持隊の初代隊員](/backstories/mastery/SHION_A354.md) — 秩序維持隊の初代選抜で、武器ではなく当事者双方の話を先に聞く役を担った。
+- [SHION_A366 巡回区画の三つの規則](/backstories/mastery/SHION_A366.md) — 持ち場を離れない、武器を見せない、揉め事を数える前に止めるという三規則を守り続けた。
+- [SHION_A407 通信中継隊の暗号係](/backstories/mastery/SHION_A407.md) — 通信中継隊の暗号係では、覚えている数字が三つあります。
+- [7. 一般教養](/characters/anonymous-sofer/07-%E4%B8%80%E8%88%AC%E6%95%99%E9%A4%8A.md) — 匿名のソフェルは、最低限の事柄をほぼ全て知っている。
+- [8. 軍事能力](/characters/anonymous-sofer/08-%E8%BB%8D%E4%BA%8B%E8%83%BD%E5%8A%9B.md) — 匿名のソフェルは、一般的な正規兵士と同程度の軍事技術を持つ。
+- [13. ImperialCivilWar](/characters/anonymous-sofer/13-ImperialCivilWar.md) — 内戦開始後は、次の任務に従事した、また記録保全 住民避難 通信復旧 施設防衛 負傷者搬送 封印の解除と再設定 軍事文書の整理 破損した人格記録の保護 戦争を英雄的に美化しない。
+- [21. 基本ゲームデータ](/characters/anonymous-sofer/21-%E5%9F%BA%E6%9C%AC%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%87%E3%83%BC%E3%82%BF.md) — 旧実装案: 以下は人物像をゲームへ投影するための候補値です。
+- [22. 推奨技能値](/characters/anonymous-sofer/22-%E6%8E%A8%E5%A5%A8%E6%8A%80%E8%83%BD%E5%80%A4.md) — 旧実装案: 以下は能力像を示す候補値であり、現行の確定仕様ではありません。
+- [33. 撤退路の記述](/characters/anonymous-sofer/33-%E6%92%A4%E9%80%80%E8%B7%AF%E3%81%AE%E8%A8%98%E8%BF%B0.md) — 範囲内の味方を生存させるための戦闘支援能力という方針の適用範囲と条件を定める。
+- [34. 推奨装備](/characters/anonymous-sofer/34-%E6%8E%A8%E5%A5%A8%E8%A3%85%E5%82%99.md) — 推奨装備は、同盟標準ライフルと中距離精密小銃を扱う。
+- [35. 戦闘時の役割](/characters/anonymous-sofer/35-%E6%88%A6%E9%97%98%E6%99%82%E3%81%AE%E5%BD%B9%E5%89%B2.md) — 1. 後衛射撃 2. 律法的保護 3. 精神異常の鎮静 4. 負傷者救助 5. 情報解析 6. 記録媒体回収 7. 撤退支援 前衛重装兵や主力火力にはしない。
+- [51. 外見の方向性](/characters/anonymous-sofer/51-%E5%A4%96%E8%A6%8B%E3%81%AE%E6%96%B9%E5%90%91%E6%80%A7.md) — 匿名のソフェルは、他のソフェルより極端に豪華な外見にはしない。
+- [匿名のソフェルの実装予約](/characters/anonymous-sofer/53-%E5%AE%9F%E8%A3%85%E4%BA%88%E7%B4%84.md) — 匿名のソフェルの人物像は正史とするが、身体値、技能値、能力、装備、加入方法は担当実装まで固定しない。
+- [2. 「独立」の定義](/colony/02-%E7%8B%AC%E7%AB%8B%E3%81%AE%E5%AE%9A%E7%BE%A9.md) — 独立開拓団は、規模、統治制度、職業、思想ではなく、次の本国関係を満たす組織の大分類である。
+- [5. 技術と物質的制約](/colony/05-%E6%8A%80%E8%A1%93%E3%81%A8%E7%89%A9%E8%B3%AA%E7%9A%84%E5%88%B6%E7%B4%84.md) — Core α版の標準三人団は次を持ち得るという方針の適用範囲と条件を定める。
+- [8. 標準開始シナリオ](/colony/08-%E6%A8%99%E6%BA%96%E9%96%8B%E5%A7%8B%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — Core α決定: 仮の表示名を次とするという方針の適用範囲と条件を定める。

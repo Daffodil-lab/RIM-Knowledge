@@ -1,0 +1,27 @@
+# Local agent state and disposable workspaces
+/.agents/
+/work/
+
+# Generated OKF timestamp (navigation itself is versioned)
+/knowledge/.generated-okf
+
+# Local dependency and editor state
+/node_modules/
+/.idea/
+/.vscode/
+
+# Logs and transient build output
+*.log
+*.tmp
+*.bak
+bin/
+obj/
+
+# Local credentials
+.env
+.env.*
+!.env.example
+*.key
+*.pem
+*.p12
+*.pfx
