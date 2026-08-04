@@ -18,7 +18,8 @@ canonical_for: "research/reference-mods/vivi-race-non-har-pattern"
 canonical_scope: "external-implementation-reference"
 generated:
   by: "process:source-inspection"
-  at: "2026-07-30"
+  at: "2026-07-30T00:00:00Z"
+  precision: "date"
 sources:
   - id: "vivi-workshop"
     resource: "https://steamcommunity.com/sharedfiles/filedetails/?id=3241577976"

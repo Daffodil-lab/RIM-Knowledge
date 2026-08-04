@@ -25,7 +25,8 @@ normative_basis:
   - "/design/52-バニラ優先Shion種族実装境界.md"
 generated:
   by: "process:user-decision"
-  at: "2026-07-31"
+  at: "2026-07-31T00:00:00Z"
+  precision: "date"
 ---
 
 # 56. Shion標準遠征身体の実装仕様

@@ -15,7 +15,8 @@ canonical_for: "governance/positive-specification-policy"
 canonical_scope: "okf-governance"
 generated:
   by: "process:positive-specification-policy"
-  at: "2026-07-27"
+  at: "2026-07-27T00:00:00Z"
+  precision: "date"
 ---
 
 # 現行資料の正仕様記述

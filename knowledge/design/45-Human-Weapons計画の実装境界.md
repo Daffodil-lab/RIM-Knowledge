@@ -21,7 +21,8 @@ normative_basis:
   - "/design/43-帝国系と同盟系の製品系列の実装境界.md"
 generated:
   by: "process:rim-human-weapons-program"
-  at: "2026-07-26"
+  at: "2026-07-26T00:00:00Z"
+  precision: "date"
 ---
 
 # 45. Human Weapons計画の実装境界

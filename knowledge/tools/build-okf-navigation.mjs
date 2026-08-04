@@ -347,13 +347,22 @@ function refreshedIndex(file) {
   const original = fs.readFileSync(file, "utf8").replace(/\r\n?/g, "\n");
   const indexDirectory = path.dirname(file);
   return original.replace(
-    /^-\s+\[([^\]]+)\]\(([^)]+)\)\s+—\s+.*$/gm,
-    (whole, _label, rawTarget) => {
+    /^-\s+\[([^\]]+)\]\(([^)]+)\)\s+—\s+(.*)$/gm,
+    (whole, label, rawTarget, summary) => {
       if (/^(?:[a-z]+:|#)/i.test(rawTarget)) return whole;
       const target = decodeURI(rawTarget.split("#")[0]);
       const resolved = target.startsWith("/")
         ? path.join(BUNDLE, target.slice(1))
         : path.resolve(indexDirectory, target);
+      if (
+        /^\d+件$/.test(summary.trim()) &&
+        fs.existsSync(resolved) &&
+        fs.statSync(resolved).isDirectory()
+      ) {
+        const prefix = `${path.resolve(resolved)}${path.sep}`;
+        const count = records.filter((candidate) => candidate.file.startsWith(prefix)).length;
+        return `- [${label}](${rawTarget}) — ${count}件`;
+      }
       const record = records.find((candidate) => candidate.file === resolved);
       if (!record) return whole;
       return `- [${record.title}](${rawTarget}) — ${record.description}`;

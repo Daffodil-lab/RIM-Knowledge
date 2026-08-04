@@ -20,7 +20,8 @@ canonical_scope: "product-architecture"
 content_layer: "implementation"
 generated:
   by: "process:codex-design-draft"
-  at: "2026-07-31"
+  at: "2026-07-31T00:00:00Z"
+  precision: "date"
 ---
 
 # 内政台帳とNetwork Storageの統合境界

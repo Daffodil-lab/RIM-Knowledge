@@ -22,7 +22,8 @@ normative_basis:
   - "/design/47-装備アーカイブ番号の実装境界.md"
 generated:
   by: "process:rim-human-weapons-first-rifle-adoption"
-  at: "2026-07-26"
+  at: "2026-07-26T00:00:00Z"
+  precision: "date"
 ---
 
 # 49. HORIZON A1の実装境界

@@ -14,7 +14,8 @@ canonical_for: "world/17-FTLの例外性"
 canonical_scope: "world-lore"
 generated:
   by: "process:rim-legacy-reassessment"
-  at: "2026-07-26"
+  at: "2026-07-26T00:00:00Z"
+  precision: "date"
 sources:
   - id: "historical-decision-342"
     resource: "../decisions/decision-0342.md"

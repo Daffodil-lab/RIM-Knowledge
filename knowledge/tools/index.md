@@ -5,6 +5,7 @@
 ## 標準更新
 
 ```powershell
+node knowledge/tools/normalize-okf-v02-datetimes.mjs --write
 node knowledge/tools/refine-okf-descriptions.mjs --write
 node knowledge/tools/build-okf-navigation.mjs --write
 node knowledge/tools/normalize-retired-source-links.mjs --write
@@ -13,6 +14,7 @@ node knowledge/tools/normalize-retired-source-links.mjs --write
 ## 標準検査
 
 ```powershell
+node knowledge/tools/normalize-okf-v02-datetimes.mjs --check
 node knowledge/tools/refine-okf-descriptions.mjs --check
 node knowledge/tools/build-okf-navigation.mjs --check
 node knowledge/tools/normalize-retired-source-links.mjs --check
@@ -27,6 +29,7 @@ node knowledge/tools/audit-okf-contradictions.mjs
 - [説明・ファセット整備](refine-okf-descriptions.mjs)
 - [横断ナビゲーション生成](build-okf-navigation.mjs)
 - [退役済み出典識別子の正規化](normalize-retired-source-links.mjs)
+- [OKF日時精度の正規化](normalize-okf-v02-datetimes.mjs)
 - [OKF構造検査](validate-okf.mjs)
 - [公式OKF 0.2互換性検査（日本語）](validate-okf-v02.mjs)
 - [領域横断重複監査](audit-okf-overlap.mjs)
@@ -48,3 +51,12 @@ node knowledge/tools/validate-okf-v02.mjs --json
 ```
 
 仕様の意味と例は[Open Knowledge Format 0.2 日本語規範解説](/research/okf/00-Open-Knowledge-Format-v0.2-日本語解説.md)を参照する。
+
+## 日付だけの生成来歴
+
+旧資料の`generated.at: YYYY-MM-DD`は、元の日付を維持したまま`YYYY-MM-DDT00:00:00Z`へ正規化し、`generated.precision: "date"`で実時刻が不明であることを明示する。現在時刻への置換や時刻の推測は行わない。
+
+```powershell
+node knowledge/tools/normalize-okf-v02-datetimes.mjs --write
+node knowledge/tools/normalize-okf-v02-datetimes.mjs --check
+```

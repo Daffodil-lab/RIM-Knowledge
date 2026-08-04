@@ -22,7 +22,8 @@ normative_basis:
   - "/design/36-装備設定クラスとカタログ.md"
 generated:
   by: "process:rim-human-weapons-program"
-  at: "2026-07-26"
+  at: "2026-07-26T00:00:00Z"
+  precision: "date"
 ---
 
 # 44. Human Weapons計画（仮称）
