@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C301"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 停止夜診療所
 - Era: ModernUnion / Origin: 無党派 / Relation: Kombinat共同体
 
-- Tone: 工業・保守・形成 / ReviewStatus: 改稿採用済み
+- Tone: 工業・保守・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 機械好きの聞き上手。診療所通いを趣味にし、身体とKombinatの故障を同じく案じる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 私は遊び場へ行くようにヘイハルKombinatの診療所へ通いました。機械の故障と身体の不調を比べるのが好きだったんです。診察準備を手伝い、症状だけでなく「また工程へ戻れるか」という不安を聞きました。Kombinatが停止した夜は、診療所の壁を補強し、皆で手作業の搬送路を作りました。焦って避難表示を逆に付けた失敗も、翌朝の引継書へ残しました。もっと優れた設備ができても、故障した時に誰が何を直し、誰の声を聞くかは決めておかなければならない。Kombinatも共同体も、動いている時だけが本体ではありません。
 

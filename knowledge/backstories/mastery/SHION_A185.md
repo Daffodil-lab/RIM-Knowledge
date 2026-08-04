@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A185"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 塔域精密工
 - Era: ModernUnion / Origin: 無党派 / Relation: 塔域共同体
 
-- Tone: 塔・記録・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 塔・記録・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 几帳面で控えめ。機械の識別より、帰還者の癖をよく覚えている。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 塔の救難具は、規格どおりでは足りなかった。腕の長さも、端末へ触れる癖も、帰還者ごとに違う。私は留め具を削り、照準灯を付け替え、暗闇でも本人が迷わない位置へ印を刻んだ。端末に映るアロンの投影と、独立して生きる人格を取り違えれば、救出そのものが加害になる。だから応答記録と生活上の癖を必ず照合した。静かな塔で「おかえり」と言ったら、相手は「ただいま」ではなく工具の不具合を三つ並べたよ。安心した。いつもの彼だった。戻らなかった者の名を読む日は、今も作業台を一席空けている。
 

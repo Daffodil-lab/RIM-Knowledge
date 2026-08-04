@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A017"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 鉄律守護者
 - Era: ModernUnion / Origin: ソフェル / Relation: 鉄律会
 
-- Tone: 護衛・法倫理 / ReviewStatus: 採用済み
+- Tone: 護衛・法倫理 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 硬質で律儀。規律を服従でなく、力を持つ自分へ課す制限として語る。
-- PreservedCanonPoints: 本人は鉄律の守護者として、工房、書庫、避難者の警護を担当した。 / 命令を受ける前に保護対象、交戦規則、避難路を確認し、武力を使う条件を明確にした。 / 威嚇で収まる場面では武器を抜かず、戦闘となれば味方と非戦闘員の位置を見失わなかった。
+- PotentialReferencePoints: 本人は鉄律の守護者として、工房、書庫、避難者の警護を担当した。 / 命令を受ける前に保護対象、交戦規則、避難路を確認し、武力を使う条件を明確にした。 / 威嚇で収まる場面では武器を抜かず、戦闘となれば味方と非戦闘員の位置を見失わなかった。
 
 > 鉄律は武器の使い方より、抜かない条件を長く教えます。私は工房、書庫、避難者を警護し、命令を受ける前に保護対象、交戦規則、退路を確認しました。威嚇で収まるなら抜かず、戦闘になれば味方より先に非戦闘員の位置を数えました。一度、避難者の説明を急かし、誤った出口へ誘導しかけました。時間なら十分にあるのに、力を持つと自分の判断まで速く正しいと錯覚する。私は規律を上官への服従とは考えません。武器を持つ私自身へ、待て、確かめろと命じる制限です。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A040"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 外部社会改良者
 - Era: ModernUnion / Origin: 社会民主党離脱者 / Relation: 独立相互扶助団
 
-- Tone: 政治・外部改革 / ReviewStatus: 採用済み
+- Tone: 政治・外部改革 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 行動派で透明性に執着する外部改革者。同盟を批判しながら補助金も条件付きで使う。
-- PreservedCanonPoints: 本人は同盟の役職を辞め、外部で診療所、食堂、労働相談所を運営した。 / 制度を批判するだけでなく、代わりの仕組みが毎日機能するか住民へ示す必要があった。 / 同盟の補助金を受ければ運動仲間に疑われ、拒めば利用者が困るため、条件と支出を公開して受け取った。
+- PotentialReferencePoints: 本人は同盟の役職を辞め、外部で診療所、食堂、労働相談所を運営した。 / 制度を批判するだけでなく、代わりの仕組みが毎日機能するか住民へ示す必要があった。 / 同盟の補助金を受ければ運動仲間に疑われ、拒めば利用者が困るため、条件と支出を公開して受け取った。
 
 > 外から同盟を批判するだけなら、食堂は開きません。私は役職を辞め、診療所、食堂、労働相談所を毎日動かしました。同盟の補助金を受ければ仲間に疑われ、拒めば利用者が困る。だから条件と支出を壁へ貼って受け取りました。ある仲間は去り、利用者の一人は「その金で今日食べられる」と言った。どちらも忘れません。協力したから批判をやめるわけでも、批判するから薬を断るわけでもない。最盛期を超える暮らしを望むなら、正しさを示す旗より、代わりの仕組みが明日も開くかで自分を測るべきです。
 

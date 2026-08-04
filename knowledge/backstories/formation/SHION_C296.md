@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C296"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 答えなき祝い膳
 - Era: ModernUnion / Origin: 無党派 / Relation: 教育共同体
 
-- Tone: 教育・継承・形成 / ReviewStatus: 採用済み
+- Tone: 教育・継承・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 好奇心旺盛な世話役。古い教えを敬うが、食卓で答えを作り直すことを好む。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 継承教室の祝い膳では、古い世代の献立をそのまま再現する課題が出ました。私は席ごとに体調と記憶を聞き、味を少しずつ変えました。先生は「それでも継承か」と尋ねましたが、答えは教えてくれませんでした。再会した者と死者を悼む者が同じ卓へ座るのですから、昔の正解一つでは足りません。友と料理の腕を競いながら、食べられない理由や不安まで聞くようになりました。今もあの問いへの答えは決めていません。ただ、受け取ったものを現在の人に合わせて渡し直すことも、立派な継承だと思っています。
 

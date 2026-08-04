@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C333"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 土に合う種
 - Era: ColonizationEra / Origin: 開拓団 / Relation: 種苗班
 
-- Tone: 種苗・格言・柔軟 / ReviewStatus: 採用済み
+- Tone: 種苗・格言・柔軟 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 経験を格言の形に凝縮して語る、落ち着いた口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 種は土を選ばない、土が種を選ぶ。開拓団の種苗班にいた頃、私はそう教わりました。合わない土に無理に蒔いた種は、芽が出ても弱く枯れました。逆に、諦めて別の畝に蒔き直した種は、驚くほど早く育ちました。無理を通すことは強さではなく、ただの遠回りです。私はそれ以来、合わない場所で頑張り続けることを美徳だと思わなくなりました。土に合わせることも、立派な仕事のうちです。
 

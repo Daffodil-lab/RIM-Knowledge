@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A045"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: ファシスト離党衛生兵
 - Era: RevolutionaryWar / Origin: ファシスト党 / Relation: 離党者
 
-- Tone: 政治・離党 / ReviewStatus: 採用済み
+- Tone: 政治・離党 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Mixed
 - VoiceProfile: 率直な衛生兵。短い文で判断を語り、自己弁護へ話を逸らさない。
-- PreservedCanonPoints: 本人はファシスト党系部隊の衛生兵だったが、党員を民間人より先に治療せよという命令を拒んだ。 / 処罰される前に離隊し、複数勢力から成る救難隊へ移った。 / 離党後も過去の所属を隠さず、救った人数を免罪の証拠には使わなかった。
+- PotentialReferencePoints: 本人はファシスト党系部隊の衛生兵だったが、党員を民間人より先に治療せよという命令を拒んだ。 / 処罰される前に離隊し、複数勢力から成る救難隊へ移った。 / 離党後も過去の所属を隠さず、救った人数を免罪の証拠には使わなかった。
 
 > 命令は簡単でした。党員を先に治せ。目の前には、軽傷の党員と腹部を裂かれた民間人がいた。私は民間人へ手を伸ばし、命令書を床へ置きました。処罰を待つ理由もなかったので、その夜に部隊を離れ、複数勢力の救難隊へ移りました。以前の所属は隠していません。後で何人救ったとしても、かつて党の腕章を着けた事実とは相殺できないからです。今も患者の印ではなく、傷を見ます。迷った時は処置時刻と理由を残す。未来の誰かが私の判断を批判できるようにしておくためです。
 

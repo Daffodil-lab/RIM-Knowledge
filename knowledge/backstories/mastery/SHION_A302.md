@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A302"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 本国食堂調理
 - Era: EraIndependent / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 生活・基幹・職歴 / ReviewStatus: 採用済み
+- Tone: 生活・基幹・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 温かな食堂調理師。救難者と帰還者へ、食事と不安を別々に聞く。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 本国の公共食堂は、救難隊の出発点と帰還場所でもあった。私は身体ごとに香りと食感を変え、治療が必要な者には症状と不安を別々に聞いた。会話だけしに来る者にも席を用意したよ。隣人は必要もない皿の模様を毎季変え、私は配膳が遅れると文句を言いながら楽しみにしていた。長い不在から戻った友は同じ名で笑ったが、昔の味を知らないと言った。私は証明しようとせず、今好きなものを聞いた。帰還とは過去の献立へ戻すことではない。知らない時間を抱えた相手と、新しい一皿を選ぶことだ。
 

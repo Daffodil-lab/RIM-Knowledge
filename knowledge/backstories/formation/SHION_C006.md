@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C006"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 記念園丁
 - Era: EraIndependent / Origin: 無党派 / Relation: 未形成
 
-- Tone: 静謐・文化 / ReviewStatus: 採用済み
+- Tone: 静謐・文化 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 静か / 儀礼的 / 哀悼を隠さない / 再会へ慎重
-- PreservedCanonPoints: 本人は死者の名を植物の配置で表す記念庭園を手入れした。 / 季節ごとの剪定と植替えを覚え、遺族が訪れる日には通路と休憩所を静かに整えた。 / 蘇生した者が自分の名を見に来た時は、墓標として消すのではなく、帰還日を示す新しい花を隣へ植えた。
+- PotentialReferencePoints: 本人は死者の名を植物の配置で表す記念庭園を手入れした。 / 季節ごとの剪定と植替えを覚え、遺族が訪れる日には通路と休憩所を静かに整えた。 / 蘇生した者が自分の名を見に来た時は、墓標として消すのではなく、帰還日を示す新しい花を隣へ植えた。
 
 > 蘇ったなら、その名の花を抜くべきだと思いますか。私は抜けませんでした。記念庭園では枝の向きまで死者の名を表します。帰還した本人が自分の区画へ来て、白い花を長く見ていた時、私は隣に赤い苗を植えました。白は死んだ日、赤は戻った日です。その間に遺族が歩いた通路も、空いた椅子も、消してはいけないと思った。再会は帳消しではありません。私は嬉しい時にも剪定鋏を持つ手が震えました。あなたの台帳には、喜びと悲しみを同じ欄へ書けますか、ソフェル。
 

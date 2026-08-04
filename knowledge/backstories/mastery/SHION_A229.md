@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A229"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 封鎖地資源測量
 - Era: ModernUnion / Origin: 無党派 / Relation: 異常対応班
 
-- Tone: 異常・研究・職歴 / ReviewStatus: 採用済み
+- Tone: 異常・研究・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 神経質な測量士。色彩への恐れを、地図の工夫へ変えて語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 封鎖地では地面の色が日ごとに変わり、昨日の安全標識まで信用できなかった。私は岩盤と採掘跡を測り、色名ではなく形と模様で地図を描いた。未知の変色を危険と決めつけず、触れた時間、反応、戻らなかった者の位置を別々に残したよ。帰還後もしばらく夕焼けを見ると測定器へ手が伸びた。仲間は笑わず、私のために窓へ白い格子を付けてくれた。格子越しなら普通の空を少しずつ見られたんだ。今の地図にも色を多く使わない。恐怖を隠すためではない。私と同じように色を信用できなくなった者にも読めるようにするためだ。
 

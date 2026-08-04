@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A361"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 配給厨房即興
 - Era: JourneyEra / Origin: 第三世界／密林文化継承者 / Relation: 配給厨房班
 
-- Tone: 食卓・家族・移民 / ReviewStatus: 採用済み
+- Tone: 食卓・家族・移民 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 早口で温かい。誰かの声を真似て話を運ぶ癖がある。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 「その根菜、皮ごと煮ちまいな」って厨房の先達がいつも言ってた。あたしは密林文化の継承者で、河口都市群で形成期を過ごした。船に乗った時はまだ子供だった。配給厨房に配属されて最初に叱られたのがそれ。「捨てる部分なんかこの船にはないんだよ」って、鍋の湯気の向こうで厨房の先達が言うのを覚えてる。あたしはその言葉だけ持って三十年厨房に立った。今でも皮を剥く手が止まる。厨房の先達の声が聞こえる気がして。あたしの料理はほとんど厨房の先達の声でできてるんだと思う。
 

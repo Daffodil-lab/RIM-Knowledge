@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C270"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 騎士学校古橋
 - Era: ImperialPeak / Origin: 旧帝国 / Relation: 最盛期帝国社会
 
-- Tone: 空挺・友情・形成 / ReviewStatus: 採用済み
+- Tone: 空挺・友情・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 手を動かす方を好む実直な生徒。理論より、仲間と渡れる構造を信頼する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 最盛期の騎士学校では、空挺演習より先に古い橋を直しました。物資と住民が渡れなければ、騎士だけ飛べても意味がないからです。私は構造理論の試問より、木と金属を触って歪みを探す方が得意でした。演習で降下地点を外した時、最初に聞こえた仲間の声も橋の下からでした。後に蘇ったその友と再会し、二人で同じ橋を歩きましたが、不在の時間については話せませんでした。律法は橋を定期補修せよと命じていました。私はその形式が好きです。誰かとまた渡る日を、制度が先に信じていたからです。
 

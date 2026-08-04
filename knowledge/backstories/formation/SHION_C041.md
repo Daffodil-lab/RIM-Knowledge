@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C041"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 連合伝令
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 混成義勇部隊
 
-- Tone: 戦争・移動 / ReviewStatus: 採用済み
+- Tone: 戦争・移動 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 俊敏な伝令 / 息の短い語り / 印章を疑う / 現場判断を重視
-- PreservedCanonPoints: 本人は革命連合で、暗号規則と指揮系統の違う部隊間を往復する伝令となった。 / 命令書を運ぶだけでなく、受取人がまだその部隊を指揮しているか確かめた。 / 発信元が寝返ったと判明した時は、印章のある命令を捨てて撤退を口頭で伝えた。
+- PotentialReferencePoints: 本人は革命連合で、暗号規則と指揮系統の違う部隊間を往復する伝令となった。 / 命令書を運ぶだけでなく、受取人がまだその部隊を指揮しているか確かめた。 / 発信元が寝返ったと判明した時は、印章のある命令を捨てて撤退を口頭で伝えた。
 
 > 命令書を届ければ終わり、ではありません。受取人がまだ生きているか、まだ味方か、そもそも指揮官か。革命連合では走るたびに確かめました。ある夜、発信元の寝返りを知った。手元には正しい印章と、全滅する進撃命令。私は紙を泥へ捨て、各陣地へ撤退を口頭で伝えました。偽伝令として撃たれかけましたよ。怖かった。けれど印章に人を殺させる方が怖かった。ソフェル、記録には命令違反と書いて構いません。その下へ、帰還人数も同じ大きさで書いてください。それが私の返答です。
 

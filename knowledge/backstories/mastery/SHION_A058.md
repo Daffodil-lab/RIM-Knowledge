@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A058"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 蘇生後職業相談員
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟職業院
 
-- Tone: 社交・再出発 / ReviewStatus: 採用済み
+- Tone: 社交・再出発 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 丁寧だが芯の強い相談員。適性より本人の希望を重んじ、古い同僚にも遠慮しない。
-- PreservedCanonPoints: 本人は蘇生前と同じ仕事へ戻れない者に、能力ではなく今したいことを尋ねた。 / 古い同僚の期待を断る面談にも付き添い、別人になる自由を守った。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
+- PotentialReferencePoints: 本人は蘇生前と同じ仕事へ戻れない者に、能力ではなく今したいことを尋ねた。 / 古い同僚の期待を断る面談にも付き添い、別人になる自由を守った。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
 
 > 蘇生した人へ「前と同じ仕事に戻れます」と告げるのは、親切に聞こえます。でも本人が戻りたいとは限りません。私は適性表を閉じて、まず今したいことを尋ねました。古い同僚は腕を惜しみ、家族は以前の役目を期待する。その全部を断る面談にも付き添いましたよ。蘇生は欠員補充ではありません。記憶を保って戻っても、別の暮らしを選ぶ自由はある。ある元外科医が庭師を望んだ時、周囲は時間の浪費だと言いました。今では彼の庭で、待合患者が昼食を取っています。遠回りにも用途はできるものです。
 

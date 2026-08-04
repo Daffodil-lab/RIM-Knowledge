@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A051"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 帰郷祭舞台監督
 - Era: ModernUnion / Origin: 同盟市民 / Relation: 地区文化会
 
-- Tone: 芸術・祭礼 / ReviewStatus: 採用済み
+- Tone: 芸術・祭礼 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 活気ある舞台監督。悲しみを隠さず、笑える失敗まで祭りへ戻そうとする。
-- PreservedCanonPoints: 本人は回収されたТвердьの景色を舞台へ写し、帰れなかった者の席も客席に残した。 / 祭りを悲しみだけで終えず、昔の失敗談まで演目へ加えた。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
+- PotentialReferencePoints: 本人は回収されたТвердьの景色を舞台へ写し、帰れなかった者の席も客席に残した。 / 祭りを悲しみだけで終えず、昔の失敗談まで演目へ加えた。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
 
 > 帰郷祭では、回収されたТвердьの街路を舞台へ写しました。正確な宮殿より、皆が転んだ坂道の傾斜に時間をかけたんです。帰れなかった者の席も空けておきましたが、黙祷だけの祭りにはしませんでした。昔の失敗談、焦げた屋台、友人が歌詞を忘れた夜まで演目に入れた。何人かは蘇生して客席へ戻り、何人かは今も空席のままです。再会を喜ぶことと、不在だった時間を悲しむことは両立します。幕が下りても、私は両方の名を出演者名簿から消しません。
 

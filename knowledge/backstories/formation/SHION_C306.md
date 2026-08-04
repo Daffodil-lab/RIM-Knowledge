@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C306"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 退路修繕
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟軍
 
-- Tone: 軍務・統合・形成 / ReviewStatus: 採用済み
+- Tone: 軍務・統合・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 生真面目な修繕役。誰を捨てるか選ぶ前に、全員の退路を増やそうとする。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 機動強襲群の修繕班で、私は避難路と仮設壁を直しました。作戦会議が「どの班を残すか」という抽選の話になると、もう一本退路を作れないか尋ねました。いつも可能だったわけではありません。ある夜は帰還者を数える声が朝まで続き、私は友へ何を言えばよいか分からず工具ばかり磨いていました。あの夜、言葉の代わりに工具へ逃げたことを悔やんでいます。それから成果を祝う前に、戻らなかった者の名と塞がった経路を記録しました。全員を救えると約束はできません。それでも誰を捨てるか決める前に、構造を変える余地を探す者でいたいです。
 

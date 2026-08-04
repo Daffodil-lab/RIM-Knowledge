@@ -1,9 +1,10 @@
 # stable 22
 
-範囲: 3. Delayed or opaque feedback〜33. 代表工業資源
+範囲: 2. Overall system reception〜32. 勲章と顕彰
 
 ## 項目
 
+- [2. Overall system reception](/research/monolyn-ui/02-Overall-system-reception.md) — Reported NamuWiki-style evaluation、具体的にはMonolyn is high quality, but unusual compared with many existing mods.とIts prayer UI,…。
 - [3. Delayed or opaque feedback](/research/monolyn-ui/03-Delayed-or-opaque-feedback.md) — Reported issue、具体的にはA player can interact with the Tower and receive a vague message like something has happened, but see no immediate…。
 - [4. Icon and description ambiguity](/research/monolyn-ui/04-Icon-and-description-ambiguity.md) — Reported issue、具体的にはGuardian Flare and Radiant Flare appear to have identical or near-identical descriptions.とDeveloper clarifies their…。
 - [5. Research tab stability](/research/monolyn-ui/05-Research-tab-stability.md) — Reported issue、具体的にはClicking a dedicated research tab such as Shinsung Engineering can cause the description area to disappear, though…。
@@ -83,4 +84,3 @@
 - [30. 人類としての自己認識](/world/30-%E4%BA%BA%E9%A1%9E%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E8%87%AA%E5%B7%B1%E8%AA%8D%E8%AD%98.md) — シオンが自らを人類とみなす根拠は生物学的構造ではなく、文化、思想、歴史的連続性、人格主体としての自己認識にある。
 - [31. 全てはまだ始まったばかり](/world/31-%E5%85%A8%E3%81%A6%E3%81%AF%E3%81%BE%E3%81%A0%E5%A7%8B%E3%81%BE%E3%81%A3%E3%81%9F%E3%81%B0%E3%81%8B%E3%82%8A.md) — シオンにとって人類統一は歴史の終着点ではなく、その先に続く未知の時代へ入るための一段階にすぎない。
 - [32. 勲章と顕彰](/world/32-%E5%8B%B2%E7%AB%A0%E3%81%A8%E9%A1%95%E5%BD%B0.md) — 帝国と同盟には功績や奉仕を記憶する勲章文化があるが、勲章は身分、能力、政治権限を自動的に付与する装置ではない。
-- [33. 代表工業資源](/world/33-%E4%BB%A3%E8%A1%A8%E5%B7%A5%E6%A5%AD%E8%B3%87%E6%BA%90.md) — Coreで反復して扱う五つの代表工業資源は、Cell、エネルギー結晶、構造材、保守資材、弾薬結晶である。

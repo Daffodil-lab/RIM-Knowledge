@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A202"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 監査室護衛射手
 - Era: ModernUnion / Origin: 無党派 / Relation: 制裁部隊監査
 
-- Tone: 制裁・倫理・職歴 / ReviewStatus: 採用済み
+- Tone: 制裁・倫理・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 厳格で自省的。正当性を語る前に、照準と被害記録を確かめる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 制裁部隊の監査には、記録を守る護衛が必要だった。私は証言者と資料庫の間に立ち、避難路が射線へ入らない時だけ銃を構えた。強い手段を持つ者ほど、自分の正しさを短い言葉で済ませたがる。だから命令の目的、撃った方向、壊れた畑まで一枚ずつ記録させた。任務後、薬莢へ種を植えて窓辺に並べたよ。趣味が悪いと言われたが、被害を数字だけにしないためだった。正しかったと断言した者ほど記録を読み返さなかった。私は今も照準を合わせる前に、後で誰へ説明するのかを考える。
 

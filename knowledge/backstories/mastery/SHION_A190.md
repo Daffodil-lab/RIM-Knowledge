@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A190"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 海洋監視射手
 - Era: EraIndependent / Origin: 無党派 / Relation: 観測隊
 
-- Tone: 観測・不可解・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 観測・不可解・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 静かで辛抱強い。断定を避け、見たものと感じたものを分けて話す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 海の上では、撃たない判断の方が難しい。私は浮標の間に小さな水草を育て、流れの変化を読みながら監視した。遠くに何かが現れても、敵、漂流物、生き物と急いで名付けない。形、速度、こちらを見た者の反応まで別々に記した。一度、水面に故郷そっくりの街並みが映った。隣の観測員には何も見えなかったそうだ。私は照準を外し、景色が消えるまで待ったよ。あれが記憶だったのか、海の現象だったのかは今も分からない。分からないまま帰れたことを、私は失敗とは思っていない。
 

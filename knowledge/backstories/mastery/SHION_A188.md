@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A188"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 都市外討論調停
 - Era: EraIndependent / Origin: 無党派 / Relation: 離脱者共同体
 
-- Tone: 倫理・離脱・職歴 / ReviewStatus: 採用済み
+- Tone: 倫理・離脱・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 内省的で公平。離脱を美化せず、残った愛着も隠さない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > あの都市の幸福が一人の苦痛に支えられていると知った日、私はすぐには去れなかった。音楽も、友人も、朝のパンも本当に好きだったからだ。外縁の討論所では、残る者に去る者の言葉を言い直させ、去る者にも残る者の恐れを言い直してもらった。理解は同意ではないし、説明できたから許されるわけでもない。それでも相手を怪物にすれば、自分の選択を調べなくて済んでしまう。私は最後に歩み去ったが、都市の歌を嫌いにはなれなかった。今も地下の空洞を測るたび、豊かさの下で誰が支えているのか確かめる。平和は、その問いを隠さない場所へ渡したい。
 

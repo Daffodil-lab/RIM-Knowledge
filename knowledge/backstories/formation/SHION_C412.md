@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C412"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 文書運び
 - Era: GrowthEra / Origin: 辺境行政府 / Relation: 書記官
 
-- Tone: 実直・緊張・几帳面 / ReviewStatus: 採用済み
+- Tone: 実直・緊張・几帳面 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 丁寧で几帳面、少し緊張気味に語る口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 書記官から預かった書類を落とさないよう、私はいつも両手で抱えて走っていました。開拓地が増えるたびに手続きも増えて、行政府はいつも人手が足りませんでした。印章を押す音を聞くと、その土地に新しい名前が生まれる瞬間に立ち会っているような気がして、子どもながらに誇らしかったのを覚えています。一度だけ書類を川に落として半日泣きながら探した日のことは、今でも忘れられません。あの緊張感は、今の私の仕事の礎になっています。
 

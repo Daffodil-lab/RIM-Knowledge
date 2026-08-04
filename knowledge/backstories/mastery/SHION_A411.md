@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A411"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 交渉員
 - Era: GrowthEra / Origin: 交易船団 / Relation: 船団長
 
-- Tone: 軽妙・度胸・愛嬌 / ReviewStatus: 採用済み
+- Tone: 軽妙・度胸・愛嬌 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 軽快でよく喋る、押しの強い商人口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 俺の仕事は簡単に言えば、初対面の開拓地相手に値切ることだ。星路が増えて知らない星との取引が急に増えたせいで、相場なんてあってないようなもんだった。船団長は俺の口の回りの良さを気に入って、交渉はほとんど任せてくれた。値切りすぎて後で気まずくなった相手には、次の航海で余分に積んで持っていく。それが俺なりの詫びの仕方だった。新しい星に着くたびに緊張と高揚が入り混じるあの感覚だけは、何年やっても慣れない。
 

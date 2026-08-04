@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A103"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 祝宴臨床医
 - Era: EraIndependent / Origin: 無党派 / Relation: 文化共同体
 
-- Tone: 料理・記憶・職歴 / ReviewStatus: 採用済み
+- Tone: 料理・記憶・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 食事好きの臨床医。診察室より祝宴の席で聞ける不安を重んじ、政治論を生活へ引き戻す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 共同祝宴堂で臨床医をしていました。診察室では「異常なし」と答える者も、食卓では眠れない夜や帰る住居がないことを話します。私は治療後の席まで処方の一部にしました。祝宴では最盛期の平和をどう戻すか、よく政治論争になりましたよ。私は「まず隣の者が安心して食べられるか」と聞き返した。食事を必要としない身体にも席を用意し、香りや記憶を分け合いました。最後の皿を前に皆が黙った夜があります。味ではなく、その沈黙を壊さず待てたことを、医師として覚えています。
 

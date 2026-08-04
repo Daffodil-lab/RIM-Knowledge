@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A117"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 予測院観測主任
 - Era: ModernUnion / Origin: 無党派 / Relation: 評議会研究院
 
-- Tone: 研究・長期計画・職歴 / ReviewStatus: 採用済み
+- Tone: 研究・長期計画・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 卓越した観測主任。大予測の誤差を恐れず、食卓の小さな変化まで計画へ入れる愉快な完璧主義者。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 長期予測院で観測主任を務めました。一度の異常値を答えにせず、条件と観測者を替えて確かめる。その積み重ねで、複数星域の食料と人口変動を読みました。料理まで研究対象にしたのは、配給量が足りても懐かしい味を失えば移住者が去るからです。私は各地の食卓を再現し、残量と会話の変化まで計画へ入れました。同族から研究章と食文化章を頂きましたが、最大の予測外は友人の差し入れでした。沈んだ観測班が食卓へ戻り、見落としていた誤差を見つけたんです。未来は数字だけでなく、誰と食べるかでも曲がります。
 

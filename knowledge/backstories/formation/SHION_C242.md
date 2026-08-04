@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C242"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: Kombinat迷子案内
 - Era: ModernUnion / Origin: 無党派 / Relation: Kombinat共同体
 
-- Tone: 工業・保守・形成 / ReviewStatus: 採用済み
+- Tone: 工業・保守・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 人懐こく機転が利く。巨大Kombinatを、人と工程が出会う街として見ている。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > ヘイハルKombinatは、初めて来た人には機械の国に見えます。私は休日になると案内札を持ち、迷子を目的の区画まで連れていきました。党歴より「何を直したいか」を聞く方が早かったですね。地下搬送路を覚えるため岩盤の響きまで調べたので、停止事故の夜には迂回路を案内できました。自動工程が黙り、皆が手で部品を運ぶと、Kombinatは急に小さな街のようになった。私はその時、怖がっていた見学者へ何も言えませんでした。今なら、機械が止まってもここにいる人がKombinatなのだと話します。
 

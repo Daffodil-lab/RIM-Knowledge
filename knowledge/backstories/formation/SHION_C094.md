@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C094"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 党派横断炊事番
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 共同炊事隊
 
-- Tone: 料理・共同体 / ReviewStatus: 採用済み
+- Tone: 料理・共同体 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 豪快な炊事番 / 鍋で議論を区切る / 理屈より空腹を見る / 党派へ遠慮しない
-- PreservedCanonPoints: 本人は会議中も食事を止めず、敵対しかけた党派へ同じ鍋から配った。 / 最盛期の平和を誰へ与えるかで争う者たちも、外部居住者の空腹と全員の食卓時刻は同じ時間に訪れると知った。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
+- PotentialReferencePoints: 本人は会議中も食事を止めず、敵対しかけた党派へ同じ鍋から配った。 / 最盛期の平和を誰へ与えるかで争う者たちも、外部居住者の空腹と全員の食卓時刻は同じ時間に訪れると知った。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
 
 > 会議が白熱すると鍋が冷める。それが私には一番許せませんでした。最盛期の平和を誰へ与えるか、どの制度で戻すか。殴り合い寸前の党派へ、私は同じ鍋から同じ量を盛った。敵と同じ匙は使えないと言う者には、では食卓へ加わらず議論しろと返しましたよ。結局、全員食べた。食事で思想が解けるとは思いません。ただ、外部居住者の空腹や食卓への不参加を美徳にして判断を歪める必要もない。ソフェル、和平の功績に私を入れないでください。私は鍋を守っただけです。でも冷めない食事を全員へ出せる社会なら、少し信じます。
 

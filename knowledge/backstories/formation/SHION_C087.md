@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C087"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 恒星庭園水番
 - Era: ImperialPeak / Origin: 帝国臣民 / Relation: 宮苑水務院
 
-- Tone: 栽培・郷愁 / ReviewStatus: 採用済み
+- Tone: 栽培・郷愁 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 物静かな水番 / 光を色で語る / 友人の怠け癖を愛す / 復元限界を受け入れる
-- PreservedCanonPoints: 本人は恒星光を分ける水路を見回り、庭園ごとに違う朝を配った。 / 故郷を回収した後も同じ水路は再現できたが、隣で仕事を怠けた友人の笑い声までは戻らなかった。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
+- PotentialReferencePoints: 本人は恒星光を分ける水路を見回り、庭園ごとに違う朝を配った。 / 故郷を回収した後も同じ水路は再現できたが、隣で仕事を怠けた友人の笑い声までは戻らなかった。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
 
 > 恒星光を水路へ分け、花園には柔らかな朝、果樹区には強い昼を配りました。隣の友人はよく弁の陰で仕事を怠け、私が見つけると水面へ光を散らして笑った。故郷を回収した後、同じ水路も弁も再現できました。光の角度まで同じです。でも笑い声は戻らない。だから設備が完全でも、復元完了とは呼びません。悲観ではありませんよ。新しい水番と別の朝を調整しています。ただ、以前の欠員を効率改善と数える気はない。ソフェル、失われた者の分まで明るくした、などと綺麗に書かないでください。
 

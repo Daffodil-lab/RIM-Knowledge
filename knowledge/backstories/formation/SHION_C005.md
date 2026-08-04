@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C005"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 診療所助手
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 温和・技術 / ReviewStatus: 採用済み
+- Tone: 温和・技術 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 柔らかい / 間を置く / 動物への共感 / 自慢を避ける
-- PreservedCanonPoints: 本人は動物診療所で義足、嘴の補強具、角の保護具を作る助手になった。 / 設計値が正しくても動物が嫌がれば使えないため、歩き方や寝姿を観察して形を調整した。 / 装着後の訓練にも付き添い、飼育者へ手入れ方法を教えた。
+- PotentialReferencePoints: 本人は動物診療所で義足、嘴の補強具、角の保護具を作る助手になった。 / 設計値が正しくても動物が嫌がれば使えないため、歩き方や寝姿を観察して形を調整した。 / 装着後の訓練にも付き添い、飼育者へ手入れ方法を教えた。
 
 > 痛い、と言ってくれれば簡単だったのですけれど。義足を付けた獣は、合わなくても黙って座り込むだけでした。私は歩幅より、眠る時にどちらへ身体を傾けるかを見ました。嘴の補強具も角当ても、設計値が正しいだけでは足りません。嫌がって壁へ擦る音を聞き、また削る。その繰り返しです。飼育者には手入れを教えましたが、私の方が辛抱を教わったのでしょうね。立てた瞬間より、翌日に自分から一歩踏み出した時の方が嬉しかった。……ソフェル、こういう話も功績として記録するのですか。
 

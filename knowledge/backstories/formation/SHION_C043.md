@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C043"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 五印章書記
 - Era: LongTransition / Origin: 旧党派混成 / Relation: 地方評議会
 
-- Tone: 政治・行政 / ReviewStatus: 採用済み
+- Tone: 政治・行政 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 疲れた調整役 / 乾いた笑い / 印章より署名者を見る / 合意へ現実的
-- PreservedCanonPoints: 本人は長い過渡期に、社会民主党、共産党、ファシスト党、帝国離反者会、無党派評議会の印章を預かった。 / 共同倉庫は複数勢力の承認がなければ開けられなかった。 / 組織の分裂と統合に合わせて印章と署名者を更新し、不在者の名で物資が動かないよう管理した。
+- PotentialReferencePoints: 本人は長い過渡期に、社会民主党、共産党、ファシスト党、帝国離反者会、無党派評議会の印章を預かった。 / 共同倉庫は複数勢力の承認がなければ開けられなかった。 / 組織の分裂と統合に合わせて印章と署名者を更新し、不在者の名で物資が動かないよう管理した。
 
 > 五つの印章を首から提げて歩くと、偉く見えるでしょう？　実際は倉庫の扉を開けるだけで半日かかる係です。社会民主党、共産党、ファシスト党、帝国離反者会、無党派評議会。分裂するたび署名者が増え、統合するたび亡い者の名が残った。私は印影より、押す手が今も責任を負えるかを確かめました。思想の一致など期待していません。冬の燃料を誰へ何缶渡すかだけ、同じ机で決めればよかった。ソフェル、平和は美しい合意文より、誰も不在者の印で倉庫を空にできない手続から始まると思いませんか。
 

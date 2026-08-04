@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C045"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: ティクーン試験生
 - Era: EraIndependent / Origin: ソフェル / Relation: ティクーン学派
 
-- Tone: 学術・修復 / ReviewStatus: 採用済み
+- Tone: 学術・修復 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 極端に分析的 / 簡潔な訂正 / 造形への無関心 / 責任範囲を明確にする
-- PreservedCanonPoints: ティクーン初期課程で文章と人工知能の命令列を診断した。 / 制御系を停止したまま原因を切り分けた。 / 造形課題より解析を選んだ。
+- PotentialReferencePoints: ティクーン初期課程で文章と人工知能の命令列を診断した。 / 制御系を停止したまま原因を切り分けた。 / 造形課題より解析を選んだ。
 
 > 質問を訂正します。私は人工知能を「治した」のではなく、命令列の不整合を診断しました。人格ではない道具へ意思を仮定すると、使用者の責任が曖昧になります。最終試験では制御系を停止し、破損範囲、再起動条件、依頼者が負う判断を分離した。余計な機能を足さなかった点が最高評価でした。装飾課題は？　提出していません。美しくする理由が定義されなかったので。ソフェル、無関心を欠陥として書いても構いません。ただし、必要のない答えまで作らないことを、私は今も誇っています。
 

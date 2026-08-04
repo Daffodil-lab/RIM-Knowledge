@@ -19,7 +19,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C208"
 canonical_scope: "backstory-formation"
@@ -40,10 +40,10 @@ sources:
 - Short: 評議区射撃討議
 - Era: LongTransition / Origin: 複数党派 / Relation: 長い過渡期
 
-- Tone: 政治・生活・形成 / ReviewStatus: 採用済み
+- Tone: 政治・生活・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 政治談を射場へ持ち込む競技者 / 発砲中止を説明 / 栽培区で待つ / 食卓を旗より信頼
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自治評議区の射場では、撃つ前に党歴の違う者へ中止条件を説明しました。政治を持ち込むな？　生活上の決定を一緒にするなら、武器の条件こそ公開すべきです。私は標的を識別し、栽培区の植物が射線を覆う季節は待った。友と精度を競うのも楽しかったですよ。古い旗の順番は忘れましたが、会議後に同じ卓で外れ弾を笑った顔は覚えています。制度が何度変わっても、撃つ理由と撃たない理由を同じ言葉で説明できる者なら、また隣へ座れると私は思います。
 

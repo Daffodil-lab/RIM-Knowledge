@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A353"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 建国式典演出
 - Era: JourneyEra / Origin: 帝国准民 / Relation: 帝国建国式典班
 
-- Tone: 式典・演出・誇り / ReviewStatus: 採用済み
+- Tone: 式典・演出・誇り / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 上機嫌な演出係。自分の成果を隠さず語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帝国が成立した日の式典、あの照明はあたしが仕込んだのよ。限られた電力で甲板全体を明るく見せる配分を、三か月かけて計算した。本番で一度も電力が落ちなかったのはあたしの配分表のおかげ。式典が終わったあと、責任者に名前も覚えられずに終わったけど、そんなことはどうでもいい。今でも照明の切り替わる瞬間を思い出すと胸が熱くなる。あの日、甲板中が同じ光に照らされたのはあたしの仕事の結果だと胸を張って言える。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A182"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 都市群保存食職
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 都市記録局
 
-- Tone: 都市・旅・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 都市・旅・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 世話好きで柔らかい。味や匂いから失われた町を語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 移動都市では、到着日より先に食事の予定を決める。私は外部旅人の栄養条件と、シオンの感覚上の好みを聞き、到着後の食卓を先に仕込んだ。同じ町を語っているはずなのに、客の地図はいつも食い違ったよ。私には北だった市場が、友には川沿いだった。それでも香草を刻む順番だけは二人とも覚えていた。長い別離の後に蘇った友へ昔の味を出した時、友は懐かしいとは言わなかった。ただ、もう一杯頼んだ。あれで十分だったと思う。昔の関係を再現するより、今日の食卓から結び直す方が誠実だからね。
 

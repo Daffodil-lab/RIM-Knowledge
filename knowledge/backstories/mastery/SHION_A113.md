@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A113"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 都市外精密工
 - Era: EraIndependent / Origin: 無党派 / Relation: 離脱者共同体
 
-- Tone: 倫理・離脱・職歴 / ReviewStatus: 採用済み
+- Tone: 倫理・離脱・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: ためらいを隠さない離脱者。都市の幸福と音楽を愛したまま、一人の犠牲へ依存する仕組みを拒む。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 幸福都市の外縁工房で精密部品を作っていました。街は本当に美しく、音楽も食卓も好きでしたよ。だから、その豊かさが一人の犠牲へ依存すると知った時、簡単には去れませんでした。残る者を卑怯と罵ることも、去る者を英雄にすることもできなかった。私は両方の言葉を記録し、最後に自分の工具を持って外へ出ました。離脱者の共同体では物資が足りず、完璧な部品より直し続けられる部品を作っています。今も都市の歌を口ずさみます。愛した場所を拒むことは、愛さなかったふりをすることではありません。
 

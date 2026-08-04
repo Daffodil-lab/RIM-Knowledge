@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C374"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 巡礼の料理番
 - Era: JourneyEra / Origin: 第三世界／隊商文化継承者 / Relation: 巡礼随行団
 
-- Tone: 料理・自負・共同体 / ReviewStatus: 採用済み
+- Tone: 料理・自負・共同体 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 明るく胸を張って話す、後悔がない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自分は巡礼随行団で一番の料理番だったと、今でも胸を張って言えます。限られた保存食材で、儀式の日ごとに違う匂いの料理を出すのが自分の腕の見せどころでした。隊商文化から伝わる香辛料の配合を頼りに、似た香りの代用品を探すのが得意でしてね。ある年の建国前夜祭では、団長に「これが本当に保存食か」と驚かれたこともあります。失敗もありましたが、自分は落ち込みませんでした。おいしいものを出せば場は必ず和む、それだけを信じて鍋を振っていました。
 

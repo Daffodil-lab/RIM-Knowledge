@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A284"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 審査線再会連絡
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 連合軍
 
-- Tone: 軍務・不条理・職歴 / ReviewStatus: 採用済み
+- Tone: 軍務・不条理・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 怒りを抑えた連絡官。命令書の抽象語より、帰還者の泥と沈黙を信じる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 攻勢命令には「許容損耗」と書かれていた。私はその言葉へ、帰還者の名と泥の付いた靴を一つずつ対応させたよ。地盤の空洞を調べれば、命じた進路が現場からどれほど離れていたかも分かった。長く不在だった友人同士を会わせる時は、昔の期待を押し付けず、戻らなかった者の名も隠さなかった。蘇生した者へ、空白の時間をなかったことにはできない。連合軍の一員でも、兵を成果へ換算する命令には異議を唱えた。最盛期の平和を超えるなら、誰かを消費した数字ではなく、帰った者と帰れなかった者の双方へ責任を持つべきだ。
 

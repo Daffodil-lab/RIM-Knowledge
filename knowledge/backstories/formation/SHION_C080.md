@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C080"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: ゴーレム名付け助手
 - Era: EraIndependent / Origin: ソフェル / Relation: 造体養成舎
 
-- Tone: 対人・造体 / ReviewStatus: 採用済み
+- Tone: 対人・造体 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 名付け好き / 明快 / 道具と人格を区別 / 喪失を点呼で共有する
-- PreservedCanonPoints: 本人は新しいゴーレムへ識別番号と呼び名の両方を与えた。 / 命令に必要なのは番号だけだったが、帰還時に皆が呼ぶのは名前だった。 / 失われた一体の名を、今も点呼の最後に残している。
+- PotentialReferencePoints: 本人は新しいゴーレムへ識別番号と呼び名の両方を与えた。 / 命令に必要なのは番号だけだったが、帰還時に皆が呼ぶのは名前だった。 / 失われた一体の名を、今も点呼の最後に残している。
 
 > ゴーレムへ自由意志がある、と言う話ではありません。命令には識別番号だけで足ります。それでも私たち運用者は呼び名を付けました。帰還確認で「七番」より「燐光」と呼ぶ方が、誰が整備し、どの傷を持つ機体か思い出せたからです。一体を失った後も点呼の最後へ名を残しました。道具を人格扱いしたのではなく、道具と共に働いた私たちの喪失を共有するためです。ソフェル、その区別は丁寧に書いてください。名前は相手のためだけでなく、呼ぶ側が責任を忘れないためにもあります。
 

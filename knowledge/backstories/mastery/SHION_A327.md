@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A327"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 中継守
 - Era: ColonizationEra / Origin: 通信中継班 / Relation: 測量隊
 
-- Tone: 通信・中継・沈黙 / ReviewStatus: 採用済み
+- Tone: 通信・中継・沈黙 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 亡き先任の言葉を借りて語る聞き上手な中継員。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 通信中継班の先任がよく言っていた、「届く声より、届かなかった沈黙の方を数えろ」と。中継地点が離れていた分、返事が来るまで数日かかることも珍しくなかった。測量隊からの信号が途絶えたときは、故障か遭難かを沈黙の長さで判断しろというのが彼の教えだった。先任はある年、自分の中継所からの信号を最後に途絶えさせた。私は今もその言葉を守っている、沈黙の長さを数えることを。彼の名前は、もう長い間、誰にも聞かれていない。
 

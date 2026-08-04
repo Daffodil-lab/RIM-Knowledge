@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C173"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 居住区異体競技
 - Era: EraIndependent / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 生活・基幹・形成 / ReviewStatus: 改稿採用済み
+- Tone: 生活・基幹・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 寡黙な競技者 / 身体差の調整へ熱心 / 儀礼的社交を嫌う / 失敗を消さない
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 祝辞は要りません。競技の話をしましょう。居住区大会では、共有狐娘型内部の重量・出力が違う相手と安全に組み合うため、力だけでなく床、合図、休止条件まで変えました。動物の参加者には言葉以外の合図を待つ。私は外交的な笑顔が苦手ですが、競技中の約束なら守れます。一度、相手の可動域を読み違えて負傷させた。その映像を削除せず、次の大会の教材へ出しました。恥より再発防止が先です。豊かな社会とは、完璧な者だけが競う場所ではなく、失敗した者も訂正して戻れる場所だと思います。
 

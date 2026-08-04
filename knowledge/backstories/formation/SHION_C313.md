@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C313"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 紫の獣
 - Era: ColonizationEra / Origin: 環境観測隊 / Relation: 大気班
 
-- Tone: 観測・嵐・比喩 / ReviewStatus: 改稿採用済み
+- Tone: 観測・嵐・比喩 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 情景を獣に見立てて語る、少し詩的な語り口。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > あの紫の嵐は、機嫌の悪い獣のようなものでした。予兆もなく毛を逆立て、去った後は何も語らない。私たちの班は観測塔からその獣の呼吸を数値で追いかけました。獣が近づくと家畜たちが先に騒ぎ、私はその鳴き声を警報より先に信じるようになりました。嵐が去った朝の空気は、獣の抜け毛のように静電気で満ちていました。今でも風が急に止むと、あの獣が息を吸っているのではないかと思ってしまいます。
 

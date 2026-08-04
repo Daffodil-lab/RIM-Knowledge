@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A340"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 航行観測員
 - Era: JourneyEra / Origin: 第三世界／洋上文化継承者 / Relation: 航行記録班
 
-- Tone: 観測・手順・正確 / ReviewStatus: 採用済み
+- Tone: 観測・手順・正確 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 手順を淡々と読み上げる観測員。感情語をほぼ使わない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 観測手順は三段階だった。まず外殻センサーの値を読む。次に前日との差分を記録する。最後に異常値があれば三回測り直してから報告する。洋上文化の継承者として星の位置で潮を読んでいた先達の仕事を、私は数値で引き継いだ形になる。二十二年の勤務で報告した異常値は十七件、うち本当の異常は一件だけだった。残りは私の測り間違いか機器の癖だ。手順通りに動けば、間違いも含めてすべて後で説明がつく。それだけを守ってきた。
 

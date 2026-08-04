@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A345"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 混成調停役
 - Era: JourneyEra / Origin: 混成世代 / Relation: 混成家族区画
 
-- Tone: 調停・慣習・融和 / ReviewStatus: 採用済み
+- Tone: 調停・慣習・融和 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: ぶっきらぼうな調停役。誤解をまず正してから話す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 俺が律法の番人だったなんて話は大げさすぎる。俺の仕事は、旧い葬式の作法と新しい律法の作法がぶつかって喧嘩になった家族の間に座ることだけだ。ある家族は骨を海に流す作法を守りたがり、律法は違う形を勧めていた。俺はどちらも間違っていないと言って、両方の作法を半分ずつやらせた。揉め事は減ったが、完全になくなったことは一度もない。番人じゃなく、ただの仲裁人だったと覚えておいてくれ。
 

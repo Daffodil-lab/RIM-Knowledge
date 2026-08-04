@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C107"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 帰還港工具係
 - Era: LongTransition / Origin: 無党派 / Relation: 長い過渡期
 
-- Tone: 戦争・時間・形成 / ReviewStatus: 採用済み
+- Tone: 戦争・時間・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 手先が早い / 冗談を記憶の錨にする / 命令の年代差に敏感 / 再会を美談にしない
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帰還兵の工具は、握りを見ればいつの時代から来たか分かりました。私は港の工房で照準器と作業具を整え、持ち主の癖に合わせて削ったんです。ただし古い命令書まで磨いて再使用するのは御免でした。年代を照合し、失効した指示には大きく印を付けた。ある帰還者は、友と再会したのに互いの経過時間が違い過ぎて、最初の一時間ずっと工具の話をしていました。私もそこにいました。記録は再会成功とだけ書くでしょうが、私は彼らの下手な冗談を覚えています。暮らしは、ああいう余分でできているので。
 

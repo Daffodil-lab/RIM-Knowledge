@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C362"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 畳んだ国旗
 - Era: JourneyEra / Origin: 第三世界／季節風の民 / Relation: 旧国籍者互助会
 
-- Tone: 別離・所属・子ども / ReviewStatus: 採用済み
+- Tone: 別離・所属・子ども / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: きびきびした口調、時々昔の言い回しが混じる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 「その布、もう畳んでいいんじゃない」って、あたしは互助会の年寄りに言ったの。あたしがまだ十歳くらいの頃。互助会の壁には季節風の民の旗が貼ってあって、集会のたびに歌う歌があった。でも歌える大人はどんどん減っていって、あたしの代ではもう歌詞も半分うろ覚えだった。年寄りは黙って旗を畳んで、代わりに写真だけ残した。あたしはそれを見て安心したの。消えることは悪いことじゃない、ちゃんと畳めば。あの日から、あたしはものを畳むのが得意になった。
 

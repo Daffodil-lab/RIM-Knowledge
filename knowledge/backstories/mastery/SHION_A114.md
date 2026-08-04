@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A114"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 封鎖地舞台演出
 - Era: ModernUnion / Origin: 無党派 / Relation: 異常対応班
 
-- Tone: 異常・研究・職歴 / ReviewStatus: 採用済み
+- Tone: 異常・研究・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 神経質で大胆な演出家。未知の色を再現しつつ、観客へ事実と創作の境界を明示する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 封鎖観測地で見た変色を、舞台へ移しました。ただし「未知の色を完全再現した」とは宣伝させませんでした。私たちが見た事実と、観客へ伝えるための創作は別です。役者には身体を捻る異様な動きを教えましたが、痛める前に止める手順も徹底しました。帰還後しばらく、普通の夕焼けまで異常に見えたんです。ソフェル、笑わないでください。本当に境界が信用できなくなる。だから上演の最後には照明を白へ戻し、観客が今いる場所を確かめる時間を置きました。恐怖を伝えるために、同じ恐怖へ閉じ込める必要はありません。
 

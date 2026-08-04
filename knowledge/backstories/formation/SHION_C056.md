@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C056"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 老犬散歩番
 - Era: EraIndependent / Origin: 無党派 / Relation: 動物保護区
 
-- Tone: 動物・看取り / ReviewStatus: 採用済み
+- Tone: 動物・看取り / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: とても静か / 犬へ語りかけるような口調 / 看取りを美化しない / 次の愛着を恐れる
-- PreservedCanonPoints: 本人は何度身体を換えても老いていく犬を毎日同じ道へ連れ出した。 / 最後の日にも歩幅を変えず、帰宅後は空の首輪を次の散歩へ持っていった。 / 新しい犬を迎えるまで長くかかった。
+- PotentialReferencePoints: 本人は何度身体を換えても老いていく犬を毎日同じ道へ連れ出した。 / 最後の日にも歩幅を変えず、帰宅後は空の首輪を次の散歩へ持っていった。 / 新しい犬を迎えるまで長くかかった。
 
 > 私は何度も身体を換えましたが、あの犬は一つの身体で老いました。毎日同じ道を、最後の日も同じ歩幅で歩いた。遅いから待ったのではありません。あれが私たちの速さだったんです。帰宅後、空の首輪を持って翌日も外へ出ました。呼べば角から来る気がした。新しい犬を迎えるまで長くかかったのは、忘れたくなかったからではなく、また先に見送るのが怖かったからです。……ソフェル、優しい話へ整えないでください。愛していた。死んだ。私は長く臆病になった。それでも今は別の足音を待てます。
 

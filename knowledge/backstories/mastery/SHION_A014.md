@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A014"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 多言語仲裁人
 - Era: EraIndependent / Origin: 無党派 / Relation: 交易評議所
 
-- Tone: 言語・調停 / ReviewStatus: 採用済み
+- Tone: 言語・調停 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 明晰で率直な仲裁人。中立を装わず、自分の利害も卓上へ出して合意を探す。
-- PreservedCanonPoints: 本人は言葉だけでなく、沈黙、贈答、席順、身振りの意味まで訳す仲裁人となった。 / 同じ言葉が謝罪と脅迫の両方になる土地では、話者の関係と状況を先に確かめた。 / 合意文書は短くし、双方が異なる勝利を読み込める曖昧な表現を避けた。
+- PotentialReferencePoints: 本人は言葉だけでなく、沈黙、贈答、席順、身振りの意味まで訳す仲裁人となった。 / 同じ言葉が謝罪と脅迫の両方になる土地では、話者の関係と状況を先に確かめた。 / 合意文書は短くし、双方が異なる勝利を読み込める曖昧な表現を避けた。
 
 > 私は何も望まない中立者ではありません。仲裁の前に、自分の好みと利害も机へ出します。その上で言葉だけでなく、沈黙、贈答、席順、身振りを訳しました。同じ語が謝罪にも脅迫にもなる土地では、辞書より関係を先に聞きます。一度、双方が自分の勝利だと思える曖昧な合意を書き、数年後に争いを再開させました。それから文書は短くし、誰が何を譲ったかを隠しません。美しい和解より、翌朝も互いの意味を確認できる約束が欲しい。仲裁人も当事者の一人だと、私は忘れないようにしています。
 

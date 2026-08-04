@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A374"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 亡師の厨房番
 - Era: JourneyEra / Origin: 混成文化継承群 / Relation: 共同厨房班
 
-- Tone: 継承・食卓・師弟 / ReviewStatus: 採用済み
+- Tone: 継承・食卓・師弟 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 亡くなった師の言葉を折に触れて引用する料理人。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 「塩は最後、感謝は最初」って師匠がいつも言ってた。旧い出身圏の作法と新しい律法の作法がぶつかって、厨房でも喧嘩が絶えなかった時期に、その一言だけがみんなを黙らせた。師匠が亡くなってからも、あたしは仕込みの前に必ずその言葉を口にする。誰かに教わったからじゃなく、そう言わないと手が動かないからだ。鍋の縁に指を這わせる癖も師匠のままだ。塩は最後、感謝は最初。師匠の声は消えても、この順番だけは残った。
 

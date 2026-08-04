@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A136"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 船団保護飼育
 - Era: EraIndependent / Origin: 帝国離反者 / Relation: 離散共同体
 
-- Tone: 離散・宇宙・職歴 / ReviewStatus: 採用済み
+- Tone: 離散・宇宙・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: のんびりした飼育員。故郷の違う動物と住民が互いの距離を決めるまで、急かさず世話を続ける。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 離散船団の保護区には、いくつもの故郷から動物が集まりました。私は近づきすぎず、同じ時刻に餌と水を置き、向こうが距離を決めるまで待ちました。住民も同じです。時間尺度も身体も違い、「帰る場所」の意味が一致しない。無理に一つの故郷を選ばせず、飼育区ごとに古い匂いと音を少し残しました。世話の途中、皆が別々の発音で同じ歌を口ずさんだ夜があります。必要性だけなら歌は要りません。でも異なる者が同じ作業を続けるには、役に立たない楽しみも餌と同じくらい大切です。
 

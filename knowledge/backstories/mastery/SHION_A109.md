@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A109"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 船団坑道監督
 - Era: EraIndependent / Origin: 帝国離反者 / Relation: 離散共同体
 
-- Tone: 離散・宇宙・職歴 / ReviewStatus: 採用済み
+- Tone: 離散・宇宙・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 低い声の坑道監督。故郷を土地ではなく帰還可能な道として捉え、作業歌を大切にする。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 離散船団が資源天体へ停泊するたび、私は坑道を任されました。地層の音を聞き、最後の作業員まで戻れる順で掘る。武装護衛より岩盤の方が相手としては好みです。撃てと言われると考えすぎるんですよ。船団には異なる身体と時間を生きた者が集まり、「故郷」の場所さえ一致しませんでした。それでも坑道では同じ作業歌を口ずさんだ。私はその歌を掘削記録へ採譜しました。帰る星が違っても、帰還できる道を残すことは共有できる。私にとって故郷は、地名より先に皆が戻ってくる出口です。
 

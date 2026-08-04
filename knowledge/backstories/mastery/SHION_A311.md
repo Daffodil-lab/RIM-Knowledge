@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A311"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 道普請師
 - Era: ColonizationEra / Origin: 測量隊 / Relation: 山岳班
 
-- Tone: 測量・山岳・整備 / ReviewStatus: 改稿採用済み
+- Tone: 測量・山岳・整備 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 指先の感覚から記憶をたどる寡黙な測量士。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 指先がまだ覚えている。冷えた花崗岩の表面に打った鋲の、ざらつきと硬さだ。山岳班は稜線沿いに測量点を刻む仕事で、断熱手袋を外して岩肌を確かめないと正確な角度が読めなかった。低温で外装と触覚器を損傷しかけたことも二度ある。それでも直接触れることへこだわったのは、計器の目盛りより自分の指先の方が、割れやすい岩の癖を先に教えてくれたからだ。遠い峰の記録に私の名は残らなくても、あの稜線を歩いた測量点はまだそこにある。
 

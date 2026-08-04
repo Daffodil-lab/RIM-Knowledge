@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A292"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 山岳区終生飼養
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 連合連絡隊
 
-- Tone: 革命・友情・職歴 / ReviewStatus: 採用済み
+- Tone: 革命・友情・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 優しい山岳飼養員。革命の大義より、橋を渡る住民と老いた動物を守る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 山岳連絡区では、党派の違う部隊が同じ橋を奪い合った。私は老いた運搬動物の日課を守りながら、誰の旗でもなく孤立した住民のために橋を開けたよ。役目を終えた動物を置いて退けと言われても断った。遠くの鐘が仲間の死を知らせた夜、その子はいつもの寝床へ戻り、私は隣で朝まで座った。友が蘇生しても、あの夜にいなかった時間は戻らない。革命の大義を語るより、旗の違う者が同じ橋を渡り、役に立たない老いへ餌を置ける暮らしを作りたい。それが私の平和の対象だ。
 

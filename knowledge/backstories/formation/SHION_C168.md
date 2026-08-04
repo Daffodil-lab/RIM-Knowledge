@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C168"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 防衛圏証言壁画
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 帝国・終戦・形成 / ReviewStatus: 採用済み
+- Tone: 帝国・終戦・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 情熱的な壁画描き / 一つの英雄譚を拒む / 身体表現も好む / 温かな器に執着
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 最終防衛圏の壁へ、同じ戦いを四通り描きました。帝国兵、革命連合、逃げた住民、そして何も見えなかった地下の者。英雄を一人に決める案は断りました。国家の命令と、目の前の住民を守った選択は同じではないからです。大きな壁を塗るには身体の使い方も要り、友と足場を走る速さまで競いました。楽しかったですよ。敗北後、雪の中で温かい器を渡された場面だけは全ての絵に入れた。所属不明の手でした。歴史が争っても、その温度まで一党の所有物にはさせません。
 

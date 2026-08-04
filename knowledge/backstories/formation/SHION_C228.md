@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C228"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 月面音楽会
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 月面共同事業
 
-- Tone: 開拓・事業・形成 / ReviewStatus: 採用済み
+- Tone: 開拓・事業・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 明るく感傷的。実用性のない音楽を、再会のための技術として語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 月面区では、音楽は空気も食料も増やさないと言われました。まったくその通りです。それでも私は作業後の演奏会へ通い、低重力で跳ねる拍子を友と練習しました。完成式の日より、最初の足跡の横で調子外れの曲を弾いた夜をよく覚えています。のちに蘇った友と同じ曲を合わせましたが、互いの癖は昔と少し違っていました。失われた時間は演奏で埋まりません。だからこそ、新しいずれを聞きながら一曲を終えた時、再会できたのだと思えました。役に立たない時間を安心して持てることも、私が取り戻したい豊かさの一つです。
 

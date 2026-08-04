@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A115"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 祝宴救護医
 - Era: EraIndependent / Origin: 無党派 / Relation: 文化共同体
 
-- Tone: 料理・記憶・職歴 / ReviewStatus: 採用済み
+- Tone: 料理・記憶・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 機敏でよく笑う救護医。祝宴事故の混乱を捌きながら、空席を減らすことを任務とする。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 共同祝宴堂の救護を担当していました。大勢が異なる身体で集まるため、転倒一つでも搬送路がすぐ塞がります。ある追悼宴で天井飾りが落ちた時、私は傷の深さで治療順を変え、建築係と卓を動かして退路を作りました。食事を必要としない客も皿を運び、動ける負傷者が他人へ声をかけた。報告書には全員帰還と書きましたが、覚えているのは最後に冷えた料理を皆で食べたことです。軍務と呼ばれても、私の敵は混乱と空席ですよ。次の宴で一席も欠けさせないために働きます。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A412"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 巡察官
 - Era: GrowthEra / Origin: 辺境行政府 / Relation: 巡察班
 
-- Tone: 公正・疲労・使命 / ReviewStatus: 採用済み
+- Tone: 公正・疲労・使命 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 疲れを滲ませながらも公正であろうとする、抑えた口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 開拓地が増えれば増えるほど、僕のところに届く訴えも増えました。水路の境界、収穫の分配、新参者と古参の諍い。どれも小さな話に見えて、当人たちにとっては人生そのものです。先に来た者を優先しろという声もありましたが、僕は訴えが届いた順番だけを守ることにしています。それだけが唯一、誰にでも公平に説明できる基準だからです。星々の道が整うほど人の揉め事も増えるのだと知ったのは、この仕事に就いてからでした。
 

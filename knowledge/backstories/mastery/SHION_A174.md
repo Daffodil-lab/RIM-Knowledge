@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A174"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 文化区舞台演出
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 福祉・選択・職歴 / ReviewStatus: 採用済み
+- Tone: 福祉・選択・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 情熱的な演出家。快適さを善と決めつけず、不便な自作椅子を舞台中央へ置く。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 孵育文化区では、誰にでも快適な身体と部屋が用意されました。友だけは、姿勢に悪い自作椅子を手放さなかった。私は最初、交換を勧めたんです。「痛みを選びたいわけじゃない。これは私が作った」と返されました。その言葉を舞台にし、古い椅子を中央へ置きました。制度が用意した幸福を断る場面で、役者は椅子を持ち上げて逃げる。稽古は身体を壊さないよう何度も変えました。快適さを守ることと、快適さの形を決めることは違います。私は友に教えられるまで、その違いを見落としていました。
 

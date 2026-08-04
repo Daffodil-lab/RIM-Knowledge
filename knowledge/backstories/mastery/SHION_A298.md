@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A298"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 予測院監視射手
 - Era: ModernUnion / Origin: 無党派 / Relation: 評議会研究院
 
-- Tone: 研究・長期計画・職歴 / ReviewStatus: 採用済み
+- Tone: 研究・長期計画・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 冷静な監視射手。長期予測へ従いすぎず、治療は専門家へ即座に渡す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 長期予測院の監視任務では、未来の危険度と目の前の動きを同じ画面で見た。私は遠距離から識別し、予測が発砲を勧めても確認できなければ待ったよ。負傷者が出た時は自分で治療を続けず、専門医へ即座に渡した。私は観察と射線へ集中する方がよい。ある計画は、予測にない二人の友情で救われた。私はそれを誤差と呼ばなかった。友へ謝る時期まで予測表へ任せて、長く先延ばしにした後悔があるからだ。遠い未来を守る技術ほど、今ここで判断を変える余白を残すべきだと思う。
 

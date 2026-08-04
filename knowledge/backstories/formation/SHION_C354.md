@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C354"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 写本刀の子
 - Era: JourneyEra / Origin: 律法学舎 / Relation: 律法学舎寮
 
-- Tone: 職人・道具・写本 / ReviewStatus: 改稿採用済み
+- Tone: 職人・道具・写本 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 道具の話になると饒舌になる古参の職人口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 写本刀の話をさせてくれ。律法学舎の寮では、文字を削り出す専用の刀を各自一本持たされた。刃の角度は十二度、柄の長さは掌の一握り半、これが決まりだった。わしは十歳のときに自分の刀を初めて研いで、刃こぼれ一つで師匠にひどく叱られた。角度が十一度になっていただけで、字の線が太くなるのだと教えられた。今の律法学舎の子らは道具の話などしたがらんが、わしにとっては条文の中身より、あの十二度の角度の方が体に染みついている。
 

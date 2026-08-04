@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A274"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 都市群監視射手
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 都市記録局
 
-- Tone: 都市・旅・職歴 / ReviewStatus: 採用済み
+- Tone: 都市・旅・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 目のよい旅人。動く都市を撃って守るより、目印を育てて見失わないようにする。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 移動都市を監視する時、遠くの輪郭だけで同じ町と決めてはいけない。住民の証言は食い違い、路地は移り、身体だけが古い曲がり方を覚えていた。私は射撃照準で位置を測ったが、警告弾より鉢植えの目印を使ったよ。都市が移るたび育ち方が変わり、季節と方角を教えてくれた。昔、別れ際の友へ謝らず、次の停泊地で会えばよいと思った。町は動き、会えたのはずっと後だった。だから今は観測の訂正も謝罪も、見つけた場所で済ませる。次の地図が同じとは限らないからね。
 

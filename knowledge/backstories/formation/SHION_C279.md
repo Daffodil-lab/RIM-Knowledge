@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C279"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 構造物読書会
 - Era: EraIndependent / Origin: 無党派 / Relation: 調査船団
 
-- Tone: 宇宙・観測・形成 / ReviewStatus: 採用済み
+- Tone: 宇宙・観測・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 好奇心が強く慎重。調査資料と食事を持ち寄る、気の長い読書会を愛する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 調査船では、用途不明の構造物について古い報告を読む会を開きました。私は欠けた頁を埋めず、観測できた動きだけを抜き出しました。毎回、故郷の料理を一品ずつ持ち寄ったので、議論より献立の方が増えましたね。構造物へ人間らしい目的があると考える者も、巨大な道具にすぎないと言う者もいました。結局、何も答えないまま航路の外へ去りました。故郷の素材や料理は再現できても、あの卓の会話は同じにならない。だから読めない頁と未解決の意見を、次の会へ渡す余白として残しました。
 

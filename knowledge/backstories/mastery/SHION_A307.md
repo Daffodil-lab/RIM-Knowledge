@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A307"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 強襲群臨床医
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟軍
 
-- Tone: 軍務・統合・職歴 / ReviewStatus: 採用済み
+- Tone: 軍務・統合・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 厳しい臨床医。公平な抽選という言葉を嫌い、治療後の生活まで見届ける。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 機動強襲群では、危険な任務を抽選で割り当てれば公平だという案が出た。私は反対した。犠牲を公平に配る前に、避難路と兵科の組合せを変えるべきだ。臨床では症状だけでなく、不安と治療後の居場所まで聞いたよ。処置を見学者へ公開し、なぜその順番か説明した。帰還者を数える声が夜通し続き、食卓には欠けた席があった。報告書は成功でも、文化として残すべきなのは勝利の絵ではない。誰を抽選へ入れずに済んだか、帰った者がどこで食べ直せたかという記憶だと思う。
 

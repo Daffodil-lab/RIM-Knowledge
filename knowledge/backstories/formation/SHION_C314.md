@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C314"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 継ぎ目の癖
 - Era: ColonizationEra / Origin: 建設隊 / Relation: 資材班
 
-- Tone: 建設・資材・手仕事 / ReviewStatus: 改稿採用済み
+- Tone: 建設・資材・手仕事 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 道具や手順の細部に執着する職人的な語り。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 継ぎ目の話をしましょう。私たちが使った接合材にはいくつか系統があり、氷点下でも確実に固まる物は限られていました。だから資材箱には寒冷地向けの物を余分に積みました。工具は柄が短いものを好みました。防寒手袋が厚いと長い柄は扱いにくいからです。継ぎ目を斜めに削ってから合わせると、後で剥がれにくい。誰もそんな細部を褒めてくれませんでしたが、剥がれなかった壁だけが私の返事です。
 

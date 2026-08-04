@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A007"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 動物機工
 - Era: EraIndependent / Origin: 無党派 / Relation: 牧畜工房
 
-- Tone: 動物・機械 / ReviewStatus: 採用済み
+- Tone: 動物・機械 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 陽気で辛抱強い機工。役所の分類より、動物がまた歩けるかを気にする。
-- PreservedCanonPoints: 本人は荷獣の鞍、義肢、自動給餌器を同じ工房で整備する動物機工となった。 / 動物が工具を怖がる時は、修理を急がず匂いと音へ慣らしてから作業した。 / 装具の調整では歩き方と皮膚の状態を観察し、飼育者にも保守方法を教えた。
+- PotentialReferencePoints: 本人は荷獣の鞍、義肢、自動給餌器を同じ工房で整備する動物機工となった。 / 動物が工具を怖がる時は、修理を急がず匂いと音へ慣らしてから作業した。 / 装具の調整では歩き方と皮膚の状態を観察し、飼育者にも保守方法を教えた。
 
 > 獣医か機械工か、と役所には何度も聞かれました。患者は資格証を読みません。私は荷獣の鞍、義肢、自動給餌器を同じ工房で直しました。工具を怖がる動物には、匂いと音へ慣れるまで何日でも待ちます。歩き方と皮膚を見て装具を削り、飼育者へ保守も教えました。理論を説明するより、本人が歩く姿を見る方が判断しやすかったですね。必要だからだけではありません。友と調整の腕を競い、動物が昨日より一歩多く歩くのを見るのが好きでした。役に立つ趣味になったのは、少し癪ですが。
 

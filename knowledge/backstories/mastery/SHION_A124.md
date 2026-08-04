@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A124"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 透明区動物義肢
 - Era: LongTransition / Origin: 旧党派 / Relation: 計画共同体
 
-- Tone: 制度・個人・職歴 / ReviewStatus: 採用済み
+- Tone: 制度・個人・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 反骨心のある義肢技師。公開記録へ従いつつ、動物と持主が見せたくない時間を守る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 透明居住区では、治療記録も作業場も皆から見えました。私は動物の義肢を調整しながら、公開すべき安全情報と、持主だけが知る痛みの記憶を分けました。全てを見せることが誠実だと言われましたが、怯えた動物が義肢を外す時間まで見世物にする必要はありません。工房には一つだけ、標準時と違う時計がありました。扉を閉めて休ませる時間を示すためです。規則違反として何度も直され、私は何度も戻しました。平和な街にも、誰にも見られず弱ってよい一時間くらい必要でしょう。
 

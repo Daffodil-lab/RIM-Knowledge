@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A146"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 山岳区食堂調理
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 連合連絡隊
 
-- Tone: 革命・友情・職歴 / ReviewStatus: 採用済み
+- Tone: 革命・友情・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 温厚な山岳調理師。戦闘を避け、橋を守る連絡員へ温食と応急処置を届ける。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 山岳連絡区で食堂を開き、橋を守る連絡員へ温かい物を運びました。党派は違っても、孤立した住民へ道をつなぐ仕事は同じです。私は格闘が好きではなく、喧嘩が始まれば鍋を抱えて逃げました。その代わり、戻った外部居住者の凍傷と、シオンの外装・触覚系の低温損傷を診て、香りと温度を身体に合わせました。遠くの鐘が仲間の死を知らせた夜、誰も食べようとしなかった。私は火だけ消さず、朝まで薄いスープを温めました。食べる者がいなくても、帰ってくる者の席を先に閉じたくなかったんです。
 

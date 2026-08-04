@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C182"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 書庫塔再会窓口
 - Era: ImperialPeak / Origin: 旧帝国 / Relation: 最盛期帝国社会
 
-- Tone: 塔・記録・形成 / ReviewStatus: 採用済み
+- Tone: 塔・記録・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 声の小さい受付生 / 古い道具を好む / 地下書庫の地質に詳しい / 友情を新しく結び直す
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 書庫塔の窓口では、大声の歓迎は禁じられていました。本を守るためでも、帰還者を驚かせないためでもあります。私は記憶差を説明し、地下書庫の空洞を避けて待合室へ案内しました。新しい端末より古い筆記具を使ったのは、帰った者が覚えている音を選べたからです。蘇生した友と再会した時、私たちは「久しぶり」とだけ言った。昔の会話を続けようとしても互いに知らない時間が邪魔をしたので、今は新しい本を一冊ずつ読み合っています。友情も書庫と同じで、欠巻を偽造せず次巻から始めればよいのでしょう。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A187"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 装甲隊救護医
 - Era: ModernUnion / Origin: 無党派 / Relation: 装甲突撃隊
 
-- Tone: 装甲・救援・職歴 / ReviewStatus: 採用済み
+- Tone: 装甲・救援・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: LawEnforcement
 - VoiceProfile: 冷静で率直。装甲の強さより、内側で聞いた声を語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 装甲は敵を倒すためだけのものじゃない。崩れる壁と避難者の間へ立ち、治療の一分を買うためにも使える。私は盾の内側で傷を診て、床の傾きから次に落ちる梁を読み、搬送順を何度も変えた。ある護送では、群衆を押し退ければ早いという命令を断り、工事用通路へ回った。遅れは出たが、誰も傷つかなかったよ。報告書には経路変更としか書かなかった。けれど私が覚えているのは、盾の陰でようやく息を吐いた子と、帰還後の食卓にあった一つの空席だ。あの席を増やさないためなら、私は何度でも遠回りする。
 

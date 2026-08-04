@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C187"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 地下灯祭坑道飾り
 - Era: EraIndependent / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 生活・基幹・形成 / ReviewStatus: 採用済み
+- Tone: 生活・基幹・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 灯りを彫る坑道好き / 武器を避ける / 住民の希望を造形化 / 無駄仕事を愛す
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 地下灯祭では、坑道の亀裂へ灯りを置き、戻らなかった者の好きな形を壁へ彫りました。採掘の響きを読み、安全を確かめるのが私の役です。射撃は避けました。武器の音より石の返事を聞きたかったので。制度は同じ形の灯具を勧めましたが、住民の希望も併記して全部違う形にした。隣人は役に立たない飾りへ何日も費やし、失敗作を見て笑っていました。生産記録には残らない時間です。でも喪失を抱えたまま無駄を楽しめることこそ、暮らしが戻った証拠だと私は思います。
 

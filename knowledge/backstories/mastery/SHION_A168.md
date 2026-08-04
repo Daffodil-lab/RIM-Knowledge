@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A168"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 継承橋梁技師
 - Era: ModernUnion / Origin: 無党派 / Relation: 教育共同体
 
-- Tone: 教育・継承・職歴 / ReviewStatus: 採用済み
+- Tone: 教育・継承・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 手を動かして覚える橋梁技師。古い公式を丸暗記せず、利用者の足音と工具の感触で橋を直す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 継承教室で古い橋の補修を学び、そのまま現場を任されました。公式を覚えるのは得意ではありません。私は梁へ触れ、通る者の足音を聞いて傷みを確かめます。教師は最後の計算を伏せ、「自分の橋で答えろ」と言いました。腹は立ちましたが、今なら分かります。教本どおり補強した箇所が、新しい身体の歩幅には合わなかったんです。私は迂回路を残し、利用者ごとに手すりと床を直しました。知識を軽んじてはいません。ただ、橋は式のためでなく、誰かが帰るために架かっています。
 

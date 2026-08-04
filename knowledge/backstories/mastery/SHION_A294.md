@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A294"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 透明区公共壁画役
 - Era: LongTransition / Origin: 旧党派 / Relation: 計画共同体
 
-- Tone: 制度・個人・職歴 / ReviewStatus: 採用済み
+- Tone: 制度・個人・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Mixed
 - VoiceProfile: 大胆な壁画家兼現場係。公開の記録と、本人だけの記憶を力ずくでも分ける。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 透明居住区では、壁画へ全員の記憶を公開するよう求められた。私は住民の証言を一つに塗り潰さず、見せたくない箇所は空白にしたよ。危険施設の再確保では、重い扉をこじ開けながら調査、逮捕、救護の指揮を分け、私的記録を押収品へ混ぜなかった。街の時計は揃っていたが、友の部屋だけ違う時刻を指していた。再会した彼は同じ名で笑っても、昔の記憶を壁へ出すことは望まなかった。私は空白のまま残した。公開できない思いがあることも、社会が守るべき事実だからね。
 

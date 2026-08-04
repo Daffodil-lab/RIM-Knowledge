@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C393"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 給水子
 - Era: ColonizationEra / Origin: 給水隊 / Relation: 育ての親
 
-- Tone: 郷愁・温もり・孤独 / ReviewStatus: 採用済み
+- Tone: 郷愁・温もり・孤独 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 柔らかくゆっくりとした口調、比喩を多く交えて感情をじんわりと滲ませる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 給水塔は町の心臓みたいなものだった。育ての親がそこで働いていたから、うちは塔の下で育ったようなものです。塔が水を吐き出す音は、まるで巨人が息をしているようで、うちはそれを聞きながら昼寝をしていました。育ての親は忙しくて構ってくれない日も多かったけれど、塔の陰は涼しくて、誰にも邪魔されない自分だけの場所でした。今でも水音を聞くと、あの塔の影の匂いを思い出します。
 

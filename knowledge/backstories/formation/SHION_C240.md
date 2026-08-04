@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C240"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 夕焼け芝居
 - Era: ModernUnion / Origin: 無党派 / Relation: 異常対応班
 
-- Tone: 異常・研究・形成 / ReviewStatus: 採用済み
+- Tone: 異常・研究・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 表現豊かだが慎重。恐怖を誇張せず、舞台を通して喪失を語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 封鎖観測地で、私たちは夕焼けを題材にした芝居を作りました。色の異常を見た者が、普通の空まで恐れるようになったからです。私は故郷と死者を扱いながら、悲しみだけで幕を閉じない演出を考えました。舞台稽古の組み手では力を抜きすぎて、よく相手を転ばせ損ねましたね。調査では推測を事実として語らず、上演前には戻らなかった者の名を読みました。帰還後もしばらく、私は本物の夕焼けを信用できませんでした。それでも舞台の空を何度も塗るうち、怖いまま美しいと言えるようになった。それが私には必要だったのです。
 

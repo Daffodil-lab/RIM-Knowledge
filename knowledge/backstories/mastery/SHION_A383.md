@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A383"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 芸術評議員弁明
 - Era: JourneyEra / Origin: 帝国准民 / Relation: 統合芸術評議班
 
-- Tone: 芸術・弁明・統合 / ReviewStatus: 採用済み
+- Tone: 芸術・弁明・統合 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 静かに自分の判断を弁護する評議員。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 統合芸術評議班が旧い出身圏の様式をいくつも廃止したことを、今でも責められることがあります。ですが当時、様式を全部残す余力は船になかった。保存できる工房の数にも、伝えられる継承者の数にも限りがあった。私は残す様式を選ぶ側にいて、選ばれなかった様式の作り手に何度も謝られました。謝るべきは私の方だったかもしれません。それでも、あの判断をやり直せと言われたら、同じ基準で選び直すと思います。
 

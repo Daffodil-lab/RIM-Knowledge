@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C193"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 扶助区救護当番
 - Era: LongTransition / Origin: 社会民主党系 / Relation: 自治共同体
 
-- Tone: 共同体・倫理・形成 / ReviewStatus: 採用済み
+- Tone: 共同体・倫理・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 共同体本位の救護生 / 所有者より責任者を探す / 構造安全も見る / 動物救護は任せる
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 相互扶助区の事故で「これは誰の設備だ」と聞いても、皆の物だとしか返らない。それでは救護が遅れます。私は傷病者の順序と避難構造を見ながら、所有者ではなく手入れを知る者を探しました。動物の治療は詳しい者へ任せた。古い道具を残すか新型へ替えるかも、使う者の愛着と安全を両方聞いたんです。共同体は責任まで霧にしてはいけない。誰も明日の住まいを疑わない暮らしを望むなら、事故の時に「皆」の後ろへ隠れず、私が見ると言える者を育てるべきだと思います。
 

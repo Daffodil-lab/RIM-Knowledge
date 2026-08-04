@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C323"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 順番の名
 - Era: ColonizationEra / Origin: 給水隊 / Relation: 汲み上げ班
 
-- Tone: 給水・公平・要求 / ReviewStatus: 採用済み
+- Tone: 給水・公平・要求 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 静かだが要求だけははっきり口にする口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 一滴の水がどれほど重いか、あなたに分かるとは思いません。だから説明はしません。代わりに一つ頼みがあります。もし記録に残すなら、汲み上げ班の誰か一人の手柄にしないでください。井戸を掘ったのは十二人で、水が出た瞬間に真っ先に叫んだ者の名前だけが残るのは不公平です。私たちは順番に汲み、順番に運び、順番に眠りました。名前を残すなら、その順番ごと残してください。それだけです。
 

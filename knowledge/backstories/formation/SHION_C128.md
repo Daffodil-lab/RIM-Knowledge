@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C128"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 孵育区食堂
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 福祉・選択・形成 / ReviewStatus: 改稿採用済み
+- Tone: 福祉・選択・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 腕の立つ料理人 / 快適さの押し付けを嫌う / 友の不便を尊ぶ / 選択を味として語る
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 孵育文化区では、誰にでも最適な味を出せました。問題は、その「最適」を断る欄が最初は無かったことです。私は食堂でシオンの感覚設定と外部居住者の栄養条件に合わせて香りや温度を変え、嫌いな物や今日だけ選びたい物を注文票へ足しました。友は自作の不格好な椅子に座り続け、治療担当は姿勢に悪いと毎日勧告した。私は椅子に合う低い卓を作る側でした。快適さは大切です。でも、本人が選ばなかった幸福を押し付ければ、それは歓待でも祝福でもない。料理の腕を磨いたのは、正解を一皿に決めないためです。
 

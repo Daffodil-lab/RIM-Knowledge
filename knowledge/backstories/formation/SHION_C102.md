@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C102"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 監査室補修
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 制裁・倫理・形成 / ReviewStatus: 採用済み
+- Tone: 制裁・倫理・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 皮肉な修繕屋 / 命令を疑う / 配管の比喩を好む / 蘇生後の距離に戸惑う
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 監査室の配管は、会議より正直でした。圧を掛け過ぎれば漏れるし、継ぎ目を隠せば後で壁ごと腐る。私は補修班の後ろを歩き、避難路を塞ぐ棚をどかし、制裁命令の被害図も覗き込みました。強い部隊ほど詳しく書け、と教えた人を信頼しています。反対に「我々は正しかった」で記録を閉じる者は嫌いでした。蘇生した友とはまた会えましたが、昔の呼び名で笑うまで随分かかった。直ったから元通り、とは限りません。建物も関係も、継ぎ目を見ながら使う方がいい。
 

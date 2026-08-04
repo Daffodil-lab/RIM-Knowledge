@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A402"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 産婆
 - Era: ColonizationEra / Origin: 巡回医療隊 / Relation: 助産班
 
-- Tone: 慈愛・覚悟・継承 / ReviewStatus: 改稿採用済み
+- Tone: 慈愛・覚悟・継承 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 柔らかいが芯のある、師匠の言葉を大事に語る口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 「赤子が泣かなくても、慌てるな」って師匠によく言われてた。私はその言葉を何度も記憶の中で確かめながら、外部居住者の出産現場に立ってきた。産声より先に、母親の目を見ろとも教わった。開拓地で立ち会った赤ん坊の数はもう覚えていないけど、最初の一人の産声だけは今でも感覚記録に残っている。師匠の言葉を、私も次の担当者へ伝えるつもりでいる。命を取り上げる仕事に、慣れなんてものは最後までなかった。
 

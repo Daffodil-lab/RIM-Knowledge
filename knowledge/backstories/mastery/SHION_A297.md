@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A297"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: Kombinat古文書研
 - Era: ModernUnion / Origin: 無党派 / Relation: Kombinat共同体
 
-- Tone: 工業・保守・職歴 / ReviewStatus: 採用済み
+- Tone: 工業・保守・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 実証主義の政治史家。英雄的なKombinat史より、献立と故障記録を読み込む。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > Kombinat史を美しい壁画へまとめろと言われたが、私は断った。得意でもないし、停止記録と献立表の方が重要だったからだ。欠けた頁を都合よく埋めず、生産量だけでなく、誰が故障を直し、何を食べながら手動輪を回したか調べた。政治集会では最盛期の平和を取り戻したいと話す。それでも旧帝国の階級をそのまま戻す気はない。あの夜にKombinatを動かしたのは肩書の高い者だけではなかった。豊かさを超えるなら、設計者、保守員、食事を運んだ者まで同じ記録へ載せるべきだ。
 

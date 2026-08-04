@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C035"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 遺物番徒弟
 - Era: PostCivilWarEmpire / Origin: 帝国臣民 / Relation: 破損神殿
 
-- Tone: 宗教・監視 / ReviewStatus: 採用済み
+- Tone: 宗教・監視 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 警戒的 / 声を落とす / 記録不信 / 小さな反抗を隠す
-- PreservedCanonPoints: 本人は内戦後帝国の神殿倉庫で、破損した遺物の番号、封印、貸出先を点検した。 / 遺物は信仰の品であると同時に、政敵へ渡してはならない資源として厳しく管理された。 / 台帳と実物が合わない時は、盗難だけでなく命令書や記録の改竄も疑うよう教えられた。
+- PotentialReferencePoints: 本人は内戦後帝国の神殿倉庫で、破損した遺物の番号、封印、貸出先を点検した。 / 遺物は信仰の品であると同時に、政敵へ渡してはならない資源として厳しく管理された。 / 台帳と実物が合わない時は、盗難だけでなく命令書や記録の改竄も疑うよう教えられた。
 
 > 声を少し落としてください。癖です。内戦後の神殿倉庫では、遺物は信仰の品である前に権力の資源でした。番号、封印、貸出先――一つ違えば盗難、あるいは粛清です。私は実物と台帳が合わない時、まず命令書の方を疑うようになった。公には逆を教えられましたけれどね。欠けた聖具の底に、前任者が刻んだ小さな点を見つけた日からです。改竄を知らせる印でした。私は同じ場所へ二点刻んだ。正しい記録が危険なら、疑う手掛かりだけでも次へ渡す。それが私の信仰でした。
 

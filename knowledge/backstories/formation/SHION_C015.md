@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C015"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 種子庫助手
 - Era: ModernUnion / Origin: 無党派 / Relation: 農業共同体
 
-- Tone: 農業・記録 / ReviewStatus: 採用済み
+- Tone: 農業・記録 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 実務家 / 苦情にも快活 / 土と味の語彙 / 失敗を共有財産と見る
-- PreservedCanonPoints: 本人は種子庫で品種、発芽率、収穫量、味、毒性、過去の栽培結果を台帳へ記した。 / 似た種子を取り違えないよう棚を整理し、配布前には保管状態も確かめた。 / 開拓団から苦情が届くと栽培条件と調理法まで聞き取り、次の注意書きへ反映した。
+- PotentialReferencePoints: 本人は種子庫で品種、発芽率、収穫量、味、毒性、過去の栽培結果を台帳へ記した。 / 似た種子を取り違えないよう棚を整理し、配布前には保管状態も確かめた。 / 開拓団から苦情が届くと栽培条件と調理法まで聞き取り、次の注意書きへ反映した。
 
 > 種は黙っていますが、苦情を送る開拓者はよく喋ります。「発芽しない」「煮ると舌が痺れる」「説明書が役に立たない」。私は腹を立てる前に土、水、鍋まで聞きました。似た種子ほど棚を離し、発芽率だけでなく味と毒性も台帳へ書く。指で殻を割った時の湿り気は、今の分析器より早く異常を教えてくれました。失敗を恥として隠せば、次の畑でも誰かが同じ物を食べる。ソフェル、記録は成功者を讃えるためだけにあるのですか。私は苦情の多い頁ほど大切にしていましたよ。
 

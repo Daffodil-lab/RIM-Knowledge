@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C202"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 書庫塔動物診療
 - Era: ImperialPeak / Origin: 旧帝国 / Relation: 最盛期帝国社会
 
-- Tone: 塔・記録・形成 / ReviewStatus: 改稿採用済み
+- Tone: 塔・記録・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 小声で話す動物観察生 / 推測を明記 / 最盛期の形式を肯定的に見る / 言えなかった礼を悔やむ
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 書庫塔の診療室では、声を落としてください。昔からそうでした。私は動物の歩幅、耳、呼吸を見て、痛みの推測には必ず印を付けました。最盛期の教育は長く形式的でしたが、なぜ分けて記すのかまで説明された。だから私は窮屈とは思いません。担当外の者にも読める手順へ直した時、老司書が一度だけ「助かる」と言ってくれた。私は会釈だけで返し、次の日に彼を失いました。もう少し言葉を返せばよかった。記録を正しく残すだけでなく、相手がいる時に礼を伝えることも、今は忘れません。
 

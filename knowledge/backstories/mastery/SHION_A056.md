@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A056"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 故郷模型都市家
 - Era: EraIndependent / Origin: 帝国系移民 / Relation: 個人工房
 
-- Tone: 建築・郷愁 / ReviewStatus: 採用済み
+- Tone: 建築・郷愁 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 懐旧的な模型作家。精密さを誇りながら、存在しなかった公園には照れた希望を込める。
-- PreservedCanonPoints: 本人は帝国最盛期の故郷を都市模型へ再現したが、宮殿より友人と迷った路地へ多くの時間を使った。 / 完成後も、当時なかった公園を一つ足した。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
+- PotentialReferencePoints: 本人は帝国最盛期の故郷を都市模型へ再現したが、宮殿より友人と迷った路地へ多くの時間を使った。 / 完成後も、当時なかった公園を一つ足した。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
 
 > 帝国最盛期の故郷を、卓上都市として作りました。宮殿の柱は記録どおりですが、いちばん時間を使ったのは、友人と道に迷った細い路地です。角の店、欠けた標識、二人で雨宿りした庇まで覚えていました。完成後、史実にはない公園を一つ加えたんです。復元模型としては反則でしょうね。でも、あの街に戻れるなら、今度は迷った先で休める場所がほしかった。私は過去を同じ形で閉じ込めたいわけではありません。懐かしい暮らしを土台に、昔より少し優しい街を作りたいんです。
 

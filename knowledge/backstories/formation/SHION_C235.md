@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C235"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 自治会跡調査
 - Era: PostCivilWarEmpire / Origin: 旧帝国 / Relation: 内戦後帝国
 
-- Tone: 政治・生活・形成 / ReviewStatus: 採用済み
+- Tone: 政治・生活・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 皮肉屋だが共同体への愛着が深い。旗より食卓と落書きを信頼する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自治会館が崩れたあと、その地下から生活区を直す資材を採りました。帝国の命令書には十分な配給があると書かれていたので、たぶん私たちは書類を食べるべきだったのでしょう。私は必要な分だけ掘り、帰路へ絵を刻みました。壁には古い党派の標語もありましたが、覚えているのは会議後の献立と、議長の似顔絵です。旗は何度も替わったのに、食卓の傷は残っていました。私はあの跡を美しく写し取りました。破綻した国家にも暮らしていた人はいた。その事実だけは、次の立派な命令書に埋めさせたくありません。
 

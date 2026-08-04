@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A120"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 祝宴設備技師
 - Era: EraIndependent / Origin: 無党派 / Relation: 文化共同体
 
-- Tone: 料理・記憶・職歴 / ReviewStatus: 採用済み
+- Tone: 料理・記憶・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 手先で考える設備技師。理論説明は苦手だが、祝宴の匂いと配管音から故障を見つける。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 共同祝宴堂の壁、配管、避難路を見ていました。理論を説明しろと言われると長く黙りますが、湯気の匂いと管の響きなら故障前に分かります。ある祝宴で循環器が止まりかけた時、設計図を広げるより先に壁を開けました。研究員には乱暴だと叱られましたよ。でも食卓を冷やさず修理できた。後から手順を図にし、見学者にも触って覚えてもらいました。食事を必要としない者まで最後の皿を囲んで黙っていた夜があります。設備は料理を作りませんが、皆が同じ時間を過ごせる温度を守れます。
 

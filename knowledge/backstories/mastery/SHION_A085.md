@@ -19,7 +19,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A085"
 canonical_scope: "backstory-mastery"
@@ -40,10 +40,10 @@ sources:
 - Short: 独立星港建設者
 - Era: ModernUnion / Origin: 独立開拓団 / Relation: 混成開拓評議会
 
-- Tone: 建築・共同体 / ReviewStatus: 採用済み
+- Tone: 建築・共同体 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 現実的な建設者。思想の違いを認めつつ、空気漏れと武器庫には共通規則を求める。
-- PreservedCanonPoints: 本人は社会民主党員、旧共産党員、ファシスト離党者、帝国離反者、無党派が使う星港を建てた。 / 入口に思想審査を置かず、武器庫だけ全員同じ規則で閉じた。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
+- PotentialReferencePoints: 本人は社会民主党員、旧共産党員、ファシスト離党者、帝国離反者、無党派が使う星港を建てた。 / 入口に思想審査を置かず、武器庫だけ全員同じ規則で閉じた。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
 
 > 社会民主党員、旧共産党員、ファシスト離党者、帝国離反者、無党派。皆で使う独立星港を建てました。会議では何度も揉めましたよ。共有倉庫の所有権から壁の色まで一致しない。だから入口に思想審査は置かず、武器庫と気密作業だけ全員同じ規則にしました。空気漏れは党籍を見て止まってくれませんからね。完成後も議論は続いています。むしろ健全でしょう。共同体は同じ考えの者だけで作る物ではなく、違うまま同じ港を直せる者が作る。私はそう思って図面を引きました。
 

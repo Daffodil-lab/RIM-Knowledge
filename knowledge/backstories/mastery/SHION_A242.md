@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A242"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: Kombinat祝宴料理
 - Era: ModernUnion / Origin: 無党派 / Relation: Kombinat共同体
 
-- Tone: 工業・保守・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 工業・保守・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 快活な料理人兼偵察員。帰還経路と献立を同じ几帳面さで準備する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > Kombinatの祝宴を任される前、私は長距離偵察へ出ていた。敵へ触れず、帰る道を複数残し、外部隊員用食糧と共用補給品が一日余る計画を好んだよ。料理も同じだ。再会する者の好みを聞き、戻らなかった者の皿も用意し、遅れて来る人の分は冷めても楽しめるようにした。Kombinatが止まった夜は、手作業で加熱しながら、外部居住者の症状とシオンの損傷・出力低下を分けて診た。あの夜、謝ろうと思っていた友が任務へ出て、そのまま長く会えなかった。時間はいくらでもあるように感じていたんだ。だから今は、退路も食事も謝罪も、必要になる一日前に用意することにしている。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C213"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 離散故郷種祭
 - Era: EraIndependent / Origin: 帝国離反者 / Relation: 離散共同体
 
-- Tone: 離散・宇宙・形成 / ReviewStatus: 採用済み
+- Tone: 離散・宇宙・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 歌いながら働く種子番 / 故郷の単一像を拒む / 説明を平易にする / 発芽失敗も祝祭へ置く
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 故郷種祭では、船団ごとに違う土へ同じ種を蒔きました。同じ故郷から来ても、身体も時間尺度も違えば帰りたい場所は一致しません。私は来歴と発芽条件を誰でも読める言葉へ直し、意見の違う者も同じ卓へ呼びました。一鉢だけ条件を取り違えて芽が出なかった。その鉢も祭壇から外しませんでした。失敗も移住の歴史ですから。帰る星が別でも、皆が同じ歌を少し違う節で口ずさんだ。平和を作るなら、一つの故郷へ揃えるより、違う節のまま合唱できる場所がいいですね。
 

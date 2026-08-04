@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A306"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 月面区舞台演出
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 月面共同事業
 
-- Tone: 開拓・事業・職歴 / ReviewStatus: 採用済み
+- Tone: 開拓・事業・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 大げさで陽気な月面演出家。開拓宣伝を茶化し、作業員の足跡を主役にする。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 月面事業の記念劇では、偉大な責任者を舞台の端へ追いやり、最初の不揃いな足跡を主役にした。宣伝文句を大声で読む役者の背後で、作業員役が転び、壊れた工具を直し、食事へ文句を言う。観客はよく笑ったよ。月面の土へ植物を育てる演出は他の者へ任せた。私は何度試しても枯らしてしまうからね。戻らなかった者の名は笑いの後に読んだ。友へ謝罪を延ばした後悔も台詞へ入れた。あの頃は時間が尽きないと思ったが、舞台も相手も待ち続けるとは限らない。
 

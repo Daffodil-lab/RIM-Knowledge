@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C101"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 封鎖地搬出
 - Era: ModernUnion / Origin: 無党派 / Relation: 異常対応班
 
-- Tone: 異常・研究・形成 / ReviewStatus: 改稿採用済み
+- Tone: 異常・研究・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 鍛錬好き / 率直 / 恐怖を隠さない / 色彩への警戒が残る
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > あの土地では、夕焼けまで異常に見えました。笑わないでください、本当に色の境が信用できなくなるんです。私は狭い観測孔から負傷者を引き出すため、抱え方と関節の逃がし方を繰り返しました。強くなりたかったというより、怖くても手を離さない身体が欲しかった。変色した獣を診る時も、見たことと推測を混ぜず、反応を待ったものです。一度、焦って搬出具を壁へ噛ませました。その傷は訓練場に残してもらいました。上手さより、失敗を次の者が見られる方が安全でしょう。
 

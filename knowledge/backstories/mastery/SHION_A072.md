@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A072"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 身体秘文字医
 - Era: EraIndependent / Origin: ソフェル / Relation: 造体医療院
 
-- Tone: 医療・秘文字 / ReviewStatus: 採用済み
+- Tone: 医療・秘文字 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 静かな造体医。痛みの除去を急がず、身体の意味を決める権利を本人へ返す。
-- PreservedCanonPoints: 本人は人工身体の秘文字配列を治療し、痛覚を消す前に本人がその痛みへ与えた意味を尋ねた。 / 新しい身体を以前の本人らしさだけで縛らなかった。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
+- PotentialReferencePoints: 本人は人工身体の秘文字配列を治療し、痛覚を消す前に本人がその痛みへ与えた意味を尋ねた。 / 新しい身体を以前の本人らしさだけで縛らなかった。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
 
 > 人工身体の秘文字配列を治療していました。痛覚異常なら消せばよい、と考えやすいでしょう。けれど患者の中には、その痛みを以前の身体との境界として残したい者もいます。私は処置の前に、何を苦痛と感じ、何を手放したくないか尋ねました。逆に、古い友人から「以前らしい身体へ戻して」と頼まれて苦しむ患者もいた。医師が本人らしさを決め始めたら、診察は中断すべきです。私は身体を直せますが、どの形で生きるべきかまでは処方しません。新しい身体が新しい選択をする余地も、治療の一部です。
 

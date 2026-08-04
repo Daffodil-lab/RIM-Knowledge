@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C214"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 要塞路保護動物
 - Era: ModernUnion / Origin: 無党派 / Relation: 特殊任務群
 
-- Tone: 潜入・工兵・形成 / ReviewStatus: 採用済み
+- Tone: 潜入・工兵・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 辛抱強い飼育者 / 掘削を避ける / 正面攻撃を嫌う / 英雄譚より無事な動物を数える
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 要塞潜入路には、民間区画から逃げた動物が隠れていました。私は掘削班ではありません。岩を崩すより餌を置き、距離を保ち、戻って来るまで待つ役でした。正面攻撃なら早かったでしょうが、設備も動物も住民も巻き込む。少人数で止める方を選んだ理由です。任務後に誰も英雄役を名乗らず、保護数だけ確認したのが気に入りました。蘇生した友とも、昔の距離へ掘り進もうとして失敗した。今は動物と同じく、相手が自分から近づくまで待ちます。信頼へ近道を掘る気はありません。
 

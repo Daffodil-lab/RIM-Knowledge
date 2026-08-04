@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A147"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 市場記念園師
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 星間交易圏
 
-- Tone: 交易・旅・職歴 / ReviewStatus: 採用済み
+- Tone: 交易・旅・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 社交好きの庭園師。死者と帰還者を同じ石へ固定せず、帰還のたび花壇を書き換える。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 星間市場に記念庭園を作りました。死者の名を石へ刻みますが、蘇生して帰ったからといって削りません。不在だった時間は消えないからです。その代わり帰還日には新しい花を植え、本人にどこへ名を置きたいか聞きました。墓の列を離れ、市場の入口へ移した者もいます。商人たちは苗の代金まで値切りましたが、閉店後には皆で土を運び、簡素な食事を分けました。庭は完成しません。誰かが戻り、誰かを失うたび配置を変える。変わり続けられることが、この庭の誠実さだと思っています。
 

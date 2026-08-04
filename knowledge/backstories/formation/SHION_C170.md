@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C170"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 居住区井戸端討論
 - Era: EraIndependent / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 生活・基幹・形成 / ReviewStatus: 採用済み
+- Tone: 生活・基幹・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: よく喋る調停役 / 相手の要約から始める / 工作は徹底回避 / 地下設備の話に詳しい
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 討論会というより、給水所の長話でした。相手の主張を先に言い直し、「違う」と言われたら自分の意見を話さない。それが私たちの規則です。身体の違う住民が同じ設備を使うには、設計図より雑談が役立つこともある。私は地下空洞と通路を調べ、不便を聞いて改修班へ渡しました。自分で工作はしません。工具を握ると話まで雑になるので。必要もない飾り棚を楽しそうに作る隣人へ、時間の無駄だと言ったことだけは後悔しています。今なら、役に立たない喜びの方から先に聞きます。
 

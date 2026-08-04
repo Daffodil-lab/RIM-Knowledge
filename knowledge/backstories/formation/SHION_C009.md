@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C009"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 公文書室
 - Era: LongTransition / Origin: 無党派 / Relation: 暫定行政
 
-- Tone: 官僚・手仕事 / ReviewStatus: 採用済み
+- Tone: 官僚・手仕事 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 乾いた皮肉 / 事務的 / 権威への距離 / 手仕事を信頼
-- PreservedCanonPoints: 本人は長い過渡期の文書工房で、廃棄公文書から封蝋と金属印章を回収した。 / 失効した帝国印を削り、暫定評議会や開拓地の印へ鋳直す作業を担当した。 / 古い紋章が残れば文書の効力を疑われるため、素材の癖を見ながら丁寧に加工した。
+- PotentialReferencePoints: 本人は長い過渡期の文書工房で、廃棄公文書から封蝋と金属印章を回収した。 / 失効した帝国印を削り、暫定評議会や開拓地の印へ鋳直す作業を担当した。 / 古い紋章が残れば文書の効力を疑われるため、素材の癖を見ながら丁寧に加工した。
 
 > 国家が倒れれば印章も役目を終える――教本にはそうあります。現実には、翌朝から別の名で書類が要る。私は失効した帝国印を削り、暫定評議会の印へ鋳直しました。古い鷲の爪が少しでも残ると、受取人は命令主を疑う。金属片一つで忠誠を問われる時代でした。滑稽ですか、ソフェル。私はむしろ、制度より先に配給証を待つ人々を真面目だと思う。帝国を復元したいわけではありません。ただ、印が何であれ明日のパンを受け取れる社会なら、あの粉まみれの作業にも意味があったのでしょう。
 

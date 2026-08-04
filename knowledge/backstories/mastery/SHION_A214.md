@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A214"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 都市射撃教官
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 都市・福祉・職歴 / ReviewStatus: 採用済み
+- Tone: 都市・福祉・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 気さくな射撃教官。撃たない訓練と、住民が作った広場を誇りにする。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 計画都市の訓練場は、何もかも完璧な位置に置かれていた。だから私は標的を時々撤去し、撃たずに捜索を終える訓練を入れた。射線の先に住民がいるなら、命中率は自慢にならない。空いた区画へ目印の草を植えたら、訓練後も住民が集まり、小さな広場になったよ。完成図には存在しない場所だった。長い任務から戻った友とそこで会ったが、昔の呼び方が口から出ず、互いに笑った。私は教官として正しい構えを教える。それでも、計画から外れた広場や、言い直した呼び名の方に平和は宿るのかもしれない。
 

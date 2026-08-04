@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C132"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 防衛圏雪中劇
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 帝国・終戦・形成 / ReviewStatus: 採用済み
+- Tone: 帝国・終戦・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 抑制された演者 / 国家と住民を分ける / 温かな器を象徴にする / 身近な平和を望む
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 最終防衛圏で、私たちは崩れる帝国を演じました。嘲笑ではありません。国家の命令と、そこに暮らす者を守る責任は同じではないと伝えたかった。私は倒れる役の身体を傷めない殺陣を考え、観客自身の希望と避難計画が食い違えば両方を書き留めました。敗北の翌朝、雪の中で名も知らない者が温かい器を渡してくれた。その人は戻りませんでした。どの党派だったかも知りません。だから私が望む平和の対象を旗で区切る気はないんです。まず、目の前の者が次の朝まで温かくいられることから始めます。
 

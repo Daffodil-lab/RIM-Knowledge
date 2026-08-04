@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C275"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 一人分の傷
 - Era: LongTransition / Origin: 社会民主党系 / Relation: 長い過渡期
 
-- Tone: 共同体・倫理・形成 / ReviewStatus: 改稿採用済み
+- Tone: 共同体・倫理・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 共同体志向だが個人の愛着に敏感。共有と無個性化を明確に区別する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 相互扶助区では、工房も道具も皆のものでした。でも、皆のものだから誰の愛着もない、という意味ではありません。私は義肢の部品を削り、使う人の癖や傷を残して調整しました。共有の護身具にも、一人だけが付けたへこみがありました。料理当番だけはどうしても続かず、代わりに器具の修繕を引き受けました。ある人が古い義肢を返した時、「次の誰か用に傷を消そう」と言いました。私は消しませんでした。共同体とは痕跡を均す場所でなく、誰が使い、どう大切にしたかを次へ渡す場所だと思ったからです。
 

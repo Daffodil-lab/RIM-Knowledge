@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C310"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 境界なき畑
 - Era: ColonizationEra / Origin: 開拓団 / Relation: 耕作班
 
-- Tone: 開拓・耕作・合意 / ReviewStatus: 採用済み
+- Tone: 開拓・耕作・合意 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 落ち着いた断定口調。結論を先に言い、理由は後から淡々と添える。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 土地は誰のものでもない、と最初に決めたのは私たちの班でした。争えば境界線が増え、境界線が増えれば畑は減る。だから杭は打たず、代わりに水路の向きだけを話し合いで決めました。赤い土は硬く、鍬の刃はひと月で丸くなりましたが、誰も自分の区画を主張しなかった。あの土地では、名前より水の流れが先に決まる。私はいまも、境界線を引く前に一度だけ水路を見に行く癖が抜けません。
 

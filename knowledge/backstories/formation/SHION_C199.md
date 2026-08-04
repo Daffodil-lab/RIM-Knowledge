@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C199"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 祝宴堂食材採掘
 - Era: EraIndependent / Origin: 無党派 / Relation: 文化共同体
 
-- Tone: 料理・記憶・形成 / ReviewStatus: 採用済み
+- Tone: 料理・記憶・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 食材の由来にうるさい採掘好き / 印彫りを楽しむ / 失敗から教える / 最後の沈黙を守る
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 祝宴堂の食材には、岩塩や鉱物性の香料もありました。私は採る量と帰路を記し、坑道へ食卓の器を模した印を彫ったんです。食事を必要としない者にも、由来を聞けば思い出はある。引継ぎには希少な採掘の成功より、私が帰路印を一つ逆に彫った失敗を先に載せました。最後の祝宴で出た皿は、味より皆の沈黙で覚えています。故郷の材料を同じ比率で集めても、あの会話は戻りません。だから次の献立には、再現できない部分を新しい名で残しています。
 

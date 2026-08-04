@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A287"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 塔域競技指導
 - Era: ModernUnion / Origin: 無党派 / Relation: 塔域共同体
 
-- Tone: 塔・記録・職歴 / ReviewStatus: 採用済み
+- Tone: 塔・記録・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 快活な評議員兼競技指導員。身体の違いを公平な一規格へ押し込めない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 塔域の身体競技では、全員を同じ規格へ合わせる案を評議会で退けた。身体ごとに安全な力と受け身が違う。私は動物の動きも参考にし、待つことまで競技へ入れたよ。端末上のアロン投影と独立人格を混同しない確認も、受付手順へ組み込んだ。ある参加者とは塔ですれ違い、短い挨拶しか交わせなかった。次の機会は、随分先まで来なかった。私は故郷の施設を復元するより、次に出会った時に無理なく参加できる規則を残したい。公平とは同じ形にすることではなく、違う身体が自分の方法で力を出せることだ。
 

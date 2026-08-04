@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C316"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 名もなき開墾
 - Era: ColonizationEra / Origin: 第一次入植 / Relation: 開墾班
 
-- Tone: 開墾・反論・公平 / ReviewStatus: 採用済み
+- Tone: 開墾・反論・公平 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 通説を名指しで訂正する、やや硬い口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 最初の入植地を切り開いたのは英雄的な少人数だった、とよく言われますが違います。実際には人数は多く、そのほとんどは帝国の入植計画に送られた無名の作業班でした。私もその一人です。派手な決断をしたのは数人でも、鍬を振ったのは何十人です。私が自慢できるのは、開墾した畝の数がどの記録より正確だということだけ。土を掘る手に英雄も無名もありません、硬さはどちらの手にも同じに応えました。誰か一人の名前で語られる話に、私は同意しません。
 

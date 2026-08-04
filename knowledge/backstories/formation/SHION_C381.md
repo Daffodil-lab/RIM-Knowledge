@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C381"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 見習い隊の靴音
 - Era: JourneyEra / Origin: 帝国准民 / Relation: 治安維持見習い隊
 
-- Tone: 秩序・規律・格言 / ReviewStatus: 採用済み
+- Tone: 秩序・規律・格言 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 引き締まった声、短い言い切りを好む。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 見習い隊の靴音は、揃うまでに一年かかりました。私は帝国准民として選ばれた十二人の一人でしたが、最初は誰の足音もばらばらでした。教官は音だけを頼りに私たちを叱りました。姿勢でも技量でもなく、まず音を揃えろと。理由はのちに分かりました、暗い通路では音でしか味方を判別できないからです。以来私は、規律とは見た目を整えることではなく、聞こえないところで揃えることだと考えるようになりました。靴音は今も私の中で鳴っています。
 

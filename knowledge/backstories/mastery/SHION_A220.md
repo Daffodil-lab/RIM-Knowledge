@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A220"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 封鎖地動物義肢
 - Era: ModernUnion / Origin: 無党派 / Relation: 異常対応班
 
-- Tone: 異常・研究・職歴 / ReviewStatus: 採用済み
+- Tone: 異常・研究・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 慎重な異常対応技師。動物の変化を断定せず、祭りを回復の目印にする。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 封鎖地の動物は、脚の傷だけでなく毛や皮膚の色まで変わっていた。私は異常のせいだと決めつけず、歩幅、痛み、食事、周囲の光を別々に記録して義肢を調整した。飼い主が元の姿へ戻してほしいと言っても、動物が今の身体で楽に動けることを先に考えたよ。封鎖解除の祭りでは、その子たちが先頭を歩いた。華やかな飾りは付けず、彼らが嫌がらない小さな鈴だけにした。帰還後、普通の夕焼けを見ても私は身構えた。けれど鈴の音を聞くたび、怖がりながら暮らしへ戻ってよいのだと思えたんだ。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A313"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 嵐読み
 - Era: ColonizationEra / Origin: 環境観測隊 / Relation: 気象班
 
-- Tone: 観測・気象・警戒 / ReviewStatus: 採用済み
+- Tone: 観測・気象・警戒 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 迷いなく言い切る、鼻の利く観測員。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 嵐の兆候は匂いでわかる、と私は言い切っている。気圧計より先に鼻が反応する。空気が金属のように尖った匂いに変わったら、二時間以内に退避しなければならない。環境観測隊にいた十数年でその判断を外したことは一度もない。同僚には迷信だと笑われたが、笑った本人が退避を渋って足止めを食らったこともある。私は道具を信じないわけではない、ただ道具より先に動ける体を作っただけだ。今でもその匂いを思い出すと、無意識に荷物をまとめる手が動く。
 

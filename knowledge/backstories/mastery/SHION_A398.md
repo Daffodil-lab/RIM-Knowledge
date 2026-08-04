@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A398"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 気象観測員
 - Era: ColonizationEra / Origin: 環境観測隊 / Relation: 観測班
 
-- Tone: 好奇心・観察・忍耐 / ReviewStatus: 改稿採用済み
+- Tone: 好奇心・観察・忍耐 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 好奇心を隠さず、少し早口で親しみやすく語る口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 空を毎日見て何が分かるのかって聞かれるけど、分かるようになるまでが長いのよ。あたしは風向計の軋む音の違いで風速をだいたい当てられるようになった。数字を記録するだけの日々に見えて、実は嵐が来る三日前の空の色を見分けられるようになったのが誇りだった。観測小屋の木の匂いと湿った紙の匂いが混ざったあの感じ、今でも夢に出る。空を読む仕事は、地味だけど誰かの命を守ってたと思ってる。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A160"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 支援庁保護飼育
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟支援軍
 
-- Tone: 支援・職務・職歴 / ReviewStatus: 採用済み
+- Tone: 支援・職務・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 地味な仕事を誇る飼育員。補給競技を動物福祉と保守の大会へ変え、速さだけの表彰を嫌う。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 後方支援庁で運搬動物を保護し、補給大会の審判もしました。以前は速さだけを競い、動物の疲労と道具の傷みは見過ごされていた。私は給水、休息、荷具の修理、帰還後の状態まで得点に入れました。派手さがないと不評でしたよ。でも誰にも見られない保守が、多くの帰還を支えます。古い荷具を丁寧に直した班が優勝した時は嬉しかった。動物は表彰状を読みませんが、翌日も私へ近づいてきました。それで審判として十分な答えをもらったと思っています。
 

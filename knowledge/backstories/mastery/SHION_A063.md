@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A063"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 多構成建築士
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟建築院
 
-- Tone: 建築・公共 / ReviewStatus: 改稿採用済み
+- Tone: 建築・公共 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 快活で断固とした建築士。「特例」という語を嫌い、入口から制度を語る。
-- PreservedCanonPoints: 本人は同じ狐娘型でも重量、感覚、可動域、耳と尾の保護範囲、保守条件が異なる身体と、外部住民が同じ建物を使えるよう設計した。 / 平均的な構成を入口の基準にせず、誰かの帰宅を特例扱いしなかった。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
+- PotentialReferencePoints: 本人は同じ狐娘型でも重量、感覚、可動域、耳と尾の保護範囲、保守条件が異なる身体と、外部住民が同じ建物を使えるよう設計した。 / 平均的な構成を入口の基準にせず、誰かの帰宅を特例扱いしなかった。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
 
 > 同じ狐娘型でも、軽量構成と高荷重構成では床への力も止まり方も違います。耳を守る空間、尾を回せる幅、感覚入力を閉じた者の案内、外部住民の歩幅まで含め、全員が同じ家へ帰れるよう設計しました。「標準入口を作り、合わない者には特例を」と言われましたが、帰宅を特例扱いする建物は公共建築ではありません。最初の案は壁だらけになりました。最後には壁を減らし、家具の方を動かしたんです。完成式で構成の異なる子どもたちが同じ廊下を競走した時、傷だらけの図面を残してよかったと思いました。
 

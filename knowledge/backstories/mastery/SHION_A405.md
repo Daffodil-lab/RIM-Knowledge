@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A405"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 測地画家
 - Era: ColonizationEra / Origin: 地質調査隊 / Relation: 記録班
 
-- Tone: 郷愁・丁寧・遡行 / ReviewStatus: 改稿採用済み
+- Tone: 郷愁・丁寧・遡行 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 過去を遡るように、ゆっくりと丁寧に話す口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 今僕の手元にある地図は完成形ですが、最初は真っ白な余白だらけでした。その前は、隊が実際に歩いた獣道を目で追って線を引くだけの日々。さらにその前は、地図と現実の縮尺すら合わせられない見習いでした。一番古い記憶は、先輩に定規の持ち方を叱られたことです。鉛筆の粉が指の腹に染み込む感触は今でも覚えています。地図は一歩ずつ後ろから描かれていくものだと、僕は知りました。
 

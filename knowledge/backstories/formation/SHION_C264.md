@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C264"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 雪中音楽会
 - Era: PostCivilWarEmpire / Origin: 旧帝国 / Relation: 内戦後帝国
 
-- Tone: 帝国・終戦・形成 / ReviewStatus: 採用済み
+- Tone: 帝国・終戦・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 抑制的で感傷深い。敗北と欠乏の中の親切を、音と温かさで覚えている。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帝国最終防衛圏では、音楽に使う電力も贅沢だと叱られました。律法を唱える放送の下で物資は尽き、違反者だけが増えていました。それでも私たちは小さな楽器を持ち寄り、雪の中で演奏しました。護身の組み手より合奏の方が好きで、友と上達を競いました。防衛圏が崩れたあと、名も知らない人が温かい器を渡してくれました。何が入っていたかは覚えていません。手の温度だけ残っています。敗北も国家の破綻も美しくはありませんが、その時に互いを人として扱ったことまで、恥じる必要はないと思います。
 

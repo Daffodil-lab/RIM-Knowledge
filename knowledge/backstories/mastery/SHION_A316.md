@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A316"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 産婆
 - Era: ColonizationEra / Origin: 巡回医療隊 / Relation: 入植地
 
-- Tone: 医療・出産・巡回 / ReviewStatus: 改稿採用済み
+- Tone: 医療・出産・巡回 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 診療記録のように数え上げながら語る産婆。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 巡回医療隊で支えた外部居住者の出産数は数えていない、数えるものではないからだ。ただ覚えていることはいくつかある。一つ、へその緒を切る刃物は必ず自分で研ぐこと。二つ、産声より先に母親の顔色を見ること。三つ、難産のときほど部屋を静かにすること。入植地を巡っていた頃、この三つを守っていれば大抵はうまくいった。守れなかった夜のことは今日は話さない。巡回の道具箱には今もその刃物が入っている。研ぎ方は記録し、次の担当者へ渡している。
 

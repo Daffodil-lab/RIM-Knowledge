@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C361"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 水耕の甲板
 - Era: JourneyEra / Origin: 第三世界／香り運ぶ民 / Relation: 共同炊事班
 
-- Tone: 食卓・記憶・移民 / ReviewStatus: 採用済み
+- Tone: 食卓・記憶・移民 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 穏やかで丁寧、味の記憶を軸に話す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 指先にまだ生姜の匂いが残っている気がします。私は香り運ぶ民系移民の共同居住区で形成期を過ごし、共同炊事班の大人たちに囲まれて育ちました。船内の水耕棚では先達の旧国の野菜は育たず、代わりに似た香りの葉を探して代用しました。最初の一皿は失敗続きでしたが、誰も責めませんでした。ある日、見知らぬ言葉の子が同じ匂いに泣き出したことがあります。故郷を知らない子でも、匂いの記憶は文化として継承されるのだと知りました。今もあの生姜もどきの香りを嗅ぐと、あの炊事場に戻ります。
 

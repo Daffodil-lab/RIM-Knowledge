@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A054"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 古服再生師
 - Era: EraIndependent / Origin: 無党派 / Relation: 衣装修復工房
 
-- Tone: 工芸・記憶 / ReviewStatus: 採用済み
+- Tone: 工芸・記憶 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 物静かな仕立師。素材の性能より、身についた癖と持主の記憶を丁寧に語る。
-- PreservedCanonPoints: 本人は持主が何度も身体を替えた後も、最初の外套を直し続けた。 / 新素材なら一瞬で作れたが、擦れた袖口を残すため手縫いを選んだ。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
+- PotentialReferencePoints: 本人は持主が何度も身体を替えた後も、最初の外套を直し続けた。 / 新素材なら一瞬で作れたが、擦れた袖口を残すため手縫いを選んだ。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
 
 > その外套の持主は、何度も身体を替えました。肩幅も腕の長さも変わるたび、私は同じ布をほどいて縫い直したんです。新素材で作れば一瞬で、もっと丈夫にもできました。でも持主は、擦れた袖口へ指を置いて「ここは残して」と言った。古い友人と並んで歩いた時についた跡だそうです。私は手で糸を通し、見えない裏側だけを補強しました。服は身体を守る道具ですが、身体が変わった後に昔の自分へ触れる場所にもなる。だから今も、直す前にどの傷を残したいか尋ねます。
 

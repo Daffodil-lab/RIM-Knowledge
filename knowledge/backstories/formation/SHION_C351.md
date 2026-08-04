@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C351"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 語らぬ区画
 - Era: JourneyEra / Origin: 西側／極東島の民 / Relation: 混成家族
 
-- Tone: 沈黙・境界・省略 / ReviewStatus: 採用済み
+- Tone: 沈黙・境界・省略 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 言葉少なで、間を多く取る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > その区画で何があったかは話しません。私が九歳の頃、隔壁の向こうで何かがあって、しばらく行き来が止められました。私が話せるのはその周辺のことだけです。隔壁の扉に貼られた紙の色が変わったこと。養育担当が普段より早く迎えに来るようになったこと。祈祷輪の人数が一時的に増えたこと。それだけです。区画そのものの話は、今も口にする気になれません。まだ語る準備ができていない、とだけ言わせてください。
 

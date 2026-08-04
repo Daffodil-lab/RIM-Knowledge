@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A128"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 強襲群討論調停
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟軍
 
-- Tone: 軍務・統合・職歴 / ReviewStatus: 採用済み
+- Tone: 軍務・統合・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 勢いのある調停人。祭りの公開討論で兵科同士を衝突させ、抽選で命を割り振る案を拒む。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 機動強襲群の帰還祭で、兵科間の公開討論を仕切りました。救出順を抽選で決めれば公平だという案へ、坑道班は「空洞の位置を無視するな」と怒り、飛行班は時間差を訴えた。私は全員へ、まず相手の主張を本人が認める形で言い直させました。合意できない点も消さず、地図の上へ残したんです。結果として抽選はやめ、危険度と退路を毎回更新する方式になりました。祭りの夜まで議論するのかと呆れられましたよ。でも帰還者を数える声が一人分でも増えるなら、太鼓を少し遅らせる価値はあります。
 

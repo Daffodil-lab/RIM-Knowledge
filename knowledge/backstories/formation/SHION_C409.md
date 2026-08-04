@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C409"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 墓標彫り
 - Era: ColonizationEra / Origin: 開拓団 / Relation: 石工
 
-- Tone: 静謐・慈しみ・鎮魂 / ReviewStatus: 採用済み
+- Tone: 静謐・慈しみ・鎮魂 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 「あなた」に語りかけるような静かで柔らかい口調、感情をじんわりと滲ませる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > もしあなたが開拓の旅で誰かを亡くしたことがあるなら、木に名前を彫るあの作業の重さが分かると思います。石工は私に、名前は深く、日付は浅くと教えてくれました。深く彫れば風雨に消えず、日付は控えめでいいからだと。私は旅の途中で何人分もの名前を彫りました。手が震えた夜もありましたが、彫り終えた木を土に立てると、不思議と胸のあたりが少し軽くなりました。あの木の匂いは、今でも私の指先に残っている気がします。
 

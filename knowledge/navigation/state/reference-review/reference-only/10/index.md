@@ -1,4 +1,4 @@
-# accepted 10
+# reference-only 10
 
 範囲: SHION_A302 本国居住区の公共食堂の調理師〜SHION_A381 処置を受けた医療班長
 

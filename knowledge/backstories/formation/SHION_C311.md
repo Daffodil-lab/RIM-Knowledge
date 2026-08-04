@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C311"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 誤差の記録
 - Era: ColonizationEra / Origin: 測量隊 / Relation: 前進班
 
-- Tone: 測量・誤差・正直 / ReviewStatus: 採用済み
+- Tone: 測量・誤差・正直 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 感情を交えない実況口調。手順と数字を淡々と積み上げる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 測量の手順はいつも同じでした。まず基準杭を打ち、次に三点から角度を取り、誤差が出れば杭ごと打ち直す。私たちの区画では地磁気が乱れる場所があり、機器は毎回三十秒ほど狂いました。私はその狂いを記録用紙の余白に書き足す係でした。誤差を隠す班もありましたが、私は必ず正直に書きました。狂った数字も、次に来る班の役に立つと思っていたからです。用紙の余白は今でも私の字で埋まっていたはずです。
 

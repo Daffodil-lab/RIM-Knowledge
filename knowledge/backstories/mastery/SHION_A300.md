@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A300"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 機械戦設備技師
 - Era: ModernUnion / Origin: 無党派 / Relation: 対メカノイド部隊
 
-- Tone: 対機械・判断・職歴 / ReviewStatus: 採用済み
+- Tone: 対機械・判断・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 現場主義の設備技師。機械の意図を論じるより、壊れた避難路を先に直す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 対機械戦区では、敵性機械の意図を論じる会議が長引いた。私は先に壁、配管、避難路を触って直したよ。抽象的な分析は得意な者へ任せ、自由意志の有無と指揮系統だけは確認した。人工知能の道具を同族と呼ばず、破壊後の単純な作業記録も人格の遺言へ仕立てなかった。蘇生した友と故郷の施設を見た時、昔どおりに直そうと言われた。私は避難路だけ新しくした。不在だった時間と失敗を消して元の形へ戻すより、次の損失を減らす構造へ変える方を選びたい。
 

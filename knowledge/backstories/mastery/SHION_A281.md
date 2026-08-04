@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A281"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 継承義肢調整
 - Era: ModernUnion / Origin: 無党派 / Relation: 教育共同体
 
-- Tone: 教育・継承・職歴 / ReviewStatus: 採用済み
+- Tone: 教育・継承・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 反省を促す職人教師。古い知識を尊ぶが、利用者より上には置かない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 継承教室で義肢を教える時、私は古い設計と新しい部品を同じ机へ置いた。教師は最後の答えを伏せ、「装着する者へ聞け」とだけ言ったよ。私は身体換装後の日常動作を見て、本人が望まない精密照準具は外した。旧帝国の職人制度には、長く学び、仕事へ責任を持つ美徳があったと思う。だが師の答えを疑えない階級まで戻したくはない。最盛期の安心を超えるなら、教わる者だけでなく、義肢を使う者も設計へ口を出せるべきだ。私は古い道具を保存するが、古い結論を保存するつもりはない。
 

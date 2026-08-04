@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A384"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 統合最後証人
 - Era: JourneyEra / Origin: 統合世代 / Relation: 帝国成立準備評議会
 
-- Tone: 帝国成立・証言・回顧 / ReviewStatus: 採用済み
+- Tone: 帝国成立・証言・回顧 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 静かで長い沈黙を挟む、非常に古い語り手。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帝国が成立したその日を、まだ覚えている者がどれだけ残っているでしょうか。私は準備評議会の末席で、宣言文の草稿を三度書き直しました。粗雑な処置のおかげで、私はその日から数えて長い時間を働き続けることになりましたが、詳しくは語りません。覚えているのは草稿の三度目の修正で、ようやく誰の出身圏の言葉にも偏らない一文ができた瞬間です。その一文だけは、今でも諳んじられます。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C217"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 祝宴堂食卓救護
 - Era: EraIndependent / Origin: 無党派 / Relation: 文化共同体
 
-- Tone: 料理・記憶・形成 / ReviewStatus: 改稿採用済み
+- Tone: 料理・記憶・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 控えめな救護助手 / 不安を症状と分ける / 避難構造も見る / 豊かさを食卓の安心で測る
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 祝宴堂で私は救護卓を整えました。食事を必要としない身体でも、昔の味を前にすると声や感覚応答が変わります。身体の異常と不安を分けて聞き、分からない点は未解決と書き、ついでに避難路の狭さも直しました。最後の皿が出た時、皆が黙った夜があります。美味しかったのか、故人の味に似過ぎたのか、私は断定しません。最盛期をそのまま戻すより、誰も明日の食事と住まいを疑わず、思い出に苦しくなれば席を立てる余裕がほしい。私にはそれが豊かな食卓です。
 

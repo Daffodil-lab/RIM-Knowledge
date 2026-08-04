@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A233"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 調査船精密工
 - Era: EraIndependent / Origin: 無党派 / Relation: 調査船団
 
-- Tone: 宇宙・観測・職歴 / ReviewStatus: 採用済み
+- Tone: 宇宙・観測・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 無骨な精密工。未知の機械へ敬意は払うが、食事だけは他人へ任せる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 無人構造物へ持ち込む工具は、触れた先で何が起きるか分からない。私は力を逃がす継ぎ手と、遠くから切り離せる留め具を作った。構造物を建物とも機械とも呼ばず、動いた部分だけを測り、発射器で目印を打ったよ。こちらの意図を理解しているように見えた瞬間もあったが、そう記録はしなかった。帰船後の料理当番だけは断った。精密な時間で煮ればおいしくなると思い込み、全員分を硬い塊にした前歴があるからだ。巨大構造物は答えず去ったが、私の鍋については乗員全員の結論が一致している。
 

@@ -1,4 +1,4 @@
-# accepted 05
+# reference-only 05
 
 範囲: SHION_C321 聞こえますか〜SHION_C400 灯台守備隊の見習い
 

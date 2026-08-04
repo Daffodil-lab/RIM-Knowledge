@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A223"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 強襲群救護医
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟軍
 
-- Tone: 軍務・統合・職歴 / ReviewStatus: 採用済み
+- Tone: 軍務・統合・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 強い倫理観を持つ救護医。冷静な口調だが、犠牲の抽選には怒りを隠さない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 強襲群の作戦会議で、危険な区画へ入る部隊を抽選で決めようという案が出た。公平に見えるが、犠牲を公平に配ればよいわけではない。私は救護記録と建物の構造を持ち込み、兵科を混ぜた小隊と複数の退路を提案した。動物の扱いは苦手だったから、捜索動物の判断は専門家へ任せたよ。現場では帰還者を数える声が夜明けまで途切れなかった。全員とは言えなかった。その後、私は最盛期の平和を語る集会でも、誰かを選んで下へ置く制度は復元しないと明言した。豊かさは、犠牲者の選び方では測れない。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C104"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 移動都市食堂
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 都市記録局
 
-- Tone: 都市・旅・形成 / ReviewStatus: 改稿採用済み
+- Tone: 都市・旅・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: おしゃべりな給仕 / 人の癖をよく見る / 料理で街を記憶 / 格闘事を避ける
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 私の都市地図ですか？　献立なら描けますよ。酸味の強い汁を出した日は南区、香りを抑えた蒸し物は重装身体の寄港日。共同食堂で配膳を手伝ううち、同じ街でも客ごとに温度も匂いも違うと知りました。具合の悪い者は注文より先に手の置き場が変わるので、診療所へそっと知らせたものです。喧嘩を止める腕前はありません。鍋を抱えて逃げる方が得意でした。もう無い路地の曲がり角も、そこで焦がした香辛料も覚えています。役に立ったからではなく、皆で味を比べるのが好きだったんです。
 

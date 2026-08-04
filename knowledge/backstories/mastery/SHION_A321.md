@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A321"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 見張り番
 - Era: ColonizationEra / Origin: 境界哨戒隊 / Relation: 建設隊
 
-- Tone: 哨戒・境界・警戒 / ReviewStatus: 採用済み
+- Tone: 哨戒・境界・警戒 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 現在から過去へさかのぼって語る慎重な哨戒員。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 今は哨戒に出ることはない、装備の点検を任されているだけだ。数年前までは境界哨戒隊で入植地の外周を回り、帝国が定めた境界線の外に嵐の前兆と得体の知れない光る雲を見張っていた。その前は建設隊で外壁を積んでいた、あの外壁が結局、嵐から一番人を守ったのだと思う。もっと前は測量の手伝いをしていた。振り返ると、境界を守る仕事はいつも一段前の仕事の続きだった。哨戒に出た最初の夜に見た光る雲の形は、未だに絵に描けない。
 

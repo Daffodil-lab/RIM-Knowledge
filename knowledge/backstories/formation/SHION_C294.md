@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C294"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 足跡の修繕班
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 月面共同事業
 
-- Tone: 開拓・事業・形成 / ReviewStatus: 採用済み
+- Tone: 開拓・事業・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 陽気な工作好き。大計画の式典より、作業員の癖と最初の足跡を覚える。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 月面事業区で、私は遊び半分に修繕班へついて回りました。壁や配管の音を聞き、工具の握りを使う人に合わせて削りました。宣伝映像は完成した都市ばかり映しましたが、私は灰に残った最初の足跡を避けて通路を直しました。蘇った友が戻った時、その足跡を見せれば昔を思い出すと思ったんです。友は覚えていませんでした。少し寂しかったけれど、新しい足跡を隣へ付けてもらいました。完成式より、その二つをよく覚えています。開拓地は記念碑でなく、何度でも歩き直せる道であってほしいです。
 

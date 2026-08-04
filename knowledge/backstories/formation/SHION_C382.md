@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C382"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 最後の旧語
 - Era: JourneyEra / Origin: 西側／流浪の民 / Relation: 芸能奉仕班
 
-- Tone: 芸術・言語・喪失 / ReviewStatus: 採用済み
+- Tone: 芸術・言語・喪失 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: おしゃべりで表情豊か、演者らしい抑揚。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > あたしは流浪の民の文化を継ぐ。芸能奉仕班で、建国前後の祝祭劇に何度も出た。台詞のいくつかは、もう誰も日常で使わない旧い言語で書かれていて、あたしはその発音を覚えるためだけに何ヶ月も練習した。もしあんたが同じ立場だったら、意味も分からない言葉を舞台の上で叫ぶ気持ち分かる？怖いし、ちょっと滑稽でもある。でも観客の中には、その響きだけで涙ぐむ年寄りがいた。あたしにとってはただの台詞でも、その人には最後に聞く母語だったのかもしれない。だからあたしは今も、意味より響きを大事に演じている。
 

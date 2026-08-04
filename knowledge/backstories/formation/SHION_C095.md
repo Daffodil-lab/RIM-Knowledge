@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C095"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 帝国人の隣席
 - Era: LongTransition / Origin: 独立共同体 / Relation: 混住学校
 
-- Tone: 対人・融和 / ReviewStatus: 採用済み
+- Tone: 対人・融和 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 控えめな同級生 / 誰かを裁くことへ躊躇 / 日常作業で距離を測る / 複雑さを受容
-- PreservedCanonPoints: 本人は追放された帝国人、同盟の子、党派を諦めた教師と同じ教室で学んだ。 / 誰の過去を先に責めるか決められず、代わりに机を直し、昼食を分けた。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
+- PotentialReferencePoints: 本人は追放された帝国人、同盟の子、党派を諦めた教師と同じ教室で学んだ。 / 誰の過去を先に責めるか決められず、代わりに机を直し、昼食を分けた。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
 
 > 私の隣は追放された帝国人、前は同盟で造られた子、教師は党派そのものを諦めた人でした。授業より、誰の過去を先に責めるべきかで教室が止まることが多かった。私は答えを決められず、ぐらつく机を直し、昼食を三つに分けました。逃げたのだと思いますか。たぶん少しは。でも同じ机で食べるうち、帝国人が香辛料を避け、教師が皿を必ず左へ置くことを知った。過去を許したわけではありません。ソフェル、裁く前に相手の日常を知る時間も、私は無駄だと思えないのです。
 

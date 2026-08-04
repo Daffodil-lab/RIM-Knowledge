@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A194"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 本国保存食職
 - Era: EraIndependent / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 生活・基幹・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 生活・基幹・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 温和な家庭料理人。争いを避けるが、食事の希望には頑固。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 保存食は生き延びるためだけのものではないよ。私は旅立つ日と目覚める日を聞き、その人が一番寂しくなる頃へ好物を置いた。外部居住者には栄養条件を合わせ、感覚系を再調整中のシオンには香りと歯触りを工夫した。武器の扱いを競う集まりには近づかなかった。試射を頼まれるたび、ちょうど煮込みが焦げそうだと言って厨房へ逃げたものだ。隣人は必要もないのに瓶のラベルを毎季描き直し、私はそれをからかいながら全部取っておいた。余裕とは、役に立たない手間を愛せることだと思う。平和になったら、まずそういう無駄を増やしたいね。
 

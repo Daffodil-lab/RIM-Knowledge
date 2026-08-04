@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A171"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 空挺種子管理
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟空挺軍
 
-- Tone: 空挺・友情・職歴 / ReviewStatus: 採用済み
+- Tone: 空挺・友情・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 仲間思いの種子管理官。種の分配を政治と認め、空挺隊の友情を次の収穫へつなぐ。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 空挺基地で、故郷から運ばれた種子の来歴と分配を管理しました。種を誰へ渡すかは政治です。古参部隊だけで囲えば、最盛期の豊かさを広げたことにはならない。私は降下訓練の合図と同じ色で保管箱を分け、地点がずれても仲間と種を探せるようにしました。昔の降下で最初に聞いた友の声を、今も覚えています。帰還後、その友の席は空いたままでした。だから彼が守った種を一つの旗へ属させず、複数の開拓地へ分けました。友情を記念碑でなく、次の収穫へ残したかったんです。
 

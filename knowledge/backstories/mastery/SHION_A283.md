@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A283"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 要塞路救護医
 - Era: ModernUnion / Origin: 無党派 / Relation: 特殊任務群
 
-- Tone: 潜入・工兵・職歴 / ReviewStatus: 採用済み
+- Tone: 潜入・工兵・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 朴訥な潜入医。英雄譚より、狭い坑道で分けた食事と搬送順を覚えている。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 要塞へ正面から入れば早かったが、民間区画まで崩れる。私たちは狭い潜入路を選び、私は壁の亀裂を読みながら治療と搬送順を変えた。少人数分の食事も持ち込み、休憩のたび同じ固い菓子を割ったよ。設備だけを止めて帰った後、誰も英雄役を引き受けなかった。私も要らないと思う。報告書には成功と書いたが、食卓には一つ空席があった。あの坑道で分けた味と、戻らなかった者が最後に示した退路を記録へ残した。文化とは勝者の像だけでなく、誰が誰へ食事と道を渡したかを覚えることだ。
 

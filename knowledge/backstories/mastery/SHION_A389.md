@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A389"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 型枠職人
 - Era: ColonizationEra / Origin: 建設隊 / Relation: 現場班
 
-- Tone: 職人気質・几帳面・誇り / ReviewStatus: 採用済み
+- Tone: 職人気質・几帳面・誇り / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 断定的で少し早口な、若い職人の口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 型枠は建物の見えない骨格だと僕は思っています。表に出ないからこそ手を抜けないんです。木材の木目を読んで、反りが出そうな板は端に回す。それだけで壁の精度が段違いになる。現場の親方に何度も怒鳴られましたが、僕のやり方が結局一番早いと最後には認められました。木くずの匂いを吸うと今でも背筋が伸びます。見えない仕事にこそ真価が出ると、僕は今も信じています。
 

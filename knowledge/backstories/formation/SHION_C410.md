@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C410"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 灯標磨き
 - Era: GrowthEra / Origin: 星路建設隊 / Relation: 技師長
 
-- Tone: 誇り・単調・光 / ReviewStatus: 採用済み
+- Tone: 誇り・単調・光 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 淡々とした職人口調で、繰り返しの作業を誇らしげに語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 星路の灯標は曇ると光の届く距離が半分になる。僕の仕事はその曇りを毎朝拭き取ることだった。技師長は「灯標が消えれば船が迷う」と口癖のように言っていた。最初は退屈な仕事だと思っていたけれど、拭き終えた灯標が朝日を受けて遠くまで光る瞬間だけは何度見ても飽きなかった。星々の道が少しずつ繋がっていくのを、僕はこの手で磨いてきたんだと思うと誇らしい。今でも窓の外の光を見ると、つい曇りがないか確かめてしまう癖が抜けない。
 

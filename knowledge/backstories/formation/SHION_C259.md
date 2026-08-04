@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C259"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 毎日の坑道
 - Era: EraIndependent / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 生活・基幹・形成 / ReviewStatus: 改稿採用済み
+- Tone: 生活・基幹・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: のんびりした観察者。坑道保守を散歩と写生として愛し、武器を遠ざける。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 本国居住区の坑道を、私は毎日散歩しました。地層の音を聞き、亀裂を写生し、安全な掘削順を先達へ尋ねました。銃声は岩の響きを乱すので、射場へ誘われても断りました。誰かが続けなければ生活が止まる保守ですが、私には趣味でもあったんです。隣人は役に立たない壁画を坑道に描き、点検のたび少しずつ続きを足しました。後に区画を回収した時、設備は戻っても絵の具の匂いは消えていました。だから私は、新しい坑道にも余白を残します。次の誰かが、必要のない絵を描けるように。
 

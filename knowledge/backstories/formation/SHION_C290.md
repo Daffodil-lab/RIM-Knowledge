@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C290"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 広場再会受付
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 都市・福祉・形成 / ReviewStatus: 採用済み
+- Tone: 都市・福祉・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 親切だが慎重な受付役。再会を成功と決めつけず、双方の記憶差を説明する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 計画都市の再会祭で、私は受付を手伝いました。蘇った者と待っていた者へ、記憶の欠けや過ごした時間の違いを隠さず説明しました。抱き合う人もいれば、会わずに帰る人もいました。どちらも失敗とは記録しません。正式な会場より、完成図になかった小さな広場を選ぶ人が多かった。私自身、昔の友へ何を言えばよいか迷い、地盤補強の話ばかりしてしまいました。今でも悔やみます。再会は元へ戻る式ではありません。互いに変わったことを知った上で、次に会う約束を作る場所だと思います。
 

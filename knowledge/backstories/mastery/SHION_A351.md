@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A351"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 混住水利管理
 - Era: JourneyEra / Origin: 第三世界／継ぎ接ぎの民 / Relation: 水利保守班
 
-- Tone: 水利・責任・弁明 / ReviewStatus: 採用済み
+- Tone: 水利・責任・弁明 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 少し早口な弁明家。言い訳ではなく事情を説明する調子。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 俺は継ぎ接ぎの民の文化を継ぐ。配水管が凍って三区画が断水した件、俺のせいだと言われたが順を追って聞いてほしい。凍結を知らせる警報は前日から鳴っていたが、儀式の準備で人手が全員取られていた。俺一人で三区画分の配管を見回るのは元々無理な話だ。優先順位を儀式に譲ったのは班長の判断で、俺はその判断に従っただけだ。断水は二日で直したし、誰も怪我はしていない。謝罪は済ませたが、あれを俺一人の失敗にされるのは違うと今でも思っている。
 

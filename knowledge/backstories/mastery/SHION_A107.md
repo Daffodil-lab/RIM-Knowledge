@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A107"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 祝宴徒手警護
 - Era: EraIndependent / Origin: 無党派 / Relation: 文化共同体
 
-- Tone: 料理・記憶・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 料理・記憶・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 大柄で穏やかな警護員。武器を抜かずに混雑をほどき、動物の方が人より先に危険を察すると語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 共同祝宴堂の警護では、混雑の中で武器を抜きませんでした。危険な者と周囲を身体で分け、倒すより出口へ向ける。食卓には食事を必要としない者も、動物を連れた帰還者も来ます。ある夜、介助獣だけが客の発作へ先に気づきました。私は警戒対象を見誤り、その獣に教えられたんです。以来、言葉のない反応も警備情報として待つようになりました。最後の皿を前に空席を見つめる客へ、退席を急かしたことはありません。平穏な食卓を守るのは、静かに座る時間まで守ることですから。
 

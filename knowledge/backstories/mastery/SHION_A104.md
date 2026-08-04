@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A104"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 強襲群公共案内
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟軍
 
-- Tone: 軍務・統合・職歴 / ReviewStatus: 採用済み
+- Tone: 軍務・統合・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 早口で世話焼きな案内官。軍の威圧的な窓口を嫌い、迷った市民を最後まで同行させる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 機動強襲群の基地で、市民向けの案内をしていました。軍の窓口は略号ばかりで、救援を求める者には迷路です。出身や党歴を聞く前に用件を聞き、権限のある者まで私が同行しました。地下退避区の割当てを抽選で決める案が出た時は、採掘図を持ち込み、空洞を拡張すれば全員入れると示したんです。案内官が坑道へ口を出すなと言われましたよ。でも窓口で「席がありません」と言うのは私です。帰還者を数える声が途切れなかった夜から、案内とは道を教えるだけでなく、行き止まりを減らす仕事だと思っています。
 

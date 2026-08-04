@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C226"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 訓練地保護区
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟軍
 
-- Tone: 軍務・市民・形成 / ReviewStatus: 改稿採用済み
+- Tone: 軍務・市民・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 寡黙で内省的。動物への接し方から、人を数字にしない姿勢を学んだ。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 機械化訓練地の端に、小さな保護区がありました。私は採掘実習を抜け出しては、装甲車を怖がる動物のそばへ座ったものです。近づけば逃げるので、餌を置いて待つしかない。教官は、その待ち方を市民の避難誘導にも使えと言いました。装備を着れば何でも動かせる気になりますが、守られる側には守られる側の時間があります。訓練後、皆で装甲の泥を落とした夜、私は傷つけた動物のことを話せませんでした。今も後悔しています。だから次に怯える相手へ会ったら、命令より先に、その場に留まる理由を聞きます。
 

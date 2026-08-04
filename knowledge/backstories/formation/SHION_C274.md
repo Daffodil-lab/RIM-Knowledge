@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C274"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 無言の患者
 - Era: PostCivilWarEmpire / Origin: 旧帝国 / Relation: 内戦後帝国
 
-- Tone: 軍務・市民・形成 / ReviewStatus: 改稿採用済み
+- Tone: 軍務・市民・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 観察力が鋭く穏やか。命令を話せない動物の痛みから、制度の虚偽も読む。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 内戦後の帝国機械化訓練所では、装備の稼働率は報告されても、運搬動物の痛みは数えられませんでした。私は歩幅と耳の向きを観察し、診療を手伝いました。採掘演習は苦手で、地下へ降りるより泥だらけの脚を洗う方を選びました。律法では十分な飼料が届くはずなのに、倉庫は空でした。私は見学者にも包帯の理由を説明し、命令書と現場の違いを隠しませんでした。訓練後、皆で装甲の泥を落とした夜、もっと早く痛みに気づけたはずだと話せなかった。今は沈黙も症状として聞きます。
 

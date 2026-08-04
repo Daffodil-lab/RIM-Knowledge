@@ -1,4 +1,4 @@
-# accepted 03
+# reference-only 03
 
 範囲: SHION_C161 革命連合後方区の身体競技〜SHION_C240 封鎖地の夕焼け芝居
 

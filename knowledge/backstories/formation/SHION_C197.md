@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C197"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 要塞潜入搬出
 - Era: ModernUnion / Origin: 無党派 / Relation: 特殊任務群
 
-- Tone: 潜入・工兵・形成 / ReviewStatus: 採用済み
+- Tone: 潜入・工兵・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 緊張を冗談で隠す搬出役 / 正面攻撃を嫌う / 無言合図へ辛抱 / 英雄役を拒む
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 要塞の正面を破る案は立派でした。民間区画まで立派に吹き飛びますが。私たちは潜入路へ入り、少人数で設備を止め、狭い場所から負傷者役を運ぶ練習をしました。身体の組み方と無言合図を覚え、見学者にも失敗図まで見せた。実地に近い演習では一人を遠回りさせ、搬出が遅れました。隠していません。終了後、誰も英雄役を引き受けなかったのが気に入っています。最盛期を超える平和に必要なのは、要塞を落とした英雄より、余計に壊さず帰る道を選ぶ臆病者でしょう。
 

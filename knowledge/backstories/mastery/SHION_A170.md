@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A170"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 海洋保存食職
 - Era: EraIndependent / Origin: 無党派 / Relation: 観測隊
 
-- Tone: 観測・不可解・職歴 / ReviewStatus: 採用済み
+- Tone: 観測・不可解・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 朗らかな保存食職人。水面の故郷を断定せず、観測祭へ複数の記憶の味を並べる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 海洋観測祭のため、航海者へ保存食を仕込みました。水面へ故郷らしい景色が映った日、皆の証言は一致しませんでした。私は「故郷の味」を一つに決めず、それぞれが覚える料理を小分けにしたんです。ある者は甘いと言い、別の者は塩辛いと言った。同じ包みを食べているのにね。観測対象が記憶を映したのか、私たちが勝手に見たのかは分かりません。分からないままでも、食べられない者の体調は診られます。私は答えより先に、次の航路で口にできる包みを渡しました。
 

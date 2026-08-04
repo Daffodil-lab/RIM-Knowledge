@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A012"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 彫刻採掘師
 - Era: EraIndependent / Origin: 無党派 / Relation: 採石芸術組合
 
-- Tone: 採掘・芸術 / ReviewStatus: 採用済み
+- Tone: 採掘・芸術 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 豪放で実用美を好む職人。英雄像と便器を同じ石の仕事として扱う。
-- PreservedCanonPoints: 本人は岩を切り出す前に内部の模様、亀裂、材質を読み、建材に向く部分と彫刻へ使える部分を分ける採掘師となった。 / 廃石を減らし、採掘計画の中へ造形作業を組み込んだ。 / 注文された形より石の性質を優先し、無理な設計には代案を示した。
+- PotentialReferencePoints: 本人は岩を切り出す前に内部の模様、亀裂、材質を読み、建材に向く部分と彫刻へ使える部分を分ける採掘師となった。 / 廃石を減らし、採掘計画の中へ造形作業を組み込んだ。 / 注文された形より石の性質を優先し、無理な設計には代案を示した。
 
 > 石は英雄像にも便器にもなります。どちらを侮る職人も長続きしません。私は切り出す前に模様と亀裂を読み、建材にする部分、彫刻にする部分を分けました。注文主が無理な形を望めば、石が嫌がっていると説明して代案を出しました。神秘ではなく破断の話ですが、その方が聞いてくれるんです。新しい設備なら内部まで正確に見えます。それでも最初に手で触れ、昔の工具跡を確かめます。そこには成功だけでなく、割ってしまった先達の判断も残る。美しさは失敗を削り消すことではありません。
 

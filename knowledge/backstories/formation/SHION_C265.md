@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C265"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 観測院救命実習
 - Era: ImperialPeak / Origin: 旧帝国 / Relation: 最盛期帝国社会
 
-- Tone: 観測・不可解・形成 / ReviewStatus: 採用済み
+- Tone: 観測・不可解・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 規律正しく謙虚。最盛期の制度を信頼しつつ、未知への断定を戒める。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 最盛期の海洋観測院では、事故が少ない時ほど救命実習を重ねました。豊かさは安全を省く理由にならない、それが律法の教えでした。私は傷病者の選別と治療、崩れた観測棟からの搬送路を学びました。生き物の扱いだけは距離を測り損ね、何度も先達に任せました。ある実習の日、水面へ故郷そっくりの街が映りました。誰も原因を断定せず、訓練を終えてから別々に証言を残しました。私はあの慎重さを取り戻したい。制度の形ではなく、未知の前でも暮らしを守る手順を崩さなかった社会の余裕をです。
 

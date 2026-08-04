@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A213"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 演習環古文書研
 - Era: ModernUnion / Origin: 無党派 / Relation: 防衛教育隊
 
-- Tone: 戦術・教育・職歴 / ReviewStatus: 採用済み
+- Tone: 戦術・教育・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 生真面目な教育研究者。勝利の物語より、相手の生活記録を読ませる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 戦術教育環では、勝った側の記録だけを教材にする習慣があった。私は相手側の手紙、配給表、読めないまま残った日誌も並べたよ。模擬戦の標識に名前があると知った候補生は、初めて命令へ質問した。私はその反応を減点させなかった。歴史を美しい物語へ仕立てるのは好まない。欠けた箇所は欠けたまま示し、当時の粗末な食事を再現して、決断した者がどんな日常にいたか考えてもらった。味は不評だったが、皿は空になった。勝敗より、命令の向こうにも食卓があると覚えて帰ってほしかったんだ。
 

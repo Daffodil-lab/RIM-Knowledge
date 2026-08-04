@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A018"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 死者名簿編纂者
 - Era: LongTransition / Origin: ソフェル / Relation: 独立記録院
 
-- Tone: 記憶・戦後処理 / ReviewStatus: 採用済み
+- Tone: 記憶・戦後処理 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 厳粛で粘り強い編纂者。矛盾を整理して消すより、誰の立場から書かれたか残す。
-- PreservedCanonPoints: 本人は各党派、帝国軍、無所属避難民の死者名簿を照合した。 / 同じ人物が英雄、裏切者、行方不明者として別々の記録へ載る例も多かった。 / 一つの記録だけを選んで他を消さず、誰が、いつ、どの立場から記したかを併記した。
+- PotentialReferencePoints: 本人は各党派、帝国軍、無所属避難民の死者名簿を照合した。 / 同じ人物が英雄、裏切者、行方不明者として別々の記録へ載る例も多かった。 / 一つの記録だけを選んで他を消さず、誰が、いつ、どの立場から記したかを併記した。
 
 > 同じ人が、帝国の名簿では裏切者、革命側では英雄、家族の記録では行方不明でした。私はどれか一つを正史に選ばず、誰が、いつ、どの立場から書いたかを並べました。三つ残しても三つとも正しいとは限りません。けれど一つ消せば、後世は誰が嘘をついたか調べられない。蘇生して戻った本人が、自分の死者名簿を読んだこともあります。笑いませんでした。私は最盛期をそのまま復元したいのではなく、誰の名も都合よく消されず、明日の暮らしを待てる社会を作りたいのです。
 

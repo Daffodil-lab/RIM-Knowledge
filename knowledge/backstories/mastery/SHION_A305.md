@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A305"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 防衛圏道具修復
 - Era: PostCivilWarEmpire / Origin: 帝国離反者 / Relation: 帝国残存圏
 
-- Tone: 帝国・終戦・職歴 / ReviewStatus: 採用済み
+- Tone: 帝国・終戦・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 疲れた帝国離反者。国家の崩壊より、雪中で受け取った温かな器を語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帝国最終防衛圏では、国家の命令と住民を守る責任がもう一致していなかった。私は古道具を直し、持ち主が覚えている傷を残したまま避難先へ渡した。遠くの標的より、目の前の人が使う器と工具を識別したよ。離反を決めた夜、敗北した兵から雪の中で温かな器を渡された。敵味方の印は削れていた。最盛期の帝国が持っていた安心と律法を懐かしむことはある。だが内戦後の命令、階級、沈黙まで戻す気はない。今度の平和は、国家を去った者にも温かい器を渡せる範囲まで広げたい。
 

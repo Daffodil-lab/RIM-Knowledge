@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C269"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 無音区画救出
 - Era: LongTransition / Origin: 無党派 / Relation: 長い過渡期
 
-- Tone: 設備・孤立・形成 / ReviewStatus: 採用済み
+- Tone: 設備・孤立・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 体力自慢で朗らか。自動化が止まった時に頼れる、声と手の技術を愛する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 地下維持区で自動設備が止まると、街から機械音が消えました。最初に聞こえたのは、閉じ込められた人の肉声です。私は狭い隙間から負傷者を運ぶ組み技を使い、運搬動物へ昔の手綱を付けました。端末がなくても名前を呼び合えば連絡はつながる。けれど最初の救出では焦って相手の腕を痛めました。私はその失敗を手順書の先頭へ描き、力をかける位置を皆に試してもらいました。便利な機械を捨てたいわけではありません。ただ、止まった時にも誰かの声へ手を伸ばせる街であってほしいのです。
 

@@ -33,6 +33,8 @@ generated:
 4. `authority: protected-draft` の保護された未確定案。
 5. `authority: historical` の決定履歴。
 
+「参考」は利用区分であり、`authority: reference`だけを指す語ではない。`authority: catalog`のバックストーリー、`authority: reference`の外部調査、`authority: historical`の旧案はいずれも[参考資料の利用境界](/reference/00-参考資料の利用境界.md)に従い得る。参考資料は各記録の由来と内容を保持するが、現行正本の事実を所有しない。
+
 元の大型文書、調査資料、コード、図版、アーカイブ、廃止候補の実体は移行完了後に削除された。移行時の由来は`retired-source://project/...`形式の墓標識別子だけを残し、現行判断には使用しない。
 
 ## OKF外原本の退役
@@ -54,3 +56,4 @@ OKF外の統合原本、カタログ、履歴、補助原本には「現行正�
 - 上位索引: [governance](/governance/index.md)
 - 同じ出典の次項: [RIM OKFメタデータ契約](/governance/metadata-contract.md)
 - 退役監査: [旧資料退役監査](/authoring/21-旧資料退役監査.md)
+- 参考資料: [参考資料の利用境界](/reference/00-参考資料の利用境界.md)

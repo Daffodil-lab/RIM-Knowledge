@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C396"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 風読み
 - Era: ColonizationEra / Origin: 気象観測隊 / Relation: 養い親
 
-- Tone: 諦観・実直・慎重 / ReviewStatus: 採用済み
+- Tone: 諦観・実直・慎重 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 理屈っぽい解説調の口調、専門語を交えながら感情的な言葉は避けて語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 気圧計の針は一時間で二目盛り動けば嵐が来る合図だった。養い親はそれを俺に毎朝読ませた。風向きを旗で測り、雲の高さを目で見積もる。数字を記録して、それが正しいかどうかは翌日にしか分からない。だから予報は当たり外れの記録でもあった。俺は外れることが怖くて、何度も同じ場所を見に行った。当てることより、外れを認められる方が実は難しいと知ったのはずっと後だ。
 

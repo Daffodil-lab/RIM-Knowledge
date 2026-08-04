@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C332"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 匂いの癖
 - Era: ColonizationEra / Origin: 環境観測隊 / Relation: 水質班
 
-- Tone: 水質・沈黙・省略 / ReviewStatus: 採用済み
+- Tone: 水質・沈黙・省略 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 核心を避けて周辺だけを語る、抑えた口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 水質班の話は、正直あまりしたくありません。何があったかは省きます。ただ、あの年から私は水を飲む前に匂いを確かめる癖がつきました。同僚の名前も、今は言いません。観測地点の風景だけは覚えています、岩の色が赤く、水面が油のように光っていました。あの日の気温も、風の向きも、なぜか今でも正確に言えます。それ以上は聞かないでください。癖だけが、私に残ったものです。
 

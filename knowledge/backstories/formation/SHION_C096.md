@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C096"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 最盛期超越作文者
 - Era: LongTransition / Origin: 同盟系 / Relation: 過渡期市民学校
 
-- Tone: 未来・文化 / ReviewStatus: 採用済み
+- Tone: 未来・文化 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 政治理想家 / 論旨は明快 / 空想的評価へ反発 / 次世代へ答案を渡す
-- PreservedCanonPoints: 本人は帝国最盛期の平和を褒め、その階級制を復元せずに暮らしだけを超える方法を書いた。 / 教師は空想的だと評したが、答案を捨てず次の世代へ回した。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
+- PotentialReferencePoints: 本人は帝国最盛期の平和を褒め、その階級制を復元せずに暮らしだけを超える方法を書いた。 / 教師は空想的だと評したが、答案を捨てず次の世代へ回した。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
 
 > 私は答案で、帝国最盛期の平和と豊かさを褒め、階級制は復元しないと書きました。同じ暮らしを、より広い相手へ、別の制度で渡す。教師の評は「空想的、ただし保存価値あり」。腹が立ちましたよ。空想だからこそ、現状の外を測れるのではありませんか。答案は次の世代へ回され、余白に反論と修正が増えました。今では私の文章より注釈の方が長い。それでいい。ソフェル、私の結論を完成稿として扱わないでください。誰かがさらに良い一日を上書きできる余白こそ、あの作文の価値です。
 

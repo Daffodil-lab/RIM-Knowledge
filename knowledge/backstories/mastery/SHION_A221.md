@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A221"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 船団精密工
 - Era: EraIndependent / Origin: 帝国離反者 / Relation: 離散共同体
 
-- Tone: 離散・宇宙・職歴 / ReviewStatus: 採用済み
+- Tone: 離散・宇宙・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 軽口の多い離反者。精密な仕事と、定義の曖昧な故郷を愛している。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 離散船団の競技会では、同じ規格の道具を配る方が不公平だった。身体も反応時間も違うから、私は握り、引き金、照準音を一人ずつ調整した。審判をしながら故障も直したので、優勝者より忙しかったよ。帝国を離れた頃、故郷とは帰る場所だと思っていた。けれど船団の仲間は違う星、違う時代を故郷と呼びながら、同じ古い歌を口ずさんだ。私は歌詞を一節間違え、三人から別々の訂正を受けた。どれも正しかったらしい。精密工としては困る話だが、故郷には許容差があってよいのだろうね。
 

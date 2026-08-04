@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C231"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 制限地の記録
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 回収班
 
-- Tone: 遺物・危険・形成 / ReviewStatus: 採用済み
+- Tone: 遺物・危険・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 好奇心旺盛だが断定を嫌う。危険な遠征を食べ物の記憶と結び付ける。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 立入制限地へ行くたび、私は露店で一番安い焼き菓子を買いました。帰還祝いのつもりです。遺物は高価そうな物ほど触れず、欠けた古文書は読めないまま写しました。分からない箇所を格好よく補うと、次の調査員まで同じ嘘を信じますから。ある遠征では、持ち帰った品がすべて危険で、道端の菓子だけが無害でした。仲間は笑いましたが、その味を食べると今も故郷の市場を思い出します。土地を回収できても、匂いや会話までは戻せない。だから私は、空白を空白のまま残します。いつか本当に知っている誰かが、続きを話せるように。
 

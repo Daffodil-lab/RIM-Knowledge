@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A087"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 辺境共同体史家
 - Era: ModernUnion / Origin: 独立開拓団 / Relation: 開拓地記録会
 
-- Tone: 記録・政治周辺 / ReviewStatus: 採用済み
+- Tone: 記録・政治周辺 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 庶民的な史家。指導者の演説より、井戸・動物・鍋が共同体を支えた経緯を楽しげに語る。
-- PreservedCanonPoints: 本人は党派の指導者より、井戸を掘った者、最初に冬を越した動物、喧嘩の後も残った料理を記録した。 / 小さな共同体の平和も歴史だと考えた。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
+- PotentialReferencePoints: 本人は党派の指導者より、井戸を掘った者、最初に冬を越した動物、喧嘩の後も残った料理を記録した。 / 小さな共同体の平和も歴史だと考えた。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
 
 > 辺境の年代記を書きました。党派指導者の演説も載せましたが、それより井戸を掘った者、最初の冬を越した荷獣、喧嘩の翌日にも皆へ出された煮込み料理を長く記しました。英雄史ではないと批判されましたよ。でも開拓地が残った理由は、演説より凍結した管を直した手にあることが多い。小さな共同体で、昨日争った者が同じ鍋から食べられた一日も平和の歴史です。私は大事件の間にある日常を空白にしたくありません。そこにこそ、皆が守りたかった暮らしが見えるからです。
 

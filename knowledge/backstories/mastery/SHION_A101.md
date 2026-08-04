@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A101"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: Kombinat精密工
 - Era: ModernUnion / Origin: 無党派 / Relation: Kombinat共同体
 
-- Tone: 工業・保守・職歴 / ReviewStatus: 採用済み
+- Tone: 工業・保守・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 自信家の精密工。桁外れの腕を隠さず、完璧な部品より現場で直せる部品を誇る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > ヘイハルKombinatで精密部品を仕上げていました。私の公差ですか？　測定器の方を先に疑われる程度です。射撃機構も、使い手の視覚と反動の癖へ合わせて調整しました。それでも私が最も誇るのは、止まったKombinatを全員で手作業へ戻した夜です。私一人なら最高の部品を作れる。でも、私が不在でも現場が直せる設計の方が強い。そこで工具痕と判断理由を残し、新人が私の答えを覆せる工程に変えました。章は頂きましたよ。ですが、訂正した徒弟の名も同じ銘板へ刻ませました。
 

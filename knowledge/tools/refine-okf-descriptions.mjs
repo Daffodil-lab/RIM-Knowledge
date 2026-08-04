@@ -44,7 +44,7 @@ for (const record of records) {
     );
   const generatedBackstoryCandidate =
     record.type === "Backstory Record" &&
-    record.metadata.canon_review === "candidate";
+    record.metadata.reference_review === "candidate";
   const currentProblems = descriptionProblems(record.description);
   const description =
     generic ||

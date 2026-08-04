@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C355"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 帝国とは何か
 - Era: JourneyEra / Origin: 統治見習い / Relation: 統治評議会随伴
 
-- Tone: 統治・問い・成立 / ReviewStatus: 採用済み
+- Tone: 統治・問い・成立 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 生真面目で慎重、即答を避ける。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帝国とは何か、と聞かれても僕にはうまく説明できません。統治評議会に随伴していた子供の頃、大人たちは毎日その定義について議論していましたが、結論は出ないまま制度だけが先に整っていきました。僕が覚えているのは、議論そのものより、議論の後にみんなで同じ配給を分け合っていた光景です。言葉の定義が固まる前に、暮らしの形の方が先にできていました。帝国とは何かと聞かれたら、僕は今でも、あの配給の輪のことを思い浮かべます。それ以上の答えは持っていません。
 

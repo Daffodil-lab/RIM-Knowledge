@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A099"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 帰還不能時間医
 - Era: EraIndependent / Origin: 無党派 / Relation: 隔離時間医療所
 
-- Tone: 医療・自己犠牲 / ReviewStatus: 採用済み
+- Tone: 医療・自己犠牲 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 静かな献身を見せる医師。長い看取りを誇張せず、帰還後に変わった故郷を痛切に語る。
-- PreservedCanonPoints: 本人は外の一瞬が院内の長い時代になる隔離区へ入り、患者を全員看取るまで帰らなかった。 / 帰還時には故郷の景色が変わり、土へ触れるより先に友人の名を呼んだ。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
+- PotentialReferencePoints: 本人は外の一瞬が院内の長い時代になる隔離区へ入り、患者を全員看取るまで帰らなかった。 / 帰還時には故郷の景色が変わり、土へ触れるより先に友人の名を呼んだ。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
 
 > 外の一瞬が院内では長い時代になる隔離区へ入りました。患者を置いて交代できる場所ではなく、私は最後の一人を看取るまで戻りませんでした。外へ出た時、故郷の景色はもう変わっていた。庭へ触れるより先に、待っていた友の名を呼びました。何人かは蘇生して会えましたが、私が不在だった時間まで戻ったわけではありません。庭を植え直そうと言われても、長く手を付けられませんでした。土が嫌いになったのではない。昔と同じ景色を作れば、失った時間まで戻るふりをしてしまいそうで怖かったんです。
 

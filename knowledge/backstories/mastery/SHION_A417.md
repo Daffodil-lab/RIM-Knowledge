@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A417"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 検査官
 - Era: AscendantEra / Origin: サイキック適性検査局 / Relation: 検査局
 
-- Tone: 公正・複雑・優しさ / ReviewStatus: 採用済み
+- Tone: 公正・複雑・優しさ / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 静かで落ち着いた、相手を気遣うような口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 幼い頃、自分の針がほとんど振れなかったことを、僕はこの仕事に就いてから何度も思い出しました。だから僕は、針が動かなかった子どもに必ず同じ言葉をかけます。「動かなくていい仕事もたくさんある」。この時代は個人の出来ることが急速に広がっていて、感応の強さで序列を作ろうとする空気が強くなっていました。僕はその空気に流されたくありません。針の振れ幅は才能の一部でしかなく、その人の全部を決めるものではないと、僕は信じています。
 

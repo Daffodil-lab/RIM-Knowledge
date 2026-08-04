@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A296"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: Kombinat討論調停
 - Era: ModernUnion / Origin: 無党派 / Relation: Kombinat共同体
 
-- Tone: 工業・保守・職歴 / ReviewStatus: 採用済み
+- Tone: 工業・保守・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 議論好きの現場調停人。Kombinatの理屈を、地下へ降りて確かめるまで信じない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > ヘイハルKombinatの会議では、生産班と保守班が同じ言葉を別の意味で使っていた。私は互いの主張を言い直させ、合意できない点も公開した。工芸の細部は得意な者へ任せ、自分は地下へ降りて地層と空洞を確かめたよ。停止した夜、皆で手動輪を回しながら、会議より早く妥協点を見つけた。見学者にも失敗を隠さず、誰が直せるかまで工程へ書いた。必要のない議論を楽しめることは豊かさだと思う。ただし、話す自由を守るなら、現場へ降りて自分の言葉の重さを確かめる責任も要る。
 

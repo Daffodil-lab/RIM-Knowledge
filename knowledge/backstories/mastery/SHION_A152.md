@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A152"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 支援庁公共案内
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟支援軍
 
-- Tone: 支援・職務・職歴 / ReviewStatus: 採用済み
+- Tone: 支援・職務・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 控えめで有能な案内官。前線の英雄より見えない整備員を気にかけ、地下窓口まで自ら同行する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 後方支援庁の案内窓口にいました。補給、医療、通信、整備は部署が分かれ、困った者ほど何度も回されます。私は用件を聞き、地下保守坑の担当まで自分で同行しました。地図にない空洞を見つけた整備員の報告が、前線通信の断絶を防いだこともあります。誰にも見られない修理でした。表彰式で名前が抜けたので、私は帰還者名簿の前に保守班の名を読みました。案内は華やかではありません。でも遅れが損失へ変わる前に、正しい扉を開けることならできます。
 

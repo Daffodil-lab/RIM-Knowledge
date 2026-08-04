@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A343"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 狩猟指導員
 - Era: JourneyEra / Origin: 第三世界／猟犬使いの民 / Relation: 動物管理班
 
-- Tone: 動物・訓練・郷愁 / ReviewStatus: 採用済み
+- Tone: 動物・訓練・郷愁 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 素朴な指導員。故郷の山の話を挟みながら答える。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 船の中に獲物なんているわけないだろう、って最初はみんなに笑われたよ。でも家畜区画の動物は誰かが訓練しないと事故を起こす。猟犬使いの民として山で猟犬を育てた勘だけを頼りに、僕は輸送用の家畜を大人しくさせる係になった。犬笛の代わりに手を叩くリズムを工夫して、群れが落ち着く合図を作った。獲物を追う技術は結局一度も使わなかったけど、動物を静かにさせる技術は毎日使った。無駄になった技術なんて一つもなかったと思う。
 

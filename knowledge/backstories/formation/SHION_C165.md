@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C165"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 戦術環種子保管
 - Era: ModernUnion / Origin: 無党派 / Relation: 防衛教育隊
 
-- Tone: 戦術・教育・形成 / ReviewStatus: 採用済み
+- Tone: 戦術・教育・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 戦術教育へ異を唱える種子番 / 相手の名を記す / 対話は粘り強い / 失敗を教材化
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 戦術教育環になぜ種子庫があるのか、と私も聞きました。答えは「作戦図の下にも暮らしがあると忘れないため」です。私は故郷から来た種の名と発芽条件を記し、演習で失われる畑まで損失表へ加えました。模擬敵の記号にも名前があると知ってからは、希望する避難先と制度上の最適地を別々に書いた。一度、乾燥条件を誤って種を駄目にしました。その頁も残しています。勝利だけ教える学校より、何を失ったかと誰が間違えたかを読める学校の方が、平和には役立つと思うので。
 

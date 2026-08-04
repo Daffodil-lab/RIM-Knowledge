@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A376"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 仲裁人問答
 - Era: JourneyEra / Origin: 混成調停見習い / Relation: 甲板間仲裁局
 
-- Tone: 仲裁・想定・対話 / ReviewStatus: 採用済み
+- Tone: 仲裁・想定・対話 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 静かに相手の立場を想像させる語り口の仲裁人。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 甲板間の揉め事は、たいてい旧い作法と新しい律法のどちらを優先するかで起きた。僕は両方の言い分を聞いて、真ん中の答えを探す役目だった。もし君が、共同居住区の旧作法を守りたい側に立たされたら、きっと律法を融通の利かないものだと思うはずだ。逆に律法を学び始めた側に立てば、旧い作法を頑固だと感じるだろう。僕はどちらの気持ちも本物だと思って聞いてきた。答えを出すより、聞き続けることの方が長い仕事だった。
 

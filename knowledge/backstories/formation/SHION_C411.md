@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C411"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 見習い荷役
 - Era: GrowthEra / Origin: 交易船団 / Relation: 荷役長
 
-- Tone: 快活・度胸・成長 / ReviewStatus: 採用済み
+- Tone: 快活・度胸・成長 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 早口で威勢のいい、くだけた口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 俺が最初にもらった仕事は、積み荷の重さを目で当てることだった。荷役長は「量りを使う前に自分の目を信じろ」って言ってた。隣の星まで一年もかからずに行ける時代になったって喜ぶ大人が多かったけど、俺にはそれがどれだけすごいことか正直よく分からなかった。ただ、積み荷が届くたびに知らない星の匂いがする木箱を開けるのは好きだった。あの匂いを嗅ぐと、遠い場所が急に近くなった気がしたんだ。今でも荷物の重さは目分量で分かる。
 

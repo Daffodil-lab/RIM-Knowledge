@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C154"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 扶助区動物診療
 - Era: LongTransition / Origin: 社会民主党系 / Relation: 自治共同体
 
-- Tone: 共同体・倫理・形成 / ReviewStatus: 採用済み
+- Tone: 共同体・倫理・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 動物観察の名手 / 所有より責任を問う / 愛着の矛盾を受け入れる / 言い残しを悔やむ
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 相互扶助区では、動物も道具も「皆のもの」と言われました。でも痛みを見つけ、毎日そばにいるのは大抵一人です。私は歩き方と呼吸を観察し、事実と推測を分け、治療方針と世話人の希望が違えば両方を書きました。所有を薄くしても責任や愛着は消えません。共同の器具に、一人の握り癖だけ深く刻まれていたこともある。その人が去る前、私は制度の話ばかりして礼を言えませんでした。だから今は「誰の物か」より、「誰が気に掛け、誰が引き受けるか」を最後まで聞くようにしています。
 

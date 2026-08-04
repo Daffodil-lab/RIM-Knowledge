@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C320"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 曲がらぬ杭
 - Era: ColonizationEra / Origin: 港湾建設隊 / Relation: 桟橋班
 
-- Tone: 港湾・杭打ち・自信 / ReviewStatus: 改稿採用済み
+- Tone: 港湾・杭打ち・自信 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 上機嫌で誇らしげ、後悔のない語り口。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自慢していいですか。私が打った杭は一本も傾きませんでした、百十四本全部です。潮の満ち引きを読むのが得意で、班長より先に潮位を言い当てられました。仲間には「お前は魚と話せるのか」とからかわれましたが、否定しませんでした。木材の反りを見抜く目にも自信があります。桟橋が完成した日、班全員で潮を浴びて笑いました。あの桟橋はまだ立っているはずです、私の杭は曲がりませんから。
 

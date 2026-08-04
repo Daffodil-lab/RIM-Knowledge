@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A367"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 世帯調整台帳
 - Era: JourneyEra / Origin: 第三世界／香辛料交易文化継承者 / Relation: 世帯調整局
 
-- Tone: 家族・調整・記憶 / ReviewStatus: 改稿採用済み
+- Tone: 家族・調整・記憶 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 几帳面な事務屋。項目立てて話す癖が抜けない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 私の仕事は三つの台帳をつけることだった。一つ、外部居住者の出生。二つ、全住民のパートナー関係と世帯。三つ、居住区の割り当て。香辛料交易文化を継ぐ世帯は特に居住区の希望が多くて苦労した。台帳には書けない揉め事もたくさんあった。誰と誰が同じ甲板を嫌がるかとか、そういう細かい話だ。それでも三十年で担当した台帳は数えきれない。今思えば、私が守っていたのは台帳ではなく、その裏にある小さな諍いの記憶だったのかもしれない。ペン先の減り方にまでそれが出ている気がする。
 

@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C176"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 継承再会膳
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 教育・継承・形成 / ReviewStatus: 採用済み
+- Tone: 教育・継承・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: にぎやかな料理助手 / 再会と追悼を同席させる / 体調へ気を配る / 料理を競う
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 再会の席と追悼の席を分けるべきだ、と教本にはありました。私は同じ膳へ載せました。革命の最中は、帰った者を祝う隣で戻らない者の器も置くしかなかったからです。席ごとの記憶と体調を聞き、友とは誰の保存料理が一番昔の味に近いか競いました。楽しいんですよ、悲しい席でも。最後の授業で教師は正解を伏せましたが、今なら分かる気がします。再会だけ、死別だけの純粋な食卓などない。味が混ざっても同席できること自体が、私たちの答えだったのでしょう。
 

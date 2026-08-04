@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C389"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 夜警見習
 - Era: ColonizationEra / Origin: 通信中継隊 / Relation: 隊長
 
-- Tone: 静寂・緊張・使命 / ReviewStatus: 採用済み
+- Tone: 静寂・緊張・使命 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 静かで間の多い話し方、感覚的な言葉を中心に、感情を身体感覚で語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 鉄塔の階段は九十八段。夜、上るたびに数えていた。冷たい手すりの感触、風が鳴る音の高さで天候が変わるのがわかった。隊長は俺に受信機の雑音を聞き分けさせた。人の声に混じる別の声を拾えたら褒めてくれた。ある夜、雑音の奥に助けを求める声を見つけて、隊長を叩き起こした。あれは本物の遭難信号だった。塔のてっぺんの風の匂いを、俺は今でも忘れられない。隊長のあの一言だけで、その夜の全部が報われた気がした。
 

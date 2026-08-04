@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C366"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 下手な似顔絵
 - Era: JourneyEra / Origin: 第三世界／島嶼文化継承者 / Relation: 学童保育班
 
-- Tone: 芸術・失敗・笑い / ReviewStatus: 採用済み
+- Tone: 芸術・失敗・笑い / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: からりとした自虐口調、笑いながら話す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 私の似顔絵は、本人よりタコに似ていると保育班中で有名でした。船内新聞の子供欄に毎週描かされていたんですが、正直これほど向いていない仕事もなかったと思います。島嶼文化を継ぐ担当教師だけは褒めてくれましたが、あれは優しさというより諦めだったのでしょう。ある号で描いた艦長の絵が本人に見つかり、大笑いされたことがあります。恥ずかしかったですが、悪い気はしませんでした。下手でも描き続けたことだけは、今でも唯一自慢できる点です。
 

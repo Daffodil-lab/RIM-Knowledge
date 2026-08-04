@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C244"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 名前のある標的
 - Era: ModernUnion / Origin: 無党派 / Relation: 防衛教育隊
 
-- Tone: 戦術・教育・形成 / ReviewStatus: 採用済み
+- Tone: 戦術・教育・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 真面目で負けず嫌い。射撃の腕より、撃つ判断の責任を重く語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 戦術教育環では、標的に命中するたび褒められました。私はそれが嬉しくて、誰より早く撃とうとしたんです。ところが最終演習の標的には、一つずつ名前と生活歴が付いていました。撃てという命令だけ見れば簡単でも、相手が失うものを読めば指が止まる。私は射撃後に温室へ行き、芽が出るまで待つ習慣をつけました。壊す判断は一瞬なのに、育つ時間は省けないからです。模擬戦だと分かっていても、あの日の名を忘れません。撃たずに済む条件を探すことまで含めて、射手の責任だと思っています。
 

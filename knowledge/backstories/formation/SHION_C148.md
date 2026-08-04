@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C148"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 対機械識別
 - Era: ModernUnion / Origin: 無党派 / Relation: 対メカノイド部隊
 
-- Tone: 対機械・判断・形成 / ReviewStatus: 採用済み
+- Tone: 対機械・判断・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 冷静な射手 / 機械を擬人化しない / 破壊後の記録も読む / 医療役を避ける
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 対機械戦区では、動く物を全部「敵の人格」と呼ぶ者がいました。私は反対しました。自由意志を持たない人工知能は、危険でも道具です。指揮系統を確認し、停止できるなら撃たず、射撃が必要なら躊躇しない。私は標的識別と長期観測を学び、負傷者の治療判断は別の者へ任せました。破壊後の機体には、憎悪も遺言もなく、単純な作業記録だけが残っていた。それを悲劇に仕立てるより、誰が何のために動かしたかを追うべきです。責任の所在を機械へ押し付けたくありません。
 

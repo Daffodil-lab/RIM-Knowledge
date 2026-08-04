@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C198"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 特任校退避棟
 - Era: ModernUnion / Origin: 無党派 / Relation: 特殊任務機関
 
-- Tone: 特殊任務・法執行・形成 / ReviewStatus: 採用済み
+- Tone: 特殊任務・法執行・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 落ち着いた施設助手 / 法執行と軍務を峻別 / 居住者の希望を聞く / 再会を急がせない
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 特殊任務学校で、私は帰還者と保護対象が休む退避棟を組みました。軍事作戦なら敵戦力の無力化、法執行なら逮捕、救出、証拠保全。目的が違えば扉の位置も動線も違います。居住者の希望と制度案は別々に書き、使う者の身体へ工具も合わせた。発砲せず終えた演習ほど、後の検討は長かったものです。蘇生した友が来た時も、昔の部屋へ戻さず本人へ選ばせました。再会を成功させる建築などありません。ただ、話せない夜にも閉じこもれる扉なら作れます。
 

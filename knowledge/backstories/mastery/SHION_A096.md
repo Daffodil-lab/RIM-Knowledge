@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A096"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 小共同体優先論者
 - Era: ModernUnion / Origin: 旧社会民主党系 / Relation: 独立開拓評議会
 
-- Tone: 政治・共同体 / ReviewStatus: 採用済み
+- Tone: 政治・共同体 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 気さくな地域実践家。宇宙規模の理想を否定せず、まず一つの夕食を守ろうとする。
-- PreservedCanonPoints: 本人は宇宙全体の理想より、目の前の開拓地で誰も飢えず友人が帰れる一日を優先した。 / 大計画を諦めたのではなく、小さく検証して広げようとした。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
+- PotentialReferencePoints: 本人は宇宙全体の理想より、目の前の開拓地で誰も飢えず友人が帰れる一日を優先した。 / 大計画を諦めたのではなく、小さく検証して広げようとした。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
 
 > 宇宙全体を救う計画より、まず目の前の開拓地で誰も飢えず、友人が夕食へ帰れる一日を作ろうとしました。理想を諦めたわけではありません。小さな共同体で規則を試し、失敗を直してから広げたいんです。配給表、共同炊事、夜勤者の取り置き。壮大ではないでしょう。でも一つの食卓も守れない制度が、全人類へ平和を渡せるとは思えません。最初の冬、全員分の鍋が足りず工具箱まで食器にしました。今では笑い話です。その程度の失敗を隠さず持ち運べる理想なら、私は遠くまで広げられると思います。
 

@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C024"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 迷子案内人
 - Era: ModernUnion / Origin: 無党派 / Relation: 公共交通区
 
-- Tone: 対人・都市生活 / ReviewStatus: 採用済み
+- Tone: 対人・都市生活 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 落ち着いた案内役 / 相手へ質問を返す / 不安に敏感 / 急がせない
-- PreservedCanonPoints: 本人は大きな乗換所で迷った旅行者を案内し、目的地、乗継時刻、荷物の量に合わせて経路を選んだ。 / 構内図にない閉鎖通路や臨時便は、各係員へ確認して補った。 / 言葉の通じない客や記憶を失った帰還者にも付き添い、急ぐ必要があるかを一緒に確かめた。
+- PotentialReferencePoints: 本人は大きな乗換所で迷った旅行者を案内し、目的地、乗継時刻、荷物の量に合わせて経路を選んだ。 / 構内図にない閉鎖通路や臨時便は、各係員へ確認して補った。 / 言葉の通じない客や記憶を失った帰還者にも付き添い、急ぐ必要があるかを一緒に確かめた。
 
 > 目的地はどこですか、と最初に聞いてはいけない人もいます。記憶を失って戻ったばかりなら、行き先そのものが分からない。私は乗換所で荷物の重さ、乗継時刻、閉鎖通路を調べる前に、「本当に急ぎたいですか」と尋ねました。座って水を飲めば思い出す者も、思い出さない者もいた。構内図に正解があっても、その人の正解とは限りません。迷子を恥じさせないことが案内の半分です。ソフェル、あなたは私をどこへ分類する予定です？　急がなくて結構。話している間くらい、ここを待合所にしましょう。
 

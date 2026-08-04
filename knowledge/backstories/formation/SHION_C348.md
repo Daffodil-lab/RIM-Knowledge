@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C348"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 三つの誤解
 - Era: JourneyEra / Origin: 律法起草補佐 / Relation: 律法写本班
 
-- Tone: 訂正・写本・律法 / ReviewStatus: 改稿採用済み
+- Tone: 訂正・写本・律法 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 几帳面で理屈っぽい。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 三つ誤解を正しておきます。一つ、私は律法を「起草」した側ではなく、写本を清書しただけの子供でした。二つ、写本班に入ったのは信仰心からではなく、字が綺麗だったからです。三つ、そして最も訂正したいのは、私が律法の完成形を知っていたという誤解です。私が写した条文は、翌月には別の言い回しに差し替えられていました。当時のそれは律法というより、書いては消す習作の束でした。私が本当に誇れるのは、消された条文の跡を几帳面に残したことだけです。
 

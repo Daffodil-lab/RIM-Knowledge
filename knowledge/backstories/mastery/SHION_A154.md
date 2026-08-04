@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A154"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 封込隊護衛射手
 - Era: ModernUnion / Origin: 無党派 / Relation: 異常対応隊
 
-- Tone: 異常・救難・職歴 / ReviewStatus: 採用済み
+- Tone: 異常・救難・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 待つことのできる護衛射手。異常対象へ撃ち急がず、観測畑と避難路を守って上位班へ渡す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 異常封じ込め隊では、避難者と味方の位置を確かめてから射線を開きました。対象を撃てば反応が広がる可能性があり、重火器より観測と退路を優先したんです。変色域の境界には指標植物を植え、成長を待って拡大方向を読みました。負傷者の処置は得意な者へ任せましたよ。私が手を出すより、射線と搬送路を守る方が安全です。ある小動物を避難箱へ移した件は報告書へ載りませんでした。英雄的ではなくても、平和とはそんな小さな命を置き去りにしなくてよい状態でしょう。
 

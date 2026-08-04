@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C219"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 扶助区台所観測
 - Era: LongTransition / Origin: 社会民主党系 / Relation: 自治共同体
 
-- Tone: 共同体・倫理・形成 / ReviewStatus: 採用済み
+- Tone: 共同体・倫理・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 数字好きの料理助手 / 一度の値を信じない / 装飾を省く / 道具の傷から責任者を探す
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 台所の温度が一度だけ跳ねても、故障とは決めません。私は条件を変えて測り直し、見学者にも理由を全部見せました。図や盛り付けは飾りません。食べられればよい。相互扶助区では器具が皆の物でも、柄には一人分の握り傷が残ります。その傷から手入れを知る者を探すこともありました。ある異常値は、誰かが夜食を隠していた熱だったんです。報告書なら誤差ですが、私は笑って記録へ残しました。暮らしは正しい数値だけでなく、規則外の一皿でも温まるものですから。
 

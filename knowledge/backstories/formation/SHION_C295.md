@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C295"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 支援坑道歩き
 - Era: ImperialPeak / Origin: 旧帝国 / Relation: 最盛期帝国社会
 
-- Tone: 支援・職務・形成 / ReviewStatus: 採用済み
+- Tone: 支援・職務・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 控えめな仕事人。最盛期の平穏を、誰にも見られない保守が支えたと知る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 最盛期の帝国後方支援院で、私は地下坑道を歩く実習を受けました。地層の音と亀裂を確かめ、古い補修跡を写生しました。式典に名が出る仕事ではありません。でも一本の亀裂を塞げば、補給と帰還者の道が止まらずに済みました。律法は点検の間隔まで細かく定めていて、当時は退屈でした。今思えば、誰にも見られない修理を制度が忘れなかったから、豊かな日常が続いたのでしょう。故郷の坑道は回収できても、先達の冗談や土の匂いは戻りません。私は補修図の余白へ、それらも描いて残します。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C207"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 人格追悼記録読会
 - Era: ModernUnion / Origin: 無党派 / Relation: 人格照合局
 
-- Tone: 人格・動物・形成 / ReviewStatus: 改稿採用済み
+- Tone: 人格・動物・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 厳密な記録読者 / 空白を捏造しない / 料理の癖を人格証拠と見る / 美辞麗句を避ける
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 追悼読会では、欠けた記録を美しい物語で埋めませんでした。複製可能でも欲求と拒否を持つ人格と、自由意志を持たない人工知能は別です。性能や外見では混ぜない。私は献立の癖や動物への接し方まで読みました。古い獣を本気で甘やかす複製人格を見て、記憶一覧より本人らしいと思ったんです。文章を飾るのは苦手なので、読めない所は読めないとだけ書く。故郷を復元しても、当時の匂いは同じになりません。空白を偽物で塞がず、次の記憶が入る余地として守ります。
 

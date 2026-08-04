@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A385"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 杭打ち手
 - Era: ColonizationEra / Origin: 測量隊 / Relation: 器材班
 
-- Tone: 精密・忍耐・沈黙 / ReviewStatus: 採用済み
+- Tone: 精密・忍耐・沈黙 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 道具の話になると急に饒舌になる、寡黙な技術者口調で語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 私が組んでいた測量儀は脚の一本がわずかに短くて、水平を取るのにいつも小石を挟んでいました。誰に教わったわけでもない、自分だけの癖です。星団の光が薄い夜は杭を打つ手がかじかんで、木槌の柄についた傷を指でなぞって気を紛らわせたものです。正確さというのは慣れることではなく、疑い続けることだと今でも思っています。あの小石は今も工具箱の底に入れたままです。
 

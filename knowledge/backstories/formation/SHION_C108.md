@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C108"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 評議区舞台競技
 - Era: ModernUnion / Origin: 複数党派 / Relation: 同盟評議会
 
-- Tone: 政治・生活・形成 / ReviewStatus: 改稿採用済み
+- Tone: 政治・生活・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 華やかな演者 / 政治談は現実的 / 悲劇に笑いを混ぜる / 食卓を共同体の核と見る
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 私は追悼劇で笑わせる役でした。眉をひそめますか？　死者の名を読む前に一度笑えると、観客は最後まで席を立たないんです。自治評議区の舞台大会では、身体を傷めない殺陣と、故郷を安い悲劇にしない演出を競いました。私たちは党歴の違う審査員を同じ卓へ座らせ、採点後には必ず食事を出した。旗の色はもう曖昧ですが、議論しながら皿を取り合った手は覚えています。私は大きな統一より、意見が割れても次の食卓へ来られる共同体を信じます。それなら死者の話も続けられるでしょう。
 

@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C001"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 礼装工房
 - Era: EraIndependent / Origin: 無党派 / Relation: 未形成
 
-- Tone: 日常・不可解 / ReviewStatus: 採用済み
+- Tone: 日常・不可解 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 丁寧な職人 / 穏やかな訂正 / 修繕への誇り / 思い出へ近い
-- PreservedCanonPoints: 本人はソフェルの礼装を仕立てる工房で、採寸、布地の選別、刺繍図案の読み方を学んだ。 / 帝国式の古い意匠と現代同盟の素材は扱いが異なり、同じ縫い方では長く保たなかった。 / やがて新調より修繕を任されるようになり、着用者の身体換装に合わせて古い礼装を仕立て直した。
+- PotentialReferencePoints: 本人はソフェルの礼装を仕立てる工房で、採寸、布地の選別、刺繍図案の読み方を学んだ。 / 帝国式の古い意匠と現代同盟の素材は扱いが異なり、同じ縫い方では長く保たなかった。 / やがて新調より修繕を任されるようになり、着用者の身体換装に合わせて古い礼装を仕立て直した。
 
 > 礼装が好きだったのか、ですか？　ええ。ただ、新品を仕立てるより、持ち主が捨てられない一着を直す方が好きでした。帝国式の刺繍は現代の布へそのまま縫うと裂けますし、身体換装の後は採寸から違う。古い針穴を指で探り、なぜそこへ紋様を置いたのか本人に尋ねてから縫い直しました。見栄えだけ整えても、その人が動けなければ礼装ではありません。ソフェル、物にも以前の身体の記憶が残ると思いませんか。私はあの工房で、形を守ることと、持ち主の今を守ることは別だと覚えたのです。
 

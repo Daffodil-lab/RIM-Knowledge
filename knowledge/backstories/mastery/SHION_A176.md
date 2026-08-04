@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A176"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 調査船討論調停
 - Era: EraIndependent / Origin: 無党派 / Relation: 調査船団
 
-- Tone: 宇宙・観測・職歴 / ReviewStatus: 採用済み
+- Tone: 宇宙・観測・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 話好きの調停人。沈黙する構造物へ意図を押しつけず、答えのない航海を祭りとして記憶する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 無人巨大構造物を巡り、調査員の討論をまとめました。「歓迎だ」「警告だ」「ただの動作だ」と意見は割れました。私は各自へ相手の説を言い直させ、合意できない点まで記録しました。内部空洞を調べても、構造物は最後まで何も答えなかった。帰路では結論なしを祝う小さな祭りを開きましたよ。失敗だと沈むより、断定せず帰れた慎重さを皆で覚えたかったんです。理解できない物を理解したふりせず、それでも面白がれる自由は、平和な社会に残しておきたいでしょう。
 

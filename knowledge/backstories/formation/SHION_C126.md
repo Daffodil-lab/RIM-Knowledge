@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C126"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 内務記録所補修
 - Era: PostCivilWarEmpire / Origin: 旧帝国 / Relation: 内戦後帝国
 
-- Tone: 党派・記録・形成 / ReviewStatus: 改稿採用済み
+- Tone: 党派・記録・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 寡黙な補修助手 / 紙の痕跡を見る / 内務機関を恐れる / 再会後も距離を尊ぶ
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 内務記録所では、壁より先に紙が壊されました。私は補修班の見習いとして配管と避難路を直し、捨てられた台帳を作業台の敷物にした。そこに、名前だけ削られた頁があったんです。文字は消えても筆圧が残り、誰かが確かに署名したと分かった。内戦後の帝国は律法を掲げながら、記録も人も都合よく空白にしました。私は頁を持ち出せなかった。それが怖かったからです。後に蘇生した友へ会っても、昔どおりを求めませんでした。消された時間を急いで埋めるのも、別の改竄になりそうで。
 

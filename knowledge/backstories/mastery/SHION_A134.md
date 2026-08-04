@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A134"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 海洋食堂調理
 - Era: EraIndependent / Origin: 無党派 / Relation: 観測隊
 
-- Tone: 観測・不可解・職歴 / ReviewStatus: 採用済み
+- Tone: 観測・不可解・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: おしゃべりな観測食堂の調理師。未知の海を断定せず、観測者の変化を食欲と会話から記録する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 海洋観測区の食堂では、外部居住者である研究者の食欲と、シオンの食卓参加の変化も観測していました。水面に故郷らしい景色が現れた日、皆が同じものを見たとは限りません。私は「故郷が映った」と献立表へ書かず、誰が何を語り、何を残したかを別々に記しました。ある友は昔の好物へ手を付けず、見たことのない料理を選んだ。再会した故郷へ引かれるより、現在を確かめたかったそうです。未知の海について私に答えはありません。ただ、観測者が休止できず、外部居住者が食べられないなら、そちらは治療できる。温かい皿を置き、断定せず話を聞くのが私の研究参加でした。
 

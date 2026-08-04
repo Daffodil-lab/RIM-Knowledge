@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C322"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 壁を頼る歩
 - Era: ColonizationEra / Origin: 採掘隊 / Relation: 坑内班
 
-- Tone: 採掘・暗闇・譲歩 / ReviewStatus: 採用済み
+- Tone: 採掘・暗闇・譲歩 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 聞き手に問いを投げてから語り始める口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 坑道の奥で光を失ったらどうするか、考えたことはありますか。私たちの班では明かりを三重に用意し、一つが消えても慌てない訓練をしました。実際に二つ同時に消えた日がありました。私は残った一つの明かりを仲間に譲り、自分は壁を触って出口を探しました。冷たい岩の感触だけを頼りに歩いた時間は長く感じましたが、実際は十数分だったそうです。あの暗さを知ってから、私は明るい場所でも壁の位置を無意識に確かめます。
 

@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A137"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 監査室精密工
 - Era: ModernUnion / Origin: 無党派 / Relation: 制裁部隊監査
 
-- Tone: 制裁・倫理・職歴 / ReviewStatus: 採用済み
+- Tone: 制裁・倫理・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 疑り深い精密工。競技用機構と制裁装備を同じ基準で測り、正義を名乗る部隊ほど厳しく検査する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 制裁部隊の装備を監査しながら、技術大会の審判もしました。競技機構なら一単位の誤差で失格になるのに、「正義の作戦」では被害範囲を曖昧にする者がいる。私は同じ測定器を持ち込み、照準と停止機構を一つずつ試しました。正しかったと断言する指揮官ほど記録を読み返さない。そう言ったら監査室から追い出されかけましたよ。ですが装備の精度が高いほど、命令の目的も狭く正確であるべきです。競技で守れる規則を、実戦だけ忘れる理由にはなりません。
 

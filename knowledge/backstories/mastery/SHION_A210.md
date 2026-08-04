@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A210"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 文化区公共壁画
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 福祉・選択・職歴 / ReviewStatus: 採用済み
+- Tone: 福祉・選択・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 穏やかな芸術家。制度の幸福より、住民が残した不揃いな選択を描く。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 孵育文化区の壁は、皆が幸福に暮らす同じ顔で埋めるよう求められた。私は住民へ聞き取りをして、笑わなかった人、制度の椅子を断った人、帰還後も入口に立ち続けた人まで描いたよ。救難任務では足場を組み、壁を登って避難者を下ろした。絵筆より腕力が役立つ日もある。友は身体に合う完璧な椅子を支給されても、自分で作った傾いた椅子を手放さなかった。私はその椅子も壁画へ残した。快適さを与えることと、選ぶ余地を奪うことは両立してしまう。だから私の絵には、整っていない場所が必要なんだ。
 

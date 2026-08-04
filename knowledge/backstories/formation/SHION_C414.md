@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C414"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 潮見習い
 - Era: GrowthEra / Origin: 港湾都市 / Relation: 船大工の先達
 
-- Tone: 素朴・観察・忍耐 / ReviewStatus: 採用済み
+- Tone: 素朴・観察・忍耐 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 飾らない素朴な口調、静かに観察するように語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > あたしの仕事は毎日決まった時間に港の潮位標を見に行くことだった。先達は船大工で、潮が高いか低いかで仕事の段取りを全部変えていた。だからあたしの報告が間違うと、先達は一日分の作業を丸ごとやり直す羽目になる。最初の年は何度も見間違えて怒られたけど、二年目には潮の匂いだけで大体の高さが分かるようになった。港が広がって新しい船が次々に来るようになっても、潮位標だけは昔から変わらない場所にある。今でもあの匂いを嗅ぐと数字が浮かぶ。
 

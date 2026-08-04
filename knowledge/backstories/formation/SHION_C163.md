@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C163"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 帝国倉庫採掘
 - Era: PostCivilWarEmpire / Origin: 旧帝国 / Relation: 内戦後帝国
 
-- Tone: 支援・職務・形成 / ReviewStatus: 採用済み
+- Tone: 支援・職務・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 乾いた口調の採掘助手 / 標語を信用しない / 印彫りが趣味 / 無名の保守を敬う
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 後方倉庫は「帝国の豊富な備蓄」と看板にありました。中身は空棚と崩れた採掘孔です。私は必要な鉱材だけ掘り、帰路へ小さな印を彫りました。律法に沿った配給命令が届いても、現物が無ければ誰も救えません。戻らなかった者の名を読む儀礼より、名も載らない整備員が直した搬送機の方が多くを帰した。私は印へ冗談の顔を混ぜ、次の班を少し笑わせました。大記録が国家の体面を残すなら、小さな傷はそこで本当に暮らした者を残します。私は後者を信じます。
 

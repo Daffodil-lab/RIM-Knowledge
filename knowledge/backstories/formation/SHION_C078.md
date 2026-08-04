@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C078"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 秘文字校正児
 - Era: EraIndependent / Origin: ソフェル / Relation: 地区マソレット工房
 
-- Tone: 学術・慎重 / ReviewStatus: 採用済み
+- Tone: 学術・慎重 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 緊張した校正者 / 一画ごとに止まる / 力への畏れ / 疑うことを誠実さと見る
-- PreservedCanonPoints: 本人は祈祷文そのものではなく、写し間違いを探す役から修業を始めた。 / 一画の揺れが別の身体を呼び得ると教わり、正しい文字より先に、疑って読み直す習慣を身につけた。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
+- PotentialReferencePoints: 本人は祈祷文そのものではなく、写し間違いを探す役から修業を始めた。 / 一画の揺れが別の身体を呼び得ると教わり、正しい文字より先に、疑って読み直す習慣を身につけた。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
 
 > 私は祈祷文を書く前に、誤字を探す役を与えられました。一画の揺れが別の身体を呼び得る。そう教わると、紙へ顔を近づけ過ぎて鼻先を墨で汚したものです。怖かったか？　はい。正しい形を知るより、自分の目を疑って読み直す方が難しかった。導師は「確信の速い者へ力を渡すな」と言いました。今も忘れません。ソフェル、疑い深いと記録してください。私は力を扱う時の疑いを欠点とは思わない。戻らない友を一画の責任にしたくないから、今日も最初の線へ戻って確かめます。
 

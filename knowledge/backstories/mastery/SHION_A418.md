@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A418"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 航宙士
 - Era: AscendantEra / Origin: 帝国拡張艦隊 / Relation: 艦橋班
 
-- Tone: 高揚・誇り・郷愁 / ReviewStatus: 採用済み
+- Tone: 高揚・誇り・郷愁 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 興奮を隠さない、生き生きとした口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 格納庫で拾った工具の名前を全部覚えていたのが、今の仕事の始まりだったのかもしれません。新型艦の初航行を任される日、私は艦橋で誰よりも緊張していました。艦隊がどんどん大きくなっていくのを一番下の甲板から見てきた身としては、こうして操舵の一端を任される日が来るとは思っていなかったんです。新しい航路を切り開くたび、まだ誰も見たことのない星の光が艦窓に映ります。あの光を見るたび、あの隙間だらけの格納庫にいた頃の自分を思い出します。
 

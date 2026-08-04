@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C194"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 移動都市再会案内
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 都市記録局
 
-- Tone: 都市・旅・形成 / ReviewStatus: 採用済み
+- Tone: 都市・旅・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 旅慣れた案内役 / 地図より証言を尊ぶ / 地下道を身体で覚える / 言い残しを悔やむ
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 移動都市の地図は、再会相手ごとに違いました。一人は食堂を中心に描き、一人はもう無い路地から話す。私は公式図と証言を並べ、地下空洞を避けて待合場所へ案内しました。身体は昔の角を覚えていて、存在しない壁の前で曲がりそうになるんです。初めて担当した再会で、時間がないからと説明を急ぎ、片方の思い出の場所を「誤り」と書いた。あの一語を今も悔やんでいます。都市も友情も、地図と違うから偽物なのではない。二人がそれぞれ歩いた場所を聞き終えるまで、案内役は道を決めるべきではありません。
 

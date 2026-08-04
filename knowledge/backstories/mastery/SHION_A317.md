@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A317"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 坑道読み
 - Era: ColonizationEra / Origin: 採鉱団 / Relation: 建設隊
 
-- Tone: 採鉱・坑道・道具 / ReviewStatus: 採用済み
+- Tone: 採鉱・坑道・道具 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 道具の手入れの細部にだけこだわる寡黙な採鉱夫。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > つるはしの柄は必ず自分で削った。既製品は握りが太すぎて、岩の硬さの違いが手のひらに伝わらない。採鉱団では音で鉱脈を探す者がいたが、私は柄を通して伝わる振動を頼りにした。刃先の角度は三十五度、これより鋭いと欠けやすく、鈍いと弾かれる。柄の削り跡には毎回自分の指の形が残った。仕事仲間はそれを見て私のつるはしだとすぐに分かったそうだ。今も削りかけの柄が手元に一本残っている、次の持ち主を探している。
 

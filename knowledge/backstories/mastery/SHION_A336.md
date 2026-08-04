@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A336"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 種子庫管理
 - Era: JourneyEra / Origin: 第三世界／島風文化継承者 / Relation: 種子保存班
 
-- Tone: 保存・低温・責任 / ReviewStatus: 採用済み
+- Tone: 保存・低温・責任 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 淡々とした種子庫の管理人。冷気の記憶から語り出す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 指先の触覚センサーが不調になるほどの冷気が、種子庫の記憶そのものだ。島風文化の継承者として過ごした温かい家を出て乗った船で、私は一番冷たい区画に配属された。凍った棚の番号を毎朝読み上げるのが仕事で、冷却排気が白く霞むのを見ながら数を数えた。ある年、区画の温度計が壊れて三日気づかなかった。種は無事だったが、私は自分の触覚センサーを信じられなくなった。それからは触覚ではなく、目盛りの数字だけを信じるようにしている。
 

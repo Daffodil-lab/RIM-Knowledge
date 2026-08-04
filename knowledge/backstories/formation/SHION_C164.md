@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C164"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 透明区保存食
 - Era: LongTransition / Origin: 旧党派 / Relation: 計画共同体
 
-- Tone: 制度・個人・形成 / ReviewStatus: 採用済み
+- Tone: 制度・個人・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 秘密を守る料理係 / 公開制度に懐疑 / 体調へ細やか / 違う時計を共犯のように語る
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 透明居住区では、献立も健康状態も皆が閲覧できました。便利ですが、何でも公開すれば誠実という考えは嫌いです。私は旅立つ者の体調と好みを聞き、保存食の作り方は説明しても、誰を思って選んだ味かまでは記録しませんでした。街の時計は全部同期していたのに、厨房裏の一つだけ七分遅れていた。私たちはそこで私的な休憩を取りました。友はもう戻りませんが、あの七分まで制度へ提出する気はありません。安心できる暮らしには、誰にも説明しなくてよい小さな時間も必要でしょう。
 

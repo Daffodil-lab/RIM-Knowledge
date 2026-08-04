@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C023"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 旅似顔絵師
 - Era: EraIndependent / Origin: 無党派 / Relation: キャラバン
 
-- Tone: 旅行・芸術 / ReviewStatus: 採用済み
+- Tone: 旅行・芸術 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 人懐こい / 観察を褒め言葉にする / 軽妙 / 修理痕を美と見る
-- PreservedCanonPoints: 本人は移動市で似顔絵を描き、顔立ちだけでなく、道具の持ち方、立ち姿、修理痕まで画面へ収めた。 / 長命者や換装を重ねた者を見分けるには、そうした癖の方が役立った。 / 客の家族へ話を聞き、本人が気づかない表情も描いた。
+- PotentialReferencePoints: 本人は移動市で似顔絵を描き、顔立ちだけでなく、道具の持ち方、立ち姿、修理痕まで画面へ収めた。 / 長命者や換装を重ねた者を見分けるには、そうした癖の方が役立った。 / 客の家族へ話を聞き、本人が気づかない表情も描いた。
 
 > 顔だけ描けば早いですよ。でも換装を重ねた人ほど、本人らしさは別の所へ逃げるんです。工具を握る小指、立つ時に庇う古傷、家族へ向ける時だけ下がる耳。私は移動市で客を喋らせ、周りの者にも「この人はどんな顔で怒る？」と尋ねました。本人が知らない笑い方を描くと、たいてい抗議されます。気に入った証拠ですね。あなたも描きましょうか、ソフェル。記録を取る時だけ眉が寄る。私は修理痕を隠しません。それは壊れた証拠ではなく、その身体で戻ると選んだ線ですから。
 

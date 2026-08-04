@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A173"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 要塞路精密工
 - Era: ModernUnion / Origin: 無党派 / Relation: 特殊任務群
 
-- Tone: 潜入・工兵・職歴 / ReviewStatus: 採用済み
+- Tone: 潜入・工兵・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 控えめな潜入装備工。正面攻撃を嫌い、英雄役より民間区画を壊さず止めた機構を語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 要塞への潜入路で、少人数用の工具と停止機構を作りました。正面攻撃なら早かったかもしれませんが、砲台の裏には民間区画があった。私は照準器を壊すのでなく、安全停止へ偽装した部品を差し込みました。使い手の身体へ合わせ、暗闇でも触って判別できる傷を付けたんです。任務後、誰も英雄役を引き受けませんでした。工作員は互いの失敗を知りすぎていますからね。私はそれでいいと思います。街を壊さず帰れたなら、記念劇の主役より、名のない部品の方がよく働いた証拠です。
 

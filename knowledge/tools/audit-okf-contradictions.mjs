@@ -18,7 +18,7 @@ let concepts = 0;
 let underReview = 0;
 let cases = 0;
 let unresolvedBlocking = 0;
-const canonReviewCounts = new Map();
+const referenceReviewCounts = new Map();
 
 if (unknownArgs.length || (args.has("--write") && args.has("--check"))) {
   console.error(
@@ -100,17 +100,18 @@ for (const file of walk(BUNDLE)) {
     const allowedReviewStates = new Set([
       "candidate",
       "re-audit",
+      "reference-only",
       "accepted",
       "rejected",
     ]);
-    if (!allowedReviewStates.has(meta.canon_review)) {
+    if (!allowedReviewStates.has(meta.reference_review)) {
       errors.push(
-        `${relative(file)}: backstory catalog record requires a valid canon_review`,
+        `${relative(file)}: backstory catalog record requires a valid reference_review`,
       );
     } else {
-      canonReviewCounts.set(
-        meta.canon_review,
-        (canonReviewCounts.get(meta.canon_review) || 0) + 1,
+      referenceReviewCounts.set(
+        meta.reference_review,
+        (referenceReviewCounts.get(meta.reference_review) || 0) + 1,
       );
     }
   }
@@ -202,7 +203,7 @@ console.log(`Concepts inspected: ${concepts}`);
 console.log(`Contradiction cases: ${cases}`);
 console.log(`Concepts quarantined for overhaul: ${underReview}`);
 console.log(
-  `Backstory canon review: ${[...canonReviewCounts.entries()]
+  `Backstory reference review: ${[...referenceReviewCounts.entries()]
     .sort((a, b) => a[0].localeCompare(b[0]))
     .map(([key, value]) => `${key}=${value}`)
     .join(", ")}`,

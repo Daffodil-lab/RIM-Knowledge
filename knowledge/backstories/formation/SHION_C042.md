@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C042"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 律法持ち離反者
 - Era: RevolutionaryWar / Origin: 帝国離反者 / Relation: 革命連合
 
-- Tone: 離反・法思想 / ReviewStatus: 採用済み
+- Tone: 離反・法思想 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 原則的 / 熱を抑えた反論 / 律法への選別的忠誠 / 捕虜を人として見る
-- PreservedCanonPoints: 本人は内戦後帝国から離反する際、武器より先に最盛期の律法書を持ち出した。 / 帝国政府が律法を破ったのであり、捕虜や負傷者を守る規則まで捨てるべきではないと考えた。 / 革命連合では急進派と衝突しながら、捕虜交換と負傷者保護の手順作りに参加した。
+- PotentialReferencePoints: 本人は内戦後帝国から離反する際、武器より先に最盛期の律法書を持ち出した。 / 帝国政府が律法を破ったのであり、捕虜や負傷者を守る規則まで捨てるべきではないと考えた。 / 革命連合では急進派と衝突しながら、捕虜交換と負傷者保護の手順作りに参加した。
 
 > 離反の日、私は銃ではなく律法書を持ちました。帝国へ戻りたかったからではありません。政府が律法を破ったのであって、捕虜や負傷者を守る条文まで罪を犯したわけではない。革命連合の急進派には帝国の紙だと焼かれかけました。私は頁を開き、「この規則で助かるのは帝国兵だけか」と問い返した。やがて捕虜交換と負傷者保護の手順へ書き直しました。古い制度を崇めてはいません。ただ、敵を人と呼ぶ言葉は残したい。ソフェル、全部捨てる潔さより、汚れた遺産から守る物を選ぶ方が私は難しいと思います。
 

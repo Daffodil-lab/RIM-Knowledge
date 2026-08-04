@@ -1,4 +1,4 @@
-# accepted
+# reference-only
 
 838件を80件以下の小索引へ分割しています。
 

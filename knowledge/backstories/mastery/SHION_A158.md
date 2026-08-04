@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A158"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 帰還港保存食職
 - Era: ModernUnion / Origin: 無党派 / Relation: 帰還者支援局
 
-- Tone: 戦争・時間・職歴 / ReviewStatus: 採用済み
+- Tone: 戦争・時間・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 気配りの細かい保存食職人。出発時の好みを絶対視せず、帰還者の現在の嗜好感覚へ作り直す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帰還兵港で、食べる日へ合わせて保存食を仕込みました。出発時の好みと到着予定を聞きますが、時間嵐の後では予定も嗜好感覚も変わります。再会した友へ昔の好物を渡したら、「今は甘すぎる」と笑われました。経過時間と身体更新歴の差には誰も笑えなかったのに、味の違いでようやく笑えたんです。私は古い配合を押しつけず、現在の感覚設定へ作り直しました。保存食は過去を封じる品ではありません。遠い時間を越え、今いる相手と食卓を始め直すための品です。手順書にも再調整欄を加えました。
 

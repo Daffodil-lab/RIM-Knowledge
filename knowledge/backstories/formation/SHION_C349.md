@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C349"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 一番の歌い手
 - Era: JourneyEra / Origin: 混成世代 / Relation: 詠唱教室
 
-- Tone: 自慢・詠唱・誇り / ReviewStatus: 採用済み
+- Tone: 自慢・詠唱・誇り / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 明るく自慢げ、悪びれない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自慢していいなら言わせてもらうけど、あたしは詠唱教室で一番うまく歌えた子供だった。混成世代の子はみんな出身の訛りが残ってて音程がばらばらだったのに、あたしだけは先生に「基準にしていい」って褒められたの。おかげで新しい節が作られるたびに、最初に試し歌いをする係を任された。緊張なんかしなかった。むしろ得意だった。今の律法にある節回しの一部は、あたしが子供の頃に試し歌いした音の名残が入っていると密かに思ってる。証明はできないけど、それでいい。
 

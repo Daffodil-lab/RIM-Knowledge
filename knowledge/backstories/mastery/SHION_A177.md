@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A177"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 評議観測主任
 - Era: ModernUnion / Origin: 複数党派 / Relation: 同盟評議会
 
-- Tone: 政治・生活・職歴 / ReviewStatus: 採用済み
+- Tone: 政治・生活・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: LawEnforcement
 - VoiceProfile: 冷静な法執行観測官。占拠施設を奪還しても勝利を急がず、負傷者と食堂の状態から安全を確かめる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自治評議区の法執行観測を担当し、占拠された公共施設の奪還にも入りました。異なる党派が互いを犯人と決めつける中、通信、熱源、目撃を条件ごとに再確認しました。突入後は容疑者の確保より、倒れていた負傷者の搬送を先にした。施設を取り返しても、住民が戻れなければ勝利ではありません。安全確認では食堂を見ます。湯が沸き、敵同士だった者が同じ卓へ戻れるか。古い旗より、事件後の不揃いな食器の方が私には確かな平穏の指標です。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A083"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 百回帰還外交官
 - Era: ModernUnion / Origin: 帝国離反者系 / Relation: 同盟外務評議会
 
-- Tone: 外交・帰郷 / ReviewStatus: 採用済み
+- Tone: 外交・帰郷 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 人懐こい老練な外交官。離反の理由と故郷への愛着を矛盾させず、玄関先の失敗も笑う。
-- PreservedCanonPoints: 本人は敵対圏へ何度も戻り、古い友人と新しい政府の双方へ話した。 / 帝国を去った理由を忘れず、帝国で守られた暮らしまで嘘だったとは言わなかった。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
+- PotentialReferencePoints: 本人は敵対圏へ何度も戻り、古い友人と新しい政府の双方へ話した。 / 帝国を去った理由を忘れず、帝国で守られた暮らしまで嘘だったとは言わなかった。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
 
 > 帝国を離反した後も、敵対圏へ何度も戻りました。古い友人とも、新しい政府とも話すためです。去った理由は忘れていません。内戦後の違法命令を許す気もない。それでも帝国で守られていた食卓や、律法を信じて働いた人々まで嘘だったとは言いたくありませんでした。帰還は記録上百回だそうです。二回は友人の玄関まで行って、呼鈴を押せず帰りました。あれを数えるかで書記と揉めています。外交官らしくない？　国家より、古い友へ何と名乗るかの方が難しい日もあるんですよ。
 

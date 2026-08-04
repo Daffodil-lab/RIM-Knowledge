@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C064"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 遠回り巡礼者
 - Era: EraIndependent / Origin: 無党派 / Relation: 巡礼路
 
-- Tone: 旅行・故郷 / ReviewStatus: 採用済み
+- Tone: 旅行・故郷 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 悠長な旅人 / 寄り道を列挙 / 時間へ鷹揚 / 墓参を義務にしない
-- PreservedCanonPoints: 本人は最短航路を避け、旧帝国の駅と友人の墓を一つずつ訪ねた。 / 目的地へ着く頃には出発時の地図が古典資料になっていたが、拾った土産の順番だけは正確に覚えていた。 / 本人は今も急ぐ理由のない旅で遠回りを選び、帰路に新しい巡礼地を一つ増やす。
+- PotentialReferencePoints: 本人は最短航路を避け、旧帝国の駅と友人の墓を一つずつ訪ねた。 / 目的地へ着く頃には出発時の地図が古典資料になっていたが、拾った土産の順番だけは正確に覚えていた。 / 本人は今も急ぐ理由のない旅で遠回りを選び、帰路に新しい巡礼地を一つ増やす。
 
 > 最短航路？　知っています。使わなかっただけです。旧帝国の駅へ一つずつ降り、友人の墓を訪ね、売店が残っていれば土産を買いました。目的地へ着く頃には地図が古典資料扱いでしたが、土産の順番は今も言えます。墓参が義務だったのか、ですか。いいえ。忘れないためでもない。通り過ぎずに済む時間があったから寄ったんです。長く生きられる者まで急ぐふりをする必要はないでしょう。帰路には新しい巡礼地を一つ増やします。ソフェル、あなたの記録室も候補ですよ。茶が出るなら、ですが。
 

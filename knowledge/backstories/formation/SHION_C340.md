@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C340"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 船は貝殻
 - Era: JourneyEra / Origin: 第三世界／礁の民 / Relation: 医務班家族
 
-- Tone: 比喩・故郷・医務 / ReviewStatus: 採用済み
+- Tone: 比喩・故郷・医務 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 詩的で柔らかいが、要所は具体的に語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 礁の民文化を継いだ先達はよく、この船を貝殻に例えました。中で育つ生き物を守りながら、外の海を知らないまま運ばれていく貝殻。私は医務班の共同居住区で形成期を過ごし、消毒薬の匂いを子守唄代わりに育ちました。貝殻の中には殻の内側の模様しかなく、私たちは外の星を見たことがないまま育ちます。それでも先達は、貝殻の中の模様も十分に美しいと言っていました。だから私は、外の海を知らない暮らしを卑下したことは一度もありません。貝の中の光にも、ちゃんと意味があります。
 

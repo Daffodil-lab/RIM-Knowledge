@@ -1,6 +1,6 @@
 # stable 21
 
-範囲: 短文〜2. Overall system reception
+範囲: 短文〜1. Source status
 
 ## 項目
 
@@ -10,6 +10,7 @@
 - [文章の声](/player-facing/010-%E6%96%87%E7%AB%A0%E3%81%AE%E5%A3%B0.md) — 同盟人は、自国の矛盾を悪役のように解説しません。
 - [視覚と技術の基準](/player-facing/011-%E8%A6%96%E8%A6%9A%E3%81%A8%E6%8A%80%E8%A1%93%E3%81%AE%E5%9F%BA%E6%BA%96.md) — 未来性は、現代的な画面や軍用品ではなく、古い文明の手触りから不可能な結果が出ることで示します。
 - [最小用語集](/player-facing/012-%E6%9C%80%E5%B0%8F%E7%94%A8%E8%AA%9E%E9%9B%86.md) — これ以上の語は、登場するクエストや機能の中でその都度説明します。
+- [参考資料の利用境界](/reference/00-%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99%E3%81%AE%E5%88%A9%E7%94%A8%E5%A2%83%E7%95%8C.md) — 参考資料は、現行正本ではないが、調査、比較、発想、再設計の入力として再利用できる可能性を持つ資料である。
 - [0. Purpose](/research/anomaly-monolith/00-Purpose.md) — This document records user-provided screenshots of RimWorld Anomaly-style monolith structures as a visual reference for the redesigned…。
 - [1. Why Anomaly monoliths are useful](/research/anomaly-monolith/01-Why-Anomaly-monoliths-are-useful.md) — Anomaly monolith visuals are useful because they communicate、具体的にはa unique central object;とdormant mystery;を扱う。
 - [2. What to adopt](/research/anomaly-monolith/02-What-to-adopt.md) — Adopt structurally、具体的にはone strong central block;とside supports or buttresses;を扱う。
@@ -83,4 +84,3 @@
 - [13. Source links recorded by user](/research/monolyn-practice/13-Source-links-recorded-by-user.md) — Source links recorded by userは、Monolyn Race - Steam Workshop Q&A:…。
 - [0. Purpose](/research/monolyn-ui/00-Purpose.md) — This document records the user-provided summary of Monolyn Race UI and system feedback from developer Q&A, bug report threads, and…。
 - [1. Source status](/research/monolyn-ui/01-Source-status.md) — The details below are treated as a user-provided field report from public player feedback and strategy/review sources.。
-- [2. Overall system reception](/research/monolyn-ui/02-Overall-system-reception.md) — Reported NamuWiki-style evaluation、具体的にはMonolyn is high quality, but unusual compared with many existing mods.とIts prayer UI,…。

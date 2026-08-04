@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C130"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 本国動物番
 - Era: EraIndependent / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 生活・基幹・形成 / ReviewStatus: 採用済み
+- Tone: 生活・基幹・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 優しい看取り役 / 急がない / 観察記録は厳密 / 別れ際の沈黙を悔やむ
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 役目を終えた動物を、効率だけで交換するのが嫌でした。私は居住区の老いた個体へ、同じ時間に餌を出し、歩ける距離を毎日記録した。事実と推測は分けましたが、最後まで楽しみにしていた日課までは数値にしませんでした。隣人が必要もないのに毛飾りを作り、本人より嬉しそうに見せに来たことがあります。笑ってしまい、礼を言いそびれた。長い年月があっても、その一言は後から渡せません。採掘のような急ぐ仕事より、遅くなる相手に歩調を合わせる方を私は選びます。看取りは停止を待つ作業ではなく、日課を最後まで共にすることです。
 

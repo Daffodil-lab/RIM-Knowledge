@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C075"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 多身体体育員
 - Era: ModernUnion / Origin: 無党派 / Relation: 身体教育場
 
-- Tone: 身体・競技 / ReviewStatus: 改稿採用済み
+- Tone: 身体・競技 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 体育会系 / 勢いがある / 公平論を実験する / 退屈を最大の失敗と見る
-- PreservedCanonPoints: 本人は狐娘型の軽量構成、高荷重構成、部品交換者が同じ競技へ参加できる規則を試した。 / 公平な数式は毎回誰かを退屈させたため、最後は構成を交換して競技を続けた。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
+- PotentialReferencePoints: 本人は狐娘型の軽量構成、高荷重構成、部品交換者が同じ競技へ参加できる規則を試した。 / 公平な数式は毎回誰かを退屈させたため、最後は構成を交換して競技を続けた。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
 
 > 軽量構成と高荷重構成と部品交換者を同じ競技へ出す。面白そうでしょう？　全員の狐耳と尾は同じ規格でも、重量も止まり方も違います。公平係数を何度も計算しましたが、正しくなるほど誰かが退屈した。そこで決勝ごと構成を交換しました。重い身体で転ぶ軽量選手、軽くなり過ぎて壁へ突っ込む高荷重選手。全員笑って、ようやく同じ競技になったんです。公平とは能力差を消すことではなく、互いの不自由を一度引き受けて遊べることかもしれない。
 

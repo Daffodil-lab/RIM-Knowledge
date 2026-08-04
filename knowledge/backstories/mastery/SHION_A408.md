@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A408"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 獣医補
 - Era: ColonizationEra / Origin: 動植物馴化隊 / Relation: 治療班
 
-- Tone: 忍耐・反復・慈しみ / ReviewStatus: 採用済み
+- Tone: 忍耐・反復・慈しみ / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 同じ言葉を繰り返すように、儀式的に語る年配者の口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > まず傷口を洗う、それから膿を確認する、それから薬を塗る、それから包帯を巻く。わしはこの順番を何百回、いや何千回と繰り返してきた。順番を崩すと必ず治りが悪くなる、それだけは経験で分かっとる。暴れる獣を抑える助手の腕に噛み跡が残った日のことも忘れられん。同じ手順の繰り返しの中にこそ、本当の丁寧さが宿るとわしは信じておる。同じ手順を繰り返すことこそが、わしのやり方じゃった。
 

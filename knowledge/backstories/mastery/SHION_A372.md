@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A372"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 採掘班沈黙
 - Era: JourneyEra / Origin: 儀礼班 / Relation: 資源採掘班
 
-- Tone: 労働・沈黙・喪失 / ReviewStatus: 採用済み
+- Tone: 労働・沈黙・喪失 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 言葉少なな採掘工。核心には触れず周辺だけ語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > あの年のことは、あまり話すことがない。採掘区画の圧が変わって、班の配置が急に組み替えられた、それだけだ。自分は儀礼班にも少し関わっていたから、変わった配置の中で祈りの時間だけは守った。工具の手入れは相棒から一人で覚えた。詳しいことは、もう自分の口からは言わない。ただ、あの区画の壁の色だけは今でも覚えている、灰色よりもう少し青かった。それだけ聞いてもらえれば十分だ。
 

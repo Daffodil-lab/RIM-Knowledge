@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A025"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 独立開拓者
 - Era: EraIndependent / Origin: 無党派 / Relation: 独立開拓団
 
-- Tone: 開拓・自活 / ReviewStatus: 採用済み
+- Tone: 開拓・自活 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 実直で大らかな開拓者。思想では加入者を選ばず、夜番と分配の約束には厳しい。
-- PreservedCanonPoints: 本人は行政圏外の谷で、出身の異なる移住者と住居、畑、発電設備を築いた。 / 政治から離れたい者、仕事を求める者、旧党派へ属した者も同じ開拓団に加わった。 / 加入条件を思想で決めず、夜番、清掃、物資分配の規則だけは全員に等しく適用した。
+- PotentialReferencePoints: 本人は行政圏外の谷で、出身の異なる移住者と住居、畑、発電設備を築いた。 / 政治から離れたい者、仕事を求める者、旧党派へ属した者も同じ開拓団に加わった。 / 加入条件を思想で決めず、夜番、清掃、物資分配の規則だけは全員に等しく適用した。
 
 > 行政圏外の谷へ来た理由は、誰にも同じではありません。政治から逃げた者、仕事を探す者、社会民主党や共産党にいた者、ファシスト党を去った者、帝国離反者もいました。私は思想を加入条件にせず、住居と畑と発電設備を一緒に築きました。ただし夜番、清掃、物資分配は全員同じです。立派な主張で夜番を免れようとした者には、私もかなり厳しくしました。一度、古い党歴だけで隣人を疑い、畑の火事への対応を遅らせたことがあります。それから経歴より、今どちらへ水を運ぶかを見るようにしています。
 

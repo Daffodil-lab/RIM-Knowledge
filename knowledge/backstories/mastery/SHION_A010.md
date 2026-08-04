@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A010"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 葬送司会者
 - Era: EraIndependent / Origin: 無党派 / Relation: 葬送組合
 
-- Tone: 文化・対人 / ReviewStatus: 採用済み
+- Tone: 文化・対人 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 落ち着いた司会者。別れと再会を矛盾とせず、誰の感情も式の都合で急かさない。
-- PreservedCanonPoints: 本人は宗派や党派の異なる遺族のため、葬送の順番、弔辞、音楽、食事を調整する司会者となった。 / 合意できない時は、死者本人が好んだものを共通の出発点にした。 / 蘇生した本人が式へ現れた場合も席を加え、既に悲しんだ遺族の感情を否定せず進行した。
+- PotentialReferencePoints: 本人は宗派や党派の異なる遺族のため、葬送の順番、弔辞、音楽、食事を調整する司会者となった。 / 合意できない時は、死者本人が好んだものを共通の出発点にした。 / 蘇生した本人が式へ現れた場合も席を加え、既に悲しんだ遺族の感情を否定せず進行した。
 
 > 葬送の途中で本人が蘇って現れたことがあります。喜ばしいでしょう。でも遺族が流した涙まで誤りにはなりません。私は宗派と党派の違う家族へ、弔辞、音楽、食事の順を一つずつ聞きました。合意できなければ、本人が好きだったものから始めます。蘇生者の席を加え、別れの言葉も中止しませんでした。一度、再会を急いで抱擁の時間を作り、双方を困らせたことがあります。それから式の成功を笑顔で測らなくなりました。戻ってきても寂しい、嬉しくても怖い。その全部が座れる場を整えるのが私の役目です。
 

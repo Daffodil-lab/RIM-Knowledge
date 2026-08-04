@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A369"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 律法以前祈り手
 - Era: JourneyEra / Origin: 信徒見習い / Relation: 初期儀礼班
 
-- Tone: 信仰・形成・儀礼 / ReviewStatus: 採用済み
+- Tone: 信仰・形成・儀礼 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 落ち着いた声で同じ言葉を繰り返す語り部。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > まだ名前もなかった、私たちがしていたことには。朝に光を確認する、それだけの儀礼だった。朝に光を確認する。それを十年続けたら、隣の甲板の人も真似し始めた。朝に光を確認する。誰かがそれに言葉をつけ、律法と呼ぶようになったのは、私が儀礼を始めてからずっと後のことだ。朝に光を確認する。今も私はそれだけをしている。名前がついても、していることは変わらない。窓に手を当てる角度さえ、最初の日から変えていない。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C419"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 顔料挽き
 - Era: AscendantEra / Origin: 秘文字工房 / Relation: 工房主
 
-- Tone: 素朴・忍耐・誇り / ReviewStatus: 採用済み
+- Tone: 素朴・忍耐・誇り / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 飾らない口調、単調な作業を淡々と語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > あたしの仕事は、秘文字を書くための顔料を挽くことだった。鉱石を細かく砕いて、粒の大きさが揃うまで何度もふるいにかける。粒が粗いと文字が滲むと工房主に言われて、あたしは毎日同じ動作を繰り返した。単調で退屈な作業だったけれど、工房主が挽いた顔料で書いた文字がわずかに光るのを見た日、これは特別な仕事なんだと初めて実感した。今でも粉を挽く単調な作業をすると、あの光る文字のことを思い出す。
 

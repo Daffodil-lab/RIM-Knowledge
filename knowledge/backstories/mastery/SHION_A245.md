@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A245"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: Kombinat精密工役
 - Era: ModernUnion / Origin: 無党派 / Relation: Kombinat共同体
 
-- Tone: 工業・保守・職歴 / ReviewStatus: 採用済み
+- Tone: 工業・保守・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 頑固な復旧工。制度の理想を、誰でも直せる部品と失敗記録で測る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > ヘイハルKombinatが止まった夜、専用部品を待てという声を無視し、皆の工具で直せる継ぎ手を削った。精度は足りたし、朝には動いたよ。料理も同じ調子で作るので、食堂からは永久に追放された。私は最盛期の暮らしを超えたいと政治集会で話すが、優れた設計者だけが支える社会には賛成しない。新人にも失敗記録を全部見せ、誰がどの工具でやり直せるか部品へ刻んだ。完成品の美しさより、止まった時に近くの者が直せることを信じている。平和も、少数の天才しか保守できないなら長くは続かない。
 

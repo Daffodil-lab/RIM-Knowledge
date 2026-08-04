@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A196"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 帰還港動物義肢
 - Era: ModernUnion / Origin: 無党派 / Relation: 帰還者支援局
 
-- Tone: 戦争・時間・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 戦争・時間・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 辛抱強い治療技師。帰還者と動物の歩調を重ねて静かに語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帰還兵港には、兵士だけでなく軍用動物も戻ってきた。義肢を付ければすぐ歩けると思われがちだが、彼らは古い命令の声に怯え、飼育員も昔の歩調へ戻そうとした。私は両方へ、急がなくていいと伝えたよ。長い任務を終えた友と再会した時、私たちは同じ日に別れたのに、身体の摩耗と更新世代が大きく違っていた。笑い合う感覚を取り戻す練習まで必要だった。動物が新しい脚で一歩進み、友がその横で歩幅を合わせた日を覚えている。戻るとは以前と同じになることではない。今の身体と今の相手に、もう一度歩き方を尋ねることなんだ。
 

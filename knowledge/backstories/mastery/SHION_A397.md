@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A397"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 配管工
 - Era: ColonizationEra / Origin: 給水隊 / Relation: 配管班
 
-- Tone: 実務・改善・前向き / ReviewStatus: 採用済み
+- Tone: 実務・改善・前向き / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 提案するように前のめりに語る、実務的な口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 配管の継ぎ手はもっと規格を統一するべきだと僕はずっと思っていました。現場ごとに部品が違うせいで、修理のたびに部品箱を漁る羽目になったからです。凍結で破裂した管を溶接した夜のことは、今でも指の火傷跡として残っています。次に誰かが同じ現場を任されるなら、僕が書いた継ぎ手の寸法表を渡してやりたい。無駄な手間を後の人に負わせたくないんです。それが僕にできる、せめてもの恩返しだと思っています。
 

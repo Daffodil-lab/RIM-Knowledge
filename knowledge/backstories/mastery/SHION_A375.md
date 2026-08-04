@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A375"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 医療班告白
 - Era: JourneyEra / Origin: 儀礼班 / Relation: 巡回医療班
 
-- Tone: 医療・信仰・葛藤 / ReviewStatus: 採用済み
+- Tone: 医療・信仰・葛藤 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 普段は淡々とした医療者。途中で感情が漏れる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 巡回医療の経過は淡々と記していた。外部居住者なら体温と脈拍、シオンなら熱管理と機能状態、そして処置内容。それだけの仕事だと思っていた。律法がまだ決まりきっていない頃で、祈りを先に求める患者と処置を急ぐ私の間で何度も揉めた。——正直に言えば、あの頃は祈りを待つ時間が惜しくて、何人かの患者に強い言葉をぶつけた。今でもその声を思い出すと手が止まる、器具を持つ指先まで冷たくなる。すみません、これ以上は今日は話せません。次の機会にします。
 

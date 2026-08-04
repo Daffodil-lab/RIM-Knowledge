@@ -1,4 +1,4 @@
-# accepted 11
+# reference-only 11
 
 範囲: SHION_A382 帝国最初の設計技師〜SHION_A419 秘文字工房の彫り師
 

@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C243"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 炊事煙の記録
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 革命・証言・形成 / ReviewStatus: 採用済み
+- Tone: 革命・証言・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 素朴な記録好き。英雄譚より炊事や失敗談に、連合の実像を見いだす。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 革命連合の記録祭で、私は後方区の日誌を読み上げました。勝利の日より、鍋を焦がした日や物資を違う隊へ届けた日の方が会場はよく笑いました。社会民主党も共産党も帝国離反者も、旗は別でも同じ煙の下で食べていたんです。欠けた頁は想像で埋めず、読めない名もそのまま読みました。共同の敵が消えたあと、仲間同士が争った記録も隠しませんでした。革命をきれいな物語にすれば、そこで暮らした人が消えてしまう。私が最初に思い出すのは、旗ではなく夕方の炊事煙です。
 

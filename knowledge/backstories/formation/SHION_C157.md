@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C157"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 制限地救護
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 回収班
 
-- Tone: 遺物・危険・形成 / ReviewStatus: 採用済み
+- Tone: 遺物・危険・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 危険地好き / 慎重な救護助手 / 安物を愛す / 価値と安全を切り離す
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 立入制限地へ行くのは好きでした。危険を軽く見ていたわけではありません。救護小屋で診察具を並べ、症状と不安を聞き、避難路の崩れまで確かめてから回収班を待った。由来不明の遺物を値段だけで持ち出す者には、周囲へ残す危険を説明しました。ある遠征では、輝く品は全部有害で、道端の安い飾りだけが無害だった。私はそれを今も机に置いています。価値と安全は別ですし、高度な物と大切な物も別です。平和な場所にも、その区別を忘れないための安物が要るでしょう。
 

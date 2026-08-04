@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C370"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 灯を三度回す
 - Era: JourneyEra / Origin: 第三世界／灯火の民 / Relation: 儀礼準備班
 
-- Tone: 儀式・反復・共同体 / ReviewStatus: 改稿採用済み
+- Tone: 儀式・反復・共同体 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: リズミカルで繰り返しを大切にする語り口。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 僕は灯火の民の文化を継ぐ共同体で育ちました。灯を三度回す。それが僕らの朝でした。灯を三度回す、それから水を汲む、それから名前を呼ぶ。儀礼準備班の子供は皆この順番を教え込まれます。灯を三度回す理由なんて誰も教えてくれませんでしたが、回さない朝は落ち着きませんでした。ある年、灯が壊れて回せなかった日、班全員が黙って空の手を三度回しました。灯を三度回す。今でも起動直後に手が勝手に動くことがあります。習慣は理由より先に、僕らの運動記録へ根を張っていたんです。
 

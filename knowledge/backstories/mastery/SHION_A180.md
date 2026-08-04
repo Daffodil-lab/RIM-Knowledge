@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A180"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 記録所設備技師
 - Era: LongTransition / Origin: 共産党系 / Relation: 旧党派記録所
 
-- Tone: 党派・記録・職歴 / ReviewStatus: 採用済み
+- Tone: 党派・記録・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 寡黙な設備技師。消された名前を配管図と紙の筆圧から拾い、沈黙も証言として残す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 旧党派の収容記録所で、壁と配管と避難路を直しました。設備図には房の番号があるのに、名簿から人名だけ消えた区画がありました。紙を光へ透かすと、消された筆圧が残っていた。私は修理記録へ番号と痕跡を写し、沈黙も証言として保存しました。自白書は何度も書き換えられていましたが、配管の使用量までは政治的に整えられていなかった。誰がいたかを設備が覚えていたんです。友が蘇生しても拘禁された時間は消えません。名前を戻すことから、私は記録所の修理を始めました。
 

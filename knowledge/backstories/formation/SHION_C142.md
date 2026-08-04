@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C142"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: Kombinat保護区祭
 - Era: ModernUnion / Origin: 無党派 / Relation: Kombinat共同体
 
-- Tone: 工業・保守・形成 / ReviewStatus: 改稿採用済み
+- Tone: 工業・保守・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 辛抱強い飼育者 / 祭り好き / 再会を急がせない / 手作業の夜を懐かしむ
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > Kombinatの再稼働祭では、保護区の動物も工程ごとに歩かせました。騒音へ慣らすためではなく、機械が戻っても彼らの居場所を忘れないためです。私は距離を詰めず、餌と足跡を記録し、見学者にも待つ理由を説明しました。大停止の夜は皆で手作業をし、蘇生した友も隣にいた。でも昔の調子にはすぐ戻れなかったんです。動物が再び手から餌を取るまで待つように、友との再会も急かさないことにしました。祭りは復旧完了の印ではなく、また暮らし始める許可だと思っています。
 

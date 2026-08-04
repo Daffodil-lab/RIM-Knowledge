@@ -1,4 +1,4 @@
-# accepted 02
+# reference-only 02
 
 範囲: SHION_C081 逆因果句の清掃員〜SHION_C160 ヘイハルKombinatの射撃同好会
 

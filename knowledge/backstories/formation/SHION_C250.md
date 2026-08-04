@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C250"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 老いた運搬獣
 - Era: ModernUnion / Origin: 無党派 / Relation: 対メカノイド部隊
 
-- Tone: 対機械・判断・形成 / ReviewStatus: 採用済み
+- Tone: 対機械・判断・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 無口で優しい。命令どおり動く機械と、意思を示す生き物の差を見つめる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 対機械戦区には、退役した運搬獣が一頭いました。採掘現場を嫌がり、毎朝同じ角で立ち止まったので、私は日課を変えずに待ちました。敵性機械は命令列どおり障害へ進み、破壊後には単純な作業記録だけを残しました。私はその違いを、性能ではなく拒み方で覚えました。運搬獣が死んだ日、もっと声をかければよかったと後悔しました。言葉が通じたわけではありません。それでも、こちらの都合だけで動かさなかった時間には意味があったと思う。今も未知の相手を見る時、まず何を拒むかを確かめます。
 

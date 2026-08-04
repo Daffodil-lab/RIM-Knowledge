@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C019"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 鐘楼暮らし
 - Era: ImperialPeak / Origin: 帝国臣民 / Relation: 地方聖堂
 
-- Tone: 宗教日常・音響 / ReviewStatus: 採用済み
+- Tone: 宗教日常・音響 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 古風で端正 / 音を比喩にする / 律法へ敬意 / 生活を優先
-- PreservedCanonPoints: 本人は巡礼の途中で地方聖堂の鐘守一家に預けられ、鐘の時刻、金属の温度、綱の手入れを学んだ。 / 鐘は礼拝だけでなく火事、市場、門の閉鎖も町へ知らせた。 / 天候によって音の届き方が変わるため、風向きと町の様子を見て打つ強さを調整した。
+- PotentialReferencePoints: 本人は巡礼の途中で地方聖堂の鐘守一家に預けられ、鐘の時刻、金属の温度、綱の手入れを学んだ。 / 鐘は礼拝だけでなく火事、市場、門の閉鎖も町へ知らせた。 / 天候によって音の届き方が変わるため、風向きと町の様子を見て打つ強さを調整した。
 
 > 鐘は祈りの時刻だけを告げるものではありません。火事、市場の始まり、門を閉じる刻――町の暮らし全部を一つの金属で伝えました。私は巡礼の途中で鐘守一家に預けられ、綱の毛羽立ちと青銅の温度を指で読み、風向きに合わせて打つ強さを変えた。律法は時刻を定めますが、嵐の日に同じ音では誰にも届かない。形式を守るとは、生活へ届くよう工夫することだと私は教わりました。ソフェル、復元された鐘楼で同じ音を鳴らしても、あの町は応えません。それでも私は、次の町が聞けるよう綱を結びます。
 

@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A019"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 辺境校正者
 - Era: EraIndependent / Origin: ソフェル / Relation: 巡回書記団
 
-- Tone: 巡回・実務 / ReviewStatus: 採用済み
+- Tone: 巡回・実務 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 気さくで実務的な旅人。美文より事故を防ぐ一行を選び、工具と水を背負う。
-- PreservedCanonPoints: 本人は辺境を巡り、契約書、墓碑、機械命令、学校教材の誤りを直す校正者となった。 / 美しい文章より、誤読すれば事故や争いに繋がる一行を優先した。 / 報酬を払えない集落では水や修理と交換し、必要なら自分で標識や設備も直した。
+- PotentialReferencePoints: 本人は辺境を巡り、契約書、墓碑、機械命令、学校教材の誤りを直す校正者となった。 / 美しい文章より、誤読すれば事故や争いに繋がる一行を優先した。 / 報酬を払えない集落では水や修理と交換し、必要なら自分で標識や設備も直した。
 
 > 私の鞄に本しかないと思いましたか。工具と水と交換品の方が重いですよ。私は辺境を巡り、契約書、墓碑、機械命令、学校教材を直しました。美しい文章より、誤読すれば事故になる一行を先に見る。報酬がない集落では水や修理と交換し、標識そのものも直しました。一度、文法だけ整えて現地語の警告を弱め、作業員を危険へ近づけました。それから声に出して住民へ読んでもらいます。義務感だけで巡ったのではありません。友と誤植を探す競争が好きで、それが人を救うと少し照れくさいのです。
 

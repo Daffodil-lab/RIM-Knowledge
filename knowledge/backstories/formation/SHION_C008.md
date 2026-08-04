@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C008"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 巡回修理工
 - Era: LongTransition / Origin: 無党派 / Relation: 地域共同体
 
-- Tone: 実務・旅 / ReviewStatus: 採用済み
+- Tone: 実務・旅 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 旅慣れ / 脱線気味 / 説明好き / 未完を恥じない
-- PreservedCanonPoints: 本人は小さな居住区を巡り、扉、配管、暖房、義肢、通信機を修理する職人に同行した。 / 土地ごとに規格と工具が違うため、代用品を安全に使う方法から教わった。 / 直せない故障は隠さず、危険箇所と必要部品を札へ記して次の職人へ引き継いだ。
+- PotentialReferencePoints: 本人は小さな居住区を巡り、扉、配管、暖房、義肢、通信機を修理する職人に同行した。 / 土地ごとに規格と工具が違うため、代用品を安全に使う方法から教わった。 / 直せない故障は隠さず、危険箇所と必要部品を札へ記して次の職人へ引き継いだ。
 
 > どの居住区が一番ひどかったか？　扉は帝国規格、配管は開拓団の手製、暖房弁には料理鍋の取っ手――そういう場所が幾つもありましたよ。私は巡回職人の後ろを歩き、代用品を使ってよい箇所と、絶対に誤魔化せない箇所を覚えました。直せない時は赤札へ必要部品を書きます。昔はそれを敗北だと思って、依頼人への説明を急いだ。ある老人に「壊れた理由より、次はいつ来る」と聞かれて、やっと気づいたんです。修理は金属だけでなく、待つ時間を扱う。今なら、もう少しましな返事ができます。
 

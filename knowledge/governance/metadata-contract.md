@@ -63,7 +63,8 @@ sources:
 - `generated.precision`: 元記録が日付だけで実時刻を復元できない場合に`date`を置くRIM拡張。`generated.at`は同日`T00:00:00Z`で表し、この時刻を実際の更新時刻として解釈しない。
 - `sources`: OKF標準構造を使い、現存する出典と`retired-source://project/...`の由来墓標を記録する。
 - `overhaul_state`: `under-review`の場合、この概念は改稿候補として隔離中。
-- `canon_review`: カタログ項目の正史採否。`candidate | re-audit | accepted | rejected`。
+- `reference_review`: 参考資料としての採否。`candidate | re-audit | reference-only | accepted | rejected`。`reference-only`は現状が実用未達で、再利用を保証しない参考保管を表す。バックストーリーでは必須とし、正史・実装・出荷の採否には使用しない。
+- `canon_review`: 正本への採否を明示する必要があるカタログ項目だけに使用する。参考資料へ分類したバックストーリーには使用しない。
 - `eras`: この概念が明示的に属する時代ID。推測では付けない。
 - `organization_groups`: 横断索引用に正規化した組織大分類。複数指定可能。
 - `organization_names`: 出典に記録されたOrigin／Relation等の生の組織名。
@@ -82,5 +83,6 @@ sources:
 - 横断索引: [横断ナビゲーション](/navigation/index.md)
 - 設定と実装の分離: [設定クラスと実装値の分離](/authoring/15-設定クラスと実装値の分離.md)
 - 現行資料の記述: [現行資料の正仕様記述](/governance/positive-specification-policy.md)
+- 参考資料: [参考資料の利用境界](/reference/00-参考資料の利用境界.md)
 - OKF 0.2日本語解説: [Open Knowledge Format 0.2 日本語規範解説](/research/okf/00-Open-Knowledge-Format-v0.2-日本語解説.md)
 - 互換性検証: [OKF保守ツール](/tools/index.md)

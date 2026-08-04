@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C083"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 蘇生文立会人
 - Era: EraIndependent / Origin: ソフェル / Relation: 復活医療院
 
-- Tone: 医療・友情 / ReviewStatus: 採用済み
+- Tone: 医療・友情 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 観察的な立会人 / 声を抑える / 友人側の恐れを見る / 成功判定へ慎重
-- PreservedCanonPoints: 本人は蘇生文を読む導師の隣で、戻る者の友人が何を恐れているか記録した。 / 成功の歓声の後にも沈黙が残ると知り、再会とは処置の完了ではないと覚えた。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
+- PotentialReferencePoints: 本人は蘇生文を読む導師の隣で、戻る者の友人が何を恐れているか記録した。 / 成功の歓声の後にも沈黙が残ると知り、再会とは処置の完了ではないと覚えた。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
 
 > 私が見ていたのは戻る者ではなく、待つ友人たちでした。蘇生文が進むたび、喜ぶ者、手を組む者、同じ相手ではなかったらと目を逸らす者。その恐れを記録した。処置が成功すると歓声が上がり、すぐに沈黙が来ました。誰から名前を呼ぶか、以前の距離で触れてよいか、誰も分からなかったからです。私は成功欄へ丸を付ける手を止めました。ソフェル、蘇生は再会の開始であって完了ではありません。戻った身体だけ数えるなら、待っていた者の長い時間が記録から落ちてしまいます。
 

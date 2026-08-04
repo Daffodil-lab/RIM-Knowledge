@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A028"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 辺境農芸師
 - Era: EraIndependent / Origin: 無党派 / Relation: 農業開拓団
 
-- Tone: 農業・料理 / ReviewStatus: 採用済み
+- Tone: 農業・料理 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 食いしん坊の研究家。最大収量より、住民が毎日食べたいと思える作物を選ぶ。
-- PreservedCanonPoints: 本人は土地の毒性、昼の長さ、利用できる水、住民の食文化に合わせて作物を選ぶ農芸師となった。 / 収量だけでなく、毎日食べ続けられる味と調理法を重視した。 / 育ちにくい品種は環境へ合わせて改良し、収穫に失敗した作物も料理や飼料として試した。
+- PotentialReferencePoints: 本人は土地の毒性、昼の長さ、利用できる水、住民の食文化に合わせて作物を選ぶ農芸師となった。 / 収量だけでなく、毎日食べ続けられる味と調理法を重視した。 / 育ちにくい品種は環境へ合わせて改良し、収穫に失敗した作物も料理や飼料として試した。
 
 > 収量だけなら、あの灰色豆が最高でした。毎日まずいので誰も食べませんでしたが。私は土地の毒性、昼の長さ、水、住民の食文化に合わせて作物を選びました。畑の数字だけでなく、食卓で二杯目を取るかまで観察します。育たない品種は改良し、失敗作も料理や飼料にしました。一度、故郷の味を完全再現しようと土まで合わせましたが、皆が覚える味は少しずつ違った。設備も種も戻せても、当時の食卓は戻りません。だから一つの正解を復元するより、今ここで毎日食べたい味を住民と育てます。
 

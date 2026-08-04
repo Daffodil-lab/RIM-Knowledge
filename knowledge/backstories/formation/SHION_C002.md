@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C002"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 夜食堂育ち
 - Era: EraIndependent / Origin: 無党派 / Relation: 未形成
 
-- Tone: 日常・静かな怪談 / ReviewStatus: 採用済み
+- Tone: 日常・静かな怪談 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 親しげ / 早口の脱線 / 食卓への愛着 / 寂しさを笑いで包む
-- PreservedCanonPoints: 本人は夜勤者や生物学的睡眠を必要としない住民が集まる食堂で、調理と給仕を手伝った。 / 外部居住者には身体ごとの栄養条件を、シオンには感覚設定と食文化上の好みを確認し、同じ献立でも香り、温度、食感を細かく変えた。 / 常連の好みと勤務交代の時刻を覚えるうち、食事を必要としない者も会話のために席へ来ると知った。
+- PotentialReferencePoints: 本人は夜勤者や生物学的睡眠を必要としない住民が集まる食堂で、調理と給仕を手伝った。 / 外部居住者には身体ごとの栄養条件を、シオンには感覚設定と食文化上の好みを確認し、同じ献立でも香り、温度、食感を細かく変えた。 / 常連の好みと勤務交代の時刻を覚えるうち、食事を必要としない者も会話のために席へ来ると知った。
 
 > 夜の食堂を静かな場所だと思っています？　とんでもない。夜勤明けは愚痴が三割、笑い声が四割、残りは匙の音です。私は鍋を見ながら、味覚の違う身体ごとに香りと温度を変え、常連が扉を開ける前には好みの椀を出せるようになりました。食べる必要のない者まで来た理由？　料理ではなく、席が欲しかったのでしょう。私も同じでした。あの卓で「次の交代も会おう」と言った友は戻りませんでしたが、椀を一つ減らす気にはなれません。未練と呼ぶなら、まあ、そうなのでしょうね。
 

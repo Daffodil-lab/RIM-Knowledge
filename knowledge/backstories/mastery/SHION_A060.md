@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A060"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 局所時間技師
 - Era: EraIndependent / Origin: 無党派 / Relation: 時間基盤局
 
-- Tone: 工学・時間 / ReviewStatus: 採用済み
+- Tone: 工学・時間 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 快活な基盤技師。巨大な時間工学を家族の夕食へ結びつけ、現場の優先順位を即断する。
-- PreservedCanonPoints: 本人は病院、農場、航路ごとに異なる時間流を接続し、住民の一日が行政の一日から滑り落ちないよう保守した。 / 故障時には時計より、待つ家族を先に確認した。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
+- PotentialReferencePoints: 本人は病院、農場、航路ごとに異なる時間流を接続し、住民の一日が行政の一日から滑り落ちないよう保守した。 / 故障時には時計より、待つ家族を先に確認した。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
 
 > 病院、農場、航路では時間の流れが違います。私の仕事はそれらをつなぎ、住民の一日が行政の暦から滑り落ちないよう保つことでした。故障が起きると皆まず時計を見る。でも私は、向こう側で誰が待っているかを先に確かめます。手術を待つ患者か、収穫班か、夕食を温め直している家族か。それで復旧順が変わるんです。一度、同期そのものは完璧なのに、帰宅時刻だけ一日ずれたことがありました。以来、警報には「夕食に間に合わない」を加えました。笑われましたが、最も早く応答される警報ですよ。
 

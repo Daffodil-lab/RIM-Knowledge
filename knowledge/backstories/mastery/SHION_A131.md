@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A131"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 市場徒手警護
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 星間交易圏
 
-- Tone: 交易・旅・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 交易・旅・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: ぶっきらぼうな市場警護員。武器を使わず揉め事をほどき、商人の動物へは人間以上に辛抱強い。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 星間市場の祭りで警護をしました。混雑の中で武器を抜けば、盗人より先に客を傷つけます。私は揉めた商人を抱えて引き離し、品物の来歴と約束の期限を確認しました。説明は得意ではないので、怒鳴る相手には「座れ、順に話せ」しか言いません。連れてきた荷獣にはもっと辛抱強く話せるんですがね。ある詐欺騒ぎの後、敵同士だった商人が閉店後の簡素な食事を分けました。私はその席を守るため、入口へ背を向けず立っていた。祭りの記憶は飾りより、翌日も取引できる信用に残ると思います。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C145"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 災害研究隊救護訓練
 - Era: ImperialPeak / Origin: 旧帝国 / Relation: 最盛期帝国社会
 
-- Tone: 異常・救難・形成 / ReviewStatus: 採用済み
+- Tone: 異常・救難・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 規律正しい救護生 / 最盛期を信頼で語る / 動物対応は不得手 / 小さな救助を大切にする
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帝国災害研究隊の救護課程は長く、選別理由を一件ずつ説明させられました。最盛期の形式主義には違いありません。でも当時は、律法に従えば治療も住まいも奪われないという信頼があった。私は傷病者の順序と避難構造を学び、動物対応だけは得意な者へ任せました。演習中、名簿外の清掃員を瓦礫模型から出したことがあります。正式な成果には載りませんでしたが、仲間は覚えてくれた。私が戻したいのは長い儀礼ではなく、名簿に無い者まで当然に救う余裕です。それなら最盛期より広い平和にできるでしょう。
 

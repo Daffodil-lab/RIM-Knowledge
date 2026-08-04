@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C110"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 安全研究院案内
 - Era: ImperialPeak / Origin: 旧帝国 / Relation: 最盛期帝国社会
 
-- Tone: 科学・風刺・形成 / ReviewStatus: 採用済み
+- Tone: 科学・風刺・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 丁寧な案内役 / 制度を説明したがる / 研究者への乾いた敬意 / 小事件を忘れない
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 最盛期の研究院は、門が多い代わりに理由も説明しました。私は来訪者の希望を聞き、制度上の経路と並べて記し、必要なら地下実験区まで案内したんです。地層の空洞を読む講習まで受けたのは、迷子を壁の向こうへ出さないためでした。窮屈ですか？　ええ、形式は長かった。でも律法を守れば、身分にかかわらず明日の住まいは失わないという信頼もあった。安全研究の責任者が、実験で凍った菓子を前に一言も出なくなった日だけは可笑しかったですね。完璧な時代にも、ああいう間抜けな午後はありました。
 

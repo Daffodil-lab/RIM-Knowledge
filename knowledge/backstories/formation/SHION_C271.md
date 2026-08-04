@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C271"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 英雄なき救助
 - Era: PostCivilWarEmpire / Origin: 旧帝国 / Relation: 内戦後帝国
 
-- Tone: 潜入・工兵・形成 / ReviewStatus: 採用済み
+- Tone: 潜入・工兵・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 無骨で集団志向。救助を一人の英雄譚に変えることを強く嫌う。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 内戦後の帝国要塞で崩落が起きた時、公式命令は重要区画の保全を優先しました。けれど壁の向こうから生活区の打音が聞こえた。私たちは命令書を脇へ置き、振動を読みながら細い救助路を掘りました。一人が掘り、一人が支え、一人が音を聞いた。救出後、広報官は英雄役を決めようとしましたが、誰も名乗りませんでした。私は坑道の壁へ全員の手形を描きました。要塞は後に回収できても、あの声と土の匂いは戻りません。だから救った人数だけでなく、誰が隣で手を動かしたかを残したかったんです。
 

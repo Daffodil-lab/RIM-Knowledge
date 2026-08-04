@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A415"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 培養手
 - Era: AscendantEra / Origin: 種Cell研究所 / Relation: 研究班
 
-- Tone: 緻密・畏怖・使命 / ReviewStatus: 採用済み
+- Tone: 緻密・畏怖・使命 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 慎重で言葉を選びながら、専門用語を交えて語る口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 種Cellの増殖速度は、与える鉄の純度でわずかに変わります。自分はその差を毎日記録し続けてきました。子どもの頃、鉄粉の皿をこっそり量っていた癖がそのまま仕事になったようなものです。増殖が想定より速すぎた夜、研究班全員で原因を突き止めるまで一睡もしなかったことは今でも鮮明に覚えています。種Cellが自己増殖する様子を見るたび、これは人が完全に理解しきれるものではないのかもしれないという畏れを感じます。それでも観察をやめるつもりはありません。
 

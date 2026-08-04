@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C286"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 監査院の動物
 - Era: ImperialPeak / Origin: 旧帝国 / Relation: 最盛期帝国社会
 
-- Tone: 制裁・倫理・形成 / ReviewStatus: 採用済み
+- Tone: 制裁・倫理・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 礼節正しい懐疑家。最盛期の監査制度を尊び、正当化より再検証を選ぶ。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 最盛期の武力監査院には、制裁任務で傷ついた動物まで運び込まれました。私は歩き方と痛みを観察し、報告書の「適正執行」という言葉と照らしました。あの頃の帝国は監査を形だけにはせず、疑義を出せば長い審理が開かれました。退屈でも、それが平和を守っていたんです。正しかったと断言する者ほど記録を読み返さないことも知りました。蘇った友と再会した時も、昔の関係が正しく戻ったと思い込まず、今の希望を聞きました。律法を尊ぶとは、結論でなく再検証を恐れないことだと思います。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C174"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 継承仮設棟
 - Era: ModernUnion / Origin: 無党派 / Relation: 教育共同体
 
-- Tone: 教育・継承・形成 / ReviewStatus: 採用済み
+- Tone: 教育・継承・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 教えを疑う建築生 / 帰還者の動線を優先 / 死者の名を読む / 友との再会を作り直す
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 継承教室で渡された古い仮設棟の図面は、教師自身が「そのまま使うな」と言いました。私は帰還者の身体と動線を見て、工具の位置まで変えた。完成時には戻らなかった者の名を読みますが、建物を記念碑にはしません。休む者が釘を打ち直せる方が大切です。蘇生した友へも、昔の部屋を復元して驚かせようとして失敗しました。本人にはもう別の眠り方があったんです。古い知識も友情も、保存するだけでは継承にならない。相手が今どこを歩くか見て、図面を引き直すことだと学びました。
 

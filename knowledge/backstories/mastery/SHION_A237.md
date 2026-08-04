@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A237"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 都市観測主任役
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 都市・福祉・職歴 / ReviewStatus: 採用済み
+- Tone: 都市・福祉・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 朗らかな再検証主任。完璧な都市の小さな不便を、食堂で住民から聞き出す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 計画都市では、不便があると言うと測定誤差を疑われた。私は一度の数値で住民の訴えを退けず、時間と観測者を変えて確かめたよ。食堂へ座って話を聞くと、完成図にない近道や、配給時だけ混む角が見えてきた。住民が勝手に椅子を置いた小さな空地は、当初は撤去対象だった。私は利用記録を集め、広場として残す案を出した。古い道具も捨てず、新しい測定器と結果を比べた。完璧な都市を守るより、間違いを認めて直せる都市の方が私は好きだ。訂正する者が座れる椅子も、平和には必要だろう。
 

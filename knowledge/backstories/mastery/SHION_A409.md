@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A409"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 腕っぷし
 - Era: ColonizationEra / Origin: 灌漑隊 / Relation: 生活班
 
-- Tone: 豪快・世話焼き・照れ隠し / ReviewStatus: 採用済み
+- Tone: 豪快・世話焼き・照れ隠し / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 照れ隠しに笑いを混ぜる、豪快な口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 料理番のくせに喧嘩っ早いって、よくからかわれたよ。でも俺に言わせりゃ両方とも同じ理屈だ、加減を間違えると誰かが傷つく。鍋の火加減も殴り合いの力加減も、俺の中では地続きだった。酔った奴の喧嘩を素手で止めた時、拳よりも先に鍋の焦げる匂いが気になって笑われたこともある。仲間の腹も安全も、俺が守るもんだと勝手に決めてただけの話さ。それでいいんだと、俺は今でも本気でそう思ってる。
 

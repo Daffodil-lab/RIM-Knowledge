@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A329"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 水割り師
 - Era: ColonizationEra / Origin: 水利設計班 / Relation: 灌漑組合
 
-- Tone: 水利・設計・皮肉 / ReviewStatus: 採用済み
+- Tone: 水利・設計・皮肉 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 自分の失敗を軽い皮肉で包んで話す口の悪い設計者。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 水利設計班の花形と呼ばれたことがある、皮肉なことに、それは水路の半分が最初の年に凍結で割れた後のことだった。失敗のたびに設計図を描き直していたら、いつの間にか一番詳しい人間ということになっていた。灌漑組合の会議では今も「割れない水路の人」と呼ばれる、割った本人だというのに。まあ、割れ方を一番よく知っているのは割った人間だ、というのは的外れな話でもない。次の水路は、たぶんまだ少し割れる。
 

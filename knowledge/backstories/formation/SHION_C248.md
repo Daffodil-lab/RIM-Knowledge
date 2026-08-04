@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C248"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 旅立ち保存食
 - Era: LongTransition / Origin: 独立開拓者 / Relation: 長い過渡期
 
-- Tone: 都市・旅・形成 / ReviewStatus: 採用済み
+- Tone: 都市・旅・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 朗らかで気配り上手。移動する街を、食べる日の約束として記憶する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 移動都市から旅立つ人には、到着日ではなく「食べる日」を聞いて保存食を作りました。都市は何度も名と制度を変え、同じ路地にも人ごとに別の思い出がありましたから、包みには地図と短い伝言を添えました。体調に合わせた献立を考えるのも好きでした。古い乾燥器と新しい装置のどちらが美味しいか、友と何年も競いましたね。もう存在しない路地の曲がり方を、私は包み方で覚えています。遠くへ行った誰かが封を開く時、その街の食卓が一度だけ戻る。それを想像するのが何より楽しかったんです。
 

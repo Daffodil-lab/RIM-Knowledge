@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C016"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 配架手伝い
 - Era: EraIndependent / Origin: 無党派 / Relation: 書庫
 
-- Tone: 探索・学術 / ReviewStatus: 採用済み
+- Tone: 探索・学術 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 生真面目 / 迂回説明 / 分類への執着 / 迷う者へ寛容
-- PreservedCanonPoints: 本人は増改築を重ねた帝国式書庫で、返却先の分からない本を正しい棚へ戻す仕事をした。 / 建物の区画そのものが分類に使われるため、索引と通路の両方を覚える必要があった。 / 破損した背表紙や古い貸出票から本の来歴を調べ、迷った利用者も案内した。
+- PotentialReferencePoints: 本人は増改築を重ねた帝国式書庫で、返却先の分からない本を正しい棚へ戻す仕事をした。 / 建物の区画そのものが分類に使われるため、索引と通路の両方を覚える必要があった。 / 破損した背表紙や古い貸出票から本の来歴を調べ、迷った利用者も案内した。
 
 > 返却棚へ置けば終わり、ではありません。あの帝国式書庫は建物そのものが索引で、増築のたびに歴史と神学の間へ妙な階段が増えました。私は背表紙の糊、貸出票の筆圧、埃の色から元の区画を推定した。ええ、利用者より本の迷子を探す方が得意でしたね。ただ、道を尋ねる者を笑ったことはありません。分類を作った側が迷わせたのですから。ソフェルも記録を整える人でしょう？　正しい棚を知る者より、戻れない本の来歴を諦めない者を私は信用します。
 

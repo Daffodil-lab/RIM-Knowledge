@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C346"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: それは罪か
 - Era: JourneyEra / Origin: 儀礼班 / Relation: 巡回説教団
 
-- Tone: 問答・律法・迷い / ReviewStatus: 採用済み
+- Tone: 問答・律法・迷い / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: ぶっきらぼうだが真剣。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 巡回してきた説教役に、俺は「配給を隠すのは罪か」って聞いたんだ。十二歳だった。相手は少し考えてから「隠す量と、隠す理由による」と言った。俺が「じゃあ理由が正しければいいのか」と聞き返すと、「理由の正しさは誰が決める」と返された。そこで話は堂々巡りになって、結局その日は答えが出なかった。儀礼班の連中はすぐ答えを欲しがるが、あの説教役は違った。答えより先に、問いの立て方を俺に教えたんだ。律法はまだ、答えより問いの方が多かった時代だった。
 

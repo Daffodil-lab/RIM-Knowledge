@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A360"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 船体保守班
 - Era: JourneyEra / Origin: 東側／広野文化継承者 / Relation: 船体保守班
 
-- Tone: 保守・誇り・継承 / ReviewStatus: 改稿採用済み
+- Tone: 保守・誇り・継承 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: ぶっきらぼうな金属工。感傷より作業の正確さを語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 俺は迷わない。継ぎ目の緩みは耳で分かる、それだけが俺の腕だ。広野文化を継ぐ先達から工具箱を受け取った時、まず叩き方より聞き方を教わった。金属が鳴る高さが半音違えば、そこは危ない。十年かけて聴覚設定と判断を磨くまで、何度も間違えて叱られた。仲間には計器で測れと笑われたが、俺の担当区画は一度も漏れを出していない。船が何年保ったか、それが俺の証拠だ。ただし、次の担当者が検証できるよう記録も残している。
 

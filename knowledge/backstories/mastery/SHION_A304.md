@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A304"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 透明区終生飼養
 - Era: LongTransition / Origin: 旧党派 / Relation: 計画共同体
 
-- Tone: 制度・個人・職歴 / ReviewStatus: 採用済み
+- Tone: 制度・個人・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 秘密を大切にする飼養員。公開社会でも、老いた動物が隠れる場所を守る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 透明居住区では、老いた動物の寝床まで見えるようにしようという案があった。私はその案へ反対票を入れた。役目を終えた後くらい、誰にも見られず眠る場所があってよい。日課と体調は公開記録へ残したが、隠れ場所と飼い主の私的な思い出は分けたよ。街の時計は全て正しかったのに、飼育区の一つだけ違う時刻を指していた。亡くなった世話人が最後に餌を置いた時刻だった。時計の針には触れなかった。必要のない記憶へ手間を使い、見せない自由を守れることも、私には豊かさの証明だからね。
 

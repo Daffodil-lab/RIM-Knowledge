@@ -76,7 +76,8 @@ generated:
 | Field Workshopの設定 | [Field Workshop設定クラス](/design/40-Field-Workshop設定クラス.md) | Recipe・工数・失敗処理は独立開拓団実装が所有 |
 | Pawn Foundryの設定 | [Pawn Foundry設定クラス](/design/41-Pawn-Foundry設定クラス.md) | 生成・登録・保管・Clone処理はPawn仕様が所有 |
 | 匿名のソフェル | [匿名のソフェル](/characters/anonymous-sofer/index.md) | 現行人物像、実装予約、物語候補を分離して参照 |
-| 個別バックストーリー | [バックストーリー](/backstories/index.md) | 正史・制作規則への参照 |
+| 参考資料の分類と再利用境界 | [参考](/reference/index.md) | 外部調査、旧案、バックストーリー、履歴からの参照 |
+| 個別バックストーリー | [バックストーリー](/backstories/index.md) | 参考資料として保持し、再利用時は正史・制作・実装の所有者へ内容を移す |
 | 判断の経緯 | [決定履歴](/decisions/index.md) | 現行仕様の根拠。現行事実の所有は禁止 |
 | 外部調査 | [調査・参照](/research/index.md) | 設計判断の根拠。製品仕様の所有は禁止 |
 
@@ -101,6 +102,7 @@ generated:
 - Kombinat領域: [Kombinat領域](/kombinat/index.md)
 - Pawn領域: [Pawn領域](/pawn/index.md)
 - バックストーリー群: [バックストーリー群](/backstories/index.md)
+- 参考資料: [参考](/reference/index.md)
 - 矛盾監査: [矛盾監査台帳](/contradictions/index.md)
 - 設定と実装の分離: [設定クラスと実装値の分離](/authoring/15-設定クラスと実装値の分離.md)
 - 旧資料の退役: [旧資料退役監査](/authoring/21-旧資料退役監査.md)

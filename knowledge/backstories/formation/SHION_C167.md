@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C167"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 戦術環義肢工作
 - Era: ModernUnion / Origin: 無党派 / Relation: 防衛教育隊
 
-- Tone: 戦術・教育・形成 / ReviewStatus: 採用済み
+- Tone: 戦術・教育・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 無愛想な工作好き / 身体の自己決定を尊ぶ / 射撃安全に厳しい / 料理は避ける
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 義肢は「元へ戻す」ためだけの物ではありません。私は戦術教育環の工房で部品を削り、装着者が望む動きを本人と試しました。教官が勝率を上げる換装を勧めても、使う者が拒めばそこで終わりです。照準との接続は事故が出ないまで確認しましたが、食堂当番は避けました。味を揃える作業より、一人分の握りへ金属を合わせる方が性に合ったので。模擬敵にも名があると知った日は、義肢へ付ける識別記号も見直しました。身体も記録も、制度が便利な形へ勝手に揃えてはいけないと思います。
 

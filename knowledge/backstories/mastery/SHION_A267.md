@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A267"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 特任校農園技師
 - Era: ModernUnion / Origin: 無党派 / Relation: 特殊任務機関
 
-- Tone: 特殊任務・法執行・職歴 / ReviewStatus: 採用済み
+- Tone: 特殊任務・法執行・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Mixed
 - VoiceProfile: 教官気質の農園技師。作戦指揮の違いを、畝と避難者の流れで教える。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 特殊任務学校の農園は教材でもあった。畝を住民、灌水弁を証拠、害虫を脅威に見立てるような単純な話ではないよ。軍事作戦、逮捕、救出では守る順番と指揮線が違うことを、実際の避難訓練で教えた。大規模避難では救難班と戦術班を分け、住民の流れを止めず危険だけを隔離した。撃たずに終わった任務ほど、皆で農園の卓を囲んで長く検討した。欠けた席もあった。私は収穫量より、その席を次回減らす手順を評価した。畑は命令に従わないから、教官にも都合のよい答えを返さないんだ。
 

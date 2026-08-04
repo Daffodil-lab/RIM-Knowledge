@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A073"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 星界マソレット
 - Era: EraIndependent / Origin: ソフェル / Relation: 星界校訂会
 
-- Tone: 学術・宇宙規模 / ReviewStatus: 採用済み
+- Tone: 学術・宇宙規模 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 卓越した校訂者。自負は強いが、華やかな評価章より一字の整合へ夢中になる。
-- PreservedCanonPoints: 本人は星域を跨ぐ秘文字体系を校訂し、時間流の異なる写本を一つの儀式へ接続した。 / 同族の導師たちからも稀な精度と美しさを認められ、複数の評価章を受けた。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
+- PotentialReferencePoints: 本人は星域を跨ぐ秘文字体系を校訂し、時間流の異なる写本を一つの儀式へ接続した。 / 同族の導師たちからも稀な精度と美しさを認められ、複数の評価章を受けた。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
 
 > 星域を跨ぐ秘文字体系を校訂し、時間の速さが異なる写本を一つの儀式へ接続しました。ある節は一方で既に古語、別の星ではまだ書かれていない。対応表を作るだけで幾つもの文明時間を使いましたよ。完成版は同族の導師たちにも精度と美しさを認められ、評価章をいくつも頂きました。ええ、嬉しかったです。ただ、授章式の直前に誤植を一つ見つけて延期させました。祝宴担当には恨まれましたね。飾りより一字を選んだ、と言えば格好いいですが、気になって座っていられなかっただけです。
 

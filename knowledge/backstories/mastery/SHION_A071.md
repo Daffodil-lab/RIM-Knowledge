@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A071"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 帝国祈祷復元者
 - Era: ModernUnion / Origin: 帝国系ソフェル / Relation: 公開文化院
 
-- Tone: 文化・継承 / ReviewStatus: 採用済み
+- Tone: 文化・継承 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 柔和な典礼研究者。古い祈りを愛する一方、信仰の強制と国家復古を明確に退ける。
-- PreservedCanonPoints: 本人は最盛期の祈祷を、内戦後の命令文と混同されない形で復元した。 / 信仰を強制せず、当時の平和を願った声として公開した。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
+- PotentialReferencePoints: 本人は最盛期の祈祷を、内戦後の命令文と混同されない形で復元した。 / 信仰を強制せず、当時の平和を願った声として公開した。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
 
 > 帝国最盛期の祈祷を復元しました。内戦後には似た言い回しが服従命令へ継ぎ足されていたので、写本の年代と用途を一つずつ分けたんです。私が残したかったのは、豊かな一日が明日も続くよう願った人々の声でした。礼拝を強いる文は外し、信仰しない者も読める形で公開しました。古い祈りを愛することと、古い国家をそのまま戻すことは同じではありません。私は祈る自由と、祈らずに同じ平和を望む自由を並べて残したい。書庫の入口にも、その一文を刻んでもらいました。
 

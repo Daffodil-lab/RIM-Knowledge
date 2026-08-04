@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A181"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 要塞路資源測量
 - Era: ModernUnion / Origin: 無党派 / Relation: 特殊任務群
 
-- Tone: 潜入・工兵・職歴 / ReviewStatus: 採用済み
+- Tone: 潜入・工兵・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 寡黙で慎重。成功より、見落としかけた箇所を先に語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 要塞へ入る道は、掘れば見つかるというものではない。私は岩盤の密度、排熱管の震え、古い採掘傷を重ね、崩落させず設備だけへ届く一本を選んだ。正面から破れば早かったが、その向こうには居住区があった。だから少人数で潜り、動力を止め、撃たずに終える案を出した。派手さがないと笑った者も、帰還後には黙って地図を写していたよ。私の地図には美しい線より、判断を変えた跡が多い。英雄の名は残らなくても構わない。次の測量士が私の誤りを見つけられるなら、その余白こそ役に立つ。
 

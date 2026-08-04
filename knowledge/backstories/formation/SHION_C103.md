@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C103"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 居住区坑道
 - Era: LongTransition / Origin: 無党派 / Relation: 長い過渡期
 
-- Tone: 生活・基幹・形成 / ReviewStatus: 採用済み
+- Tone: 生活・基幹・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 地下好き / 音で考える / 説明は静か / 失われた生活臭を惜しむ
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 地下は暗いから嫌いだろう、とよく言われます。逆です。余計な光がないぶん、岩の軋みや水の遠さがよく分かる。私は居住区の坑道で、叩いた音から空洞を探し、身体の違う住民が通れる掘削順を習いました。案内板には専門語を残さず、触れば向きが分かる印も彫ったんです。崩落より先に制度が変わる時代でしたが、石は党籍を尋ねませんでした。回収された故郷を見ても、坑口の湿った金属臭だけは戻らなかった。だから私は、場所とは物質より、そこで覚えた感覚なのだと思っています。
 

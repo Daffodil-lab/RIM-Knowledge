@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C394"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 岩標本
 - Era: ColonizationEra / Origin: 地質調査隊 / Relation: 先達
 
-- Tone: 頑固・忍耐・誇り / ReviewStatus: 改稿採用済み
+- Tone: 頑固・忍耐・誇り / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 硬い口調で物事を数え上げるように語り、専門語を交えながら感情を出し惜しむ。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 標本箱には五段あった。一段目は火成岩、二段目は堆積岩、三段目は変成岩、四段目は先達も名を知らない奇妙な石、五段目は空箱で、僕が新しく見つけたものを入れる場所だった。先達は五段目が埋まるまで褒めてくれなかった。埋まったのは二年目の冬だ。先達はその日、初めて僕の頭をひと撫でした。それだけで十分だった。今でも石を見ると、まず割れ目の走り方を確かめてしまう癖が抜けない。
 

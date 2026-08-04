@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A255"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 連合農園技師
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 革命・証言・職歴 / ReviewStatus: 採用済み
+- Tone: 革命・証言・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 朗らかな革命連合の園芸家。党派の違いを認めつつ、配水だけは公平を貫く。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 革命連合の後方農園には、社会民主党系も共産党系も帝国離反者も来た。無政府主義者だけだったわけではない。旗の話では揉めたが、水の順番は同じ表で決めたよ。前線の党派で配給量を変えろという要求は断った。共同の敵が弱ると仲間同士の対立が増え、畝の境まで政治になった。それでも収穫祭では同じ鍋へ根菜を入れた。私は旗より炊事の煙を先に思い出す。革命を美しくまとめるつもりはない。互いを嫌いながらも、翌日の食事を絶やさなかったことを文化として残したいんだ。
 

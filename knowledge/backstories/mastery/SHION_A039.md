@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A039"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 内部改革者
 - Era: ModernUnion / Origin: 社会民主党系 / Relation: 同盟内部改革派
 
-- Tone: 政治・制度改革 / ReviewStatus: 採用済み
+- Tone: 政治・制度改革 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 粘り強く少し疲れた改革者。大改革より、異議申立てに三日を足す実務を選ぶ。
-- PreservedCanonPoints: 本人は同盟に残り、配給審査、代表選出、監査公開の仕組みを内側から改めようとした。 / 離脱した同志からは妥協と呼ばれ、執行部からは不忠を疑われた。 / 大きな制度改革は成立しなかったが、異議申立ての期限を延ばし、却下理由を公開させた。
+- PotentialReferencePoints: 本人は同盟に残り、配給審査、代表選出、監査公開の仕組みを内側から改めようとした。 / 離脱した同志からは妥協と呼ばれ、執行部からは不忠を疑われた。 / 大きな制度改革は成立しなかったが、異議申立ての期限を延ばし、却下理由を公開させた。
 
 > 同盟に残った私は、離脱した同志から妥協者、執行部から不忠者と呼ばれました。配給審査、代表選出、監査公開を内側から変えようとして、大改革は一つも通せませんでした。通せたのは異議申立てを三日延ばし、却下理由を公開させることです。革命歌にはなりません。でもその三日で書類を揃え、配給を取り戻した住民がいました。蘇った友から「まだ中にいるのか」と呆れられた時は、少し傷つきましたよ。私は制度を愛して残ったのではなく、明日まで待てない人の窓口を今日閉めたくなかったのです。
 

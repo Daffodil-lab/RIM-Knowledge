@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A352"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 統合戸籍記録
 - Era: JourneyEra / Origin: 統合世代 / Relation: 統合戸籍局
 
-- Tone: 統合・沈黙・戸籍 / ReviewStatus: 採用済み
+- Tone: 統合・沈黙・戸籍 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 言葉少なな記録係。核心の出来事には触れずに周辺だけ話す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 旧い区画名が消えて、番号だけの住所に変わった日のことは、あまり話したくない。その日の窓の外がどんな色だったかとか、配布された新しい書類の紙が妙に厚かったこととか、そういう周りのことならいくらでも話せる。書類を配り終えたあと、私は誰もいない通路でしばらく座っていた。それだけだ。区画名がどうなったか、住人がどう思ったか、そこは今日は話さないでおく。周りのことだけで十分だろう。
 

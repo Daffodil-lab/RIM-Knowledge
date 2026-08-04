@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A378"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 秩序維持最終
 - Era: JourneyEra / Origin: 帝国准民 / Relation: 秩序維持隊
 
-- Tone: 秩序・軍務・統合 / ReviewStatus: 採用済み
+- Tone: 秩序・軍務・統合 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 感情を抑えた元隊員。手順のように過去を語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 秩序維持隊の任務は単純だった。区画境界の見回り、揉め事の仲裁、非常時の避難誘導。旧い保安巡回とは違って、担当区画に出身圏の区別はなかった。俺が配属された年にはもう帝国という呼び方が広まっていて、隊の徽章もそれに合わせて変わった、重さも色も変わらないのに不思議と誇らしかった。任務の内容は変わらなかったが、呼び方が変わると士気は不思議と上がった。最後の巡回では、境界線そのものがほとんど意味を失っていた。
 

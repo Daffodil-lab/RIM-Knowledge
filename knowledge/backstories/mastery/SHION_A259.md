@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A259"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 評議救護医
 - Era: ModernUnion / Origin: 複数党派 / Relation: 同盟評議会
 
-- Tone: 政治・生活・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 政治・生活・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 柔らかいが判断の速い専門医。党派の口論を治療順へ持ち込ませない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自治評議区の事故では、救護所へ着く前から党派同士が責任を押し付け合っていた。私は旗と所属札を外させ、外部居住者の呼吸・出血、シオンの出力低下・流体漏れ、そして建物の崩れ方だけで救護順を決めた。古い器具も捨てず、新しい装置と結果を比べたよ。専門職として評価されたのは嬉しいが、あの夜に必要だったのは称号ではなく、誰が避難路を塞いでいるか指摘する声だった。帰還後の食卓では一つの席が欠けていた。会議で何を決めたかより、皆がその席を避けず料理を分けたことを覚えている。政治は必要だが、傷の前で人を順番の外へ置く理由にはしない。
 

@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C089"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 時間窓掃除徒弟
 - Era: ImperialPeak / Origin: 帝国臣民 / Relation: 帝国時務院
 
-- Tone: 技術・日常 / ReviewStatus: 採用済み
+- Tone: 技術・日常 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 時間感覚が奇妙 / 平静 / 未来の自分へ距離 / 今日の雑務を優先
-- PreservedCanonPoints: 本人は異なる時刻を映す観測窓から霜と祈祷煤を落とした。 / 窓の向こうに未来の自分を見ても話しかけず、今日の仕事を終えてから明日の心配をする規則を守った。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
+- PotentialReferencePoints: 本人は異なる時刻を映す観測窓から霜と祈祷煤を落とした。 / 窓の向こうに未来の自分を見ても話しかけず、今日の仕事を終えてから明日の心配をする規則を守った。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
 
 > 観測窓の霜を拭くと、明日の廊下や千年後の自分が見えることがありました。話しかけたか？　いいえ。規則で禁じられていたし、何より今日の煤がまだ残っていた。未来の私が泣いていても、雑巾を置けば窓は曇ったままです。冷たいと思いますか、ソフェル。私は逆だと思う。未来を知る力があっても、目の前の仕事と相手を後回しにしないための規則でした。今こうしてあなたに話す私は、あの窓の向こうにいた者かもしれません。それでも先に、机の煤を拭いてよいですか。
 

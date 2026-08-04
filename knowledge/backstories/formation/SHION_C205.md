@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C205"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 計画都市救護大会
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 都市・福祉・形成 / ReviewStatus: 採用済み
+- Tone: 都市・福祉・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 勝敗に懐疑的な救護競技者 / 取り残された者を探す / 構造図を書き直す / 失敗を公開
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 救護大会なのに、私は順位を覚えていません。計画都市には物資が十分ありましたが、完成図に想定されない身体の者が避難路で止まった。私は傷病者の順序を変え、確認者を増やし、構造図へ余白を書き足しました。一度、広場を近道と思って搬送し、住民の集会を塞いだ失敗もあります。あの小広場は図面に無くても、皆の暮らしには必要だったんです。技術を共有する大会なら、勝者の速さより、誰を見落としたかを公開すべきでしょう。訂正できる都市の方が、完成した都市より安全です。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C255"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 凍菓子の記録
 - Era: ImperialPeak / Origin: 旧帝国 / Relation: 最盛期帝国社会
 
-- Tone: 科学・風刺・形成 / ReviewStatus: 採用済み
+- Tone: 科学・風刺・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 生真面目で風刺的。研究制度を敬いつつ、威厳が沈黙を生む危うさを知る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 最盛期の帝国安全研究院では、未知の物質より記録の欠落を恐れろと教わりました。律法と検証が暮らしを守っていた時代です。私は古い実験簿を読み、読めない所には印だけ付けました。ある日、冷却実験で祝い菓子が石のように凍りました。高名な研究員たちは失敗を認める言葉が見つからず、全員で菓子を囲んで黙った。私はその沈黙まで記録しました。豊かで平和でも、威厳が長すぎると簡単な謝罪が難しくなる。故郷の味は再現できても、あの気まずい食卓だけは二度と同じになりません。
 

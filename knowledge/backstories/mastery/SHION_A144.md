@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A144"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 封鎖地仮設建築
 - Era: ModernUnion / Origin: 無党派 / Relation: 異常対応班
 
-- Tone: 異常・研究・職歴 / ReviewStatus: 採用済み
+- Tone: 異常・研究・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 直感型の仮設建築士。未知の理論を語らず、帰還者の動きと現物を見て部屋を継ぎ足す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 封鎖観測地の外に、帰還者用の仮設棟を建てました。変色の理屈を聞かれても、私には断定できません。だから未知の説明より、帰ってきた者がどの光を避け、どこで立ち止まるかを見ました。窓を塞ぎ、廊下を曲げ、必要なら翌日また直す。最初の部屋は向きが悪く、夕焼けが差し込んで患者を怯えさせました。私の失敗です。すぐ壁を移しました。抽象的な計画を嫌っているのではありません。ただ、分からない時に分かった顔をするより、現物へ合わせて手を動かしたいんです。
 

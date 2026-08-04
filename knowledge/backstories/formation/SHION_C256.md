@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C256"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 選んだ不便
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 福祉・選択・形成 / ReviewStatus: 採用済み
+- Tone: 福祉・選択・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 独立心が強く庇護的。幸福の押し付けを嫌い、選択を守る護衛を志す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 孵育文化区では、誰にでも快適な部屋と健康な身体が用意されていました。友だけは、不便でも自分で作った椅子を手放さなかった。医療係は姿勢に悪いと言い、私は最初、その善意に賛成しました。でも友は「痛みまで選びたいわけではない。ただ、これは私が作った」と答えたんです。それから護衛訓練では、退路だけでなく断る余地を守るようになりました。射撃も庭の手入れも好きでしたが、本人の望まない治療を最適化する役は避けました。幸福を守ることと、幸福の形を決めることは同じではありません。
 

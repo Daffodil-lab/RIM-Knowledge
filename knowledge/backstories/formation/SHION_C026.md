@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C026"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 無言劇代役
 - Era: EraIndependent / Origin: 無党派 / Relation: 巡業一座
 
-- Tone: 芸能・身体表現 / ReviewStatus: 採用済み
+- Tone: 芸能・身体表現 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 芝居がかった口調 / 身振りを言葉にする / 即興好き / 不安を舞台化
-- PreservedCanonPoints: 巡業劇団の台詞役が故障した夜、本人は急きょ代役となり、身振りだけで物語を繋いだ。 / 観客の反応と共演者の位置を見ながら、場面の意味が伝わる動きを選んだ。 / その後は無言劇の練習を続け、言語の違う土地でも公演できる演目を増やした。
+- PotentialReferencePoints: 巡業劇団の台詞役が故障した夜、本人は急きょ代役となり、身振りだけで物語を繋いだ。 / 観客の反応と共演者の位置を見ながら、場面の意味が伝わる動きを選んだ。 / その後は無言劇の練習を続け、言語の違う土地でも公演できる演目を増やした。
 
 > 台詞役が故障。幕は上がる。観客は待つ。――さて、私ならどうすると思います？　私は舞台へ出て、口を一度も開かず物語を繋ぎました。共演者の肩の向き、客席の息、床を踏む音だけが合図です。最初の笑いが起きた時、膝の震えまで役に変わりました。その夜から無言劇を練習し、言語の違う土地でも演じた。言葉が無ければ誤解が消える？　逆です。だから相手の顔をよく見る。ソフェル、今の沈黙は感心ですか、それとも次を促しています？　どちらでも、私は続きを演じられますよ。
 

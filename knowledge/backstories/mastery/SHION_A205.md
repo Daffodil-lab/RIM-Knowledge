@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A205"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 月面区資源測量
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 月面共同事業
 
-- Tone: 開拓・事業・職歴 / ReviewStatus: 採用済み
+- Tone: 開拓・事業・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 現実的な開拓者。壮大な宣伝より、最初に残した足跡へ愛着を示す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 月面事業の宣伝図には、危険な斜面も粉塵の流れも描かれていなかった。私は採掘量を測る前に、作業員が戻れる道を測った。地図の余白へ地平線を描いたら、芸術ではなく数値を書けと叱られたよ。けれど地形の影は数字だけより伝わりやすい。完成式では大勢が立派な言葉を述べたが、私が覚えているのは最初の作業員が残した不揃いな足跡だ。その人は所有権の旗を立てず、後続へ危険を知らせる棒を一本挿した。私は今も、月を得た日ではなく、誰かが次の者を気遣った日を事業の始まりと呼んでいる。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A393"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 掘削夫
 - Era: ColonizationEra / Origin: 地質調査隊 / Relation: 採掘班
 
-- Tone: 淡白・忍耐・単調 / ReviewStatus: 採用済み
+- Tone: 淡白・忍耐・単調 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 感情の起伏をあまり見せない、ぶっきらぼうな口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 特別な話なんて別にない。毎日岩盤に穴を開けて、砕いた石をふるいにかけて、出てきたサンプルを箱に詰めて、番号を振って記録をつける。それだけの繰り返しだった仕事だ。ドリルの振動が手のひらの痺れとしてまだ残ってるくらいで、他に語れることは正直あまり思いつかない。強いて言うなら、硬い岩脈に当たった時だけ音が変わる、あの甲高い音だけは今も耳の奥に残ってる。仕事は仕事、それ以上でもそれ以下でもない。
 

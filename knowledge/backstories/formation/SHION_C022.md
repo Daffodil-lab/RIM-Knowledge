@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C022"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 武具庫読み
 - Era: EraIndependent / Origin: 無党派 / Relation: 古物市
 
-- Tone: 趣味・歴史 / ReviewStatus: 採用済み
+- Tone: 趣味・歴史 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 目利き / 半信半疑 / 商人調 / 推測と事実を分ける
-- PreservedCanonPoints: 本人は古物市で鎧の傷、補修材、刻印を調べ、以前の持主と使われた時代を推定する手伝いをした。 / 商人の売り文句と確認できた事実は、札の別々の欄へ書いた。 / 不明な部分を物語で補う時も、推測であることを買い手へ伝えた。
+- PotentialReferencePoints: 本人は古物市で鎧の傷、補修材、刻印を調べ、以前の持主と使われた時代を推定する手伝いをした。 / 商人の売り文句と確認できた事実は、札の別々の欄へ書いた。 / 不明な部分を物語で補う時も、推測であることを買い手へ伝えた。
 
 > 「皇族を守った鎧」？　商人は何にでもそう書きます。私は傷の向き、継ぎ金の年代、内側の刻印を読み、確認済みと推測を別の札へ書きました。実際は厨房番が火事から逃げる時に着た品かもしれない。それで価値が下がるでしょうか。私は下がらないと思う。むしろ、名もない持ち主の汗が革へ残っている方が面白い。物語を添えること自体は嫌いではありませんが、事実のふりをさせるのは嫌いです。ソフェルの余録も同じでしょう？　空白は空白のまま示した方が、買い手は自分で想像できます。
 

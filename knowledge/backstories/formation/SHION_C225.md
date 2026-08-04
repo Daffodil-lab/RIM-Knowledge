@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C225"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 月面種子庫
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 開拓・事業・形成 / ReviewStatus: 採用済み
+- Tone: 開拓・事業・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 現実的で穏やか。大義より、明日の食卓に届く成果を重んじる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 革命連合の月面区では、どの党派も自分たちが最初に畑を作ったと言いたがりました。私は種子庫で袋の来歴と発芽条件を書き直し、宣伝映像より作業員の雑談を信じました。手袋が厚くて留め具を開けにくい、食堂まで遠い、そんな話の方が翌日の収穫を左右したからです。完成式の演説はほとんど覚えていません。でも、灰の上に残った最初の足跡と、芽が出た鉢を囲んで笑った顔は忘れない。帝国の制度を戻したいのではなく、誰も明日の食事を疑わずに済む暮らしを、あの鉢から広げたかったのです。
 

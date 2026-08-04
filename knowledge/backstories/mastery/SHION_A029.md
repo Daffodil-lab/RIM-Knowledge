@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A029"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 遺物回収屋
 - Era: EraIndependent / Origin: 無党派 / Relation: 独立回収団
 
-- Tone: 探索・危険作業 / ReviewStatus: 採用済み
+- Tone: 探索・危険作業 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 胆力のある現実家。市場価値より当日の用途を見て、盗掘と救助の境界に敏感である。
-- PreservedCanonPoints: 本人は廃墟から工具、医薬品、記録媒体、再利用できる建材を回収した。 / 市場価格より、持ち帰った日に開拓地で使えるかを基準に優先順位を決めた。 / 帝国の印章がある品は発見場所と時代を記録し、最盛期の公共施設と内戦後の拘禁施設から出た物を同じ由来として売らなかった。
+- PotentialReferencePoints: 本人は廃墟から工具、医薬品、記録媒体、再利用できる建材を回収した。 / 市場価格より、持ち帰った日に開拓地で使えるかを基準に優先順位を決めた。 / 帝国の印章がある品は発見場所と時代を記録し、最盛期の公共施設と内戦後の拘禁施設から出た物を同じ由来として売らなかった。
 
 > 廃墟で薬を持ち帰れば救助、祭具を売れば盗掘と呼ばれます。境界は鞄でなく、中身と持ち主の許可にあります。私は工具、医薬品、記録媒体、建材を、市場価格よりその日に使えるかで選びました。帝国印の品は発見場所と年代を残し、最盛期の公共施設と内戦後の拘禁室を同じ由来では売りません。一度、急いで遺族への確認を省き、思い出の器具を資材にしてしまいました。時間なら十分にあったのに。今は持ち帰れるかより、誰へ尋ね終えていないかを先に調べます。
 

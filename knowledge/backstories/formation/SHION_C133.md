@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C133"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 残響深層救護
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 残響・戦争・形成 / ReviewStatus: 採用済み
+- Tone: 残響・戦争・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 冷静な救護者 / 英雄譚を疑う / 動物対応は避ける / 不在を直視する
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 残響深層では、過去の戦場が何度でも同じ順番で再現されました。私は救護卓を準備し、避難路を読み、英雄と呼ばれた者が実際には迷い、誤り、助けを求めた記録も残した。動物の反応まで同時に見るのは苦手で、そこは仲間へ任せました。残響なら選択を変えられると思った者もいましたが、私たちは観測者でしかなかった。戻っても、亡くした友の席は空いたままです。だからせめて失敗を美談で塞ぎたくない。平和を作る資料には、勇気だけでなく恐怖と間違いも必要だと思います。
 

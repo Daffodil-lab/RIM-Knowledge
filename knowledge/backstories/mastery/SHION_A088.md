@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A088"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 蘇生設備巡回工
 - Era: EraIndependent / Origin: 独立開拓団 / Relation: 辺境医療網
 
-- Tone: 工芸・医療 / ReviewStatus: 採用済み
+- Tone: 工芸・医療 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 控えめな巡回工。使われない設備を丁寧に守り、住民が託した名前を忘れない。
-- PreservedCanonPoints: 本人は小集落を巡り、使われないことを願われる蘇生設備を整備した。 / 作動試験のたび、住民が誰のために装置を守っているかを聞いた。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
+- PotentialReferencePoints: 本人は小集落を巡り、使われないことを願われる蘇生設備を整備した。 / 作動試験のたび、住民が誰のために装置を守っているかを聞いた。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
 
 > 小さな集落を巡り、蘇生設備を整備しました。誰も使いたくない装置です。それでも止まっていては困る。作動試験の前には、住民へ誰のために守っているのか尋ねました。事故で失った家族、まだ遠い航路にいる友人、名前も知らない次の入植者。答えは集落ごとに違いました。私はその名を整備簿へ書き、部品だけでなく約束を引き継げるようにしたんです。最良の記録は使用回数ゼロかもしれません。でもゼロを怠慢ではなく無事の証しにするには、誰かが毎回ふたを開けて確かめなければなりません。
 

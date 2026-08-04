@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A356"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 甲板治安巡回
 - Era: JourneyEra / Origin: 西側／極東島の民 / Relation: 甲板治安班
 
-- Tone: 治安・喪失・吐露 / ReviewStatus: 採用済み
+- Tone: 治安・喪失・吐露 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 普段は淡々としているが、時折感情が漏れる巡回員。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 巡回の仕事は単調だった。決まった通路を歩き、決まった時間に報告する。それだけの毎日を四十年続けた。……本当のことを言うと、あの処置を受けるかどうか迷った夜、相棒に相談できなかったことをずっと悔いている。相棒は受けずに老いて、私は受けた。今でもその通路を歩くたびに、あいつの足音がないことに気づいてしまう。すまない、少し話が逸れた。巡回の仕事は、単調だったと言った通りだ。それ以上でも以下でもない。
 

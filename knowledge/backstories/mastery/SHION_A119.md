@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A119"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 機械化救助員
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟軍
 
-- Tone: 軍務・市民・職歴 / ReviewStatus: 採用済み
+- Tone: 軍務・市民・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 無愛想で頼れる救助員。重装備を怖がらず、言葉より手順と動物の反応で負傷者を落ち着かせる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 機械化訓練地で、転倒した装甲や狭い操縦区画から負傷者を引き出しました。混乱した者が抵抗しても、殴って黙らせず関節を押さえて安全に運ぶ。説明は得意ではありません。救助動物の方が私より上手く相手を落ち着かせたので、その動きを覚えました。重装備を扱うほど、装備を持たない住民を数字にしない訓練が必要です。終了後は皆で装甲の泥を落とし、戻らなかった者の名を読みました。私は気の利いた慰めを言えませんが、名前を飛ばしたことはありません。それが私の話し方です。
 

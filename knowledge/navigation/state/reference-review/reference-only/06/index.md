@@ -1,4 +1,4 @@
-# accepted 06
+# reference-only 06
 
 範囲: SHION_C401 漁労開拓隊の網繕い〜SHION_A061 人格連続性医
 

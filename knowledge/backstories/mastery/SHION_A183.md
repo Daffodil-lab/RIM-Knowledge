@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A183"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 機械化種子管理
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟軍
 
-- Tone: 軍務・市民・職歴 / ReviewStatus: 採用済み
+- Tone: 軍務・市民・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: LawEnforcement
 - VoiceProfile: 実直で保護者気質。植物の来歴と人の尊厳を同じ重さで扱う。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 訓練地で私が守っていたのは、武器庫より種子庫だった。どの故郷から来て、誰へ渡り、何度芽を出したか。来歴を失えば、同じ花でも帰る場所を失うからだ。法執行の訓練では重装備も着たが、住民を標的番号で呼ぶことだけは許さなかった。人格複製が絡む事件では、二人を証拠品のように並べず、別々に話を聞き、記憶媒体と生活記録を保全した。結論を急かす声は多かったよ。それでも確認を一つも省かなかった。任務後、皆で装甲の泥を落とし、その汚水で訓練用の草が芽を出した。私はあの不格好な緑をよく覚えている。
 

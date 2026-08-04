@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C239"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 市場の道具工房
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 星間交易圏
 
-- Tone: 交易・旅・形成 / ReviewStatus: 採用済み
+- Tone: 交易・旅・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 商人気質で話が早い。品物の来歴と約束を、価格以上に重く見る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 星間市場の工房では、同じ道具でも持ち主ごとに握りを変えました。値札より来歴を確かめろ、期限を守れないなら先に言え。それが師匠の教えです。辺境では通貨より信用の方が先に尽きますから。護身用の銃も調整しましたが、撃つより照準器の癖を説明する方が好きでした。閉店後は、故郷の素材で作った器を囲み、商人たちと簡素な食事を分けました。素材は昔と同じでも、会話はもう同じではない。それでも新しい傷や持ち主に合わせて直せば、道具は旅を続けられる。私は人の約束も、そういうものだと思っています。
 

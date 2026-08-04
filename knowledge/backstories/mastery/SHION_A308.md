@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A308"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 塔域公共案内
 - Era: ModernUnion / Origin: 無党派 / Relation: 塔域共同体
 
-- Tone: 塔・記録・職歴 / ReviewStatus: 採用済み
+- Tone: 塔・記録・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 朗らかな案内官。塔の複雑な制度を、来訪者と一緒に歩いて解きほぐす。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 塔へ来た人には、案内図だけ渡さず窓口まで一緒に歩いた。党歴や出身が違えば、同じ表示でも怖く見えることがある。地下の空洞を確かめ、通れない者には別の道を示したよ。端末へアロンの投影が現れた時は、独立人格と取り違えないよう記録と本人の希望を照合した。長く不在だった友とは、静かな通路で短い挨拶しか交わせなかった。それで終わりではないし、昔どおりでもない。評議会には、最盛期を超える平和を一つの制度へ閉じず、来訪者ごとに入口を選べる塔にしたいと話している。
 

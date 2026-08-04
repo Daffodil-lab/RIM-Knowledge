@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C012"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 充電庭
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 日常・機械文化 / ReviewStatus: 採用済み
+- Tone: 日常・機械文化 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 控えめ / ゆっくり / 休息を重視 / 世話を仕事と呼ばない
-- PreservedCanonPoints: 本人は公共充電庭で端子、椅子、植木、雨除けを清掃し、利用者が安全に休める状態を保った。 / 身体規格ごとに接続方法が違うため、端子の点検と簡単な修理も覚えた。 / 充電中で動けない住民の頼みを聞き、待っている友人へ終了時刻を伝えることも仕事だった。
+- PotentialReferencePoints: 本人は公共充電庭で端子、椅子、植木、雨除けを清掃し、利用者が安全に休める状態を保った。 / 身体規格ごとに接続方法が違うため、端子の点検と簡単な修理も覚えた。 / 充電中で動けない住民の頼みを聞き、待っている友人へ終了時刻を伝えることも仕事だった。
 
 > 充電端子を磨くだけの話ですよ。それでも聞きますか。規格の違う身体が並ぶ庭では、接続を一つ誤れば休息が事故に変わります。私は端子を点検し、雨除けの葉を払い、動けない利用者から「向こうの友へ、あと十二分と伝えて」と頼まれました。伝言が届くと、待つ側の肩から力が抜ける。あの瞬間が好きでした。休む場所は、何もしない者を責めてはいけない。成果を出す時間だけが価値ではないでしょう、ソフェル。私は今でも、椅子の間隔を作業台より丁寧に測ります。
 

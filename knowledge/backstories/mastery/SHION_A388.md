@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A388"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 外科助手
 - Era: ColonizationEra / Origin: 巡回医療隊 / Relation: 診療班
 
-- Tone: 緊張・責任・沈着 / ReviewStatus: 採用済み
+- Tone: 緊張・責任・沈着 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 落ち着いた低い声で、慎重に言葉を選びながら語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 手術灯が一つしかない出張診療所で、私は器具を渡す役でした。判断が遅いと詰られたこともありますが、私は焦って渡し間違えるより、確実な方を選びました。血の匂いに慣れるまで半年かかりましたし、今でも鉄錆に似た匂いを嗅ぐと当時を思い出します。誰も褒めてはくれませんでしたが、あの選択は間違っていなかったと今でも言い切れます。今でも器具を渡す手の感触だけは、はっきりと覚えています。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A379"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 帝国准民自嘲
 - Era: JourneyEra / Origin: 帝国准民 / Relation: 金属加工組合
 
-- Tone: 自嘲・労働・統合 / ReviewStatus: 採用済み
+- Tone: 自嘲・労働・統合 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 皮肉屋の職人。真面目な話も笑いに包む。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帝国准民なんて肩書きがついた日、俺は道具箱の中身を数えていた。歴史的な瞬間に立ち会った実感なんて全然なくて、ハンマーが一本足りないことの方が気になってた。統合前は組合ごとに規格が違って苦労したが、統合後は規格が一つになって、むしろ仕事は楽になった。偉そうな理由より、ネジの規格が合う方が俺には重要だった。歴史の話をしろと言われても、俺にはネジの話しかできない。
 

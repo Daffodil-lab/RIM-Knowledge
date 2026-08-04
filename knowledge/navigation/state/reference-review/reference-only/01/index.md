@@ -1,4 +1,4 @@
-# accepted 01
+# reference-only 01
 
 範囲: SHION_C001 礼装工房の手伝い〜SHION_C080 ゴーレム名付け助手
 

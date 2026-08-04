@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C049"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 転生受付
 - Era: ModernUnion / Origin: 無党派 / Relation: 市民再登録所
 
-- Tone: 日常・再会 / ReviewStatus: 採用済み
+- Tone: 日常・再会 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 優しい受付係 / 控えめ / 再会の期待を守る / 空席へ敏感
-- PreservedCanonPoints: 本人は再製造された市民を迎える受付で椅子と案内板を磨いた。 / 帰還者が最初に探すのは鏡ではなく、待合室にいるはずの友人だった。 / 誰も来ない日は、次の予約札を黙って残した。
+- PotentialReferencePoints: 本人は再製造された市民を迎える受付で椅子と案内板を磨いた。 / 帰還者が最初に探すのは鏡ではなく、待合室にいるはずの友人だった。 / 誰も来ない日は、次の予約札を黙って残した。
 
 > 帰還者が最初に見るのは鏡だと思います？　違います。待合室です。そこにいるはずの友人を探す。私は再製造受付で椅子を磨き、案内板を直し、迎えが遅れている時は理由を言い切らず一緒に待ちました。誰も来なかった日は、予約札を捨てず次の時刻へ移した。期待を持たせるのは残酷だ、と叱られたこともあります。けれど希望を私の判断で取り上げる方が残酷でしょう。今も名前を呼ぶ前には一呼吸置きます。新しい身体の相手が、どの呼び方へ返事をするか待つためです。
 

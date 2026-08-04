@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C151"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 市場調査
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 星間交易圏
 
-- Tone: 交易・旅・形成 / ReviewStatus: 採用済み
+- Tone: 交易・旅・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 商売嫌いの地質好き / 未解決欄を残さない / 市場の飾りを記録 / 簡素な食事を懐かしむ
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 星間市場の資源調査は、値札より坑道の方が信用できました。私は必要量だけ掘り、帰路へ印を刻み、品の来歴と約束の期限を照合した。分からない欄には「不明」と書き、空白で次の者を騙さないようにしました。商談は得意ではありませんが、露店の飾りや採掘印を写すのは好きでしたね。閉店後、互いを疑っていた商人たちが同じ薄い食事を分けた夜があります。今その市場を物質ごと戻せても、湯気の匂いと警戒が解ける瞬間は再現できない。だから記録には、取引成立以外も残すんです。
 

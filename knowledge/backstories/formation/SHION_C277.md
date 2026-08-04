@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C277"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 答えなき航路
 - Era: EraIndependent / Origin: 無党派 / Relation: 調査船団
 
-- Tone: 宇宙・観測・形成 / ReviewStatus: 採用済み
+- Tone: 宇宙・観測・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 寡黙で忍耐強い。無反応の構造物と蘇生者の沈黙を、勝手に解釈しない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 無人構造物の調査船には、蘇生直後の仲間も乗っていました。私は身体と記憶のずれを確かめ、船内の避難路を一緒に歩きました。巨大構造物は私たちの呼びかけへ何も答えませんでした。歓迎とも拒絶とも決めつけず、動いた部分だけを記録しました。仲間も長い間、昔の話をしませんでした。私は沈黙を記憶欠損と書きかけ、本人の意思かもしれないと消しました。航路の終わりに構造物を見送っても答えは得られなかった。それでも、分からないものへ勝手な意味を与えず隣にいられたことは、失敗ではないと思います。
 

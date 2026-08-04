@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C086"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 平和軍馬丁
 - Era: ImperialPeak / Origin: 帝国臣民 / Relation: 帝国平和軍厩舎
 
-- Tone: 動物・軍務周辺 / ReviewStatus: 採用済み
+- Tone: 動物・軍務周辺 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 穏やかな馬丁 / 退屈を喜ぶ / 動物へ話す / 平和を非事件として愛す
-- PreservedCanonPoints: 本人は出征しない騎兵隊の動物を世話した。 / 訓練は続いたが、長く戦闘命令は来なかった。 / 退屈を平和の証として喜び、古い鞍を直しながら次の祭礼を待った。
+- PotentialReferencePoints: 本人は出征しない騎兵隊の動物を世話した。 / 訓練は続いたが、長く戦闘命令は来なかった。 / 退屈を平和の証として喜び、古い鞍を直しながら次の祭礼を待った。
 
 > 私の騎兵隊は、とうとう出征しませんでした。毎日訓練し、蹄を洗い、古い鞍を直し、次の命令を待つ。来るのは祭礼の行進だけ。退屈だったかと聞かれれば、ええ、とても。だから好きでした。飼葉をねだる鼻先と、稽古後の泥だけが事件だった。平和は英雄譚になりませんが、動物が戦場を知らず老いる時間こそ守る価値がある。後の戦争で退屈を侮る者を大勢見ました。ソフェル、何も起きなかった日も記録してください。それは空白ではなく、最盛期が成し遂げた成果です。
 

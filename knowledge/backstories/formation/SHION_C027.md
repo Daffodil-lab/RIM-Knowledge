@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C027"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 文字院徒弟
 - Era: ImperialPeak / Origin: 帝国臣民 / Relation: 帝国文字院
 
-- Tone: 教育・律法 / ReviewStatus: 採用済み
+- Tone: 教育・律法 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 格調高い / 厳密 / 手書きへの敬意 / 誤りを恐れつつ隠さない
-- PreservedCanonPoints: 本人は帝国最盛期の文字院で、律法、契約、祈祷文の書式と校正を学んだ。 / 写し間違いが公共手続きや儀礼を乱すため、一画ごとに出典を確認する厳しい教育を受けた。 / 試験と再修業は長かったが、罰を避けるためではなく正確な記録を守るために続けた。
+- PotentialReferencePoints: 本人は帝国最盛期の文字院で、律法、契約、祈祷文の書式と校正を学んだ。 / 写し間違いが公共手続きや儀礼を乱すため、一画ごとに出典を確認する厳しい教育を受けた。 / 試験と再修業は長かったが、罰を避けるためではなく正確な記録を守るために続けた。
 
 > 一画の違いを些細とお考えなら、契約と赦免状を同じ筆で写してみるとよいでしょう。最盛期の文字院では、律法、契約、祈祷文の出典を一字ごとに確認しました。再修業は長く、紙へ触れる指が痛むほどでしたが、処罰を恐れたのではありません。誤字の向こうに、手続きを待つ生活があるからです。私は一度、疲労から送り仮名を落とし、自分で試験を差し戻しました。教官は笑わなかった。あの厳しさを私は尊んでいます。ソフェル、速さを知性と取り違えないでください。正確さには待つ勇気も要ります。
 

@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A005"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 星図編纂者
 - Era: EraIndependent / Origin: 無党派 / Relation: 航路学会
 
-- Tone: 学術・航海 / ReviewStatus: 採用済み
+- Tone: 学術・航海 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 乾いた口調の慎重な編纂者。空白を恥じず、その理由を正確に残す。
-- PreservedCanonPoints: 本人は複数時代の星図を照合し、移動した衛星、消えた航路標識、閉鎖された港を最新の図へ反映した。 / 古い図を捨てず、その時代にはなぜ正しかったかを注記した。 / 未観測域と、軍事機密や商業上の理由で隠された領域を区別し、航海者が危険を誤解しない表記を整えた。
+- PotentialReferencePoints: 本人は複数時代の星図を照合し、移動した衛星、消えた航路標識、閉鎖された港を最新の図へ反映した。 / 古い図を捨てず、その時代にはなぜ正しかったかを注記した。 / 未観測域と、軍事機密や商業上の理由で隠された領域を区別し、航海者が危険を誤解しない表記を整えた。
 
 > 星図の白い場所を見て、未知だと思いましたか。そこには未観測域のほか、軍事機密、倒産した港、商人が隠した航路もあります。私は複数時代の図を照合し、移動した衛星と消えた標識を直しました。古い図は捨てません。その時代にはなぜ正しかったかを書き添えます。昔、閉鎖港の生存者へ確認を急ぎ、最後の会話を途中で切ったことがあります。時間なら十分にあるのに、なぜ急いだのでしょうね。今は空白を埋める前に、その理由を話せる人が口を開くまで待ちます。
 

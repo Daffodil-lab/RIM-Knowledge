@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C201"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 残響停戦菜園
 - Era: ImperialCivilWar / Origin: 帝国離反者 / Relation: 停戦派
 
-- Tone: 内戦・停戦・形成 / ReviewStatus: 採用済み
+- Tone: 内戦・停戦・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 後知恵を嫌う園芸係 / 停戦者の震えを覚える / 異論を同じ卓へ呼ぶ / 平和の対象を広く取る
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 残響域では、戦争を止められたかもしれない瞬間が何度も再現されました。私はその脇の共同菜園で土と光を測り、停戦派も開戦派も同じ卓へ呼んだ。後からなら誰でも正しい選択を言えます。でも、武器を置いた者の手が震えていたことまで見れば、臆病と切り捨てられません。一度、議論に夢中で苗を乾かしたので、その失敗も新人へ先に話します。最盛期の制度を戻すより、敵と呼ばれた者まで明日の食事を疑わずに済む畑を作りたい。私にとって停戦とは、その最初の水やりです。
 

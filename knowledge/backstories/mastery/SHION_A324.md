@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A324"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 荷駄頭
 - Era: ColonizationEra / Origin: 資材輸送隊 / Relation: 移住船団
 
-- Tone: 輸送・荷駄・判断 / ReviewStatus: 採用済み
+- Tone: 輸送・荷駄・判断 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 弁解がましくならないよう気をつけつつ、それでも説明したがる荷駄頭。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 荷を落とした話をされると、今でも少し身構える。資材輸送隊で運んでいた樹脂板を、崖の細道で二枚落としたことがある。積み方が悪かったと言われれば否定はしない。ただ、あの日は風が強く、荷を固定し直す時間を取れば夜までに移住船団の拠点に着けなかった。二枚を選んで守るより、日没前に全員が着く方を選んだ、それだけのことだ。謝る気はない、あの判断は今でも正しかったと考えている。ただ次からは荷の縛り方を変えた。
 

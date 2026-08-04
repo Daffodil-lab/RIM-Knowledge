@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C399"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 墨壺
 - Era: ColonizationEra / Origin: 学舎建設隊 / Relation: 教師
 
-- Tone: 実直・慎重・継承 / ReviewStatus: 採用済み
+- Tone: 実直・慎重・継承 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 丁寧で格言めいた口調、やや硬い言葉遣いで感情を控えめに滲ませる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 線は一度で引け、これが墨壺を任されたときに教師から言われた言葉です。引き直せば木目が汚れる。だから僕は何度も紐を弾く前に、頭の中で線を確かめる癖がついた。学舎の柱の一本一本に、僕の弾いた線が今も残っています。急いで済ませようとした日ほど、後で歪みに気づくものだと知りました。線は一度で引け、それは今も自分の中で生きている言葉です。今でも柱に触れると、あの時の緊張が指先によみがえります。
 

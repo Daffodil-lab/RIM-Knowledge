@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C146"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 装甲救援討論
 - Era: ModernUnion / Origin: 無党派 / Relation: 装甲突撃隊
 
-- Tone: 装甲・救援・形成 / ReviewStatus: 採用済み
+- Tone: 装甲・救援・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 話好きな討論者 / 相手の主張を要約 / 装甲を時間と捉える / 言い急ぎを悔いる
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 討論競技では、反論の前に相手の主張を本人が納得する形で言い直します。私はそれが好きでした。装甲救援を「臆病者の盾」と呼んだ相手にも、まず理由を聞いた。実際の盾は自分を守る壁ではなく、避難者へ危険が届くまで時間を稼ぐ物です。地下演習区の空洞を読み、内側で安堵の息を聞いて、その考えは確信になりました。ただ一度、勝ち急いで相手の恐怖を要約し損ねた。それ以来、理解したつもりでも最後まで聞きます。議論も救援も、相手を自分の速度で引きずらない方がよいので。
 

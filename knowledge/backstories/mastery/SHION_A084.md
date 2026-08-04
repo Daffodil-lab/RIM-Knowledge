@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A084"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 多重勲章親衛兵
 - Era: EraIndependent / Origin: 同盟・帝国混成 / Relation: 評議会親衛隊
 
-- Tone: 戦闘・護衛 / ReviewStatus: 採用済み
+- Tone: 戦闘・護衛 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Mixed
 - VoiceProfile: 無駄口の少ない親衛兵。戦闘功績より避難者を守った判断を誇り、借り物を律儀に保管する。
-- PreservedCanonPoints: 本人は射撃と近接の双方で同族から勲章を受け、多数の暗殺と災害から評議員を守った。 / 命令より避難者を優先した一件を、最も誇る叙勲理由としている。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
+- PotentialReferencePoints: 本人は射撃と近接の双方で同族から勲章を受け、多数の暗殺と災害から評議員を守った。 / 命令より避難者を優先した一件を、最も誇る叙勲理由としている。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
 
 > 射撃と近接の両方で章を受けました。評議員を狙う暗殺者も止め、崩落した議場から護衛対象を運び出した。ですが、いちばん誇るのは命令へ背いた一件です。退路を確保せよと言われた時、通路には避難できない市民が残っていました。私は評議員を安全区画へ押し込み、市民の列へ戻った。後で処分ではなく叙勲になったのは、守られた評議員自身が命令の誤りを認めたからです。展示棚には章より、避難者から借りた傘が多い。返そうとしましたが、「次も誰かへ使え」と言われましてね。
 

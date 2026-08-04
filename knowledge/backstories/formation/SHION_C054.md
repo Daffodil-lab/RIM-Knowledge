@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C054"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 失踪席予約係
 - Era: LongTransition / Origin: 無党派 / Relation: 共同食堂
 
-- Tone: 日常・喪失 / ReviewStatus: 採用済み
+- Tone: 日常・喪失 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 頑固な予約係 / 淡々 / 空席を約束と見る / 帰還へ過剰な期待を隠さない
-- PreservedCanonPoints: 本人は行方不明者の席を、帰還予定なしのまま予約し続けた。 / 新しい客が増えるたび机を継ぎ足し、古い名札を外さなかった。 / 百回目の増築後、一人だけが自分の席へ戻った。
+- PotentialReferencePoints: 本人は行方不明者の席を、帰還予定なしのまま予約し続けた。 / 新しい客が増えるたび机を継ぎ足し、古い名札を外さなかった。 / 百回目の増築後、一人だけが自分の席へ戻った。
 
 > 席を空けておくのは非効率です。何度も言われました。行方不明者に帰還予定はなく、新しい客が増えるたび机を継ぎ足した。それでも名札は外さなかった。百回目の増築後、一人が戻り、自分の席へ迷わず座ったんです。私を覚えてはいませんでしたが、机の傷だけは指でなぞった。あの一人のために百席分の空間を使ったのか、と聞きたいのでしょう。はい。私は使います。全員が戻るとは信じていません。それでも、帰れるかもしれない者から入口を奪わないことが、私にとって予約という言葉の意味です。
 

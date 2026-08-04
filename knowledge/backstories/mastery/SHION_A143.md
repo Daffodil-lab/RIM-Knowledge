@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A143"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 評議競技指導
 - Era: ModernUnion / Origin: 複数党派 / Relation: 同盟評議会
 
-- Tone: 政治・生活・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 政治・生活・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 豪快で卓越した競技指導員。異なる身体を同じ型へ押し込まず、動物の動きから受け身を学ぶ。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自治評議区で身体競技を教えました。私の投げ技は同族にもよく知られています。だからこそ、全員へ同じ型を強いるのは嫌いです。同じ狐娘型でも質量と出力が違えば、安全な受け身は変わる。外部居住者や動物の参加者には、さらに別の規則が要ります。保護動物の転がり方まで観察し、競技規則を身体ごとに組み直しました。評議会では不公平だと揉めましたよ。私は同じ動作を求めることと、同じ挑戦の機会を与えることは違うと説明しました。最後は異なる党歴の住民が互いの審判を務めた。頂いた最高章より、試合後に全員で同じ卓を囲んだ騒がしさを覚えています。
 

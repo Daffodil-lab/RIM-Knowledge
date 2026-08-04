@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C404"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 活字拾い
 - Era: ColonizationEra / Origin: 印刷隊 / Relation: 職長
 
-- Tone: 皮肉・自嘲・誇り / ReviewStatus: 採用済み
+- Tone: 皮肉・自嘲・誇り / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 自嘲気味で少し突き放すような、やや冷めた口調。感情を斜めから見せるように語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 活字を裏返しに拾い続ける仕事なんて、今思えば滑稽ですよ。文字は全部逆さまに見える箱から、正しい向きで並べなきゃいけない。職長は私が間違えるたびに「お前は世界を逆から読む才能があるな」って笑ってました。皮肉のつもりだったんでしょうけど、私は本当に逆から読むのが得意になってしまって、それが少し悔しいような、誇らしいような気分です。今でも文字を見ると、つい裏側の形を想像してしまいます。
 

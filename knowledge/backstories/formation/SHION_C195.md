@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C195"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: Kombinat旧工程読書
 - Era: LongTransition / Origin: 無党派 / Relation: 長い過渡期
 
-- Tone: 工業・保守・形成 / ReviewStatus: 採用済み
+- Tone: 工業・保守・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 工程書を物語として読む / 欠落を埋めない / 夜食に詳しい / 手作業の復旧を誇る
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 古文書と言っても、私たちが読んだのは旧式Kombinatの工程書です。欠けた行を想像で埋めず、「誰が直せたか」「停止時に何を食べたか」まで拾いました。党派と制度が変わるたび責任者名は消えましたが、油染みと夜食の献立は残った。大停止の夜、読書会の知識で皆を手作業へ戻せたんです。ただし一つ、記号を読み違えて余計に遠回りしました。それも追記しましたよ。完全な成功談より、冗談を言いながら間違いを直した工程の方が、次の者には使いやすいでしょう。
 

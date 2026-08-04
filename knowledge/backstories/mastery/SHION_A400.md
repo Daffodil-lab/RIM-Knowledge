@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A400"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 帳簿係
 - Era: ColonizationEra / Origin: 移住船団 / Relation: 補給班
 
-- Tone: 几帳面・交渉・忍耐 / ReviewStatus: 採用済み
+- Tone: 几帳面・交渉・忍耐 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 丁寧で几帳面、当時のやり取りを再現するように語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 「この数字、また合わないぞ」と班長に何度も詰め寄られました。私は「倉庫の湿気で袋の重さが変わるんです」と説明しましたが、なかなか信じてもらえなくて。結局、湿度計を倉庫に置いて記録を取り、証明して見せたんです。それからは誰も私の帳簿を疑わなくなりました。インクの匂いと紙をめくる音が、私にとって一番落ち着く時間でした。数字は嘘をつかない、それが私の信条です。
 

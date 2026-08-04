@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C303"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 時差帰還記録
 - Era: ModernUnion / Origin: 無党派 / Relation: 帰還者支援局
 
-- Tone: 戦争・時間・形成 / ReviewStatus: 採用済み
+- Tone: 戦争・時間・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 非常に忍耐強い聞き手。異なる経験時間を食事と証言から照合し、空白を守る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帰還兵港では、昨日出征した者と途方もない任務時間を生きた者が同じ船から降りました。私は欠けた記録を勝手に補わず、食事中に思い出した匂いや道具の使い方まで聞き取りました。古い命令は現在の暮らしへ持ち込ませませんでした。再会した友とは外見が同じでも、積み重ねた時間が違いすぎて誰も冗談を言えなかった。私は昔の料理を出しましたが、友は味を覚えていませんでした。故郷の素材は戻せても、会話まで同じにはならない。空白を急いで埋めず、今の友が話したい言葉を待つことが私の役目になりました。
 

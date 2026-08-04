@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A049"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 復活者住宅管理人
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟住宅局
 
-- Tone: 生活・医療周辺 / ReviewStatus: 採用済み
+- Tone: 生活・医療周辺 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 世話好きな住宅管理人。戸口での小さな沈黙を、設備より大切な仕事として語る。
-- PreservedCanonPoints: 本人は蘇生直後の住民が暮らす住宅を管理し、本人より先に戻った家具と、本人より遅れて戻る記憶を同じ部屋で待った。 / 鍵の交換より、古い隣人への挨拶を手伝う時間の方が長かった。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
+- PotentialReferencePoints: 本人は蘇生直後の住民が暮らす住宅を管理し、本人より先に戻った家具と、本人より遅れて戻る記憶を同じ部屋で待った。 / 鍵の交換より、古い隣人への挨拶を手伝う時間の方が長かった。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
 
 > 蘇生した住民のための住宅を管理していました。家具の方が本人より先に戻り、記憶は本人より遅れて戻る。そんな部屋ばかりです。鍵ならすぐ替えられますが、昔の隣人へ何と挨拶するかは交換部品がありません。私は戸口まで付き添い、言葉が出るまで一緒に待ちました。「ただいま」を言えず、初対面の挨拶を選ぶ人もいます。それでいいんです。新しい身体が古い暮らしへ戻るとは限らない。管理人として守るべきなのは部屋だけでなく、戻るか戻らないかを本人が決める時間だと、そこで覚えました。
 

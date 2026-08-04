@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A406"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 荷役頭
 - Era: ColonizationEra / Origin: 港湾建設隊 / Relation: 荷役班
 
-- Tone: 統率・現場・愛嬌 / ReviewStatus: 採用済み
+- Tone: 統率・現場・愛嬌 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Mixed
 - VoiceProfile: 声が大きく威勢のいい、面倒見のよい口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > なんで荷役の頭なんて損な役回りを引き受けたのかって？誰かがやらなきゃ荷物が港に積み上がって腐るだけだったからよ。あたしは声が大きいってだけの理由で頭に担ぎ上げられたの。力仕事の合間に冗談を飛ばして場を和ませるのも仕事のうちだと思ってた。潮の匂いと冷却排気、作業材の匂いが混ざった甲板の記憶は今でも鮮明。荷が時間通りに積み終わった時の達成感だけは、誰にも譲れない。
 

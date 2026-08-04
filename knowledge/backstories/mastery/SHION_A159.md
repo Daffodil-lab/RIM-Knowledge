@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A159"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 低温区農園技師
 - Era: ModernUnion / Origin: 無党派 / Relation: 研究安全局
 
-- Tone: 科学・風刺・職歴 / ReviewStatus: 採用済み
+- Tone: 科学・風刺・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 辛辣な農園技師。便利な低温技術を信用せず、凍った菓子を研究者へ突き返して失敗範囲を問う。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 低温研究区の農園で、便利な冷却発明の影響を調べました。研究員は保存期間の長さを誇りましたが、私は故障時にどこまで凍るかを先に聞いた。答えが曖昧だったので、試験畑と食堂を遮断しました。翌日、彼らの祝い菓子だけが凍りついた。皆、皿の前で黙りましたよ。私は笑いませんでした。少ししか。小さな菓子で済んだから笑えたんです。発明は用途より、失敗が生活へ広がる道を先に調べるべきです。農園は研究成果を飾る場所ではなく、住民の次の食事を守る場所ですから。
 

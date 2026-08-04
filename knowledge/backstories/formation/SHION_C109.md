@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C109"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 祝宴堂救護
 - Era: EraIndependent / Origin: 無党派 / Relation: 文化共同体
 
-- Tone: 料理・記憶・形成 / ReviewStatus: 改稿採用済み
+- Tone: 料理・記憶・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 控えめな救護役 / 沈黙に敏感 / 構造安全も見る / 完璧な祝宴を疑う
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 祝宴堂で一番忙しいのは厨房だと思うでしょう。私は救護卓の方が人をよく見られると思います。食事を必要としない身体でも、昔の味を前にすると感覚応答や声が変わる。私は診察具を並べ、不安を聞き、ついでに避難扉の開き方まで確かめました。ある晩、最後の皿が出た後に誰も話さなくなった。失敗した献立ではありません。戻らなかった料理人の手順を再現し過ぎたんです。完璧に戻すことが慰めになるとは限らない。以来、私は余白のある祝宴を好みます。新しい思い出が座れる席を残したいので。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C363"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 配線図の指
 - Era: JourneyEra / Origin: 西側／鉄の国の民 / Relation: 機関整備見習い班
 
-- Tone: 技術・継承・精密 / ReviewStatus: 採用済み
+- Tone: 技術・継承・精密 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 淡々と手順を語る、感情の代わりに工具の名前が出る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 配線は色でなく、被覆の巻き方の癖で見分けるんです。僕は見習い班で、まず三号ドライバーの持ち方から叩き込まれました。指導役の癖でネジは必ず時計回りに三度緩めてから外す。理由は聞かなかった、癖には理由がなくても価値があると教わったから。灯りの配電盤を一つ直すのに丸二日かかったこともあります。手が油で滑って何度も工具を落としました。あの盤の裏には僕の指紋が今もこびりついているはずです。技術は覚えるものじゃなく、指に住まわせるものだと僕は考えます。
 

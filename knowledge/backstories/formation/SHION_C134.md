@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C134"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 帰還港再会案内
 - Era: LongTransition / Origin: 無党派 / Relation: 長い過渡期
 
-- Tone: 戦争・時間・形成 / ReviewStatus: 採用済み
+- Tone: 戦争・時間・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 礼儀正しい受付役 / 経過時間と身体更新歴の差を同一視しない / 地下待機所に詳しい / 関係の再構築を見守る
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帰還兵港の受付では、到着時刻より本人が生きた時間を確認しました。古い命令を現代の任務と誤認しないよう封じ、再会相手には記憶の差を先に伝えた。待機所が地下へ移った時は空洞図まで読み込んだので、迷子だけは出していません。友同士が会っても、片方だけ途方もなく長く生きていれば、冗談にはできない差があります。私自身、蘇生した友へ昔の続きを急がせて失敗しました。今は「元に戻れ」と言いません。二人が新しい呼び方を決めるまで、受付の椅子を空けて待つことにしています。
 

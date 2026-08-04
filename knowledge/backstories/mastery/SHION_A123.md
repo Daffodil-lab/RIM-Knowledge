@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A123"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 塔域農園技師
 - Era: ModernUnion / Origin: 無党派 / Relation: 塔域共同体
 
-- Tone: 塔・記録・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 塔・記録・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 静けさを好む農園技師。塔の記録より住民の短い挨拶を頼りにし、大規模改築を避ける。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 塔域居住層の農園を世話しました。壁を抜いて日照を増やす案もありましたが、古い塔は一度触ると別の層まで響きます。私は大工事より照明と水路を少しずつ動かし、住民が通る時間へ収穫を合わせました。端末に現れるアロンの投影へ作業報告を渡す時も、独立人格と取り違えないよう記録を照合しました。塔は静かで、皆の挨拶も短い。それでも毎日同じ者が「今日は芽が出た」と言いに来た。その一言が途絶えない農園なら、収量表以上に暮らしを支えていると思います。
 

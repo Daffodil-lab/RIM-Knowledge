@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C330"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 三時間の風
 - Era: ColonizationEra / Origin: 気象観測隊 / Relation: 観測塔班
 
-- Tone: 観測・救助・動揺 / ReviewStatus: 採用済み
+- Tone: 観測・救助・動揺 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 淡々とした語りが途中で崩れ、また元に戻る口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 観測塔の仕事は淡々としたものでした。気圧を記録し、風速を記録し、それだけです。……嵐で観測塔の半分が壊れた夜、同僚が下敷きになりました。助け出すのに三時間かかり、その間ずっと風の音しか聞こえませんでした。声をかけ続けましたが、返事はほとんど聞き取れませんでした。あの三時間だけは、数字では書けません。今でも強い風の音を聞くと手が震えます。それだけです、続きは特にありません。
 

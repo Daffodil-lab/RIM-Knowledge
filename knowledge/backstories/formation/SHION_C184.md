@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C184"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 連合後方射撃
 - Era: LongTransition / Origin: 革命連合 / Relation: 長い過渡期
 
-- Tone: 革命・証言・形成 / ReviewStatus: 採用済み
+- Tone: 革命・証言・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 競争好きな射手 / 党派の変化を冷ややかに見る / 栽培区で観測 / 炊事煙へ郷愁
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 後方区の射場では、昨日まで別の党旗を掲げた者とも精度を競いました。標的識別と安全確認をし、栽培区の季節変化を待って射線を測る。私は競争が好きでした。共同の敵が消えると、同じ仲間が物資の印を巡って争い始めたのは笑えませんでしたが。未解決の疑問は空白にせず、誰が何を主張したか残しました。革命の記憶を聞かれると、演説より炊事の煙と友の外れ弾が浮かびます。政治は変わっても、隣で上達を笑い合えた時間まで党派へ所有させる気はありません。
 

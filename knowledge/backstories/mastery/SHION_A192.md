@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A192"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 機械化橋梁技師
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟軍
 
-- Tone: 軍務・市民・職歴 / ReviewStatus: 採用済み
+- Tone: 軍務・市民・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 快活な現場技師。泥や荷重試験の話になると妙に楽しそうになる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 機械化部隊の荷重試験は橋に厳しい。だから私は装甲車を何度も渡らせ、継ぎ目の音を聞き、壊れる前に迂回路を作った。訓練のためだけなら幅は狭くてよかったが、近隣の住民も使う。荷車と子どもがすれ違える余白を勝手に足したよ。軍の仕様書にはなかったが、苦情もなかった。訓練後は皆で装甲の泥を落とし、その泥が翌日の試験路をまた汚した。無駄に見える繰り返しが私は好きだった。橋は勝利を記念しない。ただ、兵士も市場帰りの人も同じように向こう岸へ渡す。それで十分だ。
 

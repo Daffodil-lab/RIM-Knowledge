@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C288"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 撃たない舞台
 - Era: ModernUnion / Origin: 無党派 / Relation: 特殊任務機関
 
-- Tone: 特殊任務・法執行・形成 / ReviewStatus: 採用済み
+- Tone: 特殊任務・法執行・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 芝居好きで分析的。法執行の逮捕・救出・証拠保全を舞台上で学ぶ。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 特殊任務学校で、私は逮捕劇の舞台を作りました。軍事作戦なら敵を排除して終わる場面でも、法執行では容疑者を生かして拘束し、被害者を救い、証拠を壊さず持ち帰らなければならない。役者同士の組み手で力加減を覚え、故郷と死者を扱う脚本にも救出後の暮らしを加えました。派手な発砲場面は人気でしたが、私は一発も撃たず終える筋を何度も直しました。そういう任務ほど検討すべき判断が多いからです。今でも成功を火力だけで測る物語は、少し退屈だと思っています。
 

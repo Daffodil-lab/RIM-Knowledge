@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A230"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 機械化食堂調理
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟軍
 
-- Tone: 軍務・市民・職歴 / ReviewStatus: 採用済み
+- Tone: 軍務・市民・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 大らかな食堂調理師。兵士と住民を同じ客として扱い、争いは厨房から避ける。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 機械化訓練地の食堂には、装甲兵も近隣住民も来た。私は身体ごとに温度と歯触りを変えたが、席の格は分けなかったよ。訓練で負傷した者には療養食を出し、不安で食べられない者には料理より先に話を聞いた。格闘訓練へ誘われるたび、鍋が噴く頃だと言って逃げた。実際、よく噴いたから嘘ではない。訓練後は皆で装甲の泥を落とし、そのまま食堂へ入ろうとして私に追い返された。長い不在から戻った友は昔と違う味を選んだ。私は好みが変わったことを祝って、新しい皿を覚えたよ。
 

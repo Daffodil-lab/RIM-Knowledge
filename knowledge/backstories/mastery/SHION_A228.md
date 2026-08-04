@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A228"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 市場仮設建築
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 星間交易圏
 
-- Tone: 交易・旅・職歴 / ReviewStatus: 採用済み
+- Tone: 交易・旅・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 商売人めいた現場建築士。契約書より、実際に寝る人の癖を信用する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 星間市場の仮設住宅は、契約書より早く建てる必要があった。帰還者は到着した夜に眠る場所が要るからね。私は現場で壁を立て、本人が歩くのを見て扉と寝台を動かした。抽象的な計画は得意な者へ任せ、私は曲がった床と荷物の置き方を信じた。品物の来歴と支払期限は厳しく確かめたが、信用のない相手とも閉店後には同じ鍋を分けたよ。蘇生した友の部屋を昔どおりに作ったら、彼は窓の向きを変えてほしいと言った。少し寂しかった。それでも改修した。家は記憶を展示する箱ではなく、今の住人が休む場所だからね。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C181"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 騎士帰還付き添い
 - Era: ImperialPeak / Origin: 旧帝国 / Relation: 最盛期帝国社会
 
-- Tone: 空挺・友情・形成 / ReviewStatus: 採用済み
+- Tone: 空挺・友情・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 礼節正しい救護生 / 再会を急がせない / 構造安全に詳しい / 動物対応は不得手
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 騎士訓練場で蘇生者へ付き添うのも、最盛期の長い修業の一つでした。記憶と身体のずれを診て、避難路を確かめ、再会相手へ「以前どおり」を要求しないよう説明する。動物を用いる反応確認は不得手で、別の生徒へ頼みました。最初に担当した騎士は、仲間の声を聞いても振り向けなかったんです。周囲は失敗と思いましたが、本人は声を聞けただけで十分だと言った。私はその言葉を記録へ残しました。平和な時代の美徳は、帰還を祝うことより、帰った者が立ち止まる権利を律法で守れたことだと思います。
 

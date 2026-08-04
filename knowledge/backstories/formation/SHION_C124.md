@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C124"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 監査護衛遊戯
 - Era: ModernUnion / Origin: 無党派 / Relation: 制裁部隊監査
 
-- Tone: 制裁・倫理・形成 / ReviewStatus: 採用済み
+- Tone: 制裁・倫理・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 護衛競技好き / 射撃より退路を語る / 権威へ辛辣 / 温室で気を鎮める
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 監査室の護衛競技が趣味でした。物騒な響きですが、勝つ条件は射撃数ではなく、要人役と証拠箱を無傷で退路へ出すことです。私は温室を模した区画で遮蔽物を読み、植物を傷めない射線まで探しました。実際の制裁部隊を見学した時、圧倒的な火力を持つ者ほど命令目的と被害範囲を細かく書くべきだと知った。逆に「正しかった」としか言わない者ほど、記録を開きませんでしたね。私はそういう断言が嫌いです。強さを楽しむなら、使わずに終える難しさまで競うべきでしょう。
 

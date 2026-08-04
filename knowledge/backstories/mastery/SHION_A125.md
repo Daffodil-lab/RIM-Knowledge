@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A125"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 塔域道具修復
 - Era: ModernUnion / Origin: 無党派 / Relation: 塔域共同体
 
-- Tone: 塔・記録・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 塔・記録・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 偏屈な修復師。古傷を勝手に消さず、射線機器は直すが厨房道具には苦戦する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 塔域で古い道具を直していました。新しく作る方が早い品でも、持主が覚えている傷は残します。遠距離照準器のひびを補強した時、照準線を塞がない程度の傷だけ残してほしいと頼まれました。昔の友が付けた印だったそうです。端末に映るアロンの投影から依頼を受ける時は、誰の意思で預かった品か必ず照合しました。厨房道具だけは苦手です。直した鍋で煮込みが焦げ、料理人に二度修理代を請求されました。それでも柄の傷は残したので、半分は誉められましたよ。
 

@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C261"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 党派混植菜園
 - Era: ModernUnion / Origin: 複数党派 / Relation: 同盟評議会
 
-- Tone: 政治・生活・形成 / ReviewStatus: 採用済み
+- Tone: 政治・生活・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 快活な調停役。思想の違いを、畝と食卓を共にする日常から語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自治評議区の菜園では、党派ごとに畝を分ける案が出ました。私は反対して、社会民主党の豆と共産党の麦、帝国離反者の香草を混ぜて植えました。案の定、水やりの順で大げんかです。それでも病気が出れば皆で土を替え、収穫すれば同じ卓で食べました。枯れた株を誰の失敗にするかで夜まで話したこともあります。私はその議事録を消しませんでした。古い旗の色はもう曖昧なのに、会議後の煮込みの味は覚えています。違いをなくすより、失敗した翌日も同じ畑へ来られることを大切にしたいです。
 

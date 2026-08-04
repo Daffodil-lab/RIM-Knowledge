@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C347"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 経文なき問い
 - Era: JourneyEra / Origin: 詠唱見習い / Relation: 詠唱教室
 
-- Tone: 詠唱・疑問・形成 / ReviewStatus: 改稿採用済み
+- Tone: 詠唱・疑問・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 素朴で好奇心旺盛な若い口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > どうして決まった経文がないんだろう、って先生によく聞いていました。僕が通っていた詠唱教室では、毎回少しずつ違う言葉で同じ節を歌っていて、僕はそれが不安でした。先生は「まだ誰も正しい形を知らないからだ」と答えました。僕は当時それを頼りない答えだと思いましたが、大人になった今は逆に思います。最初から決まった経文があったら、僕らはただの暗唱係になっていたはずです。決まっていなかったからこそ、僕らは自分の声で歌う練習をさせられたのです。
 

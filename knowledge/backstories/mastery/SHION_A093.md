@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A093"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 帰還船団救命長
 - Era: EraIndependent / Origin: 帝国離反者系 / Relation: 星域帰還船団
 
-- Tone: 医療・救命 / ReviewStatus: 採用済み
+- Tone: 医療・救命 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 執念深い救命長。表彰を受けながらも、時間嵐へ消えた一隻の捜索をやめない。
-- PreservedCanonPoints: 本人は時間嵐で分断された帰還船団を追い、蘇生設備へ届く前の救命で多数を帰した。 / 同族から勲章級と評されても、間に合わなかった一隻の航路を探し続けた。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
+- PotentialReferencePoints: 本人は時間嵐で分断された帰還船団を追い、蘇生設備へ届く前の救命で多数を帰した。 / 同族から勲章級と評されても、間に合わなかった一隻の航路を探し続けた。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
 
 > 時間嵐で分断された帰還船団を追い、蘇生設備へ着く前に救命を続けました。多くの船を連れ戻し、救命章も受けましたよ。それでも一隻だけ、航跡が嵐の中で途切れたままです。表彰式の日も捜索窓を閉じられず、写真では横を向いています。無礼だったとは思います。でも、見つからないことと存在しないことは同じではありません。時間の外へ流された可能性が一つでも残るなら、帰還路を更新し続けます。章は終わった任務へ与えられましたが、私にとってあの船団の任務はまだ終わっていないんです。
 

@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A263"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 機械戦徒手警護
 - Era: ModernUnion / Origin: 無党派 / Relation: 対メカノイド部隊
 
-- Tone: 対機械・判断・職歴 / ReviewStatus: 採用済み
+- Tone: 対機械・判断・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 寡黙な救難警護員。機械を人格化せず、それでも破壊を軽く扱わない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 対機械戦区では、避難者と飼育動物を武器なしで誘導した。暴れる者は押さえたが、壊さず離すことを優先したよ。敵性機械を見て、同族が狂ったのだと叫ぶ者もいた。私は自由意志と指揮系統を確認し、道具として動く人工知能を人格存在と混同しなかった。それは破壊を気楽にするためではない。何を止め、誰を救うか正確にするためだ。戦闘後、残骸から単純な作業記録が出た。願いや遺言ではなかった。ただ命令の反復だった。私はそれも保管した。敵へ物語を足すのも、記録を消すのも避けたかった。
 

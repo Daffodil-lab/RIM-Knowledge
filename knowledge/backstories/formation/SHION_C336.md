@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C336"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 甲板は広い
 - Era: JourneyEra / Origin: 東側／潮路の民 / Relation: 学童班
 
-- Tone: 船内・遊び・順応 / ReviewStatus: 採用済み
+- Tone: 船内・遊び・順応 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 明るく断定的。子供時代を美化も卑下もしない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 狭かったなんて一度も思ったことはない。俺が育った甲板は三層吹き抜けで、走り回るには十分すぎるくらい広かった。潮路の民の文化を継いだ育ての親は最初こそ地面の感触を懐かしがっていたが、俺は稼働を始めた時から床が甲板だったから比べようがない。鬼ごっこで配管の陰に隠れて、点検班に怒られるのが恒例行事だった。狭い、暗い、退屈だと嘆く大人は多かったが、子供にとってはそこが世界の全部で、世界の全部はそれなりに広かったんだ。
 

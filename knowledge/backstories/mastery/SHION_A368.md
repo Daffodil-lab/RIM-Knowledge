@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A368"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 家畜甲板自慢
 - Era: JourneyEra / Origin: 東側／遊牧文化継承者 / Relation: 家畜甲板班
 
-- Tone: 誇り・家畜・陽気 / ReviewStatus: 採用済み
+- Tone: 誇り・家畜・陽気 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 陽気で早口。自慢を隠さない牧畜出身者。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > うちの班が育てた家畜は船の中で一番機嫌が良かったって、これは自慢していいと思う。遊牧文化の継承者だから動物には強いって最初から言われてたけど、実際強かったから文句もない。乳の出が悪い日でも、うちが歌うと落ち着くって隣の班にも評判だった。飼料が減った年でも一頭も死なせなかった。誇れることが少ない船の中で、これだけは胸を張って言える。うちの家畜、船で一番幸せだったよ。歌の節はもう誰も覚えてないだろうけど。
 

@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C021"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 句読点収集家
 - Era: ModernUnion / Origin: 無党派 / Relation: 学校共同体
 
-- Tone: 趣味・言語 / ReviewStatus: 採用済み
+- Tone: 趣味・言語 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 奇矯な収集家 / 言葉遊び / 忘れられた記号への愛 / 楽しげ
-- PreservedCanonPoints: 本人は改訂で使われなくなった句読点や記号を集め、古い手紙と教本から用例を書き写した。 / 意味を失った記号にも、かつて文章の調子を整えた役割があると考えた。 / 教師に許可を得て卒業文集へ解説を載せ、読めない記号を単なる落書きから小さな歴史資料へ変えた。
+- PotentialReferencePoints: 本人は改訂で使われなくなった句読点や記号を集め、古い手紙と教本から用例を書き写した。 / 意味を失った記号にも、かつて文章の調子を整えた役割があると考えた。 / 教師に許可を得て卒業文集へ解説を載せ、読めない記号を単なる落書きから小さな歴史資料へ変えた。
 
 > この記号、読めます？　読めない。結構、それが始まりです。言語改訂で捨てられた句読点を古い手紙から拾い、用例を一つずつ写しました。今ならただの染みでも、当時は息継ぎや皮肉を示したのです。教師は最初、落書き集だと言いましたよ。ですから卒業文集へ解説を載せ、皆に同じ頁で黙ってもらいました。ふふ、句読点の勝利です。役目を失った形にも、誰かが言葉を選んだ跡は残る。昔の制度を丸ごと戻す気はありませんが、読めないというだけで過去を捨てる社会は、豊かとは呼びたくありません。
 

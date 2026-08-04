@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C360"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 甲板の錆
 - Era: JourneyEra / Origin: 東側／凍土の民 / Relation: 家族単位「アーレン班」
 
-- Tone: 船内・郷愁・継承 / ReviewStatus: 採用済み
+- Tone: 船内・郷愁・継承 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: ぶっきらぼうで早口、感傷を嫌うが言葉の端に隠しきれない愛着が出る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 俺の故郷は地図のどこにもない。稼働を始めた甲板の第三区画、それが俺の国だった。一人の育ての親はアーレン班の整備工で、もう一人は凍土の民の言葉で子守唄を歌ったが、俺はその意味を半分も知らずに覚えた。金属の結露を拭く音と機関油の匂い、それが俺の記憶の全部だ。「懐かしくないのか」とよく聞かれるが、懐かしむべき土地なんて最初からなかった。俺はただ、あの匂いと歌を覚えている子供の一人ってだけだ。それを次の世代に渡すのが俺の仕事だった。
 

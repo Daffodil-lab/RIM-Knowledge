@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A184"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 継承動物義肢
 - Era: ModernUnion / Origin: 無党派 / Relation: 教育共同体
 
-- Tone: 教育・継承・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 教育・継承・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 好奇心旺盛な職人気質。師を敬うが、答えを鵜呑みにしない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 最初は趣味だった。脚を失った小動物へ、古い教本どおりの義肢を作ったんだ。寸法は完璧なのに、彼は一歩も踏み出さなかった。教師は理由を教えず、「本人に聞きなさい」とだけ言った。言葉は返らないから、眠り方、耳の向き、床を掻く癖を何日も見た。結局、関節ではなく音が怖かったと分かったよ。それ以来、私は古い知識を敬っても、目の前の相手より上には置かない。深い採掘場へ出る仕事は今も好まない。地面より歩き方を眺めていたいんだ。あの教師が答えを伏せた授業は、私が受けた中で一番親切だったと思う。
 

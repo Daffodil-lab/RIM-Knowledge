@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C200"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 制限地遠征食
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 回収班
 
-- Tone: 遺物・危険・形成 / ReviewStatus: 改稿採用済み
+- Tone: 遺物・危険・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 快活な遠征料理人 / 危険の説明は真剣 / 試食者の体調を見る / 格闘を避ける
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 立入制限地の遠征食は、帰還予定日より長く持たせます。縁起が悪い？　外部居住者や動物まで連れて帰るなら必要な備えです。私は同行者の栄養条件、アレルギー、信仰上の禁忌を聞き、友とは保存期間を競いました。シオンの隊員にも、感覚上の好みと食卓を囲む文化があります。由来不明の遺物は値段で判断せず、周囲に残す危険まで説明した。ある遠征では、輝く遺物が全部危険で、道端の安物だけ無害でした。その飾りを食卓へ置くと皆が笑った。帰った後に笑う理由まで包めるなら、料理は遠征装備以上のものになります。
 

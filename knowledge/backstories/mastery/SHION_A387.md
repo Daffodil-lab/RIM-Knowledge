@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A387"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 整備工
 - Era: ColonizationEra / Origin: 移住船団 / Relation: 機関班
 
-- Tone: 実直・油・現場 / ReviewStatus: 改稿採用済み
+- Tone: 実直・油・現場 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 手順を淡々と説明する現場作業者の口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > あたしの仕事は簡単に言えば冷却管の詰まりを取ることだった。パイプレンチを当てて、まず音を聞く。金属が甲高く鳴る箇所があれば、そこが詰まってる証拠。次に弁を緩めて圧を逃がし、それから分解する。手順を飛ばすと火傷するから、絶対に順番は崩さなかった。油の匂いが染みついた作業着は今でも捨てられずにいる。地味な仕事だけど、船を止めないことがあたしの誇りだった。
 

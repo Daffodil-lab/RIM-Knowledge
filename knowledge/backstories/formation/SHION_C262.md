@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C262"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 去った街の音楽
 - Era: EraIndependent / Origin: 無党派 / Relation: 離脱者共同体
 
-- Tone: 倫理・離脱・形成 / ReviewStatus: 採用済み
+- Tone: 倫理・離脱・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 静かで誠実。去った共同体への愛着と、その不正への拒絶を両立させる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 幸福都市の外縁で、私は保護動物の世話をしていました。街は豊かで、音楽が絶えず、誰もが親切でした。ただ、その暮らしが一人の犠牲へ支えられていると知った。残る者の理由も、去る者の怒りも記録しましたが、私は外へ歩きました。保護区の動物は急に近づけば逃げます。正しい答えを持っているつもりで人へ迫るのも、同じなのかもしれません。後に蘇った友と会っても、街へ戻れとは言いませんでした。私は今もあの音楽が好きです。愛していたものを嫌いにならなければ去れない、とは思わないのです。
 

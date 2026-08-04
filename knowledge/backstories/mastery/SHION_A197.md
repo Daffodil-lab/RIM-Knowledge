@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A197"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 都市群精密工役
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 都市記録局
 
-- Tone: 都市・旅・職歴 / ReviewStatus: 採用済み
+- Tone: 都市・旅・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 不器用な実務家。外勤の腕には自信があるが、料理の失敗は素直に認める。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 移動都市の外壁は、住民が語るよりずっと頻繁に形を変える。私は外へ出て継ぎ目を削り、信号発射器で作業区画を知らせ、都市が動く前に足場を畳んだ。地図では同じ路地でも、古い住民は曲がり角を別の位置に覚えている。私は証言を訂正せず、工具箱へ両方の図を貼った。身体が覚えた道は、時々新しい地図より正しいからね。外勤では頼られたが、食事当番だけは評判が悪かった。煮込みへ精密部品と同じ時間を要求したら、豆が石のようになった。以後、私は鍋ではなく信号灯を担当している。適材適所とはありがたい言葉だ。
 

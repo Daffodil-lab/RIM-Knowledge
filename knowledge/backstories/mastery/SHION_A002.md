@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A002"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 義肢調律師
 - Era: EraIndependent / Origin: 無党派 / Relation: 義肢工房
 
-- Tone: 医療・工芸 / ReviewStatus: 採用済み
+- Tone: 医療・工芸 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 物腰の柔らかな完璧主義者。新品らしさより、利用者が自分らしいと感じる癖を守る。
-- PreservedCanonPoints: 本人は義手の握力、義眼の焦点、人工関節の歩調を利用者ごとに調整する技師となった。 / 規格値だけでなく、本人が自然だと感じる動きや感覚を確かめた。 / 古い軋み音や傷を残したいという依頼にも、安全を損なわない範囲で応じた。
+- PotentialReferencePoints: 本人は義手の握力、義眼の焦点、人工関節の歩調を利用者ごとに調整する技師となった。 / 規格値だけでなく、本人が自然だと感じる動きや感覚を確かめた。 / 古い軋み音や傷を残したいという依頼にも、安全を損なわない範囲で応じた。
 
 > その軋みを消しますか、と私は必ず尋ねます。義手の握力も義眼の焦点も、規格値へ合わせるだけなら簡単です。でも利用者が自然だと感じる歩調は、表の中央にあるとは限りません。ある方は古い傷を残し、ある方は指が動くたび小さく鳴る音を望みました。安全を損なわない範囲で、私は応じました。一度、親切のつもりで傷を磨き消し、持ち主をひどく悲しませたことがあります。それから新品へ戻すという言葉を使いません。私が整えるのは部品ではなく、その人が「私の身体だ」と言える距離です。
 

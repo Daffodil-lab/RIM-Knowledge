@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A105"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 照合局記録官
 - Era: ModernUnion / Origin: 無党派 / Relation: 人格照合局
 
-- Tone: 人格・動物・職歴 / ReviewStatus: 採用済み
+- Tone: 人格・動物・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 厳密だが温かな記録官。人格と道具の区別を性能でなく自由意志から語り、料理の記憶には弱い。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 人格照合局では、事実、推測、後世の注釈を別の欄へ分けました。自由意志を持つ人格複製と、命令どおり働く人工知能は、外見や性能が似ていても同じではありません。拒否し、望み、自分の続き方を選ぶ者を道具の欄へ戻さないための照合です。ある複製人格は、生前の本人が嫌っていた動物を本気で可愛がり、好物の料理まで変わっていました。私は不一致ではなく現在の選択として記録したんです。平和を復元するなら、過去の名簿へ皆を押し戻すのでなく、今の本人が座る席を広げるべきでしょう。
 

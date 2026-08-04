@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A320"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 水路引き
 - Era: ColonizationEra / Origin: 灌漑組合 / Relation: 農地班
 
-- Tone: 灌漑・水路・設計 / ReviewStatus: 採用済み
+- Tone: 灌漑・水路・設計 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 過去より次の工事の話をしたがる前向きな設計者。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 灌漑組合で水路を引いた区画は今も現役だが、正直に言うと設計は甘かった。土管の継ぎ目に使った樹脂が劣化しやすく、十年ごとに補修が要る。当時はそれが最善だったが、今なら継ぎ目の数をもっと減らせるはずだ。農地班と何度も測量をやり直した記憶が体に染みついている、その苦労を次に活かしたい。もし新しい入植地で水路を任されることがあれば、まず継ぎ目を半分に減らす設計から始めるつもりだ。過去の設計図はその下敷きとして残しておいた。
 

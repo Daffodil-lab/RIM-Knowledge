@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A253"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 深層地下救助
 - Era: LongTransition / Origin: 複数党派 / Relation: 残響調査隊
 
-- Tone: 残響・戦争・職歴 / ReviewStatus: 採用済み
+- Tone: 残響・戦争・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 執念深い救助員。再現された友へ呼びかけ続ける自分を、少し恥じている。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 残響深層では、崩落した戦場が同じ瞬間を繰り返していた。私は振動を読み、記録上は存在しない横坑を掘った。英雄と呼ばれた者の進路より、名のない兵が仲間を庇って曲がった跡を選んだよ。その先に友の声が再現されていた。応答しないと分かっていても、私は毎回名前を呼んだ。研究者としては褒められた態度ではないね。何度戻っても友の不在は変わらなかった。だからこそ、地図には呼びかけた位置まで残した。次の救助員が同じ希望を抱いた時、それを誤測定だと恥じずに済むように。
 

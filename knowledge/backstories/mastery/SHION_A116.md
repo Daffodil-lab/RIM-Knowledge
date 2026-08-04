@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A116"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 扶助区公共案内
 - Era: LongTransition / Origin: 社会民主党系 / Relation: 自治共同体
 
-- Tone: 共同体・倫理・職歴 / ReviewStatus: 採用済み
+- Tone: 共同体・倫理・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 親切だが頑固な案内官。共有物にも個人の愛着があると理解し、避難時も勝手に捨てない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 相互扶助区で来訪者を案内し、災害時には避難路を担当しました。ここでは道具を共同で使いますが、誰の物でもないわけではありません。古い掘削具の握りには、長年使った一人の手の傷が残っていました。避難の邪魔だから捨てろと言われ、私は持主へ確認するまで保留したんです。結局その工具で閉塞した退路を開けました。所有権が薄くても、使用責任と愛着は消えません。案内する時も「共同物だから自由」とだけ言わず、誰が世話をし、誰が別れを惜しむかまで伝えます。皆の物は、誰にも大切でない物ではないんです。
 

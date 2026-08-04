@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A127"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 市場臨床医
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 星間交易圏
 
-- Tone: 交易・旅・職歴 / ReviewStatus: 採用済み
+- Tone: 交易・旅・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 交渉上手な旅医者。代金より約束を診て、治療後に患者が眠れる場所まで確保する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 星間市場で旅人と商人を診ました。辺境では通貨より信用が足りません。薬代を払える者でも、治療後に眠る場所がなければ回復しない。私は露店主へ空き倉庫を借り、補強箇所を自分で示し、次の寄港で返す約束まで診療簿へ書きました。偽造薬を持ち込んだ商人も治療はしましたよ。患者であることと、取引を追及されることは別です。閉店後、互いに値を吊り上げていた商人たちが同じ簡素な食事を分けました。市場の信用は、豪華な契約よりそんな夜に少しずつ戻ります。
 

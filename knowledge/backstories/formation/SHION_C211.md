@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C211"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 祝宴堂地下祝宴
 - Era: EraIndependent / Origin: 無党派 / Relation: 文化共同体
 
-- Tone: 料理・記憶・形成 / ReviewStatus: 採用済み
+- Tone: 料理・記憶・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 穴掘り好きの祝宴助手 / 振動を音楽のように聞く / 救出後の冗談を覚える / 沈黙を飾らない
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 祝宴堂の地下が崩れた時、私は壁の振動を聞き、生存者へ届く細い道を掘りました。上では再会と追悼の膳が待っていた。食事を必要としない者も、救出後の最初の冗談には笑うんです。私は坑道へ皿の模様を刻み、次の班へ帰路を渡しました。一度、振動を調理機の音と取り違えて遠回りしたことも隠していません。最後の皿を皆が黙って見た夜があります。私はその沈黙へ意味を描き足したくない。救えた者の笑いと、戻らなかった者の空席を同じ祝宴に置くだけで十分です。
 

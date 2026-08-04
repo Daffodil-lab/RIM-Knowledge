@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C233"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 水上異形競技
 - Era: EraIndependent / Origin: 無党派 / Relation: 観測隊
 
-- Tone: 観測・不可解・形成 / ReviewStatus: 改稿採用済み
+- Tone: 観測・不可解・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 飄々として観察好き。不可解な現象にも、冗談と慎重さを失わない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 海洋観測区の大会では、同じ狐娘型でも内部構成や装備によって、浮力と水中での動きが異なる者が同じ組に入りました。公平という言葉が毎回困るんです。私は対戦相手を傷つけない間合いを探り、水棲動物の動きまで真似しました。競技中、水面に故郷そっくりの街が映ったことがあります。観客も見ましたが、同じ景色を見た者は一人もいなかった。私は失格を申し出ました。観測対象が私たちを変えたのか、私たちが勝手に見たのか分からなかったからです。結局、大会は引き分け。賞品の食事だけは全員同じ味だったので、それで十分だと思いました。
 

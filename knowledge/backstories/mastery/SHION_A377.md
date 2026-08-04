@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A377"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 統合行政初日
 - Era: JourneyEra / Origin: 統合世代 / Relation: 統合行政準備局
 
-- Tone: 統合・行政・帝国 / ReviewStatus: 採用済み
+- Tone: 統合・行政・帝国 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 慎重に言葉を選ぶ若い行政官。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 出身圏の旗を全部下ろした日のことを聞きたいのですか。あの日、私は統合行政準備局の下働きでした。旧い区分ごとの窓口を一つにまとめる作業を、半年かけて進めました。反対も多かったですが、実際に窓口を一つにしたら手続きの待ち時間が三分の一になった。数字は反対派も黙らせました。旗を下ろした日、誰かが泣いていたのを覚えています。悲しみか安堵か、今でも私には分かりません。
 

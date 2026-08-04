@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A339"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 甲板建築左官
 - Era: JourneyEra / Origin: 第三世界／段々畑の民 / Relation: 建築保守班
 
-- Tone: 建築・素材・寡黙 / ReviewStatus: 採用済み
+- Tone: 建築・素材・寡黙 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 無口な左官。道具と材料の名前でしか感情を語らない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > わしが使うコテは三種類しかない。荒塗り用、中塗り用、仕上げ用。それぞれ柄の太さが違うのは、握る力の入れ方が違うからだ。段々畑の民の村では土壁を家族総出で塗ったが、船の壁は合成材で、乾く速さも匂いも全く違った。最初の十年は失敗続きで、剥がれた壁を何度も塗り直しては、材料の配合表を自分の手で書き換えた。今のわしの手は合成材の粉で白く荒れているが、この荒れ方が仕事の証だとしか言いようがない。
 

@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C079"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 法衣内読解者
 - Era: EraIndependent / Origin: ソフェル / Relation: 典礼衣装院
 
-- Tone: 芸術・観察 / ReviewStatus: 採用済み
+- Tone: 芸術・観察 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 衣服史の愛好者 / 内緒話の調子 / 裏側を好む / 修繕者を記憶する
-- PreservedCanonPoints: 本人は法衣の表に輝く章句より、裏地へ縫われた修繕記録を好んだ。 / 何度直され、誰が着て、どの友を看取ったかを読み、衣服にも身体と同じ長い生涯があると知った。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
+- PotentialReferencePoints: 本人は法衣の表に輝く章句より、裏地へ縫われた修繕記録を好んだ。 / 何度直され、誰が着て、どの友を看取ったかを読み、衣服にも身体と同じ長い生涯があると知った。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
 
 > 法衣の表ですか？　金糸の章句は誰でも見ます。私は裏地の縫い目が好きでした。誰が袖を詰め、どの戦災で裾を継ぎ、着用者が誰を看取った時に涙染みを残したか。修繕記録は小さく縫い込まれていました。衣服にも身体と同じ長い生涯があります。新しい布へ置き換えれば軽くなるのに、私は古い裏地を残した。見えない所へ手を掛けた者まで失いたくなかったからです。ソフェル、表の章句だけ写さないでくださいね。歴史は、目立たない糸で辛うじて繋がっていることがあります。
 

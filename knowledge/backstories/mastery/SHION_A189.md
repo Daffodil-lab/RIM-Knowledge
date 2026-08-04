@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A189"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 都市群古文書研
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 都市記録局
 
-- Tone: 都市・旅・職歴 / ReviewStatus: 採用済み
+- Tone: 都市・旅・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 学究肌だが生活感覚を失わない。古文書を食卓や避難路へ結びつけて語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 古文書の欠けた一行を、もっともらしい物語で埋めるのは簡単だ。私は読めないものへ「読めない」と札を付け、そのまま地図へ載せた。救難隊は不満そうだったが、後にその空白が埋没した路地だと分かった。昔そこへ住んだ人々の証言は方角まで食い違ったのに、煮込みへ入れた豆の数だけ一致したよ。そこで古い献立を再現し、匂いから避難口の位置を思い出してもらった。学問としては少し行儀が悪いかもしれない。だが一人帰せた。消えた路地を歩いた身体と、食卓の記憶は、紙よりしぶといことがある。
 

@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A052"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 遺族連絡官
 - Era: EraIndependent / Origin: 無党派 / Relation: 星域救護網
 
-- Tone: 社交・看取り / ReviewStatus: 採用済み
+- Tone: 社交・看取り / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 慎重で温かな連絡官。沈黙を恐れず、希望にも絶望にも結論を急がない。
-- PreservedCanonPoints: 本人は死亡通知だけでなく、蘇生の見込みと不完全な記憶の可能性まで家族へ伝えた。 / 希望を売らず、絶望も決めつけず、返事が出るまで同じ席に座った。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
+- PotentialReferencePoints: 本人は死亡通知だけでなく、蘇生の見込みと不完全な記憶の可能性まで家族へ伝えた。 / 希望を売らず、絶望も決めつけず、返事が出るまで同じ席に座った。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
 
 > 私の仕事は死亡を伝えて終わりではありませんでした。蘇生の見込みがあること、戻っても記憶が欠けるかもしれないこと、同じ人だと感じられない可能性まで、一つずつ家族へ話しました。希望だけを売れば後で傷つける。絶望を決めつければ、待つ権利を奪う。だから返事が出るまで同じ席に座りました。何も言わず夜を越したこともあります。今でも、あの時もう少し良い言葉があったのではと考えますよ。でも、急いで埋めた沈黙ほど残酷なものもある。私は次の知らせでも、相手の時間が動き出すまで待ちます。
 

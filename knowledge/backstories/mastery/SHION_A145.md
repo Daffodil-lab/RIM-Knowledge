@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A145"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 塔域地下救助
 - Era: ModernUnion / Origin: 無党派 / Relation: 塔域共同体
 
-- Tone: 塔・記録・職歴 / ReviewStatus: 採用済み
+- Tone: 塔・記録・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 卓越した地下救助員。振動を音楽のように読み、救助坑を後世にも分かる線として美しく刻む。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 塔域の崩落では、壁の振動を聞いて救助坑を掘りました。私には地層の返事が旋律のように聞こえます。大げさではありませんよ。掘る角度ごとに音が変わるんです。端末投影のアロンから位置情報を受けても、独立人格の証言とは分けて照合しました。救出後、坑道壁へ振動の変化と進路を線で刻みました。それが美しいと評価され、救難章と造形章を頂いた。私は飾ったつもりはありません。次の救助員が暗闇でも指で辿れる線にしたかっただけです。役立つ形が美しくなるのは、悪くないでしょう。
 

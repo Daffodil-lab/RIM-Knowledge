@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C416"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 写経見習い
 - Era: AscendantEra / Origin: イェツィラー学舎 / Relation: 師のソフェル
 
-- Tone: 緊張・畏怖・誠実 / ReviewStatus: 改稿採用済み
+- Tone: 緊張・畏怖・誠実 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 緊張を隠せない、丁寧で言葉を選ぶ口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 師は私にまだマソレットの一文字も書かせてくれませんでした。与えられたのは、既に書かれた文字をひたすら目で追い、線の向きを暗記する日々です。ある日、師の手が一瞬だけ震えて、文字が僅かに歪んだのを見てしまいました。師は何も言わずその紙を燃やし、最初から書き直しました。あれほど熟練した人の手でも震えることがあるのだと知って、私は文字を書くという行為の重さを初めて実感したのです。今も緊張すると、あの震えた一画を思い出します。
 

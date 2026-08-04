@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C318"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 順番の石
 - Era: ColonizationEra / Origin: 灌漑隊 / Relation: 配水班
 
-- Tone: 灌漑・配水・淡白 / ReviewStatus: 改稿採用済み
+- Tone: 灌漑・配水・淡白 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 感情を見せずに事実だけを並べる、素っ気ない口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 涸れた川の話ですか。特に感傷はありません。水路を掘り直しただけです。灌漑隊の仕事は単調で、朝に水位を測り、夕方にまた測る。それだけを二年続けました。誰かが感動的な話を期待しているなら、期待外れだと思います。強いて言うなら、配水の順番でよく揉めたので、順番表を石に彫って川岸に置きました。彫るのに丸一日かかりましたが、それ以来揉め事は減りました。石はまだあそこにあるはずです。それだけの話です。
 

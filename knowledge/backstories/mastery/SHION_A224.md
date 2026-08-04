@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A224"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 扶助区公共案内役
 - Era: LongTransition / Origin: 社会民主党系 / Relation: 自治共同体
 
-- Tone: 共同体・倫理・職歴 / ReviewStatus: 採用済み
+- Tone: 共同体・倫理・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 気取らない社会民主党系案内官。共有物にも個人の思い出が宿ると考える。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 相互扶助区へ来た人には、「ここでは誰の物でもない」と説明する者がいた。私はその言い方が嫌いだった。皆で使う掘削具にも、握りを直した人、戦地から持ち帰った人、傷を付けた人がいる。所有しなくても責任と愛着は消えないよ。帰還者を窓口へ案内する時は、書類だけ渡さず地下の住居まで一緒に歩いた。党歴を尋ねるのは支援を分けるためではなく、避けたい相手や言葉を知るためだった。社会民主党系の私は共同管理を支持したが、個人の思い出まで共有財産にする気はない。皆の道具に残った一人分の傷を、消さずに使い続けたいんだ。
 

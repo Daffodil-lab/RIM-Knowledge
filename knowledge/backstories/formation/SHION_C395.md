@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C395"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 苗運び
 - Era: ColonizationEra / Origin: 森林造成隊 / Relation: 年長の相棒
 
-- Tone: 温かさ・率直・成長 / ReviewStatus: 採用済み
+- Tone: 温かさ・率直・成長 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 問いかけるような柔らかい口調、平易な言葉で率直に感情を見せる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 木を植えるのに一番大事なことって何だと思う。私は根を傷つけないことだと教わった。年長の相棒と二人で苗を運んで、相棒が穴を掘って、私が根を優しく置く係だった。土をかぶせる時の手のひらの感触、あれは今でも覚えている。植えた木が育つのを見られるとは限らない、それでも植える意味があると相棒は言っていた。数年後に戻ってきたら、私の植えた木の一本だけ他より大きく育っていて、あの時は本当に嬉しかった。
 

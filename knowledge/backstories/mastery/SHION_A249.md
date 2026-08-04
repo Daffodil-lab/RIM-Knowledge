@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A249"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 塔域古文書研
 - Era: ModernUnion / Origin: 無党派 / Relation: 塔域共同体
 
-- Tone: 塔・記録・職歴 / ReviewStatus: 採用済み
+- Tone: 塔・記録・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 慎重で学究的。塔の古文書を、端末の人物確認と日々の食事へ結びつける。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 塔の古文書には、端末番号だけで住民を記した時代がある。私は欠けた名前を想像で埋めず、食事記録や短い挨拶の音声と照合した。アロンの投影と、独立して生きる人格を取り違えれば、古い記録は再び人を道具へ戻してしまう。評議会には読めない頁もそのまま公開したよ。ある住民は毎朝同じ薄いスープを頼み、すれ違う時だけ小さく頭を下げた。その程度の記録でも、番号の向こうに暮らしがあったと分かる。旧帝国の秩序を懐かしむことはあるが、静かさのために名前を省く制度まで戻す気はない。
 

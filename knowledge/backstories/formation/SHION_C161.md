@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C161"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 連合競技
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 革命・証言・形成 / ReviewStatus: 改稿採用済み
+- Tone: 革命・証言・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 豪快な競技者 / 力加減へ繊細 / 党派外交は苦手 / 食卓の平等を信じる
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 私は後方区の身体競技で、勝つより相手を壊さず投げる方が得意でした。身体規格が違えば、同じ力加減は不公平なんです。声を出せない相手の合図も待ちました。革命連合では党派の違う部隊へ物資を運び、共同の敵が去った途端に始まる口論も見た。ああいう駆け引きは今も苦手です。旗の色より、競技後に全員が並んだ炊事の煙を覚えています。私の望む平和は単純ですよ。身体も思想も違う者が、殴り合わず同じ鍋の順番を待てることです。
 

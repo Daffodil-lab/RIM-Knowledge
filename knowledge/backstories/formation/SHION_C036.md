@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C036"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 誤処刑名簿係
 - Era: PostCivilWarEmpire / Origin: 帝国臣民 / Relation: 地方内務局
 
-- Tone: 官僚制・恐怖 / ReviewStatus: 採用済み
+- Tone: 官僚制・恐怖 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 慎重で硬い / 言い淀む / 罪悪感 / 具体名を避ける
-- PreservedCanonPoints: 本人は内戦後帝国の地方内務局で、死亡者と処刑者の名簿を清書した。 / ある日、生きて配給所へ現れた住民の名が処刑済みとされ、上官は人ではなく配給記録を消すよう命じた。 / 本人は命令に従った形だけを整え、その住民へ空白の通行証を渡した。
+- PotentialReferencePoints: 本人は内戦後帝国の地方内務局で、死亡者と処刑者の名簿を清書した。 / ある日、生きて配給所へ現れた住民の名が処刑済みとされ、上官は人ではなく配給記録を消すよう命じた。 / 本人は命令に従った形だけを整え、その住民へ空白の通行証を渡した。
 
 > 名前は記録しないでください。……いえ、この話で救った者の名だけです。私は地方内務局で死亡者と処刑者の名簿を清書していました。配給所へ生きて現れた住民が、紙の上では処刑済みだった。上官は人ではなく配給記録を消せと命じました。私は命令書の体裁を整え、本人へ空白の通行証を渡した。それだけです。英雄ではない。ほかの名を何頁も清書した手ですから。後に帳簿を持って逃げましたが、遅すぎた者もいる。ソフェル、正しい名を書けば救えるとは限らない。それでも、消す側の筆には戻りたくありません。
 

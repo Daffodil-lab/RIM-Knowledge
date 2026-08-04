@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A216"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 監視区設備技師
 - Era: LongTransition / Origin: 社会民主党系 / Relation: 制度監視団
 
-- Tone: 政治・警戒・職歴 / ReviewStatus: 採用済み
+- Tone: 政治・警戒・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 警戒心の強い社会民主党系技師。制度の変質を小さな生活変化から語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 非常令が出た時、最初に変わったのは大きな法律ではなかった。休憩室の掲示が許可制になり、設備点検の冗談が記録から消えた。私は配管の腐食と一緒に、そうした小さな変化も書き留めたよ。例外は一度だけと言われたが、避難扉の鍵は毎月増えた。社会民主党系の監視団で、修理計画と権限の期限を公開するよう求めた。最盛期の秩序と安心は取り戻したい。だが、誰も笑わなくなる静けさを平穏とは呼びたくない。設備も制度も、壊れる前に異音がする。聞こえないふりをしない者が必要なんだ。
 

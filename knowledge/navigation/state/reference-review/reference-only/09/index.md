@@ -1,4 +1,4 @@
-# accepted 09
+# reference-only 09
 
 範囲: SHION_A222 共同祝宴堂の合奏指導者〜SHION_A301 ヘイハルKombinatの坑道監督
 

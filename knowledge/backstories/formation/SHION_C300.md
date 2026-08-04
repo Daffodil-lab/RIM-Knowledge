@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C300"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 凍菓子安全劇
 - Era: ModernUnion / Origin: 無党派 / Relation: 研究安全局
 
-- Tone: 科学・風刺・形成 / ReviewStatus: 採用済み
+- Tone: 科学・風刺・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 悪戯好きな劇作家。研究者の威厳を笑い、安全上の失敗を語りやすくする。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 低温研究区で祝い菓子が凍り、研究員全員が失敗を認めず黙り込んだことがあります。私はその出来事を舞台にしました。便利な発明が失敗した時、どこまで暮らしを巻き込むかを、笑いながら検討できる劇です。組み手の場面では転び方まで練習しました。故郷や死者を扱う時も、悲しみだけで終わらせませんでした。友と当時の自分は作り直せなくても、一緒に笑った失敗は次の警告にできます。安全を守るには、研究者が威厳を保つことより、凍った菓子を指して「失敗だ」と言える方が大切です。
 

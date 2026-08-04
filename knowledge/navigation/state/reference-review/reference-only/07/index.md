@@ -1,4 +1,4 @@
-# accepted 07
+# reference-only 07
 
 範囲: SHION_A062 星域農学者〜SHION_A141 対機械戦区の記録官
 

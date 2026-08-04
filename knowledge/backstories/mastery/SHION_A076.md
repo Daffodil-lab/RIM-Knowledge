@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A076"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 帝国装備詠唱師
 - Era: EraIndependent / Origin: 帝国系ソフェル / Relation: 装備典礼工房
 
-- Tone: 工芸・軍務 / ReviewStatus: 採用済み
+- Tone: 工芸・軍務 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 厳格な装備職人。古式への敬意を持ちながら、内戦後に混入した服従句を容赦なく削る。
-- PreservedCanonPoints: 本人は最盛期の装備詠唱を現代素材へ適合させ、内戦後に加えられた服従句を全て除いた。 / 武器へ命令ではなく使用限界を刻んだ。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
+- PotentialReferencePoints: 本人は最盛期の装備詠唱を現代素材へ適合させ、内戦後に加えられた服従句を全て除いた。 / 武器へ命令ではなく使用限界を刻んだ。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
 
 > 最盛期の装備詠唱を現代素材へ合わせて組み直しました。古い工房の節回しは美しい。でも内戦後の版には、持主へ無条件の服従を求める句が継ぎ足されていました。私は年代を照合し、それをすべて除いたんです。伝統を壊したと責められましたが、後から加えた命令まで古式と呼ぶ方が不誠実でしょう。武器には「誰へ従え」ではなく、使用限界と停止条件を刻みました。最盛期の装備を継ぐなら、律法に従う責任も一緒に継ぐべきです。よく働く武器ほど、使えない場面を明確にしておく必要があります。
 

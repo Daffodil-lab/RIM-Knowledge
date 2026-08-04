@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C203"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 強襲群工具助手
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟軍
 
-- Tone: 軍務・統合・形成 / ReviewStatus: 採用済み
+- Tone: 軍務・統合・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 工具の癖を読む現場助手 / 抽選的犠牲を嫌う / 帰還点呼に執着 / 冗談を生活証拠と見る
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 強襲群の工房で、私は工具の握りを持ち主ごとに削りました。照準具も扱ったので、安全確認だけは冗談を許しません。けれど「どの兵科を犠牲にするか抽選で決める」という演習案には、工具係のくせに反対しました。判断を一つへまとめるとは、責任を乱数へ逃がすことではないでしょう。ある夜、帰還者を数える声が夜明けまで途切れなかった。報告書には作戦成功とありますが、私は途中で誰かが言ったくだらない冗談を覚えています。生きて戻った者が暮らしへ戻る音は、そういう余分の中にあるので。
 

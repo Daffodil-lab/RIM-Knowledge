@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C335"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 配管の熱
 - Era: JourneyEra / Origin: 東側／東方の民 / Relation: 機関整備班
 
-- Tone: 船内・技術・継承 / ReviewStatus: 採用済み
+- Tone: 船内・技術・継承 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 淡々とした技術者口調で、身体の記憶を頼りに語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 手のひらに配管の熱がまだ残っている気がします。八歳の頃、機関整備班の見習いとして狭い通路に潜り、漏れた蒸気の位置を素手で探る仕事をもらいました。東方の民の言葉で数を数える癖が抜けず、班長によく笑われたものです。船が地球を出てから何百年も経っていたのに、我が家には先達の時代の言い回しがそのまま残っていました。継ぎ目の温度で異常を見分ける勘は、今でも指先に残っています。国そのものは消えても、手の記憶までは消えませんでした。
 

@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C304"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 畑越し識別
 - Era: ModernUnion / Origin: 複数党派 / Relation: 同盟評議会
 
-- Tone: 政治・生活・形成 / ReviewStatus: 採用済み
+- Tone: 政治・生活・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 競争好きだが慎重。射撃より、遠くの相手を正しく見分ける時間を楽しむ。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自治評議区で、畑の向こうに置いた標識を誰が早く見分けるか競いました。古い党派の旗はよく似ていて、色だけで判断すると誤るんです。私は射撃前の識別を何度も繰り返し、確認者が増えるほど勝ちにくくなる規則を気に入りました。待ち時間には畑を育て、友と観察の腕を比べました。古い旗の形はもう曖昧ですが、競技後に皆で食べた野菜は覚えています。相手を遠くから分類するより、近くの卓で話を聞く方が確かです。それでも撃つ必要がある時は、急がないことを私の誇りにしています。
 

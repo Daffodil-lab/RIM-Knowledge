@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A348"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 旧慣習織物
 - Era: JourneyEra / Origin: 旧慣習継承者 / Relation: 混成家族区画
 
-- Tone: 織物・師弟・言葉 / ReviewStatus: 採用済み
+- Tone: 織物・師弟・言葉 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 師の言葉を借りて語る織物職人。控えめな口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 師匠はいつも「糸は嘘をつかない、織り手が嘘をつくだけだ」と言っていた。旧い民族衣装の柄を律法の教区でも使えるように直す仕事を、僕は師匠から受け継いだ。柄の意味を尋ねられるたび、師匠の言葉をそのまま繰り返した。糸は嘘をつかない。師匠が亡くなったあとも、僕はその言葉を弟子に渡している。自分の言葉で語れないのかと言われたこともあるが、この言葉より正しいものをまだ見つけていない。だから今も借りたままだ。
 

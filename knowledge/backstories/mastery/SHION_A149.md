@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A149"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 都市群精密工
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 都市記録局
 
-- Tone: 都市・旅・職歴 / ReviewStatus: 採用済み
+- Tone: 都市・旅・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 旅好きの精密工。地図より身体が覚えた路地を信じ、祭りの機械へ失われた都市の曲がり方を残す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 移動都市群を巡り、祭りの機構と道具を直しました。同じ都市でも、商人は市場として、子どもは迷路として語ります。私は地図と証言を並べ、誰か一人の都市へ統一しませんでした。もう存在しない路地の曲がり方を、私の身体はまだ覚えています。そこで祭りの回転舞台へ、その角度を仕込んだんです。観客が無意識に同じ向きへ身体を傾けた時、失われた街が一瞬だけ戻った気がしました。射出機構の安全も見ましたよ。郷愁で観客を遠くへ飛ばしては、修復師の名折れですからね。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A246"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 文化区合奏指導
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 福祉・選択・職歴 / ReviewStatus: 採用済み
+- Tone: 福祉・選択・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 穏やかだが反骨心のある指導者。一律の幸福へ、不揃いな音で抵抗する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 孵育文化区では、快適な音量と調律まで制度が決めていた。私はわざと身体の違う奏者を集め、揃わない響きを残したよ。重い楽器は皆で運び、無理に同じ姿勢を取らせなかった。友は支給された完璧な椅子より、自分で作った傾いた椅子を好んだ。長い不在の後に戻ると、以前とは違う楽器を選び、私の記憶どおりには演奏しなかった。私はそれを聞いて安心した。本人が選ばなかった幸福を与えることは、親切な形をした命令になり得る。少し不便でも自分で選んだ音を出せる席を、私は空けておきたい。
 

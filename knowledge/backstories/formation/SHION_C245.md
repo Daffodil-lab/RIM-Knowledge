@@ -19,7 +19,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C245"
 canonical_scope: "backstory-formation"
@@ -40,10 +40,10 @@ sources:
 - Short: Kombinat停止夜
 - Era: LongTransition / Origin: 無党派 / Relation: 長い過渡期
 
-- Tone: 工業・保守・形成 / ReviewStatus: 採用済み
+- Tone: 工業・保守・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 行動的で気さく。武器を使わず群衆と運搬動物を落ち着かせた経験を誇る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 長い過渡期、ヘイハルKombinatが全面停止した夜がありました。照明が落ち、人も運搬動物も出口へ殺到した。私は警護訓練で覚えた組み技を使い、武器を抜かずに倒れかけた者を支えました。動物には声より空いた通路を見せる方が効きましたね。そのあと皆で部品を手渡しし、古い手動工程を朝まで動かしました。私は引継書に、うまくいった誘導だけでなく最初に塞いだ通路も描きました。間違いを消せば、次の停止でまた誰かが転ぶ。Kombinatを強くするのは、失敗しない者より失敗を渡せる者です。
 

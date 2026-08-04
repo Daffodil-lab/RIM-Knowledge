@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C192"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 扶助区共同壁画
 - Era: LongTransition / Origin: 社会民主党系 / Relation: 自治共同体
 
-- Tone: 共同体・倫理・形成 / ReviewStatus: 改稿採用済み
+- Tone: 共同体・倫理・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 大声の壁画競技者 / 所有より手入れを問う / 園芸は他者へ任す / 皆の道具の傷を描く
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 壁は皆の物でした。だから絵も皆で描け、と言われたんですが、筆の握り傷まで均等にはできません。私は住民の証言を聞き、同じ出来事を複数の角度で描きました。大会では友と足場を駆け、身体を傷めない動きまで競った。園芸区画だけは他の者へ任せました。絵具をこぼすので。共同所有でも、誰が手入れし、誰が愛着を持ったかは消えない。私は皆の工具に刻まれた一人分の傷を壁へ大きく写しました。平等とは個人の痕跡を薄めることではなく、それを独占の理由にしないことだと思います。
 

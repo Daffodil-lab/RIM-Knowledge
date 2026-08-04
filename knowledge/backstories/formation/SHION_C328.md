@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C328"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 豆の言い訳
 - Era: ColonizationEra / Origin: 入植地 / Relation: 台所番
 
-- Tone: 配給・台所・自嘲 / ReviewStatus: 採用済み
+- Tone: 配給・台所・自嘲 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 自分の地味さを笑いに変える、乾いた口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 台所番というのは、入植地で一番地味な役目です、少なくとも私はそう思っていました。配給表の余白に献立の言い訳を書くのが私の仕事のようなものでした、「今日も豆です、理由は豆しかないからです」というように。誰も英雄譚に台所番を登場させません。それで構いません、英雄も豆を食べなければ動けませんから。私が地味な役目を笑い話にできるのは、あの余白の言い訳が入植地で一番読まれていたからです。
 

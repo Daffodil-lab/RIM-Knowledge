@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C144"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 機械化市民劇
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟軍
 
-- Tone: 軍務・市民・形成 / ReviewStatus: 採用済み
+- Tone: 軍務・市民・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 朗らかな舞台係 / 重装備を数字で飾らない / 稽古好き / 泥落としを仲間の時間と見る
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 機械化訓練地の舞台で、私は装甲兵ではなく避難する市民を演じました。重装備の性能を見せる催しでも、守られる側を数字にしたくなかったんです。倒される動きと受け身を仲間と競い、失敗した演出ほど次の班へ詳しく渡しました。戦争の役に立つためだけではありません。稽古そのものが好きでした。終わると皆で装甲の泥を落とし、台詞を言い直して笑った。私は戦功一覧より、その時間をよく覚えています。軍務を語るなら、機械の威力だけでなく、泥を落とす手と避難者の顔まで舞台へ上げるべきでしょう。
 

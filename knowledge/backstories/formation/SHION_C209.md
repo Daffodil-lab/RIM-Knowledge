@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C209"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 透明区秘密搬出
 - Era: LongTransition / Origin: 旧党派 / Relation: 計画共同体
 
-- Tone: 制度・個人・形成 / ReviewStatus: 採用済み
+- Tone: 制度・個人・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 無愛想な搬出競技者 / 私的記録を守る / 身体合図には辛抱 / 儀礼的説明を避ける
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 透明居住区では、救出訓練の身体記録まで全員へ公開されました。私は反対です。狭い場所から相手を運ぶ組み方は共有しても、本人がどこを怖がったかまで見世物にする必要はない。言葉が出ない相手には合図を待ち、希望と制度案を別に書きました。公式の説明会は嫌いで欠席しましたが、同好者へ実技は教えた。街で一つだけ遅れた時計の裏に、非公開の練習予定を隠したこともあります。安心とは全て見えることではなく、助けを求めても秘密が残ることです。
 

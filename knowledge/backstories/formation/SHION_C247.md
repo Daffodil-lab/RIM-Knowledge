@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C247"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 壁越し救助
 - Era: EraIndependent / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 生活・基幹・形成 / ReviewStatus: 採用済み
+- Tone: 生活・基幹・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 遊び心のある探究家。救助技術を音や印の工夫として楽しんで覚えた。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 本国居住区で、壁の向こうの友を見つける遊びが流行りました。片方が配管を叩き、もう片方が振動から位置を当てるんです。私は坑道を掘る順番と、迷わない印の描き方を覚えました。やがて本当の崩落が起き、私たちは遊びと同じ音を聞きました。細い救助路を掘り当てた時、中にいた隣人は「今日は私の勝ちだ」と笑った。あの人は必要のない仕事まで楽しむ達人でした。故郷の区画は後に回収されましたが、壁を叩く癖までは戻らない。私は今も、新しい坑道の印に彼の冗談を一つずつ隠しています。
 

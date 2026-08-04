@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A251"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 支援庁競技指導
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟支援軍
 
-- Tone: 支援・職務・職歴 / ReviewStatus: 採用済み
+- Tone: 支援・職務・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 控えめな後方勤務者。表彰より、誰にも見られない支援と身体の整え方を語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 後方支援庁で身体競技を教えると、遊んでいるように見られた。実際、皆で笑ったよ。けれど補給員が重い箱を安全に受け、救護員が身体の違う負傷者を運ぶには、力加減と受け身が要る。運搬動物の動きも観察し、無理な姿勢を人へ押し付けないようにした。前線の英雄は表彰されても、通信線を夜通し直した者は名簿の端にしか残らない。私は最盛期の平和を語る時、そういう見えない仕事が尊ばれた暮らしを取り戻したいと言う。帰還後の空席を減らすのは、華やかな一撃ではなく、誰にも見られない準備だからね。
 

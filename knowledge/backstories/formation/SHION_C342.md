@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C342"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 配給計算
 - Era: JourneyEra / Origin: 東側／草原文化継承者 / Relation: 教育班
 
-- Tone: 配給・計算・実務 / ReviewStatus: 採用済み
+- Tone: 配給・計算・実務 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 事務的で正確。感情表現をほぼ挟まない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 配給計算は次の手順で行いました。まず世帯人数と年齢区分を確認し、次に前週の余剰・不足を台帳から引き写します。私は九歳から教育班の一員としてこの補助を任されました。草原文化を継ぐ教官は暗算を重視し、私は毎朝十分間の暗算訓練を受けました。誤差が出た場合は再計算ではなく、まず記入ミスを疑うのが手順です。この訓練のおかげで数字への抵抗はなくなりました。手順は単調でしたが、単調さこそが安定の証拠だと今では理解しています。
 

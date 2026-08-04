@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C040"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 内戦記録係
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 連合記録班
 
-- Tone: 戦争史・記録 / ReviewStatus: 採用済み
+- Tone: 戦争史・記録 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 抑制された記録者 / 列挙 / 党派へ等距離 / 曖昧さを守る
-- PreservedCanonPoints: 本人は革命連合の部隊で、戦死者、離脱者、帰還者、行方不明者を同じ台帳へ記した。 / 社会民主党員、共産党員、ファシスト党員、帝国離反者、無党派が同じ隊にいた。 / 宣伝に都合のよい英雄だけを残さず、所属が変わった者や確認できない者も消さなかった。
+- PotentialReferencePoints: 本人は革命連合の部隊で、戦死者、離脱者、帰還者、行方不明者を同じ台帳へ記した。 / 社会民主党員、共産党員、ファシスト党員、帝国離反者、無党派が同じ隊にいた。 / 宣伝に都合のよい英雄だけを残さず、所属が変わった者や確認できない者も消さなかった。
 
 > 戦死、離脱、帰還、行方不明。私は四つの欄を同じ幅で引きました。革命連合には社会民主党員も、共産党員も、ファシスト党員も、帝国離反者も、無党派もいた。後の宣伝官は英雄だけ残し、転向者を消せと言いましたが断った。行方不明を裏切りへ、離脱を臆病へ書き換えるのも拒みました。曖昧な欄は未完成ではありません。その人を勝手に終わらせないための場所です。ソフェル、あなたが客観記録を望むなら、分からないものを分からないまま抱える覚悟も記してください。
 

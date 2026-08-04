@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A106"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 予測院射撃教官
 - Era: ModernUnion / Origin: 無党派 / Relation: 評議会研究院
 
-- Tone: 研究・長期計画・職歴 / ReviewStatus: 採用済み
+- Tone: 研究・長期計画・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 冷静で少し意地悪な教官。未来予測より目の前の識別を優先し、果樹の実を標的にさせない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 長期予測院で射撃を教えていました。何世代先の危険が計算できても、照準の中にいる者が誰かを今確かめなければ意味はありません。私は射線管理と、撃たずに任務を終える条件を先に教えました。訓練場の隣には予測用果樹園があり、実を標的にした生徒は収穫まで世話をさせましたよ。季節を待てない者に長期計画は扱えません。予測から外れた友人の訪問が、硬直した計画を救った日もあります。未来は表のとおりに来ない。だからこそ、引き金を引く直前まで訂正できる者を育てたかったんです。
 

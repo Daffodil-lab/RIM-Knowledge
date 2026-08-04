@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C237"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 観測菜園
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 観測・不可解・形成 / ReviewStatus: 採用済み
+- Tone: 観測・不可解・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 辛抱強い実験好き。異論を成果として残し、不可解さを急いで解決しない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 革命連合の観測区で、私は党派ごとに一本ずつ畝を任せる菜園を作りました。水の量も道具も同じにしたはずなのに、皆が自分の畝だけよく育ったと言うんです。そこで古い測器を捨てず、新しい記録と並べました。海面に故郷らしい街が映った日も、見えた形を各自で描かせました。絵は一枚も一致しなかった。でも夕食には、違う畝の野菜が同じ鍋へ入りました。私はその失敗記録を今も残しています。正しい一つの見方を急ぐより、異なる結果を持ち寄って食べられる方が、私の望む平和に近いからです。
 

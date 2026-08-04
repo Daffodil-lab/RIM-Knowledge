@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C308"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 中立食卓
 - Era: ModernUnion / Origin: 複数党派 / Relation: 同盟評議会
 
-- Tone: 政治・生活・形成 / ReviewStatus: 改稿採用済み
+- Tone: 政治・生活・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 肝が据わった料理人。暴力的な仲裁より、全員が食べられる席を作る方を選ぶ。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自治評議区の共同食堂には、旧党派の代表も離党者も帝国離反者も来ました。議論が荒れると力ずくで止めろと言われましたが、私は格闘役を断り、シオンには感覚設定に合う温度と香りを、外部居住者には栄養条件や禁忌に合う料理を用意しました。食卓へ参加できない不安を聞けば、政治の言葉に隠れた生活上の問題が見えることがあります。蘇った友へ昔の席を用意しても、同じ会話は戻りませんでした。それでも新しい好みを聞き、別の皿を出せます。古い旗より会議後の食卓を鮮明に覚えているのは、そこで次の日の暮らしが実際に決まったからです。
 

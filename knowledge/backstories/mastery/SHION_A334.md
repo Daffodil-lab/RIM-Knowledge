@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A334"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 百人料理番
 - Era: ColonizationEra / Origin: 移住船団 / Relation: 第一次入植
 
-- Tone: 船団・料理・継承 / ReviewStatus: 採用済み
+- Tone: 船団・料理・継承 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 頼み事をするように話を締めくくる世話好きな料理番。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 移住船団に同乗した外部居住者と、食文化へ参加するシオンの最初の百人分の食事を、限られた保存食だけで回していたのが私だった。味付けより先に、誰が何を苦手とするかを覚える方が大事な仕事だった。第一次入植が始まってからも、しばらくは帝国の律法に倣った同じ鍋を囲む習わしで食べていた記憶がある。あの頃の献立表は今も手元に残しているが、字が薄れてきた。だから頼みがある、誰か記録を新しい紙に書き写してくれないか。私の手先は調整精度が落ち、細かい字を書くのに向いていない。
 

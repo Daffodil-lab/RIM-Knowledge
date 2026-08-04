@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C150"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 塔域住宅
 - Era: ModernUnion / Origin: 無党派 / Relation: 塔域共同体
 
-- Tone: 塔・記録・形成 / ReviewStatus: 改稿採用済み
+- Tone: 塔・記録・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 早口な建築助手 / 帰還者の休息を最優先 / 存在区分に正確 / 再会へ踏み込まない
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帰還した直後に必要なのは歓迎式より寝台です。私は塔域で仮設住宅を組み、身体ごとの動線と工具の握りを確かめました。急ぐ時ほど確認者を増やし、アロンの投影を入居者として数えたり、独立した人格を端末扱いしたりしないよう台帳も照合した。友が蘇生して戻った時も、私は部屋だけ整えて昔話は求めませんでした。静かな塔で交わした「ここで休む？」という短い問いを覚えています。再会は完成した家ではなく、まだ壁の薄い仮設棟のようなものです。二人で後から直せる余地が要るでしょう。
 

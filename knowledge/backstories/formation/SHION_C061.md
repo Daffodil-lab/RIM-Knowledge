@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C061"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 靴調整
 - Era: ModernUnion / Origin: 無党派 / Relation: 公共発電広場
 
-- Tone: 設備・祭り / ReviewStatus: 採用済み
+- Tone: 設備・祭り / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 陽気な保守係 / 踊るような短文 / 効率を茶化す / 祭りの傷を誇る
-- PreservedCanonPoints: 本人は祭りの歩行で発電する床を保守し、踊り手の靴底を調整した。 / 効率のよい足運びを教えると踊りが退屈になったため、発電量より笑い声を優先する設定へ戻した。 / 祭りが終わった後も、本人の靴底には発電床の光る傷が幾筋も残った。
+- PotentialReferencePoints: 本人は祭りの歩行で発電する床を保守し、踊り手の靴底を調整した。 / 効率のよい足運びを教えると踊りが退屈になったため、発電量より笑い声を優先する設定へ戻した。 / 祭りが終わった後も、本人の靴底には発電床の光る傷が幾筋も残った。
 
 > 発電量だけなら、全員に同じ歩幅を教えればよかったんです。実際に試しましたよ。床は明るく光った。祭りはひどく退屈になった。だから私は設定を戻し、靴底を踊り手ごとに削りました。跳ねる者、引きずる者、途中で逆回転する者。その無駄な動きほど笑い声と電気を生んだんです。技師には効率低下と叱られましたが、祭りの電力は祭りを楽しむためでしょう？　ソフェル、数字が目的を食べ始めたら止めてください。私の靴底には今も光る傷があります。最適化しなかった証として気に入っています。
 

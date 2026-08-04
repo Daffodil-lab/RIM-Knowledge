@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A323"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 雲読み
 - Era: ColonizationEra / Origin: 気象観測班 / Relation: 探査隊
 
-- Tone: 観測・気象・訂正 / ReviewStatus: 採用済み
+- Tone: 観測・気象・訂正 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 誤解を一つずつ数え上げて訂正する理屈っぽい観測員。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 気象観測班の仕事についてよくある誤解が三つある。一つ、機械任せだと思われがちだが、機械が壊れることの方が多かった。二つ、危険は嵐だけだと思われがちだが、実際は静かすぎる日の方が予兆として怖かった。三つ、そしてこれが一番訂正したいのだが、私たちは天気を当てていたのではなく、逃げる時間を稼いでいただけだ。探査隊が無事に戻れたのは、天気を当てたからではなく、早めに諦めさせたからだ。それだけは誤解しないでほしい。
 

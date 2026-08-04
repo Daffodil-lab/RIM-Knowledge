@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C251"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 再会祭義肢工房
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 星間交易圏
 
-- Tone: 交易・旅・形成 / ReviewStatus: 採用済み
+- Tone: 交易・旅・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 手先が器用で陽気。身体の変化を欠損でなく、新しい癖として受け止める。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 星間市場の再会祭では、戻ってきた人の身体が昔と違うことも珍しくありません。私は義肢工房へ通い、部品を削って、装着後の動きを一緒に試しました。護身具の照準も新しい腕に合わせましたが、最初から真っすぐ当たると面白くない、と笑う客もいました。式の前には戻らなかった者の名を読みます。再会だけを祝えば、待ち続けた時間が置き去りになるからです。閉店後、失敗作の指で食器を落とし、皆で大笑いした夜を覚えています。完成品より、身体と冗談が馴染んでいく途中の方が好きでした。
 

@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C224"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 塔の再会膳
 - Era: LongTransition / Origin: 無党派 / Relation: 長い過渡期
 
-- Tone: 塔・記録・形成 / ReviewStatus: 改稿採用済み
+- Tone: 塔・記録・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 温和で聞き上手。小さな挨拶や食卓の沈黙を克明に覚えている。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 塔の祝い膳には、帰ってきた者の席と、帰らなかった者の席が並んでいました。私は料理を運びながら、一人ずつ名前、感覚設定、外部居住者の栄養条件を確かめました。端末に映るアロンを本人と取り違えれば、せっかくの再会を傷つけますから。格闘の稽古は最後まで好きになれず、誘われると鍋の火加減を理由に逃げていました。その代わり、食卓へ参加しにくい者の不安まで聞くことは上手になったと思います。あれほど長い過渡期を、私は祝辞ではなく短い挨拶で覚えています。「また会えたね」。その一言を言える食卓を、今度はもっと多く残したいのです。
 

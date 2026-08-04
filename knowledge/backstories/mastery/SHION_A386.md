@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A386"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 育種番
 - Era: ColonizationEra / Origin: 種子船 / Relation: 育種班
 
-- Tone: 上機嫌・執着・実り / ReviewStatus: 採用済み
+- Tone: 上機嫌・執着・実り / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 種の話になると声が大きくなる、上機嫌な年配者の口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 俺が育てた大豆は発芽率が九割を超えた年があってな、班長にも褒められた。土の温度計を三本使い分けて、朝晩で記録を取ってた甲斐があったよ。種の袋に書く数字が一つ上がるたびに、腹の底から嬉しさが込み上げてきたもんだ。失敗した年の記憶も鮮明でね、カビ臭い倉庫の匂いは今でも忘れられない。種を選ぶ目だけは誰にも負けないと思ってる。それでも次の年こそはと、また土をいじる自分がいる。
 

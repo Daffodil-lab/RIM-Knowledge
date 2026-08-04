@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C215"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 計画都市道具調整
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 都市・福祉・形成 / ReviewStatus: 採用済み
+- Tone: 都市・福祉・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 手先の鋭い工具助手 / 標準品を疑う / 安全検査へ厳格 / 料理当番を嫌う
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 計画都市には標準工具が十分ありました。十分過ぎて、標準の身体から外れる者が使えないことを誰も見ませんでした。私は握りを削り、照準具なら遠距離でも誤認しないまで試し、古い道具との結果も比べました。料理当番は断りましたよ。匙まで調整し始めて食事が終わらないので。完成図に無い小広場で、住民が改造工具を見せ合った時間を覚えています。故郷を復元するなら、全員へ同じ良品を配るだけでは足りない。本人が自分の形へ直せる工房と余白が必要です。
 

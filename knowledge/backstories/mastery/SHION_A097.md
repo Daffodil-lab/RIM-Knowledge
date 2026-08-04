@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A097"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 記録限定復古者
 - Era: ModernUnion / Origin: 旧共産党系 / Relation: 公開記録共同体
 
-- Tone: 文化・政治 / ReviewStatus: 採用済み
+- Tone: 文化・政治 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 開放的な記録活動家。国家制度より、誰でも複製できる歌・技術・食卓を未来へ渡す。
-- PreservedCanonPoints: 本人は帝国最盛期から継ぐべきものを、制度ではなく平和の記録、技術、歌、食卓の作法に限った。 / 誰の国家にもせず、全住民が複製できる形で公開した。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
+- PotentialReferencePoints: 本人は帝国最盛期から継ぐべきものを、制度ではなく平和の記録、技術、歌、食卓の作法に限った。 / 誰の国家にもせず、全住民が複製できる形で公開した。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
 
 > 帝国最盛期から継ぎたいものはあります。ただし国家制度ではなく、平和に暮らした記録、技術、歌、食卓の作法です。私はそれらを誰の所有にもせず、全住民が複製できる形で公開しました。国旗には使用条件を付けたがる人も、昔のスープの手順までは囲い込めませんでしたね。私はその方が長く残ると思います。人は制度名を忘れても、友人へ皿を渡す順番や祭りの旋律を覚えている。最盛期を一つの国へ閉じ戻すのではなく、良かった暮らしの断片を誰でも次の社会へ持っていけるようにしたいんです。
 

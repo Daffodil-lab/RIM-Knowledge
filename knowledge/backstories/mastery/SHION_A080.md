@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A080"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 十二功績章の現場代表
 - Era: ModernUnion / Origin: 共産党系労働共同体 / Relation: 同盟生産評議会
 
-- Tone: 工芸・労働 / ReviewStatus: 採用済み
+- Tone: 工芸・労働 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 豪放な現場指導者。勲章を仲間の名へ書き換え、式典道具まで実用品にしてしまう。
-- PreservedCanonPoints: 本人は十二の星域で生産崩壊を立て直し、功績章を受けるたび現場の共同名義へ書き換えた。 / 最盛期の豊かさを全住民へ広げることを仕事の尺度とした。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
+- PotentialReferencePoints: 本人は十二の星域で生産崩壊を立て直し、功績章を受けるたび現場の共同名義へ書き換えた。 / 最盛期の豊かさを全住民へ広げることを仕事の尺度とした。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
 
 > 十二の星域で、生産が止まった工場を立て直しました。私一人の功績として章を贈られるたび、保全班、運搬班、食堂、交渉役まで共同名義へ書き換えさせたんです。式典用に渡された工具も飾っておけず、翌日には現場で使えるよう改造しました。展示官には今も怒られていますよ。最盛期の豊かさを懐かしむなら、宮殿ではなく全住民の食卓と作業場へ届く形で超えたい。機械が再び動く瞬間も好きですが、交代後の食堂に湯気が戻った時の方が、私は仕事の成功を実感します。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A358"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 准民農区監督
 - Era: JourneyEra / Origin: 帝国准民 / Relation: 甲板行政局
 
-- Tone: 農区・統合・格言 / ReviewStatus: 採用済み
+- Tone: 農区・統合・格言 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 実直な監督者。経験から導いた一言で締める。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 旧い区画ごとに違っていた農区の作付け方式を、私は一つの方式にまとめる役目を任された。慣れた方法を変えたがらない農夫たちを説得するのに三年かかった。無理に統一を急いだ区画では収穫が落ち、時間をかけた区画では落ちなかった。この経験から一つだけ言えることがある。統合というのは、同じにすることではなく、同じ方向を向かせることだ。速さを競えば土が痩せる。私はその教訓を、今も自分の畑の隅に立てた札に書いている。
 

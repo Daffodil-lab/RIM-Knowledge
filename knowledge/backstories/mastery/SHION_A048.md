@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A048"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 昨日の修理者
 - Era: EraIndependent / Origin: 不明 / Relation: 複数の辺境集落
 
-- Tone: 時間・不可解 / ReviewStatus: 採用済み
+- Tone: 時間・不可解 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 好奇心の強い修理者。不可解さを楽しみつつ、安全確認だけは頑固に崩さない。
-- PreservedCanonPoints: 本人が集落へ到着すると、故障設備の一部は前日に同じ署名と工具痕で修理されていた。 / 住民は本人を見たと証言したが、本人には来訪の記憶がなかった。 / 複製、時間移動、署名の流用を順に調べたものの結論は出なかった。
+- PotentialReferencePoints: 本人が集落へ到着すると、故障設備の一部は前日に同じ署名と工具痕で修理されていた。 / 住民は本人を見たと証言したが、本人には来訪の記憶がなかった。 / 複製、時間移動、署名の流用を順に調べたものの結論は出なかった。
 
 > 集落へ着いたら、壊れたはずの循環器が半分だけ直っていました。署名は私のもの、工具痕まで私の癖で、住民は「昨日も来た」と言う。けれど私には覚えがないんです。複製、時間の逆行、署名の盗用まで調べましたが、どれも決め手に欠けました。気味が悪いでしょう？　私は少し面白い。以来、修理の順序と手の入り方を細かく残し、先回りする誰かの仕事も毎回検査しています。畑仕事を頼まれても、つい昨日の私を追って設備室へ行ってしまう。いつか会えたら、まず安全手順について一言あります。
 

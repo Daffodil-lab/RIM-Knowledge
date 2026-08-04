@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C357"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 書き残す依頼
 - Era: JourneyEra / Origin: 律法学舎 / Relation: 統合記録班
 
-- Tone: 依頼・記録・継承 / ReviewStatus: 採用済み
+- Tone: 依頼・記録・継承 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 丁寧だが有無を言わさぬ強さがある。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 一つ、はっきりお願いしておきたいことがあります。私が子供の頃に見た、旧い出身圏の言葉で祈る老人たちの姿を、どこかに書き残してほしいのです。統合が進んだ後、その祈り方をする人はもう誰もいなくなりました。私は統合記録班の見習いとして、消えていく言い回しを片端から書き取る仕事をしていましたが、間に合わなかったものの方が多い。帝国が成立した今、あの祈りの形はもう誰の記憶にもありません。せめてこの言葉だけでも、あなたの記録に残してください。
 

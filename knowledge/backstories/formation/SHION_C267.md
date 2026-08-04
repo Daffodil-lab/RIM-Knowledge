@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C267"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 三色記録帳
 - Era: ModernUnion / Origin: 無党派 / Relation: 塔域共同体
 
-- Tone: 塔・記録・形成 / ReviewStatus: 採用済み
+- Tone: 塔・記録・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 几帳面だが親しみやすい。食卓の会話まで、事実と所感を分けて残す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 塔の記録院で、私は事実を黒、推測を青、後世の注釈を赤で書き分けました。端末に映るアロンと独立した人格を取り違えないため、食卓での会話まで照合しました。新人の頃、短い「おかえり」を儀礼文として黒で記したら、本人に「感情は赤だろう」と笑われました。私は悩んで、発言した事実を黒、その時に嬉しかったという証言を赤へ分けました。料理の味や冗談は歴史の本筋でないと言う人もいます。でも塔で暮らした者にとって、静かな挨拶こそ戻りたい過去です。私は欄を減らしませんでした。
 

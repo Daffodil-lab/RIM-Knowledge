@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C118"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 予測院動物診療
 - Era: LongTransition / Origin: 無党派 / Relation: 長い過渡期
 
-- Tone: 研究・長期計画・形成 / ReviewStatus: 採用済み
+- Tone: 研究・長期計画・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 穏やかな懐疑家 / 大計画より目前の痛み / 予測外を喜ぶ / 再会を急がない
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 長期予測院の端に、小さな動物診療室がありました。文明の遠未来を論じる者が、足を痛めた一頭の予定変更には渋い顔をする。私はそれが可笑しくて、診療記録を予測表の中央へ置いたんです。歩き方を観察し、痛みの推測には印を付け、分からない欄も空白のまま渡さなかった。計画を救ったのは数式ではなく、担当外の者同士の友情だったこともあります。蘇生した友との再会も、計画どおり昔へ戻す気はありません。互いに知らない時間を聞き直す方が、予測より大切ですから。
 

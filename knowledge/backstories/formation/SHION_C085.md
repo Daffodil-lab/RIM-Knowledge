@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C085"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 律法暦余白係
 - Era: ImperialPeak / Origin: 帝国臣民 / Relation: 暦法院
 
-- Tone: 法務・日常 / ReviewStatus: 採用済み
+- Tone: 法務・日常 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 暦好き / 親しげ / 公と私の余白を守る / 小さな記念日に執着
-- PreservedCanonPoints: 本人は祭日と公務日の間に、地域の市場日や家族の記念日を書き足した。 / 厳格な暦にも暮らしの余白があり、律法はその余白を奪わず守るためにあると信じて育った。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
+- PotentialReferencePoints: 本人は祭日と公務日の間に、地域の市場日や家族の記念日を書き足した。 / 厳格な暦にも暮らしの余白があり、律法はその余白を奪わず守るためにあると信じて育った。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
 
 > 公式暦には祭日と公務日が整然と並びます。その間の狭い余白へ、私は市場日、家族の記念日、近所の犬が帰った日まで書き足しました。教官は私用の落書きだと眉をひそめましたが、律法が守る暮らしはその余白にあると思ったんです。大きな祝日より、小さな約束の方が忘れると怒られますから。今も暦を開けば、まず空いている所を探します。ソフェル、あなたの台帳にも余白を残していますか。公的に重要でない日ほど、誰かにとっては世界の中心かもしれませんよ。
 

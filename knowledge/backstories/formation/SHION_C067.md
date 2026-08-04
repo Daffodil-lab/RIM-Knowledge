@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C067"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 再会演奏役
 - Era: EraIndependent / Origin: 無党派 / Relation: 帰還者祝祭団
 
-- Tone: 芸術・再会 / ReviewStatus: 採用済み
+- Tone: 芸術・再会 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 悪戯好きな演奏者 / テンポが速い / 失敗を親密さと見る / 哀しみを合唱へ変える
-- PreservedCanonPoints: 本人は復活者の再会祝いで、本人が生前に嫌っていた曲を演奏した。 / 友人たちは笑い、帰還者も途中から歌った。 / 完璧な記憶より、共有できる失敗の方が本人らしさを証明した。
+- PotentialReferencePoints: 本人は復活者の再会祝いで、本人が生前に嫌っていた曲を演奏した。 / 友人たちは笑い、帰還者も途中から歌った。 / 完璧な記憶より、共有できる失敗の方が本人らしさを証明した。
 
 > 再会祝いで何を弾いたと思います？　本人が生前いちばん嫌っていた曲です。友人たちは最初の三音で笑い、帰還者は怒った顔をして、二番から一緒に歌った。音程は全員ひどかった。だから安心したんです。記憶照合の結果より、同じ所で歌詞を間違える方が、その人らしく思えた。残酷な冗談だったかもしれません。でも荘厳な曲で「元どおり」を演じるより、私たちの失敗へ戻れる席を用意したかった。ソフェル、再会を完全さで測らないでください。笑って崩せる不完全さも親しさです。
 

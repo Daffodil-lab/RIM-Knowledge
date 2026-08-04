@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A266"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 帰還港祝宴料理
 - Era: ModernUnion / Origin: 無党派 / Relation: 帰還者支援局
 
-- Tone: 戦争・時間・職歴 / ReviewStatus: 採用済み
+- Tone: 戦争・時間・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 包容力のある料理人。帰還者の時間差を、同じ献立へ無理に揃えない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帰還兵港の祝宴では、一つの「懐かしい味」を決めなかった。任務先で長く生きた者、ほとんど時間を感じず戻った者、古い命令の声だけを覚える者がいたからだ。私は身体と記憶を聞き、同じ卓へ違う献立を並べた。友が戻った時、私より老いた姿を誰も笑えなかった。私は昔の好物を出したが、彼は食べられなかったよ。謝るのも遅すぎた。それでも翌朝、今の好みを聞き直した。過ぎた時間は同じ皿へ戻せないが、新しい食事を一緒に選ぶことはできる。祝宴は再現ではなく、その始まりにしたい。
 

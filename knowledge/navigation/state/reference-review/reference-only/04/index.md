@@ -1,4 +1,4 @@
-# accepted 04
+# reference-only 04
 
 範囲: SHION_C241 蘇生者との散歩〜SHION_C320 曲がらない杭
 

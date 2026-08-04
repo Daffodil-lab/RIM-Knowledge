@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C402"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 仔守り
 - Era: ColonizationEra / Origin: 牧畜隊 / Relation: 牧夫長
 
-- Tone: 慈しみ・静穏・忍耐 / ReviewStatus: 採用済み
+- Tone: 慈しみ・静穏・忍耐 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 静かで間延びした口調、平易な言葉に感情をじんわりと滲ませる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 生まれたばかりの仔がうまく立てない時、牧夫長は私にそばで見ていろと言いました。特別なことは何もしていません。ただ、震える足を見守って、倒れそうになったら支えるだけです。それでも一匹だけ、私が抱きかかえないと立てない仔がいました。名前は付けてもらえませんでしたが、私は勝手に呼び名を心の中で付けていました。あの仔が独り立ちして群れに混ざった日のことは、今でもはっきり覚えています。
 

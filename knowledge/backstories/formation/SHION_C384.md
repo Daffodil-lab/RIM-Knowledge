@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C384"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 初めて書いた語
 - Era: JourneyEra / Origin: 帝国准民 / Relation: 記録補助班
 
-- Tone: 記録・言葉・依頼 / ReviewStatus: 採用済み
+- Tone: 記録・言葉・依頼 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: ぶっきらぼうだが最後に頼み込む調子に変わる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 「帝国」って字を、俺は記録補助班で初めて紙に書いた。まだ誰もその言葉に慣れてなくて、書き順すら教官によって違った。俺は不器用な字で、何度も書き直した覚えがある。あの頃の紙はもう残ってないだろう。だから一つ頼みがある。もし後の時代の記録に俺の名前が出ることがあったら、達筆だったなんて書かないでくれ。俺の字は下手だった、それでいい。下手な字で新しい言葉を書いた子供がいたってことだけ、覚えておいてくれればそれで十分だ。
 

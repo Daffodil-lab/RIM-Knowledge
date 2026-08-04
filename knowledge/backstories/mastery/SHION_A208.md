@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A208"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 本国動物義肢役
 - Era: EraIndependent / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 生活・基幹・職歴 / ReviewStatus: 採用済み
+- Tone: 生活・基幹・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 柔和な救難技師。帰還者の生活と動物の歩調を同じ目線で見る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帰還者の中には、戦地から連れ帰った動物を先に治してほしいと言う者が多かった。私は義肢を調整しながら、飼い主にも同じ歩行路を歩いてもらった。身体規格が違っても、痛みを隠す癖はよく似ている。見学者には作業を全部見せたよ。神秘的な技術にすると、使う者が不具合を言い出しにくくなるからね。隣人は必要もない飾りを義肢へ刻み、私は重量が増えると文句を言いながら手伝った。生存だけなら飾りはいらない。けれど、役に立たない模様を選べるところまで戻って初めて、帰還が終わるのだと思う。
 

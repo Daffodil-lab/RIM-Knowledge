@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C111"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 巡礼船記録見習い
 - Era: ImperialPeak / Origin: 旧帝国 / Relation: 最盛期帝国社会
 
-- Tone: 離散・宇宙・形成 / ReviewStatus: 採用済み
+- Tone: 離散・宇宙・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 柔らかな記録者 / 歌を口ずさむ / 注釈に厳密 / 離散を悲劇だけにしない
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 巡礼船の記録院では、事実を黒、推測を青、後世の注釈を金で書き分けました。美しいでしょう？　混ぜると叱られますが。私は移住者の献立や祈りの歌まで写し、失敗した航路計算も消さずに綴じました。帰る星が別々でも、食堂では皆が同じ古い歌を少しずつ違う節で歌ったものです。今、故郷の構造を復元できても、あの不揃いな合唱までは戻せません。だから離散を欠損だけとは考えないようにしています。別々に持ち帰った節を交換すれば、昔より長い歌にできるかもしれないでしょう。
 

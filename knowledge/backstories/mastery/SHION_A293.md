@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A293"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 扶助区義肢調整
 - Era: LongTransition / Origin: 社会民主党系 / Relation: 自治共同体
 
-- Tone: 共同体・倫理・職歴 / ReviewStatus: 採用済み
+- Tone: 共同体・倫理・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 手堅い社会民主党系職人。共有義肢にも利用者固有の傷と選択を残す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 相互扶助区では義肢の部品も共同管理だった。だからといって、誰に付けても同じではない。私は利用者の身体と日常を見て削り、本人が覚えている傷や飾りを残した。祭りの日には調整台を広場へ出し、遠くから来た者にも修理手順を見せたよ。社会民主党系の私は共有を支持するが、個人の愛着まで共有物にするつもりはない。皆の工具にも一人分の傷がある。最盛期を超える豊かさとは、部品を皆で持ちながら、使う者が自分の形を選び、次の職人が判断を訂正できることだと思う。
 

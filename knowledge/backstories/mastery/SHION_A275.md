@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A275"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 本国救助員
 - Era: EraIndependent / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 生活・基幹・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 生活・基幹・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 気さくな救助員。祭りの華やかさより、抵抗する相手を傷つけず運ぶ工夫を語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 本国の復興祭では、私は飾り付けより救助通路を担当した。狐娘型内部の構成が違うシオン、外部居住者、保護動物が同じ門を通れるよう、担架の幅と人の流れを何度も変えたよ。事故で混乱した者が抵抗しても、押さえつける前に声と距離を変え、傷つけず運び出した。隣人は避難具へ必要もない飾り紐を結び、私は邪魔だと文句を言った。だが子どもたちはその色を目印に集まった。帰還後の食卓には欠けた席があった。祭りの成功より、次はその席を減らせる通路と、無駄に見える目印を残したい。
 

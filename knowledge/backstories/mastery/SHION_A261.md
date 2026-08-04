@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A261"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 月面区古文書研
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 月面共同事業
 
-- Tone: 開拓・事業・職歴 / ReviewStatus: 採用済み
+- Tone: 開拓・事業・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 乾いたユーモアを持つ古文書研究者。宣伝文句より、作業員の食事メモを信じる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 月面事業の公式記録は、最初から成功する予定だったように書かれていた。私は作業員の日誌、欠けた献立表、読めない通信まで並べ、危険手当と宣伝文句を照合したよ。完成式の演説より、最初の足跡の横に残った「夕食は遅い」という走り書きの方が信用できた。希少な研究だと評価されたが、私がしたのは空白を空白のまま残すことだ。後世の計画者が格好よく埋めたくなる余白ほど守った。最盛期を超える事業を望むなら、偉大な完成者だけでなく、不満を書いた作業員にも頁を与えるべきだろう。
 

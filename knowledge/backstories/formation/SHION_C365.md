@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C365"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 採掘倉庫係
 - Era: JourneyEra / Origin: 第三世界／馬追う民 / Relation: 貨物甲板家族
 
-- Tone: 労働・手順・淡々 / ReviewStatus: 採用済み
+- Tone: 労働・手順・淡々 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 事務的で正確、感想より数値を並べる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 貨物甲板の採掘資材倉庫は摂氏四度に保つ規定でした。自分は十二歳から温度計の確認当番を任されていました。手順は単純で、朝と夜の二回、六つの区画を回って記録板に数字を書くだけです。ただし三番区画だけは断熱材の劣化で毎回半度高く、報告するたびに大人に面倒がられました。ある冬、その半度の差で保管中の種苗が傷んだことがあります。自分の記録は正しかったが、誰も直しませんでした。以来、自分は「正しい記録」より「直させる記録」を書くようになりました。
 

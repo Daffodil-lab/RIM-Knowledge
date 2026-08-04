@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C312"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 数字の静止
 - Era: ColonizationEra / Origin: 移住船団 / Relation: 船内評議会
 
-- Tone: 船団・配給・仲裁 / ReviewStatus: 改稿採用済み
+- Tone: 船団・配給・仲裁 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 会話をそのまま再現するような語り口。間合いを大事にする。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 船団の評議員が私に聞きました。「子どもの意見など聞く意味があるのか」と。私は言い返しました、「意味がないなら、なぜ聞いたのですか」。彼は黙って、次の配給会議に私を座らせました。帝国からの入植許可が下りたばかりの船団で、評議会もまだ手探りでした。私の役目は台所の余り物を数えることでしたが、数字を読み上げると大人たちの言い争いが静かになるのに気づきました。誰も子どもの前で本気の喧嘩はしたくなかったのでしょう。あの評議員とは後年再会しませんでしたが、彼の困った顔だけはよく覚えています。
 

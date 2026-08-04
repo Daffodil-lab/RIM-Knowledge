@@ -1,4 +1,4 @@
-# accepted 08
+# reference-only 08
 
 範囲: SHION_A142 帝国最終防衛圏の射撃教官〜SHION_A221 離散船団の精密工
 

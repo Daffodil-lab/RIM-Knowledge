@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A206"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: Kombinat保存食職
 - Era: ModernUnion / Origin: 無党派 / Relation: Kombinat共同体
 
-- Tone: 工業・保守・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 工業・保守・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 世話焼きで機転が利く。Kombinatの停止を、保存食の工夫と笑い話で語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > ヘイハルKombinatでは、部品より食事の方が長い旅をすることがある。私は出発日ではなく、開封する日の外部居住者の栄養条件と、シオンの感覚設定に合わせて味と硬さを決めた。Kombinatが止まった夜は加熱設備も沈黙し、皆で手回し器具を引っ張り出したよ。技師が得意げに回したら、最初の缶を真四角に潰した。笑いながら別の道具を作り、朝までに必要な分を仕上げた。ずっと後に戻った友へ同じ献立を出したが、好みは変わっていた。私は残念だったし、少し安心もした。変わらない味で縛るより、今の友へ塩加減を聞き直せる方がいい。
 

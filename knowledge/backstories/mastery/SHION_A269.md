@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A269"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 封込隊義肢調整
 - Era: ModernUnion / Origin: 無党派 / Relation: 異常対応隊
 
-- Tone: 異常・救難・職歴 / ReviewStatus: 採用済み
+- Tone: 異常・救難・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 地味な功績を好む帰還者支援技師。大きな戦果より、報告外の一人を覚えている。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 異常封じ込め隊では、重火器を撃つより退路を作る方が多かった。手に余る対象は上位部隊へ渡し、私は帰還者の義肢を削って日常動作まで確かめた。ある任務で、公式対象ではない一人を排水路から救った。報告書では作戦外の移動とだけ記されたよ。仲間は覚えていたし、本人は後に私の工具柄を直してくれた。大きな功績にはならない。私はそれで構わないが、次の担当者が同じ排水路を見落とさないよう図面へ残した。最盛期を超える社会なら、報告欄の外にいた一人も帰還者として数えてほしい。
 

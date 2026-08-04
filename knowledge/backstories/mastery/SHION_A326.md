@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A326"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 空薄め師
 - Era: ColonizationEra / Origin: 大気改良班 / Relation: 環境観測隊
 
-- Tone: 大気・改良・希薄化 / ReviewStatus: 採用済み
+- Tone: 大気・改良・希薄化 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 感情の起伏をほとんど見せない超然とした技術者。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 大気改良班の仕事は、装置を設置して数値を記録し、翌年また少し数値が動いたことを確認するだけの繰り返しだった。特に語ることはない。危険はあったが、それも淡々とした危険で、装置が壊れれば直し、漏れがあれば塞いだ。感動的な出来事を期待されても困る、私にとってはただの仕事だった。環境観測隊とは数値をやり取りするだけの関係で、顔もあまり覚えていない。強いて言うなら、装置の音が静かになるほど大気が薄まった証拠で、それを聞くのが唯一の楽しみだった。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C367"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 檻の外の声
 - Era: JourneyEra / Origin: 東側／東方の民 / Relation: 甲板整備班
 
-- Tone: 動物・喪失・沈黙 / ReviewStatus: 採用済み
+- Tone: 動物・喪失・沈黙 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 言葉少なで間が多い、核心には触れずに話す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 飼育区画のことは、あまり話したくない。俺が世話していた動物のことも、名前くらいなら言えるが、それ以上はいい。整備班の仕事の合間に餌をやりに行くのが日課だった。毛の匂いと、夜の鳴き声はまだ覚えている。ある時期から、その区画には近づかなくなった。理由は聞かないでくれ。今でも似た鳴き声を機械の軋みの中に聞くことがある。それだけで十分だろう。動物の扱いは体で覚えたが、喧嘩っ早い性分は誰も直してくれなかった。
 

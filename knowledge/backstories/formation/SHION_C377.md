@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C377"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 秩序班見習い
 - Era: JourneyEra / Origin: 統合世代 / Relation: 統合甲板管理局
 
-- Tone: 秩序・統合・展望 / ReviewStatus: 採用済み
+- Tone: 秩序・統合・展望 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: きびきびとした実務的な口調、未来を見据える。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 私は統合甲板管理局の見習いとして、まだ制度も定まらない秩序維持の訓練を受けていました。旧い国ごとの巡回規則が入り乱れていて、毎回衝突が起きていたのを覚えています。ある日、上官が「規則を統一するより先に、挨拶の仕方を統一しよう」と言い出しました。単純な提案でしたが、効果はありました。今も後進には同じことを勧めています。制度は後からでいい、まず同じ礼をする習慣を作ること。それが秩序の土台になると、当時の経験から確信している。
 

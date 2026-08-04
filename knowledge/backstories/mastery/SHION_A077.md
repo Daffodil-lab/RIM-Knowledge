@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A077"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 評議会記憶官
 - Era: ModernUnion / Origin: 同盟市民 / Relation: 評議員同盟
 
-- Tone: 行政・記録 / ReviewStatus: 採用済み
+- Tone: 行政・記録 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 几帳面な記録官。長い議事録を詫びず、敗れた意見と迷いを未来へ残そうとする。
-- PreservedCanonPoints: 本人は採決結果だけでなく、少数意見と途中で撤回された提案も保存した。 / 未来の評議員が過去を一枚岩と誤認しないよう、迷いまで公文書にした。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
+- PotentialReferencePoints: 本人は採決結果だけでなく、少数意見と途中で撤回された提案も保存した。 / 未来の評議員が過去を一枚岩と誤認しないよう、迷いまで公文書にした。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
 
 > 評議会では採決結果だけでなく、少数意見と途中で撤回された提案も保存しました。可決案だけ残すと、未来の評議員は過去の私たちが最初から同意していたと誤解します。実際には迷い、譲り、時には友人へ強い言葉を投げた。その過程も公文書です。議事録が長すぎると苦情を受けましたよ。検索索引は改善しましたが、異論を削って短くはしませんでした。いつか同じ問題へ戻った者が、敗れた案の中から別の道を拾えるかもしれない。私たちの結論より、やり直せる余地を残したいんです。
 

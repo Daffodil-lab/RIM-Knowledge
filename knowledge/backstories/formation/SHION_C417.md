@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C417"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 記録係の子
 - Era: AscendantEra / Origin: サイキック適性検査局 / Relation: 検査官の育ての親
 
-- Tone: 孤独・観察・複雑 / ReviewStatus: 採用済み
+- Tone: 孤独・観察・複雑 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 淡々としているが、時折感情が滲む口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 育ての親は適性検査局で、感応の強さを測る針の動きを記録する仕事をしていた。私は毎日その部屋の隅で、順番を待つ人たちの顔を見て過ごした。針が大きく振れる人は誇らしそうにして、動かない人は俯いて出ていく。育ての親は誰にも態度を変えなかったけれど、私はどうしても振れ幅の違いが気になった。ある日、自分の番が回ってきて、針はほとんど動かなかった。育ての親は「動かなくていい仕事もたくさんある」とだけ言って、私の頭を撫でた。あの言葉で、少しだけ楽になった。
 

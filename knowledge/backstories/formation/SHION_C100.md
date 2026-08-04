@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C100"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 封込射撃課程
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 異常・救難・形成 / ReviewStatus: 採用済み
+- Tone: 異常・救難・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 用心深い観測者 / 理屈っぽい / 撃たない判断を誇る / 失敗談から教える
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 射場で最初に教わったのは、引き金ではなく退路の数え方でした。異常は党派を選びませんから、革命連合の寄せ集めでも観測記号だけは揃えたんです。私は標的を見分け、栽培区画の変化を何季も待ち、撃たずに済む理由を報告しました。撃破数なら立派には見えないでしょう。けれど、重火器を呼ばず作業員を二人帰せた日を私は一番誇っています。後輩には成功談より、私が安全圏を読み違えた図を先に渡しました。安心できる明日とは、英雄を要しない日だと思うので。
 

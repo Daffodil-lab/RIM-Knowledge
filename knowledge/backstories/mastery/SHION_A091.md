@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A091"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 同盟親衛射手
 - Era: ModernUnion / Origin: 同盟市民 / Relation: 評議会親衛隊
 
-- Tone: 射撃・護衛 / ReviewStatus: 採用済み
+- Tone: 射撃・護衛 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 自制心の強い射手。命中ではなく、抗議する市民を撃たずに通した判断を誇る。
-- PreservedCanonPoints: 本人は遠距離射撃で避難路を守り、同族からも稀な精度を認められた。 / 評議員だけでなく、会議へ抗議に来た市民まで護衛対象に含めたことで表彰された。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
+- PotentialReferencePoints: 本人は遠距離射撃で避難路を守り、同族からも稀な精度を認められた。 / 評議員だけでなく、会議へ抗議に来た市民まで護衛対象に含めたことで表彰された。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
 
 > 遠距離射撃で評議会の避難路を守っていました。精度については章を頂いています。ですが、いちばん大切な日は一発も撃ちませんでした。会議へ抗議に来た市民の列へ襲撃者が紛れた時、全員を敵として封鎖せよと提案されたんです。私は抗議者も護衛対象だと主張し、列を通しながら武器を持つ手だけを追いました。評議員を守ることと、評議員へ異議を言う権利を守ることは同じ任務です。命中数より、照準の中へ入っても撃たずに通した人数を私は覚えています。
 

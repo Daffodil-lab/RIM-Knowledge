@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C222"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 巡礼船修繕実習
 - Era: ImperialPeak / Origin: 旧帝国 / Relation: 最盛期帝国社会
 
-- Tone: 離散・宇宙・形成 / ReviewStatus: 採用済み
+- Tone: 離散・宇宙・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 几帳面で慎重。形式を敬うが、思い出を語る時だけ言葉が揺れる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 巡礼船では、壁を叩いた音だけで配管の緩みを当てる先達がいました。私はその人の後ろを歩き、避難路の灯りを替え、工具を決められた順へ戻しました。最盛期の帝国では、豊かな船ほど点検を怠らないことが律法への敬意だと教えられたものです。窮屈に思った日もありますが、理由を尋ねれば誰かが必ず説明してくれました。後に蘇った先達と再会した時、あの点検歌を二人とも覚えていた。でも、離れていた時間まで同じにはなりませんでした。今は昔の続きを急がず、また一つずつ隣を歩くことにしています。
 

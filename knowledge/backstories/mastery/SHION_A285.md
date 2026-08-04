@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A285"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 本国古文書研
 - Era: EraIndependent / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 生活・基幹・職歴 / ReviewStatus: 採用済み
+- Tone: 生活・基幹・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 穏健な歴史家。帝国最盛期を懐かしむが、生活の余白まで復元したいと考える。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 本国の古文書を読むと、帝国最盛期の律法と豊かさだけでなく、祝日の献立や退屈な修繕記録まで残っていた。私は後者が好きだった。隣人は必要もない道具へ飾りを彫り、食事の手順を何通りも書いた。政治集会では最盛期の平和を取り戻したいと話すが、階級や形式を丸ごと復元する案には賛成しない。読めない頁を都合よく埋めず、身体の違う住民が同じ資料を使える形へ直したよ。豊かさとは、優れた制度だけでなく、役に立たない趣味と訂正の余白を残せる暮らしだったはずだ。
 

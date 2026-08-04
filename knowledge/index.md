@@ -15,14 +15,15 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 5. [知識所有者マップ](governance/ownership-map.md)
 6. [オーバーホール中の矛盾判定規則](governance/contradiction-policy.md)
 7. [矛盾監査台帳](contradictions/)
-8. [正史・世界観](world/)
-9. [全体設計](design/)
-10. [リリース計画](roadmap/)
+8. [参考](reference/)
+9. [正史・世界観](world/)
+10. [全体設計](design/)
+11. [リリース計画](roadmap/)
 
 ## 領域
 
 - [制作・開示](authoring/) — 32件
-- [バックストーリー](backstories/) — 845件
+- [バックストーリー（参考資料）](backstories/) — 845件
 - [人物](characters/) — 55件
 - [矛盾監査](contradictions/) — 3件
 - [独立開拓団](colony/) — 30件
@@ -34,6 +35,7 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 - [横断ナビゲーション](navigation/) — 荷札から生成した派生索引
 - [Pawn生産・保管・再生](pawn/) — 91件
 - [プレイヤー向け設定](player-facing/) — 13件
+- [参考](reference/) — 1件
 - [調査・参照](research/) — 117件
 - [リリース計画](roadmap/) — 12件
 - [退役済み出典識別台帳](sources/) — 削除済み原本・コード・図版の墓標
@@ -48,4 +50,5 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 - 削除済み原本の由来は[退役済み出典識別台帳](sources/)の墓標識別子で確認する。原本文面や実体ファイルは参照できない。
 - 現行仕様と履歴が競合する場合は、`authority`と`status`を優先する。
 - オーバーホール中の相違は[矛盾監査台帳](contradictions/)で、真の衝突・改稿差分・未確定・実装予約・履歴へ分類する。
+- 参考作品・要素、旧作、放棄案、実用に満たない作成物、バックストーリーは[参考](reference/)から辿る。参考資料だけでは現行正本を変更しない。
 - 時代、組織、状態、主題から探す場合は[横断ナビゲーション](navigation/)を使う。派生索引は正本ではない。
