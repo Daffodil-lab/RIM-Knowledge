@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Shion_FacilityProfile_Clockwork.label>時計仕掛け総合工場</Shion_FacilityProfile_Clockwork.label>
+  <Shion_FacilityProfile_Clockwork.description>α版の設備能力Profileです。別の設備Profileと対応Pattern一覧をDefで追加することで、生産設備を拡張できます。</Shion_FacilityProfile_Clockwork.description>
+</LanguageData>

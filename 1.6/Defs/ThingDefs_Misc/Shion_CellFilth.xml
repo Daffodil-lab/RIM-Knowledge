@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="FilthBlood">
+    <defName>Shion_CellFilth</defName>
+    <label>spilled Cell</label>
+    <graphicData>
+      <texPath>Things/Filth/Spatter</texPath>
+      <color>(160, 36, 46, 180)</color>
+    </graphicData>
+  </ThingDef>
+
+  <ThingDef ParentName="FilthBlood">
+    <defName>Shion_CellSmear</defName>
+    <label>Cell smear</label>
+    <graphicData>
+      <texPath>Things/Filth/CrawlSmear</texPath>
+      <color>(160, 36, 46, 165)</color>
+      <graphicClass>Graphic_ClusterTight</graphicClass>
+      <drawSize>0.9</drawSize>
+    </graphicData>
+  </ThingDef>
+</Defs>

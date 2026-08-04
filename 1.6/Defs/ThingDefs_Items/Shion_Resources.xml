@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="ShionResourceBase" ParentName="ResourceBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <resourceReadoutPriority>Middle</resourceReadoutPriority>
+    <stackLimit>250</stackLimit>
+    <thingCategories>
+      <li>ResourcesRaw</li>
+    </thingCategories>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Cutout</shaderType>
+      <drawSize>(0.65,0.65)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>100</MaxHitPoints>
+      <DeteriorationRate>0.5</DeteriorationRate>
+      <Flammability>0</Flammability>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="ShionResourceBase">
+    <defName>Shion_Cell</defName>
+    <label>Cell</label>
+    <description>A standardized physical industrial medium used to construct and maintain Shion systems.</description>
+    <graphicData>
+      <texPath>Things/Item/ShionResources/ShionResource</texPath>
+      <color>(0.82,0.20,0.22)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>12</MarketValue>
+      <Mass>0.12</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="ShionResourceBase">
+    <defName>Shion_EnergyCrystal</defName>
+    <label>energy crystal</label>
+    <description>A physical crystal that transports and stores energy for bodies, equipment, and remote installations.</description>
+    <graphicData>
+      <texPath>Things/Item/ShionResources/ShionResource</texPath>
+      <color>(0.34,0.76,0.92)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>18</MarketValue>
+      <Mass>0.08</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="ShionResourceBase">
+    <defName>Shion_StructuralMaterial</defName>
+    <label>structural material</label>
+    <description>Compact standardized matter for frames, shells, foundations, and machinery.</description>
+    <graphicData>
+      <texPath>Things/Item/ShionResources/ShionResource</texPath>
+      <color>(0.80,0.73,0.60)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>7</MarketValue>
+      <Mass>0.35</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="ShionResourceBase">
+    <defName>Shion_MaintenanceMaterial</defName>
+    <label>maintenance material</label>
+    <description>Consumable seals, lubricants, calibrated parts, and repair media packed as one industrial supply.</description>
+    <graphicData>
+      <texPath>Things/Item/ShionResources/ShionResource</texPath>
+      <color>(0.88,0.82,0.60)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>10</MarketValue>
+      <Mass>0.18</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="ShionResourceBase">
+    <defName>Shion_AmmunitionCrystal</defName>
+    <label>ammunition crystal</label>
+    <description>A physical feed crystal from which Shion ranged weapons manufacture their specific ammunition.</description>
+    <graphicData>
+      <texPath>Things/Item/ShionResources/ShionResource</texPath>
+      <color>(0.72,0.20,0.34)</color>
+    </graphicData>
+    <statBases>
+      <MarketValue>15</MarketValue>
+      <Mass>0.10</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef Name="ShionManufacturedBase" ParentName="ResourceBase" Abstract="True">
+    <thingClass>ThingWithComps</thingClass>
+    <category>Item</category>
+    <stackLimit>100</stackLimit>
+    <thingCategories>
+      <li>Manufactured</li>
+    </thingCategories>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <shaderType>Cutout</shaderType>
+      <texPath>Things/Item/ShionResources/ShionResource</texPath>
+      <drawSize>(0.65,0.65)</drawSize>
+    </graphicData>
+    <statBases>
+      <MaxHitPoints>120</MaxHitPoints>
+      <DeteriorationRate>0.25</DeteriorationRate>
+      <Flammability>0</Flammability>
+      <Mass>0.25</Mass>
+    </statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="ShionManufacturedBase">
+    <defName>Shion_RelayBlank</defName>
+    <label>relay blank</label>
+    <description>A rough frame awaiting energy routing and clockwork calibration.</description>
+    <graphicData><color>(0.65,0.62,0.56)</color></graphicData>
+    <statBases><MarketValue>28</MarketValue></statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="ShionManufacturedBase">
+    <defName>Shion_CalibratedCore</defName>
+    <label>calibrated relay core</label>
+    <description>A calibrated energy and maintenance core ready for final assembly.</description>
+    <graphicData><color>(0.74,0.62,0.28)</color></graphicData>
+    <statBases><MarketValue>58</MarketValue></statBases>
+  </ThingDef>
+
+  <ThingDef ParentName="ShionManufacturedBase">
+    <defName>Shion_ClockworkRelay</defName>
+    <label>clockwork relay</label>
+    <description>A completed Shion control relay produced through the Kombinat's three-stage chain.</description>
+    <graphicData><color>(0.88,0.77,0.42)</color></graphicData>
+    <statBases><MarketValue>110</MarketValue></statBases>
+  </ThingDef>
+</Defs>

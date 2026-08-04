@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Shion_ClockworkBody.label>機械仕掛けの身体</Shion_ClockworkBody.label>
+  <Shion_ClockworkBody.description>食事を必要とせず、生物学的に老化しない製造身体です。この身体は宿るシオン本人の所有物です。</Shion_ClockworkBody.description>
+  <Shion_FoxEars.label>シオンの狐耳</Shion_FoxEars.label>
+  <Shion_FoxEars.description>シオン標準身体の狐耳は実在する聴覚器官で、負傷・欠損することがあります。</Shion_FoxEars.description>
+  <Shion_FoxTail.label>シオンの狐尾</Shion_FoxTail.label>
+  <Shion_FoxTail.description>シオン標準身体の狐尾は姿勢制御に使う実在器官です。失うと移動能力が低下します。</Shion_FoxTail.description>
+</LanguageData>

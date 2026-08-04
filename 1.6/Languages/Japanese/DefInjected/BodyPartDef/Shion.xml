@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Shion_Ribcage.label>胸郭</Shion_Ribcage.label>
+  <Shion_Neck.label>首</Shion_Neck.label>
+  <Shion_ArtificialBrain.label>人工脳</Shion_ArtificialBrain.label>
+  <Shion_Reactor.label>リアクター</Shion_Reactor.label>
+  <Shion_FluidReprocessor.label>流体再処理装置</Shion_FluidReprocessor.label>
+  <Shion_FoxEar.label>狐耳</Shion_FoxEar.label>
+  <Shion_FoxTail.label>狐尾</Shion_FoxTail.label>
+</LanguageData>

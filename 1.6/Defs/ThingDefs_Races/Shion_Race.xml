@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef ParentName="Human">
+    <defName>Shion_Race</defName>
+    <thingClass>Shion.Core.Pawn_Shion</thingClass>
+    <label>Shion</label>
+    <description>A manufactured human people whose standard expedition body resembles a clockwork fox doll. Each Shion is an independent person and owns their own body.</description>
+    <statBases>
+      <MarketValue>3000</MarketValue>
+      <Mass>30</Mass>
+      <MoveSpeed>5</MoveSpeed>
+      <CrawlSpeed>1</CrawlSpeed>
+      <FilthRate>0</FilthRate>
+      <Flammability>0</Flammability>
+      <WorkSpeedGlobal>1.5</WorkSpeedGlobal>
+      <SocialImpact>1.5</SocialImpact>
+      <RangedCooldownFactor>0.75</RangedCooldownFactor>
+      <AimingDelayFactor>0.75</AimingDelayFactor>
+      <ImmunityGainSpeed>25</ImmunityGainSpeed>
+      <CarryingCapacity>100</CarryingCapacity>
+      <PawnBeauty>3</PawnBeauty>
+      <RoyalFavorValue>20</RoyalFavorValue>
+      <SocialIdeoSpreadFrequencyFactor>5</SocialIdeoSpreadFrequencyFactor>
+      <CertaintyLossFactor>0.5</CertaintyLossFactor>
+      <MeatAmount>0</MeatAmount>
+      <LeatherAmount>0</LeatherAmount>
+      <ToxicEnvironmentResistance>0.75</ToxicEnvironmentResistance>
+    </statBases>
+    <race>
+      <hasGenders>false</hasGenders>
+      <foodType>OmnivoreHuman</foodType>
+      <lifeExpectancy>9999</lifeExpectancy>
+      <baseHealthScale>1.5</baseHealthScale>
+      <body>Shion_StandardBody</body>
+      <fleshType>ShionMechanical</fleshType>
+      <bloodDef>Shion_CellFilth</bloodDef>
+      <bloodSmearDef>Shion_CellSmear</bloodSmearDef>
+      <gestationPeriodDays>0</gestationPeriodDays>
+      <canBecomeShambler>false</canBecomeShambler>
+      <hasUnnaturalCorpse>false</hasUnnaturalCorpse>
+      <isImmuneToInfections>true</isImmuneToInfections>
+      <makesFootprints>false</makesFootprints>
+      <hediffGiverSets Inherit="False" />
+    </race>
+    <modExtensions>
+      <li Class="Shion.Core.ShionRaceExtension">
+        <fluidReprocessorPart>Shion_FluidReprocessor</fluidReprocessorPart>
+        <foxEarPart>Shion_FoxEar</foxEarPart>
+        <foxTailPart>Shion_FoxTail</foxTailPart>
+        <cellLossHediff>Shion_CellLoss</cellLossHediff>
+        <fluidReprocessingOfflineHediff>Shion_FluidReprocessingOffline</fluidReprocessingOfflineHediff>
+        <healthCheckIntervalTicks>60</healthCheckIntervalTicks>
+        <restFloor>0.02</restFloor>
+        <tailMoveFactor>0.85</tailMoveFactor>
+        <requiredRecreationTypesOffset>3</requiredRecreationTypesOffset>
+        <driveWorkSpeedByMood>
+          <points>
+            <li>(0, 1)</li>
+            <li>(1, 1)</li>
+          </points>
+        </driveWorkSpeedByMood>
+      </li>
+    </modExtensions>
+  </ThingDef>
+
+  <PawnKindDef ParentName="BasePlayerPawnKind">
+    <defName>Shion_Colonist</defName>
+    <label>Shion expeditioner</label>
+    <race>Shion_Race</race>
+    <defaultFactionDef>Shion_PlayerFaction</defaultFactionDef>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <Shion_Xenotype>999</Shion_Xenotype>
+      </xenotypeChances>
+    </xenotypeSet>
+    <useFactionXenotypes>false</useFactionXenotypes>
+    <minGenerationAge>18</minGenerationAge>
+    <maxGenerationAge>2000</maxGenerationAge>
+    <apparelTags>
+      <li>IndustrialBasic</li>
+    </apparelTags>
+    <apparelMoney>300~500</apparelMoney>
+    <chemicalAddictionChance>0</chemicalAddictionChance>
+    <humanPregnancyChance>0</humanPregnancyChance>
+    <initialResistanceRange>13~21</initialResistanceRange>
+  </PawnKindDef>
+
+  <FactionDef ParentName="PlayerFactionBase">
+    <defName>Shion_PlayerFaction</defName>
+    <label>Independent Expedition</label>
+    <description>An independent Shion frontier community outside permanent homeland command and guaranteed supply.</description>
+    <isPlayer>true</isPlayer>
+    <basicMemberKind>Shion_Colonist</basicMemberKind>
+    <pawnSingular>expeditioner</pawnSingular>
+    <pawnsPlural>expeditioners</pawnsPlural>
+    <techLevel>Industrial</techLevel>
+    <factionNameMaker>NamerFactionOutlander</factionNameMaker>
+    <settlementNameMaker>NamerSettlementOutlander</settlementNameMaker>
+    <allowedCultures><li>Astropolitan</li></allowedCultures>
+    <backstoryFilters>
+      <li><categories><li>Offworld</li></categories></li>
+    </backstoryFilters>
+    <factionIconPath>World/WorldObjects/Expanding/Town</factionIconPath>
+    <startingResearchTags><li>ClassicStart</li></startingResearchTags>
+    <startingTechprintsResearchTags>
+      <li>ClassicStart</li>
+      <li>ClassicStartTechprints</li>
+    </startingTechprintsResearchTags>
+    <xenotypeSet Inherit="False">
+      <xenotypeChances>
+        <Shion_Xenotype>999</Shion_Xenotype>
+      </xenotypeChances>
+    </xenotypeSet>
+  </FactionDef>
+</Defs>

@@ -1,0 +1,23 @@
+<Project>
+  <PropertyGroup>
+    <TargetFramework>net472</TargetFramework>
+    <LangVersion>7.3</LangVersion>
+    <Nullable>disable</Nullable>
+    <ImplicitUsings>disable</ImplicitUsings>
+    <GenerateAssemblyInfo>true</GenerateAssemblyInfo>
+    <Deterministic>true</Deterministic>
+    <UseSharedCompilation>false</UseSharedCompilation>
+    <DebugType>portable</DebugType>
+    <AppendTargetFrameworkToOutputPath>false</AppendTargetFrameworkToOutputPath>
+    <OutputPath>$(MSBuildThisFileDirectory)1.6\Assemblies\</OutputPath>
+    <BaseIntermediateOutputPath>$(MSBuildThisFileDirectory)obj\$(MSBuildProjectName)\</BaseIntermediateOutputPath>
+    <RimWorldWorkshopRoot Condition="'$(RimWorldWorkshopRoot)' == ''">C:\Program Files (x86)\Steam\steamapps\workshop\content\294100</RimWorldWorkshopRoot>
+    <VEFAssemblyPath Condition="'$(VEFAssemblyPath)' == ''">$(RimWorldWorkshopRoot)\2023507013\1.6\Assemblies\VEF.dll</VEFAssemblyPath>
+  </PropertyGroup>
+  <ItemGroup>
+    <PackageReference Include="Krafs.Rimworld.Ref" Version="1.6.4871" PrivateAssets="all" />
+  </ItemGroup>
+  <Target Name="ValidateFrameworkReferences" BeforeTargets="ResolveAssemblyReferences">
+    <Error Condition="!Exists('$(VEFAssemblyPath)')" Text="Vanilla Expanded Framework 1.6 assembly not found. Set VEFAssemblyPath." />
+  </Target>
+</Project>

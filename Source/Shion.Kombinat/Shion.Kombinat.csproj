@@ -1,0 +1,11 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Shion.Kombinat</AssemblyName>
+    <RootNamespace>Shion.Kombinat</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="VEF" HintPath="$(VEFAssemblyPath)" Private="false" />
+    <ProjectReference Include="..\Shion.Storage\Shion.Storage.csproj" />
+  </ItemGroup>
+</Project>
+

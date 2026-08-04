@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <PawnCapacityDef>
+    <defName>Shion_FluidReprocessing</defName>
+    <label>fluid reprocessing</label>
+    <description>The fraction of the body's two fluid reprocessors that remains operational.</description>
+    <workerClass>Shion.Core.PawnCapacityWorker_ShionFluidReprocessing</workerClass>
+    <minValue>0</minValue>
+    <minForCapable>0.01</minForCapable>
+    <lethalFlesh>false</lethalFlesh>
+    <lethalMechanoids>false</lethalMechanoids>
+    <showOnHumanlikes>true</showOnHumanlikes>
+    <showOnAnimals>false</showOnAnimals>
+    <showOnMechanoids>false</showOnMechanoids>
+    <showOnAnomalyEntities>false</showOnAnomalyEntities>
+    <showOnDrones>false</showOnDrones>
+    <showOnCaravanHealthTab>true</showOnCaravanHealthTab>
+    <listOrder>55</listOrder>
+  </PawnCapacityDef>
+</Defs>

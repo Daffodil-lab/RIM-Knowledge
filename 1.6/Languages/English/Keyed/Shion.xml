@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Shion_GameStartDialog>You did not come here under orders, nor were you exiled. The three of you chose this place and brought only what three people could carry: your bodies, records, tools, and a finite industrial reserve. The homeland's abundance is far away. Its knowledge is not. Build a shelter, restore local production, and make a good life that belongs to this place.</Shion_GameStartDialog>
+
+  <Shion_StorageInspect>Stored: {0}/{1}\nEndpoint: {2}</Shion_StorageInspect>
+  <Shion_OpenStorage>Open storage</Shion_OpenStorage>
+  <Shion_OpenStorageDesc>Inspect stored Things and eject selected contents.</Shion_OpenStorageDesc>
+  <Shion_ImportNearby>Import nearby items</Shion_ImportNearby>
+  <Shion_ImportNearbyDesc>Move nearby map items directly into this authoritative container.</Shion_ImportNearbyDesc>
+  <Shion_EjectAll>Eject all</Shion_EjectAll>
+  <Shion_EjectAllDesc>Return all stored items to ordinary map space.</Shion_EjectAllDesc>
+  <Shion_NoOutputCell>No valid output cell is available. The items remain safely stored.</Shion_NoOutputCell>
+  <Shion_ImportedCount>Imported {0} items.</Shion_ImportedCount>
+  <Shion_StorageTitle>{0} — contents</Shion_StorageTitle>
+  <Shion_StorageSummary>Physical Things: {0}/{1}    Endpoint: {2}</Shion_StorageSummary>
+  <Shion_EndpointState>State: {0}</Shion_EndpointState>
+  <Shion_Search>Search</Shion_Search>
+  <Shion_EjectCount>Count</Shion_EjectCount>
+  <Shion_EjectOne>Eject 1</Shion_EjectOne>
+  <Shion_EjectSpecified>Eject count</Shion_EjectSpecified>
+  <Shion_EjectStack>Eject stack</Shion_EjectStack>
+
+  <Shion_OpenKombinat>Open Kombinat</Shion_OpenKombinat>
+  <Shion_OpenKombinatDesc>Open the extensible domestic management, storage, production, logistics, and finance interface.</Shion_OpenKombinatDesc>
+  <Shion_FactoryInspect>Profile: {0}\nStatus: {1}\nFacility: {2}</Shion_FactoryInspect>
+  <Shion_UnknownProfile>unknown profile</Shion_UnknownProfile>
+  <Shion_KombinatTitle>Shion domestic management</Shion_KombinatTitle>
+  <Shion_NoManagementPages>No visible management page Def is available.</Shion_NoManagementPages>
+  <Shion_LedgerUnavailable>The world ledger is unavailable.</Shion_LedgerUnavailable>
+  <Shion_AccountSummary>Alliance account — balance: {0}    reserved: {1}    available: {2}</Shion_AccountSummary>
+  <Shion_NetworkSummary>Network storage — physical: {0}/{1}    output capacity reserved: {2}</Shion_NetworkSummary>
+  <Shion_RuntimeSummary>Plans: {0}    Jobs: {1}    Batches: {2}</Shion_RuntimeSummary>
+  <Shion_TransactionSummary>Transactions: {0}</Shion_TransactionSummary>
+  <Shion_CreateProductionRequest>Create production request</Shion_CreateProductionRequest>
+  <Shion_ProductionCatalogSummary>Production catalog: {0} patterns    currently unlocked: {1}</Shion_ProductionCatalogSummary>
+  <Shion_ProductionCatalogTitle>Mass-production catalog: {0}/{1}</Shion_ProductionCatalogTitle>
+  <Shion_ProductionRequestsTitle>Production requests: {0}</Shion_ProductionRequestsTitle>
+  <Shion_OrderAmount>Order amount ({0}-{1})</Shion_OrderAmount>
+  <Shion_Order>Order</Shion_Order>
+  <Shion_Locked>Locked</Shion_Locked>
+  <Shion_CatalogPatternDetail>{0}    tech: {1}    account: {2}</Shion_CatalogPatternDetail>
+  <Shion_CatalogIngredients>Ingredients: {0}</Shion_CatalogIngredients>
+  <Shion_KombinatNativePattern>Kombinat native pattern</Shion_KombinatNativePattern>
+  <Shion_NoStorageEndpoints>No connected Core storage endpoint is available.</Shion_NoStorageEndpoints>
+  <Shion_OpenStorageDetails>Open selected storage contents</Shion_OpenStorageDetails>
+  <Shion_EndpointReservationSummary>Physical: {0}/{1}    input reserved: {2}    output reserved: {3}</Shion_EndpointReservationSummary>
+  <Shion_FacilityPageEmpty>No facility was used to open this page. A future facility registry provider can populate this view without changing the window.</Shion_FacilityPageEmpty>
+  <Shion_FacilityIdentity>{0}    {1}</Shion_FacilityIdentity>
+  <Shion_FacilityProfile>Profile: {0}    interval: {1} ticks    speed: ×{2}</Shion_FacilityProfile>
+  <Shion_FacilityStorageBoundary>This factory stores no inputs, intermediates, or outputs. It owns only capability, assignment, and progress; every physical Thing remains in Core storage.</Shion_FacilityStorageBoundary>
+  <Shion_LogisticsExtensionSlot>This page is ready for Def-driven route and provider workers. Remote inventory and transit cargo remain disabled until their World-level ownership and arrival contracts are implemented.</Shion_LogisticsExtensionSlot>
+  <Shion_FinanceExtensionSlot>Account history is live. Deposits, withdrawals, taxation, remote production, and trade contracts can be added as new ledger services without replacing this page catalog.</Shion_FinanceExtensionSlot>
+  <Shion_Cancel>Cancel</Shion_Cancel>
+
+  <Shion_StatusIdle>idle</Shion_StatusIdle>
+  <Shion_StatusPlanned>planned</Shion_StatusPlanned>
+  <Shion_StatusMaterialWaiting>waiting for physical materials</Shion_StatusMaterialWaiting>
+  <Shion_StatusWorking>working</Shion_StatusWorking>
+  <Shion_StatusOutputBlocked>waiting for reserved network output capacity</Shion_StatusOutputBlocked>
+  <Shion_StatusCompleted>completed</Shion_StatusCompleted>
+  <Shion_StatusCancelled>cancelled</Shion_StatusCancelled>
+  <Shion_StatusNoPower>waiting for power</Shion_StatusNoPower>
+  <Shion_StatusPatternMissing>pattern unavailable</Shion_StatusPatternMissing>
+  <Shion_StatusCurrencyShortage>insufficient alliance currency</Shion_StatusCurrencyShortage>
+  <Shion_StatusResearchLocked>waiting for required research or official availability</Shion_StatusResearchLocked>
+  <Shion_StatusStorageCommitFault>storage production commit failed</Shion_StatusStorageCommitFault>
+  <Shion_StatPart_TailIntegrity>Tail integrity: x{0}</Shion_StatPart_TailIntegrity>
+  <Shion_StatPart_FluidReprocessing>Fluid reprocessing: x{0}</Shion_StatPart_FluidReprocessing>
+  <Shion_StatPart_Drive>Drive: x{0}</Shion_StatPart_Drive>
+</LanguageData>

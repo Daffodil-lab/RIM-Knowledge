@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <VEF.Graphics.CustomOverlayDef>
+    <defName>Shion_EndpointOverlay</defName>
+    <workerClass>VEF.Graphics.CustomOverlayWorker</workerClass>
+    <pulsing>true</pulsing>
+    <overlayPath>UI/Overlays/ShionEndpoint</overlayPath>
+    <shaderType>MetaOverlay</shaderType>
+  </VEF.Graphics.CustomOverlayDef>
+</Defs>
+

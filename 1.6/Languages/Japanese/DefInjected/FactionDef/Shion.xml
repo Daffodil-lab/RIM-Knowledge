@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Shion_PlayerFaction.label>独立開拓団</Shion_PlayerFaction.label>
+  <Shion_PlayerFaction.description>本国の正規指揮や保証補給へ恒常所属しない、シオンの辺境共同体です。</Shion_PlayerFaction.description>
+  <Shion_PlayerFaction.pawnSingular>遠征者</Shion_PlayerFaction.pawnSingular>
+  <Shion_PlayerFaction.pawnsPlural>遠征者たち</Shion_PlayerFaction.pawnsPlural>
+</LanguageData>
+

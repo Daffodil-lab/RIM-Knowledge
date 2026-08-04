@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ScenPartDef>
+    <defName>Shion_EnsureExpeditionSkills</defName>
+    <label>Shion expedition skill coverage</label>
+    <category>Fixed</category>
+    <scenPartClass>Shion.Core.Scenario.ScenPart_EnsureShionExpeditionSkills</scenPartClass>
+    <summaryPriority>490</summaryPriority>
+    <maxUses>1</maxUses>
+  </ScenPartDef>
+
+  <ScenarioDef ParentName="ScenarioBase">
+    <defName>Shion_IndependentExpedition</defName>
+    <label>Independent Expedition</label>
+    <description>Three Shion have chosen to establish an independent frontier community. They carry standardized bodies, tools, records, and a finite industrial reserve—but not the homeland's factories or guaranteed supply.</description>
+    <scenario>
+      <summary>Three independent Shion build a local industrial community.</summary>
+      <playerFaction>
+        <def>PlayerFaction</def>
+        <factionDef>Shion_PlayerFaction</factionDef>
+      </playerFaction>
+      <parts>
+        <li Class="ScenPart_ConfigPage_ConfigureStartingPawns">
+          <def>ConfigPage_ConfigureStartingPawns</def>
+          <pawnCount>3</pawnCount>
+          <pawnChoiceCount>8</pawnChoiceCount>
+        </li>
+        <li Class="ScenPart_PlayerPawnsArriveMethod">
+          <def>PlayerPawnsArriveMethod</def>
+          <method>Standing</method>
+          <visible>false</visible>
+        </li>
+        <li Class="Shion.Core.Scenario.ScenPart_EnsureShionExpeditionSkills">
+          <def>Shion_EnsureExpeditionSkills</def>
+        </li>
+        <li Class="ScenPart_StartingResearch">
+          <def>StartingResearch</def>
+          <project>Shion_CoreLogistics</project>
+        </li>
+        <li Class="ScenPart_StartingThing_Defined"><def>StartingThing_Defined</def><thingDef>MedicineIndustrial</thingDef><count>24</count></li>
+        <li Class="ScenPart_StartingThing_Defined"><def>StartingThing_Defined</def><thingDef>ComponentIndustrial</thingDef><count>32</count></li>
+        <li Class="ScenPart_StartingThing_Defined"><def>StartingThing_Defined</def><thingDef>Gun_BoltActionRifle</thingDef></li>
+        <li Class="ScenPart_StartingThing_Defined"><def>StartingThing_Defined</def><thingDef>Gun_Revolver</thingDef></li>
+        <li Class="ScenPart_StartingThing_Defined"><def>StartingThing_Defined</def><thingDef>MeleeWeapon_Knife</thingDef><stuff>Plasteel</stuff></li>
+        <li Class="ScenPart_StartingThing_Defined"><def>StartingThing_Defined</def><thingDef>Shion_Cell</thingDef><count>40</count></li>
+        <li Class="ScenPart_StartingThing_Defined"><def>StartingThing_Defined</def><thingDef>Shion_EnergyCrystal</thingDef><count>30</count></li>
+        <li Class="ScenPart_StartingThing_Defined"><def>StartingThing_Defined</def><thingDef>Shion_StructuralMaterial</thingDef><count>100</count></li>
+        <li Class="ScenPart_StartingThing_Defined"><def>StartingThing_Defined</def><thingDef>Shion_MaintenanceMaterial</thingDef><count>50</count></li>
+        <li Class="ScenPart_StartingThing_Defined"><def>StartingThing_Defined</def><thingDef>Shion_AmmunitionCrystal</thingDef><count>30</count></li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart"><def>ScatterThingsNearPlayerStart</def><thingDef>Steel</thingDef><count>600</count></li>
+        <li Class="ScenPart_ScatterThingsNearPlayerStart"><def>ScatterThingsNearPlayerStart</def><thingDef>WoodLog</thingDef><count>250</count></li>
+        <li Class="ScenPart_GameStartDialog">
+          <def>GameStartDialog</def>
+          <textKey>Shion_GameStartDialog</textKey>
+          <closeSound>GameStartSting</closeSound>
+        </li>
+      </parts>
+    </scenario>
+  </ScenarioDef>
+</Defs>

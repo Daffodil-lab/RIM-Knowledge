@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThoughtDef>
+    <defName>Shion_MoreHumanThanHuman</defName>
+    <workerClass>Shion.Core.ThoughtWorker_ShionMoreHumanThanHuman</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>more human than human</label>
+        <description>I know who I am. My manufactured body does not diminish my humanity.</description>
+        <baseMoodEffect>8</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+
+  <ThoughtDef>
+    <defName>Shion_Enslaved</defName>
+    <workerClass>Shion.Core.ThoughtWorker_ShionEnslaved</workerClass>
+    <validWhileDespawned>true</validWhileDespawned>
+    <stages>
+      <li>
+        <label>a person treated as property</label>
+        <description>My manufactured body belongs to me. Enslavement denies my personhood and turns that body into someone else's property.</description>
+        <baseMoodEffect>-46</baseMoodEffect>
+      </li>
+    </stages>
+  </ThoughtDef>
+</Defs>

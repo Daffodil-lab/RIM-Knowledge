@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <GeneDef>
+    <defName>Shion_ClockworkBody</defName>
+    <label>clockwork body</label>
+    <description>This manufactured body does not require food and does not biologically age. It is a physical body owned by the Shion who inhabits it.</description>
+    <iconPath>UI/Icons/Genes/Gene_Ageless</iconPath>
+    <geneClass>Shion.Core.Gene_ShionManufacturedBody</geneClass>
+    <displayCategory>Miscellaneous</displayCategory>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <dontMindRawFood>true</dontMindRawFood>
+    <foodPoisoningChanceFactor>0</foodPoisoningChanceFactor>
+    <painFactor>1</painFactor>
+    <preventPermanentWounds>true</preventPermanentWounds>
+    <disablesNeeds>
+      <li>Food</li>
+    </disablesNeeds>
+    <makeImmuneTo>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">Inhumanized</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">FleshmassStomach</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">FleshmassLung</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">Tentacle</li>
+      <li MayRequire="Ludeon.RimWorld.Anomaly">FleshWhip</li>
+    </makeImmuneTo>
+    <biologicalAgeTickFactorFromAgeCurve>
+      <points>
+        <li>(0, 0)</li>
+        <li>(9999, 0)</li>
+      </points>
+    </biologicalAgeTickFactorFromAgeCurve>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>Shion_FoxEars</defName>
+    <label>Shion fox ears</label>
+    <description>The standard Shion body has physical fox ears that provide hearing and can be injured or lost.</description>
+    <iconPath>UI/Icons/Genes/Gene_EarCat</iconPath>
+    <displayCategory>Miscellaneous</displayCategory>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <exclusionTags>
+      <li>Ears</li>
+    </exclusionTags>
+    <renderNodeProperties>
+      <li>
+        <nodeClass>PawnRenderNode_AttachmentHead</nodeClass>
+        <workerClass>Shion.Core.PawnRenderNodeWorker_ShionFoxEars</workerClass>
+        <texPath>Things/Pawn/Humanlike/HeadAttachments/CatEars/CatEars</texPath>
+        <colorType>Skin</colorType>
+        <parentTagDef>Head</parentTagDef>
+        <useSkinShader>true</useSkinShader>
+        <useRottenColor>true</useRottenColor>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawData>
+          <defaultData>
+            <layer>70</layer>
+          </defaultData>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <GeneDef>
+    <defName>Shion_FoxTail</defName>
+    <label>Shion fox tail</label>
+    <description>The standard Shion body has a physical fox tail used for balance. Losing it reduces movement speed.</description>
+    <iconPath>UI/Icons/Genes/Gene_TailFurry</iconPath>
+    <displayCategory>Miscellaneous</displayCategory>
+    <canGenerateInGeneSet>false</canGenerateInGeneSet>
+    <exclusionTags>
+      <li>Tail</li>
+    </exclusionTags>
+    <renderNodeProperties>
+      <li>
+        <workerClass>Shion.Core.PawnRenderNodeWorker_ShionFoxTail</workerClass>
+        <texPath>Things/Pawn/Humanlike/BodyAttachments/FurryTail/FurryTail</texPath>
+        <colorType>Hair</colorType>
+        <overrideMeshSize>(1, 1)</overrideMeshSize>
+        <parentTagDef>Body</parentTagDef>
+        <rotDrawMode>Fresh, Rotting</rotDrawMode>
+        <drawData>
+          <scaleOffsetByBodySize>true</scaleOffsetByBodySize>
+          <defaultData>
+            <layer>-2</layer>
+          </defaultData>
+          <dataNorth>
+            <offset>(0.1, 0, -0.25)</offset>
+            <layer>90</layer>
+          </dataNorth>
+          <dataSouth>
+            <offset>(-0.1, 0, -0.25)</offset>
+          </dataSouth>
+          <dataEast>
+            <offset>(-0.5, 0, -0.15)</offset>
+          </dataEast>
+          <dataWest>
+            <offset>(0.5, 0, -0.15)</offset>
+          </dataWest>
+        </drawData>
+      </li>
+    </renderNodeProperties>
+  </GeneDef>
+
+  <XenotypeDef>
+    <defName>Shion_Xenotype</defName>
+    <label>Shion clockwork body</label>
+    <description>A standardized manufactured body used by independent Shion expeditioners. Its human-compatible exterior contains a reactor, artificial brain, paired fluid reprocessors, physical fox ears, and a physical tail.</description>
+    <descriptionShort>An ageless, sterile manufactured body with physical fox ears and tail.</descriptionShort>
+    <iconPath>UI/Icons/Xenotypes/Custom/CustomXenotypeIcon3</iconPath>
+    <displayPriority>2000</displayPriority>
+    <factionlessGenerationWeight>0</factionlessGenerationWeight>
+    <genes>
+      <li>Shion_ClockworkBody</li>
+      <li>Sterile</li>
+      <li>TotalHealing</li>
+      <li>ToxicEnvironmentResistance_Total</li>
+      <li>Shion_FoxEars</li>
+      <li>Shion_FoxTail</li>
+      <li>Beard_NoBeardOnly</li>
+    </genes>
+  </XenotypeDef>
+</Defs>

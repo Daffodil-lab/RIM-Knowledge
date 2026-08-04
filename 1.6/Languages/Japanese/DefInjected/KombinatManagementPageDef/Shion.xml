@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Shion_KombinatPage_Overview.label>概要</Shion_KombinatPage_Overview.label>
+  <Shion_KombinatPage_Overview.description>在庫、生産、設備、通貨の現在地をまとめて確認します。</Shion_KombinatPage_Overview.description>
+  <Shion_KombinatPage_Inventory.label>在庫</Shion_KombinatPage_Inventory.label>
+  <Shion_KombinatPage_Inventory.description>正本である物理在庫と生産予約を確認します。</Shion_KombinatPage_Inventory.description>
+  <Shion_KombinatPage_Production.label>生産</Shion_KombinatPage_Production.label>
+  <Shion_KombinatPage_Production.description>発注、計画、Job、Batchと現在の待機理由を管理します。</Shion_KombinatPage_Production.description>
+  <Shion_KombinatPage_Facilities.label>設備</Shion_KombinatPage_Facilities.label>
+  <Shion_KombinatPage_Facilities.description>Map設備と、将来の台帳上だけに存在する生産能力を扱います。</Shion_KombinatPage_Facilities.description>
+  <Shion_KombinatPage_Logistics.label>物流</Shion_KombinatPage_Logistics.label>
+  <Shion_KombinatPage_Logistics.description>航路、供給請求、遠隔在庫、輸送中Cargoの拡張面です。</Shion_KombinatPage_Logistics.description>
+  <Shion_KombinatPage_Finance.label>財務</Shion_KombinatPage_Finance.label>
+  <Shion_KombinatPage_Finance.description>同盟通貨Accountと、将来の生産・商取引契約を扱います。</Shion_KombinatPage_Finance.description>
+</LanguageData>

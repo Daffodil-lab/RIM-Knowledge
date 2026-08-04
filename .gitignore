@@ -1,0 +1,10 @@
+**/bin/
+**/obj/
+.vs/
+*.user
+*.suo
+*.pdb
+TestResults/
+Player.log
+work/
+Matter-Network-main.zip

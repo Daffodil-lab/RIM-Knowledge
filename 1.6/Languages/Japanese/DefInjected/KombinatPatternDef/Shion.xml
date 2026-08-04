@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Shion_Pattern_ClockworkRelay.label>時計仕掛けRelay生産</Shion_Pattern_ClockworkRelay.label>
+  <Shion_Pattern_ClockworkRelay.description>工場内在庫を持たず、物理資源をStorage上で予約・Commitする三段階の検証用Patternです。</Shion_Pattern_ClockworkRelay.description>
+</LanguageData>

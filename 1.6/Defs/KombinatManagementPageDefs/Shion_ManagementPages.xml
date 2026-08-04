@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Shion.Kombinat.KombinatManagementPageDef>
+    <defName>Shion_KombinatPage_Overview</defName>
+    <label>Overview</label>
+    <description>Current stock, production, facilities, and account activity at a glance.</description>
+    <workerClass>Shion.Kombinat.KombinatOverviewPageWorker</workerClass>
+    <order>100</order>
+    <iconPath>UI/Commands/ShionKombinat</iconPath>
+  </Shion.Kombinat.KombinatManagementPageDef>
+
+  <Shion.Kombinat.KombinatManagementPageDef>
+    <defName>Shion_KombinatPage_Inventory</defName>
+    <label>Inventory</label>
+    <description>Authoritative physical stock and its production reservations.</description>
+    <workerClass>Shion.Kombinat.KombinatInventoryPageWorker</workerClass>
+    <order>200</order>
+    <iconPath>UI/Commands/ShionStorage</iconPath>
+  </Shion.Kombinat.KombinatManagementPageDef>
+
+  <Shion.Kombinat.KombinatManagementPageDef>
+    <defName>Shion_KombinatPage_Production</defName>
+    <label>Production</label>
+    <description>Requests, plans, jobs, batches, and their current reasons.</description>
+    <workerClass>Shion.Kombinat.KombinatProductionPageWorker</workerClass>
+    <order>300</order>
+    <iconPath>UI/Commands/ShionKombinat</iconPath>
+  </Shion.Kombinat.KombinatManagementPageDef>
+
+  <Shion.Kombinat.KombinatManagementPageDef>
+    <defName>Shion_KombinatPage_Facilities</defName>
+    <label>Facilities</label>
+    <description>Map facilities and future ledger-only production capabilities.</description>
+    <workerClass>Shion.Kombinat.KombinatFacilitiesPageWorker</workerClass>
+    <order>400</order>
+    <iconPath>UI/Commands/ShionKombinat</iconPath>
+  </Shion.Kombinat.KombinatManagementPageDef>
+
+  <Shion.Kombinat.KombinatManagementPageDef>
+    <defName>Shion_KombinatPage_Logistics</defName>
+    <label>Logistics</label>
+    <description>Routes, supply claims, remote stock, and transit cargo extension surface.</description>
+    <workerClass>Shion.Kombinat.KombinatLogisticsPageWorker</workerClass>
+    <order>500</order>
+    <iconPath>UI/Commands/ShionStorage</iconPath>
+  </Shion.Kombinat.KombinatManagementPageDef>
+
+  <Shion.Kombinat.KombinatManagementPageDef>
+    <defName>Shion_KombinatPage_Finance</defName>
+    <label>Finance</label>
+    <description>Alliance account state and future production or trade contracts.</description>
+    <workerClass>Shion.Kombinat.KombinatFinancePageWorker</workerClass>
+    <order>600</order>
+    <iconPath>UI/Commands/ShionKombinat</iconPath>
+  </Shion.Kombinat.KombinatManagementPageDef>
+</Defs>

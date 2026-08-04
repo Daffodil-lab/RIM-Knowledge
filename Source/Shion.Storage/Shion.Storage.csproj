@@ -1,0 +1,10 @@
+<Project Sdk="Microsoft.NET.Sdk">
+  <PropertyGroup>
+    <AssemblyName>Shion.Storage</AssemblyName>
+    <RootNamespace>Shion.Storage</RootNamespace>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="VEF" HintPath="$(VEFAssemblyPath)" Private="false" />
+  </ItemGroup>
+</Project>
+

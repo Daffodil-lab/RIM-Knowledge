@@ -1,0 +1,31 @@
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.0.31903.59
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shion.Core", "Source\Shion.Core\Shion.Core.csproj", "{3E9B6C0A-482D-4B04-AE8B-D91F96D6A131}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shion.Storage", "Source\Shion.Storage\Shion.Storage.csproj", "{7EF95F40-31B2-4E9D-89D1-8EFAF4D42C3A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shion.Kombinat", "Source\Shion.Kombinat\Shion.Kombinat.csproj", "{A61B3344-3CDE-4998-810B-E0B8F75A976C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{3E9B6C0A-482D-4B04-AE8B-D91F96D6A131}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3E9B6C0A-482D-4B04-AE8B-D91F96D6A131}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3E9B6C0A-482D-4B04-AE8B-D91F96D6A131}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3E9B6C0A-482D-4B04-AE8B-D91F96D6A131}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7EF95F40-31B2-4E9D-89D1-8EFAF4D42C3A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7EF95F40-31B2-4E9D-89D1-8EFAF4D42C3A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7EF95F40-31B2-4E9D-89D1-8EFAF4D42C3A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7EF95F40-31B2-4E9D-89D1-8EFAF4D42C3A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A61B3344-3CDE-4998-810B-E0B8F75A976C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A61B3344-3CDE-4998-810B-E0B8F75A976C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A61B3344-3CDE-4998-810B-E0B8F75A976C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A61B3344-3CDE-4998-810B-E0B8F75A976C}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+EndGlobal
+

@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Shion.Kombinat.KombinatPatternDef>
+    <defName>Shion_Pattern_ClockworkRelay</defName>
+    <label>clockwork relay production</label>
+    <description>A validation pattern that reserves and commits physical resources through three storage-backed stages without factory inventory.</description>
+    <currencyCost>25</currencyCost>
+    <stages>
+      <li>
+        <label>form relay blank</label>
+        <workTicks>600</workTicks>
+        <inputs>
+          <Shion_Cell>2</Shion_Cell>
+          <Shion_StructuralMaterial>4</Shion_StructuralMaterial>
+        </inputs>
+        <outputs>
+          <Shion_RelayBlank>1</Shion_RelayBlank>
+        </outputs>
+      </li>
+      <li>
+        <label>calibrate relay core</label>
+        <workTicks>900</workTicks>
+        <inputs>
+          <Shion_RelayBlank>1</Shion_RelayBlank>
+          <Shion_EnergyCrystal>2</Shion_EnergyCrystal>
+          <Shion_MaintenanceMaterial>2</Shion_MaintenanceMaterial>
+        </inputs>
+        <outputs>
+          <Shion_CalibratedCore>1</Shion_CalibratedCore>
+        </outputs>
+      </li>
+      <li>
+        <label>seal clockwork relay</label>
+        <workTicks>1200</workTicks>
+        <inputs>
+          <Shion_CalibratedCore>1</Shion_CalibratedCore>
+          <Shion_AmmunitionCrystal>1</Shion_AmmunitionCrystal>
+        </inputs>
+        <outputs>
+          <Shion_ClockworkRelay>1</Shion_ClockworkRelay>
+        </outputs>
+      </li>
+    </stages>
+  </Shion.Kombinat.KombinatPatternDef>
+</Defs>

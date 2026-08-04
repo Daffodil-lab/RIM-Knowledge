@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Shion.Kombinat.KombinatFacilityProfileDef>
+    <defName>Shion_FacilityProfile_Clockwork</defName>
+    <label>clockwork general works</label>
+    <description>The alpha facility capability profile. It supports native validation patterns and the data-driven Core plus official DLC mass-production catalog.</description>
+    <processIntervalTicks>60</processIntervalTicks>
+    <workSpeedFactor>1</workSpeedFactor>
+    <minimumOrderAmount>1</minimumOrderAmount>
+    <maximumOrderAmount>10000</maximumOrderAmount>
+    <overviewQuickOrderCount>4</overviewQuickOrderCount>
+    <massProductionPolicy>Shion_MassProductionPolicy_Official</massProductionPolicy>
+    <patterns>
+      <li>Shion_Pattern_ClockworkRelay</li>
+    </patterns>
+  </Shion.Kombinat.KombinatFacilityProfileDef>
+
+  <Shion.Kombinat.KombinatLedgerDef>
+    <defName>Shion_Ledger_Default</defName>
+    <label>Shion alliance ledger</label>
+    <description>The default world-level account policy for the Shion management ledger.</description>
+    <isDefault>true</isDefault>
+    <openingBalance>1000</openingBalance>
+  </Shion.Kombinat.KombinatLedgerDef>
+</Defs>

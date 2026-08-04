@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Shion_Race.label>シオン</Shion_Race.label>
+  <Shion_Race.description>標準遠征身体が時計仕掛けの狐人形に似た、工業的に生み出された人類です。一人ずつ独立した人格であり、自分の身体を自分で所有します。</Shion_Race.description>
+  <Shion_Cell.label>Cell</Shion_Cell.label>
+  <Shion_Cell.description>シオンの設備を建設・保守するための、規格化された物理工業媒体です。</Shion_Cell.description>
+  <Shion_EnergyCrystal.label>エネルギー結晶</Shion_EnergyCrystal.label>
+  <Shion_EnergyCrystal.description>身体、装備、外地設備へエネルギーを運び備蓄する物理結晶です。</Shion_EnergyCrystal.description>
+  <Shion_StructuralMaterial.label>構造材</Shion_StructuralMaterial.label>
+  <Shion_StructuralMaterial.description>骨格、外装、基礎、機械設備へ使う規格化された高密度構造物資です。</Shion_StructuralMaterial.description>
+  <Shion_MaintenanceMaterial.label>保守資材</Shion_MaintenanceMaterial.label>
+  <Shion_MaintenanceMaterial.description>Seal、潤滑材、校正部品、修理媒体をまとめた工業保守物資です。</Shion_MaintenanceMaterial.description>
+  <Shion_AmmunitionCrystal.label>弾薬結晶</Shion_AmmunitionCrystal.label>
+  <Shion_AmmunitionCrystal.description>シオン系遠距離武器が固有弾薬をその場で製造するための物理結晶です。</Shion_AmmunitionCrystal.description>
+  <Shion_RelayBlank.label>Relay Blank</Shion_RelayBlank.label>
+  <Shion_CalibratedCore.label>校正済みRelay Core</Shion_CalibratedCore.label>
+  <Shion_ClockworkRelay.label>時計仕掛けRelay</Shion_ClockworkRelay.label>
+  <Shion_CoreStorage.label>シオンCore保管庫</Shion_CoreStorage.label>
+  <Shion_CoreStorage.description>実Thingを保持するCore独自の正本Containerです。内容物は通常品のまま保たれ、いつでもMapへ排出できます。</Shion_CoreStorage.description>
+  <Shion_KombinatFactory.label>Kombinat Factory</Shion_KombinatFactory.label>
+  <Shion_KombinatFactory.description>生産在庫を持たず、Core Storage上の入力Thingと出力容量を予約して各工程を直接Commitする無人工場です。</Shion_KombinatFactory.description>
+  <Shion_KombinatTerminal.label>Kombinat Terminal</Shion_KombinatTerminal.label>
+</LanguageData>
+

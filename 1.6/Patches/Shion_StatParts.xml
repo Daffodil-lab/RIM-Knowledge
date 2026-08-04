@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Patch>
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="MoveSpeed"]/parts</xpath>
+    <value>
+      <li Class="Shion.Core.StatPart_ShionTailIntegrity" />
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="ImmunityGainSpeed"]/parts</xpath>
+    <value>
+      <li Class="Shion.Core.StatPart_ShionFluidReprocessing" />
+    </value>
+  </Operation>
+
+  <Operation Class="PatchOperationAdd">
+    <xpath>Defs/StatDef[defName="WorkSpeedGlobal"]/parts</xpath>
+    <value>
+      <li Class="Shion.Core.StatPart_ShionDrive" />
+    </value>
+  </Operation>
+</Patch>

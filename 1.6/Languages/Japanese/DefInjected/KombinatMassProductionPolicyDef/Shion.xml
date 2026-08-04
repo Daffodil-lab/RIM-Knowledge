@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Shion_MassProductionPolicy_Official.label>Core・公式DLC量産</Shion_MassProductionPolicy_Official.label>
+  <Shion_MassProductionPolicy_Official.description>公式の反復可能かつ文脈非依存なRecipeから量産カタログを構築します。研究、材料Filter、物理所有権、出力容量は常に維持されます。</Shion_MassProductionPolicy_Official.description>
+</LanguageData>

@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Shion_FluidReprocessing.label>流体再処理</Shion_FluidReprocessing.label>
+  <Shion_FluidReprocessing.description>二基ある流体再処理装置のうち、機能している割合です。</Shion_FluidReprocessing.description>
+</LanguageData>

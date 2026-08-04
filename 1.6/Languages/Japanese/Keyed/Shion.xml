@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Shion_GameStartDialog>あなたたちは命令でここへ来たのではない。追放されたわけでもない。三人でこの土地を選び、三人で運べるだけの身体、記録、工具、工業資源を持って降り立った。本国の豊かさは遠い。けれど、その作り方を知らないわけではない。まず住まいを作り、現地生産を立て直し、この場所に属する善い暮らしを作ろう。</Shion_GameStartDialog>
+
+  <Shion_StorageInspect>保管量: {0}/{1}\nEndpoint: {2}</Shion_StorageInspect>
+  <Shion_OpenStorage>保管庫を開く</Shion_OpenStorage>
+  <Shion_OpenStorageDesc>保管中の実Thingを確認し、選択して排出します。</Shion_OpenStorageDesc>
+  <Shion_ImportNearby>周辺品を搬入</Shion_ImportNearby>
+  <Shion_ImportNearbyDesc>周囲のMap上の品を、この正本Containerへ直接移します。</Shion_ImportNearbyDesc>
+  <Shion_EjectAll>全量排出</Shion_EjectAll>
+  <Shion_EjectAllDesc>保管中の全品を通常Map空間へ戻します。</Shion_EjectAllDesc>
+  <Shion_NoOutputCell>有効な排出セルがありません。内容物は保管状態を維持します。</Shion_NoOutputCell>
+  <Shion_ImportedCount>{0}個を搬入しました。</Shion_ImportedCount>
+  <Shion_StorageTitle>{0} — 内容物</Shion_StorageTitle>
+  <Shion_StorageSummary>物理Thing: {0}/{1}    Endpoint: {2}</Shion_StorageSummary>
+  <Shion_EndpointState>状態: {0}</Shion_EndpointState>
+  <Shion_Search>検索</Shion_Search>
+  <Shion_EjectCount>指定数</Shion_EjectCount>
+  <Shion_EjectOne>1個排出</Shion_EjectOne>
+  <Shion_EjectSpecified>指定数排出</Shion_EjectSpecified>
+  <Shion_EjectStack>Stack排出</Shion_EjectStack>
+
+  <Shion_OpenKombinat>Kombinatを開く</Shion_OpenKombinat>
+  <Shion_OpenKombinatDesc>拡張可能な内政、在庫、生産、物流、財務の統合画面を開きます。</Shion_OpenKombinatDesc>
+  <Shion_FactoryInspect>Profile: {0}\n状態: {1}\n設備: {2}</Shion_FactoryInspect>
+  <Shion_UnknownProfile>不明なProfile</Shion_UnknownProfile>
+  <Shion_KombinatTitle>シオン内政管理</Shion_KombinatTitle>
+  <Shion_NoManagementPages>表示可能な管理Page Defがありません。</Shion_NoManagementPages>
+  <Shion_LedgerUnavailable>World台帳を利用できません。</Shion_LedgerUnavailable>
+  <Shion_AccountSummary>同盟通貨Account — 残高: {0}    予約: {1}    利用可能: {2}</Shion_AccountSummary>
+  <Shion_NetworkSummary>Network Storage — 実在庫: {0}/{1}    出力容量予約: {2}</Shion_NetworkSummary>
+  <Shion_RuntimeSummary>Plan: {0}    Job: {1}    Batch: {2}</Shion_RuntimeSummary>
+  <Shion_TransactionSummary>Transaction: {0}</Shion_TransactionSummary>
+  <Shion_CreateProductionRequest>生産を発注</Shion_CreateProductionRequest>
+  <Shion_ProductionCatalogSummary>量産カタログ: {0}件    現在解禁済み: {1}件</Shion_ProductionCatalogSummary>
+  <Shion_ProductionCatalogTitle>量産カタログ: {0}/{1}</Shion_ProductionCatalogTitle>
+  <Shion_ProductionRequestsTitle>生産発注: {0}件</Shion_ProductionRequestsTitle>
+  <Shion_OrderAmount>発注数（{0}～{1}）</Shion_OrderAmount>
+  <Shion_Order>発注</Shion_Order>
+  <Shion_Locked>未解禁</Shion_Locked>
+  <Shion_CatalogPatternDetail>{0}    技術: {1}    台帳費用: {2}</Shion_CatalogPatternDetail>
+  <Shion_CatalogIngredients>材料: {0}</Shion_CatalogIngredients>
+  <Shion_KombinatNativePattern>Kombinat固有Pattern</Shion_KombinatNativePattern>
+  <Shion_NoStorageEndpoints>接続済みのCore Storage Endpointがありません。</Shion_NoStorageEndpoints>
+  <Shion_OpenStorageDetails>選択Storageの内容物を開く</Shion_OpenStorageDetails>
+  <Shion_EndpointReservationSummary>実在庫: {0}/{1}    入力予約: {2}    出力予約: {3}</Shion_EndpointReservationSummary>
+  <Shion_FacilityPageEmpty>この画面を開いた設備はありません。将来の設備Registry ProviderはWindowを変更せず、この表示を追加できます。</Shion_FacilityPageEmpty>
+  <Shion_FacilityIdentity>{0}    {1}</Shion_FacilityIdentity>
+  <Shion_FacilityProfile>Profile: {0}    間隔: {1} tick    速度: ×{2}</Shion_FacilityProfile>
+  <Shion_FacilityStorageBoundary>工場は入力、中間品、完成品を保管しません。設備能力、割当、進捗だけを所有し、全ての物理ThingはCore Storageに残ります。</Shion_FacilityStorageBoundary>
+  <Shion_LogisticsExtensionSlot>このPageはDef駆動の航路・Provider workerを追加できます。遠隔在庫と輸送中Cargoは、World所有権と到着契約を実装するまで無効です。</Shion_LogisticsExtensionSlot>
+  <Shion_FinanceExtensionSlot>Account履歴は利用できます。入出金、税、遠隔生産、商取引契約はPage一覧を置換せず、新しい台帳Serviceとして追加できます。</Shion_FinanceExtensionSlot>
+  <Shion_Cancel>取消</Shion_Cancel>
+
+  <Shion_StatusIdle>待機</Shion_StatusIdle>
+  <Shion_StatusPlanned>計画済み</Shion_StatusPlanned>
+  <Shion_StatusMaterialWaiting>物理材料待ち</Shion_StatusMaterialWaiting>
+  <Shion_StatusWorking>生産中</Shion_StatusWorking>
+  <Shion_StatusOutputBlocked>Network出力容量の予約待ち</Shion_StatusOutputBlocked>
+  <Shion_StatusCompleted>完了</Shion_StatusCompleted>
+  <Shion_StatusCancelled>取消済み</Shion_StatusCancelled>
+  <Shion_StatusNoPower>電力待ち</Shion_StatusNoPower>
+  <Shion_StatusPatternMissing>Pattern不在</Shion_StatusPatternMissing>
+  <Shion_StatusCurrencyShortage>同盟通貨不足</Shion_StatusCurrencyShortage>
+  <Shion_StatusResearchLocked>必要な研究または公式条件の解禁待ち</Shion_StatusResearchLocked>
+  <Shion_StatusStorageCommitFault>Storage生産Commit障害</Shion_StatusStorageCommitFault>
+  <Shion_StatPart_TailIntegrity>尾の健全性: x{0}</Shion_StatPart_TailIntegrity>
+  <Shion_StatPart_FluidReprocessing>流体再処理: x{0}</Shion_StatPart_FluidReprocessing>
+  <Shion_StatPart_Drive>意気込み: x{0}</Shion_StatPart_Drive>
+</LanguageData>

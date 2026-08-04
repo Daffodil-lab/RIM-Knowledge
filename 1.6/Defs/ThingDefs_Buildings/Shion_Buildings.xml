@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <ThingDef Name="ShionIndustrialBuildingBase" ParentName="BuildingBase" Abstract="True">
+    <thingClass>Building</thingClass>
+    <category>Building</category>
+    <altitudeLayer>Building</altitudeLayer>
+    <passability>PassThroughOnly</passability>
+    <pathCost>35</pathCost>
+    <fillPercent>0.5</fillPercent>
+    <rotatable>true</rotatable>
+    <tickerType>Normal</tickerType>
+    <designationCategory>Production</designationCategory>
+    <researchPrerequisites>
+      <li>Shion_CoreLogistics</li>
+    </researchPrerequisites>
+    <statBases>
+      <MaxHitPoints>420</MaxHitPoints>
+      <WorkToBuild>4500</WorkToBuild>
+      <Mass>40</Mass>
+      <Flammability>0.1</Flammability>
+      <Beauty>-1</Beauty>
+    </statBases>
+    <costList>
+      <Steel>120</Steel>
+      <ComponentIndustrial>6</ComponentIndustrial>
+    </costList>
+    <building>
+      <isEdifice>true</isEdifice>
+      <isInert>true</isInert>
+      <claimable>true</claimable>
+      <uninstallWork>1200</uninstallWork>
+    </building>
+  </ThingDef>
+
+  <ThingDef ParentName="ShionIndustrialBuildingBase">
+    <defName>Shion_CoreStorage</defName>
+    <label>Shion core storage</label>
+    <description>A Core-native authoritative container for real items. Its contents remain ordinary Things and can always be ejected back to the map.</description>
+    <size>(2,2)</size>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/ShionMachine/Storage</texPath>
+      <shaderType>Cutout</shaderType>
+      <drawSize>(2,2)</drawSize>
+      <color>(0.86,0.82,0.70)</color>
+    </graphicData>
+    <comps>
+      <li Class="CompProperties_Power"><basePowerConsumption>200</basePowerConsumption></li>
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="Shion.Storage.CompProperties_ShionStorage">
+        <capacity>2000</capacity>
+        <allowImportNearby>true</allowImportNearby>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="ShionIndustrialBuildingBase">
+    <defName>Shion_KombinatFactory</defName>
+    <label>Kombinat factory</label>
+    <description>An unmanned production capability. It reserves inputs and output capacity in Core storage, holds no production inventory, and commits each stage directly against the network.</description>
+    <size>(3,3)</size>
+    <graphicData Class="VEF.Graphics.GraphicData_Animated">
+      <graphicClass>Shion.Core.Graphics.Graphic_ShionAnimated</graphicClass>
+      <texPath>Things/Building/ShionMachine/Factory</texPath>
+      <shaderType>Cutout</shaderType>
+      <drawSize>(3,3)</drawSize>
+      <ticksPerFrame>20</ticksPerFrame>
+      <random>false</random>
+    </graphicData>
+    <uiIconPath>UI/Commands/ShionKombinat</uiIconPath>
+    <costList>
+      <Steel>220</Steel>
+      <ComponentIndustrial>12</ComponentIndustrial>
+      <Shion_StructuralMaterial>20</Shion_StructuralMaterial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power"><basePowerConsumption>800</basePowerConsumption></li>
+      <li Class="CompProperties_Breakdownable" />
+      <li Class="Shion.Kombinat.CompProperties_KombinatFactory">
+        <facilityProfile>Shion_FacilityProfile_Clockwork</facilityProfile>
+      </li>
+    </comps>
+  </ThingDef>
+
+  <ThingDef ParentName="ShionIndustrialBuildingBase">
+    <defName>Shion_KombinatTerminal</defName>
+    <label>Kombinat terminal</label>
+    <description>A local operations terminal. In alpha it serves as a visible control node beside the factory's integrated management window.</description>
+    <size>(1,1)</size>
+    <graphicData>
+      <graphicClass>Graphic_Single</graphicClass>
+      <texPath>Things/Building/ShionMachine/Terminal</texPath>
+      <shaderType>Cutout</shaderType>
+      <drawSize>(1.25,1.25)</drawSize>
+      <color>(0.72,0.76,0.82)</color>
+    </graphicData>
+    <costList>
+      <Steel>70</Steel>
+      <ComponentIndustrial>4</ComponentIndustrial>
+    </costList>
+    <comps>
+      <li Class="CompProperties_Power"><basePowerConsumption>75</basePowerConsumption></li>
+      <li Class="Shion.Kombinat.CompProperties_KombinatTerminal" />
+    </comps>
+  </ThingDef>
+</Defs>

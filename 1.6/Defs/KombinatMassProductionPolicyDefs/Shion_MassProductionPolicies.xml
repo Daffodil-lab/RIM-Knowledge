@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<Defs>
+  <Shion.Kombinat.KombinatMassProductionPolicyDef>
+    <defName>Shion_MassProductionPolicy_Official</defName>
+    <label>Core and official DLC mass production</label>
+    <description>Builds a production catalog from repeatable, context-free official recipes. Research, ingredient filters, physical ownership, and output capacity remain authoritative.</description>
+    <allowedPackageIds>
+      <li>Ludeon.RimWorld</li>
+      <li>Ludeon.RimWorld.Royalty</li>
+      <li>Ludeon.RimWorld.Ideology</li>
+      <li>Ludeon.RimWorld.Biotech</li>
+      <li>Ludeon.RimWorld.Anomaly</li>
+      <li>Ludeon.RimWorld.Odyssey</li>
+    </allowedPackageIds>
+    <excludedTechLevels>
+      <li>Archotech</li>
+    </excludedTechLevels>
+    <requirePlayerAcquirable>true</requirePlayerAcquirable>
+    <requireItemCategory>true</requireItemCategory>
+    <requireRecipeUsers>true</requireRecipeUsers>
+    <requireIngredients>true</requireIngredients>
+    <requireDefaultRecipeWorker>true</requireDefaultRecipeWorker>
+    <requireContextFreeRecipe>true</requireContextFreeRecipe>
+    <requireResearchFinished>true</requireResearchFinished>
+    <excludeSpecialProducts>true</excludeSpecialProducts>
+    <excludeArtProducts>false</excludeArtProducts>
+    <outputQuality>Normal</outputQuality>
+    <workTicksFactor>1</workTicksFactor>
+    <minimumWorkTicks>60</minimumWorkTicks>
+    <currencyCostPerThousandWork>1</currencyCostPerThousandWork>
+    <minimumCurrencyCost>1</minimumCurrencyCost>
+  </Shion.Kombinat.KombinatMassProductionPolicyDef>
+</Defs>

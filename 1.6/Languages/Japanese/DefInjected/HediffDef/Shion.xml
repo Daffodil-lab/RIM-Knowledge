@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LanguageData>
+  <Shion_CellLoss.label>Cell喪失</Shion_CellLoss.label>
+  <Shion_CellLoss.description>循環媒体Cellが失われています。完全に失っても死亡しませんが、シオンは動けなくなります。</Shion_CellLoss.description>
+  <Shion_CellLoss.stages.1.label>軽度</Shion_CellLoss.stages.1.label>
+  <Shion_CellLoss.stages.2.label>中度</Shion_CellLoss.stages.2.label>
+  <Shion_CellLoss.stages.3.label>重度</Shion_CellLoss.stages.3.label>
+  <Shion_CellLoss.stages.4.label>枯渇</Shion_CellLoss.stages.4.label>
+  <Shion_FluidReprocessingOffline.label>流体再処理停止</Shion_FluidReprocessingOffline.label>
+  <Shion_FluidReprocessingOffline.description>二基の流体再処理装置が共に機能していません。身体は生存しますが、一基を復旧するまで行動不能です。</Shion_FluidReprocessingOffline.description>
+  <Shion_FluidReprocessingOffline.stages.0.label>停止</Shion_FluidReprocessingOffline.stages.0.label>
+</LanguageData>
