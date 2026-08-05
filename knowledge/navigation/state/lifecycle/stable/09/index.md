@@ -1,86 +1,86 @@
 # stable 09
 
-範囲: SHION_A183 機械化訓練地の種子管理官〜SHION_A262 封鎖観測地の監視射手
+範囲: STA-001 意図した仕様〜REG-005 単一個体として保存
 
 ## 項目
 
-- [SHION_A183 機械化訓練地の種子管理官](/backstories/mastery/SHION_A183-%E6%A9%9F%E6%A2%B0%E5%8C%96%E8%A8%93%E7%B7%B4%E5%9C%B0%E3%81%AE%E7%A8%AE%E5%AD%90%E7%AE%A1%E7%90%86%E5%AE%98.md) — 訓練地で本人が守っていたのは、武器庫より種子庫だった。
-- [SHION_A184 継承教室の動物義肢技師](/backstories/mastery/SHION_A184-%E7%B6%99%E6%89%BF%E6%95%99%E5%AE%A4%E3%81%AE%E5%8B%95%E7%89%A9%E7%BE%A9%E8%82%A2%E6%8A%80%E5%B8%AB.md) — 継承教室で動物義肢を作り、教本の寸法より目の前の動物の反応を優先するようになった。
-- [SHION_A185 塔域居住層の精密工](/backstories/mastery/SHION_A185-%E5%A1%94%E5%9F%9F%E5%B1%85%E4%BD%8F%E5%B1%A4%E3%81%AE%E7%B2%BE%E5%AF%86%E5%B7%A5.md) — 塔の救難具を利用者の身体構成と操作習慣に合わせ、暗闇でも触れて判別できるよう調整した。
-- [SHION_A186 自治評議区の合奏指導者](/backstories/mastery/SHION_A186-%E8%87%AA%E6%B2%BB%E8%A9%95%E8%AD%B0%E5%8C%BA%E3%81%AE%E5%90%88%E5%A5%8F%E6%8C%87%E5%B0%8E%E8%80%85.md) — 自治評議区で、身体と党歴の異なる奏者のずれを一つの拍へ押し込めず、曲の一部としてまとめた。
-- [SHION_A187 装甲救援隊の救護医](/backstories/mastery/SHION_A187-%E8%A3%85%E7%94%B2%E6%95%91%E6%8F%B4%E9%9A%8A%E3%81%AE%E6%95%91%E8%AD%B7%E5%8C%BB.md) — 装甲救援隊の救護医では、装甲は敵を倒すためだけのものじゃない。
-- [SHION_A188 幸福都市外縁の討論調停人](/backstories/mastery/SHION_A188-%E5%B9%B8%E7%A6%8F%E9%83%BD%E5%B8%82%E5%A4%96%E7%B8%81%E3%81%AE%E8%A8%8E%E8%AB%96%E8%AA%BF%E5%81%9C%E4%BA%BA.md) — その都市の幸福が一人の苦痛に支えられていると知った日、本人はすぐには去れなかった。
-- [SHION_A189 移動都市群の古文書研究者](/backstories/mastery/SHION_A189-%E7%A7%BB%E5%8B%95%E9%83%BD%E5%B8%82%E7%BE%A4%E3%81%AE%E5%8F%A4%E6%96%87%E6%9B%B8%E7%A0%94%E7%A9%B6%E8%80%85.md) — 古文書の欠けた一行を、もっともらしい物語で埋めるのは簡単だ。
-- [SHION_A190 海洋観測区の監視射手](/backstories/mastery/SHION_A190-%E6%B5%B7%E6%B4%8B%E8%A6%B3%E6%B8%AC%E5%8C%BA%E3%81%AE%E7%9B%A3%E8%A6%96%E5%B0%84%E6%89%8B.md) — 海洋観測区で、未識別の現象を敵・漂流物・生物と急いで断定せず、不発砲のまま観測した。
-- [SHION_A191 塔域居住層の徒手警護員](/backstories/mastery/SHION_A191-%E5%A1%94%E5%9F%9F%E5%B1%85%E4%BD%8F%E5%B1%A4%E3%81%AE%E5%BE%92%E6%89%8B%E8%AD%A6%E8%AD%B7%E5%93%A1.md) — 塔域居住層で人の流れを読み、武器を抜かず群衆を分け、端末投影と独立人格を混同しない確認を守った。
-- [SHION_A192 機械化訓練地の橋梁技師](/backstories/mastery/SHION_A192-%E6%A9%9F%E6%A2%B0%E5%8C%96%E8%A8%93%E7%B7%B4%E5%9C%B0%E3%81%AE%E6%A9%8B%E6%A2%81%E6%8A%80%E5%B8%AB.md) — 機械化訓練地の橋梁技師では、機械化部隊の荷重試験は橋に厳しい。
-- [SHION_A193 立入制限地の資源測量士](/backstories/mastery/SHION_A193-%E7%AB%8B%E5%85%A5%E5%88%B6%E9%99%90%E5%9C%B0%E3%81%AE%E8%B3%87%E6%BA%90%E6%B8%AC%E9%87%8F%E5%A3%AB.md) — 制限地では、価値がありそうだから拾う、という考えが一番危ない。
-- [SHION_A194 本国居住区の保存食職人](/backstories/mastery/SHION_A194-%E6%9C%AC%E5%9B%BD%E5%B1%85%E4%BD%8F%E5%8C%BA%E3%81%AE%E4%BF%9D%E5%AD%98%E9%A3%9F%E8%81%B7%E4%BA%BA.md) — 本国居住区で、外部居住者の栄養条件とシオンの感覚文化の双方に応じた保存食を作った。
-- [SHION_A195 地下維持区の種子管理官](/backstories/mastery/SHION_A195-%E5%9C%B0%E4%B8%8B%E7%B6%AD%E6%8C%81%E5%8C%BA%E3%81%AE%E7%A8%AE%E5%AD%90%E7%AE%A1%E7%90%86%E5%AE%98.md) — 地下区画では発芽まで自動設備へ任せるのが普通だった。
-- [SHION_A196 帰還兵港の動物義肢技師](/backstories/mastery/SHION_A196-%E5%B8%B0%E9%82%84%E5%85%B5%E6%B8%AF%E3%81%AE%E5%8B%95%E7%89%A9%E7%BE%A9%E8%82%A2%E6%8A%80%E5%B8%AB.md) — 帰還兵港には、兵士だけでなく軍用動物も戻ってきた。
-- [SHION_A197 移動都市群の外勤精密工](/backstories/mastery/SHION_A197-%E7%A7%BB%E5%8B%95%E9%83%BD%E5%B8%82%E7%BE%A4%E3%81%AE%E5%A4%96%E5%8B%A4%E7%B2%BE%E5%AF%86%E5%B7%A5.md) — 移動都市の外壁は、住民が語るよりずっと頻繁に形を変える。
-- [SHION_A198 革命連合後方区の合奏指導者](/backstories/mastery/SHION_A198-%E9%9D%A9%E5%91%BD%E9%80%A3%E5%90%88%E5%BE%8C%E6%96%B9%E5%8C%BA%E3%81%AE%E5%90%88%E5%A5%8F%E6%8C%87%E5%B0%8E%E8%80%85.md) — 革命連合の後方では、党派の違う者が同じ曲を演奏した。
-- [SHION_A199 低温研究区の蘇生後療養医](/backstories/mastery/SHION_A199-%E4%BD%8E%E6%B8%A9%E7%A0%94%E7%A9%B6%E5%8C%BA%E3%81%AE%E8%98%87%E7%94%9F%E5%BE%8C%E7%99%82%E9%A4%8A%E5%8C%BB.md) — 低温研究区の蘇生後療養医では、蘇生が成功した、と研究員はよく言った。
-- [SHION_A200 地下維持区の再会連絡官](/backstories/mastery/SHION_A200-%E5%9C%B0%E4%B8%8B%E7%B6%AD%E6%8C%81%E5%8C%BA%E3%81%AE%E5%86%8D%E4%BC%9A%E9%80%A3%E7%B5%A1%E5%AE%98.md) — 再会祭では、会わせれば終わりというわけにいかない。
-- [SHION_A201 空挺基地の古文書研究者](/backstories/mastery/SHION_A201-%E7%A9%BA%E6%8C%BA%E5%9F%BA%E5%9C%B0%E3%81%AE%E5%8F%A4%E6%96%87%E6%9B%B8%E7%A0%94%E7%A9%B6%E8%80%85.md) — 空挺基地の古文書は、立派な戦史より汚れた献立表の方が役に立った。
-- [SHION_A202 制裁作戦監査室の護衛射手](/backstories/mastery/SHION_A202-%E5%88%B6%E8%A3%81%E4%BD%9C%E6%88%A6%E7%9B%A3%E6%9F%BB%E5%AE%A4%E3%81%AE%E8%AD%B7%E8%A1%9B%E5%B0%84%E6%89%8B.md) — 制裁作戦監査室の護衛射手では、制裁部隊の監査には、記録を守る護衛が必要だった。
-- [SHION_A203 人格照合局の徒手警護員](/backstories/mastery/SHION_A203-%E4%BA%BA%E6%A0%BC%E7%85%A7%E5%90%88%E5%B1%80%E3%81%AE%E5%BE%92%E6%89%8B%E8%AD%A6%E8%AD%B7%E5%93%A1.md) — 人格照合局では、外見が同じ者同士を見物しようと群衆が集まることがあった。
-- [SHION_A204 本国居住区の橋梁技師](/backstories/mastery/SHION_A204-%E6%9C%AC%E5%9B%BD%E5%B1%85%E4%BD%8F%E5%8C%BA%E3%81%AE%E6%A9%8B%E6%A2%81%E6%8A%80%E5%B8%AB.md) — 本国の古い橋は、図面どおりに直すと使いにくくなる。
-- [SHION_A205 月面事業区の資源測量士](/backstories/mastery/SHION_A205-%E6%9C%88%E9%9D%A2%E4%BA%8B%E6%A5%AD%E5%8C%BA%E3%81%AE%E8%B3%87%E6%BA%90%E6%B8%AC%E9%87%8F%E5%A3%AB.md) — 月面事業の宣伝図には、危険な斜面も粉塵の流れも描かれていなかった。
-- [SHION_A206 ヘイハルKombinatの保存食職人](/backstories/mastery/SHION_A206-%E3%83%98%E3%82%A4%E3%83%8F%E3%83%AB-%E3%81%AE%E4%BF%9D%E5%AD%98%E9%A3%9F%E8%81%B7%E4%BA%BA.md) — ヘイハルKombinatでは、部品より食事の方が長い旅をすることがある。
-- [SHION_A207 ヘイハルKombinatの記念庭園師](/backstories/mastery/SHION_A207-%E3%83%98%E3%82%A4%E3%83%8F%E3%83%AB-%E3%81%AE%E8%A8%98%E5%BF%B5%E5%BA%AD%E5%9C%92%E5%B8%AB.md) — Kombinatの記念庭園に、壊れない記念碑は置かなかった。
-- [SHION_A208 本国居住区の帰還者担当義肢技師](/backstories/mastery/SHION_A208-%E6%9C%AC%E5%9B%BD%E5%B1%85%E4%BD%8F%E5%8C%BA%E3%81%AE%E5%B8%B0%E9%82%84%E8%80%85%E6%8B%85%E5%BD%93%E7%BE%A9%E8%82%A2%E6%8A%80%E5%B8%AB.md) — 帰還者の中には、戦地から連れ帰った動物を先に治してほしいと言う者が多かった。
-- [SHION_A209 制裁作戦監査室の義肢調整師](/backstories/mastery/SHION_A209-%E5%88%B6%E8%A3%81%E4%BD%9C%E6%88%A6%E7%9B%A3%E6%9F%BB%E5%AE%A4%E3%81%AE%E7%BE%A9%E8%82%A2%E8%AA%BF%E6%95%B4%E5%B8%AB.md) — 制裁作戦の後、本人は負傷者の義肢を調整し、同時に部隊の装備も監査した。
-- [SHION_A210 孵育文化区の公共壁画家](/backstories/mastery/SHION_A210-%E5%AD%B5%E8%82%B2%E6%96%87%E5%8C%96%E5%8C%BA%E3%81%AE%E5%85%AC%E5%85%B1%E5%A3%81%E7%94%BB%E5%AE%B6.md) — 孵育文化区の壁は、皆が幸福に暮らす同じ顔で埋めるよう求められた。
-- [SHION_A211 無人構造物調査船の救護医](/backstories/mastery/SHION_A211-%E7%84%A1%E4%BA%BA%E6%A7%8B%E9%80%A0%E7%89%A9%E8%AA%BF%E6%9F%BB%E8%88%B9%E3%81%AE%E6%95%91%E8%AD%B7%E5%8C%BB.md) — 無人構造物へ入った時、皆が作り手の目的を知りたがった。
-- [SHION_A212 地下維持区の公共案内官](/backstories/mastery/SHION_A212-%E5%9C%B0%E4%B8%8B%E7%B6%AD%E6%8C%81%E5%8C%BA%E3%81%AE%E5%85%AC%E5%85%B1%E6%A1%88%E5%86%85%E5%AE%98.md) — 地下維持区の案内板は正確だったが、初めて来た者には役立たなかった。
-- [SHION_A213 戦術教育環の古文書研究者](/backstories/mastery/SHION_A213-%E6%88%A6%E8%A1%93%E6%95%99%E8%82%B2%E7%92%B0%E3%81%AE%E5%8F%A4%E6%96%87%E6%9B%B8%E7%A0%94%E7%A9%B6%E8%80%85.md) — 戦術教育環では、勝った側の記録だけを教材にする習慣があった。
-- [SHION_A214 計画都市の射撃教官](/backstories/mastery/SHION_A214-%E8%A8%88%E7%94%BB%E9%83%BD%E5%B8%82%E3%81%AE%E5%B0%84%E6%92%83%E6%95%99%E5%AE%98.md) — 計画都市の訓練場は、何もかも完璧な位置に置かれていた。
-- [SHION_A215 共同祝宴堂の会場警護員](/backstories/mastery/SHION_A215-%E5%85%B1%E5%90%8C%E7%A5%9D%E5%AE%B4%E5%A0%82%E3%81%AE%E4%BC%9A%E5%A0%B4%E8%AD%A6%E8%AD%B7%E5%93%A1.md) — 共同祝宴堂で武器を使わず衝突を止め、食事を必要としない者も同じ卓へ迎える会場を守った。
-- [SHION_A216 非常令監視区の設備技師](/backstories/mastery/SHION_A216-%E9%9D%9E%E5%B8%B8%E4%BB%A4%E7%9B%A3%E8%A6%96%E5%8C%BA%E3%81%AE%E8%A8%AD%E5%82%99%E6%8A%80%E5%B8%AB.md) — 非常令が出た時、最初に変わったのは大きな法律ではなかった。
-- [SHION_A217 残響深層の資源測量士](/backstories/mastery/SHION_A217-%E6%AE%8B%E9%9F%BF%E6%B7%B1%E5%B1%A4%E3%81%AE%E8%B3%87%E6%BA%90%E6%B8%AC%E9%87%8F%E5%A3%AB.md) — 残響深層で再現された戦場を測量し、英雄像ではなく実際に迷った救難路を地図へ残した。
-- [SHION_A218 封鎖観測地の祝宴料理人](/backstories/mastery/SHION_A218-%E5%B0%81%E9%8E%96%E8%A6%B3%E6%B8%AC%E5%9C%B0%E3%81%AE%E7%A5%9D%E5%AE%B4%E6%96%99%E7%90%86%E4%BA%BA.md) — 封鎖観測地の祝宴では、戻った者と戻らなかった者の皿を同じ卓へ置いた。
-- [SHION_A219 本国居住区の種子管理官](/backstories/mastery/SHION_A219-%E6%9C%AC%E5%9B%BD%E5%B1%85%E4%BD%8F%E5%8C%BA%E3%81%AE%E7%A8%AE%E5%AD%90%E7%AE%A1%E7%90%86%E5%AE%98.md) — 本国の種子庫には、もう地図にない故郷から運ばれた種がある。
-- [SHION_A220 封鎖観測地の動物義肢技師](/backstories/mastery/SHION_A220-%E5%B0%81%E9%8E%96%E8%A6%B3%E6%B8%AC%E5%9C%B0%E3%81%AE%E5%8B%95%E7%89%A9%E7%BE%A9%E8%82%A2%E6%8A%80%E5%B8%AB.md) — 封鎖地の動物は、脚の傷だけでなく毛や皮膚の色まで変わっていた。
-- [SHION_A221 離散船団の精密工](/backstories/mastery/SHION_A221-%E9%9B%A2%E6%95%A3%E8%88%B9%E5%9B%A3%E3%81%AE%E7%B2%BE%E5%AF%86%E5%B7%A5.md) — 離散船団の競技会では、同じ規格の道具を配る方が不公平だった。
-- [SHION_A222 共同祝宴堂の合奏指導者](/backstories/mastery/SHION_A222-%E5%85%B1%E5%90%8C%E7%A5%9D%E5%AE%B4%E5%A0%82%E3%81%AE%E5%90%88%E5%A5%8F%E6%8C%87%E5%B0%8E%E8%80%85.md) — 祝宴堂の合奏は、評議が行き詰まった時ほど賑やかになった。
-- [SHION_A223 機動強襲群の救護医](/backstories/mastery/SHION_A223-%E6%A9%9F%E5%8B%95%E5%BC%B7%E8%A5%B2%E7%BE%A4%E3%81%AE%E6%95%91%E8%AD%B7%E5%8C%BB.md) — 強襲群の作戦会議で、危険な区画へ入る部隊を抽選で決めようという案が出た。
-- [SHION_A224 相互扶助区の来訪者案内官](/backstories/mastery/SHION_A224-%E7%9B%B8%E4%BA%92%E6%89%B6%E5%8A%A9%E5%8C%BA%E3%81%AE%E6%9D%A5%E8%A8%AA%E8%80%85%E6%A1%88%E5%86%85%E5%AE%98.md) — 相互扶助区へ来た人には、「ここでは誰の物でもない」と説明する者がいた。
-- [SHION_A225 特殊任務学校の観測主任](/backstories/mastery/SHION_A225-%E7%89%B9%E6%AE%8A%E4%BB%BB%E5%8B%99%E5%AD%A6%E6%A0%A1%E3%81%AE%E8%A6%B3%E6%B8%AC%E4%B8%BB%E4%BB%BB.md) — 特殊任務学校で最初に教えたのは、銃の違いではない。
-- [SHION_A226 長期予測院の射撃訓練官](/backstories/mastery/SHION_A226-%E9%95%B7%E6%9C%9F%E4%BA%88%E6%B8%AC%E9%99%A2%E3%81%AE%E5%B0%84%E6%92%83%E8%A8%93%E7%B7%B4%E5%AE%98.md) — 長期予測院では、遠い未来の危機まで表に載せられた。
-- [SHION_A227 特殊任務学校の身体競技指導員](/backstories/mastery/SHION_A227-%E7%89%B9%E6%AE%8A%E4%BB%BB%E5%8B%99%E5%AD%A6%E6%A0%A1%E3%81%AE%E8%BA%AB%E4%BD%93%E7%AB%B6%E6%8A%80%E6%8C%87%E5%B0%8E%E5%93%A1.md) — 特殊任務学校で、相手を壊さず止めるための受け身と力加減を実演中心で教えた。
-- [SHION_A228 星間市場の仮設建築士](/backstories/mastery/SHION_A228-%E6%98%9F%E9%96%93%E5%B8%82%E5%A0%B4%E3%81%AE%E4%BB%AE%E8%A8%AD%E5%BB%BA%E7%AF%89%E5%A3%AB.md) — 星間市場の仮設住宅は、契約書より早く建てる必要があった。
-- [SHION_A229 封鎖観測地の資源測量士](/backstories/mastery/SHION_A229-%E5%B0%81%E9%8E%96%E8%A6%B3%E6%B8%AC%E5%9C%B0%E3%81%AE%E8%B3%87%E6%BA%90%E6%B8%AC%E9%87%8F%E5%A3%AB.md) — 封鎖地では地面の色が日ごとに変わり、昨日の安全標識まで信用できなかった。
-- [SHION_A230 機械化訓練地の公共食堂の調理師](/backstories/mastery/SHION_A230-%E6%A9%9F%E6%A2%B0%E5%8C%96%E8%A8%93%E7%B7%B4%E5%9C%B0%E3%81%AE%E5%85%AC%E5%85%B1%E9%A3%9F%E5%A0%82%E3%81%AE%E8%AA%BF%E7%90%86%E5%B8%AB.md) — 機械化訓練地の公共食堂の調理師では、機械化訓練地の食堂には、装甲兵も近隣住民も来た。
-- [SHION_A231 ヘイハルKombinatの共同農園技師](/backstories/mastery/SHION_A231-%E3%83%98%E3%82%A4%E3%83%8F%E3%83%AB-%E3%81%AE%E5%85%B1%E5%90%8C%E8%BE%B2%E5%9C%92%E6%8A%80%E5%B8%AB.md) — Kombinatの共同農園は、生産効率だけなら機械へ閉じた方がよかった。
-- [SHION_A232 星間市場の終生飼養員](/backstories/mastery/SHION_A232-%E6%98%9F%E9%96%93%E5%B8%82%E5%A0%B4%E3%81%AE%E7%B5%82%E7%94%9F%E9%A3%BC%E9%A4%8A%E5%93%A1.md) — 星間市場では、働けなくなった動物をすぐ交換しようとする商人がいた。
-- [SHION_A233 無人構造物調査船の精密工](/backstories/mastery/SHION_A233-%E7%84%A1%E4%BA%BA%E6%A7%8B%E9%80%A0%E7%89%A9%E8%AA%BF%E6%9F%BB%E8%88%B9%E3%81%AE%E7%B2%BE%E5%AF%86%E5%B7%A5.md) — 無人構造物へ持ち込む工具は、触れた先で何が起きるか分からない。
-- [SHION_A234 ヘイハルKombinatの公共壁画家](/backstories/mastery/SHION_A234-%E3%83%98%E3%82%A4%E3%83%8F%E3%83%AB-%E3%81%AE%E5%85%AC%E5%85%B1%E5%A3%81%E7%94%BB%E5%AE%B6.md) — Kombinatの壁画へ完成品だけ描けと言われたが、本人は停止した夜を選んだ。
-- [SHION_A235 本国居住区の救護医](/backstories/mastery/SHION_A235-%E6%9C%AC%E5%9B%BD%E5%B1%85%E4%BD%8F%E5%8C%BA%E3%81%AE%E6%95%91%E8%AD%B7%E5%8C%BB.md) — 本国居住区では、珍しい身体の事故も日常の転倒も同じ入口から運ばれてきた。
-- [SHION_A236 長期予測院の討論調停人](/backstories/mastery/SHION_A236-%E9%95%B7%E6%9C%9F%E4%BA%88%E6%B8%AC%E9%99%A2%E3%81%AE%E8%A8%8E%E8%AB%96%E8%AA%BF%E5%81%9C%E4%BA%BA.md) — 長期予測院の討論では、遠い未来の多数と、目の前の一人がよく秤に掛けられた。
-- [SHION_A237 計画都市の再検証主任](/backstories/mastery/SHION_A237-%E8%A8%88%E7%94%BB%E9%83%BD%E5%B8%82%E3%81%AE%E5%86%8D%E6%A4%9C%E8%A8%BC%E4%B8%BB%E4%BB%BB.md) — 計画都市では、不便があると言うと測定誤差を疑われた。
-- [SHION_A238 戦術教育環の射撃教官](/backstories/mastery/SHION_A238-%E6%88%A6%E8%A1%93%E6%95%99%E8%82%B2%E7%92%B0%E3%81%AE%E5%B0%84%E6%92%83%E6%95%99%E5%AE%98.md) — 戦術教育環の射撃教官では、射撃は趣味として始めた。
-- [SHION_A239 立入制限地の身体競技指導員](/backstories/mastery/SHION_A239-%E7%AB%8B%E5%85%A5%E5%88%B6%E9%99%90%E5%9C%B0%E3%81%AE%E8%BA%AB%E4%BD%93%E7%AB%B6%E6%8A%80%E6%8C%87%E5%B0%8E%E5%93%A1.md) — 立入制限地へ入る者には、強さよりも安全に止まる技術が必要だと教えた。
-- [SHION_A240 海洋観測区の設備技師](/backstories/mastery/SHION_A240-%E6%B5%B7%E6%B4%8B%E8%A6%B3%E6%B8%AC%E5%8C%BA%E3%81%AE%E8%A8%AD%E5%82%99%E6%8A%80%E5%B8%AB.md) — 海洋観測区では、配管の唸りと海から聞こえる音を分けるのが難しかった。
-- [SHION_A241 低温研究区の地下救助員](/backstories/mastery/SHION_A241-%E4%BD%8E%E6%B8%A9%E7%A0%94%E7%A9%B6%E5%8C%BA%E3%81%AE%E5%9C%B0%E4%B8%8B%E6%95%91%E5%8A%A9%E5%93%A1.md) — 低温研究区で、最速ではなく壁と生存者を傷つけない救助坑掘削を競技化した。
-- [SHION_A242 ヘイハルKombinatの祝宴料理人](/backstories/mastery/SHION_A242-%E3%83%98%E3%82%A4%E3%83%8F%E3%83%AB-%E3%81%AE%E7%A5%9D%E5%AE%B4%E6%96%99%E7%90%86%E4%BA%BA.md) — Kombinatの祝宴を任される前、本人は長距離偵察へ出ていた。
-- [SHION_A243 自治評議区の共同農園技師](/backstories/mastery/SHION_A243-%E8%87%AA%E6%B2%BB%E8%A9%95%E8%AD%B0%E5%8C%BA%E3%81%AE%E5%85%B1%E5%90%8C%E8%BE%B2%E5%9C%92%E6%8A%80%E5%B8%AB.md) — 自治評議区で趣味から共同農園を始め、党派論争を畝幅・配水・通行条件の相談へ戻した。
-- [SHION_A244 制裁作戦監査室の動物義肢技師](/backstories/mastery/SHION_A244-%E5%88%B6%E8%A3%81%E4%BD%9C%E6%88%A6%E7%9B%A3%E6%9F%BB%E5%AE%A4%E3%81%AE%E5%8B%95%E7%89%A9%E7%BE%A9%E8%82%A2%E6%8A%80%E5%B8%AB.md) — 制裁作戦の後、周辺農場から負傷した動物が運ばれてきた。
-- [SHION_A245 ヘイハルKombinatの復旧精密工](/backstories/mastery/SHION_A245-%E3%83%98%E3%82%A4%E3%83%8F%E3%83%AB-%E3%81%AE%E5%BE%A9%E6%97%A7%E7%B2%BE%E5%AF%86%E5%B7%A5.md) — ヘイハルKombinatが止まった夜、専用部品を待てという声を無視し、皆の工具で直せる継ぎ手を削った。
-- [SHION_A246 孵育文化区の合奏指導者](/backstories/mastery/SHION_A246-%E5%AD%B5%E8%82%B2%E6%96%87%E5%8C%96%E5%8C%BA%E3%81%AE%E5%90%88%E5%A5%8F%E6%8C%87%E5%B0%8E%E8%80%85.md) — 孵育文化区では、快適な音量と調律まで制度が決めていた。
-- [SHION_A247 自治評議区の蘇生後療養医](/backstories/mastery/SHION_A247-%E8%87%AA%E6%B2%BB%E8%A9%95%E8%AD%B0%E5%8C%BA%E3%81%AE%E8%98%87%E7%94%9F%E5%BE%8C%E7%99%82%E9%A4%8A%E5%8C%BB.md) — 自治評議区で蘇生者を診ると、家族より先に旧党派の仲間が迎えに来ることがあった。
-- [SHION_A248 計画都市の再会連絡官](/backstories/mastery/SHION_A248-%E8%A8%88%E7%94%BB%E9%83%BD%E5%B8%82%E3%81%AE%E5%86%8D%E4%BC%9A%E9%80%A3%E7%B5%A1%E5%AE%98.md) — 計画都市の再会連絡官では、計画都市の再会式は、時刻も立ち位置も完璧だった。
-- [SHION_A249 塔域居住層の古文書研究者](/backstories/mastery/SHION_A249-%E5%A1%94%E5%9F%9F%E5%B1%85%E4%BD%8F%E5%B1%A4%E3%81%AE%E5%8F%A4%E6%96%87%E6%9B%B8%E7%A0%94%E7%A9%B6%E8%80%85.md) — 塔の古文書には、端末番号だけで住民を記した時代がある。
-- [SHION_A250 塔域居住層の射撃教官](/backstories/mastery/SHION_A250-%E5%A1%94%E5%9F%9F%E5%B1%85%E4%BD%8F%E5%B1%A4%E3%81%AE%E5%B0%84%E6%92%83%E6%95%99%E5%AE%98.md) — 塔域の射撃大会で、命中数より存在区分の識別、不明時の不発砲、誤認訂正へ点を付けた。
-- [SHION_A251 後方支援庁の身体競技指導員](/backstories/mastery/SHION_A251-%E5%BE%8C%E6%96%B9%E6%94%AF%E6%8F%B4%E5%BA%81%E3%81%AE%E8%BA%AB%E4%BD%93%E7%AB%B6%E6%8A%80%E6%8C%87%E5%B0%8E%E5%93%A1.md) — 後方支援庁で身体競技を教えると、遊んでいるように見られた。
-- [SHION_A252 帰還兵港の仮設建築士](/backstories/mastery/SHION_A252-%E5%B8%B0%E9%82%84%E5%85%B5%E6%B8%AF%E3%81%AE%E4%BB%AE%E8%A8%AD%E5%BB%BA%E7%AF%89%E5%A3%AB.md) — 帰還兵港では、同じ日に出た二人がまるで違う年齢で戻る。
-- [SHION_A253 残響深層の地下救助員](/backstories/mastery/SHION_A253-%E6%AE%8B%E9%9F%BF%E6%B7%B1%E5%B1%A4%E3%81%AE%E5%9C%B0%E4%B8%8B%E6%95%91%E5%8A%A9%E5%93%A1.md) — 残響深層では、崩落した戦場が同じ瞬間を繰り返していた。
-- [SHION_A254 装甲救援隊の公共食堂の調理師](/backstories/mastery/SHION_A254-%E8%A3%85%E7%94%B2%E6%95%91%E6%8F%B4%E9%9A%8A%E3%81%AE%E5%85%AC%E5%85%B1%E9%A3%9F%E5%A0%82%E3%81%AE%E8%AA%BF%E7%90%86%E5%B8%AB.md) — 装甲救援隊の食堂にいると、料理だけしていたとは思われない。
-- [SHION_A255 革命連合後方区の共同農園技師](/backstories/mastery/SHION_A255-%E9%9D%A9%E5%91%BD%E9%80%A3%E5%90%88%E5%BE%8C%E6%96%B9%E5%8C%BA%E3%81%AE%E5%85%B1%E5%90%8C%E8%BE%B2%E5%9C%92%E6%8A%80%E5%B8%AB.md) — 革命連合の後方農園には、社会民主党系も共産党系も帝国離反者も来た。
-- [SHION_A256 開戦前残響域の終生飼養員](/backstories/mastery/SHION_A256-%E9%96%8B%E6%88%A6%E5%89%8D%E6%AE%8B%E9%9F%BF%E5%9F%9F%E3%81%AE%E7%B5%82%E7%94%9F%E9%A3%BC%E9%A4%8A%E5%93%A1.md) — 開戦前の残響域で、本人は役目を終えた動物の日課を守っていた。
-- [SHION_A257 革命連合後方区の古道具修復師](/backstories/mastery/SHION_A257-%E9%9D%A9%E5%91%BD%E9%80%A3%E5%90%88%E5%BE%8C%E6%96%B9%E5%8C%BA%E3%81%AE%E5%8F%A4%E9%81%93%E5%85%B7%E4%BF%AE%E5%BE%A9%E5%B8%AB.md) — 革命連合の後方では、同じ型の道具でも党派ごとに違う印が刻まれていた。
-- [SHION_A258 立入制限地の記録舞台演出家](/backstories/mastery/SHION_A258-%E7%AB%8B%E5%85%A5%E5%88%B6%E9%99%90%E5%9C%B0%E3%81%AE%E8%A8%98%E9%8C%B2%E8%88%9E%E5%8F%B0%E6%BC%94%E5%87%BA%E5%AE%B6.md) — 立入制限地の記録を舞台にするなら、悲鳴と死者だけでは足りない。
-- [SHION_A259 自治評議区の救護医](/backstories/mastery/SHION_A259-%E8%87%AA%E6%B2%BB%E8%A9%95%E8%AD%B0%E5%8C%BA%E3%81%AE%E6%95%91%E8%AD%B7%E5%8C%BB.md) — 自治評議区の事故では、救護所へ着く前から党派同士が責任を押し付け合っていた。
-- [SHION_A260 人格照合局の再会連絡官](/backstories/mastery/SHION_A260-%E4%BA%BA%E6%A0%BC%E7%85%A7%E5%90%88%E5%B1%80%E3%81%AE%E5%86%8D%E4%BC%9A%E9%80%A3%E7%B5%A1%E5%AE%98.md) — 人格照合局で再会を手伝う時、本人は「以前と同じ本人です」とは約束しなかった。
-- [SHION_A261 月面事業区の古文書研究者](/backstories/mastery/SHION_A261-%E6%9C%88%E9%9D%A2%E4%BA%8B%E6%A5%AD%E5%8C%BA%E3%81%AE%E5%8F%A4%E6%96%87%E6%9B%B8%E7%A0%94%E7%A9%B6%E8%80%85.md) — 月面事業の公式記録は、最初から成功する予定だったように書かれていた。
-- [SHION_A262 封鎖観測地の監視射手](/backstories/mastery/SHION_A262-%E5%B0%81%E9%8E%96%E8%A6%B3%E6%B8%AC%E5%9C%B0%E3%81%AE%E7%9B%A3%E8%A6%96%E5%B0%84%E6%89%8B.md) — 封鎖地では、変色した草が風で揺れるたび照準を合わせた。
+- [STA-001 意図した仕様](/kombinat/requirements/sta-001-%E6%84%8F%E5%9B%B3%E3%81%97%E3%81%9F%E4%BB%95%E6%A7%98.md) — MUST: Core独自Storage内の腐敗、温度、Thing Tick、Comp Tick、充放電、孵化等の時間進行方針を明示する。
+- [STA-002 追加制限禁止](/kombinat/requirements/sta-002-%E8%BF%BD%E5%8A%A0%E5%88%B6%E9%99%90%E7%A6%81%E6%AD%A2.md) — MUST: Stasisによる時間停止だけを理由に、Kombinatから追加費用、危険分類、入庫拒否を行わない。
+- [STA-003 工場内在庫禁止](/kombinat/requirements/sta-003-%E5%B7%A5%E5%A0%B4%E5%86%85%E5%9C%A8%E5%BA%AB%E7%A6%81%E6%AD%A2.md) — MUST: Kombinat Factoryは生産用ThingOwnerを持たず、材料、中間品、完成品をCore Storageへ一元化する。
+- [UX-001 発注](/kombinat/requirements/ux-001-%E7%99%BA%E6%B3%A8.md) — MUST: 品目、数量または目標在庫、優先度だけで基本発注を作れる。
+- [UX-002 見積り](/kombinat/requirements/ux-002-%E8%A6%8B%E7%A9%8D%E3%82%8A.md) — MUST: 確定前に、必要材料、Storage利用可能量、予約済み、中間品、設備、出力容量、概算時間を表示する。
+- [UX-003 状態語](/kombinat/requirements/ux-003-%E7%8A%B6%E6%85%8B%E8%AA%9E.md) — MUST: 少なくとも次を区別するという方針の適用範囲と条件を定める。
+- [UX-004 上流UIの尊重](/kombinat/requirements/ux-004-%E4%B8%8A%E6%B5%81-%E3%81%AE%E5%B0%8A%E9%87%8D.md) — MUST: Storage、Filter、Endpoint、Network設定はCore独自基盤のUI責務とし、Kombinat内部へ複製しない。
+- [0. 結論](/pawn/00-%E7%B5%90%E8%AB%96.md) — β版では、シオンPawnを必要に応じて設計、生産、配備、無料保管、修復、回収、再生産できなければならない。
+- [1. 権威と責務](/pawn/01-%E6%A8%A9%E5%A8%81%E3%81%A8%E8%B2%AC%E5%8B%99.md) — Pawnの生成、人格・身体構成、登録、保管、死亡後削除、再実体化、Cloneについて矛盾がある場合、次の順を用いる。
+- [3. 個体分類](/pawn/03-%E5%80%8B%E4%BD%93%E5%88%86%E9%A1%9E.md) — 個体分類は、Ephemeral Pawn：なし：遺体情報が残る間だけ低コスト再起動可能：不可：再資源化完了時に個体情報を削除とRegistered Individual：Individual Archive：一体だけ可能：可能：Archiveを残し、Pawn…。
+- [4. データ境界](/pawn/04-%E3%83%87%E3%83%BC%E3%82%BF%E5%A2%83%E7%95%8C.md) — データ境界は、境界：主な内容：保存とPawn Generation Request：適合条件、数量、登録方針、Loadout：完了までを扱う。
+- [A. ランダム適合個体](/pawn/068-A-%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E9%81%A9%E5%90%88%E5%80%8B%E4%BD%93.md) — A. ランダム適合個体は、建築能力と運搬能力を条件に一体注文する。
+- [B. 必要装備込みの配備](/pawn/069-B-%E5%BF%85%E8%A6%81%E8%A3%85%E5%82%99%E8%BE%BC%E3%81%BF%E3%81%AE%E9%85%8D%E5%82%99.md) — B. 必要装備込みの配備は、射手四体、互換する防具、遠距離武器、医療品を注文する。
+- [C. 一からの個体設計](/pawn/070-C-%E4%B8%80%E3%81%8B%E3%82%89%E3%81%AE%E5%80%8B%E4%BD%93%E8%A8%AD%E8%A8%88.md) — C. 一からの個体設計は、Body、Module、外装、技能、特性、能力、装備を選ぶ。
+- [D. 単一個体の登録と再実体化](/pawn/071-D-%E5%8D%98%E4%B8%80%E5%80%8B%E4%BD%93%E3%81%AE%E7%99%BB%E9%8C%B2%E3%81%A8%E5%86%8D%E5%AE%9F%E4%BD%93%E5%8C%96.md) — D. 単一個体の登録と再実体化は、活動中Pawnを登録する。
+- [E. Clone Colony](/pawn/072-E-Clone-Colony-%E8%A4%87%E8%A3%BD%E5%80%8B%E4%BD%93%E3%82%B3%E3%83%AD%E3%83%8B%E3%83%BC.md) — E. Clone Colonyは、一体のRegistered IndividualをClone Sourceにする。
+- [F. 無料保管](/pawn/073-F-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — F. 無料保管は、生存Pawnへ装備とinventory内Thingを持たせてDormant化する。
+- [G. 負傷と遺体回収](/pawn/074-G-%E8%B2%A0%E5%82%B7%E3%81%A8%E9%81%BA%E4%BD%93%E5%9B%9E%E5%8F%8E.md) — G. 負傷と遺体回収は、重傷Pawnを低コスト修復する。
+- [H. Ephemeral完全削除](/pawn/075-H-Ephemeral%E5%AE%8C%E5%85%A8%E5%89%8A%E9%99%A4.md) — H. Ephemeral完全削除は、大量のEphemeral Pawnを死亡、回収、再資源化する。
+- [I. Cloneと固有物](/pawn/076-I-Clone%E3%81%A8%E5%9B%BA%E6%9C%89%E7%89%A9.md) — I. Cloneと固有物は、名前付き武器、Quest参照、称号を持つRegistered IndividualをCloneする。
+- [J. 途中保存と再送](/pawn/077-J-%E9%80%94%E4%B8%AD%E4%BF%9D%E5%AD%98%E3%81%A8%E5%86%8D%E9%80%81.md) — J. 途中保存と再送は、生産、Dormant化、回収、再資源化、再実体化、Cloneの各段階で保存する。
+- [13. 完成図Hardening要件](/pawn/13-%E5%AE%8C%E6%88%90%E5%9B%B3Hardening%E8%A6%81%E4%BB%B6.md) — 本節は旧完成図監査から回収したPawn Foundry固有のHardening要件を、本書自身の拘束要件として維持する。
+- [14. β Definition of Done](/pawn/14-%CE%B2-Definition-of-Done-%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — 次を全て満たした時だけ、β版のPawn生産系を完成とする。
+- [2.1 補充可能性](/pawn/2-1-%E8%A3%9C%E5%85%85%E5%8F%AF%E8%83%BD%E6%80%A7.md) — 補充可能性は、通常シオンPawnに、世界で一度しか得られない必須材料や有限の生産回数を要求しない。
+- [2.2 人格とゲームユニット](/pawn/2-2-%E4%BA%BA%E6%A0%BC%E3%81%A8%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88.md) — 人格とゲームユニットは、ゲーム上のPawnは生産、保管、交換、補充できるコマである。
+- [2.3 無料保管](/pawn/2-3-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — 生存PawnはPawn Foundryまたは対応設備からDormant状態へ移し、必要になるまで保管できる。
+- [3.1 Ephemeral Pawn](/pawn/3-1-Ephemeral-Pawn-%E4%B8%80%E6%99%82%E5%80%8B%E4%BD%93.md) — 適合生成の既定出力であり、また役割上必要な情報だけを指定し、それ以外をランダム生成する。
+- [3.2 Registered Individual](/pawn/3-2-Registered-Individual-%E7%99%BB%E9%8C%B2%E5%80%8B%E4%BD%93.md) — 既存Pawnをプレイヤーが登録すると、個体を再構築するためのIndividual Archiveを作る。
+- [3.3 Saved Pawn Design](/pawn/3-3-Saved-Pawn-Design-%E4%BF%9D%E5%AD%98%E5%80%8B%E4%BD%93%E8%A8%AD%E8%A8%88.md) — 特定の一人ではなく、繰り返し使える製造設計である。
+- [3.4 Clone](/pawn/3-4-Clone-%E8%A4%87%E8%A3%BD%E5%80%8B%E4%BD%93.md) — 登録個体または保存設計をClone Sourceにできる。
+- [4.1 ID](/pawn/4-1-ID-%E8%AD%98%E5%88%A5%E5%AD%90.md) — 再実体化ではindividualIdを維持し、pawnInstanceIdを更新できる。
+- [ADV-001 緊急一体再配備](/pawn/adv-001-%E7%B7%8A%E6%80%A5%E4%B8%80%E4%BD%93%E5%86%8D%E9%85%8D%E5%82%99.md) — MUST: 同一Mapで活動可能なプレイヤーPawnが0体になった場合、Dormant Recordから一体だけを、電力、Pawn作業、通常の配備Queueなしで安全地点へ復帰できるfail-safeを持つ。
+- [ADV-002 無人Foundry](/pawn/adv-002-%E7%84%A1%E4%BA%BA.md) — MUST: 電力、材料、健全な設備がある時、少なくとも一系統のPawn Foundry工程は生存Pawnの作業なしで一体を完成できる。
+- [ADV-003 物理費と人格復元費](/pawn/adv-003-%E7%89%A9%E7%90%86%E8%B2%BB%E3%81%A8%E4%BA%BA%E6%A0%BC%E5%BE%A9%E5%85%83%E8%B2%BB.md) — MUST: Archiveが低コストで復元するのは人格・構成情報であり、失われた身体、内蔵Module、着脱装備を無償複製しない。
+- [ADV-004 Pawn要素別安全性](/pawn/adv-004-%E8%A6%81%E7%B4%A0%E5%88%A5%E5%AE%89%E5%85%A8%E6%80%A7.md) — MUST: Gene、Hediff、Ability、Comp、Royalty、Ideology、Quest、外部MODデータをDormant Safe、Archive Safe、Clone Safeの要素別に判定する。
+- [ADV-005 Ephemeral参照解決](/pawn/adv-005-%E5%8F%82%E7%85%A7%E8%A7%A3%E6%B1%BA.md) — MUST: Ephemeral Pawnの完全削除前に、Relation、Mood Memory、Tale、Quest、Lord、Faction、World Pawn、Bond、外部参照を解決、匿名化、終端記録へ変換する。
+- [ADV-006 Design version pin](/pawn/adv-006-%E8%A6%81%E4%BB%B6.md) — MUST: Generation Requestは開始時のPawn Design、Clone Source checkpoint、Loadout Profile、Gene／Ability候補、Adapter versionをpinする。
+- [ADV-007 Pawn依存Manifest](/pawn/adv-007-%E4%BE%9D%E5%AD%98.md) — MUST: Dormant Record、Individual Archive、Pawn Design、Clone Sourceが依存するpackageId、version、Def、class、Adapterを有限Manifestとして保存する。
+- [ADV-008 Dormant wealth](/pawn/adv-008-%E8%A6%81%E4%BB%B6.md) — MUST: Dormant中の身体と内蔵Moduleを、そのRecordが属するMapまたはWorldObjectのwealthへ一度だけ算入する。
+- [ADV-009 全状態の保存と冪等性](/pawn/adv-009-%E5%85%A8%E7%8A%B6%E6%85%8B%E3%81%AE%E4%BF%9D%E5%AD%98%E3%81%A8%E5%86%AA%E7%AD%89%E6%80%A7.md) — MUST: 緊急再配備、着脱品返却、無人生産、参照解決、Manifest診断を途中保存できる。
+- [ADV-010 検証割当](/pawn/adv-010-%E6%A4%9C%E8%A8%BC%E5%89%B2%E5%BD%93.md) — MUST: 監査S-047〜060、S-064〜066を自動fixture、統合試験、手動試験のいずれかへ割り当て、対象build、DLC、外部MOD、操作、期待結果、物理費、ID、保存往復を記録する。
+- [DOR-001 Dormant化](/pawn/dor-001-%E5%8C%96.md) — MUST: 生存し、搬送可能で、禁止状態にないPawnをDormant Recordへ移せる。
+- [DOR-002 無料](/pawn/dor-002-%E7%84%A1%E6%96%99.md) — MUST: Dormant化、保管期間、再配備は資源、通貨、専用容量を消費しない。
+- [DOR-003 停止](/pawn/dor-003-%E5%81%9C%E6%AD%A2.md) — MUST: Dormant中はPawn Tick、Need、病気、出血、腐敗、充放電、Hediff経過、Ability cooldown、年齢進行を停止する。
+- [DOR-004 完全往復](/pawn/dor-004-%E5%AE%8C%E5%85%A8%E5%BE%80%E5%BE%A9.md) — MUST: 名前、load ID、individual ID、関係、技能、特性、遺伝情報、身体、内蔵Module、Hediff、Pawn設定をDormant化と再配備で維持する。
+- [DOR-005 同時所在](/pawn/dor-005-%E5%90%8C%E6%99%82%E6%89%80%E5%9C%A8.md) — MUST: 同じPawnがMap、Caravan、World Pawn、Dormant Recordの複数へ同時に存在しない。
+- [DOR-006 参照安全性](/pawn/dor-006-%E5%8F%82%E7%85%A7%E5%AE%89%E5%85%A8%E6%80%A7.md) — MUST: Quest、Lord、Faction、Ideology、Royalty、Gene、Bond、外部MOD参照を検査し、安全にDormant化できない理由を明示する。
+- [DOR-007 装備](/pawn/dor-007-%E8%A3%85%E5%82%99.md) — MUST: 着脱可能な装備、衣服、工具、inventory内ThingはDormant化のtransaction内でCore独自保管・接続システムまたはMap上の受入先へ一度だけ返却する。
+- [GEN-001 適合生成](/pawn/gen-001-%E9%81%A9%E5%90%88%E7%94%9F%E6%88%90.md) — MUST: プレイヤーは役割、必須作業、最低技能、必要能力、許可する身体、数量を指定し、条件へ適合するランダムPawnを生成できる。
+- [GEN-002 ランダム範囲](/pawn/gen-002-%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E7%AF%84%E5%9B%B2.md) — MUST: 指定されていない名前、外見、性格、技能差、趣味等は許可範囲からランダム化する。
+- [GEN-003 既定個体](/pawn/gen-003-%E6%97%A2%E5%AE%9A%E5%80%8B%E4%BD%93.md) — MUST: Defで登録された固有個体または既定設計を一覧から選び、予定された構成で生産できる。
+- [GEN-004 一からの設計](/pawn/gen-004-%E4%B8%80%E3%81%8B%E3%82%89%E3%81%AE%E8%A8%AD%E8%A8%88.md) — MUST: プレイヤーはBody Platform、Module、外装、遺伝情報、特性、技能、Passion、能力、役割、Loadoutを一から構成し、互換性と費用を確認して生産できる。
+- [GEN-005 必要装備](/pawn/gen-005-%E5%BF%85%E8%A6%81%E8%A3%85%E5%82%99.md) — MUST: 生産要求は、具体Thing指定と作者定義のEquipment Familyを併用できる。
+- [GEN-006 原子的配備](/pawn/gen-006-%E5%8E%9F%E5%AD%90%E7%9A%84%E9%85%8D%E5%82%99.md) — MUST: Body、必須Module、必須能力、必須装備のいずれかが欠ける場合、完成扱いでPawnを出現させない。
+- [GEN-007 反復可能性](/pawn/gen-007-%E5%8F%8D%E5%BE%A9%E5%8F%AF%E8%83%BD%E6%80%A7.md) — MUST: 通常Pawnの生産へ一回限りのWorld Unique資源、有限許可回数、消滅する原型を要求しない。
+- [GEN-008 Repeat Order](/pawn/gen-008-%E8%A6%81%E4%BB%B6.md) — MUST: 適合条件、Design、Registered IndividualのCloneを数量指定または目標活動数で反復生産できる。
+- [INT-001 Production Adapter](/pawn/int-001-%E8%A6%81%E4%BB%B6.md) — MUST: Pawn FoundryはBody、Module、装備、消耗品をKombinat Production Requestとして発注できる。
+- [INT-002 三主題の維持](/pawn/int-002-%E4%B8%89%E4%B8%BB%E9%A1%8C%E3%81%AE%E7%B6%AD%E6%8C%81.md) — MUST: Kombinat側ではPawn要求を生産対象、Pawn需要を消費予測、Foundryへの引渡しを流通として表示する。
+- [INT-003 具体装備](/pawn/int-003-%E5%85%B7%E4%BD%93%E8%A3%85%E5%82%99.md) — MUST: 登録個体の固有装備、名前付き装備、Quest品は具体Thingとして追跡し、Clone時に複製しない。
+- [INT-004 装備ファミリー](/pawn/int-004-%E8%A3%85%E5%82%99%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC.md) — MUST: 武器、防具、工具、医療品等のFamily指定は、作者が明示登録した同用途・同性能帯・同費用帯の候補から具体Thingへ解決する。
+- [INT-005 Ability Package](/pawn/int-005-%E8%A6%81%E4%BB%B6.md) — MUST: 必要能力はBody Module、Gene、Trait、Skill、Passion、Ability、Hediff等の由来を区別して構成し、同じ効果を無関係な仕組みで暗黙代替しない。
+- [INT-006 取消と返却](/pawn/int-006-%E5%8F%96%E6%B6%88%E3%81%A8%E8%BF%94%E5%8D%B4.md) — MUST: 生産取消、設計変更、配備失敗時は、未消費資源、完成済み装備、部分完成Bodyを追跡し、複製せずCore独自保管・接続システムまたはMap上の受入先へ返却するか、Factory Buffer内で明示的に再利用する。
+- [PERF-001 Dormant停止](/pawn/perf-001-%E5%81%9C%E6%AD%A2.md) — MUST: Dormant PawnをRimWorld Pawn Tickまたは全件毎tick走査の対象にしない。
+- [PERF-002 Event更新](/pawn/perf-002-%E6%9B%B4%E6%96%B0.md) — MUST: Archive checkpoint、需要数、Clone活動数、回収状態をevent駆動で更新する。
+- [PERF-003 World Pawn漏れ](/pawn/perf-003-%E6%BC%8F%E3%82%8C.md) — MUST: Ephemeralを一万体生成・回収・再資源化するfixture後も、World Pawn、Relation、Tale、Archiveが生成総数に比例して残留しない。
+- [PERF-004 量産](/pawn/perf-004-%E9%87%8F%E7%94%A3.md) — MUST: 同一DesignまたはClone Sourceから100体を連続生産するfixtureで、ID重複、参照共有、装備複製、無制限履歴増加を起こさない。
+- [REC-001 低コスト修復](/pawn/rec-001-%E4%BD%8E%E3%82%B3%E3%82%B9%E3%83%88%E4%BF%AE%E5%BE%A9.md) — MUST: 生存Pawnの通常負傷、欠損、故障、交換可能Moduleを、標準新規Pawn生産より低い資源と時間で回復できる。
+- [REC-002 遺体回収](/pawn/rec-002-%E9%81%BA%E4%BD%93%E5%9B%9E%E5%8F%8E.md) — MUST: 回収したシオン遺体をRecovery Facilityへ受け入れ、再起動、Archive再実体化、再資源化の利用可能な選択を表示する。
+- [REC-003 Ephemeral再起動](/pawn/rec-003-%E5%86%8D%E8%B5%B7%E5%8B%95.md) — MUST: Ephemeral Pawnは、遺体とPawn instance情報が残る間、低コストで同じ現在個体を再起動できる。
+- [REC-004 Ephemeral最終削除](/pawn/rec-004-%E6%9C%80%E7%B5%82%E5%89%8A%E9%99%A4.md) — MUST: Ephemeral Pawnの遺体を再資源化した場合、Pawn、Corpse、World Pawn、Relation、Archive、個体参照付きTale／Log、未解決参照をセーブ正本から除去する。
+- [REC-005 Registered再実体化](/pawn/rec-005-%E5%86%8D%E5%AE%9F%E4%BD%93%E5%8C%96.md) — MUST: Registered Individualの死亡後は、回収時にArchiveをcheckpointし、遺体を再資源化した後も同じindividualIdで一体を再実体化できる。
+- [REC-006 Clone選択](/pawn/rec-006-%E9%81%B8%E6%8A%9E.md) — MUST: Registered Individualが活動中またはDormantである場合、同じ原型からの追加生産は再実体化ではなくCloneとして明示する。
+- [REC-007 回収不能](/pawn/rec-007-%E5%9B%9E%E5%8F%8E%E4%B8%8D%E8%83%BD.md) — MUST: 遺体が消滅したEphemeral Pawnは同じ個体として復元できない。
+- [REC-008 冪等性](/pawn/rec-008-%E5%86%AA%E7%AD%89%E6%80%A7.md) — MUST: 回収、再起動、再資源化、再実体化のCommand再送で、Pawn、遺体、装備、資源を二重生成または二重回収しない。
+- [REC-009 Quest参照](/pawn/rec-009-%E5%8F%82%E7%85%A7.md) — MUST: Ephemeral最終削除の前にQuest、Lord、Relation、Faction、World Pawn、外部Adapterへ終了通知を送り、参照を解決する。
+- [REG-001 既存Pawn登録](/pawn/reg-001-%E6%97%A2%E5%AD%98-%E7%99%BB%E9%8C%B2.md) — MUST: 活動中またはDormantのシオンPawnをRegistered Individualへ変更できる。
+- [REG-002 Archive更新](/pawn/reg-002-%E6%9B%B4%E6%96%B0.md) — MUST: Archiveは登録時、Dormant化時、手動保存時、死亡回収時にevent駆動でcheckpointする。
+- [REG-003 単一個体制約](/pawn/reg-003-%E5%8D%98%E4%B8%80%E5%80%8B%E4%BD%93%E5%88%B6%E7%B4%84.md) — MUST: 同じindividualIdを持つ活動中またはDormantの実体を二体作らない。
+- [REG-004 Design保存](/pawn/reg-004-%E4%BF%9D%E5%AD%98.md) — MUST: プレイヤー設計を個体情報のない再利用可能なPawn Designとして保存できる。
+- [REG-005 単一個体として保存](/pawn/reg-005-%E5%8D%98%E4%B8%80%E5%80%8B%E4%BD%93%E3%81%A8%E3%81%97%E3%81%A6%E4%BF%9D%E5%AD%98.md) — MUST: プレイヤー設計を名前とindividualIdを持つ一人のIndividual Archiveとして保存し、必要な時にその個体を生産できる。

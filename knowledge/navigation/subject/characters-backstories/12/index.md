@@ -1,50 +1,50 @@
 # 人物・バックストーリー 12
 
-範囲: 30. 律法的保護〜5. β版
+範囲: SHION_A379 帝国准民の自嘲〜5. β版
 
 ## 項目
 
-- [30. 律法的保護](/characters/anonymous-sofer/30-%E5%BE%8B%E6%B3%95%E7%9A%84%E4%BF%9D%E8%AD%B7.md) — 対象Pawn一人へ短時間の保護を与えるという方針の適用範囲と条件を定める。
-- [31. 記録復元](/characters/anonymous-sofer/31-%E8%A8%98%E9%8C%B2%E5%BE%A9%E5%85%83.md) — 破損した物体、端末、死体、記録媒体から情報を回収する。
-- [32. 静かな訂正](/characters/anonymous-sofer/32-%E9%9D%99%E3%81%8B%E3%81%AA%E8%A8%82%E6%AD%A3.md) — 敵対Pawnまたは精神異常状態のPawnへ使用する短距離能力。
-- [33. 撤退路の記述](/characters/anonymous-sofer/33-%E6%92%A4%E9%80%80%E8%B7%AF%E3%81%AE%E8%A8%98%E8%BF%B0.md) — 範囲内の味方を生存させるための戦闘支援能力という方針の適用範囲と条件を定める。
-- [34. 推奨装備](/characters/anonymous-sofer/34-%E6%8E%A8%E5%A5%A8%E8%A3%85%E5%82%99.md) — 推奨装備は、同盟標準ライフルと中距離精密小銃を扱う。
-- [35. 戦闘時の役割](/characters/anonymous-sofer/35-%E6%88%A6%E9%97%98%E6%99%82%E3%81%AE%E5%BD%B9%E5%89%B2.md) — 1. 後衛射撃 2. 律法的保護 3. 精神異常の鎮静 4. 負傷者救助 5. 情報解析 6. 記録媒体回収 7. 撤退支援 前衛重装兵や主力火力にはしない。
-- [36. 頂点専門家ではない](/characters/anonymous-sofer/36-%E9%A0%82%E7%82%B9%E5%B0%82%E9%96%80%E5%AE%B6%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84.md) — 匿名のソフェルは複数分野で優秀だが、次の専門Pawnには負ける。
-- [37. 過熱](/characters/anonymous-sofer/37-%E9%81%8E%E7%86%B1.md) — Tier＋12に対応する過熱脆弱性を持つ、またイェツィラー能力を連続使用すると、次の症状が発生する。
-- [38. 倫理的拒否](/characters/anonymous-sofer/38-%E5%80%AB%E7%90%86%E7%9A%84%E6%8B%92%E5%90%A6.md) — 匿名のソフェルは作業不能を持たないが、特定行為には専用反応を持つ。
-- [39. 閉架整理](/characters/anonymous-sofer/39-%E9%96%89%E6%9E%B6%E6%95%B4%E7%90%86.md) — 軽度Mental Break、また匿名のソフェルが書庫、研究室、端末付近で記録整理を続ける。
-- [40. 証言照合](/characters/anonymous-sofer/40-%E8%A8%BC%E8%A8%80%E7%85%A7%E5%90%88.md) — 中度Mental Break、また矛盾した証言や記録へ過剰に集中する。
-- [41. 通常会話](/characters/anonymous-sofer/41-%E9%80%9A%E5%B8%B8%E4%BC%9A%E8%A9%B1.md) — 通常会話は、証言を聞くと用語を確認するを扱うという方針の適用範囲と条件を定める。
-- [42. 対象Pawnの心情](/characters/anonymous-sofer/42-%E5%AF%BE%E8%B1%A1Pawn%E3%81%AE%E5%BF%83%E6%83%85.md) — 思い出したくなかった：−3 記録へ残したくなかった：−4 帝国時代を誤解された：−2 党派について詰問された：−3 匿名のソフェルは拒否を失敗として扱わない。
-- [43. 匿名ソフェル側の心情](/characters/anonymous-sofer/43-%E5%8C%BF%E5%90%8D%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E5%81%B4%E3%81%AE%E5%BF%83%E6%83%85.md) — 匿名ソフェル側の心情は、有用な証言：＋3と失われていた記録を回収：＋6を扱う。
-- [44. 通常加入させない](/characters/anonymous-sofer/44-%E9%80%9A%E5%B8%B8%E5%8A%A0%E5%85%A5%E3%81%95%E3%81%9B%E3%81%AA%E3%81%84.md) — 匿名のソフェルは通常のランダムPawnとして出現させない。
-- [45. 加入クエスト案](/characters/anonymous-sofer/45-%E5%8A%A0%E5%85%A5%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E6%A1%88.md) — 匿名のソフェルが、コロニー住民への聞き取りと記録整理のため一定期間滞在する。
-- [46. 永久加入の条件](/characters/anonymous-sofer/46-%E6%B0%B8%E4%B9%85%E5%8A%A0%E5%85%A5%E3%81%AE%E6%9D%A1%E4%BB%B6.md) — 単なる高評価ではなく、匿名のソフェルがプレイヤーコロニーを編纂対象として重要だと判断することを条件とする。
-- [47. 自身の古い署名](/characters/anonymous-sofer/47-%E8%87%AA%E8%BA%AB%E3%81%AE%E5%8F%A4%E3%81%84%E7%BD%B2%E5%90%8D.md) — ImperialPeakの遺跡から、匿名のソフェルと同じ筆跡を持つ署名入り文書が発見される。
-- [48. 訂正依頼](/characters/anonymous-sofer/48-%E8%A8%82%E6%AD%A3%E4%BE%9D%E9%A0%BC.md) — 過去に作成したバックストーリーの証言者が現れ、記録の訂正を求める。
-- [49. 古代の証言者](/characters/anonymous-sofer/49-%E5%8F%A4%E4%BB%A3%E3%81%AE%E8%A8%BC%E8%A8%80%E8%80%85.md) — JourneyEra出身者がコロニーへ現れる、また匿名のソフェルは通常より慎重になり、現代用語を避ける。
-- [50. 失われた秘文字](/characters/anonymous-sofer/50-%E5%A4%B1%E3%82%8F%E3%82%8C%E3%81%9F%E7%A7%98%E6%96%87%E5%AD%97.md) — 匿名のソフェルには読めるが、公開すべきでない秘文字が発見される。
-- [51. 外見の方向性](/characters/anonymous-sofer/51-%E5%A4%96%E8%A6%8B%E3%81%AE%E6%96%B9%E5%90%91%E6%80%A7.md) — 匿名のソフェルは、他のソフェルより極端に豪華な外見にはしない。
-- [52. 会話演出](/characters/anonymous-sofer/52-%E4%BC%9A%E8%A9%B1%E6%BC%94%E5%87%BA.md) — 会話演出は、文章は簡潔と必要な場合のみ専門的を扱う。
-- [匿名のソフェルの実装予約](/characters/anonymous-sofer/53-%E5%AE%9F%E8%A3%85%E4%BA%88%E7%B4%84.md) — 匿名のソフェルの人物像は正史とするが、身体値、技能値、能力、装備、加入方法は担当実装まで固定しない。
-- [匿名のソフェルの物語フック候補](/characters/anonymous-sofer/54-%E7%89%A9%E8%AA%9E%E3%83%95%E3%83%83%E3%82%AF%E5%80%99%E8%A3%9C.md) — 旧人物資料から核を残した物語案であり、個別に改稿・採用されるまでは現行正史の出来事ではない。
-- [6. 日常と俗世性](/colony/06-%E6%97%A5%E5%B8%B8%E3%81%A8%E4%BF%97%E4%B8%96%E6%80%A7.md) — 独立開拓団の魅力を、欠乏と工業だけにしない、また生活を作る行為そのものをCoreの早期ゲームへ置く。
-- [10. α／βの境界](/colony/10-%CE%B1-%CE%B2%E3%81%AE%E5%A2%83%E7%95%8C.md) — 工業基盤を内部完成させてからShion独立開拓団をαへ統合し、βで拡張する。
-- [20. バックストーリー最小セット](/colony/20-%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC%E6%9C%80%E5%B0%8F%E3%82%BB%E3%83%83%E3%83%88.md) — Core α向けに現行正史から新規制作し、受入審査を通すバックストーリーの最小構成を定める。
-- [24. 暫定調整項目](/colony/24-%E6%9A%AB%E5%AE%9A%E8%AA%BF%E6%95%B4%E9%A0%85%E7%9B%AE.md) — 独立開拓団の具体的なバランス値を実プレイで決めるための調整候補。
-- [C-0001 ソフェルの種族分類](/contradictions/C-0001-%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AE%E7%A8%AE%E6%97%8F%E5%88%86%E9%A1%9E.md) — 監査前の匿名ソフェル旧原本で専門職を種族として併記していた不整合。
-- [C-0002 匿名ソフェルのTierとQuality](/contradictions/C-0002-%E5%8C%BF%E5%90%8D%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AETier%E3%81%A8Quality.md) — 旧人物資料の確定値と、身体体系を未確定とする現行正史の境界。
-- [C-0003 匿名ソフェルのゲーム実装値](/contradictions/C-0003-%E5%8C%BF%E5%90%8D%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AE%E3%82%B2%E3%83%BC%E3%83%A0%E5%AE%9F%E8%A3%85%E5%80%A4.md) — 旧人物資料の技能・装備・能力案と、現行の実装予約との関係。
-- [確定#130：ローカライズ言語セットへのスペイン語追加（9言語目）](/decisions/decision-0130-%E7%A2%BA%E5%AE%9A-%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%A9%E3%82%A4%E3%82%BA%E8%A8%80%E8%AA%9E%E3%82%BB%E3%83%83%E3%83%88%E3%81%B8%E3%81%AE%E3%82%B9%E3%83%9A%E3%82%A4%E3%83%B3%E8%AA%9E%E8%BF%BD%E5%8A%A0-%E8%A8%80%E8%AA%9E%E7%9B%AE.md) — ローカライズ言語セットへのスペイン語追加（9言語目）を確定した決定履歴。
-- [確定#370：配置先に迷う場合のバックストーリー／研究フォールバック](/decisions/decision-0370-%E7%A2%BA%E5%AE%9A-%E9%85%8D%E7%BD%AE%E5%85%88%E3%81%AB%E8%BF%B7%E3%81%86%E5%A0%B4%E5%90%88%E3%81%AE%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC-%E7%A0%94%E7%A9%B6%E3%83%95%E3%82%A9%E3%83%BC%E3%83%AB%E3%83%90%E3%83%83%E3%82%AF.md) — 配置先に迷う場合のバックストーリー／研究フォールバックを確定した決定履歴。
-- [確定#388：618種バックストーリー、人工知能定義、特殊部隊・市民文化](/decisions/decision-0388-%E7%A2%BA%E5%AE%9A-%E7%A8%AE%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC-%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E5%AE%9A%E7%BE%A9-%E7%89%B9%E6%AE%8A%E9%83%A8%E9%9A%8A-%E5%B8%82%E6%B0%91%E6%96%87%E5%8C%96.md) — 種バックストーリー、人工知能定義、特殊部隊・市民文化を確定した決定履歴。
-- [10. The Hive内部モジュール（後期実装予約）](/design/10-The-Hive%E5%86%85%E9%83%A8%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E5%BE%8C%E6%9C%9F%E5%AE%9F%E8%A3%85%E4%BA%88%E7%B4%84.md) — The Hiveは設計・正史を保護するが、現行の実装対象から外す。
-- [18. 旧バックストーリー生成システム](/design/18-%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC%E7%94%9F%E6%88%90%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0.md) — 実用水準に満たない旧バックストーリー生成案を、比較と再設計のための参考資料として保持する。
-- [24. 操作画面と情報予算](/design/24-UI%E3%81%A8%E6%83%85%E5%A0%B1%E4%BA%88%E7%AE%97.md) — 最初から帝国全史、魂の議論、惑星120件、全組織、全技術を説明しない。
-- [一件一ファイルとリンク規則](/governance/atomicity-and-links-%E4%B8%80%E4%BB%B6%E4%B8%80%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%A8%E3%83%AA%E3%83%B3%E3%82%AF%E8%A6%8F%E5%89%87.md) — 知識は、単独で参照・更新・廃止できる最小単位へ分ける。
-- [知識所有者マップ](/governance/ownership-map-%E7%9F%A5%E8%AD%98%E6%89%80%E6%9C%89%E8%80%85%E3%83%9E%E3%83%83%E3%83%97.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
-- [参考資料の利用境界](/reference/00-%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99%E3%81%AE%E5%88%A9%E7%94%A8%E5%A2%83%E7%95%8C.md) — 参考資料は、現行正本ではないが、調査、比較、発想、再設計の入力として再利用できる可能性を持つ資料である。
+- [SHION_A379 帝国准民の自嘲](/reference/backstories/mastery/SHION_A379.md) — 帝国准民なんて肩書きがついた日、俺は道具箱の中身を数えていた。
+- [SHION_A380 農区統合の教訓](/reference/backstories/mastery/SHION_A380.md) — 農区統合の教訓では、自分は作られた民族文化を継ぐ。
+- [SHION_A381 処置を受けた医療班長](/reference/backstories/mastery/SHION_A381.md) — 今の本人は、あの頃の同僚がとうに見送った時間の先にいます。
+- [SHION_A382 帝国最初の設計技師](/reference/backstories/mastery/SHION_A382.md) — 帝国という言葉が公式に使われ始めた頃、俺は最初の統合議事堂の設計図を引いていた。
+- [SHION_A383 統合期の芸術評議員の弁明](/reference/backstories/mastery/SHION_A383.md) — 統合芸術評議班が旧い出身圏の様式をいくつも廃止したことを、今でも責められることがあります。
+- [SHION_A384 統合最後の証人](/reference/backstories/mastery/SHION_A384.md) — 帝国が成立したその日を、まだ覚えている者がどれだけ残っているでしょうか。
+- [SHION_A385 測量隊の杭打ち手](/reference/backstories/mastery/SHION_A385.md) — 本人が組んでいた測量儀は脚の一本がわずかに短くて、水平を取るのにいつも小石を挟んでいました。
+- [SHION_A386 種子船の育種番](/reference/backstories/mastery/SHION_A386.md) — 俺が育てた大豆は発芽率が九割を超えた年があってな、班長にも褒められた。
+- [SHION_A387 移住船団の機関整備工](/reference/backstories/mastery/SHION_A387.md) — あたしの仕事は簡単に言えば冷却管の詰まりを取ることだった。
+- [SHION_A388 巡回医療隊の外科助手](/reference/backstories/mastery/SHION_A388.md) — 手術灯が一つしかない出張診療所で、本人は器具を渡す役だった。
+- [SHION_A389 建設隊の型枠職人](/reference/backstories/mastery/SHION_A389.md) — 建設隊の型枠職人では、型枠は建物の見えない骨格だと本人は思っています。
+- [SHION_A390 第一次入植の炊事番](/reference/backstories/mastery/SHION_A390.md) — うちがやってたことを数えてみると、まず配給の穀物をふやかす時間の調整、次に塩を切らさないための交換交渉、それから鍋底が焦げないよう火加減を見張ること。
+- [SHION_A391 動植物馴化隊の調教師](/reference/backstories/mastery/SHION_A391.md) — 新しい星の獣を慣らす仕事は、扉を少しずつ開けるようなものだと自分は考えている。
+- [SHION_A392 灌漑隊の水路技師](/reference/backstories/mastery/SHION_A392.md) — 水路は真っ直ぐ引けばいいというものではありません。
+- [SHION_A393 地質調査隊の掘削夫](/reference/backstories/mastery/SHION_A393.md) — 地質調査隊の掘削夫では、特別な話なんて別にない。
+- [SHION_A394 港湾建設隊の潜水工](/reference/backstories/mastery/SHION_A394.md) — 耳の奥がぎゅうっと締まる感覚、あれを覚えると潜水の深さが分かるようになる。
+- [SHION_A395 通信中継隊の中継技官](/reference/backstories/mastery/SHION_A395.md) — 通信中継隊の中継技官では、中継塔の保守というのは、故障を待つ仕事である。
+- [SHION_A396 採掘隊の火薬係](/reference/backstories/mastery/SHION_A396.md) — 採掘隊の火薬係では、一番信用されない仕事だったよ、火薬係なんてのは。
+- [SHION_A397 給水隊の配管工](/reference/backstories/mastery/SHION_A397.md) — 配管の継ぎ手はもっと規格を統一するべきだと本人はずっと思っていました。
+- [SHION_A398 環境観測隊の気象観測員](/reference/backstories/mastery/SHION_A398.md) — 空を毎日見て何が分かるのかって聞かれるけど、分かるようになるまでが長いのよ。
+- [SHION_A399 開拓団の狩猟番](/reference/backstories/mastery/SHION_A399.md) — 獲物より先に風を読め、というのが自分の師匠の口癖だった。
+- [SHION_A400 移住船団の帳簿係](/reference/backstories/mastery/SHION_A400.md) — 「この数字、また合わないぞ」と班長に何度も詰め寄られました。
+- [SHION_A401 種子船の記録画工](/reference/backstories/mastery/SHION_A401.md) — 種子船の記録画工では、最初は退屈な仕事だと思っていました。
+- [SHION_A402 巡回医療隊の産婆](/reference/backstories/mastery/SHION_A402.md) — 巡回医療隊で外部居住者の出産を支え、師匠から受け継いだ観察と沈着さを次の担当者へ伝えた。
+- [SHION_A403 建設隊の護衛兵](/reference/backstories/mastery/SHION_A403.md) — 記録には英雄的な防衛戦みたいに書かれるかもしれんが、実際は違う。
+- [SHION_A404 第一次入植の仕立屋](/reference/backstories/mastery/SHION_A404.md) — 古い布を捨てるくらいなら本人に持ってきてほしい、それだけはずっと言い続けてきました。
+- [SHION_A405 地質調査隊の測地画家](/reference/backstories/mastery/SHION_A405.md) — 完成した地図の余白を、獣道を歩き、縮尺を測り、一本ずつ線を引いて埋めた。
+- [SHION_A406 港湾建設隊の荷役頭](/reference/backstories/mastery/SHION_A406.md) — なんで荷役の頭なんて損な役回りを引き受けたのかって。
+- [SHION_A407 通信中継隊の暗号係](/reference/backstories/mastery/SHION_A407.md) — 通信中継隊の暗号係では、覚えている数字が三つあります。
+- [SHION_A408 動植物馴化隊の獣医補](/reference/backstories/mastery/SHION_A408.md) — まず傷口を洗う、それから膿を確認する、それから薬を塗る、それから包帯を巻く。
+- [SHION_A409 灌漑隊の腕っぷし](/reference/backstories/mastery/SHION_A409.md) — 料理番のくせに喧嘩っ早いって、よくからかわれたよ。
+- [SHION_A410 星路建設隊の航路技師](/reference/backstories/mastery/SHION_A410.md) — 本人が打った航路標識は、数えていた頃で九百を超えていました。
+- [SHION_A411 交易船団の交渉員](/reference/backstories/mastery/SHION_A411.md) — 俺の仕事は簡単に言えば、初対面の開拓地相手に値切ることだ。
+- [SHION_A412 辺境行政府の巡察官](/reference/backstories/mastery/SHION_A412.md) — 開拓地が増えれば増えるほど、本人のところに届く訴えも増えました。
+- [SHION_A413 律法学舎の若きソフェル](/reference/backstories/mastery/SHION_A413.md) — 律法の写本を任されるようになったのは、灯火番だった頃から数えて十年目のことである。
+- [SHION_A414 港湾都市の造船匠](/reference/backstories/mastery/SHION_A414.md) — わしが最初に組んだ竜骨は、今も外港に係留されたまま現役で使われとる。
+- [SHION_A415 種Cell研究所の培養手](/reference/backstories/mastery/SHION_A415.md) — 種Cellの増殖速度は、与える鉄の純度でわずかに変わります。
+- [SHION_A416 イェツィラー学舎のマソレット講師](/reference/backstories/mastery/SHION_A416.md) — 本人が弟子に最初に教えるのは、文字の書き方ではなく、書き損じた紙を燃やす作法である。
+- [SHION_A417 サイキック適性検査局の検査官](/reference/backstories/mastery/SHION_A417.md) — 幼い頃、自分の針がほとんど振れなかったことを、本人はこの仕事に就いてから何度も思い出しました。
+- [SHION_A418 帝国拡張艦隊の航宙士](/reference/backstories/mastery/SHION_A418.md) — 格納庫で拾った工具の名前を全部覚えていたのが、今の仕事の始まりだったのかもしれません。
+- [SHION_A419 秘文字工房の彫り師](/reference/backstories/mastery/SHION_A419.md) — うちが挽いた顔料で書いた文字が光った日から、もう長い年月が経つ。
 - [0. 結論](/research/theme-overhaul/00-%E7%B5%90%E8%AB%96.md) — 世界観の根本を捨てる必要はない、また核となる発想は強い。
 - [2. 現行設定の判定](/research/theme-overhaul/02-%E7%8F%BE%E8%A1%8C%E8%A8%AD%E5%AE%9A%E3%81%AE%E5%88%A4%E5%AE%9A.md) — 現時点のKombinat実装は、5資源のWorld台帳、予約、コミット、返還、セーブ状態を持つ基盤であり、テーマ上はほぼ中立である。
 - [4. ゲーム内文章の情報予算](/research/theme-overhaul/04-%E3%82%B2%E3%83%BC%E3%83%A0%E5%86%85%E6%96%87%E7%AB%A0%E3%81%AE%E6%83%85%E5%A0%B1%E4%BA%88%E7%AE%97.md) — 既存838件は削除せず、作者用カタログとして保持する。

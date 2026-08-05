@@ -1,26 +1,9 @@
 # Kombinat共同体 02
 
-範囲: 7. Release Gate〜UX-004 上流UIの尊重
+範囲: 8. 消費と流通〜SHION_C301 Kombinat停止夜の診療所
 
 ## 項目
 
-- [7. Release Gate](/kombinat/audit/07-Release-Gate-%E5%85%AC%E9%96%8B%E5%88%A4%E5%AE%9A.md) — α blockerはKX-001〜008とS2-001〜018のKombinat追加層部分である。
-- [KX-001 入力二重予約](/kombinat/audit/kx-001-%E5%85%A5%E5%8A%9B%E4%BA%8C%E9%87%8D%E4%BA%88%E7%B4%84.md) — 再現: 入力予約直後に保存し、ロード後に同じOperation IDが再送される。
-- [KX-002 引渡し後の二重所有](/kombinat/audit/kx-002-%E5%BC%95%E6%B8%A1%E3%81%97%E5%BE%8C%E3%81%AE%E4%BA%8C%E9%87%8D%E6%89%80%E6%9C%89.md) — 再現: Storage生産Commitの直後に例外が起き、同じOperation IDが再送される。
-- [KX-003 Network在庫の過剰約束](/kombinat/audit/kx-003-%E5%9C%A8%E5%BA%AB%E3%81%AE%E9%81%8E%E5%89%B0%E7%B4%84%E6%9D%9F.md) — 再現: Plannerが表示在庫を予約確定前に利用可能量へ算入し、二Jobへ同じ材料を約束する。
-- [KX-004 出力容量予約不能](/kombinat/audit/kx-004-%E5%87%BA%E5%8A%9B%E5%AE%B9%E9%87%8F%E4%BA%88%E7%B4%84%E4%B8%8D%E8%83%BD.md) — 再現: 納入先Storageに全出力を置ける容量がない状態で次Batchを開始する。
-- [KX-005 取消競合](/kombinat/audit/kx-005-%E5%8F%96%E6%B6%88%E7%AB%B6%E5%90%88.md) — 再現: Playerが取消、再注文、優先度変更を連打し、同時にIOが材料を搬入する。
-- [KX-006 Recipe副作用](/kombinat/audit/kx-006-%E5%89%AF%E4%BD%9C%E7%94%A8.md) — 再現: 外部Recipeを無人Factoryへ自動登録する。
-- [KX-007 通貨二重決済](/kombinat/audit/kx-007-%E9%80%9A%E8%B2%A8%E4%BA%8C%E9%87%8D%E6%B1%BA%E6%B8%88.md) — 再現: 支払確定後、報酬受取前に保存・ロードまたはUI再送する。
-- [KX-008 初期化二重適用](/kombinat/audit/kx-008-%E5%88%9D%E6%9C%9F%E5%8C%96%E4%BA%8C%E9%87%8D%E9%81%A9%E7%94%A8.md) — 再現: 独立開拓団開始中に例外または途中ロードを起こす。
-- [0. 結論](/kombinat/core/00-%E7%B5%90%E8%AB%96.md) — Kombinatは発注、設備能力、生産進捗、消費表示、流通目標、同盟通貨を所有し、物理ThingをCore Storageへ一元化する。
-- [1. 製品境界](/kombinat/core/01-%E8%A3%BD%E5%93%81%E5%A2%83%E7%95%8C.md) — Kombinatはα版からCore独自保管・接続システムの公開入出庫境界へ接続し、保管内部を所有しない。
-- [2. 実装状態の参照](/kombinat/core/02-%E7%8A%B6%E6%85%8B%E5%88%86%E9%A1%9E.md) — Kombinatの実装状態はリリース計画の現在地が所有し、本節は中核仕様からその正本を参照する。
-- [3. 物理Thingと通貨](/kombinat/core/03-%E7%89%A9%E7%90%86Thing%E3%81%A8%E9%80%9A%E8%B2%A8.md) — 物理材料、工業資源、食料、薬品、武器、防具、固有品は実在するRimWorld ThingDef／Thingである。
-- [4. Kombinat追加層の中核型](/kombinat/core/04-Kombinat%E8%BF%BD%E5%8A%A0%E5%B1%A4%E3%81%AE%E4%B8%AD%E6%A0%B8%E5%9E%8B.md) — KombinatはCore独自保管・接続システムに属する保管基盤型を再実装しない。
-- [5. 発注と多段生産](/kombinat/core/05-%E7%99%BA%E6%B3%A8%E3%81%A8%E5%A4%9A%E6%AE%B5%E7%94%9F%E7%94%A3.md) — αの発注は具体的なThingDef、Recipe、数量または目標在庫を基本とする。
-- [6. 無人生産](/kombinat/core/06-%E7%84%A1%E4%BA%BA%E7%94%9F%E7%94%A3.md) — Kombinat専用FactoryとKombinat専用Patternは、Pawnがいなくても電力、材料、設備状態を満たせば稼働できる。
-- [7. 保管中の時間進行](/kombinat/core/07-Stasis-%E4%BF%9D%E7%AE%A1%E4%B8%AD%E3%81%AE%E6%99%82%E9%96%93%E9%80%B2%E8%A1%8C.md) — 保管中の時間進行方針はCore独自Storageが対象別に所有し、Kombinatはその判定を維持する。
 - [8. 消費と流通](/kombinat/core/08-%E6%B6%88%E8%B2%BB%E3%81%A8%E6%B5%81%E9%80%9A.md) — Kombinatは接続先保管基盤の内部消費を無断で監視せず、公開された観測境界だけを使う。
 - [9. UI](/kombinat/core/09-UI-%E6%93%8D%E4%BD%9C%E7%94%BB%E9%9D%A2.md) — Field Ledger Terminalを選択して全機能へ入る暗色のRimWorld管理Windowを基準とし、通常表示と最大化表示を同じDef駆動Page railで提供する。
 - [10. 保存と原子性](/kombinat/core/10-%E4%BF%9D%E5%AD%98%E3%81%A8%E5%8E%9F%E5%AD%90%E6%80%A7.md) — Kombinatは次だけを保存するという方針の適用範囲と条件を定める。
@@ -84,3 +67,20 @@
 - [UX-002 見積り](/kombinat/requirements/ux-002-%E8%A6%8B%E7%A9%8D%E3%82%8A.md) — MUST: 確定前に、必要材料、Storage利用可能量、予約済み、中間品、設備、出力容量、概算時間を表示する。
 - [UX-003 状態語](/kombinat/requirements/ux-003-%E7%8A%B6%E6%85%8B%E8%AA%9E.md) — MUST: 少なくとも次を区別するという方針の適用範囲と条件を定める。
 - [UX-004 上流UIの尊重](/kombinat/requirements/ux-004-%E4%B8%8A%E6%B5%81-%E3%81%AE%E5%B0%8A%E9%87%8D.md) — MUST: Storage、Filter、Endpoint、Network設定はCore独自基盤のUI責務とし、Kombinat内部へ複製しない。
+- [1. 権威と責務](/pawn/01-%E6%A8%A9%E5%A8%81%E3%81%A8%E8%B2%AC%E5%8B%99.md) — Pawnの生成、人格・身体構成、登録、保管、死亡後削除、再実体化、Cloneについて矛盾がある場合、次の順を用いる。
+- [B. 必要装備込みの配備](/pawn/069-B-%E5%BF%85%E8%A6%81%E8%A3%85%E5%82%99%E8%BE%BC%E3%81%BF%E3%81%AE%E9%85%8D%E5%82%99.md) — B. 必要装備込みの配備は、射手四体、互換する防具、遠距離武器、医療品を注文する。
+- [13. 完成図Hardening要件](/pawn/13-%E5%AE%8C%E6%88%90%E5%9B%B3Hardening%E8%A6%81%E4%BB%B6.md) — 本節は旧完成図監査から回収したPawn Foundry固有のHardening要件を、本書自身の拘束要件として維持する。
+- [14. β Definition of Done](/pawn/14-%CE%B2-Definition-of-Done-%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — 次を全て満たした時だけ、β版のPawn生産系を完成とする。
+- [2.3 無料保管](/pawn/2-3-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — 生存PawnはPawn Foundryまたは対応設備からDormant状態へ移し、必要になるまで保管できる。
+- [GEN-005 必要装備](/pawn/gen-005-%E5%BF%85%E8%A6%81%E8%A3%85%E5%82%99.md) — MUST: 生産要求は、具体Thing指定と作者定義のEquipment Familyを併用できる。
+- [INT-001 Production Adapter](/pawn/int-001-%E8%A6%81%E4%BB%B6.md) — MUST: Pawn FoundryはBody、Module、装備、消耗品をKombinat Production Requestとして発注できる。
+- [INT-002 三主題の維持](/pawn/int-002-%E4%B8%89%E4%B8%BB%E9%A1%8C%E3%81%AE%E7%B6%AD%E6%8C%81.md) — MUST: Kombinat側ではPawn要求を生産対象、Pawn需要を消費予測、Foundryへの引渡しを流通として表示する。
+- [プレイヤーが最初から知ること](/player-facing/001-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%9C%80%E5%88%9D%E3%81%8B%E3%82%89%E7%9F%A5%E3%82%8B%E3%81%93%E3%81%A8.md) — シオンは、製造された身体を持つ機械の民であり、また一人ずつ別の人格を持ち、人工知能でも集合意識でもありません。
+- [最小用語集](/player-facing/012-%E6%9C%80%E5%B0%8F%E7%94%A8%E8%AA%9E%E9%9B%86.md) — これ以上の語は、登場するクエストや機能の中でその都度説明します。
+- [4. 新規420稿の割当集計](/reference/backstories/04-%E6%96%B0%E8%A6%8F420%E7%A8%BF%E3%81%AE%E5%89%B2%E5%BD%93%E9%9B%86%E8%A8%88.md) — 各新規稿は主Pool一つとSourceModule一つへ同時算入する。
+- [SHION_C105 ヘイハルKombinatの菜園育ち](/reference/backstories/formation/SHION_C105.md) — ヘイハルKombinatの共同菜園で、誰でも直せる古い手押しポンプと停止時の共同作業を好んだ。 （Kombinat共同体 / 無党派）
+- [SHION_C142 Kombinat保護区の再稼働祭](/reference/backstories/formation/SHION_C142.md) — Kombinatの再稼働祭では、保護区の動物も工程ごとに歩かせました。 （Kombinat共同体 / 無党派）
+- [SHION_C160 ヘイハルKombinatの射撃同好会](/reference/backstories/formation/SHION_C160.md) — Kombinatの射撃同好会は、古い照準器を直して新型と競わせる変わった集まりだった。 （Kombinat共同体 / 無党派）
+- [SHION_C242 Kombinatの迷子案内](/reference/backstories/formation/SHION_C242.md) — ヘイハルKombinatは、初めて来た人には機械の国に見えます。 （Kombinat共同体 / 無党派）
+- [SHION_C257 Kombinat横断競技](/reference/backstories/formation/SHION_C257.md) — ヘイハルKombinatの横断競技は、速さだけでは勝てません。 （Kombinat共同体 / 無党派）
+- [SHION_C301 Kombinat停止夜の診療所](/reference/backstories/formation/SHION_C301.md) — ヘイハルKombinatの診療所へ通い、身体と工程の故障だけでなく復帰への不安も聞いた。 （Kombinat共同体 / 無党派）

@@ -4,19 +4,19 @@
 
 ## 項目
 
-- [12. Final lesson](/research/monolyn-ui/12-Final-lesson-%E3%83%A2%E3%83%8E%E3%83%AA%E3%83%B3%E6%93%8D%E4%BD%9C%E7%94%BB%E9%9D%A2%E5%8F%82%E8%80%83.md) — Monolyn's system design is strong because its Tower, Light, Codex, implants, buildings, and terminals form a coherent identity.。
-- [13. Source links recorded by user](/research/monolyn-ui/13-Source-links-recorded-by-user-%E3%83%A2%E3%83%8E%E3%83%AA%E3%83%B3%E6%93%8D%E4%BD%9C%E7%94%BB%E9%9D%A2%E5%8F%82%E8%80%83.md) — Source links recorded by userは、NamuWiki Monolyn page:…。
+- [12. Final lesson](/research/monolyn-ui/12-Final-lesson.md) — Monolyn's system design is strong because its Tower, Light, Codex, implants, buildings, and terminals form a coherent identity.。
+- [13. Source links recorded by user](/research/monolyn-ui/13-Source-links-recorded-by-user.md) — Source links recorded by userは、NamuWiki Monolyn page:…。
 - [Open Knowledge Format 0.2 日本語規範解説](/research/okf/00-Open-Knowledge-Format-v0.2-%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A7%A3%E8%AA%AC.md) — 公式Open Knowledge Format 0.2の必須構造、出典、検証、鮮度、実行証明とRIM拡張の関係を日本語で確認できる参照資料。
-- [0. Purpose](/research/reference-mods/00-Purpose-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — This document records how three existing RimWorld Workshop mods should be used as structural references for Shion Nexus.。
-- [1. Source links](/research/reference-mods/01-Source-links-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — Source linksは、Monolyn Race - Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3742031864とFleshbeast Colony -…。
-- [2. High-level comparison](/research/reference-mods/02-High-level-comparison-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — High-level comparisonは、Mod：Public core idea：Shion Nexus reference value：Do not copyとMonolyn Race：Tower gathers Light through prayer and…。
-- [3. Monolyn Race structural lessons](/research/reference-mods/03-Monolyn-Race-structural-lessons-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — Monolyn Race is useful because it presents a complete central-resource colony model.。
-- [4. Fleshbeast Colony structural lessons](/research/reference-mods/04-Fleshbeast-Colony-structural-lessons-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — Fleshbeast Colony expands Anomaly's fleshbeast theme into a colony-scale organic infrastructure. Its public description emphasizes…。
-- [5. Arachnae Swarm 2 structural lessons](/research/reference-mods/05-Arachnae-Swarm-2-structural-lessons-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — Arachnae Swarm 2 publicly describes a Gestalt consciousness colony centered on a Queen. The Queen commands Overlords, and Overlords…。
-- [6. Combined structural extraction](/research/reference-mods/06-Combined-structural-extraction-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — The three reference mods suggest the following useful structures、具体的にはCentral resource reservoir：Monolyn Light / Tower, Fleshbeast…。
-- [7. Shion Nexus non-copy rules](/research/reference-mods/07-Shion-Nexus-non-copy-rules-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — Shion Nexus must not become、具体的にはMonolyn with foxes;とFleshbeast with machines;を扱う。
-- [8. First playable reference priorities](/research/reference-mods/08-First-playable-reference-priorities-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — First playable reference prioritiesは、Monolyn-style central resource and Tower automation.とMonolyn-style colony support through central…。
-- [9. Final rule](/research/reference-mods/09-Final-rule-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — The reference mods prove that strong race/colony mods work best when they are not just pawns with stats. They need a colony-scale…。
+- [0. Purpose](/research/reference-mods/00-Purpose.md) — This document records how three existing RimWorld Workshop mods should be used as structural references for Shion Nexus.。
+- [1. Source links](/research/reference-mods/01-Source-links.md) — Source linksは、Monolyn Race - Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3742031864とFleshbeast Colony -…。
+- [2. High-level comparison](/research/reference-mods/02-High-level-comparison.md) — High-level comparisonは、Mod：Public core idea：Shion Nexus reference value：Do not copyとMonolyn Race：Tower gathers Light through prayer and…。
+- [3. Monolyn Race structural lessons](/research/reference-mods/03-Monolyn-Race-structural-lessons.md) — Monolyn Race is useful because it presents a complete central-resource colony model.。
+- [4. Fleshbeast Colony structural lessons](/research/reference-mods/04-Fleshbeast-Colony-structural-lessons.md) — Fleshbeast Colony expands Anomaly's fleshbeast theme into a colony-scale organic infrastructure. Its public description emphasizes…。
+- [5. Arachnae Swarm 2 structural lessons](/research/reference-mods/05-Arachnae-Swarm-2-structural-lessons.md) — Arachnae Swarm 2 publicly describes a Gestalt consciousness colony centered on a Queen. The Queen commands Overlords, and Overlords…。
+- [6. Combined structural extraction](/research/reference-mods/06-Combined-structural-extraction.md) — The three reference mods suggest the following useful structures、具体的にはCentral resource reservoir：Monolyn Light / Tower, Fleshbeast…。
+- [7. Shion Nexus non-copy rules](/research/reference-mods/07-Shion-Nexus-non-copy-rules.md) — Shion Nexus must not become、具体的にはMonolyn with foxes;とFleshbeast with machines;を扱う。
+- [8. First playable reference priorities](/research/reference-mods/08-First-playable-reference-priorities.md) — First playable reference prioritiesは、Monolyn-style central resource and Tower automation.とMonolyn-style colony support through central…。
+- [9. Final rule](/research/reference-mods/09-Final-rule.md) — The reference mods prove that strong race/colony mods work best when they are not just pawns with stats. They need a colony-scale…。
 - [10. Vivi Raceの非HAR種族実装パターン](/research/reference-mods/10-Vivi-Race%E9%9D%9EHAR%E7%A8%AE%E6%97%8F%E5%AE%9F%E8%A3%85%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3.md) — Vivi RaceがHARを必須所有者にせず、バニラ人型処理、Biotech、独自身体、Pawn render tree、任意HAR互換を組み合わせる構成をShion向けに分類する。
 - [0. 結論](/research/theme-overhaul/00-%E7%B5%90%E8%AB%96.md) — 世界観の根本を捨てる必要はない、また核となる発想は強い。
 - [1. 正式な中心命題](/research/theme-overhaul/01-%E6%AD%A3%E5%BC%8F%E3%81%AA%E4%B8%AD%E5%BF%83%E5%91%BD%E9%A1%8C.md) — 今後は、以下を全コンテンツに優先するという方針の適用範囲と条件を定める。

@@ -1,6 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
 
+throw new Error(
+  "実行禁止: 参考バックストーリーは凍結されています。参考資料の本文を一括変更しないでください。",
+);
+
 const root = process.cwd();
 const groups = ["formation", "mastery"];
 const planned = [];

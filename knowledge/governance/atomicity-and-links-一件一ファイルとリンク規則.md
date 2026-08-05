@@ -40,5 +40,5 @@ generated:
 - 上位索引: [governance](/governance/index.md)
 - 同じ出典の前項: [重複と異なる粒度の管理規則](/governance/duplication-policy-重複と異なる粒度の管理規則.md)
 - 同じ出典の次項: [OKF知識の更新手順](/governance/editing-workflow-知識の更新手順.md)
-- バックストーリー群: [バックストーリー群](/backstories/index.md)
+- バックストーリー群: [バックストーリー群](/reference/backstories/index.md)
 - 正史: [正史](/world/index.md)

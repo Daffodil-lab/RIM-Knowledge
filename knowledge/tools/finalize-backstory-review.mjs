@@ -1,6 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
 
+throw new Error(
+  "実行禁止: 参考バックストーリーは凍結されています。採用内容は現行所有者へ新規作成してください。",
+);
+
 const reviewState = process.argv[2];
 const expectedCount = Number(process.argv[3]);
 if (!["candidate", "re-audit"].includes(reviewState) || !Number.isInteger(expectedCount)) {

@@ -1,28 +1,28 @@
 # Kombinat共同体 03
 
-範囲: 1. 権威と責務〜41. エネルギー結晶（仮称）
+範囲: SHION_A101 ヘイハルKombinatの精密工〜41. エネルギー結晶（仮称）
 
 ## 項目
 
-- [1. 権威と責務](/pawn/01-%E6%A8%A9%E5%A8%81%E3%81%A8%E8%B2%AC%E5%8B%99.md) — Pawnの生成、人格・身体構成、登録、保管、死亡後削除、再実体化、Cloneについて矛盾がある場合、次の順を用いる。
-- [B. 必要装備込みの配備](/pawn/069-B-%E5%BF%85%E8%A6%81%E8%A3%85%E5%82%99%E8%BE%BC%E3%81%BF%E3%81%AE%E9%85%8D%E5%82%99.md) — B. 必要装備込みの配備は、射手四体、互換する防具、遠距離武器、医療品を注文する。
-- [13. 完成図Hardening要件](/pawn/13-%E5%AE%8C%E6%88%90%E5%9B%B3Hardening%E8%A6%81%E4%BB%B6.md) — 本節は旧完成図監査から回収したPawn Foundry固有のHardening要件を、本書自身の拘束要件として維持する。
-- [14. β Definition of Done](/pawn/14-%CE%B2-Definition-of-Done-%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — 次を全て満たした時だけ、β版のPawn生産系を完成とする。
-- [2.3 無料保管](/pawn/2-3-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — 生存PawnはPawn Foundryまたは対応設備からDormant状態へ移し、必要になるまで保管できる。
-- [GEN-005 必要装備](/pawn/gen-005-%E5%BF%85%E8%A6%81%E8%A3%85%E5%82%99.md) — MUST: 生産要求は、具体Thing指定と作者定義のEquipment Familyを併用できる。
-- [INT-001 Production Adapter](/pawn/int-001-%E8%A6%81%E4%BB%B6.md) — MUST: Pawn FoundryはBody、Module、装備、消耗品をKombinat Production Requestとして発注できる。
-- [INT-002 三主題の維持](/pawn/int-002-%E4%B8%89%E4%B8%BB%E9%A1%8C%E3%81%AE%E7%B6%AD%E6%8C%81.md) — MUST: Kombinat側ではPawn要求を生産対象、Pawn需要を消費予測、Foundryへの引渡しを流通として表示する。
-- [プレイヤーが最初から知ること](/player-facing/001-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%9C%80%E5%88%9D%E3%81%8B%E3%82%89%E7%9F%A5%E3%82%8B%E3%81%93%E3%81%A8.md) — シオンは、製造された身体を持つ機械の民であり、また一人ずつ別の人格を持ち、人工知能でも集合意識でもありません。
-- [最小用語集](/player-facing/012-%E6%9C%80%E5%B0%8F%E7%94%A8%E8%AA%9E%E9%9B%86.md) — これ以上の語は、登場するクエストや機能の中でその都度説明します。
-- [Boundary](/research/known-code/000-Boundary-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E5%8F%82%E8%80%83.md) — Code-level reuse is limited to repositories owned by Daffodil. Monolyn Race, Fleshbeast Colony, Arachnae Swarm 2, Dolls Nest, RimWorld,…。
-- [Sources inspected](/research/known-code/001-Sources-inspected-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E5%8F%82%E8%80%83.md) — - Daffodil-lab/Meiko-Race-The-Manufactured-Utopia-A-Clockwork-Fox-Doll at indexed commit aed3ab77724fdab6cf9166abab80bf2dd22a9e96. -…。
-- [Adopted and ported](/research/known-code/002-Adopted-and-ported-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E5%8F%82%E8%80%83.md) — Adopted and portedは、Source：Reused idea：Kombinat resultとMeikoNexus.csproj：net472, Krafs.Rimworld.Ref, direct Assemblies…。
-- [Adapt, do not copy directly](/research/known-code/003-Adapt-do-not-copy-directly-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E5%8F%82%E8%80%83.md) — Adapt, do not copy directlyは、Legacy code：ReasonとCompNexusCore CVE and digital-material fields：Aggregate reservedCVE floats have no…。
-- [Rejected from the runtime](/research/known-code/004-Rejected-from-the-runtime-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E5%8F%82%E8%80%83.md) — - A monolithic Core building Comp as the owner of resource truth. - Separate aggregate reservation totals without reservation records.…。
-- [First vertical-slice guarantees](/research/known-code/005-First-vertical-slice-guarantees-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E5%8F%82%E8%80%83.md) — 1. Five canonical inventory resources are Defs; population, labor, bandwidth, capacity, research, fame, and defense readiness are not…。
-- [Next extraction](/research/known-code/006-Next-extraction-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E5%8F%82%E8%80%83.md) — The next safe port is the construction-site lifecycle. Replace its reservedCVE/reservedMaterials fields with one Kombinat reservation…。
-- [Build](/research/kombinat-prototype/000-Build-%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8A%E3%83%BC%E3%83%88%E8%A9%A6%E4%BD%9C%E5%8F%82%E8%80%83.md) — The compiled prototype assembly is written to Assemblies/Kombinat.dll. Do not copy it into the Core package.。
-- [Current status](/research/kombinat-prototype/001-Current-status-%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8A%E3%83%BC%E3%83%88%E8%A9%A6%E4%BD%9C%E5%8F%82%E8%80%83.md) — No v3 product component is implemented. The next task is to pin the Matter Network baseline, record the MIT notices and adopted files,…。
+- [SHION_A101 ヘイハルKombinatの精密工](/reference/backstories/mastery/SHION_A101.md) — ヘイハルKombinatで精密部品を仕上げていました。 （Kombinat共同体 / 無党派）
+- [SHION_A206 ヘイハルKombinatの保存食職人](/reference/backstories/mastery/SHION_A206.md) — ヘイハルKombinatでは、部品より食事の方が長い旅をすることがある。 （Kombinat共同体 / 無党派）
+- [SHION_A207 ヘイハルKombinatの記念庭園師](/reference/backstories/mastery/SHION_A207.md) — Kombinatの記念庭園に、壊れない記念碑は置かなかった。 （Kombinat共同体 / 無党派）
+- [SHION_A231 ヘイハルKombinatの共同農園技師](/reference/backstories/mastery/SHION_A231.md) — Kombinatの共同農園は、生産効率だけなら機械へ閉じた方がよかった。 （Kombinat共同体 / 無党派）
+- [SHION_A234 ヘイハルKombinatの公共壁画家](/reference/backstories/mastery/SHION_A234.md) — Kombinatの壁画へ完成品だけ描けと言われたが、本人は停止した夜を選んだ。 （Kombinat共同体 / 無党派）
+- [SHION_A242 ヘイハルKombinatの祝宴料理人](/reference/backstories/mastery/SHION_A242.md) — Kombinatの祝宴を任される前、本人は長距離偵察へ出ていた。 （Kombinat共同体 / 無党派）
+- [SHION_A245 ヘイハルKombinatの復旧精密工](/reference/backstories/mastery/SHION_A245.md) — ヘイハルKombinatが止まった夜、専用部品を待てという声を無視し、皆の工具で直せる継ぎ手を削った。 （Kombinat共同体 / 無党派）
+- [SHION_A296 ヘイハルKombinatの討論調停人](/reference/backstories/mastery/SHION_A296.md) — ヘイハルKombinatの会議では、生産班と保守班が同じ言葉を別の意味で使っていた。 （Kombinat共同体 / 無党派）
+- [SHION_A297 ヘイハルKombinatの古文書研究者](/reference/backstories/mastery/SHION_A297.md) — Kombinat史を美しい壁画へまとめろと言われたが、本人は断った。 （Kombinat共同体 / 無党派）
+- [SHION_A301 ヘイハルKombinatの坑道監督](/reference/backstories/mastery/SHION_A301.md) — ヘイハルKombinatの坑道では、銃を持つより地層の音を聞く方が安心できた。 （Kombinat共同体 / 無党派）
+- [Boundary](/research/known-code/000-Boundary.md) — Code-level reuse is limited to repositories owned by Daffodil. Monolyn Race, Fleshbeast Colony, Arachnae Swarm 2, Dolls Nest, RimWorld,…。
+- [Sources inspected](/research/known-code/001-Sources-inspected.md) — - Daffodil-lab/Meiko-Race-The-Manufactured-Utopia-A-Clockwork-Fox-Doll at indexed commit aed3ab77724fdab6cf9166abab80bf2dd22a9e96. -…。
+- [Adopted and ported](/research/known-code/002-Adopted-and-ported.md) — Adopted and portedは、Source：Reused idea：Kombinat resultとMeikoNexus.csproj：net472, Krafs.Rimworld.Ref, direct Assemblies…。
+- [Adapt, do not copy directly](/research/known-code/003-Adapt-do-not-copy-directly.md) — Adapt, do not copy directlyは、Legacy code：ReasonとCompNexusCore CVE and digital-material fields：Aggregate reservedCVE floats have no…。
+- [Rejected from the runtime](/research/known-code/004-Rejected-from-the-runtime.md) — - A monolithic Core building Comp as the owner of resource truth. - Separate aggregate reservation totals without reservation records.…。
+- [First vertical-slice guarantees](/research/known-code/005-First-vertical-slice-guarantees.md) — 1. Five canonical inventory resources are Defs; population, labor, bandwidth, capacity, research, fame, and defense readiness are not…。
+- [Next extraction](/research/known-code/006-Next-extraction.md) — The next safe port is the construction-site lifecycle. Replace its reservedCVE/reservedMaterials fields with one Kombinat reservation…。
+- [Build](/research/kombinat-prototype/000-Build.md) — The compiled prototype assembly is written to Assemblies/Kombinat.dll. Do not copy it into the Core package.。
+- [Current status](/research/kombinat-prototype/001-Current-status.md) — No v3 product component is implemented. The next task is to pin the Matter Network baseline, record the MIT notices and adopted files,…。
 - [0. 出典と利用範囲](/research/kombinat-ui-references/00-%E5%87%BA%E5%85%B8%E3%81%A8%E5%88%A9%E7%94%A8%E7%AF%84%E5%9B%B2.md) — ユーザー提供映像をKombinatのUI・操作研究に限定して利用し、画像・コード・固有表現のコピー元にはしない。
 - [1. MonolynのネットワークUIから採るもの](/research/kombinat-ui-references/01-Monolyn%E3%81%AE%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AFUI%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — Monolynの集中資源、生産一覧、選択時ネットワーク表示から、Kombinatへ採用する情報設計を抽出する。
 - [4. 要求中間素材作成の操作イメージ](/research/kombinat-ui-references/04-%E8%A6%81%E6%B1%82%E4%B8%AD%E9%96%93%E7%B4%A0%E6%9D%90%E4%BD%9C%E6%88%90%E3%81%AE%E6%93%8D%E4%BD%9C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8.md) — 在庫とRecipeを並べ、最終品の要求から不足中間品と総材料を確認する簡潔な操作モデルをKombinatへ適用する。

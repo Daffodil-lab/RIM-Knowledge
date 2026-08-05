@@ -85,6 +85,6 @@ Vivi型の構成をShionへ導入する場合は、次を変更前後で比較�
 ## 関連項目
 
 - 上位索引: [reference-mods](/research/reference-mods/index.md)
-- 前項: [Final rule](/research/reference-mods/09-Final-rule-参考MOD調査.md)
+- 前項: [Final rule](/research/reference-mods/09-Final-rule.md)
 - 正規種族境界: [バニラ優先Shion種族実装境界](/design/52-バニラ優先Shion種族実装境界.md)
 - 診断契約: [RimWorldログ・性能診断契約](/design/53-RimWorldログ・性能診断契約.md)

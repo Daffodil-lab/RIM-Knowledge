@@ -18,10 +18,10 @@ generated:
   precision: "date"
 sources:
   - id: "historical-decision-342"
-    resource: "../decisions/decision-0342-確定-旧帝国は末期まで-歪曲空間支配技術を実用化できなかった.md"
+    resource: "../decisions/decision-0342.md"
     title: "旧帝国はFTL歪曲空間支配技術を実用化できなかった"
   - id: "historical-decision-348"
-    resource: "../decisions/decision-0348-確定-の例外性-対価-統一後の用途-および旧帝国-同盟の機械文明.md"
+    resource: "../decisions/decision-0348.md"
     title: "FTLの例外性と対価"
 ---
 

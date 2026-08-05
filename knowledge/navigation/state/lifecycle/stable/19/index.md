@@ -1,86 +1,86 @@
 # stable 19
 
-範囲: D. 出力満杯〜ADV-004 Pawn要素別安全性
+範囲: SHION_A264 移動都市群の仮設建築士〜SHION_A343 旧山岳部族圏の狩猟指導員
 
 ## 項目
 
-- [D. 出力満杯](/kombinat/requirements/047-D-%E5%87%BA%E5%8A%9B%E6%BA%80%E6%9D%AF.md) — 納入先Storageの出力容量を予約できない時は次Batchを開始せず、既存在庫を変更しない。
-- [E. 取消](/kombinat/requirements/048-E-%E5%8F%96%E6%B6%88.md) — 開始前、入力受領後、処理中、出力待ちの各段階で取消規則を確認する。
-- [F. 保存往復](/kombinat/requirements/049-F-%E4%BF%9D%E5%AD%98%E5%BE%80%E5%BE%A9.md) — 全Job状態と通貨Transaction途中で保存・ロードし、二重実行しない。
-- [G. 保管基盤不在](/kombinat/requirements/050-G-%E4%B8%8A%E6%B5%81%E4%B8%8D%E5%9C%A8.md) — Core独自保管基盤が欠落または不整合なら生産接続を停止し、保存状態を破壊的に初期化しない。
-- [H. 保管基盤欠陥分離](/kombinat/requirements/051-H-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E5%88%86%E9%9B%A2.md) — Core独自保管基盤単体の問題とKombinat接続の問題を再現条件で分離する。
-- [I. 保管中の時間進行](/kombinat/requirements/052-I-Stasis-%E4%BF%9D%E7%AE%A1%E4%B8%AD%E3%81%AE%E6%99%82%E9%96%93%E9%80%B2%E8%A1%8C.md) — Core独自Storageが定めた対象別時間進行方針を、Kombinatが上書きしない。
-- [J. 通貨](/kombinat/requirements/053-J-%E9%80%9A%E8%B2%A8.md) — 初期残高、支払、返金、連打、保存往復で残高差分が一致する。
-- [12. α Release Gate](/kombinat/requirements/12-%CE%B1-Release-Gate-%E5%85%AC%E9%96%8B%E5%88%A4%E5%AE%9A.md) — α版はCore独自保管基盤との直接受渡し、三段生産、任意排出、保存・復旧をRelease Gateへ含める。
-- [13. β境界](/kombinat/requirements/13-%CE%B2%E5%A2%83%E7%95%8C.md) — β境界は、Pawn Foundry要求とEquipment Familyを扱う。
-- [CON-001 観測範囲](/kombinat/requirements/con-001-%E8%A6%B3%E6%B8%AC%E7%AF%84%E5%9B%B2.md) — MUST: Kombinat自身のBuffer、Factory、Core API、正式な上流APIから得たeventだけを消費集計へ使う。
-- [CON-002 不明表示](/kombinat/requirements/con-002-%E4%B8%8D%E6%98%8E%E8%A1%A8%E7%A4%BA.md) — MUST: Core Storageの公開eventで観測できない消費範囲を不明として明示する。
-- [CON-003 流通目標](/kombinat/requirements/con-003-%E6%B5%81%E9%80%9A%E7%9B%AE%E6%A8%99.md) — MUST: Storage在庫とFacility需要について最低量、目標量、優先度を設定できる。
-- [CON-004 上流設定](/kombinat/requirements/con-004-%E4%B8%8A%E6%B5%81%E8%A8%AD%E5%AE%9A.md) — MUST: Core StorageのFilter、容量、Endpoint設定はCoreの公開契約で所有する。
-- [CUR-001 Account](/kombinat/requirements/cur-001-%E8%A6%81%E4%BB%B6.md) — MUST: 同盟通貨を物理Thing在庫と分離した64 bit整数残高として保存する。
-- [CUR-002 Transaction](/kombinat/requirements/cur-002-%E8%A6%81%E4%BB%B6.md) — MUST: 入金、支払、返金、取消はidempotency keyを持ち、全部成功または全部失敗する。
-- [CUR-003 Recipe禁止](/kombinat/requirements/cur-003-%E7%A6%81%E6%AD%A2.md) — MUST: 通貨を通常工業Recipeで発行しない。
-- [CUR-004 初期化](/kombinat/requirements/cur-004-%E5%88%9D%E6%9C%9F%E5%8C%96.md) — MUST: 独立開拓団開始時に一回だけProfile残高を適用し、途中失敗で部分残高を残さない。
-- [CUR-005 所在](/kombinat/requirements/cur-005-%E6%89%80%E5%9C%A8.md) — PENDING: αのAccount scope、複数Mapからの利用、Map wealthへの算入方法は実装前に確定する。
-- [INT-001 無改造](/kombinat/requirements/int-001-%E7%84%A1%E6%94%B9%E9%80%A0.md) — MUST: KombinatはCore独自保管基盤のprivate状態を変更または参照せず、公開Application境界だけを使う。
-- [INT-002 通常経路](/kombinat/requirements/int-002-%E9%80%9A%E5%B8%B8%E7%B5%8C%E8%B7%AF.md) — MUST: 物理Thingの受渡しにはCore独自基盤が公開する予約・commit・release契約だけを使う。
-- [INT-003 Storage予約](/kombinat/requirements/int-003-%E4%BA%88%E7%B4%84.md) — MUST: Kombinatが工程へ算入できるのは、Core StorageがThing IDと数量で予約した入力だけである。
-- [INT-004 引渡し](/kombinat/requirements/int-004-%E5%BC%95%E6%B8%A1%E3%81%97.md) — MUST: 生産出力はCore Storageへ直接生成し、Kombinat側の所有Thingを作らない。
-- [INT-005 接続不能](/kombinat/requirements/int-005-%E6%8E%A5%E7%B6%9A%E4%B8%8D%E8%83%BD.md) — MUST: Core独自Storageから供給または回収できない場合、Jobを転送待ちへ置く。
-- [INT-006 上流欠陥](/kombinat/requirements/int-006-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5.md) — MUST: Core独自保管基盤単体で再現する問題と、Kombinat接続だけで再現する問題を分離する。
-- [PERF-001 Event駆動](/kombinat/requirements/perf-001-%E9%A7%86%E5%8B%95.md) — MUST: Queue、Factory、Buffer、Accountの変化をeventで処理し、定常処理を索引と有界Queueから実行する。
-- [PERF-002 Planner](/kombinat/requirements/perf-002-%E8%A6%81%E4%BB%B6.md) — MUST: 一Planを最大200 node、100 ms以内、または一frame 4 ms以下の分割処理で終える暫定目標を持つ。
-- [PERF-003 長期](/kombinat/requirements/perf-003-%E9%95%B7%E6%9C%9F.md) — MUST: 60,000 tickの連続生産で、StorageのThing差分0、予約漏れ0、二重完了0、未回収終端処理0を確認する。
-- [PERF-004 保存](/kombinat/requirements/perf-004-%E4%BF%9D%E5%AD%98.md) — MUST: 500 Job、2,000 Batch履歴、10,000 Buffer Thingの保存・ロード時間、ファイル増分、GC allocationを記録する。
-- [PRD-001 定義](/kombinat/requirements/prd-001-%E5%AE%9A%E7%BE%A9.md) — MUST: Production Patternは次を持つ。
-- [PRD-002 入力Role](/kombinat/requirements/prd-002-%E5%85%A5%E5%8A%9B.md) — MUST: Consume、LockAndReturn、TransformAndReturn、ContainerReturnを区別する。
-- [PRD-003 Recipe分類](/kombinat/requirements/prd-003-%E5%88%86%E9%A1%9E.md) — MUST: RecipeをKombinat Automated、Vanilla Work Required、Official Adapter Required、Unsupportedへ分類する。
-- [PRD-004 Request](/kombinat/requirements/prd-004-%E8%A6%81%E4%BB%B6.md) — MUST: 具体ThingDef、Recipe、数量または目標在庫、優先度、出力先を指定できる。
-- [PRD-005 Plan](/kombinat/requirements/prd-005-%E8%A6%81%E4%BB%B6.md) — MUST: Recipe依存を有界DAGへ展開し、循環を検出する。
-- [PRD-006 複数経路](/kombinat/requirements/prd-006-%E8%A4%87%E6%95%B0%E7%B5%8C%E8%B7%AF.md) — MUST: 同じ出力を作れる複数Patternがある場合、作者優先度、完成可能性、設備、概算時間、stable IDの決定順を使う。
-- [PRD-007 Job](/kombinat/requirements/prd-007-%E8%A6%81%E4%BB%B6.md) — MUST: 承認済みPlanをJobとして保存し、Pattern version、選んだRecipe、入力条件、出力条件を固定する。
-- [PRD-008 Batch](/kombinat/requirements/prd-008-%E8%A6%81%E4%BB%B6.md) — MUST: 一Batchの全入力Thingと出力容量がCore Storageで予約され、設備が利用可能な時だけ開始する。
-- [PRD-009 Output Claim](/kombinat/requirements/prd-009-%E8%A6%81%E4%BB%B6.md) — MUST: 同じThingDefがどこかへ出現しただけでBatchを完了しない。
-- [PRD-010 中間品](/kombinat/requirements/prd-010-%E4%B8%AD%E9%96%93%E5%93%81.md) — MUST: 中間品をCore Storageへ直接Commitし、後段工程がThing単位で予約する。
-- [PRD-011 副産物](/kombinat/requirements/prd-011-%E5%89%AF%E7%94%A3%E7%89%A9.md) — MUST: 副産物の出力容量を開始前に確認し、満杯なら開始しない。
-- [PRD-012 取消](/kombinat/requirements/prd-012-%E5%8F%96%E6%B6%88.md) — MUST: 取消時は未Commitの入力予約、出力容量予約、通貨予約、設備割当を解放する。
-- [PRD-013 再計画](/kombinat/requirements/prd-013-%E5%86%8D%E8%A8%88%E7%94%BB.md) — MUST: 未開始Batchだけを再計画する、またcommit済みBatchを巻き戻さない。
-- [SAV-001 状態](/kombinat/requirements/sav-001-%E7%8A%B6%E6%85%8B.md) — MUST: Request、Pattern version、Plan summary、Job、Batch、Buffer、Output Claim、Account、Transaction、Consumption aggregateを保存する。
-- [SAV-002 非複製](/kombinat/requirements/sav-002-%E9%9D%9E%E8%A4%87%E8%A3%BD.md) — MUST: KombinatセーブはKombinat固有状態とCore取引参照だけを保持する。
-- [SAV-003 途中保存](/kombinat/requirements/sav-003-%E9%80%94%E4%B8%AD%E4%BF%9D%E5%AD%98.md) — MUST: 材料待ち、入力予約後、処理中、出力容量待ち、Commit前後、通貨保留中に保存・ロードできる。
-- [SAV-004 同一ビルド](/kombinat/requirements/sav-004-%E5%90%8C%E4%B8%80%E3%83%93%E3%83%AB%E3%83%89.md) — MUST: α／βでは同一ビルドの保存往復を保証する。
-- [STA-001 意図した仕様](/kombinat/requirements/sta-001-%E6%84%8F%E5%9B%B3%E3%81%97%E3%81%9F%E4%BB%95%E6%A7%98.md) — MUST: Core独自Storage内の腐敗、温度、Thing Tick、Comp Tick、充放電、孵化等の時間進行方針を明示する。
-- [STA-002 追加制限禁止](/kombinat/requirements/sta-002-%E8%BF%BD%E5%8A%A0%E5%88%B6%E9%99%90%E7%A6%81%E6%AD%A2.md) — MUST: Stasisによる時間停止だけを理由に、Kombinatから追加費用、危険分類、入庫拒否を行わない。
-- [STA-003 工場内在庫禁止](/kombinat/requirements/sta-003-%E5%B7%A5%E5%A0%B4%E5%86%85%E5%9C%A8%E5%BA%AB%E7%A6%81%E6%AD%A2.md) — MUST: Kombinat Factoryは生産用ThingOwnerを持たず、材料、中間品、完成品をCore Storageへ一元化する。
-- [UX-001 発注](/kombinat/requirements/ux-001-%E7%99%BA%E6%B3%A8.md) — MUST: 品目、数量または目標在庫、優先度だけで基本発注を作れる。
-- [UX-002 見積り](/kombinat/requirements/ux-002-%E8%A6%8B%E7%A9%8D%E3%82%8A.md) — MUST: 確定前に、必要材料、Storage利用可能量、予約済み、中間品、設備、出力容量、概算時間を表示する。
-- [UX-003 状態語](/kombinat/requirements/ux-003-%E7%8A%B6%E6%85%8B%E8%AA%9E.md) — MUST: 少なくとも次を区別するという方針の適用範囲と条件を定める。
-- [UX-004 上流UIの尊重](/kombinat/requirements/ux-004-%E4%B8%8A%E6%B5%81-%E3%81%AE%E5%B0%8A%E9%87%8D.md) — MUST: Storage、Filter、Endpoint、Network設定はCore独自基盤のUI責務とし、Kombinat内部へ複製しない。
-- [0. 結論](/pawn/00-%E7%B5%90%E8%AB%96.md) — β版では、シオンPawnを必要に応じて設計、生産、配備、無料保管、修復、回収、再生産できなければならない。
-- [1. 権威と責務](/pawn/01-%E6%A8%A9%E5%A8%81%E3%81%A8%E8%B2%AC%E5%8B%99.md) — Pawnの生成、人格・身体構成、登録、保管、死亡後削除、再実体化、Cloneについて矛盾がある場合、次の順を用いる。
-- [3. 個体分類](/pawn/03-%E5%80%8B%E4%BD%93%E5%88%86%E9%A1%9E.md) — 個体分類は、Ephemeral Pawn：なし：遺体情報が残る間だけ低コスト再起動可能：不可：再資源化完了時に個体情報を削除とRegistered Individual：Individual Archive：一体だけ可能：可能：Archiveを残し、Pawn…。
-- [4. データ境界](/pawn/04-%E3%83%87%E3%83%BC%E3%82%BF%E5%A2%83%E7%95%8C.md) — データ境界は、境界：主な内容：保存とPawn Generation Request：適合条件、数量、登録方針、Loadout：完了までを扱う。
-- [A. ランダム適合個体](/pawn/068-A-%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E9%81%A9%E5%90%88%E5%80%8B%E4%BD%93.md) — A. ランダム適合個体は、建築能力と運搬能力を条件に一体注文する。
-- [B. 必要装備込みの配備](/pawn/069-B-%E5%BF%85%E8%A6%81%E8%A3%85%E5%82%99%E8%BE%BC%E3%81%BF%E3%81%AE%E9%85%8D%E5%82%99.md) — B. 必要装備込みの配備は、射手四体、互換する防具、遠距離武器、医療品を注文する。
-- [C. 一からの個体設計](/pawn/070-C-%E4%B8%80%E3%81%8B%E3%82%89%E3%81%AE%E5%80%8B%E4%BD%93%E8%A8%AD%E8%A8%88.md) — C. 一からの個体設計は、Body、Module、外装、技能、特性、能力、装備を選ぶ。
-- [D. 単一個体の登録と再実体化](/pawn/071-D-%E5%8D%98%E4%B8%80%E5%80%8B%E4%BD%93%E3%81%AE%E7%99%BB%E9%8C%B2%E3%81%A8%E5%86%8D%E5%AE%9F%E4%BD%93%E5%8C%96.md) — D. 単一個体の登録と再実体化は、活動中Pawnを登録する。
-- [E. Clone Colony](/pawn/072-E-Clone-Colony-%E8%A4%87%E8%A3%BD%E5%80%8B%E4%BD%93%E3%82%B3%E3%83%AD%E3%83%8B%E3%83%BC.md) — E. Clone Colonyは、一体のRegistered IndividualをClone Sourceにする。
-- [F. 無料保管](/pawn/073-F-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — F. 無料保管は、生存Pawnへ装備とinventory内Thingを持たせてDormant化する。
-- [G. 負傷と遺体回収](/pawn/074-G-%E8%B2%A0%E5%82%B7%E3%81%A8%E9%81%BA%E4%BD%93%E5%9B%9E%E5%8F%8E.md) — G. 負傷と遺体回収は、重傷Pawnを低コスト修復する。
-- [H. Ephemeral完全削除](/pawn/075-H-Ephemeral%E5%AE%8C%E5%85%A8%E5%89%8A%E9%99%A4.md) — H. Ephemeral完全削除は、大量のEphemeral Pawnを死亡、回収、再資源化する。
-- [I. Cloneと固有物](/pawn/076-I-Clone%E3%81%A8%E5%9B%BA%E6%9C%89%E7%89%A9.md) — I. Cloneと固有物は、名前付き武器、Quest参照、称号を持つRegistered IndividualをCloneする。
-- [J. 途中保存と再送](/pawn/077-J-%E9%80%94%E4%B8%AD%E4%BF%9D%E5%AD%98%E3%81%A8%E5%86%8D%E9%80%81.md) — J. 途中保存と再送は、生産、Dormant化、回収、再資源化、再実体化、Cloneの各段階で保存する。
-- [13. 完成図Hardening要件](/pawn/13-%E5%AE%8C%E6%88%90%E5%9B%B3Hardening%E8%A6%81%E4%BB%B6.md) — 本節は旧完成図監査から回収したPawn Foundry固有のHardening要件を、本書自身の拘束要件として維持する。
-- [14. β Definition of Done](/pawn/14-%CE%B2-Definition-of-Done-%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — 次を全て満たした時だけ、β版のPawn生産系を完成とする。
-- [2.1 補充可能性](/pawn/2-1-%E8%A3%9C%E5%85%85%E5%8F%AF%E8%83%BD%E6%80%A7.md) — 補充可能性は、通常シオンPawnに、世界で一度しか得られない必須材料や有限の生産回数を要求しない。
-- [2.2 人格とゲームユニット](/pawn/2-2-%E4%BA%BA%E6%A0%BC%E3%81%A8%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88.md) — 人格とゲームユニットは、ゲーム上のPawnは生産、保管、交換、補充できるコマである。
-- [2.3 無料保管](/pawn/2-3-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — 生存PawnはPawn Foundryまたは対応設備からDormant状態へ移し、必要になるまで保管できる。
-- [3.1 Ephemeral Pawn](/pawn/3-1-Ephemeral-Pawn-%E4%B8%80%E6%99%82%E5%80%8B%E4%BD%93.md) — 適合生成の既定出力であり、また役割上必要な情報だけを指定し、それ以外をランダム生成する。
-- [3.2 Registered Individual](/pawn/3-2-Registered-Individual-%E7%99%BB%E9%8C%B2%E5%80%8B%E4%BD%93.md) — 既存Pawnをプレイヤーが登録すると、個体を再構築するためのIndividual Archiveを作る。
-- [3.3 Saved Pawn Design](/pawn/3-3-Saved-Pawn-Design-%E4%BF%9D%E5%AD%98%E5%80%8B%E4%BD%93%E8%A8%AD%E8%A8%88.md) — 特定の一人ではなく、繰り返し使える製造設計である。
-- [3.4 Clone](/pawn/3-4-Clone-%E8%A4%87%E8%A3%BD%E5%80%8B%E4%BD%93.md) — 登録個体または保存設計をClone Sourceにできる。
-- [4.1 ID](/pawn/4-1-ID-%E8%AD%98%E5%88%A5%E5%AD%90.md) — 再実体化ではindividualIdを維持し、pawnInstanceIdを更新できる。
-- [ADV-001 緊急一体再配備](/pawn/adv-001-%E7%B7%8A%E6%80%A5%E4%B8%80%E4%BD%93%E5%86%8D%E9%85%8D%E5%82%99.md) — MUST: 同一Mapで活動可能なプレイヤーPawnが0体になった場合、Dormant Recordから一体だけを、電力、Pawn作業、通常の配備Queueなしで安全地点へ復帰できるfail-safeを持つ。
-- [ADV-002 無人Foundry](/pawn/adv-002-%E7%84%A1%E4%BA%BA.md) — MUST: 電力、材料、健全な設備がある時、少なくとも一系統のPawn Foundry工程は生存Pawnの作業なしで一体を完成できる。
-- [ADV-003 物理費と人格復元費](/pawn/adv-003-%E7%89%A9%E7%90%86%E8%B2%BB%E3%81%A8%E4%BA%BA%E6%A0%BC%E5%BE%A9%E5%85%83%E8%B2%BB.md) — MUST: Archiveが低コストで復元するのは人格・構成情報であり、失われた身体、内蔵Module、着脱装備を無償複製しない。
-- [ADV-004 Pawn要素別安全性](/pawn/adv-004-%E8%A6%81%E7%B4%A0%E5%88%A5%E5%AE%89%E5%85%A8%E6%80%A7.md) — MUST: Gene、Hediff、Ability、Comp、Royalty、Ideology、Quest、外部MODデータをDormant Safe、Archive Safe、Clone Safeの要素別に判定する。
+- [SHION_A264 移動都市群の仮設建築士](/reference/backstories/mastery/SHION_A264.md) — 移動都市の帰還者へ家を作ると、地図と本人の記憶がよく喧嘩した。
+- [SHION_A265 人格照合局の坑道監督](/reference/backstories/mastery/SHION_A265.md) — 人格照合局の地下保管庫を広げる時、本人は地層の音を聞き、戻れる順番で掘らせた。
+- [SHION_A266 帰還兵港の祝宴料理人](/reference/backstories/mastery/SHION_A266.md) — 帰還兵港の祝宴では、一つの「懐かしい味」を決めなかった。
+- [SHION_A267 特殊任務学校の共同農園技師](/reference/backstories/mastery/SHION_A267.md) — 特殊任務学校の共同農園技師では、特殊任務学校の農園は教材でもあった。
+- [SHION_A268 透明居住区の動物治療具技師](/reference/backstories/mastery/SHION_A268.md) — 透明居住区では、治療記録まで皆に見えるのが善だとされた。
+- [SHION_A269 異常封じ込め隊の義肢調整師](/reference/backstories/mastery/SHION_A269.md) — 異常封じ込め隊では、重火器を撃つより退路を作る方が多かった。
+- [SHION_A270 継承教室の公共壁画家](/reference/backstories/mastery/SHION_A270.md) — 継承教室の壁画には、一つの出来事を三つの姿で描いた。
+- [SHION_A271 塔域居住層の蘇生後療養医](/reference/backstories/mastery/SHION_A271.md) — 塔で蘇生した者を、本人はすぐ元の部屋へ戻さなかった。
+- [SHION_A272 革命連合後方区の再会連絡官](/reference/backstories/mastery/SHION_A272.md) — 革命連合の後方で再会を取り持つには、友人を探すだけでは足りなかった。
+- [SHION_A273 対機械戦区の古文書研究者](/reference/backstories/mastery/SHION_A273.md) — 対機械戦区で回収した記録は、英雄譚にも悲劇にも仕立てなかった。
+- [SHION_A274 移動都市群の監視射手](/reference/backstories/mastery/SHION_A274.md) — 移動都市を監視する時、遠くの輪郭だけで同じ町と決めてはいけない。
+- [SHION_A275 本国居住区の救助員](/reference/backstories/mastery/SHION_A275.md) — 本国の復興祭で、共有狐娘型内部の構成差、外部居住者、動物が通れる救助経路を整えた。
+- [SHION_A276 空挺基地の設備技師](/reference/backstories/mastery/SHION_A276.md) — 空挺基地の帰還祭では、配管も合図灯も飾りの一部に見える。
+- [SHION_A277 後方支援庁の坑道監督](/reference/backstories/mastery/SHION_A277.md) — 後方支援の坑道は、誰にも見られないほど成功とされた。
+- [SHION_A278 自治評議区の公共食堂の調理師](/reference/backstories/mastery/SHION_A278.md) — 自治評議区の食堂では、古い党派の議論が毎日の香辛料だった。
+- [SHION_A279 相互扶助区の種子管理官](/reference/backstories/mastery/SHION_A279.md) — 相互扶助区の種子は共有だったが、誰の故郷から来たかを消さなかった。
+- [SHION_A280 本国居住区の保護区飼育員](/reference/backstories/mastery/SHION_A280.md) — 本国居住区の保護区で、役目を終えた動物にも日課と隠れ場所を用意し、信頼されるまで待った。
+- [SHION_A281 継承教室の義肢調整師](/reference/backstories/mastery/SHION_A281.md) — 継承教室で義肢を教える時、本人は古い設計と新しい部品を同じ机へ置いた。
+- [SHION_A282 低温研究区の舞台演出家](/reference/backstories/mastery/SHION_A282.md) — 低温事故を舞台にした時、研究員は厳粛な追悼劇を望んだ。
+- [SHION_A283 要塞潜入路の救護医](/reference/backstories/mastery/SHION_A283.md) — 要塞へ正面から入れば早かったが、民間区画まで崩れる。
+- [SHION_A284 攻勢命令審査線の再会連絡官](/reference/backstories/mastery/SHION_A284.md) — 攻勢命令審査線の再会連絡官では、攻勢命令には「許容損耗」と書かれていた。
+- [SHION_A285 本国居住区の古文書研究者](/reference/backstories/mastery/SHION_A285.md) — 本国の古文書を読むと、帝国最盛期の律法と豊かさだけでなく、祝日の献立や退屈な修繕記録まで残っていた。
+- [SHION_A286 要塞潜入路の射撃教官](/reference/backstories/mastery/SHION_A286.md) — 要塞潜入の射撃訓練では、標的を倒す点より民間区画へ線を通さない点を重くした。
+- [SHION_A287 塔域居住層の身体競技指導員](/reference/backstories/mastery/SHION_A287.md) — 塔域の身体競技では、全員を同じ規格へ合わせる案を評議会で退けた。
+- [SHION_A288 海洋観測区の仮設建築士](/reference/backstories/mastery/SHION_A288.md) — 海洋観測区の仮設住宅は、帰還者が水面を見なくて済む向きに建てた。
+- [SHION_A289 孵育文化区の坑道監督](/reference/backstories/mastery/SHION_A289.md) — 孵育文化区の地下通路は、最も快適な経路へ統一する計画だった。
+- [SHION_A290 非常令監視区の保存食職人](/reference/backstories/mastery/SHION_A290.md) — 非常令監視区で保存食を作っていると、制度の変化は瓶のラベルへ先に現れた。
+- [SHION_A291 海洋観測区の記念庭園師](/reference/backstories/mastery/SHION_A291.md) — 海洋観測区の庭には、死者と帰還者の名を分けずに置いた。
+- [SHION_A292 山岳連絡区の終生飼養員](/reference/backstories/mastery/SHION_A292.md) — 山岳連絡区では、党派の違う部隊が同じ橋を奪い合った。
+- [SHION_A293 相互扶助区の義肢調整師](/reference/backstories/mastery/SHION_A293.md) — 相互扶助区の義肢調整師では、相互扶助区では義肢の部品も共同管理だった。
+- [SHION_A294 透明居住区の記録壁画家](/reference/backstories/mastery/SHION_A294.md) — 透明居住区では、壁画へ全員の記憶を公開するよう求められた。
+- [SHION_A295 孵育文化区の蘇生後療養医](/reference/backstories/mastery/SHION_A295.md) — 孵育文化区の療養計画は、蘇生者へ最も快適な部屋と仕事を自動で割り当てた。
+- [SHION_A296 ヘイハルKombinatの討論調停人](/reference/backstories/mastery/SHION_A296.md) — ヘイハルKombinatの会議では、生産班と保守班が同じ言葉を別の意味で使っていた。
+- [SHION_A297 ヘイハルKombinatの古文書研究者](/reference/backstories/mastery/SHION_A297.md) — Kombinat史を美しい壁画へまとめろと言われたが、本人は断った。
+- [SHION_A298 長期予測院の監視射手](/reference/backstories/mastery/SHION_A298.md) — 長期予測院の監視任務では、未来の危険度と目の前の動きを同じ画面で見た。
+- [SHION_A299 旧党派収容記録所の徒手警護員](/reference/backstories/mastery/SHION_A299.md) — 旧党派収容記録所で、本人は武器を持たず収容者と見物人の間へ立った。
+- [SHION_A300 対機械戦区の設備技師](/reference/backstories/mastery/SHION_A300.md) — 対機械戦区では、敵性機械の意図を論じる会議が長引いた。
+- [SHION_A301 ヘイハルKombinatの坑道監督](/reference/backstories/mastery/SHION_A301.md) — ヘイハルKombinatの坑道では、銃を持つより地層の音を聞く方が安心できた。
+- [SHION_A302 本国居住区の公共食堂の調理師](/reference/backstories/mastery/SHION_A302.md) — 本国の公共食堂は、救難隊の出発点と帰還場所でもあった。
+- [SHION_A303 異常封じ込め隊の共同農園技師](/reference/backstories/mastery/SHION_A303.md) — 異常封じ込め隊の農園は、観測用の植物と住民の食料を同じ土で育てていた。
+- [SHION_A304 透明居住区の終生飼養員](/reference/backstories/mastery/SHION_A304.md) — 透明居住区では、老いた動物の寝床まで見えるようにしようという案があった。
+- [SHION_A305 帝国最終防衛圏の古道具修復師](/reference/backstories/mastery/SHION_A305.md) — 帝国最終防衛圏では、国家の命令と住民を守る責任がもう一致していなかった。
+- [SHION_A306 月面事業区の舞台演出家](/reference/backstories/mastery/SHION_A306.md) — 月面事業の記念劇では、偉大な責任者を舞台の端へ追いやり、最初の不揃いな足跡を主役にした。
+- [SHION_A307 機動強襲群の臨床医](/reference/backstories/mastery/SHION_A307.md) — 機動強襲群では、危険な任務を抽選で割り当てれば公平だという案が出た。
+- [SHION_A308 塔域居住層の公共案内官](/reference/backstories/mastery/SHION_A308.md) — 塔へ来た人には、案内図だけ渡さず窓口まで一緒に歩いた。
+- [SHION_A309 孵育文化区の古文書研究者](/reference/backstories/mastery/SHION_A309.md) — 孵育文化区の記録には、制度が与えた幸福だけが残りやすかった。
+- [SHION_A310 造成班の測量手](/reference/backstories/mastery/SHION_A310.md) — 造成班の測量手では、測量の手順は毎回同じだった。
+- [SHION_A311 山稜路の道普請師](/reference/backstories/mastery/SHION_A311.md) — 山岳測量点を刻み、凍結による機体損傷の危険があっても岩の割れ方を触覚で読んだ。
+- [SHION_A312 船団医療班の縫合手](/reference/backstories/mastery/SHION_A312.md) — 「針が足りない、代わりは何がある」と船医に聞かれたとき、本人は魚の骨を煮沸したものを渡した。
+- [SHION_A313 気象班の嵐読み](/reference/backstories/mastery/SHION_A313.md) — 気象班の嵐読みでは、嵐の兆候は匂いでわかる、と本人は言い切っている。
+- [SHION_A314 第一次入植の土地選定者](/reference/backstories/mastery/SHION_A314.md) — 自慢していいなら言わせてもらう、最初の百区画のうち作物が根付いたのは本人が選んだ土地だけだった。
+- [SHION_A315 越冬隊の灯守り](/reference/backstories/mastery/SHION_A315.md) — 氷原探査で装備・燃料・外部隊員用食糧を管理し、全員を救えなかった四度目の判断を今も記憶している。
+- [SHION_A316 巡回医療隊の産婆](/reference/backstories/mastery/SHION_A316.md) — 巡回医療隊で、外部居住者の出産を支え、母子の安全を静かな手順で守った。
+- [SHION_A317 採鉱団の坑道読み](/reference/backstories/mastery/SHION_A317.md) — 採鉱団の坑道読みでは、つるはしの柄は必ず自分で削った。
+- [SHION_A318 造成隊の地均し師](/reference/backstories/mastery/SHION_A318.md) — 造成隊の仕事を、更地を平らにするだけの単純作業だと思っている人が多いが、それは違う。
+- [SHION_A319 越冬隊の食糧番](/reference/backstories/mastery/SHION_A319.md) — 越冬隊の食糧番では、越冬隊での配給の話ならいくらでもできる。
+- [SHION_A320 灌漑組合の水路引き](/reference/backstories/mastery/SHION_A320.md) — 灌漑組合で水路を引いた区画は今も現役だが、正直に言うと設計は甘かった。
+- [SHION_A321 境界哨戒隊の見張り番](/reference/backstories/mastery/SHION_A321.md) — 今は哨戒に出ることはない、装備の点検を任されているだけだ。
+- [SHION_A322 育種班の選種人](/reference/backstories/mastery/SHION_A322.md) — 育種班の選種人では、試した品種は三十七、いや正確には三十八だった。
+- [SHION_A323 気象観測班の雲読み](/reference/backstories/mastery/SHION_A323.md) — 気象観測班の雲読みでは、気象観測班の仕事についてよくある誤解が三つある。
+- [SHION_A324 資材輸送隊の荷駄頭](/reference/backstories/mastery/SHION_A324.md) — 資材輸送隊の荷駄頭では、荷を落とした話をされると、今でも少し身構える。
+- [SHION_A325 地質調査団の石割り](/reference/backstories/mastery/SHION_A325.md) — 地質調査というのは、星の日記を読む仕事に似ている。
+- [SHION_A326 大気改良班の空薄め師](/reference/backstories/mastery/SHION_A326.md) — 大気改良班の仕事は、装置を設置して数値を記録し、翌年また少し数値が動いたことを確認するだけの繰り返しだった。
+- [SHION_A327 通信中継班の中継守](/reference/backstories/mastery/SHION_A327.md) — 通信中継班の先任がよく言っていた、「届く声より、届かなかった沈黙の方を数えろ」と。
+- [SHION_A328 救難班の呼び出し手](/reference/backstories/mastery/SHION_A328.md) — 救難班の呼び出し手では、救難班にいた頃、合言葉は「声のする方へ」だった。
+- [SHION_A329 水利設計班の水割り師](/reference/backstories/mastery/SHION_A329.md) — 水利設計班の花形と呼ばれたことがある、皮肉なことに、それは水路の半分が最初の年に凍結で割れた後のことだった。
+- [SHION_A330 航路整備隊の星図引き](/reference/backstories/mastery/SHION_A330.md) — 星図というものが、完成すると思ったことがあるだろうか。
+- [SHION_A331 種苗管理班の発芽番](/reference/backstories/mastery/SHION_A331.md) — 種苗管理班の発芽番では、種苗管理班の仕事は地味だ。
+- [SHION_A332 入植地の屋根継ぎ](/reference/backstories/mastery/SHION_A332.md) — 入植地の屋根はどれも一度は雨漏りする、これは本人が最初に学んだことだった。
+- [SHION_A333 探査隊の縁境哨戒者](/reference/backstories/mastery/SHION_A333.md) — この星団の縁がどこにあるか、正確に答えられる者がいると思うか。
+- [SHION_A334 移住船団の百人料理番](/reference/backstories/mastery/SHION_A334.md) — 移住船団に同乗した外部居住者と、食文化へ参加するシオンの最初の百人分の食事を、限られた保存食だけで回していたのが本人だった。
+- [SHION_A335 甲板機関の整備工](/reference/backstories/mastery/SHION_A335.md) — 甲板機関の心臓部を止めず、文化的先達から継いだ工具と失敗記録を次の整備者へ渡した。
+- [SHION_A336 種子庫の女管理人](/reference/backstories/mastery/SHION_A336.md) — 指先の触覚センサーが不調になるほどの冷気が、種子庫の記憶そのものだ。
+- [SHION_A337 甲板食堂の調理人](/reference/backstories/mastery/SHION_A337.md) — 甲板食堂の調理人では、あたしは常夏の民文化の育ち。
+- [SHION_A338 居住区の家庭教師](/reference/backstories/mastery/SHION_A338.md) — 居住区で大河の民の言語と子守唄を教え、使う機会の少ない文化記憶を少数の継承者へ渡した。
+- [SHION_A339 甲板建築班の左官](/reference/backstories/mastery/SHION_A339.md) — 甲板建築班の左官では、わしが使うコテは三種類しかない。
+- [SHION_A340 航行記録班の観測員](/reference/backstories/mastery/SHION_A340.md) — 航行記録班の観測員では、観測手順は三段階だった。
+- [SHION_A341 旧内陸連合圏の密造酒職人](/reference/backstories/mastery/SHION_A341.md) — 旧内陸連合圏の密造酒職人では、船内で酒を造るのは規則違反だった。
+- [SHION_A342 医療分隊の助産師](/reference/backstories/mastery/SHION_A342.md) — 医療分隊で外部居住者の出産を支え、凍土文化の先達から継いだ知見を医療手順の余白へ残した。
+- [SHION_A343 旧山岳部族圏の狩猟指導員](/reference/backstories/mastery/SHION_A343.md) — 船の中に獲物なんているわけないだろう、って最初はみんなに笑われたよ。

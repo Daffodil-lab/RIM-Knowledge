@@ -13,6 +13,11 @@ const mode = args.has("--write")
     ? "plan"
     : "check";
 const JAPANESE = /[ぁ-んァ-ヶ一-龠々ー]/u;
+const FROZEN_REFERENCE_AUTHORITIES = new Set([
+  "reference",
+  "historical",
+  "catalog",
+]);
 const TEXT_EXTENSIONS = new Set([".md", ".mjs", ".js", ".json", ".yml", ".yaml", ".txt"]);
 const MAX_BASENAME_LENGTH = 120;
 const MAX_SUFFIX_LENGTH = 32;
@@ -143,6 +148,7 @@ function buildPlan() {
     if (JAPANESE.test(basename)) continue;
     const text = fs.readFileSync(file, "utf8").replace(/\r\n?/g, "\n");
     const record = parseFrontmatter(text);
+    if (FROZEN_REFERENCE_AUTHORITIES.has(record.metadata.authority)) continue;
     const relative = bundleRelative(file);
     const suffix = japaneseSuffix(record, relative);
     const target = path.join(path.dirname(file), `${basename}-${suffix}.md`);

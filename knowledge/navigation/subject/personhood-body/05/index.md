@@ -1,32 +1,32 @@
 # 身体・人格 05
 
-範囲: SAVE-004 途中状態〜41. エネルギー結晶（仮称）
+範囲: SHION_A186 自治評議区の合奏指導者〜41. エネルギー結晶（仮称）
 
 ## 項目
 
-- [SAVE-004 途中状態](/pawn/save-004-%E9%80%94%E4%B8%AD%E7%8A%B6%E6%85%8B.md) — MUST: 生産、Dormant化、再配備、回収、再起動、再資源化、再実体化、Cloneの各途中状態から安全に再開する。
-- [SAVE-005 ID一意性](/pawn/save-005-%E4%B8%80%E6%84%8F%E6%80%A7.md) — MUST: 保存・ロード後もdesignId、individualId、pawnInstanceId、lineageIdを重複させない。
-- [SAVE-006 Archive欠損](/pawn/save-006-%E6%AC%A0%E6%90%8D.md) — MUST: 欠落Def、破損Archive、利用不能Moduleを無言で置換しない。
-- [UX-001 Pawn Foundry](/pawn/ux-001-%E8%A6%81%E4%BB%B6.md) — MUST: Pawn Foundryの第一階層を次の三つにする。
-- [UX-002 費用Preview](/pawn/ux-002-%E8%B2%BB%E7%94%A8.md) — MUST: 生産前にBody、Module、能力、装備、時間、現在在庫、不足、代替、登録方式を表示する。
-- [UX-003 個体種別](/pawn/ux-003-%E5%80%8B%E4%BD%93%E7%A8%AE%E5%88%A5.md) — MUST: Ephemeral、Registered、Design output、Clone、Dormantを、色だけに依存せず文字とIconで区別する。
-- [UX-004 破壊的操作](/pawn/ux-004-%E7%A0%B4%E5%A3%8A%E7%9A%84%E6%93%8D%E4%BD%9C.md) — MUST: Ephemeral遺体の再資源化とArchive削除は、同じ個体を復元できなくなることを明示する。
-- [UX-005 Clone識別](/pawn/ux-005-%E8%AD%98%E5%88%A5.md) — MUST: 同名・同外見のCloneを許可しつつ、選択、医療、装備、命令で区別できる短い表示識別子を提供する。
-- [UX-006 簡易注文](/pawn/ux-006-%E7%B0%A1%E6%98%93%E6%B3%A8%E6%96%87.md) — MUST: プレイヤーが詳細設計を開かず、「建築担当を一人」「射手を四人」「この個体のCloneを十人」のような注文を行える。
-- [プレイヤーが最初から知ること](/player-facing/001-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%9C%80%E5%88%9D%E3%81%8B%E3%82%89%E7%9F%A5%E3%82%8B%E3%81%93%E3%81%A8.md) — シオンは、製造された身体を持つ機械の民であり、また一人ずつ別の人格を持ち、人工知能でも集合意識でもありません。
-- [β版のPawn工業](/player-facing/002-%CE%B2%E7%89%88%E3%81%AEPawn%E5%B7%A5%E6%A5%AD.md) — β版では、必要な仕事に適合するランダムなシオン、登録済みの個体、プレイヤーが一から設計した個体、既存個体のCloneをPawn Foundryから生産できます。
-- [短文](/player-facing/007-%E7%9F%AD%E6%96%87.md) — 食事も仕事も身体も選べる狐型機械人シオンと、辺境に小さな楽園を築こう。
-- [長文](/player-facing/008-%E9%95%B7%E6%96%87.md) — シオンは、製品として作られた身体を自分たちの手へ取り戻した狐型の機械人です。
-- [最小用語集](/player-facing/012-%E6%9C%80%E5%B0%8F%E7%94%A8%E8%AA%9E%E9%9B%86.md) — これ以上の語は、登場するクエストや機能の中でその都度説明します。
-- [2. Shion Nexus relevance](/research/external-videos/02-Shion-Nexus-relevance-%E5%A4%96%E9%83%A8%E6%98%A0%E5%83%8F%E5%8F%82%E8%80%83.md) — Fleshbeast Colony remains a structural reference only.。
-- [3. Human mutation, core creation, and division loop](/research/fleshbeast/03-Human-mutation-core-creation-and-division-loop-%E3%83%95%E3%83%AC%E3%83%83%E3%82%B7%E3%83%A5%E3%83%93%E3%83%BC%E3%82%B9%E3%83%88%E5%8F%82%E8%80%83.md) — A mutated human can become a one-per-map Flesh Heart that serves as the colony core and produces Hemogel passively.。
-- [4. Creature system and fusion progression](/research/fleshbeast/04-Creature-system-and-fusion-progression-%E3%83%95%E3%83%AC%E3%83%83%E3%82%B7%E3%83%A5%E3%83%93%E3%83%BC%E3%82%B9%E3%83%88%E5%8F%82%E8%80%83.md) — Creatures can apparently be assigned to a master-like pawn group, similar in feel to mech escort commands: follow, attack, guard, or…。
-- [9. Performance cautions](/research/fleshbeast/09-Performance-cautions-%E3%83%95%E3%83%AC%E3%83%83%E3%82%B7%E3%83%A5%E3%83%93%E3%83%BC%E3%82%B9%E3%83%88%E5%8F%82%E8%80%83.md) — Do not import these patterns into Shion Nexus without hard limits、具体的にはauto-expanding territory;とauto-capturing floor;を扱う。
+- [SHION_A186 自治評議区の合奏指導者](/reference/backstories/mastery/SHION_A186.md) — 自治評議区で、身体と党歴の異なる奏者のずれを一つの拍へ押し込めず、曲の一部としてまとめた。
+- [SHION_A191 塔域居住層の徒手警護員](/reference/backstories/mastery/SHION_A191.md) — 塔域居住層で人の流れを読み、武器を抜かず群衆を分け、端末投影と独立人格を混同しない確認を守った。
+- [SHION_A203 人格照合局の徒手警護員](/reference/backstories/mastery/SHION_A203.md) — 人格照合局では、外見が同じ者同士を見物しようと群衆が集まることがあった。
+- [SHION_A220 封鎖観測地の動物義肢技師](/reference/backstories/mastery/SHION_A220.md) — 封鎖地の動物は、脚の傷だけでなく毛や皮膚の色まで変わっていた。
+- [SHION_A227 特殊任務学校の身体競技指導員](/reference/backstories/mastery/SHION_A227.md) — 特殊任務学校で、相手を壊さず止めるための受け身と力加減を実演中心で教えた。
+- [SHION_A235 本国居住区の救護医](/reference/backstories/mastery/SHION_A235.md) — 本国居住区では、珍しい身体の事故も日常の転倒も同じ入口から運ばれてきた。
+- [SHION_A239 立入制限地の身体競技指導員](/reference/backstories/mastery/SHION_A239.md) — 立入制限地へ入る者には、強さよりも安全に止まる技術が必要だと教えた。
+- [SHION_A251 後方支援庁の身体競技指導員](/reference/backstories/mastery/SHION_A251.md) — 後方支援庁で身体競技を教えると、遊んでいるように見られた。
+- [SHION_A260 人格照合局の再会連絡官](/reference/backstories/mastery/SHION_A260.md) — 人格照合局で再会を手伝う時、本人は「以前と同じ本人です」とは約束しなかった。
+- [SHION_A265 人格照合局の坑道監督](/reference/backstories/mastery/SHION_A265.md) — 人格照合局の地下保管庫を広げる時、本人は地層の音を聞き、戻れる順番で掘らせた。
+- [SHION_A280 本国居住区の保護区飼育員](/reference/backstories/mastery/SHION_A280.md) — 本国居住区の保護区で、役目を終えた動物にも日課と隠れ場所を用意し、信頼されるまで待った。
+- [SHION_A287 塔域居住層の身体競技指導員](/reference/backstories/mastery/SHION_A287.md) — 塔域の身体競技では、全員を同じ規格へ合わせる案を評議会で退けた。
+- [SHION_A359 律法学舎最後の教師](/reference/backstories/mastery/SHION_A359.md) — 律法学舎の仮設天幕時代から最後の学年まで、身体更新と人格記録を継ぎながら教え続けた。
+- [SHION_A391 動植物馴化隊の調教師](/reference/backstories/mastery/SHION_A391.md) — 新しい星の獣を慣らす仕事は、扉を少しずつ開けるようなものだと自分は考えている。
+- [2. Shion Nexus relevance](/research/external-videos/02-Shion-Nexus-relevance.md) — Fleshbeast Colony remains a structural reference only.。
+- [3. Human mutation, core creation, and division loop](/research/fleshbeast/03-Human-mutation-core-creation-and-division-loop.md) — A mutated human can become a one-per-map Flesh Heart that serves as the colony core and produces Hemogel passively.。
+- [4. Creature system and fusion progression](/research/fleshbeast/04-Creature-system-and-fusion-progression.md) — Creatures can apparently be assigned to a master-like pawn group, similar in feel to mech escort commands: follow, attack, guard, or…。
+- [9. Performance cautions](/research/fleshbeast/09-Performance-cautions.md) — Do not import these patterns into Shion Nexus without hard limits、具体的にはauto-expanding territory;とauto-capturing floor;を扱う。
 - [2. Arsenal Codexの直接交換から採るもの](/research/kombinat-ui-references/02-Arsenal-Codex%E3%81%AE%E7%9B%B4%E6%8E%A5%E4%BA%A4%E6%8F%9B%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — 接続保管庫からPawnへ直接装備し、現在装備を同じ取引で返す操作を、Coreの原子的武器交換の参照とする。
-- [11. Performance cautions](/research/monolyn-practice/11-Performance-cautions-%E3%83%A2%E3%83%8E%E3%83%AA%E3%83%B3%E9%81%8B%E7%94%A8%E5%8F%82%E8%80%83.md) — Avoid importing these patterns without hard limits、具体的にはschedule-driven labor loops that require many pawns;とunbounded resource demand…。
-- [2. High-level comparison](/research/reference-mods/02-High-level-comparison-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — High-level comparisonは、Mod：Public core idea：Shion Nexus reference value：Do not copyとMonolyn Race：Tower gathers Light through prayer and…。
-- [3. Monolyn Race structural lessons](/research/reference-mods/03-Monolyn-Race-structural-lessons-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — Monolyn Race is useful because it presents a complete central-resource colony model.。
-- [7. Shion Nexus non-copy rules](/research/reference-mods/07-Shion-Nexus-non-copy-rules-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — Shion Nexus must not become、具体的にはMonolyn with foxes;とFleshbeast with machines;を扱う。
+- [11. Performance cautions](/research/monolyn-practice/11-Performance-cautions.md) — Avoid importing these patterns without hard limits、具体的にはschedule-driven labor loops that require many pawns;とunbounded resource demand…。
+- [2. High-level comparison](/research/reference-mods/02-High-level-comparison.md) — High-level comparisonは、Mod：Public core idea：Shion Nexus reference value：Do not copyとMonolyn Race：Tower gathers Light through prayer and…。
+- [3. Monolyn Race structural lessons](/research/reference-mods/03-Monolyn-Race-structural-lessons.md) — Monolyn Race is useful because it presents a complete central-resource colony model.。
+- [7. Shion Nexus non-copy rules](/research/reference-mods/07-Shion-Nexus-non-copy-rules.md) — Shion Nexus must not become、具体的にはMonolyn with foxes;とFleshbeast with machines;を扱う。
 - [10. Vivi Raceの非HAR種族実装パターン](/research/reference-mods/10-Vivi-Race%E9%9D%9EHAR%E7%A8%AE%E6%97%8F%E5%AE%9F%E8%A3%85%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3.md) — Vivi RaceがHARを必須所有者にせず、バニラ人型処理、Biotech、独自身体、Pawn render tree、任意HAR互換を組み合わせる構成をShion向けに分類する。
 - [4. 旧要件の保全](/research/remote-logistics/04-%E6%97%A7%E8%A6%81%E4%BB%B6%E3%81%AE%E4%BF%9D%E5%85%A8.md) — Routeはsource、destination、scope、許可貨物、搬送手段、容量、所要時間、費用、優先度、危険、稼働状態を持つ。
 - [3. プレイヤーへ見せる情報の四層](/research/theme-overhaul/03-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%B8%E8%A6%8B%E3%81%9B%E3%82%8B%E6%83%85%E5%A0%B1%E3%81%AE%E5%9B%9B%E5%B1%A4.md) — プレイヤーが覚える必要のある核は四つだけにする。

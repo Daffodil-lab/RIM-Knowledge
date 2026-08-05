@@ -50,6 +50,6 @@ sources:
 ## 関連項目
 
 - 上位索引: [kombinat-ui-references](/research/kombinat-ui-references/index.md)
-- 既存の構造研究: [Monolyn Race structural lessons](/research/reference-mods/03-Monolyn-Race-structural-lessons-参考MOD調査.md)
+- 既存の構造研究: [Monolyn Race structural lessons](/research/reference-mods/03-Monolyn-Race-structural-lessons.md)
 - 正規UI仕様: [Kombinat UI](/kombinat/core/09-UI-操作画面.md)
 - 性能方針: [パフォーマンス方針](/design/23-パフォーマンス方針.md)

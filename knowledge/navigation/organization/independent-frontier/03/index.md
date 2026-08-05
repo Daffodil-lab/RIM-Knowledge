@@ -1,29 +1,29 @@
 # 独立・辺境 03
 
-範囲: 11. レッドスターの製品責務境界〜41. エネルギー結晶（仮称）
+範囲: SHION_A239 立入制限地の身体競技指導員〜41. エネルギー結晶（仮称）
 
 ## 項目
 
-- [11. レッドスターの製品責務境界](/design/11-Red-Star%E8%A3%BD%E5%93%81%E5%A2%83%E7%95%8C%E4%BF%9D%E7%95%99.md) — レッドスター拡張とコアMODが所有する機能、共通基盤、配布形態に依存しない境界を定める。
-- [25. 検証シナリオ](/design/25-%E6%A4%9C%E8%A8%BC%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — 次をCore v2と本書だけから矛盾なく作れること。
-- [38. 代表工業資源の実装境界](/design/38-%E4%BB%A3%E8%A1%A8%E5%B7%A5%E6%A5%AD%E8%B3%87%E6%BA%90%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 五つの代表工業資源を実Thingへ変換するDef、物性、Recipe、工数、保存、流通の実装契約を所有する。
-- [39. 工業管制塔設定クラス](/design/39-Field-Ledger-Terminal%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9.md) — 工業管制塔は、独立遠征共同体がコンビナートの生産、消費、流通と同盟通貨へ触れるための現地端末である。
-- [40. Field Workshop設定クラス](/design/40-Field-Workshop%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9.md) — Field Workshopは、独立遠征共同体が現地資源と労働から生活・保守用の実用品を生産する現地工場である。
-- [41. Pawn Foundry設定クラス](/design/41-Pawn-Foundry%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9.md) — Pawn Foundryは、シオンの身体と配備構成を設計・生産し、個体記録、休眠保管、回収再生を扱うCoreの施設である。
-- [42. エネルギー供給の実装境界](/design/42-%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC%E4%BE%9B%E7%B5%A6%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 常設エネルギー接続とエネルギー結晶による外地供給を分離し、改造身体・高度装備・設備の稼働条件を実装する。
-- [51. Core独自保管・接続システムの実装境界](/design/51-Core%E7%8B%AC%E8%87%AA%E4%BF%9D%E7%AE%A1%E6%8E%A5%E7%B6%9A%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — α版からCore独自のThing保管・接続・入出庫システムを正規基盤とし、設備間を直接転送し、内容物の任意排出を提供する。
-- [52. バニラ優先Shion種族実装境界](/design/52-%E3%83%90%E3%83%8B%E3%83%A9%E5%84%AA%E5%85%88Shion%E7%A8%AE%E6%97%8F%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — Shion種族はHuman継承を維持し、Core所有の物理身体と公式DLCの公開機構で実装する。
-- [内政台帳とNetwork Storageの統合境界](/design/54-%E5%86%85%E6%94%BF%E5%8F%B0%E5%B8%B3%E3%81%A8Network-Storage%E3%81%AE%E7%B5%B1%E5%90%88%E5%A2%83%E7%95%8C.md) — 内政管理、Core独自Network Storage、Kombinat生産を一つの需給台帳へ統合し、工場を在庫を持たない設備能力として実装する。
-- [Core・公式DLC量産カタログ境界](/design/55-Core%E5%85%AC%E5%BC%8FDLC%E9%87%8F%E7%94%A3%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0%E5%A2%83%E7%95%8C.md) — Coreと五つの公式DLCに属する反復可能な通常Recipeから、Kombinatの無人量産カタログをDef駆動で生成する。
-- [56. Shion標準遠征身体の実装仕様](/design/56-Shion%E6%A8%99%E6%BA%96%E9%81%A0%E5%BE%81%E8%BA%AB%E4%BD%93%E3%81%AE%E5%AE%9F%E8%A3%85%E4%BB%95%E6%A7%98.md) — Shion標準遠征身体の器官、能力値、欠損状態、休息、Anomaly拒絶、心情と将来拡張点を定める。
-- [知識所有者マップ](/governance/ownership-map-%E7%9F%A5%E8%AD%98%E6%89%80%E6%9C%89%E8%80%85%E3%83%9E%E3%83%83%E3%83%97.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
-- [KX-008 初期化二重適用](/kombinat/audit/kx-008-%E5%88%9D%E6%9C%9F%E5%8C%96%E4%BA%8C%E9%87%8D%E9%81%A9%E7%94%A8.md) — 再現: 独立開拓団開始中に例外または途中ロードを起こす。
-- [12. α完成条件](/kombinat/core/12-%CE%B1%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Kombinat αはShion種族実装に先行し、バニラHumanのfixtureでThingOwner間の直接転送、三段生産、任意排出を成立させる。
-- [14. 実装順](/kombinat/core/14-%E5%AE%9F%E8%A3%85%E9%A0%86.md) — 工業UIのRimWorld 1.6画面契約を先に固定し、Shion種族に先行してCore独自保管・接続システムとKombinatをバニラHumanのfixtureで完成させる。
-- [12. α Release Gate](/kombinat/requirements/12-%CE%B1-Release-Gate-%E5%85%AC%E9%96%8B%E5%88%A4%E5%AE%9A.md) — α版はCore独自保管基盤との直接受渡し、三段生産、任意排出、保存・復旧をRelease Gateへ含める。
-- [CUR-004 初期化](/kombinat/requirements/cur-004-%E5%88%9D%E6%9C%9F%E5%8C%96.md) — MUST: 独立開拓団開始時に一回だけProfile残高を適用し、途中失敗で部分残高を残さない。
-- [プレイヤーが最初から知ること](/player-facing/001-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%9C%80%E5%88%9D%E3%81%8B%E3%82%89%E7%9F%A5%E3%82%8B%E3%81%93%E3%81%A8.md) — シオンは、製造された身体を持つ機械の民であり、また一人ずつ別の人格を持ち、人工知能でも集合意識でもありません。
-- [最小用語集](/player-facing/012-%E6%9C%80%E5%B0%8F%E7%94%A8%E8%AA%9E%E9%9B%86.md) — これ以上の語は、登場するクエストや機能の中でその都度説明します。
+- [SHION_A239 立入制限地の身体競技指導員](/reference/backstories/mastery/SHION_A239.md) — 立入制限地へ入る者には、強さよりも安全に止まる技術が必要だと教えた。 （回収班 / 独立開拓者）
+- [SHION_A258 立入制限地の記録舞台演出家](/reference/backstories/mastery/SHION_A258.md) — 立入制限地の記録を舞台にするなら、悲鳴と死者だけでは足りない。 （回収班 / 独立開拓者）
+- [SHION_A261 月面事業区の古文書研究者](/reference/backstories/mastery/SHION_A261.md) — 月面事業の公式記録は、最初から成功する予定だったように書かれていた。 （月面共同事業 / 独立開拓者）
+- [SHION_A264 移動都市群の仮設建築士](/reference/backstories/mastery/SHION_A264.md) — 移動都市の帰還者へ家を作ると、地図と本人の記憶がよく喧嘩した。 （都市記録局 / 独立開拓者）
+- [SHION_A274 移動都市群の監視射手](/reference/backstories/mastery/SHION_A274.md) — 移動都市を監視する時、遠くの輪郭だけで同じ町と決めてはいけない。 （都市記録局 / 独立開拓者）
+- [SHION_A306 月面事業区の舞台演出家](/reference/backstories/mastery/SHION_A306.md) — 月面事業の記念劇では、偉大な責任者を舞台の端へ追いやり、最初の不揃いな足跡を主役にした。 （月面共同事業 / 独立開拓者）
+- [SHION_A312 船団医療班の縫合手](/reference/backstories/mastery/SHION_A312.md) — 「針が足りない、代わりは何がある」と船医に聞かれたとき、本人は魚の骨を煮沸したものを渡した。 （移住船団 / 医療班）
+- [SHION_A314 第一次入植の土地選定者](/reference/backstories/mastery/SHION_A314.md) — 自慢していいなら言わせてもらう、最初の百区画のうち作物が根付いたのは本人が選んだ土地だけだった。 （第一次入植 / 農地班）
+- [SHION_A316 巡回医療隊の産婆](/reference/backstories/mastery/SHION_A316.md) — 巡回医療隊で、外部居住者の出産を支え、母子の安全を静かな手順で守った。 （巡回医療隊 / 入植地）
+- [SHION_A322 育種班の選種人](/reference/backstories/mastery/SHION_A322.md) — 育種班の選種人では、試した品種は三十七、いや正確には三十八だった。 （育種班 / 第一次入植）
+- [SHION_A324 資材輸送隊の荷駄頭](/reference/backstories/mastery/SHION_A324.md) — 資材輸送隊の荷駄頭では、荷を落とした話をされると、今でも少し身構える。 （移住船団 / 資材輸送隊）
+- [SHION_A332 入植地の屋根継ぎ](/reference/backstories/mastery/SHION_A332.md) — 入植地の屋根はどれも一度は雨漏りする、これは本人が最初に学んだことだった。 （建設隊 / 入植地）
+- [SHION_A334 移住船団の百人料理番](/reference/backstories/mastery/SHION_A334.md) — 移住船団に同乗した外部居住者と、食文化へ参加するシオンの最初の百人分の食事を、限られた保存食だけで回していたのが本人だった。 （移住船団 / 第一次入植）
+- [SHION_A387 移住船団の機関整備工](/reference/backstories/mastery/SHION_A387.md) — あたしの仕事は簡単に言えば冷却管の詰まりを取ることだった。 （移住船団 / 機関班）
+- [SHION_A390 第一次入植の炊事番](/reference/backstories/mastery/SHION_A390.md) — うちがやってたことを数えてみると、まず配給の穀物をふやかす時間の調整、次に塩を切らさないための交換交渉、それから鍋底が焦げないよう火加減を見張ること。 （給食班 / 第一次入植）
+- [SHION_A399 開拓団の狩猟番](/reference/backstories/mastery/SHION_A399.md) — 獲物より先に風を読め、というのが自分の師匠の口癖だった。 （開拓団 / 猟兵班）
+- [SHION_A400 移住船団の帳簿係](/reference/backstories/mastery/SHION_A400.md) — 「この数字、また合わないぞ」と班長に何度も詰め寄られました。 （移住船団 / 補給班）
+- [SHION_A404 第一次入植の仕立屋](/reference/backstories/mastery/SHION_A404.md) — 古い布を捨てるくらいなら本人に持ってきてほしい、それだけはずっと言い続けてきました。 （生活班 / 第一次入植）
+- [SHION_A411 交易船団の交渉員](/reference/backstories/mastery/SHION_A411.md) — 俺の仕事は簡単に言えば、初対面の開拓地相手に値切ることだ。 （交易船団 / 船団長）
+- [SHION_A412 辺境行政府の巡察官](/reference/backstories/mastery/SHION_A412.md) — 開拓地が増えれば増えるほど、本人のところに届く訴えも増えました。 （巡察班 / 辺境行政府）
 - [台帳設備と輸送中Cargo](/research/remote-logistics/08-%E5%8F%B0%E5%B8%B3%E8%A8%AD%E5%82%99%E3%81%A8%E8%BC%B8%E9%80%81%E4%B8%ADCargo.md) — Map上の設備、宇宙船、本国施設、契約工場、交易拠点を共通のFacility台帳へ登録し、遠隔資源を時間付きCargoとして現地Network Storageへ届ける設計草案。
 - [6. 実在参照と命名の処理](/research/theme-overhaul/06-%E5%AE%9F%E5%9C%A8%E5%8F%82%E7%85%A7%E3%81%A8%E5%91%BD%E5%90%8D%E3%81%AE%E5%87%A6%E7%90%86.md) — 以下はテーマ・トーン再審査ガイドQ0と、近未来／20世紀パスティーシュ回避の両方から優先度が高い。
 - [3. 1.0の最終完成像](/roadmap/03-1-0%E3%81%AE%E6%9C%80%E7%B5%82%E5%AE%8C%E6%88%90%E5%83%8F.md) — 最終的なCoreは、少なくとも次を一つの製品として成立させる。

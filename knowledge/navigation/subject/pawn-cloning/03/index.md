@@ -1,21 +1,9 @@
 # Pawn・生産・複製 03
 
-範囲: DOR-001 Dormant化〜13. 帝国人とシオンの起源
+範囲: GEN-006 原子的配備〜13. 帝国人とシオンの起源
 
 ## 項目
 
-- [DOR-001 Dormant化](/pawn/dor-001-%E5%8C%96.md) — MUST: 生存し、搬送可能で、禁止状態にないPawnをDormant Recordへ移せる。
-- [DOR-002 無料](/pawn/dor-002-%E7%84%A1%E6%96%99.md) — MUST: Dormant化、保管期間、再配備は資源、通貨、専用容量を消費しない。
-- [DOR-003 停止](/pawn/dor-003-%E5%81%9C%E6%AD%A2.md) — MUST: Dormant中はPawn Tick、Need、病気、出血、腐敗、充放電、Hediff経過、Ability cooldown、年齢進行を停止する。
-- [DOR-004 完全往復](/pawn/dor-004-%E5%AE%8C%E5%85%A8%E5%BE%80%E5%BE%A9.md) — MUST: 名前、load ID、individual ID、関係、技能、特性、遺伝情報、身体、内蔵Module、Hediff、Pawn設定をDormant化と再配備で維持する。
-- [DOR-005 同時所在](/pawn/dor-005-%E5%90%8C%E6%99%82%E6%89%80%E5%9C%A8.md) — MUST: 同じPawnがMap、Caravan、World Pawn、Dormant Recordの複数へ同時に存在しない。
-- [DOR-006 参照安全性](/pawn/dor-006-%E5%8F%82%E7%85%A7%E5%AE%89%E5%85%A8%E6%80%A7.md) — MUST: Quest、Lord、Faction、Ideology、Royalty、Gene、Bond、外部MOD参照を検査し、安全にDormant化できない理由を明示する。
-- [DOR-007 装備](/pawn/dor-007-%E8%A3%85%E5%82%99.md) — MUST: 着脱可能な装備、衣服、工具、inventory内ThingはDormant化のtransaction内でCore独自保管・接続システムまたはMap上の受入先へ一度だけ返却する。
-- [GEN-001 適合生成](/pawn/gen-001-%E9%81%A9%E5%90%88%E7%94%9F%E6%88%90.md) — MUST: プレイヤーは役割、必須作業、最低技能、必要能力、許可する身体、数量を指定し、条件へ適合するランダムPawnを生成できる。
-- [GEN-002 ランダム範囲](/pawn/gen-002-%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E7%AF%84%E5%9B%B2.md) — MUST: 指定されていない名前、外見、性格、技能差、趣味等は許可範囲からランダム化する。
-- [GEN-003 既定個体](/pawn/gen-003-%E6%97%A2%E5%AE%9A%E5%80%8B%E4%BD%93.md) — MUST: Defで登録された固有個体または既定設計を一覧から選び、予定された構成で生産できる。
-- [GEN-004 一からの設計](/pawn/gen-004-%E4%B8%80%E3%81%8B%E3%82%89%E3%81%AE%E8%A8%AD%E8%A8%88.md) — MUST: プレイヤーはBody Platform、Module、外装、遺伝情報、特性、技能、Passion、能力、役割、Loadoutを一から構成し、互換性と費用を確認して生産できる。
-- [GEN-005 必要装備](/pawn/gen-005-%E5%BF%85%E8%A6%81%E8%A3%85%E5%82%99.md) — MUST: 生産要求は、具体Thing指定と作者定義のEquipment Familyを併用できる。
 - [GEN-006 原子的配備](/pawn/gen-006-%E5%8E%9F%E5%AD%90%E7%9A%84%E9%85%8D%E5%82%99.md) — MUST: Body、必須Module、必須能力、必須装備のいずれかが欠ける場合、完成扱いでPawnを出現させない。
 - [GEN-007 反復可能性](/pawn/gen-007-%E5%8F%8D%E5%BE%A9%E5%8F%AF%E8%83%BD%E6%80%A7.md) — MUST: 通常Pawnの生産へ一回限りのWorld Unique資源、有限許可回数、消滅する原型を要求しない。
 - [GEN-008 Repeat Order](/pawn/gen-008-%E8%A6%81%E4%BB%B6.md) — MUST: 適合条件、Design、Registered IndividualのCloneを数量指定または目標活動数で反復生産できる。
@@ -62,15 +50,27 @@
 - [UX-006 簡易注文](/pawn/ux-006-%E7%B0%A1%E6%98%93%E6%B3%A8%E6%96%87.md) — MUST: プレイヤーが詳細設計を開かず、「建築担当を一人」「射手を四人」「この個体のCloneを十人」のような注文を行える。
 - [β版のPawn工業](/player-facing/002-%CE%B2%E7%89%88%E3%81%AEPawn%E5%B7%A5%E6%A5%AD.md) — β版では、必要な仕事に適合するランダムなシオン、登録済みの個体、プレイヤーが一から設計した個体、既存個体のCloneをPawn Foundryから生産できます。
 - [最小用語集](/player-facing/012-%E6%9C%80%E5%B0%8F%E7%94%A8%E8%AA%9E%E9%9B%86.md) — これ以上の語は、登場するクエストや機能の中でその都度説明します。
-- [2. Shion Nexus relevance](/research/external-videos/02-Shion-Nexus-relevance-%E5%A4%96%E9%83%A8%E6%98%A0%E5%83%8F%E5%8F%82%E8%80%83.md) — Fleshbeast Colony remains a structural reference only.。
-- [3. Human mutation, core creation, and division loop](/research/fleshbeast/03-Human-mutation-core-creation-and-division-loop-%E3%83%95%E3%83%AC%E3%83%83%E3%82%B7%E3%83%A5%E3%83%93%E3%83%BC%E3%82%B9%E3%83%88%E5%8F%82%E8%80%83.md) — A mutated human can become a one-per-map Flesh Heart that serves as the colony core and produces Hemogel passively.。
-- [4. Creature system and fusion progression](/research/fleshbeast/04-Creature-system-and-fusion-progression-%E3%83%95%E3%83%AC%E3%83%83%E3%82%B7%E3%83%A5%E3%83%93%E3%83%BC%E3%82%B9%E3%83%88%E5%8F%82%E8%80%83.md) — Creatures can apparently be assigned to a master-like pawn group, similar in feel to mech escort commands: follow, attack, guard, or…。
-- [9. Performance cautions](/research/fleshbeast/09-Performance-cautions-%E3%83%95%E3%83%AC%E3%83%83%E3%82%B7%E3%83%A5%E3%83%93%E3%83%BC%E3%82%B9%E3%83%88%E5%8F%82%E8%80%83.md) — Do not import these patterns into Shion Nexus without hard limits、具体的にはauto-expanding territory;とauto-capturing floor;を扱う。
+- [SHION_C031 無人書庫の管理役](/reference/backstories/formation/SHION_C031.md) — 帝国最盛期の無人書庫で、湿度、虫害、貸出記録、索引を管理した。
+- [SHION_C046 鉄花園の園丁](/reference/backstories/formation/SHION_C046.md) — 放棄された温室で、金属を取り込んで硬い花弁を作る鉄花の世話を任された。
+- [SHION_C070 友人の誕生日を祝う役](/reference/backstories/formation/SHION_C070.md) — 誕生日を持たない製造個体のため、本人は本人が好きな日を記念日にした。
+- [SHION_C130 本国居住区の老いた動物の世話](/reference/backstories/formation/SHION_C130.md) — 役目を終えた動物を、効率だけで交換するのが嫌だった。
+- [SHION_C391 動植物馴化隊の観察日誌](/reference/backstories/formation/SHION_C391.md) — 動植物馴化隊の観察日誌では、記録すること自体が仕事だった。
+- [SHION_A055 動物終生保護官](/reference/backstories/mastery/SHION_A055.md) — 短命な動物を複製で置き換えず、一生ごとの癖を記録して看取った。
+- [SHION_A065 復活獣医](/reference/backstories/mastery/SHION_A065.md) — 絶滅動物を蘇らせるだけでなく、戻った個体が以前の群れへ馴染めるまで付き添った。
+- [SHION_A112 異常封じ込め隊の動物義肢技師](/reference/backstories/mastery/SHION_A112.md) — 異常封じ込め隊で、傷ついた動物の義肢を作っていました。
+- [SHION_A148 離散船団の終生飼養員](/reference/backstories/mastery/SHION_A148.md) — 離散船団で、役目を終えた救助動物を最後まで世話しました。
+- [SHION_A220 封鎖観測地の動物義肢技師](/reference/backstories/mastery/SHION_A220.md) — 封鎖地の動物は、脚の傷だけでなく毛や皮膚の色まで変わっていた。
+- [SHION_A280 本国居住区の保護区飼育員](/reference/backstories/mastery/SHION_A280.md) — 本国居住区の保護区で、役目を終えた動物にも日課と隠れ場所を用意し、信頼されるまで待った。
+- [SHION_A391 動植物馴化隊の調教師](/reference/backstories/mastery/SHION_A391.md) — 新しい星の獣を慣らす仕事は、扉を少しずつ開けるようなものだと自分は考えている。
+- [2. Shion Nexus relevance](/research/external-videos/02-Shion-Nexus-relevance.md) — Fleshbeast Colony remains a structural reference only.。
+- [3. Human mutation, core creation, and division loop](/research/fleshbeast/03-Human-mutation-core-creation-and-division-loop.md) — A mutated human can become a one-per-map Flesh Heart that serves as the colony core and produces Hemogel passively.。
+- [4. Creature system and fusion progression](/research/fleshbeast/04-Creature-system-and-fusion-progression.md) — Creatures can apparently be assigned to a master-like pawn group, similar in feel to mech escort commands: follow, attack, guard, or…。
+- [9. Performance cautions](/research/fleshbeast/09-Performance-cautions.md) — Do not import these patterns into Shion Nexus without hard limits、具体的にはauto-expanding territory;とauto-capturing floor;を扱う。
 - [2. Arsenal Codexの直接交換から採るもの](/research/kombinat-ui-references/02-Arsenal-Codex%E3%81%AE%E7%9B%B4%E6%8E%A5%E4%BA%A4%E6%8F%9B%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — 接続保管庫からPawnへ直接装備し、現在装備を同じ取引で返す操作を、Coreの原子的武器交換の参照とする。
-- [11. Performance cautions](/research/monolyn-practice/11-Performance-cautions-%E3%83%A2%E3%83%8E%E3%83%AA%E3%83%B3%E9%81%8B%E7%94%A8%E5%8F%82%E8%80%83.md) — Avoid importing these patterns without hard limits、具体的にはschedule-driven labor loops that require many pawns;とunbounded resource demand…。
-- [2. High-level comparison](/research/reference-mods/02-High-level-comparison-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — High-level comparisonは、Mod：Public core idea：Shion Nexus reference value：Do not copyとMonolyn Race：Tower gathers Light through prayer and…。
-- [3. Monolyn Race structural lessons](/research/reference-mods/03-Monolyn-Race-structural-lessons-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — Monolyn Race is useful because it presents a complete central-resource colony model.。
-- [7. Shion Nexus non-copy rules](/research/reference-mods/07-Shion-Nexus-non-copy-rules-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — Shion Nexus must not become、具体的にはMonolyn with foxes;とFleshbeast with machines;を扱う。
+- [11. Performance cautions](/research/monolyn-practice/11-Performance-cautions.md) — Avoid importing these patterns without hard limits、具体的にはschedule-driven labor loops that require many pawns;とunbounded resource demand…。
+- [2. High-level comparison](/research/reference-mods/02-High-level-comparison.md) — High-level comparisonは、Mod：Public core idea：Shion Nexus reference value：Do not copyとMonolyn Race：Tower gathers Light through prayer and…。
+- [3. Monolyn Race structural lessons](/research/reference-mods/03-Monolyn-Race-structural-lessons.md) — Monolyn Race is useful because it presents a complete central-resource colony model.。
+- [7. Shion Nexus non-copy rules](/research/reference-mods/07-Shion-Nexus-non-copy-rules.md) — Shion Nexus must not become、具体的にはMonolyn with foxes;とFleshbeast with machines;を扱う。
 - [4. 旧要件の保全](/research/remote-logistics/04-%E6%97%A7%E8%A6%81%E4%BB%B6%E3%81%AE%E4%BF%9D%E5%85%A8.md) — Routeはsource、destination、scope、許可貨物、搬送手段、容量、所要時間、費用、優先度、危険、稼働状態を持つ。
 - [3. プレイヤーへ見せる情報の四層](/research/theme-overhaul/03-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%B8%E8%A6%8B%E3%81%9B%E3%82%8B%E6%83%85%E5%A0%B1%E3%81%AE%E5%9B%9B%E5%B1%A4.md) — プレイヤーが覚える必要のある核は四つだけにする。
 - [0. 結論](/roadmap/00-%E7%B5%90%E8%AB%96.md) — Coreは工業基盤を内部完成させてからShion種族を統合し、α、β、1.0の三段階で公開する。

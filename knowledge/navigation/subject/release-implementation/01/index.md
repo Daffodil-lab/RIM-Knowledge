@@ -1,6 +1,6 @@
 # リリース・実装 01
 
-範囲: 実装予約〜12. α完成条件
+範囲: 実装予約〜13. β
 
 ## 項目
 
@@ -9,7 +9,6 @@
 - [9. 不合格条件](/authoring/09-%E4%B8%8D%E5%90%88%E6%A0%BC%E6%9D%A1%E4%BB%B6.md) — 新しい設定、文章、機能は次に該当する場合、再設計する。
 - [10. 廃止・降格された旧要素](/authoring/10-%E5%BB%83%E6%AD%A2%E3%83%BB%E9%99%8D%E6%A0%BC%E3%81%95%E3%82%8C%E3%81%9F%E6%97%A7%E8%A6%81%E7%B4%A0.md) — 2026-07-26に実施した旧要素の廃止・降格監査を履歴として保持する。
 - [15. 設定クラスと実装値の分離](/authoring/15-%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%A8%E5%AE%9F%E8%A3%85%E5%80%A4%E3%81%AE%E5%88%86%E9%9B%A2.md) — 存在、分類、用途、歴史、フレーバーと銃器の物理仕様は設定クラスへ置き、射程、性能、CE用Def、素材、工数、製造時間等のゲーム値は実装へ分離する。
-- [9. 設定本文と実装予約の分離](/backstories/09-%E8%A8%AD%E5%AE%9A%E6%9C%AC%E6%96%87%E3%81%A8%E5%AE%9F%E8%A3%85%E4%BA%88%E7%B4%84%E3%81%AE%E5%88%86%E9%9B%A2.md) — バックストーリー記録では人物の経歴と口述を設定クラス、Pool、出現希少度、技能補正、組合せ規則を実装予約として分離する。
 - [匿名のソフェルの実装予約](/characters/anonymous-sofer/53-%E5%AE%9F%E8%A3%85%E4%BA%88%E7%B4%84.md) — 匿名のソフェルの人物像は正史とするが、身体値、技能値、能力、装備、加入方法は担当実装まで固定しない。
 - [0. 結論](/colony/00-%E7%B5%90%E8%AB%96.md) — Coreの最初のプレイ可能対象を、本国政府の正規指揮系統と保証された補給へ恒常的に属さず、自分たちの判断と共同資産で辺境に暮らしを作る小規模な独立開拓団へ固定する。
 - [1. 文書状態と判断の強さ](/colony/01-%E6%96%87%E6%9B%B8%E7%8A%B6%E6%85%8B%E3%81%A8%E5%88%A4%E6%96%AD%E3%81%AE%E5%BC%B7%E3%81%95.md) — 独立開拓団の文書状態は、全体ガバナンス、正史優先順位、現行ロードマップの正規所有者を参照する。
@@ -37,16 +36,16 @@
 - [28. Definition of Done](/colony/28-Definition-of-Done-%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Core独立開拓団α版は、次を全て満たした時に完成する。
 - [29. 野心と産業進行](/colony/29-%E9%87%8E%E5%BF%83%E3%81%A8%E7%94%A3%E6%A5%AD%E9%80%B2%E8%A1%8C.md) — ゲームクリア級の目標は、遠征共同体が目標に必要な産業能力を現地で構築し、継続運用できることを要求する。
 - [C-0003 匿名ソフェルのゲーム実装値](/contradictions/C-0003-%E5%8C%BF%E5%90%8D%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AE%E3%82%B2%E3%83%BC%E3%83%A0%E5%AE%9F%E8%A3%85%E5%80%A4.md) — 旧人物資料の技能・装備・能力案と、現行の実装予約との関係。
-- [確定#389：MVP廃止、α公開候補、β終了条件、完成前セーブ互換](/decisions/decision-0389-%E7%A2%BA%E5%AE%9A-%E5%BB%83%E6%AD%A2-%E5%85%AC%E9%96%8B%E5%80%99%E8%A3%9C-%E7%B5%82%E4%BA%86%E6%9D%A1%E4%BB%B6-%E5%AE%8C%E6%88%90%E5%89%8D%E3%82%BB%E3%83%BC%E3%83%96%E4%BA%92%E6%8F%9B.md) — MVP廃止、α公開候補、β終了条件、完成前セーブ互換を確定した決定履歴。
-- [確定#390：Kombinat停止保存、資産価値、破壊時保全、性能優先方式](/decisions/decision-0390-%E7%A2%BA%E5%AE%9A-%E5%81%9C%E6%AD%A2%E4%BF%9D%E5%AD%98-%E8%B3%87%E7%94%A3%E4%BE%A1%E5%80%A4-%E7%A0%B4%E5%A3%8A%E6%99%82%E4%BF%9D%E5%85%A8-%E6%80%A7%E8%83%BD%E5%84%AA%E5%85%88%E6%96%B9%E5%BC%8F.md) — Kombinat停止保存、資産価値、破壊時保全、性能優先方式を確定した決定履歴。
-- [確定#391：Kombinat遠距離物流の保護延期、AE2系準拠、αのローカルNetwork再構成](/decisions/decision-0391-%E7%A2%BA%E5%AE%9A-%E9%81%A0%E8%B7%9D%E9%9B%A2%E7%89%A9%E6%B5%81%E3%81%AE%E4%BF%9D%E8%AD%B7%E5%BB%B6%E6%9C%9F-%E7%B3%BB%E6%BA%96%E6%8B%A0-%E3%81%AE%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB-%E5%86%8D%E6%A7%8B%E6%88%90.md) — Kombinat遠距離物流の保護延期、AE2系準拠、αのローカルNetwork再構成を確定した決定履歴。
-- [確定#392：Kombinatを生産・消費・流通へ集約した汎用工業とする](/decisions/decision-0392-%E7%A2%BA%E5%AE%9A-%E3%82%92%E7%94%9F%E7%94%A3-%E6%B6%88%E8%B2%BB-%E6%B5%81%E9%80%9A%E3%81%B8%E9%9B%86%E7%B4%84%E3%81%97%E3%81%9F%E6%B1%8E%E7%94%A8%E5%B7%A5%E6%A5%AD%E3%81%A8%E3%81%99%E3%82%8B.md) — Kombinatを生産・消費・流通へ集約した汎用工業とするを確定した決定履歴。
-- [確定#393：β版Pawn Foundry、補充可能個体、登録再実体化、Clone Colony](/decisions/decision-0393-%E7%A2%BA%E5%AE%9A-%E7%89%88-%E8%A3%9C%E5%85%85%E5%8F%AF%E8%83%BD%E5%80%8B%E4%BD%93-%E7%99%BB%E9%8C%B2%E5%86%8D%E5%AE%9F%E4%BD%93%E5%8C%96.md) — β版Pawn Foundry、補充可能個体、登録再実体化、Clone Colonyを確定した決定履歴。
-- [確定#394：Kombinat完成図の仮想シミュレーション、未知MOD互換契約、復旧不能・無限容量の封鎖](/decisions/decision-0394-%E7%A2%BA%E5%AE%9A-%E5%AE%8C%E6%88%90%E5%9B%B3%E3%81%AE%E4%BB%AE%E6%83%B3%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-%E6%9C%AA%E7%9F%A5-%E4%BA%92%E6%8F%9B%E5%A5%91%E7%B4%84-%E5%BE%A9%E6%97%A7%E4%B8%8D%E8%83%BD-%E7%84%A1.md) — Kombinat完成図の仮想シミュレーション、未知MOD互換契約、復旧不能・無限容量の封鎖を確定した決定履歴。
-- [確定#395：Matter NetworkをKombinat倉庫基盤として採用し、物理資源を実Thingへ統一](/decisions/decision-0395-%E7%A2%BA%E5%AE%9A-%E3%82%92-%E5%80%89%E5%BA%AB%E5%9F%BA%E7%9B%A4%E3%81%A8%E3%81%97%E3%81%A6%E6%8E%A1%E7%94%A8%E3%81%97-%E7%89%A9%E7%90%86%E8%B3%87%E6%BA%90%E3%82%92%E5%AE%9F-%E3%81%B8%E7%B5%B1%E4%B8%80.md) — Matter NetworkをKombinat倉庫基盤として採用し、物理資源を実Thingへ統一を確定した決定履歴。
-- [確定#396：装備の抽象指定を装備ファミリー＋非物理ポイントへ簡略化](/decisions/decision-0396-%E7%A2%BA%E5%AE%9A-%E8%A3%85%E5%82%99%E3%81%AE%E6%8A%BD%E8%B1%A1%E6%8C%87%E5%AE%9A%E3%82%92%E8%A3%85%E5%82%99%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC-%E9%9D%9E%E7%89%A9%E7%90%86%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%B8%E7%B0%A1%E7%95%A5%E5%8C%96.md) — 装備の抽象指定を装備ファミリー＋非物理ポイントへ簡略化を確定した決定履歴。
-- [確定#397：Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外](/decisions/decision-0397-%E7%A2%BA%E5%AE%9A-%E3%82%92%E7%84%A1%E6%94%B9%E9%80%A0%E3%81%AE%E5%BF%85%E9%A0%88%E4%BE%9D%E5%AD%98%E3%81%B8%E5%9B%BA%E5%AE%9A%E3%81%97-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E3%81%A8-%E3%82%92-%E7%9B%A3%E6%9F%BB%E3%81%8B%E3%82%89%E9%99%A4%E5%A4%96.md) — Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外を確定した決定履歴。
-- [確定#398：α版からCore独自保管・接続基盤を採用する](/decisions/decision-0398-%E7%A2%BA%E5%AE%9A-%E7%89%88%E3%81%8B%E3%82%89-%E7%8B%AC%E8%87%AA%E4%BF%9D%E7%AE%A1-%E6%8E%A5%E7%B6%9A%E5%9F%BA%E7%9B%A4%E3%82%92%E6%8E%A1%E7%94%A8%E3%81%99%E3%82%8B.md) — Matter Network必須依存を撤回し、α版から通常Map空間を経由しない独自保管・接続基盤と任意排出を採用した決定履歴。
+- [確定#389：MVP廃止、α公開候補、β終了条件、完成前セーブ互換](/decisions/decision-0389.md) — MVP廃止、α公開候補、β終了条件、完成前セーブ互換を確定した決定履歴。
+- [確定#390：Kombinat停止保存、資産価値、破壊時保全、性能優先方式](/decisions/decision-0390.md) — Kombinat停止保存、資産価値、破壊時保全、性能優先方式を確定した決定履歴。
+- [確定#391：Kombinat遠距離物流の保護延期、AE2系準拠、αのローカルNetwork再構成](/decisions/decision-0391.md) — Kombinat遠距離物流の保護延期、AE2系準拠、αのローカルNetwork再構成を確定した決定履歴。
+- [確定#392：Kombinatを生産・消費・流通へ集約した汎用工業とする](/decisions/decision-0392.md) — Kombinatを生産・消費・流通へ集約した汎用工業とするを確定した決定履歴。
+- [確定#393：β版Pawn Foundry、補充可能個体、登録再実体化、Clone Colony](/decisions/decision-0393.md) — β版Pawn Foundry、補充可能個体、登録再実体化、Clone Colonyを確定した決定履歴。
+- [確定#394：Kombinat完成図の仮想シミュレーション、未知MOD互換契約、復旧不能・無限容量の封鎖](/decisions/decision-0394.md) — Kombinat完成図の仮想シミュレーション、未知MOD互換契約、復旧不能・無限容量の封鎖を確定した決定履歴。
+- [確定#395：Matter NetworkをKombinat倉庫基盤として採用し、物理資源を実Thingへ統一](/decisions/decision-0395.md) — Matter NetworkをKombinat倉庫基盤として採用し、物理資源を実Thingへ統一を確定した決定履歴。
+- [確定#396：装備の抽象指定を装備ファミリー＋非物理ポイントへ簡略化](/decisions/decision-0396.md) — 装備の抽象指定を装備ファミリー＋非物理ポイントへ簡略化を確定した決定履歴。
+- [確定#397：Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外](/decisions/decision-0397.md) — Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外を確定した決定履歴。
+- [確定#398：α版からCore独自保管・接続基盤を採用する](/decisions/decision-0398.md) — Matter Network必須依存を撤回し、α版から通常Map空間を経由しない独自保管・接続基盤と任意排出を採用した決定履歴。
 - [7. 製品ファミリーの新しい境界](/design/07-%E8%A3%BD%E5%93%81%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E5%A2%83%E7%95%8C.md) — CoreはDLC非依存製品として設計しない、また開発・配布・標準試験は、RimWorld 1.6にRoyalty、Ideology、Biotech、Anomaly、Odysseyを全て有効化した環境を前提とする。
 - [8. Baseモジュール](/design/08-Base%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB.md) — Core設定は複数の開始立場を許容するが、最初に遊べるα版は数人規模の独立開拓団へ固定する。
 - [10. The Hive内部モジュール（後期実装予約）](/design/10-The-Hive%E5%86%85%E9%83%A8%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E5%BE%8C%E6%9C%9F%E5%AE%9F%E8%A3%85%E4%BA%88%E7%B4%84.md) — The Hiveは設計・正史を保護するが、現行の実装対象から外す。
@@ -84,3 +83,4 @@
 - [10. 保存と原子性](/kombinat/core/10-%E4%BF%9D%E5%AD%98%E3%81%A8%E5%8E%9F%E5%AD%90%E6%80%A7.md) — Kombinatは次だけを保存するという方針の適用範囲と条件を定める。
 - [11. 欠陥の所有と切り分け](/kombinat/core/11-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E3%81%AE%E6%89%B1%E3%81%84.md) — Core StorageとKombinatの欠陥は再現条件と取引所有者から切り分け、各所有者のRelease Gateへ登録する。
 - [12. α完成条件](/kombinat/core/12-%CE%B1%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Kombinat αはShion種族実装に先行し、バニラHumanのfixtureでThingOwner間の直接転送、三段生産、任意排出を成立させる。
+- [13. β](/kombinat/core/13-%CE%B2-%E7%8F%BE%E8%A1%8C%E4%BB%95%E6%A7%98.md) — Equipment Familyは作者が明示登録した候補だけを使う。

@@ -45,7 +45,7 @@ Endfieldの最大の設計的発明は「工場を独立したミニゲームに
 ## 関連項目
 
 - 上位索引: [research/endfield-aic](/research/endfield-aic/index.md)
-- 同じ出典の前項: [Key Findings](/research/endfield-aic/001-Key-Findings-エンドフィールド工業参考.md)
+- 同じ出典の前項: [Key Findings](/research/endfield-aic/001-Key-Findings.md)
 - 同じ出典の次項: [Recommendations(RimWorld種族MOD設計への段階的提言)](/research/endfield-aic/003-RecommendationsRimWorld種族MOD設計への段階的提言.md)
 
 ## 出典

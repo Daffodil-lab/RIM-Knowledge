@@ -30,15 +30,14 @@ node knowledge/tools/maintain-okf.mjs --check
 - [公式OKF 0.2互換性検査（日本語）](validate-okf-v02.mjs)
 - [領域横断重複監査](audit-okf-overlap.mjs)
 - [設定矛盾監査](audit-okf-contradictions.mjs)
-- [バックストーリー審査確定](finalize-backstory-review.mjs)
-- [バックストーリー正史残件処理](resolve-backstory-canon-residuals.mjs)
-- [バックストーリー層分離](separate-backstory-layers.mjs)
 
 `build-okf.mjs`は削除済み原本から初回移行するための旧生成器であり、現在は実行禁止である。現行`knowledge/`の再生成や上書きには使用しない。
 
+`finalize-backstory-review.mjs`、`resolve-backstory-canon-residuals.mjs`、`separate-backstory-layers.mjs`は、参考資料凍結前の一回限りの旧処理であり、現在は実行禁止である。`knowledge/reference/backstories/`を改稿せず、必要な内容は現行所有者へ新規作成する。
+
 `audit-okf-overlap.mjs --check`は監査結果を表示し、30%以上の領域横断包含ペアが一件でもあれば終了コード1を返す。引数なしでは結果表示だけを行う。
 
-`localize-okf-filenames.mjs --write`は、英語または技術IDだけの概念ファイル名へ日本語表題を追加し、Markdownリンクと所有者参照を同期する。`SHION_A001`、`decision-0001`、`UX-001`等の安定IDは接頭辞として維持する。`--plan`で改名前の対応表を確認し、`--check`で日本語のない概念ファイル名を検出する。
+`localize-okf-filenames.mjs --write`は、現行運用中で英語または技術IDだけの概念ファイル名へ日本語表題を追加し、Markdownリンクと所有者参照を同期する。`authority: reference`、`historical`、`catalog`の凍結資料は改名対象外とする。`--plan`で改名前の対応表を確認し、`--check`で現行概念の日本語のないファイル名を検出する。
 
 ## 公式OKF 0.2互換性検査
 

@@ -1,34 +1,34 @@
 # 技術・イェツィラー 02
 
-範囲: 確定#342：旧帝国は末期までFTL歪曲空間支配技術を実用化できなかった〜35. 凝縮真空
+範囲: 24. 操作画面と情報予算〜35. 凝縮真空
 
 ## 項目
 
-- [確定#342：旧帝国は末期までFTL歪曲空間支配技術を実用化できなかった](/decisions/decision-0342-%E7%A2%BA%E5%AE%9A-%E6%97%A7%E5%B8%9D%E5%9B%BD%E3%81%AF%E6%9C%AB%E6%9C%9F%E3%81%BE%E3%81%A7-%E6%AD%AA%E6%9B%B2%E7%A9%BA%E9%96%93%E6%94%AF%E9%85%8D%E6%8A%80%E8%A1%93%E3%82%92%E5%AE%9F%E7%94%A8%E5%8C%96%E3%81%A7%E3%81%8D%E3%81%AA%E3%81%8B%E3%81%A3%E3%81%9F.md) — 旧帝国は末期までFTL歪曲空間支配技術を実用化できなかったを確定した決定履歴。
-- [確定#343：同盟のサイキック技術は精神への直接干渉より物理的な力への変換を得意とする（秘文字含む）](/decisions/decision-0343-%E7%A2%BA%E5%AE%9A-%E5%90%8C%E7%9B%9F%E3%81%AE%E3%82%B5%E3%82%A4%E3%82%AD%E3%83%83%E3%82%AF%E6%8A%80%E8%A1%93%E3%81%AF%E7%B2%BE%E7%A5%9E%E3%81%B8%E3%81%AE%E7%9B%B4%E6%8E%A5%E5%B9%B2%E6%B8%89%E3%82%88%E3%82%8A%E7%89%A9%E7%90%86%E7%9A%84%E3%81%AA%E5%8A%9B%E3%81%B8%E3%81%AE%E5%A4%89.md) — 同盟のサイキック技術は精神への直接干渉より物理的な力への変換を得意とする（秘文字含む）を確定した決定履歴。
-- [確定#349：プレイヤー向け注解者を匿名のソフェルに変更](/decisions/decision-0349-%E7%A2%BA%E5%AE%9A-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E5%90%91%E3%81%91%E6%B3%A8%E8%A7%A3%E8%80%85%E3%82%92%E5%8C%BF%E5%90%8D%E3%81%AE%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AB%E5%A4%89%E6%9B%B4.md) — プレイヤー向け注解者を匿名のソフェルに変更を確定した決定履歴。
-- [確定#350：帝国人、シオンの廉価複製起源、内戦と蜂起、ソフェル参加、規格互換性](/decisions/decision-0350-%E7%A2%BA%E5%AE%9A-%E5%B8%9D%E5%9B%BD%E4%BA%BA-%E3%82%B7%E3%82%AA%E3%83%B3%E3%81%AE%E5%BB%89%E4%BE%A1%E8%A4%87%E8%A3%BD%E8%B5%B7%E6%BA%90-%E5%86%85%E6%88%A6%E3%81%A8%E8%9C%82%E8%B5%B7-%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E5%8F%82%E5%8A%A0-%E8%A6%8F.md) — 帝国人、シオンの廉価複製起源、内戦と蜂起、ソフェル参加、規格互換性を確定した決定履歴。
-- [確定#355：回収飛行士と別人の編纂ソフェルによる避難民回収案内](/decisions/decision-0355-%E7%A2%BA%E5%AE%9A-%E5%9B%9E%E5%8F%8E%E9%A3%9B%E8%A1%8C%E5%A3%AB%E3%81%A8%E5%88%A5%E4%BA%BA%E3%81%AE%E7%B7%A8%E7%BA%82%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AB%E3%82%88%E3%82%8B%E9%81%BF%E9%9B%A3%E6%B0%91%E5%9B%9E%E5%8F%8E%E6%A1%88%E5%86%85.md) — 回収飛行士と別人の編纂ソフェルによる避難民回収案内を確定した決定履歴。
-- [確定#359：Cellは帝国由来の粒子級自己増殖機械](/decisions/decision-0359-%E7%A2%BA%E5%AE%9A-%E3%81%AF%E5%B8%9D%E5%9B%BD%E7%94%B1%E6%9D%A5%E3%81%AE%E7%B2%92%E5%AD%90%E7%B4%9A%E8%87%AA%E5%B7%B1%E5%A2%97%E6%AE%96%E6%A9%9F%E6%A2%B0.md) — Cellは帝国由来の粒子級自己増殖機械を確定した決定履歴。
-- [確定#363：占領回収・死者復活・ソフェルの魂観](/decisions/decision-0363-%E7%A2%BA%E5%AE%9A-%E5%8D%A0%E9%A0%98%E5%9B%9E%E5%8F%8E-%E6%AD%BB%E8%80%85%E5%BE%A9%E6%B4%BB-%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AE%E9%AD%82%E8%A6%B3.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#366：帝国の時間操作と同盟時代の技術的成果](/decisions/decision-0366-%E7%A2%BA%E5%AE%9A-%E5%B8%9D%E5%9B%BD%E3%81%AE%E6%99%82%E9%96%93%E6%93%8D%E4%BD%9C%E3%81%A8%E5%90%8C%E7%9B%9F%E6%99%82%E4%BB%A3%E3%81%AE%E6%8A%80%E8%A1%93%E7%9A%84%E6%88%90%E6%9E%9C.md) — 帝国の時間操作と同盟時代の技術的成果を確定した決定履歴。
-- [確定#368：帝国の降伏、吸収、ソフェル継承、帝国式建築](/decisions/decision-0368-%E7%A2%BA%E5%AE%9A-%E5%B8%9D%E5%9B%BD%E3%81%AE%E9%99%8D%E4%BC%8F-%E5%90%B8%E5%8F%8E-%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E7%B6%99%E6%89%BF-%E5%B8%9D%E5%9B%BD%E5%BC%8F%E5%BB%BA%E7%AF%89.md) — 帝国の降伏、吸収、ソフェル継承、帝国式建築を確定した決定履歴。
-- [5. 技術体系と文明的制約](/design/05-%E6%8A%80%E8%A1%93%E4%BD%93%E7%B3%BB%E3%81%A8%E6%96%87%E6%98%8E%E7%9A%84%E5%88%B6%E7%B4%84.md) — 5. 技術体系と文明的制約の重複本文を除き、唯一の知識所有者へ案内する項目。
-- [16. 主要人物・組織](/design/16-%E4%B8%BB%E8%A6%81%E4%BA%BA%E7%89%A9%E3%83%BB%E7%B5%84%E7%B9%94.md) — 水仙、ソフェル、The Hive中枢人格、農芸公社、余白記録網の現行所有者を示す。
-- [17. 匿名のソフェル](/design/17-%E5%8C%BF%E5%90%8D%E3%81%AE%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB.md) — 匿名のソフェルの重複本文を除き、現行人物像、実装予約、物語候補の所有者へ案内する項目。
 - [24. 操作画面と情報予算](/design/24-UI%E3%81%A8%E6%83%85%E5%A0%B1%E4%BA%88%E7%AE%97.md) — 最初から帝国全史、魂の議論、惑星120件、全組織、全技術を説明しない。
 - [視覚と技術の基準](/player-facing/011-%E8%A6%96%E8%A6%9A%E3%81%A8%E6%8A%80%E8%A1%93%E3%81%AE%E5%9F%BA%E6%BA%96.md) — 未来性は、現代的な画面や軍用品ではなく、古い文明の手触りから不可能な結果が出ることで示します。
-- [0. Purpose](/research/archotech-ruins/00-Purpose-%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%86%E3%83%83%E3%82%AF%E9%81%BA%E8%B7%A1%E5%8F%82%E8%80%83.md) — This document records the visual direction taken from user-provided screenshots of vanilla-style archotech ruins and translates it into…。
-- [1. Why the current complex Core panel direction should change](/research/archotech-ruins/01-Why-the-current-complex-Core-panel-direction-should-change-%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%86%E3%83%83%E3%82%AF%E9%81%BA%E8%B7%A1%E5%8F%82%E8%80%83.md) — The previous Nexus Core visual direction risked looking like、具体的にはa complex circuit-board panel;とa generic equipment block;を扱う。
-- [2. Vanilla archotech ruin lessons](/research/archotech-ruins/02-Vanilla-archotech-ruin-lessons-%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%86%E3%83%83%E3%82%AF%E9%81%BA%E8%B7%A1%E5%8F%82%E8%80%83.md) — The supplied reference images suggest these useful visual traits、具体的にはlarge simple block masses;とthick black outlines;を扱う。
-- [3. Core visual direction change](/research/archotech-ruins/03-Core-visual-direction-change-%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%86%E3%83%83%E3%82%AF%E9%81%BA%E8%B7%A1%E5%8F%82%E8%80%83.md) — Preferred alpha form、具体的にはsimple central vertical mass;とbroad dark base or plinth;を扱う。
-- [4. Three acceptable Core silhouette options](/research/archotech-ruins/04-Three-acceptable-Core-silhouette-options-%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%86%E3%83%83%E3%82%AF%E9%81%BA%E8%B7%A1%E5%8F%82%E8%80%83.md) — Preferred alpha choice、具体的にはCore Tower：3x3 tower-like sealed monolith with crown fins and central aperture.：Preferred alpha Core.：Must…。
-- [5. Color translation from vanilla ruins to Shion Nexus](/research/archotech-ruins/05-Color-translation-from-vanilla-ruins-to-Shion-Nexus-%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%86%E3%83%83%E3%82%AF%E9%81%BA%E8%B7%A1%E5%8F%82%E8%80%83.md) — Vanilla-like archotech ruins often read through gray, olive, pale panels, and sparse glowing lines. Shion Nexus should shift that…。
-- [6. Updated Nexus Core palette](/research/archotech-ruins/06-Updated-Nexus-Core-palette-%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%86%E3%83%83%E3%82%AF%E9%81%BA%E8%B7%A1%E5%8F%82%E8%80%83.md) — Core Tower should use、具体的にはdominant: Enamel White / Pale Ceramic Ivory;とlower support: Blue-Black Navy or dark gray support block;を扱う。
-- [7. Per-state Core visual rules](/research/archotech-ruins/07-Per-state-Core-visual-rules-%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%86%E3%83%83%E3%82%AF%E9%81%BA%E8%B7%A1%E5%8F%82%E8%80%83.md) — Per-state Core visual rulesは、State：Visual directionとDormant：dark lens, closed tower face, no ledger line except faint mark.を扱う。
-- [8. Relationship to other alpha buildings](/research/archotech-ruins/08-Relationship-to-other-alpha-buildings-%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%86%E3%83%83%E3%82%AF%E9%81%BA%E8%B7%A1%E5%8F%82%E8%80%83.md) — The Core Tower must be visually more important than every other alpha building.。
-- [9. Art prompt direction, not image generation request](/research/archotech-ruins/09-Art-prompt-direction-not-image-generation-request-%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%86%E3%83%83%E3%82%AF%E9%81%BA%E8%B7%A1%E5%8F%82%E8%80%83.md) — RimWorld風Nexus Core Towerの形状、配色、材質、禁止表現を将来の画像資産向けに指定する。
-- [10. Final visual rule](/research/archotech-ruins/10-Final-visual-rule-%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%86%E3%83%83%E3%82%AF%E9%81%BA%E8%B7%A1%E5%8F%82%E8%80%83.md) — Nexus Core should look like a quiet archotech-like ceramic Core Tower: simple, heavy, readable, and irreplaceable.。
+- [SHION_C001 礼装工房の手伝い](/reference/backstories/formation/SHION_C001.md) — ソフェルの礼装を仕立てる工房で、採寸、布地の選別、刺繍図案の読み方を学んだ。
+- [SHION_C177 低温研究区の種子避難](/reference/backstories/formation/SHION_C177.md) — 低温技術の用途を聞く前に、失敗した時どこまで凍るか尋ねました。
+- [SHION_C415 種Cell研究所の培養見習い](/reference/backstories/formation/SHION_C415.md) — 主任研究員に渡された鉄粉の皿を、本人は毎朝そっと覗きに行った。
+- [SHION_C416 イェツィラー学舎の写経見習い](/reference/backstories/formation/SHION_C416.md) — 師は、見習いだった本人にマソレットの一文字も書かせず、まず完成済みの文字を読むことから教えた。
+- [SHION_A097 記録だけの復古者](/reference/backstories/mastery/SHION_A097.md) — 帝国最盛期から継ぐべきものを、制度ではなく平和の記録、技術、歌、食卓の作法に限った。
+- [SHION_A137 制裁作戦監査室の精密工](/reference/backstories/mastery/SHION_A137.md) — 制裁部隊の装備を監査しながら、技術大会の審判もしました。
+- [SHION_A163 帰還兵港の救護医](/reference/backstories/mastery/SHION_A163.md) — 帰還兵港では、救護と危険技術の押収が同時に起きます。
+- [SHION_A239 立入制限地の身体競技指導員](/reference/backstories/mastery/SHION_A239.md) — 立入制限地へ入る者には、強さよりも安全に止まる技術が必要だと教えた。
+- [SHION_A360 船体保守班の耳](/reference/backstories/mastery/SHION_A360.md) — 船体保守班で金属音から継ぎ目の緩みを聞き分け、先達から継いだ工具箱と聴覚技術を磨いた。
+- [SHION_A413 律法学舎の若きソフェル](/reference/backstories/mastery/SHION_A413.md) — 律法の写本を任されるようになったのは、灯火番だった頃から数えて十年目のことである。
+- [SHION_A415 種Cell研究所の培養手](/reference/backstories/mastery/SHION_A415.md) — 種Cellの増殖速度は、与える鉄の純度でわずかに変わります。
+- [SHION_A416 イェツィラー学舎のマソレット講師](/reference/backstories/mastery/SHION_A416.md) — 本人が弟子に最初に教えるのは、文字の書き方ではなく、書き損じた紙を燃やす作法である。
+- [0. Purpose](/research/archotech-ruins/00-Purpose.md) — This document records the visual direction taken from user-provided screenshots of vanilla-style archotech ruins and translates it into…。
+- [1. Why the current complex Core panel direction should change](/research/archotech-ruins/01-Why-the-current-complex-Core-panel-direction-should-change.md) — The previous Nexus Core visual direction risked looking like、具体的にはa complex circuit-board panel;とa generic equipment block;を扱う。
+- [2. Vanilla archotech ruin lessons](/research/archotech-ruins/02-Vanilla-archotech-ruin-lessons.md) — The supplied reference images suggest these useful visual traits、具体的にはlarge simple block masses;とthick black outlines;を扱う。
+- [3. Core visual direction change](/research/archotech-ruins/03-Core-visual-direction-change.md) — Preferred alpha form、具体的にはsimple central vertical mass;とbroad dark base or plinth;を扱う。
+- [4. Three acceptable Core silhouette options](/research/archotech-ruins/04-Three-acceptable-Core-silhouette-options.md) — Preferred alpha choice、具体的にはCore Tower：3x3 tower-like sealed monolith with crown fins and central aperture.：Preferred alpha Core.：Must…。
+- [5. Color translation from vanilla ruins to Shion Nexus](/research/archotech-ruins/05-Color-translation-from-vanilla-ruins-to-Shion-Nexus.md) — Vanilla-like archotech ruins often read through gray, olive, pale panels, and sparse glowing lines. Shion Nexus should shift that…。
+- [6. Updated Nexus Core palette](/research/archotech-ruins/06-Updated-Nexus-Core-palette.md) — Core Tower should use、具体的にはdominant: Enamel White / Pale Ceramic Ivory;とlower support: Blue-Black Navy or dark gray support block;を扱う。
+- [7. Per-state Core visual rules](/research/archotech-ruins/07-Per-state-Core-visual-rules.md) — Per-state Core visual rulesは、State：Visual directionとDormant：dark lens, closed tower face, no ledger line except faint mark.を扱う。
+- [8. Relationship to other alpha buildings](/research/archotech-ruins/08-Relationship-to-other-alpha-buildings.md) — The Core Tower must be visually more important than every other alpha building.。
+- [9. Art prompt direction, not image generation request](/research/archotech-ruins/09-Art-prompt-direction-not-image-generation-request.md) — RimWorld風Nexus Core Towerの形状、配色、材質、禁止表現を将来の画像資産向けに指定する。
+- [10. Final visual rule](/research/archotech-ruins/10-Final-visual-rule.md) — Nexus Core should look like a quiet archotech-like ceramic Core Tower: simple, heavy, readable, and irreplaceable.。
 - [6. 人格記録、復活、同化](/world/06-%E4%BA%BA%E6%A0%BC%E8%A8%98%E9%8C%B2-%E5%BE%A9%E6%B4%BB-%E5%90%8C%E5%8C%96.md) — 同盟は、身体再製造、人格記録、復活、他身体への移行に相当する技術を持つ。
 - [7. 技術体系](/world/07-%E6%8A%80%E8%A1%93%E4%BD%93%E7%B3%BB.md) — 同盟は、現代技術を数百年発展させただけの文明ではない。
 - [24. 経済相互援助会議](/world/24-%E7%B5%8C%E6%B8%88%E7%9B%B8%E4%BA%92%E6%8F%B4%E5%8A%A9%E4%BC%9A%E8%AD%B0.md) — 経済相互援助会議は、加盟国間の貿易を増やし、経済、技術その他の多様な分野で相互援助を行う同盟の条約枠である。
