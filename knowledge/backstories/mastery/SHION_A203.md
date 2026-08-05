@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A203"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 照合局徒手警護
 - Era: ModernUnion / Origin: 無党派 / Relation: 人格照合局
 
-- Tone: 人格・動物・職歴 / ReviewStatus: 採用済み
+- Tone: 人格・動物・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 物静かな警護員。人格の議論より、相手が大切にしたものを覚えている。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 人格照合局では、外見が同じ者同士を見物しようと群衆が集まることがあった。私は武器を使わず間へ入り、本人たちが望む距離まで人を下げた。複製できる人格と、自由意志を持たない人工知能は別だ。性能の高さや声の似方で決めず、生活の選択と拒否の記録を確かめた。ある複製人格は、照合質問より窓辺の老いた動物を気にしていたよ。休憩を挟むと、その子の寝床を直してから戻ってきた。私は難しい理屈より、その仕草をよく覚えている。ただし、可愛がる者は善人だ、などという判定項目は追加しなかった。
 

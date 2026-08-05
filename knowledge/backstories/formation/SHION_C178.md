@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C178"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 残響動物保護
 - Era: LongTransition / Origin: 複数党派 / Relation: 残響調査隊
 
-- Tone: 残響・戦争・形成 / ReviewStatus: 採用済み
+- Tone: 残響・戦争・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 物静かな飼育者 / 英雄譚を信用しない / 動物の反応を事実として守る / 言えなかった別れを悔やむ
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 残響深層の動物は、再現された砲声の前で毎回同じように怯えました。私は近づき過ぎず、餌を置き、反応を事実として記録した。英雄譚では「皆が勇敢に耐えた」とされる戦場でも、実際には逃げた者も震えた者もいたんです。それを弱さとして直す気はありません。調査から戻っても、亡くした友はいなかった。出発前にもっと話せばよかったという思いだけが残りました。だから今は沈黙している相手へも、返事を急かさず言葉を置くようにしています。届かなくても、何も言わず去るよりはよいので。
 

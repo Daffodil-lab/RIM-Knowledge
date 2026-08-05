@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A165"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 都市観測主任
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 都市・福祉・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 都市・福祉・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 人間観察好きの主任。物資統計より、計画外の広場で誰が一人で食べているかを見る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 計画都市の物資は十分で、統計上は誰も困っていませんでした。私は観測条件を変え、配給量ではなく誰が一人で食べているかを見ました。完成図にない小さな広場へ、制度の集会を避ける住民が集まっていたんです。私はそこで食事を配り、話す者と黙る者を同じ欠陥へ数えませんでした。都市側は正式施設へ移そうとしましたが、住民は断った。ならば広場の方へ水と屋根を足せばいい。計画を守るため住民を動かすより、暮らしを守るため計画を訂正する。その余白を観測で見つけました。
 

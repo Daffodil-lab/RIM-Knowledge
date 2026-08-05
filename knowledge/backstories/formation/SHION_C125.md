@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C125"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 空挺捜索競技
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟空挺軍
 
-- Tone: 空挺・友情・形成 / ReviewStatus: 採用済み
+- Tone: 空挺・友情・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 勝ち気な救出役 / 声を記憶する / 合図に几帳面 / 失敗を隠さない
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 降下競技では、着地の美しさより仲間を見つける速さを競いました。風で散っても合流できるよう、声、光、触覚の合図を身体へ叩き込んだんです。私は瓦礫役の狭い隙間へ入り、負傷者役を抱えて抜ける組み方が得意でした。最初の実地演習では合図を一つ聞き違え、それでも暗闇から名前を呼ぶ声を見つけた。今でも同じ声色を夢に聞きます。成績は高かったけれど、失敗図も後輩用の冊子へ残しました。救出者が恥を守るより、次の誰かの身体を守る方が大事でしょう。
 

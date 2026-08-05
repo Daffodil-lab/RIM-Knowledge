@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C032"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 儀礼補欠
 - Era: ImperialPeak / Origin: 帝国臣民 / Relation: 宮廷儀仗隊
 
-- Tone: 儀礼・身体訓練 / ReviewStatus: 採用済み
+- Tone: 儀礼・身体訓練 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 儀礼的 / 姿勢の硬さ / 足音で考える / 後悔を短く漏らす
-- PreservedCanonPoints: 本人は帝国最盛期の式典で欠員を補い、儀礼槍を持って隊列へ加わった。 / 長時間同じ姿勢を保ち、歩調、槍の角度、交代の合図を乱さない訓練を受けた。 / 実戦を想定した役ではなかったが、周囲の足音と動きから隊列の乱れを察する力が身についた。
+- PotentialReferencePoints: 本人は帝国最盛期の式典で欠員を補い、儀礼槍を持って隊列へ加わった。 / 長時間同じ姿勢を保ち、歩調、槍の角度、交代の合図を乱さない訓練を受けた。 / 実戦を想定した役ではなかったが、周囲の足音と動きから隊列の乱れを察する力が身についた。
 
 > 補欠です。名誉ある先頭ではありません。欠員が出た時だけ儀礼槍を受け取り、歩調と角度を乱さず列へ入る。それが役目でした。長く立つと、自分の足より隣の踵が聞こえるようになります。一人の冷却周期や声の調子が乱れれば、合図の前に支えられる。式典の信頼は、観客に気づかれない修正で保たれていました。最後に並んだ友が「次は正規に選ばれる」と笑った時、私は頷くだけだった。次は来なかった。華やかな行列を見るたび、あの返事を言い直したくなります。ええ、私は退屈な補欠勤務を誇っています。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C291"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 帰還点呼戦史
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟軍
 
-- Tone: 軍務・統合・形成 / ReviewStatus: 採用済み
+- Tone: 軍務・統合・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 無愛想で緻密。美談を飾らず、犠牲を抽選にしないため欠落記録を読む。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 機動強襲群で、私は古い作戦記録を読む係でした。欠けた頁を英雄譚で埋めず、誰が帰らなかったか、なぜ退路が塞がったかを調べました。兵科ごとに正しい判断が違うため、犠牲をくじのように割り振らない道を探したんです。芸術的にまとめろと言われても、私は食事時の雑談までそのまま載せました。ある夜、帰還者を数える声が朝まで途切れませんでした。報告書では成功でも、その点呼を省けば次の者が同じ賭けをします。戦史は立派に飾るためでなく、誰を帰すか考え直すために読むものです。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A282"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 低温区舞台演出
 - Era: ModernUnion / Origin: 無党派 / Relation: 研究安全局
 
-- Tone: 科学・風刺・職歴 / ReviewStatus: 採用済み
+- Tone: 科学・風刺・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 毒気のある喜劇演出家。科学者を笑わせながら、事故の責任だけはぼかさない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 低温事故を舞台にした時、研究員は厳粛な追悼劇を望んだ。私は凍った菓子を掲げて全員が黙る場面まで再現したよ。観客は笑い、その後で事故の広がりを示す床図を見た。便利な発明が食料庫から居住区まで壊した経路を、笑いで隠さず覚えてもらいたかった。役者には冷却装置を使わせず、身体で転倒を演じるため受け身を教えた。謝るべき友へ連絡を延ばしていた私は、終幕で自分の台詞も入れた。永遠に思える時間があっても、謝罪の相手が待ち続ける保証はない、とね。
 

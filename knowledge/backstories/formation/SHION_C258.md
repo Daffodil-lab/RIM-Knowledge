@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C258"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 照合局修繕
 - Era: ImperialCivilWar / Origin: 旧帝国 / Relation: 内戦生存者
 
-- Tone: 人格・動物・形成 / ReviewStatus: 採用済み
+- Tone: 人格・動物・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 現場感覚を信じる不器用な実務家。分類より、暮らしに現れる人格を尊ぶ。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 内戦中の人格照合局で、私は壁と避難路を直す班にいました。難しい照合理論は苦手で、図を見続けるより現場へ行く方を選びました。それでも、複製された人格と命令どおり動く人工知能を、外見だけで同じにしてはいけないと学びました。局にいた複製人格は、古い動物を毎日かわいがっていました。避難の日、私は配管ばかり気にして、その人へ別れを言い損ねました。後で残っていたのは、動物の寝床を直した跡です。人格は分類表だけでなく、誰を気にかけ、何を拒み、何を残すかにも現れるのでしょう。
 

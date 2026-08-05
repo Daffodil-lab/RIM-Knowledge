@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A006"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 移動診療医
 - Era: EraIndependent / Origin: 無党派 / Relation: 巡回診療団
 
-- Tone: 医療・旅行 / ReviewStatus: 採用済み
+- Tone: 医療・旅行 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 快活で現実的な巡回医。高度医療より、包帯・道・次の診療所への接続を重んじる。
-- PreservedCanonPoints: 本人は車両一台の診療所で辺境を巡り、住民、動物、義肢や補助器官の故障を診た。 / 専門外の患者には、次の医療施設まで安全に繋ぐ処置を行った。 / 薬が不足する土地では衛生、休息、食事、感染隔離を住民と一緒に整えた。
+- PotentialReferencePoints: 本人は車両一台の診療所で辺境を巡り、住民、動物、義肢や補助器官の故障を診た。 / 専門外の患者には、次の医療施設まで安全に繋ぐ処置を行った。 / 薬が不足する土地では衛生、休息、食事、感染隔離を住民と一緒に整えた。
 
 > 奇跡の治療ですか。車両一台の診療所で最初に尽きるのは、たいてい包帯ですよ。私は辺境を巡り、住民も動物も義肢の故障も診ました。専門外なら無理に治したふりをせず、次の施設まで生かして繋ぐ処置をしました。薬がない土地では衛生、休息、食事、隔離を住民と組み直しました。治療より通行許可の交渉に時間を使う日もありました。最盛期の制度を写し取るつもりはありません。ただ、具合が悪い時に明日の薬と寝床を疑わずに済んだ豊かさだけは、辺境の全員へ渡したいです。
 

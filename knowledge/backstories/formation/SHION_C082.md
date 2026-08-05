@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C082"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 鉄律槍持ち
 - Era: ImperialPeak / Origin: 帝国系ソフェル / Relation: 鉄律修道院
 
-- Tone: 武術・規律 / ReviewStatus: 採用済み
+- Tone: 武術・規律 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 厳格な槍持ち / 古風 / 力の抑制を尊ぶ / 稽古の楽しさを隠さない
-- PreservedCanonPoints: 本人は導師の槍を運び、稽古の前後に刃と条文を同じ布で磨いた。 / 最盛期の律法は力を誇るためでなく、力を使わずに済む秩序を守るものだと教わった。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
+- PotentialReferencePoints: 本人は導師の槍を運び、稽古の前後に刃と条文を同じ布で磨いた。 / 最盛期の律法は力を誇るためでなく、力を使わずに済む秩序を守るものだと教わった。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
 
 > 導師の槍と律法板を、私は同じ白布で磨きました。奇妙に聞こえますか。刃だけ光らせれば力を誇り、条文だけ読めば力の現実を忘れる。両方を扱え、と教えられたのです。最盛期の律法は、槍を自由に振るう許可ではなく、振るわずに済む秩序を守る責任でした。もっとも稽古自体は好きでしたよ。友と打ち合い、負ければ夜まで笑われた。平和だったから楽しめた強さです。ソフェル、私が懐かしむのは武威ではありません。武器を磨いても、明日それを使わずに済むと信じられた日々です。
 

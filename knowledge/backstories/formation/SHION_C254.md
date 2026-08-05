@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C254"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 広場討論会
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 都市・福祉・形成 / ReviewStatus: 採用済み
+- Tone: 都市・福祉・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 理屈好きだが柔軟。住民の使い方が、完成図を超える瞬間を喜ぶ。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 計画都市の討論会では、反論する前に相手の意見を言い直す決まりでした。私は地下空洞を埋める案を担当し、安全のため広場も消すべきだと主張しました。ところが住民は、その小さな場所で待ち合わせをし、蘇った友と再会し、屋台を開いていた。私は負けを認め、空洞だけ補強する案へ直しました。昔の友ともそこで会いましたが、離れていた時間の話はうまくできませんでした。完成図にない場所でも、人が約束を重ねれば街になる。今は図面の余白を見ると、そこに何が育つかを先に尋ねます。
 

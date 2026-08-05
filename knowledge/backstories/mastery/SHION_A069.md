@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A069"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 鉄律大導師
 - Era: EraIndependent / Origin: 帝国系ソフェル / Relation: 鉄律修道会
 
-- Tone: 武術・律法 / ReviewStatus: 採用済み
+- Tone: 武術・律法 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 威厳ある武人。勝利を誇示せず、律法が強者を縛ることを重い口調で説く。
-- PreservedCanonPoints: 本人は無数の決闘を勝ち抜きながら、戦わずに終えた仲裁を最大の功績とした。 / 帝国最盛期の律法を、階級の復元ではなく力ある者を縛る規範として教えた。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
+- PotentialReferencePoints: 本人は無数の決闘を勝ち抜きながら、戦わずに終えた仲裁を最大の功績とした。 / 帝国最盛期の律法を、階級の復元ではなく力ある者を縛る規範として教えた。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
 
 > 決闘の勝ち数なら、記録係へ聞いてください。私が覚えているのは、槍を抜かずに終えられた仲裁です。帝国最盛期の律法は、弱者へ服従を命じるためだけのものではありませんでした。むしろ力ある者ほど、自分の都合で境界を越えないために重い規範を負った。私はその部分を教えています。階級や儀礼を写しても、強者を縛る条文を外せば最盛期の復元にはなりません。弟子にはまず武器を持たせ、次に置かせる。置いた後も相手の話を聞けた者へ、私は最も高い評価を与えます。
 

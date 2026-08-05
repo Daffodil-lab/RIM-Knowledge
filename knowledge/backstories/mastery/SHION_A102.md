@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A102"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 帰還港舞台演出
 - Era: ModernUnion / Origin: 無党派 / Relation: 帰還者支援局
 
-- Tone: 戦争・時間・職歴 / ReviewStatus: 採用済み
+- Tone: 戦争・時間・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 声の大きい舞台演出家。帰還兵へ昔の役を押しつけず、笑いと気まずさも舞台へ載せる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帰還兵港の舞台を任されました。帰ってきた者へ英雄役を押しつける演目は嫌いです。異なる時間を生きた友同士が再会し、互いの経過時間と身体更新歴の差に笑おうとして笑えない。そんな気まずさまで舞台へ載せました。戦闘場面では古い命令を再演せず、誰が命令から帰れなかったかを身体の間で見せたんです。稽古中に役者が転び、観客の帰還兵が初めて笑ったので、その転倒も残しました。昔と同じ関係へ戻れなくても、今の相手と新しい台詞を始められる。私は幕を、追悼の終わりではなく再会の続きとして上げています。
 

@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A164"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 停戦域討論調停
 - Era: ImperialCivilWar / Origin: 帝国離反者 / Relation: 停戦派
 
-- Tone: 内戦・停戦・職歴 / ReviewStatus: 採用済み
+- Tone: 内戦・停戦・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 粘り強い停戦調停人。公開討論を勝負として運営しつつ、武器を置く震えを敗北と呼ばない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 開戦前の残響を再現した討論大会で、停戦派と継戦派を調停しました。双方へ相手の主張を言い直させ、合意できない点も公開記録へ残しました。観客は勝敗を求めましたが、私は武器を置ける条件が一つ増えた時だけ得点を付けたんです。地下会場の空洞へ退避案を実演し、抽象論を現場へ引き戻しました。最後に武器を置いた参加者の手は震えていました。後世の安全な席から臆病と呼ぶ気はありません。止める選択にも、撃つのと同じだけ身体が要ることを知ったからです。
 

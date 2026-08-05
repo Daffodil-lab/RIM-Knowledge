@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A129"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 予測院古文書研
 - Era: ModernUnion / Origin: 無党派 / Relation: 評議会研究院
 
-- Tone: 研究・長期計画・職歴 / ReviewStatus: 採用済み
+- Tone: 研究・長期計画・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 好奇心旺盛な古文書愛好家。読めない箇所を楽しみ、古い献立を再現して未来予測へ異議を唱える。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 長期予測院で古文書を読んでいました。欠けた一行を都合よく埋めず、「読めない」と公表するのが私の役目です。趣味で古い献立も再現しましたよ。ある移民記録には料理名だけ残り、材料が不明でした。私は候補を三皿作り、帰還者へ食べてもらった。正解は決まりませんでしたが、食卓で語られた家族史が未来計画の人口移動予測を覆したんです。資料の空白は失敗ではありません。誰かが話し始める席にもなる。私は最盛期の記録を、答えの箱ではなく次の質問を置く卓として残したいんです。
 

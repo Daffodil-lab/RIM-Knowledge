@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C051"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 返却義肢洗浄係
 - Era: ModernUnion / Origin: 無党派 / Relation: 身体交換所
 
-- Tone: 医療・記憶 / ReviewStatus: 採用済み
+- Tone: 医療・記憶 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 臨床的だが情深い / 手触りを記憶 / 廃棄へ慎重 / 部品にも来歴を見る
-- PreservedCanonPoints: 本人は換装後に返された義肢を洗い、傷と持ち主の記録を照合した。 / 廃棄予定の指に古い友人の癖を見つけると、許可を得て記念箱へ移した。 / 部品にも別れ方があると学んだ。
+- PotentialReferencePoints: 本人は換装後に返された義肢を洗い、傷と持ち主の記録を照合した。 / 廃棄予定の指に古い友人の癖を見つけると、許可を得て記念箱へ移した。 / 部品にも別れ方があると学んだ。
 
 > 返却義肢は洗浄、照合、再利用か廃棄。手順は簡単です。けれど傷には持ち主の癖が残る。ある指の側面だけ細く磨り減っていて、昔の友が考え込む時に机を叩いた跡だと分かりました。本人はもう別の身体で、覚えていなかった。私は許可を取り、その指を記念箱へ移した。感傷で資材を浪費した、と書きますか？　構いません。ただ、新しい身体を得たから古い部品が無意味になるとは思わない。物は人格ではない。それでも、誰かと過ごした時間の証拠にはなれます。別れ方くらい選ばせてください。
 

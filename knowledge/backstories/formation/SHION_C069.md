@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C069"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 彗星野営者
 - Era: EraIndependent / Origin: 無党派 / Relation: 観測旅行団
 
-- Tone: 観測・野営 / ReviewStatus: 採用済み
+- Tone: 観測・野営 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 野営好き / 快活から静かへ移る / 彗星より同行者を見る / 写真へ執着
-- PreservedCanonPoints: 本人は同じ彗星を何度も追い、軌道ごとに別の友人を誘った。 / 再び来るまで待てない者もいたため、観測記録より食事と集合写真を多く残した。 / 彗星だけは毎回ほぼ同じだった。
+- PotentialReferencePoints: 本人は同じ彗星を何度も追い、軌道ごとに別の友人を誘った。 / 再び来るまで待てない者もいたため、観測記録より食事と集合写真を多く残した。 / 彗星だけは毎回ほぼ同じだった。
 
 > 同じ彗星を追うのに、毎回違う友人を誘いました。軌道はほぼ同じ、尾の色も予測どおり。でも次の接近まで待てない者がいる。だから私は観測値より野営の献立と集合写真を多く残しました。研究者には叱られましたよ。彗星はまた来るのに、写真の端で鍋を落とした友は来なかった。優先順位は間違っていないと思います。空の反復より、隣にいた者の一度きりを記録したかった。ソフェル、次の接近には誰を誘いましょう。あなたが来るなら、記録器より皿を持ってきてください。
 

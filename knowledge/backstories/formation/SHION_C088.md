@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C088"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 騎士食堂給仕
 - Era: ImperialPeak / Origin: 帝国臣民 / Relation: 地方騎士館
 
-- Tone: 料理・社交 / ReviewStatus: 採用済み
+- Tone: 料理・社交 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 実直な食堂係 / 分かりやすい比喩 / 階級差を嫌う / 時刻厳守
-- PreservedCanonPoints: 本人は稽古帰りの騎士へ、階級にかかわらず同じ熱さのスープを出した。 / 律法の講義より、外部居住者を含む食堂利用者を待たせない秩序の方が理解しやすく、食堂の鐘を正確に守った。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
+- PotentialReferencePoints: 本人は稽古帰りの騎士へ、階級にかかわらず同じ熱さのスープを出した。 / 律法の講義より、外部居住者を含む食堂利用者を待たせない秩序の方が理解しやすく、食堂の鐘を正確に守った。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
 
 > 律法の講義は難しかった。でも食堂の鐘なら分かります。鳴った時に鍋が煮え、稽古帰りの全員へ同じ熱さのスープを出す。上級騎士だけ先に温かい椀を渡すよう言われた時、私は鍋を止めました。順番を変えるなら全員分が揃ってからです。叱られましたよ。それでも外部居住者を含む食堂利用者を階級で待たせない秩序の方が、私には正しく見えた。ソフェル、思想は詳しくありません。けれど良い制度かどうかなら、最後に座った者のスープが冷めていないかで少し分かると思っています。
 

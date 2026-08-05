@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C309"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 答えなき菜園
 - Era: EraIndependent / Origin: 無党派 / Relation: 調査船団
 
-- Tone: 宇宙・観測・形成 / ReviewStatus: 採用済み
+- Tone: 宇宙・観測・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 気長で協調的。無言の巨大構造物より、同じ苗を囲む仲間の異論を大切にする。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 無人構造物を追う調査船で、私は共同菜園を世話しました。巨大なものは何も答えず、乗員は目的について毎日違う説を唱えました。私は観測できた動きだけを記し、議論が荒れると同じ苗の世話へ誘いました。土、水、光の測り方にも意見は分かれ、失敗した畝は消さず次の担当へ渡しました。構造物を見送った時、結論は得られませんでした。でも異なる考えの者が同じ収穫を食べることはできた。私は最盛期を超える平和を、全員が同じ答えを持つ社会ではなく、未解決のまま同じ卓へ戻れる社会だと思っています。
 

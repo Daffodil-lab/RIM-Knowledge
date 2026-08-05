@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A009"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 物資台帳官
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟補給局
 
-- Tone: 物流・行政 / ReviewStatus: 採用済み
+- Tone: 物流・行政 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 皮肉屋で几帳面。帳簿が正しいことより、現場で本当に使える物資が届くことを重視する。
-- PreservedCanonPoints: 本人は同盟補給局で、台帳上の在庫と現場が実際に使える物資の差を調べた。 / 数字が合っていても、破損品や誤分類で不足が隠れていないか倉庫まで確認した。 / 余剰品は成績として抱え込まず、必要とする集落へ回した。
+- PotentialReferencePoints: 本人は同盟補給局で、台帳上の在庫と現場が実際に使える物資の差を調べた。 / 数字が合っていても、破損品や誤分類で不足が隠れていないか倉庫まで確認した。 / 余剰品は成績として抱え込まず、必要とする集落へ回した。
 
 > 台帳には在庫あり、とあります。倉庫へ行けば箱は空です。私はそういう冗談を同盟補給局で何度も見ました。数字が合っていても、破損や誤分類で現場が使えなければ不足です。余剰品を成績として抱える者とはよく争い、必要な集落へ回しました。同じ部品へ旧制度の分類番号が三つ付いていた時は、統合の歴史まで台帳へ残しました。整理したふりで判断理由を消したくなかったからです。正しい帳簿を作るより、遠い未来の担当者が私の誤りを辿り、違う結論へ進める帳簿を作りたいのです。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C292"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 温室護衛役
 - Era: ModernUnion / Origin: 無党派 / Relation: 評議会研究院
 
-- Tone: 研究・長期計画・形成 / ReviewStatus: 採用済み
+- Tone: 研究・長期計画・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 警戒心が強く気長。遠い予測と、友や植物を目前で守る仕事を両立する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 長期予測院で護衛訓練を受けながら、私は温室の世話もしました。遠い未来の危機は表に並んでいても、今日どの苗が枯れるかは自分で見なければ分かりません。古い照準器を捨てず、退路と仲間の位置を毎朝確かめました。予測では無関係だった友が、侵入者より先に温室の異変へ気づき、避難を助けた日があります。のちに再会しても、あの時と同じ関係には戻れませんでした。でも植物と同じで、別の季節から育て直すことはできる。私は遠い平和より、まず友が安心して次の日を待てる場所を守ります。
 

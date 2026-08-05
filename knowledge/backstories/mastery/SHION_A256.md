@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A256"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 停戦域終生飼養
 - Era: ImperialCivilWar / Origin: 帝国離反者 / Relation: 停戦派
 
-- Tone: 内戦・停戦・職歴 / ReviewStatus: 採用済み
+- Tone: 内戦・停戦・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 静かな停戦派。動物の老いと、武器を置いた者の震えを裁かず見守る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 開戦前の残響域で、私は役目を終えた動物の日課を守っていた。同じ場所には、武器を置いた帝国兵もいたよ。今から見れば、もっと早く離反すれば戦争を止められたと言える。だが彼の手は震え、寝床の藁を替えるだけで何度も周囲を見た。私は決断の遅さを責めず、動物と同じように毎日の仕事を渡した。停戦派になったのは勇敢だったからではない。撃ち続けることへ耐えられなくなったからだと、彼は言った。平和を語る時、私は立派な転向譚にしない。武器を置いた後にも震えが残ることを忘れたくない。
 

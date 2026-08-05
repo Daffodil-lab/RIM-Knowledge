@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A231"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: Kombinat農園技師
 - Era: ModernUnion / Origin: 無党派 / Relation: Kombinat共同体
 
-- Tone: 工業・保守・職歴 / ReviewStatus: 採用済み
+- Tone: 工業・保守・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 実務派の共同体政治家。農園を演説の場ではなく、直せる暮らしの縮図と見る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > Kombinatの共同農園は、生産効率だけなら機械へ閉じた方がよかった。私は住民が歩ける畝と、自分で水をやれる弁を残した。建物の設計は不得手だったので、温室骨組みは専門家へ任せたよ。その代わり、壊れた時に誰が直せるか、毎季皆で確かめた。Kombinatが止まった夜は、党派の違う者も手で水を運び、朝まで苗を守った。私は最盛期の豊かさを取り戻したいと公言している。だが完成した制度へ従うだけの暮らしでは足りない。故障を見つけ、隣人と相談し、自分の手で直せる余地まで含めて平和だと思う。
 

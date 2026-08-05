@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A198"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 連合合奏指導
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 革命・証言・職歴 / ReviewStatus: 採用済み
+- Tone: 革命・証言・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 朗らかで力強い。革命の理念より、後方の日常と仲間の癖を鮮明に語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 革命連合の後方では、党派の違う者が同じ曲を演奏した。仲がよかったわけではない。配給の順番で怒鳴り合い、翌朝には同じ譜面を覗き込んだ。私は指揮棒を折るほど振り、運搬箱まで打楽器にしたよ。前線へ物資を送る前の短い演奏が、誰かの最後の休息になることもあった。蘇生を待つ友の席は空けておいた。戻った彼は曲の途中で入り、昔と違う癖で拍を外した。それでよかった。旗の模様より炊事の煙をよく覚えているし、土いじりは今も不得手だ。苗床を任された一度だけは、皆が本気で団結して私を止めた。
 

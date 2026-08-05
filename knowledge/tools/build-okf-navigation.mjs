@@ -172,9 +172,9 @@ renderFacetDimension(
 
 const lifecycleGroups = groupBy(records, (record) => record.metadata.status);
 const authorityGroups = groupBy(records, (record) => record.metadata.authority);
-const canonReviewGroups = groupBy(
-  records.filter((record) => record.metadata.canon_review),
-  (record) => record.metadata.canon_review,
+const referenceReviewGroups = groupBy(
+  records.filter((record) => record.metadata.reference_review),
+  (record) => record.metadata.reference_review,
 );
 const overhaulGroups = groupBy(
   records.filter((record) => record.metadata.overhaul_state),
@@ -193,9 +193,9 @@ renderFacetDimension(
   {},
 );
 renderFacetDimension(
-  "state/canon-review",
-  "正史審査状態別索引",
-  canonReviewGroups,
+  "state/reference-review",
+  "参考審査状態別索引",
+  referenceReviewGroups,
   {},
 );
 renderFacetDimension(
@@ -209,24 +209,24 @@ put("state/index.md", [
   "",
   "- [ライフサイクル](lifecycle/)",
   "- [権威](authority/)",
-  "- [正史審査状態](canon-review/)",
+  "- [参考審査状態](reference-review/)",
   "- [オーバーホール状態](overhaul/)",
 ]);
 
 const overhaulStates = {
   candidate: records.filter(
-    (record) => record.metadata.canon_review === "candidate",
+    (record) => record.metadata.reference_review === "candidate",
   ),
   "re-audit": records.filter(
-    (record) => record.metadata.canon_review === "re-audit",
+    (record) => record.metadata.reference_review === "re-audit",
   ),
   "under-review": records.filter(
     (record) => record.metadata.overhaul_state === "under-review",
   ),
 };
 const overhaulLabels = {
-  candidate: "candidate（新規正史候補）",
-  "re-audit": "re-audit（旧稿再監査）",
+  candidate: "candidate（参考候補）",
+  "re-audit": "re-audit（参考再監査）",
   "under-review": "under-review（オーバーホール中）",
 };
 

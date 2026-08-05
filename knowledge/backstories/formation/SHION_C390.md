@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C390"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 口笛吹き
 - Era: ColonizationEra / Origin: 採掘隊 / Relation: 年長の相棒
 
-- Tone: 陽気・自慢・仲間 / ReviewStatus: 採用済み
+- Tone: 陽気・自慢・仲間 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 陽気で自慢げな、くだけた口調。感情をはっきりと見せる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 俺の口笛は坑道じゃちょっとした自慢だったんだぜ。年長の相棒が坑内でガスの匂いに気づいたら三回、休憩なら二回、俺に吹かせてた。子どもの高い音は坑道の奥まで通るからな。誰よりも音を長く伸ばせたのは俺だった。あの反響、今でも耳の奥に残ってる。おかげで岩の重なり方も自然と分かるようになった。今でも狭いところに入ると勝手に口笛が出ちまう、こればっかりは治らない。
 

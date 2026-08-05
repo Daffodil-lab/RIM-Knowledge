@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C117"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 塔域種子記録
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 塔・記録・形成 / ReviewStatus: 採用済み
+- Tone: 塔・記録・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 几帳面な種子番 / 呼称の誤りに厳しい / 挨拶は短い / 失敗記録を共有財と見る
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 種子袋には故郷の名、採取日、発芽条件を三度書きました。塔の端末記録と現物が食い違えば、急いでいても確認者を増やした。革命連合では旗より食料が先に混ざりましたから、誰の種かで揉める暇はありません。それでもアロンの投影と独立した人格を同じ呼び方で処理する雑さには反対しました。分類は支配のためだけでなく、相手を取り違えない礼儀でもあります。一棚を黴させた失敗も消していません。平和な社会なら、失敗を隠す者より公開した者が次の種を任されるべきでしょう。
 

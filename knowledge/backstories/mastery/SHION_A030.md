@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A030"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 救難記録編纂者
 - Era: EraIndependent / Origin: 無党派 / Relation: 独立救難隊
 
-- Tone: 救難・記録 / ReviewStatus: 採用済み
+- Tone: 救難・記録 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 不屈だが独断を戒める編纂者。地図の空白を死亡確認にせず、未捜索の約束として残す。
-- PreservedCanonPoints: 本人は救難信号、捜索範囲、目撃情報、発見物を地図へまとめ、次の隊が同じ場所を無駄に探さないようにした。 / 未捜索域を大きく示し、推測と確認情報を分けた。 / 捜索終了は単独で決めず、現場隊と遺族の意見を記録して判断を引き継いだ。
+- PotentialReferencePoints: 本人は救難信号、捜索範囲、目撃情報、発見物を地図へまとめ、次の隊が同じ場所を無駄に探さないようにした。 / 未捜索域を大きく示し、推測と確認情報を分けた。 / 捜索終了は単独で決めず、現場隊と遺族の意見を記録して判断を引き継いだ。
 
 > 地図の空白を黒く塗らないでください。そこは死亡確認ではなく、まだ探していない場所です。私は救難信号、捜索範囲、目撃、発見物をまとめ、次の隊が同じ谷を無駄に歩かないようにしました。推測と確認を分け、捜索終了は現場隊と遺族の意見なしに決めません。一度、効率を理由に空白を小さく描き、後続隊がそこを探索済みと思い込みました。生存者は別の隊が見つけました。あの線を忘れません。最盛期を超える平和とは、行方不明者の明日まで帳簿の都合で閉じない社会だと思います。
 

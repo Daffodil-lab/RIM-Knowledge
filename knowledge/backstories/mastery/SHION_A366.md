@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A366"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 巡回三規則
 - Era: JourneyEra / Origin: 東側／凍土の民 / Relation: 保安巡回班
 
-- Tone: 秩序・規律・巡回 / ReviewStatus: 改稿採用済み
+- Tone: 秩序・規律・巡回 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 短く区切って話す元巡回員。数字で記憶を整理する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 規則は三つだけだった。持ち場を離れるな、武器は見せるな、揉め事は数える前に止めろ。凍土の民の出だから力仕事に回されたが、巡回で使ったのは腕より口だった。十二年で担当区画の乱闘は二桁に届かなかった、それが俺の唯一の自慢だ。三つの規則のうち二番目だけは何度も破りかけた、殴りたい夜は何度もあった。だが最後まで、俺は三つとも守り切った。数え間違えたことは一度もない、それだけは胸を張って言える。
 

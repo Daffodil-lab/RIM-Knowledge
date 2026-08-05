@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C297"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 安全菜園大会
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 回収班
 
-- Tone: 遺物・危険・形成 / ReviewStatus: 採用済み
+- Tone: 遺物・危険・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 大胆だが用心深い園芸家。珍品より、安全に食卓へ戻れる収穫を誇る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 立入制限地の外縁で、私たちは菜園大会を開きました。珍しい実を育てた者でなく、土と水の危険を調べ、全員が安全に食べられる収穫を作った者が勝ちです。回収班は高価そうな遺物を持ち帰りたがりましたが、私は周囲の変化を先に記録しました。ある年はすべての苗が駄目になり、道端で買った安い種だけが無害でした。皆で笑って、負けた畑の記録まで食卓へ持ち寄りました。豊かさとは珍品を集めることより、明日の食事を疑わず待てることだと、私はあの安い芽から教わりました。
 

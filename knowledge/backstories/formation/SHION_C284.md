@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C284"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 無党派の保存食
 - Era: ModernUnion / Origin: 複数党派 / Relation: 同盟評議会
 
-- Tone: 政治・生活・形成 / ReviewStatus: 改稿採用済み
+- Tone: 政治・生活・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 朗らかな料理好き。党派より、旅立つ本人の体調と食べる日を優先する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自治評議区で保存食を作ると、党派ごとの伝統料理を入れろと必ず注文が来ました。私は旅立つ本人へ、誰と食卓を囲むのか、外部同行者に栄養条件や禁忌があるか、本人はどの香りや食感を好むかを尋ねました。旗の色では身体条件も感覚上の好みも分かりませんから。帰らなかった者の包みは追悼日に開き、同じ卓で分けました。蘇った友へ昔と同じ味を渡した時、「今はもっと辛い方が好きだ」と言われたことがあります。昔の味を失った気がして寂しかったけれど、今の友のために作り直しました。過去を大切にすることと、現在の好みを無視することは違います。私は次に食卓を囲む日のために料理します。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A342"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 分隊助産師
 - Era: JourneyEra / Origin: 東側／凍土文化継承者 / Relation: 医療分隊
 
-- Tone: 医療・出産・継承 / ReviewStatus: 改稿採用済み
+- Tone: 医療・出産・継承 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 落ち着いた助産師。過去より次の手順を語りたがる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 私が支えた外部居住者の出産は百四十件を超える。凍土文化を継ぐ産婆だった先達のやり方と、船内医療班の手順を両方使った。先達のやり方が正しかった場面が何度もあったので、私は記録用紙の余白に自分なりの補足を書き足していた。次にこの仕事を継ぐ人には、その余白ごと渡すつもりでいる。手順書だけでは救えない場面が必ず来るから、余白を埋める判断力も一緒に渡したい。それが私の最後の仕事になる。
 

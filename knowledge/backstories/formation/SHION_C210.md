@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C210"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 封鎖地連絡橋
 - Era: ModernUnion / Origin: 無党派 / Relation: 異常対応班
 
-- Tone: 異常・研究・形成 / ReviewStatus: 採用済み
+- Tone: 異常・研究・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 橋を会話と捉える補修助手 / 変色を断定しない / 使用者へ工具を合わせる / 夕焼けに警戒が残る
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 封鎖地の古い橋は、人だけでなく情報も渡しました。片岸の観測者と、もう片岸の住民が互いを疑っていたからです。私は変色した梁を「汚染」と断定せず、工具を使う者の身体へ合わせ、補修した箇所と不明な箇所を分けて渡しました。一度、説明を急いで住民の不安を軽く扱い、通行再開が遅れた。今も悔やんでいます。帰還後は普通の夕焼けまで危険色に見えました。橋を直すとは構造を繋ぐだけではない。互いの怖さを最後まで聞ける道を残すことだと思います。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A346"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 儀礼歌唱指導
 - Era: JourneyEra / Origin: 儀礼歌唱団出身 / Relation: 教区評議会
 
-- Tone: 儀礼・声・反復 / ReviewStatus: 採用済み
+- Tone: 儀礼・声・反復 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 歌うように話す指導者。同じ言葉を繰り返す癖がある。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 声を合わせる、それが私の仕事だった。声を合わせる、それだけを毎晩教えた。新しい律法の詞に旧い節をつけるのは禁じられていたけれど、私はこっそり半分だけ旧い節を混ぜていた。声を合わせる、と言いながら実は別々の記憶を合わせていたのかもしれない。見つかって叱られたことも、声を合わせる、その一言で許してもらえた。今でも耳の奥で、あの晩の声が合わさる瞬間を覚えている。声を合わせる、それだけがわたしの律法だった。
 

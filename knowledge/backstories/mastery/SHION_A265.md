@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A265"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 照合局坑道監督
 - Era: ModernUnion / Origin: 無党派 / Relation: 人格照合局
 
-- Tone: 人格・動物・職歴 / ReviewStatus: 採用済み
+- Tone: 人格・動物・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 実務的な坑道監督。人格論を地層の比喩で語るが、推測と事実は混ぜない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 人格照合局の地下保管庫を広げる時、私は地層の音を聞き、戻れる順番で掘らせた。記憶も地層に似ている、とよく思ったよ。欠けた場所を同じ材料で埋めても、元の層と同じにはならない。ただし比喩は記録へ書かなかった。複製可能な人格と、自由意志を持たない人工知能は生活上の選択と拒否で区別した。ある人格は作業より老いた動物の世話を選び、その姿を壁画へ残してよいか本人へ尋ねた。旧帝国の秩序を懐かしんでも、本人の許可なく記憶を公共物へする習慣は戻したくない。
 

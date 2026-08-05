@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A175"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 市場臨床医役
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 星間交易圏
 
-- Tone: 交易・旅・職歴 / ReviewStatus: 採用済み
+- Tone: 交易・旅・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 軽妙な巡回医。治療代の交渉も建物の補修も引き受け、信用を診療資源として扱う。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 星間市場を巡って診療しました。薬が足りなければ商人と交渉し、病室がなければ空き店舗を補強します。医師の仕事ではない？　患者が雨漏りの下で眠れば、治療は長引きますよ。支払いは通貨だけでなく、次の寄港地へ薬を届ける約束でも受けました。信用の診察は傷より難しい。期限と来歴を必ず記録しました。閉店後、値段で争っていた商人同士が同じ薄いスープを分けた夜があります。私は豪華な医療院より、そんな席が翌朝も残る市場を治したいんです。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C220"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 旧党派見張り窓
 - Era: LongTransition / Origin: 共産党系 / Relation: 旧党派記録所
 
-- Tone: 党派・記録・形成 / ReviewStatus: 採用済み
+- Tone: 党派・記録・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 苦い口調の遠距離観測者 / 誤射を恐れる / 沈黙も証言として扱う / 消された筆圧を忘れない
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 収容記録所の窓から、私は遠距離で人影を識別し、誤射を避けるため長く待ちました。射撃手ではなくても、間違えれば同じ責任です。自白は権力者の都合で書き換わり、黙った者は「証言なし」とされた。私は沈黙も一つの応答として残し、本人の希望と制度案を別欄へ書きました。名前を削られた頁には、筆圧だけが残っていた。その人を蘇らせても、消された時間と恐怖まで無かったことにはできません。私が守りたいのは大きな党史より、誰も名前を削られず明日を待てる小さな部屋です。
 

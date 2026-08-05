@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C044"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 渡り徒弟
 - Era: LongTransition / Origin: 無党派 / Relation: 複数の独立開拓団
 
-- Tone: 開拓・職能移動 / ReviewStatus: 採用済み
+- Tone: 開拓・職能移動 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 飄々とした渡り者 / 逸話を並べる / 所属に執着しない / 手順の共通性を信じる
-- PreservedCanonPoints: 本人は定住地が解散するたび別の開拓団へ移り、農場、工房、警備所で働いた。 / 元社会民主党員から配給を、元共産党員から工作を、帝国離反者から護身を教わった。 / 誰も同じ未来を語らなかったが、設備を直し食事を分ける方法には共通点があった。
+- PotentialReferencePoints: 本人は定住地が解散するたび別の開拓団へ移り、農場、工房、警備所で働いた。 / 元社会民主党員から配給を、元共産党員から工作を、帝国離反者から護身を教わった。 / 誰も同じ未来を語らなかったが、設備を直し食事を分ける方法には共通点があった。
 
 > どこの出身か、と聞かれるのが一番困ります。定住地が解散するたび移りましたから。元社会民主党員には配給鍋の底を焦がさない順番を、元共産党員には壊れた旋盤の癖を、帝国離反者には撃つ前に逃げ道を見ることを教わった。未来の話は三人とも違いましたよ。でも設備の止め方と食事の分け方はよく似ていた。私は党籍より、困った日に何を差し出す人かを覚えます。根無し草と呼ばれても構わない。ソフェル、根は一つの土地へ刺すものだけですか。私は渡った先へ手順を残すことで繋がっています。
 

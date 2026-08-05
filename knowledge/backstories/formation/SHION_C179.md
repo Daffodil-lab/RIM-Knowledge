@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C179"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 内務筆記具修理
 - Era: PostCivilWarEmpire / Origin: 旧帝国 / Relation: 内戦後帝国
 
-- Tone: 党派・記録・形成 / ReviewStatus: 採用済み
+- Tone: 党派・記録・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 用心深い修理助手 / 削除痕に敏感 / 安全検査は几帳面 / 内務機関の威圧を忘れない
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 内務記録所で直したのは、筆記具と照合器、それに警備用の照準具でした。安全確認は省きません。あの場所では小さな不具合も誰かの罪にされたからです。交換を命じられた筆記具に、持ち主の噛み傷と冗談が刻まれていて、私は傷を残して修理した。台帳では名前が消され、紙には筆圧だけが残っていました。内戦後の帝国は律法を語りながら、都合の悪い暮らしを削ったんです。私は内務省警察の一員ではありません。怖くて黙っていた施設助手です。だから今は、消された小さな跡ほど先に保存します。
 

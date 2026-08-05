@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C246"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 市場の仮住まい
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 星間交易圏
 
-- Tone: 交易・旅・形成 / ReviewStatus: 採用済み
+- Tone: 交易・旅・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 実務的で親切。住まいの良さを、最初の夜に眠れるかどうかで測る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 星間市場の裏には、到着した晩だけ使う仮住まいが並んでいました。私は壁を組み、身体の大きさや荷物に合わせて入口を直しました。見栄えより、疲れた人が迷わず寝床へ着けることが大事です。代金を払えない帰還者には、商人たちが余った部材を持ち寄りました。蘇った友の部屋を作った時、昔と同じ向きへ寝台を置こうとして断られました。友には友の新しい癖があったんです。少し寂しかったけれど、作り直しました。閉店後に皆で食べた薄いスープまで含めて、あれは立派な家だったと思います。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A363"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 水耕甲板霜焼
 - Era: JourneyEra / Origin: 西側／針葉樹文化継承者 / Relation: 水耕栽培班
 
-- Tone: 身体・農作業・忍耐 / ReviewStatus: 採用済み
+- Tone: 身体・農作業・忍耐 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 静かで内省的。感覚の記憶から話し始める。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 指先がまだ覚えている、あの冷たい養液の感触を。針葉樹文化を継ぐ集団は寒さに強いという先入観から水耕甲板に回されたけど、実際は誰よりも触覚センサーと指先外装を傷めた。夜番の交代で指先を整備する暇もなく根を分けた。手袋の指先はいつも先に破れた。失敗した苗を数えるのが辛くて、途中からは数えるのをやめた。それでも収穫が届いた日の甲板の匂いだけは、今でも指先より先に思い出す。僕にとって成功の記憶は、数字じゃなく匂いでできている。
 

@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C063"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 星間便箋集め
 - Era: EraIndependent / Origin: 無党派 / Relation: 旅行者共同体
 
-- Tone: 収集・友情 / ReviewStatus: 採用済み
+- Tone: 収集・友情 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 手紙調 / 長い呼吸 / 届かない相手へ話す / 返事を要求しない
-- PreservedCanonPoints: 本人は旅先ごとに便箋を集め、もう届かない友人へ手紙を書いた。 / 投函せず箱へ収めた文面は増え続け、ある日、復活した本人が最初から読み始めた。 / 返事は最後の一枚だけに届いた。
+- PotentialReferencePoints: 本人は旅先ごとに便箋を集め、もう届かない友人へ手紙を書いた。 / 投函せず箱へ収めた文面は増え続け、ある日、復活した本人が最初から読み始めた。 / 返事は最後の一枚だけに届いた。
 
 > 旅先では土地ごとの便箋を買いました。薄い紙、金属糸入り、海藻の匂いがするもの。宛先は、もう届かない友人です。投函せず箱へ重ね、景色より「今日あなたなら何と言うか」を書きました。復活した本人が見つけ、最初から読み始めた時は止めたかった。私の中の相手と、戻った相手が違うと知られるのが怖かったんです。返事は最後の一枚にだけ来ました。「続きを直接話せ」と。ソフェル、再会は全ての手紙へ答えをくれるわけではありません。それでも未使用の便箋を捨てずにいます。書きたい夜は、まだありますから。
 

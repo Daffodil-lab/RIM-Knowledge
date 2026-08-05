@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A301"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: Kombinat坑道監督
 - Era: ModernUnion / Origin: 無党派 / Relation: Kombinat共同体
 
-- Tone: 工業・保守・職歴 / ReviewStatus: 採用済み
+- Tone: 工業・保守・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 豪胆な坑道監督。銃より地層と壁画を信じ、政治を保守手順へ落とし込む。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > ヘイハルKombinatの坑道では、銃を持つより地層の音を聞く方が安心できた。射撃任務は得意な者へ任せ、私は亀裂と退路を鮮やかな壁画にしたよ。停止した夜は作業員全員で手動輪を回し、誰が何を直せるか坑道壁へ書いた。政治集会では最盛期の豊かさを超えたいと話したが、少数の専門家へ全てを預ける案には反対した。次の監督が私の判断を読み、間違いなら塗り直せることが重要だ。平和も同じで、完成した制度として飾るより、壊れた時に皆で直せる手順として残したい。
 

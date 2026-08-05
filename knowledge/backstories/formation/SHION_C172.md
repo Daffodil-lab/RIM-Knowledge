@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C172"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 異常射撃復習
 - Era: ModernUnion / Origin: 無党派 / Relation: 異常対応隊
 
-- Tone: 異常・救難・形成 / ReviewStatus: 採用済み
+- Tone: 異常・救難・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 射撃を忘れない愛好家 / 中止判断を楽しむ / 観測へ辛抱強い / 小さな救出を自慢
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 任務を離れても、私は異常対応射撃の復習会へ通いました。趣味ですよ。標的を正確に撃つだけでなく、季節をまたいで観測し、「今日は撃たない」を当てるのが面白いんです。急ぐほど確認者を増やし、手に余れば上位部隊へ渡す。臆病ではなく、役割の理解です。昔、重火器を呼ばずに栽培区の作業員を帰したことがあります。報告書では小さな一行ですが、私は今も自慢します。世界を救う話より、明日も同じ者が畑へ戻れる判断の方が、私には価値があるので。
 

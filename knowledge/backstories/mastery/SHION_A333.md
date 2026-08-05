@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A333"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 縁境哨戒者
 - Era: ColonizationEra / Origin: 探査隊 / Relation: 境界哨戒隊
 
-- Tone: 哨戒・縁境・境界 / ReviewStatus: 採用済み
+- Tone: 哨戒・縁境・境界 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 静かな問いを重ねながら振り返る哨戒経験者。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > この星団の縁がどこにあるか、正確に答えられる者がいると思うか。探査隊で境界哨戒隊と合同の遠征に出た頃、私たちが引いた境界線は結局、次の遠征でまた引き直されることになった。危険な領域は年ごとに形を変え、去年安全だった航路が今年は塞がれていることもあった。境界を確定させることに意味はない、意味があるのは、その時点で誰かがそこまで行って戻ってきたという事実だけだ。私はその事実を、何度も自分の足で作ってきた。
 

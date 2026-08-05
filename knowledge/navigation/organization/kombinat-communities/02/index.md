@@ -1,22 +1,13 @@
 # Kombinat共同体 02
 
-範囲: 6. 配布と版〜SAV-002 非複製
+範囲: 7. Release Gate〜UX-004 上流UIの尊重
 
 ## 項目
 
-- [6. 配布と版](/integrations/matter-network/06-%E9%85%8D%E5%B8%83%E3%81%A8%E7%89%88.md) — Matter NetworkをCoreの必須依存や同梱物にせず、将来の任意互換Adapterだけを別配布する。
-- [7. 試験境界](/integrations/matter-network/07-%E8%A9%A6%E9%A8%93%E5%A2%83%E7%95%8C.md) — Matter Network関連試験は任意互換Adapterへ限定し、Core独自システムのRelease Gateから分離する。
-- [8. 文書優先](/integrations/matter-network/08-%E6%96%87%E6%9B%B8%E5%84%AA%E5%85%88.md) — 本書制定前の資料にある次の記述は廃止するという方針の適用範囲と条件を定める。
-- [0. 結論](/kombinat/audit/00-%E7%B5%90%E8%AB%96.md) — α版からCore独自保管基盤との受渡しを監査し、Matter Networkは任意互換Adapterの試験だけへ隔離する。
-- [1. 監査原則](/kombinat/audit/01-%E7%9B%A3%E6%9F%BB%E5%8E%9F%E5%89%87.md) — 監査原則は、Matter Network単体で再現する問題は終了する。
-- [3. 正常として受け入れる上流挙動](/kombinat/audit/03-%E6%AD%A3%E5%B8%B8%E3%81%A8%E3%81%97%E3%81%A6%E5%8F%97%E3%81%91%E5%85%A5%E3%82%8C%E3%82%8B%E4%B8%8A%E6%B5%81%E6%8C%99%E5%8B%95.md) — 次はKombinatの問題として登録しないという方針の適用範囲と条件を定める。
-- [4. シナリオ](/kombinat/audit/04-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — シナリオは、S2-001：一つの三段Job：実入力と実出力が一致するとS2-002：材料が上流にあるが搬入されない：IO待ち。
-- [5. 未知MOD](/kombinat/audit/05-%E6%9C%AA%E7%9F%A5MOD.md) — 未知MODのThingをMatter Networkがどう保管するかは上流責務である。
-- [6. 破壊的操作](/kombinat/audit/06-%E7%A0%B4%E5%A3%8A%E7%9A%84%E6%93%8D%E4%BD%9C.md) — 破壊的操作は、操作：Kombinatが守るものとRequest連打：Jobを二重生成しないを扱う。
-- [7. Release Gate](/kombinat/audit/07-Release-Gate.md) — α blockerはKX-001〜008とS2-001〜020のKombinat追加層部分である。
+- [7. Release Gate](/kombinat/audit/07-Release-Gate.md) — α blockerはKX-001〜008とS2-001〜018のKombinat追加層部分である。
 - [KX-001 入力二重予約](/kombinat/audit/kx-001.md) — 再現: 入力予約直後に保存し、ロード後に同じOperation IDが再送される。
 - [KX-002 引渡し後の二重所有](/kombinat/audit/kx-002.md) — 再現: Storage生産Commitの直後に例外が起き、同じOperation IDが再送される。
-- [KX-003 Network在庫の過剰約束](/kombinat/audit/kx-003.md) — 再現: PlannerがMatter Network画面の数量を見積りに使い、実際のBuffer搬入前に二Jobへ同じ材料を約束する。
+- [KX-003 Network在庫の過剰約束](/kombinat/audit/kx-003.md) — 再現: Plannerが表示在庫を予約確定前に利用可能量へ算入し、二Jobへ同じ材料を約束する。
 - [KX-004 出力容量予約不能](/kombinat/audit/kx-004.md) — 再現: 納入先Storageに全出力を置ける容量がない状態で次Batchを開始する。
 - [KX-005 取消競合](/kombinat/audit/kx-005.md) — 再現: Playerが取消、再注文、優先度変更を連打し、同時にIOが材料を搬入する。
 - [KX-006 Recipe副作用](/kombinat/audit/kx-006.md) — 再現: 外部Recipeを無人Factoryへ自動登録する。
@@ -24,16 +15,16 @@
 - [KX-008 初期化二重適用](/kombinat/audit/kx-008.md) — 再現: 独立開拓団開始中に例外または途中ロードを起こす。
 - [0. 結論](/kombinat/core/00-%E7%B5%90%E8%AB%96.md) — Kombinatは発注、設備能力、生産進捗、消費表示、流通目標、同盟通貨を所有し、物理ThingをCore Storageへ一元化する。
 - [1. 製品境界](/kombinat/core/01-%E8%A3%BD%E5%93%81%E5%A2%83%E7%95%8C.md) — Kombinatはα版からCore独自保管・接続システムの公開入出庫境界へ接続し、保管内部を所有しない。
-- [2. 状態分類](/kombinat/core/02-%E7%8A%B6%E6%85%8B%E5%88%86%E9%A1%9E.md) — 状態分類は、対象：状態とAhHanie/Matter-Network：外部で実装済みの必須依存。
+- [2. 実装状態の参照](/kombinat/core/02-%E7%8A%B6%E6%85%8B%E5%88%86%E9%A1%9E.md) — Kombinatの実装状態はリリース計画の現在地が所有し、本節は中核仕様からその正本を参照する。
 - [3. 物理Thingと通貨](/kombinat/core/03-%E7%89%A9%E7%90%86Thing%E3%81%A8%E9%80%9A%E8%B2%A8.md) — 物理材料、工業資源、食料、薬品、武器、防具、固有品は実在するRimWorld ThingDef／Thingである。
 - [4. Kombinat追加層の中核型](/kombinat/core/04-Kombinat%E8%BF%BD%E5%8A%A0%E5%B1%A4%E3%81%AE%E4%B8%AD%E6%A0%B8%E5%9E%8B.md) — KombinatはCore独自保管・接続システムに属する保管基盤型を再実装しない。
 - [5. 発注と多段生産](/kombinat/core/05-%E7%99%BA%E6%B3%A8%E3%81%A8%E5%A4%9A%E6%AE%B5%E7%94%9F%E7%94%A3.md) — αの発注は具体的なThingDef、Recipe、数量または目標在庫を基本とする。
 - [6. 無人生産](/kombinat/core/06-%E7%84%A1%E4%BA%BA%E7%94%9F%E7%94%A3.md) — Kombinat専用FactoryとKombinat専用Patternは、Pawnがいなくても電力、材料、設備状態を満たせば稼働できる。
-- [7. Stasis](/kombinat/core/07-Stasis.md) — Core独自基盤は保管中の時間進行方針を自ら所有し、Matter NetworkのStasisを自動継承しない。
+- [7. 保管中の時間進行](/kombinat/core/07-Stasis.md) — 保管中の時間進行方針はCore独自Storageが対象別に所有し、Kombinatはその判定を維持する。
 - [8. 消費と流通](/kombinat/core/08-%E6%B6%88%E8%B2%BB%E3%81%A8%E6%B5%81%E9%80%9A.md) — Kombinatは接続先保管基盤の内部消費を無断で監視せず、公開された観測境界だけを使う。
 - [9. UI](/kombinat/core/09-UI.md) — Field Ledger Terminalを選択して全機能へ入る暗色のRimWorld管理Windowを基準とし、通常表示と最大化表示を同じDef駆動Page railで提供する。
 - [10. 保存と原子性](/kombinat/core/10-%E4%BF%9D%E5%AD%98%E3%81%A8%E5%8E%9F%E5%AD%90%E6%80%A7.md) — Kombinatは次だけを保存するという方針の適用範囲と条件を定める。
-- [11. 上流欠陥の扱い](/kombinat/core/11-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E3%81%AE%E6%89%B1%E3%81%84.md) — Matter Networkは必須経路にせず、将来の任意Adapterでだけ上流欠陥を分離する。
+- [11. 欠陥の所有と切り分け](/kombinat/core/11-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E3%81%AE%E6%89%B1%E3%81%84.md) — Core StorageとKombinatの欠陥は再現条件と取引所有者から切り分け、各所有者のRelease Gateへ登録する。
 - [12. α完成条件](/kombinat/core/12-%CE%B1%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Kombinat αはShion種族実装に先行し、バニラHumanのfixtureでThingOwner間の直接転送、三段生産、任意排出を成立させる。
 - [13. β](/kombinat/core/13-%CE%B2.md) — Equipment Familyは作者が明示登録した候補だけを使う。
 - [14. 実装順](/kombinat/core/14-%E5%AE%9F%E8%A3%85%E9%A0%86.md) — 工業UIのRimWorld 1.6画面契約を先に固定し、Shion種族に先行してCore独自保管・接続システムとKombinatをバニラHumanのfixtureで完成させる。
@@ -51,9 +42,9 @@
 - [12. α Release Gate](/kombinat/requirements/12-%CE%B1-Release-Gate.md) — α版はCore独自保管基盤との直接受渡し、三段生産、任意排出、保存・復旧をRelease Gateへ含める。
 - [13. β境界](/kombinat/requirements/13-%CE%B2%E5%A2%83%E7%95%8C.md) — β境界は、Pawn Foundry要求とEquipment Familyを扱う。
 - [CON-001 観測範囲](/kombinat/requirements/con-001.md) — MUST: Kombinat自身のBuffer、Factory、Core API、正式な上流APIから得たeventだけを消費集計へ使う。
-- [CON-002 不明表示](/kombinat/requirements/con-002.md) — MUST: Matter Network内部の全消費を観測できない場合は、不明範囲を明示する。
+- [CON-002 不明表示](/kombinat/requirements/con-002.md) — MUST: Core Storageの公開eventで観測できない消費範囲を不明として明示する。
 - [CON-003 流通目標](/kombinat/requirements/con-003.md) — MUST: Storage在庫とFacility需要について最低量、目標量、優先度を設定できる。
-- [CON-004 上流設定](/kombinat/requirements/con-004.md) — MUST: Matter NetworkのFilter、Disk、IO Port設定をKombinatから直接変更しない。
+- [CON-004 上流設定](/kombinat/requirements/con-004.md) — MUST: Core StorageのFilter、容量、Endpoint設定はCoreの公開契約で所有する。
 - [CUR-001 Account](/kombinat/requirements/cur-001.md) — MUST: 同盟通貨を物理Thing在庫と分離した64 bit整数残高として保存する。
 - [CUR-002 Transaction](/kombinat/requirements/cur-002.md) — MUST: 入金、支払、返金、取消はidempotency keyを持ち、全部成功または全部失敗する。
 - [CUR-003 Recipe禁止](/kombinat/requirements/cur-003.md) — MUST: 通貨を通常工業Recipeで発行しない。
@@ -65,7 +56,7 @@
 - [INT-004 引渡し](/kombinat/requirements/int-004.md) — MUST: 生産出力はCore Storageへ直接生成し、Kombinat側の所有Thingを作らない。
 - [INT-005 接続不能](/kombinat/requirements/int-005.md) — MUST: Core独自Storageから供給または回収できない場合、Jobを転送待ちへ置く。
 - [INT-006 上流欠陥](/kombinat/requirements/int-006.md) — MUST: Core独自保管基盤単体で再現する問題と、Kombinat接続だけで再現する問題を分離する。
-- [PERF-001 Event駆動](/kombinat/requirements/perf-001.md) — MUST: Queue、Factory、Buffer、Accountの変化をeventで処理し、毎tick全Job・全Recipe・Matter Network内部在庫を走査しない。
+- [PERF-001 Event駆動](/kombinat/requirements/perf-001.md) — MUST: Queue、Factory、Buffer、Accountの変化をeventで処理し、定常処理を索引と有界Queueから実行する。
 - [PERF-002 Planner](/kombinat/requirements/perf-002.md) — MUST: 一Planを最大200 node、100 ms以内、または一frame 4 ms以下の分割処理で終える暫定目標を持つ。
 - [PERF-003 長期](/kombinat/requirements/perf-003.md) — MUST: 60,000 tickの連続生産で、StorageのThing差分0、予約漏れ0、二重完了0、未回収終端処理0を確認する。
 - [PERF-004 保存](/kombinat/requirements/perf-004.md) — MUST: 500 Job、2,000 Batch履歴、10,000 Buffer Thingの保存・ロード時間、ファイル増分、GC allocationを記録する。
@@ -83,4 +74,13 @@
 - [PRD-012 取消](/kombinat/requirements/prd-012.md) — MUST: 取消時は未Commitの入力予約、出力容量予約、通貨予約、設備割当を解放する。
 - [PRD-013 再計画](/kombinat/requirements/prd-013.md) — MUST: 未開始Batchだけを再計画する、またcommit済みBatchを巻き戻さない。
 - [SAV-001 状態](/kombinat/requirements/sav-001.md) — MUST: Request、Pattern version、Plan summary、Job、Batch、Buffer、Output Claim、Account、Transaction、Consumption aggregateを保存する。
-- [SAV-002 非複製](/kombinat/requirements/sav-002.md) — MUST: Matter Network内部状態をKombinatセーブへ複製しない。
+- [SAV-002 非複製](/kombinat/requirements/sav-002.md) — MUST: KombinatセーブはKombinat固有状態とCore取引参照だけを保持する。
+- [SAV-003 途中保存](/kombinat/requirements/sav-003.md) — MUST: 材料待ち、入力予約後、処理中、出力容量待ち、Commit前後、通貨保留中に保存・ロードできる。
+- [SAV-004 同一ビルド](/kombinat/requirements/sav-004.md) — MUST: α／βでは同一ビルドの保存往復を保証する。
+- [STA-001 意図した仕様](/kombinat/requirements/sta-001.md) — MUST: Core独自Storage内の腐敗、温度、Thing Tick、Comp Tick、充放電、孵化等の時間進行方針を明示する。
+- [STA-002 追加制限禁止](/kombinat/requirements/sta-002.md) — MUST: Stasisによる時間停止だけを理由に、Kombinatから追加費用、危険分類、入庫拒否を行わない。
+- [STA-003 工場内在庫禁止](/kombinat/requirements/sta-003.md) — MUST: Kombinat Factoryは生産用ThingOwnerを持たず、材料、中間品、完成品をCore Storageへ一元化する。
+- [UX-001 発注](/kombinat/requirements/ux-001.md) — MUST: 品目、数量または目標在庫、優先度だけで基本発注を作れる。
+- [UX-002 見積り](/kombinat/requirements/ux-002.md) — MUST: 確定前に、必要材料、Storage利用可能量、予約済み、中間品、設備、出力容量、概算時間を表示する。
+- [UX-003 状態語](/kombinat/requirements/ux-003.md) — MUST: 少なくとも次を区別するという方針の適用範囲と条件を定める。
+- [UX-004 上流UIの尊重](/kombinat/requirements/ux-004.md) — MUST: Storage、Filter、Endpoint、Network設定はCore独自基盤のUI責務とし、Kombinat内部へ複製しない。

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A166"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 継承護衛射手
 - Era: ModernUnion / Origin: 無党派 / Relation: 教育共同体
 
-- Tone: 教育・継承・職歴 / ReviewStatus: 採用済み
+- Tone: 教育・継承・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 無口な護衛射手。教師の答えより周囲の変化を観察し、教室の苗床まで射線から守る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 継承教室を護衛し、避難者と教師の位置を見て必要な時だけ射線を開きました。教室の裏には古い種を育てる苗床があり、私はそこも背景に入れました。一発外せば次の季節まで失います。教師は最後の授業で「何を守るべきか」の答えを伏せました。生徒は困りましたが、私は好きでしたよ。護衛対象を肩書だけで決めれば、苗も記録も置き去りになる。答えは毎回現場で確かめるしかありません。私は多く話しません。その代わり、照準の中へ誰の未来があるかを長く見ます。
 

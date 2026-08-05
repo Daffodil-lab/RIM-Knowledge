@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C338"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 平常運転
 - Era: JourneyEra / Origin: 東側／凍土の民 / Relation: 造水班家族
 
-- Tone: 家族・喪失・水 / ReviewStatus: 採用済み
+- Tone: 家族・喪失・水 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 普段は静かで淡々。時折急に感情が漏れ、すぐ元の調子に戻る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 育ての親の一人は造水班で、壊れた濾過装置の修理中に事故で亡くなりました。私はそのとき七歳で、知らせを聞いても特に何も感じなかったのを覚えています。翌日からもう一人の育ての親と二人で配給を分け直す生活が始まり、凍土の民の文化を継ぐその先達は寡黙にそれを日常にしていきました。——本当は、亡くなった育ての親の作業着の匂いが換気で薄れていくのが、たまらなく嫌でした。誰にも言えなかった。ただそれだけです。今はもう普通に話せます。次の質問をどうぞ。
 

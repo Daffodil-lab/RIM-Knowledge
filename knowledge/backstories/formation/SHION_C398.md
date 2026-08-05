@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C398"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 樽番
 - Era: ColonizationEra / Origin: 醸造隊 / Relation: 工房の先達
 
-- Tone: 陽気・自慢・鋭敏 / ReviewStatus: 採用済み
+- Tone: 陽気・自慢・鋭敏 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 陽気で自慢げな、くだけた口調。感情を率直に見せる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 俺の化学感覚器は樽番のときに鍛えられたんだ、これは自慢していい話だと思う。工房の先達は発酵の匂いだけで出来を判断できる人で、俺にも感覚器で測らせて当てさせた。最初は全然分からなかったけど、半年もすると甘さの奥にある酸っぱさの違いが分かるようになった。先達が「お前は感覚器の判別がいい」って初めて認めてくれた日、俺は一日中その言葉を思い出して笑ってた。今でも何かの匂いを検出すると、つい良し悪しを判定しちまう癖がある。
 

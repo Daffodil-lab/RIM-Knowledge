@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C331"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 閉じても火花
 - Era: ColonizationEra / Origin: 建設隊 / Relation: 溶接班
 
-- Tone: 溶接・熱・想像 / ReviewStatus: 採用済み
+- Tone: 溶接・熱・想像 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 聞き手をその場に立たせるように語る口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 溶接の火花は美しいものです。もしあなたが私の場所に立っていたら、防護面越しにその光しか見えなかったでしょう。溶接班の仕事は暑さとの戦いでもありました、金属の熱が防護服越しに伝わってきます。もしあなたが同じ班にいたら、休憩時間に誰も無駄話をしないことに驚くはずです、疲れすぎて話す元気がないからです。継ぎ目が一本きれいに仕上がると、それだけで満足でした。火花は今も目を閉じると見えます。
 

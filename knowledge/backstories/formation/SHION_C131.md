@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C131"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 帰還港道具直し
 - Era: ModernUnion / Origin: 無党派 / Relation: 帰還者支援局
 
-- Tone: 戦争・時間・形成 / ReviewStatus: 採用済み
+- Tone: 戦争・時間・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 傷を残す修理人 / 帰還者へ遠慮深い / 見せて教える / 古い命令を嫌う
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帰還兵港では、新品を渡す方が早い道具まで修理しました。握りの傷を削ると、持ち主がどの時間を生きたかまで消える気がしたからです。私は見学者の前で分解し、直せなかった例も隠しませんでした。照準具を扱う時だけは、古い命令番号が残っていないか必ず確認した。再会した友同士が、経過時間の差を笑えず道具の傷ばかり見ていたこともあります。私は無理に慰めませんでした。修復とは新品へ戻すことではなく、持ち主が続きを選べる状態へすること。ソフェルの仕事も同じだと思っています。
 

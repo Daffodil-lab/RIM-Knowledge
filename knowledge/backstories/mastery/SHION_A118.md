@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A118"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 月面区射撃教官
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 月面共同事業
 
-- Tone: 開拓・事業・職歴 / ReviewStatus: 採用済み
+- Tone: 開拓・事業・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 実務的な射撃教官。大事業の宣伝を信用せず、居住区と農園を傷つけない射線を叩き込む。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 月面事業区で射撃を教えました。薄い外壁、密集した配管、隣にはようやく根づいた農園があります。命中だけ上手くても、外した一発で居住区を空にする。私は撃てない方向を先に覚えさせ、作業員の移動と作物の季節を射線表へ入れました。完成式では壮大な演説が続きましたが、私が覚えているのは最初の作業員が月塵へ残した足跡です。大計画を支えたのは宣伝文ではなく、毎日その足跡を増やした者たちでした。教え子にも、標的より背景の暮らしを見ろと言い続けました。
 

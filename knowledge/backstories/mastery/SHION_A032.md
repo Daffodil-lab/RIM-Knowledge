@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A032"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 植民地万能工
 - Era: EraIndependent / Origin: 無党派 / Relation: 小規模植民地
 
-- Tone: 万能職・日常 / ReviewStatus: 採用済み
+- Tone: 万能職・日常 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 忙しなく朗らかな万能工。専門家を競争相手にせず、仕事の隙間を埋めて素直に引き継ぐ。
-- PreservedCanonPoints: 小さな植民地で本人は壁を直し、畑を刈り、動物を追い、夕食を作った。 / 専任者がいない時間や、事故で人手が欠けた仕事を引き受けた。 / 専門家が来れば手順と問題点を正確に渡し、自分の応急処置へ固執しなかった。
+- PotentialReferencePoints: 小さな植民地で本人は壁を直し、畑を刈り、動物を追い、夕食を作った。 / 専任者がいない時間や、事故で人手が欠けた仕事を引き受けた。 / 専門家が来れば手順と問題点を正確に渡し、自分の応急処置へ固執しなかった。
 
 > 小さな植民地では、壁を直した手で畑を刈り、逃げた動物を追ったあと夕食を作ります。私は専任者が眠る時間や、事故で人手が欠けた仕事を引き受けました。何でも完璧にできた、とは言いません。焦げた鍋で雨漏りを受け、住民に笑われた夜もあります。専門家が来れば応急処置と失敗を渡し、自分の方法へ固執しませんでした。万能工とは全部の専門家より優れた者ではなく、仕事と仕事の隙間で暮らしを止めない者です。記録に残らない冗談の多さなら、誰にも負けなかったと思いますよ。
 

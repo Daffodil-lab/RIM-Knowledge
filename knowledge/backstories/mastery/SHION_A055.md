@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A055"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 動物終生保護官
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟生態局
 
-- Tone: 動物・慈愛 / ReviewStatus: 採用済み
+- Tone: 動物・慈愛 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 親しみ深い保護官。個体ごとの癖を嬉しそうに列挙し、別れも率直に悲しむ。
-- PreservedCanonPoints: 本人は短命な動物を複製で置き換えず、一生ごとの癖を記録して看取った。 / 似た個体を作れても、同じ昼寝の場所を選ぶ友ではないと考えた。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
+- PotentialReferencePoints: 本人は短命な動物を複製で置き換えず、一生ごとの癖を記録して看取った。 / 似た個体を作れても、同じ昼寝の場所を選ぶ友ではないと考えた。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
 
 > 短命な動物を、同じ設計の複製で置き換えることはしませんでした。毛色も骨格も同じにできます。でも、雨の日だけ棚の裏で眠る癖や、嫌いな餌を隣の皿へ押し込む癖までは、同じ友ではありません。私は一頭ずつ名前を呼び、好みを書き、最後まで看取りました。別れには慣れませんよ。長く生きる私たちが先に飽きるべきだと言う者もいましたが、私は逆だと思う。短い一生を何度見ても惜しめることが、世話を続ける理由です。空いた寝床も、すぐ次の個体へ渡さず少し休ませました。
 

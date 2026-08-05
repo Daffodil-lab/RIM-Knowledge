@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C189"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 封鎖地種子監視
 - Era: ModernUnion / Origin: 無党派 / Relation: 異常対応班
 
-- Tone: 異常・研究・形成 / ReviewStatus: 改稿採用済み
+- Tone: 異常・研究・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 色を疑う種子番 / 推測を断言しない / 立場の違う者を調整 / 夕焼けへの不安が残る
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 封鎖地の種は、色が変わっただけで処分を求められました。私は来歴と発芽条件を記し、観測者、栽培者、避難担当を同じ卓へ呼んだ。「異常らしい」を事実欄へ書かせないためです。一箱だけ、私が容器の反射を変色と誤認して隔離を延ばしました。その失敗も台帳へ残した。帰還後、普通の夕焼けまで検査対象に見え、しばらく空を楽しめませんでした。今も色だけで安全とは言いませんし、危険とも言いません。分からないものを分からないまま皆で待てることも、平和の技術だと思っています。
 

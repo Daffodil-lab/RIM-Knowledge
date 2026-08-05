@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C065"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 無重力釣り仲間
 - Era: ModernUnion / Origin: 無党派 / Relation: 軌道湖クラブ
 
-- Tone: 趣味・動物 / ReviewStatus: 採用済み
+- Tone: 趣味・動物 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 陽気な釣り人 / 無重力の身振り / 再会を笑いで確かめる / 釣果へ無関心
-- PreservedCanonPoints: 本人は軌道湖で、水球から逃げる魚を網へ誘導した。 / 釣果は毎回放し、亡い仲間の竿だけを隣へ固定した。 / 復活後の仲間は餌の付け方を忘れていたが、笑い方は同じだった。
+- PotentialReferencePoints: 本人は軌道湖で、水球から逃げる魚を網へ誘導した。 / 釣果は毎回放し、亡い仲間の竿だけを隣へ固定した。 / 復活後の仲間は餌の付け方を忘れていたが、笑い方は同じだった。
 
 > 無重力釣りでは魚より自分が逃げます。水球を蹴らず、網へ誘導し、釣れたら放す。食べるためではなく、友人と失敗するための遊びでした。彼が死んだ後も竿と安全索を二人分固定した。復活して戻った時、餌の付け方を忘れていて、私の頭へ針を引っ掛けましたよ。笑い方だけは同じだった。以前の技を試して本人確認をする気はありません。共に新しい失敗をできれば、それで十分です。ソフェルも来ますか？　記録器は防水にしてください。釣果より、あなたが回転する方が面白そうです。
 

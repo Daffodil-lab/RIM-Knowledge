@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A286"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 要塞路射撃教官
 - Era: ModernUnion / Origin: 無党派 / Relation: 特殊任務群
 
-- Tone: 潜入・工兵・職歴 / ReviewStatus: 採用済み
+- Tone: 潜入・工兵・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 実戦的だが控えめな教官。命中より潜入班が全員帰ることを評価する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 要塞潜入の射撃訓練では、標的を倒す点より民間区画へ線を通さない点を重くした。設備だけを止められる位置を何季も待ち、目印には小さな植物を置いたよ。実任務は撃たずに終わり、誰も英雄役を引き受けなかった。私はそれを最高の成績だと思った。長い不在から戻った友も訓練へ来たが、昔の構えではなかった。私は直さず、今の身体に合う位置を一緒に探した。教官の仕事は過去の型へ戻すことではない。知らない時間を抱えた者も、全員で帰れる射線を作ることだ。
 

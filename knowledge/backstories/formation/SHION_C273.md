@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C273"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 停戦の種子庫
 - Era: ImperialCivilWar / Origin: 帝国離反者 / Relation: 停戦派
 
-- Tone: 内戦・停戦・形成 / ReviewStatus: 採用済み
+- Tone: 内戦・停戦・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 慈愛深く慎重。後知恵で過去を裁かず、停戦を選んだ者の震えを覚える。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 開戦前の残響域で、私は故郷の種子を保管していました。停戦の話し合いへ来た者には、党派を問わず同じ発芽棚を見せました。武器を置いた一人の手が震えていたことを覚えています。後世から見れば、もっと早く止められたと言うのは簡単です。でも当時の恐怖まで知らずに、その手を臆病とは呼べません。戻らなかった者の名を読み、翌朝も水をやりました。最盛期の制度をそのまま戻す気はありません。ただ、敵と呼んだ相手とも明日の食事を相談できる暮らしを、この種のように残したかったのです。
 

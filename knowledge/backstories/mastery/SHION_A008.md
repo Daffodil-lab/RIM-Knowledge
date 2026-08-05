@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A008"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 構造聴診士
 - Era: EraIndependent / Origin: 無党派 / Relation: 建築診断組合
 
-- Tone: 建築・診断 / ReviewStatus: 採用済み
+- Tone: 建築・診断 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 寡黙で音に敏感。神秘家扱いを嫌い、住民の昔話も比較資料として丁寧に聞く。
-- PreservedCanonPoints: 本人は壁や梁へ聴音器を当て、配管の脈動、岩盤の小さな破断、固定具の緩みを診断する構造聴診士となった。 / 図面が失われた建物では、音と振動から内部を推定した。 / 居住者が昔から鳴ると説明する音も記録し、変化がないか比較した。
+- PotentialReferencePoints: 本人は壁や梁へ聴音器を当て、配管の脈動、岩盤の小さな破断、固定具の緩みを診断する構造聴診士となった。 / 図面が失われた建物では、音と振動から内部を推定した。 / 居住者が昔から鳴ると説明する音も記録し、変化がないか比較した。
 
 > 壁の声を聞く、などと言わないでください。大半は聴音器と経験です。私は梁へ器具を当て、配管の脈動、岩盤の破断、固定具の緩みを探しました。図面がなくても音と振動から内部を推定できます。ただ、居住者が「昔から鳴る」と話す音も無視しません。ある家の古い軋みを危険と誤り、思い出の壁を壊しかけたことがあります。それから変化の有無を先に聞きます。工事記録には補修結果が残りますが、私は住民がその音へ付けた妙な名前まで覚えています。建物も暮らしの一員ですから。
 

@@ -1,19 +1,9 @@
 # stable 19
 
-範囲: 9. UI〜2.1 補充可能性
+範囲: D. 出力満杯〜ADV-004 Pawn要素別安全性
 
 ## 項目
 
-- [9. UI](/kombinat/core/09-UI.md) — Field Ledger Terminalを選択して全機能へ入る暗色のRimWorld管理Windowを基準とし、通常表示と最大化表示を同じDef駆動Page railで提供する。
-- [10. 保存と原子性](/kombinat/core/10-%E4%BF%9D%E5%AD%98%E3%81%A8%E5%8E%9F%E5%AD%90%E6%80%A7.md) — Kombinatは次だけを保存するという方針の適用範囲と条件を定める。
-- [11. 上流欠陥の扱い](/kombinat/core/11-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E3%81%AE%E6%89%B1%E3%81%84.md) — Matter Networkは必須経路にせず、将来の任意Adapterでだけ上流欠陥を分離する。
-- [12. α完成条件](/kombinat/core/12-%CE%B1%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Kombinat αはShion種族実装に先行し、バニラHumanのfixtureでThingOwner間の直接転送、三段生産、任意排出を成立させる。
-- [13. β](/kombinat/core/13-%CE%B2.md) — Equipment Familyは作者が明示登録した候補だけを使う。
-- [14. 実装順](/kombinat/core/14-%E5%AE%9F%E8%A3%85%E9%A0%86.md) — 工業UIのRimWorld 1.6画面契約を先に固定し、Shion種族に先行してCore独自保管・接続システムとKombinatをバニラHumanのfixtureで完成させる。
-- [1. 適用範囲](/kombinat/requirements/01-%E9%81%A9%E7%94%A8%E7%AF%84%E5%9B%B2.md) — 本書はKombinatが独自実装する発注、多段生産、設備能力、消費表示、流通目標、同盟通貨を扱う。
-- [A. 三段生産](/kombinat/requirements/044-A-%E4%B8%89%E6%AE%B5%E7%94%9F%E7%94%A3.md) — A. 三段生産は、Core Storage上の材料と出力容量を工程ごとに予約してCommitする。
-- [B. 材料不足](/kombinat/requirements/045-B-%E6%9D%90%E6%96%99%E4%B8%8D%E8%B6%B3.md) — 材料不足をNetwork在庫0と断定せず、Factoryへの搬入待ちとして表示する。
-- [C. 停電](/kombinat/requirements/046-C-%E5%81%9C%E9%9B%BB.md) — Factory停止中に入力、進捗、出力を複製・消失させず、復電後に再検証する。
 - [D. 出力満杯](/kombinat/requirements/047-D-%E5%87%BA%E5%8A%9B%E6%BA%80%E6%9D%AF.md) — 納入先Storageの出力容量を予約できない時は次Batchを開始せず、既存在庫を変更しない。
 - [E. 取消](/kombinat/requirements/048-E-%E5%8F%96%E6%B6%88.md) — 開始前、入力受領後、処理中、出力待ちの各段階で取消規則を確認する。
 - [F. 保存往復](/kombinat/requirements/049-F-%E4%BF%9D%E5%AD%98%E5%BE%80%E5%BE%A9.md) — 全Job状態と通貨Transaction途中で保存・ロードし、二重実行しない。
@@ -24,9 +14,9 @@
 - [12. α Release Gate](/kombinat/requirements/12-%CE%B1-Release-Gate.md) — α版はCore独自保管基盤との直接受渡し、三段生産、任意排出、保存・復旧をRelease Gateへ含める。
 - [13. β境界](/kombinat/requirements/13-%CE%B2%E5%A2%83%E7%95%8C.md) — β境界は、Pawn Foundry要求とEquipment Familyを扱う。
 - [CON-001 観測範囲](/kombinat/requirements/con-001.md) — MUST: Kombinat自身のBuffer、Factory、Core API、正式な上流APIから得たeventだけを消費集計へ使う。
-- [CON-002 不明表示](/kombinat/requirements/con-002.md) — MUST: Matter Network内部の全消費を観測できない場合は、不明範囲を明示する。
+- [CON-002 不明表示](/kombinat/requirements/con-002.md) — MUST: Core Storageの公開eventで観測できない消費範囲を不明として明示する。
 - [CON-003 流通目標](/kombinat/requirements/con-003.md) — MUST: Storage在庫とFacility需要について最低量、目標量、優先度を設定できる。
-- [CON-004 上流設定](/kombinat/requirements/con-004.md) — MUST: Matter NetworkのFilter、Disk、IO Port設定をKombinatから直接変更しない。
+- [CON-004 上流設定](/kombinat/requirements/con-004.md) — MUST: Core StorageのFilter、容量、Endpoint設定はCoreの公開契約で所有する。
 - [CUR-001 Account](/kombinat/requirements/cur-001.md) — MUST: 同盟通貨を物理Thing在庫と分離した64 bit整数残高として保存する。
 - [CUR-002 Transaction](/kombinat/requirements/cur-002.md) — MUST: 入金、支払、返金、取消はidempotency keyを持ち、全部成功または全部失敗する。
 - [CUR-003 Recipe禁止](/kombinat/requirements/cur-003.md) — MUST: 通貨を通常工業Recipeで発行しない。
@@ -38,7 +28,7 @@
 - [INT-004 引渡し](/kombinat/requirements/int-004.md) — MUST: 生産出力はCore Storageへ直接生成し、Kombinat側の所有Thingを作らない。
 - [INT-005 接続不能](/kombinat/requirements/int-005.md) — MUST: Core独自Storageから供給または回収できない場合、Jobを転送待ちへ置く。
 - [INT-006 上流欠陥](/kombinat/requirements/int-006.md) — MUST: Core独自保管基盤単体で再現する問題と、Kombinat接続だけで再現する問題を分離する。
-- [PERF-001 Event駆動](/kombinat/requirements/perf-001.md) — MUST: Queue、Factory、Buffer、Accountの変化をeventで処理し、毎tick全Job・全Recipe・Matter Network内部在庫を走査しない。
+- [PERF-001 Event駆動](/kombinat/requirements/perf-001.md) — MUST: Queue、Factory、Buffer、Accountの変化をeventで処理し、定常処理を索引と有界Queueから実行する。
 - [PERF-002 Planner](/kombinat/requirements/perf-002.md) — MUST: 一Planを最大200 node、100 ms以内、または一frame 4 ms以下の分割処理で終える暫定目標を持つ。
 - [PERF-003 長期](/kombinat/requirements/perf-003.md) — MUST: 60,000 tickの連続生産で、StorageのThing差分0、予約漏れ0、二重完了0、未回収終端処理0を確認する。
 - [PERF-004 保存](/kombinat/requirements/perf-004.md) — MUST: 500 Job、2,000 Batch履歴、10,000 Buffer Thingの保存・ロード時間、ファイル増分、GC allocationを記録する。
@@ -56,7 +46,7 @@
 - [PRD-012 取消](/kombinat/requirements/prd-012.md) — MUST: 取消時は未Commitの入力予約、出力容量予約、通貨予約、設備割当を解放する。
 - [PRD-013 再計画](/kombinat/requirements/prd-013.md) — MUST: 未開始Batchだけを再計画する、またcommit済みBatchを巻き戻さない。
 - [SAV-001 状態](/kombinat/requirements/sav-001.md) — MUST: Request、Pattern version、Plan summary、Job、Batch、Buffer、Output Claim、Account、Transaction、Consumption aggregateを保存する。
-- [SAV-002 非複製](/kombinat/requirements/sav-002.md) — MUST: Matter Network内部状態をKombinatセーブへ複製しない。
+- [SAV-002 非複製](/kombinat/requirements/sav-002.md) — MUST: KombinatセーブはKombinat固有状態とCore取引参照だけを保持する。
 - [SAV-003 途中保存](/kombinat/requirements/sav-003.md) — MUST: 材料待ち、入力予約後、処理中、出力容量待ち、Commit前後、通貨保留中に保存・ロードできる。
 - [SAV-004 同一ビルド](/kombinat/requirements/sav-004.md) — MUST: α／βでは同一ビルドの保存往復を保証する。
 - [STA-001 意図した仕様](/kombinat/requirements/sta-001.md) — MUST: Core独自Storage内の腐敗、温度、Thing Tick、Comp Tick、充放電、孵化等の時間進行方針を明示する。
@@ -82,5 +72,15 @@
 - [J. 途中保存と再送](/pawn/077-J-%E9%80%94%E4%B8%AD%E4%BF%9D%E5%AD%98%E3%81%A8%E5%86%8D%E9%80%81.md) — J. 途中保存と再送は、生産、Dormant化、回収、再資源化、再実体化、Cloneの各段階で保存する。
 - [13. 完成図Hardening要件](/pawn/13-%E5%AE%8C%E6%88%90%E5%9B%B3Hardening%E8%A6%81%E4%BB%B6.md) — 本節は旧完成図監査から回収したPawn Foundry固有のHardening要件を、本書自身の拘束要件として維持する。
 - [14. β Definition of Done](/pawn/14-%CE%B2-Definition-of-Done.md) — 次を全て満たした時だけ、β版のPawn生産系を完成とする。
-- [15. 未確定のバランス値](/pawn/15-%E6%9C%AA%E7%A2%BA%E5%AE%9A%E3%81%AE%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9%E5%80%A4.md) — 次はβの実装fixtureで確定するという方針の適用範囲と条件を定める。
 - [2.1 補充可能性](/pawn/2-1-%E8%A3%9C%E5%85%85%E5%8F%AF%E8%83%BD%E6%80%A7.md) — 補充可能性は、通常シオンPawnに、世界で一度しか得られない必須材料や有限の生産回数を要求しない。
+- [2.2 人格とゲームユニット](/pawn/2-2-%E4%BA%BA%E6%A0%BC%E3%81%A8%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88.md) — 人格とゲームユニットは、ゲーム上のPawnは生産、保管、交換、補充できるコマである。
+- [2.3 無料保管](/pawn/2-3-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — 生存PawnはPawn Foundryまたは対応設備からDormant状態へ移し、必要になるまで保管できる。
+- [3.1 Ephemeral Pawn](/pawn/3-1-Ephemeral-Pawn.md) — 適合生成の既定出力であり、また役割上必要な情報だけを指定し、それ以外をランダム生成する。
+- [3.2 Registered Individual](/pawn/3-2-Registered-Individual.md) — 既存Pawnをプレイヤーが登録すると、個体を再構築するためのIndividual Archiveを作る。
+- [3.3 Saved Pawn Design](/pawn/3-3-Saved-Pawn-Design.md) — 特定の一人ではなく、繰り返し使える製造設計である。
+- [3.4 Clone](/pawn/3-4-Clone.md) — 登録個体または保存設計をClone Sourceにできる。
+- [4.1 ID](/pawn/4-1-ID.md) — 再実体化ではindividualIdを維持し、pawnInstanceIdを更新できる。
+- [ADV-001 緊急一体再配備](/pawn/adv-001.md) — MUST: 同一Mapで活動可能なプレイヤーPawnが0体になった場合、Dormant Recordから一体だけを、電力、Pawn作業、通常の配備Queueなしで安全地点へ復帰できるfail-safeを持つ。
+- [ADV-002 無人Foundry](/pawn/adv-002.md) — MUST: 電力、材料、健全な設備がある時、少なくとも一系統のPawn Foundry工程は生存Pawnの作業なしで一体を完成できる。
+- [ADV-003 物理費と人格復元費](/pawn/adv-003.md) — MUST: Archiveが低コストで復元するのは人格・構成情報であり、失われた身体、内蔵Module、着脱装備を無償複製しない。
+- [ADV-004 Pawn要素別安全性](/pawn/adv-004.md) — MUST: Gene、Hediff、Ability、Comp、Royalty、Ideology、Quest、外部MODデータをDormant Safe、Archive Safe、Clone Safeの要素別に判定する。

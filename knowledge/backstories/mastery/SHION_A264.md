@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A264"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 都市群仮設建築
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 都市記録局
 
-- Tone: 都市・旅・職歴 / ReviewStatus: 採用済み
+- Tone: 都市・旅・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 柔軟な建築士。地図より住民の身体記憶を信じ、無駄な窓にも価値を置く。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 移動都市の帰還者へ家を作ると、地図と本人の記憶がよく喧嘩した。昔の路地はもうなくても、身体は同じ方向へ曲がろうとする。私はその動きを見て仮設壁をずらし、評議会へ地図と証言の両方を出したよ。制度上は不要な窓を一つ求めた人もいた。そこから見えるはずだった故郷は存在しない。それでも窓を付けた。役に立たない景色を待てることも、豊かさの一部だと思うからだ。都市は動き、記憶も変わる。正しい一つの町へ揃えるより、別々に覚えた者が同じ屋根で休める方を選びたい。
 

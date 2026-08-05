@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A276"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 空挺設備技師
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟空挺軍
 
-- Tone: 空挺・友情・職歴 / ReviewStatus: 採用済み
+- Tone: 空挺・友情・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 面倒見のよい基地技師。設備点検を、散った仲間が帰るための祭りと考える。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 空挺基地の帰還祭では、配管も合図灯も飾りの一部に見える。私は祭りの前ほど厳しく点検した。降下地点がずれた者でも基地を見つけ、負傷していても同じ手順で助けを呼べるようにするためだ。実戦で散った夜、最初に見つけた仲間の声は合図を間違えていた。それでも誰だか分かったよ。蘇生して戻った彼は、その声を覚えていなかった。私は聞かせなかった。不在だった時間まで返すことはできないからね。祭りでは昔の合図と今の合図を両方灯し、どちらを頼りに帰ってもよいことにした。
 

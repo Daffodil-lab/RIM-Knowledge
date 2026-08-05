@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C272"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 冗談なき祝い膳
 - Era: LongTransition / Origin: 社会民主党系 / Relation: 制度監視団
 
-- Tone: 政治・警戒・形成 / ReviewStatus: 採用済み
+- Tone: 政治・警戒・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 社交的だが警戒心が強い。制度の劣化を、食卓から冗談が消える過程で測る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 非常令監視区で祝い膳を作っていた頃、最初に消えたのは食料でも音楽でもなく、小さな冗談でした。例外措置が一つ増えるたび、誰かが席を見回してから話すようになった。私は再会者の体調を聞き、戻らなかった者の席を用意し、食卓で変わったことを毎日記しました。料理大会のように腕を比べていた友も、採点表へ無難な言葉しか書かなくなりました。制度が壊れる音は大きいとは限りません。皆が笑ってよいか迷う沈黙から始まることもある。だから私は、平穏な日ほど冗談を記録します。
 

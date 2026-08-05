@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A200"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 維持区再会連絡
 - Era: LongTransition / Origin: 無党派 / Relation: 維持共同体
 
-- Tone: 設備・孤立・職歴 / ReviewStatus: 採用済み
+- Tone: 設備・孤立・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 親しみやすい聞き役。長い不在を大げさにせず、小さな再会の作法を語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 再会祭では、会わせれば終わりというわけにいかない。長く離れた二人は、同じ思い出を別の順番で覚えている。私は先に双方へ話を聞き、昔の呼び名を使ってよいか、抱きしめてよいかまで確かめた。自動設備が止まった年は通信も消えたから、地下道を歩いて招待状を配ったよ。扉を叩き、返事を待ち、何度も道を間違えた。機械音のない通路では、遠くの笑い声がよく響いた。祭りの日、再会した友人たちは抱擁せず、並んで温かい飲み物を飲んだ。それも立派な再会だ。私は余った招待状を、今も一枚だけ持っている。
 

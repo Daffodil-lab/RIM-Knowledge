@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C216"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 塔域多視点壁画
 - Era: ModernUnion / Origin: 無党派 / Relation: 塔域共同体
 
-- Tone: 塔・記録・形成 / ReviewStatus: 採用済み
+- Tone: 塔・記録・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 軽快な壁画描き / 存在区分へ厳密 / 足場競争を楽しむ / 短い挨拶を大切にする
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 塔域の壁画は、見る階によって別の出来事に見えるよう描きました。住民の証言と端末記録を照合し、アロンの投影を独立人格の証言者として数えない。逆の取り違えも許しません。急ぐ時ほど確認者を増やしました。足場を駆ける速さは友と競いましたよ。必要ではなく、単純に楽しかった。静かな塔で管理者が毎朝「まだ描くのか」とだけ言い、完成日に「もう描かないのか」と聞いた。その短い挨拶が絵より残っています。記録とは、視点を揃えるより違いを失くさないことだと思うんです。
 

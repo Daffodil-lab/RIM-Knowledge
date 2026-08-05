@@ -182,6 +182,37 @@ for (const file of markdownFiles) {
       if (role === "summary" && authority !== "reference") {
         errors.push(`${rel(file)}: summary must have reference authority`);
       }
+      if (
+        (authority === "historical" || role === "historical-record") &&
+        !(authority === "historical" && role === "historical-record")
+      ) {
+        errors.push(
+          `${rel(file)}: historical authority and historical-record role must be paired`,
+        );
+      }
+      if (parsedMetadata.type === "Historical Record") {
+        if (
+          authority !== "historical" ||
+          role !== "historical-record" ||
+          parsedMetadata.content_mode !== "history"
+        ) {
+          errors.push(
+            `${rel(file)}: Historical Record requires historical authority, historical-record role, and history content_mode`,
+          );
+        }
+      }
+      if (
+        parsedMetadata.type === "Protected Draft" &&
+        !(
+          parsedMetadata.status === "draft" &&
+          authority === "protected-draft" &&
+          role === "draft-proposal"
+        )
+      ) {
+        errors.push(
+          `${rel(file)}: Protected Draft requires draft status, protected-draft authority, and draft-proposal role`,
+        );
+      }
       if (canonicalFor) {
         if (!canonicalForOwners.has(canonicalFor)) canonicalForOwners.set(canonicalFor, []);
         canonicalForOwners.get(canonicalFor).push(rel(file));

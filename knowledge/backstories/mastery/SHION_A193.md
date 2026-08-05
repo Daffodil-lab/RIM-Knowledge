@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A193"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 制限地資源測量
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 回収班
 
-- Tone: 遺物・危険・職歴 / ReviewStatus: 採用済み
+- Tone: 遺物・危険・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 用心深いが美意識を持つ。危険標識を、読まれるための絵として語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 制限地では、価値がありそうだから拾う、という考えが一番危ない。私は地面の変色、足跡の途切れ、古い採掘穴を測り、近づいてよい場所を地図へ描いた。文字が読めない同行者にも伝わるよう、危険は歪んだ花や口を開けた岩の絵で示したよ。芸術家には怒られたが、誰も踏み込まなかった。あの遠征で無害だったのは、道端に落ちていた安物の金属杯だけだった。高価な遺物は一つも持ち帰らず、杯だけを湯飲みにした。今も机にある。勇敢さより、欲を抑えた証拠として気に入っているんだ。
 

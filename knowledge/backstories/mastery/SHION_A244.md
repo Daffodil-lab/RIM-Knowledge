@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A244"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 監査室動物義肢
 - Era: ModernUnion / Origin: 無党派 / Relation: 制裁部隊監査
 
-- Tone: 制裁・倫理・職歴 / ReviewStatus: 採用済み
+- Tone: 制裁・倫理・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 静かな監査技師。動物の傷を、作戦の正当化より信頼できる記録と見る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 制裁作戦の後、周辺農場から負傷した動物が運ばれてきた。私は義肢を合わせながら、傷の方向と作戦記録を照合した。精密打撃だった、正当だったと繰り返す者ほど、歩けない動物を見ようとしなかったよ。次の作戦では標的だけでなく、飼育区画と逃走経路まで再確認させた。友が蘇生した時、私は以前の関係へ戻れると思っていたが、彼は不在だった間の選択を知らなかった。義肢も再会も、元の形へ戻す仕事ではない。今の身体と記憶に合わせ、痛む場所を本人の反応から確かめる仕事だと学んだ。
 

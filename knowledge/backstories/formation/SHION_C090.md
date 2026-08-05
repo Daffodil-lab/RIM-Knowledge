@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C090"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 避難列車児
 - Era: ImperialCivilWar / Origin: 帝国避難民 / Relation: 民間避難列車
 
-- Tone: 戦時・救護 / ReviewStatus: 採用済み
+- Tone: 戦時・救護 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 閉鎖空間の語り部 / 話題を変え続ける / 恐怖を物語で抑える / 同じ夕食を嫌わない
-- PreservedCanonPoints: 本人は時間封鎖で停車した避難列車の中で、壊れた座席を寝台へ作り替えた。 / 外では幾つもの戦争が過ぎ、車内では同じ夕食が続いた。 / 友人を安心させるため、毎回違う話をした。
+- PotentialReferencePoints: 本人は時間封鎖で停車した避難列車の中で、壊れた座席を寝台へ作り替えた。 / 外では幾つもの戦争が過ぎ、車内では同じ夕食が続いた。 / 友人を安心させるため、毎回違う話をした。
 
 > 列車は止まりました。時間封鎖で、窓の外だけ幾つもの戦争が過ぎた。車内では同じ夕食、同じ灯り、壊れた座席。私は座席を寝台へ直し、友人が外の砲光を数え始めるたび別の話をしました。海を見たことがないのに海賊の話、料理できないのに晩餐の話。嘘ばかりです。でも恐怖から視線を外す数分にはなった。今も続きを聞きたいですか、ソフェル。終着駅へ着く話はしません。私たちは着けるか分からなかった。代わりに、次の夕食を少し違う味にする話ならできます。
 

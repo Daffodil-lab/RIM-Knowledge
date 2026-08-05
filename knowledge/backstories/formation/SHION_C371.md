@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C371"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 最初の祈り
 - Era: JourneyEra / Origin: 西側／作られた民族 / Relation: 混成家族「ノヴァク班」
 
-- Tone: 信仰・起源・子ども / ReviewStatus: 採用済み
+- Tone: 信仰・起源・子ども / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 好奇心旺盛でくだけた話し方。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 最初に祈り始めたのって、誰だったんだろうね。あたしが物心ついた頃には、もう食事の前に手を合わせる大人がちらほらいた。ノヴァク班は作られた民族らしい寄せ集めの家族で、旧い国の作法を持ち寄ってはぶつかり合っていたけど、いつの間にか手を合わせる仕草だけは共通になってた。あたしは意味も分からず真似していただけ。ある日、年長の見習いに理由を聞いたら「分からないけど、揃うと安心する」って言われた。今も理由は知らないけど、揃う感覚だけは覚えている。
 

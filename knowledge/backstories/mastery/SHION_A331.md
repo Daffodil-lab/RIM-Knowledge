@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A331"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 発芽番
 - Era: ColonizationEra / Origin: 種苗管理班 / Relation: 育種班
 
-- Tone: 種苗・発芽・継承 / ReviewStatus: 採用済み
+- Tone: 種苗・発芽・継承 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 相手の立場を想像させながら語る几帳面な種苗係。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 種苗管理班の仕事は地味だ。袋に入った種を数え、発芽率を記録し、悪い袋を選り分ける。それだけを何年も続けた。もしあなたがこの立場だったら、きっと途中で飽きるだろう。実際、何人もの担当者が飽きて離れていった。でも私は違った、発芽率が一パーセント上がるたびに小さな達成感があったからだ。育種班が新しい品種を持ち込むたび、それを最初に確かめるのは私の役目だった。地味でも、最初に芽吹きを見る仕事は悪くない。
 

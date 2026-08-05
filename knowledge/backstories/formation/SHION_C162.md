@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C162"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: Kombinat仮設住宅
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 工業・保守・形成 / ReviewStatus: 改稿採用済み
+- Tone: 工業・保守・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 即興型の建築助手 / 理論説明を避ける / 手と目で覚える / 言葉不足を後悔
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > Kombinatが止まった夜、避難者へ理論書を読ませる暇はありませんでした。私は使える梁を見て、手を動かせる者を集め、帰還者がすぐ横になれる仮設棟を組んだ。難しい計算の説明は苦手です。だから道具の握りや歩幅を見て、その人に合わせて作り直しました。一人、部屋の向きを尋ねた人へ「どちらでも同じ」と答えてしまった。故郷がある方を向いて眠りたかったのだと、後で知りました。知識の不足ではなく、聞かなかった私の失敗です。今は釘を打つ前に、何を見て休みたいか尋ねます。
 

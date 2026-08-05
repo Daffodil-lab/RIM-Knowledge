@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A234"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: Kombinat公共壁画
 - Era: ModernUnion / Origin: 無党派 / Relation: Kombinat共同体
 
-- Tone: 工業・保守・職歴 / ReviewStatus: 採用済み
+- Tone: 工業・保守・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 力強く陽気な壁画家。Kombinatの失敗を隠さず、修理した全員を描く。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > Kombinatの壁画へ完成品だけ描けと言われたが、私は停止した夜を選んだ。油まみれの手、手動輪へぶら下がる者、間違った弁を閉めて怒鳴られた私まで描いたよ。高い壁へ登り、重い足場を動かすのも自分でやった。研究記録を読み、誰がどこを直したか確かめたが、証言が食い違う所は一つの姿へまとめなかった。あの夜、私は友へ謝るべきことを後回しにし、結局しばらく会えなくなった。だから壁の隅へ、空の工具箱を描いた。時間がいくらあるように思えても、言葉を置ける場所が明日も残るとは限らない。
 

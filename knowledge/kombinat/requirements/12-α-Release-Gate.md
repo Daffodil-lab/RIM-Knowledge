@@ -6,7 +6,6 @@ tags:
   - "kombinat"
   - "requirements"
   - "production"
-  - "matter-network"
   - "independent-colony"
   - "alpha"
 organization_groups:
@@ -43,14 +42,13 @@ sources:
 - 通常Map空間を経由しない自動搬送と判断
 - 対象の公式DLC有効環境
 
-Matter Networkの導入、Stasis、Controller、Disk、保存データ、互換性はRelease Gateへ含めない。
+各項目はCore Storageとの予約・受渡し・確定、失敗時の所有維持、保存・復旧、代表規模の性能条件まで検証する。
 
 ## 関連項目
 
 - 上位索引: [kombinat/requirements](/kombinat/requirements/index.md)
 - 同じ出典の前項: [J. 通貨](/kombinat/requirements/053-J-通貨.md)
 - 同じ出典の次項: [13. β境界](/kombinat/requirements/13-β境界.md)
-- 連携境界: [連携境界](/integrations/matter-network/index.md)
 - 独立開拓団: [独立開拓団](/colony/index.md)
 - リリース計画: [リリース計画](/roadmap/index.md)
 

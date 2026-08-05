@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A121"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 装甲隊坑道監督
 - Era: ModernUnion / Origin: 無党派 / Relation: 装甲突撃隊
 
-- Tone: 装甲・救援・職歴 / ReviewStatus: 採用済み
+- Tone: 装甲・救援・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 落ち着いた坑道監督。重装甲を武威でなく避難者の時間を買う盾として扱い、作業歌を彫る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 装甲救援隊で坑道を預かりました。地層の音を聞き、崩落までの時間を読み、最後の作業員が戻れる順で掘ります。重装甲は自分が勇敢に見えるためではありません。崩れる岩を一瞬受け止め、避難者へもう一歩の時間を渡す盾です。ある救出で、装甲板の内側から安堵の息が聞こえました。顔も見えないほど暗かったのに、その音だけは覚えています。後で坑道図へ救出時の作業歌を彫りました。平和を語るなら、立派な旗より、誰もが地下から帰れる出口を増やしたいんです。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A172"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 維持区動物義肢
 - Era: LongTransition / Origin: 無党派 / Relation: 維持共同体
 
-- Tone: 設備・孤立・職歴 / ReviewStatus: 採用済み
+- Tone: 設備・孤立・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 物腰の柔らかな義肢技師。自動設備の停止を機に、手作業と肉声の連絡を楽しそうに復活させる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 地下維持区で動物義肢を作っていた時、自動設備が一斉に止まりました。搬送も連絡も止まり、採掘坑へは入れない。私は地上側の工房で手工具を配り、伝言を声で回しました。設備音が消えた都市で、隣人の肉声があれほど遠くまで届くとは思いませんでしたよ。義肢も自動調整を待たず、動物の歩きを見て手で削りました。知識はあっても、深い坑道へ進むのは得意ではありません。だから行ける者へ正確に渡す。何でも一人でできることより、停止しても互いへ頼める方が強い共同体です。
 

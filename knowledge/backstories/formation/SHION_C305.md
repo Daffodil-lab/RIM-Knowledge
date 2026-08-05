@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C305"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 祝宴力比べ
 - Era: EraIndependent / Origin: 無党派 / Relation: 文化共同体
 
-- Tone: 料理・記憶・形成 / ReviewStatus: 採用済み
+- Tone: 料理・記憶・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 豪快で情に厚い。身体競技の勝敗より、最後に同じ食卓へ戻ることを喜ぶ。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 共同祝宴堂では、食事の前に身体規格の違う相手と力比べをしました。触れただけで椅子を壊す者もいるので、勝つより相手を無事に席へ返す方が難しい。私は動物の間合いまで真似して力を調整しました。食事を必要としない者にも席があり、料理の代わりに記憶や感謝を持ち寄りました。ある追悼の夜、最後の皿を前に誰も話せませんでした。味より沈黙を覚えています。強い身体があっても、喪失を軽くできるわけではない。だから競技の終わりには必ず、全員で同じ卓へ戻ることにしていました。
 

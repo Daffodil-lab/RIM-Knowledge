@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C123"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 人格照合見習い
 - Era: ImperialCivilWar / Origin: 旧帝国 / Relation: 内戦生存者
 
-- Tone: 人格・動物・形成 / ReviewStatus: 採用済み
+- Tone: 人格・動物・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 厳密な照合者 / 軽口を証拠と見る / 道具と人格を峻別 / 美的表現は不得手
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 内戦中、外見や性能だけで存在を分類するのは危険でした。私は人格照合局で、複製可能でも欲求と拒否を持つ人格と、どれほど高性能でも自由意志を持たない人工知能を分けて記録したんです。食事の好みや失敗した冗談まで照合項目に入れました。飾った文章は苦手ですが、役に立つんですよ。ある複製人格は古い動物を過剰に甘やかし、毎回同じ言い訳をした。それを聞いて、記憶一覧より本人らしいと思った。人格は完璧な一致ではなく、何を気に掛け、どう誤るかにも現れる――私はそう考えています。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A347"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 医療儀礼消毒
 - Era: JourneyEra / Origin: 混住区育ち / Relation: 医療儀礼班
 
-- Tone: 儀礼・衛生・淡白 / ReviewStatus: 採用済み
+- Tone: 儀礼・衛生・淡白 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 感情の起伏がほとんどない消毒係。事実だけを述べる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 消毒液の匂いは律法の儀式にも使われるようになった。私の仕事はその液を作ることで、それ以上でも以下でもない。儀式用と医療用で濃度を変えるようにという指示が来たときも、特に驚かなかった。混住区で育った私には、道具が二つの目的を持つのは珍しいことではなかった。同僚は儀式に使われることを誇りに思っていたようだが、私にとっては配合の手間が増えただけの話だ。それ以上の感想は特にない。
 

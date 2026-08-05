@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A027"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 開拓地調停人
 - Era: EraIndependent / Origin: 旧党派混成 / Relation: 独立開拓団
 
-- Tone: 共同体・調停 / ReviewStatus: 採用済み
+- Tone: 共同体・調停 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 世話焼きで現実的。党歴の議論が止まると、井戸掘りや屋根直しへ全員を連れ出す。
-- PreservedCanonPoints: 本人は開拓地で土地、水、配給、旧党派の旗を巡る争いを仲裁した。 / 出身党派は確認しても、それを現在の忠誠や要求と同じものとして扱わなかった。 / 話し合いが止まると、屋根の修理や井戸掘りなど双方が必要とする共同作業を提案した。
+- PotentialReferencePoints: 本人は開拓地で土地、水、配給、旧党派の旗を巡る争いを仲裁した。 / 出身党派は確認しても、それを現在の忠誠や要求と同じものとして扱わなかった。 / 話し合いが止まると、屋根の修理や井戸掘りなど双方が必要とする共同作業を提案した。
 
 > 開拓地の争いは土地、水、配給、そして古い旗です。私は党歴を聞きますが、今の忠誠と同じだとは決めません。話し合いが止まれば、双方を井戸掘りか屋根直しへ連れ出しました。喉が渇けば、水の分け方は少し具体的になります。一度、仲直りしたように見えた二人へ昔の旗を一緒に畳ませ、かえって関係を壊しました。再会や和解を儀式で急がせてはいけないんです。旗を捨てても井戸当番は残ります。私は大きな合意より、翌朝に同じ滑車を握れる約束から共同体を作りました。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C397"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 糸くず
 - Era: ColonizationEra / Origin: 織物工房 / Relation: 同期の相棒
 
-- Tone: 軽妙・照れ・工夫 / ReviewStatus: 採用済み
+- Tone: 軽妙・照れ・工夫 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: くだけた、少し言い訳がましい口調。平易な言葉で照れを隠しながら語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 誤解しないでほしいんだけど、私は織物が下手だったわけじゃない。ただ同期の相棒の方が明らかに上手だったから、私は落ちた糸くずを集めて模様を作る係に回されただけ。それが結局、工房の誰も真似できない小さな飾りになった。師匠はそれを見て相棒より私を褒めた日があって、相棒は不服そうだったけど、私は密かに嬉しかった。糸くずから生まれるものだって、ちゃんと形になるんだって、あの時知った。
 

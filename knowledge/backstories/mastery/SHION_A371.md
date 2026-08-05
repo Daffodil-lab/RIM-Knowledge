@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A371"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 混成学舎初年
 - Era: JourneyEra / Origin: 混成学徒 / Relation: 学舎運営班
 
-- Tone: 教育・統合・未来 / ReviewStatus: 採用済み
+- Tone: 教育・統合・未来 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 前向きな教育者。過去より次の計画を語りたがる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 最初の学舎は旧い出身圏ごとに教室を分けていた、それが間違いだったと今なら分かる。分けたままでは律法も新しい暦も共有できなかった。だから三年目に混ぜた、机も、担当も、行事も。反発は多かったが、子供たちの方が先に慣れた、廊下で違う出身の子同士が言葉を教え合っているのを見た時は驚いた。次の世代には、そもそも分ける必要すら教えないつもりだ。今設計している新しい学舎では、出身圏の名前を掲げる壁を一枚も作らない。それが私の答えだ。
 

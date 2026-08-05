@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A410"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 航路技師
 - Era: GrowthEra / Origin: 星路建設隊 / Relation: 測量班
 
-- Tone: 達成・忍耐・誇り / ReviewStatus: 採用済み
+- Tone: 達成・忍耐・誇り / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 落ち着いた技術者口調、数字を交えながら淡々と語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 私が打った航路標識は、数えていた頃で九百を超えていました。星路が一本繋がるたびに、隣の同胞の元へ一年以内で行けるようになる。子どもの頃は退屈な仕事に見えた測量が、今では帝国の成長そのものを支えていると分かります。標識を一本打つごとに古い地図が少しずつ塗り替えられていくのを見るのが、私の何よりの楽しみでした。千本目を打った日、測量班全員で星空を見上げたことは今でも忘れられません。
 

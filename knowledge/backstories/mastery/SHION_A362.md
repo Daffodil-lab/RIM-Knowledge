@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A362"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 織機の航海士
 - Era: JourneyEra / Origin: 第三世界／織り海の民 / Relation: 織布工房
 
-- Tone: 手仕事・比喩・時間 / ReviewStatus: 採用済み
+- Tone: 手仕事・比喩・時間 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 訥々とした老工。織り目を航海に例えて語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 布を織るのは航海と同じじゃとわしは思うとる。縦糸が船の進む道、横糸がその日その日の出来事じゃ。織り海の民として海で網を編んだ手が、そのまま織機に移った。糸が一本切れれば布全体が歪む、それも船と同じじゃった。わしは若い頃、糸を切らさぬことばかり考えて肩を壊した。今は緩めることも織りのうちと分かる。織り上がった布を広げて陽にかざすたび、わしはまだ航海の途中じゃと思う。糸の目が波に見えることさえある。
 

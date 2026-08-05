@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A209"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 監査室義肢調整
 - Era: ModernUnion / Origin: 無党派 / Relation: 制裁部隊監査
 
-- Tone: 制裁・倫理・職歴 / ReviewStatus: 採用済み
+- Tone: 制裁・倫理・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 無愛想だが誠実。装備する者と傷つけられた者の双方へ同じ質問をする。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 制裁作戦の後、私は負傷者の義肢を調整し、同時に部隊の装備も監査した。味方か住民かで質問を変えなかった。何を失い、どの動作を取り戻したいか、本人へ聞く。それから射線記録と損傷の向きを照合した。上官は「正当な任務だった」と繰り返したが、正当性は関節の痛みを軽くしない。私は部品を削りながら、撃った者にも照準を再現させたよ。恨みを晴らすためではない。同じ言葉で次の被害を隠させないためだ。旧帝国の平和を懐かしんでも、沈黙まで復元するつもりはない。
 

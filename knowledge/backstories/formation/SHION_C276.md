@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C276"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 降下合図舞台
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟空挺軍
 
-- Tone: 空挺・友情・形成 / ReviewStatus: 採用済み
+- Tone: 空挺・友情・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 表現力豊かで仲間思い。演劇と救難合図を同じ身体技法として身につける。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 空挺基地の舞台では、照明合図を降下時の捜索信号に合わせました。役者は転び方と抱え起こし方も覚え、稽古がそのまま救護訓練になりました。私は故郷と死者を扱う脚本でも、最後を悲しみだけにしませんでした。実際の降下で地点を外した夜、暗闇から最初に聞こえた仲間の声が、舞台と同じ合図を返したんです。再会した時、台詞より先に笑ってしまいました。長く生きても、その瞬間の友と自分は作り直せません。だから上演するたび、失敗した合図も削らず、新しい役者へ渡しています。
 

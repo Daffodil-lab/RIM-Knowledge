@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C282"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 予測外修繕班
 - Era: ModernUnion / Origin: 無党派 / Relation: 評議会研究院
 
-- Tone: 研究・長期計画・形成 / ReviewStatus: 採用済み
+- Tone: 研究・長期計画・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 堅実な修繕好き。壮大な予測より、目前の故障と友の気づきを重んじる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 長期予測院の修繕班では、遠い未来の交換計画まで表になっていました。私は壁の湿りや配管の音を覚え、予定日より早い故障を見つけるのが好きでした。ある日、予測上は関係のない友が廊下の匂いに気づき、漏れを知らせました。大規模な損傷を防げたのに、私は礼より先に報告書の書式を尋ねてしまった。ずっと後まで悔やみました。未来を精密に並べても、目前の一人が感じた違和感を拾えなければ暮らしは守れません。今は修理を始める前に、その場所を毎日使う人の話から聞きます。
 

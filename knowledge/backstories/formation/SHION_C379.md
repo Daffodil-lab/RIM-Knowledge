@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C379"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 三度の落第
 - Era: JourneyEra / Origin: 律法学舎 / Relation: 律法学舎寄宿組
 
-- Tone: 学び・弁明・成長 / ReviewStatus: 採用済み
+- Tone: 学び・弁明・成長 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 早口で言い訳がましいが憎めない調子。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 学舎を三度落第したことについて、私には言い分があります。まず一度目は暗唱の順番を丸ごと入れ替えて出題した教師が悪い。二度目は寄宿組の全員が同じ風邪をひいた年で、私だけの責任ではありません。三度目だけは、正直に言えば私の怠慢です。ただそれも、寄宿組の年下たちの世話に時間を取られていたからで、無駄に過ごしたわけではありません。四度目でようやく通った時、教師は「ようやく人の面倒を見る癖が落ち着いたか」と笑いました。あの一言だけは、今でも反論できません。
 

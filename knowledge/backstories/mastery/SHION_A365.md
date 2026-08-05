@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A365"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 隔離区画手順
 - Era: JourneyEra / Origin: 西側／霧港文化継承者 / Relation: 医療隔離班
 
-- Tone: 医療・手順・冷静 / ReviewStatus: 改稿採用済み
+- Tone: 医療・手順・冷静 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 淡々とした技術者口調。感情より手順を優先して語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自分の仕事は単純だった。外部居住者の発熱と感染兆候、シオンの汚染状態と機能異常を確認し、隔離区画へ移送し、換気を切り替え、経過表へ時刻を書く。それだけを二十年繰り返した。霧港文化の継承者というだけで消毒班に回されたが、手順を覚えるのに出身は関係なかった。感染や汚染が広がった年は移送の順番を毎回変え、危険度の高い者を先にした。感傷を挟む余裕はなかった。自分がやったのは判断ではなく反復だ、それだけは正確に言っておきたい。運動記録に残った動きへ、今も感情はほとんど混ざっていない。
 

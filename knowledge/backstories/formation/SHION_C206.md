@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C206"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 居住区公開問答
 - Era: EraIndependent / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 生活・基幹・形成 / ReviewStatus: 採用済み
+- Tone: 生活・基幹・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 丁寧だが食い下がる討論者 / 相手を先に要約 / 地下設備へ詳しい / 再会で結論を急がない
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 公開問答では、相手の主張を本人が納得するまで言い直してから反論しました。面倒でしょう？　だから効くんです。身体の違う住民が同じ地下設備を使えるか、空洞図と日常の不便を同じ卓へ載せました。未解決欄を空白にせず「まだ分からない」と書くのも大事です。必要もない飾り仕事を楽しむ隣人を、以前は非効率だと批判しました。今は撤回しています。蘇生した友との関係にも、結論を急いで失敗したので。正しい答えより、相手がまだ話している間は閉じない議題を大切にします。
 

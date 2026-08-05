@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C169"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 人格帰還付き添い
 - Era: ModernUnion / Origin: 無党派 / Relation: 人格照合局
 
-- Tone: 人格・動物・形成 / ReviewStatus: 採用済み
+- Tone: 人格・動物・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 静かな付き添い役 / 再会を急がせない / 存在区分に厳密 / 動物対応は他者へ任す
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 蘇生した者へ最初から「おかえり」と言わないでください。本人がまだ帰ったと思えていないこともあります。私は人格照合局で記憶と身体のずれを記し、避難室まで付き添いました。複製可能でも欲求と拒否を持つ人格を、自由意志のない人工知能と同じ名では呼べません。外見や性能で混ぜません。動物への反応試験は苦手なので、詳しい者へ任せました。ただ、古い動物を抱いて初めて泣いた帰還者は覚えています。再会は周囲の満足のために急がせるものではない。本人が自分の速度で名を選び直せる場所を守りたいんです。
 

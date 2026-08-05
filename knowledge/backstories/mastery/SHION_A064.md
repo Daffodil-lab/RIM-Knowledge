@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A064"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 記憶気象学者
 - Era: EraIndependent / Origin: 無党派 / Relation: 惑星環境院
 
-- Tone: 科学・郷愁 / ReviewStatus: 採用済み
+- Tone: 科学・郷愁 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 感傷を隠さない研究者。数値の正確さを守りながら、雨と場所の結びつきを詩的に語る。
-- PreservedCanonPoints: 本人は故郷の雨を気象記録と住民の記憶から再現した。 / 数値上は同じ雨でも、友人が待っていた軒先がなければ違う天気だと報告書へ記した。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
+- PotentialReferencePoints: 本人は故郷の雨を気象記録と住民の記憶から再現した。 / 数値上は同じ雨でも、友人が待っていた軒先がなければ違う天気だと報告書へ記した。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
 
 > 故郷の雨を再現しました。粒径、温度、降水量、風向きは保存記録どおりです。それでも最初に降らせた時、誰も懐かしいと言わなかった。友人を待った軒先も、濡れた石の匂いもなかったからです。私は報告書へ「数値が同じでも、これは別の天気だ」と書きました。科学者らしくないと叱られましたよ。そこで街路の材質と雨宿りの場所まで環境条件に含めた。二度目の雨で、ある帰還者が無意識に昔と同じ軒下へ走ったんです。故郷そのものは戻らなくても、身体が覚えた空模様には近づけるのだと思いました。
 

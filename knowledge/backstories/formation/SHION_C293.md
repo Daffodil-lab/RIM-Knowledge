@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C293"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 狭路救出遊び
 - Era: ModernUnion / Origin: 無党派 / Relation: 特殊任務群
 
-- Tone: 潜入・工兵・形成 / ReviewStatus: 採用済み
+- Tone: 潜入・工兵・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 身軽で悪戯好き。潜入訓練を、火力を避けて全員を運び出す遊びに変える。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 要塞潜入路の模型で、私たちは負傷者役や動物役を狭い通路から運び出す遊びをしました。正面から壊せば早いのに、民間区画を傷つけない経路を探す方が面白かったんです。私は組み技で相手を抱え、鳴かない動物役にも辛抱強く合図を待ちました。本当の任務では設備だけを止め、住民を逃がせました。誰を英雄役にするか聞かれましたが、皆で断りました。一人が近道を見つけ、一人が扉を支え、一人が最後尾を数えたからです。私は今も、壁を壊さず帰る方法を探す方が好きです。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C114"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 共同住宅跡補修
 - Era: PostCivilWarEmpire / Origin: 旧帝国 / Relation: 内戦後帝国
 
-- Tone: 制度・個人・形成 / ReviewStatus: 採用済み
+- Tone: 制度・個人・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 神経質な補修者 / 時計に執着 / 規則と現実のずれを嫌う / 言わなかった一言を悔やむ
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 共同住宅は整然としていました。少なくとも外壁と告示は。中では配管が漏れ、避難扉が家具で塞がれ、住民は処罰を恐れて修理申請を取り下げた。私は補修班について回り、担当外でも読める図へ描き直しました。広場の時計が一つだけ七分遅れていて、連行された住民はその七分で家族へ別れを言えたそうです。私は直せと言われ、黙って従った。そのことを後悔しています。律法の形を整えるより、誰の時間を奪う修理なのか聞くべきでした。今は依頼人の説明を、工具を出す前に最後まで聞きます。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A268"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 透明区動物義肢役
 - Era: LongTransition / Origin: 旧党派 / Relation: 計画共同体
 
-- Tone: 制度・個人・職歴 / ReviewStatus: 採用済み
+- Tone: 制度・個人・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 秘密を守る旧党派出身者。透明な制度の中で、動物と個人の私的領域を確保する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 透明居住区では、治療記録まで皆に見えるのが善だとされた。私は動物の歩き方と痛みを公開しても、飼い主の私的な記憶や、本人が隠したい反応までは載せなかった。深い採掘区画の仕事は避け、診療室で義肢と記録の境界を守ったよ。旧党派にいた頃、秘密は疑いの証拠だと教えられた。今は、見せない自由も信頼の一部だと思う。街の時計はすべて揃っていたが、友の部屋だけ一つ遅れていた。蘇生前の時刻で止めたものだった。私は直さなかった。正確さより、本人が残したい時間を尊重したかったからだ。
 

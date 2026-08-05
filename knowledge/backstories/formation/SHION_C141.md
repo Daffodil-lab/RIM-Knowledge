@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C141"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 異常対応種子録
 - Era: ModernUnion / Origin: 無党派 / Relation: 異常対応隊
 
-- Tone: 異常・救難・形成 / ReviewStatus: 採用済み
+- Tone: 異常・救難・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 慎重な種子記録者 / 小さな救助を誇る / 党派間調整に慣れる / 失敗公開を重視
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 異常対応隊で種子を扱うのは奇妙に聞こえますか。封鎖地から回収した故郷の種には、来歴と発芽条件だけでなく周囲の変化も付けて保管します。私は重火器を呼ぶ前に観測と退路を確かめ、党派の違う担当者を同じ卓へ座らせました。一度、判定を急いで一箱を枯らした。その失敗も台帳から消していません。成果表に載らなかったけれど、汚染を疑われた小鉢と持ち主を無事に帰せた日があります。平和とは大発見より、こういう小さな救助を隠さず積み上げられることだと思うんです。
 

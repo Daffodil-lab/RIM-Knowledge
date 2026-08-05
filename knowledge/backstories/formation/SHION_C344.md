@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C344"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 儀礼班の子
 - Era: JourneyEra / Origin: 混成世代 / Relation: 祈祷輪
 
-- Tone: 信仰・訂正・出自 / ReviewStatus: 採用済み
+- Tone: 信仰・訂正・出自 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: きっぱりした口調で誤解を正す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 「儀礼班の子」と呼ばれるが、それは正確じゃない。わしの親は儀礼班にいたことは一度もなく、ただ祈祷輪に毎晩顔を出していただけだ。当時はまだ律法どころか儀式の形すら定まっておらず、輪になって黙るだけの夜も多かった。わしが子供の頃に覚えているのは、決まった経文ではなく、誰かが灯りを分け合う手つきだ。今の律法学舎の子らはわしを古株の信徒と思っているようだが、わしはただ輪に座っていた子供に過ぎん。呼び方は正してほしい。
 

@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A299"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 記録所徒手警護
 - Era: LongTransition / Origin: 共産党系 / Relation: 旧党派記録所
 
-- Tone: 党派・記録・職歴 / ReviewStatus: 採用済み
+- Tone: 党派・記録・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 抑制の利いた元共産党系警護員。命令への忠誠より、沈黙した者の記録を守る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 旧党派収容記録所で、私は武器を持たず収容者と見物人の間へ立った。共産党系の組織にいた頃、正しい目的なら厳しい命令も必要だと考えたことがある。だからこそ、自白が書き換わり、名前が消される過程を他人事にはできなかった。沈黙した者へ話せと迫らず、紙に残った筆圧や消去跡も証言として保管したよ。動物の世話をする収容者には、その日課を続けさせた。任務を終えた食卓では、一人分だけ料理が冷えたままだった。組織の正しさより、次に消されそうな一人を帰すことを仕事の基準にした。
 

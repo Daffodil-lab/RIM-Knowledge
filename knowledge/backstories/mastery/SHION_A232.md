@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A232"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 市場終生飼養
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 星間交易圏
 
-- Tone: 交易・旅・職歴 / ReviewStatus: 採用済み
+- Tone: 交易・旅・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 商人には厳しく、老いた動物には甘い。役目を失った後の暮らしを重んじる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 星間市場では、働けなくなった動物をすぐ交換しようとする商人がいた。私は買値を返すより先に、最後まで飼う契約を読ませたよ。深い採掘区画へ資材を取りに行く仕事は他の者へ頼み、私は寝床と日課を守った。閉店後には商人たちと簡素な食事を分け、老いた運搬獣にもいつもの器を置いた。食べる量が減っても、待つ時間を削らなかった。役目を終えた者へ必要以上の世話をするのは無駄だと言われたこともある。私はその無駄を文化と呼びたい。働くためだけに生きていないと示せる場所が、豊かな市場だと思うからね。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C325"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 灯より足場
 - Era: ColonizationEra / Origin: 航路整備隊 / Relation: 標識班
 
-- Tone: 航路・標識・危険 / ReviewStatus: 採用済み
+- Tone: 航路・標識・危険 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 誤解を一つずつ数え上げて訂正する、教師のような口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 航路標識の仕事について、よくある誤解が三つあります。一つ、危険を知らせるだけの仕事だと思われがちですが、安全な航路を残す仕事でもあります。二つ、機械が全部やると思われがちですが、帝国の星図にない灯は人の目でしか見つけられません。三つ、これが一番の誤解ですが、私たちに勇敢さは必要ないと思われています。実際は違います。灯を立てる場所を決めるたび、そこに残るかどうかを自分で選ばなければなりませんでした。私はいつも、灯より先に自分の足場を確かめました。
 

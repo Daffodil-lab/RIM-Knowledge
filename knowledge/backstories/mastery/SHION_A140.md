@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A140"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 継承公共案内
 - Era: ModernUnion / Origin: 無党派 / Relation: 教育共同体
 
-- Tone: 教育・継承・職歴 / ReviewStatus: 採用済み
+- Tone: 教育・継承・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 好奇心の強い案内官。古い教師の知識を尊びながら、最後に答えを伏せた授業を楽しそうに語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 継承教室では来訪者を席へ案内し、古い世代の教師とつなぎました。出身や党歴で質問を選別せず、必要なら資料庫まで同行したんです。授業の最後、教師が地下空洞の見分け方を問いました。皆が答えを待ったのに、教師は笑って授業を終えた。私は腹を立てましたよ。後で実地へ出ると、地層は教本と違い、私たちは自分で確かめるしかなかった。答えを伏せたのは不親切ではなく、知識を服従へ変えないためだったのでしょう。今も案内する時は、窓口だけでなく自分で問い直せる出口まで示します。
 

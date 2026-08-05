@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A350"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 儀礼道具管理
 - Era: JourneyEra / Origin: 儀礼班出身 / Relation: 儀礼班
 
-- Tone: 道具・儀礼・几帳面 / ReviewStatus: 採用済み
+- Tone: 道具・儀礼・几帳面 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 丁寧な道具管理人。物のリストで語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 儀礼班が使う道具は年々増えていった。最初は蝋燭一本と布切れだけ。次に種の入った小箱が加わり、それから律法の詞を書いた札、香を焚く器、最後に鈴が加わった。私の仕事はその全部を数えて磨いて、次の儀式まで欠けがないようにすることだった。鈴だけは音が変わるのを嫌って、私が自分で磨くと決めていた。他の誰かが磨くと少し音が濁る、そんな気がしていた。気のせいかもしれないが、今でもそう思っている。
 

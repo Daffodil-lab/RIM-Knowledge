@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A328"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 呼び出し手
 - Era: ColonizationEra / Origin: 救難班 / Relation: 巡回医療隊
 
-- Tone: 救難・呼応・傷病 / ReviewStatus: 採用済み
+- Tone: 救難・呼応・傷病 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 短い合言葉を繰り返しながら語る救難隊員。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 救難班にいた頃、合言葉は「声のする方へ」だった。嵐の中でも、崩れた坑道でも、声のする方へ進めばたいてい誰かがいた。声のする方へ進んで、間に合わなかったこともある。それでも声のする方へ進むことをやめなかった。巡回医療隊と合流するときも、合図はいつも同じ短い呼び声だった。今、耳が遠くなっても、あの呼び声だけは他のどんな音より先に拾える気がする。声のする方へ、それが私の仕事の全てだった。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A419"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 彫り師
 - Era: AscendantEra / Origin: 秘文字工房 / Relation: 工房
 
-- Tone: 職人気質・確信・静謐 / ReviewStatus: 採用済み
+- Tone: 職人気質・確信・静謐 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 落ち着いて、確信を持って語る職人口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > うちが挽いた顔料で書いた文字が光った日から、もう長い年月が経つ。今ではうち自身が彫り師として、粒度だけでなく彫る角度や深さまで見るようになった。文字が光るかどうかは、才能だけでは決まらないというのがうちの持論だ。粉の挽き方、顔料の乾かし方、彫る手の速さ、全部が揃って初めて一文字が完成する。若い見習いにはまず粉を挽かせる。うちがそうだったように、単調な作業の先にしか見えないものがあると信じているからだ。
 

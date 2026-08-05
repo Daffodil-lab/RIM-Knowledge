@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C068"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 故郷模型旅行者
 - Era: EraIndependent / Origin: 無党派 / Relation: 模型旅行会
 
-- Tone: 工芸・郷愁 / ReviewStatus: 採用済み
+- Tone: 工芸・郷愁 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 風変わりな模型作家 / 弁明口調 / 故郷の意匠へ執着 / 批評を楽しむ
-- PreservedCanonPoints: 本人は訪れた土地の模型へ、故郷Твердьの窓を一つずつ付けた。 / 現地の建築家には不評だったが、旅仲間はその窓を目印に集合した。 / 帰郷後も模型から窓を外さなかった。
+- PotentialReferencePoints: 本人は訪れた土地の模型へ、故郷Твердьの窓を一つずつ付けた。 / 現地の建築家には不評だったが、旅仲間はその窓を目印に集合した。 / 帰郷後も模型から窓を外さなかった。
 
 > 現地様式を壊した、と建築家には不評でした。私は訪れた都市の模型へ、故郷Твердьの窓を一つずつ付けたんです。水上都市にも砂岩塔にも同じ青い枠。確かに趣味は悪い。でも旅仲間は「窓の模型に集合」と言えば迷わなかった。故郷を持ち歩くとは、正確な復元ではなく、帰る印をよその景色へ混ぜることだと思っています。帰郷後も窓を外しませんでした。もう必要ない？　いいえ。戻れたからこそ、旅先で故郷を借りた跡を残したい。ソフェル、美観の罪なら喜んで認めますよ。
 

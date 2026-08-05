@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C115"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 都市群調査
 - Era: LongTransition / Origin: 独立開拓者 / Relation: 長い過渡期
 
-- Tone: 都市・旅・形成 / ReviewStatus: 採用済み
+- Tone: 都市・旅・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 旅好きな採掘者 / 地図より身体記憶を信頼 / 冗談をよく覚える / 成果主義に反発
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 移動都市の地下は、停泊するたび別の地面へ接続します。私は必要量だけ掘り、帰路の壁へ小さな浮彫りを残しました。正式な地図もありましたが、住民が語る街は皆少し違ったので、証言も横へ書いたんです。「この角は朝だけ近い」とかね。意味不明でしょう。でも実際、生活の流れはそうでした。報告書には採掘量と無事故しか残りません。私が覚えているのは、道を間違えた友が彫ったひどい似顔絵です。成果だけ保存した都市は、再建できても住みたい場所にはならないと思います。
 

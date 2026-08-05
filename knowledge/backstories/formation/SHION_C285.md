@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C285"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 選ばぬ花の庭
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 福祉・選択・形成 / ReviewStatus: 採用済み
+- Tone: 福祉・選択・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 思慮深く反省的。善意ある設計でも、本人の選択を奪いうると知る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 孵育文化区の記念庭園は、誰もが心地よいと判定された花で埋められていました。私は死者と帰還者の名札を手入れしましたが、ある友は自分の区画に花を植えないでほしいと言いました。私は最初、悲しみからの拒絶だと決めつけ、植えてしまった。友は自分で作った不格好な椅子を置き、花を抜きました。そこで初めて、快適さを与えることが選択を奪う場合もあると知ったんです。私は失敗の記録と空いた土を残しました。今では何も植えない区画も、庭の大切な一部だと思っています。
 

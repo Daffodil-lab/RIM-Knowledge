@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C319"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 六段目の棚
 - Era: ColonizationEra / Origin: 地質調査隊 / Relation: 採取班
 
-- Tone: 地質・分類・数 / ReviewStatus: 改稿採用済み
+- Tone: 地質・分類・数 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 数字と分類にこだわる、几帳面で内向きな口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 数を数えるのが好きでした。持ち帰った岩石標本は千二百三十七個、いや正確には千二百三十六個です、一つは輸送中に割れて数から外しました。班の雑談にはあまり加わりませんでした、雑談より石の分類の方が楽しかったからです。分類棚は七段あり、六段目だけ私が独自の基準で並べ替えました。誰かに笑われましたが、並べ方は変えませんでした。数えることだけが、私を落ち着かせてくれました。
 

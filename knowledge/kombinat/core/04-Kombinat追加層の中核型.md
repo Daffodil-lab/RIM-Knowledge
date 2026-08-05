@@ -5,7 +5,6 @@ description: "KombinatはCore独自保管・接続システムに属する保管
 tags:
   - "kombinat"
   - "implementation"
-  - "matter-network"
 organization_groups:
   - "kombinat-communities"
 status: stable
@@ -49,7 +48,6 @@ Core独自保管・接続システムのStorage、Network graph、検索索引�
 - 上位索引: [kombinat/core](/kombinat/core/index.md)
 - 同じ出典の前項: [3. 物理Thingと通貨](/kombinat/core/03-物理Thingと通貨.md)
 - 同じ出典の次項: [5. 発注と多段生産](/kombinat/core/05-発注と多段生産.md)
-- 連携境界: [連携境界](/integrations/matter-network/index.md)
 - 正規保管仕様: [Core独自保管・接続システムの実装境界](/design/51-Core独自保管接続システムの実装境界.md)
 - 統合境界: [内政台帳とNetwork Storageの統合境界](/design/54-内政台帳とNetwork-Storageの統合境界.md)
 

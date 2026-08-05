@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A217"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 深層資源測量
 - Era: LongTransition / Origin: 複数党派 / Relation: 残響調査隊
 
-- Tone: 残響・戦争・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 残響・戦争・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 疲れた救難測量士。再現された英雄譚より、変わらない不在を語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 残響深層では、昔の戦場が何度も同じ形で現れた。私は岩盤と採掘跡を測りながら、再現された救難路へ印を描いた。記念画の英雄は真っすぐ前進していたが、実際の記録では怯えて遠回りし、そのおかげで仲間を見つけていたよ。私は美しい姿へ直さず、迷った線をそのまま地図へ残した。何度残響へ入っても、失った友を連れ戻すことはできなかった。声も姿も再現されたが、こちらの問いには答えない。帰るたび不在を確認するのは辛かった。それでも、英雄像より本当の迷いを残す方が、次の救難者には役立つ。
 

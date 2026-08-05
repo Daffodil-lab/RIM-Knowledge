@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C299"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 予測外の義肢
 - Era: ModernUnion / Origin: 無党派 / Relation: 評議会研究院
 
-- Tone: 研究・長期計画・形成 / ReviewStatus: 採用済み
+- Tone: 研究・長期計画・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 手先が器用で柔軟。長期計画より、使用者が今日選んだ動きを優先する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 長期予測院の義肢工房には、何世代先まで使う部品の設計表がありました。私はその通りに削りましたが、装着者は予測にない指の動きを望みました。趣味の古い射撃遊びを、また友としたいと言うんです。遠い効率より今日の約束を選び、設計を変えました。その友が非常時に仲間を見つけ、計画外の救援を導いたことがあります。記録には成功だけ残せと言われましたが、調整中に何度も物を落とした冗談まで書きました。未来は表に合わせて人を削るのでなく、人が望む動きへ表を直すためにあると思います。
 

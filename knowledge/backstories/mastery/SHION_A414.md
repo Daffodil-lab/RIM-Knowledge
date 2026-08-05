@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A414"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 造船匠
 - Era: GrowthEra / Origin: 港湾都市 / Relation: 造船班
 
-- Tone: 職人気質・郷愁・忍耐 / ReviewStatus: 採用済み
+- Tone: 職人気質・郷愁・忍耐 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 重々しく間を取る、経験を積んだ職人の口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > わしが最初に組んだ竜骨は、今も外港に係留されたまま現役で使われとる。港が広がって新型の船を頼まれるたびに、古いやり方と新しい設計のどちらを信じるか迷うことがある。潮位標を見ていた子どもの頃の癖で、船を組む前には必ず港の潮を確かめるようにしとる。若い連中には縁起担ぎだと笑われるが、わしにはそれが一番確かな相棒じゃ。竜骨に手を当てると、木がどれだけの重さに耐えられるか、今でも大体分かる。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C106"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 市場動物診療
 - Era: LongTransition / Origin: 独立開拓者 / Relation: 長い過渡期
 
-- Tone: 交易・旅・形成 / ReviewStatus: 採用済み
+- Tone: 交易・旅・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 根気強い聞き手 / 商取引には慎重 / 動物の沈黙を尊ぶ / 言い残しを悔やむ
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 市場では誰もが値段を話しますが、診療台の獣だけは何も言いません。私は歩幅、耳の向き、触れた時の呼吸を待ってから、痛む場所を先生へ示しました。品物の来歴を確かめる癖も、そこで身についたんです。急ぐ商人ほど「たぶん大丈夫」と言うので。閉店後、治療費を払えなかった旅商人が薄いスープを分けてくれました。私は礼を短く済ませ、次の便で彼を失った。もっと話せばよかった、と今も思います。それ以来、相手が人でも獣でも、沈黙を答えが無いことにはしません。
 

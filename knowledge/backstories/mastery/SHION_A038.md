@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A038"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 異常対応員
 - Era: EraIndependent / Origin: 無党派 / Relation: 独立封鎖班
 
-- Tone: 異常・封鎖 / ReviewStatus: 採用済み
+- Tone: 異常・封鎖 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: LawEnforcement
 - VoiceProfile: 冷静で好奇心を制御できる対応員。謎を解けず扉を閉めて帰ることを敗北と考えない。
-- PreservedCanonPoints: 本人は原因不明の設備、生物、信号を調べる異常対応員となった。 / 現場へ着くと調査より先に避難範囲を決め、触れる必要と停止手段を確認した。 / 理解できない対象を成果のために起動せず、封鎖したまま監視を続ける判断も選んだ。
+- PotentialReferencePoints: 本人は原因不明の設備、生物、信号を調べる異常対応員となった。 / 現場へ着くと調査より先に避難範囲を決め、触れる必要と停止手段を確認した。 / 理解できない対象を成果のために起動せず、封鎖したまま監視を続ける判断も選んだ。
 
 > 謎を解けず扉を閉めたまま帰った任務があります。翌日も全員が生きていたので、私は成功だと思っています。原因不明の設備、生物、信号を扱う時は、調査より先に避難範囲を決め、触れる必要と停止手段を確認しました。若い頃、一度だけ成果を急いで装置を起動し、同僚を長い隔離へ送りました。蘇生できても、隔離中に失った時間は返せません。それから好奇心を勇気と呼ばなくなりました。分からないものを分からないまま監視し、被害を増やさない。それも専門家の判断です。
 

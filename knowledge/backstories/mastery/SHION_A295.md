@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A295"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 文化区蘇生療養
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 福祉・選択・職歴 / ReviewStatus: 採用済み
+- Tone: 福祉・選択・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 優しいが制度へ懐疑的な療養医。完璧な回復より、本人が選ぶ不便を尊重する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 孵育文化区の療養計画は、蘇生者へ最も快適な部屋と仕事を自動で割り当てた。私は本人が断る欄を追加したよ。友は身体に合う椅子を支給されても、自分で作った不便な椅子を手放さなかった。転倒しないよう床と避難路だけ直し、椅子は残した。戦争から戻らない者の名を読む時、蘇生できるから損失ではないと言う者もいた。私は同意しない。死の瞬間も不在の時間も、完全には消えないからだ。回復とは制度の幸福へ戻すことではなく、今の本人がどの不便を選ぶか聞けるところまで支えることだ。
 

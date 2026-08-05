@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A204"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 本国橋梁技師
 - Era: EraIndependent / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 生活・基幹・職歴 / ReviewStatus: 採用済み
+- Tone: 生活・基幹・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 現場合わせを好む熟練工。理論を否定せず、使う人の足取りを優先する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 本国の古い橋は、図面どおりに直すと使いにくくなる。住民が長い間に削った段差や、荷車が避ける柱には理由があるからだ。私は現場を歩き、杖、車輪、異なる身体の足取りを見てから部材を削った。抽象的な計画を延々と練るより、仮設を組んで渡ってもらう方が性に合う。専門家には乱暴だと叱られたが、記録は残したよ。蘇生した隣人が昔と同じ道を歩き、「橋は変わったね」と笑った。町も私たちも変わる。だから復元とは、昔の形を固めることではなく、また一緒に渡れる場所を作ることだと思っている。
 

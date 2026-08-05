@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A332"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 屋根継ぎ
 - Era: ColonizationEra / Origin: 入植地 / Relation: 建設隊
 
-- Tone: 入植・屋根・継承 / ReviewStatus: 採用済み
+- Tone: 入植・屋根・継承 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 経験から導いた格言を静かに語る年季の入った屋根職人。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 入植地の屋根はどれも一度は雨漏りする、これは私が最初に学んだことだった。建設隊にいた頃、完璧な屋根を作ろうとして何度も失敗し、あるとき考えを変えた。漏らないようにするのではなく、漏れても分かるように作ればいい。継ぎ目を少しだけ内側に見えるようにしておけば、天井裏を見ただけで弱った箇所が分かる。それ以来、私が葺いた屋根で大きな崩落は一度もない。屋根は隠すものではなく、弱さを見せておくものだ、それが私の考えだ。
 

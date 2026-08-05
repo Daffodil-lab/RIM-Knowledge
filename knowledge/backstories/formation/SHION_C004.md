@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C004"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 解体場見習い
 - Era: EraIndependent / Origin: 無党派 / Relation: 未形成
 
-- Tone: 技術・日常 / ReviewStatus: 採用済み
+- Tone: 技術・日常 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: ぶっきらぼう / 短文 / 音への集中 / 知らない物への敬意
-- PreservedCanonPoints: 本人は廃船解体場で船体を槌と聴音器で調べ、亀裂、空洞、残留圧力の位置を記した。 / 図面を失った船では、金属の響きと振動から内部構造を推測する必要があった。 / 危険な区画へ印を付け、回収班が安全に切断できる順序を決める仕事も任された。
+- PotentialReferencePoints: 本人は廃船解体場で船体を槌と聴音器で調べ、亀裂、空洞、残留圧力の位置を記した。 / 図面を失った船では、金属の響きと振動から内部構造を推測する必要があった。 / 危険な区画へ印を付け、回収班が安全に切断できる順序を決める仕事も任された。
 
 > まず船体を叩く。話はそれからです。軽い音なら空洞、濁れば亀裂、腹へ響くなら圧が残っている。図面のない廃船は嘘をつきませんが、聞く側はよく思い込みます。私も一度、空の区画だと決めつけて印を急ぎ、回収班を止められた。槌を取り上げた親方の顔より、切断刃の向こうで鳴った低い軋みを覚えています。怖かったか？　当然でしょう。だから危険札は大きく書くし、分からない時は分からないと残す。ソフェル、賢さとは早く名を付けることではない。私はそう考えています。
 

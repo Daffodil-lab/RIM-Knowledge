@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C120"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 山岳追悼劇
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 連合連絡隊
 
-- Tone: 革命・友情・形成 / ReviewStatus: 採用済み
+- Tone: 革命・友情・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 熱のある演者 / 党派名を避ける / 鐘の音に敏感 / 仲間との稽古を愛す
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 山岳連絡区では、橋を守った者たちの話を舞台にしました。どの党の英雄か、ですか？　その質問には答えたくありません。彼らは孤立した住民を渡すために集まり、旗の順番で死んだのではないから。私は殺陣を習い、倒れる身体を傷めない受け方を仲間と競いました。稽古は楽しかった。本番の夜、遠い鐘が新しい死者を知らせ、台詞が一度止まりました。それでも続きを演じたんです。悲しみを終わらせるためではなく、悲しんだまま次の橋を架けるために。私は今も、鐘を聞くと立ち位置を確かめます。
 

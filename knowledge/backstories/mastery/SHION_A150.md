@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A150"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 連合公共壁画
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 革命・証言・職歴 / ReviewStatus: 採用済み
+- Tone: 革命・証言・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 激しい口調の壁画家。革命を英雄画にせず、炊事煙、党派対立、再会後の距離まで色分けする。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 革命連合の後方壁へ、戦争を描きました。英雄を中央に置けと言われましたが、私は炊事煙と配給列を大きくした。党派の違う部隊へ同じ物資を運んだ者こそ、連合を一日長く保ったからです。共同の敵が消えた後、隣り合う色は互いを塗り潰そうとしました。その対立も消しませんでした。蘇生した友が壁を見て「私はこんな顔ではなかった」と笑ったので、現在の横顔を隣へ描き足しましたよ。革命を記念するなら、昔の私たちを固めず、今も訂正できる壁であるべきです。
 

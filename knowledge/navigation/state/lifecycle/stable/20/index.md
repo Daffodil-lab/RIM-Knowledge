@@ -1,20 +1,9 @@
 # stable 20
 
-範囲: 2.2 人格とゲームユニット〜通常プレイで説明しないこと
+範囲: ADV-005 Ephemeral参照解決〜2. What to adopt
 
 ## 項目
 
-- [2.2 人格とゲームユニット](/pawn/2-2-%E4%BA%BA%E6%A0%BC%E3%81%A8%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88.md) — 人格とゲームユニットは、ゲーム上のPawnは生産、保管、交換、補充できるコマである。
-- [2.3 無料保管](/pawn/2-3-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — 生存PawnはPawn Foundryまたは対応設備からDormant状態へ移し、必要になるまで保管できる。
-- [3.1 Ephemeral Pawn](/pawn/3-1-Ephemeral-Pawn.md) — 適合生成の既定出力であり、また役割上必要な情報だけを指定し、それ以外をランダム生成する。
-- [3.2 Registered Individual](/pawn/3-2-Registered-Individual.md) — 既存Pawnをプレイヤーが登録すると、個体を再構築するためのIndividual Archiveを作る。
-- [3.3 Saved Pawn Design](/pawn/3-3-Saved-Pawn-Design.md) — 特定の一人ではなく、繰り返し使える製造設計である。
-- [3.4 Clone](/pawn/3-4-Clone.md) — 登録個体または保存設計をClone Sourceにできる。
-- [4.1 ID](/pawn/4-1-ID.md) — 再実体化ではindividualIdを維持し、pawnInstanceIdを更新できる。
-- [ADV-001 緊急一体再配備](/pawn/adv-001.md) — MUST: 同一Mapで活動可能なプレイヤーPawnが0体になった場合、Dormant Recordから一体だけを、電力、Pawn作業、通常の配備Queueなしで安全地点へ復帰できるfail-safeを持つ。
-- [ADV-002 無人Foundry](/pawn/adv-002.md) — MUST: 電力、材料、健全な設備がある時、少なくとも一系統のPawn Foundry工程は生存Pawnの作業なしで一体を完成できる。
-- [ADV-003 物理費と人格復元費](/pawn/adv-003.md) — MUST: Archiveが低コストで復元するのは人格・構成情報であり、失われた身体、内蔵Module、着脱装備を無償複製しない。
-- [ADV-004 Pawn要素別安全性](/pawn/adv-004.md) — MUST: Gene、Hediff、Ability、Comp、Royalty、Ideology、Quest、外部MODデータをDormant Safe、Archive Safe、Clone Safeの要素別に判定する。
 - [ADV-005 Ephemeral参照解決](/pawn/adv-005.md) — MUST: Ephemeral Pawnの完全削除前に、Relation、Mood Memory、Tale、Quest、Lord、Faction、World Pawn、Bond、外部参照を解決、匿名化、終端記録へ変換する。
 - [ADV-006 Design version pin](/pawn/adv-006.md) — MUST: Generation Requestは開始時のPawn Design、Clone Source checkpoint、Loadout Profile、Gene／Ability候補、Adapter versionをpinする。
 - [ADV-007 Pawn依存Manifest](/pawn/adv-007.md) — MUST: Dormant Record、Individual Archive、Pawn Design、Clone Sourceが依存するpackageId、version、Def、class、Adapterを有限Manifestとして保存する。
@@ -84,3 +73,14 @@
 - [プレイヤーが感じる順序](/player-facing/004-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%84%9F%E3%81%98%E3%82%8B%E9%A0%86%E5%BA%8F.md) — この順序を逆転させない、また開始直後から同盟を残虐な秘密国家として見せると、作品は普通のディストピア暴露になる。
 - [帝国と同盟を見せる方法](/player-facing/005-%E5%B8%9D%E5%9B%BD%E3%81%A8%E5%90%8C%E7%9B%9F%E3%82%92%E8%A6%8B%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95.md) — 帝国史を長く講義する必要はありません、また現在の暮らしに残る層で見せます。
 - [通常プレイで説明しないこと](/player-facing/006-%E9%80%9A%E5%B8%B8%E3%83%97%E3%83%AC%E3%82%A4%E3%81%A7%E8%AA%AC%E6%98%8E%E3%81%97%E3%81%AA%E3%81%84%E3%81%93%E3%81%A8.md) — 必要になった時、クエスト一件につき一つの中心問題だけを見せます。
+- [短文](/player-facing/007-%E7%9F%AD%E6%96%87.md) — 食事も仕事も身体も選べる狐型機械人シオンと、辺境に小さな楽園を築こう。
+- [長文](/player-facing/008-%E9%95%B7%E6%96%87.md) — シオンは、製品として作られた身体を自分たちの手へ取り戻した狐型の機械人です。
+- [Red Star紹介文](/player-facing/009-Red-Star%E7%B4%B9%E4%BB%8B%E6%96%87.md) — Red Starは、本国が正式に派遣する開拓団です。
+- [文章の声](/player-facing/010-%E6%96%87%E7%AB%A0%E3%81%AE%E5%A3%B0.md) — 同盟人は、自国の矛盾を悪役のように解説しません。
+- [視覚と技術の基準](/player-facing/011-%E8%A6%96%E8%A6%9A%E3%81%A8%E6%8A%80%E8%A1%93%E3%81%AE%E5%9F%BA%E6%BA%96.md) — 未来性は、現代的な画面や軍用品ではなく、古い文明の手触りから不可能な結果が出ることで示します。
+- [最小用語集](/player-facing/012-%E6%9C%80%E5%B0%8F%E7%94%A8%E8%AA%9E%E9%9B%86.md) — これ以上の語は、登場するクエストや機能の中でその都度説明します。
+- [参考資料の利用境界](/reference/00-%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99%E3%81%AE%E5%88%A9%E7%94%A8%E5%A2%83%E7%95%8C.md) — 参考資料は、現行正本ではないが、調査、比較、発想、再設計の入力として再利用できる可能性を持つ資料である。
+- [旧Matter Network統合検討](/reference/matter-network/00-%E6%97%A7%E7%B5%B1%E5%90%88%E6%A4%9C%E8%A8%8E.md) — Matter Network統合検討は終了した過去案件であり、判断経緯を探すための参考入口だけを保持する。
+- [0. Purpose](/research/anomaly-monolith/00-Purpose.md) — This document records user-provided screenshots of RimWorld Anomaly-style monolith structures as a visual reference for the redesigned…。
+- [1. Why Anomaly monoliths are useful](/research/anomaly-monolith/01-Why-Anomaly-monoliths-are-useful.md) — Anomaly monolith visuals are useful because they communicate、具体的にはa unique central object;とdormant mystery;を扱う。
+- [2. What to adopt](/research/anomaly-monolith/02-What-to-adopt.md) — Adopt structurally、具体的にはone strong central block;とside supports or buttresses;を扱う。

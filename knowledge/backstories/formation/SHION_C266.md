@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C266"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 帰還者討論
 - Era: ImperialPeak / Origin: 旧帝国 / Relation: 最盛期帝国社会
 
-- Tone: 戦争・時間・形成 / ReviewStatus: 改稿採用済み
+- Tone: 戦争・時間・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 礼節を守る論客。他者の経験時間を、自分の尺度で裁かないよう努める。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帝国帰還記録院の討論では、相手の話を正しく言い直せなければ反論を許されませんでした。最盛期らしい、長くて面倒で、よくできた作法です。私は異なる時間を生きた帰還者の証言を読み、年数だけで苦労を比べないよう学びました。再会した友は私よりはるかに長い任務を終え、身体更新の履歴も大きく異なっていた。周囲は祝いましたが、私たちはその隔たりを笑えませんでした。私は討論の作法どおり話を聞くべきだったのに、昔の思い出ばかり尋ねた。今ならまず、友が不在の間に何を見たのかを聞きます。礼節は過去でなく、現在の相手へ向けるものです。
 

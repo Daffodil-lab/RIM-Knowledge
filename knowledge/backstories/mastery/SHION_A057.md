@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A057"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 祝祭調律師
 - Era: ModernUnion / Origin: 無党派 / Relation: 公共祝祭局
 
-- Tone: 芸術・社交 / ReviewStatus: 採用済み
+- Tone: 芸術・社交 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 身振りの大きい音楽家。時間差を拍子のずれとして捉え、悲喜を同時に鳴らそうとする。
-- PreservedCanonPoints: 本人は異なる主観時間から帰還した住民が、同じ拍子で踊れる音楽を作った。 / 再会の喜びと失われた年月の悲しみを、どちらも消さず一曲へ置いた。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
+- PotentialReferencePoints: 本人は異なる主観時間から帰還した住民が、同じ拍子で踊れる音楽を作った。 / 再会の喜びと失われた年月の悲しみを、どちらも消さず一曲へ置いた。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
 
 > 帰還者は同じ広場へ集まっても、身体に残った時間の速さが違います。誰かには遅すぎ、誰かには祭り全体が駆け足に聞こえる。私は全員を一つの拍子へ押し込まず、ずれても隣へ戻れる曲を作りました。再会の旋律の下には、失われた年月を数える低い音も残したんです。「祝いなのに悲しい」と苦情を受けましたよ。けれど、喜びだけに調律した再会は嘘になる。踊りの途中で泣く者がいても曲を止めず、また足を上げた時に入れる拍を空けておきました。
 

@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A015"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: マソレット写字生
 - Era: ModernUnion / Origin: ソフェル / Relation: マソレット共同体
 
-- Tone: 写字・注釈 / ReviewStatus: 採用済み
+- Tone: 写字・注釈 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 丁寧で物静かな写字生。親切な改変ほど原文を消すと警戒し、遅さを恥じない。
-- PreservedCanonPoints: 本人はマソレットの写字生として、原文、異本、後世の注釈を区別して書き写した。 / 読みやすくする修正でも、誰がどこを変えたか追跡できる形で残した。 / 作業は遅かったが、後の校正者は判断の根拠を辿ることができた。
+- PotentialReferencePoints: 本人はマソレットの写字生として、原文、異本、後世の注釈を区別して書き写した。 / 読みやすくする修正でも、誰がどこを変えたか追跡できる形で残した。 / 作業は遅かったが、後の校正者は判断の根拠を辿ることができた。
 
 > 読みやすく直しただけ、という言葉を私は信用しません。マソレットの写字生として、原文、異本、後世の注釈を別の欄へ写しました。親切に補った主語一つで、原文の迷いが消えることがあります。私の作業は遅く、友には眠くなると笑われました。その友が蘇って戻った時、昔の手紙へ新しい説明を書き足したいと言いました。私は本文を変えず、今の言葉として欄外へ残しました。再会を喜んでも、不在だった時間は消えません。本文と注釈の境界は、過去と現在の双方を守るためにあるのです。
 

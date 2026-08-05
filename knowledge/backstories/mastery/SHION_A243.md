@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A243"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 評議農園技師
 - Era: ModernUnion / Origin: 複数党派 / Relation: 同盟評議会
 
-- Tone: 政治・生活・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 政治・生活・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 親しみやすい園芸愛好家。党派論争を、畝と食卓の具体的な相談へ戻す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 共同農園は趣味で始めた。社会民主党系も共産党系も旧ファシスト党員も、土の酸度までは党綱領で決められなかったからね。温室を建てる仕事は得意な者へ任せ、私は畝の幅、水の順番、誰が通えるかを皆と決めた。会議では古い旗を持ち出して揉めたが、終われば同じ卓で収穫を食べた。ある帰還者の席だけが長く空いていた。戻った時、彼は昔の党を捨てていたが、好物の根菜は変わらなかったよ。出自と現在の意見を同じ札へ固定しないことを、私は農園で覚えた。苗だって植え替えれば根の向きを変える。
 

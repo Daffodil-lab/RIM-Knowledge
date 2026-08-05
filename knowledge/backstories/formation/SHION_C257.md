@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C257"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: Kombinat横断競技
 - Era: ModernUnion / Origin: 無党派 / Relation: Kombinat共同体
 
-- Tone: 工業・保守・形成 / ReviewStatus: 改稿採用済み
+- Tone: 工業・保守・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 競争好きで豪快。身体差とKombinatの故障を、競技規則へ取り込んで楽しむ。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > ヘイハルKombinatの横断競技は、速さだけでは勝てません。共有狐娘型内部の重量・出力が違う相手と組み、運搬動物を驚かせず、途中の故障を一つ直して戻る決まりでした。私は力任せで最初の大会に勝ちかけましたが、相棒を置いてきて失格になりました。停止事故の夜には、その競技仲間と手動工程を動かしました。誰が何を直せるか知っていたので、朝まで生産をつなげられたんです。それ以来、競技規則は新人にも読める言葉で書きました。最速の者より、最後の一人と一頭を連れて帰る組が強い。負け惜しみではありませんよ。
 

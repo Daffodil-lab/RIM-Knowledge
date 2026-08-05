@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C405"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 預かり子
 - Era: ColonizationEra / Origin: 保育巡回隊 / Relation: 養育担当
 
-- Tone: 反骨・自立・世話焼き / ReviewStatus: 採用済み
+- Tone: 反骨・自立・世話焼き / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: きっぱりとした反論調の口調、平易な言葉で感情をはっきりと主張する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > よく「養育者に置いていかれた子」みたいに言われるけど、それは違う。育ての親たちが測量隊の仕事で長く留守にする間、養育担当のところに預けられていただけだ。可哀想がられるのは腹が立った。養育担当は預かった子ども六人分の面倒を一人で見ていて、自分はその中で一番年上だったから、下の子たちの世話を手伝った。泣き止ませ方も、傷の手当ての仕方も、あそこで覚えた。あれは寂しい話じゃなく、自分が誰かの役に立てた最初の記憶だ。
 

@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A023"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 儀式教師
 - Era: ModernUnion / Origin: ソフェル / Relation: 共同体学校
 
-- Tone: 教育・儀礼 / ReviewStatus: 採用済み
+- Tone: 教育・儀礼 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 親しみやすく忍耐強い教師。手順違いを叱るより、なぜ残ったか生徒と調べる。
-- PreservedCanonPoints: 本人は祈り、葬送、成人式を、信仰や文化の異なる生徒へ教える儀式教師となった。 / 形だけ学びたい者と意味から知りたい者に、それぞれ別の教材を用意した。 / 手順を間違えた生徒を式から外さず、なぜその順番が残ったか一緒に調べた。
+- PotentialReferencePoints: 本人は祈り、葬送、成人式を、信仰や文化の異なる生徒へ教える儀式教師となった。 / 形だけ学びたい者と意味から知りたい者に、それぞれ別の教材を用意した。 / 手順を間違えた生徒を式から外さず、なぜその順番が残ったか一緒に調べた。
 
 > 祈りの順を間違えた生徒を、式から追い出してはいけません。私は葬送と成人式を、信仰も文化も違う生徒へ教えました。形だけ覚えたい者には短い手順を、意味から知りたい者には帝国式、革命期式、地域式の由来を渡しました。一度、全部を尊重しようとして三つの式を混ぜ、日が暮れても終わらなかったことがあります。生徒には好評でしたが遺族には謝りました。それから違いを消さず、どれを選ぶか本人へ聞きます。儀式は正解を競う試験ではなく、そこにいる者が何を大切にするか確かめる約束です。
 

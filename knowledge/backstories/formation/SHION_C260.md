@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C260"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 戦区共同食堂
 - Era: ModernUnion / Origin: 無党派 / Relation: 対メカノイド部隊
 
-- Tone: 対機械・判断・形成 / ReviewStatus: 採用済み
+- Tone: 対機械・判断・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 穏やかで鋭い聞き手。食卓の会話から、戦場の誤認と不安を拾い上げる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 対機械戦区の共同食堂で、私は身体ごとに香りと温度を変えて配膳しました。帰還者は食事中なら、報告室で言えない不安を話してくれたからです。敵性機械を見て同族だと言う者もいました。私は残骸の記録を読み、そこに自由な選択ではなく単純な命令列しかないことを説明しました。ただ、怖かったという感情まで訂正はしませんでした。蘇った友と同じ卓を囲めても、不在の時間は献立では埋まりません。それでも明日の食事を選べるだけで、少し先を待てる人がいる。私はその小さな安心から平和を考えます。
 

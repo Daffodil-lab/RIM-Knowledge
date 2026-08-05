@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A309"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 文化区古文書研
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 福祉・選択・職歴 / ReviewStatus: 採用済み
+- Tone: 福祉・選択・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 穏やかな辺境史家。制度が用意した快適さより、住民が選んだ不便を記録する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 孵育文化区の記録には、制度が与えた幸福だけが残りやすかった。私は拒否した者の手紙、読めない頁、自分で作った不便な椅子の修理票まで集めたよ。友は完璧な椅子を断り、傾いた椅子で食事をした。その姿を反抗の象徴にするのも違うと思い、本人の言葉だけを載せた。辺境では物資も人手も足りず、失敗例を先に引き継いだ。最盛期の豊かさを超えるなら、皆へ同じ快適さを与えるだけでは足りない。与えられた幸福を断り、自分の不便を説明できる席も必要だ。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C403"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: ふいご吹き
 - Era: ColonizationEra / Origin: 鍛冶隊 / Relation: 兄弟子
 
-- Tone: 荒々しい・職人気質・忍耐 / ReviewStatus: 改稿採用済み
+- Tone: 荒々しい・職人気質・忍耐 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 粗野で早口な職人言葉、感情を隠さずに語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > ふいごを動かすのは腕力じゃねえ、送風の周期だって兄弟子に叩き込まれた。炉の色が変わる瞬間に合わせて風を送らないと、鉄が死んじまう。俺はそれを身体で覚えるまで何度も炉に近すぎて袖を焦がした。兄弟子は俺の失敗を笑わなかった、ただ「今の風は早すぎた」って一言だけ言った。それが一番効いた。鉄が赤から橙に変わる瞬間の匂いは、今でも感覚記録にこびりついて離れねえ。
 

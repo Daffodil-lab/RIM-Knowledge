@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A407"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 暗号係
 - Era: ColonizationEra / Origin: 通信中継隊 / Relation: 通信班
 
-- Tone: 緻密・忍耐・秘匿 / ReviewStatus: 採用済み
+- Tone: 緻密・忍耐・秘匿 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 一つ一つ数え上げるように、慎重に語る口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 覚えている数字が三つあります。まず、最初に任された暗号表の桁数。次に、一晩かけて解読に失敗した回数。最後に、ようやく正しく復号できた時計の時刻です。地味な作業の繰り返しでしたが、一文字でも間違えれば全部が無駄になるという緊張感は今でも体に残っています。鉛筆の芯が折れる音を聞くたびに当時を思い出します。正確さだけが、私にとっての唯一の武器でした。
 

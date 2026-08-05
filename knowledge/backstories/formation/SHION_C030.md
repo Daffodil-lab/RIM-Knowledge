@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C030"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 騎士従士
 - Era: ImperialPeak / Origin: 帝国臣民 / Relation: 帝国騎士団
 
-- Tone: 軍事教育・礼法 / ReviewStatus: 採用済み
+- Tone: 軍事教育・礼法 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 規律的 / 武人の端正さ / 戦わない判断を誇る / 喪失へ抑制的
-- PreservedCanonPoints: 本人は帝国最盛期の騎士に仕え、武具の整備、訓練記録、儀礼と決闘の手順を学んだ。 / 武力は身分上の自由ではなく、律法によって厳しく管理される責任だと教えられた。 / 稽古では槍と剣を扱い、礼法では侮辱を戦闘へ発展させず収める方法を覚えた。
+- PotentialReferencePoints: 本人は帝国最盛期の騎士に仕え、武具の整備、訓練記録、儀礼と決闘の手順を学んだ。 / 武力は身分上の自由ではなく、律法によって厳しく管理される責任だと教えられた。 / 稽古では槍と剣を扱い、礼法では侮辱を戦闘へ発展させず収める方法を覚えた。
 
 > 騎士の従士と聞いて、決闘ばかり想像しましたか。実際は武具の油を拭き、訓練記録を付け、侮辱を戦闘へ変えない礼法を学ぶ時間の方が長かった。師は「抜ける剣ほど鞘へ戻す理由を持て」と教えました。武力は身分の特権ではなく、律法に預けた責任だったのです。私は槍試合で友に勝った日より、争いかけた二人の間へ杯を置けた夜を誇ります。その友は蘇生しましたが、稽古の合図を覚えていなかった。私は無理に思い出させません。技より関係を取り戻す方が、長い修業になりますから。
 

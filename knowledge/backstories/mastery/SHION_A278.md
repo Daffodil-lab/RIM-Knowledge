@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A278"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 評議食堂調理
 - Era: ModernUnion / Origin: 複数党派 / Relation: 同盟評議会
 
-- Tone: 政治・生活・職歴 / ReviewStatus: 採用済み
+- Tone: 政治・生活・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 人懐こい食堂主。党派の議論を歓迎するが、療養中の客へは静けさを要求する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自治評議区の食堂では、古い党派の議論が毎日の香辛料だった。社会民主党系も共産党系も旧ファシスト党員も、会議後には同じ卓へ座ったよ。私は身体ごとに温度と食感を変え、療養中の客がいる時だけ政治の声量を下げさせた。旗の色は曖昧になったが、誰がどの皿へ文句を言ったかは覚えている。長く不在だった友も戻り、昔と違う意見を話した。私は「変わったな」と言わず、今の好みを聞いた。食堂は思想を溶かす場所ではない。違うまま、互いの食事を邪魔せず座る練習をする場所なんだ。
 

@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A081"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 公共医療功労者
 - Era: ModernUnion / Origin: 社会民主党系 / Relation: 同盟公共医療院
 
-- Tone: 医療・福祉 / ReviewStatus: 採用済み
+- Tone: 医療・福祉 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 朗らかな制度設計者。医療の普遍性を当然の前提として語り、待合時間には妙に厳しい。
-- PreservedCanonPoints: 本人は所属や身体規格を問わない医療網を築き、蘇生後の長期支援を治療の一部にした。 / 最盛期の安心を、旧帝国臣民だけの特権に戻さなかった。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
+- PotentialReferencePoints: 本人は所属や身体規格を問わない医療網を築き、蘇生後の長期支援を治療の一部にした。 / 最盛期の安心を、旧帝国臣民だけの特権に戻さなかった。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
 
 > 所属や身体規格を問わず使える公共医療網を作りました。蘇生できた時点で治療終了、とはしません。記憶の回復、住居、職場への復帰、戻らないという選択まで長期支援に含めました。最盛期の安心は懐かしいですよ。でも旧帝国臣民だけの特権として戻すなら、同じ平和とは呼べません。制度を巡る議論には長い時間を使いましたが、患者を待たせる時間は減らした。会議が延びても病状は議事進行を待ちませんからね。私が誇るのは立派な医療院より、どの入口から来ても同じ受付へ着けることです。
 

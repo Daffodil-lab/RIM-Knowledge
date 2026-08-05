@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A108"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 停戦域設備技師
 - Era: ImperialCivilWar / Origin: 帝国離反者 / Relation: 停戦派
 
-- Tone: 内戦・停戦・職歴 / ReviewStatus: 採用済み
+- Tone: 内戦・停戦・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 疲れた停戦派の技師。壊れかけた配管に戦争の兆候を重ね、後知恵で友を裁かない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 開戦前の残響が残る区画で、壁と配管と避難路を直しました。設備には壊れる前の音があります。社会にもあったのだと思いますが、当時の私たちは雑音だと片づけた。私は記録を辿り、どの分岐なら戦争を止められたか調べました。ただ、今の知識で昔の友を臆病者や愚か者と裁く気はありません。私も同じ場所にいたからです。停戦して武器を置いた者の手が震えていたのを覚えています。あの震えを弱さと呼ばず、次は異音のうちに修理する。私にできる償いは、それくらいです。
 

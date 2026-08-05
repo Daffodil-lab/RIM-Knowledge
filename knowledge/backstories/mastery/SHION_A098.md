@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A098"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 明日の遺族代表
 - Era: EraIndependent / Origin: 無党派 / Relation: 時間災害遺族会
 
-- Tone: 時間・喪失 / ReviewStatus: 採用済み
+- Tone: 時間・喪失 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 張りつめた遺族代表。未来の喪失を知りながら、友と今日を普通に過ごす権利を求める。
-- PreservedCanonPoints: 本人は未来の事故で友を失うと知り、まだ生きている本人と遺族会へ出席した。 / 事故回避だけでなく、予告された喪失に支配されず今日を過ごす権利を訴えた。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
+- PotentialReferencePoints: 本人は未来の事故で友を失うと知り、まだ生きている本人と遺族会へ出席した。 / 事故回避だけでなく、予告された喪失に支配されず今日を過ごす権利を訴えた。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
 
 > 未来の事故記録から、友を失う日を知りました。まだ生きている本人と一緒に、私は遺族会へ出席したんです。皆は事故を避ける計画を立て、私たちも協力しました。でも友は、毎日を最後の日のように扱われることへ疲れていった。私は予防だけでなく、予告された喪失に今日を全部奪わせない権利を訴えました。食事へ行けば別れの会にされ、眠れば最後の夜かと見張られる。そんな生存は救済ではありません。未来を変える努力を続けながら、今日はただ友として笑う。その両方を守りたかったんです。
 

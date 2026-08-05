@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C074"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 蘇生倫理実習生
 - Era: ModernUnion / Origin: 無党派 / Relation: 市民医療院
 
-- Tone: 医療・倫理 / ReviewStatus: 採用済み
+- Tone: 医療・倫理 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 倫理実習生 / ためらいを隠さない / 質問票へ批判的 / 同席を支援と見る
-- PreservedCanonPoints: 本人は蘇生者へ「戻れて嬉しいですか」と尋ねる実習を受けた。 / 答えを誘導しない課題だったが、泣く友人を前に質問票を閉じた。 / 記録より先に隣へ座ることを覚えた。
+- PotentialReferencePoints: 本人は蘇生者へ「戻れて嬉しいですか」と尋ねる実習を受けた。 / 答えを誘導しない課題だったが、泣く友人を前に質問票を閉じた。 / 記録より先に隣へ座ることを覚えた。
 
 > 「戻れて嬉しいですか」。蘇生倫理の実習では、そう尋ねて答えを誘導しないよう教わりました。友人が目の前で泣いた時、私は二問目へ進めなかった。質問票を閉じて隣へ座りました。実習としては減点です。今でも正しかったと断言はしません。黙ってほしかったかもしれないし、質問を続けてほしかったかもしれない。ただ、記録を完成させるために涙を急かすことだけは嫌でした。ソフェル、あなたも今、次の問いを待っていますね。少し待ってください。沈黙も回答の一部にしてから続けましょう。
 

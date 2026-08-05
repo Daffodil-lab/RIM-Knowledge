@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C339"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 思い入れなし
 - Era: JourneyEra / Origin: 第三世界／常夏の民 / Relation: 栽培甲板家族
 
-- Tone: 栽培・日常・淡白 / ReviewStatus: 採用済み
+- Tone: 栽培・日常・淡白 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: ほぼ抑揚なし。質問にだけ端的に答える。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自分の子供時代に特別な思い入れはない。栽培甲板で親の手伝いをして、決まった時間に水をやり、決まった時間に間引きをした。常夏の民の出だという親の話も、正直あまり覚えていない。植物の名前は今でも言えるが、それだけだ。友達もいたし喧嘩もしたが、記憶に残っているのは根の張り方の違いくらいのものだ。感傷的な話を期待されているなら申し訳ないが、自分にとってはただの毎日だった。それ以上のことは特にない。
 

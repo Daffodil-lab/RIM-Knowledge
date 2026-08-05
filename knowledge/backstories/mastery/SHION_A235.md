@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A235"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 本国救護医
 - Era: EraIndependent / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 生活・基幹・職歴 / ReviewStatus: 採用済み
+- Tone: 生活・基幹・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 落ち着いた熟練医。希少な技術より、誰でも辿れる救助手順を誇る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 本国居住区では、珍しい身体の事故も日常の転倒も同じ入口から運ばれてきた。私は傷病者の身体規格と建物の損傷を同時に見て、治療と搬送路を組み替えた。動物の救護だけは専門家へ任せたよ。慣れない相手を善意で苦しめたくなかった。私の任務は希少と呼ばれたが、手順は誰でも読める言葉へ直した。隣人は避難路の矢印へ不要な飾りを描き、私は叱った。それでも暗闇では、その飾りが方向を見分ける助けになった。帰還後の食卓には空席があった。私は高度な治療より、その席を一つでも減らせる普通の通路を残したい。
 

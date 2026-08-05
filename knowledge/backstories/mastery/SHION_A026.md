@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A026"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: キャラバン修理師
 - Era: EraIndependent / Origin: 無党派 / Relation: 独立キャラバン
 
-- Tone: 旅行・修理 / ReviewStatus: 採用済み
+- Tone: 旅行・修理 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 旅慣れた即応技師。完全修理を装わず、次の職人へ限界を正直に渡す。
-- PreservedCanonPoints: 本人はキャラバンに同行し、車軸、鞍、冷却器、調理設備を移動中に修理した。 / 完全な修理ができない時は、次の集落まで安全に保つ方法を選んだ。 / 応急処置の限界と必要部品を札へ書き、次の修理師が原因調査を繰り返さずに済むよう引き継いだ。
+- PotentialReferencePoints: 本人はキャラバンに同行し、車軸、鞍、冷却器、調理設備を移動中に修理した。 / 完全な修理ができない時は、次の集落まで安全に保つ方法を選んだ。 / 応急処置の限界と必要部品を札へ書き、次の修理師が原因調査を繰り返さずに済むよう引き継いだ。
 
 > 次の町まで保てばよい修理を、雑だと思いますか。私はキャラバンで車軸、鞍、冷却器、調理設備を直しました。完全にできない時は、どこまで安全かを決め、必要部品と壊れ方を札へ書きます。一度、見栄を張って「修理済み」とだけ残し、次の技師に原因調査をやり直させました。隊列まで一日遅れた。以来、応急処置という言葉を恥じません。限界を正直に渡す方が、完璧を装うより腕が要ります。旅では私の修理が最後ではなく、次の人へ繋ぐ一行にすぎない。それで十分です。
 

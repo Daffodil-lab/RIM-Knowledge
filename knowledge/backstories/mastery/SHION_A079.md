@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A079"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 三星域調停官
 - Era: ModernUnion / Origin: 無党派 / Relation: 星域間調停院
 
-- Tone: 外交・平和 / ReviewStatus: 採用済み
+- Tone: 外交・平和 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 粘り強い外交官。署名の華やかさより、周縁共同体へ説明を続けた年月を重んじる。
-- PreservedCanonPoints: 本人は時間流も法律も異なる三つの星域を往復し、同じ合意文を三通りの未来で成立させた。 / 署名後も、取り残された小共同体へ説明を続けた。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
+- PotentialReferencePoints: 本人は時間流も法律も異なる三つの星域を往復し、同じ合意文を三通りの未来で成立させた。 / 署名後も、取り残された小共同体へ説明を続けた。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
 
 > 時間の流れも法律も異なる三つの星域を往復し、同じ合意をそれぞれの未来で成立させました。一方で署名した翌日が、別の星域では数世代後になる。言葉だけ揃えても、受け取る暮らしが違えば約束の意味は変わります。調印式は一日で終わりましたが、私はその後も小さな共同体を回り続けました。「誰が決めた」「自分たちに何が変わる」と聞かれた時、条文を読み上げるだけでは足りません。説明に費やした時間の方が、署名までよりずっと長いですよ。私はそちらを本当の調停と呼んでいます。
 

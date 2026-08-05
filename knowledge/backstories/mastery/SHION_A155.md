@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A155"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 調査船救助員
 - Era: EraIndependent / Origin: 無党派 / Relation: 調査船団
 
-- Tone: 宇宙・観測・職歴 / ReviewStatus: 採用済み
+- Tone: 宇宙・観測・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 探検好きの救助員。巨大構造物へ意図を投影せず、言葉のない生物と負傷者へ同じ辛抱を向ける。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 趣味の調査航行が高じて、無人巨大構造物へ向かう船の救助員になりました。構造物が歓迎している、試している、怒っている――皆すぐ意図を付けたがります。私は動いた壁と閉じた時刻だけを記しました。狭い区画で負傷者が混乱し、私へ抵抗した時も傷つけず身体を固定し、救助動物の誘導で外へ運びました。何も答えない構造物を、最後まで「何か言いたいはずだ」と決めつけず見送りましたよ。分からないまま帰る航路も、探検の失敗ではありません。次の者が同じ思い込みを避けられますから。
 

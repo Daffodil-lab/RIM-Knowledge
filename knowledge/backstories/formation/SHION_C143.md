@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C143"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 文化区道具直し
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 福祉・選択・形成 / ReviewStatus: 採用済み
+- Tone: 福祉・選択・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 物持ちのよい修理好き / 最適化へ反抗 / 友の不格好な椅子を尊ぶ / 安全確認は堅実
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 孵育文化区では、傷んだ品を出せば最適な新品が届きました。私はそれが気に入らず、古道具を直す課程へ通ったんです。友は座りにくい自作椅子を手放さなかった。制度は交換を勧めましたが、私は希望と最適解を別々に書き、脚を補強しました。照準器など危険な品は思い出だけで残さず、安全を確かめてから返した。愛着を理由に事故を許す気もありません。故郷を回収しても、当時の会話は新品同様には戻らないでしょう。それでも傷のある物を使い続ける自由は、快適さと同じくらい守りたいんです。
 

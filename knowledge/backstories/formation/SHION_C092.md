@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C092"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 帰還照合児
 - Era: PostCivilWarEmpire / Origin: 帝国残留民 / Relation: 帰還者照合所
 
-- Tone: 医療・喪失 / ReviewStatus: 採用済み
+- Tone: 医療・喪失 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 冷静な照合係 / 判断を急がない / 沈黙を資料とする / 同一性を制度だけで決めない
-- PreservedCanonPoints: 本人は蘇生者の顔、記憶、古い友人の証言を照合した。 / 役所は同一人物と認定しても、再会した二人が以前と同じ距離へ戻れるとは限らない。 / その沈黙も記録へ残した。
+- PotentialReferencePoints: 本人は蘇生者の顔、記憶、古い友人の証言を照合した。 / 役所は同一人物と認定しても、再会した二人が以前と同じ距離へ戻れるとは限らない。 / その沈黙も記録へ残した。
 
 > 顔、記憶、整備痕、友人の証言。私は帰還者を照合し、制度上の同一人物か判定しました。判定はできます。以前と同じ関係へ戻れるかは、できません。ある二人は認定書を受け取った後、互いを見たまま何も話さなかった。係員は面談終了と書こうとしましたが、私は沈黙の長さも残しました。あれは失敗でも拒絶でもない。言葉を選ぶための時間だったかもしれない。ソフェル、同一性を一つの丸印で片付けないでください。戻った者と待った者には、それぞれ別の空白があります。
 

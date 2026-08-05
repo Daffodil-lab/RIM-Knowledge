@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A257"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 連合道具修復
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 革命・証言・職歴 / ReviewStatus: 採用済み
+- Tone: 革命・証言・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: ぶっきらぼうな修復師。党派より持ち主の傷を優先し、料理の煙を懐かしむ。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 革命連合の後方では、同じ型の道具でも党派ごとに違う印が刻まれていた。私は印を削らず、持ち主が覚えている傷も残して直したよ。交換した方が早いと言われたが、道具を替えることと過去を消すことは同じではない。遠方の部隊へ届ける時は信号を使い、共同の敵が消えた後の検問も抜けた。誰の旗へ渡すのかと何度も聞かれた。壊れた物を使う者へだ、と答えた。旧帝国の階級を戻す気はないが、誰もが明日の仕事を疑わず道具を手に取れた暮らしは惜しい。旗より先に、修理待ちの列と炊事の煙を思い出す。
 

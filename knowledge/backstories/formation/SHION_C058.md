@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C058"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 記憶茶給仕
 - Era: EraIndependent / Origin: 無党派 / Relation: 追悼茶房
 
-- Tone: 料理・記憶 / ReviewStatus: 採用済み
+- Tone: 料理・記憶 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 穏やかな給仕 / 曖昧さを受容 / 香りで話す / 効能を誇らない
-- PreservedCanonPoints: 本人は香りで昔の景色を思い出す茶を給仕した。 / 同じ配合でも客ごとに違う故郷を語り、時には誰の記憶でもない風景を見た。 / 本人は否定せず、二杯目だけ薄くした。
+- PotentialReferencePoints: 本人は香りで昔の景色を思い出す茶を給仕した。 / 同じ配合でも客ごとに違う故郷を語り、時には誰の記憶でもない風景を見た。 / 本人は否定せず、二杯目だけ薄くした。
 
 > 記憶茶という名は大げさです。私は香りの強い茶を淹れただけ。同じ配合で、ある客は雪の故郷を、別の客は赤い海を語りました。誰の記録にもない街を見た者もいる。私は「それは偽物だ」と言わず、二杯目だけ薄くした。思い出すことより、戻れない景色に飲まれない方が大切でしたから。効能を聞かれても約束しません。香りは扉かもしれないし、ただの香りかもしれない。ソフェル、あなたにも一杯いかがです？　何も見えなくても失敗ではありません。温かい時間だけは残ります。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C031"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 無人書庫番
 - Era: ImperialPeak / Origin: 帝国製造個体 / Relation: 帝国書庫
 
-- Tone: 学術・孤独 / ReviewStatus: 採用済み
+- Tone: 学術・孤独 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 静かな司書 / 長い間 / 規則を柔らかく使う / 孤独を誇張しない
-- PreservedCanonPoints: 本人は帝国最盛期の無人書庫で、湿度、虫害、貸出記録、索引を管理した。 / 来館者が長く途絶えても蔵書を点検し、いつか必要になる閲覧請求へ備えた。 / 初めて訪れた旅人が本ではなく雨宿りを求めた時、規則を調べて閲覧者として登録し、毛布と温かい飲み物を渡した。
+- PotentialReferencePoints: 本人は帝国最盛期の無人書庫で、湿度、虫害、貸出記録、索引を管理した。 / 来館者が長く途絶えても蔵書を点検し、いつか必要になる閲覧請求へ備えた。 / 初めて訪れた旅人が本ではなく雨宿りを求めた時、規則を調べて閲覧者として登録し、毛布と温かい飲み物を渡した。
 
 > 来館者がいない書庫を、なぜ開け続けたのか。よく聞かれました。湿度を測り、虫を払い、貸出のない台帳へ日付だけを書く。必要になる日が来るからです。最初の客は本を求めず、嵐から逃げ込んだ旅人でした。規則では閲覧者以外を泊められない。私は索引を調べ、その人を「気象資料の閲覧者」として登録し、毛布と温かい飲み物を出しました。規則を破ったとは思いません。書庫は読む者のためにある。ソフェル、誰も来ない時間まで守ってこそ、開かれた場所と呼べるのではありませんか。
 

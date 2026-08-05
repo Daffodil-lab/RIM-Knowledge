@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C149"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 連合後方搬出
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 革命・証言・形成 / ReviewStatus: 採用済み
+- Tone: 革命・証言・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 無骨な搬出役 / 党派外交が苦手 / 炊事の煙を記憶 / 失敗を証言として残す
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 党派同士の挨拶は苦手でした。負傷者を瓦礫から出す方が単純です。私は身体の使い方を覚え、声を出せない相手にも反応を待ち、どの旗の部隊にも同じ包帯を届けました。共同の敵がいる間は皆が兄弟を名乗った。でも戦線が静まると、補給箱の印で争い始めた。私はその醜さも記録から消していません。革命を思い出す時、旗より先に炊事の煙が浮かびます。煙の下では思想の違う者が同じ鍋を待っていた。私は演説より、その列を壊さない仕組みの方を信じたいんです。
 

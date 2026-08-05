@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A162"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 制限地舞台演出
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 回収班
 
-- Tone: 遺物・危険・職歴 / ReviewStatus: 採用済み
+- Tone: 遺物・危険・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: LawEnforcement
 - VoiceProfile: 芝居がかった法執行官。危険遺物の密売摘発を舞台導線の感覚で組み、安物の小道具を愛する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 立入制限地の回収班で舞台を作り、危険遺物の密売摘発にも同行しました。妙な組合せでしょう？　人の流れを読み、出口と視線を組む点は同じです。高危険逮捕では容疑者と見物人を分け、武器を抜く前に舞台幕で通路を塞ぎました。遺物は高価そうな物ほど危険で、道端の安い飾りだけが無害だった遠征もあります。私はそれを小道具へ使いましたよ。価値と危険を混同しないためです。由来不明の品を英雄の宝として飾る前に、誰が後片付けをするか考えるのが演出家の責任です。
 

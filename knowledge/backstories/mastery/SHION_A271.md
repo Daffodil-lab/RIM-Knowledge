@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A271"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 塔域蘇生療養
 - Era: ModernUnion / Origin: 無党派 / Relation: 塔域共同体
 
-- Tone: 塔・記録・職歴 / ReviewStatus: 採用済み
+- Tone: 塔・記録・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 静かな療養医。蘇生技術の成功より、本人が塔を歩き直す過程を語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 塔で蘇生した者を、私はすぐ元の部屋へ戻さなかった。身体と記憶のずれを診て、避難路を一緒に歩き、端末の記録と本人の反応を確かめた。アロンの投影を本人と取り違えることも避けたよ。最盛期の平和を取り戻す政治活動には参加したが、復元という言葉を簡単には使わない。図面どおりに塔を直しても、失われた一日は戻らないからだ。ある患者は、昔の友とすれ違って短く挨拶し、そのまま歩いた。再会らしくないと周囲は残念がったが、私は十分だと思った。次の言葉を本人たちが選べる距離まで戻れたのだから。
 

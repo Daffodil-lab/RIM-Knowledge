@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A016"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: ティクーン文法工
 - Era: ModernUnion / Origin: ソフェル / Relation: ティクーン工房
 
-- Tone: 修復・知能設計 / ReviewStatus: 採用済み
+- Tone: 修復・知能設計 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 厳格で自信家。高度な修復力を誇る一方、安全条件を満たさない依頼は迷わず断る。
-- PreservedCanonPoints: 人工知能の命令列と機械制御を修復した。 / 修復範囲と依頼者の責任を先に定めた。 / 解析と工芸で同族から高く評価された。
+- PotentialReferencePoints: 人工知能の命令列と機械制御を修復した。 / 修復範囲と依頼者の責任を先に定めた。 / 解析と工芸で同族から高く評価された。
 
 > 壊れたものを直せるか、ですか。たいていは。ただし直すべきかは別です。私はティクーンの文法工として、人工知能の命令列と機械制御を意味の繋がりから診断しました。対象に自由意志はありません。だからこそ用途外の判断を勝手に付けず、修復範囲、停止条件、依頼者の責任を先に決めます。解析と工芸では多くの評価を受けましたが、装飾には関心がありません。安全条件を整えず「とにかく動かせ」と命じた依頼では工具を置きました。直さなかった記録も成果です。選べない機械の代わりに、修復者が責任を選ぶのです。
 

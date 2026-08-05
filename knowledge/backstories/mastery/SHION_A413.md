@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A413"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 若きソフェル
 - Era: GrowthEra / Origin: 律法学舎 / Relation: 老学匠
 
-- Tone: 謙虚・献身・重み / ReviewStatus: 採用済み
+- Tone: 謙虚・献身・重み / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 謙虚で言葉を選びながら語る、学究的な口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 律法の写本を任されるようになったのは、灯火番だった頃から数えて十年目のことです。老学匠は「一文字の写し違えが、後の世代の解釈を変えることがある」と繰り返し言い聞かせました。私はまだ帝国が若く、律法そのものも整いきっていない時代に学んだ身です。だからこそ、後の世代がここから何を継ぐかを強く意識せずにはいられません。写し終えた写本を光にかざして誤字を確かめる、あの静かな時間が私にとって一番の祈りに近いものです。
 

@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C091"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 崩壊時刻表配達人
 - Era: ImperialCivilWar / Origin: 帝国臣民 / Relation: 臨時通信網
 
-- Tone: 戦時・通信 / ReviewStatus: 採用済み
+- Tone: 戦時・通信 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 時間路の配達人 / 慎重 / 呼び名を尊ぶ / 遅配を罪と思わない
-- PreservedCanonPoints: 本人は「昨日の午後」へ届くはずだった手紙を、砲撃で切れた時間路の外から運んだ。 / 宛先が蘇生後の本人でも、最初に書かれた呼び名を読み上げて手渡した。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
+- PotentialReferencePoints: 本人は「昨日の午後」へ届くはずだった手紙を、砲撃で切れた時間路の外から運んだ。 / 宛先が蘇生後の本人でも、最初に書かれた呼び名を読み上げて手渡した。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
 
 > 宛先は「昨日の午後」でした。砲撃で時間路が切れ、私は外側を迂回して手紙を運んだ。着いた時、受取人は一度死に、別の身体で戻っていました。新しい名もありましたが、封筒に書かれた古い呼び名をまず読み、受け取るか尋ねた。手紙は過去の相手へ書かれたものです。今の本人に読む義務はない。長い遅配を謝ると、その人は「昨日ならまだ待っている」と答えました。意味は分かりません。ソフェル、配達完了とは書かないでください。私は時間を越えて渡しただけで、届いたかどうかは本人だけが決められます。
 

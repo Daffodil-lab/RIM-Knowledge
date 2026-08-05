@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A312"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 縫合手
 - Era: ColonizationEra / Origin: 移住船団 / Relation: 医療班
 
-- Tone: 医療・縫合・船団 / ReviewStatus: 採用済み
+- Tone: 医療・縫合・船団 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 当時の掛け合いを再現しながら朗らかに語る元衛生兵。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 「針が足りない、代わりは何がある」と船医に聞かれたとき、私は魚の骨を煮沸したものを渡した。船医は笑って「本気か」と言い、私は「他に何がある」と返した。移住船団の医療班は物資が慢性的に不足していて、縫合針も麻酔も自作が当たり前だった。あのとき縫った傷は膿まなかったし、患者は今も元気にしている、と誰かから聞いた。船医とはその後も冗談を言い合う仲になった。彼が最後に言ったのは「次は骨じゃなくて針を寄越せ」だった。
 

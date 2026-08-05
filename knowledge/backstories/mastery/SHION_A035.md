@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A035"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 防塞工兵
 - Era: ImperialCivilWar / Origin: 帝国臣民 / Relation: 地方防衛隊
 
-- Tone: 工兵・内戦 / ReviewStatus: 採用済み
+- Tone: 工兵・内戦 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 低い声で話す実務家。敵味方を問わず民間退路を守り、今も建物で出口を数える。
-- PreservedCanonPoints: 本人は帝国内戦中、地下へ防壁、退避路、崩落防止構造を築く工兵となった。 / 上空をどの勢力が支配する日でも、民間人が避難できる経路を残すよう設計した。 / 局地停戦中には敵対側の技師とも排水と補強を行い、再戦後も避難路の位置を攻撃へ利用しなかった。
+- PotentialReferencePoints: 本人は帝国内戦中、地下へ防壁、退避路、崩落防止構造を築く工兵となった。 / 上空をどの勢力が支配する日でも、民間人が避難できる経路を残すよう設計した。 / 局地停戦中には敵対側の技師とも排水と補強を行い、再戦後も避難路の位置を攻撃へ利用しなかった。
 
 > 建物へ入ると出口を数えます。今もです。帝国内戦中、私は地下に防壁、退避路、崩落防止構造を築きました。上空の旗が何色の日でも、民間人が逃げられる道は残しました。局地停戦では敵側の技師と排水路を直し、再戦後もその位置を攻撃へ使いませんでした。互いに立派な友情があったわけではありません。ただ「この道だけは撃たない」と約束した。相手は後に死に、蘇生記録も見つかりません。途方もない時間が過ぎても、その短い約束だけは新しい。だから今も出口を数え、誰の旗にも道を一つ渡さないのです。
 

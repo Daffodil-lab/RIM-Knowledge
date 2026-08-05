@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C401"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 網繕い
 - Era: ColonizationEra / Origin: 漁労開拓隊 / Relation: 幼馴染み
 
-- Tone: 快活・意地・友情 / ReviewStatus: 採用済み
+- Tone: 快活・意地・友情 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 掛け合いのような軽快な口調、くだけた言葉で感情をはっきりと出す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 「その結び方じゃまた破れるよ」って幼馴染みに言われて、私は「じゃあ教えて」って言い返した。あいつは網の結び目を三種類知ってて、私はそれを全部覚えるまで意地になった。「できた」って見せたら「まだ甘い」って言われて、また一からやり直し。悔しくて何度もやり直したけど、今思えばあの言い合いが一番楽しかった。指先の皮が硬くなるくらい網を触った日々は、無駄じゃなかったと今でも思っている。
 

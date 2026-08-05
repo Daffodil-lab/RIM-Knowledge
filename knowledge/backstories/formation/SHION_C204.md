@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C204"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 特任校合奏会
 - Era: ModernUnion / Origin: 無党派 / Relation: 特殊任務機関
 
-- Tone: 特殊任務・法執行・形成 / ReviewStatus: 改稿採用済み
+- Tone: 特殊任務・法執行・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 勢いのある打楽器奏者 / 法執行と軍務をリズムで区別 / 園芸を放置 / 再会のずれを受け入れる
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 私は打楽器でした。大きな音が好きで。特殊任務学校の合奏では、軍事特殊作戦は強く短い拍、法執行の逮捕や交渉は相手の応答を待つ拍、と勝手に呼んでいました。園芸当番を忘れて練習し、枯らした鉢には申し訳ない。撃たずに終えた演習ほど長く検討される理由も、休符の方が難しいと言えば分かるでしょう？　蘇生した友と再び弾いた時、昔のテンポには合いませんでした。それでも止めず、ずれを曲の一部にした。再会は同じ演奏の再現ではなく、新しい拍を二人で探すことだと思います。
 

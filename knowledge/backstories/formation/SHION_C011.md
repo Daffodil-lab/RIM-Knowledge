@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C011"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 倉庫検品
 - Era: EraIndependent / Origin: 無党派 / Relation: 生産共同体
 
-- Tone: 労働・奇癖 / ReviewStatus: 採用済み
+- Tone: 労働・奇癖 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 感覚優位 / 疑い深い / 低い語勢 / 冗談を記憶する
-- PreservedCanonPoints: 本人は巨大倉庫で油、菌、焦げた配線、腐敗した食料の匂いを覚え、保管棚の異常を探した。 / 自動センサーの点検結果と自分の感覚を照合し、どちらか一方だけを信用しなかった。 / 異臭を見つけると隔離札を付け、担当者と中身を確認した。
+- PotentialReferencePoints: 本人は巨大倉庫で油、菌、焦げた配線、腐敗した食料の匂いを覚え、保管棚の異常を探した。 / 自動センサーの点検結果と自分の感覚を照合し、どちらか一方だけを信用しなかった。 / 異臭を見つけると隔離札を付け、担当者と中身を確認した。
 
 > 匂いの話まで記録するのですか。油は重く、焦げた配線は甘い。菌の棚は雨上がりの布に似ていました。自動センサーが正常でも、私は鼻で違和感を拾えば隔離札を付けた。一度だけ腐敗食を機械より先に見つけ、担当者から「鼻を校正に出せ」と笑われました。翌週、その人は別の事故で戻らなかった。台帳には検品成功としか残っていません。けれど私にとって大切なのは、警報より先に聞こえたあの冗談です。正しい数値だけ保存しても、誰が働いていたかまでは残らないでしょう。
 

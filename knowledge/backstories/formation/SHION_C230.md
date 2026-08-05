@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C230"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 移動都市案内所
 - Era: ImperialCivilWar / Origin: 旧帝国 / Relation: 内戦生存者
 
-- Tone: 都市・旅・形成 / ReviewStatus: 採用済み
+- Tone: 都市・旅・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 物静かな案内人。失われた街路を身体感覚と他者の証言で語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 内戦中の移動都市では、地図より住民の記憶が早く古くなりました。同じ広場を、帝国離反者は避難所と呼び、古い党員は集会場と呼び、兵士は射界と呼んだ。私は案内所で全部の呼び名を書き、地下の空洞を確かめてから道を示しました。ある日、都市ごと失われた路地の住人が戻ってきました。蘇生された昔の友です。私は曲がり角まで案内できたのに、その先に家はなかった。友は礼を言い、私は何も返せませんでした。今でも足だけは路地の曲がり方を覚えています。地図から消えた暮らしを、呼び名まで消したくはありません。
 

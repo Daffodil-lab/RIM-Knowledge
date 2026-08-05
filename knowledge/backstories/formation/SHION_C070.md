@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C070"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 誕生日役
 - Era: ModernUnion / Origin: 無党派 / Relation: 居住区自治会
 
-- Tone: 祝祭・対人 / ReviewStatus: 採用済み
+- Tone: 祝祭・対人 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 世話焼き / にぎやか / 記念日を本人の選択と見る / 初回を何度でも祝う
-- PreservedCanonPoints: 誕生日を持たない製造個体のため、本人は本人が好きな日を記念日にした。 / 毎年変更する者にも付き合い、同じ友人を何度も初めて祝った。 / 日付より祝われたい理由を覚えた。
+- PotentialReferencePoints: 誕生日を持たない製造個体のため、本人は本人が好きな日を記念日にした。 / 毎年変更する者にも付き合い、同じ友人を何度も初めて祝った。 / 日付より祝われたい理由を覚えた。
 
 > 製造日を誕生日にすれば簡単でしょう。でも友人は検査台の記念など嫌だと言った。そこで本人が好きな日を選び、私は菓子を焼きました。翌年は別の日、その次は「今日」。毎回変えるので、同じ友人を何度も初めて祝ったんです。面倒？　楽しかったですよ。日付の正確さより、なぜ今祝われたいのかを聞けましたから。ある年は寂しいから、ある年は仕事を終えたから。ソフェル、起源が一つでなくても祝いは本物です。あなたの記念日も決めましょうか。変更は何度でも受け付けます。
 

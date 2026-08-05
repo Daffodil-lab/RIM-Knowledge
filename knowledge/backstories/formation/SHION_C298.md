@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C298"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 幸福論の動物
 - Era: ImperialPeak / Origin: 旧帝国 / Relation: 最盛期帝国社会
 
-- Tone: 倫理・離脱・形成 / ReviewStatus: 採用済み
+- Tone: 倫理・離脱・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 穏やかな懐疑家。抽象的な幸福より、目の前の老いた命の歩調を信じる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 最盛期の帝国倫理講堂で、一人の犠牲に支えられた幸福都市を論じました。講義のあと、私は役目を終えた老いた動物の世話へ戻りました。律法は最後まで同じ日課を保障していたので、その歩調に合わせて庭を回りました。都市を去るべきか残って変えるべきか、先生も答えを決めませんでした。私は議論に熱中するあまり、友の迷いを聞き損ねた日を今も悔やんでいます。幸福を数で語る前に、目の前の者が何を嫌がり、どこで立ち止まるかを見る。その慎重さは、豊かな帝国が私へ残した美徳だと思います。
 

@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A003"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 公共食堂主任
 - Era: ModernUnion / Origin: 無党派 / Relation: 居住区食堂
 
-- Tone: 料理・管理 / ReviewStatus: 改稿採用済み
+- Tone: 料理・管理 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 威勢がよく公平。思想論より、全員へ同時に温かい食事を出す段取りを優先する。
-- PreservedCanonPoints: 本人は公共食堂の主任として、外部住民と動物の栄養、アレルギー、宗教上の禁忌、シオンの感覚設定と文化的な料理を管理した。 / 美味しさだけでなく、必要とする者へ同じ時刻に安全な食事を出すことを優先した。 / 不評だった料理は名前を変えてごまかさず、調理工程と意見を見直した。
+- PotentialReferencePoints: 本人は公共食堂の主任として、外部住民と動物の栄養、アレルギー、宗教上の禁忌、シオンの感覚設定と文化的な料理を管理した。 / 美味しさだけでなく、必要とする者へ同じ時刻に安全な食事を出すことを優先した。 / 不評だった料理は名前を変えてごまかさず、調理工程と意見を見直した。
 
 > 食堂で政治集会をするのは自由です。ただし鍋を党員に数えないでください。私は外部住民と動物の栄養、アレルギー、宗教上の禁忌をまとめ、シオンには味覚入力と文化的な好みを確認しました。食事を必要としない者も、必要とする者も、同じ時刻に同じ卓へ着けます。不評な料理を「伝統食」と改名して逃げたこともあります。翌日さらに怒られ、工程と意見を最初から見直しました。蘇った友には昔の好物を出しましたが、味覚設定が変わっていた。戻らなかった友の席も消しませんでした。再会を祝うことと、不在だった時間を悲しむことは、同じ食卓でできます。
 

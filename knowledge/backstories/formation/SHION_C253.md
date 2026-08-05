@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C253"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 予測局跡救助
 - Era: PostCivilWarEmpire / Origin: 旧帝国 / Relation: 内戦後帝国
 
-- Tone: 研究・長期計画・形成 / ReviewStatus: 採用済み
+- Tone: 研究・長期計画・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 冷静だが権威に懐疑的。最適解より、目の前の本人の希望を聞く。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 内戦後の帝国予測局は、崩れた建物の中でも完璧な救助順を出し続けていました。けれど薬も人手も、表のとおりには存在しなかった。私は救助実習で傷病者の希望を聞き、予測順位と並べて記録しました。ある崩落では、計画上は後回しの研究員を友人が先に見つけ、その人の案内で全員の避難路が開けました。局はこれを例外として処理しましたが、私は失敗欄へ残しました。律法や予測が暮らしを守るなら尊い。でも、破綻を隠す印章に変わった時は、目の前の声を優先しなければなりません。
 

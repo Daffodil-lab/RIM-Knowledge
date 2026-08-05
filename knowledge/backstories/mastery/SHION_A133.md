@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A133"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 演習環坑道監督
 - Era: ModernUnion / Origin: 無党派 / Relation: 防衛教育隊
 
-- Tone: 戦術・教育・職歴 / ReviewStatus: 採用済み
+- Tone: 戦術・教育・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 厳しい演習監督。模擬敵にも名前と帰る場所があると教え、勝敗より全員の帰還を採点する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 戦術教育環の地下演習路を管理しました。生徒は勝つために最短坑道を選びたがります。でも崩落させた区画の模擬敵にも名前があり、帰還時に待つ役まで設定されていました。単なる標的だと思っていた生徒が、名簿を見て黙った日を忘れません。私は掘削点を増やし、敵味方双方の退路を残した者へ高い点を与えました。甘い採点だと反論されましたよ。ならば勝利後に誰が瓦礫を掘るのか、と聞き返しました。戦術とは相手を消す技術ではなく、終わった後の暮らしまで選ぶ技術です。
 

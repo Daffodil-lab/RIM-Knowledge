@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A092"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 復活船団衛生長
 - Era: EraIndependent / Origin: 無党派 / Relation: 星域避難船団
 
-- Tone: 医療・避難 / ReviewStatus: 採用済み
+- Tone: 医療・避難 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 包容力ある船団医。救命、死者保存、再会後の沈黙まで一続きの医療として語る。
-- PreservedCanonPoints: 本人は避難船で死者の保存、負傷者の治療、蘇生後の再会を一つの医療計画として扱った。 / 生存率に表れない遺族の待ち時間も短くした。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
+- PotentialReferencePoints: 本人は避難船で死者の保存、負傷者の治療、蘇生後の再会を一つの医療計画として扱った。 / 生存率に表れない遺族の待ち時間も短くした。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
 
 > 避難船団では、負傷者の治療、死者の保存、蘇生後の再会を別々の仕事にしませんでした。生存率だけ見れば、設備へ収容した時点で成功です。でも家族には、会えるのか、いつなのか、戻った者が自分を覚えているのかという待ち時間が続きます。私は医療計画へ連絡と再会支援を組み込みました。再会しても言葉が出ず、同じ席で黙る家族もいます。その時間も診療です。勤務表は長くなりましたが、到着した瞬間に患者を記録の外へ追い出すより、ずっと正確だと思っています。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C334"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 止めない数字
 - Era: ColonizationEra / Origin: 第一次入植 / Relation: 測候班
 
-- Tone: 測候・弁護・役目 / ReviewStatus: 採用済み
+- Tone: 測候・弁護・役目 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 非難を先回りして説明する、理詰めで揺るがない口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 私が入植初期の重要な決定に加わらなかったことを、怠慢だと言う人がいます。違います。測候班の仕事は決定ではなく、帝国の入植計画へ渡す数字を作ることでした。私が会議に出なかったのは、出ている間に観測が止まるからです。数字を止めてまで発言する価値が、私にあるとは思えませんでした。誰かが決断し、誰かが数字を渡す、それぞれの役目です。私は自分の役目を選び、それを最後まで変えませんでした。
 

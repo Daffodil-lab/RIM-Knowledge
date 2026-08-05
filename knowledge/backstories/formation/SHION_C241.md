@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C241"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 蘇生者の散歩
 - Era: ModernUnion / Origin: 無党派 / Relation: 対メカノイド部隊
 
-- Tone: 対機械・判断・形成 / ReviewStatus: 採用済み
+- Tone: 対機械・判断・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 慎重で献身的。蘇生を完了ではなく、関係を結び直す長い過程と捉える。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 対機械戦区で、蘇生された友の散歩へ毎日付き添いました。身体は治っていても、廊下の幅や自分の歩幅が記憶と合わなかったんです。私は壁へ目印を付け、休める場所を増やしました。友は生きた動物に触れるのを望みましたが、私は予測できない反応が怖く、世話係へ任せました。敵性機械の残骸には単純な作業記録しかなく、そこへ人格を読み込むこともしませんでした。蘇生すれば喪失が消えるわけではありません。それでも友が昨日より一つ遠い角まで歩くたび、私は帰ってきたのだと少しずつ信じられました。
 

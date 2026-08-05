@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A370"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 礼拝堂の梁
 - Era: JourneyEra / Origin: 西側／石工文化継承者 / Relation: 建築班
 
-- Tone: 建築・信仰・職人 / ReviewStatus: 改稿採用済み
+- Tone: 建築・信仰・職人 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 木工と金属を語る職人。感情は道具の扱いに滲む。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 俺は石工文化を継ぐ共同体で育った。梁の継ぎ手はいくつもの方式を試し、結局は揺れに強く分解修理できる組継ぎを選んだ。混成世代と呼ばれる俺たちが初めて造った礼拝堂だったから、失敗は許されないと思ってた。継ぎ手を打つ音が礼拝堂に響くたび、なぜか誰も静かにしろと言わなかった。あの音も祈りの一部になったんだと思う。木くずの匂いが漂う中で最初の礼拝が行われたのを、俺は今も鮮明に覚えている。工具の跡は今も梁に残ってるはずだ。
 

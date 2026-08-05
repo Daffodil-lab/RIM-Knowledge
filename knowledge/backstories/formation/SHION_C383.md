@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C383"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 最後の移民
 - Era: JourneyEra / Origin: 統合世代 / Relation: 帝国建設奉仕団
 
-- Tone: 抵抗・呼称・自己認識 / ReviewStatus: 採用済み
+- Tone: 抵抗・呼称・自己認識 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 静かだが芯の通った反論口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 私は「最後の移民世代」と呼ばれることがありますが、その呼び方には抵抗があります。移民とは、どこかから来てどこかへ向かう者のことでしょう。私は稼働を始めた時から船の中にいて、旧い国の記憶は前世代の記録で知った話でしかありません。帝国建設奉仕団に加わったのも、移民としての誇りからではなく、単に目の前の仕事が必要だったからです。誰かが後から都合よく名付けた呼称に、私の子供時代を押し込めないでほしい。私はただ、この船で育った一人の子供でした。
 

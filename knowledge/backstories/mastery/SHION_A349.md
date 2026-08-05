@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A349"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 種子祭祀見習
 - Era: JourneyEra / Origin: 第三世界／実りの民 / Relation: 種子祭祀班
 
-- Tone: 祭祀・種子・訂正 / ReviewStatus: 採用済み
+- Tone: 祭祀・種子・訂正 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 几帳面な祭祀見習い。誤解を一つずつ丁寧に正す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > あたしは実りの民の文化を継ぐ。祭祀班は特別な力を持つ人が選ばれると思われがちだけど違う。あたしは単に種子庫の近くに住んでいただけ。もう一つ、祭祀は毎回同じ手順だと思われがちだけど、実は毎年少しずつ変えていた。収穫量に合わせて祈りの長さを調整するのがあたしの役目だった。一番大きな誤解は、あたしたちが未来を予言していたというもの。予言なんてしていない、ただ種の在庫を数えて、正直に足りない年は足りないと祈っていただけ。
 

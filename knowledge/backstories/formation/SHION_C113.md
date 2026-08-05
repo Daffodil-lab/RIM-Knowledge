@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C113"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 塔域救出遊戯
 - Era: ModernUnion / Origin: 無党派 / Relation: 塔域共同体
 
-- Tone: 塔・記録・形成 / ReviewStatus: 改稿採用済み
+- Tone: 塔・記録・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 無口だが競争好き / 身体感覚で話す / 分類に厳密 / 小さな挨拶を大事にする
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 訓練ではなく遊びでした。そこは訂正してください。塔の狭い保守路へ人形を隠し、誰が最も静かに運び出せるか競ったんです。私は組み方と重心移動を覚え、音へ反応する飼育動物を驚かせず通る役も引き受けました。端末に映るアロンと、独立した人格を持つ者は必ず区別した。遊びでも相手の存在を雑に呼ぶのは嫌いです。勝敗より覚えているのは、無口な管理者が毎回「戻ったか」とだけ聞いたこと。短い言葉でしたが、帰る場所とは、誰かが帰還を数えてくれる所なのだと思いました。
 

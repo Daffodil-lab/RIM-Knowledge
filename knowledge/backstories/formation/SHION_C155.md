@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C155"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 連合道具直し
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 革命・証言・形成 / ReviewStatus: 採用済み
+- Tone: 革命・証言・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 現場本位の修理係 / 党派の印を道具から外す / 炊事煙に郷愁 / 失敗談を先に渡す
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 革命連合の後方では、同じ工具に三つの党派印が重ねて刻まれていました。私は印を削り、握り傷は残して修理した。照準具なら安全を確かめ、どの部隊へも同じ順番で渡しました。共同の敵が消えると、誰の物資かで争いが始まった。その経緯も成功報告の後ろへ隠さず、後輩には私が部品を取り違えた話から教えたんです。革命を旗で語られると、私は炊事の煙を思い出します。あの下では冗談も失敗も共有していた。道具だけでなく、その暮らし方を直せなかったことが心残りです。
 

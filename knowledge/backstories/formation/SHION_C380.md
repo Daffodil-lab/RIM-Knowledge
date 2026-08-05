@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C380"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 統合暦の教室
 - Era: JourneyEra / Origin: 統合暦二期生 / Relation: 統合暦教育班
 
-- Tone: 教育・平淡・記録 / ReviewStatus: 採用済み
+- Tone: 教育・平淡・記録 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 感情を交えず事実だけを述べる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 統合暦二期生というのは、単に稼働開始年で振り分けられた区分です。教育班の授業内容は前の期とほとんど変わらず、旧い国の名前が教材から少しずつ削られていっただけでした。僕自身、特に思い入れはありません。淡々と課題をこなし、淡々と進級しました。強いて言えば、ある日教科書の地図から見慣れない国名が一つ消えていたことに気づいた、それくらいです。誰も何も説明しませんでした。僕もそれ以上は聞きませんでした。それだけの話です。
 

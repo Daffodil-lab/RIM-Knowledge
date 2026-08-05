@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A381"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 処置後の班長
 - Era: JourneyEra / Origin: 律法学舎 / Relation: 統合医療評議班
 
-- Tone: 医療・処置・時間 / ReviewStatus: 採用済み
+- Tone: 医療・処置・時間 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 淡々と過去へ遡って語る、非常に長命な語り手。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 今の私は、あの頃の同僚がとうに見送った時間の先にいます。まだ粗雑な処置でしたが、それを受けたのは統合医療評議班の仕事を任された年でした。その前は現場の巡回医、さらに前は律法学舎で医術を学んだ生徒でした。一番古い記憶は、処置よりずっと前、粗末な診療室で初めて脈を取った日のことです、指先の震えまで覚えています。長く生きることと、その日を覚えていることは、実は別の才能だと今は思います。
 

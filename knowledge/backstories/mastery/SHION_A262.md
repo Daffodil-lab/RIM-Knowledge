@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A262"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 封鎖地監視射手
 - Era: ModernUnion / Origin: 無党派 / Relation: 異常対応班
 
-- Tone: 異常・研究・職歴 / ReviewStatus: 採用済み
+- Tone: 異常・研究・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 極端に慎重な希少任務者。色への恐怖を隠さず、撃たなかった日を誇る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 封鎖地では、変色した草が風で揺れるたび照準を合わせた。だが私は撃たなかった。色だけで敵と決めず、動き、周囲の生態、自分の恐怖まで別々に記録した。観測所の鉢へ普通の植物を育て、毎日比較したよ。戻らなかった仲間の名を読む時、その鉢だけが育ち続けているのが辛かった。帰還後も夕焼けを異常色と見間違え、再会した友の服を怖がった。彼は笑わず、別の色へ着替えた。昔の関係ならからかったはずだ。互いに知らない時間があると認め、新しい約束を結べたのは、あの沈黙のおかげだと思う。
 

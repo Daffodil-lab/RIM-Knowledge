@@ -7,7 +7,6 @@ tags:
   - "independent-colony"
   - "gameplay"
   - "kombinat"
-  - "matter-network"
   - "pawn"
   - "red-star"
   - "the-hive"
@@ -40,8 +39,8 @@ sources:
 Core独立開拓団α版は、次を全て満たした時に完成する。
 
 - 工業基盤完成マイルストーンがバニラHumanのfixtureで完了している。
-- CoreがMatter Networkなしで起動できる。
-- 独立Kombinatや外部Storage MODの別導入を要求しない。
+- Core本体と対象の公式DLCで起動できる。
+- 保管とKombinatはCore配布物内の正規Assemblyから起動する。
 - 三人の独立開拓者で新規開始できる。
 - XML／Defで定義したシオンが描画され、健康、負傷、死亡、装備、作業を行える。
 - XML／Defで具体的な開始装備、研究、建築、Recipe、名前、背景、開始説明を提供する。
@@ -54,15 +53,11 @@ Core独立開拓団α版は、次を全て満たした時に完成する。
 - Kombinat Terminalで具体発注、消費表示、目標在庫、流通優先度を操作できる。
 - 通常UIで内部Planや実行器を管理せず、多段生産を実行できる。
 - 独立開拓団用の三段以上の多段生産閉路が完成する。
-- `Kombinat_発注多段生産_完成要件定義_v2.md`の全`MUST`とA〜J、`Kombinat_追加層_仮想シミュレーション監査_v2.md`のKX-001〜008とS2-001〜020が通る。
+- `Kombinat_発注多段生産_完成要件定義_v2.md`の全`MUST`とA〜J、`Kombinat_追加層_仮想シミュレーション監査_v2.md`のKX-001〜008とS2-001〜018が通る。
 - 同一ビルドで新規開始、保存、ロード、通常終了ができる。
 - 異なるα／β版のセーブ互換を完成条件にしない。
 
 このDefinition of Doneはα版だけを対象とする。βではαのCore独自保管・接続システムを大容量化し、性能、診断、追加Endpointを拡張する。
-- Red Star支援を誤って付与しない。
-- The Hiveなしで全テストが通る。
-- 旧資料の巨大カタログをロード要件にしない。
-- 遠距離物流が未実装でもα未達としない。
 
 この縦切りが完成して初めて、身体Module、Pawn Foundry、適合生成、登録、Clone、無料保管、低コスト再生、装備ファミリーと装備ポイント、生活、救援、派閥、漂着者、認可団、Red Star、休眠遺構、車輌、改良動物、ソフェル開始等をβで追加する。
 
@@ -70,7 +65,6 @@ Core独立開拓団α版は、次を全て満たした時に完成する。
 
 - 上位索引: [colony](/colony/index.md)
 - 同じ出典の前項: [27. The Hiveとの境界](/colony/27-The-Hiveとの境界.md)
-- 連携境界: [連携境界](/integrations/matter-network/index.md)
 - Kombinat領域: [Kombinat領域](/kombinat/index.md)
 - 正規保管仕様: [Core独自保管・接続システムの実装境界](/design/51-Core独自保管接続システムの実装境界.md)
 - 工業先行開発: [工業先行開発マイルストーン](/roadmap/11-工業先行開発マイルストーン.md)

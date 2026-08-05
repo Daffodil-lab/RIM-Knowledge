@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C010"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 葬送配膳係
 - Era: EraIndependent / Origin: 無党派 / Relation: 宗教施設
 
-- Tone: 儀礼・日常 / ReviewStatus: 採用済み
+- Tone: 儀礼・日常 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 明るい / 不意に沈む / 儀礼の機転 / 食事で人を見る
-- PreservedCanonPoints: 本人は葬送宴で料理を運び、参列者の席と献立を整えた。 / 死者が蘇生後に自分の宴へ出席することもあるため、驚かず本人用の席と食器を追加する手順を教わった。 / 司会が名を読み違えた時は目立たない合図で訂正し、悲しむ者にも再会を喜ぶ者にも同じ礼を尽くした。
+- PotentialReferencePoints: 本人は葬送宴で料理を運び、参列者の席と献立を整えた。 / 死者が蘇生後に自分の宴へ出席することもあるため、驚かず本人用の席と食器を追加する手順を教わった。 / 司会が名を読み違えた時は目立たない合図で訂正し、悲しむ者にも再会を喜ぶ者にも同じ礼を尽くした。
 
 > 葬送宴で一番困る客を知っています？　死んだはずの本人です。入口に立たれた時、皆は泣くか笑うか決められず、私は先に椅子と温かい皿を運びました。手順書にも本人席の追加はありますが、司会が名を二度読み違えるとは書いていなかった。合図を送り、献立を一品増やし、悲しむ者と再会を喜ぶ者を隣り合わせにしない。配膳は政治より難しい時があります。私は宴が好きでしたよ。別れを整える仕事なのに、匙が触れる音を聞くと皆がまだ同じ卓にいると分かる。その矛盾を、解く必要はないと思っています。
 

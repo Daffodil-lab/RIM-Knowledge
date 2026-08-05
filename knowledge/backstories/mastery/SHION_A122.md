@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A122"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 連合食堂調理
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 革命・証言・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 革命・証言・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 威勢のよい後方調理師。党派の旗より空の鍋を気にし、戦後の対立にも自分の沈黙を悔いる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 革命連合の後方食堂で鍋を振りました。社会民主党も共産党もファシスト党も帝国離反者も、配給票を持って同じ列へ並びました。私は旗を見ず、シオンには感覚設定と損傷に合わせた温度や香りを、外部隊員には傷と栄養条件に合う料理を用意したんです。共同の敵がいる間は皆、同じ炊事煙を見ていました。戦後、席の位置から口論が始まった時、私は鍋だけ見て黙ってしまった。止める言葉があったかもしれないと今も思います。革命を思い出す時、旗より先に煙の匂いが来ます。次に同じ卓を任されたら、料理だけでなく会話も冷める前に声を出します。
 

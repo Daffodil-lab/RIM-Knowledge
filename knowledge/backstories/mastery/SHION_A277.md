@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A277"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 支援庁坑道監督
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟支援軍
 
-- Tone: 支援・職務・職歴 / ReviewStatus: 採用済み
+- Tone: 支援・職務・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 無口な坑道監督。目立たない補給路へ、美しい印を残すことだけを楽しむ。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 後方支援の坑道は、誰にも見られないほど成功とされた。私は地層の音を聞き、補給員が必ず戻れる順番で掘らせた。医療物資や通信部品が遅れれば、前線では名のない損失になる。だから亀裂の位置を美しい模様で壁へ描いたよ。実用だけで十分だったが、暗い道を毎日通る者に少し楽しみがほしかった。誰にも見られなかった修理が多くの帰還を支えた。私は結果より、次の監督が私の判断をやり直せる印を残したい。豊かさは、見えない場所の仕事まで丁寧に扱える余裕でもある。
 

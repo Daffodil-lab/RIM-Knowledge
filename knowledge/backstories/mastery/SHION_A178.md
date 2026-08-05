@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A178"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 審査線護衛射手
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 連合軍
 
-- Tone: 軍務・不条理・職歴 / ReviewStatus: 採用済み
+- Tone: 軍務・不条理・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 苦い後悔を持つ護衛射手。泥靴を見て無謀な命令へ異議を唱え、医療は専門班へ任せる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 攻勢命令の審査線を護衛し、避難者と味方が射線へ入らない時だけ撃ちました。責任者は損耗を数字で話しましたが、私は戻った兵の泥靴を並べて見せた。乾く暇もなく再出撃させる命令でした。もっと早く異議を出せたはずです。最初の一隊を止められなかったことを今も悔やんでいます。負傷者へ手を出すより、医療班の通路と射線を守りました。不得手な処置で時間を奪いたくない。私は謝罪を未来へ延ばさず、次の命令書には泥が付く前に声を上げます。
 

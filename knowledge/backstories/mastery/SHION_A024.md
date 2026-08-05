@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A024"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 身体文章設計者
 - Era: ModernUnion / Origin: ソフェル / Relation: 身体設計院
 
-- Tone: 身体設計・倫理 / ReviewStatus: 採用済み
+- Tone: 身体設計・倫理 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 自信と節度を併せ持つ設計者。精度を誇るが、完成後の生き方は本人の領分と考える。
-- PreservedCanonPoints: 本人は利用者の新しい身体を、強度や出力だけでなく、感覚、癖、外見、生活習慣まで含めて設計した。 / 設計者の理想より、本人がどう暮らしたいかを先に聞いた。 / 医療設計の精度は同族からも高く評価され、多様な身体規格の難しい案件を任された。
+- PotentialReferencePoints: 本人は利用者の新しい身体を、強度や出力だけでなく、感覚、癖、外見、生活習慣まで含めて設計した。 / 設計者の理想より、本人がどう暮らしたいかを先に聞いた。 / 医療設計の精度は同族からも高く評価され、多様な身体規格の難しい案件を任された。
 
 > 身体を文章と呼ぶのは私の比喩です。だからといって、結末まで書く権利があるとは思いません。私は強度と出力だけでなく、感覚、癖、外見、生活習慣を聞いて新しい身体を設計しました。精度は同族からも高く評価されましたよ。ですが射撃に最適な腕を作っても、本人が花を摘むために使えば、それは欠陥ではありません。一度、自分の美しい設計を優先して利用者の古い震えを消し、戻してほしいと頼まれました。それ以来、最初に手で確かめるのは部品でなく、本人が残したい癖です。
 

@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C028"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 神殿侍祭
 - Era: ImperialPeak / Origin: 帝国臣民 / Relation: 地方神殿
 
-- Tone: 宗教・奉仕 / ReviewStatus: 採用済み
+- Tone: 宗教・奉仕 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 温和な信徒 / 会話的 / 儀礼と救済を結ぶ / 教条性を戒める
-- PreservedCanonPoints: 本人は帝国最盛期の地方神殿で、灯火、香炉、参列者の案内、読み上げ順の確認を担当した。 / 神殿には学校と宿、救貧所もあり、日々多くの住民が訪れた。 / 儀礼の正確さを守りながら、疲れた者や文字を読めない者を助ける方法を覚えた。
+- PotentialReferencePoints: 本人は帝国最盛期の地方神殿で、灯火、香炉、参列者の案内、読み上げ順の確認を担当した。 / 神殿には学校と宿、救貧所もあり、日々多くの住民が訪れた。 / 儀礼の正確さを守りながら、疲れた者や文字を読めない者を助ける方法を覚えた。
 
 > 神殿は祈る場所だけではありませんでした。学校、宿、救貧所、時には迷子の待合所です。私は灯火と香炉を整え、読み上げ順を確かめながら、文字を読めない参列者へ小声で次の所作を伝えました。ある旅人が儀礼中に眠り、隣の者が咎めようとした時は毛布を掛けた。疲れた者を立たせるための律法ではない、と教わっていましたから。最盛期を懐かしむ理由を聞くのですか、ソフェル。豪華な聖堂ではなく、規則を守りながら誰も入口で追い返さなかった、その余裕です。
 

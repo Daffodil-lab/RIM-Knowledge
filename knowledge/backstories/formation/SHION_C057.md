@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C057"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 夜間展示替え
 - Era: ModernUnion / Origin: 無党派 / Relation: 歴史博物館
 
-- Tone: 芸術・歴史 / ReviewStatus: 採用済み
+- Tone: 芸術・歴史 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 批評的な学芸員 / 両論を並べる / 来館者を試す / 歴史の単純化を嫌う
-- PreservedCanonPoints: 本人は閉館後、帝国と革命の展示を入れ替えた。 / 同じ剣が英雄の武器と圧政の道具の両方に置かれるため、説明札だけは二枚とも残した。 / 翌朝の来館者が迷うことも展示の一部だった。
+- PotentialReferencePoints: 本人は閉館後、帝国と革命の展示を入れ替えた。 / 同じ剣が英雄の武器と圧政の道具の両方に置かれるため、説明札だけは二枚とも残した。 / 翌朝の来館者が迷うことも展示の一部だった。
 
 > 同じ剣が、帝国展示では英雄の武器、革命展示では圧政の道具でした。どちらが正しいと思います？　私は閉館後に剣を移し、説明札だけ二枚とも残しました。翌朝、来館者は怒り、迷い、長く立ち止まった。それが展示の目的です。片方だけにすれば分かりやすい。でも分かりやすさは、たいてい誰かの記憶を倉庫へ追いやります。最盛期の豊かさを懐かしみながら、同じ制度に傷つけられた者もいる。私は答えを一枚に絞りません。ソフェルの余録も、私の証言を最後の札にはしないでください。
 

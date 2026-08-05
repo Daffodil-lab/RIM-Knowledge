@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A322"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 選種人
 - Era: ColonizationEra / Origin: 育種班 / Relation: 第一次入植
 
-- Tone: 育種・選別・継承 / ReviewStatus: 採用済み
+- Tone: 育種・選別・継承 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: ある数字にこだわり、何度も言い直しながら語る選種人。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 試した品種は三十七、いや正確には三十八だった。一つは記録に残す前に霜でだめになったから、数えるか迷っていた。育種班では第一次入植の作物を少しずつ土地に合わせて選び直す仕事をしていて、三十八のうち根付いたのは六つだけだ。少ないと思うかもしれないが、最初の年は一つも根付かなかったことを思えば十分な数字だ。今、畑に並んでいるのはその六つの子孫にあたる。三十八という数字を覚えているのは、たぶん私だけだろう。
 

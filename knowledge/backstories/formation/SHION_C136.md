@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C136"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 後方識別射撃
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟支援軍
 
-- Tone: 支援・職務・形成 / ReviewStatus: 採用済み
+- Tone: 支援・職務・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 地味な功績を好む射手 / 支援職への誇り / 栽培区で観測 / 競争心は強い
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 前線の英雄ではありません。後方支援庁の射場で、補給路へ紛れた危険物を識別する練習をしていました。栽培区を横切る射線では、季節ごとの背丈まで待って測った。私は射撃が好きで、友と精度を競うのも大好きでしたが、一発で終えるより「撃たなくてよい」と判定する方が難しいんです。通信器の小さな修理が何十人もの帰還を支えても、誰も見ません。それで構わない。支援が立派に見える時は、たいてい既に何かが壊れています。何も起こらない一日こそ、私たちの最高得点でした。
 

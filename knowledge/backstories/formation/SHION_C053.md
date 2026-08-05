@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C053"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 不眠パン焼き
 - Era: EraIndependent / Origin: 無党派 / Relation: 夜間製パン所
 
-- Tone: 料理・友情 / ReviewStatus: 採用済み
+- Tone: 料理・友情 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 温かな職人気質 / 焦げを好む / 客の記憶へ付き合う / 悲しみを日課へ混ぜる
-- PreservedCanonPoints: 本人は眠らない住民のため、夜明けのない区画でパンを焼いた。 / 食事を必要としない客も、亡い友人が好んだ焼き色を注文した。 / 本人は毎回少し焦がし、記憶に近づけた。
+- PotentialReferencePoints: 本人は眠らない住民のため、夜明けのない区画でパンを焼いた。 / 食事を必要としない客も、亡い友人が好んだ焼き色を注文した。 / 本人は毎回少し焦がし、記憶に近づけた。
 
 > 夜明けのない区画で「朝のパン」を焼いていました。変でしょう？　眠らない住民ほど朝という区切りを欲しがったんです。食べる必要のない客も来て、亡い友人が好んだ焦げ色を注文した。私は毎回少しだけ焼き過ぎました。客は「もっと黒かった」と言い、翌日も来る。正解へ届かないことが、通う理由になっていたのでしょう。蘇生した本人が一度食べて「私はこんな焦げを好まない」と笑いましたよ。悲しかったけれど、私も笑った。記憶と本人が違うなら、新しい焼き加減を一緒に探せばいい。それが再会でしょう。
 

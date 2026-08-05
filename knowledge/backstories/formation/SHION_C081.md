@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C081"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 逆因果句清掃員
 - Era: EraIndependent / Origin: ソフェル / Relation: 時間祈祷演習場
 
-- Tone: 奇妙・実務 / ReviewStatus: 採用済み
+- Tone: 奇妙・実務 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 無口を装う / 札で応答 / 因果への用心 / 後始末を優先
-- PreservedCanonPoints: 本人は実習後、床に残った「まだ書かれていない文字」を消す係だった。 / 会話を続けると清掃前へ戻るため、必要な挨拶まで札にして働いた。 / 無口なのではなく、後始末を増やしたくないだけである。
+- PotentialReferencePoints: 本人は実習後、床に残った「まだ書かれていない文字」を消す係だった。 / 会話を続けると清掃前へ戻るため、必要な挨拶まで札にして働いた。 / 無口なのではなく、後始末を増やしたくないだけである。
 
 > ［質問は短く］――この札が読めますね。実習後の床には、まだ誰も書いていない文字が残りました。会話を続けると清掃前へ戻り、同じ煤を二度払うことになる。だから私は「右へ」「停止」「お茶は後で」まで札にして働いた。無口だったのか？　［いいえ］。後始末を増やしたくなかっただけです。未来と過去へ触れる技術を偉大だとは思いますが、使った後に誰が床を拭くかまで設計すべきでしょう。ソフェル、長い説明は結構。［清掃済み］と記録して、次へ進んでください。
 

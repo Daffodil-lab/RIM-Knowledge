@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A272"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 連合再会連絡
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 革命・証言・職歴 / ReviewStatus: 採用済み
+- Tone: 革命・証言・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 世慣れた連絡官。革命の旗より、検問を越えて人を会わせた手順を覚えている。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 革命連合の後方で再会を取り持つには、友人を探すだけでは足りなかった。党派の違う検問を越え、坑道の安全を確かめ、昔の呼び名を今も使えるか双方へ聞いた。共同の敵がいる間は通れた道も、戦況が変われば閉じたよ。私は旗の説明より炊事の煙を目印にした。どの陣営も食事時だけは少し警戒が緩んだからね。同族から評価されたのは、思想を統一したからではない。違ったまま会える手順を残したからだと思う。平和を取り戻す方法で争っても、誰と会うかを本人が選ぶ小さな自由は削りたくない。
 

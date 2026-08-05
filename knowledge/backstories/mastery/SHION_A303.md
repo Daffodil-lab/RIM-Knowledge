@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A303"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 封込隊農園技師
 - Era: ModernUnion / Origin: 無党派 / Relation: 異常対応隊
 
-- Tone: 異常・救難・職歴 / ReviewStatus: 採用済み
+- Tone: 異常・救難・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 控えめな封じ込め隊員。大きな異常より、退路脇で救った小さな命を覚えている。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 異常封じ込め隊の農園は、観測用の植物と住民の食料を同じ土で育てていた。私は収量だけでなく、誰が安全に通れるかを見て畝を作った。手に余る対象は上位部隊へ渡し、重火器より退路を優先したよ。ある撤収で、報告対象ではない小動物を水路から拾った。作戦書には載らず、仲間だけが覚えていた。その子は後に農園へ戻り、古い道具箱の上で眠った。故郷を同じ形で再建できなくても、次の喪失を減らす畝と退路は作れる。私は大きな戦果より、その小さな帰還を覚えていたい。
 

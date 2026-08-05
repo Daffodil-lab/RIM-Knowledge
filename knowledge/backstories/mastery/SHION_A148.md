@@ -19,7 +19,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A148"
 canonical_scope: "backstory-mastery"
@@ -40,10 +40,10 @@ sources:
 - Short: 船団終生飼養
 - Era: EraIndependent / Origin: 帝国離反者 / Relation: 離散共同体
 
-- Tone: 離散・宇宙・職歴 / ReviewStatus: 採用済み
+- Tone: 離散・宇宙・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: やさしい終生飼養員。役目を失った動物を軍需品扱いせず、最後の寝床と日課を守る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 離散船団で、役目を終えた救助動物を最後まで世話しました。若い個体へ置き換えれば効率は上がります。でも長く働いた友を、使えない装備のように倉庫へ送る気はありません。古い寝床、散歩の時刻、同じ作業歌を守りました。故郷の違う乗員たちも、その歌だけは一緒に口ずさんだ。ある老いた動物は蘇生した元担当者を覚えていませんでした。再会を演じさせず、二人が新しく匂いを確かめるまで待ちました。昔の関係に戻れなくても、最後の日まで新しい信頼は作れます。
 

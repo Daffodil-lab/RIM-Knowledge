@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C017"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 遊び場仲裁
 - Era: EraIndependent / Origin: 無党派 / Relation: 居住区の遊び仲間
 
-- Tone: 日常・対人 / ReviewStatus: 採用済み
+- Tone: 日常・対人 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 快活 / 議論好き / 問い返し / 勝敗より再戦を重視
-- PreservedCanonPoints: 本人は居住区の盤上遊戯会で、説明書と地域ごとの慣習が食い違った時の仲裁を任された。 / 勝者を決め直すより、全員が納得して次の一局へ進める裁定を考えた。 / 年齢も身体も違う参加者へ規則を説明し、途中参加や長期中断の扱いも整えた。
+- PotentialReferencePoints: 本人は居住区の盤上遊戯会で、説明書と地域ごとの慣習が食い違った時の仲裁を任された。 / 勝者を決め直すより、全員が納得して次の一局へ進める裁定を考えた。 / 年齢も身体も違う参加者へ規則を説明し、途中参加や長期中断の扱いも整えた。
 
 > 勝者を決めれば争いが終わると思いますか？　盤上遊戯会では、そこからが本番でした。中央版の説明書と地方慣習が食い違い、長期休眠から戻った参加者は三改訂前の規則を主張する。私は全員の手駒を止め、誰が正しいかではなく、どうすれば次の一局を始められるか尋ねました。裁定に不満な者も、再戦の席は立たなかった。それが私の勝ちです。ああ、今のは仲裁役らしくない言い方でしたね。けれどソフェル、納得とは同意ではなく、もう一度同じ卓へ座る意思ではありませんか。
 

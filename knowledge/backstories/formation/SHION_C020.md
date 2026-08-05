@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C020"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 天文台通い
 - Era: EraIndependent / Origin: 無党派 / Relation: 航路宿
 
-- Tone: 旅行・観測 / ReviewStatus: 採用済み
+- Tone: 旅行・観測 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 眠そう / 淡々 / 夜の観察 / 待つことを好む
-- PreservedCanonPoints: 眠りの浅い本人は航路宿の夜番となり、屋根から星、雲、接近する灯火を見張った。 / 星図と建物の輪郭を照合し、夜明け前に着くキャラバンの方角を宿へ伝えた。 / 客の足音や荷車の軋みから到着人数を予測し、寝床と食事の準備も手伝った。
+- PotentialReferencePoints: 眠りの浅い本人は航路宿の夜番となり、屋根から星、雲、接近する灯火を見張った。 / 星図と建物の輪郭を照合し、夜明け前に着くキャラバンの方角を宿へ伝えた。 / 客の足音や荷車の軋みから到着人数を予測し、寝床と食事の準備も手伝った。
 
 > 眠れなかったのではなく、眠りが浅かっただけです。違いは重要でしょう？　航路宿の屋根で星と雲を見て、遠い灯火が客か嵐かを確かめました。荷車は車軸ごとに軋み方が違う。足音と合わせれば、到着前に寝床と鍋の数を決められます。夜明け前の客はたいてい話したがらず、私も質問しませんでした。一度だけ、声を掛けるべき相手を黙って通した。それが最後になった。以来、私は沈黙を尊重しますが、別れの沈黙と疲れた沈黙は聞き分けたいと思っています。あなたは急ぎますか、ソフェル。
 

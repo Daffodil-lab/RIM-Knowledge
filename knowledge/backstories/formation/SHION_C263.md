@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C263"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 色の残る観測具
 - Era: ModernUnion / Origin: 無党派 / Relation: 異常対応班
 
-- Tone: 異常・研究・形成 / ReviewStatus: 採用済み
+- Tone: 異常・研究・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 神経質な職人。未知を恐れながらも、推測と観測を厳格に分ける。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 封鎖観測地から戻った道具には、洗っても消えない色がありました。私は持ち主の傷と異常な変色を分け、交換できる部品まで一つずつ修理しました。遠くからの識別と射撃も習いましたが、分からないものを怖さだけで撃たないよう観測を先にしました。あの頃は匂いまで信用できず、自分で調理した料理の香味評価さえ避けていました。帰還後、普通の夕焼けを見ても警報を探したものです。故郷の道具を直せても、使っていた人や当時の会話は戻らない。それでも傷を消さず次へ渡せば、何を知り、何を知らなかったかは残せます。
 

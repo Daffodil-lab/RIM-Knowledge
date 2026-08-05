@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C137"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 本国救出
 - Era: EraIndependent / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 生活・基幹・形成 / ReviewStatus: 改稿採用済み
+- Tone: 生活・基幹・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 親しみやすい救出役 / 雑談から改善点を拾う / 身体差へ配慮 / 日常の安心を重視
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 居住区の救出訓練は、自治当番の中で一番人気がありませんでした。だから私は休憩の菓子を担当して、人を集めたんです。狭い通路から狐娘型内部の構成が違うシオン、外部居住者、飼育動物を運ぶには、力より組み方と待ち方が要る。雑談で「この取手は届かない」と聞けば、次の訓練までに位置を変えました。必要でもない飾りを救出人形へ付ける隣人もいて、毎回探す目印になった。平和は壮大な宣言より、非常口が誰の手にも届き、訓練後に皆で菓子を囲めることだと思います。そういう安心なら、昔より広く作れるでしょう。
 

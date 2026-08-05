@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C408"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 太鼓叩き
 - Era: ColonizationEra / Origin: 楽団 / Relation: 楽団長
 
-- Tone: 感傷・郷愁・誇り / ReviewStatus: 採用済み
+- Tone: 感傷・郷愁・誇り / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 誰かの言葉を引用するような、歌うような抑揚のある口調。柔らかい言葉に感情を率直に滲ませる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 楽団長がいつも言っていました、「太鼓は心臓の代わりだ、遅れれば皆が迷う」。その言葉を私は今でも自分の中で唱えています。開拓地から開拓地へ渡り歩く楽団の中で、私は一番小さな太鼓を叩く役でした。緊張で手が震えた初舞台、楽団長が私の肩をそっと叩いて拍子を合わせてくれたことは忘れられません。太鼓の革の匂いと、演奏が終わった後の拍手の音が、今も体のどこかに残っています。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C221"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 船団の競技会
 - Era: EraIndependent / Origin: 帝国離反者 / Relation: 離散共同体
 
-- Tone: 離散・宇宙・形成 / ReviewStatus: 改稿採用済み
+- Tone: 離散・宇宙・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 快活で率直。身体差を面白がりつつ、相手への配慮を誇りにしている。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 船団には、同じ狐娘型の輪郭でも、質量も出力も感覚器の調整も異なる者がいました。そこで私たちは、勝つより先に「相手を壊さない競い方」を作ったんです。私は組み手のたびに力加減を変え、言葉を使わない動物とも間合いを試しました。負けた夜は少し悔しかったけれど、食堂へ戻れば皆で同じ歌を歌えた。故郷と呼ぶ星も、身体の構成も、流れてきた時間も違うのにです。あの歌が聞こえる間だけは、離散していることを忘れました。だから今でも、誰かと競う時は勝敗より、次も同じ卓へ戻れるかを気にします。
 

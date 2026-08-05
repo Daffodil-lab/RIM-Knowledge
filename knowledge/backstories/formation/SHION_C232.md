@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C232"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 帰還護衛遊び
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟軍
 
-- Tone: 軍務・統合・形成 / ReviewStatus: 採用済み
+- Tone: 軍務・統合・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 勝ち気で面倒見がよい。戦術遊びを、全員で帰る約束として覚えている。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 私たちの遊びは、標的を倒す速さではなく、何人連れて帰れるかを競う護衛戦でした。強襲群の訓練場を借り、射手役、負傷者役、案内役を毎回くじで替えました。ただし、本当に誰かを捨てるくじだけは認めなかった。私は射線より先に退路を探し、待ち時間には訓練区画の植物を育てました。ある夜、想定外の事故で点呼が何度もやり直され、帰還者を数える声が朝まで途切れませんでした。それから勝敗表の一番上には、全員の帰還欄を置いています。私は勝ちたい。でも、負けた相手とも次の季節に再戦したいんです。
 

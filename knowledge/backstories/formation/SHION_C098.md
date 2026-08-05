@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C098"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 昨日の友待ち
 - Era: EraIndependent / Origin: 無党派 / Relation: 個人的友人
 
-- Tone: 友情・時間 / ReviewStatus: 採用済み
+- Tone: 友情・時間 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 私信のような回想 / 今日の些事を大切にする / 返事を諦めない / 救出失敗を抱える
-- PreservedCanonPoints: 本人は時間事故で「昨日」に残った友人へ、毎日同じ場所から手紙を送った。 / 救出計画が中止された後も書き続け、返事のない相手へ今日の小さな出来事を報告した。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
+- PotentialReferencePoints: 本人は時間事故で「昨日」に残った友人へ、毎日同じ場所から手紙を送った。 / 救出計画が中止された後も書き続け、返事のない相手へ今日の小さな出来事を報告した。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
 
 > 友人は時間事故で「昨日」に残りました。救出計画が中止されても、私は毎日同じ送信所から手紙を出した。大事件は書きません。今日の茶が薄かった、隣人が靴を左右逆に履いた、庭の蕾が一つ開いた。昨日の相手には、今日が続いていると知らせたかった。返事はありません。届いていない可能性の方が高い。それでも書くのは執着か、と聞くのですか。はい、そうでしょう。ソフェル、希望と呼び替えて美しくしないでください。私は返事のない友へ、今日を一人占めしたくないだけです。
 

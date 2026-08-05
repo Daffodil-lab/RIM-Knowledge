@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A241"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 低温区地下救助
 - Era: ModernUnion / Origin: 無党派 / Relation: 研究安全局
 
-- Tone: 科学・風刺・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 科学・風刺・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 勝負好きの救助員。速さより安全な掘り方を競わせ、科学者へ遠慮なく苦言を言う。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 低温研究区では、救助坑を掘る競技を開いていた。最速ではなく、壁を崩さず、生存者へ振動を届けない班が勝つ。私は地層の響きを聞き、危険な線へ派手な模様を描いた。研究員には落書きと呼ばれたが、凍結事故の日、その絵が暗闇でも退路を示したよ。便利な冷却材が居住区まで広がる可能性を、誰も十分に考えていなかった。救出後、研究員が凍った菓子を差し出し、皆で黙った。私は食べた。味は悪くなかった。それでも発明の失敗範囲を先に競う大会も必要だと、翌日規則へ加えた。
 

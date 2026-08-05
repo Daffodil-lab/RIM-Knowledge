@@ -14,9 +14,15 @@ for (const group of ["formation", "mastery"]) {
   for (const name of fs.readdirSync(dir).filter((entry) => /^SHION_[CA]\d{3}\.md$/.test(entry))) {
     const file = path.join(dir, name);
     const text = fs.readFileSync(file, "utf8");
-    if (!text.includes(`canon_review: ${reviewState}`)) continue;
-    let next = text.replace(`canon_review: ${reviewState}`, "canon_review: accepted");
-    next = next.replace(/ReviewStatus: (?:新規正史候補|既存稿再監査)/, "ReviewStatus: 採用済み");
+    if (!text.includes(`reference_review: ${reviewState}`)) continue;
+    let next = text.replace(
+      `reference_review: ${reviewState}`,
+      "reference_review: accepted",
+    );
+    next = next.replace(
+      /ReviewStatus: (?:参考候補|参考再監査|新規正史候補|既存稿再監査)/,
+      "ReviewStatus: 参考採用済み",
+    );
     planned.push([file, next]);
   }
 }

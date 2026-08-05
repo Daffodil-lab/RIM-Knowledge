@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C013"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 義眼工房
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 工芸・美術 / ReviewStatus: 採用済み
+- Tone: 工芸・美術 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 美意識が強い / 丁寧な反論 / 色の記憶 / 本人の選択を優先
-- PreservedCanonPoints: 本人は義眼工房で、交換用の発光色を依頼者の残った目や古い記録へ合わせた。 / 規格値が同じでも照明や表面処理で見え方が変わるため、何度も試着して調整した。 / 古い部隊色や亡くした友人の色を望む客もおり、単なる左右対称より本人の思いを優先した。
+- PotentialReferencePoints: 本人は義眼工房で、交換用の発光色を依頼者の残った目や古い記録へ合わせた。 / 規格値が同じでも照明や表面処理で見え方が変わるため、何度も試着して調整した。 / 古い部隊色や亡くした友人の色を望む客もおり、単なる左右対称より本人の思いを優先した。
 
 > 左右を揃えるのが正しい、と最初の師は言いました。私は今も反対です。義眼の発光値が同じでも、表面の磨き方と照明で色は変わる。何度も試着し、本人が鏡から目を逸らさなくなる所を探しました。ある客は残った目に合わせず、亡くした友の部隊色を望んだんです。非対称で、不自然で、とても似合っていた。ソフェル、身体を直すとは誰の基準へ戻すことでしょう。私は完全な左右対称より、持ち主が「これが私だ」と言える違いを選びます。今もそこだけは譲れません。
 

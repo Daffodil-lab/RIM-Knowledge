@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C229"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 装甲救護課程
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟軍
 
-- Tone: 軍務・市民・形成 / ReviewStatus: 採用済み
+- Tone: 軍務・市民・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 冷静で責任感が強い。失敗記録を隠さず、救助対象を名で呼ぶ。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 装甲訓練地の救護課程では、治療の速さより先に傷病者の名を言わされました。番号だけで選別すると、いつか住民まで数字に見えるからです。私は崩れた施設の構造を読み、搬送路を作り、手当ての順を決めました。模擬救助で一人を見落とした日は、記録を消したくてたまらなかった。でも教官は、次の者が同じ穴へ落ちないよう残せと言いました。訓練後に皆で装甲の泥を落とし、戻らなかった想定者の名を読み上げた夜を覚えています。平和とは失敗のない場所ではなく、失敗を隠さず誰かを帰せる場所だと、あそこで学びました。
 

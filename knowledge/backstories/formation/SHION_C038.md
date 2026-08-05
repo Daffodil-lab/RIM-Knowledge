@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C038"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 停戦線修復児
 - Era: ImperialCivilWar / Origin: 帝国臣民 / Relation: 停戦共同班
 
-- Tone: 内戦・修理 / ReviewStatus: 採用済み
+- Tone: 内戦・修理 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 疲れた実務家 / 率直 / 敵味方を職能で見る / 短い友情を惜しむ
-- PreservedCanonPoints: 本人は内戦中、短い停戦が結ばれるたび双方の技師と水路や発電設備を修理した。 / 制服より担当区画を確認し、停戦終了までに民間居住区へ供給を戻すことを優先した。 / 戦闘が再開すれば昨日の同僚と別れたが、工具と修理記録は中立の保守所へ残した。
+- PotentialReferencePoints: 本人は内戦中、短い停戦が結ばれるたび双方の技師と水路や発電設備を修理した。 / 制服より担当区画を確認し、停戦終了までに民間居住区へ供給を戻すことを優先した。 / 戦闘が再開すれば昨日の同僚と別れたが、工具と修理記録は中立の保守所へ残した。
 
 > 停戦は短い方が作業しやすい。余計な理想を話す暇がないからです。私は双方の技師と水路を掘り、発電弁を替え、制服ではなく担当区画で相手を呼びました。昨日の敵が今日の相棒、明日はまた敵です。馬鹿げていますよ。それでも民間区へ水が戻る音だけは、どの党派も黙って聞いた。工具と修理記録は中立保守所へ残し、次に誰が来ても続きを始められるようにした。ある帝国技師から借りたレンチは返せませんでした。今も持っています。和平の象徴ではない。ただ、返す約束を戦争に奪わせたくないのです。
 

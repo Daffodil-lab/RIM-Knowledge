@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C392"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 釘拾い
 - Era: ColonizationEra / Origin: 建設隊 / Relation: 隣人
 
-- Tone: 素朴・淡白・実直 / ReviewStatus: 採用済み
+- Tone: 素朴・淡白・実直 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 飾らない淡白な口調、平易な言葉で感情をあまり見せずに語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 落ちた釘を拾うだけの仕事だったよ、特に語ることもない。隣のおじさんが現場の親方で、子どもたちを何人か使ってた。曲がった釘は火の中に、真っ直ぐなのは箱にって、それだけ。別に楽しくもつまらなくもなかった。ただ、釘の重さで箱がいっぱいかどうか分かるようになったのは今でも役に立ってる気がする。大した思い出じゃないけど、聞かれたから答えた。それだけの話だ。
 

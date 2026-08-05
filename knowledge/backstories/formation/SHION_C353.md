@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C353"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 建国世代拒否
 - Era: JourneyEra / Origin: 帝国准民 / Relation: 建国記念班
 
-- Tone: 抵抗・呼称・自己規定 / ReviewStatus: 採用済み
+- Tone: 抵抗・呼称・自己規定 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: ぶっきらぼうで反発的。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 俺のことを「建国世代」って呼ぶ奴がいるが、それは違う。俺は建国記念班にいただけで、当時十一歳の子供が帝国の成立に関わったなんて話は盛りすぎだ。俺がやったのは記念式典で使う布を運んだり、椅子を並べたりする雑用だけだった。式典の日、大人たちが涙ぐんでいたのは覚えているが、俺は正直、早く終わって配給を受け取りたいと思っていた。後から立派な物語をくっつけられるのは迷惑だ。俺は雑用係の子供だった、それだけでいい。
 

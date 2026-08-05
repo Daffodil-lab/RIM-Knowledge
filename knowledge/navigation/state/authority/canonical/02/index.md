@@ -1,22 +1,9 @@
 # canonical 02
 
-範囲: 23. 性能方針〜G. 保管基盤不在
+範囲: 45. Human Weapons計画の実装境界〜PERF-002 Planner
 
 ## 項目
 
-- [23. 性能方針](/design/23-%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E6%96%B9%E9%87%9D.md) — シオン関連システムは、正本状態と表示用索引を分離し、イベント駆動の増分更新と有界処理によって大規模プレイを維持する。
-- [24. 操作画面と情報予算](/design/24-UI%E3%81%A8%E6%83%85%E5%A0%B1%E4%BA%88%E7%AE%97.md) — 最初から帝国全史、魂の議論、惑星120件、全組織、全技術を説明しない。
-- [25. 検証シナリオ](/design/25-%E6%A4%9C%E8%A8%BC%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — 次をCore v2と本書だけから矛盾なく作れること。
-- [30. 対象外](/design/30-%E5%AF%BE%E8%B1%A1%E5%A4%96.md) — 今回のオーバーホールでは次を確定しないという方針の適用範囲と条件を定める。
-- [36. 装備設定クラスとカタログ](/design/36-%E8%A3%85%E5%82%99%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%A8%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0.md) — 装備カタログは、品の由来、発注、設計、開発、評価、現状、用途、物理仕様、外見、フレーバーを所有し、具体的なゲーム値を所有しない。
-- [37. 装備の実装境界](/design/37-%E8%A3%85%E5%82%99%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 装備実装は、Def、射程、性能、素材、Recipe、工数、製造時間、過熱、信頼性、支持装置、CE互換、入手条件、装備解決を所有し、設定カタログへ従う。
-- [38. 代表工業資源の実装境界](/design/38-%E4%BB%A3%E8%A1%A8%E5%B7%A5%E6%A5%AD%E8%B3%87%E6%BA%90%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 五つの代表工業資源を実Thingへ変換するDef、物性、Recipe、工数、保存、流通の実装契約を所有する。
-- [39. 工業管制塔設定クラス](/design/39-Field-Ledger-Terminal%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9.md) — 工業管制塔は、独立遠征共同体がコンビナートの生産、消費、流通と同盟通貨へ触れるための現地端末である。
-- [40. Field Workshop設定クラス](/design/40-Field-Workshop%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9.md) — Field Workshopは、独立遠征共同体が現地資源と労働から生活・保守用の実用品を生産する現地工場である。
-- [41. Pawn Foundry設定クラス](/design/41-Pawn-Foundry%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9.md) — Pawn Foundryは、シオンの身体と配備構成を設計・生産し、個体記録、休眠保管、回収再生を扱うCoreの施設である。
-- [42. エネルギー供給の実装境界](/design/42-%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC%E4%BE%9B%E7%B5%A6%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 常設エネルギー接続とエネルギー結晶による外地供給を分離し、改造身体・高度装備・設備の稼働条件を実装する。
-- [43. 帝国系と同盟系の製品系列の実装境界](/design/43-%E5%B8%9D%E5%9B%BD%E7%B3%BB%E3%81%A8%E5%90%8C%E7%9B%9F%E7%B3%BB%E3%81%AE%E8%A3%BD%E5%93%81%E7%B3%BB%E5%88%97%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 帝国系を高性能・高価格・高工数・品質差のある品、同盟系を安価・量産向け・品質固定・しばしば高耐久な品としてゲームへ投影する。
-- [44. Human Weapons計画（仮称）](/design/44-Human-Weapons%E8%A8%88%E7%94%BB%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9.md) — Human Weapons計画（仮称）は、初期の対人類戦役で現地政権と協力者へ安価かつ迅速に供給できる、人間用の高性能火薬式火器を整備した同盟の調達計画である。
 - [45. Human Weapons計画の実装境界](/design/45-Human-Weapons%E8%A8%88%E7%94%BB%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — Human Weapons計画品を、品質を持たず、構造材だけで製造でき、結晶資源や常設電力を使わない人間用の独自火薬式火器として実装する。
 - [46. 装備アーカイブ番号体系](/design/46-%E8%A3%85%E5%82%99%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E7%95%AA%E5%8F%B7%E4%BD%93%E7%B3%BB.md) — 同盟の全装備は、三桁の分類番号と五桁の登録番号を空白で区切ったアーカイブ番号、および種類コードによって設計・型式単位で管理される。
 - [47. 装備アーカイブ番号の実装境界](/design/47-%E8%A3%85%E5%82%99%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E7%95%AA%E5%8F%B7%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 同盟装備の三桁分類番号、五桁登録番号、種類コードを安定した定義メタデータとして保持し、重複、形式不正、分類不一致を検証する。
@@ -24,7 +11,7 @@
 - [49. HORIZON A1の実装境界](/design/49-HORIZON-A1%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — HORIZON A1を、品質を持たず、構造材だけで量産でき、30発の6.6×41mm通常弾薬を使う人間用制式小銃として実装する。
 - [50. 装備庫接続と武器転送の実装境界](/design/50-%E8%A3%85%E5%82%99%E5%BA%AB%E6%8E%A5%E7%B6%9A%E3%81%A8%E6%AD%A6%E5%99%A8%E8%BB%A2%E9%80%81%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 接続装備庫が所有する実物武器を、複製せず状態を保ったまま活動中Pawnへほぼ即時に交換するCore側の取引として実装する。
 - [51. Core独自保管・接続システムの実装境界](/design/51-Core%E7%8B%AC%E8%87%AA%E4%BF%9D%E7%AE%A1%E6%8E%A5%E7%B6%9A%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — α版からCore独自のThing保管・接続・入出庫システムを正規基盤とし、設備間を直接転送し、内容物の任意排出を提供する。
-- [52. バニラ優先Shion種族実装境界](/design/52-%E3%83%90%E3%83%8B%E3%83%A9%E5%84%AA%E5%85%88Shion%E7%A8%AE%E6%97%8F%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — Shion種族はHuman継承を維持し、Core所有の物理身体と公式DLCの公開機構で実装してHumanoid Alien Racesへ依存しない。
+- [52. バニラ優先Shion種族実装境界](/design/52-%E3%83%90%E3%83%8B%E3%83%A9%E5%84%AA%E5%85%88Shion%E7%A8%AE%E6%97%8F%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — Shion種族はHuman継承を維持し、Core所有の物理身体と公式DLCの公開機構で実装する。
 - [53. RimWorldログ・性能診断契約](/design/53-RimWorld%E3%83%AD%E3%82%B0%E3%83%BB%E6%80%A7%E8%83%BD%E8%A8%BA%E6%96%AD%E5%A5%91%E7%B4%84.md) — RimWorld 1.6の不具合ログ、クラッシュログ、Performance Analyzer測定を再現可能な証拠として取得し、Shion由来の負荷と既存エラーを分離する。
 - [内政台帳とNetwork Storageの統合境界](/design/54-%E5%86%85%E6%94%BF%E5%8F%B0%E5%B8%B3%E3%81%A8Network-Storage%E3%81%AE%E7%B5%B1%E5%90%88%E5%A2%83%E7%95%8C.md) — 内政管理、Core独自Network Storage、Kombinat生産を一つの需給台帳へ統合し、工場を在庫を持たない設備能力として実装する。
 - [Core・公式DLC量産カタログ境界](/design/55-Core%E5%85%AC%E5%BC%8FDLC%E9%87%8F%E7%94%A3%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0%E5%A2%83%E7%95%8C.md) — Coreと五つの公式DLCに属する反復可能な通常Recipeから、Kombinatの無人量産カタログをDef駆動で生成する。
@@ -38,24 +25,15 @@
 - [RIM OKFメタデータ契約](/governance/metadata-contract.md) — RIM概念ファイルのOKF 0.2標準メタデータと正本所有拡張の必須構造を定める。
 - [知識所有者マップ](/governance/ownership-map.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
 - [現行資料の正仕様記述](/governance/positive-specification-policy.md) — 履歴資料以外の文書は、採用済みの構造、状態、振る舞い、境界、失敗時結果、性能条件を正の仕様として記述する。
-- [1. 決定](/integrations/matter-network/01-%E6%B1%BA%E5%AE%9A.md) — Matter Networkは必須依存にせず、公開された安定APIが存在する場合だけ任意互換Adapterを検討する。
-- [2. 保護される上流領域](/integrations/matter-network/02-%E4%BF%9D%E8%AD%B7%E3%81%95%E3%82%8C%E3%82%8B%E4%B8%8A%E6%B5%81%E9%A0%98%E5%9F%9F.md) — Matter Networkの上流内部は、任意互換を検討する場合もCoreとKombinatの設計・Release Gate・欠陥修正対象から除外する。
-- [3. 上流由来の欠陥](/integrations/matter-network/03-%E4%B8%8A%E6%B5%81%E7%94%B1%E6%9D%A5%E3%81%AE%E6%AC%A0%E9%99%A5.md) — 任意互換Adapterの試験でMatter Network単体に再現する問題は、CoreまたはKombinatの欠陥に分類しない。
-- [4. Stasis](/integrations/matter-network/04-Stasis.md) — Matter NetworkのStasis挙動は上流固有の参考情報であり、Core独自システムへ自動継承しない。
-- [5. Kombinatが追加できる領域](/integrations/matter-network/05-Kombinat%E3%81%8C%E8%BF%BD%E5%8A%A0%E3%81%A7%E3%81%8D%E3%82%8B%E9%A0%98%E5%9F%9F.md) — KombinatはCore独自保管システムの外側で発注・生産・通貨を所有し、Matter Network互換は任意Adapterへ隔離する。
-- [6. 配布と版](/integrations/matter-network/06-%E9%85%8D%E5%B8%83%E3%81%A8%E7%89%88.md) — Matter NetworkをCoreの必須依存や同梱物にせず、将来の任意互換Adapterだけを別配布する。
-- [7. 試験境界](/integrations/matter-network/07-%E8%A9%A6%E9%A8%93%E5%A2%83%E7%95%8C.md) — Matter Network関連試験は任意互換Adapterへ限定し、Core独自システムのRelease Gateから分離する。
-- [8. 文書優先](/integrations/matter-network/08-%E6%96%87%E6%9B%B8%E5%84%AA%E5%85%88.md) — 本書制定前の資料にある次の記述は廃止するという方針の適用範囲と条件を定める。
-- [0. 結論](/kombinat/audit/00-%E7%B5%90%E8%AB%96.md) — α版からCore独自保管基盤との受渡しを監査し、Matter Networkは任意互換Adapterの試験だけへ隔離する。
-- [1. 監査原則](/kombinat/audit/01-%E7%9B%A3%E6%9F%BB%E5%8E%9F%E5%89%87.md) — 監査原則は、Matter Network単体で再現する問題は終了する。
-- [3. 正常として受け入れる上流挙動](/kombinat/audit/03-%E6%AD%A3%E5%B8%B8%E3%81%A8%E3%81%97%E3%81%A6%E5%8F%97%E3%81%91%E5%85%A5%E3%82%8C%E3%82%8B%E4%B8%8A%E6%B5%81%E6%8C%99%E5%8B%95.md) — 次はKombinatの問題として登録しないという方針の適用範囲と条件を定める。
-- [4. シナリオ](/kombinat/audit/04-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — シナリオは、S2-001：一つの三段Job：実入力と実出力が一致するとS2-002：材料が上流にあるが搬入されない：IO待ち。
-- [5. 未知MOD](/kombinat/audit/05-%E6%9C%AA%E7%9F%A5MOD.md) — 未知MODのThingをMatter Networkがどう保管するかは上流責務である。
+- [0. 結論](/kombinat/audit/00-%E7%B5%90%E8%AB%96.md) — α版からCore独自保管基盤との予約・受渡し・確定を監査し、Kombinat固有状態の安全性を検証する。
+- [1. 監査原則](/kombinat/audit/01-%E7%9B%A3%E6%9F%BB%E5%8E%9F%E5%89%87.md) — 監査は所有者別に再現条件を分離し、Kombinatの複製・消失・二重処理・破壊的復旧をblockerとして扱う。
+- [4. シナリオ](/kombinat/audit/04-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — S2シナリオは三段生産、保存、取消、容量、停電、破壊、通貨、長期運用をCore Storageとの公開契約で検証する。
+- [5. 未知MOD](/kombinat/audit/05-%E6%9C%AA%E7%9F%A5MOD.md) — 未知MODのThingとRecipeはCore Storageの互換判定とKombinatのRecipe分類を通し、安全な公開契約だけへ接続する。
 - [6. 破壊的操作](/kombinat/audit/06-%E7%A0%B4%E5%A3%8A%E7%9A%84%E6%93%8D%E4%BD%9C.md) — 破壊的操作は、操作：Kombinatが守るものとRequest連打：Jobを二重生成しないを扱う。
-- [7. Release Gate](/kombinat/audit/07-Release-Gate.md) — α blockerはKX-001〜008とS2-001〜020のKombinat追加層部分である。
+- [7. Release Gate](/kombinat/audit/07-Release-Gate.md) — α blockerはKX-001〜008とS2-001〜018のKombinat追加層部分である。
 - [KX-001 入力二重予約](/kombinat/audit/kx-001.md) — 再現: 入力予約直後に保存し、ロード後に同じOperation IDが再送される。
 - [KX-002 引渡し後の二重所有](/kombinat/audit/kx-002.md) — 再現: Storage生産Commitの直後に例外が起き、同じOperation IDが再送される。
-- [KX-003 Network在庫の過剰約束](/kombinat/audit/kx-003.md) — 再現: PlannerがMatter Network画面の数量を見積りに使い、実際のBuffer搬入前に二Jobへ同じ材料を約束する。
+- [KX-003 Network在庫の過剰約束](/kombinat/audit/kx-003.md) — 再現: Plannerが表示在庫を予約確定前に利用可能量へ算入し、二Jobへ同じ材料を約束する。
 - [KX-004 出力容量予約不能](/kombinat/audit/kx-004.md) — 再現: 納入先Storageに全出力を置ける容量がない状態で次Batchを開始する。
 - [KX-005 取消競合](/kombinat/audit/kx-005.md) — 再現: Playerが取消、再注文、優先度変更を連打し、同時にIOが材料を搬入する。
 - [KX-006 Recipe副作用](/kombinat/audit/kx-006.md) — 再現: 外部Recipeを無人Factoryへ自動登録する。
@@ -63,16 +41,16 @@
 - [KX-008 初期化二重適用](/kombinat/audit/kx-008.md) — 再現: 独立開拓団開始中に例外または途中ロードを起こす。
 - [0. 結論](/kombinat/core/00-%E7%B5%90%E8%AB%96.md) — Kombinatは発注、設備能力、生産進捗、消費表示、流通目標、同盟通貨を所有し、物理ThingをCore Storageへ一元化する。
 - [1. 製品境界](/kombinat/core/01-%E8%A3%BD%E5%93%81%E5%A2%83%E7%95%8C.md) — Kombinatはα版からCore独自保管・接続システムの公開入出庫境界へ接続し、保管内部を所有しない。
-- [2. 状態分類](/kombinat/core/02-%E7%8A%B6%E6%85%8B%E5%88%86%E9%A1%9E.md) — 状態分類は、対象：状態とAhHanie/Matter-Network：外部で実装済みの必須依存。
+- [2. 実装状態の参照](/kombinat/core/02-%E7%8A%B6%E6%85%8B%E5%88%86%E9%A1%9E.md) — Kombinatの実装状態はリリース計画の現在地が所有し、本節は中核仕様からその正本を参照する。
 - [3. 物理Thingと通貨](/kombinat/core/03-%E7%89%A9%E7%90%86Thing%E3%81%A8%E9%80%9A%E8%B2%A8.md) — 物理材料、工業資源、食料、薬品、武器、防具、固有品は実在するRimWorld ThingDef／Thingである。
 - [4. Kombinat追加層の中核型](/kombinat/core/04-Kombinat%E8%BF%BD%E5%8A%A0%E5%B1%A4%E3%81%AE%E4%B8%AD%E6%A0%B8%E5%9E%8B.md) — KombinatはCore独自保管・接続システムに属する保管基盤型を再実装しない。
 - [5. 発注と多段生産](/kombinat/core/05-%E7%99%BA%E6%B3%A8%E3%81%A8%E5%A4%9A%E6%AE%B5%E7%94%9F%E7%94%A3.md) — αの発注は具体的なThingDef、Recipe、数量または目標在庫を基本とする。
 - [6. 無人生産](/kombinat/core/06-%E7%84%A1%E4%BA%BA%E7%94%9F%E7%94%A3.md) — Kombinat専用FactoryとKombinat専用Patternは、Pawnがいなくても電力、材料、設備状態を満たせば稼働できる。
-- [7. Stasis](/kombinat/core/07-Stasis.md) — Core独自基盤は保管中の時間進行方針を自ら所有し、Matter NetworkのStasisを自動継承しない。
+- [7. 保管中の時間進行](/kombinat/core/07-Stasis.md) — 保管中の時間進行方針はCore独自Storageが対象別に所有し、Kombinatはその判定を維持する。
 - [8. 消費と流通](/kombinat/core/08-%E6%B6%88%E8%B2%BB%E3%81%A8%E6%B5%81%E9%80%9A.md) — Kombinatは接続先保管基盤の内部消費を無断で監視せず、公開された観測境界だけを使う。
 - [9. UI](/kombinat/core/09-UI.md) — Field Ledger Terminalを選択して全機能へ入る暗色のRimWorld管理Windowを基準とし、通常表示と最大化表示を同じDef駆動Page railで提供する。
 - [10. 保存と原子性](/kombinat/core/10-%E4%BF%9D%E5%AD%98%E3%81%A8%E5%8E%9F%E5%AD%90%E6%80%A7.md) — Kombinatは次だけを保存するという方針の適用範囲と条件を定める。
-- [11. 上流欠陥の扱い](/kombinat/core/11-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E3%81%AE%E6%89%B1%E3%81%84.md) — Matter Networkは必須経路にせず、将来の任意Adapterでだけ上流欠陥を分離する。
+- [11. 欠陥の所有と切り分け](/kombinat/core/11-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E3%81%AE%E6%89%B1%E3%81%84.md) — Core StorageとKombinatの欠陥は再現条件と取引所有者から切り分け、各所有者のRelease Gateへ登録する。
 - [12. α完成条件](/kombinat/core/12-%CE%B1%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Kombinat αはShion種族実装に先行し、バニラHumanのfixtureでThingOwner間の直接転送、三段生産、任意排出を成立させる。
 - [13. β](/kombinat/core/13-%CE%B2.md) — Equipment Familyは作者が明示登録した候補だけを使う。
 - [14. 実装順](/kombinat/core/14-%E5%AE%9F%E8%A3%85%E9%A0%86.md) — 工業UIのRimWorld 1.6画面契約を先に固定し、Shion種族に先行してCore独自保管・接続システムとKombinatをバニラHumanのfixtureで完成させる。
@@ -84,3 +62,25 @@
 - [E. 取消](/kombinat/requirements/048-E-%E5%8F%96%E6%B6%88.md) — 開始前、入力受領後、処理中、出力待ちの各段階で取消規則を確認する。
 - [F. 保存往復](/kombinat/requirements/049-F-%E4%BF%9D%E5%AD%98%E5%BE%80%E5%BE%A9.md) — 全Job状態と通貨Transaction途中で保存・ロードし、二重実行しない。
 - [G. 保管基盤不在](/kombinat/requirements/050-G-%E4%B8%8A%E6%B5%81%E4%B8%8D%E5%9C%A8.md) — Core独自保管基盤が欠落または不整合なら生産接続を停止し、保存状態を破壊的に初期化しない。
+- [H. 保管基盤欠陥分離](/kombinat/requirements/051-H-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E5%88%86%E9%9B%A2.md) — Core独自保管基盤単体の問題とKombinat接続の問題を再現条件で分離する。
+- [I. 保管中の時間進行](/kombinat/requirements/052-I-Stasis.md) — Core独自Storageが定めた対象別時間進行方針を、Kombinatが上書きしない。
+- [J. 通貨](/kombinat/requirements/053-J-%E9%80%9A%E8%B2%A8.md) — 初期残高、支払、返金、連打、保存往復で残高差分が一致する。
+- [12. α Release Gate](/kombinat/requirements/12-%CE%B1-Release-Gate.md) — α版はCore独自保管基盤との直接受渡し、三段生産、任意排出、保存・復旧をRelease Gateへ含める。
+- [13. β境界](/kombinat/requirements/13-%CE%B2%E5%A2%83%E7%95%8C.md) — β境界は、Pawn Foundry要求とEquipment Familyを扱う。
+- [CON-001 観測範囲](/kombinat/requirements/con-001.md) — MUST: Kombinat自身のBuffer、Factory、Core API、正式な上流APIから得たeventだけを消費集計へ使う。
+- [CON-002 不明表示](/kombinat/requirements/con-002.md) — MUST: Core Storageの公開eventで観測できない消費範囲を不明として明示する。
+- [CON-003 流通目標](/kombinat/requirements/con-003.md) — MUST: Storage在庫とFacility需要について最低量、目標量、優先度を設定できる。
+- [CON-004 上流設定](/kombinat/requirements/con-004.md) — MUST: Core StorageのFilter、容量、Endpoint設定はCoreの公開契約で所有する。
+- [CUR-001 Account](/kombinat/requirements/cur-001.md) — MUST: 同盟通貨を物理Thing在庫と分離した64 bit整数残高として保存する。
+- [CUR-002 Transaction](/kombinat/requirements/cur-002.md) — MUST: 入金、支払、返金、取消はidempotency keyを持ち、全部成功または全部失敗する。
+- [CUR-003 Recipe禁止](/kombinat/requirements/cur-003.md) — MUST: 通貨を通常工業Recipeで発行しない。
+- [CUR-004 初期化](/kombinat/requirements/cur-004.md) — MUST: 独立開拓団開始時に一回だけProfile残高を適用し、途中失敗で部分残高を残さない。
+- [CUR-005 所在](/kombinat/requirements/cur-005.md) — PENDING: αのAccount scope、複数Mapからの利用、Map wealthへの算入方法は実装前に確定する。
+- [INT-001 無改造](/kombinat/requirements/int-001.md) — MUST: KombinatはCore独自保管基盤のprivate状態を変更または参照せず、公開Application境界だけを使う。
+- [INT-002 通常経路](/kombinat/requirements/int-002.md) — MUST: 物理Thingの受渡しにはCore独自基盤が公開する予約・commit・release契約だけを使う。
+- [INT-003 Storage予約](/kombinat/requirements/int-003.md) — MUST: Kombinatが工程へ算入できるのは、Core StorageがThing IDと数量で予約した入力だけである。
+- [INT-004 引渡し](/kombinat/requirements/int-004.md) — MUST: 生産出力はCore Storageへ直接生成し、Kombinat側の所有Thingを作らない。
+- [INT-005 接続不能](/kombinat/requirements/int-005.md) — MUST: Core独自Storageから供給または回収できない場合、Jobを転送待ちへ置く。
+- [INT-006 上流欠陥](/kombinat/requirements/int-006.md) — MUST: Core独自保管基盤単体で再現する問題と、Kombinat接続だけで再現する問題を分離する。
+- [PERF-001 Event駆動](/kombinat/requirements/perf-001.md) — MUST: Queue、Factory、Buffer、Accountの変化をeventで処理し、定常処理を索引と有界Queueから実行する。
+- [PERF-002 Planner](/kombinat/requirements/perf-002.md) — MUST: 一Planを最大200 node、100 ms以内、または一frame 4 ms以下の分割処理で終える暫定目標を持つ。

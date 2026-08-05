@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C191"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 非常令区修理会
 - Era: LongTransition / Origin: 社会民主党系 / Relation: 制度監視団
 
-- Tone: 政治・警戒・形成 / ReviewStatus: 採用済み
+- Tone: 政治・警戒・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 警戒心の強い修理好き / 冗談の消失を兆候と見る / 安全確認は几帳面 / 料理当番を避ける
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 非常令が出た時、最初に禁止されたのは武器ではなく、修理票の余白に書く冗談でした。私は同好会で古道具を直し、持ち主の傷を残し、照準具だけは安全を何度も確かめた。料理当番は逃げましたよ。制度が例外を増やすたび、手順書は長くなるのに、誰にでも読める説明は減っていった。私は逆に平易な写しを配りました。平穏が壊れる音は大きな宣言とは限りません。皆が笑わなくなり、古い品を理由なく捨て始める。その小さな変化を見逃さないことが、私の警戒です。
 

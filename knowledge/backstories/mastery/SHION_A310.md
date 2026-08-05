@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A310"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 造成測量手
 - Era: ColonizationEra / Origin: 建設隊 / Relation: 造成班
 
-- Tone: 開拓・測量・基礎 / ReviewStatus: 採用済み
+- Tone: 開拓・測量・基礎 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 感情を交えず手順だけを語る技術者。数字と方角で記憶を組み立てる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 測量の手順は毎回同じだった。まず基準杭を三点打ち、次に水準器で高低差を測り、最後に土質を掘り返して沈下の癖を見る。私が担当したのは造成班の外周区画で、風下側は必ず一段高く盛った。理由は簡単で、砂嵐が来ると風下に土が溜まり、放っておくと排水路が埋まるからだ。杭の間隔は十歩、これは誰が決めたものでもなく、私が最初の年に失敗して縮めた数字だ。今も同じ十歩で杭を打つ班がある。
 

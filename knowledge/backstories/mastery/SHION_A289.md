@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A289"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 文化区坑道監督
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 福祉・選択・職歴 / ReviewStatus: 採用済み
+- Tone: 福祉・選択・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 皮肉屋の坑道監督。快適さを拒む自由を、傾いた椅子と逃げ道で守る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 孵育文化区の地下通路は、最も快適な経路へ統一する計画だった。私は地層の亀裂と作業員の希望を調べ、遠回りの道も一本残したよ。友は支給された完璧な椅子を嫌い、自分で作った傾いた椅子を坑道休憩所へ置いた。制度は危険だと撤去を求めたが、補強だけして形を残した。旧帝国の安定と律法を懐かしく思うことはある。それでも、選ばなかった幸福を受け取れと命じる社会は超えたい。少し不便な椅子と遠回りの道を自分で選べることも、豊かな暮らしの一部だからね。
 

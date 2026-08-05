@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A195"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 維持区種子管理
 - Era: LongTransition / Origin: 無党派 / Relation: 維持共同体
 
-- Tone: 設備・孤立・職歴 / ReviewStatus: 採用済み
+- Tone: 設備・孤立・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 競技好きで社交的。自動化を否定せず、手作業の楽しさを熱弁する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 地下区画では発芽まで自動設備へ任せるのが普通だった。それでは退屈だから、私は手作業だけで苗を育てる大会を始めた。勝敗は速さではなく、来歴の記録と、隣の班へ種を分けた数で決めたよ。設備が本当に止まった時、その遊びが役に立った。皆で水を運び、扉を叩いて連絡し、暗い通路で育苗床をつないだ。機械の音が消えると、肉声は驚くほど遠くまで届く。私は自動化を嫌ってはいない。ただ、止まった時に誰の顔を見ればよいか知っていたいんだ。大会の優勝札より、皆で食べた最初の芽の方を覚えている。
 

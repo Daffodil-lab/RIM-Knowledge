@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A226"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 予測院射撃教官役
 - Era: ModernUnion / Origin: 無党派 / Relation: 評議会研究院
 
-- Tone: 研究・長期計画・職歴 / ReviewStatus: 採用済み
+- Tone: 研究・長期計画・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 先を読むが運命論を嫌う教官。予測外の友情を嬉しそうに語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 長期予測院では、遠い未来の危機まで表に載せられた。私は射撃教官として、数字の端にいる目の前の一人を消さないよう言い続けたよ。潜入任務では民間区画を避け、設備だけを止める射線を何季も練習した。予測では失敗率が高かったが、現地の二人が訓練外で友人になり、互いの癖を読んで成功させた。研究員は新しい変数と呼んだ。私は友情だと言い張った。未来を読む技術は必要だが、未来が決まっていると信じるためではない。予測から外れた者を責めず、その余白へ救いを作るために使いたいんだ。
 

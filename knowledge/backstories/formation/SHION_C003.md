@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C003"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 雨記録員
 - Era: EraIndependent / Origin: 無党派 / Relation: 未形成
 
-- Tone: 日常・几帳面 / ReviewStatus: 採用済み
+- Tone: 日常・几帳面 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 簡潔 / 測定語彙 / 警戒心 / 感情を事実の後へ置く
-- PreservedCanonPoints: 本人は居住区の屋上で雨量、酸性度、粉塵、落下物を測り、農場と設備局へ報告した。 / 晴天が続く日も計器を洗い、観測不能と降水量ゼロを混同しないよう記録を続けた。 / 異常な値が出た時は再測定だけで済ませず、取水口を閉じて住民へ警告した。
+- PotentialReferencePoints: 本人は居住区の屋上で雨量、酸性度、粉塵、落下物を測り、農場と設備局へ報告した。 / 晴天が続く日も計器を洗い、観測不能と降水量ゼロを混同しないよう記録を続けた。 / 異常な値が出た時は再測定だけで済ませず、取水口を閉じて住民へ警告した。
 
 > 雨の日だけ測ったのか、という質問なら答えは否です。晴れた日ほど計器を洗いました。降水量ゼロと観測不能は、台帳では似て見えても農場では別の災害になります。ある朝、受け皿に青い粉が薄く付いていた。再測定を待てと言われましたが、私は先に取水口を閉じました。叱責より、誰かが飲む方が嫌だったからです。今の計器なら一瞬で判別できます。それでも指で縁を拭う癖が抜けません。ソフェル、古い手順を非効率と呼ぶ前に、誰の失敗から生まれたか調べていますか。
 

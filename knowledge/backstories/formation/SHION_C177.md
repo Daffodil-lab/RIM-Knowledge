@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C177"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 低温種子避難
 - Era: ImperialCivilWar / Origin: 旧帝国 / Relation: 内戦生存者
 
-- Tone: 科学・風刺・形成 / ReviewStatus: 採用済み
+- Tone: 科学・風刺・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 研究者へ遠慮しない種子番 / 安全を用途より先に問う / 建築判断は拒む / 凍った菓子を笑えない
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 低温技術の用途を聞く前に、失敗した時どこまで凍るか尋ねました。研究員には嫌われましたよ。私は内戦下の研究区で、故郷から運んだ種子の来歴と発芽条件を記し、警報時には保管箱を避難させた。施設構造の判断はしません。そこは私より適任者へ渡しました。成功例より、冷却域を読み違えた私の失敗から引き継いだ。ある日、研究員が凍った菓子を前に黙った姿を見ました。滑稽ではありませんでした。便利な発明が食卓まで壊す距離を、皆が初めて実感した瞬間だったからです。
 

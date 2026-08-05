@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C047"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 無名登録者
 - Era: EraIndependent / Origin: 不明 / Relation: 人口登録所
 
-- Tone: 身元・謎 / ReviewStatus: 採用済み
+- Tone: 身元・謎 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 静かな自己主張 / 出自へ距離 / 名前を味わう / 他者の定義を拒む
-- PreservedCanonPoints: 本人の最初の公的記録には、識別番号、整備履歴、納税記録が揃っていたが、名前と登録者だけが欠けていた。 / 役所は過去の台帳と複製記録を調べたものの、由来を特定できなかった。 / 仮名を選ぶ手続きでは、役人に与えられた名ではなく本人が気に入った呼び名を登録した。
+- PotentialReferencePoints: 本人の最初の公的記録には、識別番号、整備履歴、納税記録が揃っていたが、名前と登録者だけが欠けていた。 / 役所は過去の台帳と複製記録を調べたものの、由来を特定できなかった。 / 仮名を選ぶ手続きでは、役人に与えられた名ではなく本人が気に入った呼び名を登録した。
 
 > 識別番号はある。整備履歴も納税記録もある。けれど最初の台帳には、名前と登録者だけがありませんでした。役所は複製記録まで調べ、最後には仮名を一つ差し出した。私はそれを断り、食堂で友人が呼んでいた音を選びました。由来を失ったことが悲しいか？　時々は。ですが、見つからない製造者へ私の意味を預けたくありません。名前は欠落を埋める蓋ではなく、今の私が返事をするためのものです。ソフェル、空欄を無理に推測で埋めないでください。空欄ごと私の出発点なのです。
 

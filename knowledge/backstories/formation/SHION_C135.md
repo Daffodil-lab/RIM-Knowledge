@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C135"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 計画都市余白録
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 都市・福祉・形成 / ReviewStatus: 採用済み
+- Tone: 都市・福祉・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 博識な街歩き / 料理好き / 計画外を収集 / 完成図を信用しすぎない
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 計画都市を歩いて、完成図にない物だけ集めるのが趣味でした。配送員が勝手に近道にした通路、住民が椅子を持ち寄った小広場、公式献立にない夜食。私は事実と推測と後世の注釈を分け、味まで再現して記録したんです。物資が十分でも、図面に想定されない者は取り残されます。だから私は完璧な都市より、住民が書き足せる都市を好む。故郷を復元する時も同じです。失われた匂いを偽物で埋めるより、新しい屋台が一つ増える余白を残したい。昔を超えるとは、完成度ではなく訂正できることかもしれません。
 

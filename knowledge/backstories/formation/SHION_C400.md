@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C400"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 灯台見習
 - Era: ColonizationEra / Origin: 灯台守備隊 / Relation: 育ての先達
 
-- Tone: 静謐・回想・安堵 / ReviewStatus: 採用済み
+- Tone: 静謐・回想・安堵 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 落ち着いた口調で出来事を時系列を遡るように語り、平易な言葉に感情を淡く滲ませる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 今の私は暗闇でも灯りの点滅の間隔だけで距離を測れます。それができるようになったのは、船が座礁しかけた夜、育ての先達と二人で信号灯を必死に振ったからです。その前は、ただ灯台の階段を毎晩上り下りして油を運ぶだけの仕事でした。もっと前は、育ての先達の膝の上で灯台の光の色を数えながら休んでいました。順番に思い出すと、あの一晩がすべての意味を変えたんだと分かります。灯りが届いた時の育ての先達の安堵の顔は忘れられません。
 

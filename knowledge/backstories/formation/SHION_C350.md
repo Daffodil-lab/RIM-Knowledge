@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C350"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 師の言葉
 - Era: JourneyEra / Origin: 巡回説教随伴 / Relation: 巡回説教団
 
-- Tone: 継承・師弟・巡回 / ReviewStatus: 採用済み
+- Tone: 継承・師弟・巡回 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 控えめで、自分の言葉より他者の言葉を重んじる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 私自身の言葉より、師の言葉を借りて話す方が正確だと思います。師は巡回説教団を率いていた人で、私はその随伴として各区画を回りました。師はよく「律法とはまだ濡れた粘土だ、固まる前に触った者の指の跡が残る」と言っていました。私が子供の頃、乾いた食料を分け合う際の順番を巡って揉め事があり、師はその粘土の言葉で場を収めました。師はもういませんが、揉め事のたびに私はあの指の跡という比喩を思い出します。粘土はもう固まりましたが、跡は確かに残っています。
 

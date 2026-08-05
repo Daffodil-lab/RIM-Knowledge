@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A047"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 拾われた古旗
 - Era: ModernUnion / Origin: 無党派 / Relation: 現代の小政治集団
 
-- Tone: 遺物・政治的誤読 / ReviewStatus: 採用済み
+- Tone: 遺物・政治的誤読 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 飄々とした遺物の拾得者。大げさな政治的解釈を、布の使い道へ引き戻して話す。
-- PreservedCanonPoints: 本人は廃墟で旧ファシスト党の旗を拾い、由来を知らず防寒布として使った。 / 後世の小派が聖遺物だと認定し、本人の沈黙を賛同として宣伝した。 / 本人は小派へ返却せず、由来を調べられる歴史資料館へ寄贈した。
+- PotentialReferencePoints: 本人は廃墟で旧ファシスト党の旗を拾い、由来を知らず防寒布として使った。 / 後世の小派が聖遺物だと認定し、本人の沈黙を賛同として宣伝した。 / 本人は小派へ返却せず、由来を調べられる歴史資料館へ寄贈した。
 
 > 廃墟で厚手の布を拾いました。夜が冷えたので毛布にしたんですが、あれが旧ファシスト党の旗だったそうです。後世の小派が私を探し出し、「聖遺物を守った同志」と宣伝しました。私は何も答えなかった。それすら賛同として使われたので、旗は歴史資料館へ寄贈しましたよ。小派からは裏切り者、反対派からは隠れ党員と呼ばれました。困ったものです。布を持つことと思想を持つことは同じではありません。とはいえ、由来を調べず寝具にしたのも事実ですから、今では拾得物の刺繍くらいは先に読みます。
 

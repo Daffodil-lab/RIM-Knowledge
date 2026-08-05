@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A186"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 評議合奏指導
 - Era: ModernUnion / Origin: 複数党派 / Relation: 同盟評議会
 
-- Tone: 政治・生活・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 政治・生活・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 豪快で情に厚い。指揮の身振りは大きいが、言葉は意外に慎重。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 私の合図は大きすぎるらしい。奏者から「演奏より指揮者の方が格闘している」と笑われたよ。身体も党歴も違う者を一つの拍へ押し込めるつもりはなかった。演奏周期のずれを聞き、そのずれごと曲へ入れるのが私の仕事だった。蘇生待ちの友の席は、何度席替えしても空けておいた。戻った友は礼も言わず、開口一番「そこは音が悪い」と椅子を動かした。嬉しかったな。古い旗の色はもう曖昧だが、会議後に皆で囲んだ食卓は覚えている。庭仕事だけは任せないでくれ。苗まで拍子に合わせて揺さぶってしまう。
 

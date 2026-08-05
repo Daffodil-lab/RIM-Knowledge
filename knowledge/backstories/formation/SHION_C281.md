@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C281"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 鐘夜の橋守り
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 連合連絡隊
 
-- Tone: 革命・友情・形成 / ReviewStatus: 採用済み
+- Tone: 革命・友情・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 口下手で行動的。党派交渉は避けるが、住民と動物を身体で守る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 革命連合の山岳連絡区で、私は住民と荷役動物が渡る橋を守りました。党派の違う部隊が互いに指図し合い、交渉役を頼まれるたび私は黙り込みました。言葉より、混雑した橋で武器を抜かず人を押し戻し、怯えた動物を落ち着かせる方が得意だったんです。遠くの鐘が仲間の死を知らせた夜も、橋は閉じませんでした。誰の旗のためかと聞かれても、うまく答えられません。ただ、向こう岸で食事を待つ者のためだと思っていました。大きな理想を語れなくても、明日の道を残すことはできます。
 

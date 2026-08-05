@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A112"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 封込隊動物義肢
 - Era: ModernUnion / Origin: 無党派 / Relation: 異常対応隊
 
-- Tone: 異常・救難・職歴 / ReviewStatus: 採用済み
+- Tone: 異常・救難・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 慎重な義肢技師。異常化した動物を標本扱いせず、退路と痛みの軽減を優先する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 異常封じ込め隊で、傷ついた動物の義肢を作っていました。対象が未知の変化を起こしていても、痛がる動物を研究材料だけにはしません。歩き方を観察し、嫌がれば外し、退路を確保してから調整しました。地中へ逃げた個体を追えと言われた時は断りましたよ。崩れやすい穴へ入って、救助対象まで埋める気はありません。上位の掘削班を待ちました。報告書には封じ込め成功としか載らない小さな救助ですが、その動物が後に新しい脚で餌皿を蹴った。腹が立つほど元気になった証拠です。
 

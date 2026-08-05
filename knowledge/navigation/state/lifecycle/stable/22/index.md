@@ -1,18 +1,9 @@
 # stable 22
 
-範囲: 3. Delayed or opaque feedback〜33. 代表工業資源
+範囲: 12. Final lesson〜42. 帝国系と同盟系の製品系列（仮称）
 
 ## 項目
 
-- [3. Delayed or opaque feedback](/research/monolyn-ui/03-Delayed-or-opaque-feedback.md) — Reported issue、具体的にはA player can interact with the Tower and receive a vague message like something has happened, but see no immediate…。
-- [4. Icon and description ambiguity](/research/monolyn-ui/04-Icon-and-description-ambiguity.md) — Reported issue、具体的にはGuardian Flare and Radiant Flare appear to have identical or near-identical descriptions.とDeveloper clarifies their…。
-- [5. Research tab stability](/research/monolyn-ui/05-Research-tab-stability.md) — Reported issue、具体的にはClicking a dedicated research tab such as Shinsung Engineering can cause the description area to disappear, though…。
-- [6. Other compatibility and implementation issues](/research/monolyn-ui/06-Other-compatibility-and-implementation-issues.md) — Reported examples、具体的にはHats Display Selection conflict can make hat-wearing pawns invisible under roofs and cause lag; disabling a…。
-- [7. UI/system strengths to learn from](/research/monolyn-ui/07-UI-system-strengths-to-learn-from.md) — Monolyn strengths reported by players/review、具体的にはstrong faction identity;とTower-centered operation;を扱う。
-- [8. UI/system failures to avoid](/research/monolyn-ui/08-UI-system-failures-to-avoid.md) — Avoid in Shion Nexus alpha、具体的にはcentral actions with delayed invisible outcomes;とprogress that says inactive while active;を扱う。
-- [9. Alpha impact](/research/monolyn-ui/09-Alpha-impact.md) — This reference reinforces current Alpha 0.1 rules.。
-- [10. Shion Nexus UI checklist](/research/monolyn-ui/10-Shion-Nexus-UI-checklist.md) — Before Alpha 0.1 release, confirm、具体的にはCore Inspect explains alive/damaged/destroyed state.とLedger Inspect shows CVE, capacity, shells,…。
-- [11. Performance cautions](/research/monolyn-ui/11-Performance-cautions.md) — UI and feedback systems must not introduce hidden cost.。
 - [12. Final lesson](/research/monolyn-ui/12-Final-lesson.md) — Monolyn's system design is strong because its Tower, Light, Codex, implants, buildings, and terminals form a coherent identity.。
 - [13. Source links recorded by user](/research/monolyn-ui/13-Source-links-recorded-by-user.md) — Source links recorded by userは、NamuWiki Monolyn page:…。
 - [Open Knowledge Format 0.2 日本語規範解説](/research/okf/00-Open-Knowledge-Format-v0.2-%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A7%A3%E8%AA%AC.md) — 公式Open Knowledge Format 0.2の必須構造、出典、検証、鮮度、実行証明とRIM拡張の関係を日本語で確認できる参照資料。
@@ -38,9 +29,9 @@
 - [8. 文章サンプル](/research/theme-overhaul/08-%E6%96%87%E7%AB%A0%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB.md) — 食事も仕事も身体も選べる、狐型機械人シオンの開拓団。
 - [9. 実施順序](/research/theme-overhaul/09-%E5%AE%9F%E6%96%BD%E9%A0%86%E5%BA%8F.md) — 実施順序は、統合資料§1、§7.2、§11.1を中心命題に合わせて改稿する。
 - [10. 合否判定](/research/theme-overhaul/10-%E5%90%88%E5%90%A6%E5%88%A4%E5%AE%9A.md) — 新しい設定・文章・機能は、次の順で判定するという方針の適用範囲と条件を定める。
-- [0. 結論](/roadmap/00-%E7%B5%90%E8%AB%96.md) — 工業基盤を内部完成させてからShion種族を統合し、MVP／Foundationを独立した製品段階として出荷しない。
+- [0. 結論](/roadmap/00-%E7%B5%90%E8%AB%96.md) — Coreは工業基盤を内部完成させてからShion種族を統合し、α、β、1.0の三段階で公開する。
 - [1. 権威と変更規則](/roadmap/01-%E6%A8%A9%E5%A8%81%E3%81%A8%E5%A4%89%E6%9B%B4%E8%A6%8F%E5%89%87.md) — 本書は、何を世界内の事実とするかではなく、どの段階で何を完成させるかを定める。
-- [2. 既知コードと再利用の方針](/roadmap/02-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A8%E5%86%8D%E5%88%A9%E7%94%A8%E3%81%AE%E6%96%B9%E9%87%9D.md) — 既知コードの再利用率を目標にしない、また既存コード、旧リポジトリ、抽出記録は参考資料であり、最終設計を拘束する正本ではない。
+- [2. 既知コードと再利用の方針](/roadmap/02-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A8%E5%86%8D%E5%88%A9%E7%94%A8%E3%81%AE%E6%96%B9%E9%87%9D.md) — コード再利用は現行責務、保存、試験、性能、依存方向、ライセンス、保守性を満たす単位だけに限定する。
 - [3. 1.0の最終完成像](/roadmap/03-1-0%E3%81%AE%E6%9C%80%E7%B5%82%E5%AE%8C%E6%88%90%E5%83%8F.md) — 最終的なCoreは、少なくとも次を一つの製品として成立させる。
 - [4. α版 — 最初の公開候補](/roadmap/04-%CE%B1%E7%89%88-%E2%80%94-%E6%9C%80%E5%88%9D%E3%81%AE%E5%85%AC%E9%96%8B%E5%80%99%E8%A3%9C.md) — α版は、内部完成した工業基盤へShion種族、図像、独立開始を最後に統合する最初の公開候補である。
 - [5. β版](/roadmap/05-%CE%B2%E7%89%88.md) — β版は、α版に含めなかったコアMODとレッドスターの要素を追加し、両製品を完成へ到達させる期間である。
@@ -84,3 +75,12 @@
 - [31. 全てはまだ始まったばかり](/world/31-%E5%85%A8%E3%81%A6%E3%81%AF%E3%81%BE%E3%81%A0%E5%A7%8B%E3%81%BE%E3%81%A3%E3%81%9F%E3%81%B0%E3%81%8B%E3%82%8A.md) — シオンにとって人類統一は歴史の終着点ではなく、その先に続く未知の時代へ入るための一段階にすぎない。
 - [32. 勲章と顕彰](/world/32-%E5%8B%B2%E7%AB%A0%E3%81%A8%E9%A1%95%E5%BD%B0.md) — 帝国と同盟には功績や奉仕を記憶する勲章文化があるが、勲章は身分、能力、政治権限を自動的に付与する装置ではない。
 - [33. 代表工業資源](/world/33-%E4%BB%A3%E8%A1%A8%E5%B7%A5%E6%A5%AD%E8%B3%87%E6%BA%90.md) — Coreで反復して扱う五つの代表工業資源は、Cell、エネルギー結晶、構造材、保守資材、弾薬結晶である。
+- [34. Cell](/world/34-Cell.md) — Cellは、帝国から継承された自己増殖可能な工業媒体であり、物質、身体、設備を構成・変更する基盤の一つである。
+- [35. 凝縮真空](/world/35-%E5%87%9D%E7%B8%AE%E7%9C%9F%E7%A9%BA.md) — 凝縮真空（CVE）は、エネルギー分野に属する同盟時代の既存技術または形態である。
+- [36. 構造材](/world/36-%E6%A7%8B%E9%80%A0%E6%9D%90.md) — 構造材は、建築、設備、基礎的な製造へ用いる、規格化された物理材料である。
+- [37. 保守資材](/world/37-%E4%BF%9D%E5%AE%88%E8%B3%87%E6%9D%90.md) — 保守資材は、設備、身体、装備の保守と修理へ投入する物理的な資材である。
+- [38. 弾薬結晶](/world/38-%E5%BC%BE%E8%96%AC%E7%B5%90%E6%99%B6.md) — 弾薬結晶は、その場で弾薬を製造するための物理資源であり、シオン装備体系の全遠距離武器が必要とする。
+- [39. 同盟通貨](/world/39-%E5%90%8C%E7%9B%9F%E9%80%9A%E8%B2%A8.md) — 同盟通貨は、共同体が保有、移転、支出できる金融上の残高であり、物理工業資源、名声、忠誠、人格権ではない。
+- [40. エネルギー（仮称）](/world/40-%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC.md) — エネルギー（仮称）は、設備と身体を動かす力の発生、供給、蓄積、輸送をまとめて扱う上位ジャンルである。
+- [41. エネルギー結晶（仮称）](/world/41-%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC%E7%B5%90%E6%99%B6.md) — エネルギー結晶（仮称）は、エネルギーそのものを輸送・備蓄し、常設供給へ接続できない場所で身体や装備を稼働させる物理資源である。
+- [42. 帝国系と同盟系の製品系列（仮称）](/world/42-%E5%B8%9D%E5%9B%BD%E7%B3%BB%E3%81%A8%E5%90%8C%E7%9B%9F%E7%B3%BB%E3%81%AE%E8%A3%BD%E5%93%81%E7%B3%BB%E5%88%97.md) — 同盟で使われる多くの製品は、高性能だが高価で手加工を要する帝国系と、安価で品質が安定し量産・堅牢性に優れる同盟系へ大別される。

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A211"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 調査船救護医
 - Era: EraIndependent / Origin: 無党派 / Relation: 調査船団
 
-- Tone: 宇宙・観測・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 宇宙・観測・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 観察に徹する船医。未知へ意味を与えず、人の身体だけは迷わず診る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 無人構造物へ入った時、皆が作り手の目的を知りたがった。私は答えを作らず、動いた壁と温度の変化だけを書いた。船医としては、外部居住者の呼吸、シオンの出力応答、避難路の傾きに集中したよ。構造が私たちを歓迎したのか排除したのか、最後まで分からなかった。生き物を扱う調査は他の者へ任せた。私は予測不能な動物より、沈黙した機械と傷病者の方が落ち着いて診られる。巨大な構造物は何も答えず航路を去った。帰還後、空席のある食卓で皆が勝手な意味を語ったが、私は分からないまま見送れたことを大切にしている。
 

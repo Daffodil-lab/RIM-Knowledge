@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C048"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 二つ目の影
 - Era: EraIndependent / Origin: 不明 / Relation: 採掘居住区
 
-- Tone: 鉱山・不可解 / ReviewStatus: 採用済み
+- Tone: 鉱山・不可解 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 不穏で慎重 / 断定を避ける / 異常を受け入れる / 仲間を守った記憶へ固執
-- PreservedCanonPoints: 採掘灯が一つしかない場所でも、本人には二つの影が見えることがあった。 / 片方は光源と合わない方向へ伸び、本人よりわずかに早く曲がるように見えた。 / 最初の崩落でその影が退路側へ動いたため、本人は仲間を連れて後を追い難を逃れた。
+- PotentialReferencePoints: 採掘灯が一つしかない場所でも、本人には二つの影が見えることがあった。 / 片方は光源と合わない方向へ伸び、本人よりわずかに早く曲がるように見えた。 / 最初の崩落でその影が退路側へ動いたため、本人は仲間を連れて後を追い難を逃れた。
 
 > 信じますか。……答えは後で構いません。採掘灯は一つなのに、私の影は二つありました。片方は光源と逆へ伸び、私が曲がるより僅かに早く動く。疲労だと笑われました。最初の崩落の直前、その影だけが退路へ折れたので、私は仲間を引いて追った。背後で坑道が潰れました。原因は今も分かりませんし、守護者と呼ぶ気もない。ただ、理解できない兆候を恥じて捨てるより、確認へ使う方を選びます。ソフェル、余録には推測と書いてください。助かった人数だけは事実です。
 

@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A132"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 評議仮設建築
 - Era: ModernUnion / Origin: 複数党派 / Relation: 同盟評議会
 
-- Tone: 政治・生活・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 政治・生活・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 現場合わせを好む仮設建築士。党派会議より帰還者の寝姿を見て、完成後も何度も部屋を直す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自治評議区で帰還者用の仮設住宅を組みました。党派ごとに理想の間取りを持ち込みましたが、私はまず帰ってきた本人がどこで眠るかを見ました。図面どおりの寝台を避け、入口の近くで丸くなる者もいます。理由を分析する前に、そこへ衝立と暖房を移しました。部屋の向きは後で何度も直しています。最初から完璧な計画だったとは言いません。仮設とは粗末という意味ではなく、住む者が答えを変えられる建物です。会議後に皆で卓を囲み、翌日の改修箇所を決めた時間の方を、旗よりよく覚えています。
 

@@ -1,26 +1,25 @@
 # 調査・監査 01
 
-範囲: 19. 基幹旧資料の採否台帳〜0. Purpose
+範囲: 19. 基幹旧資料の採否台帳〜1. Source status
 
 ## 項目
 
 - [19. 基幹旧資料の採否台帳](/authoring/19-%E5%9F%BA%E5%B9%B9%E6%97%A7%E8%B3%87%E6%96%99%E3%81%AE%E6%8E%A1%E5%90%A6%E5%8F%B0%E5%B8%B3.md) — 旧資料を文書単位で復活させず、概念ごとに採用、改稿採用、設定クラス限定、実装予約、廃止、新規補完へ仕分けた監査記録。
 - [21. 旧資料退役監査](/authoring/21-%E6%97%A7%E8%B3%87%E6%96%99%E9%80%80%E5%BD%B9%E7%9B%A3%E6%9F%BB.md) — OKF移行前の統合原本・カタログ・補助原本を退役・削除し、由来を墓標識別子へ固定した監査記録。
 - [22. 化石資料二冊の最終採否](/authoring/22-%E5%8C%96%E7%9F%B3%E8%B3%87%E6%96%99%E4%BA%8C%E5%86%8A%E3%81%AE%E6%9C%80%E7%B5%82%E6%8E%A1%E5%90%A6.md) — 旧コンセプト設計書v2と旧実装計画書v1は、勲章の設定クラスだけを継承し、その他の旧記述を放棄または現行所有者による別設計へ置き換える。
-- [C-0001 ソフェルの種族分類](/contradictions/C-0001-%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AE%E7%A8%AE%E6%97%8F%E5%88%86%E9%A1%9E.md) — 匿名のソフェル資料で専門職を種族として併記していた不整合。
+- [C-0001 ソフェルの種族分類](/contradictions/C-0001-%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AE%E7%A8%AE%E6%97%8F%E5%88%86%E9%A1%9E.md) — 監査前の匿名ソフェル旧原本で専門職を種族として併記していた不整合。
 - [C-0002 匿名ソフェルのTierとQuality](/contradictions/C-0002-%E5%8C%BF%E5%90%8D%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AETier%E3%81%A8Quality.md) — 旧人物資料の確定値と、身体体系を未確定とする現行正史の境界。
 - [C-0003 匿名ソフェルのゲーム実装値](/contradictions/C-0003-%E5%8C%BF%E5%90%8D%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AE%E3%82%B2%E3%83%BC%E3%83%A0%E5%AE%9F%E8%A3%85%E5%80%A4.md) — 旧人物資料の技能・装備・能力案と、現行の実装予約との関係。
 - [オーバーホール中の矛盾判定規則](/governance/contradiction-policy.md) — 改稿差分を誤って矛盾と判定せず、現行正本の衝突だけを止めるための規則。
-- [0. 結論](/kombinat/audit/00-%E7%B5%90%E8%AB%96.md) — α版からCore独自保管基盤との受渡しを監査し、Matter Networkは任意互換Adapterの試験だけへ隔離する。
-- [1. 監査原則](/kombinat/audit/01-%E7%9B%A3%E6%9F%BB%E5%8E%9F%E5%89%87.md) — 監査原則は、Matter Network単体で再現する問題は終了する。
-- [3. 正常として受け入れる上流挙動](/kombinat/audit/03-%E6%AD%A3%E5%B8%B8%E3%81%A8%E3%81%97%E3%81%A6%E5%8F%97%E3%81%91%E5%85%A5%E3%82%8C%E3%82%8B%E4%B8%8A%E6%B5%81%E6%8C%99%E5%8B%95.md) — 次はKombinatの問題として登録しないという方針の適用範囲と条件を定める。
-- [4. シナリオ](/kombinat/audit/04-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — シナリオは、S2-001：一つの三段Job：実入力と実出力が一致するとS2-002：材料が上流にあるが搬入されない：IO待ち。
-- [5. 未知MOD](/kombinat/audit/05-%E6%9C%AA%E7%9F%A5MOD.md) — 未知MODのThingをMatter Networkがどう保管するかは上流責務である。
+- [0. 結論](/kombinat/audit/00-%E7%B5%90%E8%AB%96.md) — α版からCore独自保管基盤との予約・受渡し・確定を監査し、Kombinat固有状態の安全性を検証する。
+- [1. 監査原則](/kombinat/audit/01-%E7%9B%A3%E6%9F%BB%E5%8E%9F%E5%89%87.md) — 監査は所有者別に再現条件を分離し、Kombinatの複製・消失・二重処理・破壊的復旧をblockerとして扱う。
+- [4. シナリオ](/kombinat/audit/04-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — S2シナリオは三段生産、保存、取消、容量、停電、破壊、通貨、長期運用をCore Storageとの公開契約で検証する。
+- [5. 未知MOD](/kombinat/audit/05-%E6%9C%AA%E7%9F%A5MOD.md) — 未知MODのThingとRecipeはCore Storageの互換判定とKombinatのRecipe分類を通し、安全な公開契約だけへ接続する。
 - [6. 破壊的操作](/kombinat/audit/06-%E7%A0%B4%E5%A3%8A%E7%9A%84%E6%93%8D%E4%BD%9C.md) — 破壊的操作は、操作：Kombinatが守るものとRequest連打：Jobを二重生成しないを扱う。
-- [7. Release Gate](/kombinat/audit/07-Release-Gate.md) — α blockerはKX-001〜008とS2-001〜020のKombinat追加層部分である。
+- [7. Release Gate](/kombinat/audit/07-Release-Gate.md) — α blockerはKX-001〜008とS2-001〜018のKombinat追加層部分である。
 - [KX-001 入力二重予約](/kombinat/audit/kx-001.md) — 再現: 入力予約直後に保存し、ロード後に同じOperation IDが再送される。
 - [KX-002 引渡し後の二重所有](/kombinat/audit/kx-002.md) — 再現: Storage生産Commitの直後に例外が起き、同じOperation IDが再送される。
-- [KX-003 Network在庫の過剰約束](/kombinat/audit/kx-003.md) — 再現: PlannerがMatter Network画面の数量を見積りに使い、実際のBuffer搬入前に二Jobへ同じ材料を約束する。
+- [KX-003 Network在庫の過剰約束](/kombinat/audit/kx-003.md) — 再現: Plannerが表示在庫を予約確定前に利用可能量へ算入し、二Jobへ同じ材料を約束する。
 - [KX-004 出力容量予約不能](/kombinat/audit/kx-004.md) — 再現: 納入先Storageに全出力を置ける容量がない状態で次Batchを開始する。
 - [KX-005 取消競合](/kombinat/audit/kx-005.md) — 再現: Playerが取消、再注文、優先度変更を連打し、同時にIOが材料を搬入する。
 - [KX-006 Recipe副作用](/kombinat/audit/kx-006.md) — 再現: 外部Recipeを無人Factoryへ自動登録する。
@@ -84,3 +83,4 @@
 - [3. DSUから採るUIと採らない実装](/research/kombinat-ui-references/03-DSU%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8BUI%E3%81%A8%E6%8E%A1%E3%82%89%E3%81%AA%E3%81%84%E5%AE%9F%E8%A3%85.md) — DSUの検索・任意排出・Pawnアクセスは参照するが、中央Mapセルへ内容物を集積する保管方式は採用しない。
 - [4. 要求中間素材作成の操作イメージ](/research/kombinat-ui-references/04-%E8%A6%81%E6%B1%82%E4%B8%AD%E9%96%93%E7%B4%A0%E6%9D%90%E4%BD%9C%E6%88%90%E3%81%AE%E6%93%8D%E4%BD%9C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8.md) — 在庫とRecipeを並べ、最終品の要求から不足中間品と総材料を確認する簡潔な操作モデルをKombinatへ適用する。
 - [0. Purpose](/research/monolyn-practice/00-Purpose.md) — This document records the user-provided summary of real player practice around Monolyn Race from Steam Workshop Q&A, Steam Workshop…。
+- [1. Source status](/research/monolyn-practice/01-Source-status.md) — The details below are treated as a user-provided field report from public player discussion and strategy notes.。

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A059"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 無音歌劇監督
 - Era: EraIndependent / Origin: 無党派 / Relation: 巡回歌劇団
 
-- Tone: 芸術・奇妙 / ReviewStatus: 採用済み
+- Tone: 芸術・奇妙 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 美意識の強い演出家。戦争の音を嫌い、光と別れの所作について熱っぽく語る。
-- PreservedCanonPoints: 本人は聴覚の異なる身体と真空環境の観客へ、振動と光だけの歌劇を演出した。 / 戦争場面でも武器音を使わず、役者の別れだけで恐怖を伝えた。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
+- PotentialReferencePoints: 本人は聴覚の異なる身体と真空環境の観客へ、振動と光だけの歌劇を演出した。 / 戦争場面でも武器音を使わず、役者の別れだけで恐怖を伝えた。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
 
 > 聴覚の違う身体や真空環境の観客にも届くよう、振動と光だけで歌劇を作りました。戦争の場面にも武器音は入れていません。大きな音で驚かせるより、出征する役者が食卓の椅子を一脚だけ戻す仕草の方が、別れの恐怖を伝えられるからです。私は射撃音を聞くと、演出ではなく実際の戦場で失った名を数えてしまう。それでも撃つ必要があれば撃てますよ。ただ、舞台の上まで同じ音に支配させたくないんです。終演後、音を聞けない観客が光の合図で拍手をくれた夜は、今も鮮明に覚えています。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C418"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 甲板整理
 - Era: AscendantEra / Origin: 帝国拡張艦隊 / Relation: 甲板長
 
-- Tone: 快活・冒険心・成長 / ReviewStatus: 採用済み
+- Tone: 快活・冒険心・成長 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 元気で少し生意気な、くだけた口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 俺の仕事は艦隊の格納庫に転がった工具や部品を集めることだった。艦が新型に更新されるたびに、古い部品が大量に余って捨てられずに隅に積まれていく。甲板長は俺がその隙間に潜り込むのが得意だと知って、狭い場所の掃除はいつも俺に回ってきた。文句を言いながらも、誰も見つけられなかった工具を見つけ出すのはちょっとした自慢だった。新型艦の設計図を盗み見て、甲板長に怒られたこともある。艦隊がどんどん大きくなっていくのを、俺は一番下から見てきた。
 

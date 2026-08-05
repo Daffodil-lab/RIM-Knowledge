@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A163"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 帰還港救護医
 - Era: ModernUnion / Origin: 無党派 / Relation: 帰還者支援局
 
-- Tone: 戦争・時間・職歴 / ReviewStatus: 採用済み
+- Tone: 戦争・時間・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: LawEnforcement
 - VoiceProfile: 厳密な救護医。帰還者を患者と容疑者のどちらか一方へ還元せず、治療と証拠保全を分ける。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帰還兵港では、救護と危険技術の押収が同時に起きます。違法装置を抱えた帰還者でも、傷が深ければ先に治療する。証拠は別の担当へ渡し、誰が触れたかを途切れず残しました。古い軍命令を理由に現在の市民を拘束することも認めませんでした。友が異なる時間を生きて戻った時、年齢差へ誰も笑えなかった。私は再会を急がせず、食堂の空席だけ確保しました。法執行も医療も、過去の役割へ本人を押し戻す仕事ではありません。今いる者が安全に次を選べるようにする仕事です。
 

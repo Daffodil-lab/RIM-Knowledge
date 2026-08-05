@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C147"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 評議観測実習
 - Era: ModernUnion / Origin: 複数党派 / Relation: 同盟評議会
 
-- Tone: 政治・生活・形成 / ReviewStatus: 改稿採用済み
+- Tone: 政治・生活・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 数字に慎重な観測生 / 党派談を料理へ逃がす / 美術的表現を避ける / 日常記録を愛す
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自治評議区で、一度の異常値を政治的勝利に使おうとする人は珍しくありませんでした。私は条件を変えて観測を繰り返し、担当外でも読める言葉へ直した。図を美しくするのは不得手なので、代わりに会議後の食事を作りました。党歴の違う者も同じ鍋の塩加減なら具体的に争えます。古い旗の配置は忘れましたが、観測ミスを認めた評議員が皿を洗ったことは覚えている。制度を支えるのは正しい結論だけではありません。誤差を認めた後も、翌日の卓へ戻って来られる習慣だと私は思います。
 

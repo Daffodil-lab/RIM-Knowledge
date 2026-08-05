@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A330"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 星図引き
 - Era: ColonizationEra / Origin: 航路整備隊 / Relation: 資材輸送隊
 
-- Tone: 航路・整備・星図 / ReviewStatus: 採用済み
+- Tone: 航路・整備・星図 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 問いを投げかけながら考えをまとめていく星図描きの整備士。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 星図というものが、完成すると思ったことがあるだろうか。航路整備隊にいた三十年、私はずっと帝国の星図台帳を描き直し続けた。危険な航路が塞がれば消し、新しい安全な道が見つかれば書き足す。資材輸送隊が無事に荷を運べたのは、この描き直しのおかげだと言われることもあるが、私からすれば当然の仕事でしかない。星図に完成はない、あるのはその時点で一番信頼できる一枚だけだ。次にこの仕事を継ぐ者には、消すことを恐れるなと伝えたい。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C223"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 予測院調査
 - Era: ModernUnion / Origin: 無党派 / Relation: 評議会研究院
 
-- Tone: 研究・長期計画・形成 / ReviewStatus: 採用済み
+- Tone: 研究・長期計画・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 思索的で静か。予測の限界を認め、偶然の友情を大切にする。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 予測院の先生は、百億通りの未来を示したあとで「帰り道だけは自分で印を付けなさい」と言いました。私は資源調査へ出るたび、必要な量だけを採り、岩肌に小さな絵を残しました。銃の扱いを習う時間まで石を眺めていて、よく叱られましたね。ある落盤の日、予測表では無関係だった友が私の印を見つけ、救援を連れてきました。未来を遠くまで見渡せても、誰が手を差し出すかまでは決められない。回収した故郷の石を見ると、失った匂いを思い出します。空白が残るからこそ、人と出会う余地があるのだと私は思っています。
 

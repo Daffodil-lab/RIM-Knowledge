@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C121"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 幸福都市離脱
 - Era: EraIndependent / Origin: 無党派 / Relation: 離脱者共同体
 
-- Tone: 倫理・離脱・形成 / ReviewStatus: 採用済み
+- Tone: 倫理・離脱・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 静かな離脱者 / 倫理に頑固 / 美しい記憶も否定しない / 記録で双方へ向き合う
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 幸福都市は本当に美しかった。音楽も、誰も明日の食事を疑わない暮らしも、私は今なお愛しています。だからこそ、その全てが一人の苦痛へ支えられていると知った時、診療記録を置いて歩き去りました。救えなかったのに清廉ぶるな、と残った友には言われました。正しい批判です。私は外縁の診療所で、去る者と残る者の理由をどちらも記し、患者の希望と制度の判断が違えば二欄に分けた。豊かさを捨てたいのではありません。犠牲を見えなくしなくても続く豊かさを、作り直したいんです。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A318"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 地均し師
 - Era: ColonizationEra / Origin: 造成隊 / Relation: 環境観測隊
 
-- Tone: 造成・地均し・基盤 / ReviewStatus: 採用済み
+- Tone: 造成・地均し・基盤 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: まず誤解を正してから話し始める几帳面な地均し師。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 造成隊の仕事を、更地を平らにするだけの単純作業だと思っている人が多いが、それは違う。地均しで一番大事なのは平らにしないことだ。赤い星の下、風向きが一定しない土地では、わずかな傾斜が排水路の生死を分ける。帝国の入植基準にはそこまで書かれていなかったから、私は毎回、風下に一分の傾きを残すよう班に指示していた。最初は誰も理解してくれず、平らにしろと文句を言われたが、最初の雨季で排水が機能したのは私の区画だけだった。それ以来、誰も文句を言わなくなった。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C278"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 肉声会議
 - Era: LongTransition / Origin: 無党派 / Relation: 維持共同体
 
-- Tone: 設備・孤立・形成 / ReviewStatus: 採用済み
+- Tone: 設備・孤立・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 論理的だが対面を好む。設備停止を機に、省略しない説明と聞き直しを学ぶ。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 地下維持区の自動設備が止まり、通信まで黙った時、私たちは通路で直接会議をしました。反論する前に相手の意見を言い直し、地層図を床へ広げ、空洞を手で指しました。普段は端末が省いていた説明を、肉声では一つずつ確かめる必要があったんです。後に蘇った友とも同じ会議をしました。私は昔と同じ関係を急ぎましたが、友は違う時間を生きていた。聞き直すことから始めました。設備音のない街は怖かった。でも、相手が理解したふりをしていないか、初めて顔を見て確かめられました。
 

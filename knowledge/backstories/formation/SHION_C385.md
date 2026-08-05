@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C385"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 灌漑子
 - Era: ColonizationEra / Origin: 灌漑隊 / Relation: 育ての親
 
-- Tone: 実直・誇り・継承 / ReviewStatus: 改稿採用済み
+- Tone: 実直・誇り・継承 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: きっぱりとした断定口調で、実務的な言葉を交えながら誇りを隠さず語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 水路の勾配は指で覚えるものだ。育ての親が土に線を引いて、ここが高い、ここが低いと教えてくれた時、私はまだ木の桶も持ち上げられなかった。でも三年もすれば水路の詰まりを音で当てられるようになった。土管の中を水が走る音と、空気が噛む音は全然違う。育ての親は、それを聞き分けられる子どもは滅多にいないと言って、少し得意そうだった。私はその言葉のために毎晩水路へ耳を当てていた気がする。あの土の匂いは今も覚えている。
 

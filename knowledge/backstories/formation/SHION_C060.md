@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C060"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 補修布色分け
 - Era: EraIndependent / Origin: 無党派 / Relation: 衣服修理所
 
-- Tone: 工芸・文化 / ReviewStatus: 採用済み
+- Tone: 工芸・文化 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 色へ偏執的な仕立て手 / 快活 / 微差を人格と見る / 新品らしさを拒む
-- PreservedCanonPoints: 本人は帝国服、革命軍服、現代制服の補修布を色分けした。 / 似た白でも時代ごとにわずかに違い、持ち主はその差へ驚くほど頑固だった。 / 直すことは、新しく見せることではなかった。
+- PotentialReferencePoints: 本人は帝国服、革命軍服、現代制服の補修布を色分けした。 / 似た白でも時代ごとにわずかに違い、持ち主はその差へ驚くほど頑固だった。 / 直すことは、新しく見せることではなかった。
 
 > 白は白だと思っている顔ですね。帝国礼装の白、革命軍服の白、現代制服の白は全部違います。青み、灰、古い漂白剤の黄ばみ。持ち主はその差へ驚くほど頑固でしたし、私も同じです。補修痕を隠すため近い布を当てるのではなく、本人が覚えている時代の白を尋ねました。新しく見せれば成功、ではありません。ある離反者は帝国色を残し、別の者は革命色で塞いだ。どちらも正しい。ソフェル、服の穴を直す時まで忠誠を統一しなくてよいでしょう。私は継ぎ目が見える方を好みます。
 

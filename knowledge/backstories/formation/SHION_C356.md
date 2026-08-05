@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C356"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 秩序は日課
 - Era: JourneyEra / Origin: 秩序維持隊 / Relation: 秩序維持隊分隊
 
-- Tone: 秩序・規律・継承 / ReviewStatus: 採用済み
+- Tone: 秩序・規律・継承 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 引き締まった簡潔な言葉遣いで、余計な修飾をしない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自分は秩序維持隊の分隊に十三歳から補助として加わりました。当時はまだ帝国の制度も定まりきっておらず、見回りの手順も週ごとに変わりました。手順が変わるたびに苛立つ隊員もいましたが、隊長は「秩序は一度作って終わりではなく、毎朝作り直すものだ」と言っていました。自分はその言葉を分隊の合言葉のように繰り返して育ちました。制度が固まった今でも、自分にとって秩序とは、昨日と同じ形を確認し続ける日々の作業のことです。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C329"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 星の付け替え
 - Era: ColonizationEra / Origin: 移住船団 / Relation: 医務班
 
-- Tone: 船団・医務・遡行 / ReviewStatus: 採用済み
+- Tone: 船団・医務・遡行 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 現在から過去へさかのぼるように語る口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 今の私は落ち着いて話せますが、それは船が着いてからの話です。着く直前、医務班は休止整備をほとんど取れていませんでした。着く前の航行中は、外部居住者の間で原因不明の発熱が広がり、私は薬の残量を毎日数え直していました。もっと前、出発したばかりの頃は、医務班は暇で、私は同僚と星の名前を勝手に付け替えて遊んでいました。一番古い記憶はその遊びです。忙しさは後から来るもので、最初はただの子どもでした。
 

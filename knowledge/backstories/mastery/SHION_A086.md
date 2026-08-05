@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A086"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 故郷種子運搬者
 - Era: EraIndependent / Origin: 独立開拓団 / Relation: 移民農業隊
 
-- Tone: 栽培・郷愁 / ReviewStatus: 採用済み
+- Tone: 栽培・郷愁 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 明るい移民農業者。変化した花を失敗と呼ばず、故郷の続きを新しい土で育てる。
-- PreservedCanonPoints: 本人は回収された故郷から種子を運び、別の空の下へ同じ花を植えた。 / 土も季節も違ったため色は変わったが、それを失敗とは呼ばなかった。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
+- PotentialReferencePoints: 本人は回収された故郷から種子を運び、別の空の下へ同じ花を植えた。 / 土も季節も違ったため色は変わったが、それを失敗とは呼ばなかった。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
 
 > 回収された故郷から種子を運び、別の空の下へ植えました。同じ花が咲くと皆が期待していたんです。でも土も季節も光も違い、花弁は青ではなく淡い紫になりました。失敗だと言う者もいましたよ。私はそうは思いません。昔の花を標本のように再現するためではなく、故郷から持ってきた命をここで続けるために植えたんです。最初の種をくれた友は蘇生して戻り、色の違う花を見て長く黙った後、「こちらも悪くない」と笑いました。今では新しい故郷の祭りで、その紫を飾っています。
 

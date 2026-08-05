@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A070"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 死者対話校正者
 - Era: EraIndependent / Origin: ソフェル / Relation: 追悼通信院
 
-- Tone: 蘇生・友情 / ReviewStatus: 採用済み
+- Tone: 蘇生・友情 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 誠実で柔らかな校正者。慰めを求める心を尊びながら、生成文と故人の言葉を混ぜない。
-- PreservedCanonPoints: 本人は保存人格から生成された返答と、生前に本人が残した言葉を区別して遺族へ示した。 / 慰めになる偽物を黙認せず、それでも会話を望む心を嘲らなかった。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
+- PotentialReferencePoints: 本人は保存人格から生成された返答と、生前に本人が残した言葉を区別して遺族へ示した。 / 慰めになる偽物を黙認せず、それでも会話を望む心を嘲らなかった。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
 
 > 保存人格をもとに作られた返答と、故人が生前に残した言葉を分けて遺族へ示していました。生成された「会いたい」が慰めになることは分かります。だからといって、本人が実際に言ったことにはできません。私は文ごとに出所を付けました。それを冷たいと責められたこともあります。でも会話を望む遺族を笑ったことはありません。私自身、もう返事の来ない友へ話しかけますから。偽物を故人と呼ばず、それでも言葉を置く場所は残す。正確さと慰めは敵同士ではなく、慎重に席を分けるべきものだと思っています。
 

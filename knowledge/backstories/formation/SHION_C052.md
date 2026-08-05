@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C052"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 写真復元助手
 - Era: EraIndependent / Origin: 無党派 / Relation: 記録工房
 
-- Tone: 芸術・故郷 / ReviewStatus: 採用済み
+- Tone: 芸術・故郷 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 慎重な復元者 / 遺族へ問い続ける / 空白を美化しない / 未完成を受容
-- PreservedCanonPoints: 本人は焼けた写真の色と輪郭を戻した。 / 顔を推測で描く時は遺族へ何度も尋ね、分からない部分を美しく埋めなかった。 / 完成しない一枚を故郷の窓辺へ飾り、欠けた人の席を残した。
+- PotentialReferencePoints: 本人は焼けた写真の色と輪郭を戻した。 / 顔を推測で描く時は遺族へ何度も尋ね、分からない部分を美しく埋めなかった。 / 完成しない一枚を故郷の窓辺へ飾り、欠けた人の席を残した。
 
 > 焼けた写真を完全に戻せる、と期待していましたか。色と輪郭は直せても、顔の半分が炭なら資料が要ります。私は遺族へ目尻、髪、笑う時の癖を何度も尋ねました。答えが食い違う所は描かなかった。美しい顔で埋めれば慰めになる、と言う者もいたけれど、それは私の想像です。完成しない一枚を故郷の窓辺へ飾ると、空白の前へ自然に椅子が一つ置かれた。あれでよかったと思う。ソフェル、欠けた記録は失敗ではありません。誰も他人の記憶を勝手に完成させなかった証拠にもなるのです。
 

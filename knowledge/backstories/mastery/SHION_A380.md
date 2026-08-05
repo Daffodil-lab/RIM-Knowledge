@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A380"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 農区統合教訓
 - Era: JourneyEra / Origin: 西側／作られた民族 / Relation: 農区統合作業班
 
-- Tone: 農業・統合・格言 / ReviewStatus: 採用済み
+- Tone: 農業・統合・格言 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 落ち着いた声で経験を格言に変える農夫。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自分は作られた民族文化を継ぐ。違う土壌で育った作物を同じ区画にまとめる作業を、十年やった。旧い出身圏ごとに違う栽培法をそのまま持ち込むと、必ずどこかで枯れた。逆に全部を一つの方法に揃えても、収量は落ちた。土の匂いを嗅ぎ分けるだけで、どちらの失敗か分かるようになった。結局、区画ごとに三割だけ旧いやり方を残すのが一番うまくいった。統合とは全部を同じにすることじゃない、残す分量を決めることだ。これが自分の三十年の結論であり、今も変わらない考えだ。
 

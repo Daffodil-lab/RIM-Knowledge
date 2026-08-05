@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A394"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 潜水工
 - Era: ColonizationEra / Origin: 港湾建設隊 / Relation: 潜水班
 
-- Tone: 圧迫感・忍耐・静寂 / ReviewStatus: 採用済み
+- Tone: 圧迫感・忍耐・静寂 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 重々しく、間をたっぷり取る年配者の口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 耳の奥がぎゅうっと締まる感覚、あれを覚えると潜水の深さが分かるようになる。わしはその感覚だけを頼りに岸壁の基礎を沈めてきた。水中では声が届かんから、綱を引く合図だけが頼りじゃった。冷たい水の中で手袋越しに感じるコンクリートの硬さは、今でもはっきり思い出せる。地上の連中には分からんだろうが、水の下にも仕事の誇りはちゃんとあるんじゃ。それでもわしは、この仕事を辞めようと思ったことは一度もない。
 

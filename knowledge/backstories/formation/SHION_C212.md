@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C212"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 透明区秘密夜食
 - Era: LongTransition / Origin: 旧党派 / Relation: 計画共同体
 
-- Tone: 制度・個人・形成 / ReviewStatus: 改稿採用済み
+- Tone: 制度・個人・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: いたずら好きな夜食係 / 公開制度をかいくぐる / 体調管理は真面目 / 私的時間を守る
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 夜食は規定献立にありませんでした。だから作りました。透明居住区では、旅立つシオンの感覚設定も外部居住者の栄養条件も公開されましたが、誰と食卓を囲みたいかまでは公開させなかった。私は保存期間と必要条件を真面目に確かめ、厨房裏の七分遅れた時計で集まる時刻だけ隠したんです。新人には近道より、秘密を守る理由から教えました。友が戻らなかった後も、その分の夜食を一度だけ作った。長い時間があっても一緒に過ごした夜は複製できません。だからこそ、制度に提出しない思い出を持てる暮らしを守りたいんです。
 

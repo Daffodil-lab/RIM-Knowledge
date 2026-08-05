@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A401"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 記録画工
 - Era: ColonizationEra / Origin: 種子船 / Relation: 記録班
 
-- Tone: 静謐・執着・郷愁 / ReviewStatus: 採用済み
+- Tone: 静謐・執着・郷愁 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: しみじみと振り返るような、落ち着いた口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 最初は退屈な仕事だと思っていました。芽が出る前の種を、ただ絵に描き写すだけの記録係でしたから。でも何百枚と描くうちに、同じ種でも一つとして同じ形がないことに気づいたんです。筆先のかすれ具合で乾燥の度合いまで表現できるようになった時は、心から嬉しかった。絵の具の匂いを嗅ぐと今でも指先がむずむずします。退屈だったはずの仕事が、私の一番の誇りに変わりました。
 

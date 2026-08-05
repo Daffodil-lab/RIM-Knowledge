@@ -6,7 +6,6 @@ tags:
   - "okf"
   - "governance"
   - "kombinat"
-  - "matter-network"
   - "pawn"
   - "independent-colony"
   - "backstory"
@@ -43,9 +42,8 @@ generated:
 | Kombinatの追加層境界 | [Kombinat中核仕様](/kombinat/core/index.md) | 全体設計の要約 |
 | Kombinatの機能要件 | [Kombinat要件](/kombinat/requirements/index.md) | 中核仕様の要約 |
 | Kombinatの検証 | [Kombinat監査](/kombinat/audit/index.md) | 要件への検証リンク |
-| Matter Network上流境界 | [Matter Network境界](/integrations/matter-network/index.md) | 任意互換を検討する場合の外部連携・無改造境界 |
 | α以後の保管・接続基盤 | [Core独自保管・接続システムの実装境界](/design/51-Core独自保管接続システムの実装境界.md) | 独自Storage、直接転送、任意排出、Kombinat接続の唯一の所有者 |
-| Shion種族のバニラ優先実装とHAR非依存 | [バニラ優先Shion種族実装境界](/design/52-バニラ優先Shion種族実装境界.md) | 種族Def、Xenotype、Gene、依存、保存、性能条件の唯一の所有者 |
+| Shion種族のHuman・Biotech実装 | [バニラ優先Shion種族実装境界](/design/52-バニラ優先Shion種族実装境界.md) | 種族Def、Xenotype、Gene、依存、保存、性能条件の唯一の所有者 |
 | Pawn生産・保管・再生 | [Pawn仕様](/pawn/index.md) | 全体設計の高位境界 |
 | 制作・開示規則 | [制作・開示](/authoring/index.md) | プレイヤー文面への適用 |
 | 公開用の文面と説明順 | [プレイヤー向け設定](/player-facing/index.md) | 世界事実の投影のみ |
@@ -76,7 +74,8 @@ generated:
 | Field Workshopの設定 | [Field Workshop設定クラス](/design/40-Field-Workshop設定クラス.md) | Recipe・工数・失敗処理は独立開拓団実装が所有 |
 | Pawn Foundryの設定 | [Pawn Foundry設定クラス](/design/41-Pawn-Foundry設定クラス.md) | 生成・登録・保管・Clone処理はPawn仕様が所有 |
 | 匿名のソフェル | [匿名のソフェル](/characters/anonymous-sofer/index.md) | 現行人物像、実装予約、物語候補を分離して参照 |
-| 個別バックストーリー | [バックストーリー](/backstories/index.md) | 正史・制作規則への参照 |
+| 参考資料の分類と再利用境界 | [参考](/reference/index.md) | 外部調査、旧案、バックストーリー、履歴からの参照 |
+| 個別バックストーリー | [バックストーリー](/backstories/index.md) | 参考資料として保持し、再利用時は正史・制作・実装の所有者へ内容を移す |
 | 判断の経緯 | [決定履歴](/decisions/index.md) | 現行仕様の根拠。現行事実の所有は禁止 |
 | 外部調査 | [調査・参照](/research/index.md) | 設計判断の根拠。製品仕様の所有は禁止 |
 
@@ -97,10 +96,10 @@ generated:
 - 上位索引: [governance](/governance/index.md)
 - 同じ出典の前項: [RIM OKFメタデータ契約](/governance/metadata-contract.md)
 - 同じ出典の次項: [重複と異なる粒度の管理規則](/governance/duplication-policy.md)
-- 連携境界: [連携境界](/integrations/matter-network/index.md)
 - Kombinat領域: [Kombinat領域](/kombinat/index.md)
 - Pawn領域: [Pawn領域](/pawn/index.md)
 - バックストーリー群: [バックストーリー群](/backstories/index.md)
+- 参考資料: [参考](/reference/index.md)
 - 矛盾監査: [矛盾監査台帳](/contradictions/index.md)
 - 設定と実装の分離: [設定クラスと実装値の分離](/authoring/15-設定クラスと実装値の分離.md)
 - 旧資料の退役: [旧資料退役監査](/authoring/21-旧資料退役監査.md)

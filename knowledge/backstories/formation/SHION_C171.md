@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C171"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 透明区古文書
 - Era: LongTransition / Origin: 旧党派 / Relation: 計画共同体
 
-- Tone: 制度・個人・形成 / ReviewStatus: 採用済み
+- Tone: 制度・個人・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 古文書好きの現実家 / 欠落を埋めない / 装飾表現は避ける / 食事から私生活を読む
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 透明居住区で古文書を読むのは、制度に隠れて秘密を持つ遊びでした。欠けた箇所を格好よく補う人もいましたが、私は読めない所へ「読めない」と書いた。全員に公開された記録と、本人だけが残した料理の染みは同じではありません。装飾的な解釈は苦手でも、献立の端書きから誰と食べたかを考えるのは好きでした。街で一つだけ時刻の違う時計も、故障と決めつけずそのまま記録した。過去は完成した命令書ではないんです。空白や冗談を勝手に整えない方が、暮らした人へ近づけると思います。
 

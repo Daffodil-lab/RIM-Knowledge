@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A068"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: マソレット大書記
 - Era: EraIndependent / Origin: ソフェル / Relation: 星域聖典院
 
-- Tone: 学術・典礼 / ReviewStatus: 採用済み
+- Tone: 学術・典礼 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 緻密で慈しみ深い校訂者。誤字さえ書き手の痕跡として扱い、安易な統一を拒む。
-- PreservedCanonPoints: 本人は複数文明の秘文字写本を照合し、意味が一致しても歴史の傷まで均してしまわない校訂を行った。 / 誤字と方言と祈った者の癖を、別々に保存した。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
+- PotentialReferencePoints: 本人は複数文明の秘文字写本を照合し、意味が一致しても歴史の傷まで均してしまわない校訂を行った。 / 誤字と方言と祈った者の癖を、別々に保存した。 / 長い時代が過ぎても、本人はこの出来事を古びた過去として扱わない。
 
 > 複数文明の秘文字写本を照合し、校訂本文を作りました。同じ祈りでも、避難船で写された本と豊かな寺院で写された本では、文字の揺れ方が違います。私は意味だけを整え、誤字、方言、書き手の癖は注記として残しました。間違いを消せば美しくなる、と言われます。でも震えた手で一字を落とした事実まで消せば、その祈りがどこで生き延びたか分からなくなる。完全な本文は一冊あれば十分です。私は使われ、直され、涙で滲んだ本文も同じ棚へ置きたいんです。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A167"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 深層救助員
 - Era: LongTransition / Origin: 複数党派 / Relation: 残響調査隊
 
-- Tone: 残響・戦争・職歴 / ReviewStatus: 採用済み
+- Tone: 残響・戦争・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 傷を抱えた救助員。再現戦場の英雄像を疑い、敵役の動物まで残響から連れ出す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 残響深層には、過去の戦場が変わらない形で再現されていました。記念画では英雄が一人で突破した場面も、実際には怯えた仲間と動物を引きずって進んでいた。私は狭い区画から負傷者を運び、抵抗する者も傷つけず確保しました。敵役として再現された動物まで置いていけず、外へ連れましたよ。残響から戻っても、死んだ友の不在は変わりませんでした。過去を何度見直しても救えない者がいる。だから英雄像を磨くより、次の現場で一人多く運べる手順を残します。
 

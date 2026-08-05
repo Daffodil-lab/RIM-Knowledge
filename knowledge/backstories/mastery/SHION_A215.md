@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A215"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 祝宴徒手警護役
 - Era: EraIndependent / Origin: 無党派 / Relation: 文化共同体
 
-- Tone: 料理・記憶・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 料理・記憶・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 豪放な会場係。衝突を身体で止め、最後の皿の沈黙を静かに語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 共同祝宴は食事だけの催しではない。食べる必要のない者も、動物を連れた者も、昔は敵だった者も同じ卓へ来た。揉め事が起きれば、私は武器を持たず二人の間へ入り、まず椅子を離した。評議会の議題も隠さず、誰がどの席を望んだかまで公開したよ。ある老いた動物が騒ぎ始め、主人同士の口論を止めたこともある。最後の皿が出た時、皆が黙った。味が特別だったのではなく、亡くなった料理人の手順を一つずつ再現したからだ。蘇せる者を待ちながら、戻らないかもしれない人へ感謝する夜も必要なんだ。
 

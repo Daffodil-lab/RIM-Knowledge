@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C234"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 帰還港修繕
 - Era: ModernUnion / Origin: 無党派 / Relation: 帰還者支援局
 
-- Tone: 戦争・時間・形成 / ReviewStatus: 採用済み
+- Tone: 戦争・時間・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 控えめで実直。直せる設備と、直せない時間の差を痛感している。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帰還港では壁も配管も、戻ってきた人の時間まで違っていました。昨日出征したつもりの兵士が、何代も後の船から降りてくる。私は修繕班の後ろで避難路を直し、古い命令札を一枚ずつ外しました。再会した友は、私よりずっと長い戦争を生きていました。同じ顔なのに、工具の握り方まで変わっていた。何か気の利いたことを言おうとして、結局「そこはまだ濡れている」としか言えませんでした。今でも悔やんでいます。設備なら壊れる前の音を聞き分けられるのに、友が話し始める合図には気づけなかったのです。
 

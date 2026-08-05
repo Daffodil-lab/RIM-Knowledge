@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C152"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 海洋保存食
 - Era: EraIndependent / Origin: 無党派 / Relation: 観測隊
 
-- Tone: 観測・不可解・形成 / ReviewStatus: 採用済み
+- Tone: 観測・不可解・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 料理好きな観測助手 / 対象を理解したと言わない / 水面の像を断定しない / 友との味比べを楽しむ
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 海洋観測区へ行った理由は研究ではなく、保存食作りが好きだったからです。旅立つ者の好みと食べる日を聞き、体調に合わせて塩分も変えました。友と何年持たせられるか競いましたよ。観測対象については、理解したふりをしないよう反応と自分たちの変化を別々に記録した。水面に故郷らしい景色が出た夜も、私は名を付けませんでした。戻らなかった者の食事は開封し、皆で味を確かめた。追悼と言うより、約束した日に食べるという単純な責任です。その味だけは推測にしたくなかったので。
 

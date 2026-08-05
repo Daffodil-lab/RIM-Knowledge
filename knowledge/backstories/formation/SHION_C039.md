@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C039"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 内務誤配係
 - Era: PostCivilWarEmpire / Origin: 帝国臣民 / Relation: 帝国内務省
 
-- Tone: 官僚制・不条理 / ReviewStatus: 採用済み
+- Tone: 官僚制・不条理 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Mixed
 - VoiceProfile: 神経質な事務員 / 早口 / 宛先への執着 / 小さな誤りを恐れる
-- PreservedCanonPoints: 本人は内戦後帝国の内務省で、封書を部署と地域ごとに仕分けた。 / 組織改編が続き、昨日の救済局が監察局へ変わることもあり、古い宛先表だけでは配達できなかった。 / 受取人と担当業務を一件ずつ確認し、誤配による逮捕や物資停止を避けようとした。
+- PotentialReferencePoints: 本人は内戦後帝国の内務省で、封書を部署と地域ごとに仕分けた。 / 組織改編が続き、昨日の救済局が監察局へ変わることもあり、古い宛先表だけでは配達できなかった。 / 受取人と担当業務を一件ずつ確認し、誤配による逮捕や物資停止を避けようとした。
 
 > 宛先を一字違えるだけ、と言わないでください。昨日の救済局が今日は監察局、その隣は逮捕命令を扱う。内戦後の内務省では、古い一覧表が人を殺しました。私は封書を開けず、部署名、地域、担当業務を一件ずつ確かめた。封蝋の赤が机へ並ぶと、喉まで赤く染まる気がしたものです。一度、配給停止命令を旧救済局へ戻し、処理を一日遅らせました。規則違反です。その一日で家族が逃げた。正しかったか？　今も断言しません。ただ、速い誤配より遅い確認を選ぶ。それだけは変わりません。
 

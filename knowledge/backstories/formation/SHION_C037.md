@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C037"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 避難書庫運搬員
 - Era: ImperialCivilWar / Origin: 帝国臣民 / Relation: 避難書庫
 
-- Tone: 内戦・文化救難 / ReviewStatus: 採用済み
+- Tone: 内戦・文化救難 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 切迫した回想 / 短文連続 / 選別への嫌悪 / 人命を先に置く
-- PreservedCanonPoints: 帝国人同士の内戦で都市網が分断された時、本人は書庫の避難班に加わり、書物と記憶媒体を地下保管庫へ運んだ。 / 選別する時間がなく、互いに矛盾する版も同じ箱へ収めた。 / 避難者の搬送が始まると、書庫の運搬車を人のために空けた。
+- PotentialReferencePoints: 帝国人同士の内戦で都市網が分断された時、本人は書庫の避難班に加わり、書物と記憶媒体を地下保管庫へ運んだ。 / 選別する時間がなく、互いに矛盾する版も同じ箱へ収めた。 / 避難者の搬送が始まると、書庫の運搬車を人のために空けた。
 
 > 箱へ入れる。運ぶ。戻る。砲撃が近づく。もう一箱。書庫避難はそれだけでした。正史版と禁書版を選別する時間はなく、矛盾した記録も同じ箱へ詰めた。途中で避難者が増え、運搬車を空けろと命令が来た時、私は本を床へ下ろしました。迷いはありましたよ。一冊を守るために誰かを歩かせるのか、と考えた瞬間だけ。答えは人です。読む者がいなければ記録は墓になる。地下庫へ残した箱の半分は焼けましたが、車へ乗せた子が後に司書になった。ソフェル、私は選択を後悔していません。
 

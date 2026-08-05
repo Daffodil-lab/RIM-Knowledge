@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C326"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 先達の小刀
 - Era: ColonizationEra / Origin: 開拓団 / Relation: 見張り班
 
-- Tone: 見張り・継承・静寂 / ReviewStatus: 採用済み
+- Tone: 見張り・継承・静寂 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 去った人の言葉を借りて語る、少し寂しげな口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 先達はよく言っていました、「見張りは何も起きない夜こそ良い夜だ」と。私はその言葉の意味が分からないまま、見張り班に配属されました。何も起きない夜は退屈で、私は先達の道具箱から拝借した小刀で木片を削って過ごしました。ある夜、遠くの光が消えるのに気づいて仲間を呼びました。何も起きませんでした、ただの設備の誤作動でした。それでも先達の言葉をようやく理解しました。先達はもういませんが、あの小刀は今も私の手元にあります。
 

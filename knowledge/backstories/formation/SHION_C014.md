@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C014"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 設備見回り
 - Era: EraIndependent / Origin: 無党派 / Relation: 居住設備
 
-- Tone: 労働・孤独 / ReviewStatus: 採用済み
+- Tone: 労働・孤独 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 寡黙 / 短い断定 / 機械音への愛着 / 約束を口にしない
-- PreservedCanonPoints: 本人は居住区の熱交換設備を見回り、凍結しかけた管、過熱した弁、循環の偏りを点検した。 / 故障が住民へ届く前に、音と振動の変化から原因を探した。 / 夜間は設備室で待機し、修理班へ必要な工具と部品を伝えた。
+- PotentialReferencePoints: 本人は居住区の熱交換設備を見回り、凍結しかけた管、過熱した弁、循環の偏りを点検した。 / 故障が住民へ届く前に、音と振動の変化から原因を探した。 / 夜間は設備室で待機し、修理班へ必要な工具と部品を伝えた。
 
 > 音です。計器より先に分かる。正常な熱交換管は低く唸り、凍結前には一拍だけ息を止めます。私は夜の設備区画を歩き、弁へ手を当て、修理班へ工具の番号を伝えました。退屈だったか？　いいえ。壁の向こうで住民が故障を知らず眠っているなら、それが成功です。ある夜、交代者が「朝まで持たせろ」と言って戻らなかった。管は持ちました。約束した本人はいない。だから今も、朝までという言葉を軽く使えません。……次の質問をどうぞ、ソフェル。長く話す仕事ではありませんので。
 

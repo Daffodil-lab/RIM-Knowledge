@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C062"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 帰還朝食係
 - Era: ModernUnion / Origin: 無党派 / Relation: 帰還者宿舎
 
-- Tone: 料理・再会 / ReviewStatus: 採用済み
+- Tone: 料理・再会 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 母性的ではなく対等 / 静かな問い / 食欲を自己決定と見る / 再会を急がない
-- PreservedCanonPoints: 本人は再製造直後の市民へ、記録に残る好物を作った。 / 味を忘れた者、嫌いになった者、泣いて食べられない者にも同じ皿を置き、翌朝は別の料理を選ばせた。 / 後年も本人は、戻った者へ何が食べたいかを尋ね、過去の好物を押しつけなかった。
+- PotentialReferencePoints: 本人は再製造直後の市民へ、記録に残る好物を作った。 / 味を忘れた者、嫌いになった者、泣いて食べられない者にも同じ皿を置き、翌朝は別の料理を選ばせた。 / 後年も本人は、戻った者へ何が食べたいかを尋ね、過去の好物を押しつけなかった。
 
 > 再製造された人へ昔の好物を出せば、本人らしさを取り戻せる――そう教わりました。けれど皿を見て泣く者も、味を忘れた者も、もう嫌いだと言う者もいた。私は記録どおりの料理を一度だけ置き、翌朝には「今日は何が食べたいですか」と尋ねました。過去の本人へ戻すためではなく、今の本人が選ぶ最初の食事にするためです。ソフェル、思い出せないことを欠損と決めないでください。新しい好物ができたなら、それも帰還の続きです。私は空になった皿より、自分で選んだ一口を成功と呼びます。
 

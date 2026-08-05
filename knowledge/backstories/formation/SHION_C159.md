@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C159"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 平和軍記録実習
 - Era: ImperialPeak / Origin: 旧帝国 / Relation: 最盛期帝国社会
 
-- Tone: 軍務・不条理・形成 / ReviewStatus: 採用済み
+- Tone: 軍務・不条理・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 真面目な演習記録者 / 命令より生活痕を見る / 食事記録を重視 / 最盛期を無謬視しない
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 平和軍演習院では、事実を本文、推測を別紙、後世の注釈を余白へ書きました。最盛期は豊かで安定していましたが、軍を不要とは考えず、社会を壊さないための演習を長く続けたんです。私は命令書より、休憩中の食事と泥の付いた靴を記録しました。雑談から装備の不便が分かることもある。故郷を復元しても、湿った靴の匂いまで戻す必要はないでしょう。でも、平和が自然に続いたのではなく、名もない手入れで保たれたことは忘れたくない。最盛期を願うなら、その不格好な労力も受け継ぐべきです。
 

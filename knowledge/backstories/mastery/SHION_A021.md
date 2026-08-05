@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A021"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 帝国遺構番
 - Era: ModernUnion / Origin: ソフェル / Relation: 遺構保存局
 
-- Tone: 遺構・警備 / ReviewStatus: 採用済み
+- Tone: 遺構・警備 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 用心深く公平な番人。帝国を崇拝も一括否定もせず、時代ごとの現物に語らせる。
-- PreservedCanonPoints: 本人は帝国遺構を盗掘と無責任な復元から守り、最盛期の礼拝所、内戦施設、内戦後の拘禁室を時代別に管理した。 / 外見が似ていても用途を混同しなかった。 / 来訪者には記録と現物を示して説明し、危険区画へ入ろうとする者には退路まで含めて警告した。
+- PotentialReferencePoints: 本人は帝国遺構を盗掘と無責任な復元から守り、最盛期の礼拝所、内戦施設、内戦後の拘禁室を時代別に管理した。 / 外見が似ていても用途を混同しなかった。 / 来訪者には記録と現物を示して説明し、危険区画へ入ろうとする者には退路まで含めて警告した。
 
 > 同じ装飾があるから同じ帝国だ、と決めないでください。私は遺構の番人として、最盛期の礼拝所、内戦中の施設、内戦後の拘禁室を時代別に守りました。美しい壁の拘禁室も、簡素な公共礼拝所もあります。来訪者には記録と現物を示し、危険区画へ入る者には退路まで歩かせました。一度、善意の復元班が拘束具を祭具として飾り、止めるのが遅れました。帝国を美化するにも一括で呪うにも、証拠は邪魔なのでしょう。私は邪魔なまま残し、未来の人が私と違う結論へ進めるようにします。
 

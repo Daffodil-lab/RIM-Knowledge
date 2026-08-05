@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C369"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: まだ石板でない
 - Era: JourneyEra / Origin: 混成世代 / Relation: 律法学習会
 
-- Tone: 信仰・形成・訂正 / ReviewStatus: 採用済み
+- Tone: 信仰・形成・訂正 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 落ち着いて訂正を重ねる、断定を避ける丁寧語。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 律法はもう厳格な決まりだったと思われがちですが、それは違います。私が学習会に通っていた頃は、教師役の年長者ですら毎回言うことが少しずつ違いました。混成世代と呼ばれた私たちは、旧い国の儀式と新しい教えを両方教わり、どちらを優先するかは家庭ごとにばらばらでした。ある日、教師が自分の言い間違いを認めて座り直したことがあります。あれが今でも印象的です。決まりが固まる前の、揺れながら形になっていく時期を、私は確かに見ていました。
 

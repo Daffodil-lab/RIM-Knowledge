@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A161"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 評議精密工
 - Era: ModernUnion / Origin: 複数党派 / Relation: 同盟評議会
 
-- Tone: 政治・生活・職歴 / ReviewStatus: 採用済み
+- Tone: 政治・生活・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 几帳面で少し毒舌な精密工。党派ごとの仕様要求を同じ作業台へ並べ、料理だけは諦めている。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自治評議区の工房では、党派ごとに道具の理想が違いました。共同規格を求める者、個人調整を守りたい者、古い帝国式を復元したい者。私は要求を同じ作業台へ並べ、手の大きさと用途へ戻して話しました。旗は部品を締めてくれませんからね。射撃機構も使用者ごとに調整しましたが、安全停止だけは共通です。会議後の食卓では私の料理が最も激しい対立を生みました。以来、鍋は得意な者へ任せています。役割を譲ることも、共同体の精度を上げる方法でしょう。
 

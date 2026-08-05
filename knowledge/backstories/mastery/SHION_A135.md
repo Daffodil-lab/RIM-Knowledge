@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A135"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 空挺農園技師
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟空挺軍
 
-- Tone: 空挺・友情・職歴 / ReviewStatus: 採用済み
+- Tone: 空挺・友情・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 陽気な空挺帰還者。農園の列を降下合図に使い、仲間を探す声と最初の収穫を結びつける。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 空挺基地の共同農園を任されました。降下地点がずれた時、上空から見える畝の色を集合合図に使ったんです。新人には作物の列と救護手順を一緒に覚えさせました。昔の降下で、暗闇の中から最初に仲間の声が返った瞬間を今も覚えています。帰還後、同じ仲間と植えた種は半分しか芽を出しませんでした。でも残った分を皆で食べた。戦争の友情を美談だけにせず、泥と失敗のある日課へ戻したかったんです。仲間とは一緒に戦える者だけでなく、一緒に季節を待てる者でもありますから。
 

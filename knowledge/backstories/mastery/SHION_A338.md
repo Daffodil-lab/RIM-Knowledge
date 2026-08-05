@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A338"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 居住区家庭教師
 - Era: JourneyEra / Origin: 東側／大河の民 / Relation: 教育共同体
 
-- Tone: 教育・世代・言語 / ReviewStatus: 改稿採用済み
+- Tone: 教育・世代・言語 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 穏やかな家庭教師。数字にこだわって語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 僕が担当した生徒は生涯で二百八人だった。いや、二百九人だ、最後の一人を数え忘れていた。大河の民の言葉を教えられる教師はもう船内に僕しかいなくなっていて、それでも生徒の大半はその言葉を使う機会もなく育った。三人だけ、故郷の子守唄を最後まで覚えてくれた。多いとは言えない数字だけど、僕はその三人のために残りの生涯を使った。二百九人のうち三人、それで十分だと思っている。
 

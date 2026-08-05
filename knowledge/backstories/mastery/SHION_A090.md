@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A090"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 時間災害工兵
 - Era: EraIndependent / Origin: 無党派 / Relation: 星域災害隊
 
-- Tone: 工兵・救難 / ReviewStatus: 採用済み
+- Tone: 工兵・救難 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: せっかちな救難工兵。因果の逆転にも動じず、残り時間の少ない者から助ける。
-- PreservedCanonPoints: 本人は崩壊する時間区画へ入り、まだ起きていない爆発の瓦礫から避難路を掘った。 / 敵味方の識別より先に、最も短い主観時間しか残らない者を救った。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
+- PotentialReferencePoints: 本人は崩壊する時間区画へ入り、まだ起きていない爆発の瓦礫から避難路を掘った。 / 敵味方の識別より先に、最も短い主観時間しか残らない者を救った。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
 
 > 崩壊する時間区画へ入り、まだ起きていない爆発の瓦礫から避難路を掘りました。説明しづらい？　現場では順番より重さを見ればいいんです。瓦礫は重い、閉じ込められた者には時間がない。敵味方の識別は後回しにして、残る主観時間が最も短い者から運びました。救出後に爆発を止めたので、報告書の順序はずいぶん揉めましたよ。私は文章より先に坑道を開けます。誰かが生きて出た後なら、因果の並べ替えにはいくらでも付き合えますから。工兵の仕事は歴史を美しくすることではなく、出口を作ることです。
 

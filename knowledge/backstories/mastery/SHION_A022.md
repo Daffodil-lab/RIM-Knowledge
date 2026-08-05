@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A022"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 破門校正官
 - Era: EraIndependent / Origin: ソフェル離脱者 / Relation: 独立工房
 
-- Tone: 破門・専門倫理 / ReviewStatus: 採用済み
+- Tone: 破門・専門倫理 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 反骨的だが慎重。破門を勲章にせず、意思ある対象の拒否を守った判断だけを引き受ける。
-- PreservedCanonPoints: 本人は修復対象の拒否を依頼人の命令より優先し、所属していた校正学派から破門された。 / 学派は危険な独断とし、本人は対象へ認めるべき最低限の権利だと主張した。 / 破門後も同じ原則で働いたが、以前の称号は使わなかった。
+- PotentialReferencePoints: 本人は修復対象の拒否を依頼人の命令より優先し、所属していた校正学派から破門された。 / 学派は危険な独断とし、本人は対象へ認めるべき最低限の権利だと主張した。 / 破門後も同じ原則で働いたが、以前の称号は使わなかった。
 
 > 破門されたから正しい、と言ってほしいわけではありません。私は人格記憶の修復で、本人の拒否を依頼人の命令より優先しました。学派は危険な独断とし、私は意思ある者へ認める最低限の権利だと主張した。それで称号を失いました。破門後も原則は変えませんが、昔の称号も正統後継も名乗りません。動物の反応を読む仕事は不得手なので、意思確認を勝手に代行せず専門家へ任せます。依頼を受ける前に、誰が同意でき、誰が停止を求められるかを決める。私が守りたかったのは反抗でなく、その手順です。
 

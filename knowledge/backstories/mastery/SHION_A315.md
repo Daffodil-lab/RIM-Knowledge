@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A315"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 灯守り
 - Era: ColonizationEra / Origin: 探査隊 / Relation: 越冬隊
 
-- Tone: 越冬・灯・忍耐 / ReviewStatus: 改稿採用済み
+- Tone: 越冬・灯・忍耐 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 淡々とした語りが不意に感情へ傾き、また元に戻る探査者。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 探査隊で氷原を三度越えた。装備の手入れ、外部隊員用食糧と共用補給品の配分、燃料の計算、それだけを淡々とこなす仕事だった。……四度目の遠征で、同行者の一人を雪嵐の中に置いてきた。引き返せば全員が失われる計算だった。今もその計算は正しかったと思っている。思っているが、友の名前を呼ぶ癖だけは今も抜けない。すまない、この話はここまでにしたい。装備の点検の話に戻ってもいいだろうか。
 

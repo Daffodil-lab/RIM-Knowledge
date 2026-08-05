@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A074"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: ティクーン公共監査人
 - Era: ModernUnion / Origin: ソフェル / Relation: 同盟公共監査院
 
-- Tone: 改革・実務 / ReviewStatus: 採用済み
+- Tone: 改革・実務 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 無愛想で公正な監査人。「奇跡」という言葉にも領収書と被害記録を要求する。
-- PreservedCanonPoints: 本人は異常現実改変が公共利益へ使われたか監査し、奇跡という呼び名で費用と被害を隠すことを許さなかった。 / 成果が善でも手順を記録した。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
+- PotentialReferencePoints: 本人は異常現実改変が公共利益へ使われたか監査し、奇跡という呼び名で費用と被害を隠すことを許さなかった。 / 成果が善でも手順を記録した。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
 
 > 異常現実改変が公共利益へ使われたか監査していました。「奇跡で都市を直したのだから、費用はない」と言われたことがあります。ありますよ。失われた時間、別の場所へ移った瓦礫、改変から漏れた住民。それらを数えなければ、奇跡という呼び名で被害を隠すだけです。成果が善でも手順を残し、誰が判断し、誰が異議を唱えられたかまで記録しました。一度だけ、世界を直したら監査机が消えたという弁明は認めました。机は本当に消えていましたから。次からは机の位置も改変範囲へ記載させています。
 

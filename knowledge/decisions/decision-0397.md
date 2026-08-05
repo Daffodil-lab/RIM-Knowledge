@@ -56,7 +56,7 @@ sources:
 - 上位索引: [decisions](/decisions/index.md)
 - 同じ出典の前項: [確定#396：装備の抽象指定を装備ファミリー＋非物理ポイントへ簡略化](/decisions/decision-0396.md)
 - 後続決定: [確定#398：α版からCore独自保管・接続基盤を採用する](/decisions/decision-0398.md)
-- 連携境界: [連携境界](/integrations/matter-network/index.md)
+- 終了案件の参考入口: [旧Matter Network統合検討](/reference/matter-network/00-旧統合検討.md)
 - Kombinat領域: [Kombinat領域](/kombinat/index.md)
 - Pawn領域: [Pawn領域](/pawn/index.md)
 - 独立開拓団: [独立開拓団](/colony/index.md)

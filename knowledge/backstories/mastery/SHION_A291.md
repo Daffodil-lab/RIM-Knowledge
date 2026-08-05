@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A291"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 海洋記念園師
 - Era: EraIndependent / Origin: 無党派 / Relation: 観測隊
 
-- Tone: 観測・不可解・職歴 / ReviewStatus: 採用済み
+- Tone: 観測・不可解・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: もの静かな庭園師。故郷の幻を断定せず、死者と帰還者を同じ庭へ迎える。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 海洋観測区の庭には、死者と帰還者の名を分けずに置いた。帰還日には花を加え、所在が変われば札だけ更新したよ。水面へ故郷らしい景色が映った夜、私は最盛期の町だと思った。だが観測員ごとに見た景色が違い、誰も断定できなかった。政治集会ではあの頃の平和を取り戻したいと話す。それでも、私だけが見た故郷を皆の目的へはしない。帰還後、食卓に一つだけ空席が残った。庭はその不在を埋める場所ではなく、帰る者も戻らない者も、私たちの判断を変え続ける場所にしたい。
 

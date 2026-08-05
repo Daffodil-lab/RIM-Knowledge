@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C368"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 先達の数えた星
 - Era: JourneyEra / Origin: 西側／星読みの民 / Relation: 第三居住区画
 
-- Tone: 継承・知性・喪失 / ReviewStatus: 採用済み
+- Tone: 継承・知性・喪失 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 静かで知的、他者の言葉を借りて語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 先達はよく「窓の外の星は数えるものじゃない、覚えるものだ」と言っていました。星読みの民の天文学者だった先達は、視界のわずかな星の並びに故郷の星座を重ねて見せてくれました。私はその言い方が好きで、今でも星を見ると数えずに形を探してしまいます。先達が亡くなる前、最後に見た窓の外には星が二つしかなかったそうです。それでも「十分すぎる眺めだ」と笑っていたと聞きました。私はその言葉だけを、正確に覚えています。
 

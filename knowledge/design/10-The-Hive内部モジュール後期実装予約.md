@@ -41,9 +41,9 @@ The Hiveは例外的な単一中枢構造である。端末や投影体は、独
 
 通常シオン社会の代表、完成形、上位進化、種族全体の秘密の真実にはしない。
 
-## 10.2 旧Shion Nexusからの継承
+## 10.2 保護する構成
 
-旧資料の「案Bハイブ版」を基礎として、次を継承する。
+The Hiveは次の構成を保護する。
 
 - 単一の真の中枢人格
 - Core Projectionを最初の可視・操作身体とする考え
@@ -52,11 +52,7 @@ The Hiveは例外的な単一中枢構造である。端末や投影体は、独
 - Tower／中枢施設へ機能を内包するAlpha縮小案
 - 端末、救護、シールド、物流を段階的に解禁する構造
 
-次は名称と製品境界を変更する。
-
-- 「Core前提の大型外部拡張」から「Core同梱の任意起動モジュール」へ変更。
-- 公開上の別依存MODではなく、Core内Assembly／Defs／Feature Flagへ変更。
-- Kombinatを独自複製せず、Core常駐Runtimeへ接続。
+製品境界はCore同梱の任意起動モジュールとし、Core内Assembly／Defs／Feature Flagで有効化する。生産と流通はKombinatの公開契約へ接続する。
 
 ## 10.3 有効化条件
 
@@ -114,7 +110,6 @@ Alpha 0.1では中枢建築に台帳表示、格納、Worker出力、救護／�
 - 同じ出典の次項: [11. Red Star（製品境界保留）](/design/11-Red-Star製品境界保留.md)
 - Kombinat領域: [Kombinat領域](/kombinat/index.md)
 - Pawn領域: [Pawn領域](/pawn/index.md)
-- バックストーリー群: [バックストーリー群](/backstories/index.md)
 - 正史: [正史](/world/index.md)
 
 ## 出典

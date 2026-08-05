@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A252"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 帰還港仮設建築
 - Era: ModernUnion / Origin: 無党派 / Relation: 帰還者支援局
 
-- Tone: 戦争・時間・職歴 / ReviewStatus: 採用済み
+- Tone: 戦争・時間・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 素朴で実直な建築士。帰還者の経過時間や身体更新歴の差を測らず、今の動線だけを測る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帰還兵港では、同じ日に出た二人がまるで違う年齢で戻る。私は年齢を揃える方法ではなく、その日の身体が休める仮設住宅を作った。古い命令に従う配置は捨て、本人が歩くのを見て扉と寝台を動かしたよ。友が帰った時、私よりずっと老いて見えた。誰も笑えず、何を言えばよいかも分からなかった。彼は沈黙したまま、窓を少し低くしてほしいと頼んだ。私は測って直した。再会は昔の話を取り戻すことだけではない。今の相手が外を見やすい高さを尋ね、同じ部屋で新しい沈黙を過ごすことでもあるんだ。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A138"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 透明区公共壁画
 - Era: LongTransition / Origin: 旧党派 / Relation: 計画共同体
 
-- Tone: 制度・個人・職歴 / ReviewStatus: 採用済み
+- Tone: 制度・個人・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 皮肉好きの壁画家。全てが見える街で、見せない権利を空白とずれた時計として描く。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 透明居住区では、記録も壁も隠さないことが美徳でした。私は公共壁画へ住民の証言を描きましたが、話したくない部分は空白のまま残しました。空白を不正確だと批判され、そこへ規則正しい時計を並べ、その中の一つだけ時刻をずらしたんです。皆が同じ時間に見えても、私的な記憶は同時に進みません。ある友は蘇生後、昔の証言を撤回しました。私は元の絵を消さず、現在の言葉を隣へ描いた。記録を守るとは、過去の発言で本人を永遠に縛ることではないでしょう。
 

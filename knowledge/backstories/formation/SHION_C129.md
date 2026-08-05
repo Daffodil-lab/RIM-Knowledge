@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C129"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 配給区種子番
 - Era: PostCivilWarEmpire / Origin: 旧帝国 / Relation: 内戦後帝国
 
-- Tone: 生活・基幹・形成 / ReviewStatus: 改稿採用済み
+- Tone: 生活・基幹・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 反抗的な種子番 / 建物より発芽を優先 / 配給制度に不信 / 隣人の遊び心を愛す
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 配給区では、倉庫の外観を直す資材はあっても、発芽床を直す許可がありませんでした。内戦後の帝国らしいでしょう。私は種子の来歴と条件を記し、壁の補修命令を避けて水路へ資材を回した。建築規則には今も近づきたくありません。隣の番人は、配給にもならない花を一鉢だけ育てていました。無駄だと叱られても、毎朝色の違いを私へ報告したんです。豊かさとは在庫量だけではない。必要のない花を誰にも隠さず楽しめることだと、私はあの人から教わりました。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C252"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 海面壁画大会
 - Era: EraIndependent / Origin: 無党派 / Relation: 観測隊
 
-- Tone: 観測・不可解・形成 / ReviewStatus: 採用済み
+- Tone: 観測・不可解・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 情熱的な絵描き。食い違う証言を一枚へ押し込まず、並べて残す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 海洋観測区の壁画大会で、私は水面に現れた故郷らしい街を描きました。ところが証言を集めるほど、塔の数も空の色も合わなくなった。審査員は一つの景色にまとめろと言いましたが、私は壁を区切って全員の街を並べました。高い場所を塗るための身体訓練までして、ずいぶん転びましたね。観測対象が見せたものか、私たち自身の記憶かは今も分かりません。優勝は逃しましたが、友は自分の故郷を見つけて泣きました。同じ過去へ戻れなくても、違う記憶が隣り合える壁なら作れると思ったんです。
 

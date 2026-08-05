@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C283"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 多名の地下街
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 都市記録局
 
-- Tone: 都市・旅・形成 / ReviewStatus: 採用済み
+- Tone: 都市・旅・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 記憶力のよい採掘手。地図の正しさより、住民それぞれの呼び名を尊重する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 移動都市の地下区画が崩れた時、地図にある名と住民の呼ぶ名が違っていました。「古井戸通り」と「第三配管路」が同じ場所だと気づくまで、救助が遅れかけたんです。私は振動を読み、証言ごとの呼び名を壁へ絵で刻みながら細い道を掘りました。中から救った人は、もう存在しない路地の曲がり方を冗談で教えてくれました。都市が移れば正式名は変わります。でも身体が覚えた街は消えません。それから地図には、正しい名を一つだけ書かず、そこで暮らした人の呼び方も残すようにしています。
 

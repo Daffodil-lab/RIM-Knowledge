@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A179"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 山岳区徒手警護
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 連合連絡隊
 
-- Tone: 革命・友情・職歴 / ReviewStatus: 採用済み
+- Tone: 革命・友情・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 豪胆な橋守。武器を抜かず党派間の喧嘩を止め、連絡動物と救助競技を開く。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 山岳連絡区の橋を守り、党派の違う部隊が喧嘩すれば武器を抜く前に抱えて離しました。力仕事は得意です。連絡動物の扱いは、動物の方が私を訓練したと言うべきでしょう。平時には救助競技を開き、橋上搬送と動物誘導を互いに教えました。遠くの鐘が仲間の死を知らせた夜、競技の表彰台を食卓へ変えました。空いた席は残しましたよ。誰の旗のためでもなく、孤立した住民へ道をつなぐ。それが橋守の勝敗です。帰還者が一人増えれば、私は何度でも負け役になります。
 

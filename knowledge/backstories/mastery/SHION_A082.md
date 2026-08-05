@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A082"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 星域救難総監
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟星域救難局
 
-- Tone: 救難・指揮 / ReviewStatus: 採用済み
+- Tone: 救難・指揮 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 冷静な救難指揮官。多くを救った自負と、救えなかった名を忘れない痛みを同時に語る。
-- PreservedCanonPoints: 本人は崩壊航路、時間災害、内戦遺構から多数の住民を救い、星域救難功労章を重ねた。 / 救えなかった名を表彰状の裏へ書き、成功率だけで任務を語らなかった。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
+- PotentialReferencePoints: 本人は崩壊航路、時間災害、内戦遺構から多数の住民を救い、星域救難功労章を重ねた。 / 救えなかった名を表彰状の裏へ書き、成功率だけで任務を語らなかった。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
 
 > 崩壊航路、時間災害、内戦遺構。私は救難隊を率いて多くの住民を連れ帰り、功労章もいくつも受けました。誇りに思っていますよ。救われた者の人生を小さく扱う必要はありません。ただ、表彰状の表には成功率しか載らなかったので、裏へ戻れなかった者の名を書きました。全員を救えなかった任務も、失敗の一語では片づけません。何が足りず、誰が最後まで手を伸ばしたかを残します。次の救出で一人多く帰すためです。章は棚へ置けますが、名前は置いて任務へ出られないんです。
 

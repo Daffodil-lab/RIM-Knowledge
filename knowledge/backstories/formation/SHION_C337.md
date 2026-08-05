@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C337"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 三つの言語
 - Era: JourneyEra / Origin: 西側／作られた民族 / Relation: 家族mesh第七世帯
 
-- Tone: 言語・食卓・混成 / ReviewStatus: 採用済み
+- Tone: 言語・食卓・混成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 早口で快活。話があちこち飛ぶが本人は気にしない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > あたしは作られた民族、文化継承第三期よ。うちの食卓には三つのことが同時にあったの。まず言葉。初期継承者の言葉、次期継承者の言葉、それと甲板で形成期を過ごした子供たちだけの言葉。次に匂い。保存食を戻す匂いは各世帯で全然違ってた。最後に喧嘩。どの言葉で挨拶するかで毎晩もめてた。あたしは結局三つとも覚えて、相手によって使い分けるのが得意になった。おかげで通訳係を任されて、揉め事の仲裁にもよく駆り出されたわ。三つの言語を持つ子供は、三倍面倒で三倍得だった。
 

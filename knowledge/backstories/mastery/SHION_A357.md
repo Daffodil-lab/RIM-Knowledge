@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A357"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 准備評議整理
 - Era: JourneyEra / Origin: 帝国准民候補 / Relation: 帝国准備評議会
 
-- Tone: 行政・混乱・要求 / ReviewStatus: 採用済み
+- Tone: 行政・混乱・要求 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: せっかちな整理係。最後に直接的な依頼をする。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帝国という名前が正式に決まる前、評議会には十以上の候補名があって、私はその全部の書類を作り直す係だった。名前が変わるたびに印章も紋章案も作り直しで、正直うんざりしていた。最終的に決まった名前の書類だけが残り、それ以外は処分されたはずだ。私の徹夜の山はほとんど誰の記憶にも残っていないだろう。だから一つだけ頼みがある。次に誰かがこの話をまとめるときは、名前が一発で決まったみたいに書かないでほしい。十回以上揉めたんだ。
 

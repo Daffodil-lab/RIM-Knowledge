@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A314"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 土地選定者
 - Era: ColonizationEra / Origin: 第一次入植 / Relation: 農地班
 
-- Tone: 開拓・土壌・選定 / ReviewStatus: 採用済み
+- Tone: 開拓・土壌・選定 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 上機嫌で自慢げに語る、土地選びの名人。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自慢していいなら言わせてもらう、最初の百区画のうち作物が根付いたのは私が選んだ土地だけだった。帝国の入植計画で送られた農地班は誰もが同じ低地を選びたがったが、私だけは水はけの悪さを見抜いて少し高い痩せ地を選んだ。皆に笑われたが、雨季が来て低地が水浸しになったとき、笑っていた顔が真っ青になったのを覚えている。あの年の収穫は私の区画だけで賄えた。今でも新しい入植者には同じことを教えている、いい土より水はけを見ろ、と。
 

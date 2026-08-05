@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A126"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 扶助区公共壁画
 - Era: LongTransition / Origin: 社会民主党系 / Relation: 自治共同体
 
-- Tone: 共同体・倫理・職歴 / ReviewStatus: 採用済み
+- Tone: 共同体・倫理・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 熱心で非力な壁画家。畑仕事から逃げがちだが、共有物に残る一人ずつの手跡を全身で描く。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 相互扶助区の壁へ、共同体の歴史を描きました。同じ出来事でも証言は違います。誰かには勝利、誰かには失った収穫日だった。私は一枚へ塗り潰さず、視点ごとに色と高さを変えました。共有工具も、よく見ると一人ずつ違う握り傷があります。それを大きく描いたんです。畑当番はどうしたのかって？　絵具を運ぶだけで腰を痛める私へ任せる方が危険ですよ。皆も諦め、壁の下へ小さな花壇を作ってくれました。私は水やりだけ手伝い、枯らす前に必ず詳しい者を呼びました。
 

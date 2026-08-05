@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C105"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: Kombinat菜園育ち
 - Era: ModernUnion / Origin: 無党派 / Relation: Kombinat共同体
 
-- Tone: 工業・保守・形成 / ReviewStatus: 改稿採用済み
+- Tone: 工業・保守・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 快活な世話役 / 共同作業好き / 手作業を楽しむ / 豊かさの共有を望む
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > Kombinatで一番好きだった機械？　灌水機ではなく、古い手押しポンプです。止まったら皆で直せますから。共同菜園では土、水、光を測り、収穫量だけでなく「故障した夜に誰が扱えるか」まで当番表へ入れました。大停止の晩は評議員も見習いも泥だらけで、手渡しで水を運んだ。あの一体感を美化し過ぎるな、と言われればその通りです。でも翌朝の葉の匂いは、今でも私を元気にします。昔の制度ではなく、明日の食卓を疑わずに済む暮らしを、もっと多くの者と作りたいんです。
 

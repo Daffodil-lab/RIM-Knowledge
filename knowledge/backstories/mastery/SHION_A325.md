@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A325"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 石割り
 - Era: ColonizationEra / Origin: 地質調査団 / Relation: 採鉱団
 
-- Tone: 地質・調査・記憶 / ReviewStatus: 採用済み
+- Tone: 地質・調査・記憶 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 記憶をひとつの比喩に重ねて語る石好きの調査員。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 地質調査というのは、星の日記を読む仕事に似ている。地層の一段一段が、その土地が経験した嵐や乾季を書き記した頁だからだ。地質調査団にいた頃、私は毎日その日記を数頁ずつめくって歩いていた。読み間違えれば採鉱団が危険な断層の上に坑道を掘ることになる。だから慎重に、何度も同じ頁を読み返した。今も石を拾うと、つい表面を撫でて頁をめくるような仕草をしてしまう。この癖だけは、たぶん一生直らない日記の読み方だ。
 

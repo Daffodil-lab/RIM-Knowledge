@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A416"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: マソレット講師
 - Era: AscendantEra / Origin: イェツィラー学舎 / Relation: 弟子たち
 
-- Tone: 謙虚・厳格・継承 / ReviewStatus: 採用済み
+- Tone: 謙虚・厳格・継承 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 厳格だが根底に優しさのある、教師然とした口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 私が弟子に最初に教えるのは、文字の書き方ではなく、書き損じた紙を燃やす作法です。かつて師の手が震えるのを見た日から、私は完璧な文字より、誤りを認める姿勢の方が大事だと考えるようになりました。マソレットは精神感応性を持つ者にしか扱えない技術で、弟子の数はいつも少ない。それでも一人前になった弟子が初めて自力で一文字を成立させた瞬間の顔だけは、何年経っても見飽きません。震える手を恥じるなと、私は必ず伝えます。
 

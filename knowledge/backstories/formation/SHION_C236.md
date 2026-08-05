@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C236"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 評議区持ち寄り膳
 - Era: ModernUnion / Origin: 複数党派 / Relation: 同盟評議会
 
-- Tone: 政治・生活・形成 / ReviewStatus: 採用済み
+- Tone: 政治・生活・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 世話好きで少しお節介。政治的対立を食卓の席順と体調から見ている。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 評議区の持ち寄り膳では、社会民主党の煮込みの隣へ共産党のパンが置かれ、元ファシストの漬物だけ少し離されていました。私は席を詰め、食べられない物と、食べたくない物を一人ずつ聞きました。会議では言い争う人も、追悼の名が読まれる時は同じように黙ったものです。再会した友は昔と同じ料理を持ってきましたが、味付けは変わっていました。私は前の方が好きだと言えなかった。長く生きても、同じ食卓は二度と作れません。だからせめて、違う来歴の者が明日も座れる席だけは空けておきたいのです。
 

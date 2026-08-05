@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C055"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 錆雨傘直し
 - Era: EraIndependent / Origin: 無党派 / Relation: 辺境市場
 
-- Tone: 工芸・天候 / ReviewStatus: 採用済み
+- Tone: 工芸・天候 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 色彩豊かな修理屋 / 雨音へ反応 / 故郷の印を守る / 会話を惜しむ
-- PreservedCanonPoints: 金属を腐食させる雨季、本人は傘の骨と外套を直した。 / 修理した傘には持ち主の故郷の色を一筋残し、次の雨で消えても塗り直した。 / 空模様より帰る目印を守る仕事だった。
+- PotentialReferencePoints: 金属を腐食させる雨季、本人は傘の骨と外套を直した。 / 修理した傘には持ち主の故郷の色を一筋残し、次の雨で消えても塗り直した。 / 空模様より帰る目印を守る仕事だった。
 
 > 錆雨の音は細かい砂を撒くようでした。傘の骨も外套の留め具も一季で腐る。私は継ぎ材を削り、持ち主の故郷の色を縁へ一筋だけ塗りました。次の雨で消えても、また塗る。遠くから自分の傘を見つけられれば、帰る方向を思い出せると言う人がいたからです。最後に直した青い傘の持ち主とは、受取時にほとんど話しませんでした。翌週には雨へ消えた。今なら色の由来を尋ねます。ソフェル、修理とは壊れない物を作ることだけではない。消えると知りながら目印を描き直す仕事もあるんです。
 

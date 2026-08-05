@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C112"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 水没観測射撃
 - Era: PostCivilWarEmpire / Origin: 旧帝国 / Relation: 内戦後帝国
 
-- Tone: 観測・不可解・形成 / ReviewStatus: 採用済み
+- Tone: 観測・不可解・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 内省的な射手 / 命令への不信 / 水面を凝視する癖 / 射撃を趣味としても愛す
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 水没観測所の射場は、標的より水面を見ている時間の方が長かった。反射に故郷らしい街が映るたび、誰かが帝国領だ、誰かが異常だと言った。でも私は断定できませんでした。内戦後の命令書は律法の形をしていても、弾薬の行き先も処罰の理由も曖昧でしたから、確認できない標的には撃たないと決めたんです。それでも射撃そのものは好きでしたよ。友と精度を競い、終われば銃を同じ順番で戻した。強くなる楽しさと、命令へ従うことは別です。その区別だけは、水より濁らせたくありません。
 

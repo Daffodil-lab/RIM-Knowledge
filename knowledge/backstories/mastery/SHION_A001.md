@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A001"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 地区設備技師
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟公共設備局
 
-- Tone: 技術・公共奉仕 / ReviewStatus: 採用済み
+- Tone: 技術・公共奉仕 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 控えめで頑固な保守技師。発明より、住民が故障に気づかない一日を誇る。
-- PreservedCanonPoints: 本人は集合居住区の電力、水、暖房、熱交換設備を担当する技師となった。 / 定期点検の計画を立て、故障時には苦情の順ではなく被害が広がる順に修理した。 / 設備更新では古い規格を一度に捨てず、住民が生活を続けながら交換できる手順を作った。
+- PotentialReferencePoints: 本人は集合居住区の電力、水、暖房、熱交換設備を担当する技師となった。 / 定期点検の計画を立て、故障時には苦情の順ではなく被害が広がる順に修理した。 / 設備更新では古い規格を一度に捨てず、住民が生活を続けながら交換できる手順を作った。
 
 > 私の仕事ですか。集合居住区の水と電力、暖房、熱交換器を止めないことです。苦情の大きな区画から直すと、声を上げられない住民が後回しになります。だから被害が広がる順に歩きました。古い規格を一度に外せば美しい設備になりますが、その間の暮らしは美しく止まります。住民が使い続けられるよう、一系統ずつ交換しました。現代同盟だけでも気が遠くなる時間があり、規格はまだ統一されません。笑って構いませんよ。私の誇りは発明ではなく、誰も私を呼ばずに済んだ一日です。
 

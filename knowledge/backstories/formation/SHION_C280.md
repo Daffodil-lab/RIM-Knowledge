@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C280"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 答えなき護衛教室
 - Era: LongTransition / Origin: 無党派 / Relation: 長い過渡期
 
-- Tone: 教育・継承・形成 / ReviewStatus: 採用済み
+- Tone: 教育・継承・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 素直だが自立心が強い。教師の答えより、守る対象へ問い続ける姿勢を継ぐ。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 継承教室では、古い世代から射撃と護衛の手順を学びました。休憩中は庭を育て、季節を待つ競争もしました。最後の授業で先生は「誰を守るべきか」と問い、答えを言わずに去りました。私は何年も、同盟か、全人類か、目の前の友かと考えました。今も一つには決められません。ただ、教えをそのまま答えにすれば、先生が伏せた意味まで失うでしょう。だから護衛のたび、守られる本人へ何を望むか尋ねます。知識を継ぐとは、古い結論を保存することではなく、問いを次の現場で開き直すことだと思います。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A335"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 甲板機関整備
 - Era: JourneyEra / Origin: 東側／凍土の民 / Relation: 機関整備班
 
-- Tone: 技術・忠誠・継承 / ReviewStatus: 改稿採用済み
+- Tone: 技術・忠誠・継承 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: ぶっきらぼうな機関整備工。感情より工具の摩耗で語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 俺の仕事は単純だ。機関の心臓部を止めないこと、それだけだった。凍土の民として旧極北圏から乗った先達の手袋を継いで、同じ指の跡がついた場所を俺も握っていた。焦げた金属の匂いを感じると、今でも先達の作業着を思い出す。四十年の勤務のうち不具合は三度出したが、三度とも自分の判断ミスだと正直に書いた。ごまかせば次に触る奴が同じ穴に落ちる。先達の手袋はもうぼろぼろだが、俺はまだ同じ場所を握っている。それだけが俺の誇りだ。
 

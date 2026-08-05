@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A061"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 人格連続性医
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟復活医療院
 
-- Tone: 医療・倫理 / ReviewStatus: 採用済み
+- Tone: 医療・倫理 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 慎重な臨床医。本人の沈黙を尊重し、家族の愛情にも静かに境界線を引く。
-- PreservedCanonPoints: 本人は蘇生後の記憶欠損を治療しながら、欠けた部分を家族の望む物語で埋めないよう注意した。 / 戻った者が誰であるかを、本人より先に決めなかった。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
+- PotentialReferencePoints: 本人は蘇生後の記憶欠損を治療しながら、欠けた部分を家族の望む物語で埋めないよう注意した。 / 戻った者が誰であるかを、本人より先に決めなかった。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
 
 > 蘇生後の記憶欠損を治療していました。家族は善意から「この人はこうだった」と空白を埋めようとします。好きだった食事、交わした約束、昔の口癖。それが正しくても、戻った本人の記憶とは限りません。私は家族の証言と本人が思い出したことを別の欄へ記し、どちらを受け入れるか本人が決めるまで待ちました。時には、以前と違う答えを選ぶこともあります。治療は昔の人物を完成させる作業ではないんです。欠けたままでも、今ここにいる者が自分の続きを選べるよう支えることだと考えています。
 

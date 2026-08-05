@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A250"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 塔域射撃教官
 - Era: ModernUnion / Origin: 無党派 / Relation: 塔域共同体
 
-- Tone: 塔・記録・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 塔・記録・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 競技好きの射撃教官。静かな塔で、観察と謝罪の速さを何より重視する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 塔域の射撃大会では、命中数より識別へ点を付けた。端末に映るアロンの投影、独立した人格、ただの標的映像を見分け、分からなければ撃たない。待つ間、私は窓辺で小さな植物を育てた。候補生には退屈だと不評だったが、静かな塔では退屈に耐える者が事故を減らす。昔、友の短い挨拶を無視し、後で謝ればよいと思った。その後、長く会えなかった。だから今は誤認を訂正する速さと、傷つけた時に謝る速さも競技へ入れている。時間が多いことは、先延ばしの免罪符にはならないよ。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C413"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 灯火番
 - Era: GrowthEra / Origin: 律法学舎 / Relation: 学舎の老学匠
 
-- Tone: 静謐・敬意・継承 / ReviewStatus: 採用済み
+- Tone: 静謐・敬意・継承 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 静かで丁寧、間を大切にする落ち着いた口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 学舎の夜、写本机の灯りを絶やさないことが私の役目でした。老学匠たちが律法の言葉を書き写す横で、油を注ぎ足し、芯を整える。何を書いているのか私には読めませんでしたが、指の動きの丁寧さだけは子どもにも分かりました。ある晩、老学匠の一人が「灯りが消えなければ、言葉も途切れない」と教えてくれたことがあります。その言葉の意味は今もよく分かりませんが、灯りを絶やさないという仕事の重みだけは、あの夜からずっと私の中に残っています。
 

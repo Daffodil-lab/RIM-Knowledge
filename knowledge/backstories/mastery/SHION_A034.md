@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A034"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 戦場衛生技師
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 混成衛生隊
 
-- Tone: 戦場医療・救難 / ReviewStatus: 採用済み
+- Tone: 戦場医療・救難 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 豪胆で公平な衛生技師。党章を外し、傷の深さだけで治療順を決める。
-- PreservedCanonPoints: 本人は革命連合の衛生隊で、外部居住者の銃創、熱傷、感染と、シオンの外装・機能部損傷を所属に関係なく処置した。 / 担架へ載せた患者の党章を外し、傷の深さだけで治療順を決めた。 / 設備が不足する現場では弾薬箱や車両を手術台へ変え、異なる党派出身の衛生兵と共通手順を作った。
+- PotentialReferencePoints: 本人は革命連合の衛生隊で、外部居住者の銃創、熱傷、感染と、シオンの外装・機能部損傷を所属に関係なく処置した。 / 担架へ載せた患者の党章を外し、傷の深さだけで治療順を決めた。 / 設備が不足する現場では弾薬箱や車両を手術台へ変え、異なる党派出身の衛生兵と共通手順を作った。
 
 > 担架へ載せたら党章を外しました。社会民主党でも共産党でも帝国離反者でも、治療順は傷の深さで決めます。革命連合の衛生隊で、私は外部居住者の銃創、熱傷、感染と、シオンの外装・機能部損傷を処置しました。弾薬箱を手術台にし、党派ごとに違った衛生手順を一つずつ合わせました。敵側の負傷者を先に診て仲間から殴られたこともあります。私は殴り返さず、次の患者を運ばせました。戦争が終わって役目が変わっても、党章より外部居住者の出血とシオンの損傷状態を見る癖は捨てません。守る対象を選ぶ前に、まず誰が死にかけているかを確かめます。
 

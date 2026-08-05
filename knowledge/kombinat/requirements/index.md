@@ -35,14 +35,14 @@
 - [CUR-004 初期化](cur-004.md) — MUST: 独立開拓団開始時に一回だけProfile残高を適用し、途中失敗で部分残高を残さない。
 - [CUR-005 所在](cur-005.md) — PENDING: αのAccount scope、複数Mapからの利用、Map wealthへの算入方法は実装前に確定する。
 - [CON-001 観測範囲](con-001.md) — MUST: Kombinat自身のBuffer、Factory、Core API、正式な上流APIから得たeventだけを消費集計へ使う。
-- [CON-002 不明表示](con-002.md) — MUST: Matter Network内部の全消費を観測できない場合は、不明範囲を明示する。
+- [CON-002 不明表示](con-002.md) — MUST: Core Storageの公開eventで観測できない消費範囲を不明として明示する。
 - [CON-003 流通目標](con-003.md) — MUST: Storage在庫とFacility需要について最低量、目標量、優先度を設定できる。
-- [CON-004 上流設定](con-004.md) — MUST: Matter NetworkのFilter、Disk、IO Port設定をKombinatから直接変更しない。
+- [CON-004 上流設定](con-004.md) — MUST: Core StorageのFilter、容量、Endpoint設定はCoreの公開契約で所有する。
 - [SAV-001 状態](sav-001.md) — MUST: Request、Pattern version、Plan summary、Job、Batch、Buffer、Output Claim、Account、Transaction、Consumption aggregateを保存する。
-- [SAV-002 非複製](sav-002.md) — MUST: Matter Network内部状態をKombinatセーブへ複製しない。
+- [SAV-002 非複製](sav-002.md) — MUST: KombinatセーブはKombinat固有状態とCore取引参照だけを保持する。
 - [SAV-003 途中保存](sav-003.md) — MUST: 材料待ち、入力予約後、処理中、出力容量待ち、Commit前後、通貨保留中に保存・ロードできる。
 - [SAV-004 同一ビルド](sav-004.md) — MUST: α／βでは同一ビルドの保存往復を保証する。
-- [PERF-001 Event駆動](perf-001.md) — MUST: Queue、Factory、Buffer、Accountの変化をeventで処理し、毎tick全Job・全Recipe・Matter Network内部在庫を走査しない。
+- [PERF-001 Event駆動](perf-001.md) — MUST: Queue、Factory、Buffer、Accountの変化をeventで処理し、定常処理を索引と有界Queueから実行する。
 - [PERF-002 Planner](perf-002.md) — MUST: 一Planを最大200 node、100 ms以内、または一frame 4 ms以下の分割処理で終える暫定目標を持つ。
 - [PERF-003 長期](perf-003.md) — MUST: 60,000 tickの連続生産で、StorageのThing差分0、予約漏れ0、二重完了0、未回収終端処理0を確認する。
 - [PERF-004 保存](perf-004.md) — MUST: 500 Job、2,000 Batch履歴、10,000 Buffer Thingの保存・ロード時間、ファイル増分、GC allocationを記録する。

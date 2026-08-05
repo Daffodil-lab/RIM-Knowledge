@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C238"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 遅い時計
 - Era: ImperialPeak / Origin: 旧帝国 / Relation: 最盛期帝国社会
 
-- Tone: 制度・個人・形成 / ReviewStatus: 採用済み
+- Tone: 制度・個人・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 礼儀正しく悠長。効率より、衰えた者自身の歩調を守ることを選ぶ。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 最盛期の共同居住区には、街の時刻よりいつも遅い時計が一つありました。役目を終えた老いた動物の歩調に合わせ、世話係がわざと遅らせていたんです。私は律法どおりの日課を守りながら、その動物が立ち止まれば一緒に待ちました。急げばもっと多くを学べる、と先生には言われました。でも豊かな社会とは、遅い者を置いていかずに済む社会でしょう。のちに蘇った友と再会した時も、私は昔の関係を急いで取り戻そうとしませんでした。今でも待ち合わせには、あの時計を使います。たいてい私の方が早く着きますが、それでいいのです。
 

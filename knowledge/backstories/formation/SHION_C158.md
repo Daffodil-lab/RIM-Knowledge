@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C158"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: Kombinat再会窓口
 - Era: LongTransition / Origin: 無党派 / Relation: 長い過渡期
 
-- Tone: 工業・保守・形成 / ReviewStatus: 採用済み
+- Tone: 工業・保守・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 工程表で考える受付役 / 説明が平易 / 地下区画に詳しい / 関係を手作業で戻す
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > Kombinatの再会窓口では、記憶差を故障表のように扱うな、と最初に教わりました。それでも私は工程図が得意なので、専門外の者にも読める説明へ直し、地下待合所の空洞図まで覚えた。大停止の夜、皆で手作業へ戻した時に蘇生した友もいました。私たちは昔の役割へ戻ろうとして、すぐ衝突したんです。機械なら同じ部品を入れれば動く。でも関係はそうではない。今は互いの不在時間を未解決欄に残し、話せる日だけ少しずつ埋めています。再会にも手作業の期間が必要なんですよ。
 

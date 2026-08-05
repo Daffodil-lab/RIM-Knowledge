@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C341"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 逃げてない
 - Era: JourneyEra / Origin: 西側／流浪の民 / Relation: 通信班見習い
 
-- Tone: 通信・孤立・弁明 / ReviewStatus: 採用済み
+- Tone: 通信・孤立・弁明 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 早口で言い訳がましいが、根は誠実。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 逃げたわけじゃないんだ、僕は。通信班の見習いだった十歳のとき、遠方区画の応答が三日途絶えたことがあって、僕は怖くて交信室に近づけなかった。仲間は僕を臆病者だと言った。でも考えてみてほしい、機材の扱いも知らない子供が下手に触ったら本当に応答が戻らなくなるかもしれなかったんだ。結局、応答は班長が復旧させた。流浪の民の文化を継いだ僕の育ての親は、慎重さも勇気の一種だと言って庇ってくれた。だから僕は、あの三日間を後悔していない。
 

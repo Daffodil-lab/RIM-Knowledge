@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A013"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 書庫復元員
 - Era: EraIndependent / Origin: 無党派 / Relation: 復元書庫網
 
-- Tone: 学術・工芸 / ReviewStatus: 採用済み
+- Tone: 学術・工芸 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 静かな復元員。完成を急がず、読めない頁を読めないまま返すことに責任を持つ。
-- PreservedCanonPoints: 本人は焼けた頁、破損した記憶媒体、重複する索引から書庫を復元した。 / 欠落を想像で埋めず、別資料で確認できた箇所と推定した箇所を明確に分けた。 / 完成できない本も廃棄せず、失われた範囲が分かる形で棚へ戻した。
+- PotentialReferencePoints: 本人は焼けた頁、破損した記憶媒体、重複する索引から書庫を復元した。 / 欠落を想像で埋めず、別資料で確認できた箇所と推定した箇所を明確に分けた。 / 完成できない本も廃棄せず、失われた範囲が分かる形で棚へ戻した。
 
 > 焼けた頁を直せても、そこに無かった言葉まで書く権利はありません。私は破損した記憶媒体と重複する索引を照合し、確認できた箇所と推定を別の色で残しました。完成しない本も棚へ戻します。以前、物語の流れが美しくなる一文を補い、別資料で誤りだと分かったことがあります。読者は喜んでいたので、訂正するのが怖かった。それでも補った手を明記して戻しました。空白は復元員の敗北ではありません。未来の誰かが、私より確かな断片を見つけられる場所です。
 

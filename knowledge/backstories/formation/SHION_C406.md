@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C406"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 使い走り
 - Era: ColonizationEra / Origin: 医療補給隊 / Relation: 看護士長
 
-- Tone: 実直・献身・忠義 / ReviewStatus: 採用済み
+- Tone: 実直・献身・忠義 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 何かを頼むような落ち着いた口調、実務的な言葉に感情を静かに滲ませる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > ひとつお願いがあります。もし私の話を記録に残すなら、看護士長の名前も一緒に書いてほしいのです。私は薬箱を担いで開拓地の間を走り回るだけの子どもでしたが、看護士長はどの薬をどの順番で届けるべきか、いつも冷静に教えてくれました。走りながら薬品名を覚え、症状の重さで足を速める判断も自分でできるようになりました。あの人の名前が記録から消えるのだけは嫌なんです。
 

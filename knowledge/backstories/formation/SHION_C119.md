@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C119"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 装甲救援工具係
 - Era: ModernUnion / Origin: 無党派 / Relation: 装甲突撃隊
 
-- Tone: 装甲・救援・形成 / ReviewStatus: 採用済み
+- Tone: 装甲・救援・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 実務的な工具係 / 装甲を時間と捉える / 名を読む時だけ厳粛 / 救出者の息を覚える
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 装甲は勇敢さの証ではありません。危険が避難者へ届くまで、数秒を買う道具です。私は救援隊の工具係として、使い手の癖に合わせて把手を削り、照準器のずれを確かめました。ソフェル形成課程では、修理記録と戻らなかった者の名を同じ熱心さで読むよう教わった。実地で盾の内側へ一人を収めた時、聞こえたのは感謝ではなく、ようやく吐けた長い息でした。私はその音を勲章より信じます。故郷を再建するなら、立派な外壁より、誰かが安心して息を吐ける内側を先に作りたい。
 

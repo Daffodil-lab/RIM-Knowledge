@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C186"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 計画都市余白住宅
 - Era: LongTransition / Origin: 無党派 / Relation: 長い過渡期
 
-- Tone: 都市・福祉・形成 / ReviewStatus: 採用済み
+- Tone: 都市・福祉・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 即興派の建築生 / 完成図を疑う / 理論より住民動線 / 小広場への愛着
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 完成図の美しさには興味がありません。計画都市で帰還者用の仮設住宅を組んだ時も、図面より本人の歩き方と工具の握りを見ました。物資は十分なのに、想定外の身体を持つ者だけ入口で止まる。それでは完成とは言えないでしょう。理論説明は得意でなくても、使う人へ理由を見せながら直すことはできました。余った壁材を置いた場所が、住民の小広場になったんです。撤去を勧めたことを後悔しています。都市の価値は予定どおり建った部分より、住民が勝手に意味を作った余白に宿るのかもしれません。
 

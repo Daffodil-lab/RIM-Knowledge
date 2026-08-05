@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A248"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 都市再会連絡
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 都市・福祉・職歴 / ReviewStatus: 採用済み
+- Tone: 都市・福祉・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: お節介で明るい連絡官。完璧な再会式より、予定外の広場での会話を好む。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 計画都市の再会式は、時刻も立ち位置も完璧だった。だから失敗した。長く離れた二人は抱擁を望まず、用意された部屋から別々に出てしまったんだ。私は地下通路を走って探し、完成図にない小さな広場で二人を見つけた。並んで石を眺めていたよ。私は手工芸の記念品を渡す予定だったが、今の関係へ形を押し付ける気がして持ち帰った。採掘区の空洞まで調べて広場を残す案を出し、再会はそこで自由に行えるようにした。豊かさとは、必要のない会話へ予定外の時間と場所を使えることだと思う。
 

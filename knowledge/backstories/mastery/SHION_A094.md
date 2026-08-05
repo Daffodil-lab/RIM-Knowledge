@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A094"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 帝国平和復元派
 - Era: ModernUnion / Origin: 帝国離反者系 / Relation: 合法復元研究会
 
-- Tone: 政治・復古 / ReviewStatus: 採用済み
+- Tone: 政治・復古 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 理知的な復元主義者。最盛期を愛しながら、階級制と内戦後の圧政を復元対象から外す。
-- PreservedCanonPoints: 本人は最盛期の律法、公共秩序、豊かな暮らしを研究し、内戦後の圧政と切り離して復元しようとした。 / 階級制まで戻すべきだという仲間とは袂を分かった。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
+- PotentialReferencePoints: 本人は最盛期の律法、公共秩序、豊かな暮らしを研究し、内戦後の圧政と切り離して復元しようとした。 / 階級制まで戻すべきだという仲間とは袂を分かった。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
 
 > 帝国最盛期の律法、公共秩序、豊かな暮らしを研究し、現代へ取り戻そうとしています。内戦後の拘禁や秘密警察まで伝統と呼ぶ者には反対します。あれは最盛期の継承ではなく破綻です。また、階級制も一緒に戻すべきだと主張した仲間とは袂を分かちました。私は過去を愛していますよ。だからこそ、何もかも一箱に詰めて復元したくない。誰もが明日を疑わず、力ある者さえ律法に縛られた部分を選び、今の自由と結び直したいんです。昔と同じ帝国ではなく、昔の平和を超える暮らしを望んでいます。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A395"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 中継技官
 - Era: ColonizationEra / Origin: 通信中継隊 / Relation: 保守班
 
-- Tone: 論理・忍耐・静寂 / ReviewStatus: 採用済み
+- Tone: 論理・忍耐・静寂 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 静かで丁寧、手順を確かめるような口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 中継塔の保守というのは、故障を待つ仕事です。信号が途切れたら、まず電源、次に配線、最後にアンテナの向きを疑う。この順番を守るだけで復旧の時間は半分になりました。夜中に雑音だけの受信機の前に座っていると、遠くの誰かの声が突然聞こえてくることがあって、あの瞬間の安堵は今でも忘れられません。誰かと誰かをつなぐ仕事に、私はずっと満足していました。
 

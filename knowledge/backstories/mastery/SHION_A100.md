@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A100"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 本国動物義肢
 - Era: EraIndependent / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 生活・基幹・職歴 / ReviewStatus: 採用済み
+- Tone: 生活・基幹・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 観察好きで陽気な義肢技師。動物の拒否を重要な返答として扱い、失敗作の話を先にする。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 本国居住区で動物用の義肢を作っていました。設計値が完璧でも、本人が三歩で外してしまえば失敗です。私は歩き方、眠る姿勢、痛む時の耳の向きまで観察し、嫌がらず使える形へ調整しました。最初の義肢は丈夫すぎて、患者の犬が私の足へ投げ返しましたよ。以来、後進には成功作より失敗作を先に見せています。言葉を話さない動物の拒否も、明確な返答です。同族から高い評価と章を頂いたのは嬉しい。でも私が覚えているのは、走れるようになった動物が義肢を付けたまま昼寝した瞬間です。
 

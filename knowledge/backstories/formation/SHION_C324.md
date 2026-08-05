@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C324"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 才能より時間
 - Era: ColonizationEra / Origin: 動植物馴化隊 / Relation: 馴化班
 
-- Tone: 馴化・根気・訂正 / ReviewStatus: 採用済み
+- Tone: 馴化・根気・訂正 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 美化された評判をその都度訂正する、真面目な口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 私が動物に好かれる特別な才能を持っていた、という話を聞いたことがあるかもしれません。違います。馴化隊の仕事は根気であって才能ではありません。異郷の羊は最初の数か月、誰にも近づきませんでした。私は毎日同じ時間に同じ場所で餌を置いただけです。特別なことは何もしていません。才能があったと言われるたび、根気強く通った日々が軽く扱われる気がして、私はいつも訂正します。羊が私の手から食べた日、才能ではなく時間が勝ったのだと分かりました。
 

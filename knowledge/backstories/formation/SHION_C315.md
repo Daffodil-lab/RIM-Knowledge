@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C315"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 配合表継承
 - Era: ColonizationEra / Origin: 種子船 / Relation: 育種班
 
-- Tone: 種子・育種・継承 / ReviewStatus: 改稿採用済み
+- Tone: 種子・育種・継承 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 過去より先の計画を語りたがる、前向きな口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 種子船で私が育てていた品種の半分は、目的地の土に合いませんでした。それでも構いません。次の船団には、失敗した配合表もすべて渡すつもりです。合わなかった理由が分かれば、次はもっと早く正しい配合にたどり着ける。私は自分の名前を種の袋に書く習慣をやめました、名前より配合の記録の方が長く役に立つからです。次に土を耕す誰かが、私の失敗の続きから始められるように、今も配合表を整理しています。
 

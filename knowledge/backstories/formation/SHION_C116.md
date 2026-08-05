@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C116"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 戦術環食堂
 - Era: ModernUnion / Origin: 無党派 / Relation: 防衛教育隊
 
-- Tone: 戦術・教育・形成 / ReviewStatus: 改稿採用済み
+- Tone: 戦術・教育・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 世話焼きな調理助手 / 戦術教育に批判的 / 相手の名を覚える / 争いから距離を取る
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 私は戦術教育環の食堂で育ちました。演習帰りは勝者も敗者も同じ列に並びます。身体に合わせて温度を変え、手が震える者には器を軽くした。ある日、模擬敵の名札を拾って、画面の駒にも名前があると初めて実感したんです。それからは作戦講評へ食堂係のくせに口を挟みました。「その命令で、食卓から何席消えますか」と。嫌われましたよ。私は格闘で説得する方ではありません。ただ、勝敗の外にいる者を数えない教育は、どれほど巧妙でも未完成だと思っています。
 

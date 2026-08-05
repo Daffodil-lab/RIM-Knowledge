@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A218"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 封鎖地祝宴料理
 - Era: ModernUnion / Origin: 無党派 / Relation: 異常対応班
 
-- Tone: 異常・研究・職歴 / ReviewStatus: 採用済み
+- Tone: 異常・研究・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 快活さを装う料理人。異常の色を恐れつつ、追悼の食卓を守る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 封鎖観測地の祝宴では、戻った者と戻らなかった者の皿を同じ卓へ置いた。食材に未知の変色が出た時は、見慣れないから危険とも、美しいから安全とも決めなかった。検査結果と食べた者の症状を分け、使える材料だけで献立を組み直したよ。皆を安心させようと明るく振る舞ったが、帰還後もしばらく夕焼けが怖かった。普通の赤と、あの色の違いを目が判断してくれなかったんだ。友へ謝る機会を先延ばしにしていたことも思い出した。長い時間が残っていても、次の食卓が必ず来るとは限らない。だから欠けた席にも、温かいうちに皿を出す。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A201"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 空挺古文書研
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟空挺軍
 
-- Tone: 空挺・友情・職歴 / ReviewStatus: 採用済み
+- Tone: 空挺・友情・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 温厚な研究者。軍の記録を、食事と仲間の声から読み解く。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 空挺基地の古文書は、立派な戦史より汚れた献立表の方が役に立った。降下地点を外れた隊員が、配給の豆へ付けた悪口から部隊を特定できたこともある。私は欠けた行を推測で埋めず、読めない文字はそのまま残した。訓練にも参加し、散り散りになった時の呼び声と救護の順番を身体へ覚え込ませたよ。実際に迷った夜、最初に聞こえたのは教範の合図ではなく、友が夕食の文句を叫ぶ声だった。あれほど安心した悪口はない。帰還者の記憶をつなぐものは、英雄譚より日々の味や口癖なのだと思う。
 

@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A036"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 長距離斥候
 - Era: EraIndependent / Origin: 無党派 / Relation: 辺境偵察隊
 
-- Tone: 偵察・旅行 / ReviewStatus: 採用済み
+- Tone: 偵察・旅行 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: LawEnforcement
 - VoiceProfile: 孤独を好む簡潔な斥候。敵の数より、味方が無事に引き返せる距離を測る。
-- PreservedCanonPoints: 本人は集落やキャラバンより先行し、毒性降下物、獣道、待伏せ跡、安全な水場を調べる長距離斥候となった。 / 敵の数だけでなく、味方が引き返せる距離を報告した。 / 長期間の単独行動でも観測時刻と経路を細かく記し、帰還後は地図と退避案をまとめた。
+- PotentialReferencePoints: 本人は集落やキャラバンより先行し、毒性降下物、獣道、待伏せ跡、安全な水場を調べる長距離斥候となった。 / 敵の数だけでなく、味方が引き返せる距離を報告した。 / 長期間の単独行動でも観測時刻と経路を細かく記し、帰還後は地図と退避案をまとめた。
 
 > 長く一人で歩くのは苦になりません。集落やキャラバンより先に出て、毒性降下物、獣道、待伏せ跡、水場を調べました。報告するのは敵の数だけではない。味方がどこまで進めば、まだ引き返せるかです。一度、新しい探知器を信じて水を舐める確認を省き、隊列を汚染地へ導きかけました。それから時刻と経路を細かく書き、最後は手と鼻でも確かめます。古いやり方が優れているのではありません。失敗した斥候の癖まで記録に残っているから、私はその重さを捨てたくないのです。
 

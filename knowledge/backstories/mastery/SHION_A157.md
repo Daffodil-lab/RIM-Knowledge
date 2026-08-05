@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A157"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 扶助区地下救助
 - Era: LongTransition / Origin: 社会民主党系 / Relation: 自治共同体
 
-- Tone: 共同体・倫理・職歴 / ReviewStatus: 採用済み
+- Tone: 共同体・倫理・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 共同体意識の強い地下救助員。共有工具の傷を救助図へ写し、名のない仕事を芸術として残す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 相互扶助区の崩落で、共有工具を持って地下へ入りました。皆の物でも、柄の傷を見れば誰が長く使ったか分かります。私はその癖に合わせて道具を選び、振動を読んで救助坑を掘りました。全員を出した後、進路と工具痕を壁画のような救助図へ残したんです。政治家は共同所有の成果だと言い、職人は個々の腕だと言いました。私は両方だと思います。共有できる仕組みと、一人ずつの手跡が重なって出口になった。最盛期を超える豊かさも、そういう形で作りたいんです。
 

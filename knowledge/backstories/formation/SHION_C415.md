@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C415"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 培養見習い
 - Era: AscendantEra / Origin: 種Cell研究所 / Relation: 主任研究員
 
-- Tone: 好奇心・緊張・畏怖 / ReviewStatus: 採用済み
+- Tone: 好奇心・緊張・畏怖 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 好奇心を隠さず、少し早口で語る口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 主任研究員に渡された鉄粉の皿を、僕は毎朝そっと覗きに行った。種Cellに鉄を与えると、一晩でほんの少しだけ増えている。最初は何が起きているのか全然分からなかったけれど、増えた分だけ皿の重さが変わることに気づいてからは、毎日こっそり量るのが日課になった。主任は僕の観察記録を見て、才能があるとは言わずに「よく見ているな」とだけ言った。それだけで十分だった。あの鉄の匂いのする部屋の空気を、僕は今でもはっきり覚えている。
 

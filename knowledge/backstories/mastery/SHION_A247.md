@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A247"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 評議蘇生療養
 - Era: ModernUnion / Origin: 複数党派 / Relation: 同盟評議会
 
-- Tone: 政治・生活・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 政治・生活・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 包容力のある医師。政治的所属より、蘇生者が今望む生活を優先する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自治評議区で蘇生者を診ると、家族より先に旧党派の仲間が迎えに来ることがあった。私は復職も政治活動も急がせず、まず運動系が階段へ適応し、感覚系が共同食卓の刺激を受け入れられるか確かめた。昔の旗を見て安心する者も、強い感覚的不快を覚える者もいる。どちらも記録したよ。療養室の避難路は本人と一緒に歩き、再会相手には今の呼び名を尋ねてもらった。最盛期の平和をどう取り戻すか、私にも意見はある。だが蘇った者を過去の席へ座らせることから始めてはいけない。古い旗より、会議後に本人が選んだ食卓の方を信じたい。
 

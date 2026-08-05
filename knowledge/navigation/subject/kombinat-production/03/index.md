@@ -1,22 +1,13 @@
 # Kombinat・生産物流 03
 
-範囲: PRD-003 Recipe分類〜39. 同盟通貨
+範囲: PRD-012 取消〜39. 同盟通貨
 
 ## 項目
 
-- [PRD-003 Recipe分類](/kombinat/requirements/prd-003.md) — MUST: RecipeをKombinat Automated、Vanilla Work Required、Official Adapter Required、Unsupportedへ分類する。
-- [PRD-004 Request](/kombinat/requirements/prd-004.md) — MUST: 具体ThingDef、Recipe、数量または目標在庫、優先度、出力先を指定できる。
-- [PRD-005 Plan](/kombinat/requirements/prd-005.md) — MUST: Recipe依存を有界DAGへ展開し、循環を検出する。
-- [PRD-006 複数経路](/kombinat/requirements/prd-006.md) — MUST: 同じ出力を作れる複数Patternがある場合、作者優先度、完成可能性、設備、概算時間、stable IDの決定順を使う。
-- [PRD-007 Job](/kombinat/requirements/prd-007.md) — MUST: 承認済みPlanをJobとして保存し、Pattern version、選んだRecipe、入力条件、出力条件を固定する。
-- [PRD-008 Batch](/kombinat/requirements/prd-008.md) — MUST: 一Batchの全入力Thingと出力容量がCore Storageで予約され、設備が利用可能な時だけ開始する。
-- [PRD-009 Output Claim](/kombinat/requirements/prd-009.md) — MUST: 同じThingDefがどこかへ出現しただけでBatchを完了しない。
-- [PRD-010 中間品](/kombinat/requirements/prd-010.md) — MUST: 中間品をCore Storageへ直接Commitし、後段工程がThing単位で予約する。
-- [PRD-011 副産物](/kombinat/requirements/prd-011.md) — MUST: 副産物の出力容量を開始前に確認し、満杯なら開始しない。
 - [PRD-012 取消](/kombinat/requirements/prd-012.md) — MUST: 取消時は未Commitの入力予約、出力容量予約、通貨予約、設備割当を解放する。
 - [PRD-013 再計画](/kombinat/requirements/prd-013.md) — MUST: 未開始Batchだけを再計画する、またcommit済みBatchを巻き戻さない。
 - [SAV-001 状態](/kombinat/requirements/sav-001.md) — MUST: Request、Pattern version、Plan summary、Job、Batch、Buffer、Output Claim、Account、Transaction、Consumption aggregateを保存する。
-- [SAV-002 非複製](/kombinat/requirements/sav-002.md) — MUST: Matter Network内部状態をKombinatセーブへ複製しない。
+- [SAV-002 非複製](/kombinat/requirements/sav-002.md) — MUST: KombinatセーブはKombinat固有状態とCore取引参照だけを保持する。
 - [SAV-003 途中保存](/kombinat/requirements/sav-003.md) — MUST: 材料待ち、入力予約後、処理中、出力容量待ち、Commit前後、通貨保留中に保存・ロードできる。
 - [SAV-004 同一ビルド](/kombinat/requirements/sav-004.md) — MUST: α／βでは同一ビルドの保存往復を保証する。
 - [STA-001 意図した仕様](/kombinat/requirements/sta-001.md) — MUST: Core独自Storage内の腐敗、温度、Thing Tick、Comp Tick、充放電、孵化等の時間進行方針を明示する。
@@ -48,8 +39,8 @@
 - [0. 出典と利用範囲](/research/kombinat-ui-references/00-%E5%87%BA%E5%85%B8%E3%81%A8%E5%88%A9%E7%94%A8%E7%AF%84%E5%9B%B2.md) — ユーザー提供映像をKombinatのUI・操作研究に限定して利用し、画像・コード・固有表現のコピー元にはしない。
 - [1. MonolynのネットワークUIから採るもの](/research/kombinat-ui-references/01-Monolyn%E3%81%AE%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AFUI%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — Monolynの集中資源、生産一覧、選択時ネットワーク表示から、Kombinatへ採用する情報設計を抽出する。
 - [4. 要求中間素材作成の操作イメージ](/research/kombinat-ui-references/04-%E8%A6%81%E6%B1%82%E4%B8%AD%E9%96%93%E7%B4%A0%E6%9D%90%E4%BD%9C%E6%88%90%E3%81%AE%E6%93%8D%E4%BD%9C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8.md) — 在庫とRecipeを並べ、最終品の要求から不足中間品と総材料を確認する簡潔な操作モデルをKombinatへ適用する。
-- [0. 目的](/research/remote-logistics/00-%E7%9B%AE%E7%9A%84.md) — 本書は、無改造Matter NetworkのローカルStorageと、Kombinat追加層の自動生産とは別に検討されていた遠距離物流を、情報を失わず延期するための保護領域である。
-- [1. 延期理由](/research/remote-logistics/01-%E5%BB%B6%E6%9C%9F%E7%90%86%E7%94%B1.md) — 延期理由は、αの完成条件を、無改造Matter Networkの通常入出庫と、Kombinat追加層の発注・多段自動生産へ集中させる。
+- [0. 目的](/research/remote-logistics/00-%E7%9B%AE%E7%9A%84.md) — 本書は、Coreのローカル保管とKombinatの自動生産から分離した遠距離物流を、将来の再検討まで保護する領域である。
+- [1. 延期理由](/research/remote-logistics/01-%E5%BB%B6%E6%9C%9F%E7%90%86%E7%94%B1.md) — 延期理由は、αの完成条件をCoreの通常入出庫とKombinatの発注・多段自動生産へ集中させることにある。
 - [2. 保全する概念](/research/remote-logistics/02-%E4%BF%9D%E5%85%A8%E3%81%99%E3%82%8B%E6%A6%82%E5%BF%B5.md) — 次は廃止ではなく、再検討候補として保全するという方針の適用範囲と条件を定める。
 - [3. 旧Transfer状態案](/research/remote-logistics/03-%E6%97%A7Transfer%E7%8A%B6%E6%85%8B%E6%A1%88.md) — 旧Transfer状態案の定義、境界、参照関係を示す資料。
 - [4. 旧要件の保全](/research/remote-logistics/04-%E6%97%A7%E8%A6%81%E4%BB%B6%E3%81%AE%E4%BF%9D%E5%85%A8.md) — Routeはsource、destination、scope、許可貨物、搬送手段、容量、所要時間、費用、優先度、危険、稼働状態を持つ。
@@ -59,8 +50,8 @@
 - [台帳設備と輸送中Cargo](/research/remote-logistics/08-%E5%8F%B0%E5%B8%B3%E8%A8%AD%E5%82%99%E3%81%A8%E8%BC%B8%E9%80%81%E4%B8%ADCargo.md) — Map上の設備、宇宙船、本国施設、契約工場、交易拠点を共通のFacility台帳へ登録し、遠隔資源を時間付きCargoとして現地Network Storageへ届ける設計草案。
 - [2. 現行設定の判定](/research/theme-overhaul/02-%E7%8F%BE%E8%A1%8C%E8%A8%AD%E5%AE%9A%E3%81%AE%E5%88%A4%E5%AE%9A.md) — 現時点のKombinat実装は、5資源のWorld台帳、予約、コミット、返還、セーブ状態を持つ基盤であり、テーマ上はほぼ中立である。
 - [6. 実在参照と命名の処理](/research/theme-overhaul/06-%E5%AE%9F%E5%9C%A8%E5%8F%82%E7%85%A7%E3%81%A8%E5%91%BD%E5%90%8D%E3%81%AE%E5%87%A6%E7%90%86.md) — 以下はテーマ・トーン再審査ガイドQ0と、近未来／20世紀パスティーシュ回避の両方から優先度が高い。
-- [0. 結論](/roadmap/00-%E7%B5%90%E8%AB%96.md) — 工業基盤を内部完成させてからShion種族を統合し、MVP／Foundationを独立した製品段階として出荷しない。
-- [2. 既知コードと再利用の方針](/roadmap/02-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A8%E5%86%8D%E5%88%A9%E7%94%A8%E3%81%AE%E6%96%B9%E9%87%9D.md) — 既知コードの再利用率を目標にしない、また既存コード、旧リポジトリ、抽出記録は参考資料であり、最終設計を拘束する正本ではない。
+- [0. 結論](/roadmap/00-%E7%B5%90%E8%AB%96.md) — Coreは工業基盤を内部完成させてからShion種族を統合し、α、β、1.0の三段階で公開する。
+- [2. 既知コードと再利用の方針](/roadmap/02-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A8%E5%86%8D%E5%88%A9%E7%94%A8%E3%81%AE%E6%96%B9%E9%87%9D.md) — コード再利用は現行責務、保存、試験、性能、依存方向、ライセンス、保守性を満たす単位だけに限定する。
 - [3. 1.0の最終完成像](/roadmap/03-1-0%E3%81%AE%E6%9C%80%E7%B5%82%E5%AE%8C%E6%88%90%E5%83%8F.md) — 最終的なCoreは、少なくとも次を一つの製品として成立させる。
 - [4. α版 — 最初の公開候補](/roadmap/04-%CE%B1%E7%89%88-%E2%80%94-%E6%9C%80%E5%88%9D%E3%81%AE%E5%85%AC%E9%96%8B%E5%80%99%E8%A3%9C.md) — α版は、内部完成した工業基盤へShion種族、図像、独立開始を最後に統合する最初の公開候補である。
 - [5. β版](/roadmap/05-%CE%B2%E7%89%88.md) — β版は、α版に含めなかったコアMODとレッドスターの要素を追加し、両製品を完成へ到達させる期間である。

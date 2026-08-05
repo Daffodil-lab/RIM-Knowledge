@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C317"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 傷を測る手
 - Era: ColonizationEra / Origin: 巡回医療隊 / Relation: 診療班
 
-- Tone: 医療・巡回・触覚 / ReviewStatus: 採用済み
+- Tone: 医療・巡回・触覚 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 身体の感覚から語り起こす、静かで生々しい口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 傷口を洗う水の冷たさから話を始めます。巡回医療隊の水は常に不足していて、私たちは同じ水を三人分の傷に使うこともありました。消毒液の匂いは今も鼻の奥に残っています。ある入植者は痛みで声も出さず、ただ私の手を強く握りました。私はその力の強さで痛みの程度を測るようになりました、計器より正確でした。誰かの手を握られた記憶は、包帯の巻き方より長く体に残るものです。
 

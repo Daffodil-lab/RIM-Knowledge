@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A341"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 密造酒職人
 - Era: JourneyEra / Origin: 西側／作られた民族 / Relation: 居住区自治会
 
-- Tone: 密造・規則・自嘲 / ReviewStatus: 採用済み
+- Tone: 密造・規則・自嘲 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 皮肉屋の職人。深刻な話ほど笑いに変える。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 船内で酒を造るのは規則違反だった。俺は二十年それを破り続けた立派な犯罪者だったわけだ。作られた民族文化を継いだ醸造の先達のレシピを頼りに、余った穀物の皮で発酵させた酒は、正直言ってひどい味だった。それでも自治会の連中は文句を言いながら毎晩飲みに来た。摘発されたのは三回、罰は毎回同じ量の酒を没収されるだけだった。つまり規則は俺の在庫管理を手伝ってくれていたわけだ。褒められた話じゃないが、悪くもなかったと思ってる。
 

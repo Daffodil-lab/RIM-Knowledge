@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C029"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 修道院助手
 - Era: ImperialPeak / Origin: 帝国臣民 / Relation: 帝国修道院
 
-- Tone: 修業・共同生活 / ReviewStatus: 採用済み
+- Tone: 修業・共同生活 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 朴訥 / 列挙癖 / 万能であることを誇らない / 欠員へ敏感
-- PreservedCanonPoints: 本人は帝国最盛期の修道院で、書棚の運搬、畑仕事、寝台の修理、食事の支度を順番に経験した。 / 専門を選ぶ前に共同生活の全作業を知ることが修業とされた。 / 一つの天職へ絞ることはできなかったが、誰かが欠けた時に仕事を引き継ぐ力を身につけた。
+- PotentialReferencePoints: 本人は帝国最盛期の修道院で、書棚の運搬、畑仕事、寝台の修理、食事の支度を順番に経験した。 / 専門を選ぶ前に共同生活の全作業を知ることが修業とされた。 / 一つの天職へ絞ることはできなかったが、誰かが欠けた時に仕事を引き継ぐ力を身につけた。
 
 > 書棚を運ぶ。畑を耕す。寝台を直す。夕食を煮る。修道院では、専門を選ぶ前に全部やらされました。私はどれも一番にはなれず、教官から「便利だが名札に困る」と言われたものです。困りませんでしたよ。誰かが欠けた朝、その仕事を止めずに済む方が大切でしたから。新人へ教える時も、巧い手順より疲れた日に省いてはいけない所を先に伝えた。地味でしょう、ソフェル。でも共同生活は、目立つ一人ではなく、空いた場所へ黙って入る者で保つ。私は今も自分の天職を一つに決める気がありません。
 

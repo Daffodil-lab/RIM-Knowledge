@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C218"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 制裁監査帰還窓口
 - Era: LongTransition / Origin: 無党派 / Relation: 長い過渡期
 
-- Tone: 制裁・倫理・形成 / ReviewStatus: 採用済み
+- Tone: 制裁・倫理・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 批判的な受付助手 / 正しさの断言を嫌う / 地下待合所へ詳しい / 言葉不足を悔やむ
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 制裁部隊から帰った者を迎える窓口では、英雄と呼ぶ前に命令目的と被害記録を照合しました。強い手段を持つ者ほど詳しく書くべきです。「我々は正しかった」と断言する者ほど、記録を読み返さなかった。私は地下待合所の空洞を調べ、帰還者と再会相手へ記憶差を説明しました。一人へ事務的に話し過ぎて、謝罪を言えなかったことがあります。あの沈黙を、今も悔いています。正しさを審査する前に、何を見て何を失ったか聞くべきでした。今は相手の説明が終わるまで、判定欄を空けておきます。
 

@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A391"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 調教師
 - Era: ColonizationEra / Origin: 動植物馴化隊 / Relation: 馴化班
 
-- Tone: 忍耐・信頼・静けさ / ReviewStatus: 採用済み
+- Tone: 忍耐・信頼・静けさ / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: ゆっくりと間を取りながら、動物に語りかけるような口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 新しい星の獣を慣らす仕事は、扉を少しずつ開けるようなものだと自分は考えている。急に開けば逃げるか噛みつかれるかのどちらかだ。まず匂いを覚えさせ、次に音、それから手を。半年かけてようやく背中に触れさせてくれた個体もいた。首輪をつけたのはその後の話だ。手のひらに残る歯形の跡は勲章のようなものだと思っている。信頼は焦らず積むものだと、今でも動物たちに教わっている。
 

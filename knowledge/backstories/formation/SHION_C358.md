@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C358"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 最初の落第兵
 - Era: JourneyEra / Origin: 秩序維持隊 / Relation: 秩序維持隊分隊
 
-- Tone: 皮肉・失敗・軍務 / ReviewStatus: 採用済み
+- Tone: 皮肉・失敗・軍務 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 自嘲気味で軽口が多いが、根は真面目。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > うちは多分、成立したての帝国で最初に隊列を乱した子供の一人だと思う。十二歳で秩序維持隊の見習いに入ったけど、行進の列を毎回微妙にずらして、教官に「お前は独自の帝国でも作るつもりか」って呆れられてた。他の子はちゃんと真っ直ぐ歩けたのに、うちだけどうしても半歩ずれる。結局そのまま帝国は成立して、うちの半歩ずれた歩き方だけが直らないまま今に至る。歴史に残る出来事の隅っこで、うちは地味にずれ続けていたわけ。それはそれで、悪くない役回りだった。
 

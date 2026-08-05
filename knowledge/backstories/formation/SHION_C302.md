@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C302"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 泥靴平和討論
 - Era: ImperialPeak / Origin: 旧帝国 / Relation: 最盛期帝国社会
 
-- Tone: 軍務・不条理・形成 / ReviewStatus: 改稿採用済み
+- Tone: 軍務・不条理・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 礼儀正しい現実主義者。命令の美文より、現場から戻った者の泥を信じる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 最盛期の平和軍演習院では、相手の主張を言い直せなければ反論できませんでした。律法を守るための長く退屈な訓練でしたが、私は好きでした。ある討論で、命令書の美しい文章と、演習坑道から戻った兵の泥だらけの靴が食い違いました。私は靴の持ち主から話を聞き、地盤の危険を議題へ戻しました。蘇った友と再会した時も、昔の記録より今の言葉を聞くべきでしたが、うまくできませんでした。平和を守る制度は立派な文章だけでなく、現場から戻った者が反論できる席まで含むのだと思います。
 

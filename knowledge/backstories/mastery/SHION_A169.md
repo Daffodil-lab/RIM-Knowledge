@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A169"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 都市地下救助
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 都市・福祉・職歴 / ReviewStatus: 採用済み
+- Tone: 都市・福祉・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 快活な地下救助員。完璧な都市図の空白を掘り当て、救助坑を住民の壁画へ変える。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 計画都市の図面は完璧でした。だから崩落時、図面にない空洞から声がしたのを誰も信じなかった。私は振動を確かめ、救助坑を掘りました。そこには住民が勝手に作った小さな地下広場があり、取り残された者がいたんです。全員を出した後、違反区画として埋める案が出ました。私は救助坑の線を壁へ描き、なぜ人々がそこへ集まったかを聞くよう求めました。広場は補強され、正式な場所になりましたよ。制度の空白は、いつも欠陥とは限りません。暮らしが先に見つけた余白かもしれないんです。
 

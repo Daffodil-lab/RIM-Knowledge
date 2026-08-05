@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A390"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 炊事番
 - Era: ColonizationEra / Origin: 第一次入植 / Relation: 給食班
 
-- Tone: 温かさ・工夫・現実 / ReviewStatus: 採用済み
+- Tone: 温かさ・工夫・現実 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 早口でくだけた、台所仕事の合間のような話し方。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > うちがやってたことを数えてみると、まず配給の穀物をふやかす時間の調整、次に塩を切らさないための交換交渉、それから鍋底が焦げないよう火加減を見張ること。挙げ出すときりがない。一番大事だったのは、みんなの顔色を見て量を調整することだった気がする。焦げた匂いがすると今でも慌てて振り返ってしまう癖が抜けない。誰かの腹を満たすことが、うちにとって一番の仕事だった。
 

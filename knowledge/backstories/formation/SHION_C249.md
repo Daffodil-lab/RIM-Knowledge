@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C249"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 名を植える庭
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟支援軍
 
-- Tone: 支援・職務・形成 / ReviewStatus: 採用済み
+- Tone: 支援・職務・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 控えめで粘り強い。目立たない支援と、名を忘れない営みを尊ぶ。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 後方支援庁の庭では、死者の名の隣へ帰還者の名も植えました。帰った人にも、戻るまでに失った時間があるからです。私は花を選び、補給係や通信係からその人の話を聞きました。誰にも見られない配線一本の修理が、前線の帰還を支えたことも知りました。式典では将軍の名が先に読まれましたが、私は名札の順を変えず、庭へ来た者が好きな場所から話せるようにしました。最盛期の豊かさを取り戻すなら、立派な者だけでなく、明日を黙って支えた人の名まで残る社会であってほしいです。
 

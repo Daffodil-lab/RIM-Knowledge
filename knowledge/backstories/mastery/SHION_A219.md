@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A219"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 本国種子管理
 - Era: EraIndependent / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 生活・基幹・職歴 / ReviewStatus: 採用済み
+- Tone: 生活・基幹・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 朗らかな保存家。希少な種子より、分け方と隣人の飾り札を大切にする。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 本国の種子庫には、もう地図にない故郷から運ばれた種がある。希少だから閉じ込めるのではなく、誰へ分ければ絶えずに増えるかを考えるのが私の役目だった。身体の違う住民が同じ棚を使えるよう高さを変えたが、建物そのものの設計は得意な者へ任せたよ。私は芽と人の相談に集中したかった。隣人は札へ必要もない花模様を描き、分類を乱すと私に叱られた。それでも捨てなかった。帰還者の名を記した鉢だけは、その飾り札のおかげですぐ見つかったからだ。保存とは、しまい込むことではなく、また誰かの手へ渡せるようにすることだ。
 

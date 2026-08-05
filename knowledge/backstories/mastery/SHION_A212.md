@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A212"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 維持区公共案内
 - Era: LongTransition / Origin: 無党派 / Relation: 維持共同体
 
-- Tone: 設備・孤立・職歴 / ReviewStatus: 採用済み
+- Tone: 設備・孤立・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: おしゃべりで親切。設備の案内より、窓口まで一緒に歩くことを重んじる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 地下維持区の案内板は正確だったが、初めて来た者には役立たなかった。古い党名、廃止された区画番号、現地だけの略語ばかりだったからね。私は来訪者の用件を聞き、権限のある窓口まで一緒に歩いた。設備が止まった時は表示も通信も消えたので、壁を叩き、声を出し、地層の響きから通れる坑道を選んだよ。復旧後、案内板を直す会議には各派の住民を呼んだ。誰もが読める言葉は、誰の言葉でもない文章では作れない。故郷の昔の表示を懐かしむ者にも、今ここで迷う者にも届く道順が必要なんだ。
 

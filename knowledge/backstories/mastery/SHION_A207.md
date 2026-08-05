@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A207"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: Kombinat記念園師
 - Era: ModernUnion / Origin: 無党派 / Relation: Kombinat共同体
 
-- Tone: 工業・保守・職歴 / ReviewStatus: 採用済み
+- Tone: 工業・保守・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 率直な内部改革派。記念より保守、理念より直せる仕組みを重んじる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > Kombinatの記念庭園に、壊れない記念碑は置かなかった。代わりに毎季手入れが要る花を植えた。死者の名だけでなく、蘇生して戻った者の名札も場所を変えて残したよ。以前と同じ者かという不安まで、なかったことにしたくなかった。政治集会では最盛期の平和を取り戻せと訴えたが、制度をそのまま複製する案には反対した。止まったKombinatを直せたのは、設計者ではなく日々油を差した者たちだったからだ。建物の図面を引くより、世話をする人同士をつなぐ方が私は得意だ。故郷も同じだと思う。完成品ではなく、直し続けられる暮らしとして戻したい。
 

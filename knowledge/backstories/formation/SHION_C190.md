@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C190"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 自治会跡老獣番
 - Era: PostCivilWarEmpire / Origin: 旧帝国 / Relation: 内戦後帝国
 
-- Tone: 政治・生活・形成 / ReviewStatus: 採用済み
+- Tone: 政治・生活・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 物腰の柔らかな老獣番 / 党旗を語りたがらない / 事実記録に厳密 / 再会へ慎重
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 自治会が解散した後も、役目を終えた動物だけは建物に残りました。私は餌と散歩の時刻を変えず、歩幅や痛みを事実と推測に分けて記録した。内戦後の帝国は律法を掲げましたが、配給も自治も崩れ、旗の色だけが何度も替わった。どの旗だったかは話したくありません。会議後の食卓と、老獣が椅子の下で眠った姿なら覚えています。蘇生した友にも昔の党派話を迫らず、まず同じ卓へ座りました。関係を戻す時は、古い役割より新しい日課から始める方が優しいと思うんです。
 

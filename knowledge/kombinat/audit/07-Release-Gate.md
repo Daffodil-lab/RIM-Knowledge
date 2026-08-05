@@ -1,12 +1,11 @@
 ---
 type: "Release Gate"
 title: "7. Release Gate"
-description: "α blockerはKX-001〜008とS2-001〜020のKombinat追加層部分である。"
+description: "α blockerはKX-001〜008とS2-001〜018のKombinat追加層部分である。"
 tags:
   - "kombinat"
   - "audit"
   - "verification"
-  - "matter-network"
   - "alpha"
 organization_groups:
   - "kombinat-communities"
@@ -28,23 +27,14 @@ sources:
 
 # 7. Release Gate
 
-α blockerはKX-001〜008とS2-001〜020のKombinat追加層部分である。
+α blockerはKX-001〜008、現行S2シナリオ、発注要件A〜JのKombinat追加層部分である。
 
-次はRelease Gateではない。
-
-- Matter NetworkのStorage品質
-- Matter Network由来の欠陥
-- Stasisの強さ
-- 上流の外部MOD互換
-- 上流のController、Disk、wealth、stack、Map lifecycle
-
-Kombinatの完成は、上流を直した量ではなく、上流を変更せず発注・多段生産・通貨を安全に追加できたことで判定する。
+Kombinatの完成は、Core Storageとの入力予約、出力容量予約、生産Commit、発注、多段生産、取消、通貨、保存再開を一意に成立させ、Thingと残高を保存できることで判定する。Storage内部の容量、破壊、時間進行、外部Thing互換はCore側のRelease Gateが所有する。
 
 ## 関連項目
 
 - 上位索引: [kombinat/audit](/kombinat/audit/index.md)
 - 同じ出典の前項: [6. 破壊的操作](/kombinat/audit/06-破壊的操作.md)
-- 連携境界: [連携境界](/integrations/matter-network/index.md)
 - リリース計画: [リリース計画](/roadmap/index.md)
 
 ## 出典

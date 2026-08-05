@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A042"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 旧派追放者
 - Era: LongTransition / Origin: 旧ファシスト党 / Relation: 無所属
 
-- Tone: 政治・追放 / ReviewStatus: 採用済み
+- Tone: 政治・追放 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 言葉を選ぶ告白者。善行で過去を相殺せず、署名した責任を正面から語る。
-- PreservedCanonPoints: 本人は革命期のファシスト党で補給を担当し、強制徴発にも署名した。 / 戦後、民間人への配給を優先するよう主張して党から追放されたが、それ以前の責任まで消えたとは考えなかった。 / 追放後は被害者へ記録を開示し、謝罪を受け入れるよう求めなかった。
+- PotentialReferencePoints: 本人は革命期のファシスト党で補給を担当し、強制徴発にも署名した。 / 戦後、民間人への配給を優先するよう主張して党から追放されたが、それ以前の責任まで消えたとは考えなかった。 / 追放後は被害者へ記録を開示し、謝罪を受け入れるよう求めなかった。
 
 > 私は革命期、旧ファシスト党の補給簿に強制徴発の署名をしました。「部隊を飢えさせないため」と言えば事情にはなりますが、免罪にはなりません。戦後、先に民間人へ配れと主張して追放されました。それを勇気の証しにする気もないんです。遅すぎただけですから。持ち出した帳簿は被害を受けた者へ開示し、謝罪を受け入れてほしいとは頼みませんでした。今も豊かで明日を疑わずに済む社会を望んでいます。ただし、誰かの倉を空にして築く平穏を、私は二度と平穏とは呼びません。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C289"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 手動診療所
 - Era: LongTransition / Origin: 無党派 / Relation: 維持共同体
 
-- Tone: 設備・孤立・形成 / ReviewStatus: 採用済み
+- Tone: 設備・孤立・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 世話好きで落ち着いている。設備の停止を、互いの声を聞き直す祭りへ変える。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 地下維持区には、設備をわざと短時間止める祭りがありました。昔の大停止を忘れないためです。私は手動診療所で道具を並べ、症状だけでなく暗闇への不安を聞きました。避難路も自分の足で確かめました。普段は機械音に隠れていた咳や小声が、その日だけよく聞こえたんです。最初の年は記録を急いで、一人の話を途中で切ってしまいました。翌年から診察数を減らし、最後まで聞く時間を作りました。便利な設備は必要です。でも止まった時にも、隣人の声を聞ける暮らしなら失わずに済みます。
 

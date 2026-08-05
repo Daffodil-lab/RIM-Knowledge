@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C196"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 扶助区共同射場
 - Era: LongTransition / Origin: 社会民主党系 / Relation: 自治共同体
 
-- Tone: 共同体・倫理・形成 / ReviewStatus: 採用済み
+- Tone: 共同体・倫理・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 共有責任に厳しい射手 / 撃たない判断を重視 / 栽培区を守る / 道具の傷を個人史と見る
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 射場の銃は皆の物でした。だから事故も皆の責任、では曖昧過ぎます。私は使う前後の名を記し、標的を識別し、栽培区へ弾が届く季節には撃たない条件を決めました。共同の道具にも一人分の握り傷が付きます。それを消せとは思いません。ただ、愛着が安全確認を免除する理由にもならない。戻らなかった友の銃を手にした時、傷は残して機構だけ直しました。平和な共同体とは、誰も所有を誇らず、それでも「今は私が預かる」と責任を名乗れる場所だと思います。
 

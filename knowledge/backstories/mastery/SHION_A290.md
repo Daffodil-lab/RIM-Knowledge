@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A290"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 監視区保存食職
 - Era: LongTransition / Origin: 社会民主党系 / Relation: 制度監視団
 
-- Tone: 政治・警戒・職歴 / ReviewStatus: 採用済み
+- Tone: 政治・警戒・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 用心深い保存食職人。非常令の変質を、ラベルと冗談の消失から記録する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 非常令監視区で保存食を作っていると、制度の変化は瓶のラベルへ先に現れた。行先が伏せられ、好みを書く欄が消え、冗談の絵まで禁止された。私は社会民主党系の監視団へ、配給数だけでなく消えた欄も報告したよ。旅立つ者の到着時期と身体を聞き、本人の名を可能な限り残した。最初に消えたのは小さな冗談だった。私はその時、友へ謝る言葉まで記録を恐れて書けなかった。後で伝えようと思ったが、会えたのはずっと先だ。例外が日常になる前に、小さな沈黙を記録するべきだった。
 

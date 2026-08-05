@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C287"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 無音都市義肢
 - Era: ImperialCivilWar / Origin: 旧帝国 / Relation: 内戦生存者
 
-- Tone: 設備・孤立・形成 / ReviewStatus: 採用済み
+- Tone: 設備・孤立・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 即応力のある職人。抽象的な不安より、手で直せる一部へ集中して耐える。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 内戦で地下維持区の設備が止まった時、義肢工房まで静かになりました。私は手工具で部品を削り、灯りの届かない通路では護身具の照準器を使って人影を確かめました。負傷者は自分の身体が戻るか尋ねましたが、私は大丈夫とは言えませんでした。代わりに、今直せる関節を一つずつ示しました。機械音の消えた街では、削る音と人の声だけが残った。故郷の区画は回収できても、あの会話までは戻りません。それでも失敗作まで引き継げば、次の職人は暗闇から始めずに済むと思いました。
 

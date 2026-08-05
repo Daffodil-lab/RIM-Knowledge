@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C373"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 三つの誤解
 - Era: JourneyEra / Origin: 律法起草補助 / Relation: 儀式楽団
 
-- Tone: 訂正・誤解・信仰 / ReviewStatus: 改稿採用済み
+- Tone: 訂正・誤解・信仰 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 教師然とした丁寧語、順序立てて話す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 私について三つ誤解があります。まず、律法起草を手伝ったのは私が優秀だったからではなく、単に字が読めた子供が少なかったからです。次に、儀式楽団にいたのは信心深かったからではなく、養育者がそこにいたからです。最後に、これが一番大事ですが、私はあの時代を「正しい時代の始まり」だとは思っていません。ただ年長者たちが手探りで何かを形にしていくのを、隣で見ていただけです。手探りだったからこそ、今の律法よりずっと柔らかかった。それを覚えている私に、上手な社交辞令は残りませんでした。
 

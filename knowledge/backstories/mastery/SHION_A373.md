@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A373"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 勘違い集
 - Era: JourneyEra / Origin: 混成職人衆 / Relation: 縫製工房
 
-- Tone: 誤解・訂正・仕立て / ReviewStatus: 採用済み
+- Tone: 誤解・訂正・仕立て / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: ユーモラスな仕立て屋。誤解を一つずつ数えて訂正する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > よくある誤解が三つある。一つ、混成世代は出身を持たない、これは違う、みんな家に旧い服を一着は隠し持っていた。二つ、律法の服装規定は最初から厳格だった、これも違う、最初の十年はほとんど誰も守らなかった。三つ、私が仕立てた最初の儀礼衣は美しかった、これが一番の誤解で、実際は寸法を間違えて縫い直しばかりしていた。本当のことを言うと、あの下手な衣を今でも一番誇りに思っている。
 

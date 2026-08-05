@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A270"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 継承公共壁画
 - Era: ModernUnion / Origin: 無党派 / Relation: 教育共同体
 
-- Tone: 教育・継承・職歴 / ReviewStatus: 採用済み
+- Tone: 教育・継承・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 好奇心旺盛な壁画家。師の答えを受け継がず、見る者ごとの解釈を残す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 継承教室の壁画には、一つの出来事を三つの姿で描いた。教師、帰還した友、私の記憶が一致しなかったからだ。古い顔料と新しい道具を両方使い、高い壁へ登る時は身体の力で足場を動かした。教師は最後まで正しい構図を教えなかったよ。友は長い不在の後、昔なら選ばなかった色を指した。私は「君らしくない」と言いかけてやめた。今の彼らしさを知らなかったのは私の方だ。継承とは答えをそのまま渡すことではなく、次の者が違う色を置ける壁を残すことなのだと思う。
 

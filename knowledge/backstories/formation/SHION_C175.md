@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C175"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 孵育区地下散策
 - Era: ModernUnion / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 福祉・選択・形成 / ReviewStatus: 採用済み
+- Tone: 福祉・選択・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 地下を好む散策者 / 快適設計を退屈がる / 地層を造形として見る / 不便を選ぶ自由を守る
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 孵育文化区の地上は、温度も光も最適で退屈でした。私は地下へ潜り、岩の響きと亀裂を読み、安全な掘り方を覚えた。見学者には危険も理由も説明しましたが、「暗い方が好き」という部分だけは理解されませんでしたね。友は不便な自作椅子を手放さず、私は坑道の曲線をまねた飾りを彫って贈った。快適さを拒む選択まで治療対象にする制度は、親切でも息苦しい。故郷を戻すなら、正しい明るさだけで満たさず、好きで迷える暗がりも残してほしい。私はそこで、自分の足音を選びたいんです。
 

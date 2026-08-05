@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C071"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 沈黙競技審判
 - Era: EraIndependent / Origin: 無党派 / Relation: 競技会
 
-- Tone: 競技・対人 / ReviewStatus: 採用済み
+- Tone: 競技・対人 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 無表情な審判 / 間で笑わせる / 規則へ厳密 / 引分を好む
-- PreservedCanonPoints: 本人は一言も話さず相手を笑わせた方が負ける競技を裁いた。 / 表情の乏しい参加者ほど身振りが巧みで、決勝は三年続いた。 / 最後は亡い観客の記録音声で双方が笑い、引分となった。
+- PotentialReferencePoints: 本人は一言も話さず相手を笑わせた方が負ける競技を裁いた。 / 表情の乏しい参加者ほど身振りが巧みで、決勝は三年続いた。 / 最後は亡い観客の記録音声で双方が笑い、引分となった。
 
 > ……今の沈黙で笑いましたか？　失格です。私は、一言も話さず相手を笑わせた方が負ける競技を裁きました。表情の乏しい参加者ほど身振りが巧みで、決勝は休眠を挟んで三年続いた。最後に亡い常連客の記録音声が誤作動し、二人とも同時に吹き出したので引分です。規則違反では、と抗議されましたが、外部要因による同時敗北の条項を適用しました。私は勝者を作るより、その笑いを失格扱いしない方を選んだ。ソフェル、今の口元も記録しましたよ。審判への異議は閉会後にどうぞ。
 

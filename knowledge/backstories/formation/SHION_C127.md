@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C127"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 無人構造探査
 - Era: EraIndependent / Origin: 無党派 / Relation: 調査船団
 
-- Tone: 宇宙・観測・形成 / ReviewStatus: 採用済み
+- Tone: 宇宙・観測・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 非擬人的な観測者 / 武器を持たない / 形の美しさに惹かれる / 無回答を受け入れる
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 巨大構造物へ入った時、皆が「歓迎された」「試されている」と言いました。私は、開口部が開いた、とだけ記録しました。意図を見たくなる気持ちは分かりますが、答えないものへ私たちの顔を貼るのは危険です。内部では壁の響きと亀裂を読み、削る量を最小限にして帰路へ抽象的な印を刻んだ。武器は持ちませんでした。撃つべき敵がいるという前提まで持ち込みたくなかったので。構造物は最後まで何も説明せず、航路の彼方へ去りました。分からないまま見送れたことを、私は調査の成功だと思っています。
 

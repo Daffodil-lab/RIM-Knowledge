@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C153"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 継承教室菜園
 - Era: ModernUnion / Origin: 無党派 / Relation: 教育共同体
 
-- Tone: 教育・継承・形成 / ReviewStatus: 採用済み
+- Tone: 教育・継承・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 教え上手な園芸家 / 権威の答えを鵜呑みにしない / 議論を楽しむ / 豊かさの普及を望む
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 継承教室の教師は、最後の授業で答えを伏せました。「古い世代を信じ過ぎるな」とだけ言って。私は共同菜園で土、水、光を測り、その教えまで実験に掛けました。見学者には理由を全部説明し、違う方法を持つ者も同じ卓へ呼んだ。議論は好きですし、栽培なら結果も食べられます。私たちが昔の豊かさを望む時、古い制度まで正解にしてはいけない。誰も明日の食事を疑わず、しかも教師へ反論できる暮らしがいい。答えを伏せた人へ返すなら、それが私の回答です。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C188"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 装甲救援帰還膳
 - Era: ModernUnion / Origin: 無党派 / Relation: 装甲突撃隊
 
-- Tone: 装甲・救援・形成 / ReviewStatus: 採用済み
+- Tone: 装甲・救援・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 肝の据わった料理助手 / 喧嘩は避ける / 救護へ細やか / 安堵の息を献立に重ねる
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 装甲救援隊の帰還膳では、戻った者と戻らない者の器を同じ卓へ置きました。私は体調と記憶を聞いて料理を変え、喧嘩になりそうなら鍋を持って逃げた。格闘は得意分野ではありません。救援装甲は勇猛さの飾りではなく、避難者が息を吐くまで時間を買う盾です。私は内側で聞いた長い安堵の息を、湯気が上がる瞬間に思い出します。蘇生しても不在だった食事は戻らないし、故人の味を完全には再現できない。それでも新しい席で息を吐ける料理なら、作り続けたいんです。
 

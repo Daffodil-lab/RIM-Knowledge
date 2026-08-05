@@ -16,6 +16,7 @@ organization_groups:
 status: draft
 authority: protected-draft
 knowledge_role: draft-proposal
+reference_review: accepted
 granularity: concept
 generated:
   by: "process:codex-design-draft"

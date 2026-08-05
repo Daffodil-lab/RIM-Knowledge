@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A238"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 演習環射撃教官
 - Era: ModernUnion / Origin: 無党派 / Relation: 防衛教育隊
 
-- Tone: 戦術・教育・職歴 / ReviewStatus: 採用済み
+- Tone: 戦術・教育・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 遊び好きだが責任感の強い教官。勝敗より、撃たない選択を競技にする。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 射撃は趣味として始めた。的の端を撃ち抜く遊びが好きだったが、戦術教育環では命令の先に誰がいるかを教える側になった。標的へ名前を付け、周囲に小さな苗を植えたよ。誤射すれば点数だけでなく育てたものを失う。候補生には不評だったが、撃たずに識別を終えた班へ最高点を出した。長い不在から戻った友も演習へ参加したが、昔と構えが違っていた。私は直そうとして、彼に「今の私を見ろ」と叱られた。正しかった。教官は型を教えるが、過去の相手を現在へ押し付けてはいけない。
 

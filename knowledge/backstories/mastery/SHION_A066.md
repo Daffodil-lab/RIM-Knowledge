@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A066"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 因果事故調査員
 - Era: EraIndependent / Origin: 無党派 / Relation: 時間事故委員会
 
-- Tone: 調査・乾いたユーモア / ReviewStatus: 採用済み
+- Tone: 調査・乾いたユーモア / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 皮肉好きの調査員。未来の結論にも頭を下げず、現場証拠を一つずつ積む。
-- PreservedCanonPoints: 本人は原因より先に結果が届いた事故を調べ、未来の報告書を証拠品として封印した。 / 結論を知っていても現場検証を省かず、予言を怠慢の免許にしなかった。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
+- PotentialReferencePoints: 本人は原因より先に結果が届いた事故を調べ、未来の報告書を証拠品として封印した。 / 結論を知っていても現場検証を省かず、予言を怠慢の免許にしなかった。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
 
 > 事故の原因を調べる前に、未来から完成報告書が届きました。犯人も故障箇所も書いてある。便利でしょう？　だから私は封をして証拠庫へ入れました。結論を知った調査員は、現場で都合のよい物だけ拾いがちです。私は焼け跡を測り、部品を並べ、証言の時刻を照合してから、最後に報告書を開きました。結論は一致しましたが、未来の書面が省いた小さな整備不良も見つかった。予言は捜査の代わりになりません。なお、報告書は先に届いたのに旅費精算だけは期限後でした。経理の時間は強固ですね。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A396"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 火薬係
 - Era: ColonizationEra / Origin: 採掘隊 / Relation: 発破班
 
-- Tone: 皮肉・緊張・軽口 / ReviewStatus: 採用済み
+- Tone: 皮肉・緊張・軽口 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 自嘲気味に笑いながら話す、ぶっきらぼうな口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 一番信用されない仕事だったよ、火薬係なんてのは。爆破の後に真っ先に疑われるのはいつも俺だった。導火線の長さを一センチ削ったくらいで班長と怒鳴り合ったこともある。硝煙の匂いが服に染みついて、酒場では誰も隣に座りたがらなかったな。それでも岩を割った瞬間の轟音を聞くと、悪くない仕事だと今でも思っちまう。あの音だけは、今でも夢の中で不意に鳴ることがある。
 

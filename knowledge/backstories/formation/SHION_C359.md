@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C359"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 遡る記憶
 - Era: JourneyEra / Origin: 帝国准民 / Relation: 統治評議会随伴
 
-- Tone: 回顧・逆順・成立 / ReviewStatus: 採用済み
+- Tone: 回顧・逆順・成立 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 落ち着いた老成した語りで、時間を遡って話す癖がある。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 今日から遡って話しましょう。今の私は秩序維持の記録整理を任されていますが、その前は分隊の見回り役でした。その前は、まだ帝国という言葉が正式に使われる前の統治評議会に、子供として随伴していました。さらに遡れば、十歳の私は評議会の議事録を運ぶだけの使い走りでした。もっと遡れば、旧い出身圏の言葉しか話さない先達に手を引かれて、甲板を歩いていた記憶があります。遡るほど言葉も暮らしも今と違いますが、歩いていた甲板の感触だけは変わりません。
 

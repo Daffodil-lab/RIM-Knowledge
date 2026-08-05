@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C388"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 帳面童
 - Era: ColonizationEra / Origin: 港湾護衛隊 / Relation: 班長
 
-- Tone: 律儀・責任・継承 / ReviewStatus: 改稿採用済み
+- Tone: 律儀・責任・継承 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 丁寧で落ち着いた記録係のような口調、感情を仕事の話に置き換えて語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > これから船団の護衛班がどう変わっていくべきか、少し話させてください。僕は帳面を任されていた子どもでした。誰がいつ見張りに立ち、誰が武器庫の鍵を持っていたか、全部書き留める係です。班長は数字が合わないことを一番嫌う人でした。だから僕は数字を絶対に合わせました。今なら分かります、あの帳面は人を守るための紙だったんです。だから今度誰かに引き継ぐときも、あの厳しさは残してほしいと思っています。
 

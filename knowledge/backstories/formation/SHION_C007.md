@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C007"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 石彫り
 - Era: EraIndependent / Origin: 無党派 / Relation: 未形成
 
-- Tone: 芸術・労働 / ReviewStatus: 採用済み
+- Tone: 芸術・労働 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 粗野 / 力強い / 石への親近感 / 傷を誇示しない
-- PreservedCanonPoints: 本人は小惑星採掘場で岩を切り出し、作業後に残る壁面へ航路標識や事故犠牲者の記念像を彫った。 / 採掘計画を妨げず、遠くからでも読める形を作る必要があった。 / 鉱脈と亀裂を避けながら彫るうち、石の性質を見極める技術と大きな構図を考える力を身につけた。
+- PotentialReferencePoints: 本人は小惑星採掘場で岩を切り出し、作業後に残る壁面へ航路標識や事故犠牲者の記念像を彫った。 / 採掘計画を妨げず、遠くからでも読める形を作る必要があった。 / 鉱脈と亀裂を避けながら彫るうち、石の性質を見極める技術と大きな構図を考える力を身につけた。
 
 > 記念像？　そんな立派なものじゃない。採掘後の壁へ、帰路の矢印と死んだ連中の横顔を彫っただけです。鉱脈を潰せば怒鳴られるし、亀裂を跨げば像ごと割れる。だから石の癖を読み、遠くの作業灯でも鼻筋が見えるほど線を深くした。仲間は道標代わりだと笑いましたが、それでよかった。芸術は静かな部屋だけのものじゃないでしょう。掘り尽くした場所にも、誰が汗をかいたか残すべきだ。故郷を直せても、あの粉塵まみれの顔までは戻らない。私は傷を磨き消す趣味がないんです。
 

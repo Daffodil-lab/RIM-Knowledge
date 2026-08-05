@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A225"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 特任校観測主任
 - Era: ModernUnion / Origin: 無党派 / Relation: 特殊任務機関
 
-- Tone: 特殊任務・法執行・職歴 / ReviewStatus: 採用済み
+- Tone: 特殊任務・法執行・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 教師らしく問い返す観測主任。軍事と法執行の違いを具体例で語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 特殊任務学校で最初に教えたのは、銃の違いではない。「相手を倒せば終わる任務か」と問い返すことだった。軍事作戦と逮捕では目的が違う。救出なら被害者の位置、法執行なら証拠と手続が残らなければ成功とは言えない。一度の観測を答えにせず、別の者、別の角度、別の時間で確かめさせた。訓練後の食堂では、撃たずに終えた事例ほど長く議論したよ。派手な戦果は短く説明できるが、引き金を引かなかった理由には多くの人がいる。私は、その長い説明を面倒がらない隊員を育てたかった。
 

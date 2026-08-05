@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C122"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 塔域再会案内
 - Era: ModernUnion / Origin: 無党派 / Relation: 塔域共同体
 
-- Tone: 塔・記録・形成 / ReviewStatus: 改稿採用済み
+- Tone: 塔・記録・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 慎重な案内役 / 言いにくい差異を先に伝える / 地下構造に詳しい / 短い別れを悔やむ
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 再会受付では、抱き合う前に嫌な説明をします。記憶の欠落、複製後の差、互いに過ごした時間の長さ。後回しにすると喜びまで疑わせるからです。私は塔の端末記録を照合し、アロンの投影を独立した人格と取り違えず、地下待合室までの安全な経路も覚えました。初めて案内した二人は、結局「おかえり」と「ただいま」しか言わなかった。私は邪魔を恐れてすぐ離れたのですが、後日片方はまた不在になった。もう少し話を聞けばよかった。それ以来、説明を終えても急いで席を立たないようにしています。
 

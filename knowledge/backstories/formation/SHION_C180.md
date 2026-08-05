@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C180"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 継承問いかけ劇
 - Era: ModernUnion / Origin: 無党派 / Relation: 教育共同体
 
-- Tone: 教育・継承・形成 / ReviewStatus: 改稿採用済み
+- Tone: 教育・継承・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 観客へ問い返す演者 / 教師の答えを再演しない / 殺陣は軽快 / 身近な平和を選ぶ
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 継承教室の舞台では、教師が語った正解を再演しませんでした。故郷を戻すべきか、死者を蘇らせれば別れは消えるか、最後は観客へ問い返した。私は悲劇だけにせず、軽い殺陣と間抜けな失敗も入れました。友と動きを比べるのが楽しかったんです。最終授業で教師は答えを伏せましたが、今も腹は立ちません。長い時間があっても、当時の友と自分までは作り直せない。その事実を一つの教訓で閉じるより、今日隣にいる者が安心して明日を待てるか、何度でも問い直す方が私には合っています。
 

@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C160"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: Kombinat射撃同好
 - Era: ModernUnion / Origin: 無党派 / Relation: Kombinat共同体
 
-- Tone: 工業・保守・形成 / ReviewStatus: 採用済み
+- Tone: 工業・保守・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 陽気な射撃愛好家 / 古道具派 / 栽培区を観測に使う / 皆で直すことを楽しむ
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > Kombinatの射撃同好会は、古い照準器を直して新型と競わせる変わった集まりでした。私は安全確認と標的識別を覚え、栽培区の植物が伸びる季節には射線を測り直した。必要な訓練だったか？　いいえ、半分以上は遊びです。友と精度を競うのが楽しかった。大停止の夜は射場の電力も落ち、全員で手作業へ戻しました。誰がどの機械を直せるか分かっていたので、暗闇でも笑えたんです。私は最新設備より、壊れた時に皆が集まれる工程を好みます。楽しさも保守部品の一つでしょう。
 

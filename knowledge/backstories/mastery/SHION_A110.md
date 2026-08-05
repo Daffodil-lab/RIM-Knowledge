@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A110"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 審査線食堂調理
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 連合軍
 
-- Tone: 軍務・不条理・職歴 / ReviewStatus: 採用済み
+- Tone: 軍務・不条理・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 口の悪い食堂調理師。泥靴と食欲から兵の状態を読み、無謀な攻勢命令へ鍋越しに異議を出す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 攻勢命令を審査する前線で、公共食堂を回していました。命令書は乾いていても、戻った兵の靴は泥だらけです。食欲が落ち、同じ腕を何度も拭く者が増えれば、攻勢計画の「許容損耗」が嘘だと分かる。私は献立表へ負傷と疲労を記し、衛生班と一緒に審査官へ持ち込みました。調理師が作戦へ口を出すな、と怒鳴られましたよ。殴り返す代わりに、冷めた彼らの夕食を出しました。無謀な命令は差し戻されました。私は試射より試食の方が得意ですし、その方が兵を多く帰せます。
 

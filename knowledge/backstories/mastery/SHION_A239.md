@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A239"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 制限地競技指導
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 回収班
 
-- Tone: 遺物・危険・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 遺物・危険・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 陽気な競技指導員。危険地帯の訓練を、慎重さを競う遊びへ変える。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 立入制限地へ入る者は、強さより止まる技術が要る。私は異なる身体の競技者へ受け身を教え、合図一つで動きを止める大会を開いた。由来不明の遺物には触れず、訓練用の動物が嫌がる場所も迂回点にしたよ。最速の班は失格になった。道端の安物を拾い、確認を省いたからだ。幸い、それだけは無害だった。優勝したのは一番遅く、全員の帰還と動物の落ち着きを確かめた班だった。観客には地味だと言われたが、私は大いに盛り上がった。危険な場所では、慎重さを誇れる遊びが必要なんだ。
 

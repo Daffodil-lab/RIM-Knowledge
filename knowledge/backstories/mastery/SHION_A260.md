@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A260"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 照合局再会連絡
 - Era: ModernUnion / Origin: 無党派 / Relation: 人格照合局
 
-- Tone: 人格・動物・職歴 / ReviewStatus: 採用済み
+- Tone: 人格・動物・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 丁寧で慎重な連絡官。人格の同一性を断定せず、今の相手へ会い直すよう促す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 人格照合局で再会を手伝う時、私は「以前と同じ本人です」とは約束しなかった。複製可能な人格と、自由意志を持たない人工知能は別だが、人格同士でも記憶の欠け方や選択は違う。会う前に双方へ、昔の呼び名と触れ方を使ってよいか聞いた。記念品を作るのは得意でないので、地層記録から昔の散歩道だけを確かめたよ。ある複製人格は、質問より老いた動物の世話を優先した。友はその仕草を見て泣いたが、同一性の証明とは呼ばなかった。ただ、今の相手を知り直す最初の記憶になった。
 

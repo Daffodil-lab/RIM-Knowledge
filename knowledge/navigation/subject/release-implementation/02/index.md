@@ -1,10 +1,9 @@
 # リリース・実装 02
 
-範囲: 12. α完成条件〜REG-004 Design保存
+範囲: 13. β〜REG-005 単一個体として保存
 
 ## 項目
 
-- [12. α完成条件](/kombinat/core/12-%CE%B1%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Kombinat αはShion種族実装に先行し、バニラHumanのfixtureでThingOwner間の直接転送、三段生産、任意排出を成立させる。
 - [13. β](/kombinat/core/13-%CE%B2.md) — Equipment Familyは作者が明示登録した候補だけを使う。
 - [14. 実装順](/kombinat/core/14-%E5%AE%9F%E8%A3%85%E9%A0%86.md) — 工業UIのRimWorld 1.6画面契約を先に固定し、Shion種族に先行してCore独自保管・接続システムとKombinatをバニラHumanのfixtureで完成させる。
 - [12. α Release Gate](/kombinat/requirements/12-%CE%B1-Release-Gate.md) — α版はCore独自保管基盤との直接受渡し、三段生産、任意排出、保存・復旧をRelease Gateへ含める。
@@ -27,7 +26,7 @@
 - [J. 途中保存と再送](/pawn/077-J-%E9%80%94%E4%B8%AD%E4%BF%9D%E5%AD%98%E3%81%A8%E5%86%8D%E9%80%81.md) — J. 途中保存と再送は、生産、Dormant化、回収、再資源化、再実体化、Cloneの各段階で保存する。
 - [13. 完成図Hardening要件](/pawn/13-%E5%AE%8C%E6%88%90%E5%9B%B3Hardening%E8%A6%81%E4%BB%B6.md) — 本節は旧完成図監査から回収したPawn Foundry固有のHardening要件を、本書自身の拘束要件として維持する。
 - [14. β Definition of Done](/pawn/14-%CE%B2-Definition-of-Done.md) — 次を全て満たした時だけ、β版のPawn生産系を完成とする。
-- [15. 未確定のバランス値](/pawn/15-%E6%9C%AA%E7%A2%BA%E5%AE%9A%E3%81%AE%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9%E5%80%A4.md) — 次はβの実装fixtureで確定するという方針の適用範囲と条件を定める。
+- [15. 未確定のバランス値](/pawn/15-%E6%9C%AA%E7%A2%BA%E5%AE%9A%E3%81%AE%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9%E5%80%A4.md) — Pawn生産・保管・再生の具体的なバランス値をβの実装fixtureで決めるための調整候補。
 - [2.1 補充可能性](/pawn/2-1-%E8%A3%9C%E5%85%85%E5%8F%AF%E8%83%BD%E6%80%A7.md) — 補充可能性は、通常シオンPawnに、世界で一度しか得られない必須材料や有限の生産回数を要求しない。
 - [2.2 人格とゲームユニット](/pawn/2-2-%E4%BA%BA%E6%A0%BC%E3%81%A8%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88.md) — 人格とゲームユニットは、ゲーム上のPawnは生産、保管、交換、補充できるコマである。
 - [2.3 無料保管](/pawn/2-3-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — 生存PawnはPawn Foundryまたは対応設備からDormant状態へ移し、必要になるまで保管できる。
@@ -84,3 +83,4 @@
 - [REG-002 Archive更新](/pawn/reg-002.md) — MUST: Archiveは登録時、Dormant化時、手動保存時、死亡回収時にevent駆動でcheckpointする。
 - [REG-003 単一個体制約](/pawn/reg-003.md) — MUST: 同じindividualIdを持つ活動中またはDormantの実体を二体作らない。
 - [REG-004 Design保存](/pawn/reg-004.md) — MUST: プレイヤー設計を個体情報のない再利用可能なPawn Designとして保存できる。
+- [REG-005 単一個体として保存](/pawn/reg-005.md) — MUST: プレイヤー設計を名前とindividualIdを持つ一人のIndividual Archiveとして保存し、必要な時にその個体を生産できる。

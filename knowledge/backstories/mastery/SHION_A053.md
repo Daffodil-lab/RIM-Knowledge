@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A053"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 時間差郵便局長
 - Era: EraIndependent / Origin: 無党派 / Relation: 星域郵便網
 
-- Tone: 通信・時間 / ReviewStatus: 採用済み
+- Tone: 通信・時間 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 几帳面だが情に厚い局長。時間の矛盾を郵便実務として扱い、乾いた冗談を挟む。
-- PreservedCanonPoints: 本人は発送前に届く手紙、差出人の蘇生後に戻る小包、消えた時刻からの葉書を仕分けた。 / 配達不能でも捨てず、宛先が再び存在する日を待った。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
+- PotentialReferencePoints: 本人は発送前に届く手紙、差出人の蘇生後に戻る小包、消えた時刻からの葉書を仕分けた。 / 配達不能でも捨てず、宛先が再び存在する日を待った。 / 新しい身体と職を得た後も、本人はそこで抱いた気持ちを手放さなかった。
 
 > 発送される三日前に届いた手紙も、差出人が蘇生した後で戻ってきた小包も扱いました。消えた時刻から葉書が来ることさえあります。郵便局では、因果より先に宛名を確認するんです。配達できない物も捨てません。住所が壊れたのか、受取人がまだ戻っていないのか、それともまだ稼働・登録されていないのかで棚を分けました。保管期限を問われるたび「受取人が存在するまで」と答えたら、倉庫係には嫌われましたね。それでも一通の恋文が数時代越しに届いた日、彼も黙って棚を増やしてくれました。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A153"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 特任校記録官
 - Era: ModernUnion / Origin: 無党派 / Relation: 特殊任務機関
 
-- Tone: 特殊任務・法執行・職歴 / ReviewStatus: 採用済み
+- Tone: 特殊任務・法執行・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: LawEnforcement
 - VoiceProfile: 卓越した法執行記録官。突入の派手さを嫌い、撃たずに終えた交渉ほど長く検討する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 特殊任務学校で記録を教えました。軍事作戦なら敵戦力を止めることが中心でも、法執行では逮捕、救出、証拠保全を同時に守らなければなりません。人質事件では交渉を続ける理由と、突入へ切り替える条件を一秒ごとに残しました。撃たずに終えた任務ほど長く検討します。何もしなかったのか、正しく待ったのかを区別するためです。夜の講義後は食堂で記録を読み直し、冷めた料理を食べました。複数の章を頂きましたが、空の薬莢より、無傷で返却された証拠袋を私は誇ります。
 

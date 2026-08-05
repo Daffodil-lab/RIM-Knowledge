@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C227"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 共同食堂跡道具直し
 - Era: PostCivilWarEmpire / Origin: 旧帝国 / Relation: 内戦後帝国
 
-- Tone: 料理・記憶・形成 / ReviewStatus: 採用済み
+- Tone: 料理・記憶・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 乾いた冗談を好む修繕屋。欠乏の記憶を、食器に残る傷から語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 内戦後の共同食堂には、料理より欠けた皿の方が多くありました。私は割れ目を継ぎ、持ち主が付けた傷だけは残しました。律法では物資が公平に配られるはずなのに、実際は印章の数で夕食が冷めた。射撃を教わったのも、食料庫を守るためです。最後に皆で使った皿を直した夜、誰も味の話をしませんでした。でも途中で誰かが「今日は金属片が少ない」と冗談を言い、少しだけ笑った。私が覚えていたい帝国は、命令書の帝国ではありません。壊れた卓でも笑いを分けた、名前の残らない人たちの暮らしです。
 

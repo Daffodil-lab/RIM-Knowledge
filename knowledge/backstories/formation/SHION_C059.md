@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C059"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 墓標文字洗い
 - Era: EraIndependent / Origin: 無党派 / Relation: 共同墓苑
 
-- Tone: 工芸・追悼 / ReviewStatus: 採用済み
+- Tone: 工芸・追悼 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 厳粛 / 手作業の反復 / 二つの日付を守る / 本人の希望にも反対する
-- PreservedCanonPoints: 本人は砂に埋もれた墓標を洗い、読める名だけを書き写した。 / 復活した者の標には帰還日を加え、本人が望んでも古い死亡日を消さなかった。 / 二つの日付が同じ人生を挟んでいた。
+- PotentialReferencePoints: 本人は砂に埋もれた墓標を洗い、読める名だけを書き写した。 / 復活した者の標には帰還日を加え、本人が望んでも古い死亡日を消さなかった。 / 二つの日付が同じ人生を挟んでいた。
 
 > 砂を払い、水を掛け、読める溝だけ紙へ写す。共同墓標では、想像で一画も足しませんでした。復活した者が来ると、死亡日の隣へ帰還日を刻んだ。本人から古い日付を消してくれと頼まれたことがあります。その依頼は受けませんでした。死んだ時間は本人だけのものではない。待った友、看取った者、空いた席にも属するからです。酷い判断だったかもしれません。それでも二つの日付の間を削れば、再会まで消える気がした。ソフェル、記録は本人の希望だけで直せないこともある――その責任ごと私の名へ残してください。
 

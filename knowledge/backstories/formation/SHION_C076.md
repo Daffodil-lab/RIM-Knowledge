@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C076"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 星域史復習者
 - Era: ModernUnion / Origin: 無党派 / Relation: 公開史学院
 
-- Tone: 歴史・郷愁 / ReviewStatus: 採用済み
+- Tone: 歴史・郷愁 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 学究的 / 両面を並べる / 安易な断罪を嫌う / 出典へ執着
-- PreservedCanonPoints: 本人は帝国最盛期を、楽園とも圧政とも決めつけず学び直した。 / 平和を羨み、階級制を嫌い、同じ暮らしを別の制度で超えたいと作文した。 / 教師は結論より出典を褒めた。
+- PotentialReferencePoints: 本人は帝国最盛期を、楽園とも圧政とも決めつけず学び直した。 / 平和を羨み、階級制を嫌い、同じ暮らしを別の制度で超えたいと作文した。 / 教師は結論より出典を褒めた。
 
 > 最盛期帝国は楽園だったか、圧政だったか。設問が悪い、と作文の冒頭に書きました。食事と住まいを疑わず暮らせた平和は羨ましい。階級制と長い形式主義は嫌いです。私は同じ暮らしを別の制度で超えたいと結び、教師から「結論は平凡、出典は良い」と評されました。今なら結論も少し違うでしょうね。過去を愛する者と憎む者は、別の頁を読んでいるだけかもしれない。ソフェル、どちらか一方へ整理しないでください。矛盾した証言を同じ机へ置くことから、私の未来設計は始まります。
 

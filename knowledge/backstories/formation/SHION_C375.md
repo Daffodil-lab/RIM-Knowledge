@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C375"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 儀礼の裏の夜
 - Era: JourneyEra / Origin: 東側／東方の民 / Relation: 第二世代信徒会
 
-- Tone: 信仰・孤独・反転 / ReviewStatus: 改稿採用済み
+- Tone: 信仰・孤独・反転 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 淡々とした語りが途中で崩れ、また戻る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 儀式伝承係の仕事は淡々としたものです。所定の言葉を覚え、所定の順で唱え、次の子に教える。それだけでした。第二世代信徒会では、私は模範生とされていました。——ただ、養育者を送る儀式の夜だけは、覚えた言葉が一言も出てきませんでした。皆の前で立ち尽くして、代わりに出たのは嗚咽だけでした。誰も咎めませんでした。それどころか、隣にいた年長者が私の分まで唱え続けてくれました。あの夜のことは、今も淡々とは語れません。伝承とは、言葉が途切れた時に誰かが継ぐことなのだと知りました。
 

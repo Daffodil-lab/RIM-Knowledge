@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A044"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 後世ファシスト転向者
 - Era: ModernUnion / Origin: 無党派 / Relation: 現代ファシスト小派
 
-- Tone: 政治・後世の転向 / ReviewStatus: 採用済み
+- Tone: 政治・後世の転向 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 傷を抱えた断定口調。恐怖から秩序へ傾いた経緯を語るが、批判には苛立ちも見せる。
-- PreservedCanonPoints: 度重なる襲撃と同盟行政の失敗で共同体を失った本人は、秩序と即応を約束する後世のファシスト小派へ加わった。 / 見捨てられた恐怖から、強制的な統一を安全と考えた。 / 旧党の歴史を知る者からは、代償を知らず象徴だけを使う転向者として嫌われた。
+- PotentialReferencePoints: 度重なる襲撃と同盟行政の失敗で共同体を失った本人は、秩序と即応を約束する後世のファシスト小派へ加わった。 / 見捨てられた恐怖から、強制的な統一を安全と考えた。 / 旧党の歴史を知る者からは、代償を知らず象徴だけを使う転向者として嫌われた。
 
 > 救援要請を三度送り、三度とも会議中だと返されました。四度目の襲撃で共同体は消えた。だから私は、即応と統一を掲げる灰色旗の小派へ入りました。見捨てられるくらいなら、全員を一つの命令へ従わせた方が安全だと信じたんです。旧党を知る者からは、代償も知らず古い印だけを借りた転向者だと嫌われました。腹は立ちますが、反論しきれません。私の恐怖は本物でも、それで他人の自由を取り上げてよいことにはならない。今も秩序を求めています。ただ、その秩序が誰を黙らせるのか、以前より遅くまで考えます。
 

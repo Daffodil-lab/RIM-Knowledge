@@ -19,7 +19,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A191"
 canonical_scope: "backstory-mastery"
@@ -40,10 +40,10 @@ sources:
 - Short: 塔域徒手警護
 - Era: ModernUnion / Origin: 無党派 / Relation: 塔域共同体
 
-- Tone: 塔・記録・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 塔・記録・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 無口で穏やか。人より動物との距離の取り方を語りやすい。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 塔の警護では、武器を抜く前に人の流れを見る。怒鳴り合いが始まったら、私は間へ身体を入れ、手首と肩を押さえて離した。説得は得意じゃない。長く話すほど相手を苛立たせるから、危険がないと分かればすぐ手を放す。端末に現れたアロンの投影と、独立して生きる人格を混同しない確認だけは、何度でも声に出した。塔の飼育動物は私を怖がらなかったよ。黙って待てる者だと知っていたのだろう。静かな通路で交わした短い挨拶は覚えている。気の利いた返事ができなかったことも含めてね。
 

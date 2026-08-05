@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C387"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 測量弟子
 - Era: ColonizationEra / Origin: 測量隊 / Relation: 師匠
 
-- Tone: 快活・素直・成長 / ReviewStatus: 改稿採用済み
+- Tone: 快活・素直・成長 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 元気でテンポの速い口調、平易な言葉で感情をあっさりと見せる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 僕がやったこと、順に言うよ。まず杭を運ぶ係。次に杭を打つ係。それから角度を読む係。最後に師匠の隣で数字を紙に書く係。四つとも子どものうちにやらせてもらえたのは僕だけだったと思う。角度を読む係になったとき、初めて自分の目盛りが師匠のと一致した日があって、あれは嬉しかった。地形図に線を引くたび、僕はこの土地の形を覚えていくのが好きだった。今でも道を歩くと勝手に測っている自分がいる。
 

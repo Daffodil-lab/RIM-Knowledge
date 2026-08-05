@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A258"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 制限地舞台演出役
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 回収班
 
-- Tone: 遺物・危険・職歴 / ReviewStatus: 採用済み
+- Tone: 遺物・危険・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 芝居がかった演出家。恐怖を笑いへ変えるが、危険物への慎重さは崩さない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 立入制限地の記録を舞台にするなら、悲鳴と死者だけでは足りない。私は回収班が道端の安物へ大騒ぎし、貴重そうな遺物から全力で逃げた場面も入れた。観客は笑ったよ。小道具は本物を持ち込まず、重量と反応を調べた安全な複製だけにした。役者の身体規格に合わせ、転倒場面の受け身も自分で教えた。亡くなった友へ謝れなかった場面だけは、何度演出を変えても軽くできなかった。長い時を生きても、言えなかった一言は古びない。だから最後は笑いで終え、終演後に謝りたい相手へ連絡する時間を設けた。
 

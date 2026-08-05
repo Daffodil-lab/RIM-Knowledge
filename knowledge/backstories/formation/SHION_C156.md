@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C156"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 文化区音楽会
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 福祉・選択・形成 / ReviewStatus: 採用済み
+- Tone: 福祉・選択・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 自由奔放な演奏者 / 快適さの強制を嫌う / 身体表現も好む / 再会の不一致を音で受け入れる
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 音楽は必要ありません。だから好きなんです。孵育文化区の音楽会では、制度が推奨する快適な調律を断り、わざと軋む自作楽器も混ぜました。身体を使う演奏は格闘の型に似ていて、友と競うのも楽しかった。革命の後、長く不在だった友と再会して同じ曲を弾いたら、テンポが全く合いませんでした。昔の私たちなら喧嘩したでしょう。でも合わせず、ずれたまま最後まで演奏した。友は戻っても、当時の二人は戻りません。その違いを失敗にしない音楽なら、これからも一緒に作れると思えました。
 

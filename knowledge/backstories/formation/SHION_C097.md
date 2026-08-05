@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C097"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 無味覚香料師
 - Era: EraIndependent / Origin: 無党派 / Relation: 感覚文化工房
 
-- Tone: 料理・奇妙 / ReviewStatus: 採用済み
+- Tone: 料理・奇妙 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 無味覚の調香師 / 観察へ鋭い / 自分の欠落を悲劇化しない / 友の表情を尊ぶ
-- PreservedCanonPoints: 本人は味覚入力を閉じた身体で香料を調合し、友人の表情だけを計器にした。 / 本人には分からない故郷の味を正確に再現し、食卓で泣く友人を黙って見守った。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
+- PotentialReferencePoints: 本人は味覚入力を閉じた身体で香料を調合し、友人の表情だけを計器にした。 / 本人には分からない故郷の味を正確に再現し、食卓で泣く友人を黙って見守った。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
 
 > 私には味が分かりません。入力を閉じた身体でしたから。香料調合では友人の眉、喉、最初の息だけを計器にしました。「故郷はもっと苦い」「後味だけ甘い」と言われ、何百回も比率を変えた。ある配合で友人が黙って泣き、私は成功か失敗か尋ねられなかった。味を共有できないことが寂しくないか？　少しは。でも分からないからこそ、私の好みで上書きせずに済んだ。ソフェル、欠けた感覚を無能とは書かないでください。私は他人の表情を読む別の精度を選びました。
 

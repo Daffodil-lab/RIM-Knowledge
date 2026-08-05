@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C407"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 道具番
 - Era: ColonizationEra / Origin: 修繕隊 / Relation: 後見人
 
-- Tone: 几帳面・反復・安堵 / ReviewStatus: 改稿採用済み
+- Tone: 几帳面・反復・安堵 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 同じ言葉を繰り返すような規則正しい口調、平易な言葉の奥に静かな温かさをにじませる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 朝は道具箱を開ける。数を数える。夜は道具箱を閉める。また数を数える。私の一日はそれだけの繰り返しでした。後見人はその繰り返しを崩すことを許しませんでした。一本でも足りなければ、見つかるまで探す。それが決まりでした。ある日、金槌が一本本当に見つからず、一晩中探した記憶があります。翌朝、道具箱の底から出てきた時の安堵は今でも忘れません。朝は道具箱を開ける。今もその反復だけは運動記録に残っています。
 

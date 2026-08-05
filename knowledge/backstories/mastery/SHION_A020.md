@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A020"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 評議会注解者
 - Era: ModernUnion / Origin: ソフェル / Relation: 同盟評議会
 
-- Tone: 法務・政治周辺 / ReviewStatus: 採用済み
+- Tone: 法務・政治周辺 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 弁舌鋭い皮肉屋。決議を飾らず、敗れた側の理由と再検討条件を欄外へ刻む。
-- PreservedCanonPoints: 本人は評議会決議へ適用範囲、反対意見、再検討条件を付す注解者となった。 / 議員の演説を飾るのではなく、住民が後から決議の意味と限界を確かめられるようにした。 / 複雑な争点を明確な言葉へまとめる能力は同族からも高く評価され、重要評議会の記録を任された。
+- PotentialReferencePoints: 本人は評議会決議へ適用範囲、反対意見、再検討条件を付す注解者となった。 / 議員の演説を飾るのではなく、住民が後から決議の意味と限界を確かめられるようにした。 / 複雑な争点を明確な言葉へまとめる能力は同族からも高く評価され、重要評議会の記録を任された。
 
 > 注解者は議員の演説を褒める係ではありません。私は決議へ適用範囲、反対意見、再検討条件を書き、住民が後から限界を確かめられるようにしました。採決で敗れた側の理由を削りたがる議員には、欄外を増やして差し上げました。複雑な争点を短くまとめる腕は同族にも評価されましたが、短さで生活を切り落とした失敗もあります。それから会議後の冗談や言い淀みまで別記録に残しました。結果だけでは、次の改正で同じ痛みを見落とすからです。立派な決議ほど、逃げ道を明記すべきでしょう。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C364"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 七つの病室
 - Era: JourneyEra / Origin: 第三世界／高地文化継承者 / Relation: 第七居住甲板
 
-- Tone: 医療・世代・記憶 / ReviewStatus: 採用済み
+- Tone: 医療・世代・記憶 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: ゆったりとした古風な語り口、数字を確かめるように話す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 七つ、いや八つだったかのう。わしが子供の頃、医務室は甲板ごとに七つあって、わしはその全部に薬を届けて回る使い走りじゃった。八つ目は後から増えた仮設室で、それを数えるかどうかでいつも自分と揉める。高地文化を継ぐ旧型機体には低温区画で熱管理不良が出やすく、冬期照明の甲板でよく倒れた。わしはその度に走った。距離は覚えておらんが、廊下の数だけは覚えておる。七つの扉、七つの匂い、七人の医師。数を数えることが、わしにとって唯一の記録の仕方じゃった。
 

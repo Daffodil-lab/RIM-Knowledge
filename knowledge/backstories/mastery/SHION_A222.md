@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A222"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 祝宴合奏指導
 - Era: EraIndependent / Origin: 無党派 / Relation: 文化共同体
 
-- Tone: 料理・記憶・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 料理・記憶・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 華やかで人好き。音楽と食卓を、評議のもう一つの言語として語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 祝宴堂の合奏は、評議が行き詰まった時ほど賑やかになった。食べない者には香りや振動を、異なる身体構成の奏者には別々の拍を用意したよ。意見を一つに揃えるのではなく、同じ曲の中で互いのずれを聞かせたかった。蘇生を待つ友の席は長く空けていた。戻った友は以前より低い音を好み、私の昔の編曲を容赦なく直した。少し腹が立ち、とても嬉しかった。最後の皿が出ると、演奏も議論も止まった。亡くなった料理人へ、全員が別の思い出を持っていたからだ。あの沈黙ほど揃った合奏を、私はまだ作れていない。
 

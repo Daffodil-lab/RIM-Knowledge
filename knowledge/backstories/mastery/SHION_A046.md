@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A046"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 二度の帝国離反者
 - Era: LongTransition / Origin: 帝国離反者 / Relation: 無所属
 
-- Tone: 離反・再離反 / ReviewStatus: 採用済み
+- Tone: 離反・再離反 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 律法を愛する監査役。静かな皮肉を交え、二度の離反を一つの忠誠として語る。
-- PreservedCanonPoints: 本人は内戦後帝国の違法命令を拒み、革命連合へ離反した。 / 戦後、帝国再建派が最盛期の律法秩序を戻すと約束すると、監査役として一度復帰した。 / 再建派が旧内務局の拘禁制度を再利用したため、記録を持って再び離れた。
+- PotentialReferencePoints: 本人は内戦後帝国の違法命令を拒み、革命連合へ離反した。 / 戦後、帝国再建派が最盛期の律法秩序を戻すと約束すると、監査役として一度復帰した。 / 再建派が旧内務局の拘禁制度を再利用したため、記録を持って再び離れた。
 
 > 一度目は、内戦後の帝国が自らの律法を破ったから去りました。革命連合へ渡り、もう戻らないつもりでしたよ。けれど戦後、再建派が最盛期の法と暮らしを取り戻すと誓った。私はその言葉を信じたいあまり、監査役として戻ったんです。そこで旧内務局の拘禁台帳が、新しい表紙だけ付けて使われているのを見つけました。二度目は、その写しを抱えて去りました。節操がないと笑われますが、私が仕えたかったのは帝国の名ではなく、帝国さえ従う律法です。いつか三度目があるなら、今度こそ留まれる国であってほしいですね。
 

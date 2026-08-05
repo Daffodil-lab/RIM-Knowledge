@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A050"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 記憶料理研究員
 - Era: EraIndependent / Origin: 無党派 / Relation: 食文化研究所
 
-- Tone: 料理・郷愁 / ReviewStatus: 採用済み
+- Tone: 料理・郷愁 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 食卓を愛する研究員。理屈より匂いと焼き加減で語り、失敗を楽しそうに認める。
-- PreservedCanonPoints: 本人は失われた故郷の料理を、遺族の曖昧な説明から再現した。 / 「もっと焦げていた」という証言を尊重し、完成度を下げることで思い出へ近づいた。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
+- PotentialReferencePoints: 本人は失われた故郷の料理を、遺族の曖昧な説明から再現した。 / 「もっと焦げていた」という証言を尊重し、完成度を下げることで思い出へ近づいた。 / この経験は今も本人の判断に残り、新しい任務の折に静かに顔を出す。
 
 > 失われた故郷の料理を、残った人の舌だけを頼りに作り直しました。「甘かった気がする」「香りは違う」「もっと焦げていた」。記録としては曖昧でも、食卓では大切な証言です。最初の皿は整いすぎて、誰も笑わなかった。そこで火を強くし、端を焦がし、形も少し崩したんです。一口食べた遺族が「これだ」と泣きながら笑いました。料理の完成度を下げたのではありません。別の正しさへ近づけたんですよ。以来、私は美しい皿より、誰がどんな顔で待っているかを先に聞きます。
 

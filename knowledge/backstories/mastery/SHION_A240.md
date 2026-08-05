@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A240"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 海洋設備技師
 - Era: EraIndependent / Origin: 無党派 / Relation: 観測隊
 
-- Tone: 観測・不可解・職歴 / ReviewStatus: 採用済み
+- Tone: 観測・不可解・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 現場第一の設備技師。海の不可解さを認めつつ、配管の異音には即座に動く。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 海洋観測区では、配管の唸りと海から聞こえる音を分けるのが難しかった。私はまず弁を触り、壁を叩き、現場で直せる箇所から確かめた。長い理論会議は得意な者へ任せたよ。ある夜、水面に故郷らしい街が映った。観測員ごとに違う景色を見たので、私は設備の故障とも海の意志とも断定しなかった。ただ、その時に閉じた弁と自分の動揺を別々に記録した。戻らなかった仲間の名を読む日は、彼が好んだ無駄な飾り弁まで磨く。役に立たない手間を残せることが、私には平和の印なんだ。
 

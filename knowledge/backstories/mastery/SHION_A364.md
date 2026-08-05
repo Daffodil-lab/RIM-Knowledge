@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A364"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 壁画班の異論
 - Era: JourneyEra / Origin: 東側／東方の民 / Relation: 共用区画壁画班
 
-- Tone: 芸術・記憶・異議 / ReviewStatus: 採用済み
+- Tone: 芸術・記憶・異議 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 静かに反論する画家。決めつけを嫌う。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 故郷の風景を描いて心を慰めた、とよく言われるけれど違う。私が壁に描いたのは見たことのない景色ばかりだった。東方の民としての記憶は前世代の記録でしか知らず、私自身は船の中でしか生きていない。だから描いたのは想像の丘、想像の川、見たこともない雨の匂い。それを望郷画と呼ばれるたび、少し訂正したくなる。私が描いていたのは失った故郷ではなく、まだ見ぬどこかへの当てずっぽうだったのだと、絵の前でいつも言い直している。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A041"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 自主離脱者
 - Era: LongTransition / Origin: 共産党系 / Relation: 無所属労働組合
 
-- Tone: 政治・離脱 / ReviewStatus: 採用済み
+- Tone: 政治・離脱 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 穏やかな実務家。理念と所属を切り分け、離脱時の未練も隠さず話す。
-- PreservedCanonPoints: 本人は旧共産党系の工房で共同運営に参加したが、異論を怠業として処分する方針へ反対し、自ら組織を離れた。 / 共同所有の理念まで捨てたわけではなかった。 / 離脱後は小さな労働組合で工具の貸出と修理教育を続けた。
+- PotentialReferencePoints: 本人は旧共産党系の工房で共同運営に参加したが、異論を怠業として処分する方針へ反対し、自ら組織を離れた。 / 共同所有の理念まで捨てたわけではなかった。 / 離脱後は小さな労働組合で工具の貸出と修理教育を続けた。
 
 > あの工房では、工具も失敗も皆のものでした。私はその考えが好きで、共同運営の席にも進んで座ったんです。でも、工程への異論を怠業として処分する案にだけは署名できなかった。退席した日のことは、今でも少し悔やんでいます。もっと言葉を尽くせたのではないか、と。組織を離れても、共同所有まで嫌いになったわけではありません。小さな労働組合で工具を貸し、壊した者と一緒に直し方を覚えました。元同志とも必要なら働きますよ。旗より、道具を待つ手の方を見たいんです。
 

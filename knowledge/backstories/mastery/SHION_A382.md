@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A382"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 最初の設計技師
 - Era: JourneyEra / Origin: 律法学舎 / Relation: 統合建築評議班
 
-- Tone: 建築・帝国・要求 / ReviewStatus: 採用済み
+- Tone: 建築・帝国・要求 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 率直に要求を口にする設計技師。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帝国という言葉が公式に使われ始めた頃、俺は最初の統合議事堂の設計図を引いていた。旧い区画ごとの建材規格を全部統一するのに三年かかった。処置を受けて長く働けるようになったのはその後だが、その話はここでは詳しくしない。一つだけ頼みたい、あの議事堂の設計図が今も残っているなら、俺の名前じゃなく、あの三年間の建材規格統一表の方を残してくれ。図面より、あの表の方が価値がある。
 

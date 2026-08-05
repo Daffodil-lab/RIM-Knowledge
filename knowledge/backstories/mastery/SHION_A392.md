@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A392"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 水路技師
 - Era: ColonizationEra / Origin: 灌漑隊 / Relation: 測量班
 
-- Tone: 論理・修正・忍耐 / ReviewStatus: 採用済み
+- Tone: 論理・修正・忍耐 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 誤解を正すときだけ語気が強くなる、理屈っぽい口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 水路は真っ直ぐ引けばいいというものではありません。よくそう誤解されますが、実際には千分の一単位の傾斜をつけないと水が澱んで腐るのです。最初の設計図を描いた技師もそこを見落としていて、私が現場で図面を書き直しました。土の匂いと水の淀んだ匂いの違いを嗅ぎ分けられるようになったのはあの頃です。正しい理屈より、実際に流れる水の方が私には信頼できました。
 

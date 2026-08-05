@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C185"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 連合群衆警護
 - Era: RevolutionaryWar / Origin: 革命連合 / Relation: 革命連合
 
-- Tone: 革命・証言・形成 / ReviewStatus: 採用済み
+- Tone: 革命・証言・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: せっかちな警護練習者 / 武器を使わない工夫を好む / 動物の反応を待つ / 広い対象へ平和を望む
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 私は気が短いので、武器を持たない警護練習を選びました。矛盾していますか？　だからこそ必要だったんです。混雑した配給所で人と動物の流れを読み、党派の違う相手も傷つけず通路から出す。言葉が通じなければ反応を待つ。共同の敵が消えた後、仲間同士の衝突を止められなかった日は今も腹が立ちます。戻らなかった者の名より、炊事の煙の下で並んだ顔を覚えている。昔の制度を戻す気はありませんが、食事と住まいを守る範囲は、旗の内側より広くしたい。それが私の警護対象です。
 

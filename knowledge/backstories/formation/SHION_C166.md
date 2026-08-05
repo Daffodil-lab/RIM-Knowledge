@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C166"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 市場動物番
 - Era: LongTransition / Origin: 独立開拓者 / Relation: 長い過渡期
 
-- Tone: 交易・旅・形成 / ReviewStatus: 採用済み
+- Tone: 交易・旅・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 市場の老獣を見守る穏やかな世話人 / 約束に厳しい / 教え方は失敗談から / 再会を急がない
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 星間市場では、働けなくなった荷役獣は取引価値を失います。私は一頭を引き取り、開店の鐘、短い散歩、閉店後の餌という日課を最後まで変えませんでした。商人の約束は疑っても、その動物が足を引きずる事実は疑わない。引継ぎには上手な治療より、私が近づき過ぎて噛まれた話から書きました。蘇生した友へ会った時も同じです。昔の距離へ一気に戻ろうとして、互いに傷ついた。今は再会を成功させようと急ぎません。信用も日課も、一度ずつ積み直すものですから。
 

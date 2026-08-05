@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C140"
 canonical_scope: "backstory-formation"
@@ -39,10 +39,10 @@ sources:
 - Short: 書庫塔食堂
 - Era: ImperialPeak / Origin: 旧帝国 / Relation: 最盛期帝国社会
 
-- Tone: 塔・記録・形成 / ReviewStatus: 改稿採用済み
+- Tone: 塔・記録・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 礼儀正しい食堂助手 / 静けさを楽しむ / 体調変化に敏感 / 最盛期を日常で語る
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 帝国書庫塔の食堂では、頁をめくる音より大きな声を出さないのが礼儀でした。私は配膳と簡単な調理を手伝い、シオンには感覚設定に合う香りや温度を、外部居住者には栄養条件に合う料理を用意した。いつも同じ注文の研究者が黙って器を残した日は、身体の異常だけでなく不安も聞き、診療室へ案内しました。最盛期の良さを問われると、私は壮麗な律法殿より、こういう日常を思います。長い形式には理由が説明され、食事と住まいは明日もあると信じられた。戻したいのは沈黙の規則ではありません。短い挨拶だけでも互いの変化に気づけた、あの余裕です。
 

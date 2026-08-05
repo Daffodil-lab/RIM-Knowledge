@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A199"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 低温区蘇生療養
 - Era: ModernUnion / Origin: 無党派 / Relation: 研究安全局
 
-- Tone: 科学・風刺・職歴 / ReviewStatus: 採用済み
+- Tone: 科学・風刺・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 慎重で少し皮肉屋。科学の失敗を、患者の生活へ引き寄せて語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 蘇生が成功した、と研究員はよく言った。私はその後で、患者が階段を上れるか、友の顔を怖がらないか、昨日と今日を区別できるか確かめた。低温事故の後は壁の亀裂まで調べ、療養室を暖かい区画へ組み直したよ。便利な冷却材だったが、失敗すれば食料庫から居住区まで一緒に凍る。用途より、壊れた時にどこまで届くかを見るべきだった。ある日、研究員が凍った菓子を差し出し、「これは安全だ」と言った。皆で長く黙ったあと、患者が最初に笑った。あの笑いを回復記録のどの欄へ書くかで、私は少し悩んだ。
 

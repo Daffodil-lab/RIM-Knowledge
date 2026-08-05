@@ -406,11 +406,11 @@ function genericDescription(title, body) {
 }
 
 function backstoryDescription(title, body) {
-  const preserved = body.match(
-    /^-\s*PreservedCanonPoints:\s*(.+)$/m,
+  const potential = body.match(
+    /^-\s*(?:PotentialReferencePoints|PreservedCanonPoints):\s*(.+)$/m,
   )?.[1];
-  const points = preserved
-    ? preserved
+  const points = potential
+    ? potential
         .split(/\s+\/\s+/)
         .map((point) => stripMarkdown(point).replace(/^本人は/, ""))
         .filter(Boolean)

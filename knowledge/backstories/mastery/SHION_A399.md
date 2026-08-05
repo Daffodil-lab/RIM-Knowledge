@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A399"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 狩猟番
 - Era: ColonizationEra / Origin: 開拓団 / Relation: 猟兵班
 
-- Tone: 静寂・規律・誇り / ReviewStatus: 採用済み
+- Tone: 静寂・規律・誇り / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 短く区切って、格言を語るような静かな口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 獲物より先に風を読め、というのが自分の師匠の口癖だった。風下に立たなければ、どんな腕の良い猟師も獲物に気づかれる。自分はその教えを馬鹿正直に守り続けて、入植地の食料が尽きかけた冬を何度も凌いだ。獣の血抜きをする時の生温かい感触は、何年経っても手のひらが覚えている。命をもらう以上、無駄な苦しみは一秒でも短くする、それだけは自分の中で譲らない一線だった。
 

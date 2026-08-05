@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C139"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 月面採掘遠足
 - Era: EraIndependent / Origin: 独立開拓者 / Relation: 月面共同事業
 
-- Tone: 開拓・事業・形成 / ReviewStatus: 採用済み
+- Tone: 開拓・事業・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 好奇心旺盛な開拓見学者 / 宣伝を疑う / 足跡に感動 / 失敗談を楽しむ
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 月を売るような宣伝文句に釣られて、採掘遠足へ参加しました。はい、少し恥ずかしい。でも現場は面白かったですよ。地層の響きと亀裂を読み、急ぐ日ほど確認者を増やす。広告に描かれた輝く坑道より、作業員が危険手当を巡って言い争う休憩所の方をよく見ました。完成式の演説は覚えていません。最初に地表へ残った不格好な足跡と、案内役が転んだ時の冗談なら覚えています。大計画を語るなら、完成後の所有者より、途中で危険を引き受ける者の条件から話すべきでしょう。
 

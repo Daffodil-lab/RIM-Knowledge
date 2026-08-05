@@ -1,10 +1,9 @@
 # リリース・実装 03
 
-範囲: REG-005 単一個体として保存〜33. 代表工業資源
+範囲: REG-006 Clone Source〜33. 代表工業資源
 
 ## 項目
 
-- [REG-005 単一個体として保存](/pawn/reg-005.md) — MUST: プレイヤー設計を名前とindividualIdを持つ一人のIndividual Archiveとして保存し、必要な時にその個体を生産できる。
 - [REG-006 Clone Source](/pawn/reg-006.md) — MUST: Registered Individual、Authored Individual、Saved Pawn DesignをClone Sourceに指定できる。
 - [REG-007 Clone同時存在](/pawn/reg-007.md) — MUST: 同じClone Sourceから複数Pawnを同時に活動させられる。
 - [REG-008 Clone後の分岐](/pawn/reg-008.md) — MUST: Clone生成後の経験、関係、傷、改造、装備、登録状態を個別に保存し、元個体または他Cloneへ自動同期しない。
@@ -66,12 +65,12 @@
 - [8. UI/system failures to avoid](/research/monolyn-ui/08-UI-system-failures-to-avoid.md) — Avoid in Shion Nexus alpha、具体的にはcentral actions with delayed invisible outcomes;とprogress that says inactive while active;を扱う。
 - [9. Alpha impact](/research/monolyn-ui/09-Alpha-impact.md) — This reference reinforces current Alpha 0.1 rules.。
 - [10. Shion Nexus UI checklist](/research/monolyn-ui/10-Shion-Nexus-UI-checklist.md) — Before Alpha 0.1 release, confirm、具体的にはCore Inspect explains alive/damaged/destroyed state.とLedger Inspect shows CVE, capacity, shells,…。
-- [0. 目的](/research/remote-logistics/00-%E7%9B%AE%E7%9A%84.md) — 本書は、無改造Matter NetworkのローカルStorageと、Kombinat追加層の自動生産とは別に検討されていた遠距離物流を、情報を失わず延期するための保護領域である。
-- [1. 延期理由](/research/remote-logistics/01-%E5%BB%B6%E6%9C%9F%E7%90%86%E7%94%B1.md) — 延期理由は、αの完成条件を、無改造Matter Networkの通常入出庫と、Kombinat追加層の発注・多段自動生産へ集中させる。
+- [0. 目的](/research/remote-logistics/00-%E7%9B%AE%E7%9A%84.md) — 本書は、Coreのローカル保管とKombinatの自動生産から分離した遠距離物流を、将来の再検討まで保護する領域である。
+- [1. 延期理由](/research/remote-logistics/01-%E5%BB%B6%E6%9C%9F%E7%90%86%E7%94%B1.md) — 延期理由は、αの完成条件をCoreの通常入出庫とKombinatの発注・多段自動生産へ集中させることにある。
 - [6. 再開ゲート](/research/remote-logistics/06-%E5%86%8D%E9%96%8B%E3%82%B2%E3%83%BC%E3%83%88.md) — 遠距離物流を再び計画へ入れるには、次を全て満たす。
-- [0. 結論](/roadmap/00-%E7%B5%90%E8%AB%96.md) — 工業基盤を内部完成させてからShion種族を統合し、MVP／Foundationを独立した製品段階として出荷しない。
+- [0. 結論](/roadmap/00-%E7%B5%90%E8%AB%96.md) — Coreは工業基盤を内部完成させてからShion種族を統合し、α、β、1.0の三段階で公開する。
 - [1. 権威と変更規則](/roadmap/01-%E6%A8%A9%E5%A8%81%E3%81%A8%E5%A4%89%E6%9B%B4%E8%A6%8F%E5%89%87.md) — 本書は、何を世界内の事実とするかではなく、どの段階で何を完成させるかを定める。
-- [2. 既知コードと再利用の方針](/roadmap/02-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A8%E5%86%8D%E5%88%A9%E7%94%A8%E3%81%AE%E6%96%B9%E9%87%9D.md) — 既知コードの再利用率を目標にしない、また既存コード、旧リポジトリ、抽出記録は参考資料であり、最終設計を拘束する正本ではない。
+- [2. 既知コードと再利用の方針](/roadmap/02-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A8%E5%86%8D%E5%88%A9%E7%94%A8%E3%81%AE%E6%96%B9%E9%87%9D.md) — コード再利用は現行責務、保存、試験、性能、依存方向、ライセンス、保守性を満たす単位だけに限定する。
 - [3. 1.0の最終完成像](/roadmap/03-1-0%E3%81%AE%E6%9C%80%E7%B5%82%E5%AE%8C%E6%88%90%E5%83%8F.md) — 最終的なCoreは、少なくとも次を一つの製品として成立させる。
 - [4. α版 — 最初の公開候補](/roadmap/04-%CE%B1%E7%89%88-%E2%80%94-%E6%9C%80%E5%88%9D%E3%81%AE%E5%85%AC%E9%96%8B%E5%80%99%E8%A3%9C.md) — α版は、内部完成した工業基盤へShion種族、図像、独立開始を最後に統合する最初の公開候補である。
 - [5. β版](/roadmap/05-%CE%B2%E7%89%88.md) — β版は、α版に含めなかったコアMODとレッドスターの要素を追加し、両製品を完成へ到達させる期間である。

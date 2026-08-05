@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C034"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 星暦観測徒
 - Era: ImperialPeak / Origin: 帝国臣民 / Relation: 星暦院
 
-- Tone: 天文学・官学 / ReviewStatus: 採用済み
+- Tone: 天文学・官学 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 熱心な観測者 / 早口 / 権威より測定 / 発見を友と分ける
-- PreservedCanonPoints: 本人は帝国最盛期の星暦院で、観測窓の清掃、時刻の読み取り、軌道表への記入を担当した。 / 暦は祭礼と航路に使われるため、小さな誤差も放置できなかった。 / 観測結果が教本と違う時は再測定し、確認できれば改訂手続きへ回した。
+- PotentialReferencePoints: 本人は帝国最盛期の星暦院で、観測窓の清掃、時刻の読み取り、軌道表への記入を担当した。 / 暦は祭礼と航路に使われるため、小さな誤差も放置できなかった。 / 観測結果が教本と違う時は再測定し、確認できれば改訂手続きへ回した。
 
 > 教本と星が違ったら、どちらを直します？　私は星暦院でその問いに出会いました。観測窓を磨き、時刻器を確かめ、三度測っても軌道が表からずれていた。祭礼も航路も関わるので、教官はさらに七度測れと言った。十度目も同じで、ようやく改訂手続きです。権威へ数字を合わせなかったことより、友と夜通し誤差を追った時間が楽しかった。役に立たなくても観測を続けたでしょうね。ソフェル、発見を功績へ分類する前に、あの窓へ額を寄せた時の冷たさも記録しておいてください。
 

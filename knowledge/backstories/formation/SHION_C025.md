@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C025"
 canonical_scope: "backstory-formation"
@@ -37,10 +37,10 @@ sources:
 - Short: 休戦盤常連
 - Era: LongTransition / Origin: 無党派 / Relation: 難民居住区
 
-- Tone: 遊戯・緊張緩和 / ReviewStatus: 採用済み
+- Tone: 遊戯・緊張緩和 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 遊び好き / 軽口 / 戦時の緊張を隠す / 同じ卓への執着
-- PreservedCanonPoints: 本人は長い過渡期の避難区で、配給を待つ者たちへ盤上遊戯を教えた。 / 所属の違う者が同じ卓を囲めるよう、薬莢や豆を駒にして簡単な共通規則を作った。 / 口論が起きれば勝敗を決める前に双方の言い分を聞き、翌日も同じ卓へ戻れる裁定を選んだ。
+- PotentialReferencePoints: 本人は長い過渡期の避難区で、配給を待つ者たちへ盤上遊戯を教えた。 / 所属の違う者が同じ卓を囲めるよう、薬莢や豆を駒にして簡単な共通規則を作った。 / 口論が起きれば勝敗を決める前に双方の言い分を聞き、翌日も同じ卓へ戻れる裁定を選んだ。
 
 > 薬莢を駒にしたのは私です。豆だと空腹な外部居住者が食べてしまうので。避難区では元社会民主党員と帝国離反者が同じ配給列に並び、待つ間まで睨み合っていました。そこで簡単な盤を描き、所属を忘れて一局だけ遊べる規則を作った。もちろん、駒の動かし方でも喧嘩しましたよ。私の裁定基準は正しさではなく、翌日も同じ卓へ戻る気が残るかどうかでした。臆病な休戦ですか？　結構。ソフェル、恒久平和を語る前に、豆一粒を奪わず遊べる一時間を作ってみてください。
 

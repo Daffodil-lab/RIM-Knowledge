@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A142"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 防衛圏射撃教官
 - Era: PostCivilWarEmpire / Origin: 帝国離反者 / Relation: 帝国残存圏
 
-- Tone: 帝国・終戦・職歴 / ReviewStatus: 採用済み
+- Tone: 帝国・終戦・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 苦みのある元帝国教官。崩壊国家への命令服従を拒み、雪中の温かな器を故郷として語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 内戦後帝国の最終防衛圏で射撃を教えました。国家は崩れかけ、命令だけが以前より大声になっていた。私は標的識別と射線解除を教え、住民を敵へ数え直す命令には従いませんでした。冬が長かったので、射撃場の脇で食用草も育てましたよ。敗北の日、雪の中で元教え子が温かい器を渡してくれました。彼は別の陣営にいた。互いに何をしてきたか、すぐには話せませんでした。それでも同じ湯気を見た。帝国の名より、あの一杯を守れる国へ忠誠を置きたいと、その時に決めました。
 

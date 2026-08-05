@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A273"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 機械戦古文書研
 - Era: ModernUnion / Origin: 無党派 / Relation: 対メカノイド部隊
 
-- Tone: 対機械・判断・職歴 / ReviewStatus: 採用済み
+- Tone: 対機械・判断・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 厳密な研究者兼競技審判。機械へ哀れみも憎しみも勝手に付け加えない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 対機械戦区で回収した記録は、英雄譚にも悲劇にも仕立てなかった。自由意志のない人工知能が命令を反復した頁は、そのまま単純な作業記録として読んだ。私は美しい展示を作るのが得意ではないので、欠けた部品と読めない文字を番号順に並べたよ。技術共有大会では、誰が最も早く敵と断定するかではなく、指揮系統と停止条件を正確に見つけた班を勝者にした。戻らなかった仲間の名を読み上げ、彼が好んだ食事も再現した。機械へ人の心を足さず、人の死から名前を引かない。それが私の記録規則だ。
 

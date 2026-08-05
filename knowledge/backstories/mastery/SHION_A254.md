@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A254"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 装甲隊食堂調理
 - Era: ModernUnion / Origin: 無党派 / Relation: 装甲突撃隊
 
-- Tone: 装甲・救援・職歴 / ReviewStatus: 採用済み
+- Tone: 装甲・救援・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Mixed
 - VoiceProfile: 世話好きで肝が据わった調理師。軍と法執行の境界を、引継ぎと食卓で守る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 装甲救援隊の食堂にいると、料理だけしていたとは思われない。異常封じ込めでは盾を持ち、避難者へ危険が届くまでの時間を稼いだ。法執行機関へ現場を渡す時は、軍の命令をそのまま持ち込ませず、証拠、避難者、残る危険を一つずつ引き継いだよ。戻れば身体ごとに温度を変えた食事を出し、話すためだけに来る者にも席を空けた。盾の内側で聞いた安堵の息と、食堂でようやく出た愚痴はよく似ている。長く離れた友とは昔の話が噛み合わなかったが、同じ鍋へ文句を言うところからやり直せた。
 

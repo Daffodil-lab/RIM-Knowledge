@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A279"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 扶助区種子管理
 - Era: LongTransition / Origin: 社会民主党系 / Relation: 自治共同体
 
-- Tone: 共同体・倫理・職歴 / ReviewStatus: 採用済み
+- Tone: 共同体・倫理・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 原則的な社会民主党系管理官。共有種子にも個人の来歴と返却責任を残す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 相互扶助区の種子は共有だったが、誰の故郷から来たかを消さなかった。私は発芽条件、分配先、返すべき種の数まで記録したよ。救難任務では種子庫を避難対象に含め、住民と同じく帰還経路を用意した。社会民主党系の私は共同管理を支持する。だが皆の物だから誰も責任を負わない、という状態は嫌いだ。共有工具に一人分の修理傷が残るように、種にも育てた人の約束がある。故郷を同じ形で戻せなくても、その種を次の共同体へ渡し、誰が世話したか語ることはできる。
 

@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C321"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 聞こえますか
 - Era: ColonizationEra / Origin: 通信中継隊 / Relation: 中継班
 
-- Tone: 通信・孤独・反復 / ReviewStatus: 採用済み
+- Tone: 通信・孤独・反復 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 同じ言葉を繰り返しながら語る、儀式めいた口調。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 「聞こえますか」、私はその言葉を一日に何百回も繰り返しました。「聞こえますか」、帝国本部からの応答が返るまで待つ。「聞こえますか」、雑音だけが返る夜もありました。中継塔の孤独は言葉の反復で埋めるしかありません。「聞こえますか」、ようやく声が返った時の安堵は今も忘れません。仲間はこの反復を機械的だと笑いましたが、私にとっては当時広まり始めていた律法の祈りに近いものでした。「聞こえますか」、今日もどこかで誰かがそう呼びかけているはずです。
 

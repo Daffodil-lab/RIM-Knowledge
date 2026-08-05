@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A043"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 旗を畳んだ者
 - Era: LongTransition / Origin: 革命連合 / Relation: 政治的隠遁者
 
-- Tone: 諦念・隠遁 / ReviewStatus: 採用済み
+- Tone: 諦念・隠遁 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 寡黙な元義勇兵。死者への敬意を守り、養蜂の話になると声がやわらぐ。
-- PreservedCanonPoints: 本人は革命連合の義勇兵として旗を運び、戦後の党派分裂を見届けた。 / どの後継組織にも加わらず、自分の手で旗を畳んで辺境へ移った。 / 開拓地では養蜂と機械修理を続け、政治的な役職を避けた。
+- PotentialReferencePoints: 本人は革命連合の義勇兵として旗を運び、戦後の党派分裂を見届けた。 / どの後継組織にも加わらず、自分の手で旗を畳んで辺境へ移った。 / 開拓地では養蜂と機械修理を続け、政治的な役職を避けた。
 
 > 革命連合では、私は銃より長く旗を持っていました。戦後、その旗の意味を巡って仲間がいくつもの党へ割れていくのを見たんです。どこへも加わらず、自分で布を畳み、辺境へ運びました。忘れたかったわけではありません。死んだ友の名を、今日の口論に勝つ札として使いたくなかった。それが私の理由です。開拓地では蜂を飼い、機械を直しています。蜂は演説を聞きませんが、手順を誤ればきちんと刺してくる。分かりやすくて好きですよ。旗は今も保管し、尋ねられた時だけ広げます。
 

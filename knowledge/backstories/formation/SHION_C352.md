@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C352"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 数え直す家族
 - Era: JourneyEra / Origin: 西側／作られた民族 / Relation: 統合議事随伴
 
-- Tone: 統合・家族・数 / ReviewStatus: 採用済み
+- Tone: 統合・家族・数 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 落ち着いた大人びた口調で、数字にこだわる。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 子供の頃、うちの継承図には七人の名前がありました。数え直すたびに一人減っていくのが不思議で、私は毎年正確に数えていました。統合世代と呼ばれる私たちは、旧い出身圏の名前を継承図から一つずつ整理していく時期に育ちました。七人が六人になり、五人になり、最後には統合後の呼び方に置き換わりました。悲しかったかと聞かれれば、正直よく分かりません。ただ、数え直すという行為だけは今も習慣として残っています。数字は消えても、数える手つきは残るものです。
 

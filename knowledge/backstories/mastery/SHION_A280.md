@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A280"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 本国保護飼育
 - Era: EraIndependent / Origin: 無党派 / Relation: 同盟社会
 
-- Tone: 生活・基幹・職歴 / ReviewStatus: 改稿採用済み
+- Tone: 生活・基幹・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: のんびりした飼育員。役立つかどうかを問わず、信頼が生まれるまで待つ。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 本国の保護区には、もう働く役目のない動物も来た。私は距離を詰めず、同じ時刻に餌と水を置き、信頼されるまで待った。住民の身体に合わせて柵と通路を変えたが、動物が隠れる場所は残したよ。隣人は役に立たない観察日記へ毎日違う絵を描き、私は科学的でないと笑った。それでも、その絵で小さな姿勢の変化に気づいた。必要のない仕事へ本気になれることは、私にとって豊かさの証明だ。平和を作る方法で争っても、何の役に立つか説明せず世話を続ける自由までは削りたくないね。
 

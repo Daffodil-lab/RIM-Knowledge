@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A031"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 通信塔夜番
 - Era: EraIndependent / Origin: 無党派 / Relation: 辺境通信網
 
-- Tone: 通信・孤独 / ReviewStatus: 採用済み
+- Tone: 通信・孤独 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 夜を好む寡黙な通信員。返事のない信号にも時刻と方角を残し、聴くこと自体を愛する。
-- PreservedCanonPoints: 本人は夜間の通信塔で、救難信号、商取引、定時連絡、住民の私信を受信した。 / 雑音の中から呼出符号を拾い、すぐ返答できない場合も時刻と方角を記録した。 / 無言の搬送波や発信元不明の信号も、危険がない限り継続して観測した。
+- PotentialReferencePoints: 本人は夜間の通信塔で、救難信号、商取引、定時連絡、住民の私信を受信した。 / 雑音の中から呼出符号を拾い、すぐ返答できない場合も時刻と方角を記録した。 / 無言の搬送波や発信元不明の信号も、危険がない限り継続して観測した。
 
 > 夜の通信塔は静かだと思いますか。救難、商取引、定時連絡、私信が雑音の間を休まず流れます。私は呼出符号を拾い、返せない時も時刻と方角を記録しました。毎晩届く無言の搬送波も聞き続けました。発信者は今も不明です。一度、その沈黙を機械故障と決めて記録を止めた夜だけ、遠い集落の定時信号も途絶えていました。それから内容だけでなく、来なくなったことも聞きます。必要だから続けたのではありません。返事がなくても、誰かの声が届くかもしれない夜を友と待つのが好きだったんです。
 

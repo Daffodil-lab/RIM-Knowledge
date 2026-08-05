@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A141"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 機械戦記録官
 - Era: ModernUnion / Origin: 無党派 / Relation: 対メカノイド部隊
 
-- Tone: 対機械・判断・職歴 / ReviewStatus: 採用済み
+- Tone: 対機械・判断・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 几帳面な従軍記録官。敵性機械を感傷的に人格化せず、自由意志の有無を冷静に切り分ける。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 対機械戦区で記録を担当しました。敵性機械が人の声を真似たからといって、人格があるとは決めません。自由意志、拒否、指揮系統を確かめ、命令どおり動く人工知能と、自ら選ぶ機械存在を区別しました。逆に、恐ろしい外見だけで道具と決めつけることも避けた。破壊された機体から出たのは、補給箱を運んだだけの単純な作業記録でした。私はそれを遺言とは書きません。ただ、何をさせられていた機械かは残します。戦争は敵を人格化しても、非人格化しても判断を誤る。事実を分けて書くのが私の防壁でした。
 

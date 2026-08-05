@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A355"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 律法院書記
 - Era: JourneyEra / Origin: 律法学舎出身 / Relation: 律法院
 
-- Tone: 律法・記録・抵抗 / ReviewStatus: 採用済み
+- Tone: 律法・記録・抵抗 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 淡々とした書記。誰かの美談扱いに強く反発する。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 俺が律法院の基礎を作った一人だなんて話は誰が広めたのか知らないが、訂正させてくれ。俺は下級書記で、上の人間が決めた条文を清書していただけだ。意見を求められたことは数えるほどしかない。それでも清書のたびに誤字を直し、矛盾する条文を上に報告したのは事実だ。基礎を作ったんじゃない、基礎の粗を拾っただけだ。立派な創設者みたいに語られるのは、正直居心地が悪い。ただの書記として名前を残してくれれば十分だ。
 

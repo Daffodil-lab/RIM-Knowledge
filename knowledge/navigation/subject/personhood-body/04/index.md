@@ -1,11 +1,9 @@
 # 身体・人格 04
 
-範囲: 0. 結論〜SAVE-001 保存正本
+範囲: 3. 個体分類〜SAVE-003 同一ビルド往復
 
 ## 項目
 
-- [0. 結論](/pawn/00-%E7%B5%90%E8%AB%96.md) — β版では、シオンPawnを必要に応じて設計、生産、配備、無料保管、修復、回収、再生産できなければならない。
-- [1. 権威と責務](/pawn/01-%E6%A8%A9%E5%A8%81%E3%81%A8%E8%B2%AC%E5%8B%99.md) — Pawnの生成、人格・身体構成、登録、保管、死亡後削除、再実体化、Cloneについて矛盾がある場合、次の順を用いる。
 - [3. 個体分類](/pawn/03-%E5%80%8B%E4%BD%93%E5%88%86%E9%A1%9E.md) — 個体分類は、Ephemeral Pawn：なし：遺体情報が残る間だけ低コスト再起動可能：不可：再資源化完了時に個体情報を削除とRegistered Individual：Individual Archive：一体だけ可能：可能：Archiveを残し、Pawn…。
 - [4. データ境界](/pawn/04-%E3%83%87%E3%83%BC%E3%82%BF%E5%A2%83%E7%95%8C.md) — データ境界は、境界：主な内容：保存とPawn Generation Request：適合条件、数量、登録方針、Loadout：完了までを扱う。
 - [A. ランダム適合個体](/pawn/068-A-%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E9%81%A9%E5%90%88%E5%80%8B%E4%BD%93.md) — A. ランダム適合個体は、建築能力と運搬能力を条件に一体注文する。
@@ -20,7 +18,7 @@
 - [J. 途中保存と再送](/pawn/077-J-%E9%80%94%E4%B8%AD%E4%BF%9D%E5%AD%98%E3%81%A8%E5%86%8D%E9%80%81.md) — J. 途中保存と再送は、生産、Dormant化、回収、再資源化、再実体化、Cloneの各段階で保存する。
 - [13. 完成図Hardening要件](/pawn/13-%E5%AE%8C%E6%88%90%E5%9B%B3Hardening%E8%A6%81%E4%BB%B6.md) — 本節は旧完成図監査から回収したPawn Foundry固有のHardening要件を、本書自身の拘束要件として維持する。
 - [14. β Definition of Done](/pawn/14-%CE%B2-Definition-of-Done.md) — 次を全て満たした時だけ、β版のPawn生産系を完成とする。
-- [15. 未確定のバランス値](/pawn/15-%E6%9C%AA%E7%A2%BA%E5%AE%9A%E3%81%AE%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9%E5%80%A4.md) — 次はβの実装fixtureで確定するという方針の適用範囲と条件を定める。
+- [15. 未確定のバランス値](/pawn/15-%E6%9C%AA%E7%A2%BA%E5%AE%9A%E3%81%AE%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9%E5%80%A4.md) — Pawn生産・保管・再生の具体的なバランス値をβの実装fixtureで決めるための調整候補。
 - [2.1 補充可能性](/pawn/2-1-%E8%A3%9C%E5%85%85%E5%8F%AF%E8%83%BD%E6%80%A7.md) — 補充可能性は、通常シオンPawnに、世界で一度しか得られない必須材料や有限の生産回数を要求しない。
 - [2.2 人格とゲームユニット](/pawn/2-2-%E4%BA%BA%E6%A0%BC%E3%81%A8%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88.md) — 人格とゲームユニットは、ゲーム上のPawnは生産、保管、交換、補充できるコマである。
 - [2.3 無料保管](/pawn/2-3-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — 生存PawnはPawn Foundryまたは対応設備からDormant状態へ移し、必要になるまで保管できる。
@@ -84,3 +82,5 @@
 - [REG-009 外部権利の複製](/pawn/reg-009.md) — MUST: Quest所有権、派閥役職、Royalty称号、固有WorldObject参照、固有装備、Bond等を能力と一緒に暗黙複製しない。
 - [REG-010 登録解除](/pawn/reg-010.md) — MUST: Archiveを削除する操作は対象個体、失われる再実体化能力、活動中・Dormant実体、Clone Source参照を表示し、明示確認を要求する。
 - [SAVE-001 保存正本](/pawn/save-001.md) — MUST: Pawn Design、Individual Archive、Clone Lineage、Dormant Record、Generation Request、Recovery Record、各ID、途中状態を保存する。
+- [SAVE-002 Ephemeral不在](/pawn/save-002.md) — MUST: 再資源化済みEphemeral Pawnは、保存・ロード後にWorld Pawn、Relation、Corpse、Archive、参照付き履歴として復活しない。
+- [SAVE-003 同一ビルド往復](/pawn/save-003.md) — MUST: β期間中も同一ビルドの途中保存・ロードを保証する。

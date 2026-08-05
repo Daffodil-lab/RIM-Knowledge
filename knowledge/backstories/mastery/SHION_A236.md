@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A236"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 予測院討論調停
 - Era: ModernUnion / Origin: 無党派 / Relation: 評議会研究院
 
-- Tone: 研究・長期計画・職歴 / ReviewStatus: 採用済み
+- Tone: 研究・長期計画・職歴 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 辛抱強い調停人。遠大な予測を認めつつ、計画外の友人一人を切り捨てない。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 長期予測院の討論では、遠い未来の多数と、目の前の一人がよく秤に掛けられた。私は双方へ相手の主張を言い直させ、同意できない箇所も記録した。地下計画の地盤を確かめるため、自分で坑道へ降りたこともある。表の数字より、空洞へ落ちる小石の音が判断を変えたよ。ある計画は、予測上無関係だった二人の友情に救われた。後から必然だったと説明する者もいたが、私は偶然のまま残した。友が蘇生しても、知らない歳月は消えない。未来のために今の関係を切り捨てる計画は、その損失も正直に数えるべきだ。
 

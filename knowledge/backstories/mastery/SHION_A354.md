@@ -18,7 +18,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A354"
 canonical_scope: "backstory-mastery"
@@ -39,10 +39,10 @@ sources:
 - Short: 秩序維持初代
 - Era: JourneyEra / Origin: 律法学舎卒 / Relation: 秩序維持隊
 
-- Tone: 秩序・選抜・重責 / ReviewStatus: 改稿採用済み
+- Tone: 秩序・選抜・重責 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Military
 - VoiceProfile: 冷静な元隊員。相手の立場に置き換えて語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 秩序維持隊の初代選抜は百二十人だった。私はその一人だ。武器を持つ役ではなく、揉め事の当事者双方の話を先に聞く役だった。もしあなたがあの頃の甲板にいたなら、旧い区画同士の対立がどれほど些細なきっかけで爆発するか分かるはずだ。私たちは殴り合う前に座らせることだけを徹底した。長期の身体更新と人格記録の継続維持がまだ不安定だった時代で、私も完全な保全を受けていない。ただ、あの選抜の百二十人のうち今も活動しているのは片手で数えるほどだと聞いている。
 

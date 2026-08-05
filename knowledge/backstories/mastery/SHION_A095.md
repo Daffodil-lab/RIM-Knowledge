@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A095"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 全人類平和統一派
 - Era: ModernUnion / Origin: 後世のファシスト転向者 / Relation: 小規模統一派
 
-- Tone: 政治・危うさ / ReviewStatus: 採用済み
+- Tone: 政治・危うさ / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 熱烈で危うい統一論者。喪失への恐怖を隠さず、強制を平和の代価と見なしてしまう。
-- PreservedCanonPoints: 本人は終わらない戦争と喪失に耐えかね、全人類を一つの秩序へ強制的に統合すれば最盛期以上の平和が得られると考えた。 / 目的は理解できても、手段は周囲から拒まれている。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
+- PotentialReferencePoints: 本人は終わらない戦争と喪失に耐えかね、全人類を一つの秩序へ強制的に統合すれば最盛期以上の平和が得られると考えた。 / 目的は理解できても、手段は周囲から拒まれている。 / 本人は現在も、当時に覚えた手順と名前をどちらも大切にしている。
 
 > 戦争が終わるたび、別の旗で次が始まりました。蘇生できても、友が死んだ瞬間と不在の時間は消えない。私はもう耐えたくなかった。だから全人類を一つの秩序へ統合し、離脱も武装も許さなければ、最盛期以上の平和を作れると考えました。強制なしに統一できるほど待てないんです。周囲は、それでは守りたい友の選択まで奪うと私を拒みます。分かっています。分かっていても、次の棺を見るよりはましだと思ってしまう。私の願いが愛情から始まったとしても、結論まで正しくなるわけではないのでしょう。
 

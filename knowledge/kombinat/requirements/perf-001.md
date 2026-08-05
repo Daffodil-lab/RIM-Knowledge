@@ -1,12 +1,11 @@
 ---
 type: "Requirement"
 title: "PERF-001 Event駆動"
-description: "MUST: Queue、Factory、Buffer、Accountの変化をeventで処理し、毎tick全Job・全Recipe・Matter Network内部在庫を走査しない。"
+description: "MUST: Queue、Factory、Buffer、Accountの変化をeventで処理し、定常処理を索引と有界Queueから実行する。"
 tags:
   - "kombinat"
   - "requirements"
   - "production"
-  - "matter-network"
 organization_groups:
   - "kombinat-communities"
 status: stable
@@ -27,14 +26,13 @@ sources:
 
 # PERF-001 Event駆動
 
-`MUST`: Queue、Factory、Buffer、Accountの変化をeventで処理し、毎tick全Job・全Recipe・Core独自Storage内部在庫またはMap全体を走査しない。
+`MUST`: Queue、Factory、Buffer、Accountの変化をeventで処理し、定常処理は索引と有界Queueから実行する。全Job、全Recipe、Core Storage内部在庫、Map全体の走査は明示的な再構築または診断へ限定する。
 
 ## 関連項目
 
 - 上位索引: [kombinat/requirements](/kombinat/requirements/index.md)
 - 同じ出典の前項: [SAV-004 同一ビルド](/kombinat/requirements/sav-004.md)
 - 同じ出典の次項: [PERF-002 Planner](/kombinat/requirements/perf-002.md)
-- 連携境界: [連携境界](/integrations/matter-network/index.md)
 
 ## 出典
 

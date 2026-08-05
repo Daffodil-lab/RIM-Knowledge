@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A359"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 律法学舎教師
 - Era: JourneyEra / Origin: 律法学舎卒 / Relation: 律法学舎
 
-- Tone: 律法・晩年・回想 / ReviewStatus: 改稿採用済み
+- Tone: 律法・晩年・回想 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: 落ち着いた老教師。現在から過去へ遡って語る。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 今は最後の学年の卒業式の準備をしている。その前は四十年、律法学舎で教えていた。さらにその前は、律法学舎そのものがまだ仮設の天幕でしかなかった時期に、生徒として最初の教本を写していた。もっと遡れば、旧い区画の名前しかなかった子供時代がある。長期の身体更新と人格記録の継続維持を受け始めたのは、その天幕時代の終わりごろだった。当時の同期はもうほとんど残っていない。逆から辿ると、自分がどれだけ長い列の後ろに立っているか分かる。それだけの話だ。
 

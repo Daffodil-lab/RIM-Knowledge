@@ -16,7 +16,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A004"
 canonical_scope: "backstory-mastery"
@@ -37,10 +37,10 @@ sources:
 - Short: 記念庭園設計者
 - Era: EraIndependent / Origin: 無党派 / Relation: 造園組合
 
-- Tone: 造園・記憶 / ReviewStatus: 採用済み
+- Tone: 造園・記憶 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 静かで情緒豊かな造園家。庭を記憶の完成形でなく、変化を許す場所と考える。
-- PreservedCanonPoints: 本人は死者や失われた共同体を記念する庭園を設計した。 / 遺族が望む植物、開花時期、訪問しやすい通路を聞き取り、一つの英雄像へ記憶をまとめすぎないようにした。 / 蘇生者が戻った後も庭園を撤去せず、帰還を示す区画を加えた。
+- PotentialReferencePoints: 本人は死者や失われた共同体を記念する庭園を設計した。 / 遺族が望む植物、開花時期、訪問しやすい通路を聞き取り、一つの英雄像へ記憶をまとめすぎないようにした。 / 蘇生者が戻った後も庭園を撤去せず、帰還を示す区画を加えた。
 
 > 記念庭園へ英雄像を一つ置けば、説明は簡単になります。でも遺族が覚える人は、同じ顔をしていません。私は望む植物と開花時期、歩きやすい道を一人ずつ聞きました。蘇生した本人が庭へ戻った時、撤去してほしいと言われたこともあります。私は庭で悲しんだ人の時間まで消せないと説明し、帰還を示す区画を一緒に加えました。植物は育ち、枯れ、設計図から外れます。それを失敗とは呼びません。故郷を回収しても当時の私たちは戻らないから、変わりながら覚えていられる場所が必要なのです。
 

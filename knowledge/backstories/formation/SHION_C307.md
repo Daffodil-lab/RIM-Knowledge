@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/formation/SHION_C307"
 canonical_scope: "backstory-formation"
@@ -38,10 +38,10 @@ sources:
 - Short: 夕焼け救助坑
 - Era: ImperialPeak / Origin: 旧帝国 / Relation: 最盛期帝国社会
 
-- Tone: 異常・研究・形成 / ReviewStatus: 採用済み
+- Tone: 異常・研究・形成 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: NotApplicable
 - VoiceProfile: 規律正しく想像力豊か。未知を神秘化せず、救助記録へ恐怖と冗談も残す。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > 最盛期の封鎖観測院で崩落が起き、私は振動を読みながら救助坑を掘りました。未知の変色があっても、律法は推測を事実として語らず、見学者にも封鎖理由を説明するよう求めていました。豊かな時代の面倒な手順が、恐怖の中では支えになったんです。救出中、仲間が色の付いた石へくだらない名を付け、皆で笑いました。帰還後もしばらく普通の夕焼けを見分けられませんでしたが、その冗談だけは覚えています。救助人数だけでなく、怖がりながら手を動かした暮らしまで記録へ残しました。
 

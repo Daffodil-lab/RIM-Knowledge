@@ -17,7 +17,7 @@ organization_names:
 status: stable
 authority: catalog
 knowledge_role: catalog-record
-canon_review: accepted
+reference_review: reference-only
 granularity: record
 canonical_for: "backstories/mastery/SHION_A337"
 canonical_scope: "backstory-mastery"
@@ -38,10 +38,10 @@ sources:
 - Short: 甲板食堂調理
 - Era: JourneyEra / Origin: 第三世界／常夏の民 / Relation: 食糧生産班
 
-- Tone: 食卓・融和・雑談 / ReviewStatus: 採用済み
+- Tone: 食卓・融和・雑談 / ReviewStatus: 実用未達・参考保管
 - ServiceDomain: Civilian
 - VoiceProfile: あけすけな調理人。相手の言葉を借りて笑い話に変える。
-- PreservedCanonPoints: 新規稿のため該当なし。
+- PotentialReferencePoints: 新規稿のため該当なし。
 
 > あたしは常夏の民文化の育ち。「お前の国の味付けは辛すぎる」って北方系の同僚によく言われたよ。あたしは「お前の煮物は薄すぎて味がしない」って返してた。それを十年続けたら、いつの間にか二人で新しい献立を作ってた。辛さを半分にして、出汁を倍にしたやつ。今じゃ甲板食堂の定番だって聞いたけど、あたしたちが揉めた回数までは誰も知らないだろうね。味の好みが違う二人が一緒に鍋を振ってた、それだけの話さ。
 
