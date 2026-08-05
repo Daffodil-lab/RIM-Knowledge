@@ -16,6 +16,7 @@ let indexCount = 0;
 let linkCount = 0;
 const canonicalForOwners = new Map();
 const roleCounts = new Map();
+const JAPANESE_FILENAME = /[ぁ-んァ-ヶ一-龠々ー]/u;
 
 function walk(dir) {
   const result = [];
@@ -83,6 +84,9 @@ for (const file of markdownFiles) {
     }
   } else {
     conceptCount += 1;
+    if (!JAPANESE_FILENAME.test(path.basename(file, ".md"))) {
+      errors.push(`${rel(file)}: concept filename must include Japanese text`);
+    }
     const frontmatter = text.match(/^---\n([\s\S]*?)\n---\n/);
     if (!frontmatter) {
       errors.push(`${rel(file)}: missing parseable frontmatter delimiters`);
@@ -280,7 +284,7 @@ if (generatedOverviews.length) {
 }
 
 const backstories = [...conceptPaths].filter((id) =>
-  /^backstories\/(?:formation|mastery)\/SHION_[CA]\d{3}$/.test(id),
+  /^backstories\/(?:formation|mastery)\/SHION_[CA]\d{3}(?:-[^/]+)?$/.test(id),
 );
 if (backstories.length !== 838) {
   errors.push(`backstory count is ${backstories.length}; expected 838`);

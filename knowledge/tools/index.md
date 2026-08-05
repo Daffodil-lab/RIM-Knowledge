@@ -25,6 +25,7 @@ node knowledge/tools/maintain-okf.mjs --check
 - [横断ナビゲーション生成](build-okf-navigation.mjs)
 - [退役済み出典識別子の正規化](normalize-retired-source-links.mjs)
 - [OKF日時精度の正規化](normalize-okf-v02-datetimes.mjs)
+- [概念ファイル名の日本語併記](localize-okf-filenames.mjs)
 - [OKF構造検査](validate-okf.mjs)
 - [公式OKF 0.2互換性検査（日本語）](validate-okf-v02.mjs)
 - [領域横断重複監査](audit-okf-overlap.mjs)
@@ -36,6 +37,8 @@ node knowledge/tools/maintain-okf.mjs --check
 `build-okf.mjs`は削除済み原本から初回移行するための旧生成器であり、現在は実行禁止である。現行`knowledge/`の再生成や上書きには使用しない。
 
 `audit-okf-overlap.mjs --check`は監査結果を表示し、30%以上の領域横断包含ペアが一件でもあれば終了コード1を返す。引数なしでは結果表示だけを行う。
+
+`localize-okf-filenames.mjs --write`は、英語または技術IDだけの概念ファイル名へ日本語表題を追加し、Markdownリンクと所有者参照を同期する。`SHION_A001`、`decision-0001`、`UX-001`等の安定IDは接頭辞として維持する。`--plan`で改名前の対応表を確認し、`--check`で日本語のない概念ファイル名を検出する。
 
 ## 公式OKF 0.2互換性検査
 

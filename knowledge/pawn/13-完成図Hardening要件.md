@@ -34,7 +34,7 @@ sources:
 - 上位索引: [pawn](/pawn/index.md)
 - 保管・接続基盤: [Core独自保管・接続システムの実装境界](/design/51-Core独自保管接続システムの実装境界.md)
 - 同じ出典の前項: [J. 途中保存と再送](/pawn/077-J-途中保存と再送.md)
-- 同じ出典の次項: [ADV-001 緊急一体再配備](/pawn/adv-001.md)
+- 同じ出典の次項: [ADV-001 緊急一体再配備](/pawn/adv-001-緊急一体再配備.md)
 - Kombinat領域: [Kombinat領域](/kombinat/index.md)
 
 ## 出典

@@ -4,68 +4,68 @@
 
 ## 項目
 
-- [ADV-005 Ephemeral参照解決](/pawn/adv-005.md) — MUST: Ephemeral Pawnの完全削除前に、Relation、Mood Memory、Tale、Quest、Lord、Faction、World Pawn、Bond、外部参照を解決、匿名化、終端記録へ変換する。
-- [ADV-006 Design version pin](/pawn/adv-006.md) — MUST: Generation Requestは開始時のPawn Design、Clone Source checkpoint、Loadout Profile、Gene／Ability候補、Adapter versionをpinする。
-- [ADV-007 Pawn依存Manifest](/pawn/adv-007.md) — MUST: Dormant Record、Individual Archive、Pawn Design、Clone Sourceが依存するpackageId、version、Def、class、Adapterを有限Manifestとして保存する。
-- [ADV-008 Dormant wealth](/pawn/adv-008.md) — MUST: Dormant中の身体と内蔵Moduleを、そのRecordが属するMapまたはWorldObjectのwealthへ一度だけ算入する。
-- [ADV-009 全状態の保存と冪等性](/pawn/adv-009.md) — MUST: 緊急再配備、着脱品返却、無人生産、参照解決、Manifest診断を途中保存できる。
-- [ADV-010 検証割当](/pawn/adv-010.md) — MUST: 監査S-047〜060、S-064〜066を自動fixture、統合試験、手動試験のいずれかへ割り当て、対象build、DLC、外部MOD、操作、期待結果、物理費、ID、保存往復を記録する。
-- [DOR-001 Dormant化](/pawn/dor-001.md) — MUST: 生存し、搬送可能で、禁止状態にないPawnをDormant Recordへ移せる。
-- [DOR-002 無料](/pawn/dor-002.md) — MUST: Dormant化、保管期間、再配備は資源、通貨、専用容量を消費しない。
-- [DOR-003 停止](/pawn/dor-003.md) — MUST: Dormant中はPawn Tick、Need、病気、出血、腐敗、充放電、Hediff経過、Ability cooldown、年齢進行を停止する。
-- [DOR-004 完全往復](/pawn/dor-004.md) — MUST: 名前、load ID、individual ID、関係、技能、特性、遺伝情報、身体、内蔵Module、Hediff、Pawn設定をDormant化と再配備で維持する。
-- [DOR-005 同時所在](/pawn/dor-005.md) — MUST: 同じPawnがMap、Caravan、World Pawn、Dormant Recordの複数へ同時に存在しない。
-- [DOR-006 参照安全性](/pawn/dor-006.md) — MUST: Quest、Lord、Faction、Ideology、Royalty、Gene、Bond、外部MOD参照を検査し、安全にDormant化できない理由を明示する。
-- [DOR-007 装備](/pawn/dor-007.md) — MUST: 着脱可能な装備、衣服、工具、inventory内ThingはDormant化のtransaction内でCore独自保管・接続システムまたはMap上の受入先へ一度だけ返却する。
-- [GEN-001 適合生成](/pawn/gen-001.md) — MUST: プレイヤーは役割、必須作業、最低技能、必要能力、許可する身体、数量を指定し、条件へ適合するランダムPawnを生成できる。
-- [GEN-002 ランダム範囲](/pawn/gen-002.md) — MUST: 指定されていない名前、外見、性格、技能差、趣味等は許可範囲からランダム化する。
-- [GEN-003 既定個体](/pawn/gen-003.md) — MUST: Defで登録された固有個体または既定設計を一覧から選び、予定された構成で生産できる。
-- [GEN-004 一からの設計](/pawn/gen-004.md) — MUST: プレイヤーはBody Platform、Module、外装、遺伝情報、特性、技能、Passion、能力、役割、Loadoutを一から構成し、互換性と費用を確認して生産できる。
-- [GEN-005 必要装備](/pawn/gen-005.md) — MUST: 生産要求は、具体Thing指定と作者定義のEquipment Familyを併用できる。
-- [GEN-006 原子的配備](/pawn/gen-006.md) — MUST: Body、必須Module、必須能力、必須装備のいずれかが欠ける場合、完成扱いでPawnを出現させない。
-- [GEN-007 反復可能性](/pawn/gen-007.md) — MUST: 通常Pawnの生産へ一回限りのWorld Unique資源、有限許可回数、消滅する原型を要求しない。
-- [GEN-008 Repeat Order](/pawn/gen-008.md) — MUST: 適合条件、Design、Registered IndividualのCloneを数量指定または目標活動数で反復生産できる。
-- [INT-001 Production Adapter](/pawn/int-001.md) — MUST: Pawn FoundryはBody、Module、装備、消耗品をKombinat Production Requestとして発注できる。
-- [INT-002 三主題の維持](/pawn/int-002.md) — MUST: Kombinat側ではPawn要求を生産対象、Pawn需要を消費予測、Foundryへの引渡しを流通として表示する。
-- [INT-003 具体装備](/pawn/int-003.md) — MUST: 登録個体の固有装備、名前付き装備、Quest品は具体Thingとして追跡し、Clone時に複製しない。
-- [INT-004 装備ファミリー](/pawn/int-004.md) — MUST: 武器、防具、工具、医療品等のFamily指定は、作者が明示登録した同用途・同性能帯・同費用帯の候補から具体Thingへ解決する。
-- [INT-005 Ability Package](/pawn/int-005.md) — MUST: 必要能力はBody Module、Gene、Trait、Skill、Passion、Ability、Hediff等の由来を区別して構成し、同じ効果を無関係な仕組みで暗黙代替しない。
-- [INT-006 取消と返却](/pawn/int-006.md) — MUST: 生産取消、設計変更、配備失敗時は、未消費資源、完成済み装備、部分完成Bodyを追跡し、複製せずCore独自保管・接続システムまたはMap上の受入先へ返却するか、Factory Buffer内で明示的に再利用する。
-- [PERF-001 Dormant停止](/pawn/perf-001.md) — MUST: Dormant PawnをRimWorld Pawn Tickまたは全件毎tick走査の対象にしない。
-- [PERF-002 Event更新](/pawn/perf-002.md) — MUST: Archive checkpoint、需要数、Clone活動数、回収状態をevent駆動で更新する。
-- [PERF-003 World Pawn漏れ](/pawn/perf-003.md) — MUST: Ephemeralを一万体生成・回収・再資源化するfixture後も、World Pawn、Relation、Tale、Archiveが生成総数に比例して残留しない。
-- [PERF-004 量産](/pawn/perf-004.md) — MUST: 同一DesignまたはClone Sourceから100体を連続生産するfixtureで、ID重複、参照共有、装備複製、無制限履歴増加を起こさない。
-- [REC-001 低コスト修復](/pawn/rec-001.md) — MUST: 生存Pawnの通常負傷、欠損、故障、交換可能Moduleを、標準新規Pawn生産より低い資源と時間で回復できる。
-- [REC-002 遺体回収](/pawn/rec-002.md) — MUST: 回収したシオン遺体をRecovery Facilityへ受け入れ、再起動、Archive再実体化、再資源化の利用可能な選択を表示する。
-- [REC-003 Ephemeral再起動](/pawn/rec-003.md) — MUST: Ephemeral Pawnは、遺体とPawn instance情報が残る間、低コストで同じ現在個体を再起動できる。
-- [REC-004 Ephemeral最終削除](/pawn/rec-004.md) — MUST: Ephemeral Pawnの遺体を再資源化した場合、Pawn、Corpse、World Pawn、Relation、Archive、個体参照付きTale／Log、未解決参照をセーブ正本から除去する。
-- [REC-005 Registered再実体化](/pawn/rec-005.md) — MUST: Registered Individualの死亡後は、回収時にArchiveをcheckpointし、遺体を再資源化した後も同じindividualIdで一体を再実体化できる。
-- [REC-006 Clone選択](/pawn/rec-006.md) — MUST: Registered Individualが活動中またはDormantである場合、同じ原型からの追加生産は再実体化ではなくCloneとして明示する。
-- [REC-007 回収不能](/pawn/rec-007.md) — MUST: 遺体が消滅したEphemeral Pawnは同じ個体として復元できない。
-- [REC-008 冪等性](/pawn/rec-008.md) — MUST: 回収、再起動、再資源化、再実体化のCommand再送で、Pawn、遺体、装備、資源を二重生成または二重回収しない。
-- [REC-009 Quest参照](/pawn/rec-009.md) — MUST: Ephemeral最終削除の前にQuest、Lord、Relation、Faction、World Pawn、外部Adapterへ終了通知を送り、参照を解決する。
-- [REG-001 既存Pawn登録](/pawn/reg-001.md) — MUST: 活動中またはDormantのシオンPawnをRegistered Individualへ変更できる。
-- [REG-002 Archive更新](/pawn/reg-002.md) — MUST: Archiveは登録時、Dormant化時、手動保存時、死亡回収時にevent駆動でcheckpointする。
-- [REG-003 単一個体制約](/pawn/reg-003.md) — MUST: 同じindividualIdを持つ活動中またはDormantの実体を二体作らない。
-- [REG-004 Design保存](/pawn/reg-004.md) — MUST: プレイヤー設計を個体情報のない再利用可能なPawn Designとして保存できる。
-- [REG-005 単一個体として保存](/pawn/reg-005.md) — MUST: プレイヤー設計を名前とindividualIdを持つ一人のIndividual Archiveとして保存し、必要な時にその個体を生産できる。
-- [REG-006 Clone Source](/pawn/reg-006.md) — MUST: Registered Individual、Authored Individual、Saved Pawn DesignをClone Sourceに指定できる。
-- [REG-007 Clone同時存在](/pawn/reg-007.md) — MUST: 同じClone Sourceから複数Pawnを同時に活動させられる。
-- [REG-008 Clone後の分岐](/pawn/reg-008.md) — MUST: Clone生成後の経験、関係、傷、改造、装備、登録状態を個別に保存し、元個体または他Cloneへ自動同期しない。
-- [REG-009 外部権利の複製](/pawn/reg-009.md) — MUST: Quest所有権、派閥役職、Royalty称号、固有WorldObject参照、固有装備、Bond等を能力と一緒に暗黙複製しない。
-- [REG-010 登録解除](/pawn/reg-010.md) — MUST: Archiveを削除する操作は対象個体、失われる再実体化能力、活動中・Dormant実体、Clone Source参照を表示し、明示確認を要求する。
-- [SAVE-001 保存正本](/pawn/save-001.md) — MUST: Pawn Design、Individual Archive、Clone Lineage、Dormant Record、Generation Request、Recovery Record、各ID、途中状態を保存する。
-- [SAVE-002 Ephemeral不在](/pawn/save-002.md) — MUST: 再資源化済みEphemeral Pawnは、保存・ロード後にWorld Pawn、Relation、Corpse、Archive、参照付き履歴として復活しない。
-- [SAVE-003 同一ビルド往復](/pawn/save-003.md) — MUST: β期間中も同一ビルドの途中保存・ロードを保証する。
-- [SAVE-004 途中状態](/pawn/save-004.md) — MUST: 生産、Dormant化、再配備、回収、再起動、再資源化、再実体化、Cloneの各途中状態から安全に再開する。
-- [SAVE-005 ID一意性](/pawn/save-005.md) — MUST: 保存・ロード後もdesignId、individualId、pawnInstanceId、lineageIdを重複させない。
-- [SAVE-006 Archive欠損](/pawn/save-006.md) — MUST: 欠落Def、破損Archive、利用不能Moduleを無言で置換しない。
-- [UX-001 Pawn Foundry](/pawn/ux-001.md) — MUST: Pawn Foundryの第一階層を次の三つにする。
-- [UX-002 費用Preview](/pawn/ux-002.md) — MUST: 生産前にBody、Module、能力、装備、時間、現在在庫、不足、代替、登録方式を表示する。
-- [UX-003 個体種別](/pawn/ux-003.md) — MUST: Ephemeral、Registered、Design output、Clone、Dormantを、色だけに依存せず文字とIconで区別する。
-- [UX-004 破壊的操作](/pawn/ux-004.md) — MUST: Ephemeral遺体の再資源化とArchive削除は、同じ個体を復元できなくなることを明示する。
-- [UX-005 Clone識別](/pawn/ux-005.md) — MUST: 同名・同外見のCloneを許可しつつ、選択、医療、装備、命令で区別できる短い表示識別子を提供する。
-- [UX-006 簡易注文](/pawn/ux-006.md) — MUST: プレイヤーが詳細設計を開かず、「建築担当を一人」「射手を四人」「この個体のCloneを十人」のような注文を行える。
+- [ADV-005 Ephemeral参照解決](/pawn/adv-005-%E5%8F%82%E7%85%A7%E8%A7%A3%E6%B1%BA.md) — MUST: Ephemeral Pawnの完全削除前に、Relation、Mood Memory、Tale、Quest、Lord、Faction、World Pawn、Bond、外部参照を解決、匿名化、終端記録へ変換する。
+- [ADV-006 Design version pin](/pawn/adv-006-%E8%A6%81%E4%BB%B6.md) — MUST: Generation Requestは開始時のPawn Design、Clone Source checkpoint、Loadout Profile、Gene／Ability候補、Adapter versionをpinする。
+- [ADV-007 Pawn依存Manifest](/pawn/adv-007-%E4%BE%9D%E5%AD%98.md) — MUST: Dormant Record、Individual Archive、Pawn Design、Clone Sourceが依存するpackageId、version、Def、class、Adapterを有限Manifestとして保存する。
+- [ADV-008 Dormant wealth](/pawn/adv-008-%E8%A6%81%E4%BB%B6.md) — MUST: Dormant中の身体と内蔵Moduleを、そのRecordが属するMapまたはWorldObjectのwealthへ一度だけ算入する。
+- [ADV-009 全状態の保存と冪等性](/pawn/adv-009-%E5%85%A8%E7%8A%B6%E6%85%8B%E3%81%AE%E4%BF%9D%E5%AD%98%E3%81%A8%E5%86%AA%E7%AD%89%E6%80%A7.md) — MUST: 緊急再配備、着脱品返却、無人生産、参照解決、Manifest診断を途中保存できる。
+- [ADV-010 検証割当](/pawn/adv-010-%E6%A4%9C%E8%A8%BC%E5%89%B2%E5%BD%93.md) — MUST: 監査S-047〜060、S-064〜066を自動fixture、統合試験、手動試験のいずれかへ割り当て、対象build、DLC、外部MOD、操作、期待結果、物理費、ID、保存往復を記録する。
+- [DOR-001 Dormant化](/pawn/dor-001-%E5%8C%96.md) — MUST: 生存し、搬送可能で、禁止状態にないPawnをDormant Recordへ移せる。
+- [DOR-002 無料](/pawn/dor-002-%E7%84%A1%E6%96%99.md) — MUST: Dormant化、保管期間、再配備は資源、通貨、専用容量を消費しない。
+- [DOR-003 停止](/pawn/dor-003-%E5%81%9C%E6%AD%A2.md) — MUST: Dormant中はPawn Tick、Need、病気、出血、腐敗、充放電、Hediff経過、Ability cooldown、年齢進行を停止する。
+- [DOR-004 完全往復](/pawn/dor-004-%E5%AE%8C%E5%85%A8%E5%BE%80%E5%BE%A9.md) — MUST: 名前、load ID、individual ID、関係、技能、特性、遺伝情報、身体、内蔵Module、Hediff、Pawn設定をDormant化と再配備で維持する。
+- [DOR-005 同時所在](/pawn/dor-005-%E5%90%8C%E6%99%82%E6%89%80%E5%9C%A8.md) — MUST: 同じPawnがMap、Caravan、World Pawn、Dormant Recordの複数へ同時に存在しない。
+- [DOR-006 参照安全性](/pawn/dor-006-%E5%8F%82%E7%85%A7%E5%AE%89%E5%85%A8%E6%80%A7.md) — MUST: Quest、Lord、Faction、Ideology、Royalty、Gene、Bond、外部MOD参照を検査し、安全にDormant化できない理由を明示する。
+- [DOR-007 装備](/pawn/dor-007-%E8%A3%85%E5%82%99.md) — MUST: 着脱可能な装備、衣服、工具、inventory内ThingはDormant化のtransaction内でCore独自保管・接続システムまたはMap上の受入先へ一度だけ返却する。
+- [GEN-001 適合生成](/pawn/gen-001-%E9%81%A9%E5%90%88%E7%94%9F%E6%88%90.md) — MUST: プレイヤーは役割、必須作業、最低技能、必要能力、許可する身体、数量を指定し、条件へ適合するランダムPawnを生成できる。
+- [GEN-002 ランダム範囲](/pawn/gen-002-%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E7%AF%84%E5%9B%B2.md) — MUST: 指定されていない名前、外見、性格、技能差、趣味等は許可範囲からランダム化する。
+- [GEN-003 既定個体](/pawn/gen-003-%E6%97%A2%E5%AE%9A%E5%80%8B%E4%BD%93.md) — MUST: Defで登録された固有個体または既定設計を一覧から選び、予定された構成で生産できる。
+- [GEN-004 一からの設計](/pawn/gen-004-%E4%B8%80%E3%81%8B%E3%82%89%E3%81%AE%E8%A8%AD%E8%A8%88.md) — MUST: プレイヤーはBody Platform、Module、外装、遺伝情報、特性、技能、Passion、能力、役割、Loadoutを一から構成し、互換性と費用を確認して生産できる。
+- [GEN-005 必要装備](/pawn/gen-005-%E5%BF%85%E8%A6%81%E8%A3%85%E5%82%99.md) — MUST: 生産要求は、具体Thing指定と作者定義のEquipment Familyを併用できる。
+- [GEN-006 原子的配備](/pawn/gen-006-%E5%8E%9F%E5%AD%90%E7%9A%84%E9%85%8D%E5%82%99.md) — MUST: Body、必須Module、必須能力、必須装備のいずれかが欠ける場合、完成扱いでPawnを出現させない。
+- [GEN-007 反復可能性](/pawn/gen-007-%E5%8F%8D%E5%BE%A9%E5%8F%AF%E8%83%BD%E6%80%A7.md) — MUST: 通常Pawnの生産へ一回限りのWorld Unique資源、有限許可回数、消滅する原型を要求しない。
+- [GEN-008 Repeat Order](/pawn/gen-008-%E8%A6%81%E4%BB%B6.md) — MUST: 適合条件、Design、Registered IndividualのCloneを数量指定または目標活動数で反復生産できる。
+- [INT-001 Production Adapter](/pawn/int-001-%E8%A6%81%E4%BB%B6.md) — MUST: Pawn FoundryはBody、Module、装備、消耗品をKombinat Production Requestとして発注できる。
+- [INT-002 三主題の維持](/pawn/int-002-%E4%B8%89%E4%B8%BB%E9%A1%8C%E3%81%AE%E7%B6%AD%E6%8C%81.md) — MUST: Kombinat側ではPawn要求を生産対象、Pawn需要を消費予測、Foundryへの引渡しを流通として表示する。
+- [INT-003 具体装備](/pawn/int-003-%E5%85%B7%E4%BD%93%E8%A3%85%E5%82%99.md) — MUST: 登録個体の固有装備、名前付き装備、Quest品は具体Thingとして追跡し、Clone時に複製しない。
+- [INT-004 装備ファミリー](/pawn/int-004-%E8%A3%85%E5%82%99%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC.md) — MUST: 武器、防具、工具、医療品等のFamily指定は、作者が明示登録した同用途・同性能帯・同費用帯の候補から具体Thingへ解決する。
+- [INT-005 Ability Package](/pawn/int-005-%E8%A6%81%E4%BB%B6.md) — MUST: 必要能力はBody Module、Gene、Trait、Skill、Passion、Ability、Hediff等の由来を区別して構成し、同じ効果を無関係な仕組みで暗黙代替しない。
+- [INT-006 取消と返却](/pawn/int-006-%E5%8F%96%E6%B6%88%E3%81%A8%E8%BF%94%E5%8D%B4.md) — MUST: 生産取消、設計変更、配備失敗時は、未消費資源、完成済み装備、部分完成Bodyを追跡し、複製せずCore独自保管・接続システムまたはMap上の受入先へ返却するか、Factory Buffer内で明示的に再利用する。
+- [PERF-001 Dormant停止](/pawn/perf-001-%E5%81%9C%E6%AD%A2.md) — MUST: Dormant PawnをRimWorld Pawn Tickまたは全件毎tick走査の対象にしない。
+- [PERF-002 Event更新](/pawn/perf-002-%E6%9B%B4%E6%96%B0.md) — MUST: Archive checkpoint、需要数、Clone活動数、回収状態をevent駆動で更新する。
+- [PERF-003 World Pawn漏れ](/pawn/perf-003-%E6%BC%8F%E3%82%8C.md) — MUST: Ephemeralを一万体生成・回収・再資源化するfixture後も、World Pawn、Relation、Tale、Archiveが生成総数に比例して残留しない。
+- [PERF-004 量産](/pawn/perf-004-%E9%87%8F%E7%94%A3.md) — MUST: 同一DesignまたはClone Sourceから100体を連続生産するfixtureで、ID重複、参照共有、装備複製、無制限履歴増加を起こさない。
+- [REC-001 低コスト修復](/pawn/rec-001-%E4%BD%8E%E3%82%B3%E3%82%B9%E3%83%88%E4%BF%AE%E5%BE%A9.md) — MUST: 生存Pawnの通常負傷、欠損、故障、交換可能Moduleを、標準新規Pawn生産より低い資源と時間で回復できる。
+- [REC-002 遺体回収](/pawn/rec-002-%E9%81%BA%E4%BD%93%E5%9B%9E%E5%8F%8E.md) — MUST: 回収したシオン遺体をRecovery Facilityへ受け入れ、再起動、Archive再実体化、再資源化の利用可能な選択を表示する。
+- [REC-003 Ephemeral再起動](/pawn/rec-003-%E5%86%8D%E8%B5%B7%E5%8B%95.md) — MUST: Ephemeral Pawnは、遺体とPawn instance情報が残る間、低コストで同じ現在個体を再起動できる。
+- [REC-004 Ephemeral最終削除](/pawn/rec-004-%E6%9C%80%E7%B5%82%E5%89%8A%E9%99%A4.md) — MUST: Ephemeral Pawnの遺体を再資源化した場合、Pawn、Corpse、World Pawn、Relation、Archive、個体参照付きTale／Log、未解決参照をセーブ正本から除去する。
+- [REC-005 Registered再実体化](/pawn/rec-005-%E5%86%8D%E5%AE%9F%E4%BD%93%E5%8C%96.md) — MUST: Registered Individualの死亡後は、回収時にArchiveをcheckpointし、遺体を再資源化した後も同じindividualIdで一体を再実体化できる。
+- [REC-006 Clone選択](/pawn/rec-006-%E9%81%B8%E6%8A%9E.md) — MUST: Registered Individualが活動中またはDormantである場合、同じ原型からの追加生産は再実体化ではなくCloneとして明示する。
+- [REC-007 回収不能](/pawn/rec-007-%E5%9B%9E%E5%8F%8E%E4%B8%8D%E8%83%BD.md) — MUST: 遺体が消滅したEphemeral Pawnは同じ個体として復元できない。
+- [REC-008 冪等性](/pawn/rec-008-%E5%86%AA%E7%AD%89%E6%80%A7.md) — MUST: 回収、再起動、再資源化、再実体化のCommand再送で、Pawn、遺体、装備、資源を二重生成または二重回収しない。
+- [REC-009 Quest参照](/pawn/rec-009-%E5%8F%82%E7%85%A7.md) — MUST: Ephemeral最終削除の前にQuest、Lord、Relation、Faction、World Pawn、外部Adapterへ終了通知を送り、参照を解決する。
+- [REG-001 既存Pawn登録](/pawn/reg-001-%E6%97%A2%E5%AD%98-%E7%99%BB%E9%8C%B2.md) — MUST: 活動中またはDormantのシオンPawnをRegistered Individualへ変更できる。
+- [REG-002 Archive更新](/pawn/reg-002-%E6%9B%B4%E6%96%B0.md) — MUST: Archiveは登録時、Dormant化時、手動保存時、死亡回収時にevent駆動でcheckpointする。
+- [REG-003 単一個体制約](/pawn/reg-003-%E5%8D%98%E4%B8%80%E5%80%8B%E4%BD%93%E5%88%B6%E7%B4%84.md) — MUST: 同じindividualIdを持つ活動中またはDormantの実体を二体作らない。
+- [REG-004 Design保存](/pawn/reg-004-%E4%BF%9D%E5%AD%98.md) — MUST: プレイヤー設計を個体情報のない再利用可能なPawn Designとして保存できる。
+- [REG-005 単一個体として保存](/pawn/reg-005-%E5%8D%98%E4%B8%80%E5%80%8B%E4%BD%93%E3%81%A8%E3%81%97%E3%81%A6%E4%BF%9D%E5%AD%98.md) — MUST: プレイヤー設計を名前とindividualIdを持つ一人のIndividual Archiveとして保存し、必要な時にその個体を生産できる。
+- [REG-006 Clone Source](/pawn/reg-006-%E8%A4%87%E8%A3%BD%E5%80%8B%E4%BD%93.md) — MUST: Registered Individual、Authored Individual、Saved Pawn DesignをClone Sourceに指定できる。
+- [REG-007 Clone同時存在](/pawn/reg-007-%E5%90%8C%E6%99%82%E5%AD%98%E5%9C%A8.md) — MUST: 同じClone Sourceから複数Pawnを同時に活動させられる。
+- [REG-008 Clone後の分岐](/pawn/reg-008-%E5%BE%8C%E3%81%AE%E5%88%86%E5%B2%90.md) — MUST: Clone生成後の経験、関係、傷、改造、装備、登録状態を個別に保存し、元個体または他Cloneへ自動同期しない。
+- [REG-009 外部権利の複製](/pawn/reg-009-%E5%A4%96%E9%83%A8%E6%A8%A9%E5%88%A9%E3%81%AE%E8%A4%87%E8%A3%BD.md) — MUST: Quest所有権、派閥役職、Royalty称号、固有WorldObject参照、固有装備、Bond等を能力と一緒に暗黙複製しない。
+- [REG-010 登録解除](/pawn/reg-010-%E7%99%BB%E9%8C%B2%E8%A7%A3%E9%99%A4.md) — MUST: Archiveを削除する操作は対象個体、失われる再実体化能力、活動中・Dormant実体、Clone Source参照を表示し、明示確認を要求する。
+- [SAVE-001 保存正本](/pawn/save-001-%E4%BF%9D%E5%AD%98%E6%AD%A3%E6%9C%AC.md) — MUST: Pawn Design、Individual Archive、Clone Lineage、Dormant Record、Generation Request、Recovery Record、各ID、途中状態を保存する。
+- [SAVE-002 Ephemeral不在](/pawn/save-002-%E4%B8%8D%E5%9C%A8.md) — MUST: 再資源化済みEphemeral Pawnは、保存・ロード後にWorld Pawn、Relation、Corpse、Archive、参照付き履歴として復活しない。
+- [SAVE-003 同一ビルド往復](/pawn/save-003-%E5%90%8C%E4%B8%80%E3%83%93%E3%83%AB%E3%83%89%E5%BE%80%E5%BE%A9.md) — MUST: β期間中も同一ビルドの途中保存・ロードを保証する。
+- [SAVE-004 途中状態](/pawn/save-004-%E9%80%94%E4%B8%AD%E7%8A%B6%E6%85%8B.md) — MUST: 生産、Dormant化、再配備、回収、再起動、再資源化、再実体化、Cloneの各途中状態から安全に再開する。
+- [SAVE-005 ID一意性](/pawn/save-005-%E4%B8%80%E6%84%8F%E6%80%A7.md) — MUST: 保存・ロード後もdesignId、individualId、pawnInstanceId、lineageIdを重複させない。
+- [SAVE-006 Archive欠損](/pawn/save-006-%E6%AC%A0%E6%90%8D.md) — MUST: 欠落Def、破損Archive、利用不能Moduleを無言で置換しない。
+- [UX-001 Pawn Foundry](/pawn/ux-001-%E8%A6%81%E4%BB%B6.md) — MUST: Pawn Foundryの第一階層を次の三つにする。
+- [UX-002 費用Preview](/pawn/ux-002-%E8%B2%BB%E7%94%A8.md) — MUST: 生産前にBody、Module、能力、装備、時間、現在在庫、不足、代替、登録方式を表示する。
+- [UX-003 個体種別](/pawn/ux-003-%E5%80%8B%E4%BD%93%E7%A8%AE%E5%88%A5.md) — MUST: Ephemeral、Registered、Design output、Clone、Dormantを、色だけに依存せず文字とIconで区別する。
+- [UX-004 破壊的操作](/pawn/ux-004-%E7%A0%B4%E5%A3%8A%E7%9A%84%E6%93%8D%E4%BD%9C.md) — MUST: Ephemeral遺体の再資源化とArchive削除は、同じ個体を復元できなくなることを明示する。
+- [UX-005 Clone識別](/pawn/ux-005-%E8%AD%98%E5%88%A5.md) — MUST: 同名・同外見のCloneを許可しつつ、選択、医療、装備、命令で区別できる短い表示識別子を提供する。
+- [UX-006 簡易注文](/pawn/ux-006-%E7%B0%A1%E6%98%93%E6%B3%A8%E6%96%87.md) — MUST: プレイヤーが詳細設計を開かず、「建築担当を一人」「射手を四人」「この個体のCloneを十人」のような注文を行える。
 - [一文で言うなら](/player-facing/000-%E4%B8%80%E6%96%87%E3%81%A7%E8%A8%80%E3%81%86%E3%81%AA%E3%82%89.md) — 古い帝国の力と使命を受け継ぎながら、自由で俗世的な本物の理想郷を築いた狐型機械人が、辺境にも善い暮らしを作ろうとする物語。
 - [プレイヤーが最初から知ること](/player-facing/001-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%9C%80%E5%88%9D%E3%81%8B%E3%82%89%E7%9F%A5%E3%82%8B%E3%81%93%E3%81%A8.md) — シオンは、製造された身体を持つ機械の民であり、また一人ずつ別の人格を持ち、人工知能でも集合意識でもありません。
 - [β版のPawn工業](/player-facing/002-%CE%B2%E7%89%88%E3%81%AEPawn%E5%B7%A5%E6%A5%AD.md) — β版では、必要な仕事に適合するランダムなシオン、登録済みの個体、プレイヤーが一から設計した個体、既存個体のCloneをPawn Foundryから生産できます。
@@ -81,6 +81,6 @@
 - [最小用語集](/player-facing/012-%E6%9C%80%E5%B0%8F%E7%94%A8%E8%AA%9E%E9%9B%86.md) — これ以上の語は、登場するクエストや機能の中でその都度説明します。
 - [参考資料の利用境界](/reference/00-%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99%E3%81%AE%E5%88%A9%E7%94%A8%E5%A2%83%E7%95%8C.md) — 参考資料は、現行正本ではないが、調査、比較、発想、再設計の入力として再利用できる可能性を持つ資料である。
 - [旧Matter Network統合検討](/reference/matter-network/00-%E6%97%A7%E7%B5%B1%E5%90%88%E6%A4%9C%E8%A8%8E.md) — Matter Network統合検討は終了した過去案件であり、判断経緯を探すための参考入口だけを保持する。
-- [0. Purpose](/research/anomaly-monolith/00-Purpose.md) — This document records user-provided screenshots of RimWorld Anomaly-style monolith structures as a visual reference for the redesigned…。
-- [1. Why Anomaly monoliths are useful](/research/anomaly-monolith/01-Why-Anomaly-monoliths-are-useful.md) — Anomaly monolith visuals are useful because they communicate、具体的にはa unique central object;とdormant mystery;を扱う。
-- [2. What to adopt](/research/anomaly-monolith/02-What-to-adopt.md) — Adopt structurally、具体的にはone strong central block;とside supports or buttresses;を扱う。
+- [0. Purpose](/research/anomaly-monolith/00-Purpose-%E7%95%B0%E5%B8%B8%E3%83%A2%E3%83%8E%E3%83%AA%E3%82%B9%E5%8F%82%E8%80%83.md) — This document records user-provided screenshots of RimWorld Anomaly-style monolith structures as a visual reference for the redesigned…。
+- [1. Why Anomaly monoliths are useful](/research/anomaly-monolith/01-Why-Anomaly-monoliths-are-useful-%E7%95%B0%E5%B8%B8%E3%83%A2%E3%83%8E%E3%83%AA%E3%82%B9%E5%8F%82%E8%80%83.md) — Anomaly monolith visuals are useful because they communicate、具体的にはa unique central object;とdormant mystery;を扱う。
+- [2. What to adopt](/research/anomaly-monolith/02-What-to-adopt-%E7%95%B0%E5%B8%B8%E3%83%A2%E3%83%8E%E3%83%AA%E3%82%B9%E5%8F%82%E8%80%83.md) — Adopt structurally、具体的にはone strong central block;とside supports or buttresses;を扱う。

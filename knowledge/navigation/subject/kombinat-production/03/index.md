@@ -4,38 +4,38 @@
 
 ## 項目
 
-- [PRD-012 取消](/kombinat/requirements/prd-012.md) — MUST: 取消時は未Commitの入力予約、出力容量予約、通貨予約、設備割当を解放する。
-- [PRD-013 再計画](/kombinat/requirements/prd-013.md) — MUST: 未開始Batchだけを再計画する、またcommit済みBatchを巻き戻さない。
-- [SAV-001 状態](/kombinat/requirements/sav-001.md) — MUST: Request、Pattern version、Plan summary、Job、Batch、Buffer、Output Claim、Account、Transaction、Consumption aggregateを保存する。
-- [SAV-002 非複製](/kombinat/requirements/sav-002.md) — MUST: KombinatセーブはKombinat固有状態とCore取引参照だけを保持する。
-- [SAV-003 途中保存](/kombinat/requirements/sav-003.md) — MUST: 材料待ち、入力予約後、処理中、出力容量待ち、Commit前後、通貨保留中に保存・ロードできる。
-- [SAV-004 同一ビルド](/kombinat/requirements/sav-004.md) — MUST: α／βでは同一ビルドの保存往復を保証する。
-- [STA-001 意図した仕様](/kombinat/requirements/sta-001.md) — MUST: Core独自Storage内の腐敗、温度、Thing Tick、Comp Tick、充放電、孵化等の時間進行方針を明示する。
-- [STA-002 追加制限禁止](/kombinat/requirements/sta-002.md) — MUST: Stasisによる時間停止だけを理由に、Kombinatから追加費用、危険分類、入庫拒否を行わない。
-- [STA-003 工場内在庫禁止](/kombinat/requirements/sta-003.md) — MUST: Kombinat Factoryは生産用ThingOwnerを持たず、材料、中間品、完成品をCore Storageへ一元化する。
-- [UX-001 発注](/kombinat/requirements/ux-001.md) — MUST: 品目、数量または目標在庫、優先度だけで基本発注を作れる。
-- [UX-002 見積り](/kombinat/requirements/ux-002.md) — MUST: 確定前に、必要材料、Storage利用可能量、予約済み、中間品、設備、出力容量、概算時間を表示する。
-- [UX-003 状態語](/kombinat/requirements/ux-003.md) — MUST: 少なくとも次を区別するという方針の適用範囲と条件を定める。
-- [UX-004 上流UIの尊重](/kombinat/requirements/ux-004.md) — MUST: Storage、Filter、Endpoint、Network設定はCore独自基盤のUI責務とし、Kombinat内部へ複製しない。
+- [PRD-012 取消](/kombinat/requirements/prd-012-%E5%8F%96%E6%B6%88.md) — MUST: 取消時は未Commitの入力予約、出力容量予約、通貨予約、設備割当を解放する。
+- [PRD-013 再計画](/kombinat/requirements/prd-013-%E5%86%8D%E8%A8%88%E7%94%BB.md) — MUST: 未開始Batchだけを再計画する、またcommit済みBatchを巻き戻さない。
+- [SAV-001 状態](/kombinat/requirements/sav-001-%E7%8A%B6%E6%85%8B.md) — MUST: Request、Pattern version、Plan summary、Job、Batch、Buffer、Output Claim、Account、Transaction、Consumption aggregateを保存する。
+- [SAV-002 非複製](/kombinat/requirements/sav-002-%E9%9D%9E%E8%A4%87%E8%A3%BD.md) — MUST: KombinatセーブはKombinat固有状態とCore取引参照だけを保持する。
+- [SAV-003 途中保存](/kombinat/requirements/sav-003-%E9%80%94%E4%B8%AD%E4%BF%9D%E5%AD%98.md) — MUST: 材料待ち、入力予約後、処理中、出力容量待ち、Commit前後、通貨保留中に保存・ロードできる。
+- [SAV-004 同一ビルド](/kombinat/requirements/sav-004-%E5%90%8C%E4%B8%80%E3%83%93%E3%83%AB%E3%83%89.md) — MUST: α／βでは同一ビルドの保存往復を保証する。
+- [STA-001 意図した仕様](/kombinat/requirements/sta-001-%E6%84%8F%E5%9B%B3%E3%81%97%E3%81%9F%E4%BB%95%E6%A7%98.md) — MUST: Core独自Storage内の腐敗、温度、Thing Tick、Comp Tick、充放電、孵化等の時間進行方針を明示する。
+- [STA-002 追加制限禁止](/kombinat/requirements/sta-002-%E8%BF%BD%E5%8A%A0%E5%88%B6%E9%99%90%E7%A6%81%E6%AD%A2.md) — MUST: Stasisによる時間停止だけを理由に、Kombinatから追加費用、危険分類、入庫拒否を行わない。
+- [STA-003 工場内在庫禁止](/kombinat/requirements/sta-003-%E5%B7%A5%E5%A0%B4%E5%86%85%E5%9C%A8%E5%BA%AB%E7%A6%81%E6%AD%A2.md) — MUST: Kombinat Factoryは生産用ThingOwnerを持たず、材料、中間品、完成品をCore Storageへ一元化する。
+- [UX-001 発注](/kombinat/requirements/ux-001-%E7%99%BA%E6%B3%A8.md) — MUST: 品目、数量または目標在庫、優先度だけで基本発注を作れる。
+- [UX-002 見積り](/kombinat/requirements/ux-002-%E8%A6%8B%E7%A9%8D%E3%82%8A.md) — MUST: 確定前に、必要材料、Storage利用可能量、予約済み、中間品、設備、出力容量、概算時間を表示する。
+- [UX-003 状態語](/kombinat/requirements/ux-003-%E7%8A%B6%E6%85%8B%E8%AA%9E.md) — MUST: 少なくとも次を区別するという方針の適用範囲と条件を定める。
+- [UX-004 上流UIの尊重](/kombinat/requirements/ux-004-%E4%B8%8A%E6%B5%81-%E3%81%AE%E5%B0%8A%E9%87%8D.md) — MUST: Storage、Filter、Endpoint、Network設定はCore独自基盤のUI責務とし、Kombinat内部へ複製しない。
 - [1. 権威と責務](/pawn/01-%E6%A8%A9%E5%A8%81%E3%81%A8%E8%B2%AC%E5%8B%99.md) — Pawnの生成、人格・身体構成、登録、保管、死亡後削除、再実体化、Cloneについて矛盾がある場合、次の順を用いる。
 - [B. 必要装備込みの配備](/pawn/069-B-%E5%BF%85%E8%A6%81%E8%A3%85%E5%82%99%E8%BE%BC%E3%81%BF%E3%81%AE%E9%85%8D%E5%82%99.md) — B. 必要装備込みの配備は、射手四体、互換する防具、遠距離武器、医療品を注文する。
 - [13. 完成図Hardening要件](/pawn/13-%E5%AE%8C%E6%88%90%E5%9B%B3Hardening%E8%A6%81%E4%BB%B6.md) — 本節は旧完成図監査から回収したPawn Foundry固有のHardening要件を、本書自身の拘束要件として維持する。
-- [14. β Definition of Done](/pawn/14-%CE%B2-Definition-of-Done.md) — 次を全て満たした時だけ、β版のPawn生産系を完成とする。
+- [14. β Definition of Done](/pawn/14-%CE%B2-Definition-of-Done-%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — 次を全て満たした時だけ、β版のPawn生産系を完成とする。
 - [2.3 無料保管](/pawn/2-3-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — 生存PawnはPawn Foundryまたは対応設備からDormant状態へ移し、必要になるまで保管できる。
-- [GEN-005 必要装備](/pawn/gen-005.md) — MUST: 生産要求は、具体Thing指定と作者定義のEquipment Familyを併用できる。
-- [INT-001 Production Adapter](/pawn/int-001.md) — MUST: Pawn FoundryはBody、Module、装備、消耗品をKombinat Production Requestとして発注できる。
-- [INT-002 三主題の維持](/pawn/int-002.md) — MUST: Kombinat側ではPawn要求を生産対象、Pawn需要を消費予測、Foundryへの引渡しを流通として表示する。
+- [GEN-005 必要装備](/pawn/gen-005-%E5%BF%85%E8%A6%81%E8%A3%85%E5%82%99.md) — MUST: 生産要求は、具体Thing指定と作者定義のEquipment Familyを併用できる。
+- [INT-001 Production Adapter](/pawn/int-001-%E8%A6%81%E4%BB%B6.md) — MUST: Pawn FoundryはBody、Module、装備、消耗品をKombinat Production Requestとして発注できる。
+- [INT-002 三主題の維持](/pawn/int-002-%E4%B8%89%E4%B8%BB%E9%A1%8C%E3%81%AE%E7%B6%AD%E6%8C%81.md) — MUST: Kombinat側ではPawn要求を生産対象、Pawn需要を消費予測、Foundryへの引渡しを流通として表示する。
 - [プレイヤーが最初から知ること](/player-facing/001-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%9C%80%E5%88%9D%E3%81%8B%E3%82%89%E7%9F%A5%E3%82%8B%E3%81%93%E3%81%A8.md) — シオンは、製造された身体を持つ機械の民であり、また一人ずつ別の人格を持ち、人工知能でも集合意識でもありません。
 - [最小用語集](/player-facing/012-%E6%9C%80%E5%B0%8F%E7%94%A8%E8%AA%9E%E9%9B%86.md) — これ以上の語は、登場するクエストや機能の中でその都度説明します。
-- [Boundary](/research/known-code/000-Boundary.md) — Code-level reuse is limited to repositories owned by Daffodil. Monolyn Race, Fleshbeast Colony, Arachnae Swarm 2, Dolls Nest, RimWorld,…。
-- [Sources inspected](/research/known-code/001-Sources-inspected.md) — - Daffodil-lab/Meiko-Race-The-Manufactured-Utopia-A-Clockwork-Fox-Doll at indexed commit aed3ab77724fdab6cf9166abab80bf2dd22a9e96. -…。
-- [Adopted and ported](/research/known-code/002-Adopted-and-ported.md) — Adopted and portedは、Source：Reused idea：Kombinat resultとMeikoNexus.csproj：net472, Krafs.Rimworld.Ref, direct Assemblies…。
-- [Adapt, do not copy directly](/research/known-code/003-Adapt-do-not-copy-directly.md) — Adapt, do not copy directlyは、Legacy code：ReasonとCompNexusCore CVE and digital-material fields：Aggregate reservedCVE floats have no…。
-- [Rejected from the runtime](/research/known-code/004-Rejected-from-the-runtime.md) — - A monolithic Core building Comp as the owner of resource truth. - Separate aggregate reservation totals without reservation records.…。
-- [First vertical-slice guarantees](/research/known-code/005-First-vertical-slice-guarantees.md) — 1. Five canonical inventory resources are Defs; population, labor, bandwidth, capacity, research, fame, and defense readiness are not…。
-- [Next extraction](/research/known-code/006-Next-extraction.md) — The next safe port is the construction-site lifecycle. Replace its reservedCVE/reservedMaterials fields with one Kombinat reservation…。
-- [Build](/research/kombinat-prototype/000-Build.md) — The compiled prototype assembly is written to Assemblies/Kombinat.dll. Do not copy it into the Core package.。
-- [Current status](/research/kombinat-prototype/001-Current-status.md) — No v3 product component is implemented. The next task is to pin the Matter Network baseline, record the MIT notices and adopted files,…。
+- [Boundary](/research/known-code/000-Boundary-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E5%8F%82%E8%80%83.md) — Code-level reuse is limited to repositories owned by Daffodil. Monolyn Race, Fleshbeast Colony, Arachnae Swarm 2, Dolls Nest, RimWorld,…。
+- [Sources inspected](/research/known-code/001-Sources-inspected-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E5%8F%82%E8%80%83.md) — - Daffodil-lab/Meiko-Race-The-Manufactured-Utopia-A-Clockwork-Fox-Doll at indexed commit aed3ab77724fdab6cf9166abab80bf2dd22a9e96. -…。
+- [Adopted and ported](/research/known-code/002-Adopted-and-ported-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E5%8F%82%E8%80%83.md) — Adopted and portedは、Source：Reused idea：Kombinat resultとMeikoNexus.csproj：net472, Krafs.Rimworld.Ref, direct Assemblies…。
+- [Adapt, do not copy directly](/research/known-code/003-Adapt-do-not-copy-directly-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E5%8F%82%E8%80%83.md) — Adapt, do not copy directlyは、Legacy code：ReasonとCompNexusCore CVE and digital-material fields：Aggregate reservedCVE floats have no…。
+- [Rejected from the runtime](/research/known-code/004-Rejected-from-the-runtime-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E5%8F%82%E8%80%83.md) — - A monolithic Core building Comp as the owner of resource truth. - Separate aggregate reservation totals without reservation records.…。
+- [First vertical-slice guarantees](/research/known-code/005-First-vertical-slice-guarantees-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E5%8F%82%E8%80%83.md) — 1. Five canonical inventory resources are Defs; population, labor, bandwidth, capacity, research, fame, and defense readiness are not…。
+- [Next extraction](/research/known-code/006-Next-extraction-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E5%8F%82%E8%80%83.md) — The next safe port is the construction-site lifecycle. Replace its reservedCVE/reservedMaterials fields with one Kombinat reservation…。
+- [Build](/research/kombinat-prototype/000-Build-%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8A%E3%83%BC%E3%83%88%E8%A9%A6%E4%BD%9C%E5%8F%82%E8%80%83.md) — The compiled prototype assembly is written to Assemblies/Kombinat.dll. Do not copy it into the Core package.。
+- [Current status](/research/kombinat-prototype/001-Current-status-%E3%82%B3%E3%83%B3%E3%83%93%E3%83%8A%E3%83%BC%E3%83%88%E8%A9%A6%E4%BD%9C%E5%8F%82%E8%80%83.md) — No v3 product component is implemented. The next task is to pin the Matter Network baseline, record the MIT notices and adopted files,…。
 - [0. 出典と利用範囲](/research/kombinat-ui-references/00-%E5%87%BA%E5%85%B8%E3%81%A8%E5%88%A9%E7%94%A8%E7%AF%84%E5%9B%B2.md) — ユーザー提供映像をKombinatのUI・操作研究に限定して利用し、画像・コード・固有表現のコピー元にはしない。
 - [1. MonolynのネットワークUIから採るもの](/research/kombinat-ui-references/01-Monolyn%E3%81%AE%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AFUI%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — Monolynの集中資源、生産一覧、選択時ネットワーク表示から、Kombinatへ採用する情報設計を抽出する。
 - [4. 要求中間素材作成の操作イメージ](/research/kombinat-ui-references/04-%E8%A6%81%E6%B1%82%E4%B8%AD%E9%96%93%E7%B4%A0%E6%9D%90%E4%BD%9C%E6%88%90%E3%81%AE%E6%93%8D%E4%BD%9C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8.md) — 在庫とRecipeを並べ、最終品の要求から不足中間品と総材料を確認する簡潔な操作モデルをKombinatへ適用する。
@@ -61,6 +61,6 @@
 - [0. 正史の優先順位](/world/00-%E6%AD%A3%E5%8F%B2%E3%81%AE%E5%84%AA%E5%85%88%E9%A0%86%E4%BD%8D.md) — 本書より下位の資料は、本書にない事実を自動的に正史化しない。
 - [4. 同盟社会](/world/04-%E5%90%8C%E7%9B%9F%E7%A4%BE%E4%BC%9A.md) — 同盟本国は、普通に暮らす大多数にとって、本当に自由で豊かで安全な社会である。
 - [8. 遠征共同体とレッドスター](/world/08-%E9%81%A0%E5%BE%81%E5%85%B1%E5%90%8C%E4%BD%93%E3%81%A8Red-Star.md) — コアMODは、独立団、漂着者、認可団、その他の遠征共同体など、複数の開始立場を許容する。
-- [9. The Hive](/world/09-The-Hive.md) — The Hiveは、通常シオン社会の標準ではない、例外的な単一中枢運営を扱う。
+- [9. The Hive](/world/09-The-Hive-%E3%82%B6%E3%83%BB%E3%83%8F%E3%82%A4%E3%83%B4.md) — The Hiveは、通常シオン社会の標準ではない、例外的な単一中枢運営を扱う。
 - [33. 代表工業資源](/world/33-%E4%BB%A3%E8%A1%A8%E5%B7%A5%E6%A5%AD%E8%B3%87%E6%BA%90.md) — Coreで反復して扱う五つの代表工業資源は、Cell、エネルギー結晶、構造材、保守資材、弾薬結晶である。
 - [39. 同盟通貨](/world/39-%E5%90%8C%E7%9B%9F%E9%80%9A%E8%B2%A8.md) — 同盟通貨は、共同体が保有、移転、支出できる金融上の残高であり、物理工業資源、名声、忠誠、人格権ではない。

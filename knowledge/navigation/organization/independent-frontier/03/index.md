@@ -16,12 +16,12 @@
 - [内政台帳とNetwork Storageの統合境界](/design/54-%E5%86%85%E6%94%BF%E5%8F%B0%E5%B8%B3%E3%81%A8Network-Storage%E3%81%AE%E7%B5%B1%E5%90%88%E5%A2%83%E7%95%8C.md) — 内政管理、Core独自Network Storage、Kombinat生産を一つの需給台帳へ統合し、工場を在庫を持たない設備能力として実装する。
 - [Core・公式DLC量産カタログ境界](/design/55-Core%E5%85%AC%E5%BC%8FDLC%E9%87%8F%E7%94%A3%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0%E5%A2%83%E7%95%8C.md) — Coreと五つの公式DLCに属する反復可能な通常Recipeから、Kombinatの無人量産カタログをDef駆動で生成する。
 - [56. Shion標準遠征身体の実装仕様](/design/56-Shion%E6%A8%99%E6%BA%96%E9%81%A0%E5%BE%81%E8%BA%AB%E4%BD%93%E3%81%AE%E5%AE%9F%E8%A3%85%E4%BB%95%E6%A7%98.md) — Shion標準遠征身体の器官、能力値、欠損状態、休息、Anomaly拒絶、心情と将来拡張点を定める。
-- [知識所有者マップ](/governance/ownership-map.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
-- [KX-008 初期化二重適用](/kombinat/audit/kx-008.md) — 再現: 独立開拓団開始中に例外または途中ロードを起こす。
+- [知識所有者マップ](/governance/ownership-map-%E7%9F%A5%E8%AD%98%E6%89%80%E6%9C%89%E8%80%85%E3%83%9E%E3%83%83%E3%83%97.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
+- [KX-008 初期化二重適用](/kombinat/audit/kx-008-%E5%88%9D%E6%9C%9F%E5%8C%96%E4%BA%8C%E9%87%8D%E9%81%A9%E7%94%A8.md) — 再現: 独立開拓団開始中に例外または途中ロードを起こす。
 - [12. α完成条件](/kombinat/core/12-%CE%B1%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Kombinat αはShion種族実装に先行し、バニラHumanのfixtureでThingOwner間の直接転送、三段生産、任意排出を成立させる。
 - [14. 実装順](/kombinat/core/14-%E5%AE%9F%E8%A3%85%E9%A0%86.md) — 工業UIのRimWorld 1.6画面契約を先に固定し、Shion種族に先行してCore独自保管・接続システムとKombinatをバニラHumanのfixtureで完成させる。
-- [12. α Release Gate](/kombinat/requirements/12-%CE%B1-Release-Gate.md) — α版はCore独自保管基盤との直接受渡し、三段生産、任意排出、保存・復旧をRelease Gateへ含める。
-- [CUR-004 初期化](/kombinat/requirements/cur-004.md) — MUST: 独立開拓団開始時に一回だけProfile残高を適用し、途中失敗で部分残高を残さない。
+- [12. α Release Gate](/kombinat/requirements/12-%CE%B1-Release-Gate-%E5%85%AC%E9%96%8B%E5%88%A4%E5%AE%9A.md) — α版はCore独自保管基盤との直接受渡し、三段生産、任意排出、保存・復旧をRelease Gateへ含める。
+- [CUR-004 初期化](/kombinat/requirements/cur-004-%E5%88%9D%E6%9C%9F%E5%8C%96.md) — MUST: 独立開拓団開始時に一回だけProfile残高を適用し、途中失敗で部分残高を残さない。
 - [プレイヤーが最初から知ること](/player-facing/001-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%9C%80%E5%88%9D%E3%81%8B%E3%82%89%E7%9F%A5%E3%82%8B%E3%81%93%E3%81%A8.md) — シオンは、製造された身体を持つ機械の民であり、また一人ずつ別の人格を持ち、人工知能でも集合意識でもありません。
 - [最小用語集](/player-facing/012-%E6%9C%80%E5%B0%8F%E7%94%A8%E8%AA%9E%E9%9B%86.md) — これ以上の語は、登場するクエストや機能の中でその都度説明します。
 - [台帳設備と輸送中Cargo](/research/remote-logistics/08-%E5%8F%B0%E5%B8%B3%E8%A8%AD%E5%82%99%E3%81%A8%E8%BC%B8%E9%80%81%E4%B8%ADCargo.md) — Map上の設備、宇宙船、本国施設、契約工場、交易拠点を共通のFacility台帳へ登録し、遠隔資源を時間付きCargoとして現地Network Storageへ届ける設計草案。
@@ -33,7 +33,7 @@
 - [22. 休眠遺構と中継塔](/world/22-%E4%BC%91%E7%9C%A0%E9%81%BA%E6%A7%8B%E3%81%A8%E4%B8%AD%E7%B6%99%E5%A1%94.md) — 帝国・同盟・独立勢力の設備には、破壊されず休眠状態へ移り、辺境に残された遺構や中継塔が存在する。
 - [27. 遠征共同体の野心と産業化](/world/27-%E9%81%A0%E5%BE%81%E5%85%B1%E5%90%8C%E4%BD%93%E3%81%AE%E9%87%8E%E5%BF%83%E3%81%A8%E7%94%A3%E6%A5%AD%E5%8C%96.md) — 遠征共同体が生存を越える野心を実現するには、本国のような高度な産業能力を現地へ段階的に築く必要がある。
 - [33. 代表工業資源](/world/33-%E4%BB%A3%E8%A1%A8%E5%B7%A5%E6%A5%AD%E8%B3%87%E6%BA%90.md) — Coreで反復して扱う五つの代表工業資源は、Cell、エネルギー結晶、構造材、保守資材、弾薬結晶である。
-- [34. Cell](/world/34-Cell.md) — Cellは、帝国から継承された自己増殖可能な工業媒体であり、物質、身体、設備を構成・変更する基盤の一つである。
+- [34. Cell](/world/34-Cell-%E3%82%BB%E3%83%AB.md) — Cellは、帝国から継承された自己増殖可能な工業媒体であり、物質、身体、設備を構成・変更する基盤の一つである。
 - [35. 凝縮真空](/world/35-%E5%87%9D%E7%B8%AE%E7%9C%9F%E7%A9%BA.md) — 凝縮真空（CVE）は、エネルギー分野に属する同盟時代の既存技術または形態である。
 - [36. 構造材](/world/36-%E6%A7%8B%E9%80%A0%E6%9D%90.md) — 構造材は、建築、設備、基礎的な製造へ用いる、規格化された物理材料である。
 - [37. 保守資材](/world/37-%E4%BF%9D%E5%AE%88%E8%B3%87%E6%9D%90.md) — 保守資材は、設備、身体、装備の保守と修理へ投入する物理的な資材である。

@@ -24,7 +24,7 @@
 - [12. 目標パッケージ構造](/colony/12-%E7%9B%AE%E6%A8%99%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E6%A7%8B%E9%80%A0.md) — CoreはRimWorld 1.6、Royalty、Ideology、Biotech、Anomaly、Odysseyを必須とする。
 - [13. Assembly責務](/colony/13-Assembly%E8%B2%AC%E5%8B%99.md) — αでは、Kombinatとの開始接続、最低限の初期化、エラー表示に必要な責務だけを実装する。
 - [14. 最小データモデル](/colony/14-%E6%9C%80%E5%B0%8F%E3%83%87%E3%83%BC%E3%82%BF%E3%83%A2%E3%83%87%E3%83%AB.md) — 開始立場と初期工業状態をデータ駆動にするという方針の適用範囲と条件を定める。
-- [16. 工業管制塔](/colony/16-Field-Ledger-Terminal.md) — コアMODからコンビナートへ入る最初の可視入口とする。
+- [16. 工業管制塔](/colony/16-Field-Ledger-Terminal-%E5%B7%A5%E6%A5%AD%E7%AE%A1%E5%88%B6%E5%A1%94.md) — コアMODからコンビナートへ入る最初の可視入口とする。
 - [17. Field Workshopのαコンテンツ](/colony/17-Field-Workshop%E3%81%AE%CE%B1%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84.md) — Core独自Storageと、Kombinat追加層の発注・多段生産・消費・流通・通貨、独立開拓団用の代表的な三段閉路を同じα公開候補で完成させる。
 - [18. 独立状態のUI](/colony/18-%E7%8B%AC%E7%AB%8B%E7%8A%B6%E6%85%8B%E3%81%AEUI.md) — 複雑な外交画面をα版へ作らない、また開始情報または簡易情報カードで次を示す。
 - [19. 救援クエスト縦切り](/colony/19-%E6%95%91%E6%8F%B4%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E7%B8%A6%E5%88%87%E3%82%8A.md) — 一件目は、魂や復活ではなく物質的に分かりやすい救援にする。
@@ -34,19 +34,19 @@
 - [23. 失敗時の規則](/colony/23-%E5%A4%B1%E6%95%97%E6%99%82%E3%81%AE%E8%A6%8F%E5%89%87.md) — エラー時にRed Star支援やHive機能を代替起動しない。
 - [26. 独立開拓団とレッドスターの責務境界](/colony/26-Red-Star%E3%81%A8%E3%81%AE%E6%AF%94%E8%BC%83.md) — 独立開拓団の自律とレッドスターの国家保証を、支援、任務、報告、救援、交戦の責務として分ける。
 - [27. The Hiveとの境界](/colony/27-The-Hive%E3%81%A8%E3%81%AE%E5%A2%83%E7%95%8C.md) — The Hiveの設定資料は保存するが、独立開拓団実装の抽象化要件にしない。
-- [28. Definition of Done](/colony/28-Definition-of-Done.md) — Core独立開拓団α版は、次を全て満たした時に完成する。
+- [28. Definition of Done](/colony/28-Definition-of-Done-%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Core独立開拓団α版は、次を全て満たした時に完成する。
 - [29. 野心と産業進行](/colony/29-%E9%87%8E%E5%BF%83%E3%81%A8%E7%94%A3%E6%A5%AD%E9%80%B2%E8%A1%8C.md) — ゲームクリア級の目標は、遠征共同体が目標に必要な産業能力を現地で構築し、継続運用できることを要求する。
 - [C-0003 匿名ソフェルのゲーム実装値](/contradictions/C-0003-%E5%8C%BF%E5%90%8D%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AE%E3%82%B2%E3%83%BC%E3%83%A0%E5%AE%9F%E8%A3%85%E5%80%A4.md) — 旧人物資料の技能・装備・能力案と、現行の実装予約との関係。
-- [確定#389：MVP廃止、α公開候補、β終了条件、完成前セーブ互換](/decisions/decision-0389.md) — MVP廃止、α公開候補、β終了条件、完成前セーブ互換を確定した決定履歴。
-- [確定#390：Kombinat停止保存、資産価値、破壊時保全、性能優先方式](/decisions/decision-0390.md) — Kombinat停止保存、資産価値、破壊時保全、性能優先方式を確定した決定履歴。
-- [確定#391：Kombinat遠距離物流の保護延期、AE2系準拠、αのローカルNetwork再構成](/decisions/decision-0391.md) — Kombinat遠距離物流の保護延期、AE2系準拠、αのローカルNetwork再構成を確定した決定履歴。
-- [確定#392：Kombinatを生産・消費・流通へ集約した汎用工業とする](/decisions/decision-0392.md) — Kombinatを生産・消費・流通へ集約した汎用工業とするを確定した決定履歴。
-- [確定#393：β版Pawn Foundry、補充可能個体、登録再実体化、Clone Colony](/decisions/decision-0393.md) — β版Pawn Foundry、補充可能個体、登録再実体化、Clone Colonyを確定した決定履歴。
-- [確定#394：Kombinat完成図の仮想シミュレーション、未知MOD互換契約、復旧不能・無限容量の封鎖](/decisions/decision-0394.md) — Kombinat完成図の仮想シミュレーション、未知MOD互換契約、復旧不能・無限容量の封鎖を確定した決定履歴。
-- [確定#395：Matter NetworkをKombinat倉庫基盤として採用し、物理資源を実Thingへ統一](/decisions/decision-0395.md) — Matter NetworkをKombinat倉庫基盤として採用し、物理資源を実Thingへ統一を確定した決定履歴。
-- [確定#396：装備の抽象指定を装備ファミリー＋非物理ポイントへ簡略化](/decisions/decision-0396.md) — 装備の抽象指定を装備ファミリー＋非物理ポイントへ簡略化を確定した決定履歴。
-- [確定#397：Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外](/decisions/decision-0397.md) — Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外を確定した決定履歴。
-- [確定#398：α版からCore独自保管・接続基盤を採用する](/decisions/decision-0398.md) — Matter Network必須依存を撤回し、α版から通常Map空間を経由しない独自保管・接続基盤と任意排出を採用した決定履歴。
+- [確定#389：MVP廃止、α公開候補、β終了条件、完成前セーブ互換](/decisions/decision-0389-%E7%A2%BA%E5%AE%9A-%E5%BB%83%E6%AD%A2-%E5%85%AC%E9%96%8B%E5%80%99%E8%A3%9C-%E7%B5%82%E4%BA%86%E6%9D%A1%E4%BB%B6-%E5%AE%8C%E6%88%90%E5%89%8D%E3%82%BB%E3%83%BC%E3%83%96%E4%BA%92%E6%8F%9B.md) — MVP廃止、α公開候補、β終了条件、完成前セーブ互換を確定した決定履歴。
+- [確定#390：Kombinat停止保存、資産価値、破壊時保全、性能優先方式](/decisions/decision-0390-%E7%A2%BA%E5%AE%9A-%E5%81%9C%E6%AD%A2%E4%BF%9D%E5%AD%98-%E8%B3%87%E7%94%A3%E4%BE%A1%E5%80%A4-%E7%A0%B4%E5%A3%8A%E6%99%82%E4%BF%9D%E5%85%A8-%E6%80%A7%E8%83%BD%E5%84%AA%E5%85%88%E6%96%B9%E5%BC%8F.md) — Kombinat停止保存、資産価値、破壊時保全、性能優先方式を確定した決定履歴。
+- [確定#391：Kombinat遠距離物流の保護延期、AE2系準拠、αのローカルNetwork再構成](/decisions/decision-0391-%E7%A2%BA%E5%AE%9A-%E9%81%A0%E8%B7%9D%E9%9B%A2%E7%89%A9%E6%B5%81%E3%81%AE%E4%BF%9D%E8%AD%B7%E5%BB%B6%E6%9C%9F-%E7%B3%BB%E6%BA%96%E6%8B%A0-%E3%81%AE%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB-%E5%86%8D%E6%A7%8B%E6%88%90.md) — Kombinat遠距離物流の保護延期、AE2系準拠、αのローカルNetwork再構成を確定した決定履歴。
+- [確定#392：Kombinatを生産・消費・流通へ集約した汎用工業とする](/decisions/decision-0392-%E7%A2%BA%E5%AE%9A-%E3%82%92%E7%94%9F%E7%94%A3-%E6%B6%88%E8%B2%BB-%E6%B5%81%E9%80%9A%E3%81%B8%E9%9B%86%E7%B4%84%E3%81%97%E3%81%9F%E6%B1%8E%E7%94%A8%E5%B7%A5%E6%A5%AD%E3%81%A8%E3%81%99%E3%82%8B.md) — Kombinatを生産・消費・流通へ集約した汎用工業とするを確定した決定履歴。
+- [確定#393：β版Pawn Foundry、補充可能個体、登録再実体化、Clone Colony](/decisions/decision-0393-%E7%A2%BA%E5%AE%9A-%E7%89%88-%E8%A3%9C%E5%85%85%E5%8F%AF%E8%83%BD%E5%80%8B%E4%BD%93-%E7%99%BB%E9%8C%B2%E5%86%8D%E5%AE%9F%E4%BD%93%E5%8C%96.md) — β版Pawn Foundry、補充可能個体、登録再実体化、Clone Colonyを確定した決定履歴。
+- [確定#394：Kombinat完成図の仮想シミュレーション、未知MOD互換契約、復旧不能・無限容量の封鎖](/decisions/decision-0394-%E7%A2%BA%E5%AE%9A-%E5%AE%8C%E6%88%90%E5%9B%B3%E3%81%AE%E4%BB%AE%E6%83%B3%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-%E6%9C%AA%E7%9F%A5-%E4%BA%92%E6%8F%9B%E5%A5%91%E7%B4%84-%E5%BE%A9%E6%97%A7%E4%B8%8D%E8%83%BD-%E7%84%A1.md) — Kombinat完成図の仮想シミュレーション、未知MOD互換契約、復旧不能・無限容量の封鎖を確定した決定履歴。
+- [確定#395：Matter NetworkをKombinat倉庫基盤として採用し、物理資源を実Thingへ統一](/decisions/decision-0395-%E7%A2%BA%E5%AE%9A-%E3%82%92-%E5%80%89%E5%BA%AB%E5%9F%BA%E7%9B%A4%E3%81%A8%E3%81%97%E3%81%A6%E6%8E%A1%E7%94%A8%E3%81%97-%E7%89%A9%E7%90%86%E8%B3%87%E6%BA%90%E3%82%92%E5%AE%9F-%E3%81%B8%E7%B5%B1%E4%B8%80.md) — Matter NetworkをKombinat倉庫基盤として採用し、物理資源を実Thingへ統一を確定した決定履歴。
+- [確定#396：装備の抽象指定を装備ファミリー＋非物理ポイントへ簡略化](/decisions/decision-0396-%E7%A2%BA%E5%AE%9A-%E8%A3%85%E5%82%99%E3%81%AE%E6%8A%BD%E8%B1%A1%E6%8C%87%E5%AE%9A%E3%82%92%E8%A3%85%E5%82%99%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC-%E9%9D%9E%E7%89%A9%E7%90%86%E3%83%9D%E3%82%A4%E3%83%B3%E3%83%88%E3%81%B8%E7%B0%A1%E7%95%A5%E5%8C%96.md) — 装備の抽象指定を装備ファミリー＋非物理ポイントへ簡略化を確定した決定履歴。
+- [確定#397：Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外](/decisions/decision-0397-%E7%A2%BA%E5%AE%9A-%E3%82%92%E7%84%A1%E6%94%B9%E9%80%A0%E3%81%AE%E5%BF%85%E9%A0%88%E4%BE%9D%E5%AD%98%E3%81%B8%E5%9B%BA%E5%AE%9A%E3%81%97-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E3%81%A8-%E3%82%92-%E7%9B%A3%E6%9F%BB%E3%81%8B%E3%82%89%E9%99%A4%E5%A4%96.md) — Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外を確定した決定履歴。
+- [確定#398：α版からCore独自保管・接続基盤を採用する](/decisions/decision-0398-%E7%A2%BA%E5%AE%9A-%E7%89%88%E3%81%8B%E3%82%89-%E7%8B%AC%E8%87%AA%E4%BF%9D%E7%AE%A1-%E6%8E%A5%E7%B6%9A%E5%9F%BA%E7%9B%A4%E3%82%92%E6%8E%A1%E7%94%A8%E3%81%99%E3%82%8B.md) — Matter Network必須依存を撤回し、α版から通常Map空間を経由しない独自保管・接続基盤と任意排出を採用した決定履歴。
 - [7. 製品ファミリーの新しい境界](/design/07-%E8%A3%BD%E5%93%81%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E5%A2%83%E7%95%8C.md) — CoreはDLC非依存製品として設計しない、また開発・配布・標準試験は、RimWorld 1.6にRoyalty、Ideology、Biotech、Anomaly、Odysseyを全て有効化した環境を前提とする。
 - [8. Baseモジュール](/design/08-Base%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB.md) — Core設定は複数の開始立場を許容するが、最初に遊べるα版は数人規模の独立開拓団へ固定する。
 - [10. The Hive内部モジュール（後期実装予約）](/design/10-The-Hive%E5%86%85%E9%83%A8%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E5%BE%8C%E6%9C%9F%E5%AE%9F%E8%A3%85%E4%BA%88%E7%B4%84.md) — The Hiveは設計・正史を保護するが、現行の実装対象から外す。
@@ -69,8 +69,8 @@
 - [52. バニラ優先Shion種族実装境界](/design/52-%E3%83%90%E3%83%8B%E3%83%A9%E5%84%AA%E5%85%88Shion%E7%A8%AE%E6%97%8F%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — Shion種族はHuman継承を維持し、Core所有の物理身体と公式DLCの公開機構で実装する。
 - [53. RimWorldログ・性能診断契約](/design/53-RimWorld%E3%83%AD%E3%82%B0%E3%83%BB%E6%80%A7%E8%83%BD%E8%A8%BA%E6%96%AD%E5%A5%91%E7%B4%84.md) — RimWorld 1.6の不具合ログ、クラッシュログ、Performance Analyzer測定を再現可能な証拠として取得し、Shion由来の負荷と既存エラーを分離する。
 - [56. Shion標準遠征身体の実装仕様](/design/56-Shion%E6%A8%99%E6%BA%96%E9%81%A0%E5%BE%81%E8%BA%AB%E4%BD%93%E3%81%AE%E5%AE%9F%E8%A3%85%E4%BB%95%E6%A7%98.md) — Shion標準遠征身体の器官、能力値、欠損状態、休息、Anomaly拒絶、心情と将来拡張点を定める。
-- [知識所有者マップ](/governance/ownership-map.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
-- [7. Release Gate](/kombinat/audit/07-Release-Gate.md) — α blockerはKX-001〜008とS2-001〜018のKombinat追加層部分である。
+- [知識所有者マップ](/governance/ownership-map-%E7%9F%A5%E8%AD%98%E6%89%80%E6%9C%89%E8%80%85%E3%83%9E%E3%83%83%E3%83%97.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
+- [7. Release Gate](/kombinat/audit/07-Release-Gate-%E5%85%AC%E9%96%8B%E5%88%A4%E5%AE%9A.md) — α blockerはKX-001〜008とS2-001〜018のKombinat追加層部分である。
 - [0. 結論](/kombinat/core/00-%E7%B5%90%E8%AB%96.md) — Kombinatは発注、設備能力、生産進捗、消費表示、流通目標、同盟通貨を所有し、物理ThingをCore Storageへ一元化する。
 - [1. 製品境界](/kombinat/core/01-%E8%A3%BD%E5%93%81%E5%A2%83%E7%95%8C.md) — Kombinatはα版からCore独自保管・接続システムの公開入出庫境界へ接続し、保管内部を所有しない。
 - [2. 実装状態の参照](/kombinat/core/02-%E7%8A%B6%E6%85%8B%E5%88%86%E9%A1%9E.md) — Kombinatの実装状態はリリース計画の現在地が所有し、本節は中核仕様からその正本を参照する。
@@ -78,9 +78,9 @@
 - [4. Kombinat追加層の中核型](/kombinat/core/04-Kombinat%E8%BF%BD%E5%8A%A0%E5%B1%A4%E3%81%AE%E4%B8%AD%E6%A0%B8%E5%9E%8B.md) — KombinatはCore独自保管・接続システムに属する保管基盤型を再実装しない。
 - [5. 発注と多段生産](/kombinat/core/05-%E7%99%BA%E6%B3%A8%E3%81%A8%E5%A4%9A%E6%AE%B5%E7%94%9F%E7%94%A3.md) — αの発注は具体的なThingDef、Recipe、数量または目標在庫を基本とする。
 - [6. 無人生産](/kombinat/core/06-%E7%84%A1%E4%BA%BA%E7%94%9F%E7%94%A3.md) — Kombinat専用FactoryとKombinat専用Patternは、Pawnがいなくても電力、材料、設備状態を満たせば稼働できる。
-- [7. 保管中の時間進行](/kombinat/core/07-Stasis.md) — 保管中の時間進行方針はCore独自Storageが対象別に所有し、Kombinatはその判定を維持する。
+- [7. 保管中の時間進行](/kombinat/core/07-Stasis-%E4%BF%9D%E7%AE%A1%E4%B8%AD%E3%81%AE%E6%99%82%E9%96%93%E9%80%B2%E8%A1%8C.md) — 保管中の時間進行方針はCore独自Storageが対象別に所有し、Kombinatはその判定を維持する。
 - [8. 消費と流通](/kombinat/core/08-%E6%B6%88%E8%B2%BB%E3%81%A8%E6%B5%81%E9%80%9A.md) — Kombinatは接続先保管基盤の内部消費を無断で監視せず、公開された観測境界だけを使う。
-- [9. UI](/kombinat/core/09-UI.md) — Field Ledger Terminalを選択して全機能へ入る暗色のRimWorld管理Windowを基準とし、通常表示と最大化表示を同じDef駆動Page railで提供する。
+- [9. UI](/kombinat/core/09-UI-%E6%93%8D%E4%BD%9C%E7%94%BB%E9%9D%A2.md) — Field Ledger Terminalを選択して全機能へ入る暗色のRimWorld管理Windowを基準とし、通常表示と最大化表示を同じDef駆動Page railで提供する。
 - [10. 保存と原子性](/kombinat/core/10-%E4%BF%9D%E5%AD%98%E3%81%A8%E5%8E%9F%E5%AD%90%E6%80%A7.md) — Kombinatは次だけを保存するという方針の適用範囲と条件を定める。
 - [11. 欠陥の所有と切り分け](/kombinat/core/11-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E3%81%AE%E6%89%B1%E3%81%84.md) — Core StorageとKombinatの欠陥は再現条件と取引所有者から切り分け、各所有者のRelease Gateへ登録する。
 - [12. α完成条件](/kombinat/core/12-%CE%B1%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Kombinat αはShion種族実装に先行し、バニラHumanのfixtureでThingOwner間の直接転送、三段生産、任意排出を成立させる。

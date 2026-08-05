@@ -4,27 +4,27 @@
 
 ## 項目
 
-- [確定#265：参考記録・競合RaceMOD比較で得られた設計上の示唆](/decisions/decision-0265.md) — 参考記録・競合RaceMOD比較で得られた設計上の示唆を確定した決定履歴。
-- [確定#266：CoreMOD資料v1§7.3・コロニードクトリンをCoreMODスコープから除外し、拡張MOD「エンダーのゲーム」へ移管](/decisions/decision-0266.md) — CoreMOD資料v1§7.3・コロニードクトリンをCoreMODスコープから除外し、拡張MOD「エンダーのゲーム」へ移管を確定した決定履歴。
-- [確定#267：CoreMOD資料v1§13新設・ステルス性メカニクス（距離依存の被発見システム）](/decisions/decision-0267.md) — CoreMOD資料v1§13新設・ステルス性メカニクス（距離依存の被発見システム）を確定した決定履歴。
-- [確定#269：液化メカナイトも濃縮真空エネルギーと同じパイプライン関連設備を共用すると確定](/decisions/decision-0269.md) — 液化メカナイトも濃縮真空エネルギーと同じパイプライン関連設備を共用するを確定した決定履歴。
-- [確定#270：3Dプリンターの無人稼働仕様を確定、新設・液体装薬注入機を追加](/decisions/decision-0270.md) — Dプリンターの無人稼働仕様を確定、新設・液体装薬注入機を追加を確定した決定履歴。
-- [確定#271：3Dプリンター・液体装薬注入機は有人稼働／無人稼働の二種類を持つと確定](/decisions/decision-0271.md) — Dプリンター・液体装薬注入機は有人稼働／無人稼働の二種類を持つを確定した決定履歴。
-- [確定#274：TZOFEH/KESHERによる観測行為はステルス性の露見条件から除外すると確定](/decisions/decision-0274.md) — TZOFEH/KESHERによる観測行為はステルス性の露見条件から除外するを確定した決定履歴。
-- [確定#299：用語定義「同盟人」＝政治的に興味のない普通のシオン/Shion——人間とシオン/Shionの隔たりは人間とアリ程度（基本的な生物ロジックに縛られる点で本質は大差ない）](/decisions/decision-0299.md) — 用語定義「同盟人」＝政治的に興味のない普通のシオン/Shion——人間とシオン/Shionの隔たりは人間とアリ程度（基本的な生物ロジックに縛られる点で本質は大差ない）を確定した決定履歴。
-- [確定#300：新規拡張MOD「叛逆航路」（原題：Ancillary Justice・旧称/開発コード：Shion Nexus）を登録——単一Nexus Core運営という例外的ゲームプレイ、既存loreとの4件の競合を解決](/decisions/decision-0300.md) — 新規拡張MOD「叛逆航路」（原題：Ancillary Justice・旧称/開発コード：Shion Nexus）を登録——単一Nexus Core運営という例外的ゲームプレイ、既存loreとの4件の競合を解決を確定した決定履歴。
-- [確定#301：MOD名称を「分身」へ改名／Nexus Core（ハイブ）の正体＝自己複製した模範的な普通のシオン/Shion、法遵守ゆえに本国が扱いかねる存在、RimWorldでの同盟的行為が名声を通じ本国支援を事実上強制する構図（確定#300を改訂）](/decisions/decision-0301.md) — MOD名称を「分身」へ改名／Nexus Core（ハイブ）の正体＝自己複製した模範的な普通のシオン/Shion、法遵守ゆえに本国が扱いかねる存在、RimWorldでの同盟的行為が名声を通じ本国支援を事実上強制する構図（確定番号300を改訂）を確定した決定履歴。
-- [確定#310：Tower Ledger統合工業システムの基礎資源をCVE・デジタル資材・労務資本・Cellの4種へ絞り込み（ステラリスの資源体系を参考）——戦略資源・特殊素材は後回し](/decisions/decision-0310.md) — Tower Ledger統合工業システムの基礎資源をCVE・デジタル資材・労務資本・Cellの4種へ絞り込み（ステラリスの資源体系を参考）——戦略資源・特殊素材は後回しを確定した決定履歴。
-- [確定#315：「労務資本」を「人口」と「労働者」の2資源へ分割——基礎資源は7種へ](/decisions/decision-0315.md) — 「労務資本」を「人口」と「労働者」の2資源へ分割——基礎資源は7種へを確定した決定履歴。
-- [確定#327：地域開発度（Regional Development）メトリクスを追加。ワールドマップ大規模遺構コンプレックスの代替発生経路「変わり者の工場長」イベントを追加](/decisions/decision-0327.md) — 地域開発度（Regional Development）メトリクスを追加。
-- [確定#341：同盟のサイキック技術＝帝国の廉価版（属人性→機械化）、秘文字の帝国由来の起源と精神感応性不要化](/decisions/decision-0341.md) — 同盟のサイキック技術＝帝国の廉価版（属人性→機械化）、秘文字の帝国由来の起源と精神感応性不要化を確定した決定履歴。
-- [確定#350：帝国人、シオンの廉価複製起源、内戦と蜂起、ソフェル参加、規格互換性](/decisions/decision-0350.md) — 帝国人、シオンの廉価複製起源、内戦と蜂起、ソフェル参加、規格互換性を確定した決定履歴。
-- [確定#356：人口の99%以上を占めるシオン/Shionと、ほぼ不在の構成諸民族](/decisions/decision-0356.md) — 人口の99%以上を占めるシオン/Shionと、ほぼ不在の構成諸民族を確定した決定履歴。
-- [確定#361：内戦起源・自治構造・辺境警告譚の正史台帳反映](/decisions/decision-0361.md) — 内戦起源・自治構造・辺境警告譚の正史台帳反映を確定した決定履歴。
-- [確定#364：捕虜・占領地住民の素早い現場同化](/decisions/decision-0364.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#393：β版Pawn Foundry、補充可能個体、登録再実体化、Clone Colony](/decisions/decision-0393.md) — β版Pawn Foundry、補充可能個体、登録再実体化、Clone Colonyを確定した決定履歴。
-- [確定#394：Kombinat完成図の仮想シミュレーション、未知MOD互換契約、復旧不能・無限容量の封鎖](/decisions/decision-0394.md) — Kombinat完成図の仮想シミュレーション、未知MOD互換契約、復旧不能・無限容量の封鎖を確定した決定履歴。
-- [確定#397：Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外](/decisions/decision-0397.md) — Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外を確定した決定履歴。
+- [確定#265：参考記録・競合RaceMOD比較で得られた設計上の示唆](/decisions/decision-0265-%E7%A2%BA%E5%AE%9A-%E5%8F%82%E8%80%83%E8%A8%98%E9%8C%B2-%E7%AB%B6%E5%90%88-%E6%AF%94%E8%BC%83%E3%81%A7%E5%BE%97%E3%82%89%E3%82%8C%E3%81%9F%E8%A8%AD%E8%A8%88%E4%B8%8A%E3%81%AE%E7%A4%BA%E5%94%86.md) — 参考記録・競合RaceMOD比較で得られた設計上の示唆を確定した決定履歴。
+- [確定#266：CoreMOD資料v1§7.3・コロニードクトリンをCoreMODスコープから除外し、拡張MOD「エンダーのゲーム」へ移管](/decisions/decision-0266-%E7%A2%BA%E5%AE%9A-%E8%B3%87%E6%96%99-%E3%82%B3%E3%83%AD%E3%83%8B%E3%83%BC%E3%83%89%E3%82%AF%E3%83%88%E3%83%AA%E3%83%B3%E3%82%92-%E3%82%B9%E3%82%B3%E3%83%BC%E3%83%97%E3%81%8B%E3%82%89%E9%99%A4%E5%A4%96%E3%81%97-%E6%8B%A1%E5%BC%B5-%E3%82%A8%E3%83%B3.md) — CoreMOD資料v1§7.3・コロニードクトリンをCoreMODスコープから除外し、拡張MOD「エンダーのゲーム」へ移管を確定した決定履歴。
+- [確定#267：CoreMOD資料v1§13新設・ステルス性メカニクス（距離依存の被発見システム）](/decisions/decision-0267-%E7%A2%BA%E5%AE%9A-%E8%B3%87%E6%96%99-%E6%96%B0%E8%A8%AD-%E3%82%B9%E3%83%86%E3%83%AB%E3%82%B9%E6%80%A7%E3%83%A1%E3%82%AB%E3%83%8B%E3%82%AF%E3%82%B9-%E8%B7%9D%E9%9B%A2%E4%BE%9D%E5%AD%98%E3%81%AE%E8%A2%AB%E7%99%BA%E8%A6%8B%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0.md) — CoreMOD資料v1§13新設・ステルス性メカニクス（距離依存の被発見システム）を確定した決定履歴。
+- [確定#269：液化メカナイトも濃縮真空エネルギーと同じパイプライン関連設備を共用すると確定](/decisions/decision-0269-%E7%A2%BA%E5%AE%9A-%E6%B6%B2%E5%8C%96%E3%83%A1%E3%82%AB%E3%83%8A%E3%82%A4%E3%83%88%E3%82%82%E6%BF%83%E7%B8%AE%E7%9C%9F%E7%A9%BA%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC%E3%81%A8%E5%90%8C%E3%81%98%E3%83%91%E3%82%A4%E3%83%97%E3%83%A9%E3%82%A4%E3%83%B3%E9%96%A2%E9%80%A3%E8%A8%AD.md) — 液化メカナイトも濃縮真空エネルギーと同じパイプライン関連設備を共用するを確定した決定履歴。
+- [確定#270：3Dプリンターの無人稼働仕様を確定、新設・液体装薬注入機を追加](/decisions/decision-0270-%E7%A2%BA%E5%AE%9A-%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF%E3%83%BC%E3%81%AE%E7%84%A1%E4%BA%BA%E7%A8%BC%E5%83%8D%E4%BB%95%E6%A7%98%E3%82%92%E7%A2%BA%E5%AE%9A-%E6%96%B0%E8%A8%AD-%E6%B6%B2%E4%BD%93%E8%A3%85%E8%96%AC%E6%B3%A8%E5%85%A5%E6%A9%9F%E3%82%92%E8%BF%BD%E5%8A%A0.md) — Dプリンターの無人稼働仕様を確定、新設・液体装薬注入機を追加を確定した決定履歴。
+- [確定#271：3Dプリンター・液体装薬注入機は有人稼働／無人稼働の二種類を持つと確定](/decisions/decision-0271-%E7%A2%BA%E5%AE%9A-%E3%83%97%E3%83%AA%E3%83%B3%E3%82%BF%E3%83%BC-%E6%B6%B2%E4%BD%93%E8%A3%85%E8%96%AC%E6%B3%A8%E5%85%A5%E6%A9%9F%E3%81%AF%E6%9C%89%E4%BA%BA%E7%A8%BC%E5%83%8D-%E7%84%A1%E4%BA%BA%E7%A8%BC%E5%83%8D%E3%81%AE%E4%BA%8C%E7%A8%AE%E9%A1%9E%E3%82%92%E6%8C%81.md) — Dプリンター・液体装薬注入機は有人稼働／無人稼働の二種類を持つを確定した決定履歴。
+- [確定#274：TZOFEH/KESHERによる観測行為はステルス性の露見条件から除外すると確定](/decisions/decision-0274-%E7%A2%BA%E5%AE%9A-%E3%81%AB%E3%82%88%E3%82%8B%E8%A6%B3%E6%B8%AC%E8%A1%8C%E7%82%BA%E3%81%AF%E3%82%B9%E3%83%86%E3%83%AB%E3%82%B9%E6%80%A7%E3%81%AE%E9%9C%B2%E8%A6%8B%E6%9D%A1%E4%BB%B6%E3%81%8B%E3%82%89%E9%99%A4%E5%A4%96%E3%81%99%E3%82%8B%E3%81%A8%E7%A2%BA%E5%AE%9A.md) — TZOFEH/KESHERによる観測行為はステルス性の露見条件から除外するを確定した決定履歴。
+- [確定#299：用語定義「同盟人」＝政治的に興味のない普通のシオン/Shion——人間とシオン/Shionの隔たりは人間とアリ程度（基本的な生物ロジックに縛られる点で本質は大差ない）](/decisions/decision-0299-%E7%A2%BA%E5%AE%9A-%E7%94%A8%E8%AA%9E%E5%AE%9A%E7%BE%A9-%E5%90%8C%E7%9B%9F%E4%BA%BA-%E6%94%BF%E6%B2%BB%E7%9A%84%E3%81%AB%E8%88%88%E5%91%B3%E3%81%AE%E3%81%AA%E3%81%84%E6%99%AE%E9%80%9A%E3%81%AE%E3%82%B7%E3%82%AA%E3%83%B3-%E4%BA%BA%E9%96%93%E3%81%A8%E3%82%B7.md) — 用語定義「同盟人」＝政治的に興味のない普通のシオン/Shion——人間とシオン/Shionの隔たりは人間とアリ程度（基本的な生物ロジックに縛られる点で本質は大差ない）を確定した決定履歴。
+- [確定#300：新規拡張MOD「叛逆航路」（原題：Ancillary Justice・旧称/開発コード：Shion Nexus）を登録——単一Nexus Core運営という例外的ゲームプレイ、既存loreとの4件の競合を解決](/decisions/decision-0300-%E7%A2%BA%E5%AE%9A-%E6%96%B0%E8%A6%8F%E6%8B%A1%E5%BC%B5-%E5%8F%9B%E9%80%86%E8%88%AA%E8%B7%AF-%E5%8E%9F%E9%A1%8C-%E6%97%A7%E7%A7%B0-%E9%96%8B%E7%99%BA%E3%82%B3%E3%83%BC%E3%83%89-%E3%82%92%E7%99%BB%E9%8C%B2-%E5%8D%98%E4%B8%80.md) — 新規拡張MOD「叛逆航路」（原題：Ancillary Justice・旧称/開発コード：Shion Nexus）を登録——単一Nexus Core運営という例外的ゲームプレイ、既存loreとの4件の競合を解決を確定した決定履歴。
+- [確定#301：MOD名称を「分身」へ改名／Nexus Core（ハイブ）の正体＝自己複製した模範的な普通のシオン/Shion、法遵守ゆえに本国が扱いかねる存在、RimWorldでの同盟的行為が名声を通じ本国支援を事実上強制する構図（確定#300を改訂）](/decisions/decision-0301-%E7%A2%BA%E5%AE%9A-%E5%90%8D%E7%A7%B0%E3%82%92-%E5%88%86%E8%BA%AB-%E3%81%B8%E6%94%B9%E5%90%8D-%E3%83%8F%E3%82%A4%E3%83%96-%E3%81%AE%E6%AD%A3%E4%BD%93-%E8%87%AA%E5%B7%B1%E8%A4%87%E8%A3%BD%E3%81%97%E3%81%9F%E6%A8%A1%E7%AF%84%E7%9A%84%E3%81%AA.md) — MOD名称を「分身」へ改名／Nexus Core（ハイブ）の正体＝自己複製した模範的な普通のシオン/Shion、法遵守ゆえに本国が扱いかねる存在、RimWorldでの同盟的行為が名声を通じ本国支援を事実上強制する構図（確定番号300を改訂）を確定した決定履歴。
+- [確定#310：Tower Ledger統合工業システムの基礎資源をCVE・デジタル資材・労務資本・Cellの4種へ絞り込み（ステラリスの資源体系を参考）——戦略資源・特殊素材は後回し](/decisions/decision-0310-%E7%A2%BA%E5%AE%9A-%E7%B5%B1%E5%90%88%E5%B7%A5%E6%A5%AD%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E5%9F%BA%E7%A4%8E%E8%B3%87%E6%BA%90%E3%82%92-%E3%83%87%E3%82%B8%E3%82%BF%E3%83%AB%E8%B3%87%E6%9D%90-%E5%8A%B4%E5%8B%99%E8%B3%87%E6%9C%AC-%E3%81%AE.md) — Tower Ledger統合工業システムの基礎資源をCVE・デジタル資材・労務資本・Cellの4種へ絞り込み（ステラリスの資源体系を参考）——戦略資源・特殊素材は後回しを確定した決定履歴。
+- [確定#315：「労務資本」を「人口」と「労働者」の2資源へ分割——基礎資源は7種へ](/decisions/decision-0315-%E7%A2%BA%E5%AE%9A-%E5%8A%B4%E5%8B%99%E8%B3%87%E6%9C%AC-%E3%82%92-%E4%BA%BA%E5%8F%A3-%E3%81%A8-%E5%8A%B4%E5%83%8D%E8%80%85-%E3%81%AE-%E8%B3%87%E6%BA%90%E3%81%B8%E5%88%86%E5%89%B2-%E5%9F%BA%E7%A4%8E%E8%B3%87%E6%BA%90%E3%81%AF.md) — 「労務資本」を「人口」と「労働者」の2資源へ分割——基礎資源は7種へを確定した決定履歴。
+- [確定#327：地域開発度（Regional Development）メトリクスを追加。ワールドマップ大規模遺構コンプレックスの代替発生経路「変わり者の工場長」イベントを追加](/decisions/decision-0327-%E7%A2%BA%E5%AE%9A-%E5%9C%B0%E5%9F%9F%E9%96%8B%E7%99%BA%E5%BA%A6-%E3%83%A1%E3%83%88%E3%83%AA%E3%82%AF%E3%82%B9%E3%82%92%E8%BF%BD%E5%8A%A0-%E3%83%AF%E3%83%BC%E3%83%AB%E3%83%89%E3%83%9E%E3%83%83%E3%83%97%E5%A4%A7%E8%A6%8F%E6%A8%A1%E9%81%BA%E6%A7%8B%E3%82%B3%E3%83%B3.md) — 地域開発度（Regional Development）メトリクスを追加。
+- [確定#341：同盟のサイキック技術＝帝国の廉価版（属人性→機械化）、秘文字の帝国由来の起源と精神感応性不要化](/decisions/decision-0341-%E7%A2%BA%E5%AE%9A-%E5%90%8C%E7%9B%9F%E3%81%AE%E3%82%B5%E3%82%A4%E3%82%AD%E3%83%83%E3%82%AF%E6%8A%80%E8%A1%93-%E5%B8%9D%E5%9B%BD%E3%81%AE%E5%BB%89%E4%BE%A1%E7%89%88-%E5%B1%9E%E4%BA%BA%E6%80%A7-%E6%A9%9F%E6%A2%B0%E5%8C%96-%E7%A7%98%E6%96%87%E5%AD%97.md) — 同盟のサイキック技術＝帝国の廉価版（属人性→機械化）、秘文字の帝国由来の起源と精神感応性不要化を確定した決定履歴。
+- [確定#350：帝国人、シオンの廉価複製起源、内戦と蜂起、ソフェル参加、規格互換性](/decisions/decision-0350-%E7%A2%BA%E5%AE%9A-%E5%B8%9D%E5%9B%BD%E4%BA%BA-%E3%82%B7%E3%82%AA%E3%83%B3%E3%81%AE%E5%BB%89%E4%BE%A1%E8%A4%87%E8%A3%BD%E8%B5%B7%E6%BA%90-%E5%86%85%E6%88%A6%E3%81%A8%E8%9C%82%E8%B5%B7-%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E5%8F%82%E5%8A%A0-%E8%A6%8F.md) — 帝国人、シオンの廉価複製起源、内戦と蜂起、ソフェル参加、規格互換性を確定した決定履歴。
+- [確定#356：人口の99%以上を占めるシオン/Shionと、ほぼ不在の構成諸民族](/decisions/decision-0356-%E7%A2%BA%E5%AE%9A-%E4%BA%BA%E5%8F%A3%E3%81%AE-%E4%BB%A5%E4%B8%8A%E3%82%92%E5%8D%A0%E3%82%81%E3%82%8B%E3%82%B7%E3%82%AA%E3%83%B3-%E3%81%A8-%E3%81%BB%E3%81%BC%E4%B8%8D%E5%9C%A8%E3%81%AE%E6%A7%8B%E6%88%90%E8%AB%B8%E6%B0%91%E6%97%8F.md) — 人口の99%以上を占めるシオン/Shionと、ほぼ不在の構成諸民族を確定した決定履歴。
+- [確定#361：内戦起源・自治構造・辺境警告譚の正史台帳反映](/decisions/decision-0361-%E7%A2%BA%E5%AE%9A-%E5%86%85%E6%88%A6%E8%B5%B7%E6%BA%90-%E8%87%AA%E6%B2%BB%E6%A7%8B%E9%80%A0-%E8%BE%BA%E5%A2%83%E8%AD%A6%E5%91%8A%E8%AD%9A%E3%81%AE%E6%AD%A3%E5%8F%B2%E5%8F%B0%E5%B8%B3%E5%8F%8D%E6%98%A0.md) — 内戦起源・自治構造・辺境警告譚の正史台帳反映を確定した決定履歴。
+- [確定#364：捕虜・占領地住民の素早い現場同化](/decisions/decision-0364-%E7%A2%BA%E5%AE%9A-%E6%8D%95%E8%99%9C-%E5%8D%A0%E9%A0%98%E5%9C%B0%E4%BD%8F%E6%B0%91%E3%81%AE%E7%B4%A0%E6%97%A9%E3%81%84%E7%8F%BE%E5%A0%B4%E5%90%8C%E5%8C%96.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
+- [確定#393：β版Pawn Foundry、補充可能個体、登録再実体化、Clone Colony](/decisions/decision-0393-%E7%A2%BA%E5%AE%9A-%E7%89%88-%E8%A3%9C%E5%85%85%E5%8F%AF%E8%83%BD%E5%80%8B%E4%BD%93-%E7%99%BB%E9%8C%B2%E5%86%8D%E5%AE%9F%E4%BD%93%E5%8C%96.md) — β版Pawn Foundry、補充可能個体、登録再実体化、Clone Colonyを確定した決定履歴。
+- [確定#394：Kombinat完成図の仮想シミュレーション、未知MOD互換契約、復旧不能・無限容量の封鎖](/decisions/decision-0394-%E7%A2%BA%E5%AE%9A-%E5%AE%8C%E6%88%90%E5%9B%B3%E3%81%AE%E4%BB%AE%E6%83%B3%E3%82%B7%E3%83%9F%E3%83%A5%E3%83%AC%E3%83%BC%E3%82%B7%E3%83%A7%E3%83%B3-%E6%9C%AA%E7%9F%A5-%E4%BA%92%E6%8F%9B%E5%A5%91%E7%B4%84-%E5%BE%A9%E6%97%A7%E4%B8%8D%E8%83%BD-%E7%84%A1.md) — Kombinat完成図の仮想シミュレーション、未知MOD互換契約、復旧不能・無限容量の封鎖を確定した決定履歴。
+- [確定#397：Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外](/decisions/decision-0397-%E7%A2%BA%E5%AE%9A-%E3%82%92%E7%84%A1%E6%94%B9%E9%80%A0%E3%81%AE%E5%BF%85%E9%A0%88%E4%BE%9D%E5%AD%98%E3%81%B8%E5%9B%BA%E5%AE%9A%E3%81%97-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E3%81%A8-%E3%82%92-%E7%9B%A3%E6%9F%BB%E3%81%8B%E3%82%89%E9%99%A4%E5%A4%96.md) — Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外を確定した決定履歴。
 - [3. シオンの人格と身体](/design/03-%E3%82%B7%E3%82%AA%E3%83%B3%E3%81%AE%E4%BA%BA%E6%A0%BC%E3%81%A8%E8%BA%AB%E4%BD%93.md) — 3. シオンの人格と身体の重複本文を除き、唯一の知識所有者へ案内する項目。
 - [7. 製品ファミリーの新しい境界](/design/07-%E8%A3%BD%E5%93%81%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E5%A2%83%E7%95%8C.md) — CoreはDLC非依存製品として設計しない、また開発・配布・標準試験は、RimWorld 1.6にRoyalty、Ideology、Biotech、Anomaly、Odysseyを全て有効化した環境を前提とする。
 - [8. Baseモジュール](/design/08-Base%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB.md) — Core設定は複数の開始立場を許容するが、最初に遊べるα版は数人規模の独立開拓団へ固定する。
@@ -38,7 +38,7 @@
 - [50. 装備庫接続と武器転送の実装境界](/design/50-%E8%A3%85%E5%82%99%E5%BA%AB%E6%8E%A5%E7%B6%9A%E3%81%A8%E6%AD%A6%E5%99%A8%E8%BB%A2%E9%80%81%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 接続装備庫が所有する実物武器を、複製せず状態を保ったまま活動中Pawnへほぼ即時に交換するCore側の取引として実装する。
 - [52. バニラ優先Shion種族実装境界](/design/52-%E3%83%90%E3%83%8B%E3%83%A9%E5%84%AA%E5%85%88Shion%E7%A8%AE%E6%97%8F%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — Shion種族はHuman継承を維持し、Core所有の物理身体と公式DLCの公開機構で実装する。
 - [56. Shion標準遠征身体の実装仕様](/design/56-Shion%E6%A8%99%E6%BA%96%E9%81%A0%E5%BE%81%E8%BA%AB%E4%BD%93%E3%81%AE%E5%AE%9F%E8%A3%85%E4%BB%95%E6%A7%98.md) — Shion標準遠征身体の器官、能力値、欠損状態、休息、Anomaly拒絶、心情と将来拡張点を定める。
-- [知識所有者マップ](/governance/ownership-map.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
+- [知識所有者マップ](/governance/ownership-map-%E7%9F%A5%E8%AD%98%E6%89%80%E6%9C%89%E8%80%85%E3%83%9E%E3%83%83%E3%83%97.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
 - [4. シナリオ](/kombinat/audit/04-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — S2シナリオは三段生産、保存、取消、容量、停電、破壊、通貨、長期運用をCore Storageとの公開契約で検証する。
 - [5. 未知MOD](/kombinat/audit/05-%E6%9C%AA%E7%9F%A5MOD.md) — 未知MODのThingとRecipeはCore Storageの互換判定とKombinatのRecipe分類を通し、安全な公開契約だけへ接続する。
 - [0. 結論](/kombinat/core/00-%E7%B5%90%E8%AB%96.md) — Kombinatは発注、設備能力、生産進捗、消費表示、流通目標、同盟通貨を所有し、物理ThingをCore Storageへ一元化する。
@@ -47,7 +47,7 @@
 - [6. 無人生産](/kombinat/core/06-%E7%84%A1%E4%BA%BA%E7%94%9F%E7%94%A3.md) — Kombinat専用FactoryとKombinat専用Patternは、Pawnがいなくても電力、材料、設備状態を満たせば稼働できる。
 - [8. 消費と流通](/kombinat/core/08-%E6%B6%88%E8%B2%BB%E3%81%A8%E6%B5%81%E9%80%9A.md) — Kombinatは接続先保管基盤の内部消費を無断で監視せず、公開された観測境界だけを使う。
 - [10. 保存と原子性](/kombinat/core/10-%E4%BF%9D%E5%AD%98%E3%81%A8%E5%8E%9F%E5%AD%90%E6%80%A7.md) — Kombinatは次だけを保存するという方針の適用範囲と条件を定める。
-- [13. β](/kombinat/core/13-%CE%B2.md) — Equipment Familyは作者が明示登録した候補だけを使う。
+- [13. β](/kombinat/core/13-%CE%B2-%E7%8F%BE%E8%A1%8C%E4%BB%95%E6%A7%98.md) — Equipment Familyは作者が明示登録した候補だけを使う。
 - [13. β境界](/kombinat/requirements/13-%CE%B2%E5%A2%83%E7%95%8C.md) — β境界は、Pawn Foundry要求とEquipment Familyを扱う。
 - [0. 結論](/pawn/00-%E7%B5%90%E8%AB%96.md) — β版では、シオンPawnを必要に応じて設計、生産、配備、無料保管、修復、回収、再生産できなければならない。
 - [1. 権威と責務](/pawn/01-%E6%A8%A9%E5%A8%81%E3%81%A8%E8%B2%AC%E5%8B%99.md) — Pawnの生成、人格・身体構成、登録、保管、死亡後削除、再実体化、Cloneについて矛盾がある場合、次の順を用いる。
@@ -57,30 +57,30 @@
 - [B. 必要装備込みの配備](/pawn/069-B-%E5%BF%85%E8%A6%81%E8%A3%85%E5%82%99%E8%BE%BC%E3%81%BF%E3%81%AE%E9%85%8D%E5%82%99.md) — B. 必要装備込みの配備は、射手四体、互換する防具、遠距離武器、医療品を注文する。
 - [C. 一からの個体設計](/pawn/070-C-%E4%B8%80%E3%81%8B%E3%82%89%E3%81%AE%E5%80%8B%E4%BD%93%E8%A8%AD%E8%A8%88.md) — C. 一からの個体設計は、Body、Module、外装、技能、特性、能力、装備を選ぶ。
 - [D. 単一個体の登録と再実体化](/pawn/071-D-%E5%8D%98%E4%B8%80%E5%80%8B%E4%BD%93%E3%81%AE%E7%99%BB%E9%8C%B2%E3%81%A8%E5%86%8D%E5%AE%9F%E4%BD%93%E5%8C%96.md) — D. 単一個体の登録と再実体化は、活動中Pawnを登録する。
-- [E. Clone Colony](/pawn/072-E-Clone-Colony.md) — E. Clone Colonyは、一体のRegistered IndividualをClone Sourceにする。
+- [E. Clone Colony](/pawn/072-E-Clone-Colony-%E8%A4%87%E8%A3%BD%E5%80%8B%E4%BD%93%E3%82%B3%E3%83%AD%E3%83%8B%E3%83%BC.md) — E. Clone Colonyは、一体のRegistered IndividualをClone Sourceにする。
 - [F. 無料保管](/pawn/073-F-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — F. 無料保管は、生存Pawnへ装備とinventory内Thingを持たせてDormant化する。
 - [G. 負傷と遺体回収](/pawn/074-G-%E8%B2%A0%E5%82%B7%E3%81%A8%E9%81%BA%E4%BD%93%E5%9B%9E%E5%8F%8E.md) — G. 負傷と遺体回収は、重傷Pawnを低コスト修復する。
 - [H. Ephemeral完全削除](/pawn/075-H-Ephemeral%E5%AE%8C%E5%85%A8%E5%89%8A%E9%99%A4.md) — H. Ephemeral完全削除は、大量のEphemeral Pawnを死亡、回収、再資源化する。
 - [I. Cloneと固有物](/pawn/076-I-Clone%E3%81%A8%E5%9B%BA%E6%9C%89%E7%89%A9.md) — I. Cloneと固有物は、名前付き武器、Quest参照、称号を持つRegistered IndividualをCloneする。
 - [J. 途中保存と再送](/pawn/077-J-%E9%80%94%E4%B8%AD%E4%BF%9D%E5%AD%98%E3%81%A8%E5%86%8D%E9%80%81.md) — J. 途中保存と再送は、生産、Dormant化、回収、再資源化、再実体化、Cloneの各段階で保存する。
 - [13. 完成図Hardening要件](/pawn/13-%E5%AE%8C%E6%88%90%E5%9B%B3Hardening%E8%A6%81%E4%BB%B6.md) — 本節は旧完成図監査から回収したPawn Foundry固有のHardening要件を、本書自身の拘束要件として維持する。
-- [14. β Definition of Done](/pawn/14-%CE%B2-Definition-of-Done.md) — 次を全て満たした時だけ、β版のPawn生産系を完成とする。
+- [14. β Definition of Done](/pawn/14-%CE%B2-Definition-of-Done-%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — 次を全て満たした時だけ、β版のPawn生産系を完成とする。
 - [15. 未確定のバランス値](/pawn/15-%E6%9C%AA%E7%A2%BA%E5%AE%9A%E3%81%AE%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9%E5%80%A4.md) — Pawn生産・保管・再生の具体的なバランス値をβの実装fixtureで決めるための調整候補。
 - [2.1 補充可能性](/pawn/2-1-%E8%A3%9C%E5%85%85%E5%8F%AF%E8%83%BD%E6%80%A7.md) — 補充可能性は、通常シオンPawnに、世界で一度しか得られない必須材料や有限の生産回数を要求しない。
 - [2.2 人格とゲームユニット](/pawn/2-2-%E4%BA%BA%E6%A0%BC%E3%81%A8%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88.md) — 人格とゲームユニットは、ゲーム上のPawnは生産、保管、交換、補充できるコマである。
 - [2.3 無料保管](/pawn/2-3-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — 生存PawnはPawn Foundryまたは対応設備からDormant状態へ移し、必要になるまで保管できる。
-- [3.1 Ephemeral Pawn](/pawn/3-1-Ephemeral-Pawn.md) — 適合生成の既定出力であり、また役割上必要な情報だけを指定し、それ以外をランダム生成する。
-- [3.2 Registered Individual](/pawn/3-2-Registered-Individual.md) — 既存Pawnをプレイヤーが登録すると、個体を再構築するためのIndividual Archiveを作る。
-- [3.3 Saved Pawn Design](/pawn/3-3-Saved-Pawn-Design.md) — 特定の一人ではなく、繰り返し使える製造設計である。
-- [3.4 Clone](/pawn/3-4-Clone.md) — 登録個体または保存設計をClone Sourceにできる。
-- [4.1 ID](/pawn/4-1-ID.md) — 再実体化ではindividualIdを維持し、pawnInstanceIdを更新できる。
-- [ADV-001 緊急一体再配備](/pawn/adv-001.md) — MUST: 同一Mapで活動可能なプレイヤーPawnが0体になった場合、Dormant Recordから一体だけを、電力、Pawn作業、通常の配備Queueなしで安全地点へ復帰できるfail-safeを持つ。
-- [ADV-002 無人Foundry](/pawn/adv-002.md) — MUST: 電力、材料、健全な設備がある時、少なくとも一系統のPawn Foundry工程は生存Pawnの作業なしで一体を完成できる。
-- [ADV-003 物理費と人格復元費](/pawn/adv-003.md) — MUST: Archiveが低コストで復元するのは人格・構成情報であり、失われた身体、内蔵Module、着脱装備を無償複製しない。
-- [ADV-004 Pawn要素別安全性](/pawn/adv-004.md) — MUST: Gene、Hediff、Ability、Comp、Royalty、Ideology、Quest、外部MODデータをDormant Safe、Archive Safe、Clone Safeの要素別に判定する。
-- [ADV-005 Ephemeral参照解決](/pawn/adv-005.md) — MUST: Ephemeral Pawnの完全削除前に、Relation、Mood Memory、Tale、Quest、Lord、Faction、World Pawn、Bond、外部参照を解決、匿名化、終端記録へ変換する。
-- [ADV-006 Design version pin](/pawn/adv-006.md) — MUST: Generation Requestは開始時のPawn Design、Clone Source checkpoint、Loadout Profile、Gene／Ability候補、Adapter versionをpinする。
-- [ADV-007 Pawn依存Manifest](/pawn/adv-007.md) — MUST: Dormant Record、Individual Archive、Pawn Design、Clone Sourceが依存するpackageId、version、Def、class、Adapterを有限Manifestとして保存する。
-- [ADV-008 Dormant wealth](/pawn/adv-008.md) — MUST: Dormant中の身体と内蔵Moduleを、そのRecordが属するMapまたはWorldObjectのwealthへ一度だけ算入する。
-- [ADV-009 全状態の保存と冪等性](/pawn/adv-009.md) — MUST: 緊急再配備、着脱品返却、無人生産、参照解決、Manifest診断を途中保存できる。
-- [ADV-010 検証割当](/pawn/adv-010.md) — MUST: 監査S-047〜060、S-064〜066を自動fixture、統合試験、手動試験のいずれかへ割り当て、対象build、DLC、外部MOD、操作、期待結果、物理費、ID、保存往復を記録する。
+- [3.1 Ephemeral Pawn](/pawn/3-1-Ephemeral-Pawn-%E4%B8%80%E6%99%82%E5%80%8B%E4%BD%93.md) — 適合生成の既定出力であり、また役割上必要な情報だけを指定し、それ以外をランダム生成する。
+- [3.2 Registered Individual](/pawn/3-2-Registered-Individual-%E7%99%BB%E9%8C%B2%E5%80%8B%E4%BD%93.md) — 既存Pawnをプレイヤーが登録すると、個体を再構築するためのIndividual Archiveを作る。
+- [3.3 Saved Pawn Design](/pawn/3-3-Saved-Pawn-Design-%E4%BF%9D%E5%AD%98%E5%80%8B%E4%BD%93%E8%A8%AD%E8%A8%88.md) — 特定の一人ではなく、繰り返し使える製造設計である。
+- [3.4 Clone](/pawn/3-4-Clone-%E8%A4%87%E8%A3%BD%E5%80%8B%E4%BD%93.md) — 登録個体または保存設計をClone Sourceにできる。
+- [4.1 ID](/pawn/4-1-ID-%E8%AD%98%E5%88%A5%E5%AD%90.md) — 再実体化ではindividualIdを維持し、pawnInstanceIdを更新できる。
+- [ADV-001 緊急一体再配備](/pawn/adv-001-%E7%B7%8A%E6%80%A5%E4%B8%80%E4%BD%93%E5%86%8D%E9%85%8D%E5%82%99.md) — MUST: 同一Mapで活動可能なプレイヤーPawnが0体になった場合、Dormant Recordから一体だけを、電力、Pawn作業、通常の配備Queueなしで安全地点へ復帰できるfail-safeを持つ。
+- [ADV-002 無人Foundry](/pawn/adv-002-%E7%84%A1%E4%BA%BA.md) — MUST: 電力、材料、健全な設備がある時、少なくとも一系統のPawn Foundry工程は生存Pawnの作業なしで一体を完成できる。
+- [ADV-003 物理費と人格復元費](/pawn/adv-003-%E7%89%A9%E7%90%86%E8%B2%BB%E3%81%A8%E4%BA%BA%E6%A0%BC%E5%BE%A9%E5%85%83%E8%B2%BB.md) — MUST: Archiveが低コストで復元するのは人格・構成情報であり、失われた身体、内蔵Module、着脱装備を無償複製しない。
+- [ADV-004 Pawn要素別安全性](/pawn/adv-004-%E8%A6%81%E7%B4%A0%E5%88%A5%E5%AE%89%E5%85%A8%E6%80%A7.md) — MUST: Gene、Hediff、Ability、Comp、Royalty、Ideology、Quest、外部MODデータをDormant Safe、Archive Safe、Clone Safeの要素別に判定する。
+- [ADV-005 Ephemeral参照解決](/pawn/adv-005-%E5%8F%82%E7%85%A7%E8%A7%A3%E6%B1%BA.md) — MUST: Ephemeral Pawnの完全削除前に、Relation、Mood Memory、Tale、Quest、Lord、Faction、World Pawn、Bond、外部参照を解決、匿名化、終端記録へ変換する。
+- [ADV-006 Design version pin](/pawn/adv-006-%E8%A6%81%E4%BB%B6.md) — MUST: Generation Requestは開始時のPawn Design、Clone Source checkpoint、Loadout Profile、Gene／Ability候補、Adapter versionをpinする。
+- [ADV-007 Pawn依存Manifest](/pawn/adv-007-%E4%BE%9D%E5%AD%98.md) — MUST: Dormant Record、Individual Archive、Pawn Design、Clone Sourceが依存するpackageId、version、Def、class、Adapterを有限Manifestとして保存する。
+- [ADV-008 Dormant wealth](/pawn/adv-008-%E8%A6%81%E4%BB%B6.md) — MUST: Dormant中の身体と内蔵Moduleを、そのRecordが属するMapまたはWorldObjectのwealthへ一度だけ算入する。
+- [ADV-009 全状態の保存と冪等性](/pawn/adv-009-%E5%85%A8%E7%8A%B6%E6%85%8B%E3%81%AE%E4%BF%9D%E5%AD%98%E3%81%A8%E5%86%AA%E7%AD%89%E6%80%A7.md) — MUST: 緊急再配備、着脱品返却、無人生産、参照解決、Manifest診断を途中保存できる。
+- [ADV-010 検証割当](/pawn/adv-010-%E6%A4%9C%E8%A8%BC%E5%89%B2%E5%BD%93.md) — MUST: 監査S-047〜060、S-064〜066を自動fixture、統合試験、手動試験のいずれかへ割り当て、対象build、DLC、外部MOD、操作、期待結果、物理費、ID、保存往復を記録する。

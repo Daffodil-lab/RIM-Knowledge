@@ -22,24 +22,24 @@
 - [23. 失敗時の規則](/colony/23-%E5%A4%B1%E6%95%97%E6%99%82%E3%81%AE%E8%A6%8F%E5%89%87.md) — エラー時にRed Star支援やHive機能を代替起動しない。
 - [25. 保護候補と廃止](/colony/25-%E4%BF%9D%E8%AD%B7%E5%80%99%E8%A3%9C%E3%81%A8%E5%BB%83%E6%AD%A2.md) — 2026-07-26に行った独立開拓団の候補・廃止監査を履歴として保持する。
 - [26. 独立開拓団とレッドスターの責務境界](/colony/26-Red-Star%E3%81%A8%E3%81%AE%E6%AF%94%E8%BC%83.md) — 独立開拓団の自律とレッドスターの国家保証を、支援、任務、報告、救援、交戦の責務として分ける。
-- [28. Definition of Done](/colony/28-Definition-of-Done.md) — Core独立開拓団α版は、次を全て満たした時に完成する。
-- [確定#121：Shion Race: Red Star（旧・遠征艦隊）新設・拡張シナリオ「同盟派遣開拓団」](/decisions/decision-0121.md) — Shion Race: Red Star（旧・遠征艦隊）新設・拡張シナリオ「同盟派遣開拓団」を確定した決定履歴。
-- [確定#124：MODジャンル分類（6ジャンルへの再分類）](/decisions/decision-0124.md) — MODジャンル分類（6ジャンルへの再分類）を確定した決定履歴。
-- [確定#138：Diasporaシリーズ（民間開拓団装備・段0-1）新設](/decisions/decision-0138.md) — Diasporaシリーズ（民間開拓団装備・段0-1）新設を確定した決定履歴。
-- [確定#140：Shion Race: Red Star新設・独自開拓団へCoreMODを縮小](/decisions/decision-0140.md) — Shion Race: Red Star新設・独自開拓団へCoreMODを縮小を確定した決定履歴。
-- [確定#141：同盟とRimWorldの関係（艦隊は数光年離れて不干渉・侵入は侵攻の合図）](/decisions/decision-0141.md) — 同盟とRimWorldの関係（艦隊は数光年離れて不干渉・侵入は侵攻の合図）を確定した決定履歴。
-- [確定#142：支援要請システムに「限定介入」を新設＋艦隊到着までの経路とタイムラグ](/decisions/decision-0142.md) — 支援要請システムに「限定介入」を新設＋艦隊到着までの経路とタイムラグを確定した決定履歴。
-- [確定#143：独自開拓団 — CoreMODの中核アイデンティティ](/decisions/decision-0143.md) — 独自開拓団 — CoreMODの中核アイデンティティを確定した決定履歴。
-- [確定#301：MOD名称を「分身」へ改名／Nexus Core（ハイブ）の正体＝自己複製した模範的な普通のシオン/Shion、法遵守ゆえに本国が扱いかねる存在、RimWorldでの同盟的行為が名声を通じ本国支援を事実上強制する構図（確定#300を改訂）](/decisions/decision-0301.md) — MOD名称を「分身」へ改名／Nexus Core（ハイブ）の正体＝自己複製した模範的な普通のシオン/Shion、法遵守ゆえに本国が扱いかねる存在、RimWorldでの同盟的行為が名声を通じ本国支援を事実上強制する構図（確定番号300を改訂）を確定した決定履歴。
-- [確定#304：工業（§12ゼロ点エネルギー地場システム・cell・パイプライン関連設備）をCoreMODから分離し、新設「Shion Race:」冠称の共有前提MOD「Shion Race: 無零花」（仮称）へ移管](/decisions/decision-0304.md) — 工業（§12ゼロ点エネルギー地場システム・cell・パイプライン関連設備）をCoreMODから分離し、新設「Shion Race:」冠称の共有前提MOD「Shion Race: 無零花」（仮称）へ移管を確定した決定履歴。
-- [確定#321：確定#320を訂正——「地場の拡張」の正体は既存MOD「Shion Race: Red Star」。Red Starの前提を「CoreMOD OR Shion Race: 地場」（どちらか一方で起動可能）へ変更し、分身の独立性（確定#300）と両立させる](/decisions/decision-0321.md) — 確定番号320を訂正——「地場の拡張」の正体は既存MOD「Shion Race: Red Star」。
-- [確定#322：確定#321を補足訂正——地場のみ（CoreMOD無し）でも遠征艦隊要素は機能する。名声を用いた限定的な艦隊支援が可能。完全版の遠征艦隊要素にはCoreMODが必要](/decisions/decision-0322.md) — 確定番号321を補足訂正——地場のみ（CoreMOD無し）でも遠征艦隊要素は機能する。
-- [確定#339：仮称2件を最終確定——「Shion Race: 地場」→「Shion Race: Kombinat」、「分身」→「Shion Race: The Hive」](/decisions/decision-0339.md) — 仮称2件を最終確定——「Shion Race: 地場」→「Shion Race: Kombinat」、「分身」→「Shion Race: The Hive」を確定した決定履歴。
-- [確定#357：非シオン人口は数十兆超、ほぼ全員が本国在住](/decisions/decision-0357.md) — 非シオン人口は数十兆超、ほぼ全員が本国在住を確定した決定履歴。
-- [確定#389：MVP廃止、α公開候補、β終了条件、完成前セーブ互換](/decisions/decision-0389.md) — MVP廃止、α公開候補、β終了条件、完成前セーブ互換を確定した決定履歴。
-- [確定#390：Kombinat停止保存、資産価値、破壊時保全、性能優先方式](/decisions/decision-0390.md) — Kombinat停止保存、資産価値、破壊時保全、性能優先方式を確定した決定履歴。
-- [確定#391：Kombinat遠距離物流の保護延期、AE2系準拠、αのローカルNetwork再構成](/decisions/decision-0391.md) — Kombinat遠距離物流の保護延期、AE2系準拠、αのローカルNetwork再構成を確定した決定履歴。
-- [確定#397：Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外](/decisions/decision-0397.md) — Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外を確定した決定履歴。
+- [28. Definition of Done](/colony/28-Definition-of-Done-%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Core独立開拓団α版は、次を全て満たした時に完成する。
+- [確定#121：Shion Race: Red Star（旧・遠征艦隊）新設・拡張シナリオ「同盟派遣開拓団」](/decisions/decision-0121-%E7%A2%BA%E5%AE%9A-%E6%97%A7-%E9%81%A0%E5%BE%81%E8%89%A6%E9%9A%8A-%E6%96%B0%E8%A8%AD-%E6%8B%A1%E5%BC%B5%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA-%E5%90%8C%E7%9B%9F%E6%B4%BE%E9%81%A3%E9%96%8B%E6%8B%93%E5%9B%A3.md) — Shion Race: Red Star（旧・遠征艦隊）新設・拡張シナリオ「同盟派遣開拓団」を確定した決定履歴。
+- [確定#124：MODジャンル分類（6ジャンルへの再分類）](/decisions/decision-0124-%E7%A2%BA%E5%AE%9A-%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%AB%E5%88%86%E9%A1%9E-%E3%82%B8%E3%83%A3%E3%83%B3%E3%83%AB%E3%81%B8%E3%81%AE%E5%86%8D%E5%88%86%E9%A1%9E.md) — MODジャンル分類（6ジャンルへの再分類）を確定した決定履歴。
+- [確定#138：Diasporaシリーズ（民間開拓団装備・段0-1）新設](/decisions/decision-0138-%E7%A2%BA%E5%AE%9A-%E3%82%B7%E3%83%AA%E3%83%BC%E3%82%BA-%E6%B0%91%E9%96%93%E9%96%8B%E6%8B%93%E5%9B%A3%E8%A3%85%E5%82%99-%E6%AE%B5-%E6%96%B0%E8%A8%AD.md) — Diasporaシリーズ（民間開拓団装備・段0-1）新設を確定した決定履歴。
+- [確定#140：Shion Race: Red Star新設・独自開拓団へCoreMODを縮小](/decisions/decision-0140-%E7%A2%BA%E5%AE%9A-%E6%96%B0%E8%A8%AD-%E7%8B%AC%E8%87%AA%E9%96%8B%E6%8B%93%E5%9B%A3%E3%81%B8-%E3%82%92%E7%B8%AE%E5%B0%8F.md) — Shion Race: Red Star新設・独自開拓団へCoreMODを縮小を確定した決定履歴。
+- [確定#141：同盟とRimWorldの関係（艦隊は数光年離れて不干渉・侵入は侵攻の合図）](/decisions/decision-0141-%E7%A2%BA%E5%AE%9A-%E5%90%8C%E7%9B%9F%E3%81%A8-%E3%81%AE%E9%96%A2%E4%BF%82-%E8%89%A6%E9%9A%8A%E3%81%AF%E6%95%B0%E5%85%89%E5%B9%B4%E9%9B%A2%E3%82%8C%E3%81%A6%E4%B8%8D%E5%B9%B2%E6%B8%89-%E4%BE%B5%E5%85%A5%E3%81%AF%E4%BE%B5%E6%94%BB%E3%81%AE%E5%90%88%E5%9B%B3.md) — 同盟とRimWorldの関係（艦隊は数光年離れて不干渉・侵入は侵攻の合図）を確定した決定履歴。
+- [確定#142：支援要請システムに「限定介入」を新設＋艦隊到着までの経路とタイムラグ](/decisions/decision-0142-%E7%A2%BA%E5%AE%9A-%E6%94%AF%E6%8F%B4%E8%A6%81%E8%AB%8B%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AB-%E9%99%90%E5%AE%9A%E4%BB%8B%E5%85%A5-%E3%82%92%E6%96%B0%E8%A8%AD-%E8%89%A6%E9%9A%8A%E5%88%B0%E7%9D%80%E3%81%BE%E3%81%A7%E3%81%AE%E7%B5%8C%E8%B7%AF%E3%81%A8.md) — 支援要請システムに「限定介入」を新設＋艦隊到着までの経路とタイムラグを確定した決定履歴。
+- [確定#143：独自開拓団 — CoreMODの中核アイデンティティ](/decisions/decision-0143-%E7%A2%BA%E5%AE%9A-%E7%8B%AC%E8%87%AA%E9%96%8B%E6%8B%93%E5%9B%A3-%E3%81%AE%E4%B8%AD%E6%A0%B8%E3%82%A2%E3%82%A4%E3%83%87%E3%83%B3%E3%83%86%E3%82%A3%E3%83%86%E3%82%A3.md) — 独自開拓団 — CoreMODの中核アイデンティティを確定した決定履歴。
+- [確定#301：MOD名称を「分身」へ改名／Nexus Core（ハイブ）の正体＝自己複製した模範的な普通のシオン/Shion、法遵守ゆえに本国が扱いかねる存在、RimWorldでの同盟的行為が名声を通じ本国支援を事実上強制する構図（確定#300を改訂）](/decisions/decision-0301-%E7%A2%BA%E5%AE%9A-%E5%90%8D%E7%A7%B0%E3%82%92-%E5%88%86%E8%BA%AB-%E3%81%B8%E6%94%B9%E5%90%8D-%E3%83%8F%E3%82%A4%E3%83%96-%E3%81%AE%E6%AD%A3%E4%BD%93-%E8%87%AA%E5%B7%B1%E8%A4%87%E8%A3%BD%E3%81%97%E3%81%9F%E6%A8%A1%E7%AF%84%E7%9A%84%E3%81%AA.md) — MOD名称を「分身」へ改名／Nexus Core（ハイブ）の正体＝自己複製した模範的な普通のシオン/Shion、法遵守ゆえに本国が扱いかねる存在、RimWorldでの同盟的行為が名声を通じ本国支援を事実上強制する構図（確定番号300を改訂）を確定した決定履歴。
+- [確定#304：工業（§12ゼロ点エネルギー地場システム・cell・パイプライン関連設備）をCoreMODから分離し、新設「Shion Race:」冠称の共有前提MOD「Shion Race: 無零花」（仮称）へ移管](/decisions/decision-0304-%E7%A2%BA%E5%AE%9A-%E5%B7%A5%E6%A5%AD-%E3%82%BC%E3%83%AD%E7%82%B9%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC%E5%9C%B0%E5%A0%B4%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0-%E3%83%91%E3%82%A4%E3%83%97%E3%83%A9%E3%82%A4%E3%83%B3%E9%96%A2%E9%80%A3%E8%A8%AD%E5%82%99.md) — 工業（§12ゼロ点エネルギー地場システム・cell・パイプライン関連設備）をCoreMODから分離し、新設「Shion Race:」冠称の共有前提MOD「Shion Race: 無零花」（仮称）へ移管を確定した決定履歴。
+- [確定#321：確定#320を訂正——「地場の拡張」の正体は既存MOD「Shion Race: Red Star」。Red Starの前提を「CoreMOD OR Shion Race: 地場」（どちらか一方で起動可能）へ変更し、分身の独立性（確定#300）と両立させる](/decisions/decision-0321-%E7%A2%BA%E5%AE%9A-%E7%A2%BA%E5%AE%9A-%E3%82%92%E8%A8%82%E6%AD%A3-%E5%9C%B0%E5%A0%B4%E3%81%AE%E6%8B%A1%E5%BC%B5-%E3%81%AE%E6%AD%A3%E4%BD%93%E3%81%AF%E6%97%A2%E5%AD%98-%E3%81%AE%E5%89%8D%E6%8F%90%E3%82%92-%E5%9C%B0%E5%A0%B4-%E3%81%A9.md) — 確定番号320を訂正——「地場の拡張」の正体は既存MOD「Shion Race: Red Star」。
+- [確定#322：確定#321を補足訂正——地場のみ（CoreMOD無し）でも遠征艦隊要素は機能する。名声を用いた限定的な艦隊支援が可能。完全版の遠征艦隊要素にはCoreMODが必要](/decisions/decision-0322-%E7%A2%BA%E5%AE%9A-%E7%A2%BA%E5%AE%9A-%E3%82%92%E8%A3%9C%E8%B6%B3%E8%A8%82%E6%AD%A3-%E5%9C%B0%E5%A0%B4%E3%81%AE%E3%81%BF-%E7%84%A1%E3%81%97-%E3%81%A7%E3%82%82%E9%81%A0%E5%BE%81%E8%89%A6%E9%9A%8A%E8%A6%81%E7%B4%A0%E3%81%AF%E6%A9%9F%E8%83%BD%E3%81%99.md) — 確定番号321を補足訂正——地場のみ（CoreMOD無し）でも遠征艦隊要素は機能する。
+- [確定#339：仮称2件を最終確定——「Shion Race: 地場」→「Shion Race: Kombinat」、「分身」→「Shion Race: The Hive」](/decisions/decision-0339-%E7%A2%BA%E5%AE%9A-%E4%BB%AE%E7%A7%B0-%E4%BB%B6%E3%82%92%E6%9C%80%E7%B5%82%E7%A2%BA%E5%AE%9A-%E5%9C%B0%E5%A0%B4-%E5%88%86%E8%BA%AB.md) — 仮称2件を最終確定——「Shion Race: 地場」→「Shion Race: Kombinat」、「分身」→「Shion Race: The Hive」を確定した決定履歴。
+- [確定#357：非シオン人口は数十兆超、ほぼ全員が本国在住](/decisions/decision-0357-%E7%A2%BA%E5%AE%9A-%E9%9D%9E%E3%82%B7%E3%82%AA%E3%83%B3%E4%BA%BA%E5%8F%A3%E3%81%AF%E6%95%B0%E5%8D%81%E5%85%86%E8%B6%85-%E3%81%BB%E3%81%BC%E5%85%A8%E5%93%A1%E3%81%8C%E6%9C%AC%E5%9B%BD%E5%9C%A8%E4%BD%8F.md) — 非シオン人口は数十兆超、ほぼ全員が本国在住を確定した決定履歴。
+- [確定#389：MVP廃止、α公開候補、β終了条件、完成前セーブ互換](/decisions/decision-0389-%E7%A2%BA%E5%AE%9A-%E5%BB%83%E6%AD%A2-%E5%85%AC%E9%96%8B%E5%80%99%E8%A3%9C-%E7%B5%82%E4%BA%86%E6%9D%A1%E4%BB%B6-%E5%AE%8C%E6%88%90%E5%89%8D%E3%82%BB%E3%83%BC%E3%83%96%E4%BA%92%E6%8F%9B.md) — MVP廃止、α公開候補、β終了条件、完成前セーブ互換を確定した決定履歴。
+- [確定#390：Kombinat停止保存、資産価値、破壊時保全、性能優先方式](/decisions/decision-0390-%E7%A2%BA%E5%AE%9A-%E5%81%9C%E6%AD%A2%E4%BF%9D%E5%AD%98-%E8%B3%87%E7%94%A3%E4%BE%A1%E5%80%A4-%E7%A0%B4%E5%A3%8A%E6%99%82%E4%BF%9D%E5%85%A8-%E6%80%A7%E8%83%BD%E5%84%AA%E5%85%88%E6%96%B9%E5%BC%8F.md) — Kombinat停止保存、資産価値、破壊時保全、性能優先方式を確定した決定履歴。
+- [確定#391：Kombinat遠距離物流の保護延期、AE2系準拠、αのローカルNetwork再構成](/decisions/decision-0391-%E7%A2%BA%E5%AE%9A-%E9%81%A0%E8%B7%9D%E9%9B%A2%E7%89%A9%E6%B5%81%E3%81%AE%E4%BF%9D%E8%AD%B7%E5%BB%B6%E6%9C%9F-%E7%B3%BB%E6%BA%96%E6%8B%A0-%E3%81%AE%E3%83%AD%E3%83%BC%E3%82%AB%E3%83%AB-%E5%86%8D%E6%A7%8B%E6%88%90.md) — Kombinat遠距離物流の保護延期、AE2系準拠、αのローカルNetwork再構成を確定した決定履歴。
+- [確定#397：Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外](/decisions/decision-0397-%E7%A2%BA%E5%AE%9A-%E3%82%92%E7%84%A1%E6%94%B9%E9%80%A0%E3%81%AE%E5%BF%85%E9%A0%88%E4%BE%9D%E5%AD%98%E3%81%B8%E5%9B%BA%E5%AE%9A%E3%81%97-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E3%81%A8-%E3%82%92-%E7%9B%A3%E6%9F%BB%E3%81%8B%E3%82%89%E9%99%A4%E5%A4%96.md) — Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外を確定した決定履歴。
 - [結論](/design/033-%E7%B5%90%E8%AB%96.md) — シオンの製品全体は、一つのCore、分離された内部Runtime、後期の任意例外モジュール、固有の本国支援開始 として再構成する。
 - [7. 製品ファミリーの新しい境界](/design/07-%E8%A3%BD%E5%93%81%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E5%A2%83%E7%95%8C.md) — CoreはDLC非依存製品として設計しない、また開発・配布・標準試験は、RimWorld 1.6にRoyalty、Ideology、Biotech、Anomaly、Odysseyを全て有効化した環境を前提とする。
 - [8. Baseモジュール](/design/08-Base%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB.md) — Core設定は複数の開始立場を許容するが、最初に遊べるα版は数人規模の独立開拓団へ固定する。
@@ -58,7 +58,7 @@
 - [2. 実装状態の参照](/kombinat/core/02-%E7%8A%B6%E6%85%8B%E5%88%86%E9%A1%9E.md) — Kombinatの実装状態はリリース計画の現在地が所有し、本節は中核仕様からその正本を参照する。
 - [8. 消費と流通](/kombinat/core/08-%E6%B6%88%E8%B2%BB%E3%81%A8%E6%B5%81%E9%80%9A.md) — Kombinatは接続先保管基盤の内部消費を無断で監視せず、公開された観測境界だけを使う。
 - [10. 保存と原子性](/kombinat/core/10-%E4%BF%9D%E5%AD%98%E3%81%A8%E5%8E%9F%E5%AD%90%E6%80%A7.md) — Kombinatは次だけを保存するという方針の適用範囲と条件を定める。
-- [13. β](/kombinat/core/13-%CE%B2.md) — Equipment Familyは作者が明示登録した候補だけを使う。
+- [13. β](/kombinat/core/13-%CE%B2-%E7%8F%BE%E8%A1%8C%E4%BB%95%E6%A7%98.md) — Equipment Familyは作者が明示登録した候補だけを使う。
 - [13. β境界](/kombinat/requirements/13-%CE%B2%E5%A2%83%E7%95%8C.md) — β境界は、Pawn Foundry要求とEquipment Familyを扱う。
 - [プレイヤーが最初から知ること](/player-facing/001-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%9C%80%E5%88%9D%E3%81%8B%E3%82%89%E7%9F%A5%E3%82%8B%E3%81%93%E3%81%A8.md) — シオンは、製造された身体を持つ機械の民であり、また一人ずつ別の人格を持ち、人工知能でも集合意識でもありません。
 - [通常プレイで説明しないこと](/player-facing/006-%E9%80%9A%E5%B8%B8%E3%83%97%E3%83%AC%E3%82%A4%E3%81%A7%E8%AA%AC%E6%98%8E%E3%81%97%E3%81%AA%E3%81%84%E3%81%93%E3%81%A8.md) — 必要になった時、クエスト一件につき一つの中心問題だけを見せます。
@@ -80,7 +80,7 @@
 - [10. 変更管理](/roadmap/10-%E5%A4%89%E6%9B%B4%E7%AE%A1%E7%90%86.md) — 本書を更新する場合、少なくとも次を記録するという方針の適用範囲と条件を定める。
 - [4. 同盟社会](/world/04-%E5%90%8C%E7%9B%9F%E7%A4%BE%E4%BC%9A.md) — 同盟本国は、普通に暮らす大多数にとって、本当に自由で豊かで安全な社会である。
 - [8. 遠征共同体とレッドスター](/world/08-%E9%81%A0%E5%BE%81%E5%85%B1%E5%90%8C%E4%BD%93%E3%81%A8Red-Star.md) — コアMODは、独立団、漂着者、認可団、その他の遠征共同体など、複数の開始立場を許容する。
-- [9. The Hive](/world/09-The-Hive.md) — The Hiveは、通常シオン社会の標準ではない、例外的な単一中枢運営を扱う。
+- [9. The Hive](/world/09-The-Hive-%E3%82%B6%E3%83%BB%E3%83%8F%E3%82%A4%E3%83%B4.md) — The Hiveは、通常シオン社会の標準ではない、例外的な単一中枢運営を扱う。
 - [11. 保護された未確定事項](/world/11-%E4%BF%9D%E8%AD%B7%E3%81%95%E3%82%8C%E3%81%9F%E6%9C%AA%E7%A2%BA%E5%AE%9A%E4%BA%8B%E9%A0%85.md) — 次の事項は、設定不足ではなく、本書が意図的に正解を固定しない領域である。
 - [19. 本国と移動箱舟](/world/19-%E6%9C%AC%E5%9B%BD%E3%81%A8%E7%A7%BB%E5%8B%95%E7%AE%B1%E8%88%9F.md) — 同盟本国は単一惑星ではなく、トヴェルジの世界群、居住圏、工業圏、移動箱舟から成る分散した文明圏である。
 - [38. 弾薬結晶](/world/38-%E5%BC%BE%E8%96%AC%E7%B5%90%E6%99%B6.md) — 弾薬結晶は、その場で弾薬を製造するための物理資源であり、シオン装備体系の全遠距離武器が必要とする。

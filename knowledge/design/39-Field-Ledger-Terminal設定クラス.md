@@ -38,7 +38,7 @@ generated:
 ## 関連項目
 
 - 上位索引: [全体設計](/design/index.md)
-- 実装所有者: [工業管制塔](/colony/16-Field-Ledger-Terminal.md)
+- 実装所有者: [工業管制塔](/colony/16-Field-Ledger-Terminal-工業管制塔.md)
 - 工業実行基盤: [コンビナート](/kombinat/index.md)
 - 同盟通貨: [同盟通貨](/world/39-同盟通貨.md)
 - 設定と実装: [設定クラスと実装値の分離](/authoring/15-設定クラスと実装値の分離.md)

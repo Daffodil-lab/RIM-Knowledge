@@ -8,12 +8,12 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 
 ## 読み始め
 
-1. [権威順位とライフサイクル](governance/authority-and-lifecycle.md)
+1. [権威順位とライフサイクル](governance/authority-and-lifecycle-知識の権威順位とライフサイクル.md)
 2. [Open Knowledge Format 0.2 日本語規範解説](research/okf/00-Open-Knowledge-Format-v0.2-日本語解説.md)
 3. [横断ナビゲーション](navigation/)
 4. [改稿ダッシュボード](navigation/overhaul/)
-5. [知識所有者マップ](governance/ownership-map.md)
-6. [オーバーホール中の矛盾判定規則](governance/contradiction-policy.md)
+5. [知識所有者マップ](governance/ownership-map-知識所有者マップ.md)
+6. [オーバーホール中の矛盾判定規則](governance/contradiction-policy-オーバーホール中の矛盾判定規則.md)
 7. [矛盾監査台帳](contradictions/)
 8. [参考](reference/)
 9. [正史・世界観](world/)

@@ -3,49 +3,49 @@
 ## 項目
 
 - [1. 適用範囲](01-%E9%81%A9%E7%94%A8%E7%AF%84%E5%9B%B2.md) — 本書はKombinatが独自実装する発注、多段生産、設備能力、消費表示、流通目標、同盟通貨を扱う。
-- [UX-001 発注](ux-001.md) — MUST: 品目、数量または目標在庫、優先度だけで基本発注を作れる。
-- [UX-002 見積り](ux-002.md) — MUST: 確定前に、必要材料、Storage利用可能量、予約済み、中間品、設備、出力容量、概算時間を表示する。
-- [UX-003 状態語](ux-003.md) — MUST: 少なくとも次を区別するという方針の適用範囲と条件を定める。
-- [UX-004 上流UIの尊重](ux-004.md) — MUST: Storage、Filter、Endpoint、Network設定はCore独自基盤のUI責務とし、Kombinat内部へ複製しない。
-- [PRD-001 定義](prd-001.md) — MUST: Production Patternは次を持つ。
-- [PRD-002 入力Role](prd-002.md) — MUST: Consume、LockAndReturn、TransformAndReturn、ContainerReturnを区別する。
-- [PRD-003 Recipe分類](prd-003.md) — MUST: RecipeをKombinat Automated、Vanilla Work Required、Official Adapter Required、Unsupportedへ分類する。
-- [PRD-004 Request](prd-004.md) — MUST: 具体ThingDef、Recipe、数量または目標在庫、優先度、出力先を指定できる。
-- [PRD-005 Plan](prd-005.md) — MUST: Recipe依存を有界DAGへ展開し、循環を検出する。
-- [PRD-006 複数経路](prd-006.md) — MUST: 同じ出力を作れる複数Patternがある場合、作者優先度、完成可能性、設備、概算時間、stable IDの決定順を使う。
-- [PRD-007 Job](prd-007.md) — MUST: 承認済みPlanをJobとして保存し、Pattern version、選んだRecipe、入力条件、出力条件を固定する。
-- [PRD-008 Batch](prd-008.md) — MUST: 一Batchの全入力Thingと出力容量がCore Storageで予約され、設備が利用可能な時だけ開始する。
-- [PRD-009 Output Claim](prd-009.md) — MUST: 同じThingDefがどこかへ出現しただけでBatchを完了しない。
-- [PRD-010 中間品](prd-010.md) — MUST: 中間品をCore Storageへ直接Commitし、後段工程がThing単位で予約する。
-- [PRD-011 副産物](prd-011.md) — MUST: 副産物の出力容量を開始前に確認し、満杯なら開始しない。
-- [PRD-012 取消](prd-012.md) — MUST: 取消時は未Commitの入力予約、出力容量予約、通貨予約、設備割当を解放する。
-- [PRD-013 再計画](prd-013.md) — MUST: 未開始Batchだけを再計画する、またcommit済みBatchを巻き戻さない。
-- [INT-001 無改造](int-001.md) — MUST: KombinatはCore独自保管基盤のprivate状態を変更または参照せず、公開Application境界だけを使う。
-- [INT-002 通常経路](int-002.md) — MUST: 物理Thingの受渡しにはCore独自基盤が公開する予約・commit・release契約だけを使う。
-- [INT-003 Storage予約](int-003.md) — MUST: Kombinatが工程へ算入できるのは、Core StorageがThing IDと数量で予約した入力だけである。
-- [INT-004 引渡し](int-004.md) — MUST: 生産出力はCore Storageへ直接生成し、Kombinat側の所有Thingを作らない。
-- [INT-005 接続不能](int-005.md) — MUST: Core独自Storageから供給または回収できない場合、Jobを転送待ちへ置く。
-- [INT-006 上流欠陥](int-006.md) — MUST: Core独自保管基盤単体で再現する問題と、Kombinat接続だけで再現する問題を分離する。
-- [STA-001 意図した仕様](sta-001.md) — MUST: Core独自Storage内の腐敗、温度、Thing Tick、Comp Tick、充放電、孵化等の時間進行方針を明示する。
-- [STA-002 追加制限禁止](sta-002.md) — MUST: Stasisによる時間停止だけを理由に、Kombinatから追加費用、危険分類、入庫拒否を行わない。
-- [STA-003 工場内在庫禁止](sta-003.md) — MUST: Kombinat Factoryは生産用ThingOwnerを持たず、材料、中間品、完成品をCore Storageへ一元化する。
-- [CUR-001 Account](cur-001.md) — MUST: 同盟通貨を物理Thing在庫と分離した64 bit整数残高として保存する。
-- [CUR-002 Transaction](cur-002.md) — MUST: 入金、支払、返金、取消はidempotency keyを持ち、全部成功または全部失敗する。
-- [CUR-003 Recipe禁止](cur-003.md) — MUST: 通貨を通常工業Recipeで発行しない。
-- [CUR-004 初期化](cur-004.md) — MUST: 独立開拓団開始時に一回だけProfile残高を適用し、途中失敗で部分残高を残さない。
-- [CUR-005 所在](cur-005.md) — PENDING: αのAccount scope、複数Mapからの利用、Map wealthへの算入方法は実装前に確定する。
-- [CON-001 観測範囲](con-001.md) — MUST: Kombinat自身のBuffer、Factory、Core API、正式な上流APIから得たeventだけを消費集計へ使う。
-- [CON-002 不明表示](con-002.md) — MUST: Core Storageの公開eventで観測できない消費範囲を不明として明示する。
-- [CON-003 流通目標](con-003.md) — MUST: Storage在庫とFacility需要について最低量、目標量、優先度を設定できる。
-- [CON-004 上流設定](con-004.md) — MUST: Core StorageのFilter、容量、Endpoint設定はCoreの公開契約で所有する。
-- [SAV-001 状態](sav-001.md) — MUST: Request、Pattern version、Plan summary、Job、Batch、Buffer、Output Claim、Account、Transaction、Consumption aggregateを保存する。
-- [SAV-002 非複製](sav-002.md) — MUST: KombinatセーブはKombinat固有状態とCore取引参照だけを保持する。
-- [SAV-003 途中保存](sav-003.md) — MUST: 材料待ち、入力予約後、処理中、出力容量待ち、Commit前後、通貨保留中に保存・ロードできる。
-- [SAV-004 同一ビルド](sav-004.md) — MUST: α／βでは同一ビルドの保存往復を保証する。
-- [PERF-001 Event駆動](perf-001.md) — MUST: Queue、Factory、Buffer、Accountの変化をeventで処理し、定常処理を索引と有界Queueから実行する。
-- [PERF-002 Planner](perf-002.md) — MUST: 一Planを最大200 node、100 ms以内、または一frame 4 ms以下の分割処理で終える暫定目標を持つ。
-- [PERF-003 長期](perf-003.md) — MUST: 60,000 tickの連続生産で、StorageのThing差分0、予約漏れ0、二重完了0、未回収終端処理0を確認する。
-- [PERF-004 保存](perf-004.md) — MUST: 500 Job、2,000 Batch履歴、10,000 Buffer Thingの保存・ロード時間、ファイル増分、GC allocationを記録する。
+- [UX-001 発注](ux-001-発注.md) — MUST: 品目、数量または目標在庫、優先度だけで基本発注を作れる。
+- [UX-002 見積り](ux-002-見積り.md) — MUST: 確定前に、必要材料、Storage利用可能量、予約済み、中間品、設備、出力容量、概算時間を表示する。
+- [UX-003 状態語](ux-003-状態語.md) — MUST: 少なくとも次を区別するという方針の適用範囲と条件を定める。
+- [UX-004 上流UIの尊重](ux-004-上流-の尊重.md) — MUST: Storage、Filter、Endpoint、Network設定はCore独自基盤のUI責務とし、Kombinat内部へ複製しない。
+- [PRD-001 定義](prd-001-定義.md) — MUST: Production Patternは次を持つ。
+- [PRD-002 入力Role](prd-002-入力.md) — MUST: Consume、LockAndReturn、TransformAndReturn、ContainerReturnを区別する。
+- [PRD-003 Recipe分類](prd-003-分類.md) — MUST: RecipeをKombinat Automated、Vanilla Work Required、Official Adapter Required、Unsupportedへ分類する。
+- [PRD-004 Request](prd-004-要件.md) — MUST: 具体ThingDef、Recipe、数量または目標在庫、優先度、出力先を指定できる。
+- [PRD-005 Plan](prd-005-要件.md) — MUST: Recipe依存を有界DAGへ展開し、循環を検出する。
+- [PRD-006 複数経路](prd-006-複数経路.md) — MUST: 同じ出力を作れる複数Patternがある場合、作者優先度、完成可能性、設備、概算時間、stable IDの決定順を使う。
+- [PRD-007 Job](prd-007-要件.md) — MUST: 承認済みPlanをJobとして保存し、Pattern version、選んだRecipe、入力条件、出力条件を固定する。
+- [PRD-008 Batch](prd-008-要件.md) — MUST: 一Batchの全入力Thingと出力容量がCore Storageで予約され、設備が利用可能な時だけ開始する。
+- [PRD-009 Output Claim](prd-009-要件.md) — MUST: 同じThingDefがどこかへ出現しただけでBatchを完了しない。
+- [PRD-010 中間品](prd-010-中間品.md) — MUST: 中間品をCore Storageへ直接Commitし、後段工程がThing単位で予約する。
+- [PRD-011 副産物](prd-011-副産物.md) — MUST: 副産物の出力容量を開始前に確認し、満杯なら開始しない。
+- [PRD-012 取消](prd-012-取消.md) — MUST: 取消時は未Commitの入力予約、出力容量予約、通貨予約、設備割当を解放する。
+- [PRD-013 再計画](prd-013-再計画.md) — MUST: 未開始Batchだけを再計画する、またcommit済みBatchを巻き戻さない。
+- [INT-001 無改造](int-001-無改造.md) — MUST: KombinatはCore独自保管基盤のprivate状態を変更または参照せず、公開Application境界だけを使う。
+- [INT-002 通常経路](int-002-通常経路.md) — MUST: 物理Thingの受渡しにはCore独自基盤が公開する予約・commit・release契約だけを使う。
+- [INT-003 Storage予約](int-003-予約.md) — MUST: Kombinatが工程へ算入できるのは、Core StorageがThing IDと数量で予約した入力だけである。
+- [INT-004 引渡し](int-004-引渡し.md) — MUST: 生産出力はCore Storageへ直接生成し、Kombinat側の所有Thingを作らない。
+- [INT-005 接続不能](int-005-接続不能.md) — MUST: Core独自Storageから供給または回収できない場合、Jobを転送待ちへ置く。
+- [INT-006 上流欠陥](int-006-上流欠陥.md) — MUST: Core独自保管基盤単体で再現する問題と、Kombinat接続だけで再現する問題を分離する。
+- [STA-001 意図した仕様](sta-001-意図した仕様.md) — MUST: Core独自Storage内の腐敗、温度、Thing Tick、Comp Tick、充放電、孵化等の時間進行方針を明示する。
+- [STA-002 追加制限禁止](sta-002-追加制限禁止.md) — MUST: Stasisによる時間停止だけを理由に、Kombinatから追加費用、危険分類、入庫拒否を行わない。
+- [STA-003 工場内在庫禁止](sta-003-工場内在庫禁止.md) — MUST: Kombinat Factoryは生産用ThingOwnerを持たず、材料、中間品、完成品をCore Storageへ一元化する。
+- [CUR-001 Account](cur-001-要件.md) — MUST: 同盟通貨を物理Thing在庫と分離した64 bit整数残高として保存する。
+- [CUR-002 Transaction](cur-002-要件.md) — MUST: 入金、支払、返金、取消はidempotency keyを持ち、全部成功または全部失敗する。
+- [CUR-003 Recipe禁止](cur-003-禁止.md) — MUST: 通貨を通常工業Recipeで発行しない。
+- [CUR-004 初期化](cur-004-初期化.md) — MUST: 独立開拓団開始時に一回だけProfile残高を適用し、途中失敗で部分残高を残さない。
+- [CUR-005 所在](cur-005-所在.md) — PENDING: αのAccount scope、複数Mapからの利用、Map wealthへの算入方法は実装前に確定する。
+- [CON-001 観測範囲](con-001-観測範囲.md) — MUST: Kombinat自身のBuffer、Factory、Core API、正式な上流APIから得たeventだけを消費集計へ使う。
+- [CON-002 不明表示](con-002-不明表示.md) — MUST: Core Storageの公開eventで観測できない消費範囲を不明として明示する。
+- [CON-003 流通目標](con-003-流通目標.md) — MUST: Storage在庫とFacility需要について最低量、目標量、優先度を設定できる。
+- [CON-004 上流設定](con-004-上流設定.md) — MUST: Core StorageのFilter、容量、Endpoint設定はCoreの公開契約で所有する。
+- [SAV-001 状態](sav-001-状態.md) — MUST: Request、Pattern version、Plan summary、Job、Batch、Buffer、Output Claim、Account、Transaction、Consumption aggregateを保存する。
+- [SAV-002 非複製](sav-002-非複製.md) — MUST: KombinatセーブはKombinat固有状態とCore取引参照だけを保持する。
+- [SAV-003 途中保存](sav-003-途中保存.md) — MUST: 材料待ち、入力予約後、処理中、出力容量待ち、Commit前後、通貨保留中に保存・ロードできる。
+- [SAV-004 同一ビルド](sav-004-同一ビルド.md) — MUST: α／βでは同一ビルドの保存往復を保証する。
+- [PERF-001 Event駆動](perf-001-駆動.md) — MUST: Queue、Factory、Buffer、Accountの変化をeventで処理し、定常処理を索引と有界Queueから実行する。
+- [PERF-002 Planner](perf-002-要件.md) — MUST: 一Planを最大200 node、100 ms以内、または一frame 4 ms以下の分割処理で終える暫定目標を持つ。
+- [PERF-003 長期](perf-003-長期.md) — MUST: 60,000 tickの連続生産で、StorageのThing差分0、予約漏れ0、二重完了0、未回収終端処理0を確認する。
+- [PERF-004 保存](perf-004-保存.md) — MUST: 500 Job、2,000 Batch履歴、10,000 Buffer Thingの保存・ロード時間、ファイル増分、GC allocationを記録する。
 - [A. 三段生産](044-A-%E4%B8%89%E6%AE%B5%E7%94%9F%E7%94%A3.md) — A. 三段生産は、Core Storage上の材料と出力容量を工程ごとに予約してCommitする。
 - [B. 材料不足](045-B-%E6%9D%90%E6%96%99%E4%B8%8D%E8%B6%B3.md) — 材料不足をNetwork在庫0と断定せず、Factoryへの搬入待ちとして表示する。
 - [C. 停電](046-C-%E5%81%9C%E9%9B%BB.md) — Factory停止中に入力、進捗、出力を複製・消失させず、復電後に再検証する。
@@ -54,7 +54,7 @@
 - [F. 保存往復](049-F-%E4%BF%9D%E5%AD%98%E5%BE%80%E5%BE%A9.md) — 全Job状態と通貨Transaction途中で保存・ロードし、二重実行しない。
 - [G. 保管基盤不在](050-G-%E4%B8%8A%E6%B5%81%E4%B8%8D%E5%9C%A8.md) — Core独自保管基盤が欠落または不整合なら生産接続を停止し、保存状態を破壊的に初期化しない。
 - [H. 保管基盤欠陥分離](051-H-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E5%88%86%E9%9B%A2.md) — Core独自保管基盤単体の問題とKombinat接続の問題を再現条件で分離する。
-- [I. 保管中の時間進行](052-I-Stasis.md) — Core独自Storageが定めた対象別時間進行方針を、Kombinatが上書きしない。
+- [I. 保管中の時間進行](052-I-Stasis-保管中の時間進行.md) — Core独自Storageが定めた対象別時間進行方針を、Kombinatが上書きしない。
 - [J. 通貨](053-J-%E9%80%9A%E8%B2%A8.md) — 初期残高、支払、返金、連打、保存往復で残高差分が一致する。
-- [12. α Release Gate](12-%CE%B1-Release-Gate.md) — α版はCore独自保管基盤との直接受渡し、三段生産、任意排出、保存・復旧をRelease Gateへ含める。
+- [12. α Release Gate](12-%CE%B1-Release-Gate-%E5%85%AC%E9%96%8B%E5%88%A4%E5%AE%9A.md) — α版はCore独自保管基盤との直接受渡し、三段生産、任意排出、保存・復旧をRelease Gateへ含める。
 - [13. β境界](13-%CE%B2%E5%A2%83%E7%95%8C.md) — β境界は、Pawn Foundry要求とEquipment Familyを扱う。

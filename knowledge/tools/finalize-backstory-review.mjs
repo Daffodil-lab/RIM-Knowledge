@@ -11,7 +11,7 @@ const root = process.cwd();
 const planned = [];
 for (const group of ["formation", "mastery"]) {
   const dir = path.join(root, "knowledge", "backstories", group);
-  for (const name of fs.readdirSync(dir).filter((entry) => /^SHION_[CA]\d{3}\.md$/.test(entry))) {
+  for (const name of fs.readdirSync(dir).filter((entry) => /^SHION_[CA]\d{3}(?:-[^.]+)?\.md$/.test(entry))) {
     const file = path.join(dir, name);
     const text = fs.readFileSync(file, "utf8");
     if (!text.includes(`reference_review: ${reviewState}`)) continue;

@@ -23,15 +23,15 @@
 - [23. 失敗時の規則](/colony/23-%E5%A4%B1%E6%95%97%E6%99%82%E3%81%AE%E8%A6%8F%E5%89%87.md) — エラー時にRed Star支援やHive機能を代替起動しない。
 - [25. 保護候補と廃止](/colony/25-%E4%BF%9D%E8%AD%B7%E5%80%99%E8%A3%9C%E3%81%A8%E5%BB%83%E6%AD%A2.md) — 2026-07-26に行った独立開拓団の候補・廃止監査を履歴として保持する。
 - [27. The Hiveとの境界](/colony/27-The-Hive%E3%81%A8%E3%81%AE%E5%A2%83%E7%95%8C.md) — The Hiveの設定資料は保存するが、独立開拓団実装の抽象化要件にしない。
-- [28. Definition of Done](/colony/28-Definition-of-Done.md) — Core独立開拓団α版は、次を全て満たした時に完成する。
-- [確定#300：新規拡張MOD「叛逆航路」（原題：Ancillary Justice・旧称/開発コード：Shion Nexus）を登録——単一Nexus Core運営という例外的ゲームプレイ、既存loreとの4件の競合を解決](/decisions/decision-0300.md) — 新規拡張MOD「叛逆航路」（原題：Ancillary Justice・旧称/開発コード：Shion Nexus）を登録——単一Nexus Core運営という例外的ゲームプレイ、既存loreとの4件の競合を解決を確定した決定履歴。
-- [確定#339：仮称2件を最終確定——「Shion Race: 地場」→「Shion Race: Kombinat」、「分身」→「Shion Race: The Hive」](/decisions/decision-0339.md) — 仮称2件を最終確定——「Shion Race: 地場」→「Shion Race: Kombinat」、「分身」→「Shion Race: The Hive」を確定した決定履歴。
-- [確定#344：Tower Ledger／Nexus Core等の用語をA系統（Kombinat）／B系統（The Hive）で改称](/decisions/decision-0344.md) — Tower Ledger／Nexus Core等の用語をA系統（Kombinat）／B系統（The Hive）で改称を確定した決定履歴。
-- [確定#354：公開ロアを用途別の十一分冊と索引へ細分化](/decisions/decision-0354.md) — 公開ロアを用途別の十一分冊と索引へ細分化を確定した決定履歴。
-- [確定#363：占領回収・死者復活・ソフェルの魂観](/decisions/decision-0363.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#365：闇のアルコテックとの冷戦とThe Hiveの伝聞](/decisions/decision-0365.md) — 闇のアルコテックとの冷戦とThe Hiveの伝聞を確定した決定履歴。
-- [確定#389：MVP廃止、α公開候補、β終了条件、完成前セーブ互換](/decisions/decision-0389.md) — MVP廃止、α公開候補、β終了条件、完成前セーブ互換を確定した決定履歴。
-- [確定#390：Kombinat停止保存、資産価値、破壊時保全、性能優先方式](/decisions/decision-0390.md) — Kombinat停止保存、資産価値、破壊時保全、性能優先方式を確定した決定履歴。
+- [28. Definition of Done](/colony/28-Definition-of-Done-%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Core独立開拓団α版は、次を全て満たした時に完成する。
+- [確定#300：新規拡張MOD「叛逆航路」（原題：Ancillary Justice・旧称/開発コード：Shion Nexus）を登録——単一Nexus Core運営という例外的ゲームプレイ、既存loreとの4件の競合を解決](/decisions/decision-0300-%E7%A2%BA%E5%AE%9A-%E6%96%B0%E8%A6%8F%E6%8B%A1%E5%BC%B5-%E5%8F%9B%E9%80%86%E8%88%AA%E8%B7%AF-%E5%8E%9F%E9%A1%8C-%E6%97%A7%E7%A7%B0-%E9%96%8B%E7%99%BA%E3%82%B3%E3%83%BC%E3%83%89-%E3%82%92%E7%99%BB%E9%8C%B2-%E5%8D%98%E4%B8%80.md) — 新規拡張MOD「叛逆航路」（原題：Ancillary Justice・旧称/開発コード：Shion Nexus）を登録——単一Nexus Core運営という例外的ゲームプレイ、既存loreとの4件の競合を解決を確定した決定履歴。
+- [確定#339：仮称2件を最終確定——「Shion Race: 地場」→「Shion Race: Kombinat」、「分身」→「Shion Race: The Hive」](/decisions/decision-0339-%E7%A2%BA%E5%AE%9A-%E4%BB%AE%E7%A7%B0-%E4%BB%B6%E3%82%92%E6%9C%80%E7%B5%82%E7%A2%BA%E5%AE%9A-%E5%9C%B0%E5%A0%B4-%E5%88%86%E8%BA%AB.md) — 仮称2件を最終確定——「Shion Race: 地場」→「Shion Race: Kombinat」、「分身」→「Shion Race: The Hive」を確定した決定履歴。
+- [確定#344：Tower Ledger／Nexus Core等の用語をA系統（Kombinat）／B系統（The Hive）で改称](/decisions/decision-0344-%E7%A2%BA%E5%AE%9A-%E7%AD%89%E3%81%AE%E7%94%A8%E8%AA%9E%E3%82%92-%E7%B3%BB%E7%B5%B1-%E7%B3%BB%E7%B5%B1-%E3%81%A7%E6%94%B9%E7%A7%B0.md) — Tower Ledger／Nexus Core等の用語をA系統（Kombinat）／B系統（The Hive）で改称を確定した決定履歴。
+- [確定#354：公開ロアを用途別の十一分冊と索引へ細分化](/decisions/decision-0354-%E7%A2%BA%E5%AE%9A-%E5%85%AC%E9%96%8B%E3%83%AD%E3%82%A2%E3%82%92%E7%94%A8%E9%80%94%E5%88%A5%E3%81%AE%E5%8D%81%E4%B8%80%E5%88%86%E5%86%8A%E3%81%A8%E7%B4%A2%E5%BC%95%E3%81%B8%E7%B4%B0%E5%88%86%E5%8C%96.md) — 公開ロアを用途別の十一分冊と索引へ細分化を確定した決定履歴。
+- [確定#363：占領回収・死者復活・ソフェルの魂観](/decisions/decision-0363-%E7%A2%BA%E5%AE%9A-%E5%8D%A0%E9%A0%98%E5%9B%9E%E5%8F%8E-%E6%AD%BB%E8%80%85%E5%BE%A9%E6%B4%BB-%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AE%E9%AD%82%E8%A6%B3.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
+- [確定#365：闇のアルコテックとの冷戦とThe Hiveの伝聞](/decisions/decision-0365-%E7%A2%BA%E5%AE%9A-%E9%97%87%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%86%E3%83%83%E3%82%AF%E3%81%A8%E3%81%AE%E5%86%B7%E6%88%A6%E3%81%A8-%E3%81%AE%E4%BC%9D%E8%81%9E.md) — 闇のアルコテックとの冷戦とThe Hiveの伝聞を確定した決定履歴。
+- [確定#389：MVP廃止、α公開候補、β終了条件、完成前セーブ互換](/decisions/decision-0389-%E7%A2%BA%E5%AE%9A-%E5%BB%83%E6%AD%A2-%E5%85%AC%E9%96%8B%E5%80%99%E8%A3%9C-%E7%B5%82%E4%BA%86%E6%9D%A1%E4%BB%B6-%E5%AE%8C%E6%88%90%E5%89%8D%E3%82%BB%E3%83%BC%E3%83%96%E4%BA%92%E6%8F%9B.md) — MVP廃止、α公開候補、β終了条件、完成前セーブ互換を確定した決定履歴。
+- [確定#390：Kombinat停止保存、資産価値、破壊時保全、性能優先方式](/decisions/decision-0390-%E7%A2%BA%E5%AE%9A-%E5%81%9C%E6%AD%A2%E4%BF%9D%E5%AD%98-%E8%B3%87%E7%94%A3%E4%BE%A1%E5%80%A4-%E7%A0%B4%E5%A3%8A%E6%99%82%E4%BF%9D%E5%85%A8-%E6%80%A7%E8%83%BD%E5%84%AA%E5%85%88%E6%96%B9%E5%BC%8F.md) — Kombinat停止保存、資産価値、破壊時保全、性能優先方式を確定した決定履歴。
 - [結論](/design/033-%E7%B5%90%E8%AB%96.md) — シオンの製品全体は、一つのCore、分離された内部Runtime、後期の任意例外モジュール、固有の本国支援開始 として再構成する。
 - [7. 製品ファミリーの新しい境界](/design/07-%E8%A3%BD%E5%93%81%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E5%A2%83%E7%95%8C.md) — CoreはDLC非依存製品として設計しない、また開発・配布・標準試験は、RimWorld 1.6にRoyalty、Ideology、Biotech、Anomaly、Odysseyを全て有効化した環境を前提とする。
 - [8. Baseモジュール](/design/08-Base%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB.md) — Core設定は複数の開始立場を許容するが、最初に遊べるα版は数人規模の独立開拓団へ固定する。
@@ -45,18 +45,18 @@
 - [25. 検証シナリオ](/design/25-%E6%A4%9C%E8%A8%BC%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — 次をCore v2と本書だけから矛盾なく作れること。
 - [30. オーバーホール時の対象外記録](/design/30-%E5%AF%BE%E8%B1%A1%E5%A4%96.md) — 2026-07-26の統合資料オーバーホールで、正本化または実装値固定の対象にしなかった領域を履歴として保持する。
 - [2. 実装状態の参照](/kombinat/core/02-%E7%8A%B6%E6%85%8B%E5%88%86%E9%A1%9E.md) — Kombinatの実装状態はリリース計画の現在地が所有し、本節は中核仕様からその正本を参照する。
-- [13. β](/kombinat/core/13-%CE%B2.md) — Equipment Familyは作者が明示登録した候補だけを使う。
+- [13. β](/kombinat/core/13-%CE%B2-%E7%8F%BE%E8%A1%8C%E4%BB%95%E6%A7%98.md) — Equipment Familyは作者が明示登録した候補だけを使う。
 - [13. β境界](/kombinat/requirements/13-%CE%B2%E5%A2%83%E7%95%8C.md) — β境界は、Pawn Foundry要求とEquipment Familyを扱う。
 - [プレイヤーが最初から知ること](/player-facing/001-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%9C%80%E5%88%9D%E3%81%8B%E3%82%89%E7%9F%A5%E3%82%8B%E3%81%93%E3%81%A8.md) — シオンは、製造された身体を持つ機械の民であり、また一人ずつ別の人格を持ち、人工知能でも集合意識でもありません。
 - [最小用語集](/player-facing/012-%E6%9C%80%E5%B0%8F%E7%94%A8%E8%AA%9E%E9%9B%86.md) — これ以上の語は、登場するクエストや機能の中でその都度説明します。
-- [9. Art prompt direction, not image generation request](/research/archotech-ruins/09-Art-prompt-direction-not-image-generation-request.md) — RimWorld風Nexus Core Towerの形状、配色、材質、禁止表現を将来の画像資産向けに指定する。
-- [Sources inspected](/research/known-code/001-Sources-inspected.md) — - Daffodil-lab/Meiko-Race-The-Manufactured-Utopia-A-Clockwork-Fox-Doll at indexed commit aed3ab77724fdab6cf9166abab80bf2dd22a9e96. -…。
-- [Rejected from the runtime](/research/known-code/004-Rejected-from-the-runtime.md) — - A monolithic Core building Comp as the owner of resource truth. - Separate aggregate reservation totals without reservation records.…。
-- [0. Purpose](/research/reference-mods/00-Purpose.md) — This document records how three existing RimWorld Workshop mods should be used as structural references for Shion Nexus.。
-- [4. Fleshbeast Colony structural lessons](/research/reference-mods/04-Fleshbeast-Colony-structural-lessons.md) — Fleshbeast Colony expands Anomaly's fleshbeast theme into a colony-scale organic infrastructure. Its public description emphasizes…。
-- [6. Combined structural extraction](/research/reference-mods/06-Combined-structural-extraction.md) — The three reference mods suggest the following useful structures、具体的にはCentral resource reservoir：Monolyn Light / Tower, Fleshbeast…。
-- [7. Shion Nexus non-copy rules](/research/reference-mods/07-Shion-Nexus-non-copy-rules.md) — Shion Nexus must not become、具体的にはMonolyn with foxes;とFleshbeast with machines;を扱う。
-- [9. Final rule](/research/reference-mods/09-Final-rule.md) — The reference mods prove that strong race/colony mods work best when they are not just pawns with stats. They need a colony-scale…。
+- [9. Art prompt direction, not image generation request](/research/archotech-ruins/09-Art-prompt-direction-not-image-generation-request-%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%86%E3%83%83%E3%82%AF%E9%81%BA%E8%B7%A1%E5%8F%82%E8%80%83.md) — RimWorld風Nexus Core Towerの形状、配色、材質、禁止表現を将来の画像資産向けに指定する。
+- [Sources inspected](/research/known-code/001-Sources-inspected-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E5%8F%82%E8%80%83.md) — - Daffodil-lab/Meiko-Race-The-Manufactured-Utopia-A-Clockwork-Fox-Doll at indexed commit aed3ab77724fdab6cf9166abab80bf2dd22a9e96. -…。
+- [Rejected from the runtime](/research/known-code/004-Rejected-from-the-runtime-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E5%8F%82%E8%80%83.md) — - A monolithic Core building Comp as the owner of resource truth. - Separate aggregate reservation totals without reservation records.…。
+- [0. Purpose](/research/reference-mods/00-Purpose-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — This document records how three existing RimWorld Workshop mods should be used as structural references for Shion Nexus.。
+- [4. Fleshbeast Colony structural lessons](/research/reference-mods/04-Fleshbeast-Colony-structural-lessons-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — Fleshbeast Colony expands Anomaly's fleshbeast theme into a colony-scale organic infrastructure. Its public description emphasizes…。
+- [6. Combined structural extraction](/research/reference-mods/06-Combined-structural-extraction-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — The three reference mods suggest the following useful structures、具体的にはCentral resource reservoir：Monolyn Light / Tower, Fleshbeast…。
+- [7. Shion Nexus non-copy rules](/research/reference-mods/07-Shion-Nexus-non-copy-rules-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — Shion Nexus must not become、具体的にはMonolyn with foxes;とFleshbeast with machines;を扱う。
+- [9. Final rule](/research/reference-mods/09-Final-rule-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — The reference mods prove that strong race/colony mods work best when they are not just pawns with stats. They need a colony-scale…。
 - [6. 実在参照と命名の処理](/research/theme-overhaul/06-%E5%AE%9F%E5%9C%A8%E5%8F%82%E7%85%A7%E3%81%A8%E5%91%BD%E5%90%8D%E3%81%AE%E5%87%A6%E7%90%86.md) — 以下はテーマ・トーン再審査ガイドQ0と、近未来／20世紀パスティーシュ回避の両方から優先度が高い。
 - [3. 1.0の最終完成像](/roadmap/03-1-0%E3%81%AE%E6%9C%80%E7%B5%82%E5%AE%8C%E6%88%90%E5%83%8F.md) — 最終的なCoreは、少なくとも次を一つの製品として成立させる。
 - [5. β版](/roadmap/05-%CE%B2%E7%89%88.md) — β版は、α版に含めなかったコアMODとレッドスターの要素を追加し、両製品を完成へ到達させる期間である。
@@ -64,6 +64,6 @@
 - [8. 現在地](/roadmap/08-%E7%8F%BE%E5%9C%A8%E5%9C%B0.md) — 2026-08-02時点で工業基盤の実装作業は存在するが、工業完成マイルストーンとShion統合αは未完成である。
 - [9. 次の作業順](/roadmap/09-%E6%AC%A1%E3%81%AE%E4%BD%9C%E6%A5%AD%E9%A0%86.md) — 工業管理画面の基準画像とRimWorld 1.6画面契約を先に固定し、種族非依存の保管基盤とコンビナートを実装してからシオン種族と図像をα版へ統合する。
 - [10. 変更管理](/roadmap/10-%E5%A4%89%E6%9B%B4%E7%AE%A1%E7%90%86.md) — 本書を更新する場合、少なくとも次を記録するという方針の適用範囲と条件を定める。
-- [9. The Hive](/world/09-The-Hive.md) — The Hiveは、通常シオン社会の標準ではない、例外的な単一中枢運営を扱う。
+- [9. The Hive](/world/09-The-Hive-%E3%82%B6%E3%83%BB%E3%83%8F%E3%82%A4%E3%83%B4.md) — The Hiveは、通常シオン社会の標準ではない、例外的な単一中枢運営を扱う。
 - [11. 保護された未確定事項](/world/11-%E4%BF%9D%E8%AD%B7%E3%81%95%E3%82%8C%E3%81%9F%E6%9C%AA%E7%A2%BA%E5%AE%9A%E4%BA%8B%E9%A0%85.md) — 次の事項は、設定不足ではなく、本書が意図的に正解を固定しない領域である。
 - [12. 正史上の禁止境界](/world/12-%E6%AD%A3%E5%8F%B2%E4%B8%8A%E3%81%AE%E7%A6%81%E6%AD%A2%E5%A2%83%E7%95%8C.md) — 新しい設定は、帝国と同盟の連続性と変化、純粋な善意、善意の非対称性、人格と身体の分離を同時に壊さない場合にのみ採用できる。

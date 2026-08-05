@@ -463,7 +463,7 @@ export function deriveDescription(record, overrides = {}) {
     description = backstoryDescription(record.title, record.body);
   } else if (
     record.type === "Decision Log Entry" ||
-    /^decisions\/decision-\d+\.md$/.test(key)
+    /^decisions\/decision-\d+(?:-[^/]+)?\.md$/.test(key)
   ) {
     description = decisionDescription(record.title, record.body);
   } else {
@@ -478,7 +478,7 @@ export function deriveDescription(record, overrides = {}) {
       description = ensureSentence(`${base}という経験を持つ経歴`);
     } else if (
       record.type === "Decision Log Entry" ||
-      /^decisions\/decision-\d+\.md$/.test(key)
+      /^decisions\/decision-\d+(?:-[^/]+)?\.md$/.test(key)
     ) {
       description = ensureSentence(`${base}を現行方針として確定した決定履歴`);
     } else {

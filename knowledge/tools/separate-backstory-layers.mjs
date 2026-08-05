@@ -7,7 +7,7 @@ const planned = [];
 
 for (const group of groups) {
   const dir = path.join(root, "knowledge", "backstories", group);
-  const files = fs.readdirSync(dir).filter((name) => /^SHION_[CA]\d{3}\.md$/.test(name));
+  const files = fs.readdirSync(dir).filter((name) => /^SHION_[CA]\d{3}(?:-[^.]+)?\.md$/.test(name));
   for (const name of files) {
     const file = path.join(dir, name);
     const text = fs.readFileSync(file, "utf8");

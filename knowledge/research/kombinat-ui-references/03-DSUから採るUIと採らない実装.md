@@ -49,5 +49,5 @@ Core独自保管・接続システムでは次を採用する。
 
 - 上位索引: [kombinat-ui-references](/research/kombinat-ui-references/index.md)
 - 正規実装境界: [Core独自保管・接続システムの実装境界](/design/51-Core独自保管接続システムの実装境界.md)
-- 正規UI仕様: [Kombinat UI](/kombinat/core/09-UI.md)
+- 正規UI仕様: [Kombinat UI](/kombinat/core/09-UI-操作画面.md)
 - 性能方針: [パフォーマンス方針](/design/23-パフォーマンス方針.md)

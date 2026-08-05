@@ -33,7 +33,7 @@ sources:
 
 - 上位索引: [research/endfield-aic](/research/endfield-aic/index.md)
 - 同じ出典の前項: [Details(設計分析としての示唆)](/research/endfield-aic/002-Details設計分析としての示唆.md)
-- 同じ出典の次項: [Caveats](/research/endfield-aic/004-Caveats.md)
+- 同じ出典の次項: [Caveats](/research/endfield-aic/004-Caveats-エンドフィールド工業参考.md)
 - 制作・開示規則: [制作・開示規則](/authoring/index.md)
 
 ## 出典

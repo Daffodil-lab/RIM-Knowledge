@@ -154,8 +154,8 @@ CIは通常モードを使う。既存資料を一括して`verified`へ変更�
 
 ## 関連項目
 
-- RIMのメタデータ正本: [RIM OKFメタデータ契約](/governance/metadata-contract.md)
-- 更新手順: [OKF知識の更新手順](/governance/editing-workflow.md)
+- RIMのメタデータ正本: [RIM OKFメタデータ契約](/governance/metadata-contract-メタデータ契約.md)
+- 更新手順: [OKF知識の更新手順](/governance/editing-workflow-知識の更新手順.md)
 - 検証コマンド: [OKF保守ツール](/tools/index.md)
 - 公式英語版: [Open Knowledge Format 0.2](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md)
 - ライセンス: [Apache License 2.0](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/LICENSE.md)

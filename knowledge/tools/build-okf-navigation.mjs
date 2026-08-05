@@ -463,7 +463,7 @@ for (const [file, content] of expectedNavigation) {
 
 const eraBackstories = records.filter(
   (record) =>
-    /^backstories\/(?:formation|mastery)\/SHION_[CA]\d{3}\.md$/.test(
+    /^backstories\/(?:formation|mastery)\/SHION_[CA]\d{3}(?:-[^/]+)?\.md$/.test(
       record.relative,
     ),
 );

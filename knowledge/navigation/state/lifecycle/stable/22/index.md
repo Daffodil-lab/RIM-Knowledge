@@ -4,19 +4,19 @@
 
 ## 項目
 
-- [12. Final lesson](/research/monolyn-ui/12-Final-lesson.md) — Monolyn's system design is strong because its Tower, Light, Codex, implants, buildings, and terminals form a coherent identity.。
-- [13. Source links recorded by user](/research/monolyn-ui/13-Source-links-recorded-by-user.md) — Source links recorded by userは、NamuWiki Monolyn page:…。
+- [12. Final lesson](/research/monolyn-ui/12-Final-lesson-%E3%83%A2%E3%83%8E%E3%83%AA%E3%83%B3%E6%93%8D%E4%BD%9C%E7%94%BB%E9%9D%A2%E5%8F%82%E8%80%83.md) — Monolyn's system design is strong because its Tower, Light, Codex, implants, buildings, and terminals form a coherent identity.。
+- [13. Source links recorded by user](/research/monolyn-ui/13-Source-links-recorded-by-user-%E3%83%A2%E3%83%8E%E3%83%AA%E3%83%B3%E6%93%8D%E4%BD%9C%E7%94%BB%E9%9D%A2%E5%8F%82%E8%80%83.md) — Source links recorded by userは、NamuWiki Monolyn page:…。
 - [Open Knowledge Format 0.2 日本語規範解説](/research/okf/00-Open-Knowledge-Format-v0.2-%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A7%A3%E8%AA%AC.md) — 公式Open Knowledge Format 0.2の必須構造、出典、検証、鮮度、実行証明とRIM拡張の関係を日本語で確認できる参照資料。
-- [0. Purpose](/research/reference-mods/00-Purpose.md) — This document records how three existing RimWorld Workshop mods should be used as structural references for Shion Nexus.。
-- [1. Source links](/research/reference-mods/01-Source-links.md) — Source linksは、Monolyn Race - Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3742031864とFleshbeast Colony -…。
-- [2. High-level comparison](/research/reference-mods/02-High-level-comparison.md) — High-level comparisonは、Mod：Public core idea：Shion Nexus reference value：Do not copyとMonolyn Race：Tower gathers Light through prayer and…。
-- [3. Monolyn Race structural lessons](/research/reference-mods/03-Monolyn-Race-structural-lessons.md) — Monolyn Race is useful because it presents a complete central-resource colony model.。
-- [4. Fleshbeast Colony structural lessons](/research/reference-mods/04-Fleshbeast-Colony-structural-lessons.md) — Fleshbeast Colony expands Anomaly's fleshbeast theme into a colony-scale organic infrastructure. Its public description emphasizes…。
-- [5. Arachnae Swarm 2 structural lessons](/research/reference-mods/05-Arachnae-Swarm-2-structural-lessons.md) — Arachnae Swarm 2 publicly describes a Gestalt consciousness colony centered on a Queen. The Queen commands Overlords, and Overlords…。
-- [6. Combined structural extraction](/research/reference-mods/06-Combined-structural-extraction.md) — The three reference mods suggest the following useful structures、具体的にはCentral resource reservoir：Monolyn Light / Tower, Fleshbeast…。
-- [7. Shion Nexus non-copy rules](/research/reference-mods/07-Shion-Nexus-non-copy-rules.md) — Shion Nexus must not become、具体的にはMonolyn with foxes;とFleshbeast with machines;を扱う。
-- [8. First playable reference priorities](/research/reference-mods/08-First-playable-reference-priorities.md) — First playable reference prioritiesは、Monolyn-style central resource and Tower automation.とMonolyn-style colony support through central…。
-- [9. Final rule](/research/reference-mods/09-Final-rule.md) — The reference mods prove that strong race/colony mods work best when they are not just pawns with stats. They need a colony-scale…。
+- [0. Purpose](/research/reference-mods/00-Purpose-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — This document records how three existing RimWorld Workshop mods should be used as structural references for Shion Nexus.。
+- [1. Source links](/research/reference-mods/01-Source-links-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — Source linksは、Monolyn Race - Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3742031864とFleshbeast Colony -…。
+- [2. High-level comparison](/research/reference-mods/02-High-level-comparison-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — High-level comparisonは、Mod：Public core idea：Shion Nexus reference value：Do not copyとMonolyn Race：Tower gathers Light through prayer and…。
+- [3. Monolyn Race structural lessons](/research/reference-mods/03-Monolyn-Race-structural-lessons-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — Monolyn Race is useful because it presents a complete central-resource colony model.。
+- [4. Fleshbeast Colony structural lessons](/research/reference-mods/04-Fleshbeast-Colony-structural-lessons-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — Fleshbeast Colony expands Anomaly's fleshbeast theme into a colony-scale organic infrastructure. Its public description emphasizes…。
+- [5. Arachnae Swarm 2 structural lessons](/research/reference-mods/05-Arachnae-Swarm-2-structural-lessons-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — Arachnae Swarm 2 publicly describes a Gestalt consciousness colony centered on a Queen. The Queen commands Overlords, and Overlords…。
+- [6. Combined structural extraction](/research/reference-mods/06-Combined-structural-extraction-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — The three reference mods suggest the following useful structures、具体的にはCentral resource reservoir：Monolyn Light / Tower, Fleshbeast…。
+- [7. Shion Nexus non-copy rules](/research/reference-mods/07-Shion-Nexus-non-copy-rules-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — Shion Nexus must not become、具体的にはMonolyn with foxes;とFleshbeast with machines;を扱う。
+- [8. First playable reference priorities](/research/reference-mods/08-First-playable-reference-priorities-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — First playable reference prioritiesは、Monolyn-style central resource and Tower automation.とMonolyn-style colony support through central…。
+- [9. Final rule](/research/reference-mods/09-Final-rule-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — The reference mods prove that strong race/colony mods work best when they are not just pawns with stats. They need a colony-scale…。
 - [10. Vivi Raceの非HAR種族実装パターン](/research/reference-mods/10-Vivi-Race%E9%9D%9EHAR%E7%A8%AE%E6%97%8F%E5%AE%9F%E8%A3%85%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3.md) — Vivi RaceがHARを必須所有者にせず、バニラ人型処理、Biotech、独自身体、Pawn render tree、任意HAR互換を組み合わせる構成をShion向けに分類する。
 - [0. 結論](/research/theme-overhaul/00-%E7%B5%90%E8%AB%96.md) — 世界観の根本を捨てる必要はない、また核となる発想は強い。
 - [1. 正式な中心命題](/research/theme-overhaul/01-%E6%AD%A3%E5%BC%8F%E3%81%AA%E4%B8%AD%E5%BF%83%E5%91%BD%E9%A1%8C.md) — 今後は、以下を全コンテンツに優先するという方針の適用範囲と条件を定める。
@@ -50,7 +50,7 @@
 - [6. 人格記録、復活、同化](/world/06-%E4%BA%BA%E6%A0%BC%E8%A8%98%E9%8C%B2-%E5%BE%A9%E6%B4%BB-%E5%90%8C%E5%8C%96.md) — 同盟は、身体再製造、人格記録、復活、他身体への移行に相当する技術を持つ。
 - [7. 技術体系](/world/07-%E6%8A%80%E8%A1%93%E4%BD%93%E7%B3%BB.md) — 同盟は、現代技術を数百年発展させただけの文明ではない。
 - [8. 遠征共同体とレッドスター](/world/08-%E9%81%A0%E5%BE%81%E5%85%B1%E5%90%8C%E4%BD%93%E3%81%A8Red-Star.md) — コアMODは、独立団、漂着者、認可団、その他の遠征共同体など、複数の開始立場を許容する。
-- [9. The Hive](/world/09-The-Hive.md) — The Hiveは、通常シオン社会の標準ではない、例外的な単一中枢運営を扱う。
+- [9. The Hive](/world/09-The-Hive-%E3%82%B6%E3%83%BB%E3%83%8F%E3%82%A4%E3%83%B4.md) — The Hiveは、通常シオン社会の標準ではない、例外的な単一中枢運営を扱う。
 - [10. 車輌と改良動物](/world/10-%E8%BB%8A%E8%BC%8C%E3%81%A8%E6%94%B9%E8%89%AF%E5%8B%95%E7%89%A9.md) — 旧帝国と現代同盟は、長期にわたる選抜育種、遺伝子調整、人工生態系への適応によって作られた多様な改良動物を利用している。
 - [11. 保護された未確定事項](/world/11-%E4%BF%9D%E8%AD%B7%E3%81%95%E3%82%8C%E3%81%9F%E6%9C%AA%E7%A2%BA%E5%AE%9A%E4%BA%8B%E9%A0%85.md) — 次の事項は、設定不足ではなく、本書が意図的に正解を固定しない領域である。
 - [12. 正史上の禁止境界](/world/12-%E6%AD%A3%E5%8F%B2%E4%B8%8A%E3%81%AE%E7%A6%81%E6%AD%A2%E5%A2%83%E7%95%8C.md) — 新しい設定は、帝国と同盟の連続性と変化、純粋な善意、善意の非対称性、人格と身体の分離を同時に壊さない場合にのみ採用できる。
@@ -75,7 +75,7 @@
 - [31. 全てはまだ始まったばかり](/world/31-%E5%85%A8%E3%81%A6%E3%81%AF%E3%81%BE%E3%81%A0%E5%A7%8B%E3%81%BE%E3%81%A3%E3%81%9F%E3%81%B0%E3%81%8B%E3%82%8A.md) — シオンにとって人類統一は歴史の終着点ではなく、その先に続く未知の時代へ入るための一段階にすぎない。
 - [32. 勲章と顕彰](/world/32-%E5%8B%B2%E7%AB%A0%E3%81%A8%E9%A1%95%E5%BD%B0.md) — 帝国と同盟には功績や奉仕を記憶する勲章文化があるが、勲章は身分、能力、政治権限を自動的に付与する装置ではない。
 - [33. 代表工業資源](/world/33-%E4%BB%A3%E8%A1%A8%E5%B7%A5%E6%A5%AD%E8%B3%87%E6%BA%90.md) — Coreで反復して扱う五つの代表工業資源は、Cell、エネルギー結晶、構造材、保守資材、弾薬結晶である。
-- [34. Cell](/world/34-Cell.md) — Cellは、帝国から継承された自己増殖可能な工業媒体であり、物質、身体、設備を構成・変更する基盤の一つである。
+- [34. Cell](/world/34-Cell-%E3%82%BB%E3%83%AB.md) — Cellは、帝国から継承された自己増殖可能な工業媒体であり、物質、身体、設備を構成・変更する基盤の一つである。
 - [35. 凝縮真空](/world/35-%E5%87%9D%E7%B8%AE%E7%9C%9F%E7%A9%BA.md) — 凝縮真空（CVE）は、エネルギー分野に属する同盟時代の既存技術または形態である。
 - [36. 構造材](/world/36-%E6%A7%8B%E9%80%A0%E6%9D%90.md) — 構造材は、建築、設備、基礎的な製造へ用いる、規格化された物理材料である。
 - [37. 保守資材](/world/37-%E4%BF%9D%E5%AE%88%E8%B3%87%E6%9D%90.md) — 保守資材は、設備、身体、装備の保守と修理へ投入する物理的な資材である。

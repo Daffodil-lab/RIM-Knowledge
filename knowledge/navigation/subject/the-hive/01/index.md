@@ -10,28 +10,28 @@
 - [9. 不合格条件](/authoring/09-%E4%B8%8D%E5%90%88%E6%A0%BC%E6%9D%A1%E4%BB%B6.md) — 新しい設定、文章、機能は次に該当する場合、再設計する。
 - [10. 廃止・降格された旧要素](/authoring/10-%E5%BB%83%E6%AD%A2%E3%83%BB%E9%99%8D%E6%A0%BC%E3%81%95%E3%82%8C%E3%81%9F%E6%97%A7%E8%A6%81%E7%B4%A0.md) — 2026-07-26に実施した旧要素の廃止・降格監査を履歴として保持する。
 - [4. 新規420稿の割当集計](/backstories/04-%E6%96%B0%E8%A6%8F420%E7%A8%BF%E3%81%AE%E5%89%B2%E5%BD%93%E9%9B%86%E8%A8%88.md) — 各新規稿は主Pool一つとSourceModule一つへ同時算入する。
-- [SHION_C113 塔域の救出遊戯](/backstories/formation/SHION_C113.md) — 塔の狭い保守路から人形を静かに運び出し、全員の帰還を数える救出遊戯を競った。
-- [SHION_C117 塔域種子庫の記録助手](/backstories/formation/SHION_C117.md) — 種子袋には故郷の名、採取日、発芽条件を三度書きました。
-- [SHION_C122 塔域の再会受付](/backstories/formation/SHION_C122.md) — 塔域の再会受付で、記憶欠落、複製後の差、不在時間を歓迎より先に説明した。
-- [SHION_C140 帝国書庫塔の食堂育ち](/backstories/formation/SHION_C140.md) — 帝国書庫塔の食堂では、頁をめくる音より大きな声を出さないのが礼儀だった。
-- [SHION_C150 塔域居住層の仮設住宅づくり](/backstories/formation/SHION_C150.md) — 塔域の帰還者へ歓迎式より先に休息場所を用意し、身体構成と本人の希望に合わせて仮設住宅を直した。
-- [SHION_C182 帝国書庫塔の再会窓口](/backstories/formation/SHION_C182.md) — 書庫塔の窓口では、大声の歓迎は禁じられていました。
-- [SHION_C202 帝国書庫塔の動物診療](/backstories/formation/SHION_C202.md) — 帝国書庫塔の診療室で、動物の歩幅・耳・呼吸を観察し、事実と痛みの推測を分けて記録した。
-- [SHION_C216 塔域居住層の多視点壁画](/backstories/formation/SHION_C216.md) — 塔域の壁画は、見る階によって別の出来事に見えるよう描きました。
-- [SHION_C224 塔の再会膳](/backstories/formation/SHION_C224.md) — 塔の祝い膳には、帰ってきた者の席と、帰らなかった者の席が並んでいました。
-- [SHION_C267 塔の三色記録帳](/backstories/formation/SHION_C267.md) — 塔の記録院で、本人は事実を黒、推測を青、後世の注釈を赤で書き分けました。
-- [SHION_A009 物資台帳官](/backstories/mastery/SHION_A009.md) — 同盟補給局で、台帳上の在庫と現場が実際に使える物資の差を調べた。
-- [SHION_A031 通信塔夜番](/backstories/mastery/SHION_A031.md) — 夜間の通信塔で、救難信号、商取引、定時連絡、住民の私信を受信した。
-- [SHION_A123 塔域居住層の共同農園技師](/backstories/mastery/SHION_A123.md) — 塔域居住層の農園を、大規模改築ではなく照明・水路・利用時刻の調整で支えた。
-- [SHION_A125 塔域居住層の古道具修復師](/backstories/mastery/SHION_A125.md) — 塔域で古道具の機能を直しながら、持主が記憶する傷や印は希望に応じて残した。
-- [SHION_A145 塔域居住層の地下救助員](/backstories/mastery/SHION_A145.md) — 塔域の崩落では、壁の振動を聞いて救助坑を掘りました。
-- [SHION_A185 塔域居住層の精密工](/backstories/mastery/SHION_A185.md) — 塔の救難具を利用者の身体構成と操作習慣に合わせ、暗闇でも触れて判別できるよう調整した。
-- [SHION_A191 塔域居住層の徒手警護員](/backstories/mastery/SHION_A191.md) — 塔域居住層で人の流れを読み、武器を抜かず群衆を分け、端末投影と独立人格を混同しない確認を守った。
-- [SHION_A249 塔域居住層の古文書研究者](/backstories/mastery/SHION_A249.md) — 塔の古文書には、端末番号だけで住民を記した時代がある。
-- [SHION_A250 塔域居住層の射撃教官](/backstories/mastery/SHION_A250.md) — 塔域の射撃大会で、命中数より存在区分の識別、不明時の不発砲、誤認訂正へ点を付けた。
-- [SHION_A271 塔域居住層の蘇生後療養医](/backstories/mastery/SHION_A271.md) — 塔で蘇生した者を、本人はすぐ元の部屋へ戻さなかった。
-- [SHION_A287 塔域居住層の身体競技指導員](/backstories/mastery/SHION_A287.md) — 塔域の身体競技では、全員を同じ規格へ合わせる案を評議会で退けた。
-- [SHION_A308 塔域居住層の公共案内官](/backstories/mastery/SHION_A308.md) — 塔へ来た人には、案内図だけ渡さず窓口まで一緒に歩いた。
+- [SHION_C113 塔域の救出遊戯](/backstories/formation/SHION_C113-%E5%A1%94%E5%9F%9F%E3%81%AE%E6%95%91%E5%87%BA%E9%81%8A%E6%88%AF.md) — 塔の狭い保守路から人形を静かに運び出し、全員の帰還を数える救出遊戯を競った。
+- [SHION_C117 塔域種子庫の記録助手](/backstories/formation/SHION_C117-%E5%A1%94%E5%9F%9F%E7%A8%AE%E5%AD%90%E5%BA%AB%E3%81%AE%E8%A8%98%E9%8C%B2%E5%8A%A9%E6%89%8B.md) — 種子袋には故郷の名、採取日、発芽条件を三度書きました。
+- [SHION_C122 塔域の再会受付](/backstories/formation/SHION_C122-%E5%A1%94%E5%9F%9F%E3%81%AE%E5%86%8D%E4%BC%9A%E5%8F%97%E4%BB%98.md) — 塔域の再会受付で、記憶欠落、複製後の差、不在時間を歓迎より先に説明した。
+- [SHION_C140 帝国書庫塔の食堂育ち](/backstories/formation/SHION_C140-%E5%B8%9D%E5%9B%BD%E6%9B%B8%E5%BA%AB%E5%A1%94%E3%81%AE%E9%A3%9F%E5%A0%82%E8%82%B2%E3%81%A1.md) — 帝国書庫塔の食堂では、頁をめくる音より大きな声を出さないのが礼儀だった。
+- [SHION_C150 塔域居住層の仮設住宅づくり](/backstories/formation/SHION_C150-%E5%A1%94%E5%9F%9F%E5%B1%85%E4%BD%8F%E5%B1%A4%E3%81%AE%E4%BB%AE%E8%A8%AD%E4%BD%8F%E5%AE%85%E3%81%A5%E3%81%8F%E3%82%8A.md) — 塔域の帰還者へ歓迎式より先に休息場所を用意し、身体構成と本人の希望に合わせて仮設住宅を直した。
+- [SHION_C182 帝国書庫塔の再会窓口](/backstories/formation/SHION_C182-%E5%B8%9D%E5%9B%BD%E6%9B%B8%E5%BA%AB%E5%A1%94%E3%81%AE%E5%86%8D%E4%BC%9A%E7%AA%93%E5%8F%A3.md) — 書庫塔の窓口では、大声の歓迎は禁じられていました。
+- [SHION_C202 帝国書庫塔の動物診療](/backstories/formation/SHION_C202-%E5%B8%9D%E5%9B%BD%E6%9B%B8%E5%BA%AB%E5%A1%94%E3%81%AE%E5%8B%95%E7%89%A9%E8%A8%BA%E7%99%82.md) — 帝国書庫塔の診療室で、動物の歩幅・耳・呼吸を観察し、事実と痛みの推測を分けて記録した。
+- [SHION_C216 塔域居住層の多視点壁画](/backstories/formation/SHION_C216-%E5%A1%94%E5%9F%9F%E5%B1%85%E4%BD%8F%E5%B1%A4%E3%81%AE%E5%A4%9A%E8%A6%96%E7%82%B9%E5%A3%81%E7%94%BB.md) — 塔域の壁画は、見る階によって別の出来事に見えるよう描きました。
+- [SHION_C224 塔の再会膳](/backstories/formation/SHION_C224-%E5%A1%94%E3%81%AE%E5%86%8D%E4%BC%9A%E8%86%B3.md) — 塔の祝い膳には、帰ってきた者の席と、帰らなかった者の席が並んでいました。
+- [SHION_C267 塔の三色記録帳](/backstories/formation/SHION_C267-%E5%A1%94%E3%81%AE%E4%B8%89%E8%89%B2%E8%A8%98%E9%8C%B2%E5%B8%B3.md) — 塔の記録院で、本人は事実を黒、推測を青、後世の注釈を赤で書き分けました。
+- [SHION_A009 物資台帳官](/backstories/mastery/SHION_A009-%E7%89%A9%E8%B3%87%E5%8F%B0%E5%B8%B3%E5%AE%98.md) — 同盟補給局で、台帳上の在庫と現場が実際に使える物資の差を調べた。
+- [SHION_A031 通信塔夜番](/backstories/mastery/SHION_A031-%E9%80%9A%E4%BF%A1%E5%A1%94%E5%A4%9C%E7%95%AA.md) — 夜間の通信塔で、救難信号、商取引、定時連絡、住民の私信を受信した。
+- [SHION_A123 塔域居住層の共同農園技師](/backstories/mastery/SHION_A123-%E5%A1%94%E5%9F%9F%E5%B1%85%E4%BD%8F%E5%B1%A4%E3%81%AE%E5%85%B1%E5%90%8C%E8%BE%B2%E5%9C%92%E6%8A%80%E5%B8%AB.md) — 塔域居住層の農園を、大規模改築ではなく照明・水路・利用時刻の調整で支えた。
+- [SHION_A125 塔域居住層の古道具修復師](/backstories/mastery/SHION_A125-%E5%A1%94%E5%9F%9F%E5%B1%85%E4%BD%8F%E5%B1%A4%E3%81%AE%E5%8F%A4%E9%81%93%E5%85%B7%E4%BF%AE%E5%BE%A9%E5%B8%AB.md) — 塔域で古道具の機能を直しながら、持主が記憶する傷や印は希望に応じて残した。
+- [SHION_A145 塔域居住層の地下救助員](/backstories/mastery/SHION_A145-%E5%A1%94%E5%9F%9F%E5%B1%85%E4%BD%8F%E5%B1%A4%E3%81%AE%E5%9C%B0%E4%B8%8B%E6%95%91%E5%8A%A9%E5%93%A1.md) — 塔域の崩落では、壁の振動を聞いて救助坑を掘りました。
+- [SHION_A185 塔域居住層の精密工](/backstories/mastery/SHION_A185-%E5%A1%94%E5%9F%9F%E5%B1%85%E4%BD%8F%E5%B1%A4%E3%81%AE%E7%B2%BE%E5%AF%86%E5%B7%A5.md) — 塔の救難具を利用者の身体構成と操作習慣に合わせ、暗闇でも触れて判別できるよう調整した。
+- [SHION_A191 塔域居住層の徒手警護員](/backstories/mastery/SHION_A191-%E5%A1%94%E5%9F%9F%E5%B1%85%E4%BD%8F%E5%B1%A4%E3%81%AE%E5%BE%92%E6%89%8B%E8%AD%A6%E8%AD%B7%E5%93%A1.md) — 塔域居住層で人の流れを読み、武器を抜かず群衆を分け、端末投影と独立人格を混同しない確認を守った。
+- [SHION_A249 塔域居住層の古文書研究者](/backstories/mastery/SHION_A249-%E5%A1%94%E5%9F%9F%E5%B1%85%E4%BD%8F%E5%B1%A4%E3%81%AE%E5%8F%A4%E6%96%87%E6%9B%B8%E7%A0%94%E7%A9%B6%E8%80%85.md) — 塔の古文書には、端末番号だけで住民を記した時代がある。
+- [SHION_A250 塔域居住層の射撃教官](/backstories/mastery/SHION_A250-%E5%A1%94%E5%9F%9F%E5%B1%85%E4%BD%8F%E5%B1%A4%E3%81%AE%E5%B0%84%E6%92%83%E6%95%99%E5%AE%98.md) — 塔域の射撃大会で、命中数より存在区分の識別、不明時の不発砲、誤認訂正へ点を付けた。
+- [SHION_A271 塔域居住層の蘇生後療養医](/backstories/mastery/SHION_A271-%E5%A1%94%E5%9F%9F%E5%B1%85%E4%BD%8F%E5%B1%A4%E3%81%AE%E8%98%87%E7%94%9F%E5%BE%8C%E7%99%82%E9%A4%8A%E5%8C%BB.md) — 塔で蘇生した者を、本人はすぐ元の部屋へ戻さなかった。
+- [SHION_A287 塔域居住層の身体競技指導員](/backstories/mastery/SHION_A287-%E5%A1%94%E5%9F%9F%E5%B1%85%E4%BD%8F%E5%B1%A4%E3%81%AE%E8%BA%AB%E4%BD%93%E7%AB%B6%E6%8A%80%E6%8C%87%E5%B0%8E%E5%93%A1.md) — 塔域の身体競技では、全員を同じ規格へ合わせる案を評議会で退けた。
+- [SHION_A308 塔域居住層の公共案内官](/backstories/mastery/SHION_A308-%E5%A1%94%E5%9F%9F%E5%B1%85%E4%BD%8F%E5%B1%A4%E3%81%AE%E5%85%AC%E5%85%B1%E6%A1%88%E5%86%85%E5%AE%98.md) — 塔へ来た人には、案内図だけ渡さず窓口まで一緒に歩いた。
 - [0. 結論](/colony/00-%E7%B5%90%E8%AB%96.md) — Coreの最初のプレイ可能対象を、本国政府の正規指揮系統と保証された補給へ恒常的に属さず、自分たちの判断と共同資産で辺境に暮らしを作る小規模な独立開拓団へ固定する。
 - [2. 「独立」の定義](/colony/02-%E7%8B%AC%E7%AB%8B%E3%81%AE%E5%AE%9A%E7%BE%A9.md) — 独立開拓団は、規模、統治制度、職業、思想ではなく、次の本国関係を満たす組織の大分類である。
 - [3. 標準Core開拓団](/colony/03-%E6%A8%99%E6%BA%96Core%E9%96%8B%E6%8B%93%E5%9B%A3.md) — Core α版の標準団は、本人たちの合意で組織された民間の小規模開拓団である。
@@ -45,15 +45,15 @@
 - [23. 失敗時の規則](/colony/23-%E5%A4%B1%E6%95%97%E6%99%82%E3%81%AE%E8%A6%8F%E5%89%87.md) — エラー時にRed Star支援やHive機能を代替起動しない。
 - [25. 保護候補と廃止](/colony/25-%E4%BF%9D%E8%AD%B7%E5%80%99%E8%A3%9C%E3%81%A8%E5%BB%83%E6%AD%A2.md) — 2026-07-26に行った独立開拓団の候補・廃止監査を履歴として保持する。
 - [27. The Hiveとの境界](/colony/27-The-Hive%E3%81%A8%E3%81%AE%E5%A2%83%E7%95%8C.md) — The Hiveの設定資料は保存するが、独立開拓団実装の抽象化要件にしない。
-- [28. Definition of Done](/colony/28-Definition-of-Done.md) — Core独立開拓団α版は、次を全て満たした時に完成する。
-- [確定#300：新規拡張MOD「叛逆航路」（原題：Ancillary Justice・旧称/開発コード：Shion Nexus）を登録——単一Nexus Core運営という例外的ゲームプレイ、既存loreとの4件の競合を解決](/decisions/decision-0300.md) — 新規拡張MOD「叛逆航路」（原題：Ancillary Justice・旧称/開発コード：Shion Nexus）を登録——単一Nexus Core運営という例外的ゲームプレイ、既存loreとの4件の競合を解決を確定した決定履歴。
-- [確定#339：仮称2件を最終確定——「Shion Race: 地場」→「Shion Race: Kombinat」、「分身」→「Shion Race: The Hive」](/decisions/decision-0339.md) — 仮称2件を最終確定——「Shion Race: 地場」→「Shion Race: Kombinat」、「分身」→「Shion Race: The Hive」を確定した決定履歴。
-- [確定#344：Tower Ledger／Nexus Core等の用語をA系統（Kombinat）／B系統（The Hive）で改称](/decisions/decision-0344.md) — Tower Ledger／Nexus Core等の用語をA系統（Kombinat）／B系統（The Hive）で改称を確定した決定履歴。
-- [確定#354：公開ロアを用途別の十一分冊と索引へ細分化](/decisions/decision-0354.md) — 公開ロアを用途別の十一分冊と索引へ細分化を確定した決定履歴。
-- [確定#363：占領回収・死者復活・ソフェルの魂観](/decisions/decision-0363.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#365：闇のアルコテックとの冷戦とThe Hiveの伝聞](/decisions/decision-0365.md) — 闇のアルコテックとの冷戦とThe Hiveの伝聞を確定した決定履歴。
-- [確定#389：MVP廃止、α公開候補、β終了条件、完成前セーブ互換](/decisions/decision-0389.md) — MVP廃止、α公開候補、β終了条件、完成前セーブ互換を確定した決定履歴。
-- [確定#390：Kombinat停止保存、資産価値、破壊時保全、性能優先方式](/decisions/decision-0390.md) — Kombinat停止保存、資産価値、破壊時保全、性能優先方式を確定した決定履歴。
+- [28. Definition of Done](/colony/28-Definition-of-Done-%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Core独立開拓団α版は、次を全て満たした時に完成する。
+- [確定#300：新規拡張MOD「叛逆航路」（原題：Ancillary Justice・旧称/開発コード：Shion Nexus）を登録——単一Nexus Core運営という例外的ゲームプレイ、既存loreとの4件の競合を解決](/decisions/decision-0300-%E7%A2%BA%E5%AE%9A-%E6%96%B0%E8%A6%8F%E6%8B%A1%E5%BC%B5-%E5%8F%9B%E9%80%86%E8%88%AA%E8%B7%AF-%E5%8E%9F%E9%A1%8C-%E6%97%A7%E7%A7%B0-%E9%96%8B%E7%99%BA%E3%82%B3%E3%83%BC%E3%83%89-%E3%82%92%E7%99%BB%E9%8C%B2-%E5%8D%98%E4%B8%80.md) — 新規拡張MOD「叛逆航路」（原題：Ancillary Justice・旧称/開発コード：Shion Nexus）を登録——単一Nexus Core運営という例外的ゲームプレイ、既存loreとの4件の競合を解決を確定した決定履歴。
+- [確定#339：仮称2件を最終確定——「Shion Race: 地場」→「Shion Race: Kombinat」、「分身」→「Shion Race: The Hive」](/decisions/decision-0339-%E7%A2%BA%E5%AE%9A-%E4%BB%AE%E7%A7%B0-%E4%BB%B6%E3%82%92%E6%9C%80%E7%B5%82%E7%A2%BA%E5%AE%9A-%E5%9C%B0%E5%A0%B4-%E5%88%86%E8%BA%AB.md) — 仮称2件を最終確定——「Shion Race: 地場」→「Shion Race: Kombinat」、「分身」→「Shion Race: The Hive」を確定した決定履歴。
+- [確定#344：Tower Ledger／Nexus Core等の用語をA系統（Kombinat）／B系統（The Hive）で改称](/decisions/decision-0344-%E7%A2%BA%E5%AE%9A-%E7%AD%89%E3%81%AE%E7%94%A8%E8%AA%9E%E3%82%92-%E7%B3%BB%E7%B5%B1-%E7%B3%BB%E7%B5%B1-%E3%81%A7%E6%94%B9%E7%A7%B0.md) — Tower Ledger／Nexus Core等の用語をA系統（Kombinat）／B系統（The Hive）で改称を確定した決定履歴。
+- [確定#354：公開ロアを用途別の十一分冊と索引へ細分化](/decisions/decision-0354-%E7%A2%BA%E5%AE%9A-%E5%85%AC%E9%96%8B%E3%83%AD%E3%82%A2%E3%82%92%E7%94%A8%E9%80%94%E5%88%A5%E3%81%AE%E5%8D%81%E4%B8%80%E5%88%86%E5%86%8A%E3%81%A8%E7%B4%A2%E5%BC%95%E3%81%B8%E7%B4%B0%E5%88%86%E5%8C%96.md) — 公開ロアを用途別の十一分冊と索引へ細分化を確定した決定履歴。
+- [確定#363：占領回収・死者復活・ソフェルの魂観](/decisions/decision-0363-%E7%A2%BA%E5%AE%9A-%E5%8D%A0%E9%A0%98%E5%9B%9E%E5%8F%8E-%E6%AD%BB%E8%80%85%E5%BE%A9%E6%B4%BB-%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AE%E9%AD%82%E8%A6%B3.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
+- [確定#365：闇のアルコテックとの冷戦とThe Hiveの伝聞](/decisions/decision-0365-%E7%A2%BA%E5%AE%9A-%E9%97%87%E3%81%AE%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%86%E3%83%83%E3%82%AF%E3%81%A8%E3%81%AE%E5%86%B7%E6%88%A6%E3%81%A8-%E3%81%AE%E4%BC%9D%E8%81%9E.md) — 闇のアルコテックとの冷戦とThe Hiveの伝聞を確定した決定履歴。
+- [確定#389：MVP廃止、α公開候補、β終了条件、完成前セーブ互換](/decisions/decision-0389-%E7%A2%BA%E5%AE%9A-%E5%BB%83%E6%AD%A2-%E5%85%AC%E9%96%8B%E5%80%99%E8%A3%9C-%E7%B5%82%E4%BA%86%E6%9D%A1%E4%BB%B6-%E5%AE%8C%E6%88%90%E5%89%8D%E3%82%BB%E3%83%BC%E3%83%96%E4%BA%92%E6%8F%9B.md) — MVP廃止、α公開候補、β終了条件、完成前セーブ互換を確定した決定履歴。
+- [確定#390：Kombinat停止保存、資産価値、破壊時保全、性能優先方式](/decisions/decision-0390-%E7%A2%BA%E5%AE%9A-%E5%81%9C%E6%AD%A2%E4%BF%9D%E5%AD%98-%E8%B3%87%E7%94%A3%E4%BE%A1%E5%80%A4-%E7%A0%B4%E5%A3%8A%E6%99%82%E4%BF%9D%E5%85%A8-%E6%80%A7%E8%83%BD%E5%84%AA%E5%85%88%E6%96%B9%E5%BC%8F.md) — Kombinat停止保存、資産価値、破壊時保全、性能優先方式を確定した決定履歴。
 - [結論](/design/033-%E7%B5%90%E8%AB%96.md) — シオンの製品全体は、一つのCore、分離された内部Runtime、後期の任意例外モジュール、固有の本国支援開始 として再構成する。
 - [7. 製品ファミリーの新しい境界](/design/07-%E8%A3%BD%E5%93%81%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E5%A2%83%E7%95%8C.md) — CoreはDLC非依存製品として設計しない、また開発・配布・標準試験は、RimWorld 1.6にRoyalty、Ideology、Biotech、Anomaly、Odysseyを全て有効化した環境を前提とする。
 - [8. Baseモジュール](/design/08-Base%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB.md) — Core設定は複数の開始立場を許容するが、最初に遊べるα版は数人規模の独立開拓団へ固定する。
@@ -67,18 +67,18 @@
 - [25. 検証シナリオ](/design/25-%E6%A4%9C%E8%A8%BC%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — 次をCore v2と本書だけから矛盾なく作れること。
 - [30. オーバーホール時の対象外記録](/design/30-%E5%AF%BE%E8%B1%A1%E5%A4%96.md) — 2026-07-26の統合資料オーバーホールで、正本化または実装値固定の対象にしなかった領域を履歴として保持する。
 - [2. 実装状態の参照](/kombinat/core/02-%E7%8A%B6%E6%85%8B%E5%88%86%E9%A1%9E.md) — Kombinatの実装状態はリリース計画の現在地が所有し、本節は中核仕様からその正本を参照する。
-- [13. β](/kombinat/core/13-%CE%B2.md) — Equipment Familyは作者が明示登録した候補だけを使う。
+- [13. β](/kombinat/core/13-%CE%B2-%E7%8F%BE%E8%A1%8C%E4%BB%95%E6%A7%98.md) — Equipment Familyは作者が明示登録した候補だけを使う。
 - [13. β境界](/kombinat/requirements/13-%CE%B2%E5%A2%83%E7%95%8C.md) — β境界は、Pawn Foundry要求とEquipment Familyを扱う。
 - [プレイヤーが最初から知ること](/player-facing/001-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%9C%80%E5%88%9D%E3%81%8B%E3%82%89%E7%9F%A5%E3%82%8B%E3%81%93%E3%81%A8.md) — シオンは、製造された身体を持つ機械の民であり、また一人ずつ別の人格を持ち、人工知能でも集合意識でもありません。
 - [最小用語集](/player-facing/012-%E6%9C%80%E5%B0%8F%E7%94%A8%E8%AA%9E%E9%9B%86.md) — これ以上の語は、登場するクエストや機能の中でその都度説明します。
-- [9. Art prompt direction, not image generation request](/research/archotech-ruins/09-Art-prompt-direction-not-image-generation-request.md) — RimWorld風Nexus Core Towerの形状、配色、材質、禁止表現を将来の画像資産向けに指定する。
-- [Sources inspected](/research/known-code/001-Sources-inspected.md) — - Daffodil-lab/Meiko-Race-The-Manufactured-Utopia-A-Clockwork-Fox-Doll at indexed commit aed3ab77724fdab6cf9166abab80bf2dd22a9e96. -…。
-- [Rejected from the runtime](/research/known-code/004-Rejected-from-the-runtime.md) — - A monolithic Core building Comp as the owner of resource truth. - Separate aggregate reservation totals without reservation records.…。
-- [0. Purpose](/research/reference-mods/00-Purpose.md) — This document records how three existing RimWorld Workshop mods should be used as structural references for Shion Nexus.。
-- [4. Fleshbeast Colony structural lessons](/research/reference-mods/04-Fleshbeast-Colony-structural-lessons.md) — Fleshbeast Colony expands Anomaly's fleshbeast theme into a colony-scale organic infrastructure. Its public description emphasizes…。
-- [6. Combined structural extraction](/research/reference-mods/06-Combined-structural-extraction.md) — The three reference mods suggest the following useful structures、具体的にはCentral resource reservoir：Monolyn Light / Tower, Fleshbeast…。
-- [7. Shion Nexus non-copy rules](/research/reference-mods/07-Shion-Nexus-non-copy-rules.md) — Shion Nexus must not become、具体的にはMonolyn with foxes;とFleshbeast with machines;を扱う。
-- [9. Final rule](/research/reference-mods/09-Final-rule.md) — The reference mods prove that strong race/colony mods work best when they are not just pawns with stats. They need a colony-scale…。
+- [9. Art prompt direction, not image generation request](/research/archotech-ruins/09-Art-prompt-direction-not-image-generation-request-%E3%82%A2%E3%83%AB%E3%82%B3%E3%83%86%E3%83%83%E3%82%AF%E9%81%BA%E8%B7%A1%E5%8F%82%E8%80%83.md) — RimWorld風Nexus Core Towerの形状、配色、材質、禁止表現を将来の画像資産向けに指定する。
+- [Sources inspected](/research/known-code/001-Sources-inspected-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E5%8F%82%E8%80%83.md) — - Daffodil-lab/Meiko-Race-The-Manufactured-Utopia-A-Clockwork-Fox-Doll at indexed commit aed3ab77724fdab6cf9166abab80bf2dd22a9e96. -…。
+- [Rejected from the runtime](/research/known-code/004-Rejected-from-the-runtime-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E5%8F%82%E8%80%83.md) — - A monolithic Core building Comp as the owner of resource truth. - Separate aggregate reservation totals without reservation records.…。
+- [0. Purpose](/research/reference-mods/00-Purpose-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — This document records how three existing RimWorld Workshop mods should be used as structural references for Shion Nexus.。
+- [4. Fleshbeast Colony structural lessons](/research/reference-mods/04-Fleshbeast-Colony-structural-lessons-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — Fleshbeast Colony expands Anomaly's fleshbeast theme into a colony-scale organic infrastructure. Its public description emphasizes…。
+- [6. Combined structural extraction](/research/reference-mods/06-Combined-structural-extraction-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — The three reference mods suggest the following useful structures、具体的にはCentral resource reservoir：Monolyn Light / Tower, Fleshbeast…。
+- [7. Shion Nexus non-copy rules](/research/reference-mods/07-Shion-Nexus-non-copy-rules-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — Shion Nexus must not become、具体的にはMonolyn with foxes;とFleshbeast with machines;を扱う。
+- [9. Final rule](/research/reference-mods/09-Final-rule-%E5%8F%82%E8%80%83MOD%E8%AA%BF%E6%9F%BB.md) — The reference mods prove that strong race/colony mods work best when they are not just pawns with stats. They need a colony-scale…。
 - [6. 実在参照と命名の処理](/research/theme-overhaul/06-%E5%AE%9F%E5%9C%A8%E5%8F%82%E7%85%A7%E3%81%A8%E5%91%BD%E5%90%8D%E3%81%AE%E5%87%A6%E7%90%86.md) — 以下はテーマ・トーン再審査ガイドQ0と、近未来／20世紀パスティーシュ回避の両方から優先度が高い。
 - [3. 1.0の最終完成像](/roadmap/03-1-0%E3%81%AE%E6%9C%80%E7%B5%82%E5%AE%8C%E6%88%90%E5%83%8F.md) — 最終的なCoreは、少なくとも次を一つの製品として成立させる。
 - [5. β版](/roadmap/05-%CE%B2%E7%89%88.md) — β版は、α版に含めなかったコアMODとレッドスターの要素を追加し、両製品を完成へ到達させる期間である。

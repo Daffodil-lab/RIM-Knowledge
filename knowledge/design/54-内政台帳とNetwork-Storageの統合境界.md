@@ -123,6 +123,6 @@ Map上の工場Gizmoはこの画面の該当Facilityへ移動する。Network St
 - [Core独自保管接続システムの実装境界](/design/51-Core独自保管接続システムの実装境界.md)
 - [Core・公式DLC量産カタログ境界](/design/55-Core公式DLC量産カタログ境界.md)
 - [発注と多段生産](/kombinat/core/05-発注と多段生産.md)
-- [Kombinat UI](/kombinat/core/09-UI.md)
+- [Kombinat UI](/kombinat/core/09-UI-操作画面.md)
 - [遠隔物流の保護草案](/research/remote-logistics/index.md)
 - [遠征共同体の野心と産業化](/world/27-遠征共同体の野心と産業化.md)
