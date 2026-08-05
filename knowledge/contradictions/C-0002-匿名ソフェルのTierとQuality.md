@@ -56,4 +56,4 @@ generated:
 - 現行処置: [匿名のソフェルの実装予約](/characters/anonymous-sofer/53-実装予約.md)
 - 正本: [保護された未確定事項](/world/11-保護された未確定事項.md)
 - 設計境界: [個体設計](/design/13-個体設計.md)
-- 判定規則: [オーバーホール中の矛盾判定規則](/governance/contradiction-policy.md)
+- 判定規則: [オーバーホール中の矛盾判定規則](/governance/contradiction-policy-オーバーホール中の矛盾判定規則.md)

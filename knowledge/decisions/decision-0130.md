@@ -166,7 +166,7 @@ sources:
 - 同じ出典の前項: [確定#129：外見メカ要素は取り急ぎ光る目のみに簡素化](/decisions/decision-0129.md)
 - 同じ出典の次項: [確定#131：Combat Extended互換パッチ](/decisions/decision-0131.md)
 - Pawn領域: [Pawn領域](/pawn/index.md)
-- バックストーリー群: [バックストーリー群](/backstories/index.md)
+- バックストーリー群: [バックストーリー群](/reference/backstories/index.md)
 - 正史: [正史](/world/index.md)
 - リリース計画: [リリース計画](/roadmap/index.md)
 

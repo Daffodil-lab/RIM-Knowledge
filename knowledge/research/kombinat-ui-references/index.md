@@ -17,4 +17,4 @@
 - 上位索引: [調査・参照](/research/index.md)
 - 既存の参照MOD比較: [reference-mods](/research/reference-mods/index.md)
 - 正規実装境界: [Core独自保管・接続システムの実装境界](/design/51-Core独自保管接続システムの実装境界.md)
-- Kombinat UI: [Kombinat UI](/kombinat/core/09-UI.md)
+- Kombinat UI: [Kombinat UI](/kombinat/core/09-UI-操作画面.md)

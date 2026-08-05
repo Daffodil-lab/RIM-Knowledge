@@ -10,21 +10,21 @@
 - [C-0001 ソフェルの種族分類](/contradictions/C-0001-%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AE%E7%A8%AE%E6%97%8F%E5%88%86%E9%A1%9E.md) — 監査前の匿名ソフェル旧原本で専門職を種族として併記していた不整合。
 - [C-0002 匿名ソフェルのTierとQuality](/contradictions/C-0002-%E5%8C%BF%E5%90%8D%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AETier%E3%81%A8Quality.md) — 旧人物資料の確定値と、身体体系を未確定とする現行正史の境界。
 - [C-0003 匿名ソフェルのゲーム実装値](/contradictions/C-0003-%E5%8C%BF%E5%90%8D%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AE%E3%82%B2%E3%83%BC%E3%83%A0%E5%AE%9F%E8%A3%85%E5%80%A4.md) — 旧人物資料の技能・装備・能力案と、現行の実装予約との関係。
-- [オーバーホール中の矛盾判定規則](/governance/contradiction-policy.md) — 改稿差分を誤って矛盾と判定せず、現行正本の衝突だけを止めるための規則。
+- [オーバーホール中の矛盾判定規則](/governance/contradiction-policy-%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%9B%E3%83%BC%E3%83%AB%E4%B8%AD%E3%81%AE%E7%9F%9B%E7%9B%BE%E5%88%A4%E5%AE%9A%E8%A6%8F%E5%89%87.md) — 改稿差分を誤って矛盾と判定せず、現行正本の衝突だけを止めるための規則。
 - [0. 結論](/kombinat/audit/00-%E7%B5%90%E8%AB%96.md) — α版からCore独自保管基盤との予約・受渡し・確定を監査し、Kombinat固有状態の安全性を検証する。
 - [1. 監査原則](/kombinat/audit/01-%E7%9B%A3%E6%9F%BB%E5%8E%9F%E5%89%87.md) — 監査は所有者別に再現条件を分離し、Kombinatの複製・消失・二重処理・破壊的復旧をblockerとして扱う。
 - [4. シナリオ](/kombinat/audit/04-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — S2シナリオは三段生産、保存、取消、容量、停電、破壊、通貨、長期運用をCore Storageとの公開契約で検証する。
 - [5. 未知MOD](/kombinat/audit/05-%E6%9C%AA%E7%9F%A5MOD.md) — 未知MODのThingとRecipeはCore Storageの互換判定とKombinatのRecipe分類を通し、安全な公開契約だけへ接続する。
 - [6. 破壊的操作](/kombinat/audit/06-%E7%A0%B4%E5%A3%8A%E7%9A%84%E6%93%8D%E4%BD%9C.md) — 破壊的操作は、操作：Kombinatが守るものとRequest連打：Jobを二重生成しないを扱う。
-- [7. Release Gate](/kombinat/audit/07-Release-Gate.md) — α blockerはKX-001〜008とS2-001〜018のKombinat追加層部分である。
-- [KX-001 入力二重予約](/kombinat/audit/kx-001.md) — 再現: 入力予約直後に保存し、ロード後に同じOperation IDが再送される。
-- [KX-002 引渡し後の二重所有](/kombinat/audit/kx-002.md) — 再現: Storage生産Commitの直後に例外が起き、同じOperation IDが再送される。
-- [KX-003 Network在庫の過剰約束](/kombinat/audit/kx-003.md) — 再現: Plannerが表示在庫を予約確定前に利用可能量へ算入し、二Jobへ同じ材料を約束する。
-- [KX-004 出力容量予約不能](/kombinat/audit/kx-004.md) — 再現: 納入先Storageに全出力を置ける容量がない状態で次Batchを開始する。
-- [KX-005 取消競合](/kombinat/audit/kx-005.md) — 再現: Playerが取消、再注文、優先度変更を連打し、同時にIOが材料を搬入する。
-- [KX-006 Recipe副作用](/kombinat/audit/kx-006.md) — 再現: 外部Recipeを無人Factoryへ自動登録する。
-- [KX-007 通貨二重決済](/kombinat/audit/kx-007.md) — 再現: 支払確定後、報酬受取前に保存・ロードまたはUI再送する。
-- [KX-008 初期化二重適用](/kombinat/audit/kx-008.md) — 再現: 独立開拓団開始中に例外または途中ロードを起こす。
+- [7. Release Gate](/kombinat/audit/07-Release-Gate-%E5%85%AC%E9%96%8B%E5%88%A4%E5%AE%9A.md) — α blockerはKX-001〜008とS2-001〜018のKombinat追加層部分である。
+- [KX-001 入力二重予約](/kombinat/audit/kx-001-%E5%85%A5%E5%8A%9B%E4%BA%8C%E9%87%8D%E4%BA%88%E7%B4%84.md) — 再現: 入力予約直後に保存し、ロード後に同じOperation IDが再送される。
+- [KX-002 引渡し後の二重所有](/kombinat/audit/kx-002-%E5%BC%95%E6%B8%A1%E3%81%97%E5%BE%8C%E3%81%AE%E4%BA%8C%E9%87%8D%E6%89%80%E6%9C%89.md) — 再現: Storage生産Commitの直後に例外が起き、同じOperation IDが再送される。
+- [KX-003 Network在庫の過剰約束](/kombinat/audit/kx-003-%E5%9C%A8%E5%BA%AB%E3%81%AE%E9%81%8E%E5%89%B0%E7%B4%84%E6%9D%9F.md) — 再現: Plannerが表示在庫を予約確定前に利用可能量へ算入し、二Jobへ同じ材料を約束する。
+- [KX-004 出力容量予約不能](/kombinat/audit/kx-004-%E5%87%BA%E5%8A%9B%E5%AE%B9%E9%87%8F%E4%BA%88%E7%B4%84%E4%B8%8D%E8%83%BD.md) — 再現: 納入先Storageに全出力を置ける容量がない状態で次Batchを開始する。
+- [KX-005 取消競合](/kombinat/audit/kx-005-%E5%8F%96%E6%B6%88%E7%AB%B6%E5%90%88.md) — 再現: Playerが取消、再注文、優先度変更を連打し、同時にIOが材料を搬入する。
+- [KX-006 Recipe副作用](/kombinat/audit/kx-006-%E5%89%AF%E4%BD%9C%E7%94%A8.md) — 再現: 外部Recipeを無人Factoryへ自動登録する。
+- [KX-007 通貨二重決済](/kombinat/audit/kx-007-%E9%80%9A%E8%B2%A8%E4%BA%8C%E9%87%8D%E6%B1%BA%E6%B8%88.md) — 再現: 支払確定後、報酬受取前に保存・ロードまたはUI再送する。
+- [KX-008 初期化二重適用](/kombinat/audit/kx-008-%E5%88%9D%E6%9C%9F%E5%8C%96%E4%BA%8C%E9%87%8D%E9%81%A9%E7%94%A8.md) — 再現: 独立開拓団開始中に例外または途中ロードを起こす。
 - [0. Purpose](/research/anomaly-monolith/00-Purpose.md) — This document records user-provided screenshots of RimWorld Anomaly-style monolith structures as a visual reference for the redesigned…。
 - [1. Why Anomaly monoliths are useful](/research/anomaly-monolith/01-Why-Anomaly-monoliths-are-useful.md) — Anomaly monolith visuals are useful because they communicate、具体的にはa unique central object;とdormant mystery;を扱う。
 - [2. What to adopt](/research/anomaly-monolith/02-What-to-adopt.md) — Adopt structurally、具体的にはone strong central block;とside supports or buttresses;を扱う。

@@ -1,29 +1,29 @@
 # リリース・実装 03
 
-範囲: REG-006 Clone Source〜33. 代表工業資源
+範囲: REG-007 Clone同時存在〜33. 代表工業資源
 
 ## 項目
 
-- [REG-006 Clone Source](/pawn/reg-006.md) — MUST: Registered Individual、Authored Individual、Saved Pawn DesignをClone Sourceに指定できる。
-- [REG-007 Clone同時存在](/pawn/reg-007.md) — MUST: 同じClone Sourceから複数Pawnを同時に活動させられる。
-- [REG-008 Clone後の分岐](/pawn/reg-008.md) — MUST: Clone生成後の経験、関係、傷、改造、装備、登録状態を個別に保存し、元個体または他Cloneへ自動同期しない。
-- [REG-009 外部権利の複製](/pawn/reg-009.md) — MUST: Quest所有権、派閥役職、Royalty称号、固有WorldObject参照、固有装備、Bond等を能力と一緒に暗黙複製しない。
-- [REG-010 登録解除](/pawn/reg-010.md) — MUST: Archiveを削除する操作は対象個体、失われる再実体化能力、活動中・Dormant実体、Clone Source参照を表示し、明示確認を要求する。
-- [SAVE-001 保存正本](/pawn/save-001.md) — MUST: Pawn Design、Individual Archive、Clone Lineage、Dormant Record、Generation Request、Recovery Record、各ID、途中状態を保存する。
-- [SAVE-002 Ephemeral不在](/pawn/save-002.md) — MUST: 再資源化済みEphemeral Pawnは、保存・ロード後にWorld Pawn、Relation、Corpse、Archive、参照付き履歴として復活しない。
-- [SAVE-003 同一ビルド往復](/pawn/save-003.md) — MUST: β期間中も同一ビルドの途中保存・ロードを保証する。
-- [SAVE-004 途中状態](/pawn/save-004.md) — MUST: 生産、Dormant化、再配備、回収、再起動、再資源化、再実体化、Cloneの各途中状態から安全に再開する。
-- [SAVE-005 ID一意性](/pawn/save-005.md) — MUST: 保存・ロード後もdesignId、individualId、pawnInstanceId、lineageIdを重複させない。
-- [SAVE-006 Archive欠損](/pawn/save-006.md) — MUST: 欠落Def、破損Archive、利用不能Moduleを無言で置換しない。
-- [UX-001 Pawn Foundry](/pawn/ux-001.md) — MUST: Pawn Foundryの第一階層を次の三つにする。
-- [UX-002 費用Preview](/pawn/ux-002.md) — MUST: 生産前にBody、Module、能力、装備、時間、現在在庫、不足、代替、登録方式を表示する。
-- [UX-003 個体種別](/pawn/ux-003.md) — MUST: Ephemeral、Registered、Design output、Clone、Dormantを、色だけに依存せず文字とIconで区別する。
-- [UX-004 破壊的操作](/pawn/ux-004.md) — MUST: Ephemeral遺体の再資源化とArchive削除は、同じ個体を復元できなくなることを明示する。
-- [UX-005 Clone識別](/pawn/ux-005.md) — MUST: 同名・同外見のCloneを許可しつつ、選択、医療、装備、命令で区別できる短い表示識別子を提供する。
-- [UX-006 簡易注文](/pawn/ux-006.md) — MUST: プレイヤーが詳細設計を開かず、「建築担当を一人」「射手を四人」「この個体のCloneを十人」のような注文を行える。
+- [REG-007 Clone同時存在](/pawn/reg-007-%E5%90%8C%E6%99%82%E5%AD%98%E5%9C%A8.md) — MUST: 同じClone Sourceから複数Pawnを同時に活動させられる。
+- [REG-008 Clone後の分岐](/pawn/reg-008-%E5%BE%8C%E3%81%AE%E5%88%86%E5%B2%90.md) — MUST: Clone生成後の経験、関係、傷、改造、装備、登録状態を個別に保存し、元個体または他Cloneへ自動同期しない。
+- [REG-009 外部権利の複製](/pawn/reg-009-%E5%A4%96%E9%83%A8%E6%A8%A9%E5%88%A9%E3%81%AE%E8%A4%87%E8%A3%BD.md) — MUST: Quest所有権、派閥役職、Royalty称号、固有WorldObject参照、固有装備、Bond等を能力と一緒に暗黙複製しない。
+- [REG-010 登録解除](/pawn/reg-010-%E7%99%BB%E9%8C%B2%E8%A7%A3%E9%99%A4.md) — MUST: Archiveを削除する操作は対象個体、失われる再実体化能力、活動中・Dormant実体、Clone Source参照を表示し、明示確認を要求する。
+- [SAVE-001 保存正本](/pawn/save-001-%E4%BF%9D%E5%AD%98%E6%AD%A3%E6%9C%AC.md) — MUST: Pawn Design、Individual Archive、Clone Lineage、Dormant Record、Generation Request、Recovery Record、各ID、途中状態を保存する。
+- [SAVE-002 Ephemeral不在](/pawn/save-002-%E4%B8%8D%E5%9C%A8.md) — MUST: 再資源化済みEphemeral Pawnは、保存・ロード後にWorld Pawn、Relation、Corpse、Archive、参照付き履歴として復活しない。
+- [SAVE-003 同一ビルド往復](/pawn/save-003-%E5%90%8C%E4%B8%80%E3%83%93%E3%83%AB%E3%83%89%E5%BE%80%E5%BE%A9.md) — MUST: β期間中も同一ビルドの途中保存・ロードを保証する。
+- [SAVE-004 途中状態](/pawn/save-004-%E9%80%94%E4%B8%AD%E7%8A%B6%E6%85%8B.md) — MUST: 生産、Dormant化、再配備、回収、再起動、再資源化、再実体化、Cloneの各途中状態から安全に再開する。
+- [SAVE-005 ID一意性](/pawn/save-005-%E4%B8%80%E6%84%8F%E6%80%A7.md) — MUST: 保存・ロード後もdesignId、individualId、pawnInstanceId、lineageIdを重複させない。
+- [SAVE-006 Archive欠損](/pawn/save-006-%E6%AC%A0%E6%90%8D.md) — MUST: 欠落Def、破損Archive、利用不能Moduleを無言で置換しない。
+- [UX-001 Pawn Foundry](/pawn/ux-001-%E8%A6%81%E4%BB%B6.md) — MUST: Pawn Foundryの第一階層を次の三つにする。
+- [UX-002 費用Preview](/pawn/ux-002-%E8%B2%BB%E7%94%A8.md) — MUST: 生産前にBody、Module、能力、装備、時間、現在在庫、不足、代替、登録方式を表示する。
+- [UX-003 個体種別](/pawn/ux-003-%E5%80%8B%E4%BD%93%E7%A8%AE%E5%88%A5.md) — MUST: Ephemeral、Registered、Design output、Clone、Dormantを、色だけに依存せず文字とIconで区別する。
+- [UX-004 破壊的操作](/pawn/ux-004-%E7%A0%B4%E5%A3%8A%E7%9A%84%E6%93%8D%E4%BD%9C.md) — MUST: Ephemeral遺体の再資源化とArchive削除は、同じ個体を復元できなくなることを明示する。
+- [UX-005 Clone識別](/pawn/ux-005-%E8%AD%98%E5%88%A5.md) — MUST: 同名・同外見のCloneを許可しつつ、選択、医療、装備、命令で区別できる短い表示識別子を提供する。
+- [UX-006 簡易注文](/pawn/ux-006-%E7%B0%A1%E6%98%93%E6%B3%A8%E6%96%87.md) — MUST: プレイヤーが詳細設計を開かず、「建築担当を一人」「射手を四人」「この個体のCloneを十人」のような注文を行える。
 - [プレイヤーが最初から知ること](/player-facing/001-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%9C%80%E5%88%9D%E3%81%8B%E3%82%89%E7%9F%A5%E3%82%8B%E3%81%93%E3%81%A8.md) — シオンは、製造された身体を持つ機械の民であり、また一人ずつ別の人格を持ち、人工知能でも集合意識でもありません。
 - [β版のPawn工業](/player-facing/002-%CE%B2%E7%89%88%E3%81%AEPawn%E5%B7%A5%E6%A5%AD.md) — β版では、必要な仕事に適合するランダムなシオン、登録済みの個体、プレイヤーが一から設計した個体、既存個体のCloneをPawn Foundryから生産できます。
 - [最小用語集](/player-facing/012-%E6%9C%80%E5%B0%8F%E7%94%A8%E8%AA%9E%E9%9B%86.md) — これ以上の語は、登場するクエストや機能の中でその都度説明します。
+- [9. 設定本文と実装予約の分離](/reference/backstories/09-%E8%A8%AD%E5%AE%9A%E6%9C%AC%E6%96%87%E3%81%A8%E5%AE%9F%E8%A3%85%E4%BA%88%E7%B4%84%E3%81%AE%E5%88%86%E9%9B%A2.md) — バックストーリー記録では人物の経歴と口述を設定クラス、Pool、出現希少度、技能補正、組合せ規則を実装予約として分離する。
 - [3. Core visual direction change](/research/archotech-ruins/03-Core-visual-direction-change.md) — Preferred alpha form、具体的にはsimple central vertical mass;とbroad dark base or plinth;を扱う。
 - [4. Three acceptable Core silhouette options](/research/archotech-ruins/04-Three-acceptable-Core-silhouette-options.md) — Preferred alpha choice、具体的にはCore Tower：3x3 tower-like sealed monolith with crown fins and central aperture.：Preferred alpha Core.：Must…。
 - [8. Relationship to other alpha buildings](/research/archotech-ruins/08-Relationship-to-other-alpha-buildings.md) — The Core Tower must be visually more important than every other alpha building.。
@@ -81,5 +81,5 @@
 - [10. 変更管理](/roadmap/10-%E5%A4%89%E6%9B%B4%E7%AE%A1%E7%90%86.md) — 本書を更新する場合、少なくとも次を記録するという方針の適用範囲と条件を定める。
 - [11. 工業先行開発マイルストーン](/roadmap/11-%E5%B7%A5%E6%A5%AD%E5%85%88%E8%A1%8C%E9%96%8B%E7%99%BA%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3.md) — シオン固有種族と図像の実装より先に、バニラ人間で検証できるコアMOD保管・コンビナート工業基盤を内部完成させる。
 - [8. 遠征共同体とレッドスター](/world/08-%E9%81%A0%E5%BE%81%E5%85%B1%E5%90%8C%E4%BD%93%E3%81%A8Red-Star.md) — コアMODは、独立団、漂着者、認可団、その他の遠征共同体など、複数の開始立場を許容する。
-- [9. The Hive](/world/09-The-Hive.md) — The Hiveは、通常シオン社会の標準ではない、例外的な単一中枢運営を扱う。
+- [9. The Hive](/world/09-The-Hive-%E3%82%B6%E3%83%BB%E3%83%8F%E3%82%A4%E3%83%B4.md) — The Hiveは、通常シオン社会の標準ではない、例外的な単一中枢運営を扱う。
 - [33. 代表工業資源](/world/33-%E4%BB%A3%E8%A1%A8%E5%B7%A5%E6%A5%AD%E8%B3%87%E6%BA%90.md) — Coreで反復して扱う五つの代表工業資源は、Cell、エネルギー結晶、構造材、保守資材、弾薬結晶である。

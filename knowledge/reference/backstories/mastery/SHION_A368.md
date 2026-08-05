@@ -1,0 +1,70 @@
+---
+type: "Backstory Record"
+title: "SHION_A368 家畜甲板の自慢話"
+description: "うちの班が育てた家畜は船の中で一番機嫌が良かったって、これは自慢していいと思う。"
+tags:
+  - "shion"
+  - "backstory"
+  - "mastery"
+  - "canon"
+eras:
+  - "JourneyEra"
+organization_groups:
+  - "other-named"
+organization_names:
+  - "家畜甲板班"
+  - "東側／遊牧文化継承者"
+status: stable
+authority: catalog
+knowledge_role: catalog-record
+reference_review: reference-only
+granularity: record
+canonical_for: "reference/backstories/mastery/SHION_A368"
+canonical_scope: "backstory-mastery"
+source_section: "SHION_A368 家畜甲板の自慢話"
+generated:
+  by: "process:rim-okf-migration"
+  at: "2026-07-26T00:54:52.353Z"
+sources:
+  - id: "migration-source"
+    resource: "retired-source://project/docs/38_SHION_BACKSTORY_CATALOG.md"
+    title: "シオン/Shion ゲーム用バックストーリー完成カタログ v3"
+---
+
+# SHION_A368 家畜甲板の自慢話
+
+## 設定クラス
+
+- Short: 家畜甲板自慢
+- Era: JourneyEra / Origin: 東側／遊牧文化継承者 / Relation: 家畜甲板班
+
+- Tone: 誇り・家畜・陽気 / ReviewStatus: 実用未達・参考保管
+- ServiceDomain: Civilian
+- VoiceProfile: 陽気で早口。自慢を隠さない牧畜出身者。
+- PotentialReferencePoints: 新規稿のため該当なし。
+
+> うちの班が育てた家畜は船の中で一番機嫌が良かったって、これは自慢していいと思う。遊牧文化の継承者だから動物には強いって最初から言われてたけど、実際強かったから文句もない。乳の出が悪い日でも、うちが歌うと落ち着くって隣の班にも評判だった。飼料が減った年でも一頭も死なせなかった。誇れることが少ない船の中で、これだけは胸を張って言える。うちの家畜、船で一番幸せだったよ。歌の節はもう誰も覚えてないだろうけど。
+
+**匿名のソフェルの聞き取り：** 「歌うと落ち着くとは本当ですか」 — 「本当。信じなくてもいいけど本当」
+
+## 実装予約
+
+- Slot: Adulthood
+- Pool: Shion_Journey_Adult / SourceModule: 種火を運ぶ者
+- Rarity: 希少
+- 技能: 動物+5、社交+2
+- 作業不能: なし / 特性候補: なし
+- 組合せ: 同一Eraの幼少期を優先。EraIndependentとの接続時は成人期側の年代を採用。
+- 制作注記: 拡張稿（§12 Phase A超過分）。高補正階級=0。
+
+## 関連項目
+
+- 設定と実装の分離: [設定本文と実装予約の分離](/reference/backstories/09-設定本文と実装予約の分離.md)
+- 上位索引: [reference/backstories/mastery](/reference/backstories/mastery/index.md)
+- 同じ出典の前項: [SHION_A367 世帯調整員の台帳](/reference/backstories/mastery/SHION_A367.md)
+- 同じ出典の次項: [SHION_A369 律法以前の祈り手](/reference/backstories/mastery/SHION_A369.md)
+- 正史: [正史](/world/index.md)
+
+## 出典
+
+- シオン/Shion ゲーム用バックストーリー完成カタログ v3（退役済み原本: `retired-source://project/docs/38_SHION_BACKSTORY_CATALOG.md`） — `SHION_A368 家畜甲板の自慢話`

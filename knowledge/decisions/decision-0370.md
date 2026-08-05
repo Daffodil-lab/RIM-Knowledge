@@ -42,7 +42,7 @@ sources:
 - 上位索引: [decisions](/decisions/index.md)
 - 同じ出典の前項: [確定#369：ロアからゲーム内フレーバーへの変換台帳](/decisions/decision-0369.md)
 - 同じ出典の次項: [確定#388：618種バックストーリー、人工知能定義、特殊部隊・市民文化](/decisions/decision-0388.md)
-- バックストーリー群: [バックストーリー群](/backstories/index.md)
+- バックストーリー群: [バックストーリー群](/reference/backstories/index.md)
 - 正史: [正史](/world/index.md)
 - 制作・開示規則: [制作・開示規則](/authoring/index.md)
 

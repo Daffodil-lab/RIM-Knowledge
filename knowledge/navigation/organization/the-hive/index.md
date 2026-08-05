@@ -9,7 +9,6 @@
 - [8. 製品・内部モジュール別の責務境界](/authoring/08-%E8%A3%BD%E5%93%81%E3%83%BB%E5%86%85%E9%83%A8%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E5%88%A5%E3%81%AE%E8%B2%AC%E5%8B%99%E5%A2%83%E7%95%8C.md) — 製品と内部モジュールの正規所有者を分け、五つの代表工業資源は実Thing、同盟通貨はAccount残高として扱う。
 - [9. 不合格条件](/authoring/09-%E4%B8%8D%E5%90%88%E6%A0%BC%E6%9D%A1%E4%BB%B6.md) — 新しい設定、文章、機能は次に該当する場合、再設計する。
 - [10. 廃止・降格された旧要素](/authoring/10-%E5%BB%83%E6%AD%A2%E3%83%BB%E9%99%8D%E6%A0%BC%E3%81%95%E3%82%8C%E3%81%9F%E6%97%A7%E8%A6%81%E7%B4%A0.md) — 2026-07-26に実施した旧要素の廃止・降格監査を履歴として保持する。
-- [4. 新規420稿の割当集計](/backstories/04-%E6%96%B0%E8%A6%8F420%E7%A8%BF%E3%81%AE%E5%89%B2%E5%BD%93%E9%9B%86%E8%A8%88.md) — 各新規稿は主Pool一つとSourceModule一つへ同時算入する。
 - [0. 結論](/colony/00-%E7%B5%90%E8%AB%96.md) — Coreの最初のプレイ可能対象を、本国政府の正規指揮系統と保証された補給へ恒常的に属さず、自分たちの判断と共同資産で辺境に暮らしを作る小規模な独立開拓団へ固定する。
 - [2. 「独立」の定義](/colony/02-%E7%8B%AC%E7%AB%8B%E3%81%AE%E5%AE%9A%E7%BE%A9.md) — 独立開拓団は、規模、統治制度、職業、思想ではなく、次の本国関係を満たす組織の大分類である。
 - [3. 標準Core開拓団](/colony/03-%E6%A8%99%E6%BA%96Core%E9%96%8B%E6%8B%93%E5%9B%A3.md) — Core α版の標準団は、本人たちの合意で組織された民間の小規模開拓団である。
@@ -23,7 +22,7 @@
 - [23. 失敗時の規則](/colony/23-%E5%A4%B1%E6%95%97%E6%99%82%E3%81%AE%E8%A6%8F%E5%89%87.md) — エラー時にRed Star支援やHive機能を代替起動しない。
 - [25. 保護候補と廃止](/colony/25-%E4%BF%9D%E8%AD%B7%E5%80%99%E8%A3%9C%E3%81%A8%E5%BB%83%E6%AD%A2.md) — 2026-07-26に行った独立開拓団の候補・廃止監査を履歴として保持する。
 - [27. The Hiveとの境界](/colony/27-The-Hive%E3%81%A8%E3%81%AE%E5%A2%83%E7%95%8C.md) — The Hiveの設定資料は保存するが、独立開拓団実装の抽象化要件にしない。
-- [28. Definition of Done](/colony/28-Definition-of-Done.md) — Core独立開拓団α版は、次を全て満たした時に完成する。
+- [28. Definition of Done](/colony/28-Definition-of-Done-%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Core独立開拓団α版は、次を全て満たした時に完成する。
 - [確定#300：新規拡張MOD「叛逆航路」（原題：Ancillary Justice・旧称/開発コード：Shion Nexus）を登録——単一Nexus Core運営という例外的ゲームプレイ、既存loreとの4件の競合を解決](/decisions/decision-0300.md) — 新規拡張MOD「叛逆航路」（原題：Ancillary Justice・旧称/開発コード：Shion Nexus）を登録——単一Nexus Core運営という例外的ゲームプレイ、既存loreとの4件の競合を解決を確定した決定履歴。
 - [確定#339：仮称2件を最終確定——「Shion Race: 地場」→「Shion Race: Kombinat」、「分身」→「Shion Race: The Hive」](/decisions/decision-0339.md) — 仮称2件を最終確定——「Shion Race: 地場」→「Shion Race: Kombinat」、「分身」→「Shion Race: The Hive」を確定した決定履歴。
 - [確定#344：Tower Ledger／Nexus Core等の用語をA系統（Kombinat）／B系統（The Hive）で改称](/decisions/decision-0344.md) — Tower Ledger／Nexus Core等の用語をA系統（Kombinat）／B系統（The Hive）で改称を確定した決定履歴。
@@ -45,10 +44,11 @@
 - [25. 検証シナリオ](/design/25-%E6%A4%9C%E8%A8%BC%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — 次をCore v2と本書だけから矛盾なく作れること。
 - [30. オーバーホール時の対象外記録](/design/30-%E5%AF%BE%E8%B1%A1%E5%A4%96.md) — 2026-07-26の統合資料オーバーホールで、正本化または実装値固定の対象にしなかった領域を履歴として保持する。
 - [2. 実装状態の参照](/kombinat/core/02-%E7%8A%B6%E6%85%8B%E5%88%86%E9%A1%9E.md) — Kombinatの実装状態はリリース計画の現在地が所有し、本節は中核仕様からその正本を参照する。
-- [13. β](/kombinat/core/13-%CE%B2.md) — Equipment Familyは作者が明示登録した候補だけを使う。
+- [13. β](/kombinat/core/13-%CE%B2-%E7%8F%BE%E8%A1%8C%E4%BB%95%E6%A7%98.md) — Equipment Familyは作者が明示登録した候補だけを使う。
 - [13. β境界](/kombinat/requirements/13-%CE%B2%E5%A2%83%E7%95%8C.md) — β境界は、Pawn Foundry要求とEquipment Familyを扱う。
 - [プレイヤーが最初から知ること](/player-facing/001-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%9C%80%E5%88%9D%E3%81%8B%E3%82%89%E7%9F%A5%E3%82%8B%E3%81%93%E3%81%A8.md) — シオンは、製造された身体を持つ機械の民であり、また一人ずつ別の人格を持ち、人工知能でも集合意識でもありません。
 - [最小用語集](/player-facing/012-%E6%9C%80%E5%B0%8F%E7%94%A8%E8%AA%9E%E9%9B%86.md) — これ以上の語は、登場するクエストや機能の中でその都度説明します。
+- [4. 新規420稿の割当集計](/reference/backstories/04-%E6%96%B0%E8%A6%8F420%E7%A8%BF%E3%81%AE%E5%89%B2%E5%BD%93%E9%9B%86%E8%A8%88.md) — 各新規稿は主Pool一つとSourceModule一つへ同時算入する。
 - [9. Art prompt direction, not image generation request](/research/archotech-ruins/09-Art-prompt-direction-not-image-generation-request.md) — RimWorld風Nexus Core Towerの形状、配色、材質、禁止表現を将来の画像資産向けに指定する。
 - [Sources inspected](/research/known-code/001-Sources-inspected.md) — - Daffodil-lab/Meiko-Race-The-Manufactured-Utopia-A-Clockwork-Fox-Doll at indexed commit aed3ab77724fdab6cf9166abab80bf2dd22a9e96. -…。
 - [Rejected from the runtime](/research/known-code/004-Rejected-from-the-runtime.md) — - A monolithic Core building Comp as the owner of resource truth. - Separate aggregate reservation totals without reservation records.…。
@@ -64,6 +64,6 @@
 - [8. 現在地](/roadmap/08-%E7%8F%BE%E5%9C%A8%E5%9C%B0.md) — 2026-08-02時点で工業基盤の実装作業は存在するが、工業完成マイルストーンとShion統合αは未完成である。
 - [9. 次の作業順](/roadmap/09-%E6%AC%A1%E3%81%AE%E4%BD%9C%E6%A5%AD%E9%A0%86.md) — 工業管理画面の基準画像とRimWorld 1.6画面契約を先に固定し、種族非依存の保管基盤とコンビナートを実装してからシオン種族と図像をα版へ統合する。
 - [10. 変更管理](/roadmap/10-%E5%A4%89%E6%9B%B4%E7%AE%A1%E7%90%86.md) — 本書を更新する場合、少なくとも次を記録するという方針の適用範囲と条件を定める。
-- [9. The Hive](/world/09-The-Hive.md) — The Hiveは、通常シオン社会の標準ではない、例外的な単一中枢運営を扱う。
+- [9. The Hive](/world/09-The-Hive-%E3%82%B6%E3%83%BB%E3%83%8F%E3%82%A4%E3%83%B4.md) — The Hiveは、通常シオン社会の標準ではない、例外的な単一中枢運営を扱う。
 - [11. 保護された未確定事項](/world/11-%E4%BF%9D%E8%AD%B7%E3%81%95%E3%82%8C%E3%81%9F%E6%9C%AA%E7%A2%BA%E5%AE%9A%E4%BA%8B%E9%A0%85.md) — 次の事項は、設定不足ではなく、本書が意図的に正解を固定しない領域である。
 - [12. 正史上の禁止境界](/world/12-%E6%AD%A3%E5%8F%B2%E4%B8%8A%E3%81%AE%E7%A6%81%E6%AD%A2%E5%A2%83%E7%95%8C.md) — 新しい設定は、帝国と同盟の連続性と変化、純粋な善意、善意の非対称性、人格と身体の分離を同時に壊さない場合にのみ採用できる。

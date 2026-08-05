@@ -75,6 +75,7 @@ run("退役済み出典識別子の検査", "normalize-retired-source-links.mjs"
   "--check",
 ]);
 run("公式OKF 0.2互換性検査", "validate-okf-v02.mjs", []);
+run("概念ファイル名の日本語併記検査", "localize-okf-filenames.mjs", ["--check"]);
 run("RIM OKF構造検査", "validate-okf.mjs", []);
 
 run("領域横断重複監査", "audit-okf-overlap.mjs", ["--check"]);

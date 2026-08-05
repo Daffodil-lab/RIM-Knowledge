@@ -8,12 +8,12 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 
 ## 読み始め
 
-1. [権威順位とライフサイクル](governance/authority-and-lifecycle.md)
+1. [権威順位とライフサイクル](governance/authority-and-lifecycle-知識の権威順位とライフサイクル.md)
 2. [Open Knowledge Format 0.2 日本語規範解説](research/okf/00-Open-Knowledge-Format-v0.2-日本語解説.md)
 3. [横断ナビゲーション](navigation/)
 4. [改稿ダッシュボード](navigation/overhaul/)
-5. [知識所有者マップ](governance/ownership-map.md)
-6. [オーバーホール中の矛盾判定規則](governance/contradiction-policy.md)
+5. [知識所有者マップ](governance/ownership-map-知識所有者マップ.md)
+6. [オーバーホール中の矛盾判定規則](governance/contradiction-policy-オーバーホール中の矛盾判定規則.md)
 7. [矛盾監査台帳](contradictions/)
 8. [参考](reference/)
 9. [正史・世界観](world/)
@@ -23,7 +23,6 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 ## 領域
 
 - [制作・開示](authoring/) — 32件
-- [バックストーリー（参考資料）](backstories/) — 845件
 - [人物](characters/) — 55件
 - [矛盾監査](contradictions/) — 3件
 - [独立開拓団](colony/) — 30件
@@ -34,7 +33,7 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 - [横断ナビゲーション](navigation/) — 荷札から生成した派生索引
 - [Pawn生産・保管・再生](pawn/) — 91件
 - [プレイヤー向け設定](player-facing/) — 13件
-- [参考](reference/) — 2件
+- [参考](reference/) — 847件
 - [調査・参照](research/) — 117件
 - [リリース計画](roadmap/) — 12件
 - [退役済み出典識別台帳](sources/) — 削除済み原本・コード・図版の墓標

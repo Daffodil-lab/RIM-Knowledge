@@ -82,7 +82,7 @@ sources:
 
 - 上位索引: [world](/world/index.md)
 - 同じ出典の前項: [7. 技術体系](/world/07-技術体系.md)
-- 同じ出典の次項: [9. ザ・ハイヴ](/world/09-The-Hive.md)
+- 同じ出典の次項: [9. ザ・ハイヴ](/world/09-The-Hive-ザ・ハイヴ.md)
 - コンビナート領域: [コンビナート](/kombinat/index.md)
 - 独立開拓団: [独立開拓団](/colony/index.md)
 - リリース計画: [リリース計画](/roadmap/index.md)

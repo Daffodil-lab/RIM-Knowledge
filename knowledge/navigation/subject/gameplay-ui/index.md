@@ -20,7 +20,7 @@
 - [13. Assembly責務](/colony/13-Assembly%E8%B2%AC%E5%8B%99.md) — αでは、Kombinatとの開始接続、最低限の初期化、エラー表示に必要な責務だけを実装する。
 - [14. 最小データモデル](/colony/14-%E6%9C%80%E5%B0%8F%E3%83%87%E3%83%BC%E3%82%BF%E3%83%A2%E3%83%87%E3%83%AB.md) — 開始立場と初期工業状態をデータ駆動にするという方針の適用範囲と条件を定める。
 - [15. ScenarioDefとPawn生成](/colony/15-ScenarioDef%E3%81%A8Pawn%E7%94%9F%E6%88%90.md) — XMLで表現できるThing、人数、文章をC番号へ直書きしない。
-- [16. 工業管制塔](/colony/16-Field-Ledger-Terminal.md) — コアMODからコンビナートへ入る最初の可視入口とする。
+- [16. 工業管制塔](/colony/16-Field-Ledger-Terminal-%E5%B7%A5%E6%A5%AD%E7%AE%A1%E5%88%B6%E5%A1%94.md) — コアMODからコンビナートへ入る最初の可視入口とする。
 - [17. Field Workshopのαコンテンツ](/colony/17-Field-Workshop%E3%81%AE%CE%B1%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84.md) — Core独自Storageと、Kombinat追加層の発注・多段生産・消費・流通・通貨、独立開拓団用の代表的な三段閉路を同じα公開候補で完成させる。
 - [18. 独立状態のUI](/colony/18-%E7%8B%AC%E7%AB%8B%E7%8A%B6%E6%85%8B%E3%81%AEUI.md) — 複雑な外交画面をα版へ作らない、また開始情報または簡易情報カードで次を示す。
 - [19. 救援クエスト縦切り](/colony/19-%E6%95%91%E6%8F%B4%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E7%B8%A6%E5%88%87%E3%82%8A.md) — 一件目は、魂や復活ではなく物質的に分かりやすい救援にする。
@@ -32,7 +32,7 @@
 - [25. 保護候補と廃止](/colony/25-%E4%BF%9D%E8%AD%B7%E5%80%99%E8%A3%9C%E3%81%A8%E5%BB%83%E6%AD%A2.md) — 2026-07-26に行った独立開拓団の候補・廃止監査を履歴として保持する。
 - [26. 独立開拓団とレッドスターの責務境界](/colony/26-Red-Star%E3%81%A8%E3%81%AE%E6%AF%94%E8%BC%83.md) — 独立開拓団の自律とレッドスターの国家保証を、支援、任務、報告、救援、交戦の責務として分ける。
 - [27. The Hiveとの境界](/colony/27-The-Hive%E3%81%A8%E3%81%AE%E5%A2%83%E7%95%8C.md) — The Hiveの設定資料は保存するが、独立開拓団実装の抽象化要件にしない。
-- [28. Definition of Done](/colony/28-Definition-of-Done.md) — Core独立開拓団α版は、次を全て満たした時に完成する。
+- [28. Definition of Done](/colony/28-Definition-of-Done-%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Core独立開拓団α版は、次を全て満たした時に完成する。
 - [29. 野心と産業進行](/colony/29-%E9%87%8E%E5%BF%83%E3%81%A8%E7%94%A3%E6%A5%AD%E9%80%B2%E8%A1%8C.md) — ゲームクリア級の目標は、遠征共同体が目標に必要な産業能力を現地で構築し、継続運用できることを要求する。
 - [0. 出典と利用範囲](/research/kombinat-ui-references/00-%E5%87%BA%E5%85%B8%E3%81%A8%E5%88%A9%E7%94%A8%E7%AF%84%E5%9B%B2.md) — ユーザー提供映像をKombinatのUI・操作研究に限定して利用し、画像・コード・固有表現のコピー元にはしない。
 - [1. MonolynのネットワークUIから採るもの](/research/kombinat-ui-references/01-Monolyn%E3%81%AE%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AFUI%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — Monolynの集中資源、生産一覧、選択時ネットワーク表示から、Kombinatへ採用する情報設計を抽出する。

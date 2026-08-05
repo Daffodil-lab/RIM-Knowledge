@@ -127,7 +127,7 @@ export const TOPIC_DEFINITIONS = [
     id: "characters-backstories",
     label: "人物・バックストーリー",
     tags: ["character", "anonymous-sofer", "backstory", "formation", "mastery"],
-    domains: ["characters", "backstories"],
+    domains: ["characters"],
   },
   {
     id: "research-audit",
@@ -458,12 +458,12 @@ export function deriveDescription(record, overrides = {}) {
   let description;
   if (
     record.type === "Backstory Record" ||
-    /^backstories\/(?:formation|mastery)\//.test(key)
+    /^reference\/backstories\/(?:formation|mastery)\//.test(key)
   ) {
     description = backstoryDescription(record.title, record.body);
   } else if (
     record.type === "Decision Log Entry" ||
-    /^decisions\/decision-\d+\.md$/.test(key)
+    /^decisions\/decision-\d+(?:-[^/]+)?\.md$/.test(key)
   ) {
     description = decisionDescription(record.title, record.body);
   } else {
@@ -473,12 +473,12 @@ export function deriveDescription(record, overrides = {}) {
     const base = description.replace(/[。！？]+$/g, "");
     if (
       record.type === "Backstory Record" ||
-      /^backstories\/(?:formation|mastery)\//.test(key)
+      /^reference\/backstories\/(?:formation|mastery)\//.test(key)
     ) {
       description = ensureSentence(`${base}という経験を持つ経歴`);
     } else if (
       record.type === "Decision Log Entry" ||
-      /^decisions\/decision-\d+\.md$/.test(key)
+      /^decisions\/decision-\d+(?:-[^/]+)?\.md$/.test(key)
     ) {
       description = ensureSentence(`${base}を現行方針として確定した決定履歴`);
     } else {

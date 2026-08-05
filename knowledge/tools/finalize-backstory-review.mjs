@@ -1,6 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
 
+throw new Error(
+  "実行禁止: 参考バックストーリーは凍結されています。採用内容は現行所有者へ新規作成してください。",
+);
+
 const reviewState = process.argv[2];
 const expectedCount = Number(process.argv[3]);
 if (!["candidate", "re-audit"].includes(reviewState) || !Number.isInteger(expectedCount)) {
@@ -11,7 +15,7 @@ const root = process.cwd();
 const planned = [];
 for (const group of ["formation", "mastery"]) {
   const dir = path.join(root, "knowledge", "backstories", group);
-  for (const name of fs.readdirSync(dir).filter((entry) => /^SHION_[CA]\d{3}\.md$/.test(entry))) {
+  for (const name of fs.readdirSync(dir).filter((entry) => /^SHION_[CA]\d{3}(?:-[^.]+)?\.md$/.test(entry))) {
     const file = path.join(dir, name);
     const text = fs.readFileSync(file, "utf8");
     if (!text.includes(`reference_review: ${reviewState}`)) continue;

@@ -27,7 +27,7 @@
 
 ## 判定基準
 
-- [オーバーホール中の矛盾判定規則](/governance/contradiction-policy.md)
+- [オーバーホール中の矛盾判定規則](/governance/contradiction-policy-オーバーホール中の矛盾判定規則.md)
 - [正史の優先順位](/world/00-正史の優先順位.md)
 - [保護された未確定事項](/world/11-保護された未確定事項.md)
 - [正史上の禁止境界](/world/12-正史上の禁止境界.md)

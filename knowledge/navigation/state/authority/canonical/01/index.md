@@ -48,7 +48,7 @@
 - [13. Assembly責務](/colony/13-Assembly%E8%B2%AC%E5%8B%99.md) — αでは、Kombinatとの開始接続、最低限の初期化、エラー表示に必要な責務だけを実装する。
 - [14. 最小データモデル](/colony/14-%E6%9C%80%E5%B0%8F%E3%83%87%E3%83%BC%E3%82%BF%E3%83%A2%E3%83%87%E3%83%AB.md) — 開始立場と初期工業状態をデータ駆動にするという方針の適用範囲と条件を定める。
 - [15. ScenarioDefとPawn生成](/colony/15-ScenarioDef%E3%81%A8Pawn%E7%94%9F%E6%88%90.md) — XMLで表現できるThing、人数、文章をC番号へ直書きしない。
-- [16. 工業管制塔](/colony/16-Field-Ledger-Terminal.md) — コアMODからコンビナートへ入る最初の可視入口とする。
+- [16. 工業管制塔](/colony/16-Field-Ledger-Terminal-%E5%B7%A5%E6%A5%AD%E7%AE%A1%E5%88%B6%E5%A1%94.md) — コアMODからコンビナートへ入る最初の可視入口とする。
 - [17. Field Workshopのαコンテンツ](/colony/17-Field-Workshop%E3%81%AE%CE%B1%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84.md) — Core独自Storageと、Kombinat追加層の発注・多段生産・消費・流通・通貨、独立開拓団用の代表的な三段閉路を同じα公開候補で完成させる。
 - [18. 独立状態のUI](/colony/18-%E7%8B%AC%E7%AB%8B%E7%8A%B6%E6%85%8B%E3%81%AEUI.md) — 複雑な外交画面をα版へ作らない、また開始情報または簡易情報カードで次を示す。
 - [19. 救援クエスト縦切り](/colony/19-%E6%95%91%E6%8F%B4%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E7%B8%A6%E5%88%87%E3%82%8A.md) — 一件目は、魂や復活ではなく物質的に分かりやすい救援にする。
@@ -58,7 +58,7 @@
 - [23. 失敗時の規則](/colony/23-%E5%A4%B1%E6%95%97%E6%99%82%E3%81%AE%E8%A6%8F%E5%89%87.md) — エラー時にRed Star支援やHive機能を代替起動しない。
 - [26. 独立開拓団とレッドスターの責務境界](/colony/26-Red-Star%E3%81%A8%E3%81%AE%E6%AF%94%E8%BC%83.md) — 独立開拓団の自律とレッドスターの国家保証を、支援、任務、報告、救援、交戦の責務として分ける。
 - [27. The Hiveとの境界](/colony/27-The-Hive%E3%81%A8%E3%81%AE%E5%A2%83%E7%95%8C.md) — The Hiveの設定資料は保存するが、独立開拓団実装の抽象化要件にしない。
-- [28. Definition of Done](/colony/28-Definition-of-Done.md) — Core独立開拓団α版は、次を全て満たした時に完成する。
+- [28. Definition of Done](/colony/28-Definition-of-Done-%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Core独立開拓団α版は、次を全て満たした時に完成する。
 - [29. 野心と産業進行](/colony/29-%E9%87%8E%E5%BF%83%E3%81%A8%E7%94%A3%E6%A5%AD%E9%80%B2%E8%A1%8C.md) — ゲームクリア級の目標は、遠征共同体が目標に必要な産業能力を現地で構築し、継続運用できることを要求する。
 - [C-0001 ソフェルの種族分類](/contradictions/C-0001-%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AE%E7%A8%AE%E6%97%8F%E5%88%86%E9%A1%9E.md) — 監査前の匿名ソフェル旧原本で専門職を種族として併記していた不整合。
 - [C-0002 匿名ソフェルのTierとQuality](/contradictions/C-0002-%E5%8C%BF%E5%90%8D%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AETier%E3%81%A8Quality.md) — 旧人物資料の確定値と、身体体系を未確定とする現行正史の境界。

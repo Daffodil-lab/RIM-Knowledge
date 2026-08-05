@@ -43,7 +43,7 @@ The Hiveの設定資料は保存するが、独立開拓団実装の抽象化要
 
 - 上位索引: [colony](/colony/index.md)
 - 同じ出典の前項: [26. Red Starとの比較](/colony/26-Red-Starとの比較.md)
-- 同じ出典の次項: [28. Definition of Done](/colony/28-Definition-of-Done.md)
+- 同じ出典の次項: [28. Definition of Done](/colony/28-Definition-of-Done-完成条件.md)
 - 正史: [正史](/world/index.md)
 - リリース計画: [リリース計画](/roadmap/index.md)
 

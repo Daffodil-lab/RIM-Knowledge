@@ -16,6 +16,12 @@ let indexCount = 0;
 let linkCount = 0;
 const canonicalForOwners = new Map();
 const roleCounts = new Map();
+const JAPANESE_FILENAME = /[ぁ-んァ-ヶ一-龠々ー]/u;
+const FROZEN_REFERENCE_AUTHORITIES = new Set([
+  "reference",
+  "historical",
+  "catalog",
+]);
 
 function walk(dir) {
   const result = [];
@@ -88,6 +94,12 @@ for (const file of markdownFiles) {
       errors.push(`${rel(file)}: missing parseable frontmatter delimiters`);
     } else {
       const parsedMetadata = parseOkfFrontmatter(text).metadata;
+      if (
+        !FROZEN_REFERENCE_AUTHORITIES.has(parsedMetadata.authority) &&
+        !JAPANESE_FILENAME.test(path.basename(file, ".md"))
+      ) {
+        errors.push(`${rel(file)}: maintained concept filename must include Japanese text`);
+      }
       const type = frontmatter[1].match(/^type:\s*(.+)\s*$/m)?.[1]?.trim();
       if (!type || type === '""' || type === "''") {
         errors.push(`${rel(file)}: missing non-empty type`);
@@ -159,7 +171,9 @@ for (const file of markdownFiles) {
       }
       if (
         role === "catalog-record" &&
-        /^backstories\/(?:formation|mastery)\//.test(rel(file).replace(/^knowledge\//, "")) &&
+        /^reference\/backstories\/(?:formation|mastery)\//.test(
+          rel(file).replace(/^knowledge\//, ""),
+        ) &&
         eras.length !== 1
       ) {
         errors.push(`${rel(file)}: backstory record must declare exactly one era`);
@@ -269,7 +283,11 @@ for (const [subject, owners] of canonicalForOwners) {
 const generatedOverviews = markdownFiles.filter(
   (file) =>
     path.basename(file) === "00-overview.md" &&
-    !["backstories"].includes(path.relative(BUNDLE, file).split(path.sep)[0]),
+    !path
+      .relative(BUNDLE, file)
+      .split(path.sep)
+      .join("/")
+      .startsWith("reference/backstories/"),
 );
 if (generatedOverviews.length) {
   errors.push(
@@ -280,7 +298,7 @@ if (generatedOverviews.length) {
 }
 
 const backstories = [...conceptPaths].filter((id) =>
-  /^backstories\/(?:formation|mastery)\/SHION_[CA]\d{3}$/.test(id),
+  /^reference\/backstories\/(?:formation|mastery)\/SHION_[CA]\d{3}$/.test(id),
 );
 if (backstories.length !== 838) {
   errors.push(`backstory count is ${backstories.length}; expected 838`);
