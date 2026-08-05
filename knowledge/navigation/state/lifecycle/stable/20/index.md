@@ -1,11 +1,9 @@
 # stable 20
 
-範囲: ADV-003 物理費と人格復元費〜0. Purpose
+範囲: ADV-005 Ephemeral参照解決〜2. What to adopt
 
 ## 項目
 
-- [ADV-003 物理費と人格復元費](/pawn/adv-003.md) — MUST: Archiveが低コストで復元するのは人格・構成情報であり、失われた身体、内蔵Module、着脱装備を無償複製しない。
-- [ADV-004 Pawn要素別安全性](/pawn/adv-004.md) — MUST: Gene、Hediff、Ability、Comp、Royalty、Ideology、Quest、外部MODデータをDormant Safe、Archive Safe、Clone Safeの要素別に判定する。
 - [ADV-005 Ephemeral参照解決](/pawn/adv-005.md) — MUST: Ephemeral Pawnの完全削除前に、Relation、Mood Memory、Tale、Quest、Lord、Faction、World Pawn、Bond、外部参照を解決、匿名化、終端記録へ変換する。
 - [ADV-006 Design version pin](/pawn/adv-006.md) — MUST: Generation Requestは開始時のPawn Design、Clone Source checkpoint、Loadout Profile、Gene／Ability候補、Adapter versionをpinする。
 - [ADV-007 Pawn依存Manifest](/pawn/adv-007.md) — MUST: Dormant Record、Individual Archive、Pawn Design、Clone Sourceが依存するpackageId、version、Def、class、Adapterを有限Manifestとして保存する。
@@ -84,3 +82,5 @@
 - [参考資料の利用境界](/reference/00-%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99%E3%81%AE%E5%88%A9%E7%94%A8%E5%A2%83%E7%95%8C.md) — 参考資料は、現行正本ではないが、調査、比較、発想、再設計の入力として再利用できる可能性を持つ資料である。
 - [旧Matter Network統合検討](/reference/matter-network/00-%E6%97%A7%E7%B5%B1%E5%90%88%E6%A4%9C%E8%A8%8E.md) — Matter Network統合検討は終了した過去案件であり、判断経緯を探すための参考入口だけを保持する。
 - [0. Purpose](/research/anomaly-monolith/00-Purpose.md) — This document records user-provided screenshots of RimWorld Anomaly-style monolith structures as a visual reference for the redesigned…。
+- [1. Why Anomaly monoliths are useful](/research/anomaly-monolith/01-Why-Anomaly-monoliths-are-useful.md) — Anomaly monolith visuals are useful because they communicate、具体的にはa unique central object;とdormant mystery;を扱う。
+- [2. What to adopt](/research/anomaly-monolith/02-What-to-adopt.md) — Adopt structurally、具体的にはone strong central block;とside supports or buttresses;を扱う。

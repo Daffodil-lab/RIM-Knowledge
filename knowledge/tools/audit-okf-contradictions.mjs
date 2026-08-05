@@ -41,6 +41,13 @@ const allowedStates = new Set([
   "resolved",
   "accepted-unresolved",
 ]);
+const allowedReferenceReviewStates = new Set([
+  "candidate",
+  "re-audit",
+  "reference-only",
+  "accepted",
+  "rejected",
+]);
 
 function walk(dir) {
   const files = [];
@@ -97,14 +104,7 @@ for (const file of walk(BUNDLE)) {
     meta.knowledge_role === "catalog-record" &&
     meta.canonical_scope?.startsWith("backstory-")
   ) {
-    const allowedReviewStates = new Set([
-      "candidate",
-      "re-audit",
-      "reference-only",
-      "accepted",
-      "rejected",
-    ]);
-    if (!allowedReviewStates.has(meta.reference_review)) {
+    if (!allowedReferenceReviewStates.has(meta.reference_review)) {
       errors.push(
         `${relative(file)}: backstory catalog record requires a valid reference_review`,
       );
@@ -112,6 +112,25 @@ for (const file of walk(BUNDLE)) {
       referenceReviewCounts.set(
         meta.reference_review,
         (referenceReviewCounts.get(meta.reference_review) || 0) + 1,
+      );
+    }
+  }
+
+  if (meta.authority === "protected-draft") {
+    const expected = {
+      status: "draft",
+      knowledge_role: "draft-proposal",
+    };
+    for (const [key, value] of Object.entries(expected)) {
+      if (meta[key] !== value) {
+        errors.push(
+          `${relative(file)}: protected-draft requires ${key}: ${value}`,
+        );
+      }
+    }
+    if (!allowedReferenceReviewStates.has(meta.reference_review)) {
+      errors.push(
+        `${relative(file)}: protected-draft requires a valid reference_review`,
       );
     }
   }

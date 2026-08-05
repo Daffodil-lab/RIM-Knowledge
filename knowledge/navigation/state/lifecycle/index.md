@@ -2,5 +2,5 @@
 
 ## 小索引
 
-- [draft](draft/) — 10件
-- [stable](stable/) — 1763件
+- [draft](draft/) — 12件
+- [stable](stable/) — 1761件

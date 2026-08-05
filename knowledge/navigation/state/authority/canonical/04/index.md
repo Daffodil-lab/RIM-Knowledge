@@ -1,16 +1,9 @@
 # canonical 04
 
-範囲: GEN-007 反復可能性〜10. 車輌と改良動物
+範囲: INT-006 取消と返却〜17. FTLの例外性
 
 ## 項目
 
-- [GEN-007 反復可能性](/pawn/gen-007.md) — MUST: 通常Pawnの生産へ一回限りのWorld Unique資源、有限許可回数、消滅する原型を要求しない。
-- [GEN-008 Repeat Order](/pawn/gen-008.md) — MUST: 適合条件、Design、Registered IndividualのCloneを数量指定または目標活動数で反復生産できる。
-- [INT-001 Production Adapter](/pawn/int-001.md) — MUST: Pawn FoundryはBody、Module、装備、消耗品をKombinat Production Requestとして発注できる。
-- [INT-002 三主題の維持](/pawn/int-002.md) — MUST: Kombinat側ではPawn要求を生産対象、Pawn需要を消費予測、Foundryへの引渡しを流通として表示する。
-- [INT-003 具体装備](/pawn/int-003.md) — MUST: 登録個体の固有装備、名前付き装備、Quest品は具体Thingとして追跡し、Clone時に複製しない。
-- [INT-004 装備ファミリー](/pawn/int-004.md) — MUST: 武器、防具、工具、医療品等のFamily指定は、作者が明示登録した同用途・同性能帯・同費用帯の候補から具体Thingへ解決する。
-- [INT-005 Ability Package](/pawn/int-005.md) — MUST: 必要能力はBody Module、Gene、Trait、Skill、Passion、Ability、Hediff等の由来を区別して構成し、同じ効果を無関係な仕組みで暗黙代替しない。
 - [INT-006 取消と返却](/pawn/int-006.md) — MUST: 生産取消、設計変更、配備失敗時は、未消費資源、完成済み装備、部分完成Bodyを追跡し、複製せずCore独自保管・接続システムまたはMap上の受入先へ返却するか、Factory Buffer内で明示的に再利用する。
 - [PERF-001 Dormant停止](/pawn/perf-001.md) — MUST: Dormant PawnをRimWorld Pawn Tickまたは全件毎tick走査の対象にしない。
 - [PERF-002 Event更新](/pawn/perf-002.md) — MUST: Archive checkpoint、需要数、Clone活動数、回収状態をevent駆動で更新する。
@@ -84,3 +77,10 @@
 - [8. 遠征共同体とレッドスター](/world/08-%E9%81%A0%E5%BE%81%E5%85%B1%E5%90%8C%E4%BD%93%E3%81%A8Red-Star.md) — コアMODは、独立団、漂着者、認可団、その他の遠征共同体など、複数の開始立場を許容する。
 - [9. The Hive](/world/09-The-Hive.md) — The Hiveは、通常シオン社会の標準ではない、例外的な単一中枢運営を扱う。
 - [10. 車輌と改良動物](/world/10-%E8%BB%8A%E8%BC%8C%E3%81%A8%E6%94%B9%E8%89%AF%E5%8B%95%E7%89%A9.md) — 旧帝国と現代同盟は、長期にわたる選抜育種、遺伝子調整、人工生態系への適応によって作られた多様な改良動物を利用している。
+- [11. 保護された未確定事項](/world/11-%E4%BF%9D%E8%AD%B7%E3%81%95%E3%82%8C%E3%81%9F%E6%9C%AA%E7%A2%BA%E5%AE%9A%E4%BA%8B%E9%A0%85.md) — 次の事項は、設定不足ではなく、本書が意図的に正解を固定しない領域である。
+- [12. 正史上の禁止境界](/world/12-%E6%AD%A3%E5%8F%B2%E4%B8%8A%E3%81%AE%E7%A6%81%E6%AD%A2%E5%A2%83%E7%95%8C.md) — 新しい設定は、帝国と同盟の連続性と変化、純粋な善意、善意の非対称性、人格と身体の分離を同時に壊さない場合にのみ採用できる。
+- [13. 帝国人とシオンの起源](/world/13-%E5%B8%9D%E5%9B%BD%E4%BA%BA%E3%81%A8%E3%82%B7%E3%82%AA%E3%83%B3%E3%81%AE%E8%B5%B7%E6%BA%90.md) — シオンは、帝国人の身体基盤を簡略化し、少ない資源で反復製造できる派生人類として帝国に設計された。
+- [14. 水仙](/world/14-%E6%B0%B4%E4%BB%99.md) — 水仙は、帝国内戦後にシオンの蜂起を主導し、身体と製造手段を自己所有へ取り戻す革命の中心となったシオンである。
+- [15. トヴェルジとクピナ](/world/15-%E3%83%88%E3%83%B4%E3%82%A7%E3%83%AB%E3%82%B8%E3%81%A8%E3%82%AF%E3%83%94%E3%83%8A.md) — トヴェルジはシオン文明の起源となった球状星団であり、クピナはその中心域にある起源世界である。
+- [16. 同盟の正式名称](/world/16-%E5%90%8C%E7%9B%9F%E3%81%AE%E6%AD%A3%E5%BC%8F%E5%90%8D%E7%A7%B0.md) — 結成時の最も広く知られた正式な総称はトヴェルジ＝ネオパリマヤ・クピナ条約機構であり、現在の普遍的な呼称は同盟である。
+- [17. FTLの例外性](/world/17-FTL%E3%81%AE%E4%BE%8B%E5%A4%96%E6%80%A7.md) — 同盟はFTL航行とFTL情報伝達を実用運用できる例外的な文明だが、その利用には高く未詳の対価がある。

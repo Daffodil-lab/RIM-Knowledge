@@ -11,6 +11,7 @@ organization_groups:
 status: draft
 authority: protected-draft
 knowledge_role: draft-proposal
+reference_review: accepted
 granularity: section
 source_section: "3. 旧Transfer状態案"
 generated:

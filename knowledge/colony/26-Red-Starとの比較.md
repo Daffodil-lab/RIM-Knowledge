@@ -1,7 +1,7 @@
 ---
 type: "Gameplay Specification"
-title: "26. レッドスターとの比較"
-description: "レッドスターの支援は、物語上の看板や低確率イベントではない。"
+title: "26. 独立開拓団とレッドスターの責務境界"
+description: "独立開拓団の自律とレッドスターの国家保証を、支援、任務、報告、救援、交戦の責務として分ける。"
 tags:
   - "shion"
   - "independent-colony"
@@ -27,7 +27,7 @@ sources:
     title: "Shion Race: Core — 独立開拓団 設定・実装仕様 v1"
 ---
 
-# 26. レッドスターとの比較
+# 26. 独立開拓団とレッドスターの責務境界
 
 | 軸 | 独立開拓団 | レッドスター |
 |---|---|---|

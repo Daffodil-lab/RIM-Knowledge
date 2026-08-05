@@ -1,15 +1,9 @@
 # canonical 02
 
-範囲: 39. 工業管制塔設定クラス〜INT-002 通常経路
+範囲: 45. Human Weapons計画の実装境界〜PERF-002 Planner
 
 ## 項目
 
-- [39. 工業管制塔設定クラス](/design/39-Field-Ledger-Terminal%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9.md) — 工業管制塔は、独立遠征共同体がコンビナートの生産、消費、流通と同盟通貨へ触れるための現地端末である。
-- [40. Field Workshop設定クラス](/design/40-Field-Workshop%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9.md) — Field Workshopは、独立遠征共同体が現地資源と労働から生活・保守用の実用品を生産する現地工場である。
-- [41. Pawn Foundry設定クラス](/design/41-Pawn-Foundry%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9.md) — Pawn Foundryは、シオンの身体と配備構成を設計・生産し、個体記録、休眠保管、回収再生を扱うCoreの施設である。
-- [42. エネルギー供給の実装境界](/design/42-%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC%E4%BE%9B%E7%B5%A6%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 常設エネルギー接続とエネルギー結晶による外地供給を分離し、改造身体・高度装備・設備の稼働条件を実装する。
-- [43. 帝国系と同盟系の製品系列の実装境界](/design/43-%E5%B8%9D%E5%9B%BD%E7%B3%BB%E3%81%A8%E5%90%8C%E7%9B%9F%E7%B3%BB%E3%81%AE%E8%A3%BD%E5%93%81%E7%B3%BB%E5%88%97%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 帝国系を高性能・高価格・高工数・品質差のある品、同盟系を安価・量産向け・品質固定・しばしば高耐久な品としてゲームへ投影する。
-- [44. Human Weapons計画（仮称）](/design/44-Human-Weapons%E8%A8%88%E7%94%BB%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9.md) — Human Weapons計画（仮称）は、初期の対人類戦役で現地政権と協力者へ安価かつ迅速に供給できる、人間用の高性能火薬式火器を整備した同盟の調達計画である。
 - [45. Human Weapons計画の実装境界](/design/45-Human-Weapons%E8%A8%88%E7%94%BB%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — Human Weapons計画品を、品質を持たず、構造材だけで製造でき、結晶資源や常設電力を使わない人間用の独自火薬式火器として実装する。
 - [46. 装備アーカイブ番号体系](/design/46-%E8%A3%85%E5%82%99%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E7%95%AA%E5%8F%B7%E4%BD%93%E7%B3%BB.md) — 同盟の全装備は、三桁の分類番号と五桁の登録番号を空白で区切ったアーカイブ番号、および種類コードによって設計・型式単位で管理される。
 - [47. 装備アーカイブ番号の実装境界](/design/47-%E8%A3%85%E5%82%99%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E7%95%AA%E5%8F%B7%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 同盟装備の三桁分類番号、五桁登録番号、種類コードを安定した定義メタデータとして保持し、重複、形式不正、分類不一致を検証する。
@@ -84,3 +78,9 @@
 - [CUR-005 所在](/kombinat/requirements/cur-005.md) — PENDING: αのAccount scope、複数Mapからの利用、Map wealthへの算入方法は実装前に確定する。
 - [INT-001 無改造](/kombinat/requirements/int-001.md) — MUST: KombinatはCore独自保管基盤のprivate状態を変更または参照せず、公開Application境界だけを使う。
 - [INT-002 通常経路](/kombinat/requirements/int-002.md) — MUST: 物理Thingの受渡しにはCore独自基盤が公開する予約・commit・release契約だけを使う。
+- [INT-003 Storage予約](/kombinat/requirements/int-003.md) — MUST: Kombinatが工程へ算入できるのは、Core StorageがThing IDと数量で予約した入力だけである。
+- [INT-004 引渡し](/kombinat/requirements/int-004.md) — MUST: 生産出力はCore Storageへ直接生成し、Kombinat側の所有Thingを作らない。
+- [INT-005 接続不能](/kombinat/requirements/int-005.md) — MUST: Core独自Storageから供給または回収できない場合、Jobを転送待ちへ置く。
+- [INT-006 上流欠陥](/kombinat/requirements/int-006.md) — MUST: Core独自保管基盤単体で再現する問題と、Kombinat接続だけで再現する問題を分離する。
+- [PERF-001 Event駆動](/kombinat/requirements/perf-001.md) — MUST: Queue、Factory、Buffer、Accountの変化をeventで処理し、定常処理を索引と有界Queueから実行する。
+- [PERF-002 Planner](/kombinat/requirements/perf-002.md) — MUST: 一Planを最大200 node、100 ms以内、または一frame 4 ms以下の分割処理で終える暫定目標を持つ。

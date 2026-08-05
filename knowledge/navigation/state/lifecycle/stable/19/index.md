@@ -1,10 +1,9 @@
 # stable 19
 
-範囲: C. 停電〜ADV-002 無人Foundry
+範囲: D. 出力満杯〜ADV-004 Pawn要素別安全性
 
 ## 項目
 
-- [C. 停電](/kombinat/requirements/046-C-%E5%81%9C%E9%9B%BB.md) — Factory停止中に入力、進捗、出力を複製・消失させず、復電後に再検証する。
 - [D. 出力満杯](/kombinat/requirements/047-D-%E5%87%BA%E5%8A%9B%E6%BA%80%E6%9D%AF.md) — 納入先Storageの出力容量を予約できない時は次Batchを開始せず、既存在庫を変更しない。
 - [E. 取消](/kombinat/requirements/048-E-%E5%8F%96%E6%B6%88.md) — 開始前、入力受領後、処理中、出力待ちの各段階で取消規則を確認する。
 - [F. 保存往復](/kombinat/requirements/049-F-%E4%BF%9D%E5%AD%98%E5%BE%80%E5%BE%A9.md) — 全Job状態と通貨Transaction途中で保存・ロードし、二重実行しない。
@@ -73,7 +72,6 @@
 - [J. 途中保存と再送](/pawn/077-J-%E9%80%94%E4%B8%AD%E4%BF%9D%E5%AD%98%E3%81%A8%E5%86%8D%E9%80%81.md) — J. 途中保存と再送は、生産、Dormant化、回収、再資源化、再実体化、Cloneの各段階で保存する。
 - [13. 完成図Hardening要件](/pawn/13-%E5%AE%8C%E6%88%90%E5%9B%B3Hardening%E8%A6%81%E4%BB%B6.md) — 本節は旧完成図監査から回収したPawn Foundry固有のHardening要件を、本書自身の拘束要件として維持する。
 - [14. β Definition of Done](/pawn/14-%CE%B2-Definition-of-Done.md) — 次を全て満たした時だけ、β版のPawn生産系を完成とする。
-- [15. 未確定のバランス値](/pawn/15-%E6%9C%AA%E7%A2%BA%E5%AE%9A%E3%81%AE%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9%E5%80%A4.md) — 次はβの実装fixtureで確定するという方針の適用範囲と条件を定める。
 - [2.1 補充可能性](/pawn/2-1-%E8%A3%9C%E5%85%85%E5%8F%AF%E8%83%BD%E6%80%A7.md) — 補充可能性は、通常シオンPawnに、世界で一度しか得られない必須材料や有限の生産回数を要求しない。
 - [2.2 人格とゲームユニット](/pawn/2-2-%E4%BA%BA%E6%A0%BC%E3%81%A8%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88.md) — 人格とゲームユニットは、ゲーム上のPawnは生産、保管、交換、補充できるコマである。
 - [2.3 無料保管](/pawn/2-3-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — 生存PawnはPawn Foundryまたは対応設備からDormant状態へ移し、必要になるまで保管できる。
@@ -84,3 +82,5 @@
 - [4.1 ID](/pawn/4-1-ID.md) — 再実体化ではindividualIdを維持し、pawnInstanceIdを更新できる。
 - [ADV-001 緊急一体再配備](/pawn/adv-001.md) — MUST: 同一Mapで活動可能なプレイヤーPawnが0体になった場合、Dormant Recordから一体だけを、電力、Pawn作業、通常の配備Queueなしで安全地点へ復帰できるfail-safeを持つ。
 - [ADV-002 無人Foundry](/pawn/adv-002.md) — MUST: 電力、材料、健全な設備がある時、少なくとも一系統のPawn Foundry工程は生存Pawnの作業なしで一体を完成できる。
+- [ADV-003 物理費と人格復元費](/pawn/adv-003.md) — MUST: Archiveが低コストで復元するのは人格・構成情報であり、失われた身体、内蔵Module、着脱装備を無償複製しない。
+- [ADV-004 Pawn要素別安全性](/pawn/adv-004.md) — MUST: Gene、Hediff、Ability、Comp、Royalty、Ideology、Quest、外部MODデータをDormant Safe、Archive Safe、Clone Safeの要素別に判定する。

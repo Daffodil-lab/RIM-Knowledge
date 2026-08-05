@@ -1,11 +1,9 @@
 # stable 21
 
-範囲: 1. Why Anomaly monoliths are useful〜9. Alpha impact
+範囲: 3. What not to copy〜11. Performance cautions
 
 ## 項目
 
-- [1. Why Anomaly monoliths are useful](/research/anomaly-monolith/01-Why-Anomaly-monoliths-are-useful.md) — Anomaly monolith visuals are useful because they communicate、具体的にはa unique central object;とdormant mystery;を扱う。
-- [2. What to adopt](/research/anomaly-monolith/02-What-to-adopt.md) — Adopt structurally、具体的にはone strong central block;とside supports or buttresses;を扱う。
 - [3. What not to copy](/research/anomaly-monolith/03-What-not-to-copy.md) — Shion Nexus is not Anomaly horror. It is a quiet ceramic clockwork singularity.。
 - [4. Three-state Core visual lesson](/research/anomaly-monolith/04-Three-state-Core-visual-lesson.md) — The screenshots suggest a useful three-stage language、具体的にはBroken/dormant slab：Dormant Core: dark aperture, sealed face, no strong…。
 - [5. Shape options influenced by Anomaly monoliths](/research/anomaly-monolith/05-Shape-options-influenced-by-Anomaly-monoliths.md) — Shape options influenced by Anomaly monolithsは、central raised slab;とbroad lower platform;を扱う。
@@ -84,3 +82,5 @@
 - [7. UI/system strengths to learn from](/research/monolyn-ui/07-UI-system-strengths-to-learn-from.md) — Monolyn strengths reported by players/review、具体的にはstrong faction identity;とTower-centered operation;を扱う。
 - [8. UI/system failures to avoid](/research/monolyn-ui/08-UI-system-failures-to-avoid.md) — Avoid in Shion Nexus alpha、具体的にはcentral actions with delayed invisible outcomes;とprogress that says inactive while active;を扱う。
 - [9. Alpha impact](/research/monolyn-ui/09-Alpha-impact.md) — This reference reinforces current Alpha 0.1 rules.。
+- [10. Shion Nexus UI checklist](/research/monolyn-ui/10-Shion-Nexus-UI-checklist.md) — Before Alpha 0.1 release, confirm、具体的にはCore Inspect explains alive/damaged/destroyed state.とLedger Inspect shows CVE, capacity, shells,…。
+- [11. Performance cautions](/research/monolyn-ui/11-Performance-cautions.md) — UI and feedback systems must not introduce hidden cost.。

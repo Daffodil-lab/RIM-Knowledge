@@ -1,4 +1,4 @@
-# protected-draft
+# accepted
 
 12件。
 

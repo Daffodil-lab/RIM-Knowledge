@@ -2,4 +2,5 @@
 
 ## 小索引
 
+- [accepted](accepted/) — 12件
 - [reference-only](reference-only/) — 842件
