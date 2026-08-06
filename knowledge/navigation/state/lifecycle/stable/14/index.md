@@ -1,9 +1,12 @@
 # stable 14
 
-範囲: SHION_C283 名前の違う地下街〜SHION_C362 国旗を畳んだ日
+範囲: SHION_C280 答えを伏せた護衛教室〜SHION_C359 今日から遡って話します
 
 ## 項目
 
+- [SHION_C280 答えを伏せた護衛教室](/reference/backstories/formation/SHION_C280.md) — 継承教室では、古い世代から射撃と護衛の手順を学びました。
+- [SHION_C281 鐘の夜の橋守り](/reference/backstories/formation/SHION_C281.md) — 革命連合の山岳連絡区で、本人は住民と荷役動物が渡る橋を守りました。
+- [SHION_C282 予測外の修繕班](/reference/backstories/formation/SHION_C282.md) — 長期予測院の修繕班では、遠い未来の交換計画まで表になっていました。
 - [SHION_C283 名前の違う地下街](/reference/backstories/formation/SHION_C283.md) — 移動都市の地下区画が崩れた時、地図にある名と住民の呼ぶ名が違っていました。
 - [SHION_C284 党派別でない保存食](/reference/backstories/formation/SHION_C284.md) — 自治評議区で保存食を作ると、党派ごとの伝統料理を入れろと必ず注文が来ました。
 - [SHION_C285 選ばなかった花の庭](/reference/backstories/formation/SHION_C285.md) — 孵育文化区の記念庭園は、誰もが心地よいと判定された花で埋められていました。
@@ -81,6 +84,3 @@
 - [SHION_C357 この話は書き残してほしい](/reference/backstories/formation/SHION_C357.md) — この話は書き残してほしいでは、一つ、はっきりお願いしておきたいことがあります。
 - [SHION_C358 帝国最初の落第兵](/reference/backstories/formation/SHION_C358.md) — うちは多分、成立したての帝国で最初に隊列を乱した子供の一人だと思う。
 - [SHION_C359 今日から遡って話します](/reference/backstories/formation/SHION_C359.md) — 今日から遡って話しますでは、今日から遡って話しましょう。
-- [SHION_C360 甲板の錆と最初の家](/reference/backstories/formation/SHION_C360.md) — 甲板の錆と最初の家では、俺の故郷は地図のどこにもない。
-- [SHION_C361 味噌と水耕の甲板](/reference/backstories/formation/SHION_C361.md) — 味噌と水耕の甲板では、指先にまだ生姜の匂いが残っている気がします。
-- [SHION_C362 国旗を畳んだ日](/reference/backstories/formation/SHION_C362.md) — 「その布、もう畳んでいいんじゃない」って、あたしは互助会の年寄りに言ったの。

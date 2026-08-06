@@ -1,9 +1,12 @@
 # stable 09
 
-範囲: STA-001 意図した仕様〜REG-005 単一個体として保存
+範囲: SAV-002 非複製〜REG-002 Archive更新
 
 ## 項目
 
+- [SAV-002 非複製](/kombinat/requirements/sav-002-%E9%9D%9E%E8%A4%87%E8%A3%BD.md) — MUST: KombinatセーブはKombinat固有状態とCore取引参照だけを保持する。
+- [SAV-003 途中保存](/kombinat/requirements/sav-003-%E9%80%94%E4%B8%AD%E4%BF%9D%E5%AD%98.md) — MUST: 材料待ち、入力予約後、処理中、出力容量待ち、Commit前後、通貨保留中に保存・ロードできる。
+- [SAV-004 同一ビルド](/kombinat/requirements/sav-004-%E5%90%8C%E4%B8%80%E3%83%93%E3%83%AB%E3%83%89.md) — MUST: α／βでは同一ビルドの保存往復を保証する。
 - [STA-001 意図した仕様](/kombinat/requirements/sta-001-%E6%84%8F%E5%9B%B3%E3%81%97%E3%81%9F%E4%BB%95%E6%A7%98.md) — MUST: Core独自Storage内の腐敗、温度、Thing Tick、Comp Tick、充放電、孵化等の時間進行方針を明示する。
 - [STA-002 追加制限禁止](/kombinat/requirements/sta-002-%E8%BF%BD%E5%8A%A0%E5%88%B6%E9%99%90%E7%A6%81%E6%AD%A2.md) — MUST: Stasisによる時間停止だけを理由に、Kombinatから追加費用、危険分類、入庫拒否を行わない。
 - [STA-003 工場内在庫禁止](/kombinat/requirements/sta-003-%E5%B7%A5%E5%A0%B4%E5%86%85%E5%9C%A8%E5%BA%AB%E7%A6%81%E6%AD%A2.md) — MUST: Kombinat Factoryは生産用ThingOwnerを持たず、材料、中間品、完成品をCore Storageへ一元化する。
@@ -81,6 +84,3 @@
 - [REC-009 Quest参照](/pawn/rec-009-%E5%8F%82%E7%85%A7.md) — MUST: Ephemeral最終削除の前にQuest、Lord、Relation、Faction、World Pawn、外部Adapterへ終了通知を送り、参照を解決する。
 - [REG-001 既存Pawn登録](/pawn/reg-001-%E6%97%A2%E5%AD%98-%E7%99%BB%E9%8C%B2.md) — MUST: 活動中またはDormantのシオンPawnをRegistered Individualへ変更できる。
 - [REG-002 Archive更新](/pawn/reg-002-%E6%9B%B4%E6%96%B0.md) — MUST: Archiveは登録時、Dormant化時、手動保存時、死亡回収時にevent駆動でcheckpointする。
-- [REG-003 単一個体制約](/pawn/reg-003-%E5%8D%98%E4%B8%80%E5%80%8B%E4%BD%93%E5%88%B6%E7%B4%84.md) — MUST: 同じindividualIdを持つ活動中またはDormantの実体を二体作らない。
-- [REG-004 Design保存](/pawn/reg-004-%E4%BF%9D%E5%AD%98.md) — MUST: プレイヤー設計を個体情報のない再利用可能なPawn Designとして保存できる。
-- [REG-005 単一個体として保存](/pawn/reg-005-%E5%8D%98%E4%B8%80%E5%80%8B%E4%BD%93%E3%81%A8%E3%81%97%E3%81%A6%E4%BF%9D%E5%AD%98.md) — MUST: プレイヤー設計を名前とindividualIdを持つ一人のIndividual Archiveとして保存し、必要な時にその個体を生産できる。

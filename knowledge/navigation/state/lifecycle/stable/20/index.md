@@ -1,9 +1,12 @@
 # stable 20
 
-範囲: SHION_A344 律法草稿班の写字生〜2. What to adopt
+範囲: SHION_A341 旧内陸連合圏の密造酒職人〜旧Matter Network統合検討
 
 ## 項目
 
+- [SHION_A341 旧内陸連合圏の密造酒職人](/reference/backstories/mastery/SHION_A341.md) — 旧内陸連合圏の密造酒職人では、船内で酒を造るのは規則違反だった。
+- [SHION_A342 医療分隊の助産師](/reference/backstories/mastery/SHION_A342.md) — 医療分隊で外部居住者の出産を支え、凍土文化の先達から継いだ知見を医療手順の余白へ残した。
+- [SHION_A343 旧山岳部族圏の狩猟指導員](/reference/backstories/mastery/SHION_A343.md) — 船の中に獲物なんているわけないだろう、って最初はみんなに笑われたよ。
 - [SHION_A344 律法草稿班の写字生](/reference/backstories/mastery/SHION_A344.md) — 律法を書き写す仕事は、種を一粒ずつ植えるのに似ている。
 - [SHION_A345 混成家族区画の調停役](/reference/backstories/mastery/SHION_A345.md) — 混成家族区画の調停役では、俺が律法の番人だったなんて話は大げさすぎる。
 - [SHION_A346 儀礼歌唱団の指導者](/reference/backstories/mastery/SHION_A346.md) — 儀礼歌唱団の指導者では、声を合わせる、それが本人の仕事だった。
@@ -81,6 +84,3 @@
 - [SHION_A418 帝国拡張艦隊の航宙士](/reference/backstories/mastery/SHION_A418.md) — 格納庫で拾った工具の名前を全部覚えていたのが、今の仕事の始まりだったのかもしれません。
 - [SHION_A419 秘文字工房の彫り師](/reference/backstories/mastery/SHION_A419.md) — うちが挽いた顔料で書いた文字が光った日から、もう長い年月が経つ。
 - [旧Matter Network統合検討](/reference/matter-network/00-%E6%97%A7%E7%B5%B1%E5%90%88%E6%A4%9C%E8%A8%8E.md) — Matter Network統合検討は終了した過去案件であり、判断経緯を探すための参考入口だけを保持する。
-- [0. Purpose](/research/anomaly-monolith/00-Purpose.md) — This document records user-provided screenshots of RimWorld Anomaly-style monolith structures as a visual reference for the redesigned…。
-- [1. Why Anomaly monoliths are useful](/research/anomaly-monolith/01-Why-Anomaly-monoliths-are-useful.md) — Anomaly monolith visuals are useful because they communicate、具体的にはa unique central object;とdormant mystery;を扱う。
-- [2. What to adopt](/research/anomaly-monolith/02-What-to-adopt.md) — Adopt structurally、具体的にはone strong central block;とside supports or buttresses;を扱う。

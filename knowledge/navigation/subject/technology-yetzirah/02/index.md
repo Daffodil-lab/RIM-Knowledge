@@ -5,6 +5,7 @@
 ## 項目
 
 - [24. 操作画面と情報予算](/design/24-UI%E3%81%A8%E6%83%85%E5%A0%B1%E4%BA%88%E7%AE%97.md) — 最初から帝国全史、魂の議論、惑星120件、全組織、全技術を説明しない。
+- [コード解説の作成規則](/governance/code-explanation-policy-%E3%82%B3%E3%83%BC%E3%83%89%E8%A7%A3%E8%AA%AC%E3%81%AE%E4%BD%9C%E6%88%90%E8%A6%8F%E5%89%87.md) — コード変更には、非技術者が目的、処理の流れ、状態変更、失敗時結果、検査範囲を追える日本語解説を同じPull Requestで添える。
 - [視覚と技術の基準](/player-facing/011-%E8%A6%96%E8%A6%9A%E3%81%A8%E6%8A%80%E8%A1%93%E3%81%AE%E5%9F%BA%E6%BA%96.md) — 未来性は、現代的な画面や軍用品ではなく、古い文明の手触りから不可能な結果が出ることで示します。
 - [SHION_C001 礼装工房の手伝い](/reference/backstories/formation/SHION_C001.md) — ソフェルの礼装を仕立てる工房で、採寸、布地の選別、刺繍図案の読み方を学んだ。
 - [SHION_C177 低温研究区の種子避難](/reference/backstories/formation/SHION_C177.md) — 低温技術の用途を聞く前に、失敗した時どこまで凍るか尋ねました。

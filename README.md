@@ -34,3 +34,9 @@ node knowledge/tools/maintain-okf.mjs --check
 ```
 
 概念を追加・更新した後は、`maintain-okf.mjs --write`で日時精度、説明、ファセット、横断索引、退役済み出典識別子を固定順に更新し、そのまま全検査を実行します。`--check`はファイルを変更せず、同じ検査だけを実行します。CIは`--write`後の差分を拒否するため、派生資料のcommit漏れを検出します。旧原本は削除済みなので、全件再移行は行いません。`knowledge/tools/build-okf.mjs`は初回移行の履歴として残した実行禁止ツールです。
+
+## コードを読まずに管理する
+
+所有者はコードの行単位理解ではなく、変更の目的、採用内容、正本、影響、未確認事項、公開可否を判断します。AIまたは作業者は、コードを読まなくても判断できる日本語の承認要約、実施した検査、残存リスク、戻し方をPull Requestへ記録します。詳しい責任分担と停止条件は[人間による承認境界](knowledge/governance/human-approval-boundary-人間による承認境界.md)を参照してください。
+
+コードを変更する場合は、目的、動作の流れ、重要なファイルと関数、状態変更、失敗時結果、検査範囲を段階的に説明します。永続する仕組みは対象実装の正本へ、今回の差分はPull Requestへ記録します。形式は[コード解説の作成規則](knowledge/governance/code-explanation-policy-コード解説の作成規則.md)に定義し、現在使っている保守コマンドは[OKF統合保守コード解説](knowledge/governance/okf-maintenance-code-guide-OKF統合保守コード解説.md)で実例を確認できます。

@@ -1,9 +1,12 @@
 # stable 19
 
-範囲: SHION_A264 移動都市群の仮設建築士〜SHION_A343 旧山岳部族圏の狩猟指導員
+範囲: SHION_A261 月面事業区の古文書研究者〜SHION_A340 航行記録班の観測員
 
 ## 項目
 
+- [SHION_A261 月面事業区の古文書研究者](/reference/backstories/mastery/SHION_A261.md) — 月面事業の公式記録は、最初から成功する予定だったように書かれていた。
+- [SHION_A262 封鎖観測地の監視射手](/reference/backstories/mastery/SHION_A262.md) — 封鎖地では、変色した草が風で揺れるたび照準を合わせた。
+- [SHION_A263 対機械戦区の徒手警護員](/reference/backstories/mastery/SHION_A263.md) — 対機械戦区では、避難者と飼育動物を武器なしで誘導した。
 - [SHION_A264 移動都市群の仮設建築士](/reference/backstories/mastery/SHION_A264.md) — 移動都市の帰還者へ家を作ると、地図と本人の記憶がよく喧嘩した。
 - [SHION_A265 人格照合局の坑道監督](/reference/backstories/mastery/SHION_A265.md) — 人格照合局の地下保管庫を広げる時、本人は地層の音を聞き、戻れる順番で掘らせた。
 - [SHION_A266 帰還兵港の祝宴料理人](/reference/backstories/mastery/SHION_A266.md) — 帰還兵港の祝宴では、一つの「懐かしい味」を決めなかった。
@@ -81,6 +84,3 @@
 - [SHION_A338 居住区の家庭教師](/reference/backstories/mastery/SHION_A338.md) — 居住区で大河の民の言語と子守唄を教え、使う機会の少ない文化記憶を少数の継承者へ渡した。
 - [SHION_A339 甲板建築班の左官](/reference/backstories/mastery/SHION_A339.md) — 甲板建築班の左官では、わしが使うコテは三種類しかない。
 - [SHION_A340 航行記録班の観測員](/reference/backstories/mastery/SHION_A340.md) — 航行記録班の観測員では、観測手順は三段階だった。
-- [SHION_A341 旧内陸連合圏の密造酒職人](/reference/backstories/mastery/SHION_A341.md) — 旧内陸連合圏の密造酒職人では、船内で酒を造るのは規則違反だった。
-- [SHION_A342 医療分隊の助産師](/reference/backstories/mastery/SHION_A342.md) — 医療分隊で外部居住者の出産を支え、凍土文化の先達から継いだ知見を医療手順の余白へ残した。
-- [SHION_A343 旧山岳部族圏の狩猟指導員](/reference/backstories/mastery/SHION_A343.md) — 船の中に獲物なんているわけないだろう、って最初はみんなに笑われたよ。

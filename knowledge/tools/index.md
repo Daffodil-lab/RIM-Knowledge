@@ -4,6 +4,8 @@
 
 ## 標準更新
 
+コードを読まない利用者向けの目的、処理順、書込み範囲、失敗時結果は[OKF統合保守コード解説](/governance/okf-maintenance-code-guide-OKF統合保守コード解説.md)に記載する。
+
 ```powershell
 node knowledge/tools/maintain-okf.mjs --write
 ```

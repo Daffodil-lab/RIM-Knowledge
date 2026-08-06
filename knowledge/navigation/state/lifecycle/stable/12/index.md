@@ -1,9 +1,12 @@
 # stable 12
 
-範囲: SHION_C123 人格照合局の記録見習い〜SHION_C202 帝国書庫塔の動物診療
+範囲: SHION_C120 山岳連絡区の追悼劇〜SHION_C199 共同祝宴堂の食材採掘
 
 ## 項目
 
+- [SHION_C120 山岳連絡区の追悼劇](/reference/backstories/formation/SHION_C120.md) — 山岳連絡区では、橋を守った者たちの話を舞台にしました。
+- [SHION_C121 幸福都市を去った診療助手](/reference/backstories/formation/SHION_C121.md) — 幸福都市を去った診療助手では、幸福都市は本当に美しかった。
+- [SHION_C122 塔域の再会受付](/reference/backstories/formation/SHION_C122.md) — 塔域の再会受付で、記憶欠落、複製後の差、不在時間を歓迎より先に説明した。
 - [SHION_C123 人格照合局の記録見習い](/reference/backstories/formation/SHION_C123.md) — 内戦中、外見や性能だけで存在を分類するのは危険だった。
 - [SHION_C124 監査室の護衛遊戯](/reference/backstories/formation/SHION_C124.md) — 監査室の護衛遊戯では、監査室の護衛競技が趣味だった。
 - [SHION_C125 空挺基地の捜索競技](/reference/backstories/formation/SHION_C125.md) — 降下競技では、着地の美しさより仲間を見つける速さを競いました。
@@ -81,6 +84,3 @@
 - [SHION_C197 要塞潜入路の搬出実習](/reference/backstories/formation/SHION_C197.md) — 要塞潜入路の搬出実習では、要塞の正面を破る案は立派だった。
 - [SHION_C198 特殊任務学校の退避棟実習](/reference/backstories/formation/SHION_C198.md) — 特殊任務学校で、本人は帰還者と保護対象が休む退避棟を組みました。
 - [SHION_C199 共同祝宴堂の食材採掘](/reference/backstories/formation/SHION_C199.md) — 祝宴堂の食材には、岩塩や鉱物性の香料もありました。
-- [SHION_C200 立入制限地の遠征食](/reference/backstories/formation/SHION_C200.md) — 立入制限地へ持ち込む歓待・救援用の遠征食は、帰還予定日より長く保存できるよう作った。
-- [SHION_C201 開戦前残響域の停戦菜園](/reference/backstories/formation/SHION_C201.md) — 残響域では、戦争を止められたかもしれない瞬間が何度も再現されました。
-- [SHION_C202 帝国書庫塔の動物診療](/reference/backstories/formation/SHION_C202.md) — 帝国書庫塔の診療室で、動物の歩幅・耳・呼吸を観察し、事実と痛みの推測を分けて記録した。

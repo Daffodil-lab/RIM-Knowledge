@@ -1,9 +1,12 @@
 # stable 17
 
-範囲: SHION_A104 機動強襲群の公共案内官〜SHION_A183 機械化訓練地の種子管理官
+範囲: SHION_A101 ヘイハルKombinatの精密工〜SHION_A180 旧党派収容記録所の設備技師
 
 ## 項目
 
+- [SHION_A101 ヘイハルKombinatの精密工](/reference/backstories/mastery/SHION_A101.md) — ヘイハルKombinatで精密部品を仕上げていました。
+- [SHION_A102 帰還兵港の舞台演出家](/reference/backstories/mastery/SHION_A102.md) — 帰還兵港の舞台演出家では、帰還兵港の舞台を任されました。
+- [SHION_A103 共同祝宴堂の臨床医](/reference/backstories/mastery/SHION_A103.md) — 共同祝宴堂の臨床医では、共同祝宴堂で臨床医をしていました。
 - [SHION_A104 機動強襲群の公共案内官](/reference/backstories/mastery/SHION_A104.md) — 機動強襲群の基地で、市民向けの案内をしていました。
 - [SHION_A105 人格照合局の記録官](/reference/backstories/mastery/SHION_A105.md) — 人格照合局では、事実、推測、後世の注釈を別の欄へ分けました。
 - [SHION_A106 長期予測院の射撃教官](/reference/backstories/mastery/SHION_A106.md) — 長期予測院の射撃教官では、長期予測院で射撃を教えていました。
@@ -81,6 +84,3 @@
 - [SHION_A178 攻勢命令審査線の護衛射手](/reference/backstories/mastery/SHION_A178.md) — 攻勢命令の審査線を護衛し、避難者と味方が射線へ入らない時だけ撃ちました。
 - [SHION_A179 山岳連絡区の徒手警護員](/reference/backstories/mastery/SHION_A179.md) — 山岳連絡区の橋を守り、党派の違う部隊が喧嘩すれば武器を抜く前に抱えて離しました。
 - [SHION_A180 旧党派収容記録所の設備技師](/reference/backstories/mastery/SHION_A180.md) — 旧党派の収容記録所で、壁と配管と避難路を直しました。
-- [SHION_A181 要塞潜入路の資源測量士](/reference/backstories/mastery/SHION_A181.md) — 要塞へ入る道は、掘れば見つかるというものではない。
-- [SHION_A182 移動都市群の保存食職人](/reference/backstories/mastery/SHION_A182.md) — 移動都市で、外部旅人の栄養条件とシオンの感覚上の好みに合わせ、到着後の食卓を先に準備した。
-- [SHION_A183 機械化訓練地の種子管理官](/reference/backstories/mastery/SHION_A183.md) — 訓練地で本人が守っていたのは、武器庫より種子庫だった。
