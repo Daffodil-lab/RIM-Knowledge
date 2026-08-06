@@ -3,6 +3,7 @@ import path from "node:path";
 import {
   ERA_ORDER,
   ORGANIZATION_LABELS,
+  TOPICAL_TAGS,
   descriptionProblems,
   parseFrontmatter as parseOkfFrontmatter,
 } from "./lib/okf-utils.mjs";
@@ -21,6 +22,18 @@ const FROZEN_REFERENCE_AUTHORITIES = new Set([
   "reference",
   "historical",
   "catalog",
+]);
+const TAG_ID = /^[a-z0-9]+(?:-[a-z0-9]+)*$/;
+const FORBIDDEN_CLASSIFICATION_TAGS = new Set([
+  "canon",
+  "canonical",
+  "catalog",
+  "reference",
+  "protected-draft",
+  "historical",
+  "draft",
+  "stable",
+  "deprecated",
 ]);
 
 function walk(dir) {
@@ -94,6 +107,28 @@ for (const file of markdownFiles) {
       errors.push(`${rel(file)}: missing parseable frontmatter delimiters`);
     } else {
       const parsedMetadata = parseOkfFrontmatter(text).metadata;
+      const tags = parsedMetadata.tags;
+      if (!Array.isArray(tags) || tags.length === 0) {
+        errors.push(`${rel(file)}: tags must be a non-empty list`);
+      } else {
+        const seenTags = new Set();
+        for (const tag of tags) {
+          if (typeof tag !== "string" || !TAG_ID.test(tag)) {
+            errors.push(`${rel(file)}: invalid topical tag ${String(tag)}`);
+            continue;
+          }
+          if (seenTags.has(tag)) errors.push(`${rel(file)}: duplicate tag ${tag}`);
+          seenTags.add(tag);
+          if (!TOPICAL_TAGS.has(tag)) {
+            errors.push(`${rel(file)}: unknown topical tag ${tag}`);
+          }
+          if (FORBIDDEN_CLASSIFICATION_TAGS.has(tag)) {
+            errors.push(
+              `${rel(file)}: classification tag ${tag} must use authority, status, or knowledge_role`,
+            );
+          }
+        }
+      }
       if (
         !FROZEN_REFERENCE_AUTHORITIES.has(parsedMetadata.authority) &&
         !JAPANESE_FILENAME.test(path.basename(file, ".md"))
@@ -111,6 +146,7 @@ for (const file of markdownFiles) {
       for (const key of [
         "title",
         "description",
+        "tags:",
         "status",
         "authority",
         "knowledge_role",

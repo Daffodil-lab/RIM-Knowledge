@@ -4,10 +4,8 @@ title: "確定#90：Leviathansの前提条件（カタロニア讃歌＋政治�
 description: "Leviathansの前提条件（カタロニア讃歌＋政治派閥4子MODのクリア＋最強の軍団）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

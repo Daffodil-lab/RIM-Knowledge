@@ -4,9 +4,7 @@ title: "確定#216：濃縮真空エネルギー関連を3方向で拡張——�
 description: "濃縮真空エネルギー関連を3方向で拡張——発電機/備蓄装置/パイプ網の具体数値をバニラChemfuel powered generator準拠で確定、関連設備6種（§5.12）を新設、逸話・俗称を追加を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "independent-colony"
-  - "canon"
 organization_groups:
   - "independent-frontier"
 status: stable

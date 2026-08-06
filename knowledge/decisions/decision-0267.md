@@ -4,10 +4,8 @@ title: "確定#267：CoreMOD資料v1§13新設・ステルス性メカニクス�
 description: "CoreMOD資料v1§13新設・ステルス性メカニクス（距離依存の被発見システム）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

@@ -4,9 +4,7 @@ title: "確定#162：段1カタログの拡張・モチーフ差し替え（NESH
 description: "段1カタログの拡張・モチーフ差し替え（NESHER/ESH/SODOM新設ほか）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

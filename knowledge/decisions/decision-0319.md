@@ -4,9 +4,7 @@ title: "確定#319：「Shion Race: 地場」自体が実装する技術範囲�
 description: "「Shion Race: 地場」自体が実装する技術範囲はグリッターワールド級までと確定——アルコテック級はCoreMOD・分身側の役割を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

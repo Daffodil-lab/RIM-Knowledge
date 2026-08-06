@@ -4,8 +4,6 @@ title: "確定#69：カタロニア讃歌：内戦期職級3種の新設：特�
 description: "カタロニア讃歌：内戦期職級3種の新設：特化技師級（非常に高価・製作/知性/建設/医療のみ）／特化兵級（非常に高価・射撃/近接のみ）／汎用型（高価を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

@@ -8,7 +8,6 @@ tags:
   - "facility"
   - "cargo"
   - "red-star"
-  - "protected-draft"
 organization_groups:
   - "independent-frontier"
   - "kombinat-communities"

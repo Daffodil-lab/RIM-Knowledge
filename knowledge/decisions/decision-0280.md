@@ -4,9 +4,7 @@ title: "確定#280：NISTAR/MISTOR/MAGENシリーズ（§2.19）のSharp/Blunt/H
 description: "NISTAR/MISTOR/MAGENシリーズ（§2.19）のSharp/Blunt/Heat/Mass/costList・シールド値・ステルス性演算順序を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

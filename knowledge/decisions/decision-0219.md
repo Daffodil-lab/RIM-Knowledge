@@ -4,8 +4,6 @@ title: "確定#219：発電機の「地場濃度×100」は現在の地場濃度
 description: "発電機の「地場濃度×100」は現在の地場濃度ではなく濃縮真空エネルギー1単位あたりの単価であると訂正、燃料消費量を出力に応じた動的消費（上限維持で約1.82単位/日）へ修正を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

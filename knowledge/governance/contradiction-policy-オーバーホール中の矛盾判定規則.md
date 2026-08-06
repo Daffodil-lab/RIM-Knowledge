@@ -5,7 +5,6 @@ description: "改稿差分を誤って矛盾と判定せず、現行正本の衝
 tags:
   - "okf"
   - "governance"
-  - "canon"
   - "overhaul"
   - "contradiction"
 status: stable

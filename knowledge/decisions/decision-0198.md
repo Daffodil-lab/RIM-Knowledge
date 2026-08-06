@@ -4,8 +4,6 @@ title: "確定#198：ゼロ点エネルギー発電機・地場備蓄装置・�
 description: "ゼロ点エネルギー発電機・地場備蓄装置・濃縮真空エネルギー（VEF PipeSystem）を新設、Мастерская以降の基準消費量を一桁増、バラ/タバコ/ケシの下位品をНедраへ追加を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

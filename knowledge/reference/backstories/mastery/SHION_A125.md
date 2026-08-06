@@ -7,7 +7,6 @@ tags:
   - "backstory"
   - "mastery"
   - "the-hive"
-  - "canon"
 eras:
   - "ModernUnion"
 organization_groups:

@@ -4,9 +4,7 @@ title: "確定#254：研究「コア精錬」「弱点対抗ツリー」「熱�
 description: "研究「コア精錬」「弱点対抗ツリー」「熱エンジン制御」の3研究を「統合されたシステム」1研究へ完全統合、関連する§13番号を全面的に連番化を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

@@ -43,6 +43,7 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 ## 使い方
 
 - ファイル先頭の荷札（YAML frontmatter）で種別・状態・権威・出典を判定する。
+- `tags`は主題を探すための横断荷札であり、正史性や資料状態の判定に使わない。権威は`knowledge_role`、`canonical_for`、`authority`、`status`から判定する。
 - 同じ主題が複数に現れる場合は、`knowledge_role`と`canonical_owner`から唯一の所有者を辿る。
 - 本文末尾の「関連項目」からグラフを辿る。
 - 削除済み原本の由来は[退役済み出典識別台帳](sources/)の墓標識別子で確認する。原本文面や実体ファイルは参照できない。

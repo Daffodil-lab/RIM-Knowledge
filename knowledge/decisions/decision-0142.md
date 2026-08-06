@@ -4,9 +4,7 @@ title: "確定#142：支援要請システムに「限定介入」を新設＋�
 description: "支援要請システムに「限定介入」を新設＋艦隊到着までの経路とタイムラグを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "red-star"
-  - "canon"
 organization_groups:
   - "red-star"
 status: stable

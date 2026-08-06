@@ -4,8 +4,6 @@ title: "確定#201：ゼロ点エネルギーは本国の核融合炉より高�
 description: "ゼロ点エネルギーは本国の核融合炉より高効率だが工業惑星規模の危険性ゆえ不使用、Ромашка氏とミチューリン農芸公社への叙勲を新設を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

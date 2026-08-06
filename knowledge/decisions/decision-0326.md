@@ -4,9 +4,7 @@ title: "確定#326：探索⇄工業の循環（資源ノード発見）を確�
 description: "探索⇄工業の循環（資源ノード発見）を確定——バニラ非製造資源・対応MOD資源の効率的な入手経路として位置づけを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

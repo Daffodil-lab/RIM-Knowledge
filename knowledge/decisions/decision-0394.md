@@ -4,11 +4,9 @@ title: "確定#394：Kombinat完成図の仮想シミュレーション、未知
 description: "Kombinat完成図の仮想シミュレーション、未知MOD互換契約、復旧不能・無限容量の封鎖を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "kombinat"
   - "pawn"
   - "equipment"
-  - "canon"
   - "alpha"
   - "beta"
 organization_groups:

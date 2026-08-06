@@ -4,10 +4,8 @@ title: "確定#135：同盟派遣開拓団の公式ビジュアル参考（廃�
 description: "同盟派遣開拓団の公式ビジュアル参考（廃墟都市コンセプトアート）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

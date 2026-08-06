@@ -4,8 +4,6 @@ title: "確定#284：同盟本国の所在＝亜空間（別次元）に存在�
 description: "同盟本国の所在＝亜空間（別次元）に存在する巨大艦隊群、3次元居住者の稀少性、超長期滞在が生む\"奇行\"（祭り・大会・RimWorld入植）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

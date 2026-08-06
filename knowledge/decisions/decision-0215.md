@@ -4,9 +4,7 @@ title: "確定#215：新資材「液化メカナイト」を新設——シオ�
 description: "新資材「液化メカナイト」を新設——シオン/Shion個体からの直接採取と、メカナイト化植物（メカナイト米/鈴蘭/ライラック等）の濃縮真空エネルギーによる加工精製の2経路を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

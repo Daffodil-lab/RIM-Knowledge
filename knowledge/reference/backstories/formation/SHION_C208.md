@@ -8,7 +8,6 @@ tags:
   - "formation"
   - "red-star"
   - "equipment"
-  - "canon"
 eras:
   - "LongTransition"
 organization_groups:

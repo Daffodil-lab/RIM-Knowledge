@@ -7,7 +7,6 @@ tags:
   - "backstory"
   - "formation"
   - "equipment"
-  - "canon"
 eras:
   - "ColonizationEra"
 organization_groups:

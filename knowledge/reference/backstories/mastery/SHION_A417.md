@@ -6,7 +6,6 @@ tags:
   - "shion"
   - "backstory"
   - "mastery"
-  - "canon"
 eras:
   - "AscendantEra"
 organization_groups:

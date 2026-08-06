@@ -4,8 +4,6 @@ title: "確定#292：気まぐれなシオン/Shionと現地コミュニティ�
 description: "気まぐれなシオン/Shionと現地コミュニティ——好かれ、勝手な同胞化が分断を生み、最悪の場合本国介入で\"地獄\"と化す著名な顛末を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

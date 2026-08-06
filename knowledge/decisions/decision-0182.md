@@ -4,8 +4,6 @@ title: "確定#182：時計仕掛けの狐人形のTier構造の特例を確定�
 description: "時計仕掛けの狐人形のTier構造の特例を確定（−Tierなし・必要素材種類数固定・Tier比例の弱点負債pt）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

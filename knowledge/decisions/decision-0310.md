@@ -4,9 +4,7 @@ title: "確定#310：Tower Ledger統合工業システムの基礎資源をCVE�
 description: "Tower Ledger統合工業システムの基礎資源をCVE・デジタル資材・労務資本・Cellの4種へ絞り込み（ステラリスの資源体系を参考）——戦略資源・特殊素材は後回しを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

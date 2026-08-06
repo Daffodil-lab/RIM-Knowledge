@@ -4,9 +4,7 @@ title: "確定#96：Leviathansの前提に真昼の暗黒を追加"
 description: "Leviathansの前提に真昼の暗黒を追加を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

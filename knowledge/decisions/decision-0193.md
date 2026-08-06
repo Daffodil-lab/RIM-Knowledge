@@ -4,8 +4,6 @@ title: "確定#193：個人名プール（§2）にオーストリア/ユーゴ�
 description: "個人名プール（§2）にオーストリア/ユーゴスラビア諸国/チェコ/スロバキア/スウェーデン/バルト三国/ポーランド＋Diasporaブランド転用/聖書/律法/コーランの11系統を追加、約480語→約660語へ拡大を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

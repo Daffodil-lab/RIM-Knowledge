@@ -5,7 +5,6 @@ description: "旧Transfer状態案の定義、境界、参照関係を示す資�
 tags:
   - "kombinat"
   - "remote-logistics"
-  - "protected-draft"
 organization_groups:
   - "kombinat-communities"
 status: draft

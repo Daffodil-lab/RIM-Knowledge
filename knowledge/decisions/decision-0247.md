@@ -4,8 +4,6 @@ title: "確定#247：CoreMOD資料v1§11「最小限の基礎研究」を現行�
 description: "CoreMOD資料v1§11「最小限の基礎研究」を現行仕様に同期——身体ロードアウト工学・技師修理術・ゼロ点エネルギー工学・高度ゼロ点エネルギー技術・コロニードクトリン（グランド／サブ）の5研究を新設し前提関係を表で明記を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

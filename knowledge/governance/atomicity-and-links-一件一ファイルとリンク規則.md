@@ -6,7 +6,6 @@ tags:
   - "okf"
   - "governance"
   - "backstory"
-  - "canon"
 status: stable
 authority: canonical
 knowledge_role: governance

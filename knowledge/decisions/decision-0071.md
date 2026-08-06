@@ -4,9 +4,7 @@ title: "確定#71：カタロニア讃歌：階梯を全系統15階梯に統一�
 description: "カタロニア讃歌：階梯を全系統15階梯に統一＋例外階梯「内務省警察」の新設：全系統14階梯に統一し、共通の15段目として内務省警察兵/技師/汎用型を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

@@ -4,8 +4,6 @@ title: "確定#175：有機機械限定特性を任意付与特性プールへ�
 description: "有機機械限定特性を任意付与特性プールへ統合、生物的な名称（血モチーフ）へ改名を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

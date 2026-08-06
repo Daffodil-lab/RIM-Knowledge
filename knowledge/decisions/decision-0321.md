@@ -4,9 +4,7 @@ title: "確定#321：確定#320を訂正——「地場の拡張」の正体は�
 description: "確定番号320を訂正——「地場の拡張」の正体は既存MOD「Shion Race: Red Star」。"
 tags:
   - "decision-log"
-  - "historical"
   - "red-star"
-  - "canon"
 organization_groups:
   - "red-star"
 status: stable

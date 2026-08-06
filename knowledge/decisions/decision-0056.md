@@ -4,9 +4,7 @@ title: "確定#56：内戦の影の英雄＝上級機械化近衛兵と失われ
 description: "内戦の影の英雄＝上級機械化近衛兵と失われた機械化親衛階級：capstone個体の物語的ルーツ。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

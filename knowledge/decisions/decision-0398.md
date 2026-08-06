@@ -4,7 +4,6 @@ title: "確定#398：α版からCore独自保管・接続基盤を採用する"
 description: "Matter Network必須依存を撤回し、α版から通常Map空間を経由しない独自保管・接続基盤と任意排出を採用した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "kombinat"
   - "storage"
   - "network"

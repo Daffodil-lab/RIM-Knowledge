@@ -4,8 +4,6 @@ title: "確定#72：§8メンテナンス／過熱・低温システムをApocal
 description: "§8メンテナンス／過熱・低温システムをApocalypse拡張MOD（猫のゆりかご）へ再区分：製造コスト・§8.2-Aダイアログのみ CoreMを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

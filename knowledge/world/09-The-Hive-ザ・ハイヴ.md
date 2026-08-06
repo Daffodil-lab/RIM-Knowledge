@@ -4,7 +4,6 @@ title: "9. The Hive"
 description: "The Hiveは、通常シオン社会の標準ではない、例外的な単一中枢運営を扱う。"
 tags:
   - "shion"
-  - "canon"
   - "world"
   - "kombinat"
   - "pawn"

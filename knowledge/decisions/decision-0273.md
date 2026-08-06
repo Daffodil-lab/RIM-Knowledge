@@ -4,9 +4,7 @@ title: "確定#273：ステルス性は数値が低いほど良いと訂正、�
 description: "ステルス性は数値が低いほど良いと訂正、既存の×0.9/×0.8/−1補正はすべて有利なボーナスを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

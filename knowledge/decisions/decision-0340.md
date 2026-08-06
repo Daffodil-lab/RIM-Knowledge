@@ -4,9 +4,7 @@ title: "確定#340：母星「Купина」・球状星団「Твердь」�
 description: "母星「Купина」・球状星団「Твердь」の命名、および旧帝国の真アルコテック文明設定を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "kombinat"
-  - "canon"
 organization_groups:
   - "kombinat-communities"
 status: stable

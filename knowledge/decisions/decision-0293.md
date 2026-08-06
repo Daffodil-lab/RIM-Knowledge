@@ -4,9 +4,7 @@ title: "確定#293：独立開拓団は\"普通の\"人間性を保持し、同�
 description: "独立開拓団は\"普通の\"人間性を保持し、同盟人と異なり人間らしく非合理的に反応する——価値観の違いは開拓環境ゆえ（確定番号291を補足）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "independent-colony"
-  - "canon"
 organization_groups:
   - "independent-frontier"
 status: stable

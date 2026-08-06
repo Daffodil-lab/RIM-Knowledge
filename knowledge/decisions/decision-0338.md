@@ -4,9 +4,7 @@ title: "確定#338：仮称MOD名2件を文学作品名へ正式化——「ス�
 description: "仮称MOD名2件を文学作品名へ正式化——「スローターハウス5」「月を売った男」を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

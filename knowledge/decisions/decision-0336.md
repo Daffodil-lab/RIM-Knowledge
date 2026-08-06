@@ -4,8 +4,6 @@ title: "確定#336：新規コア（Nexus Core／Nexusサブコア）はプレ�
 description: "新規コア（Nexus Core／Nexusサブコア）はプレイヤーが直接製造できず、回収または名声購入で入手するを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

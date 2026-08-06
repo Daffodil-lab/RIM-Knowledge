@@ -4,9 +4,7 @@ title: "確定#251：コロニードクトリンによるユニット製造コ�
 description: "コロニードクトリンによるユニット製造コスト補正、および3Dプリンターのレシピ自動生成＋変換効率の可変化を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

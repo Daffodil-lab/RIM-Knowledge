@@ -4,8 +4,6 @@ title: "確定#186：両義特性「病気に強い・機械に弱い」を正�
 description: "両義特性「病気に強い・機械に弱い」を正特性「病気に強い」と負特性「機械に弱い」に分離を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

@@ -4,8 +4,6 @@ title: "確定#195：§2-1〜2-8の既存語彙（固有名詞除く）を全19�
 description: "§2-1〜2-8の既存語彙（固有名詞除く）を全19言語系統へ翻訳、個人名プールを約672語→約4504語へ拡大を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

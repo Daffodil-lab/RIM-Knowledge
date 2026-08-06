@@ -4,10 +4,8 @@ title: "確定#106：ドクトル・ジバゴの構造＝Leviathansに近い／�
 description: "ドクトル・ジバゴの構造＝Leviathansに近い／史実の完敗と\"if\"ストーリーを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

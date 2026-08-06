@@ -4,8 +4,6 @@ title: "確定#255：研究「評議会工学（基礎）」を廃止し「ユ�
 description: "研究「評議会工学（基礎）」を廃止し「ユニット製造プロトコル」へ統合、関連する§13番号を再度全面連番化を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

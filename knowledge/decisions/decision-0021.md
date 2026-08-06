@@ -4,8 +4,6 @@ title: "確定#21：特化部隊（横断ドクトリン）：アノマリー対
 description: "特化部隊（横断ドクトリン）：アノマリー対応／対メカノイド／支援／特殊部隊／装甲突撃隊／メカニター／制裁部隊＋重火器クラス（§16）。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

@@ -4,9 +4,7 @@ title: "確定#282：迫撃砲・MLRS弾種（§2.20）の全数値を口径別�
 description: "迫撃砲・MLRS弾種（§2.20）の全数値を口径別に確定、81/120/160mmは互換性なしと明記を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

@@ -4,9 +4,7 @@ title: "確定#118：既存loreとの接続（ドクトル・ジバゴ・帝国�
 description: "既存loreとの接続（ドクトル・ジバゴ・帝国最後の戦い）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

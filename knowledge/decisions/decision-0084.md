@@ -4,9 +4,7 @@ title: "確定#84：CoreMODを「普通のRaceMOD相当」へ最小化：維持�
 description: "CoreMODを「普通のRaceMOD相当」へ最小化：維持（世界観lore・命名/言語・パワーカーブ指針・特性26個・製造コスト＋ダイアログ・外を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

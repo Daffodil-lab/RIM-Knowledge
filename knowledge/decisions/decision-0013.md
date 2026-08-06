@@ -4,8 +4,6 @@ title: "確定#13：唯一の稀少＝時間は本国のみの論理。時間泥
 description: "唯一の稀少＝時間は本国のみの論理を現行方針として確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

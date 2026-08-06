@@ -4,8 +4,6 @@ title: "確定#297：秘文字は基本的にシオン/Shionにしか理解で�
 description: "秘文字は基本的にシオン/Shionにしか理解できない技術——他のアルコテック存在なら理解できるだろう（確定番号295/番号296を補足）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

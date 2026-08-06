@@ -4,8 +4,6 @@ title: "確定#80：確定#53 Tier改造ポイント制の中間値問題を部�
 description: "確定番号53 Tier改造ポイント制の中間値問題を部分的に解決：+5〜+10区間は非線形の加速区間、−6〜−10区間は素材種類数の減少という別軸でを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

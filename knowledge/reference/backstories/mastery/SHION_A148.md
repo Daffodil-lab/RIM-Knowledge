@@ -8,7 +8,6 @@ tags:
   - "mastery"
   - "pawn"
   - "equipment"
-  - "canon"
 eras:
   - "EraIndependent"
 organization_groups:

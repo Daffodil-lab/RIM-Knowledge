@@ -4,8 +4,6 @@ title: "確定#240：コロニードクトリンをHoi4 2026年時点の最新�
 description: "コロニードクトリンをHoi4 2026年時点の最新仕様（1.17+「No Compromise, No Surrender」後のドクトリン再編）に合わせて二層構造へ更新——グランドドクトリン（4択・排他）＋ドクトリン軌道（4分野・独立選択・習熟度制）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

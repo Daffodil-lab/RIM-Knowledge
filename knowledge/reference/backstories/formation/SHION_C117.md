@@ -7,7 +7,6 @@ tags:
   - "backstory"
   - "formation"
   - "the-hive"
-  - "canon"
 eras:
   - "RevolutionaryWar"
 organization_groups:

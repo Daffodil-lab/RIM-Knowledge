@@ -4,8 +4,6 @@ title: "確定#28：職級×グレードは直交。昇格は資源で可能だ�
 description: "職級×グレードは直交を現行方針として確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

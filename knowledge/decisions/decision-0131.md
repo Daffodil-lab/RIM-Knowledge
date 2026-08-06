@@ -4,9 +4,7 @@ title: "確定#131：Combat Extended互換パッチ"
 description: "Combat Extended互換パッチを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

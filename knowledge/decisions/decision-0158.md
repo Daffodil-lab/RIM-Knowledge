@@ -4,9 +4,7 @@ title: "確定#158：段2品目の段1対応全カテゴリへの拡張"
 description: "段2品目の段1対応全カテゴリへの拡張を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

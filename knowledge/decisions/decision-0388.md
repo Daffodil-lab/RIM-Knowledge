@@ -4,9 +4,7 @@ title: "確定#388：618種バックストーリー、人工知能定義、特�
 description: "種バックストーリー、人工知能定義、特殊部隊・市民文化を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "backstory"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

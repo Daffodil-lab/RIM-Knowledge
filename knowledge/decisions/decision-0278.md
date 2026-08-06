@@ -4,9 +4,7 @@ title: "確定#278：クラスター弾をジャミング弾へ統合し、独�
 description: "クラスター弾をジャミング弾へ統合し、独立弾種としては廃止を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

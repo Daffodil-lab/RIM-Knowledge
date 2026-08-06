@@ -4,8 +4,6 @@ title: "確定#366：帝国の時間操作と同盟時代の技術的成果"
 description: "帝国の時間操作と同盟時代の技術的成果を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

@@ -4,10 +4,8 @@ title: "確定#262：装備数値表v1・迫撃砲の梱包/展開運用をFFF D
 description: "装備数値表v1・迫撃砲の梱包/展開運用をFFF Deployable Itemで確定、「野戦簡易型」新設は撤回を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

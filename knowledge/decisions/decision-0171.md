@@ -4,9 +4,7 @@ title: "確定#171：時計仕掛けを有機機械との必須排他選択へ�
 description: "時計仕掛けを有機機械との必須排他選択へ変更、有機機械限定特性をStellaris有機種族特性から翻案して新設を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

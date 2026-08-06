@@ -4,9 +4,7 @@ title: "確定#101：武器よさらばの時代設定＝明確に内戦前"
 description: "武器よさらばの時代設定＝明確に内戦前を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

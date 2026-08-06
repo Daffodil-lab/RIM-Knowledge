@@ -4,9 +4,7 @@ title: "確定#50：グレード(Tier)と品質(Quality)を別軸に分離：①
 description: "グレード(Tier)と品質(Quality)を別軸に分離：①Tier＝設計ダイアログで選ぶ固定仕様。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

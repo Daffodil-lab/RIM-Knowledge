@@ -4,8 +4,6 @@ title: "確定#230：CoreMOD§12.7「経済的意味」を修正——Тier別�
 description: "CoreMOD§12.7「経済的意味」を修正——Тier別基準消費量の数値論拠から、「無零花を絶やさず植えることが機械投資の有無に関わらず大前提」という実践的な結論へ書き換えを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

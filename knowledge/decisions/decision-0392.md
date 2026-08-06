@@ -4,10 +4,8 @@ title: "確定#392：Kombinatを生産・消費・流通へ集約した汎用工
 description: "Kombinatを生産・消費・流通へ集約した汎用工業とするを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "kombinat"
   - "independent-colony"
-  - "canon"
   - "alpha"
 organization_groups:
   - "independent-frontier"

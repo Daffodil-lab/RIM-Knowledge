@@ -4,7 +4,6 @@ title: "34. Cell"
 description: "Cellは、帝国から継承された自己増殖可能な工業媒体であり、物質、身体、設備を構成・変更する基盤の一つである。"
 tags:
   - "shion"
-  - "canon"
   - "world"
   - "technology"
   - "industry"

@@ -10,7 +10,6 @@ tags:
   - "pawn"
   - "the-hive"
   - "backstory"
-  - "canon"
   - "alpha"
 organization_groups:
   - "kombinat-communities"

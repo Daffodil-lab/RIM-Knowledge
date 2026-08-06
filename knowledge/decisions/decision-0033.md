@@ -4,8 +4,6 @@ title: "確定#33：職級基礎値を数値化（§17）：基準1.0＝Tier0市
 description: "職級基礎値を数値化（§17）：基準1.0＝Tier0市民級、三層乗算（職級×グレード×維持）。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

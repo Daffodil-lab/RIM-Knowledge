@@ -8,7 +8,6 @@ tags:
   - "mastery"
   - "the-hive"
   - "equipment"
-  - "canon"
 eras:
   - "ModernUnion"
 organization_groups:
