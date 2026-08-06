@@ -4,9 +4,7 @@ title: "確定#244：Tierによる全ステータス補正ルールを修正—�
 description: "Tierによる全ステータス補正ルールを修正——特性を考慮しない基礎ステータスは人間（Tier0基準値）を下回らない、−Tierは+10%/Tierボーナスが単に無いだけで追加のマイナス補正は掛からないを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

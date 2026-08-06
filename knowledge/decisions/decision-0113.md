@@ -4,9 +4,7 @@ title: "確定#113：共有クエスト群「防げたかも知れない戦争�
 description: "共有クエスト群「防げたかも知れない戦争」を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

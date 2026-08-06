@@ -4,9 +4,7 @@ title: "確定#141：同盟とRimWorldの関係（艦隊は数光年離れて不
 description: "同盟とRimWorldの関係（艦隊は数光年離れて不干渉・侵入は侵攻の合図）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "red-star"
-  - "canon"
 organization_groups:
   - "red-star"
 status: stable

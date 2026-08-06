@@ -4,9 +4,7 @@ title: "確定#261：装備数値表v1・銃搭載バイポットによる展開
 description: "装備数値表v1・銃搭載バイポットによる展開システムを検討開始（未実装）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

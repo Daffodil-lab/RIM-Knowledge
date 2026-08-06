@@ -4,8 +4,6 @@ title: "確定#303：外部リファレンス「アークナイツ:エンドフ�
 description: "外部リファレンス「アークナイツ:エンドフィールド AICシステム設計分析レポート」を新規資料として追加を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

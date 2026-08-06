@@ -10,7 +10,6 @@ tags:
   - "red-star"
   - "independent-colony"
   - "equipment"
-  - "canon"
 organization_groups:
   - "independent-frontier"
   - "kombinat-communities"

@@ -7,7 +7,6 @@ tags:
   - "backstory"
   - "mastery"
   - "kombinat"
-  - "canon"
 eras:
   - "ModernUnion"
 organization_groups:

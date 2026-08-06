@@ -7,7 +7,6 @@ tags:
   - "backstory"
   - "mastery"
   - "pawn"
-  - "canon"
 eras:
   - "EraIndependent"
 organization_groups:

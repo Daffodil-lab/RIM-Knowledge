@@ -4,11 +4,9 @@ title: "確定#121：Shion Race: Red Star（旧・遠征艦隊）新設・拡張
 description: "Shion Race: Red Star（旧・遠征艦隊）新設・拡張シナリオ「同盟派遣開拓団」を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "red-star"
   - "equipment"
-  - "canon"
 organization_groups:
   - "red-star"
 status: stable

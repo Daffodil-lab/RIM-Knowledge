@@ -4,8 +4,6 @@ title: "確定#12：システムは変えられる（成果か説得で）。辺
 description: "システムは変えられる（成果か説得で）を現行方針として確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

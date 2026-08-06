@@ -4,8 +4,6 @@ title: "確定#349：プレイヤー向け注解者を匿名のソフェルに�
 description: "プレイヤー向け注解者を匿名のソフェルに変更を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

@@ -4,8 +4,6 @@ title: "確定#174：有機機械の特性スロット数上限・製造時間�
 description: "有機機械の特性スロット数上限・製造時間の追加ペナルティを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

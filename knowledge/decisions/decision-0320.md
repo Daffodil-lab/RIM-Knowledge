@@ -4,9 +4,7 @@ title: "確定#320：確定#319を訂正——アルコテック級の実装はC
 description: "確定番号319を訂正——アルコテック級の実装はCoreMOD・分身が個別に行うのではなく、「Shion Race: 地場」の拡張（仮称・未命名）が担う。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

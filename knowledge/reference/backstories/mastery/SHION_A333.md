@@ -6,7 +6,6 @@ tags:
   - "shion"
   - "backstory"
   - "mastery"
-  - "canon"
 eras:
   - "ColonizationEra"
 organization_groups:

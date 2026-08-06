@@ -13,8 +13,8 @@ canonical_for: "governance/metadata-contract"
 canonical_scope: "okf-governance"
 source_section: "RIM OKFメタデータ契約"
 generated:
-  by: "process:codex-okf-v02-date-precision-update"
-  at: "2026-08-04T18:44:05+09:00"
+  by: "process:okf-topical-tag-contract"
+  at: "2026-08-06T15:48:37+09:00"
 sources:
   - id: "official-okf-v02"
     resource: "https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md"
@@ -47,7 +47,7 @@ sources:
 
 - `title`: 表示名。
 - `description`: 一文要約。
-- `tags`: 横断分類。
+- `tags`: 横断分類。一つ以上を必須とし、英小文字・数字・単語間のハイフンだけを用い、同一概念内で重複させない。使用可能な語彙は`knowledge/tools/lib/okf-utils.mjs`の`TOPICAL_TAGS`を正本とし、新しい荷札は概念へ付与する前にここへ登録する。`tags`は主題を探すための荷札であり、正史、参考、保護ドラフト、履歴等の権威・状態を判定しない。`canon`、`canonical`、`catalog`、`reference`、`protected-draft`、`historical`と、`draft | stable | deprecated`は荷札に使わず、`authority`、`status`、`knowledge_role`で表す。
 - `status`: OKF標準の状態をRIMの権威判定にも使用する。
 - `authority`: RIM内の権威区分。
 - `knowledge_role`: 所有者、要約、投影、要件、検証、記録等の役割。

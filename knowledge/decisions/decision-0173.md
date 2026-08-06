@@ -4,8 +4,6 @@ title: "確定#173：確定#172の食料消費の向きを訂正、時計仕掛�
 description: "確定番号172の食料消費の向きを訂正、時計仕掛け/有機機械の総合バランス構図を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

@@ -4,8 +4,6 @@ title: "確定#235：CoreMOD§12.6「無零花・豊穂種運用時の保険」�
 description: "CoreMOD§12.6「無零花・豊穂種運用時の保険」を「唯一の保険」であると明記を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

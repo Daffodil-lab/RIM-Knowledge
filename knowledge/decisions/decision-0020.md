@@ -4,9 +4,7 @@ title: "確定#20：装備ティア8段（一般服→火薬銃→前世代→�
 description: "装備ティア8段（一般服→火薬銃→前世代→現代→機械化→空挺→機動強襲部隊→宇宙特殊作戦群）。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

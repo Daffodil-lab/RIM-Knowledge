@@ -6,7 +6,6 @@ tags:
   - "shion"
   - "backstory"
   - "mastery"
-  - "canon"
 eras:
   - "PostCivilWarEmpire"
 organization_groups:

@@ -4,8 +4,6 @@ title: "確定#95：真昼の暗黒（内戦期無政府主義同盟フォーカ
 description: "真昼の暗黒（内戦期無政府主義同盟フォーカス拡張MOD）新設を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

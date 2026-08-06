@@ -4,9 +4,7 @@ title: "確定#177：任意付与特性プールを「機械名／有機名」�
 description: "任意付与特性プールを「機械名／有機名」ニコイチ方式へ再編を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

@@ -1,6 +1,6 @@
 # 技術・イェツィラー 02
 
-範囲: 24. 操作画面と情報予算〜35. 凝縮真空
+範囲: 24. 操作画面と情報予算〜43. 装備庫接続と近光速武器転送
 
 ## 項目
 
@@ -29,9 +29,19 @@
 - [8. Relationship to other alpha buildings](/research/archotech-ruins/08-Relationship-to-other-alpha-buildings.md) — The Core Tower must be visually more important than every other alpha building.。
 - [9. Art prompt direction, not image generation request](/research/archotech-ruins/09-Art-prompt-direction-not-image-generation-request.md) — RimWorld風Nexus Core Towerの形状、配色、材質、禁止表現を将来の画像資産向けに指定する。
 - [10. Final visual rule](/research/archotech-ruins/10-Final-visual-rule.md) — Nexus Core should look like a quiet archotech-like ceramic Core Tower: simple, heavy, readable, and irreplaceable.。
+- [3. シオンという人類](/world/03-%E3%82%B7%E3%82%AA%E3%83%B3%E3%81%A8%E3%81%84%E3%81%86%E4%BA%BA%E9%A1%9E.md) — シオン/Shionは、製造された機械身体と機械超知性に相当する能力を持つ、独立人格の人類である。
 - [6. 人格記録、復活、同化](/world/06-%E4%BA%BA%E6%A0%BC%E8%A8%98%E9%8C%B2-%E5%BE%A9%E6%B4%BB-%E5%90%8C%E5%8C%96.md) — 同盟は、身体再製造、人格記録、復活、他身体への移行に相当する技術を持つ。
-- [7. 技術体系](/world/07-%E6%8A%80%E8%A1%93%E4%BD%93%E7%B3%BB.md) — 同盟は、現代技術を数百年発展させただけの文明ではない。
+- [7. 技術体系](/world/07-%E6%8A%80%E8%A1%93%E4%BD%93%E7%B3%BB.md) — 帝国と同盟の技術基盤は少なくともアルコテック級であり、既存の技術Tierで能力上限を固定できない。
+- [11. 保護された未確定事項](/world/11-%E4%BF%9D%E8%AD%B7%E3%81%95%E3%82%8C%E3%81%9F%E6%9C%AA%E7%A2%BA%E5%AE%9A%E4%BA%8B%E9%A0%85.md) — 次の事項は、設定不足ではなく、本書が意図的に正解を固定しない領域である。
+- [13. 帝国人とシオンの起源](/world/13-%E5%B8%9D%E5%9B%BD%E4%BA%BA%E3%81%A8%E3%82%B7%E3%82%AA%E3%83%B3%E3%81%AE%E8%B5%B7%E6%BA%90.md) — 帝国人とシオンは機械超知性に該当またはそれを上回り得る人類であり、シオンは帝国人の身体基盤から設計された。
+- [17. FTLの例外性](/world/17-FTL%E3%81%AE%E4%BE%8B%E5%A4%96%E6%80%A7.md) — 同盟の再現可能なFTL航行とFTL情報伝達は、通常人類の技術体系から意図的に外れた特権的能力である。
+- [18. 人工知能と自動化](/world/18-%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E3%81%A8%E8%87%AA%E5%8B%95%E5%8C%96.md) — 帝国人とシオンは外部尺度で機械超知性に相当する人格主体であり、所有可能な道具AIと明確に区別される。
 - [24. 経済相互援助会議](/world/24-%E7%B5%8C%E6%B8%88%E7%9B%B8%E4%BA%92%E6%8F%B4%E5%8A%A9%E4%BC%9A%E8%AD%B0.md) — 経済相互援助会議は、加盟国間の貿易を増やし、経済、技術その他の多様な分野で相互援助を行う同盟の条約枠である。
+- [30. 人類としての自己認識](/world/30-%E4%BA%BA%E9%A1%9E%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E8%87%AA%E5%B7%B1%E8%AA%8D%E8%AD%98.md) — シオンが自らを人類とみなす根拠は生物学的構造ではなく、文化、思想、歴史的連続性、人格主体としての自己認識にある。
 - [33. 代表工業資源](/world/33-%E4%BB%A3%E8%A1%A8%E5%B7%A5%E6%A5%AD%E8%B3%87%E6%BA%90.md) — Coreで反復して扱う五つの代表工業資源は、Cell、エネルギー結晶、構造材、保守資材、弾薬結晶である。
 - [34. Cell](/world/34-Cell-%E3%82%BB%E3%83%AB.md) — Cellは、帝国から継承された自己増殖可能な工業媒体であり、物質、身体、設備を構成・変更する基盤の一つである。
 - [35. 凝縮真空](/world/35-%E5%87%9D%E7%B8%AE%E7%9C%9F%E7%A9%BA.md) — 凝縮真空（CVE）は、エネルギー分野に属する同盟時代の既存技術または形態である。
+- [40. エネルギー（仮称）](/world/40-%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC.md) — エネルギー（仮称）は、設備と身体を動かす力の発生、供給、蓄積、輸送をまとめて扱う上位ジャンルである。
+- [41. エネルギー結晶（仮称）](/world/41-%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC%E7%B5%90%E6%99%B6.md) — エネルギー結晶（仮称）は、エネルギーそのものを輸送・備蓄し、常設供給へ接続できない場所で身体や装備を稼働させる物理資源である。
+- [42. 帝国系と同盟系の製品系列（仮称）](/world/42-%E5%B8%9D%E5%9B%BD%E7%B3%BB%E3%81%A8%E5%90%8C%E7%9B%9F%E7%B3%BB%E3%81%AE%E8%A3%BD%E5%93%81%E7%B3%BB%E5%88%97.md) — 同盟で使われる多くの製品は、高性能だが高価で手加工を要する帝国系と、安価で品質が安定し量産・堅牢性に優れる同盟系へ大別される。
+- [43. 装備庫接続と近光速武器転送](/world/43-%E8%A3%85%E5%82%99%E5%BA%AB%E6%8E%A5%E7%B6%9A%E3%81%A8%E8%BF%91%E5%85%89%E9%80%9F%E6%AD%A6%E5%99%A8%E8%BB%A2%E9%80%81.md) — シオンは接続した装備庫との間で実物の武器をほぼ光速で転送し、多数の武器を携行せずに必要な時だけ取り出して使う。

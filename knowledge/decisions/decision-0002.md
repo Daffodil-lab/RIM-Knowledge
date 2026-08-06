@@ -4,8 +4,6 @@ title: "確定#2：中核の逆説＝豊かで優しいユートピアだが、�
 description: "中核の逆説＝豊かで優しいユートピアだが、栄誉（労働英雄）を独占する一握りが評議会を掌握。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

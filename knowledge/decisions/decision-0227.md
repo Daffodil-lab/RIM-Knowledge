@@ -4,8 +4,6 @@ title: "確定#227：CoreMOD§12.9「依存の鎖」を修正——機械技術�
 description: "CoreMOD§12.9「依存の鎖」を修正——機械技術は無零花依存の代替にならず、無零花の絶対的な必要性を明記。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

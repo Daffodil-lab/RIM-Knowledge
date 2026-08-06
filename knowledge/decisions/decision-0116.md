@@ -4,8 +4,6 @@ title: "確定#116：Leviathansの前提はハードゲートでなく難易度�
 description: "Leviathansの前提はハードゲートでなく難易度によるソフトゲートを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

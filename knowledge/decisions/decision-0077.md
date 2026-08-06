@@ -4,8 +4,6 @@ title: "確定#77：空挺部隊フォーカス拡張MOD「バンド・オブ・
 description: "空挺部隊フォーカス拡張MOD「バンド・オブ・ブラザース（旧・我らが空挺軍 空から参上。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

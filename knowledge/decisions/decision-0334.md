@@ -4,8 +4,6 @@ title: "確定#334：コア必須要件をTower Ledger統合工業システム�
 description: "コア必須要件をTower Ledger統合工業システム全体の一般原則として明記（§13.6固有のルールではない）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

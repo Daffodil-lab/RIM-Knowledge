@@ -3,8 +3,9 @@
 ## 小索引
 
 - [世界観・正史](world-canon/) — 57件
-- [身体・人格](personhood-body/) — 369件
-- [技術・イェツィラー](technology-yetzirah/) — 111件
+- [起源・天文](origin-astronomy/) — 8件
+- [身体・人格](personhood-body/) — 372件
+- [技術・イェツィラー](technology-yetzirah/) — 121件
 - [開拓・Red Star](colony-red-star/) — 164件
 - [The Hive](the-hive/) — 85件
 - [Kombinat・生産物流](kombinat-production/) — 220件

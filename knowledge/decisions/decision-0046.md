@@ -4,8 +4,6 @@ title: "確定#46：特性セット改訂（XMLで作れるものに絞る・実
 description: "特性セット改訂（XMLで作れるものに絞る・実装難は廃止）：番号15科学信仰・番号16ポスト稀少性労働規範・番号23反カリスマ・番号22インフラ依存を廃止を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

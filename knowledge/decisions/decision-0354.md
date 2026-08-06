@@ -4,10 +4,8 @@ title: "確定#354：公開ロアを用途別の十一分冊と索引へ細分�
 description: "公開ロアを用途別の十一分冊と索引へ細分化を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "the-hive"
   - "independent-colony"
-  - "canon"
 organization_groups:
   - "independent-frontier"
   - "the-hive"

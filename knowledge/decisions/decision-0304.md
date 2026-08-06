@@ -4,9 +4,7 @@ title: "確定#304：工業（§12ゼロ点エネルギー地場システム・c
 description: "工業（§12ゼロ点エネルギー地場システム・cell・パイプライン関連設備）をCoreMODから分離し、新設「Shion Race:」冠称の共有前提MOD「Shion Race: 無零花」（仮称）へ移管を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "red-star"
-  - "canon"
 organization_groups:
   - "red-star"
 status: stable

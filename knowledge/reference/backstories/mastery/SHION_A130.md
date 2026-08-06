@@ -8,7 +8,6 @@ tags:
   - "mastery"
   - "red-star"
   - "equipment"
-  - "canon"
 eras:
   - "ModernUnion"
 organization_groups:

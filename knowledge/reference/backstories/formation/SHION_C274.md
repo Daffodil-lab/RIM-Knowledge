@@ -7,7 +7,6 @@ tags:
   - "backstory"
   - "formation"
   - "equipment"
-  - "canon"
 eras:
   - "PostCivilWarEmpire"
 organization_groups:

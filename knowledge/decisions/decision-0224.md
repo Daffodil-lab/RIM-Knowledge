@@ -4,8 +4,6 @@ title: "確定#224：CoreMODの無零花メカニクスが直接扱う植物は�
 description: "CoreMODの無零花メカニクスが直接扱う植物はコシダ（小陽花）のみと確定、太陽花はCoreMOD対象外の拡張側フレーバー品目に、コシダの照度をバニラ太陽灯の3倍に確定を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

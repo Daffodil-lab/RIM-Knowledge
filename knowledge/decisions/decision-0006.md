@@ -4,8 +4,6 @@ title: "確定#6：変換＝殲滅／同化は同一行為。捕虜→完全シ�
 description: "変換＝殲滅／同化は同一行為を現行方針として確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

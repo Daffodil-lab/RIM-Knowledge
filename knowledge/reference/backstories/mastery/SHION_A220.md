@@ -7,7 +7,6 @@ tags:
   - "backstory"
   - "mastery"
   - "pawn"
-  - "canon"
 eras:
   - "ModernUnion"
 organization_groups:

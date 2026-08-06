@@ -4,9 +4,7 @@ title: "確定#266：CoreMOD資料v1§7.3・コロニードクトリンをCoreMO
 description: "CoreMOD資料v1§7.3・コロニードクトリンをCoreMODスコープから除外し、拡張MOD「エンダーのゲーム」へ移管を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

@@ -6,7 +6,6 @@ tags:
   - "shion"
   - "backstory"
   - "formation"
-  - "canon"
 eras:
   - "ColonizationEra"
 organization_groups:

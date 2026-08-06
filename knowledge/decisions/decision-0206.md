@@ -4,8 +4,6 @@ title: "確定#206：高Tier原種の入手困難さは栽培スキル8で解消
 description: "高Tier原種の入手困難さは栽培スキル8で解消するが、基準消費量の負担によりТier0〜4以外は実質的に開拓団向けでなくなる、という経済的棲み分けを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

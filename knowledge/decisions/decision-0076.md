@@ -4,8 +4,6 @@ title: "確定#76：戦争ゲームMODの命名確定（エンダーのゲーム
 description: "戦争ゲームMODの命名確定（エンダーのゲーム）＋機械化部隊拡張MOD「宇宙の戦士（旧・鋼鉄の戦士）」の新設：Vehicle Framework依を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

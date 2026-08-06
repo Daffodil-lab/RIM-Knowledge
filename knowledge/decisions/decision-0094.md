@@ -4,8 +4,6 @@ title: "確定#94：「誰も知らぬ\"戦争\"」改名を『黄衣の王』�
 description: "「誰も知らぬ\"戦争\"」改名を『黄衣の王』から『忘れられた兵士』へ再差し替えを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

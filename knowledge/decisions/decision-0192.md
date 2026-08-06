@@ -4,8 +4,6 @@ title: "確定#192：個人名プール（§2）にユダヤ/アラブ/イラン
 description: "個人名プール（§2）にユダヤ/アラブ/イラン/トルコ/独/仏/伊/豪/イスラム関連の9系統を追加、約310語→約480語へ拡大を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

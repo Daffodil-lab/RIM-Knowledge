@@ -7,7 +7,6 @@ tags:
   - "backstory"
   - "formation"
   - "equipment"
-  - "canon"
 eras:
   - "ImperialPeak"
 organization_groups:

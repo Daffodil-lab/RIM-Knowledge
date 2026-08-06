@@ -4,9 +4,7 @@ title: "確定#322：確定#321を補足訂正——地場のみ（CoreMOD無し
 description: "確定番号321を補足訂正——地場のみ（CoreMOD無し）でも遠征艦隊要素は機能する。"
 tags:
   - "decision-log"
-  - "historical"
   - "red-star"
-  - "canon"
 organization_groups:
   - "red-star"
 status: stable

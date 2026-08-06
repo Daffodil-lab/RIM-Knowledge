@@ -4,8 +4,6 @@ title: "確定#351：アルコテック呼称の否定と、帝国期シオン�
 description: "アルコテック呼称の否定と、帝国期シオンの自己改善能力・ASI級知性を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

@@ -4,8 +4,6 @@ title: "確定#129：外見メカ要素は取り急ぎ光る目のみに簡素�
 description: "外見メカ要素は取り急ぎ光る目のみに簡素化を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

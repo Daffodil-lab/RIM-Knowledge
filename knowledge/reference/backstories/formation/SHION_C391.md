@@ -7,7 +7,6 @@ tags:
   - "backstory"
   - "formation"
   - "pawn"
-  - "canon"
 eras:
   - "ColonizationEra"
 organization_groups:

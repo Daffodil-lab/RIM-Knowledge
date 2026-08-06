@@ -4,8 +4,6 @@ title: "確定#317：研究力＋統合力を両方消費してアノマリー�
 description: "研究力＋統合力を両方消費してアノマリー研究／アルコテック技術研究の2ポイントへ変換——Anomaly非必須化のため分離、アルコテック技術はCoreMODとNexus Coreで性能差を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

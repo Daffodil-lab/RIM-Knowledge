@@ -4,10 +4,8 @@ title: "確定#239：確定#237「設計ドクトリン」（個体単位・非�
 description: "確定番号237「設計ドクトリン」（個体単位・非拘束）とは別に、コロニー全体で一度だけ選ぶHoi4式排他選択「コロニードクトリン」（物量/機動戦/火力偏重/堅陣防御の4択）を新設を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "independent-colony"
-  - "canon"
 organization_groups:
   - "independent-frontier"
 status: stable

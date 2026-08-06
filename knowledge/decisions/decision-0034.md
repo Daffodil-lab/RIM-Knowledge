@@ -4,8 +4,6 @@ title: "確定#34：職級別 Biotech 遺伝子（RimWorld 準拠）：栄誉報
 description: "職級別 Biotech 遺伝子（RimWorld 準拠）：栄誉報酬（労働英雄/連邦英雄）＝アルカイト遺伝子（Deathless／Architeを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

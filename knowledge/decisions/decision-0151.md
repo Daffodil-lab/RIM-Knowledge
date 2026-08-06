@@ -4,9 +4,7 @@ title: "確定#151：Diaspora段0/段1品目の拡張"
 description: "Diaspora段0/段1品目の拡張を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

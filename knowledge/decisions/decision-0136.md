@@ -4,9 +4,7 @@ title: "確定#136：同盟派遣開拓団の公式ビジュアル参考（砂�
 description: "同盟派遣開拓団の公式ビジュアル参考（砂漠コンセプトアート）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

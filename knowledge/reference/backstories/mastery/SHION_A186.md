@@ -7,7 +7,6 @@ tags:
   - "backstory"
   - "mastery"
   - "red-star"
-  - "canon"
 eras:
   - "ModernUnion"
 organization_groups:

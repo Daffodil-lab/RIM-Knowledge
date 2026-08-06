@@ -6,7 +6,6 @@ tags:
   - "shion"
   - "backstory"
   - "formation"
-  - "canon"
 eras:
   - "ImperialPeak"
 organization_groups:

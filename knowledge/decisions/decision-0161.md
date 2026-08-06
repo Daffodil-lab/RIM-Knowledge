@@ -4,9 +4,7 @@ title: "確定#161：Web調査によるイラン製実銃の正式採用（Shahe
 description: "Web調査によるイラン製実銃の正式採用（Shaher/Arash/Baher-23）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

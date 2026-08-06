@@ -4,9 +4,7 @@ title: "確定#327：地域開発度（Regional Development）メトリクスを
 description: "地域開発度（Regional Development）メトリクスを追加。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

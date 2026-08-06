@@ -4,12 +4,10 @@ title: "確定#395：Matter NetworkをKombinat倉庫基盤として採用し、�
 description: "Matter NetworkをKombinat倉庫基盤として採用し、物理資源を実Thingへ統一を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "kombinat"
   - "matter-network"
   - "independent-colony"
   - "equipment"
-  - "canon"
   - "alpha"
 organization_groups:
   - "independent-frontier"

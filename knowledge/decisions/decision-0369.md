@@ -4,8 +4,6 @@ title: "確定#369：ロアからゲーム内フレーバーへの変換台帳"
 description: "ロアからゲーム内フレーバーへの変換台帳を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

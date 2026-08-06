@@ -4,13 +4,11 @@ title: "確定#397：Matter Networkを無改造の必須依存へ固定し、上
 description: "Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "kombinat"
   - "matter-network"
   - "pawn"
   - "red-star"
   - "independent-colony"
-  - "canon"
   - "beta"
 organization_groups:
   - "independent-frontier"

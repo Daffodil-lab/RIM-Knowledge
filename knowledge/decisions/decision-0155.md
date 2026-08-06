@@ -4,9 +4,7 @@ title: "確定#155：Diaspora口径・装弾数一覧（CE互換パッチ向け�
 description: "Diaspora口径・装弾数一覧（CE互換パッチ向け）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

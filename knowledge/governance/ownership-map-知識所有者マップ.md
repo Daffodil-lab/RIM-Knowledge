@@ -9,7 +9,6 @@ tags:
   - "pawn"
   - "independent-colony"
   - "backstory"
-  - "canon"
   - "alpha"
   - "beta"
 organization_groups:

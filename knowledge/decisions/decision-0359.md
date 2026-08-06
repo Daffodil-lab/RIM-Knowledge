@@ -4,11 +4,9 @@ title: "確定#359：Cellは帝国由来の粒子級自己増殖機械"
 description: "Cellは帝国由来の粒子級自己増殖機械を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "kombinat"
   - "independent-colony"
   - "equipment"
-  - "canon"
 organization_groups:
   - "independent-frontier"
   - "kombinat-communities"

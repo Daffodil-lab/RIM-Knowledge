@@ -4,9 +4,7 @@ title: "確定#370：配置先に迷う場合のバックストーリー／研�
 description: "配置先に迷う場合のバックストーリー／研究フォールバックを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "backstory"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

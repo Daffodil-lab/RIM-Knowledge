@@ -4,8 +4,6 @@ title: "確定#200：濃縮真空エネルギー1単位の基準をガソリン�
 description: "濃縮真空エネルギー1単位の基準をガソリンから天然ガス（LNG）換算へ変更、地場濃度55%に確定を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

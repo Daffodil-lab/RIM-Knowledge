@@ -4,8 +4,6 @@ title: "確定#234：CoreMOD§12.7「真空濃縮器」の消費・回収仕様�
 description: "CoreMOD§12.7「真空濃縮器」の消費・回収仕様を全面改訂——固定10%/日消費・80%回収から、現在値に応じ最大100%/日消費・回収効率100%（変換損失なし）に変更。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

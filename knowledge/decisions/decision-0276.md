@@ -4,9 +4,7 @@ title: "確定#276：GILGAL/ESH/SODOM/REHOVOT全弾種は例外なく液体装�
 description: "GILGAL/ESH/SODOM/REHOVOT全弾種は例外なく液体装薬注入機で加工するを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

@@ -4,8 +4,6 @@ title: "確定#352：Archotech級人工知能を製造・保有しながら、�
 description: "Archotech級人工知能を製造・保有しながら、ほとんど使わない文化を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

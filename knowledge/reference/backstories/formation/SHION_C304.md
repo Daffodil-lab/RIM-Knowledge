@@ -7,7 +7,6 @@ tags:
   - "backstory"
   - "formation"
   - "red-star"
-  - "canon"
 eras:
   - "ModernUnion"
 organization_groups:

@@ -4,7 +4,6 @@ title: "8. 遠征共同体とレッドスター"
 description: "コアMODは、独立団、漂着者、認可団、その他の遠征共同体など、複数の開始立場を許容する。"
 tags:
   - "shion"
-  - "canon"
   - "world"
   - "kombinat"
   - "red-star"

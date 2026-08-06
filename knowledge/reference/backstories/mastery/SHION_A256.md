@@ -7,7 +7,6 @@ tags:
   - "backstory"
   - "mastery"
   - "equipment"
-  - "canon"
 eras:
   - "ImperialCivilWar"
 organization_groups:

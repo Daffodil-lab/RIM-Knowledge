@@ -6,7 +6,6 @@ tags:
   - "shion"
   - "backstory"
   - "formation"
-  - "canon"
 eras:
   - "GrowthEra"
 organization_groups:

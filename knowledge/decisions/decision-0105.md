@@ -4,9 +4,7 @@ title: "確定#105：ドクトル・ジバゴ（帝国フォーカス拡張MOD�
 description: "ドクトル・ジバゴ（帝国フォーカス拡張MOD）新設を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

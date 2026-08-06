@@ -7,7 +7,6 @@ tags:
   - "backstory"
   - "formation"
   - "kombinat"
-  - "canon"
 eras:
   - "ModernUnion"
 organization_groups:

@@ -4,9 +4,7 @@ title: "確定#367：現実空間の本国規模とТвердьの回収"
 description: "現実空間の本国規模とТвердьの回収を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "independent-colony"
-  - "canon"
 organization_groups:
   - "independent-frontier"
 status: stable

@@ -4,9 +4,7 @@ title: "確定#133：バベットの晩餐会の嗜好品/ドラッグ品目"
 description: "バベットの晩餐会の嗜好品/ドラッグ品目を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

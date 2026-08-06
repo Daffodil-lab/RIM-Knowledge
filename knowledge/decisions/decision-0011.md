@@ -4,8 +4,6 @@ title: "確定#11：RIM では脱稀少はプレイヤーが建設するもの�
 description: "RIM では脱稀少はプレイヤーが建設するもの（本国は脱稀少だが盤上は努力の果て）。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

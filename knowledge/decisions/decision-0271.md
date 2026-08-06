@@ -4,9 +4,7 @@ title: "確定#271：3Dプリンター・液体装薬注入機は有人稼働／
 description: "Dプリンター・液体装薬注入機は有人稼働／無人稼働の二種類を持つを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

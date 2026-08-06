@@ -4,10 +4,8 @@ title: "確定#88：FTL航法の危険性・到着時の混乱・亜光速航行
 description: "FTL航法の危険性・到着時の混乱・亜光速航行を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

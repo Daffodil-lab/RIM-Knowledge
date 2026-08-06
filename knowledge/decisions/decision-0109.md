@@ -4,8 +4,6 @@ title: "確定#109：Leviathansの具体的な構造＝追想録と残響討伐"
 description: "Leviathansの具体的な構造＝追想録と残響討伐を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

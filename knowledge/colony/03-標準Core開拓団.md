@@ -8,7 +8,6 @@ tags:
   - "gameplay"
   - "pawn"
   - "the-hive"
-  - "canon"
   - "alpha"
   - "beta"
 organization_groups:

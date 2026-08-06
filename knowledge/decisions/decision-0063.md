@@ -4,8 +4,6 @@ title: "確定#63：ユニット設計ダイアログをタブ4分割＋常設�
 description: "ユニット設計ダイアログをタブ4分割＋常設ステータスパネルへ再拡張＋バッジ意匠を歯車/鷲/黄金の狐に再刷新：外観・モデルタイプ／身体部位ロードアウを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

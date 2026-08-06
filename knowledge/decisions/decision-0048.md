@@ -4,9 +4,7 @@ title: "確定#48：#9過熱の脆弱性＝「想定運用温度帯」設計制�
 description: "番号9過熱の脆弱性＝「想定運用温度帯」設計制へ改訂：製造時に個体ごとの想定運用温度帯を設計。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

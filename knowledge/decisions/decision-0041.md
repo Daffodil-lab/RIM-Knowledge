@@ -4,8 +4,6 @@ title: "確定#41：最深部＝メタ層（水仙＝作者）：水仙（建国
 description: "最深部＝メタ層（水仙＝作者）：水仙（建国者・最高指導者・ストーリーテラー）は作者の自己投影（作者のGitHub名＝水仙）。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

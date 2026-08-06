@@ -4,9 +4,7 @@ title: "確定#67：政治派閥4拡張MODの前提をロストデイズに統�
 description: "政治派閥4拡張MODの前提をロストデイズに統一：武器よさらば／誰が為に鐘がなるか／ここではそれは起こりえない／ドクトル・ジバゴの依存関係をカタロを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

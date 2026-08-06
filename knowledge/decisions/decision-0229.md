@@ -4,8 +4,6 @@ title: "確定#229：CoreMOD§12.7「輸送・貯蔵の具体数値」を修正�
 description: "CoreMOD§12.7「輸送・貯蔵の具体数値」を修正——パイプ網の1日輸送量上限（20単位/日）を撤廃し、輸送量に上限を設けない設計に変更を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

@@ -4,8 +4,6 @@ title: "確定#214：確定#213を一部修正——§4.1品種展開＋§5ゼ�
 description: "確定番号213を一部修正——§4.1品種展開＋§5ゼロ点エネルギー地場システム全体はCoreMODに残置、宇宙商人は§6〜7のみ担当に縮小を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

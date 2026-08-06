@@ -4,9 +4,7 @@ title: "確定#259：CoreMOD資料v1§6・Tier強化（後天的なTier昇格）
 description: "CoreMOD資料v1§6・Tier強化（後天的なTier昇格）を新設を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

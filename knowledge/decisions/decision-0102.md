@@ -4,9 +4,7 @@ title: "確定#102：カタロニア讃歌ファミリー共通の語り口"
 description: "カタロニア讃歌ファミリー共通の語り口を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

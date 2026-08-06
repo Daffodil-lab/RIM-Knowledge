@@ -4,9 +4,7 @@ title: "確定#291：同盟人の対外心理——無自覚の絶対的優位�
 description: "同盟人の対外心理——無自覚の絶対的優位・同胞化勧誘の恣意的な同意判定・ペット的扱い・\"躾\"としての善意介入を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "independent-colony"
-  - "canon"
 organization_groups:
   - "independent-frontier"
 status: stable

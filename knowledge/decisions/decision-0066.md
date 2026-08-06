@@ -4,8 +4,6 @@ title: "確定#66：Nomads（後の所有せざる人々）の内容確定：同
 description: "Nomads（後の所有せざる人々）の内容確定：同盟グラヴシップ・用途別シャトル4種・新ランドマーク4種・新宇宙クエスト/イベント。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record

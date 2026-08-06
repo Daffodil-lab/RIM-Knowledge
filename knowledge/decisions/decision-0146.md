@@ -4,9 +4,7 @@ title: "確定#146：具体品・フレーバーテキスト集／段0品目"
 description: "具体品・フレーバーテキスト集／段0品目を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: stable
 authority: historical
 knowledge_role: historical-record
