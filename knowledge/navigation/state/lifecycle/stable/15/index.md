@@ -1,9 +1,11 @@
 # stable 15
 
-範囲: SHION_C362 国旗を畳んだ日〜SHION_A022 破門校正官
+範囲: SHION_C360 甲板の錆と最初の家〜SHION_A020 評議会注解者
 
 ## 項目
 
+- [SHION_C360 甲板の錆と最初の家](/reference/backstories/formation/SHION_C360.md) — 甲板の錆と最初の家では、俺の故郷は地図のどこにもない。
+- [SHION_C361 味噌と水耕の甲板](/reference/backstories/formation/SHION_C361.md) — 味噌と水耕の甲板では、指先にまだ生姜の匂いが残っている気がします。
 - [SHION_C362 国旗を畳んだ日](/reference/backstories/formation/SHION_C362.md) — 「その布、もう畳んでいいんじゃない」って、あたしは互助会の年寄りに言ったの。
 - [SHION_C363 配線図を読む指](/reference/backstories/formation/SHION_C363.md) — 配線は色でなく、被覆の巻き方の癖で見分けるんである。
 - [SHION_C364 七つの病室を覚えている](/reference/backstories/formation/SHION_C364.md) — 七つの病室を覚えているでは、七つ、いや八つだったかのう。
@@ -82,5 +84,3 @@
 - [SHION_A018 死者名簿の編纂者](/reference/backstories/mastery/SHION_A018.md) — 各党派、帝国軍、無所属避難民の死者名簿を照合した。
 - [SHION_A019 辺境の校正者](/reference/backstories/mastery/SHION_A019.md) — 辺境を巡り、契約書、墓碑、機械命令、学校教材の誤りを直す校正者となった。
 - [SHION_A020 評議会注解者](/reference/backstories/mastery/SHION_A020.md) — 評議会決議へ適用範囲、反対意見、再検討条件を付す注解者となった。
-- [SHION_A021 帝国遺構の番人](/reference/backstories/mastery/SHION_A021.md) — 帝国遺構を盗掘と無責任な復元から守り、最盛期の礼拝所、内戦施設、内戦後の拘禁室を時代別に管理した。
-- [SHION_A022 破門校正官](/reference/backstories/mastery/SHION_A022.md) — 修復対象の拒否を依頼人の命令より優先し、所属していた校正学派から破門された。

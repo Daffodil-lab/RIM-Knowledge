@@ -14,13 +14,13 @@ granularity: requirement
 canonical_for: "governance/human-approval-boundary"
 canonical_scope: "okf-governance"
 generated:
-  by: "process:human-readable-approval-policy"
-  at: "2026-08-06T16:35:00+09:00"
+  by: "process:accessible-code-explanation-policy"
+  at: "2026-08-06T16:43:14+09:00"
 ---
 
 # 人間による承認境界
 
-RIM-Knowledgeの所有者は、変更の目的、採用する内容、正本の所有先、影響、残る未確認事項、公開可否を判断する。コードの行単位説明、検査、残存リスク、戻し方は実装を行うAIまたは作業者が提示し、所有者のコード理解を承認条件にしない。
+RIM-Knowledgeの所有者は、変更の目的、採用する内容、正本の所有先、影響、残る未確認事項、公開可否を判断する。コードの目的、動作の流れ、重要なファイルと関数、検査、残存リスク、戻し方は実装を行うAIまたは作業者が日本語で提示し、所有者の事前知識を承認条件にしない。
 
 ## 責任分担
 
@@ -57,6 +57,10 @@ RIM-Knowledgeの所有者は、変更の目的、採用する内容、正本の�
 
 所有者は派生索引の全行ではなく、変更した正本と派生件数の範囲を確認する。作業側は生成前後の差分が申告範囲内であることを確認する。`knowledge/navigation/`を承認対象の正本として扱わない。
 
+### コードを変更する場合
+
+C#、XML Def、保守スクリプト、生成器、設定、CIなどの動作を変更する場合は、[コード解説の作成規則](/governance/code-explanation-policy-コード解説の作成規則.md)に従う。所有者が目的、処理の流れ、状態変更、失敗時結果、検査範囲、戻し方を追える日本語解説を同じPull Requestへ含める。
+
 ### 保守ツールまたはCIを変更する場合
 
 保守ツールとCIの変更は知識本文の変更から識別できる差分にする。新規または変更した書込み処理は、対象を変更しない`--check`、`--plan`、dry-runのいずれかを持ち、同じ入力への再実行で追加破壊を起こさない。削除、移動、上書き、凍結参考資料の変更は、対象を列挙して所有者の明示承認を得る。検査結果とは別に独立したレビュー結果を記録する。
@@ -81,6 +85,7 @@ build、CI、静的検査は、ゲーム内試験、保存・読込、UI確認�
 - 上位索引: [運用規則](/governance/index.md)
 - 更新手順: [OKF知識の更新手順](/governance/editing-workflow-知識の更新手順.md)
 - 現行資料の記述: [現行資料の正仕様記述](/governance/positive-specification-policy-現行資料の正仕様記述.md)
+- コード解説: [コード解説の作成規則](/governance/code-explanation-policy-コード解説の作成規則.md)
 - 権威判定: [知識の権威順位とライフサイクル](/governance/authority-and-lifecycle-知識の権威順位とライフサイクル.md)
 - 保守ツール: [OKF保守ツール](/tools/index.md)
 - 参考資料: [参考資料の利用境界](/reference/00-参考資料の利用境界.md)

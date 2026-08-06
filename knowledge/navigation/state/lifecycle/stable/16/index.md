@@ -1,9 +1,11 @@
 # stable 16
 
-範囲: SHION_A023 儀式教師〜SHION_A102 帰還兵港の舞台演出家
+範囲: SHION_A021 帝国遺構の番人〜SHION_A100 本国居住区の動物義肢技師
 
 ## 項目
 
+- [SHION_A021 帝国遺構の番人](/reference/backstories/mastery/SHION_A021.md) — 帝国遺構を盗掘と無責任な復元から守り、最盛期の礼拝所、内戦施設、内戦後の拘禁室を時代別に管理した。
+- [SHION_A022 破門校正官](/reference/backstories/mastery/SHION_A022.md) — 修復対象の拒否を依頼人の命令より優先し、所属していた校正学派から破門された。
 - [SHION_A023 儀式教師](/reference/backstories/mastery/SHION_A023.md) — 祈り、葬送、成人式を、信仰や文化の異なる生徒へ教える儀式教師となった。
 - [SHION_A024 身体文章設計者](/reference/backstories/mastery/SHION_A024.md) — 利用者の新しい身体を、強度や出力だけでなく、感覚、癖、外見、生活習慣まで含めて設計した。
 - [SHION_A025 独立開拓者](/reference/backstories/mastery/SHION_A025.md) — 行政圏外の谷で、出身の異なる移住者と住居、畑、発電設備を築いた。
@@ -82,5 +84,3 @@
 - [SHION_A098 明日の遺族代表](/reference/backstories/mastery/SHION_A098.md) — 未来の事故で友を失うと知り、まだ生きている本人と遺族会へ出席した。
 - [SHION_A099 帰還しない時間医](/reference/backstories/mastery/SHION_A099.md) — 外の一瞬が院内の長い時代になる隔離区へ入り、患者を全員看取るまで帰らなかった。
 - [SHION_A100 本国居住区の動物義肢技師](/reference/backstories/mastery/SHION_A100.md) — 本国居住区の動物義肢技師では、本国居住区で動物用の義肢を作っていました。
-- [SHION_A101 ヘイハルKombinatの精密工](/reference/backstories/mastery/SHION_A101.md) — ヘイハルKombinatで精密部品を仕上げていました。
-- [SHION_A102 帰還兵港の舞台演出家](/reference/backstories/mastery/SHION_A102.md) — 帰還兵港の舞台演出家では、帰還兵港の舞台を任されました。

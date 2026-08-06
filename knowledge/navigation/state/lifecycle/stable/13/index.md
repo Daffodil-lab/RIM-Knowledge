@@ -1,9 +1,11 @@
 # stable 13
 
-範囲: SHION_C202 帝国書庫塔の動物診療〜SHION_C281 鐘の夜の橋守り
+範囲: SHION_C200 立入制限地の遠征食〜SHION_C279 無言の構造物読書会
 
 ## 項目
 
+- [SHION_C200 立入制限地の遠征食](/reference/backstories/formation/SHION_C200.md) — 立入制限地へ持ち込む歓待・救援用の遠征食は、帰還予定日より長く保存できるよう作った。
+- [SHION_C201 開戦前残響域の停戦菜園](/reference/backstories/formation/SHION_C201.md) — 残響域では、戦争を止められたかもしれない瞬間が何度も再現されました。
 - [SHION_C202 帝国書庫塔の動物診療](/reference/backstories/formation/SHION_C202.md) — 帝国書庫塔の診療室で、動物の歩幅・耳・呼吸を観察し、事実と痛みの推測を分けて記録した。
 - [SHION_C203 機動強襲群の工具助手](/reference/backstories/formation/SHION_C203.md) — 強襲群の工房で、本人は工具の握りを持ち主ごとに削りました。
 - [SHION_C204 特殊任務学校の合奏会](/reference/backstories/formation/SHION_C204.md) — 特殊任務学校の合奏で、軍事作戦と法執行の異なる待機・制止・交渉の間合いを打楽器で表した。
@@ -82,5 +84,3 @@
 - [SHION_C277 答えない構造物との航路](/reference/backstories/formation/SHION_C277.md) — 無人構造物の調査船には、蘇生直後の仲間も乗っていました。
 - [SHION_C278 停止後の肉声会議](/reference/backstories/formation/SHION_C278.md) — 地下維持区の自動設備が止まり、通信まで黙った時、本人たちは通路で直接会議をしました。
 - [SHION_C279 無言の構造物読書会](/reference/backstories/formation/SHION_C279.md) — 調査船では、用途不明の構造物について古い報告を読む会を開きました。
-- [SHION_C280 答えを伏せた護衛教室](/reference/backstories/formation/SHION_C280.md) — 継承教室では、古い世代から射撃と護衛の手順を学びました。
-- [SHION_C281 鐘の夜の橋守り](/reference/backstories/formation/SHION_C281.md) — 革命連合の山岳連絡区で、本人は住民と荷役動物が渡る橋を守りました。

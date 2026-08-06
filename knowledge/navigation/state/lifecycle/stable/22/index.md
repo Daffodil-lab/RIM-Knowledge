@@ -1,9 +1,11 @@
 # stable 22
 
-範囲: 11. Performance cautions〜41. エネルギー結晶（仮称）
+範囲: 9. Alpha impact〜39. 同盟通貨
 
 ## 項目
 
+- [9. Alpha impact](/research/monolyn-ui/09-Alpha-impact.md) — This reference reinforces current Alpha 0.1 rules.。
+- [10. Shion Nexus UI checklist](/research/monolyn-ui/10-Shion-Nexus-UI-checklist.md) — Before Alpha 0.1 release, confirm、具体的にはCore Inspect explains alive/damaged/destroyed state.とLedger Inspect shows CVE, capacity, shells,…。
 - [11. Performance cautions](/research/monolyn-ui/11-Performance-cautions.md) — UI and feedback systems must not introduce hidden cost.。
 - [12. Final lesson](/research/monolyn-ui/12-Final-lesson.md) — Monolyn's system design is strong because its Tower, Light, Codex, implants, buildings, and terminals form a coherent identity.。
 - [13. Source links recorded by user](/research/monolyn-ui/13-Source-links-recorded-by-user.md) — Source links recorded by userは、NamuWiki Monolyn page:…。
@@ -82,5 +84,3 @@
 - [37. 保守資材](/world/37-%E4%BF%9D%E5%AE%88%E8%B3%87%E6%9D%90.md) — 保守資材は、設備、身体、装備の保守と修理へ投入する物理的な資材である。
 - [38. 弾薬結晶](/world/38-%E5%BC%BE%E8%96%AC%E7%B5%90%E6%99%B6.md) — 弾薬結晶は、その場で弾薬を製造するための物理資源であり、シオン装備体系の全遠距離武器が必要とする。
 - [39. 同盟通貨](/world/39-%E5%90%8C%E7%9B%9F%E9%80%9A%E8%B2%A8.md) — 同盟通貨は、共同体が保有、移転、支出できる金融上の残高であり、物理工業資源、名声、忠誠、人格権ではない。
-- [40. エネルギー（仮称）](/world/40-%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC.md) — エネルギー（仮称）は、設備と身体を動かす力の発生、供給、蓄積、輸送をまとめて扱う上位ジャンルである。
-- [41. エネルギー結晶（仮称）](/world/41-%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC%E7%B5%90%E6%99%B6.md) — エネルギー結晶（仮称）は、エネルギーそのものを輸送・備蓄し、常設供給へ接続できない場所で身体や装備を稼働させる物理資源である。

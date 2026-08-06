@@ -1,9 +1,11 @@
 # stable 10
 
-範囲: REG-005 単一個体として保存〜SHION_C041 連合軍の伝令
+範囲: REG-003 単一個体制約〜SHION_C039 内務省の誤配係
 
 ## 項目
 
+- [REG-003 単一個体制約](/pawn/reg-003-%E5%8D%98%E4%B8%80%E5%80%8B%E4%BD%93%E5%88%B6%E7%B4%84.md) — MUST: 同じindividualIdを持つ活動中またはDormantの実体を二体作らない。
+- [REG-004 Design保存](/pawn/reg-004-%E4%BF%9D%E5%AD%98.md) — MUST: プレイヤー設計を個体情報のない再利用可能なPawn Designとして保存できる。
 - [REG-005 単一個体として保存](/pawn/reg-005-%E5%8D%98%E4%B8%80%E5%80%8B%E4%BD%93%E3%81%A8%E3%81%97%E3%81%A6%E4%BF%9D%E5%AD%98.md) — MUST: プレイヤー設計を名前とindividualIdを持つ一人のIndividual Archiveとして保存し、必要な時にその個体を生産できる。
 - [REG-006 Clone Source](/pawn/reg-006-%E8%A4%87%E8%A3%BD%E5%80%8B%E4%BD%93.md) — MUST: Registered Individual、Authored Individual、Saved Pawn DesignをClone Sourceに指定できる。
 - [REG-007 Clone同時存在](/pawn/reg-007-%E5%90%8C%E6%99%82%E5%AD%98%E5%9C%A8.md) — MUST: 同じClone Sourceから複数Pawnを同時に活動させられる。
@@ -82,5 +84,3 @@
 - [SHION_C037 避難書庫の運搬員](/reference/backstories/formation/SHION_C037.md) — 帝国人同士の内戦で都市網が分断された時、本人は書庫の避難班に加わり、書物と記憶媒体を地下保管庫へ運んだ。
 - [SHION_C038 停戦線の修復児](/reference/backstories/formation/SHION_C038.md) — 内戦中、短い停戦が結ばれるたび双方の技師と水路や発電設備を修理した。
 - [SHION_C039 内務省の誤配係](/reference/backstories/formation/SHION_C039.md) — 内戦後帝国の内務省で、封書を部署と地域ごとに仕分けた。
-- [SHION_C040 内戦の記録係](/reference/backstories/formation/SHION_C040.md) — 革命連合の部隊で、戦死者、離脱者、帰還者、行方不明者を同じ台帳へ記した。
-- [SHION_C041 連合軍の伝令](/reference/backstories/formation/SHION_C041.md) — 革命連合で、暗号規則と指揮系統の違う部隊間を往復する伝令となった。
