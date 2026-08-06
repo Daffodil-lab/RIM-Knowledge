@@ -1,6 +1,6 @@
 # canonical 02
 
-範囲: 45. Human Weapons計画の実装境界〜PERF-002 Planner
+範囲: 45. Human Weapons計画の実装境界〜PERF-001 Event駆動
 
 ## 項目
 
@@ -22,6 +22,7 @@
 - [オーバーホール中の矛盾判定規則](/governance/contradiction-policy-%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%9B%E3%83%BC%E3%83%AB%E4%B8%AD%E3%81%AE%E7%9F%9B%E7%9B%BE%E5%88%A4%E5%AE%9A%E8%A6%8F%E5%89%87.md) — 改稿差分を誤って矛盾と判定せず、現行正本の衝突だけを止めるための規則。
 - [重複と異なる粒度の管理規則](/governance/duplication-policy-%E9%87%8D%E8%A4%87%E3%81%A8%E7%95%B0%E3%81%AA%E3%82%8B%E7%B2%92%E5%BA%A6%E3%81%AE%E7%AE%A1%E7%90%86%E8%A6%8F%E5%89%87.md) — 同じ内容を異なる粒度で必要とする場合でも、事実の所有者は一つにする。
 - [OKF知識の更新手順](/governance/editing-workflow-%E7%9F%A5%E8%AD%98%E3%81%AE%E6%9B%B4%E6%96%B0%E6%89%8B%E9%A0%86.md) — OKF知識の更新手順は、ルート索引から対象領域を選ぶ。
+- [人間による承認境界](/governance/human-approval-boundary-%E4%BA%BA%E9%96%93%E3%81%AB%E3%82%88%E3%82%8B%E6%89%BF%E8%AA%8D%E5%A2%83%E7%95%8C.md) — RIM-Knowledgeでは、所有者が目的、正本、内容、影響、未確認事項、公開可否を判断し、コードの行単位理解を承認条件にしない。
 - [RIM OKFメタデータ契約](/governance/metadata-contract-%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E5%A5%91%E7%B4%84.md) — RIM概念ファイルのOKF 0.2標準メタデータと正本所有拡張の必須構造を定める。
 - [知識所有者マップ](/governance/ownership-map-%E7%9F%A5%E8%AD%98%E6%89%80%E6%9C%89%E8%80%85%E3%83%9E%E3%83%83%E3%83%97.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
 - [現行資料の正仕様記述](/governance/positive-specification-policy-%E7%8F%BE%E8%A1%8C%E8%B3%87%E6%96%99%E3%81%AE%E6%AD%A3%E4%BB%95%E6%A7%98%E8%A8%98%E8%BF%B0.md) — 履歴資料以外の文書は、採用済みの構造、状態、振る舞い、境界、失敗時結果、性能条件を正の仕様として記述する。
@@ -83,4 +84,3 @@
 - [INT-005 接続不能](/kombinat/requirements/int-005-%E6%8E%A5%E7%B6%9A%E4%B8%8D%E8%83%BD.md) — MUST: Core独自Storageから供給または回収できない場合、Jobを転送待ちへ置く。
 - [INT-006 上流欠陥](/kombinat/requirements/int-006-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5.md) — MUST: Core独自保管基盤単体で再現する問題と、Kombinat接続だけで再現する問題を分離する。
 - [PERF-001 Event駆動](/kombinat/requirements/perf-001-%E9%A7%86%E5%8B%95.md) — MUST: Queue、Factory、Buffer、Accountの変化をeventで処理し、定常処理を索引と有界Queueから実行する。
-- [PERF-002 Planner](/kombinat/requirements/perf-002-%E8%A6%81%E4%BB%B6.md) — MUST: 一Planを最大200 node、100 ms以内、または一frame 4 ms以下の分割処理で終える暫定目標を持つ。

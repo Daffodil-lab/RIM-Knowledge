@@ -1,9 +1,10 @@
 # stable 17
 
-範囲: SHION_A104 機動強襲群の公共案内官〜SHION_A183 機械化訓練地の種子管理官
+範囲: SHION_A103 共同祝宴堂の臨床医〜SHION_A182 移動都市群の保存食職人
 
 ## 項目
 
+- [SHION_A103 共同祝宴堂の臨床医](/reference/backstories/mastery/SHION_A103.md) — 共同祝宴堂の臨床医では、共同祝宴堂で臨床医をしていました。
 - [SHION_A104 機動強襲群の公共案内官](/reference/backstories/mastery/SHION_A104.md) — 機動強襲群の基地で、市民向けの案内をしていました。
 - [SHION_A105 人格照合局の記録官](/reference/backstories/mastery/SHION_A105.md) — 人格照合局では、事実、推測、後世の注釈を別の欄へ分けました。
 - [SHION_A106 長期予測院の射撃教官](/reference/backstories/mastery/SHION_A106.md) — 長期予測院の射撃教官では、長期予測院で射撃を教えていました。
@@ -83,4 +84,3 @@
 - [SHION_A180 旧党派収容記録所の設備技師](/reference/backstories/mastery/SHION_A180.md) — 旧党派の収容記録所で、壁と配管と避難路を直しました。
 - [SHION_A181 要塞潜入路の資源測量士](/reference/backstories/mastery/SHION_A181.md) — 要塞へ入る道は、掘れば見つかるというものではない。
 - [SHION_A182 移動都市群の保存食職人](/reference/backstories/mastery/SHION_A182.md) — 移動都市で、外部旅人の栄養条件とシオンの感覚上の好みに合わせ、到着後の食卓を先に準備した。
-- [SHION_A183 機械化訓練地の種子管理官](/reference/backstories/mastery/SHION_A183.md) — 訓練地で本人が守っていたのは、武器庫より種子庫だった。

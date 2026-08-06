@@ -1,9 +1,10 @@
 # stable 18
 
-範囲: SHION_A184 継承教室の動物義肢技師〜SHION_A263 対機械戦区の徒手警護員
+範囲: SHION_A183 機械化訓練地の種子管理官〜SHION_A262 封鎖観測地の監視射手
 
 ## 項目
 
+- [SHION_A183 機械化訓練地の種子管理官](/reference/backstories/mastery/SHION_A183.md) — 訓練地で本人が守っていたのは、武器庫より種子庫だった。
 - [SHION_A184 継承教室の動物義肢技師](/reference/backstories/mastery/SHION_A184.md) — 継承教室で動物義肢を作り、教本の寸法より目の前の動物の反応を優先するようになった。
 - [SHION_A185 塔域居住層の精密工](/reference/backstories/mastery/SHION_A185.md) — 塔の救難具を利用者の身体構成と操作習慣に合わせ、暗闇でも触れて判別できるよう調整した。
 - [SHION_A186 自治評議区の合奏指導者](/reference/backstories/mastery/SHION_A186.md) — 自治評議区で、身体と党歴の異なる奏者のずれを一つの拍へ押し込めず、曲の一部としてまとめた。
@@ -83,4 +84,3 @@
 - [SHION_A260 人格照合局の再会連絡官](/reference/backstories/mastery/SHION_A260.md) — 人格照合局で再会を手伝う時、本人は「以前と同じ本人です」とは約束しなかった。
 - [SHION_A261 月面事業区の古文書研究者](/reference/backstories/mastery/SHION_A261.md) — 月面事業の公式記録は、最初から成功する予定だったように書かれていた。
 - [SHION_A262 封鎖観測地の監視射手](/reference/backstories/mastery/SHION_A262.md) — 封鎖地では、変色した草が風で揺れるたび照準を合わせた。
-- [SHION_A263 対機械戦区の徒手警護員](/reference/backstories/mastery/SHION_A263.md) — 対機械戦区では、避難者と飼育動物を武器なしで誘導した。

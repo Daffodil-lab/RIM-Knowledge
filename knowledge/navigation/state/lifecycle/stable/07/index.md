@@ -1,6 +1,6 @@
 # stable 07
 
-範囲: 確定#365：闇のアルコテックとの冷戦とThe Hiveの伝聞〜RIM OKFメタデータ契約
+範囲: 確定#365：闇のアルコテックとの冷戦とThe Hiveの伝聞〜人間による承認境界
 
 ## 項目
 
@@ -83,4 +83,4 @@
 - [オーバーホール中の矛盾判定規則](/governance/contradiction-policy-%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%9B%E3%83%BC%E3%83%AB%E4%B8%AD%E3%81%AE%E7%9F%9B%E7%9B%BE%E5%88%A4%E5%AE%9A%E8%A6%8F%E5%89%87.md) — 改稿差分を誤って矛盾と判定せず、現行正本の衝突だけを止めるための規則。
 - [重複と異なる粒度の管理規則](/governance/duplication-policy-%E9%87%8D%E8%A4%87%E3%81%A8%E7%95%B0%E3%81%AA%E3%82%8B%E7%B2%92%E5%BA%A6%E3%81%AE%E7%AE%A1%E7%90%86%E8%A6%8F%E5%89%87.md) — 同じ内容を異なる粒度で必要とする場合でも、事実の所有者は一つにする。
 - [OKF知識の更新手順](/governance/editing-workflow-%E7%9F%A5%E8%AD%98%E3%81%AE%E6%9B%B4%E6%96%B0%E6%89%8B%E9%A0%86.md) — OKF知識の更新手順は、ルート索引から対象領域を選ぶ。
-- [RIM OKFメタデータ契約](/governance/metadata-contract-%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E5%A5%91%E7%B4%84.md) — RIM概念ファイルのOKF 0.2標準メタデータと正本所有拡張の必須構造を定める。
+- [人間による承認境界](/governance/human-approval-boundary-%E4%BA%BA%E9%96%93%E3%81%AB%E3%82%88%E3%82%8B%E6%89%BF%E8%AA%8D%E5%A2%83%E7%95%8C.md) — RIM-Knowledgeでは、所有者が目的、正本、内容、影響、未確認事項、公開可否を判断し、コードの行単位理解を承認条件にしない。

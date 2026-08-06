@@ -1,9 +1,10 @@
 # stable 11
 
-範囲: SHION_C043 五つの印章を持つ書記〜SHION_C122 塔域の再会受付
+範囲: SHION_C042 律法を携えた離反者〜SHION_C121 幸福都市を去った診療助手
 
 ## 項目
 
+- [SHION_C042 律法を携えた離反者](/reference/backstories/formation/SHION_C042.md) — 内戦後帝国から離反する際、武器より先に最盛期の律法書を持ち出した。
 - [SHION_C043 五つの印章を持つ書記](/reference/backstories/formation/SHION_C043.md) — 長い過渡期に、社会民主党、共産党、ファシスト党、帝国離反者会、無党派評議会の印章を預かった。
 - [SHION_C044 渡り徒弟](/reference/backstories/formation/SHION_C044.md) — 定住地が解散するたび別の開拓団へ移り、農場、工房、警備所で働いた。
 - [SHION_C045 ティクーン試験生](/reference/backstories/formation/SHION_C045.md) — ティクーン初期課程で文章と人工知能の命令列を診断した。
@@ -83,4 +84,3 @@
 - [SHION_C119 装甲救援隊の工具係](/reference/backstories/formation/SHION_C119.md) — 装甲救援隊の工具係では、装甲は勇敢さの証ではありません。
 - [SHION_C120 山岳連絡区の追悼劇](/reference/backstories/formation/SHION_C120.md) — 山岳連絡区では、橋を守った者たちの話を舞台にしました。
 - [SHION_C121 幸福都市を去った診療助手](/reference/backstories/formation/SHION_C121.md) — 幸福都市を去った診療助手では、幸福都市は本当に美しかった。
-- [SHION_C122 塔域の再会受付](/reference/backstories/formation/SHION_C122.md) — 塔域の再会受付で、記憶欠落、複製後の差、不在時間を歓迎より先に説明した。

@@ -1,9 +1,10 @@
 # stable 16
 
-範囲: SHION_A024 身体文章設計者〜SHION_A103 共同祝宴堂の臨床医
+範囲: SHION_A023 儀式教師〜SHION_A102 帰還兵港の舞台演出家
 
 ## 項目
 
+- [SHION_A023 儀式教師](/reference/backstories/mastery/SHION_A023.md) — 祈り、葬送、成人式を、信仰や文化の異なる生徒へ教える儀式教師となった。
 - [SHION_A024 身体文章設計者](/reference/backstories/mastery/SHION_A024.md) — 利用者の新しい身体を、強度や出力だけでなく、感覚、癖、外見、生活習慣まで含めて設計した。
 - [SHION_A025 独立開拓者](/reference/backstories/mastery/SHION_A025.md) — 行政圏外の谷で、出身の異なる移住者と住居、畑、発電設備を築いた。
 - [SHION_A026 キャラバン修理師](/reference/backstories/mastery/SHION_A026.md) — キャラバンに同行し、車軸、鞍、冷却器、調理設備を移動中に修理した。
@@ -83,4 +84,3 @@
 - [SHION_A100 本国居住区の動物義肢技師](/reference/backstories/mastery/SHION_A100.md) — 本国居住区の動物義肢技師では、本国居住区で動物用の義肢を作っていました。
 - [SHION_A101 ヘイハルKombinatの精密工](/reference/backstories/mastery/SHION_A101.md) — ヘイハルKombinatで精密部品を仕上げていました。
 - [SHION_A102 帰還兵港の舞台演出家](/reference/backstories/mastery/SHION_A102.md) — 帰還兵港の舞台演出家では、帰還兵港の舞台を任されました。
-- [SHION_A103 共同祝宴堂の臨床医](/reference/backstories/mastery/SHION_A103.md) — 共同祝宴堂の臨床医では、共同祝宴堂で臨床医をしていました。

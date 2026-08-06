@@ -1,9 +1,10 @@
 # stable 19
 
-範囲: SHION_A264 移動都市群の仮設建築士〜SHION_A343 旧山岳部族圏の狩猟指導員
+範囲: SHION_A263 対機械戦区の徒手警護員〜SHION_A342 医療分隊の助産師
 
 ## 項目
 
+- [SHION_A263 対機械戦区の徒手警護員](/reference/backstories/mastery/SHION_A263.md) — 対機械戦区では、避難者と飼育動物を武器なしで誘導した。
 - [SHION_A264 移動都市群の仮設建築士](/reference/backstories/mastery/SHION_A264.md) — 移動都市の帰還者へ家を作ると、地図と本人の記憶がよく喧嘩した。
 - [SHION_A265 人格照合局の坑道監督](/reference/backstories/mastery/SHION_A265.md) — 人格照合局の地下保管庫を広げる時、本人は地層の音を聞き、戻れる順番で掘らせた。
 - [SHION_A266 帰還兵港の祝宴料理人](/reference/backstories/mastery/SHION_A266.md) — 帰還兵港の祝宴では、一つの「懐かしい味」を決めなかった。
@@ -83,4 +84,3 @@
 - [SHION_A340 航行記録班の観測員](/reference/backstories/mastery/SHION_A340.md) — 航行記録班の観測員では、観測手順は三段階だった。
 - [SHION_A341 旧内陸連合圏の密造酒職人](/reference/backstories/mastery/SHION_A341.md) — 旧内陸連合圏の密造酒職人では、船内で酒を造るのは規則違反だった。
 - [SHION_A342 医療分隊の助産師](/reference/backstories/mastery/SHION_A342.md) — 医療分隊で外部居住者の出産を支え、凍土文化の先達から継いだ知見を医療手順の余白へ残した。
-- [SHION_A343 旧山岳部族圏の狩猟指導員](/reference/backstories/mastery/SHION_A343.md) — 船の中に獲物なんているわけないだろう、って最初はみんなに笑われたよ。

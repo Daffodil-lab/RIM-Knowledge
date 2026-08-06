@@ -1,9 +1,10 @@
 # stable 13
 
-範囲: SHION_C203 機動強襲群の工具助手〜SHION_C282 予測外の修繕班
+範囲: SHION_C202 帝国書庫塔の動物診療〜SHION_C281 鐘の夜の橋守り
 
 ## 項目
 
+- [SHION_C202 帝国書庫塔の動物診療](/reference/backstories/formation/SHION_C202.md) — 帝国書庫塔の診療室で、動物の歩幅・耳・呼吸を観察し、事実と痛みの推測を分けて記録した。
 - [SHION_C203 機動強襲群の工具助手](/reference/backstories/formation/SHION_C203.md) — 強襲群の工房で、本人は工具の握りを持ち主ごとに削りました。
 - [SHION_C204 特殊任務学校の合奏会](/reference/backstories/formation/SHION_C204.md) — 特殊任務学校の合奏で、軍事作戦と法執行の異なる待機・制止・交渉の間合いを打楽器で表した。
 - [SHION_C205 計画都市の救護大会](/reference/backstories/formation/SHION_C205.md) — 計画都市の救護大会では、救護大会なのに、本人は順位を覚えていません。
@@ -83,4 +84,3 @@
 - [SHION_C279 無言の構造物読書会](/reference/backstories/formation/SHION_C279.md) — 調査船では、用途不明の構造物について古い報告を読む会を開きました。
 - [SHION_C280 答えを伏せた護衛教室](/reference/backstories/formation/SHION_C280.md) — 継承教室では、古い世代から射撃と護衛の手順を学びました。
 - [SHION_C281 鐘の夜の橋守り](/reference/backstories/formation/SHION_C281.md) — 革命連合の山岳連絡区で、本人は住民と荷役動物が渡る橋を守りました。
-- [SHION_C282 予測外の修繕班](/reference/backstories/formation/SHION_C282.md) — 長期予測院の修繕班では、遠い未来の交換計画まで表になっていました。

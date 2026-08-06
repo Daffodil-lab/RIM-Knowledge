@@ -1,9 +1,10 @@
 # stable 15
 
-範囲: SHION_C363 配線図を読む指〜SHION_A023 儀式教師
+範囲: SHION_C362 国旗を畳んだ日〜SHION_A022 破門校正官
 
 ## 項目
 
+- [SHION_C362 国旗を畳んだ日](/reference/backstories/formation/SHION_C362.md) — 「その布、もう畳んでいいんじゃない」って、あたしは互助会の年寄りに言ったの。
 - [SHION_C363 配線図を読む指](/reference/backstories/formation/SHION_C363.md) — 配線は色でなく、被覆の巻き方の癖で見分けるんである。
 - [SHION_C364 七つの病室を覚えている](/reference/backstories/formation/SHION_C364.md) — 七つの病室を覚えているでは、七つ、いや八つだったかのう。
 - [SHION_C365 採掘倉庫の温度管理](/reference/backstories/formation/SHION_C365.md) — 貨物甲板の採掘資材倉庫は摂氏四度に保つ規定だった。
@@ -83,4 +84,3 @@
 - [SHION_A020 評議会注解者](/reference/backstories/mastery/SHION_A020.md) — 評議会決議へ適用範囲、反対意見、再検討条件を付す注解者となった。
 - [SHION_A021 帝国遺構の番人](/reference/backstories/mastery/SHION_A021.md) — 帝国遺構を盗掘と無責任な復元から守り、最盛期の礼拝所、内戦施設、内戦後の拘禁室を時代別に管理した。
 - [SHION_A022 破門校正官](/reference/backstories/mastery/SHION_A022.md) — 修復対象の拒否を依頼人の命令より優先し、所属していた校正学派から破門された。
-- [SHION_A023 儀式教師](/reference/backstories/mastery/SHION_A023.md) — 祈り、葬送、成人式を、信仰や文化の異なる生徒へ教える儀式教師となった。

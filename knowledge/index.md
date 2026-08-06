@@ -9,16 +9,17 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 ## 読み始め
 
 1. [権威順位とライフサイクル](governance/authority-and-lifecycle-知識の権威順位とライフサイクル.md)
-2. [Open Knowledge Format 0.2 日本語規範解説](research/okf/00-Open-Knowledge-Format-v0.2-日本語解説.md)
-3. [横断ナビゲーション](navigation/)
-4. [改稿ダッシュボード](navigation/overhaul/)
-5. [知識所有者マップ](governance/ownership-map-知識所有者マップ.md)
-6. [オーバーホール中の矛盾判定規則](governance/contradiction-policy-オーバーホール中の矛盾判定規則.md)
-7. [矛盾監査台帳](contradictions/)
-8. [参考](reference/)
-9. [正史・世界観](world/)
-10. [全体設計](design/)
-11. [リリース計画](roadmap/)
+2. [人間による承認境界](governance/human-approval-boundary-人間による承認境界.md)
+3. [Open Knowledge Format 0.2 日本語規範解説](research/okf/00-Open-Knowledge-Format-v0.2-日本語解説.md)
+4. [横断ナビゲーション](navigation/)
+5. [改稿ダッシュボード](navigation/overhaul/)
+6. [知識所有者マップ](governance/ownership-map-知識所有者マップ.md)
+7. [オーバーホール中の矛盾判定規則](governance/contradiction-policy-オーバーホール中の矛盾判定規則.md)
+8. [矛盾監査台帳](contradictions/)
+9. [参考](reference/)
+10. [正史・世界観](world/)
+11. [全体設計](design/)
+12. [リリース計画](roadmap/)
 
 ## 領域
 
@@ -28,7 +29,7 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 - [独立開拓団](colony/) — 30件
 - [決定履歴](decisions/) — 379件
 - [全体設計](design/) — 57件
-- [運用規則](governance/) — 8件
+- [運用規則](governance/) — 9件
 - [Kombinat](kombinat/) — 85件
 - [横断ナビゲーション](navigation/) — 荷札から生成した派生索引
 - [Pawn生産・保管・再生](pawn/) — 91件

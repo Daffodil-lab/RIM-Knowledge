@@ -1,9 +1,10 @@
 # canonical 04
 
-範囲: INT-006 取消と返却〜17. FTLの例外性
+範囲: INT-005 Ability Package〜16. 同盟の正式名称
 
 ## 項目
 
+- [INT-005 Ability Package](/pawn/int-005-%E8%A6%81%E4%BB%B6.md) — MUST: 必要能力はBody Module、Gene、Trait、Skill、Passion、Ability、Hediff等の由来を区別して構成し、同じ効果を無関係な仕組みで暗黙代替しない。
 - [INT-006 取消と返却](/pawn/int-006-%E5%8F%96%E6%B6%88%E3%81%A8%E8%BF%94%E5%8D%B4.md) — MUST: 生産取消、設計変更、配備失敗時は、未消費資源、完成済み装備、部分完成Bodyを追跡し、複製せずCore独自保管・接続システムまたはMap上の受入先へ返却するか、Factory Buffer内で明示的に再利用する。
 - [PERF-001 Dormant停止](/pawn/perf-001-%E5%81%9C%E6%AD%A2.md) — MUST: Dormant PawnをRimWorld Pawn Tickまたは全件毎tick走査の対象にしない。
 - [PERF-002 Event更新](/pawn/perf-002-%E6%9B%B4%E6%96%B0.md) — MUST: Archive checkpoint、需要数、Clone活動数、回収状態をevent駆動で更新する。
@@ -83,4 +84,3 @@
 - [14. 水仙](/world/14-%E6%B0%B4%E4%BB%99.md) — 水仙は、帝国内戦後にシオンの蜂起を主導し、身体と製造手段を自己所有へ取り戻す革命の中心となったシオンである。
 - [15. トヴェルジとクピナ](/world/15-%E3%83%88%E3%83%B4%E3%82%A7%E3%83%AB%E3%82%B8%E3%81%A8%E3%82%AF%E3%83%94%E3%83%8A.md) — トヴェルジは地球から銀河円盤面を大きく離れる方向にある自然形成の球状星団であり、地球を出発した移民者の末裔が帝国とシオン文明を築いた起源地である。
 - [16. 同盟の正式名称](/world/16-%E5%90%8C%E7%9B%9F%E3%81%AE%E6%AD%A3%E5%BC%8F%E5%90%8D%E7%A7%B0.md) — 結成時の最も広く知られた正式な総称はトヴェルジ＝ネオパリマヤ・クピナ条約機構であり、現在の普遍的な呼称は同盟である。
-- [17. FTLの例外性](/world/17-FTL%E3%81%AE%E4%BE%8B%E5%A4%96%E6%80%A7.md) — 同盟の再現可能なFTL航行とFTL情報伝達は、通常人類の技術体系から意図的に外れた特権的能力である。

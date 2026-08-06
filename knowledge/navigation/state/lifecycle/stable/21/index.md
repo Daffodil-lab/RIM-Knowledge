@@ -1,9 +1,10 @@
 # stable 21
 
-範囲: 3. What not to copy〜11. Performance cautions
+範囲: 2. What to adopt〜10. Shion Nexus UI checklist
 
 ## 項目
 
+- [2. What to adopt](/research/anomaly-monolith/02-What-to-adopt.md) — Adopt structurally、具体的にはone strong central block;とside supports or buttresses;を扱う。
 - [3. What not to copy](/research/anomaly-monolith/03-What-not-to-copy.md) — Shion Nexus is not Anomaly horror. It is a quiet ceramic clockwork singularity.。
 - [4. Three-state Core visual lesson](/research/anomaly-monolith/04-Three-state-Core-visual-lesson.md) — The screenshots suggest a useful three-stage language、具体的にはBroken/dormant slab：Dormant Core: dark aperture, sealed face, no strong…。
 - [5. Shape options influenced by Anomaly monoliths](/research/anomaly-monolith/05-Shape-options-influenced-by-Anomaly-monoliths.md) — Shape options influenced by Anomaly monolithsは、central raised slab;とbroad lower platform;を扱う。
@@ -83,4 +84,3 @@
 - [8. UI/system failures to avoid](/research/monolyn-ui/08-UI-system-failures-to-avoid.md) — Avoid in Shion Nexus alpha、具体的にはcentral actions with delayed invisible outcomes;とprogress that says inactive while active;を扱う。
 - [9. Alpha impact](/research/monolyn-ui/09-Alpha-impact.md) — This reference reinforces current Alpha 0.1 rules.。
 - [10. Shion Nexus UI checklist](/research/monolyn-ui/10-Shion-Nexus-UI-checklist.md) — Before Alpha 0.1 release, confirm、具体的にはCore Inspect explains alive/damaged/destroyed state.とLedger Inspect shows CVE, capacity, shells,…。
-- [11. Performance cautions](/research/monolyn-ui/11-Performance-cautions.md) — UI and feedback systems must not introduce hidden cost.。
