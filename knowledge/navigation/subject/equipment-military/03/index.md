@@ -1,9 +1,17 @@
 # 装備・軍事 03
 
-範囲: GEN-005 必要装備〜3. 1.0の最終完成像
+範囲: 2.3 無料保管〜SHION_A366 巡回区画の三つの規則
 
 ## 項目
 
+- [2.3 無料保管](/pawn/2-3-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — 生存PawnはPawn Foundryまたは対応設備からDormant状態へ移し、必要になるまで保管できる。
+- [3.1 Ephemeral Pawn](/pawn/3-1-Ephemeral-Pawn-%E4%B8%80%E6%99%82%E5%80%8B%E4%BD%93.md) — 適合生成の既定出力であり、また役割上必要な情報だけを指定し、それ以外をランダム生成する。
+- [3.2 Registered Individual](/pawn/3-2-Registered-Individual-%E7%99%BB%E9%8C%B2%E5%80%8B%E4%BD%93.md) — 既存Pawnをプレイヤーが登録すると、個体を再構築するためのIndividual Archiveを作る。
+- [3.3 Saved Pawn Design](/pawn/3-3-Saved-Pawn-Design-%E4%BF%9D%E5%AD%98%E5%80%8B%E4%BD%93%E8%A8%AD%E8%A8%88.md) — 特定の一人ではなく、繰り返し使える製造設計である。
+- [3.4 Clone](/pawn/3-4-Clone-%E8%A4%87%E8%A3%BD%E5%80%8B%E4%BD%93.md) — 登録個体または保存設計をClone Sourceにできる。
+- [ADV-003 物理費と人格復元費](/pawn/adv-003-%E7%89%A9%E7%90%86%E8%B2%BB%E3%81%A8%E4%BA%BA%E6%A0%BC%E5%BE%A9%E5%85%83%E8%B2%BB.md) — MUST: Archiveが低コストで復元するのは人格・構成情報であり、失われた身体、内蔵Module、着脱装備を無償複製しない。
+- [ADV-009 全状態の保存と冪等性](/pawn/adv-009-%E5%85%A8%E7%8A%B6%E6%85%8B%E3%81%AE%E4%BF%9D%E5%AD%98%E3%81%A8%E5%86%AA%E7%AD%89%E6%80%A7.md) — MUST: 緊急再配備、着脱品返却、無人生産、参照解決、Manifest診断を途中保存できる。
+- [DOR-007 装備](/pawn/dor-007-%E8%A3%85%E5%82%99.md) — MUST: 着脱可能な装備、衣服、工具、inventory内ThingはDormant化のtransaction内でCore独自保管・接続システムまたはMap上の受入先へ一度だけ返却する。
 - [GEN-005 必要装備](/pawn/gen-005-%E5%BF%85%E8%A6%81%E8%A3%85%E5%82%99.md) — MUST: 生産要求は、具体Thing指定と作者定義のEquipment Familyを併用できる。
 - [GEN-006 原子的配備](/pawn/gen-006-%E5%8E%9F%E5%AD%90%E7%9A%84%E9%85%8D%E5%82%99.md) — MUST: Body、必須Module、必須能力、必須装備のいずれかが欠ける場合、完成扱いでPawnを出現させない。
 - [INT-001 Production Adapter](/pawn/int-001-%E8%A6%81%E4%BB%B6.md) — MUST: Pawn FoundryはBody、Module、装備、消耗品をKombinat Production Requestとして発注できる。
@@ -76,11 +84,3 @@
 - [SHION_A321 境界哨戒隊の見張り番](/reference/backstories/mastery/SHION_A321.md) — 今は哨戒に出ることはない、装備の点検を任されているだけだ。
 - [SHION_A354 秩序維持隊の初代隊員](/reference/backstories/mastery/SHION_A354.md) — 秩序維持隊の初代選抜で、武器ではなく当事者双方の話を先に聞く役を担った。
 - [SHION_A366 巡回区画の三つの規則](/reference/backstories/mastery/SHION_A366.md) — 持ち場を離れない、武器を見せない、揉め事を数える前に止めるという三規則を守り続けた。
-- [SHION_A407 通信中継隊の暗号係](/reference/backstories/mastery/SHION_A407.md) — 通信中継隊の暗号係では、覚えている数字が三つあります。
-- [2. Arsenal Codexの直接交換から採るもの](/research/kombinat-ui-references/02-Arsenal-Codex%E3%81%AE%E7%9B%B4%E6%8E%A5%E4%BA%A4%E6%8F%9B%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — 接続保管庫からPawnへ直接装備し、現在装備を同じ取引で返す操作を、Coreの原子的武器交換の参照とする。
-- [3. プレイヤーへ見せる情報の四層](/research/theme-overhaul/03-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%B8%E8%A6%8B%E3%81%9B%E3%82%8B%E6%83%85%E5%A0%B1%E3%81%AE%E5%9B%9B%E5%B1%A4.md) — プレイヤーが覚える必要のある核は四つだけにする。
-- [4. ゲーム内文章の情報予算](/research/theme-overhaul/04-%E3%82%B2%E3%83%BC%E3%83%A0%E5%86%85%E6%96%87%E7%AB%A0%E3%81%AE%E6%83%85%E5%A0%B1%E4%BA%88%E7%AE%97.md) — 既存838件は削除せず、作者用カタログとして保持する。
-- [5. チープな近未来SFを避ける規則](/research/theme-overhaul/05-%E3%83%81%E3%83%BC%E3%83%97%E3%81%AA%E8%BF%91%E6%9C%AA%E6%9D%A5SF%E3%82%92%E9%81%BF%E3%81%91%E3%82%8B%E8%A6%8F%E5%89%87.md) — 現実性は手触りであり、文明の上限ではないという方針の適用範囲と条件を定める。
-- [6. 実在参照と命名の処理](/research/theme-overhaul/06-%E5%AE%9F%E5%9C%A8%E5%8F%82%E7%85%A7%E3%81%A8%E5%91%BD%E5%90%8D%E3%81%AE%E5%87%A6%E7%90%86.md) — 以下はテーマ・トーン再審査ガイドQ0と、近未来／20世紀パスティーシュ回避の両方から優先度が高い。
-- [0. 結論](/roadmap/00-%E7%B5%90%E8%AB%96.md) — Coreは工業基盤を内部完成させてからShion種族を統合し、α、β、1.0の三段階で公開する。
-- [3. 1.0の最終完成像](/roadmap/03-1-0%E3%81%AE%E6%9C%80%E7%B5%82%E5%AE%8C%E6%88%90%E5%83%8F.md) — 最終的なCoreは、少なくとも次を一つの製品として成立させる。

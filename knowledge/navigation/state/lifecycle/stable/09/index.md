@@ -1,9 +1,17 @@
 # stable 09
 
-範囲: SAV-002 非複製〜REG-002 Archive更新
+範囲: PRD-007 Job〜REC-003 Ephemeral再起動
 
 ## 項目
 
+- [PRD-007 Job](/kombinat/requirements/prd-007-%E8%A6%81%E4%BB%B6.md) — MUST: 承認済みPlanをJobとして保存し、Pattern version、選んだRecipe、入力条件、出力条件を固定する。
+- [PRD-008 Batch](/kombinat/requirements/prd-008-%E8%A6%81%E4%BB%B6.md) — MUST: 一Batchの全入力Thingと出力容量がCore Storageで予約され、設備が利用可能な時だけ開始する。
+- [PRD-009 Output Claim](/kombinat/requirements/prd-009-%E8%A6%81%E4%BB%B6.md) — MUST: 同じThingDefがどこかへ出現しただけでBatchを完了しない。
+- [PRD-010 中間品](/kombinat/requirements/prd-010-%E4%B8%AD%E9%96%93%E5%93%81.md) — MUST: 中間品をCore Storageへ直接Commitし、後段工程がThing単位で予約する。
+- [PRD-011 副産物](/kombinat/requirements/prd-011-%E5%89%AF%E7%94%A3%E7%89%A9.md) — MUST: 副産物の出力容量を開始前に確認し、満杯なら開始しない。
+- [PRD-012 取消](/kombinat/requirements/prd-012-%E5%8F%96%E6%B6%88.md) — MUST: 取消時は未Commitの入力予約、出力容量予約、通貨予約、設備割当を解放する。
+- [PRD-013 再計画](/kombinat/requirements/prd-013-%E5%86%8D%E8%A8%88%E7%94%BB.md) — MUST: 未開始Batchだけを再計画する、またcommit済みBatchを巻き戻さない。
+- [SAV-001 状態](/kombinat/requirements/sav-001-%E7%8A%B6%E6%85%8B.md) — MUST: Request、Pattern version、Plan summary、Job、Batch、Buffer、Output Claim、Account、Transaction、Consumption aggregateを保存する。
 - [SAV-002 非複製](/kombinat/requirements/sav-002-%E9%9D%9E%E8%A4%87%E8%A3%BD.md) — MUST: KombinatセーブはKombinat固有状態とCore取引参照だけを保持する。
 - [SAV-003 途中保存](/kombinat/requirements/sav-003-%E9%80%94%E4%B8%AD%E4%BF%9D%E5%AD%98.md) — MUST: 材料待ち、入力予約後、処理中、出力容量待ち、Commit前後、通貨保留中に保存・ロードできる。
 - [SAV-004 同一ビルド](/kombinat/requirements/sav-004-%E5%90%8C%E4%B8%80%E3%83%93%E3%83%AB%E3%83%89.md) — MUST: α／βでは同一ビルドの保存往復を保証する。
@@ -76,11 +84,3 @@
 - [REC-001 低コスト修復](/pawn/rec-001-%E4%BD%8E%E3%82%B3%E3%82%B9%E3%83%88%E4%BF%AE%E5%BE%A9.md) — MUST: 生存Pawnの通常負傷、欠損、故障、交換可能Moduleを、標準新規Pawn生産より低い資源と時間で回復できる。
 - [REC-002 遺体回収](/pawn/rec-002-%E9%81%BA%E4%BD%93%E5%9B%9E%E5%8F%8E.md) — MUST: 回収したシオン遺体をRecovery Facilityへ受け入れ、再起動、Archive再実体化、再資源化の利用可能な選択を表示する。
 - [REC-003 Ephemeral再起動](/pawn/rec-003-%E5%86%8D%E8%B5%B7%E5%8B%95.md) — MUST: Ephemeral Pawnは、遺体とPawn instance情報が残る間、低コストで同じ現在個体を再起動できる。
-- [REC-004 Ephemeral最終削除](/pawn/rec-004-%E6%9C%80%E7%B5%82%E5%89%8A%E9%99%A4.md) — MUST: Ephemeral Pawnの遺体を再資源化した場合、Pawn、Corpse、World Pawn、Relation、Archive、個体参照付きTale／Log、未解決参照をセーブ正本から除去する。
-- [REC-005 Registered再実体化](/pawn/rec-005-%E5%86%8D%E5%AE%9F%E4%BD%93%E5%8C%96.md) — MUST: Registered Individualの死亡後は、回収時にArchiveをcheckpointし、遺体を再資源化した後も同じindividualIdで一体を再実体化できる。
-- [REC-006 Clone選択](/pawn/rec-006-%E9%81%B8%E6%8A%9E.md) — MUST: Registered Individualが活動中またはDormantである場合、同じ原型からの追加生産は再実体化ではなくCloneとして明示する。
-- [REC-007 回収不能](/pawn/rec-007-%E5%9B%9E%E5%8F%8E%E4%B8%8D%E8%83%BD.md) — MUST: 遺体が消滅したEphemeral Pawnは同じ個体として復元できない。
-- [REC-008 冪等性](/pawn/rec-008-%E5%86%AA%E7%AD%89%E6%80%A7.md) — MUST: 回収、再起動、再資源化、再実体化のCommand再送で、Pawn、遺体、装備、資源を二重生成または二重回収しない。
-- [REC-009 Quest参照](/pawn/rec-009-%E5%8F%82%E7%85%A7.md) — MUST: Ephemeral最終削除の前にQuest、Lord、Relation、Faction、World Pawn、外部Adapterへ終了通知を送り、参照を解決する。
-- [REG-001 既存Pawn登録](/pawn/reg-001-%E6%97%A2%E5%AD%98-%E7%99%BB%E9%8C%B2.md) — MUST: 活動中またはDormantのシオンPawnをRegistered Individualへ変更できる。
-- [REG-002 Archive更新](/pawn/reg-002-%E6%9B%B4%E6%96%B0.md) — MUST: Archiveは登録時、Dormant化時、手動保存時、死亡回収時にevent駆動でcheckpointする。

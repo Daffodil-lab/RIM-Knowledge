@@ -1,9 +1,12 @@
 # 人物・バックストーリー 11
 
-範囲: SHION_A299 旧党派収容記録所の徒手警護員〜SHION_A378 秩序維持隊の最終巡回
+範囲: SHION_A296 ヘイハルKombinatの討論調停人〜SHION_A375 医療班の告白
 
 ## 項目
 
+- [SHION_A296 ヘイハルKombinatの討論調停人](/reference/backstories/mastery/SHION_A296.md) — ヘイハルKombinatの会議では、生産班と保守班が同じ言葉を別の意味で使っていた。
+- [SHION_A297 ヘイハルKombinatの古文書研究者](/reference/backstories/mastery/SHION_A297.md) — Kombinat史を美しい壁画へまとめろと言われたが、本人は断った。
+- [SHION_A298 長期予測院の監視射手](/reference/backstories/mastery/SHION_A298.md) — 長期予測院の監視任務では、未来の危険度と目の前の動きを同じ画面で見た。
 - [SHION_A299 旧党派収容記録所の徒手警護員](/reference/backstories/mastery/SHION_A299.md) — 旧党派収容記録所で、本人は武器を持たず収容者と見物人の間へ立った。
 - [SHION_A300 対機械戦区の設備技師](/reference/backstories/mastery/SHION_A300.md) — 対機械戦区では、敵性機械の意図を論じる会議が長引いた。
 - [SHION_A301 ヘイハルKombinatの坑道監督](/reference/backstories/mastery/SHION_A301.md) — ヘイハルKombinatの坑道では、銃を持つより地層の音を聞く方が安心できた。
@@ -81,6 +84,3 @@
 - [SHION_A373 混成世代の勘違い集](/reference/backstories/mastery/SHION_A373.md) — 混成世代の勘違い集では、よくある誤解が三つある。
 - [SHION_A374 亡き師の言葉を継ぐ厨房番](/reference/backstories/mastery/SHION_A374.md) — 「塩は最後、感謝は最初」って師匠がいつも言ってた。
 - [SHION_A375 医療班の告白](/reference/backstories/mastery/SHION_A375.md) — 医療班の告白では、巡回医療の経過は淡々と記していた。
-- [SHION_A376 仲裁人の想定問答](/reference/backstories/mastery/SHION_A376.md) — 甲板間の揉め事は、たいてい旧い作法と新しい律法のどちらを優先するかで起きた。
-- [SHION_A377 統合行政区の初日](/reference/backstories/mastery/SHION_A377.md) — 出身圏の旗を全部下ろした日のことを聞きたいのですか。
-- [SHION_A378 秩序維持隊の最終巡回](/reference/backstories/mastery/SHION_A378.md) — 秩序維持隊の最終巡回では、秩序維持隊の任務は単純だった。

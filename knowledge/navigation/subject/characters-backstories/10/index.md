@@ -1,9 +1,12 @@
 # 人物・バックストーリー 10
 
-範囲: SHION_A219 本国居住区の種子管理官〜SHION_A298 長期予測院の監視射手
+範囲: SHION_A216 非常令監視区の設備技師〜SHION_A295 孵育文化区の蘇生後療養医
 
 ## 項目
 
+- [SHION_A216 非常令監視区の設備技師](/reference/backstories/mastery/SHION_A216.md) — 非常令が出た時、最初に変わったのは大きな法律ではなかった。
+- [SHION_A217 残響深層の資源測量士](/reference/backstories/mastery/SHION_A217.md) — 残響深層で再現された戦場を測量し、英雄像ではなく実際に迷った救難路を地図へ残した。
+- [SHION_A218 封鎖観測地の祝宴料理人](/reference/backstories/mastery/SHION_A218.md) — 封鎖観測地の祝宴では、戻った者と戻らなかった者の皿を同じ卓へ置いた。
 - [SHION_A219 本国居住区の種子管理官](/reference/backstories/mastery/SHION_A219.md) — 本国の種子庫には、もう地図にない故郷から運ばれた種がある。
 - [SHION_A220 封鎖観測地の動物義肢技師](/reference/backstories/mastery/SHION_A220.md) — 封鎖地の動物は、脚の傷だけでなく毛や皮膚の色まで変わっていた。
 - [SHION_A221 離散船団の精密工](/reference/backstories/mastery/SHION_A221.md) — 離散船団の競技会では、同じ規格の道具を配る方が不公平だった。
@@ -81,6 +84,3 @@
 - [SHION_A293 相互扶助区の義肢調整師](/reference/backstories/mastery/SHION_A293.md) — 相互扶助区の義肢調整師では、相互扶助区では義肢の部品も共同管理だった。
 - [SHION_A294 透明居住区の記録壁画家](/reference/backstories/mastery/SHION_A294.md) — 透明居住区では、壁画へ全員の記憶を公開するよう求められた。
 - [SHION_A295 孵育文化区の蘇生後療養医](/reference/backstories/mastery/SHION_A295.md) — 孵育文化区の療養計画は、蘇生者へ最も快適な部屋と仕事を自動で割り当てた。
-- [SHION_A296 ヘイハルKombinatの討論調停人](/reference/backstories/mastery/SHION_A296.md) — ヘイハルKombinatの会議では、生産班と保守班が同じ言葉を別の意味で使っていた。
-- [SHION_A297 ヘイハルKombinatの古文書研究者](/reference/backstories/mastery/SHION_A297.md) — Kombinat史を美しい壁画へまとめろと言われたが、本人は断った。
-- [SHION_A298 長期予測院の監視射手](/reference/backstories/mastery/SHION_A298.md) — 長期予測院の監視任務では、未来の危険度と目の前の動きを同じ画面で見た。

@@ -1,9 +1,17 @@
 # stable 19
 
-範囲: SHION_A261 月面事業区の古文書研究者〜SHION_A340 航行記録班の観測員
+範囲: SHION_A253 残響深層の地下救助員〜SHION_A332 入植地の屋根継ぎ
 
 ## 項目
 
+- [SHION_A253 残響深層の地下救助員](/reference/backstories/mastery/SHION_A253.md) — 残響深層では、崩落した戦場が同じ瞬間を繰り返していた。
+- [SHION_A254 装甲救援隊の公共食堂の調理師](/reference/backstories/mastery/SHION_A254.md) — 装甲救援隊の食堂にいると、料理だけしていたとは思われない。
+- [SHION_A255 革命連合後方区の共同農園技師](/reference/backstories/mastery/SHION_A255.md) — 革命連合の後方農園には、社会民主党系も共産党系も帝国離反者も来た。
+- [SHION_A256 開戦前残響域の終生飼養員](/reference/backstories/mastery/SHION_A256.md) — 開戦前の残響域で、本人は役目を終えた動物の日課を守っていた。
+- [SHION_A257 革命連合後方区の古道具修復師](/reference/backstories/mastery/SHION_A257.md) — 革命連合の後方では、同じ型の道具でも党派ごとに違う印が刻まれていた。
+- [SHION_A258 立入制限地の記録舞台演出家](/reference/backstories/mastery/SHION_A258.md) — 立入制限地の記録を舞台にするなら、悲鳴と死者だけでは足りない。
+- [SHION_A259 自治評議区の救護医](/reference/backstories/mastery/SHION_A259.md) — 自治評議区の事故では、救護所へ着く前から党派同士が責任を押し付け合っていた。
+- [SHION_A260 人格照合局の再会連絡官](/reference/backstories/mastery/SHION_A260.md) — 人格照合局で再会を手伝う時、本人は「以前と同じ本人です」とは約束しなかった。
 - [SHION_A261 月面事業区の古文書研究者](/reference/backstories/mastery/SHION_A261.md) — 月面事業の公式記録は、最初から成功する予定だったように書かれていた。
 - [SHION_A262 封鎖観測地の監視射手](/reference/backstories/mastery/SHION_A262.md) — 封鎖地では、変色した草が風で揺れるたび照準を合わせた。
 - [SHION_A263 対機械戦区の徒手警護員](/reference/backstories/mastery/SHION_A263.md) — 対機械戦区では、避難者と飼育動物を武器なしで誘導した。
@@ -76,11 +84,3 @@
 - [SHION_A330 航路整備隊の星図引き](/reference/backstories/mastery/SHION_A330.md) — 星図というものが、完成すると思ったことがあるだろうか。
 - [SHION_A331 種苗管理班の発芽番](/reference/backstories/mastery/SHION_A331.md) — 種苗管理班の発芽番では、種苗管理班の仕事は地味だ。
 - [SHION_A332 入植地の屋根継ぎ](/reference/backstories/mastery/SHION_A332.md) — 入植地の屋根はどれも一度は雨漏りする、これは本人が最初に学んだことだった。
-- [SHION_A333 探査隊の縁境哨戒者](/reference/backstories/mastery/SHION_A333.md) — この星団の縁がどこにあるか、正確に答えられる者がいると思うか。
-- [SHION_A334 移住船団の百人料理番](/reference/backstories/mastery/SHION_A334.md) — 移住船団に同乗した外部居住者と、食文化へ参加するシオンの最初の百人分の食事を、限られた保存食だけで回していたのが本人だった。
-- [SHION_A335 甲板機関の整備工](/reference/backstories/mastery/SHION_A335.md) — 甲板機関の心臓部を止めず、文化的先達から継いだ工具と失敗記録を次の整備者へ渡した。
-- [SHION_A336 種子庫の女管理人](/reference/backstories/mastery/SHION_A336.md) — 指先の触覚センサーが不調になるほどの冷気が、種子庫の記憶そのものだ。
-- [SHION_A337 甲板食堂の調理人](/reference/backstories/mastery/SHION_A337.md) — 甲板食堂の調理人では、あたしは常夏の民文化の育ち。
-- [SHION_A338 居住区の家庭教師](/reference/backstories/mastery/SHION_A338.md) — 居住区で大河の民の言語と子守唄を教え、使う機会の少ない文化記憶を少数の継承者へ渡した。
-- [SHION_A339 甲板建築班の左官](/reference/backstories/mastery/SHION_A339.md) — 甲板建築班の左官では、わしが使うコテは三種類しかない。
-- [SHION_A340 航行記録班の観測員](/reference/backstories/mastery/SHION_A340.md) — 航行記録班の観測員では、観測手順は三段階だった。

@@ -1,9 +1,17 @@
 # stable 14
 
-範囲: SHION_C280 答えを伏せた護衛教室〜SHION_C359 今日から遡って話します
+範囲: SHION_C272 冗談の消えた祝い膳〜SHION_C351 あの区画の話はしません
 
 ## 項目
 
+- [SHION_C272 冗談の消えた祝い膳](/reference/backstories/formation/SHION_C272.md) — 非常令監視区で祝い膳を作っていた頃、最初に消えたのは食料でも音楽でもなく、小さな冗談だった。
+- [SHION_C273 武器を置いた手と種子](/reference/backstories/formation/SHION_C273.md) — 開戦前の残響域で、本人は故郷の種子を保管していました。
+- [SHION_C274 訓練所の無言の患者](/reference/backstories/formation/SHION_C274.md) — 内戦後の帝国機械化訓練所で、装備稼働率からこぼれ落ちた運搬動物の痛みと飼料不足を記録した。
+- [SHION_C275 皆の道具、一人の傷](/reference/backstories/formation/SHION_C275.md) — 相互扶助区の共有道具と義肢に残る個人の傷を消さず、次の使用者へ由来ごと渡した。
+- [SHION_C276 降下合図の舞台](/reference/backstories/formation/SHION_C276.md) — 空挺基地の舞台では、照明合図を降下時の捜索信号に合わせました。
+- [SHION_C277 答えない構造物との航路](/reference/backstories/formation/SHION_C277.md) — 無人構造物の調査船には、蘇生直後の仲間も乗っていました。
+- [SHION_C278 停止後の肉声会議](/reference/backstories/formation/SHION_C278.md) — 地下維持区の自動設備が止まり、通信まで黙った時、本人たちは通路で直接会議をしました。
+- [SHION_C279 無言の構造物読書会](/reference/backstories/formation/SHION_C279.md) — 調査船では、用途不明の構造物について古い報告を読む会を開きました。
 - [SHION_C280 答えを伏せた護衛教室](/reference/backstories/formation/SHION_C280.md) — 継承教室では、古い世代から射撃と護衛の手順を学びました。
 - [SHION_C281 鐘の夜の橋守り](/reference/backstories/formation/SHION_C281.md) — 革命連合の山岳連絡区で、本人は住民と荷役動物が渡る橋を守りました。
 - [SHION_C282 予測外の修繕班](/reference/backstories/formation/SHION_C282.md) — 長期予測院の修繕班では、遠い未来の交換計画まで表になっていました。
@@ -76,11 +84,3 @@
 - [SHION_C349 一番上手く歌えた](/reference/backstories/formation/SHION_C349.md) — 自慢していいなら言わせてもらうけど、あたしは詠唱教室で一番うまく歌えた子供だった。
 - [SHION_C350 師の言葉を借りて話します](/reference/backstories/formation/SHION_C350.md) — 本人自身の言葉より、師の言葉を借りて話す方が正確だと思います。
 - [SHION_C351 あの区画の話はしません](/reference/backstories/formation/SHION_C351.md) — あの区画の話はしませんでは、その区画で何があったかは話しません。
-- [SHION_C352 数え直すたびに一人減った](/reference/backstories/formation/SHION_C352.md) — 子供の頃、うちの継承図には七人の名前がありました。
-- [SHION_C353 建国世代と呼ばないでほしい](/reference/backstories/formation/SHION_C353.md) — 俺のことを「建国世代」って呼ぶ奴がいるが、それは違う。
-- [SHION_C354 律法学舎の写本刀](/reference/backstories/formation/SHION_C354.md) — 律法学舎で、文字線を一定に削り出す写本刀の研ぎ方と刃角を厳しく学んだ。
-- [SHION_C355 帝国とは何かと聞かれて](/reference/backstories/formation/SHION_C355.md) — 帝国とは何か、と聞かれても本人にはうまく説明できません。
-- [SHION_C356 秩序は毎朝作り直すもの](/reference/backstories/formation/SHION_C356.md) — 自分は秩序維持隊の分隊に十三歳から補助として加わりました。
-- [SHION_C357 この話は書き残してほしい](/reference/backstories/formation/SHION_C357.md) — この話は書き残してほしいでは、一つ、はっきりお願いしておきたいことがあります。
-- [SHION_C358 帝国最初の落第兵](/reference/backstories/formation/SHION_C358.md) — うちは多分、成立したての帝国で最初に隊列を乱した子供の一人だと思う。
-- [SHION_C359 今日から遡って話します](/reference/backstories/formation/SHION_C359.md) — 今日から遡って話しますでは、今日から遡って話しましょう。

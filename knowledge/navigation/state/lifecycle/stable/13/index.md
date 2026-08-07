@@ -1,9 +1,17 @@
 # stable 13
 
-範囲: SHION_C200 立入制限地の遠征食〜SHION_C279 無言の構造物読書会
+範囲: SHION_C192 相互扶助区の共同壁画〜SHION_C271 英雄のいない地下救助
 
 ## 項目
 
+- [SHION_C192 相互扶助区の共同壁画](/reference/backstories/formation/SHION_C192.md) — 相互扶助区の共同壁画へ、共同所有物に残る個人の握り傷と複数の証言を描いた。
+- [SHION_C193 相互扶助区の救護当番](/reference/backstories/formation/SHION_C193.md) — 相互扶助区の事故で「これは誰の設備だ」と聞いても、皆の物だとしか返らない。
+- [SHION_C194 移動都市の再会案内](/reference/backstories/formation/SHION_C194.md) — 移動都市の再会案内では、移動都市の地図は、再会相手ごとに違いました。
+- [SHION_C195 ヘイハルKombinatの旧工程読書会](/reference/backstories/formation/SHION_C195.md) — 古文書と言っても、本人たちが読んだのは旧式Kombinatの工程書である。
+- [SHION_C196 相互扶助区の共同射場](/reference/backstories/formation/SHION_C196.md) — 相互扶助区の共同射場では、射場の銃は皆の物だった。
+- [SHION_C197 要塞潜入路の搬出実習](/reference/backstories/formation/SHION_C197.md) — 要塞潜入路の搬出実習では、要塞の正面を破る案は立派だった。
+- [SHION_C198 特殊任務学校の退避棟実習](/reference/backstories/formation/SHION_C198.md) — 特殊任務学校で、本人は帰還者と保護対象が休む退避棟を組みました。
+- [SHION_C199 共同祝宴堂の食材採掘](/reference/backstories/formation/SHION_C199.md) — 祝宴堂の食材には、岩塩や鉱物性の香料もありました。
 - [SHION_C200 立入制限地の遠征食](/reference/backstories/formation/SHION_C200.md) — 立入制限地へ持ち込む歓待・救援用の遠征食は、帰還予定日より長く保存できるよう作った。
 - [SHION_C201 開戦前残響域の停戦菜園](/reference/backstories/formation/SHION_C201.md) — 残響域では、戦争を止められたかもしれない瞬間が何度も再現されました。
 - [SHION_C202 帝国書庫塔の動物診療](/reference/backstories/formation/SHION_C202.md) — 帝国書庫塔の診療室で、動物の歩幅・耳・呼吸を観察し、事実と痛みの推測を分けて記録した。
@@ -76,11 +84,3 @@
 - [SHION_C269 機械音の消えた救出](/reference/backstories/formation/SHION_C269.md) — 地下維持区で自動設備が止まると、街から機械音が消えました。
 - [SHION_C270 騎士学校の古橋実習](/reference/backstories/formation/SHION_C270.md) — 最盛期の騎士学校では、空挺演習より先に古い橋を直しました。
 - [SHION_C271 英雄のいない地下救助](/reference/backstories/formation/SHION_C271.md) — 内戦後の帝国要塞で崩落が起きた時、公式命令は重要区画の保全を優先しました。
-- [SHION_C272 冗談の消えた祝い膳](/reference/backstories/formation/SHION_C272.md) — 非常令監視区で祝い膳を作っていた頃、最初に消えたのは食料でも音楽でもなく、小さな冗談だった。
-- [SHION_C273 武器を置いた手と種子](/reference/backstories/formation/SHION_C273.md) — 開戦前の残響域で、本人は故郷の種子を保管していました。
-- [SHION_C274 訓練所の無言の患者](/reference/backstories/formation/SHION_C274.md) — 内戦後の帝国機械化訓練所で、装備稼働率からこぼれ落ちた運搬動物の痛みと飼料不足を記録した。
-- [SHION_C275 皆の道具、一人の傷](/reference/backstories/formation/SHION_C275.md) — 相互扶助区の共有道具と義肢に残る個人の傷を消さず、次の使用者へ由来ごと渡した。
-- [SHION_C276 降下合図の舞台](/reference/backstories/formation/SHION_C276.md) — 空挺基地の舞台では、照明合図を降下時の捜索信号に合わせました。
-- [SHION_C277 答えない構造物との航路](/reference/backstories/formation/SHION_C277.md) — 無人構造物の調査船には、蘇生直後の仲間も乗っていました。
-- [SHION_C278 停止後の肉声会議](/reference/backstories/formation/SHION_C278.md) — 地下維持区の自動設備が止まり、通信まで黙った時、本人たちは通路で直接会議をしました。
-- [SHION_C279 無言の構造物読書会](/reference/backstories/formation/SHION_C279.md) — 調査船では、用途不明の構造物について古い報告を読む会を開きました。

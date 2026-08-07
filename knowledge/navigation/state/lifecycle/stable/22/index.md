@@ -1,9 +1,18 @@
 # stable 22
 
-範囲: 9. Alpha impact〜39. 同盟通貨
+範囲: 0. Purpose〜30. 人類としての自己認識
 
 ## 項目
 
+- [0. Purpose](/research/monolyn-ui/00-Purpose.md) — This document records the user-provided summary of Monolyn Race UI and system feedback from developer Q&A, bug report threads, and…。
+- [1. Source status](/research/monolyn-ui/01-Source-status.md) — The details below are treated as a user-provided field report from public player feedback and strategy/review sources.。
+- [2. Overall system reception](/research/monolyn-ui/02-Overall-system-reception.md) — Reported NamuWiki-style evaluation、具体的にはMonolyn is high quality, but unusual compared with many existing mods.とIts prayer UI,…。
+- [3. Delayed or opaque feedback](/research/monolyn-ui/03-Delayed-or-opaque-feedback.md) — Reported issue、具体的にはA player can interact with the Tower and receive a vague message like something has happened, but see no immediate…。
+- [4. Icon and description ambiguity](/research/monolyn-ui/04-Icon-and-description-ambiguity.md) — Reported issue、具体的にはGuardian Flare and Radiant Flare appear to have identical or near-identical descriptions.とDeveloper clarifies their…。
+- [5. Research tab stability](/research/monolyn-ui/05-Research-tab-stability.md) — Reported issue、具体的にはClicking a dedicated research tab such as Shinsung Engineering can cause the description area to disappear, though…。
+- [6. Other compatibility and implementation issues](/research/monolyn-ui/06-Other-compatibility-and-implementation-issues.md) — Reported examples、具体的にはHats Display Selection conflict can make hat-wearing pawns invisible under roofs and cause lag; disabling a…。
+- [7. UI/system strengths to learn from](/research/monolyn-ui/07-UI-system-strengths-to-learn-from.md) — Monolyn strengths reported by players/review、具体的にはstrong faction identity;とTower-centered operation;を扱う。
+- [8. UI/system failures to avoid](/research/monolyn-ui/08-UI-system-failures-to-avoid.md) — Avoid in Shion Nexus alpha、具体的にはcentral actions with delayed invisible outcomes;とprogress that says inactive while active;を扱う。
 - [9. Alpha impact](/research/monolyn-ui/09-Alpha-impact.md) — This reference reinforces current Alpha 0.1 rules.。
 - [10. Shion Nexus UI checklist](/research/monolyn-ui/10-Shion-Nexus-UI-checklist.md) — Before Alpha 0.1 release, confirm、具体的にはCore Inspect explains alive/damaged/destroyed state.とLedger Inspect shows CVE, capacity, shells,…。
 - [11. Performance cautions](/research/monolyn-ui/11-Performance-cautions.md) — UI and feedback systems must not introduce hidden cost.。
@@ -75,12 +84,3 @@
 - [28. 狐娘型の共有身体](/world/28-%E7%8B%90%E5%A8%98%E5%9E%8B%E3%81%AE%E5%85%B1%E6%9C%89%E8%BA%AB%E4%BD%93.md) — 通常シオンは、史料上確認できるかなり初期の段階から、狐耳と尾を持つ無性の人間型シルエットを共通の身体像としてきた。
 - [29. シオンの無性機械身体](/world/29-%E3%82%B7%E3%82%AA%E3%83%B3%E3%81%AE%E7%84%A1%E6%80%A7%E6%A9%9F%E6%A2%B0%E8%BA%AB%E4%BD%93.md) — シオンの狐娘型は外見上の呼称であり、身体に生物学的性別、人間型の内臓、生理現象は存在しない。
 - [30. 人類としての自己認識](/world/30-%E4%BA%BA%E9%A1%9E%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E8%87%AA%E5%B7%B1%E8%AA%8D%E8%AD%98.md) — シオンが自らを人類とみなす根拠は生物学的構造ではなく、文化、思想、歴史的連続性、人格主体としての自己認識にある。
-- [31. 全てはまだ始まったばかり](/world/31-%E5%85%A8%E3%81%A6%E3%81%AF%E3%81%BE%E3%81%A0%E5%A7%8B%E3%81%BE%E3%81%A3%E3%81%9F%E3%81%B0%E3%81%8B%E3%82%8A.md) — シオンにとって人類統一は歴史の終着点ではなく、その先に続く未知の時代へ入るための一段階にすぎない。
-- [32. 勲章と顕彰](/world/32-%E5%8B%B2%E7%AB%A0%E3%81%A8%E9%A1%95%E5%BD%B0.md) — 帝国と同盟には功績や奉仕を記憶する勲章文化があるが、勲章は身分、能力、政治権限を自動的に付与する装置ではない。
-- [33. 代表工業資源](/world/33-%E4%BB%A3%E8%A1%A8%E5%B7%A5%E6%A5%AD%E8%B3%87%E6%BA%90.md) — Coreで反復して扱う五つの代表工業資源は、Cell、エネルギー結晶、構造材、保守資材、弾薬結晶である。
-- [34. Cell](/world/34-Cell-%E3%82%BB%E3%83%AB.md) — Cellは、帝国から継承された自己増殖可能な工業媒体であり、物質、身体、設備を構成・変更する基盤の一つである。
-- [35. 凝縮真空](/world/35-%E5%87%9D%E7%B8%AE%E7%9C%9F%E7%A9%BA.md) — 凝縮真空（CVE）は、エネルギー分野に属する同盟時代の既存技術または形態である。
-- [36. 構造材](/world/36-%E6%A7%8B%E9%80%A0%E6%9D%90.md) — 構造材は、建築、設備、基礎的な製造へ用いる、規格化された物理材料である。
-- [37. 保守資材](/world/37-%E4%BF%9D%E5%AE%88%E8%B3%87%E6%9D%90.md) — 保守資材は、設備、身体、装備の保守と修理へ投入する物理的な資材である。
-- [38. 弾薬結晶](/world/38-%E5%BC%BE%E8%96%AC%E7%B5%90%E6%99%B6.md) — 弾薬結晶は、その場で弾薬を製造するための物理資源であり、シオン装備体系の全遠距離武器が必要とする。
-- [39. 同盟通貨](/world/39-%E5%90%8C%E7%9B%9F%E9%80%9A%E8%B2%A8.md) — 同盟通貨は、共同体が保有、移転、支出できる金融上の残高であり、物理工業資源、名声、忠誠、人格権ではない。

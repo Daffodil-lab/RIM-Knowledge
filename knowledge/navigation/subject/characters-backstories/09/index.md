@@ -1,9 +1,12 @@
 # 人物・バックストーリー 09
 
-範囲: SHION_A139 装甲救援隊の蘇生後療養医〜SHION_A218 封鎖観測地の祝宴料理人
+範囲: SHION_A136 離散船団の保護区飼育員〜SHION_A215 共同祝宴堂の会場警護員
 
 ## 項目
 
+- [SHION_A136 離散船団の保護区飼育員](/reference/backstories/mastery/SHION_A136.md) — 離散船団の保護区には、いくつもの故郷から動物が集まりました。
+- [SHION_A137 制裁作戦監査室の精密工](/reference/backstories/mastery/SHION_A137.md) — 制裁部隊の装備を監査しながら、技術大会の審判もしました。
+- [SHION_A138 透明居住区の公共壁画家](/reference/backstories/mastery/SHION_A138.md) — 透明居住区では、記録も壁も隠さないことが美徳だった。
 - [SHION_A139 装甲救援隊の蘇生後療養医](/reference/backstories/mastery/SHION_A139.md) — 装甲救援隊で、蘇生者が自ら退路を歩き、再会相手を選べるまで療養を支えた。
 - [SHION_A140 継承教室の公共案内官](/reference/backstories/mastery/SHION_A140.md) — 継承教室では来訪者を席へ案内し、古い世代の教師とつなぎました。
 - [SHION_A141 対機械戦区の記録官](/reference/backstories/mastery/SHION_A141.md) — 対機械戦区の記録官では、対機械戦区で記録を担当しました。
@@ -81,6 +84,3 @@
 - [SHION_A213 戦術教育環の古文書研究者](/reference/backstories/mastery/SHION_A213.md) — 戦術教育環では、勝った側の記録だけを教材にする習慣があった。
 - [SHION_A214 計画都市の射撃教官](/reference/backstories/mastery/SHION_A214.md) — 計画都市の訓練場は、何もかも完璧な位置に置かれていた。
 - [SHION_A215 共同祝宴堂の会場警護員](/reference/backstories/mastery/SHION_A215.md) — 共同祝宴堂で武器を使わず衝突を止め、食事を必要としない者も同じ卓へ迎える会場を守った。
-- [SHION_A216 非常令監視区の設備技師](/reference/backstories/mastery/SHION_A216.md) — 非常令が出た時、最初に変わったのは大きな法律ではなかった。
-- [SHION_A217 残響深層の資源測量士](/reference/backstories/mastery/SHION_A217.md) — 残響深層で再現された戦場を測量し、英雄像ではなく実際に迷った救難路を地図へ残した。
-- [SHION_A218 封鎖観測地の祝宴料理人](/reference/backstories/mastery/SHION_A218.md) — 封鎖観測地の祝宴では、戻った者と戻らなかった者の皿を同じ卓へ置いた。

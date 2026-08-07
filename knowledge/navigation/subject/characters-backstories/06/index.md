@@ -1,9 +1,12 @@
 # 人物・バックストーリー 06
 
-範囲: SHION_C318 石に彫った順番表〜SHION_C397 織物工房の糸くず
+範囲: SHION_C315 次に渡す配合表〜SHION_C394 地質調査隊の岩標本
 
 ## 項目
 
+- [SHION_C315 次に渡す配合表](/reference/backstories/formation/SHION_C315.md) — 種子船で目的地の土に合わなかった品種と配合も、次の船団が失敗の続きから始められるよう残した。
+- [SHION_C316 名もなき開墾の手](/reference/backstories/formation/SHION_C316.md) — 最初の入植地を切り開いたのは英雄的な少人数だった、とよく言われますが違います。
+- [SHION_C317 傷を測る力](/reference/backstories/formation/SHION_C317.md) — 傷を測る力では、傷口を洗う水の冷たさから話を始めます。
 - [SHION_C318 石に彫った順番表](/reference/backstories/formation/SHION_C318.md) — 灌漑隊で配水順を石へ刻み、涸れた川を感傷ではなく反復測量と水路修繕で戻した。
 - [SHION_C319 六段目の岩棚](/reference/backstories/formation/SHION_C319.md) — 地質調査隊で岩石標本を数え、独自基準で六段目の棚を分類し続けた。
 - [SHION_C320 曲がらない杭](/reference/backstories/formation/SHION_C320.md) — 港湾建設隊の見習いとして潮位と木材の反りを読み、百十四本の杭を一本も傾けず打った。
@@ -81,6 +84,3 @@
 - [SHION_C392 建設隊の釘拾い](/reference/backstories/formation/SHION_C392.md) — 落ちた釘を拾うだけの仕事だったよ、特に語ることもない。
 - [SHION_C393 給水塔の子](/reference/backstories/formation/SHION_C393.md) — 育ての親が働く給水塔の下で形成期を過ごし、水音と塔の影を覚えている。
 - [SHION_C394 地質調査隊の岩標本](/reference/backstories/formation/SHION_C394.md) — 地質調査隊の先達が残した五段の標本箱で、未知の石を入れる最後の段を埋めた。
-- [SHION_C395 森林造成隊の苗運び](/reference/backstories/formation/SHION_C395.md) — 森林造成隊の苗運びでは、木を植えるのに一番大事なことって何だと思う。
-- [SHION_C396 気象観測所の風読み](/reference/backstories/formation/SHION_C396.md) — 気圧計の針は一時間で二目盛り動けば嵐が来る合図だった。
-- [SHION_C397 織物工房の糸くず](/reference/backstories/formation/SHION_C397.md) — 誤解しないでほしいんだけど、本人は織物が下手だったわけじゃない。

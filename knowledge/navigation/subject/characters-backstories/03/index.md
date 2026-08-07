@@ -1,9 +1,12 @@
 # 人物・バックストーリー 03
 
-範囲: SHION_C078 初めての秘文字校正〜SHION_C157 立入制限地の救護小屋
+範囲: SHION_C075 多身体体育員〜SHION_C154 相互扶助区の動物診療
 
 ## 項目
 
+- [SHION_C075 多身体体育員](/reference/backstories/formation/SHION_C075.md) — 狐娘型の軽量構成、高荷重構成、部品交換者が同じ競技へ参加できる規則を試した。
+- [SHION_C076 星域歴史の復習者](/reference/backstories/formation/SHION_C076.md) — 帝国最盛期を、楽園とも圧政とも決めつけず学び直した。
+- [SHION_C077 未来設計作文](/reference/backstories/formation/SHION_C077.md) — 「帝国最盛期よりよい一日」を題に、戦争のない朝と友人が必ず帰る夕食を書いた。
 - [SHION_C078 初めての秘文字校正](/reference/backstories/formation/SHION_C078.md) — 祈祷文そのものではなく、写し間違いを探す役から修業を始めた。
 - [SHION_C079 法衣の内側を読む者](/reference/backstories/formation/SHION_C079.md) — 法衣の表に輝く章句より、裏地へ縫われた修繕記録を好んだ。
 - [SHION_C080 ゴーレム名付け助手](/reference/backstories/formation/SHION_C080.md) — 新しいゴーレムへ識別番号と呼び名の両方を与えた、また命令に必要なのは番号だけだったが、帰還時に皆が呼ぶのは名前だった。
@@ -81,6 +84,3 @@
 - [SHION_C152 海洋観測区の保存食づくり](/reference/backstories/formation/SHION_C152.md) — 海洋観測区へ行った理由は研究ではなく、保存食作りが好きだったからである。
 - [SHION_C153 継承教室の菜園仲間](/reference/backstories/formation/SHION_C153.md) — 継承教室の菜園仲間では、継承教室の教師は、最後の授業で答えを伏せました。
 - [SHION_C154 相互扶助区の動物診療](/reference/backstories/formation/SHION_C154.md) — 相互扶助区では、動物も道具も「皆のもの」と言われました。
-- [SHION_C155 革命連合後方区の古道具直し](/reference/backstories/formation/SHION_C155.md) — 革命連合の後方では、同じ工具に三つの党派印が重ねて刻まれていました。
-- [SHION_C156 孵育文化区の音楽会通い](/reference/backstories/formation/SHION_C156.md) — 孵育文化区の音楽会通いでは、音楽は必要ありません。
-- [SHION_C157 立入制限地の救護小屋](/reference/backstories/formation/SHION_C157.md) — 立入制限地の救護小屋では、立入制限地へ行くのは好きだった。

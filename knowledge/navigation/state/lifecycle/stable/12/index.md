@@ -1,9 +1,17 @@
 # stable 12
 
-範囲: SHION_C120 山岳連絡区の追悼劇〜SHION_C199 共同祝宴堂の食材採掘
+範囲: SHION_C112 水没観測所の射撃課程〜SHION_C191 非常令監視区の修理会
 
 ## 項目
 
+- [SHION_C112 水没観測所の射撃課程](/reference/backstories/formation/SHION_C112.md) — 水没観測所の射場は、標的より水面を見ている時間の方が長かった。
+- [SHION_C113 塔域の救出遊戯](/reference/backstories/formation/SHION_C113.md) — 塔の狭い保守路から人形を静かに運び出し、全員の帰還を数える救出遊戯を競った。
+- [SHION_C114 帝国共同住宅跡の補修助手](/reference/backstories/formation/SHION_C114.md) — 帝国共同住宅跡の補修助手では、共同住宅は整然としていました。
+- [SHION_C115 移動都市群の資源調査](/reference/backstories/formation/SHION_C115.md) — 移動都市の地下は、停泊するたび別の地面へ接続します。
+- [SHION_C116 戦術教育環の食堂育ち](/reference/backstories/formation/SHION_C116.md) — 戦術教育環の食堂で、演習の勝敗より帰還後の空席を数える視点を身につけた。
+- [SHION_C117 塔域種子庫の記録助手](/reference/backstories/formation/SHION_C117.md) — 種子袋には故郷の名、採取日、発芽条件を三度書きました。
+- [SHION_C118 長期予測院の動物診療助手](/reference/backstories/formation/SHION_C118.md) — 長期予測院の動物診療助手では、長期予測院の端に、小さな動物診療室がありました。
+- [SHION_C119 装甲救援隊の工具係](/reference/backstories/formation/SHION_C119.md) — 装甲救援隊の工具係では、装甲は勇敢さの証ではありません。
 - [SHION_C120 山岳連絡区の追悼劇](/reference/backstories/formation/SHION_C120.md) — 山岳連絡区では、橋を守った者たちの話を舞台にしました。
 - [SHION_C121 幸福都市を去った診療助手](/reference/backstories/formation/SHION_C121.md) — 幸福都市を去った診療助手では、幸福都市は本当に美しかった。
 - [SHION_C122 塔域の再会受付](/reference/backstories/formation/SHION_C122.md) — 塔域の再会受付で、記憶欠落、複製後の差、不在時間を歓迎より先に説明した。
@@ -76,11 +84,3 @@
 - [SHION_C189 封鎖観測地の種子監視](/reference/backstories/formation/SHION_C189.md) — 封鎖地の種は、色が変わっただけで処分を求められました。
 - [SHION_C190 帝国自治会跡の老獣番](/reference/backstories/formation/SHION_C190.md) — 自治会が解散した後も、役目を終えた動物だけは建物に残りました。
 - [SHION_C191 非常令監視区の修理会](/reference/backstories/formation/SHION_C191.md) — 非常令が出た時、最初に禁止されたのは武器ではなく、修理票の余白に書く冗談だった。
-- [SHION_C192 相互扶助区の共同壁画](/reference/backstories/formation/SHION_C192.md) — 相互扶助区の共同壁画へ、共同所有物に残る個人の握り傷と複数の証言を描いた。
-- [SHION_C193 相互扶助区の救護当番](/reference/backstories/formation/SHION_C193.md) — 相互扶助区の事故で「これは誰の設備だ」と聞いても、皆の物だとしか返らない。
-- [SHION_C194 移動都市の再会案内](/reference/backstories/formation/SHION_C194.md) — 移動都市の再会案内では、移動都市の地図は、再会相手ごとに違いました。
-- [SHION_C195 ヘイハルKombinatの旧工程読書会](/reference/backstories/formation/SHION_C195.md) — 古文書と言っても、本人たちが読んだのは旧式Kombinatの工程書である。
-- [SHION_C196 相互扶助区の共同射場](/reference/backstories/formation/SHION_C196.md) — 相互扶助区の共同射場では、射場の銃は皆の物だった。
-- [SHION_C197 要塞潜入路の搬出実習](/reference/backstories/formation/SHION_C197.md) — 要塞潜入路の搬出実習では、要塞の正面を破る案は立派だった。
-- [SHION_C198 特殊任務学校の退避棟実習](/reference/backstories/formation/SHION_C198.md) — 特殊任務学校で、本人は帰還者と保護対象が休む退避棟を組みました。
-- [SHION_C199 共同祝宴堂の食材採掘](/reference/backstories/formation/SHION_C199.md) — 祝宴堂の食材には、岩塩や鉱物性の香料もありました。

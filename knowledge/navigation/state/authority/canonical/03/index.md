@@ -1,9 +1,10 @@
 # canonical 03
 
-範囲: INT-006 上流欠陥〜INT-002 三主題の維持
+範囲: INT-005 接続不能〜INT-001 Production Adapter
 
 ## 項目
 
+- [INT-005 接続不能](/kombinat/requirements/int-005-%E6%8E%A5%E7%B6%9A%E4%B8%8D%E8%83%BD.md) — MUST: Core独自Storageから供給または回収できない場合、Jobを転送待ちへ置く。
 - [INT-006 上流欠陥](/kombinat/requirements/int-006-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5.md) — MUST: Core独自保管基盤単体で再現する問題と、Kombinat接続だけで再現する問題を分離する。
 - [PERF-001 Event駆動](/kombinat/requirements/perf-001-%E9%A7%86%E5%8B%95.md) — MUST: Queue、Factory、Buffer、Accountの変化をeventで処理し、定常処理を索引と有界Queueから実行する。
 - [PERF-002 Planner](/kombinat/requirements/perf-002-%E8%A6%81%E4%BB%B6.md) — MUST: 一Planを最大200 node、100 ms以内、または一frame 4 ms以下の分割処理で終える暫定目標を持つ。
@@ -83,4 +84,3 @@
 - [GEN-007 反復可能性](/pawn/gen-007-%E5%8F%8D%E5%BE%A9%E5%8F%AF%E8%83%BD%E6%80%A7.md) — MUST: 通常Pawnの生産へ一回限りのWorld Unique資源、有限許可回数、消滅する原型を要求しない。
 - [GEN-008 Repeat Order](/pawn/gen-008-%E8%A6%81%E4%BB%B6.md) — MUST: 適合条件、Design、Registered IndividualのCloneを数量指定または目標活動数で反復生産できる。
 - [INT-001 Production Adapter](/pawn/int-001-%E8%A6%81%E4%BB%B6.md) — MUST: Pawn FoundryはBody、Module、装備、消耗品をKombinat Production Requestとして発注できる。
-- [INT-002 三主題の維持](/pawn/int-002-%E4%B8%89%E4%B8%BB%E9%A1%8C%E3%81%AE%E7%B6%AD%E6%8C%81.md) — MUST: Kombinat側ではPawn要求を生産対象、Pawn需要を消費予測、Foundryへの引渡しを流通として表示する。

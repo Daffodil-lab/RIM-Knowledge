@@ -1,9 +1,17 @@
 # stable 21
 
-範囲: 0. Purpose〜8. UI/system failures to avoid
+範囲: SHION_A413 律法学舎の若きソフェル〜13. Source links recorded by user
 
 ## 項目
 
+- [SHION_A413 律法学舎の若きソフェル](/reference/backstories/mastery/SHION_A413.md) — 律法の写本を任されるようになったのは、灯火番だった頃から数えて十年目のことである。
+- [SHION_A414 港湾都市の造船匠](/reference/backstories/mastery/SHION_A414.md) — わしが最初に組んだ竜骨は、今も外港に係留されたまま現役で使われとる。
+- [SHION_A415 種Cell研究所の培養手](/reference/backstories/mastery/SHION_A415.md) — 種Cellの増殖速度は、与える鉄の純度でわずかに変わります。
+- [SHION_A416 イェツィラー学舎のマソレット講師](/reference/backstories/mastery/SHION_A416.md) — 本人が弟子に最初に教えるのは、文字の書き方ではなく、書き損じた紙を燃やす作法である。
+- [SHION_A417 サイキック適性検査局の検査官](/reference/backstories/mastery/SHION_A417.md) — 幼い頃、自分の針がほとんど振れなかったことを、本人はこの仕事に就いてから何度も思い出しました。
+- [SHION_A418 帝国拡張艦隊の航宙士](/reference/backstories/mastery/SHION_A418.md) — 格納庫で拾った工具の名前を全部覚えていたのが、今の仕事の始まりだったのかもしれません。
+- [SHION_A419 秘文字工房の彫り師](/reference/backstories/mastery/SHION_A419.md) — うちが挽いた顔料で書いた文字が光った日から、もう長い年月が経つ。
+- [旧Matter Network統合検討](/reference/matter-network/00-%E6%97%A7%E7%B5%B1%E5%90%88%E6%A4%9C%E8%A8%8E.md) — Matter Network統合検討は終了した過去案件であり、判断経緯を探すための参考入口だけを保持する。
 - [0. Purpose](/research/anomaly-monolith/00-Purpose.md) — This document records user-provided screenshots of RimWorld Anomaly-style monolith structures as a visual reference for the redesigned…。
 - [1. Why Anomaly monoliths are useful](/research/anomaly-monolith/01-Why-Anomaly-monoliths-are-useful.md) — Anomaly monolith visuals are useful because they communicate、具体的にはa unique central object;とdormant mystery;を扱う。
 - [2. What to adopt](/research/anomaly-monolith/02-What-to-adopt.md) — Adopt structurally、具体的にはone strong central block;とside supports or buttresses;を扱う。
@@ -61,6 +69,7 @@
 - [2. Arsenal Codexの直接交換から採るもの](/research/kombinat-ui-references/02-Arsenal-Codex%E3%81%AE%E7%9B%B4%E6%8E%A5%E4%BA%A4%E6%8F%9B%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — 接続保管庫からPawnへ直接装備し、現在装備を同じ取引で返す操作を、Coreの原子的武器交換の参照とする。
 - [3. DSUから採るUIと採らない実装](/research/kombinat-ui-references/03-DSU%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8BUI%E3%81%A8%E6%8E%A1%E3%82%89%E3%81%AA%E3%81%84%E5%AE%9F%E8%A3%85.md) — DSUの検索・任意排出・Pawnアクセスは参照するが、中央Mapセルへ内容物を集積する保管方式は採用しない。
 - [4. 要求中間素材作成の操作イメージ](/research/kombinat-ui-references/04-%E8%A6%81%E6%B1%82%E4%B8%AD%E9%96%93%E7%B4%A0%E6%9D%90%E4%BD%9C%E6%88%90%E3%81%AE%E6%93%8D%E4%BD%9C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8.md) — 在庫とRecipeを並べ、最終品の要求から不足中間品と総材料を確認する簡潔な操作モデルをKombinatへ適用する。
+- [0. 歩兵装備投資と作戦機動群の外部検証](/research/military-doctrine/00-%E6%AD%A9%E5%85%B5%E8%A3%85%E5%82%99%E6%8A%95%E8%B3%87%E3%81%A8%E4%BD%9C%E6%88%A6%E6%A9%9F%E5%8B%95%E7%BE%A4%E3%81%AE%E5%A4%96%E9%83%A8%E6%A4%9C%E8%A8%BC.md) — 作戦機動群と歩兵中心装備体系の外部比較を整理し、バルジの戦いのTNDM評価とStG 44による因果説明を分離する。
 - [0. Purpose](/research/monolyn-practice/00-Purpose.md) — This document records the user-provided summary of real player practice around Monolyn Race from Steam Workshop Q&A, Steam Workshop…。
 - [1. Source status](/research/monolyn-practice/01-Source-status.md) — The details below are treated as a user-provided field report from public player discussion and strategy notes.。
 - [2. Basic loop and onboarding problems](/research/monolyn-practice/02-Basic-loop-and-onboarding-problems.md) — Reported player issue、具体的にはPrayer is not handled as an ordinary Job.とPlayers assign Meditate through the Schedule tab.を扱う。
@@ -75,12 +84,3 @@
 - [11. Performance cautions](/research/monolyn-practice/11-Performance-cautions.md) — Avoid importing these patterns without hard limits、具体的にはschedule-driven labor loops that require many pawns;とunbounded resource demand…。
 - [12. Final lesson](/research/monolyn-practice/12-Final-lesson.md) — Monolyn is valuable because players actually build around its Tower, Light, baptism, and terminal systems.。
 - [13. Source links recorded by user](/research/monolyn-practice/13-Source-links-recorded-by-user.md) — Source links recorded by userは、Monolyn Race - Steam Workshop Q&A:…。
-- [0. Purpose](/research/monolyn-ui/00-Purpose.md) — This document records the user-provided summary of Monolyn Race UI and system feedback from developer Q&A, bug report threads, and…。
-- [1. Source status](/research/monolyn-ui/01-Source-status.md) — The details below are treated as a user-provided field report from public player feedback and strategy/review sources.。
-- [2. Overall system reception](/research/monolyn-ui/02-Overall-system-reception.md) — Reported NamuWiki-style evaluation、具体的にはMonolyn is high quality, but unusual compared with many existing mods.とIts prayer UI,…。
-- [3. Delayed or opaque feedback](/research/monolyn-ui/03-Delayed-or-opaque-feedback.md) — Reported issue、具体的にはA player can interact with the Tower and receive a vague message like something has happened, but see no immediate…。
-- [4. Icon and description ambiguity](/research/monolyn-ui/04-Icon-and-description-ambiguity.md) — Reported issue、具体的にはGuardian Flare and Radiant Flare appear to have identical or near-identical descriptions.とDeveloper clarifies their…。
-- [5. Research tab stability](/research/monolyn-ui/05-Research-tab-stability.md) — Reported issue、具体的にはClicking a dedicated research tab such as Shinsung Engineering can cause the description area to disappear, though…。
-- [6. Other compatibility and implementation issues](/research/monolyn-ui/06-Other-compatibility-and-implementation-issues.md) — Reported examples、具体的にはHats Display Selection conflict can make hat-wearing pawns invisible under roofs and cause lag; disabling a…。
-- [7. UI/system strengths to learn from](/research/monolyn-ui/07-UI-system-strengths-to-learn-from.md) — Monolyn strengths reported by players/review、具体的にはstrong faction identity;とTower-centered operation;を扱う。
-- [8. UI/system failures to avoid](/research/monolyn-ui/08-UI-system-failures-to-avoid.md) — Avoid in Shion Nexus alpha、具体的にはcentral actions with delayed invisible outcomes;とprogress that says inactive while active;を扱う。
