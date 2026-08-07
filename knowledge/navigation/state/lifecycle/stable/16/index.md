@@ -1,9 +1,11 @@
 # stable 16
 
-範囲: SHION_A013 書庫復元員〜SHION_A092 復活船団衛生長
+範囲: SHION_A011 気象観測主任〜SHION_A090 時間災害工兵
 
 ## 項目
 
+- [SHION_A011 気象観測主任](/reference/backstories/mastery/SHION_A011.md) — 農業観測所の主任として、雨、灰、毒霧、日照を測り、農家と居住区へ予報を伝えた。
+- [SHION_A012 彫刻採掘師](/reference/backstories/mastery/SHION_A012.md) — 岩を切り出す前に内部の模様、亀裂、材質を読み、建材に向く部分と彫刻へ使える部分を分ける採掘師となった。
 - [SHION_A013 書庫復元員](/reference/backstories/mastery/SHION_A013.md) — 焼けた頁、破損した記憶媒体、重複する索引から書庫を復元した。
 - [SHION_A014 多言語仲裁人](/reference/backstories/mastery/SHION_A014.md) — 言葉だけでなく、沈黙、贈答、席順、身振りの意味まで訳す仲裁人となった。
 - [SHION_A015 マソレット写字生](/reference/backstories/mastery/SHION_A015.md) — マソレットの写字生として、原文、異本、後世の注釈を区別して書き写した。
@@ -82,5 +84,3 @@
 - [SHION_A088 蘇生設備の巡回工](/reference/backstories/mastery/SHION_A088.md) — 小集落を巡り、使われないことを願われる蘇生設備を整備した。
 - [SHION_A089 孤行開拓測量士](/reference/backstories/mastery/SHION_A089.md) — 無人天体を一人で測り、未来の共同体が住める谷と掘ってはいけない墓域を地図へ分けた。
 - [SHION_A090 時間災害工兵](/reference/backstories/mastery/SHION_A090.md) — 崩壊する時間区画へ入り、まだ起きていない爆発の瓦礫から避難路を掘った。
-- [SHION_A091 同盟親衛射手](/reference/backstories/mastery/SHION_A091.md) — 遠距離射撃で避難路を守り、同族からも稀な精度を認められた。
-- [SHION_A092 復活船団衛生長](/reference/backstories/mastery/SHION_A092.md) — 避難船で死者の保存、負傷者の治療、蘇生後の再会を一つの医療計画として扱った。

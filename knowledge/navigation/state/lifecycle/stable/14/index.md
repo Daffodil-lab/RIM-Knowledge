@@ -1,9 +1,11 @@
 # stable 14
 
-範囲: SHION_C272 冗談の消えた祝い膳〜SHION_C351 あの区画の話はしません
+範囲: SHION_C270 騎士学校の古橋実習〜SHION_C349 一番上手く歌えた
 
 ## 項目
 
+- [SHION_C270 騎士学校の古橋実習](/reference/backstories/formation/SHION_C270.md) — 最盛期の騎士学校では、空挺演習より先に古い橋を直しました。
+- [SHION_C271 英雄のいない地下救助](/reference/backstories/formation/SHION_C271.md) — 内戦後の帝国要塞で崩落が起きた時、公式命令は重要区画の保全を優先しました。
 - [SHION_C272 冗談の消えた祝い膳](/reference/backstories/formation/SHION_C272.md) — 非常令監視区で祝い膳を作っていた頃、最初に消えたのは食料でも音楽でもなく、小さな冗談だった。
 - [SHION_C273 武器を置いた手と種子](/reference/backstories/formation/SHION_C273.md) — 開戦前の残響域で、本人は故郷の種子を保管していました。
 - [SHION_C274 訓練所の無言の患者](/reference/backstories/formation/SHION_C274.md) — 内戦後の帝国機械化訓練所で、装備稼働率からこぼれ落ちた運搬動物の痛みと飼料不足を記録した。
@@ -82,5 +84,3 @@
 - [SHION_C347 なぜ経文がないのか](/reference/backstories/formation/SHION_C347.md) — どうして決まった経文がないんだろう、って先生によく聞いていました。
 - [SHION_C348 三つの誤解を正しておく](/reference/backstories/formation/SHION_C348.md) — 帝国律法の清書に携わった経験を、起草者・信仰者・完成形の証人という三つの誤解から語り直す。
 - [SHION_C349 一番上手く歌えた](/reference/backstories/formation/SHION_C349.md) — 自慢していいなら言わせてもらうけど、あたしは詠唱教室で一番うまく歌えた子供だった。
-- [SHION_C350 師の言葉を借りて話します](/reference/backstories/formation/SHION_C350.md) — 本人自身の言葉より、師の言葉を借りて話す方が正確だと思います。
-- [SHION_C351 あの区画の話はしません](/reference/backstories/formation/SHION_C351.md) — あの区画の話はしませんでは、その区画で何があったかは話しません。

@@ -1,9 +1,11 @@
 # stable 12
 
-範囲: SHION_C112 水没観測所の射撃課程〜SHION_C191 非常令監視区の修理会
+範囲: SHION_C110 帝国安全研究院の案内係〜SHION_C189 封鎖観測地の種子監視
 
 ## 項目
 
+- [SHION_C110 帝国安全研究院の案内係](/reference/backstories/formation/SHION_C110.md) — 最盛期の研究院は、門が多い代わりに理由も説明しました。
+- [SHION_C111 巡礼船記録院の見習い](/reference/backstories/formation/SHION_C111.md) — 巡礼船の記録院では、事実を黒、推測を青、後世の注釈を金で書き分けました。
 - [SHION_C112 水没観測所の射撃課程](/reference/backstories/formation/SHION_C112.md) — 水没観測所の射場は、標的より水面を見ている時間の方が長かった。
 - [SHION_C113 塔域の救出遊戯](/reference/backstories/formation/SHION_C113.md) — 塔の狭い保守路から人形を静かに運び出し、全員の帰還を数える救出遊戯を競った。
 - [SHION_C114 帝国共同住宅跡の補修助手](/reference/backstories/formation/SHION_C114.md) — 帝国共同住宅跡の補修助手では、共同住宅は整然としていました。
@@ -82,5 +84,3 @@
 - [SHION_C187 地下灯祭の坑道飾り](/reference/backstories/formation/SHION_C187.md) — 地下灯祭では、坑道の亀裂へ灯りを置き、戻らなかった者の好きな形を壁へ彫りました。
 - [SHION_C188 装甲救援隊の帰還膳](/reference/backstories/formation/SHION_C188.md) — 装甲救援隊の帰還膳では、戻った者と戻らない者の器を同じ卓へ置きました。
 - [SHION_C189 封鎖観測地の種子監視](/reference/backstories/formation/SHION_C189.md) — 封鎖地の種は、色が変わっただけで処分を求められました。
-- [SHION_C190 帝国自治会跡の老獣番](/reference/backstories/formation/SHION_C190.md) — 自治会が解散した後も、役目を終えた動物だけは建物に残りました。
-- [SHION_C191 非常令監視区の修理会](/reference/backstories/formation/SHION_C191.md) — 非常令が出た時、最初に禁止されたのは武器ではなく、修理票の余白に書く冗談だった。

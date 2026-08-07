@@ -1,9 +1,11 @@
 # stable 17
 
-範囲: SHION_A093 帰還船団救命長〜SHION_A172 地下維持区の動物義肢技師
+範囲: SHION_A091 同盟親衛射手〜SHION_A170 海洋観測区の保存食職人
 
 ## 項目
 
+- [SHION_A091 同盟親衛射手](/reference/backstories/mastery/SHION_A091.md) — 遠距離射撃で避難路を守り、同族からも稀な精度を認められた。
+- [SHION_A092 復活船団衛生長](/reference/backstories/mastery/SHION_A092.md) — 避難船で死者の保存、負傷者の治療、蘇生後の再会を一つの医療計画として扱った。
 - [SHION_A093 帰還船団救命長](/reference/backstories/mastery/SHION_A093.md) — 時間嵐で分断された帰還船団を追い、蘇生設備へ届く前の救命で多数を帰した。
 - [SHION_A094 帝国平和復元派](/reference/backstories/mastery/SHION_A094.md) — 最盛期の律法、公共秩序、豊かな暮らしを研究し、内戦後の圧政と切り離して復元しようとした。
 - [SHION_A095 全人類平和統一派](/reference/backstories/mastery/SHION_A095.md) — 終わらない戦争と喪失に耐えかね、全人類を一つの秩序へ強制的に統合すれば最盛期以上の平和が得られると考えた。
@@ -82,5 +84,3 @@
 - [SHION_A168 継承教室の橋梁技師](/reference/backstories/mastery/SHION_A168.md) — 継承教室で古い橋の補修を学び、そのまま現場を任されました。
 - [SHION_A169 計画都市の地下救助員](/reference/backstories/mastery/SHION_A169.md) — 計画都市の地下救助員では、計画都市の図面は完璧だった。
 - [SHION_A170 海洋観測区の保存食職人](/reference/backstories/mastery/SHION_A170.md) — 海洋観測区の保存食職人では、海洋観測祭のため、航海者へ保存食を仕込みました。
-- [SHION_A171 空挺基地の種子管理官](/reference/backstories/mastery/SHION_A171.md) — 空挺基地で、故郷から運ばれた種子の来歴と分配を管理しました。
-- [SHION_A172 地下維持区の動物義肢技師](/reference/backstories/mastery/SHION_A172.md) — 地下維持区で動物義肢を作っていた時、自動設備が一斉に止まりました。

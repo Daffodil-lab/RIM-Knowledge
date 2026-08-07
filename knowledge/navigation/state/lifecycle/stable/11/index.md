@@ -1,9 +1,11 @@
 # stable 11
 
-範囲: SHION_C032 儀礼行列の補欠〜SHION_C111 巡礼船記録院の見習い
+範囲: SHION_C030 騎士従士〜SHION_C109 共同祝宴堂の救護助手
 
 ## 項目
 
+- [SHION_C030 騎士従士](/reference/backstories/formation/SHION_C030.md) — 帝国最盛期の騎士に仕え、武具の整備、訓練記録、儀礼と決闘の手順を学んだ。
+- [SHION_C031 無人書庫の管理役](/reference/backstories/formation/SHION_C031.md) — 帝国最盛期の無人書庫で、湿度、虫害、貸出記録、索引を管理した。
 - [SHION_C032 儀礼行列の補欠](/reference/backstories/formation/SHION_C032.md) — 帝国最盛期の式典で欠員を補い、儀礼槍を持って隊列へ加わった。
 - [SHION_C033 聖像研磨工](/reference/backstories/formation/SHION_C033.md) — 帝国最盛期の神殿工房で、石と金属の聖像を洗浄し、表面の傷を整えた。
 - [SHION_C034 星暦院の観測徒](/reference/backstories/formation/SHION_C034.md) — 帝国最盛期の星暦院で、観測窓の清掃、時刻の読み取り、軌道表への記入を担当した。
@@ -82,5 +84,3 @@
 - [SHION_C107 帰還兵港の工具係](/reference/backstories/formation/SHION_C107.md) — 帰還兵の工具は、握りを見ればいつの時代から来たか分かりました。
 - [SHION_C108 自治評議区の舞台競技者](/reference/backstories/formation/SHION_C108.md) — 自治評議区の追悼劇で、死者の名を読む前に観客を笑わせ、最後まで席に残す役を担った。
 - [SHION_C109 共同祝宴堂の救護助手](/reference/backstories/formation/SHION_C109.md) — 共同祝宴堂の救護卓で、感覚反応と不安を分けて聞き、避難扉の不良も見つけた。
-- [SHION_C110 帝国安全研究院の案内係](/reference/backstories/formation/SHION_C110.md) — 最盛期の研究院は、門が多い代わりに理由も説明しました。
-- [SHION_C111 巡礼船記録院の見習い](/reference/backstories/formation/SHION_C111.md) — 巡礼船の記録院では、事実を黒、推測を青、後世の注釈を金で書き分けました。

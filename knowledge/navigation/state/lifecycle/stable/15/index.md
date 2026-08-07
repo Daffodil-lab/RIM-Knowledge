@@ -1,9 +1,11 @@
 # stable 15
 
-範囲: SHION_C352 数え直すたびに一人減った〜SHION_A012 彫刻採掘師
+範囲: SHION_C350 師の言葉を借りて話します〜SHION_A010 葬送司会者
 
 ## 項目
 
+- [SHION_C350 師の言葉を借りて話します](/reference/backstories/formation/SHION_C350.md) — 本人自身の言葉より、師の言葉を借りて話す方が正確だと思います。
+- [SHION_C351 あの区画の話はしません](/reference/backstories/formation/SHION_C351.md) — あの区画の話はしませんでは、その区画で何があったかは話しません。
 - [SHION_C352 数え直すたびに一人減った](/reference/backstories/formation/SHION_C352.md) — 子供の頃、うちの継承図には七人の名前がありました。
 - [SHION_C353 建国世代と呼ばないでほしい](/reference/backstories/formation/SHION_C353.md) — 俺のことを「建国世代」って呼ぶ奴がいるが、それは違う。
 - [SHION_C354 律法学舎の写本刀](/reference/backstories/formation/SHION_C354.md) — 律法学舎で、文字線を一定に削り出す写本刀の研ぎ方と刃角を厳しく学んだ。
@@ -82,5 +84,3 @@
 - [SHION_A008 構造聴診士](/reference/backstories/mastery/SHION_A008.md) — 壁や梁へ聴音器を当て、配管の脈動、岩盤の小さな破断、固定具の緩みを診断する構造聴診士となった。
 - [SHION_A009 物資台帳官](/reference/backstories/mastery/SHION_A009.md) — 同盟補給局で、台帳上の在庫と現場が実際に使える物資の差を調べた。
 - [SHION_A010 葬送司会者](/reference/backstories/mastery/SHION_A010.md) — 宗派や党派の異なる遺族のため、葬送の順番、弔辞、音楽、食事を調整する司会者となった。
-- [SHION_A011 気象観測主任](/reference/backstories/mastery/SHION_A011.md) — 農業観測所の主任として、雨、灰、毒霧、日照を測り、農家と居住区へ予報を伝えた。
-- [SHION_A012 彫刻採掘師](/reference/backstories/mastery/SHION_A012.md) — 岩を切り出す前に内部の模様、亀裂、材質を読み、建材に向く部分と彫刻へ使える部分を分ける採掘師となった。

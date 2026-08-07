@@ -1,9 +1,11 @@
 # stable 19
 
-範囲: SHION_A253 残響深層の地下救助員〜SHION_A332 入植地の屋根継ぎ
+範囲: SHION_A251 後方支援庁の身体競技指導員〜SHION_A330 航路整備隊の星図引き
 
 ## 項目
 
+- [SHION_A251 後方支援庁の身体競技指導員](/reference/backstories/mastery/SHION_A251.md) — 後方支援庁で身体競技を教えると、遊んでいるように見られた。
+- [SHION_A252 帰還兵港の仮設建築士](/reference/backstories/mastery/SHION_A252.md) — 帰還兵港では、同じ日に出た二人がまるで違う年齢で戻る。
 - [SHION_A253 残響深層の地下救助員](/reference/backstories/mastery/SHION_A253.md) — 残響深層では、崩落した戦場が同じ瞬間を繰り返していた。
 - [SHION_A254 装甲救援隊の公共食堂の調理師](/reference/backstories/mastery/SHION_A254.md) — 装甲救援隊の食堂にいると、料理だけしていたとは思われない。
 - [SHION_A255 革命連合後方区の共同農園技師](/reference/backstories/mastery/SHION_A255.md) — 革命連合の後方農園には、社会民主党系も共産党系も帝国離反者も来た。
@@ -82,5 +84,3 @@
 - [SHION_A328 救難班の呼び出し手](/reference/backstories/mastery/SHION_A328.md) — 救難班の呼び出し手では、救難班にいた頃、合言葉は「声のする方へ」だった。
 - [SHION_A329 水利設計班の水割り師](/reference/backstories/mastery/SHION_A329.md) — 水利設計班の花形と呼ばれたことがある、皮肉なことに、それは水路の半分が最初の年に凍結で割れた後のことだった。
 - [SHION_A330 航路整備隊の星図引き](/reference/backstories/mastery/SHION_A330.md) — 星図というものが、完成すると思ったことがあるだろうか。
-- [SHION_A331 種苗管理班の発芽番](/reference/backstories/mastery/SHION_A331.md) — 種苗管理班の発芽番では、種苗管理班の仕事は地味だ。
-- [SHION_A332 入植地の屋根継ぎ](/reference/backstories/mastery/SHION_A332.md) — 入植地の屋根はどれも一度は雨漏りする、これは本人が最初に学んだことだった。
