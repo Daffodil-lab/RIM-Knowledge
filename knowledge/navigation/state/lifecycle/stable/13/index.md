@@ -1,9 +1,11 @@
 # stable 13
 
-範囲: SHION_C192 相互扶助区の共同壁画〜SHION_C271 英雄のいない地下救助
+範囲: SHION_C190 帝国自治会跡の老獣番〜SHION_C269 機械音の消えた救出
 
 ## 項目
 
+- [SHION_C190 帝国自治会跡の老獣番](/reference/backstories/formation/SHION_C190.md) — 自治会が解散した後も、役目を終えた動物だけは建物に残りました。
+- [SHION_C191 非常令監視区の修理会](/reference/backstories/formation/SHION_C191.md) — 非常令が出た時、最初に禁止されたのは武器ではなく、修理票の余白に書く冗談だった。
 - [SHION_C192 相互扶助区の共同壁画](/reference/backstories/formation/SHION_C192.md) — 相互扶助区の共同壁画へ、共同所有物に残る個人の握り傷と複数の証言を描いた。
 - [SHION_C193 相互扶助区の救護当番](/reference/backstories/formation/SHION_C193.md) — 相互扶助区の事故で「これは誰の設備だ」と聞いても、皆の物だとしか返らない。
 - [SHION_C194 移動都市の再会案内](/reference/backstories/formation/SHION_C194.md) — 移動都市の再会案内では、移動都市の地図は、再会相手ごとに違いました。
@@ -82,5 +84,3 @@
 - [SHION_C267 塔の三色記録帳](/reference/backstories/formation/SHION_C267.md) — 塔の記録院で、本人は事実を黒、推測を青、後世の注釈を赤で書き分けました。
 - [SHION_C268 盾の内側の息](/reference/backstories/formation/SHION_C268.md) — 装甲救援隊の射場で、本人は命中数より射線を塞ぐ位置を習いました。
 - [SHION_C269 機械音の消えた救出](/reference/backstories/formation/SHION_C269.md) — 地下維持区で自動設備が止まると、街から機械音が消えました。
-- [SHION_C270 騎士学校の古橋実習](/reference/backstories/formation/SHION_C270.md) — 最盛期の騎士学校では、空挺演習より先に古い橋を直しました。
-- [SHION_C271 英雄のいない地下救助](/reference/backstories/formation/SHION_C271.md) — 内戦後の帝国要塞で崩落が起きた時、公式命令は重要区画の保全を優先しました。

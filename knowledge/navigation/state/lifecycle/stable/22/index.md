@@ -1,9 +1,12 @@
 # stable 22
 
-範囲: 0. Purpose〜30. 人類としての自己認識
+範囲: 11. Performance cautions〜27. 遠征共同体の野心と産業化
 
 ## 項目
 
+- [11. Performance cautions](/research/monolyn-practice/11-Performance-cautions.md) — Avoid importing these patterns without hard limits、具体的にはschedule-driven labor loops that require many pawns;とunbounded resource demand…。
+- [12. Final lesson](/research/monolyn-practice/12-Final-lesson.md) — Monolyn is valuable because players actually build around its Tower, Light, baptism, and terminal systems.。
+- [13. Source links recorded by user](/research/monolyn-practice/13-Source-links-recorded-by-user.md) — Source links recorded by userは、Monolyn Race - Steam Workshop Q&A:…。
 - [0. Purpose](/research/monolyn-ui/00-Purpose.md) — This document records the user-provided summary of Monolyn Race UI and system feedback from developer Q&A, bug report threads, and…。
 - [1. Source status](/research/monolyn-ui/01-Source-status.md) — The details below are treated as a user-provided field report from public player feedback and strategy/review sources.。
 - [2. Overall system reception](/research/monolyn-ui/02-Overall-system-reception.md) — Reported NamuWiki-style evaluation、具体的にはMonolyn is high quality, but unusual compared with many existing mods.とIts prayer UI,…。
@@ -81,6 +84,3 @@
 - [25. シオン協定](/world/25-%E3%82%B7%E3%82%AA%E3%83%B3%E5%8D%94%E5%AE%9A.md) — シオン協定は、加盟する諸民族の対等、国境検査のない域内移動、自治区裁量の下での共通政策、相互内政不干渉を定める。
 - [26. 三条約と同盟の成立](/world/26-%E4%B8%89%E6%9D%A1%E7%B4%84%E3%81%A8%E5%90%8C%E7%9B%9F%E3%81%AE%E6%88%90%E7%AB%8B.md) — 同盟は、三つの条約枠を相互に結び、全評議会が対等な関係を結んだことで成立した。
 - [27. 遠征共同体の野心と産業化](/world/27-%E9%81%A0%E5%BE%81%E5%85%B1%E5%90%8C%E4%BD%93%E3%81%AE%E9%87%8E%E5%BF%83%E3%81%A8%E7%94%A3%E6%A5%AD%E5%8C%96.md) — 遠征共同体が生存を越える野心を実現するには、本国のような高度な産業能力を現地へ段階的に築く必要がある。
-- [28. 狐娘型の共有身体](/world/28-%E7%8B%90%E5%A8%98%E5%9E%8B%E3%81%AE%E5%85%B1%E6%9C%89%E8%BA%AB%E4%BD%93.md) — 通常シオンは、史料上確認できるかなり初期の段階から、狐耳と尾を持つ無性の人間型シルエットを共通の身体像としてきた。
-- [29. シオンの無性機械身体](/world/29-%E3%82%B7%E3%82%AA%E3%83%B3%E3%81%AE%E7%84%A1%E6%80%A7%E6%A9%9F%E6%A2%B0%E8%BA%AB%E4%BD%93.md) — シオンの狐娘型は外見上の呼称であり、身体に生物学的性別、人間型の内臓、生理現象は存在しない。
-- [30. 人類としての自己認識](/world/30-%E4%BA%BA%E9%A1%9E%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E8%87%AA%E5%B7%B1%E8%AA%8D%E8%AD%98.md) — シオンが自らを人類とみなす根拠は生物学的構造ではなく、文化、思想、歴史的連続性、人格主体としての自己認識にある。

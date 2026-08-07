@@ -1,11 +1,13 @@
 # stable 08
 
-範囲: 57. レッドスター惑星戦役〜PRD-006 複数経路
+範囲: 56. Shion標準遠征身体の実装仕様〜PRD-004 Request
 
 ## 項目
 
+- [56. Shion標準遠征身体の実装仕様](/design/56-Shion%E6%A8%99%E6%BA%96%E9%81%A0%E5%BE%81%E8%BA%AB%E4%BD%93%E3%81%AE%E5%AE%9F%E8%A3%85%E4%BB%95%E6%A7%98.md) — Shion標準遠征身体の器官、能力値、欠損状態、休息、Anomaly拒絶、心情と将来拡張点を定める。
 - [57. レッドスター惑星戦役](/design/57-%E3%83%AC%E3%83%83%E3%83%89%E3%82%B9%E3%82%BF%E3%83%BC%E6%83%91%E6%98%9F%E6%88%A6%E5%BD%B9.md) — レッドスター惑星戦役は、無政府状態の辺境惑星で介入、抵抗、惑星統一の三路線を遊ぶ任意の段階制キャンペーンである。
 - [58. スカイフレア電気推進ジェットパック](/design/58-%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%95%E3%83%AC%E3%82%A2%E9%9B%BB%E6%B0%97%E6%8E%A8%E9%80%B2%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E3%83%91%E3%83%83%E3%82%AF.md) — スカイフレアは21世紀後半に登場し、改造によって歩兵一人ひとりへ必要な時だけ戦闘ヘリに似た能力を与えるまで成熟した個人飛行装備の祖型である。
+- [59. 体系戦闘評価モデル](/design/59-%E4%BD%93%E7%B3%BB%E6%88%A6%E9%97%98%E8%A9%95%E4%BE%A1%E3%83%A2%E3%83%87%E3%83%AB.md) — 戦役級の戦闘を、兵器の単純合計ではなく、任務別能力、可用性、キルチェーン、損耗、補充、観測誤差から評価する設計モデル。
 - [一件一ファイルとリンク規則](/governance/atomicity-and-links-%E4%B8%80%E4%BB%B6%E4%B8%80%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%A8%E3%83%AA%E3%83%B3%E3%82%AF%E8%A6%8F%E5%89%87.md) — 知識は、単独で参照・更新・廃止できる最小単位へ分ける。
 - [知識の権威順位とライフサイクル](/governance/authority-and-lifecycle-%E7%9F%A5%E8%AD%98%E3%81%AE%E6%A8%A9%E5%A8%81%E9%A0%86%E4%BD%8D%E3%81%A8%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB.md) — このOKFバンドルはRIMプロジェクト知識の入口であり、原子的な概念ファイルを現行の参照単位とする。
 - [コード解説の作成規則](/governance/code-explanation-policy-%E3%82%B3%E3%83%BC%E3%83%89%E8%A7%A3%E8%AA%AC%E3%81%AE%E4%BD%9C%E6%88%90%E8%A6%8F%E5%89%87.md) — コード変更には、非技術者が目的、処理の流れ、状態変更、失敗時結果、検査範囲を追える日本語解説を同じPull Requestで添える。
@@ -82,5 +84,3 @@
 - [PRD-002 入力Role](/kombinat/requirements/prd-002-%E5%85%A5%E5%8A%9B.md) — MUST: Consume、LockAndReturn、TransformAndReturn、ContainerReturnを区別する。
 - [PRD-003 Recipe分類](/kombinat/requirements/prd-003-%E5%88%86%E9%A1%9E.md) — MUST: RecipeをKombinat Automated、Vanilla Work Required、Official Adapter Required、Unsupportedへ分類する。
 - [PRD-004 Request](/kombinat/requirements/prd-004-%E8%A6%81%E4%BB%B6.md) — MUST: 具体ThingDef、Recipe、数量または目標在庫、優先度、出力先を指定できる。
-- [PRD-005 Plan](/kombinat/requirements/prd-005-%E8%A6%81%E4%BB%B6.md) — MUST: Recipe依存を有界DAGへ展開し、循環を検出する。
-- [PRD-006 複数経路](/kombinat/requirements/prd-006-%E8%A4%87%E6%95%B0%E7%B5%8C%E8%B7%AF.md) — MUST: 同じ出力を作れる複数Patternがある場合、作者優先度、完成可能性、設備、概算時間、stable IDの決定順を使う。

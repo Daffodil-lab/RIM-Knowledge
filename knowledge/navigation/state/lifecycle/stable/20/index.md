@@ -1,9 +1,11 @@
 # stable 20
 
-範囲: SHION_A333 探査隊の縁境哨戒者〜SHION_A412 辺境行政府の巡察官
+範囲: SHION_A331 種苗管理班の発芽番〜SHION_A410 星路建設隊の航路技師
 
 ## 項目
 
+- [SHION_A331 種苗管理班の発芽番](/reference/backstories/mastery/SHION_A331.md) — 種苗管理班の発芽番では、種苗管理班の仕事は地味だ。
+- [SHION_A332 入植地の屋根継ぎ](/reference/backstories/mastery/SHION_A332.md) — 入植地の屋根はどれも一度は雨漏りする、これは本人が最初に学んだことだった。
 - [SHION_A333 探査隊の縁境哨戒者](/reference/backstories/mastery/SHION_A333.md) — この星団の縁がどこにあるか、正確に答えられる者がいると思うか。
 - [SHION_A334 移住船団の百人料理番](/reference/backstories/mastery/SHION_A334.md) — 移住船団に同乗した外部居住者と、食文化へ参加するシオンの最初の百人分の食事を、限られた保存食だけで回していたのが本人だった。
 - [SHION_A335 甲板機関の整備工](/reference/backstories/mastery/SHION_A335.md) — 甲板機関の心臓部を止めず、文化的先達から継いだ工具と失敗記録を次の整備者へ渡した。
@@ -82,5 +84,3 @@
 - [SHION_A408 動植物馴化隊の獣医補](/reference/backstories/mastery/SHION_A408.md) — まず傷口を洗う、それから膿を確認する、それから薬を塗る、それから包帯を巻く。
 - [SHION_A409 灌漑隊の腕っぷし](/reference/backstories/mastery/SHION_A409.md) — 料理番のくせに喧嘩っ早いって、よくからかわれたよ。
 - [SHION_A410 星路建設隊の航路技師](/reference/backstories/mastery/SHION_A410.md) — 本人が打った航路標識は、数えていた頃で九百を超えていました。
-- [SHION_A411 交易船団の交渉員](/reference/backstories/mastery/SHION_A411.md) — 俺の仕事は簡単に言えば、初対面の開拓地相手に値切ることだ。
-- [SHION_A412 辺境行政府の巡察官](/reference/backstories/mastery/SHION_A412.md) — 開拓地が増えれば増えるほど、本人のところに届く訴えも増えました。

@@ -1,9 +1,11 @@
 # stable 18
 
-範囲: SHION_A173 要塞潜入路の精密工〜SHION_A252 帰還兵港の仮設建築士
+範囲: SHION_A171 空挺基地の種子管理官〜SHION_A250 塔域居住層の射撃教官
 
 ## 項目
 
+- [SHION_A171 空挺基地の種子管理官](/reference/backstories/mastery/SHION_A171.md) — 空挺基地で、故郷から運ばれた種子の来歴と分配を管理しました。
+- [SHION_A172 地下維持区の動物義肢技師](/reference/backstories/mastery/SHION_A172.md) — 地下維持区で動物義肢を作っていた時、自動設備が一斉に止まりました。
 - [SHION_A173 要塞潜入路の精密工](/reference/backstories/mastery/SHION_A173.md) — 要塞への潜入路で、少人数用の工具と停止機構を作りました。
 - [SHION_A174 孵育文化区の舞台演出家](/reference/backstories/mastery/SHION_A174.md) — 孵育文化区では、誰にでも快適な身体と部屋が用意されました。
 - [SHION_A175 星間市場の巡回医](/reference/backstories/mastery/SHION_A175.md) — 星間市場の巡回医では、星間市場を巡って診療しました。
@@ -82,5 +84,3 @@
 - [SHION_A248 計画都市の再会連絡官](/reference/backstories/mastery/SHION_A248.md) — 計画都市の再会連絡官では、計画都市の再会式は、時刻も立ち位置も完璧だった。
 - [SHION_A249 塔域居住層の古文書研究者](/reference/backstories/mastery/SHION_A249.md) — 塔の古文書には、端末番号だけで住民を記した時代がある。
 - [SHION_A250 塔域居住層の射撃教官](/reference/backstories/mastery/SHION_A250.md) — 塔域の射撃大会で、命中数より存在区分の識別、不明時の不発砲、誤認訂正へ点を付けた。
-- [SHION_A251 後方支援庁の身体競技指導員](/reference/backstories/mastery/SHION_A251.md) — 後方支援庁で身体競技を教えると、遊んでいるように見られた。
-- [SHION_A252 帰還兵港の仮設建築士](/reference/backstories/mastery/SHION_A252.md) — 帰還兵港では、同じ日に出た二人がまるで違う年齢で戻る。

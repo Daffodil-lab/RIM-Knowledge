@@ -1,9 +1,11 @@
 # 装備・軍事 03
 
-範囲: 2.3 無料保管〜SHION_A366 巡回区画の三つの規則
+範囲: J. 途中保存と再送〜SHION_A321 境界哨戒隊の見張り番
 
 ## 項目
 
+- [J. 途中保存と再送](/pawn/077-J-%E9%80%94%E4%B8%AD%E4%BF%9D%E5%AD%98%E3%81%A8%E5%86%8D%E9%80%81.md) — J. 途中保存と再送は、生産、Dormant化、回収、再資源化、再実体化、Cloneの各段階で保存する。
+- [14. β Definition of Done](/pawn/14-%CE%B2-Definition-of-Done-%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — 次を全て満たした時だけ、β版のPawn生産系を完成とする。
 - [2.3 無料保管](/pawn/2-3-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — 生存PawnはPawn Foundryまたは対応設備からDormant状態へ移し、必要になるまで保管できる。
 - [3.1 Ephemeral Pawn](/pawn/3-1-Ephemeral-Pawn-%E4%B8%80%E6%99%82%E5%80%8B%E4%BD%93.md) — 適合生成の既定出力であり、また役割上必要な情報だけを指定し、それ以外をランダム生成する。
 - [3.2 Registered Individual](/pawn/3-2-Registered-Individual-%E7%99%BB%E9%8C%B2%E5%80%8B%E4%BD%93.md) — 既存Pawnをプレイヤーが登録すると、個体を再構築するためのIndividual Archiveを作る。
@@ -82,5 +84,3 @@
 - [SHION_A299 旧党派収容記録所の徒手警護員](/reference/backstories/mastery/SHION_A299.md) — 旧党派収容記録所で、本人は武器を持たず収容者と見物人の間へ立った。
 - [SHION_A315 越冬隊の灯守り](/reference/backstories/mastery/SHION_A315.md) — 氷原探査で装備・燃料・外部隊員用食糧を管理し、全員を救えなかった四度目の判断を今も記憶している。
 - [SHION_A321 境界哨戒隊の見張り番](/reference/backstories/mastery/SHION_A321.md) — 今は哨戒に出ることはない、装備の点検を任されているだけだ。
-- [SHION_A354 秩序維持隊の初代隊員](/reference/backstories/mastery/SHION_A354.md) — 秩序維持隊の初代選抜で、武器ではなく当事者双方の話を先に聞く役を担った。
-- [SHION_A366 巡回区画の三つの規則](/reference/backstories/mastery/SHION_A366.md) — 持ち場を離れない、武器を見せない、揉め事を数える前に止めるという三規則を守り続けた。

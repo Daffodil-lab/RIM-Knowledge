@@ -1,9 +1,11 @@
 # stable 09
 
-範囲: PRD-007 Job〜REC-003 Ephemeral再起動
+範囲: PRD-005 Plan〜REC-001 低コスト修復
 
 ## 項目
 
+- [PRD-005 Plan](/kombinat/requirements/prd-005-%E8%A6%81%E4%BB%B6.md) — MUST: Recipe依存を有界DAGへ展開し、循環を検出する。
+- [PRD-006 複数経路](/kombinat/requirements/prd-006-%E8%A4%87%E6%95%B0%E7%B5%8C%E8%B7%AF.md) — MUST: 同じ出力を作れる複数Patternがある場合、作者優先度、完成可能性、設備、概算時間、stable IDの決定順を使う。
 - [PRD-007 Job](/kombinat/requirements/prd-007-%E8%A6%81%E4%BB%B6.md) — MUST: 承認済みPlanをJobとして保存し、Pattern version、選んだRecipe、入力条件、出力条件を固定する。
 - [PRD-008 Batch](/kombinat/requirements/prd-008-%E8%A6%81%E4%BB%B6.md) — MUST: 一Batchの全入力Thingと出力容量がCore Storageで予約され、設備が利用可能な時だけ開始する。
 - [PRD-009 Output Claim](/kombinat/requirements/prd-009-%E8%A6%81%E4%BB%B6.md) — MUST: 同じThingDefがどこかへ出現しただけでBatchを完了しない。
@@ -82,5 +84,3 @@
 - [PERF-003 World Pawn漏れ](/pawn/perf-003-%E6%BC%8F%E3%82%8C.md) — MUST: Ephemeralを一万体生成・回収・再資源化するfixture後も、World Pawn、Relation、Tale、Archiveが生成総数に比例して残留しない。
 - [PERF-004 量産](/pawn/perf-004-%E9%87%8F%E7%94%A3.md) — MUST: 同一DesignまたはClone Sourceから100体を連続生産するfixtureで、ID重複、参照共有、装備複製、無制限履歴増加を起こさない。
 - [REC-001 低コスト修復](/pawn/rec-001-%E4%BD%8E%E3%82%B3%E3%82%B9%E3%83%88%E4%BF%AE%E5%BE%A9.md) — MUST: 生存Pawnの通常負傷、欠損、故障、交換可能Moduleを、標準新規Pawn生産より低い資源と時間で回復できる。
-- [REC-002 遺体回収](/pawn/rec-002-%E9%81%BA%E4%BD%93%E5%9B%9E%E5%8F%8E.md) — MUST: 回収したシオン遺体をRecovery Facilityへ受け入れ、再起動、Archive再実体化、再資源化の利用可能な選択を表示する。
-- [REC-003 Ephemeral再起動](/pawn/rec-003-%E5%86%8D%E8%B5%B7%E5%8B%95.md) — MUST: Ephemeral Pawnは、遺体とPawn instance情報が残る間、低コストで同じ現在個体を再起動できる。

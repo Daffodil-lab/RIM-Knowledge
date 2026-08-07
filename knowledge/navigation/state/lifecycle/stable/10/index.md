@@ -1,9 +1,11 @@
 # stable 10
 
-範囲: REC-004 Ephemeral最終削除〜SHION_C031 無人書庫の管理役
+範囲: REC-002 遺体回収〜SHION_C029 修道院助手
 
 ## 項目
 
+- [REC-002 遺体回収](/pawn/rec-002-%E9%81%BA%E4%BD%93%E5%9B%9E%E5%8F%8E.md) — MUST: 回収したシオン遺体をRecovery Facilityへ受け入れ、再起動、Archive再実体化、再資源化の利用可能な選択を表示する。
+- [REC-003 Ephemeral再起動](/pawn/rec-003-%E5%86%8D%E8%B5%B7%E5%8B%95.md) — MUST: Ephemeral Pawnは、遺体とPawn instance情報が残る間、低コストで同じ現在個体を再起動できる。
 - [REC-004 Ephemeral最終削除](/pawn/rec-004-%E6%9C%80%E7%B5%82%E5%89%8A%E9%99%A4.md) — MUST: Ephemeral Pawnの遺体を再資源化した場合、Pawn、Corpse、World Pawn、Relation、Archive、個体参照付きTale／Log、未解決参照をセーブ正本から除去する。
 - [REC-005 Registered再実体化](/pawn/rec-005-%E5%86%8D%E5%AE%9F%E4%BD%93%E5%8C%96.md) — MUST: Registered Individualの死亡後は、回収時にArchiveをcheckpointし、遺体を再資源化した後も同じindividualIdで一体を再実体化できる。
 - [REC-006 Clone選択](/pawn/rec-006-%E9%81%B8%E6%8A%9E.md) — MUST: Registered Individualが活動中またはDormantである場合、同じ原型からの追加生産は再実体化ではなくCloneとして明示する。
@@ -82,5 +84,3 @@
 - [SHION_C027 文字院の徒弟](/reference/backstories/formation/SHION_C027.md) — 帝国最盛期の文字院で、律法、契約、祈祷文の書式と校正を学んだ。
 - [SHION_C028 神殿侍祭](/reference/backstories/formation/SHION_C028.md) — 帝国最盛期の地方神殿で、灯火、香炉、参列者の案内、読み上げ順の確認を担当した。
 - [SHION_C029 修道院助手](/reference/backstories/formation/SHION_C029.md) — 帝国最盛期の修道院で、書棚の運搬、畑仕事、寝台の修理、食事の支度を順番に経験した。
-- [SHION_C030 騎士従士](/reference/backstories/formation/SHION_C030.md) — 帝国最盛期の騎士に仕え、武具の整備、訓練記録、儀礼と決闘の手順を学んだ。
-- [SHION_C031 無人書庫の管理役](/reference/backstories/formation/SHION_C031.md) — 帝国最盛期の無人書庫で、湿度、虫害、貸出記録、索引を管理した。
