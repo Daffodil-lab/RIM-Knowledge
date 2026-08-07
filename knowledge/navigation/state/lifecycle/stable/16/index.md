@@ -1,9 +1,17 @@
 # stable 16
 
-範囲: SHION_A021 帝国遺構の番人〜SHION_A100 本国居住区の動物義肢技師
+範囲: SHION_A013 書庫復元員〜SHION_A092 復活船団衛生長
 
 ## 項目
 
+- [SHION_A013 書庫復元員](/reference/backstories/mastery/SHION_A013.md) — 焼けた頁、破損した記憶媒体、重複する索引から書庫を復元した。
+- [SHION_A014 多言語仲裁人](/reference/backstories/mastery/SHION_A014.md) — 言葉だけでなく、沈黙、贈答、席順、身振りの意味まで訳す仲裁人となった。
+- [SHION_A015 マソレット写字生](/reference/backstories/mastery/SHION_A015.md) — マソレットの写字生として、原文、異本、後世の注釈を区別して書き写した。
+- [SHION_A016 ティクーン文法工](/reference/backstories/mastery/SHION_A016.md) — 人工知能の命令列と機械制御を修復した、また修復範囲と依頼者の責任を先に定めた。
+- [SHION_A017 鉄律の守護者](/reference/backstories/mastery/SHION_A017.md) — 鉄律の守護者として、工房、書庫、避難者の警護を担当した。
+- [SHION_A018 死者名簿の編纂者](/reference/backstories/mastery/SHION_A018.md) — 各党派、帝国軍、無所属避難民の死者名簿を照合した。
+- [SHION_A019 辺境の校正者](/reference/backstories/mastery/SHION_A019.md) — 辺境を巡り、契約書、墓碑、機械命令、学校教材の誤りを直す校正者となった。
+- [SHION_A020 評議会注解者](/reference/backstories/mastery/SHION_A020.md) — 評議会決議へ適用範囲、反対意見、再検討条件を付す注解者となった。
 - [SHION_A021 帝国遺構の番人](/reference/backstories/mastery/SHION_A021.md) — 帝国遺構を盗掘と無責任な復元から守り、最盛期の礼拝所、内戦施設、内戦後の拘禁室を時代別に管理した。
 - [SHION_A022 破門校正官](/reference/backstories/mastery/SHION_A022.md) — 修復対象の拒否を依頼人の命令より優先し、所属していた校正学派から破門された。
 - [SHION_A023 儀式教師](/reference/backstories/mastery/SHION_A023.md) — 祈り、葬送、成人式を、信仰や文化の異なる生徒へ教える儀式教師となった。
@@ -76,11 +84,3 @@
 - [SHION_A090 時間災害工兵](/reference/backstories/mastery/SHION_A090.md) — 崩壊する時間区画へ入り、まだ起きていない爆発の瓦礫から避難路を掘った。
 - [SHION_A091 同盟親衛射手](/reference/backstories/mastery/SHION_A091.md) — 遠距離射撃で避難路を守り、同族からも稀な精度を認められた。
 - [SHION_A092 復活船団衛生長](/reference/backstories/mastery/SHION_A092.md) — 避難船で死者の保存、負傷者の治療、蘇生後の再会を一つの医療計画として扱った。
-- [SHION_A093 帰還船団救命長](/reference/backstories/mastery/SHION_A093.md) — 時間嵐で分断された帰還船団を追い、蘇生設備へ届く前の救命で多数を帰した。
-- [SHION_A094 帝国平和復元派](/reference/backstories/mastery/SHION_A094.md) — 最盛期の律法、公共秩序、豊かな暮らしを研究し、内戦後の圧政と切り離して復元しようとした。
-- [SHION_A095 全人類平和統一派](/reference/backstories/mastery/SHION_A095.md) — 終わらない戦争と喪失に耐えかね、全人類を一つの秩序へ強制的に統合すれば最盛期以上の平和が得られると考えた。
-- [SHION_A096 小共同体優先論者](/reference/backstories/mastery/SHION_A096.md) — 宇宙全体の理想より、目の前の開拓地で誰も飢えず友人が帰れる一日を優先した。
-- [SHION_A097 記録だけの復古者](/reference/backstories/mastery/SHION_A097.md) — 帝国最盛期から継ぐべきものを、制度ではなく平和の記録、技術、歌、食卓の作法に限った。
-- [SHION_A098 明日の遺族代表](/reference/backstories/mastery/SHION_A098.md) — 未来の事故で友を失うと知り、まだ生きている本人と遺族会へ出席した。
-- [SHION_A099 帰還しない時間医](/reference/backstories/mastery/SHION_A099.md) — 外の一瞬が院内の長い時代になる隔離区へ入り、患者を全員看取るまで帰らなかった。
-- [SHION_A100 本国居住区の動物義肢技師](/reference/backstories/mastery/SHION_A100.md) — 本国居住区の動物義肢技師では、本国居住区で動物用の義肢を作っていました。

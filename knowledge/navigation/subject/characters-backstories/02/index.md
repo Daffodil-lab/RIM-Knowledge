@@ -1,9 +1,12 @@
 # 人物・バックストーリー 02
 
-範囲: 7. 拡張稿（§12 Phase A超過分）〜SHION_C077 未来設計作文
+範囲: 4. 新規420稿の割当集計〜SHION_C074 蘇生倫理の実習生
 
 ## 項目
 
+- [4. 新規420稿の割当集計](/reference/backstories/04-%E6%96%B0%E8%A6%8F420%E7%A8%BF%E3%81%AE%E5%89%B2%E5%BD%93%E9%9B%86%E8%A8%88.md) — 各新規稿は主Pool一つとSourceModule一つへ同時算入する。
+- [5. 生成プール互換規則](/reference/backstories/05-%E7%94%9F%E6%88%90%E3%83%97%E3%83%BC%E3%83%AB%E4%BA%92%E6%8F%9B%E8%A6%8F%E5%89%87.md) — 生成プール互換規則は、原則として同一Eraの幼少期と成人期を組み合わせる。
+- [6. 参考資料としての区分](/reference/backstories/06-%E5%88%B6%E4%BD%9C%E4%B8%8A%E3%81%AE%E6%AD%A3%E5%8F%B2%E5%8C%BA%E5%88%86.md) — バックストーリーを参考資料として保持し、参考採否と正史・実装・出荷への採用を分離する。
 - [7. 拡張稿（§12 Phase A超過分）](/reference/backstories/07-%E6%8B%A1%E5%BC%B5%E7%A8%BF%C2%A712-Phase-A%E8%B6%85%E9%81%8E%E5%88%86.md) — §12拡張計画のPhase A（新設4時代の最初の稿）のうち、ColonizationEraとJourneyEraをドラフト件数から拡張して追加する。
 - [8. 世界観統一の再監査](/reference/backstories/08-%E4%B8%96%E7%95%8C%E8%A6%B3%E7%B5%B1%E4%B8%80%E3%81%AE%E5%86%8D%E7%9B%A3%E6%9F%BB.md) — 参考バックストーリーは具体的な生活場面を残し、実在政治の置換や用語集依存を再利用候補から外して再監査する。
 - [9. 設定本文と実装予約の分離](/reference/backstories/09-%E8%A8%AD%E5%AE%9A%E6%9C%AC%E6%96%87%E3%81%A8%E5%AE%9F%E8%A3%85%E4%BA%88%E7%B4%84%E3%81%AE%E5%88%86%E9%9B%A2.md) — バックストーリー記録では人物の経歴と口述を設定クラス、Pool、出現希少度、技能補正、組合せ規則を実装予約として分離する。
@@ -81,6 +84,3 @@
 - [SHION_C072 公共討論の書記](/reference/backstories/formation/SHION_C072.md) — 住民討論で賛成、反対、保留、途中退席を同じ大きさで記録した。
 - [SHION_C073 全技能基礎課程](/reference/backstories/formation/SHION_C073.md) — 戦闘、建設、農業、医療、芸術、対人を一通り学び、どの教師からも「専門はこれから」と評された。
 - [SHION_C074 蘇生倫理の実習生](/reference/backstories/formation/SHION_C074.md) — 蘇生者へ「戻れて嬉しいですか」と尋ねる実習を受けた。
-- [SHION_C075 多身体体育員](/reference/backstories/formation/SHION_C075.md) — 狐娘型の軽量構成、高荷重構成、部品交換者が同じ競技へ参加できる規則を試した。
-- [SHION_C076 星域歴史の復習者](/reference/backstories/formation/SHION_C076.md) — 帝国最盛期を、楽園とも圧政とも決めつけず学び直した。
-- [SHION_C077 未来設計作文](/reference/backstories/formation/SHION_C077.md) — 「帝国最盛期よりよい一日」を題に、戦争のない朝と友人が必ず帰る夕食を書いた。

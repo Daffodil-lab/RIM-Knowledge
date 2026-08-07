@@ -10,6 +10,7 @@
 - [known-code](known-code/) — 7件
 - [kombinat-prototype](kombinat-prototype/) — 2件
 - [kombinat-ui-references](kombinat-ui-references/) — 5件
+- [military-doctrine](military-doctrine/) — 1件
 - [monolyn-practice](monolyn-practice/) — 14件
 - [monolyn-ui](monolyn-ui/) — 14件
 - [Open Knowledge Format](okf/) — 1件

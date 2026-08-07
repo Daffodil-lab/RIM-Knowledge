@@ -1,9 +1,17 @@
 # stable 15
 
-範囲: SHION_C360 甲板の錆と最初の家〜SHION_A020 評議会注解者
+範囲: SHION_C352 数え直すたびに一人減った〜SHION_A012 彫刻採掘師
 
 ## 項目
 
+- [SHION_C352 数え直すたびに一人減った](/reference/backstories/formation/SHION_C352.md) — 子供の頃、うちの継承図には七人の名前がありました。
+- [SHION_C353 建国世代と呼ばないでほしい](/reference/backstories/formation/SHION_C353.md) — 俺のことを「建国世代」って呼ぶ奴がいるが、それは違う。
+- [SHION_C354 律法学舎の写本刀](/reference/backstories/formation/SHION_C354.md) — 律法学舎で、文字線を一定に削り出す写本刀の研ぎ方と刃角を厳しく学んだ。
+- [SHION_C355 帝国とは何かと聞かれて](/reference/backstories/formation/SHION_C355.md) — 帝国とは何か、と聞かれても本人にはうまく説明できません。
+- [SHION_C356 秩序は毎朝作り直すもの](/reference/backstories/formation/SHION_C356.md) — 自分は秩序維持隊の分隊に十三歳から補助として加わりました。
+- [SHION_C357 この話は書き残してほしい](/reference/backstories/formation/SHION_C357.md) — この話は書き残してほしいでは、一つ、はっきりお願いしておきたいことがあります。
+- [SHION_C358 帝国最初の落第兵](/reference/backstories/formation/SHION_C358.md) — うちは多分、成立したての帝国で最初に隊列を乱した子供の一人だと思う。
+- [SHION_C359 今日から遡って話します](/reference/backstories/formation/SHION_C359.md) — 今日から遡って話しますでは、今日から遡って話しましょう。
 - [SHION_C360 甲板の錆と最初の家](/reference/backstories/formation/SHION_C360.md) — 甲板の錆と最初の家では、俺の故郷は地図のどこにもない。
 - [SHION_C361 味噌と水耕の甲板](/reference/backstories/formation/SHION_C361.md) — 味噌と水耕の甲板では、指先にまだ生姜の匂いが残っている気がします。
 - [SHION_C362 国旗を畳んだ日](/reference/backstories/formation/SHION_C362.md) — 「その布、もう畳んでいいんじゃない」って、あたしは互助会の年寄りに言ったの。
@@ -76,11 +84,3 @@
 - [SHION_A010 葬送司会者](/reference/backstories/mastery/SHION_A010.md) — 宗派や党派の異なる遺族のため、葬送の順番、弔辞、音楽、食事を調整する司会者となった。
 - [SHION_A011 気象観測主任](/reference/backstories/mastery/SHION_A011.md) — 農業観測所の主任として、雨、灰、毒霧、日照を測り、農家と居住区へ予報を伝えた。
 - [SHION_A012 彫刻採掘師](/reference/backstories/mastery/SHION_A012.md) — 岩を切り出す前に内部の模様、亀裂、材質を読み、建材に向く部分と彫刻へ使える部分を分ける採掘師となった。
-- [SHION_A013 書庫復元員](/reference/backstories/mastery/SHION_A013.md) — 焼けた頁、破損した記憶媒体、重複する索引から書庫を復元した。
-- [SHION_A014 多言語仲裁人](/reference/backstories/mastery/SHION_A014.md) — 言葉だけでなく、沈黙、贈答、席順、身振りの意味まで訳す仲裁人となった。
-- [SHION_A015 マソレット写字生](/reference/backstories/mastery/SHION_A015.md) — マソレットの写字生として、原文、異本、後世の注釈を区別して書き写した。
-- [SHION_A016 ティクーン文法工](/reference/backstories/mastery/SHION_A016.md) — 人工知能の命令列と機械制御を修復した、また修復範囲と依頼者の責任を先に定めた。
-- [SHION_A017 鉄律の守護者](/reference/backstories/mastery/SHION_A017.md) — 鉄律の守護者として、工房、書庫、避難者の警護を担当した。
-- [SHION_A018 死者名簿の編纂者](/reference/backstories/mastery/SHION_A018.md) — 各党派、帝国軍、無所属避難民の死者名簿を照合した。
-- [SHION_A019 辺境の校正者](/reference/backstories/mastery/SHION_A019.md) — 辺境を巡り、契約書、墓碑、機械命令、学校教材の誤りを直す校正者となった。
-- [SHION_A020 評議会注解者](/reference/backstories/mastery/SHION_A020.md) — 評議会決議へ適用範囲、反対意見、再検討条件を付す注解者となった。

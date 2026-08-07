@@ -1,9 +1,12 @@
 # 人物・バックストーリー 08
 
-範囲: SHION_A059 無音歌劇監督〜SHION_A138 透明居住区の公共壁画家
+範囲: SHION_A056 故郷模型都市家〜SHION_A135 空挺基地の共同農園技師
 
 ## 項目
 
+- [SHION_A056 故郷模型都市家](/reference/backstories/mastery/SHION_A056.md) — 帝国最盛期の故郷を都市模型へ再現したが、宮殿より友人と迷った路地へ多くの時間を使った。
+- [SHION_A057 祝祭調律師](/reference/backstories/mastery/SHION_A057.md) — 異なる主観時間から帰還した住民が、同じ拍子で踊れる音楽を作った。
+- [SHION_A058 蘇生後職業相談員](/reference/backstories/mastery/SHION_A058.md) — 蘇生前と同じ仕事へ戻れない者に、能力ではなく今したいことを尋ねた。
 - [SHION_A059 無音歌劇監督](/reference/backstories/mastery/SHION_A059.md) — 聴覚の異なる身体と真空環境の観客へ、振動と光だけの歌劇を演出した。
 - [SHION_A060 局所時間技師](/reference/backstories/mastery/SHION_A060.md) — 病院、農場、航路ごとに異なる時間流を接続し、住民の一日が行政の一日から滑り落ちないよう保守した。
 - [SHION_A061 人格連続性医](/reference/backstories/mastery/SHION_A061.md) — 蘇生後の記憶欠損を治療しながら、欠けた部分を家族の望む物語で埋めないよう注意した。
@@ -81,6 +84,3 @@
 - [SHION_A133 戦術教育環の坑道監督](/reference/backstories/mastery/SHION_A133.md) — 戦術教育環の坑道監督では、戦術教育環の地下演習路を管理しました。
 - [SHION_A134 海洋観測区の公共食堂の調理師](/reference/backstories/mastery/SHION_A134.md) — 海洋観測区の食堂では、外部居住者である研究者の食欲と、シオンの食卓参加の変化も観測していました。
 - [SHION_A135 空挺基地の共同農園技師](/reference/backstories/mastery/SHION_A135.md) — 空挺基地の共同農園技師では、空挺基地の共同農園を任されました。
-- [SHION_A136 離散船団の保護区飼育員](/reference/backstories/mastery/SHION_A136.md) — 離散船団の保護区には、いくつもの故郷から動物が集まりました。
-- [SHION_A137 制裁作戦監査室の精密工](/reference/backstories/mastery/SHION_A137.md) — 制裁部隊の装備を監査しながら、技術大会の審判もしました。
-- [SHION_A138 透明居住区の公共壁画家](/reference/backstories/mastery/SHION_A138.md) — 透明居住区では、記録も壁も隠さないことが美徳だった。

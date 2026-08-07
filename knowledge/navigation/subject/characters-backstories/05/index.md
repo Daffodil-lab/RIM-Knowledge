@@ -1,9 +1,12 @@
 # 人物・バックストーリー 05
 
-範囲: SHION_C238 遅い時計と老いた動物〜SHION_C317 傷を測る力
+範囲: SHION_C235 自治会跡の採掘調査〜SHION_C314 剥がれない継ぎ目
 
 ## 項目
 
+- [SHION_C235 自治会跡の採掘調査](/reference/backstories/formation/SHION_C235.md) — 自治会館が崩れたあと、その地下から生活区を直す資材を採りました。
+- [SHION_C236 評議区の持ち寄り膳](/reference/backstories/formation/SHION_C236.md) — 評議区の持ち寄り膳では、社会民主党の煮込みの隣へ共産党のパンが置かれ、元ファシストの漬物だけ少し離されていました。
+- [SHION_C237 海辺の観測菜園](/reference/backstories/formation/SHION_C237.md) — 革命連合の観測区で、本人は党派ごとに一本ずつ畝を任せる菜園を作りました。
 - [SHION_C238 遅い時計と老いた動物](/reference/backstories/formation/SHION_C238.md) — 最盛期の共同居住区には、街の時刻よりいつも遅い時計が一つありました。
 - [SHION_C239 星間市場の道具工房](/reference/backstories/formation/SHION_C239.md) — 星間市場の工房では、同じ道具でも持ち主ごとに握りを変えました。
 - [SHION_C240 封鎖地の夕焼け芝居](/reference/backstories/formation/SHION_C240.md) — 封鎖観測地で、本人たちは夕焼けを題材にした芝居を作りました。
@@ -81,6 +84,3 @@
 - [SHION_C312 数字が黙らせた喧嘩](/reference/backstories/formation/SHION_C312.md) — 移住船団の配給会議で、台所の余剰を数え、数字によって大人たちの党派争いを具体的な相談へ戻した。
 - [SHION_C313 紫の獣の呼吸](/reference/backstories/formation/SHION_C313.md) — 紫の嵐を機嫌の悪い獣にたとえ、家畜の反応と観測値から到来を読んだ。
 - [SHION_C314 剥がれない継ぎ目](/reference/backstories/formation/SHION_C314.md) — 氷点下でも使える接合材を余分に備え、厚い防寒手袋でも扱える工具と継ぎ方を工夫した。
-- [SHION_C315 次に渡す配合表](/reference/backstories/formation/SHION_C315.md) — 種子船で目的地の土に合わなかった品種と配合も、次の船団が失敗の続きから始められるよう残した。
-- [SHION_C316 名もなき開墾の手](/reference/backstories/formation/SHION_C316.md) — 最初の入植地を切り開いたのは英雄的な少人数だった、とよく言われますが違います。
-- [SHION_C317 傷を測る力](/reference/backstories/formation/SHION_C317.md) — 傷を測る力では、傷口を洗う水の冷たさから話を始めます。

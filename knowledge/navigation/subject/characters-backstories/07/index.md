@@ -1,9 +1,12 @@
 # 人物・バックストーリー 07
 
-範囲: SHION_C398 醸造隊の樽番〜SHION_A058 蘇生後職業相談員
+範囲: SHION_C395 森林造成隊の苗運び〜SHION_A055 動物終生保護官
 
 ## 項目
 
+- [SHION_C395 森林造成隊の苗運び](/reference/backstories/formation/SHION_C395.md) — 森林造成隊の苗運びでは、木を植えるのに一番大事なことって何だと思う。
+- [SHION_C396 気象観測所の風読み](/reference/backstories/formation/SHION_C396.md) — 気圧計の針は一時間で二目盛り動けば嵐が来る合図だった。
+- [SHION_C397 織物工房の糸くず](/reference/backstories/formation/SHION_C397.md) — 誤解しないでほしいんだけど、本人は織物が下手だったわけじゃない。
 - [SHION_C398 醸造隊の樽番](/reference/backstories/formation/SHION_C398.md) — 俺の化学感覚器は樽番のときに鍛えられたんだ、これは自慢していい話だと思う。
 - [SHION_C399 学舎建設隊の墨壺](/reference/backstories/formation/SHION_C399.md) — 線は一度で引け、これが墨壺を任されたときに教師から言われた言葉である。
 - [SHION_C400 灯台守備隊の見習い](/reference/backstories/formation/SHION_C400.md) — 今の本人は暗闇でも灯りの点滅の間隔だけで距離を測れます。
@@ -81,6 +84,3 @@
 - [SHION_A053 時間差郵便局長](/reference/backstories/mastery/SHION_A053.md) — 発送前に届く手紙、差出人の蘇生後に戻る小包、消えた時刻からの葉書を仕分けた。
 - [SHION_A054 古服再生師](/reference/backstories/mastery/SHION_A054.md) — 持主が何度も身体を替えた後も、最初の外套を直し続けた。
 - [SHION_A055 動物終生保護官](/reference/backstories/mastery/SHION_A055.md) — 短命な動物を複製で置き換えず、一生ごとの癖を記録して看取った。
-- [SHION_A056 故郷模型都市家](/reference/backstories/mastery/SHION_A056.md) — 帝国最盛期の故郷を都市模型へ再現したが、宮殿より友人と迷った路地へ多くの時間を使った。
-- [SHION_A057 祝祭調律師](/reference/backstories/mastery/SHION_A057.md) — 異なる主観時間から帰還した住民が、同じ拍子で踊れる音楽を作った。
-- [SHION_A058 蘇生後職業相談員](/reference/backstories/mastery/SHION_A058.md) — 蘇生前と同じ仕事へ戻れない者に、能力ではなく今したいことを尋ねた。

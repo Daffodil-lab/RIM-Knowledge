@@ -1,9 +1,17 @@
 # stable 18
 
-範囲: SHION_A181 要塞潜入路の資源測量士〜SHION_A260 人格照合局の再会連絡官
+範囲: SHION_A173 要塞潜入路の精密工〜SHION_A252 帰還兵港の仮設建築士
 
 ## 項目
 
+- [SHION_A173 要塞潜入路の精密工](/reference/backstories/mastery/SHION_A173.md) — 要塞への潜入路で、少人数用の工具と停止機構を作りました。
+- [SHION_A174 孵育文化区の舞台演出家](/reference/backstories/mastery/SHION_A174.md) — 孵育文化区では、誰にでも快適な身体と部屋が用意されました。
+- [SHION_A175 星間市場の巡回医](/reference/backstories/mastery/SHION_A175.md) — 星間市場の巡回医では、星間市場を巡って診療しました。
+- [SHION_A176 無人構造物調査船の討論調停人](/reference/backstories/mastery/SHION_A176.md) — 無人巨大構造物を巡り、調査員の討論をまとめました。
+- [SHION_A177 自治評議区の観測主任](/reference/backstories/mastery/SHION_A177.md) — 自治評議区の法執行観測を担当し、占拠された公共施設の奪還にも入りました。
+- [SHION_A178 攻勢命令審査線の護衛射手](/reference/backstories/mastery/SHION_A178.md) — 攻勢命令の審査線を護衛し、避難者と味方が射線へ入らない時だけ撃ちました。
+- [SHION_A179 山岳連絡区の徒手警護員](/reference/backstories/mastery/SHION_A179.md) — 山岳連絡区の橋を守り、党派の違う部隊が喧嘩すれば武器を抜く前に抱えて離しました。
+- [SHION_A180 旧党派収容記録所の設備技師](/reference/backstories/mastery/SHION_A180.md) — 旧党派の収容記録所で、壁と配管と避難路を直しました。
 - [SHION_A181 要塞潜入路の資源測量士](/reference/backstories/mastery/SHION_A181.md) — 要塞へ入る道は、掘れば見つかるというものではない。
 - [SHION_A182 移動都市群の保存食職人](/reference/backstories/mastery/SHION_A182.md) — 移動都市で、外部旅人の栄養条件とシオンの感覚上の好みに合わせ、到着後の食卓を先に準備した。
 - [SHION_A183 機械化訓練地の種子管理官](/reference/backstories/mastery/SHION_A183.md) — 訓練地で本人が守っていたのは、武器庫より種子庫だった。
@@ -76,11 +84,3 @@
 - [SHION_A250 塔域居住層の射撃教官](/reference/backstories/mastery/SHION_A250.md) — 塔域の射撃大会で、命中数より存在区分の識別、不明時の不発砲、誤認訂正へ点を付けた。
 - [SHION_A251 後方支援庁の身体競技指導員](/reference/backstories/mastery/SHION_A251.md) — 後方支援庁で身体競技を教えると、遊んでいるように見られた。
 - [SHION_A252 帰還兵港の仮設建築士](/reference/backstories/mastery/SHION_A252.md) — 帰還兵港では、同じ日に出た二人がまるで違う年齢で戻る。
-- [SHION_A253 残響深層の地下救助員](/reference/backstories/mastery/SHION_A253.md) — 残響深層では、崩落した戦場が同じ瞬間を繰り返していた。
-- [SHION_A254 装甲救援隊の公共食堂の調理師](/reference/backstories/mastery/SHION_A254.md) — 装甲救援隊の食堂にいると、料理だけしていたとは思われない。
-- [SHION_A255 革命連合後方区の共同農園技師](/reference/backstories/mastery/SHION_A255.md) — 革命連合の後方農園には、社会民主党系も共産党系も帝国離反者も来た。
-- [SHION_A256 開戦前残響域の終生飼養員](/reference/backstories/mastery/SHION_A256.md) — 開戦前の残響域で、本人は役目を終えた動物の日課を守っていた。
-- [SHION_A257 革命連合後方区の古道具修復師](/reference/backstories/mastery/SHION_A257.md) — 革命連合の後方では、同じ型の道具でも党派ごとに違う印が刻まれていた。
-- [SHION_A258 立入制限地の記録舞台演出家](/reference/backstories/mastery/SHION_A258.md) — 立入制限地の記録を舞台にするなら、悲鳴と死者だけでは足りない。
-- [SHION_A259 自治評議区の救護医](/reference/backstories/mastery/SHION_A259.md) — 自治評議区の事故では、救護所へ着く前から党派同士が責任を押し付け合っていた。
-- [SHION_A260 人格照合局の再会連絡官](/reference/backstories/mastery/SHION_A260.md) — 人格照合局で再会を手伝う時、本人は「以前と同じ本人です」とは約束しなかった。

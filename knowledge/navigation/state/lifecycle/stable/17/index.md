@@ -1,9 +1,17 @@
 # stable 17
 
-範囲: SHION_A101 ヘイハルKombinatの精密工〜SHION_A180 旧党派収容記録所の設備技師
+範囲: SHION_A093 帰還船団救命長〜SHION_A172 地下維持区の動物義肢技師
 
 ## 項目
 
+- [SHION_A093 帰還船団救命長](/reference/backstories/mastery/SHION_A093.md) — 時間嵐で分断された帰還船団を追い、蘇生設備へ届く前の救命で多数を帰した。
+- [SHION_A094 帝国平和復元派](/reference/backstories/mastery/SHION_A094.md) — 最盛期の律法、公共秩序、豊かな暮らしを研究し、内戦後の圧政と切り離して復元しようとした。
+- [SHION_A095 全人類平和統一派](/reference/backstories/mastery/SHION_A095.md) — 終わらない戦争と喪失に耐えかね、全人類を一つの秩序へ強制的に統合すれば最盛期以上の平和が得られると考えた。
+- [SHION_A096 小共同体優先論者](/reference/backstories/mastery/SHION_A096.md) — 宇宙全体の理想より、目の前の開拓地で誰も飢えず友人が帰れる一日を優先した。
+- [SHION_A097 記録だけの復古者](/reference/backstories/mastery/SHION_A097.md) — 帝国最盛期から継ぐべきものを、制度ではなく平和の記録、技術、歌、食卓の作法に限った。
+- [SHION_A098 明日の遺族代表](/reference/backstories/mastery/SHION_A098.md) — 未来の事故で友を失うと知り、まだ生きている本人と遺族会へ出席した。
+- [SHION_A099 帰還しない時間医](/reference/backstories/mastery/SHION_A099.md) — 外の一瞬が院内の長い時代になる隔離区へ入り、患者を全員看取るまで帰らなかった。
+- [SHION_A100 本国居住区の動物義肢技師](/reference/backstories/mastery/SHION_A100.md) — 本国居住区の動物義肢技師では、本国居住区で動物用の義肢を作っていました。
 - [SHION_A101 ヘイハルKombinatの精密工](/reference/backstories/mastery/SHION_A101.md) — ヘイハルKombinatで精密部品を仕上げていました。
 - [SHION_A102 帰還兵港の舞台演出家](/reference/backstories/mastery/SHION_A102.md) — 帰還兵港の舞台演出家では、帰還兵港の舞台を任されました。
 - [SHION_A103 共同祝宴堂の臨床医](/reference/backstories/mastery/SHION_A103.md) — 共同祝宴堂の臨床医では、共同祝宴堂で臨床医をしていました。
@@ -76,11 +84,3 @@
 - [SHION_A170 海洋観測区の保存食職人](/reference/backstories/mastery/SHION_A170.md) — 海洋観測区の保存食職人では、海洋観測祭のため、航海者へ保存食を仕込みました。
 - [SHION_A171 空挺基地の種子管理官](/reference/backstories/mastery/SHION_A171.md) — 空挺基地で、故郷から運ばれた種子の来歴と分配を管理しました。
 - [SHION_A172 地下維持区の動物義肢技師](/reference/backstories/mastery/SHION_A172.md) — 地下維持区で動物義肢を作っていた時、自動設備が一斉に止まりました。
-- [SHION_A173 要塞潜入路の精密工](/reference/backstories/mastery/SHION_A173.md) — 要塞への潜入路で、少人数用の工具と停止機構を作りました。
-- [SHION_A174 孵育文化区の舞台演出家](/reference/backstories/mastery/SHION_A174.md) — 孵育文化区では、誰にでも快適な身体と部屋が用意されました。
-- [SHION_A175 星間市場の巡回医](/reference/backstories/mastery/SHION_A175.md) — 星間市場の巡回医では、星間市場を巡って診療しました。
-- [SHION_A176 無人構造物調査船の討論調停人](/reference/backstories/mastery/SHION_A176.md) — 無人巨大構造物を巡り、調査員の討論をまとめました。
-- [SHION_A177 自治評議区の観測主任](/reference/backstories/mastery/SHION_A177.md) — 自治評議区の法執行観測を担当し、占拠された公共施設の奪還にも入りました。
-- [SHION_A178 攻勢命令審査線の護衛射手](/reference/backstories/mastery/SHION_A178.md) — 攻勢命令の審査線を護衛し、避難者と味方が射線へ入らない時だけ撃ちました。
-- [SHION_A179 山岳連絡区の徒手警護員](/reference/backstories/mastery/SHION_A179.md) — 山岳連絡区の橋を守り、党派の違う部隊が喧嘩すれば武器を抜く前に抱えて離しました。
-- [SHION_A180 旧党派収容記録所の設備技師](/reference/backstories/mastery/SHION_A180.md) — 旧党派の収容記録所で、壁と配管と避難路を直しました。
