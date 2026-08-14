@@ -1,9 +1,15 @@
 # stable 18
 
-範囲: SHION_A164 開戦前残響域の討論調停人〜SHION_A243 自治評議区の共同農園技師
+範囲: SHION_A158 帰還兵港の保存食職人〜SHION_A237 計画都市の再検証主任
 
 ## 項目
 
+- [SHION_A158 帰還兵港の保存食職人](/reference/backstories/mastery/SHION_A158.md) — 帰還兵港で、食べる日へ合わせて保存食を仕込みました。
+- [SHION_A159 低温研究区の共同農園技師](/reference/backstories/mastery/SHION_A159.md) — 低温研究区の農園で、便利な冷却発明の影響を調べました。
+- [SHION_A160 後方支援庁の保護区飼育員](/reference/backstories/mastery/SHION_A160.md) — 後方支援庁で運搬動物を保護し、補給大会の審判もしました。
+- [SHION_A161 自治評議区の精密工](/reference/backstories/mastery/SHION_A161.md) — 自治評議区の工房では、党派ごとに道具の理想が違いました。
+- [SHION_A162 立入制限地の舞台演出家](/reference/backstories/mastery/SHION_A162.md) — 立入制限地の回収班で舞台を作り、危険遺物の密売摘発にも同行しました。
+- [SHION_A163 帰還兵港の救護医](/reference/backstories/mastery/SHION_A163.md) — 帰還兵港では、救護と危険技術の押収が同時に起きます。
 - [SHION_A164 開戦前残響域の討論調停人](/reference/backstories/mastery/SHION_A164.md) — 開戦前の残響を再現した討論大会で、停戦派と継戦派を調停しました。
 - [SHION_A165 計画都市の観測主任](/reference/backstories/mastery/SHION_A165.md) — 計画都市の配給統計からこぼれた孤立を見つけ、非公式広場へ水・屋根・食卓を追加した。
 - [SHION_A166 継承教室の護衛射手](/reference/backstories/mastery/SHION_A166.md) — 継承教室を護衛し、避難者と教師の位置を見て必要な時だけ射線を開きました。
@@ -78,9 +84,3 @@
 - [SHION_A235 本国居住区の救護医](/reference/backstories/mastery/SHION_A235.md) — 本国居住区では、珍しい身体の事故も日常の転倒も同じ入口から運ばれてきた。
 - [SHION_A236 長期予測院の討論調停人](/reference/backstories/mastery/SHION_A236.md) — 長期予測院の討論では、遠い未来の多数と、目の前の一人がよく秤に掛けられた。
 - [SHION_A237 計画都市の再検証主任](/reference/backstories/mastery/SHION_A237.md) — 計画都市では、不便があると言うと測定誤差を疑われた。
-- [SHION_A238 戦術教育環の射撃教官](/reference/backstories/mastery/SHION_A238.md) — 戦術教育環の射撃教官では、射撃は趣味として始めた。
-- [SHION_A239 立入制限地の身体競技指導員](/reference/backstories/mastery/SHION_A239.md) — 立入制限地へ入る者には、強さよりも安全に止まる技術が必要だと教えた。
-- [SHION_A240 海洋観測区の設備技師](/reference/backstories/mastery/SHION_A240.md) — 海洋観測区では、配管の唸りと海から聞こえる音を分けるのが難しかった。
-- [SHION_A241 低温研究区の地下救助員](/reference/backstories/mastery/SHION_A241.md) — 低温研究区で、最速ではなく壁と生存者を傷つけない救助坑掘削を競技化した。
-- [SHION_A242 ヘイハルKombinatの祝宴料理人](/reference/backstories/mastery/SHION_A242.md) — Kombinatの祝宴を任される前、本人は長距離偵察へ出ていた。
-- [SHION_A243 自治評議区の共同農園技師](/reference/backstories/mastery/SHION_A243.md) — 自治評議区で趣味から共同農園を始め、党派論争を畝幅・配水・通行条件の相談へ戻した。

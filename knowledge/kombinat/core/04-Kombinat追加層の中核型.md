@@ -38,8 +38,9 @@ sources:
 | `OutputClaim` | BatchとStorageへCommitした実Thingの対応 |
 | `ConsumptionRecord` | Kombinatが観測できた消費eventの有限集計 |
 | `DistributionGoal` | Kombinat Factoryまたは公開接続面に対する目標量 |
-| `CurrencyAccount` | 同盟通貨残高 |
-| `Transaction` | Kombinat追加層と通貨の冪等変更 |
+| `AllianceCreditAccount` | 能力、実績、制度的信用に基づく同盟資源・権限の利用可能量と予約量 |
+| `FinancialLedger` | Scenario固有のカエルムMark、債務、租税をCreditから分離した台帳 |
+| `Transaction` | Credit認定・使用、Mark決済、債務返済、租税納付、Thing受渡しの原子的かつ冪等な変更 |
 
 Core独自保管・接続システムのStorage、Network graph、検索索引、保存RecordをKombinatへ複製せず、公開Application境界から利用する。
 

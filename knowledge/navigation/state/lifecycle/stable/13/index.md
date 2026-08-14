@@ -1,9 +1,15 @@
 # stable 13
 
-範囲: SHION_C183 律法監察教室の余白記録〜SHION_C262 都市を去ったあとの音楽
+範囲: SHION_C177 低温研究区の種子避難〜SHION_C256 自分で選んだ不便
 
 ## 項目
 
+- [SHION_C177 低温研究区の種子避難](/reference/backstories/formation/SHION_C177.md) — 低温技術の用途を聞く前に、失敗した時どこまで凍るか尋ねました。
+- [SHION_C178 残響深層の動物保護](/reference/backstories/formation/SHION_C178.md) — 残響深層の動物は、再現された砲声の前で毎回同じように怯えました。
+- [SHION_C179 内務記録所の筆記具修理](/reference/backstories/formation/SHION_C179.md) — 内務記録所で直したのは、筆記具と照合器、それに警備用の照準具だった。
+- [SHION_C180 継承教室の問いかけ劇](/reference/backstories/formation/SHION_C180.md) — 継承教室の舞台で、故郷・復活・別れに単一の正解を与えず、観客へ問い返した。
+- [SHION_C181 帝国騎士訓練場の帰還付き添い](/reference/backstories/formation/SHION_C181.md) — 騎士訓練場で蘇生者へ付き添うのも、最盛期の長い修業の一つだった。
+- [SHION_C182 帝国書庫塔の再会窓口](/reference/backstories/formation/SHION_C182.md) — 書庫塔の窓口では、大声の歓迎は禁じられていました。
 - [SHION_C183 律法監察教室の余白記録](/reference/backstories/formation/SHION_C183.md) — 律法監察教室では、事実、推測、後世の注釈を別欄へ書きました。
 - [SHION_C184 革命連合後方区の射撃仲間](/reference/backstories/formation/SHION_C184.md) — 後方区の射場では、昨日まで別の党旗を掲げた者とも精度を競いました。
 - [SHION_C185 革命連合後方区の群衆警護](/reference/backstories/formation/SHION_C185.md) — 本人は気が短いので、武器を持たない警護練習を選びました。
@@ -78,9 +84,3 @@
 - [SHION_C254 広場を巡る討論会](/reference/backstories/formation/SHION_C254.md) — 計画都市の討論会では、反論する前に相手の意見を言い直す決まりだった。
 - [SHION_C255 凍った菓子の研究記録](/reference/backstories/formation/SHION_C255.md) — 最盛期の帝国安全研究院では、未知の物質より記録の欠落を恐れろと教わりました。
 - [SHION_C256 自分で選んだ不便](/reference/backstories/formation/SHION_C256.md) — 孵育文化区では、誰にでも快適な部屋と健康な身体が用意されていました。
-- [SHION_C257 Kombinat横断競技](/reference/backstories/formation/SHION_C257.md) — ヘイハルKombinatの横断競技は、速さだけでは勝てません。
-- [SHION_C258 照合局の修繕見習い](/reference/backstories/formation/SHION_C258.md) — 内戦中の人格照合局で、本人は壁と避難路を直す班にいました。
-- [SHION_C259 毎日の坑道歩き](/reference/backstories/formation/SHION_C259.md) — 本国居住区の坑道を毎日歩き、亀裂と地層音を点検しながら壁画の変化も記録した。
-- [SHION_C260 残骸を読む共同食堂](/reference/backstories/formation/SHION_C260.md) — 対機械戦区の共同食堂で、本人は身体ごとに香りと温度を変えて配膳しました。
-- [SHION_C261 党派混植の菜園](/reference/backstories/formation/SHION_C261.md) — 自治評議区の菜園では、党派ごとに畝を分ける案が出ました。
-- [SHION_C262 都市を去ったあとの音楽](/reference/backstories/formation/SHION_C262.md) — 幸福都市の外縁で、本人は保護動物の世話をしていました。

@@ -7,7 +7,7 @@
 - [57. レッドスター惑星戦役](/design/57-%E3%83%AC%E3%83%83%E3%83%89%E3%82%B9%E3%82%BF%E3%83%BC%E6%83%91%E6%98%9F%E6%88%A6%E5%BD%B9.md) — レッドスター惑星戦役は、無政府状態の辺境惑星で介入、抵抗、惑星統一の三路線を遊ぶ任意の段階制キャンペーンである。
 - [知識所有者マップ](/governance/ownership-map-%E7%9F%A5%E8%AD%98%E6%89%80%E6%9C%89%E8%80%85%E3%83%9E%E3%83%83%E3%83%97.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
 - [KX-008 初期化二重適用](/kombinat/audit/kx-008-%E5%88%9D%E6%9C%9F%E5%8C%96%E4%BA%8C%E9%87%8D%E9%81%A9%E7%94%A8.md) — 再現: 独立開拓団開始中に例外または途中ロードを起こす。
-- [0. 結論](/kombinat/core/00-%E7%B5%90%E8%AB%96.md) — Kombinatは発注、設備能力、生産進捗、消費表示、流通目標、同盟通貨を所有し、物理ThingをCore Storageへ一元化する。
+- [0. 結論](/kombinat/core/00-%E7%B5%90%E8%AB%96.md) — Kombinatは発注、設備能力、生産進捗、消費表示、流通目標、非貨幣の同盟Credit Accountを所有し、物理ThingをCore Storageへ一元化する。
 - [1. 製品境界](/kombinat/core/01-%E8%A3%BD%E5%93%81%E5%A2%83%E7%95%8C.md) — Kombinatはα版からCore独自保管・接続システムの公開入出庫境界へ接続し、保管内部を所有しない。
 - [2. 実装状態の参照](/kombinat/core/02-%E7%8A%B6%E6%85%8B%E5%88%86%E9%A1%9E.md) — Kombinatの実装状態はリリース計画の現在地が所有し、本節は中核仕様からその正本を参照する。
 - [8. 消費と流通](/kombinat/core/08-%E6%B6%88%E8%B2%BB%E3%81%A8%E6%B5%81%E9%80%9A.md) — Kombinatは接続先保管基盤の内部消費を無断で監視せず、公開された観測境界だけを使う。
@@ -17,7 +17,7 @@
 - [14. 実装順](/kombinat/core/14-%E5%AE%9F%E8%A3%85%E9%A0%86.md) — 工業UIのRimWorld 1.6画面契約を先に固定し、Shion種族に先行してCore独自保管・接続システムとKombinatをバニラHumanのfixtureで完成させる。
 - [12. α Release Gate](/kombinat/requirements/12-%CE%B1-Release-Gate-%E5%85%AC%E9%96%8B%E5%88%A4%E5%AE%9A.md) — α版はCore独自保管基盤との直接受渡し、三段生産、任意排出、保存・復旧をRelease Gateへ含める。
 - [13. β境界](/kombinat/requirements/13-%CE%B2%E5%A2%83%E7%95%8C.md) — β境界は、Pawn Foundry要求とEquipment Familyを扱う。
-- [CUR-004 初期化](/kombinat/requirements/cur-004-%E5%88%9D%E6%9C%9F%E5%8C%96.md) — MUST: 独立開拓団開始時に一回だけProfile残高を適用し、途中失敗で部分残高を残さない。
+- [CUR-004 初期化](/kombinat/requirements/cur-004-%E5%88%9D%E6%9C%9F%E5%8C%96.md) — MUST: 開始時にProfileが宣言したCredit Accountと任意のMark・債務・租税Ledgerを一回だけ原子的に初期化する。
 - [プレイヤーが最初から知ること](/player-facing/001-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%9C%80%E5%88%9D%E3%81%8B%E3%82%89%E7%9F%A5%E3%82%8B%E3%81%93%E3%81%A8.md) — シオンは、製造された身体を持つ機械の民であり、また一人ずつ別の人格を持ち、人工知能でも集合意識でもありません。
 - [通常プレイで説明しないこと](/player-facing/006-%E9%80%9A%E5%B8%B8%E3%83%97%E3%83%AC%E3%82%A4%E3%81%A7%E8%AA%AC%E6%98%8E%E3%81%97%E3%81%AA%E3%81%84%E3%81%93%E3%81%A8.md) — 必要になった時、クエスト一件につき一つの中心問題だけを見せます。
 - [Red Star紹介文](/player-facing/009-Red-Star%E7%B4%B9%E4%BB%8B%E6%96%87.md) — Red Starは、本国が正式に派遣する開拓団です。

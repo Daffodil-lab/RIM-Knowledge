@@ -1,9 +1,15 @@
 # stable 09
 
-範囲: PERF-002 Planner〜INT-004 装備ファミリー
+範囲: INT-002 通常経路〜GEN-006 原子的配備
 
 ## 項目
 
+- [INT-002 通常経路](/kombinat/requirements/int-002-%E9%80%9A%E5%B8%B8%E7%B5%8C%E8%B7%AF.md) — MUST: 物理Thingの受渡しにはCore独自基盤が公開する予約・commit・release契約だけを使う。
+- [INT-003 Storage予約](/kombinat/requirements/int-003-%E4%BA%88%E7%B4%84.md) — MUST: Kombinatが工程へ算入できるのは、Core StorageがThing IDと数量で予約した入力だけである。
+- [INT-004 引渡し](/kombinat/requirements/int-004-%E5%BC%95%E6%B8%A1%E3%81%97.md) — MUST: 生産出力はCore Storageへ直接生成し、Kombinat側の所有Thingを作らない。
+- [INT-005 接続不能](/kombinat/requirements/int-005-%E6%8E%A5%E7%B6%9A%E4%B8%8D%E8%83%BD.md) — MUST: Core独自Storageから供給または回収できない場合、Jobを転送待ちへ置く。
+- [INT-006 上流欠陥](/kombinat/requirements/int-006-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5.md) — MUST: Core独自保管基盤単体で再現する問題と、Kombinat接続だけで再現する問題を分離する。
+- [PERF-001 Event駆動](/kombinat/requirements/perf-001-%E9%A7%86%E5%8B%95.md) — MUST: Queue、Factory、Buffer、Accountの変化をeventで処理し、定常処理を索引と有界Queueから実行する。
 - [PERF-002 Planner](/kombinat/requirements/perf-002-%E8%A6%81%E4%BB%B6.md) — MUST: 一Planを最大200 node、100 ms以内、または一frame 4 ms以下の分割処理で終える暫定目標を持つ。
 - [PERF-003 長期](/kombinat/requirements/perf-003-%E9%95%B7%E6%9C%9F.md) — MUST: 60,000 tickの連続生産で、StorageのThing差分0、予約漏れ0、二重完了0、未回収終端処理0を確認する。
 - [PERF-004 保存](/kombinat/requirements/perf-004-%E4%BF%9D%E5%AD%98.md) — MUST: 500 Job、2,000 Batch履歴、10,000 Buffer Thingの保存・ロード時間、ファイル増分、GC allocationを記録する。
@@ -78,9 +84,3 @@
 - [GEN-004 一からの設計](/pawn/gen-004-%E4%B8%80%E3%81%8B%E3%82%89%E3%81%AE%E8%A8%AD%E8%A8%88.md) — MUST: プレイヤーはBody Platform、Module、外装、遺伝情報、特性、技能、Passion、能力、役割、Loadoutを一から構成し、互換性と費用を確認して生産できる。
 - [GEN-005 必要装備](/pawn/gen-005-%E5%BF%85%E8%A6%81%E8%A3%85%E5%82%99.md) — MUST: 生産要求は、具体Thing指定と作者定義のEquipment Familyを併用できる。
 - [GEN-006 原子的配備](/pawn/gen-006-%E5%8E%9F%E5%AD%90%E7%9A%84%E9%85%8D%E5%82%99.md) — MUST: Body、必須Module、必須能力、必須装備のいずれかが欠ける場合、完成扱いでPawnを出現させない。
-- [GEN-007 反復可能性](/pawn/gen-007-%E5%8F%8D%E5%BE%A9%E5%8F%AF%E8%83%BD%E6%80%A7.md) — MUST: 通常Pawnの生産へ一回限りのWorld Unique資源、有限許可回数、消滅する原型を要求しない。
-- [GEN-008 Repeat Order](/pawn/gen-008-%E8%A6%81%E4%BB%B6.md) — MUST: 適合条件、Design、Registered IndividualのCloneを数量指定または目標活動数で反復生産できる。
-- [INT-001 Production Adapter](/pawn/int-001-%E8%A6%81%E4%BB%B6.md) — MUST: Pawn FoundryはBody、Module、装備、消耗品をKombinat Production Requestとして発注できる。
-- [INT-002 三主題の維持](/pawn/int-002-%E4%B8%89%E4%B8%BB%E9%A1%8C%E3%81%AE%E7%B6%AD%E6%8C%81.md) — MUST: Kombinat側ではPawn要求を生産対象、Pawn需要を消費予測、Foundryへの引渡しを流通として表示する。
-- [INT-003 具体装備](/pawn/int-003-%E5%85%B7%E4%BD%93%E8%A3%85%E5%82%99.md) — MUST: 登録個体の固有装備、名前付き装備、Quest品は具体Thingとして追跡し、Clone時に複製しない。
-- [INT-004 装備ファミリー](/pawn/int-004-%E8%A3%85%E5%82%99%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC.md) — MUST: 武器、防具、工具、医療品等のFamily指定は、作者が明示登録した同用途・同性能帯・同費用帯の候補から具体Thingへ解決する。

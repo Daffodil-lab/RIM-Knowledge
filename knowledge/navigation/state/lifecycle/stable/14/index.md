@@ -1,9 +1,15 @@
 # stable 14
 
-範囲: SHION_C263 色の残った観測具〜SHION_C342 配給計算の手順
+範囲: SHION_C257 Kombinat横断競技〜SHION_C336 甲板は狭くない
 
 ## 項目
 
+- [SHION_C257 Kombinat横断競技](/reference/backstories/formation/SHION_C257.md) — ヘイハルKombinatの横断競技は、速さだけでは勝てません。
+- [SHION_C258 照合局の修繕見習い](/reference/backstories/formation/SHION_C258.md) — 内戦中の人格照合局で、本人は壁と避難路を直す班にいました。
+- [SHION_C259 毎日の坑道歩き](/reference/backstories/formation/SHION_C259.md) — 本国居住区の坑道を毎日歩き、亀裂と地層音を点検しながら壁画の変化も記録した。
+- [SHION_C260 残骸を読む共同食堂](/reference/backstories/formation/SHION_C260.md) — 対機械戦区の共同食堂で、本人は身体ごとに香りと温度を変えて配膳しました。
+- [SHION_C261 党派混植の菜園](/reference/backstories/formation/SHION_C261.md) — 自治評議区の菜園では、党派ごとに畝を分ける案が出ました。
+- [SHION_C262 都市を去ったあとの音楽](/reference/backstories/formation/SHION_C262.md) — 幸福都市の外縁で、本人は保護動物の世話をしていました。
 - [SHION_C263 色の残った観測具](/reference/backstories/formation/SHION_C263.md) — 封鎖観測地から戻った道具には、洗っても消えない色がありました。
 - [SHION_C264 雪中の小さな音楽会](/reference/backstories/formation/SHION_C264.md) — 帝国最終防衛圏では、音楽に使う電力も贅沢だと叱られました。
 - [SHION_C265 海洋観測院の救命実習](/reference/backstories/formation/SHION_C265.md) — 最盛期の海洋観測院では、事故が少ない時ほど救命実習を重ねました。
@@ -78,9 +84,3 @@
 - [SHION_C334 数字を止めない役目](/reference/backstories/formation/SHION_C334.md) — 本人が入植初期の重要な決定に加わらなかったことを、怠慢だと言う人がいます。
 - [SHION_C335 配管の熱を覚えている](/reference/backstories/formation/SHION_C335.md) — 配管の熱を覚えているでは、手のひらに配管の熱がまだ残っている気がします。
 - [SHION_C336 甲板は狭くない](/reference/backstories/formation/SHION_C336.md) — 甲板は狭くないでは、狭かったなんて一度も思ったことはない。
-- [SHION_C337 三つの言語と一つの食卓](/reference/backstories/formation/SHION_C337.md) — 三つの言語と一つの食卓では、あたしは作られた民族、文化継承第三期よ。
-- [SHION_C338 平常運転の裏側](/reference/backstories/formation/SHION_C338.md) — 育ての親の一人は造水班で、壊れた濾過装置の修理中に事故で亡くなりました。
-- [SHION_C339 特に思い入れはない](/reference/backstories/formation/SHION_C339.md) — 特に思い入れはないでは、自分の子供時代に特別な思い入れはない。
-- [SHION_C340 船は貝殻だった](/reference/backstories/formation/SHION_C340.md) — 船は貝殻だったでは、礁の民文化を継いだ先達はよく、この船を貝殻に例えました。
-- [SHION_C341 逃げたわけじゃない](/reference/backstories/formation/SHION_C341.md) — 逃げたわけじゃないでは、逃げたわけじゃないんだ、本人は。
-- [SHION_C342 配給計算の手順](/reference/backstories/formation/SHION_C342.md) — 配給計算の手順では、配給計算は次の手順で行いました。

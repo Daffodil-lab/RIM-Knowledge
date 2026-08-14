@@ -1,9 +1,15 @@
 # リリース・実装 03
 
-範囲: REC-008 冪等性〜7. バージョン運用
+範囲: REC-002 遺体回収〜1. 権威と変更規則
 
 ## 項目
 
+- [REC-002 遺体回収](/pawn/rec-002-%E9%81%BA%E4%BD%93%E5%9B%9E%E5%8F%8E.md) — MUST: 回収したシオン遺体をRecovery Facilityへ受け入れ、再起動、Archive再実体化、再資源化の利用可能な選択を表示する。
+- [REC-003 Ephemeral再起動](/pawn/rec-003-%E5%86%8D%E8%B5%B7%E5%8B%95.md) — MUST: Ephemeral Pawnは、遺体とPawn instance情報が残る間、低コストで同じ現在個体を再起動できる。
+- [REC-004 Ephemeral最終削除](/pawn/rec-004-%E6%9C%80%E7%B5%82%E5%89%8A%E9%99%A4.md) — MUST: Ephemeral Pawnの遺体を再資源化した場合、Pawn、Corpse、World Pawn、Relation、Archive、個体参照付きTale／Log、未解決参照をセーブ正本から除去する。
+- [REC-005 Registered再実体化](/pawn/rec-005-%E5%86%8D%E5%AE%9F%E4%BD%93%E5%8C%96.md) — MUST: Registered Individualの死亡後は、回収時にArchiveをcheckpointし、遺体を再資源化した後も同じindividualIdで一体を再実体化できる。
+- [REC-006 Clone選択](/pawn/rec-006-%E9%81%B8%E6%8A%9E.md) — MUST: Registered Individualが活動中またはDormantである場合、同じ原型からの追加生産は再実体化ではなくCloneとして明示する。
+- [REC-007 回収不能](/pawn/rec-007-%E5%9B%9E%E5%8F%8E%E4%B8%8D%E8%83%BD.md) — MUST: 遺体が消滅したEphemeral Pawnは同じ個体として復元できない。
 - [REC-008 冪等性](/pawn/rec-008-%E5%86%AA%E7%AD%89%E6%80%A7.md) — MUST: 回収、再起動、再資源化、再実体化のCommand再送で、Pawn、遺体、装備、資源を二重生成または二重回収しない。
 - [REC-009 Quest参照](/pawn/rec-009-%E5%8F%82%E7%85%A7.md) — MUST: Ephemeral最終削除の前にQuest、Lord、Relation、Faction、World Pawn、外部Adapterへ終了通知を送り、参照を解決する。
 - [REG-001 既存Pawn登録](/pawn/reg-001-%E6%97%A2%E5%AD%98-%E7%99%BB%E9%8C%B2.md) — MUST: 活動中またはDormantのシオンPawnをRegistered Individualへ変更できる。
@@ -78,9 +84,3 @@
 - [6. 再開ゲート](/research/remote-logistics/06-%E5%86%8D%E9%96%8B%E3%82%B2%E3%83%BC%E3%83%88.md) — 遠距離物流を再び計画へ入れるには、次を全て満たす。
 - [0. 結論](/roadmap/00-%E7%B5%90%E8%AB%96.md) — Coreは工業基盤を内部完成させてからShion種族を統合し、α、β、1.0の三段階で公開する。
 - [1. 権威と変更規則](/roadmap/01-%E6%A8%A9%E5%A8%81%E3%81%A8%E5%A4%89%E6%9B%B4%E8%A6%8F%E5%89%87.md) — 本書は、何を世界内の事実とするかではなく、どの段階で何を完成させるかを定める。
-- [2. 既知コードと再利用の方針](/roadmap/02-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A8%E5%86%8D%E5%88%A9%E7%94%A8%E3%81%AE%E6%96%B9%E9%87%9D.md) — コード再利用は現行責務、保存、試験、性能、依存方向、ライセンス、保守性を満たす単位だけに限定する。
-- [3. 1.0の最終完成像](/roadmap/03-1-0%E3%81%AE%E6%9C%80%E7%B5%82%E5%AE%8C%E6%88%90%E5%83%8F.md) — 最終的なCoreは、少なくとも次を一つの製品として成立させる。
-- [4. α版 — 最初の公開候補](/roadmap/04-%CE%B1%E7%89%88-%E2%80%94-%E6%9C%80%E5%88%9D%E3%81%AE%E5%85%AC%E9%96%8B%E5%80%99%E8%A3%9C.md) — α版は、内部完成した工業基盤へShion種族、図像、独立開始を最後に統合する最初の公開候補である。
-- [5. β版](/roadmap/05-%CE%B2%E7%89%88.md) — β版は、α版に含めなかったコアMODとレッドスターの要素を追加し、両製品を完成へ到達させる期間である。
-- [6. β終了／1.0完成条件](/roadmap/06-%CE%B2%E7%B5%82%E4%BA%86-1-0%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — 1.0以後も、身体、派閥、クエスト、装備、料理、動物、互換Adapter等を追加できる。
-- [7. バージョン運用](/roadmap/07-%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E9%81%8B%E7%94%A8.md) — バージョン番号だけで品質を主張しない、また各版は本書の完了条件と検証記録を伴う。

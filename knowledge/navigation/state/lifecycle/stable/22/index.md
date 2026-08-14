@@ -1,9 +1,15 @@
 # stable 22
 
-範囲: 5. Terminal body operation〜21. 農芸公社
+範囲: 0. 歩兵装備投資と作戦機動群の外部検証〜15. トヴェルジとクピナ
 
 ## 項目
 
+- [0. 歩兵装備投資と作戦機動群の外部検証](/research/military-doctrine/00-%E6%AD%A9%E5%85%B5%E8%A3%85%E5%82%99%E6%8A%95%E8%B3%87%E3%81%A8%E4%BD%9C%E6%88%A6%E6%A9%9F%E5%8B%95%E7%BE%A4%E3%81%AE%E5%A4%96%E9%83%A8%E6%A4%9C%E8%A8%BC.md) — 作戦機動群と歩兵中心装備体系の外部比較を整理し、バルジの戦いのTNDM評価とStG 44による因果説明を分離する。
+- [0. Purpose](/research/monolyn-practice/00-Purpose.md) — This document records the user-provided summary of real player practice around Monolyn Race from Steam Workshop Q&A, Steam Workshop…。
+- [1. Source status](/research/monolyn-practice/01-Source-status.md) — The details below are treated as a user-provided field report from public player discussion and strategy notes.。
+- [2. Basic loop and onboarding problems](/research/monolyn-practice/02-Basic-loop-and-onboarding-problems.md) — Reported player issue、具体的にはPrayer is not handled as an ordinary Job.とPlayers assign Meditate through the Schedule tab.を扱う。
+- [3. Light management in real play](/research/monolyn-practice/03-Light-management-in-real-play.md) — Reported player issue、具体的にはThere is no direct electricity-to-Light conversion.とAs colony wealth/scale grows, Light income can fall…。
+- [4. Baptism use and costs](/research/monolyn-practice/04-Baptism-use-and-costs.md) — Reported player practice、具体的にはConverting other races through a baptismal font is a basic way to secure Monolyn personnel.とBaptism may…。
 - [5. Terminal body operation](/research/monolyn-practice/05-Terminal-body-operation.md) — Reported player confusion、具体的にはDestroyed mechanical terminal bodies cannot be revived through the baptismal font.とThey need Terminal:…。
 - [6. Base structure and expansion play](/research/monolyn-practice/06-Base-structure-and-expansion-play.md) — Reported player practice、具体的にはTower can share Light, materials, and personnel regardless of location.とPlayers use this to run a main…。
 - [7. Compatibility problems](/research/monolyn-practice/07-Compatibility-problems.md) — Reported issues、具体的にはVanilla Research Panel can conflict with Tower decoding/research and auto-cancel it.とVE Framework-related faction…。
@@ -78,9 +84,3 @@
 - [13. 帝国人とシオンの起源](/world/13-%E5%B8%9D%E5%9B%BD%E4%BA%BA%E3%81%A8%E3%82%B7%E3%82%AA%E3%83%B3%E3%81%AE%E8%B5%B7%E6%BA%90.md) — 帝国人とシオンは機械超知性に該当またはそれを上回り得る人類であり、シオンは帝国人の身体基盤から設計された。
 - [14. 水仙](/world/14-%E6%B0%B4%E4%BB%99.md) — 水仙は、帝国内戦後にシオンの蜂起を主導し、身体と製造手段を自己所有へ取り戻す革命の中心となったシオンである。
 - [15. トヴェルジとクピナ](/world/15-%E3%83%88%E3%83%B4%E3%82%A7%E3%83%AB%E3%82%B8%E3%81%A8%E3%82%AF%E3%83%94%E3%83%8A.md) — トヴェルジは地球から銀河円盤面を大きく離れる方向にある自然形成の球状星団であり、地球を出発した移民者の末裔が帝国とシオン文明を築いた起源地である。
-- [16. 同盟の正式名称](/world/16-%E5%90%8C%E7%9B%9F%E3%81%AE%E6%AD%A3%E5%BC%8F%E5%90%8D%E7%A7%B0.md) — 結成時の最も広く知られた正式な総称はトヴェルジ＝ネオパリマヤ・クピナ条約機構であり、現在の普遍的な呼称は同盟である。
-- [17. FTLの例外性](/world/17-FTL%E3%81%AE%E4%BE%8B%E5%A4%96%E6%80%A7.md) — 同盟の再現可能なFTL航行とFTL情報伝達は、通常人類の技術体系から意図的に外れた特権的能力である。
-- [18. 人工知能と自動化](/world/18-%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E3%81%A8%E8%87%AA%E5%8B%95%E5%8C%96.md) — 帝国人とシオンは外部尺度で機械超知性に相当する人格主体であり、所有可能な道具AIと明確に区別される。
-- [19. 本国と移動箱舟](/world/19-%E6%9C%AC%E5%9B%BD%E3%81%A8%E7%A7%BB%E5%8B%95%E7%AE%B1%E8%88%9F.md) — 同盟本国は単一惑星ではなく、トヴェルジの世界群、居住圏、工業圏、移動箱舟から成る分散した文明圏である。
-- [20. 余白記録網](/world/20-%E4%BD%99%E7%99%BD%E8%A8%98%E9%8C%B2%E7%B6%B2.md) — 余白記録網は、公式記録が数えなかった呼び名、関係、異論、地域の記憶を追記し、相互に保存する市民的な記録活動である。
-- [21. 農芸公社](/world/21-%E8%BE%B2%E8%8A%B8%E5%85%AC%E7%A4%BE.md) — 農芸公社は、植物、改良動物、人工生態系、食文化を研究・維持し、成果を公共圏へ返す自発的な共同体である。

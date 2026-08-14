@@ -1,9 +1,15 @@
 # stable 21
 
-範囲: SHION_A404 第一次入植の仕立屋〜4. Baptism use and costs
+範囲: SHION_A398 環境観測隊の気象観測員〜4. 要求中間素材作成の操作イメージ
 
 ## 項目
 
+- [SHION_A398 環境観測隊の気象観測員](/reference/backstories/mastery/SHION_A398.md) — 空を毎日見て何が分かるのかって聞かれるけど、分かるようになるまでが長いのよ。
+- [SHION_A399 開拓団の狩猟番](/reference/backstories/mastery/SHION_A399.md) — 獲物より先に風を読め、というのが自分の師匠の口癖だった。
+- [SHION_A400 移住船団の帳簿係](/reference/backstories/mastery/SHION_A400.md) — 「この数字、また合わないぞ」と班長に何度も詰め寄られました。
+- [SHION_A401 種子船の記録画工](/reference/backstories/mastery/SHION_A401.md) — 種子船の記録画工では、最初は退屈な仕事だと思っていました。
+- [SHION_A402 巡回医療隊の産婆](/reference/backstories/mastery/SHION_A402.md) — 巡回医療隊で外部居住者の出産を支え、師匠から受け継いだ観察と沈着さを次の担当者へ伝えた。
+- [SHION_A403 建設隊の護衛兵](/reference/backstories/mastery/SHION_A403.md) — 記録には英雄的な防衛戦みたいに書かれるかもしれんが、実際は違う。
 - [SHION_A404 第一次入植の仕立屋](/reference/backstories/mastery/SHION_A404.md) — 古い布を捨てるくらいなら本人に持ってきてほしい、それだけはずっと言い続けてきました。
 - [SHION_A405 地質調査隊の測地画家](/reference/backstories/mastery/SHION_A405.md) — 完成した地図の余白を、獣道を歩き、縮尺を測り、一本ずつ線を引いて埋めた。
 - [SHION_A406 港湾建設隊の荷役頭](/reference/backstories/mastery/SHION_A406.md) — なんで荷役の頭なんて損な役回りを引き受けたのかって。
@@ -78,9 +84,3 @@
 - [2. Arsenal Codexの直接交換から採るもの](/research/kombinat-ui-references/02-Arsenal-Codex%E3%81%AE%E7%9B%B4%E6%8E%A5%E4%BA%A4%E6%8F%9B%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — 接続保管庫からPawnへ直接装備し、現在装備を同じ取引で返す操作を、Coreの原子的武器交換の参照とする。
 - [3. DSUから採るUIと採らない実装](/research/kombinat-ui-references/03-DSU%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8BUI%E3%81%A8%E6%8E%A1%E3%82%89%E3%81%AA%E3%81%84%E5%AE%9F%E8%A3%85.md) — DSUの検索・任意排出・Pawnアクセスは参照するが、中央Mapセルへ内容物を集積する保管方式は採用しない。
 - [4. 要求中間素材作成の操作イメージ](/research/kombinat-ui-references/04-%E8%A6%81%E6%B1%82%E4%B8%AD%E9%96%93%E7%B4%A0%E6%9D%90%E4%BD%9C%E6%88%90%E3%81%AE%E6%93%8D%E4%BD%9C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8.md) — 在庫とRecipeを並べ、最終品の要求から不足中間品と総材料を確認する簡潔な操作モデルをKombinatへ適用する。
-- [0. 歩兵装備投資と作戦機動群の外部検証](/research/military-doctrine/00-%E6%AD%A9%E5%85%B5%E8%A3%85%E5%82%99%E6%8A%95%E8%B3%87%E3%81%A8%E4%BD%9C%E6%88%A6%E6%A9%9F%E5%8B%95%E7%BE%A4%E3%81%AE%E5%A4%96%E9%83%A8%E6%A4%9C%E8%A8%BC.md) — 作戦機動群と歩兵中心装備体系の外部比較を整理し、バルジの戦いのTNDM評価とStG 44による因果説明を分離する。
-- [0. Purpose](/research/monolyn-practice/00-Purpose.md) — This document records the user-provided summary of real player practice around Monolyn Race from Steam Workshop Q&A, Steam Workshop…。
-- [1. Source status](/research/monolyn-practice/01-Source-status.md) — The details below are treated as a user-provided field report from public player discussion and strategy notes.。
-- [2. Basic loop and onboarding problems](/research/monolyn-practice/02-Basic-loop-and-onboarding-problems.md) — Reported player issue、具体的にはPrayer is not handled as an ordinary Job.とPlayers assign Meditate through the Schedule tab.を扱う。
-- [3. Light management in real play](/research/monolyn-practice/03-Light-management-in-real-play.md) — Reported player issue、具体的にはThere is no direct electricity-to-Light conversion.とAs colony wealth/scale grows, Light income can fall…。
-- [4. Baptism use and costs](/research/monolyn-practice/04-Baptism-use-and-costs.md) — Reported player practice、具体的にはConverting other races through a baptismal font is a basic way to secure Monolyn personnel.とBaptism may…。

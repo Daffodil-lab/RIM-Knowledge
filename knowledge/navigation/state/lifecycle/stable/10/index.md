@@ -1,9 +1,15 @@
 # stable 10
 
-範囲: INT-005 Ability Package〜SHION_C022 武具庫の読み上げ役
+範囲: GEN-007 反復可能性〜SHION_C016 図書館の配架手伝い
 
 ## 項目
 
+- [GEN-007 反復可能性](/pawn/gen-007-%E5%8F%8D%E5%BE%A9%E5%8F%AF%E8%83%BD%E6%80%A7.md) — MUST: 通常Pawnの生産へ一回限りのWorld Unique資源、有限許可回数、消滅する原型を要求しない。
+- [GEN-008 Repeat Order](/pawn/gen-008-%E8%A6%81%E4%BB%B6.md) — MUST: 適合条件、Design、Registered IndividualのCloneを数量指定または目標活動数で反復生産できる。
+- [INT-001 Production Adapter](/pawn/int-001-%E8%A6%81%E4%BB%B6.md) — MUST: Pawn FoundryはBody、Module、装備、消耗品をKombinat Production Requestとして発注できる。
+- [INT-002 三主題の維持](/pawn/int-002-%E4%B8%89%E4%B8%BB%E9%A1%8C%E3%81%AE%E7%B6%AD%E6%8C%81.md) — MUST: Kombinat側ではPawn要求を生産対象、Pawn需要を消費予測、Foundryへの引渡しを流通として表示する。
+- [INT-003 具体装備](/pawn/int-003-%E5%85%B7%E4%BD%93%E8%A3%85%E5%82%99.md) — MUST: 登録個体の固有装備、名前付き装備、Quest品は具体Thingとして追跡し、Clone時に複製しない。
+- [INT-004 装備ファミリー](/pawn/int-004-%E8%A3%85%E5%82%99%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC.md) — MUST: 武器、防具、工具、医療品等のFamily指定は、作者が明示登録した同用途・同性能帯・同費用帯の候補から具体Thingへ解決する。
 - [INT-005 Ability Package](/pawn/int-005-%E8%A6%81%E4%BB%B6.md) — MUST: 必要能力はBody Module、Gene、Trait、Skill、Passion、Ability、Hediff等の由来を区別して構成し、同じ効果を無関係な仕組みで暗黙代替しない。
 - [INT-006 取消と返却](/pawn/int-006-%E5%8F%96%E6%B6%88%E3%81%A8%E8%BF%94%E5%8D%B4.md) — MUST: 生産取消、設計変更、配備失敗時は、未消費資源、完成済み装備、部分完成Bodyを追跡し、複製せずCore独自保管・接続システムまたはMap上の受入先へ返却するか、Factory Buffer内で明示的に再利用する。
 - [PERF-001 Dormant停止](/pawn/perf-001-%E5%81%9C%E6%AD%A2.md) — MUST: Dormant PawnをRimWorld Pawn Tickまたは全件毎tick走査の対象にしない。
@@ -78,9 +84,3 @@
 - [SHION_C014 設備区画の見回り](/reference/backstories/formation/SHION_C014.md) — 居住区の熱交換設備を見回り、凍結しかけた管、過熱した弁、循環の偏りを点検した。
 - [SHION_C015 種子庫の記録助手](/reference/backstories/formation/SHION_C015.md) — 種子庫で品種、発芽率、収穫量、味、毒性、過去の栽培結果を台帳へ記した。
 - [SHION_C016 図書館の配架手伝い](/reference/backstories/formation/SHION_C016.md) — 増改築を重ねた帝国式書庫で、返却先の分からない本を正しい棚へ戻す仕事をした。
-- [SHION_C017 遊び場の仲裁役](/reference/backstories/formation/SHION_C017.md) — 居住区の盤上遊戯会で、説明書と地域ごとの慣習が食い違った時の仲裁を任された。
-- [SHION_C018 瓶詰め雲の収集家](/reference/backstories/formation/SHION_C018.md) — 旅先の空気を小瓶へ採り、日付、天候、土地の名を添えて集める趣味を持った。
-- [SHION_C019 鐘楼で暮らした](/reference/backstories/formation/SHION_C019.md) — 巡礼の途中で地方聖堂の鐘守一家に預けられ、鐘の時刻、金属の温度、綱の手入れを学んだ。
-- [SHION_C020 夜の天文台通い](/reference/backstories/formation/SHION_C020.md) — 眠りの浅い本人は航路宿の夜番となり、屋根から星、雲、接近する灯火を見張った。
-- [SHION_C021 廃句読点収集家](/reference/backstories/formation/SHION_C021.md) — 改訂で使われなくなった句読点や記号を集め、古い手紙と教本から用例を書き写した。
-- [SHION_C022 武具庫の読み上げ役](/reference/backstories/formation/SHION_C022.md) — 古物市で鎧の傷、補修材、刻印を調べ、以前の持主と使われた時代を推定する手伝いをした。

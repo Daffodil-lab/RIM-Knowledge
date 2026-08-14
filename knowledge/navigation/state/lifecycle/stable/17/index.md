@@ -1,9 +1,15 @@
 # stable 17
 
-範囲: SHION_A084 多重勲章の親衛兵〜SHION_A163 帰還兵港の救護医
+範囲: SHION_A078 評議会議長経験者〜SHION_A157 相互扶助区の地下救助員
 
 ## 項目
 
+- [SHION_A078 評議会議長経験者](/reference/backstories/mastery/SHION_A078.md) — 相反する星域と党派をまとめ、最盛期の平和を超える長期計画を可決へ導いた。
+- [SHION_A079 三星域調停官](/reference/backstories/mastery/SHION_A079.md) — 時間流も法律も異なる三つの星域を往復し、同じ合意文を三通りの未来で成立させた。
+- [SHION_A080 十二功績章の現場代表](/reference/backstories/mastery/SHION_A080.md) — 十二の星域で生産崩壊を立て直し、功績章を受けるたび現場の共同名義へ書き換えた。
+- [SHION_A081 本国公共医療功労者](/reference/backstories/mastery/SHION_A081.md) — 所属や身体規格を問わない医療網を築き、蘇生後の長期支援を治療の一部にした。
+- [SHION_A082 星域救難総監](/reference/backstories/mastery/SHION_A082.md) — 崩壊航路、時間災害、内戦遺構から多数の住民を救い、星域救難功労章を重ねた。
+- [SHION_A083 百回帰還の外交官](/reference/backstories/mastery/SHION_A083.md) — 敵対圏へ何度も戻り、古い友人と新しい政府の双方へ話した。
 - [SHION_A084 多重勲章の親衛兵](/reference/backstories/mastery/SHION_A084.md) — 射撃と近接の双方で同族から勲章を受け、多数の暗殺と災害から評議員を守った。
 - [SHION_A085 独立星港建設者](/reference/backstories/mastery/SHION_A085.md) — 社会民主党員、旧共産党員、ファシスト離党者、帝国離反者、無党派が使う星港を建てた。
 - [SHION_A086 故郷種子の運び手](/reference/backstories/mastery/SHION_A086.md) — 回収された故郷から種子を運び、別の空の下へ同じ花を植えた。
@@ -78,9 +84,3 @@
 - [SHION_A155 無人構造物調査船の救助員](/reference/backstories/mastery/SHION_A155.md) — 趣味の調査航行が高じて、無人巨大構造物へ向かう船の救助員になりました。
 - [SHION_A156 戦術教育環の仮設建築士](/reference/backstories/mastery/SHION_A156.md) — 戦術教育環の仮設建築士では、戦術教育環で、演習後に休む仮設棟を作りました。
 - [SHION_A157 相互扶助区の地下救助員](/reference/backstories/mastery/SHION_A157.md) — 相互扶助区の崩落で、共有工具を持って地下へ入りました。
-- [SHION_A158 帰還兵港の保存食職人](/reference/backstories/mastery/SHION_A158.md) — 帰還兵港で、食べる日へ合わせて保存食を仕込みました。
-- [SHION_A159 低温研究区の共同農園技師](/reference/backstories/mastery/SHION_A159.md) — 低温研究区の農園で、便利な冷却発明の影響を調べました。
-- [SHION_A160 後方支援庁の保護区飼育員](/reference/backstories/mastery/SHION_A160.md) — 後方支援庁で運搬動物を保護し、補給大会の審判もしました。
-- [SHION_A161 自治評議区の精密工](/reference/backstories/mastery/SHION_A161.md) — 自治評議区の工房では、党派ごとに道具の理想が違いました。
-- [SHION_A162 立入制限地の舞台演出家](/reference/backstories/mastery/SHION_A162.md) — 立入制限地の回収班で舞台を作り、危険遺物の密売摘発にも同行しました。
-- [SHION_A163 帰還兵港の救護医](/reference/backstories/mastery/SHION_A163.md) — 帰還兵港では、救護と危険技術の押収が同時に起きます。

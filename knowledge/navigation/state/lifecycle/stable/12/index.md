@@ -1,9 +1,15 @@
 # stable 12
 
-範囲: SHION_C103 居住区坑道の見習い〜SHION_C182 帝国書庫塔の再会窓口
+範囲: SHION_C097 無味覚の香料師〜SHION_C176 継承教室の再会膳
 
 ## 項目
 
+- [SHION_C097 無味覚の香料師](/reference/backstories/formation/SHION_C097.md) — 味覚入力を閉じた身体で香料を調合し、友人の表情だけを計器にした。
+- [SHION_C098 帰らない昨日の友](/reference/backstories/formation/SHION_C098.md) — 時間事故で「昨日」に残った友人へ、毎日同じ場所から手紙を送った。
+- [SHION_C099 静止庭の観測者](/reference/backstories/formation/SHION_C099.md) — 一秒が何世代にも伸びる庭園で、花が開く瞬間を観測した。
+- [SHION_C100 異常封じ込め射撃課程](/reference/backstories/formation/SHION_C100.md) — 射場で最初に教わったのは、引き金ではなく退路の数え方だった。
+- [SHION_C101 封鎖観測地の搬出訓練](/reference/backstories/formation/SHION_C101.md) — 封鎖観測地で、色覚への不信を抱えながら負傷者搬出と動物観察を訓練し、失敗痕も教材として残した。
+- [SHION_C102 制裁監査室の補修助手](/reference/backstories/formation/SHION_C102.md) — 制裁監査室の補修助手では、監査室の配管は、会議より正直だった。
 - [SHION_C103 居住区坑道の見習い](/reference/backstories/formation/SHION_C103.md) — 居住区坑道の見習いでは、地下は暗いから嫌いだろう、とよく言われます。
 - [SHION_C104 移動都市の共同食堂育ち](/reference/backstories/formation/SHION_C104.md) — 移動都市の共同食堂で、献立・香り・温度の記憶から失われた街路を語るようになった。
 - [SHION_C105 ヘイハルKombinatの菜園育ち](/reference/backstories/formation/SHION_C105.md) — ヘイハルKombinatの共同菜園で、誰でも直せる古い手押しポンプと停止時の共同作業を好んだ。
@@ -78,9 +84,3 @@
 - [SHION_C174 継承教室の仮設棟実習](/reference/backstories/formation/SHION_C174.md) — 継承教室で渡された古い仮設棟の図面は、教師自身が「そのまま使うな」と言いました。
 - [SHION_C175 孵育文化区の地下散策](/reference/backstories/formation/SHION_C175.md) — 孵育文化区の地下散策では、孵育文化区の地上は、温度も光も最適で退屈だった。
 - [SHION_C176 継承教室の再会膳](/reference/backstories/formation/SHION_C176.md) — 再会の席と追悼の席を分けるべきだ、と教本にはありました。
-- [SHION_C177 低温研究区の種子避難](/reference/backstories/formation/SHION_C177.md) — 低温技術の用途を聞く前に、失敗した時どこまで凍るか尋ねました。
-- [SHION_C178 残響深層の動物保護](/reference/backstories/formation/SHION_C178.md) — 残響深層の動物は、再現された砲声の前で毎回同じように怯えました。
-- [SHION_C179 内務記録所の筆記具修理](/reference/backstories/formation/SHION_C179.md) — 内務記録所で直したのは、筆記具と照合器、それに警備用の照準具だった。
-- [SHION_C180 継承教室の問いかけ劇](/reference/backstories/formation/SHION_C180.md) — 継承教室の舞台で、故郷・復活・別れに単一の正解を与えず、観客へ問い返した。
-- [SHION_C181 帝国騎士訓練場の帰還付き添い](/reference/backstories/formation/SHION_C181.md) — 騎士訓練場で蘇生者へ付き添うのも、最盛期の長い修業の一つだった。
-- [SHION_C182 帝国書庫塔の再会窓口](/reference/backstories/formation/SHION_C182.md) — 書庫塔の窓口では、大声の歓迎は禁じられていました。

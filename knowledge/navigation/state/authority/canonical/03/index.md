@@ -1,14 +1,20 @@
 # canonical 03
 
-範囲: CUR-001 Account〜DOR-007 装備
+範囲: 12. α Release Gate〜DOR-001 Dormant化
 
 ## 項目
 
-- [CUR-001 Account](/kombinat/requirements/cur-001-%E8%A6%81%E4%BB%B6.md) — MUST: 同盟通貨を物理Thing在庫と分離した64 bit整数残高として保存する。
-- [CUR-002 Transaction](/kombinat/requirements/cur-002-%E8%A6%81%E4%BB%B6.md) — MUST: 入金、支払、返金、取消はidempotency keyを持ち、全部成功または全部失敗する。
-- [CUR-003 Recipe禁止](/kombinat/requirements/cur-003-%E7%A6%81%E6%AD%A2.md) — MUST: 通貨を通常工業Recipeで発行しない。
-- [CUR-004 初期化](/kombinat/requirements/cur-004-%E5%88%9D%E6%9C%9F%E5%8C%96.md) — MUST: 独立開拓団開始時に一回だけProfile残高を適用し、途中失敗で部分残高を残さない。
-- [CUR-005 所在](/kombinat/requirements/cur-005-%E6%89%80%E5%9C%A8.md) — PENDING: αのAccount scope、複数Mapからの利用、Map wealthへの算入方法は実装前に確定する。
+- [12. α Release Gate](/kombinat/requirements/12-%CE%B1-Release-Gate-%E5%85%AC%E9%96%8B%E5%88%A4%E5%AE%9A.md) — α版はCore独自保管基盤との直接受渡し、三段生産、任意排出、保存・復旧をRelease Gateへ含める。
+- [13. β境界](/kombinat/requirements/13-%CE%B2%E5%A2%83%E7%95%8C.md) — β境界は、Pawn Foundry要求とEquipment Familyを扱う。
+- [CON-001 観測範囲](/kombinat/requirements/con-001-%E8%A6%B3%E6%B8%AC%E7%AF%84%E5%9B%B2.md) — MUST: Kombinat自身のBuffer、Factory、Core API、正式な上流APIから得たeventだけを消費集計へ使う。
+- [CON-002 不明表示](/kombinat/requirements/con-002-%E4%B8%8D%E6%98%8E%E8%A1%A8%E7%A4%BA.md) — MUST: Core Storageの公開eventで観測できない消費範囲を不明として明示する。
+- [CON-003 流通目標](/kombinat/requirements/con-003-%E6%B5%81%E9%80%9A%E7%9B%AE%E6%A8%99.md) — MUST: Storage在庫とFacility需要について最低量、目標量、優先度を設定できる。
+- [CON-004 上流設定](/kombinat/requirements/con-004-%E4%B8%8A%E6%B5%81%E8%A8%AD%E5%AE%9A.md) — MUST: Core StorageのFilter、容量、Endpoint設定はCoreの公開契約で所有する。
+- [CUR-001 Account](/kombinat/requirements/cur-001-%E8%A6%81%E4%BB%B6.md) — MUST: 同盟Creditを非貨幣の認可Accountとして保存し、カエルムMark、債務、租税のLedgerおよび物理Thing在庫から分離する。
+- [CUR-002 Transaction](/kombinat/requirements/cur-002-%E8%A6%81%E4%BB%B6.md) — MUST: Credit認定・予約・使用・返還と、Mark決済、債務返済、租税徴収、Thing受渡しはidempotency keyを持ち、全部成功または全部失敗する。
+- [CUR-003 台帳値のRecipe生成禁止](/kombinat/requirements/cur-003-%E7%A6%81%E6%AD%A2.md) — MUST: 同盟Credit、カエルムMark、債務、租税を通常工業Recipeで生成または消去しない。
+- [CUR-004 初期化](/kombinat/requirements/cur-004-%E5%88%9D%E6%9C%9F%E5%8C%96.md) — MUST: 開始時にProfileが宣言したCredit Accountと任意のMark・債務・租税Ledgerを一回だけ原子的に初期化する。
+- [CUR-005 所在と資産価値](/kombinat/requirements/cur-005-%E6%89%80%E5%9C%A8.md) — MUST: 非物理Account／Ledgerを組織単位のWorld状態として保存し、資産価値へ算入せず、複数Mapから同じIDで参照する。
 - [INT-001 無改造](/kombinat/requirements/int-001-%E7%84%A1%E6%94%B9%E9%80%A0.md) — MUST: KombinatはCore独自保管基盤のprivate状態を変更または参照せず、公開Application境界だけを使う。
 - [INT-002 通常経路](/kombinat/requirements/int-002-%E9%80%9A%E5%B8%B8%E7%B5%8C%E8%B7%AF.md) — MUST: 物理Thingの受渡しにはCore独自基盤が公開する予約・commit・release契約だけを使う。
 - [INT-003 Storage予約](/kombinat/requirements/int-003-%E4%BA%88%E7%B4%84.md) — MUST: Kombinatが工程へ算入できるのは、Core StorageがThing IDと数量で予約した入力だけである。
@@ -78,9 +84,3 @@
 - [ADV-009 全状態の保存と冪等性](/pawn/adv-009-%E5%85%A8%E7%8A%B6%E6%85%8B%E3%81%AE%E4%BF%9D%E5%AD%98%E3%81%A8%E5%86%AA%E7%AD%89%E6%80%A7.md) — MUST: 緊急再配備、着脱品返却、無人生産、参照解決、Manifest診断を途中保存できる。
 - [ADV-010 検証割当](/pawn/adv-010-%E6%A4%9C%E8%A8%BC%E5%89%B2%E5%BD%93.md) — MUST: 監査S-047〜060、S-064〜066を自動fixture、統合試験、手動試験のいずれかへ割り当て、対象build、DLC、外部MOD、操作、期待結果、物理費、ID、保存往復を記録する。
 - [DOR-001 Dormant化](/pawn/dor-001-%E5%8C%96.md) — MUST: 生存し、搬送可能で、禁止状態にないPawnをDormant Recordへ移せる。
-- [DOR-002 無料](/pawn/dor-002-%E7%84%A1%E6%96%99.md) — MUST: Dormant化、保管期間、再配備は資源、通貨、専用容量を消費しない。
-- [DOR-003 停止](/pawn/dor-003-%E5%81%9C%E6%AD%A2.md) — MUST: Dormant中はPawn Tick、Need、病気、出血、腐敗、充放電、Hediff経過、Ability cooldown、年齢進行を停止する。
-- [DOR-004 完全往復](/pawn/dor-004-%E5%AE%8C%E5%85%A8%E5%BE%80%E5%BE%A9.md) — MUST: 名前、load ID、individual ID、関係、技能、特性、遺伝情報、身体、内蔵Module、Hediff、Pawn設定をDormant化と再配備で維持する。
-- [DOR-005 同時所在](/pawn/dor-005-%E5%90%8C%E6%99%82%E6%89%80%E5%9C%A8.md) — MUST: 同じPawnがMap、Caravan、World Pawn、Dormant Recordの複数へ同時に存在しない。
-- [DOR-006 参照安全性](/pawn/dor-006-%E5%8F%82%E7%85%A7%E5%AE%89%E5%85%A8%E6%80%A7.md) — MUST: Quest、Lord、Faction、Ideology、Royalty、Gene、Bond、外部MOD参照を検査し、安全にDormant化できない理由を明示する。
-- [DOR-007 装備](/pawn/dor-007-%E8%A3%85%E5%82%99.md) — MUST: 着脱可能な装備、衣服、工具、inventory内ThingはDormant化のtransaction内でCore独自保管・接続システムまたはMap上の受入先へ一度だけ返却する。

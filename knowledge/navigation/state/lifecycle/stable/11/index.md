@@ -1,9 +1,15 @@
 # stable 11
 
-範囲: SHION_C023 旅する似顔絵師〜SHION_C102 制裁監査室の補修助手
+範囲: SHION_C017 遊び場の仲裁役〜SHION_C096 最盛期を超える作文
 
 ## 項目
 
+- [SHION_C017 遊び場の仲裁役](/reference/backstories/formation/SHION_C017.md) — 居住区の盤上遊戯会で、説明書と地域ごとの慣習が食い違った時の仲裁を任された。
+- [SHION_C018 瓶詰め雲の収集家](/reference/backstories/formation/SHION_C018.md) — 旅先の空気を小瓶へ採り、日付、天候、土地の名を添えて集める趣味を持った。
+- [SHION_C019 鐘楼で暮らした](/reference/backstories/formation/SHION_C019.md) — 巡礼の途中で地方聖堂の鐘守一家に預けられ、鐘の時刻、金属の温度、綱の手入れを学んだ。
+- [SHION_C020 夜の天文台通い](/reference/backstories/formation/SHION_C020.md) — 眠りの浅い本人は航路宿の夜番となり、屋根から星、雲、接近する灯火を見張った。
+- [SHION_C021 廃句読点収集家](/reference/backstories/formation/SHION_C021.md) — 改訂で使われなくなった句読点や記号を集め、古い手紙と教本から用例を書き写した。
+- [SHION_C022 武具庫の読み上げ役](/reference/backstories/formation/SHION_C022.md) — 古物市で鎧の傷、補修材、刻印を調べ、以前の持主と使われた時代を推定する手伝いをした。
 - [SHION_C023 旅する似顔絵師](/reference/backstories/formation/SHION_C023.md) — 移動市で似顔絵を描き、顔立ちだけでなく、道具の持ち方、立ち姿、修理痕まで画面へ収めた。
 - [SHION_C024 迷子案内人](/reference/backstories/formation/SHION_C024.md) — 大きな乗換所で迷った旅行者を案内し、目的地、乗継時刻、荷物の量に合わせて経路を選んだ。
 - [SHION_C025 休戦盤大会の常連](/reference/backstories/formation/SHION_C025.md) — 長い過渡期の避難区で、配給を待つ者たちへ盤上遊戯を教えた。
@@ -78,9 +84,3 @@
 - [SHION_C094 党派横断の炊事番](/reference/backstories/formation/SHION_C094.md) — 会議中も食事を止めず、敵対しかけた党派へ同じ鍋から配った。
 - [SHION_C095 帝国人の隣席](/reference/backstories/formation/SHION_C095.md) — 追放された帝国人、同盟の子、党派を諦めた教師と同じ教室で学んだ。
 - [SHION_C096 最盛期を超える作文](/reference/backstories/formation/SHION_C096.md) — 帝国最盛期の平和を褒め、その階級制を復元せずに暮らしだけを超える方法を書いた。
-- [SHION_C097 無味覚の香料師](/reference/backstories/formation/SHION_C097.md) — 味覚入力を閉じた身体で香料を調合し、友人の表情だけを計器にした。
-- [SHION_C098 帰らない昨日の友](/reference/backstories/formation/SHION_C098.md) — 時間事故で「昨日」に残った友人へ、毎日同じ場所から手紙を送った。
-- [SHION_C099 静止庭の観測者](/reference/backstories/formation/SHION_C099.md) — 一秒が何世代にも伸びる庭園で、花が開く瞬間を観測した。
-- [SHION_C100 異常封じ込め射撃課程](/reference/backstories/formation/SHION_C100.md) — 射場で最初に教わったのは、引き金ではなく退路の数え方だった。
-- [SHION_C101 封鎖観測地の搬出訓練](/reference/backstories/formation/SHION_C101.md) — 封鎖観測地で、色覚への不信を抱えながら負傷者搬出と動物観察を訓練し、失敗痕も教材として残した。
-- [SHION_C102 制裁監査室の補修助手](/reference/backstories/formation/SHION_C102.md) — 制裁監査室の補修助手では、監査室の配管は、会議より正直だった。

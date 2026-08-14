@@ -1,9 +1,15 @@
 # stable 16
 
-範囲: SHION_A004 記念庭園設計者〜SHION_A083 百回帰還の外交官
+範囲: SHION_C417 サイキック適性検査局の記録係〜SHION_A077 評議会記憶官
 
 ## 項目
 
+- [SHION_C417 サイキック適性検査局の記録係](/reference/backstories/formation/SHION_C417.md) — 育ての親は適性検査局で、感応の強さを測る針の動きを記録する仕事をしていた。
+- [SHION_C418 帝国拡張艦隊の甲板整理](/reference/backstories/formation/SHION_C418.md) — 俺の仕事は艦隊の格納庫に転がった工具や部品を集めることだった。
+- [SHION_C419 秘文字工房の顔料挽き](/reference/backstories/formation/SHION_C419.md) — あたしの仕事は、秘文字を書くための顔料を挽くことだった。
+- [SHION_A001 地区設備技師](/reference/backstories/mastery/SHION_A001.md) — 集合居住区の電力、水、暖房、熱交換設備を担当する技師となった。
+- [SHION_A002 義肢調律師](/reference/backstories/mastery/SHION_A002.md) — 義手の握力、義眼の焦点、人工関節の歩調を利用者ごとに調整する技師となった。
+- [SHION_A003 公共食堂主任](/reference/backstories/mastery/SHION_A003.md) — 公共食堂の主任として、外部住民と動物の栄養、禁忌、シオンの感覚設定、文化としての食事を管理した。
 - [SHION_A004 記念庭園設計者](/reference/backstories/mastery/SHION_A004.md) — 死者や失われた共同体を記念する庭園を設計した、また遺族が望む植物、開花時期、訪問しやすい通路を聞き取り、一つの英雄像へ記憶をまとめすぎないようにした。
 - [SHION_A005 星図編纂者](/reference/backstories/mastery/SHION_A005.md) — 複数時代の星図を照合し、移動した衛星、消えた航路標識、閉鎖された港を最新の図へ反映した。
 - [SHION_A006 移動診療医](/reference/backstories/mastery/SHION_A006.md) — 車両一台の診療所で辺境を巡り、住民、動物、義肢や補助器官の故障を診た。
@@ -78,9 +84,3 @@
 - [SHION_A075 破損奇跡の修復者](/reference/backstories/mastery/SHION_A075.md) — 願いだけ叶えて代価を忘れた装置を修理し、使用者の望みを聞く前に停止機構を作った。
 - [SHION_A076 帝国式装備詠唱師](/reference/backstories/mastery/SHION_A076.md) — 最盛期の装備詠唱を現代素材へ適合させ、内戦後に加えられた服従句を全て除いた。
 - [SHION_A077 評議会記憶官](/reference/backstories/mastery/SHION_A077.md) — 採決結果だけでなく、少数意見と途中で撤回された提案も保存した。
-- [SHION_A078 評議会議長経験者](/reference/backstories/mastery/SHION_A078.md) — 相反する星域と党派をまとめ、最盛期の平和を超える長期計画を可決へ導いた。
-- [SHION_A079 三星域調停官](/reference/backstories/mastery/SHION_A079.md) — 時間流も法律も異なる三つの星域を往復し、同じ合意文を三通りの未来で成立させた。
-- [SHION_A080 十二功績章の現場代表](/reference/backstories/mastery/SHION_A080.md) — 十二の星域で生産崩壊を立て直し、功績章を受けるたび現場の共同名義へ書き換えた。
-- [SHION_A081 本国公共医療功労者](/reference/backstories/mastery/SHION_A081.md) — 所属や身体規格を問わない医療網を築き、蘇生後の長期支援を治療の一部にした。
-- [SHION_A082 星域救難総監](/reference/backstories/mastery/SHION_A082.md) — 崩壊航路、時間災害、内戦遺構から多数の住民を救い、星域救難功労章を重ねた。
-- [SHION_A083 百回帰還の外交官](/reference/backstories/mastery/SHION_A083.md) — 敵対圏へ何度も戻り、古い友人と新しい政府の双方へ話した。

@@ -26,7 +26,7 @@ generated:
 
 # 内政台帳とNetwork Storageの統合境界
 
-内政台帳は、共同体の在庫、発注、生産能力、設備、物流方針、通貨、契約を一つの管理面から操作する。Core独自Network Storageは現地に存在する物理Thingを所有し、Kombinatは需要、予約、工程、設備能力、取引履歴を所有する。統合は画面とApplication層で行い、同じ在庫を二つの台帳へ複製しない。
+内政台帳は、共同体の在庫、発注、生産能力、設備、物流方針、同盟Credit、カエルムMark、債務、租税、契約を一つの管理面から操作する。Core独自Network Storageは現地に存在する物理Thingを所有し、Kombinatは需要、予約、工程、設備能力、Account／Ledger、取引履歴を所有する。統合は画面とApplication層で行い、同じ在庫やAccount／Ledger値を二つの台帳へ複製しない。
 
 ## 所有
 
@@ -35,11 +35,15 @@ generated:
 | 現地の材料、中間品、完成品 | Core独自Network Storageの`ThingOwner` | Thing単位 |
 | 利用可能数と予約済み数の索引 | Core Storageから再構築する派生索引 | Def・Network単位 |
 | 発注、依存計画、Job、Batch、優先度 | `WorldComponent_KombinatLedger` | 安定IDを持つRecord |
-| 通貨、契約、支払、返金 | Kombinat AccountとTransaction | 冪等Operation単位 |
+| 同盟Credit | Kombinat Credit AccountとTransaction | 組織Account・冪等Operation単位 |
+| カエルムMark、債務、租税 | 種別ごとのKombinat LedgerとTransaction | 組織Ledger・冪等Operation単位 |
+| 契約、支払、返金 | Kombinat Transaction | 冪等Operation単位 |
 | Map上の工場能力 | 工場CompとLedger上の施設Record | Facility ID単位 |
 | 画面上の集計 | 読み取り専用View Model | dirty eventごとに更新 |
 
 物理Thingは常に一つの`ThingOwner`へ属する。内政台帳の数量表示はNetwork Storageの実在庫とKombinatの予約を集計した表示であり、別の資源残高ではない。
+
+同盟Credit、カエルムMark、債務、租税の意味と成立条件は各正史所有者が定め、本項は統合境界だけを定める。同盟Creditは非貨幣の能力・実績・制度的信用に基づく資源・権限利用許可Accountであり、一般通貨、カエルムMark、債務、租税へ兼用しない。Account／Ledger値そのものはRimWorldの資産価値へ加算せず、Transactionで受領した物理Thingは通常どおり資産価値へ加算する。
 
 ## 無バッファ工場
 
@@ -84,7 +88,7 @@ Draft
 終端: Cancelled / Failed
 ```
 
-取消は未Commitの入力予約、出力容量予約、通貨予約、工場割当を同じOperationで解放する。処理中に工場が破壊された場合も、Network Storage内のThingは失われず、Jobだけが停止または再割当される。
+取消は未Commitの入力予約、出力容量予約、Credit／マルク予約、未Commitの債務・租税台帳操作、工場割当を同じOperationで解放する。Credit認定、マルク決済、債務返済、租税納付、Thing移転を同じ取引で行う場合は一つの原子的Transactionとして全てをCommitし、どれか一つでも失敗すれば全てを適用前へ戻す。処理中に工場が破壊された場合も、Network Storage内のThingは失われず、Jobだけが停止または再割当される。
 
 ## 統合管理画面
 
@@ -95,7 +99,7 @@ Draft
 3. **生産**: 目標在庫、発注、依存工程、Job、Batch
 4. **設備**: Map上と台帳上のFacility、能力、稼働率、故障、保守
 5. **物流**: Network、納入先、輸送、滞留、優先度
-6. **財務**: 通貨、契約、購入、売却、維持費、取引履歴
+6. **財務**: 同盟Credit、カエルムMark、債務、租税、契約、購入、売却、維持費、取引履歴
 
 Map上の工場Gizmoはこの画面の該当Facilityへ移動する。Network Storageの建築Gizmoは同じ画面の該当在庫へ移動する。工場固有のBuffer画面は設けない。
 
@@ -116,7 +120,7 @@ Map上の工場Gizmoはこの画面の該当Facilityへ移動する。Network St
 
 ## 採用値
 
-α実装はStorageの入力Thing予約、出力容量予約、冪等な生産Commit、予約索引、旧saveの工場Buffer回収を採用する。工場の対応Pattern、処理間隔、速度は`KombinatFacilityProfileDef`、World Accountの初期値は`KombinatLedgerDef`、管理画面の構成は`KombinatManagementPageDef`が所有する。遠隔Facility、Remote Inventory、Transit CargoはローカルStorage契約へ混入させず、別の保護草案として実装待ちにする。
+α実装はStorageの入力Thing予約、出力容量予約、冪等な生産Commit、予約索引、旧saveの工場Buffer回収を採用する。工場の対応Pattern、処理間隔、速度は`KombinatFacilityProfileDef`、同盟Credit Accountの初期値はCredit Account Profile、Scenario固有のカエルムMark、債務、租税の初期値は各Ledger Profile、管理画面の構成は`KombinatManagementPageDef`が所有する。遠隔Facility、Remote Inventory、Transit CargoはローカルStorage契約へ混入させず、別の保護草案として実装待ちにする。
 
 ## 関連項目
 
@@ -126,3 +130,7 @@ Map上の工場Gizmoはこの画面の該当Facilityへ移動する。Network St
 - [Kombinat UI](/kombinat/core/09-UI-操作画面.md)
 - [遠隔物流の保護草案](/research/remote-logistics/index.md)
 - [遠征共同体の野心と産業化](/world/27-遠征共同体の野心と産業化.md)
+- [同盟Credit](/world/39-同盟通貨.md)
+- [カエラヴィ個人債務](/world/60-カエラヴィ個人債務.md)
+- [カエラヴィ個人債務Scenario](/design/64-カエラヴィ個人債務Scenario.md)
+- [Mark・Credit・債務・税のWorld台帳](/design/67-Mark・Credit・債務・税のWorld台帳.md)

@@ -1,9 +1,15 @@
 # stable 15
 
-範囲: SHION_C343 次の甲板を提案します〜SHION_A003 公共食堂主任
+範囲: SHION_C337 三つの言語と一つの食卓〜SHION_C416 イェツィラー学舎の写経見習い
 
 ## 項目
 
+- [SHION_C337 三つの言語と一つの食卓](/reference/backstories/formation/SHION_C337.md) — 三つの言語と一つの食卓では、あたしは作られた民族、文化継承第三期よ。
+- [SHION_C338 平常運転の裏側](/reference/backstories/formation/SHION_C338.md) — 育ての親の一人は造水班で、壊れた濾過装置の修理中に事故で亡くなりました。
+- [SHION_C339 特に思い入れはない](/reference/backstories/formation/SHION_C339.md) — 特に思い入れはないでは、自分の子供時代に特別な思い入れはない。
+- [SHION_C340 船は貝殻だった](/reference/backstories/formation/SHION_C340.md) — 船は貝殻だったでは、礁の民文化を継いだ先達はよく、この船を貝殻に例えました。
+- [SHION_C341 逃げたわけじゃない](/reference/backstories/formation/SHION_C341.md) — 逃げたわけじゃないでは、逃げたわけじゃないんだ、本人は。
+- [SHION_C342 配給計算の手順](/reference/backstories/formation/SHION_C342.md) — 配給計算の手順では、配給計算は次の手順で行いました。
 - [SHION_C343 次の甲板を提案します](/reference/backstories/formation/SHION_C343.md) — うちが十歳のとき、学童班の遊び場が狭くて喧嘩が絶えなかったから、通路脇の空き区画を遊び場に使えないか大人に提案したの。
 - [SHION_C344 「儀礼班の子」ではありません](/reference/backstories/formation/SHION_C344.md) — 「儀礼班の子」ではありませんでは、「儀礼班の子」と呼ばれるが、それは正確じゃない。
 - [SHION_C345 灯を回す、灯を回す](/reference/backstories/formation/SHION_C345.md) — 意味がまだ定まらない時代から、隣へ灯を回す所作を反復し、後の律法形成を身体で覚えた。
@@ -78,9 +84,3 @@
 - [SHION_C414 港湾都市の潮見習い](/reference/backstories/formation/SHION_C414.md) — あたしの仕事は毎日決まった時間に港の潮位標を見に行くことだった。
 - [SHION_C415 種Cell研究所の培養見習い](/reference/backstories/formation/SHION_C415.md) — 主任研究員に渡された鉄粉の皿を、本人は毎朝そっと覗きに行った。
 - [SHION_C416 イェツィラー学舎の写経見習い](/reference/backstories/formation/SHION_C416.md) — 師は、見習いだった本人にマソレットの一文字も書かせず、まず完成済みの文字を読むことから教えた。
-- [SHION_C417 サイキック適性検査局の記録係](/reference/backstories/formation/SHION_C417.md) — 育ての親は適性検査局で、感応の強さを測る針の動きを記録する仕事をしていた。
-- [SHION_C418 帝国拡張艦隊の甲板整理](/reference/backstories/formation/SHION_C418.md) — 俺の仕事は艦隊の格納庫に転がった工具や部品を集めることだった。
-- [SHION_C419 秘文字工房の顔料挽き](/reference/backstories/formation/SHION_C419.md) — あたしの仕事は、秘文字を書くための顔料を挽くことだった。
-- [SHION_A001 地区設備技師](/reference/backstories/mastery/SHION_A001.md) — 集合居住区の電力、水、暖房、熱交換設備を担当する技師となった。
-- [SHION_A002 義肢調律師](/reference/backstories/mastery/SHION_A002.md) — 義手の握力、義眼の焦点、人工関節の歩調を利用者ごとに調整する技師となった。
-- [SHION_A003 公共食堂主任](/reference/backstories/mastery/SHION_A003.md) — 公共食堂の主任として、外部住民と動物の栄養、禁忌、シオンの感覚設定、文化としての食事を管理した。

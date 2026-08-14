@@ -1,9 +1,15 @@
 # stable 20
 
-範囲: SHION_A324 資材輸送隊の荷駄頭〜SHION_A403 建設隊の護衛兵
+範囲: SHION_A318 造成隊の地均し師〜SHION_A397 給水隊の配管工
 
 ## 項目
 
+- [SHION_A318 造成隊の地均し師](/reference/backstories/mastery/SHION_A318.md) — 造成隊の仕事を、更地を平らにするだけの単純作業だと思っている人が多いが、それは違う。
+- [SHION_A319 越冬隊の食糧番](/reference/backstories/mastery/SHION_A319.md) — 越冬隊の食糧番では、越冬隊での配給の話ならいくらでもできる。
+- [SHION_A320 灌漑組合の水路引き](/reference/backstories/mastery/SHION_A320.md) — 灌漑組合で水路を引いた区画は今も現役だが、正直に言うと設計は甘かった。
+- [SHION_A321 境界哨戒隊の見張り番](/reference/backstories/mastery/SHION_A321.md) — 今は哨戒に出ることはない、装備の点検を任されているだけだ。
+- [SHION_A322 育種班の選種人](/reference/backstories/mastery/SHION_A322.md) — 育種班の選種人では、試した品種は三十七、いや正確には三十八だった。
+- [SHION_A323 気象観測班の雲読み](/reference/backstories/mastery/SHION_A323.md) — 気象観測班の雲読みでは、気象観測班の仕事についてよくある誤解が三つある。
 - [SHION_A324 資材輸送隊の荷駄頭](/reference/backstories/mastery/SHION_A324.md) — 資材輸送隊の荷駄頭では、荷を落とした話をされると、今でも少し身構える。
 - [SHION_A325 地質調査団の石割り](/reference/backstories/mastery/SHION_A325.md) — 地質調査というのは、星の日記を読む仕事に似ている。
 - [SHION_A326 大気改良班の空薄め師](/reference/backstories/mastery/SHION_A326.md) — 大気改良班の仕事は、装置を設置して数値を記録し、翌年また少し数値が動いたことを確認するだけの繰り返しだった。
@@ -78,9 +84,3 @@
 - [SHION_A395 通信中継隊の中継技官](/reference/backstories/mastery/SHION_A395.md) — 通信中継隊の中継技官では、中継塔の保守というのは、故障を待つ仕事である。
 - [SHION_A396 採掘隊の火薬係](/reference/backstories/mastery/SHION_A396.md) — 採掘隊の火薬係では、一番信用されない仕事だったよ、火薬係なんてのは。
 - [SHION_A397 給水隊の配管工](/reference/backstories/mastery/SHION_A397.md) — 配管の継ぎ手はもっと規格を統一するべきだと本人はずっと思っていました。
-- [SHION_A398 環境観測隊の気象観測員](/reference/backstories/mastery/SHION_A398.md) — 空を毎日見て何が分かるのかって聞かれるけど、分かるようになるまでが長いのよ。
-- [SHION_A399 開拓団の狩猟番](/reference/backstories/mastery/SHION_A399.md) — 獲物より先に風を読め、というのが自分の師匠の口癖だった。
-- [SHION_A400 移住船団の帳簿係](/reference/backstories/mastery/SHION_A400.md) — 「この数字、また合わないぞ」と班長に何度も詰め寄られました。
-- [SHION_A401 種子船の記録画工](/reference/backstories/mastery/SHION_A401.md) — 種子船の記録画工では、最初は退屈な仕事だと思っていました。
-- [SHION_A402 巡回医療隊の産婆](/reference/backstories/mastery/SHION_A402.md) — 巡回医療隊で外部居住者の出産を支え、師匠から受け継いだ観察と沈着さを次の担当者へ伝えた。
-- [SHION_A403 建設隊の護衛兵](/reference/backstories/mastery/SHION_A403.md) — 記録には英雄的な防衛戦みたいに書かれるかもしれんが、実際は違う。
