@@ -1,9 +1,18 @@
 # stable 16
 
-範囲: SHION_A013 書庫復元員〜SHION_A092 復活船団衛生長
+範囲: SHION_A004 記念庭園設計者〜SHION_A083 百回帰還の外交官
 
 ## 項目
 
+- [SHION_A004 記念庭園設計者](/reference/backstories/mastery/SHION_A004.md) — 死者や失われた共同体を記念する庭園を設計した、また遺族が望む植物、開花時期、訪問しやすい通路を聞き取り、一つの英雄像へ記憶をまとめすぎないようにした。
+- [SHION_A005 星図編纂者](/reference/backstories/mastery/SHION_A005.md) — 複数時代の星図を照合し、移動した衛星、消えた航路標識、閉鎖された港を最新の図へ反映した。
+- [SHION_A006 移動診療医](/reference/backstories/mastery/SHION_A006.md) — 車両一台の診療所で辺境を巡り、住民、動物、義肢や補助器官の故障を診た。
+- [SHION_A007 動物機工](/reference/backstories/mastery/SHION_A007.md) — 荷獣の鞍、義肢、自動給餌器を同じ工房で整備する動物機工となった。
+- [SHION_A008 構造聴診士](/reference/backstories/mastery/SHION_A008.md) — 壁や梁へ聴音器を当て、配管の脈動、岩盤の小さな破断、固定具の緩みを診断する構造聴診士となった。
+- [SHION_A009 物資台帳官](/reference/backstories/mastery/SHION_A009.md) — 同盟補給局で、台帳上の在庫と現場が実際に使える物資の差を調べた。
+- [SHION_A010 葬送司会者](/reference/backstories/mastery/SHION_A010.md) — 宗派や党派の異なる遺族のため、葬送の順番、弔辞、音楽、食事を調整する司会者となった。
+- [SHION_A011 気象観測主任](/reference/backstories/mastery/SHION_A011.md) — 農業観測所の主任として、雨、灰、毒霧、日照を測り、農家と居住区へ予報を伝えた。
+- [SHION_A012 彫刻採掘師](/reference/backstories/mastery/SHION_A012.md) — 岩を切り出す前に内部の模様、亀裂、材質を読み、建材に向く部分と彫刻へ使える部分を分ける採掘師となった。
 - [SHION_A013 書庫復元員](/reference/backstories/mastery/SHION_A013.md) — 焼けた頁、破損した記憶媒体、重複する索引から書庫を復元した。
 - [SHION_A014 多言語仲裁人](/reference/backstories/mastery/SHION_A014.md) — 言葉だけでなく、沈黙、贈答、席順、身振りの意味まで訳す仲裁人となった。
 - [SHION_A015 マソレット写字生](/reference/backstories/mastery/SHION_A015.md) — マソレットの写字生として、原文、異本、後世の注釈を区別して書き写した。
@@ -75,12 +84,3 @@
 - [SHION_A081 本国公共医療功労者](/reference/backstories/mastery/SHION_A081.md) — 所属や身体規格を問わない医療網を築き、蘇生後の長期支援を治療の一部にした。
 - [SHION_A082 星域救難総監](/reference/backstories/mastery/SHION_A082.md) — 崩壊航路、時間災害、内戦遺構から多数の住民を救い、星域救難功労章を重ねた。
 - [SHION_A083 百回帰還の外交官](/reference/backstories/mastery/SHION_A083.md) — 敵対圏へ何度も戻り、古い友人と新しい政府の双方へ話した。
-- [SHION_A084 多重勲章の親衛兵](/reference/backstories/mastery/SHION_A084.md) — 射撃と近接の双方で同族から勲章を受け、多数の暗殺と災害から評議員を守った。
-- [SHION_A085 独立星港建設者](/reference/backstories/mastery/SHION_A085.md) — 社会民主党員、旧共産党員、ファシスト離党者、帝国離反者、無党派が使う星港を建てた。
-- [SHION_A086 故郷種子の運び手](/reference/backstories/mastery/SHION_A086.md) — 回収された故郷から種子を運び、別の空の下へ同じ花を植えた。
-- [SHION_A087 辺境共同体史家](/reference/backstories/mastery/SHION_A087.md) — 党派の指導者より、井戸を掘った者、最初に冬を越した動物、喧嘩の後も残った料理を記録した。
-- [SHION_A088 蘇生設備の巡回工](/reference/backstories/mastery/SHION_A088.md) — 小集落を巡り、使われないことを願われる蘇生設備を整備した。
-- [SHION_A089 孤行開拓測量士](/reference/backstories/mastery/SHION_A089.md) — 無人天体を一人で測り、未来の共同体が住める谷と掘ってはいけない墓域を地図へ分けた。
-- [SHION_A090 時間災害工兵](/reference/backstories/mastery/SHION_A090.md) — 崩壊する時間区画へ入り、まだ起きていない爆発の瓦礫から避難路を掘った。
-- [SHION_A091 同盟親衛射手](/reference/backstories/mastery/SHION_A091.md) — 遠距離射撃で避難路を守り、同族からも稀な精度を認められた。
-- [SHION_A092 復活船団衛生長](/reference/backstories/mastery/SHION_A092.md) — 避難船で死者の保存、負傷者の治療、蘇生後の再会を一つの医療計画として扱った。

@@ -1,9 +1,18 @@
 # stable 09
 
-範囲: PRD-007 Job〜REC-003 Ephemeral再起動
+範囲: PERF-002 Planner〜INT-004 装備ファミリー
 
 ## 項目
 
+- [PERF-002 Planner](/kombinat/requirements/perf-002-%E8%A6%81%E4%BB%B6.md) — MUST: 一Planを最大200 node、100 ms以内、または一frame 4 ms以下の分割処理で終える暫定目標を持つ。
+- [PERF-003 長期](/kombinat/requirements/perf-003-%E9%95%B7%E6%9C%9F.md) — MUST: 60,000 tickの連続生産で、StorageのThing差分0、予約漏れ0、二重完了0、未回収終端処理0を確認する。
+- [PERF-004 保存](/kombinat/requirements/perf-004-%E4%BF%9D%E5%AD%98.md) — MUST: 500 Job、2,000 Batch履歴、10,000 Buffer Thingの保存・ロード時間、ファイル増分、GC allocationを記録する。
+- [PRD-001 定義](/kombinat/requirements/prd-001-%E5%AE%9A%E7%BE%A9.md) — MUST: Production Patternは次を持つ。
+- [PRD-002 入力Role](/kombinat/requirements/prd-002-%E5%85%A5%E5%8A%9B.md) — MUST: Consume、LockAndReturn、TransformAndReturn、ContainerReturnを区別する。
+- [PRD-003 Recipe分類](/kombinat/requirements/prd-003-%E5%88%86%E9%A1%9E.md) — MUST: RecipeをKombinat Automated、Vanilla Work Required、Official Adapter Required、Unsupportedへ分類する。
+- [PRD-004 Request](/kombinat/requirements/prd-004-%E8%A6%81%E4%BB%B6.md) — MUST: 具体ThingDef、Recipe、数量または目標在庫、優先度、出力先を指定できる。
+- [PRD-005 Plan](/kombinat/requirements/prd-005-%E8%A6%81%E4%BB%B6.md) — MUST: Recipe依存を有界DAGへ展開し、循環を検出する。
+- [PRD-006 複数経路](/kombinat/requirements/prd-006-%E8%A4%87%E6%95%B0%E7%B5%8C%E8%B7%AF.md) — MUST: 同じ出力を作れる複数Patternがある場合、作者優先度、完成可能性、設備、概算時間、stable IDの決定順を使う。
 - [PRD-007 Job](/kombinat/requirements/prd-007-%E8%A6%81%E4%BB%B6.md) — MUST: 承認済みPlanをJobとして保存し、Pattern version、選んだRecipe、入力条件、出力条件を固定する。
 - [PRD-008 Batch](/kombinat/requirements/prd-008-%E8%A6%81%E4%BB%B6.md) — MUST: 一Batchの全入力Thingと出力容量がCore Storageで予約され、設備が利用可能な時だけ開始する。
 - [PRD-009 Output Claim](/kombinat/requirements/prd-009-%E8%A6%81%E4%BB%B6.md) — MUST: 同じThingDefがどこかへ出現しただけでBatchを完了しない。
@@ -75,12 +84,3 @@
 - [INT-002 三主題の維持](/pawn/int-002-%E4%B8%89%E4%B8%BB%E9%A1%8C%E3%81%AE%E7%B6%AD%E6%8C%81.md) — MUST: Kombinat側ではPawn要求を生産対象、Pawn需要を消費予測、Foundryへの引渡しを流通として表示する。
 - [INT-003 具体装備](/pawn/int-003-%E5%85%B7%E4%BD%93%E8%A3%85%E5%82%99.md) — MUST: 登録個体の固有装備、名前付き装備、Quest品は具体Thingとして追跡し、Clone時に複製しない。
 - [INT-004 装備ファミリー](/pawn/int-004-%E8%A3%85%E5%82%99%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC.md) — MUST: 武器、防具、工具、医療品等のFamily指定は、作者が明示登録した同用途・同性能帯・同費用帯の候補から具体Thingへ解決する。
-- [INT-005 Ability Package](/pawn/int-005-%E8%A6%81%E4%BB%B6.md) — MUST: 必要能力はBody Module、Gene、Trait、Skill、Passion、Ability、Hediff等の由来を区別して構成し、同じ効果を無関係な仕組みで暗黙代替しない。
-- [INT-006 取消と返却](/pawn/int-006-%E5%8F%96%E6%B6%88%E3%81%A8%E8%BF%94%E5%8D%B4.md) — MUST: 生産取消、設計変更、配備失敗時は、未消費資源、完成済み装備、部分完成Bodyを追跡し、複製せずCore独自保管・接続システムまたはMap上の受入先へ返却するか、Factory Buffer内で明示的に再利用する。
-- [PERF-001 Dormant停止](/pawn/perf-001-%E5%81%9C%E6%AD%A2.md) — MUST: Dormant PawnをRimWorld Pawn Tickまたは全件毎tick走査の対象にしない。
-- [PERF-002 Event更新](/pawn/perf-002-%E6%9B%B4%E6%96%B0.md) — MUST: Archive checkpoint、需要数、Clone活動数、回収状態をevent駆動で更新する。
-- [PERF-003 World Pawn漏れ](/pawn/perf-003-%E6%BC%8F%E3%82%8C.md) — MUST: Ephemeralを一万体生成・回収・再資源化するfixture後も、World Pawn、Relation、Tale、Archiveが生成総数に比例して残留しない。
-- [PERF-004 量産](/pawn/perf-004-%E9%87%8F%E7%94%A3.md) — MUST: 同一DesignまたはClone Sourceから100体を連続生産するfixtureで、ID重複、参照共有、装備複製、無制限履歴増加を起こさない。
-- [REC-001 低コスト修復](/pawn/rec-001-%E4%BD%8E%E3%82%B3%E3%82%B9%E3%83%88%E4%BF%AE%E5%BE%A9.md) — MUST: 生存Pawnの通常負傷、欠損、故障、交換可能Moduleを、標準新規Pawn生産より低い資源と時間で回復できる。
-- [REC-002 遺体回収](/pawn/rec-002-%E9%81%BA%E4%BD%93%E5%9B%9E%E5%8F%8E.md) — MUST: 回収したシオン遺体をRecovery Facilityへ受け入れ、再起動、Archive再実体化、再資源化の利用可能な選択を表示する。
-- [REC-003 Ephemeral再起動](/pawn/rec-003-%E5%86%8D%E8%B5%B7%E5%8B%95.md) — MUST: Ephemeral Pawnは、遺体とPawn instance情報が残る間、低コストで同じ現在個体を再起動できる。

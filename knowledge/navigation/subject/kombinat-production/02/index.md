@@ -1,9 +1,10 @@
 # Kombinat・生産物流 02
 
-範囲: 11. 欠陥の所有と切り分け〜SHION_C160 ヘイハルKombinatの射撃同好会
+範囲: 10. 保存と原子性〜SHION_C158 ヘイハルKombinatの再会窓口
 
 ## 項目
 
+- [10. 保存と原子性](/kombinat/core/10-%E4%BF%9D%E5%AD%98%E3%81%A8%E5%8E%9F%E5%AD%90%E6%80%A7.md) — Kombinatは次だけを保存するという方針の適用範囲と条件を定める。
 - [11. 欠陥の所有と切り分け](/kombinat/core/11-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E3%81%AE%E6%89%B1%E3%81%84.md) — Core StorageとKombinatの欠陥は再現条件と取引所有者から切り分け、各所有者のRelease Gateへ登録する。
 - [12. α完成条件](/kombinat/core/12-%CE%B1%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Kombinat αはShion種族実装に先行し、バニラHumanのfixtureでThingOwner間の直接転送、三段生産、任意排出を成立させる。
 - [13. β](/kombinat/core/13-%CE%B2-%E7%8F%BE%E8%A1%8C%E4%BB%95%E6%A7%98.md) — Equipment Familyは作者が明示登録した候補だけを使う。
@@ -83,4 +84,3 @@
 - [SHION_C105 ヘイハルKombinatの菜園育ち](/reference/backstories/formation/SHION_C105.md) — ヘイハルKombinatの共同菜園で、誰でも直せる古い手押しポンプと停止時の共同作業を好んだ。
 - [SHION_C142 Kombinat保護区の再稼働祭](/reference/backstories/formation/SHION_C142.md) — Kombinatの再稼働祭では、保護区の動物も工程ごとに歩かせました。
 - [SHION_C158 ヘイハルKombinatの再会窓口](/reference/backstories/formation/SHION_C158.md) — Kombinatの再会窓口では、記憶差を故障表のように扱うな、と最初に教わりました。
-- [SHION_C160 ヘイハルKombinatの射撃同好会](/reference/backstories/formation/SHION_C160.md) — Kombinatの射撃同好会は、古い照準器を直して新型と競わせる変わった集まりだった。

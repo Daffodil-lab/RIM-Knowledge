@@ -1,9 +1,17 @@
 # リリース・実装 02
 
-範囲: 14. 実装順〜REG-006 Clone Source
+範囲: 6. 無人生産〜REC-007 回収不能
 
 ## 項目
 
+- [6. 無人生産](/kombinat/core/06-%E7%84%A1%E4%BA%BA%E7%94%9F%E7%94%A3.md) — Kombinat専用FactoryとKombinat専用Patternは、Pawnがいなくても電力、材料、設備状態を満たせば稼働できる。
+- [7. 保管中の時間進行](/kombinat/core/07-Stasis-%E4%BF%9D%E7%AE%A1%E4%B8%AD%E3%81%AE%E6%99%82%E9%96%93%E9%80%B2%E8%A1%8C.md) — 保管中の時間進行方針はCore独自Storageが対象別に所有し、Kombinatはその判定を維持する。
+- [8. 消費と流通](/kombinat/core/08-%E6%B6%88%E8%B2%BB%E3%81%A8%E6%B5%81%E9%80%9A.md) — Kombinatは接続先保管基盤の内部消費を無断で監視せず、公開された観測境界だけを使う。
+- [9. UI](/kombinat/core/09-UI-%E6%93%8D%E4%BD%9C%E7%94%BB%E9%9D%A2.md) — Field Ledger Terminalを選択して全機能へ入る暗色のRimWorld管理Windowを基準とし、通常表示と最大化表示を同じDef駆動Page railで提供する。
+- [10. 保存と原子性](/kombinat/core/10-%E4%BF%9D%E5%AD%98%E3%81%A8%E5%8E%9F%E5%AD%90%E6%80%A7.md) — Kombinatは次だけを保存するという方針の適用範囲と条件を定める。
+- [11. 欠陥の所有と切り分け](/kombinat/core/11-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E3%81%AE%E6%89%B1%E3%81%84.md) — Core StorageとKombinatの欠陥は再現条件と取引所有者から切り分け、各所有者のRelease Gateへ登録する。
+- [12. α完成条件](/kombinat/core/12-%CE%B1%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Kombinat αはShion種族実装に先行し、バニラHumanのfixtureでThingOwner間の直接転送、三段生産、任意排出を成立させる。
+- [13. β](/kombinat/core/13-%CE%B2-%E7%8F%BE%E8%A1%8C%E4%BB%95%E6%A7%98.md) — Equipment Familyは作者が明示登録した候補だけを使う。
 - [14. 実装順](/kombinat/core/14-%E5%AE%9F%E8%A3%85%E9%A0%86.md) — 工業UIのRimWorld 1.6画面契約を先に固定し、Shion種族に先行してCore独自保管・接続システムとKombinatをバニラHumanのfixtureで完成させる。
 - [12. α Release Gate](/kombinat/requirements/12-%CE%B1-Release-Gate-%E5%85%AC%E9%96%8B%E5%88%A4%E5%AE%9A.md) — α版はCore独自保管基盤との直接受渡し、三段生産、任意排出、保存・復旧をRelease Gateへ含める。
 - [13. β境界](/kombinat/requirements/13-%CE%B2%E5%A2%83%E7%95%8C.md) — β境界は、Pawn Foundry要求とEquipment Familyを扱う。
@@ -76,11 +84,3 @@
 - [REC-005 Registered再実体化](/pawn/rec-005-%E5%86%8D%E5%AE%9F%E4%BD%93%E5%8C%96.md) — MUST: Registered Individualの死亡後は、回収時にArchiveをcheckpointし、遺体を再資源化した後も同じindividualIdで一体を再実体化できる。
 - [REC-006 Clone選択](/pawn/rec-006-%E9%81%B8%E6%8A%9E.md) — MUST: Registered Individualが活動中またはDormantである場合、同じ原型からの追加生産は再実体化ではなくCloneとして明示する。
 - [REC-007 回収不能](/pawn/rec-007-%E5%9B%9E%E5%8F%8E%E4%B8%8D%E8%83%BD.md) — MUST: 遺体が消滅したEphemeral Pawnは同じ個体として復元できない。
-- [REC-008 冪等性](/pawn/rec-008-%E5%86%AA%E7%AD%89%E6%80%A7.md) — MUST: 回収、再起動、再資源化、再実体化のCommand再送で、Pawn、遺体、装備、資源を二重生成または二重回収しない。
-- [REC-009 Quest参照](/pawn/rec-009-%E5%8F%82%E7%85%A7.md) — MUST: Ephemeral最終削除の前にQuest、Lord、Relation、Faction、World Pawn、外部Adapterへ終了通知を送り、参照を解決する。
-- [REG-001 既存Pawn登録](/pawn/reg-001-%E6%97%A2%E5%AD%98-%E7%99%BB%E9%8C%B2.md) — MUST: 活動中またはDormantのシオンPawnをRegistered Individualへ変更できる。
-- [REG-002 Archive更新](/pawn/reg-002-%E6%9B%B4%E6%96%B0.md) — MUST: Archiveは登録時、Dormant化時、手動保存時、死亡回収時にevent駆動でcheckpointする。
-- [REG-003 単一個体制約](/pawn/reg-003-%E5%8D%98%E4%B8%80%E5%80%8B%E4%BD%93%E5%88%B6%E7%B4%84.md) — MUST: 同じindividualIdを持つ活動中またはDormantの実体を二体作らない。
-- [REG-004 Design保存](/pawn/reg-004-%E4%BF%9D%E5%AD%98.md) — MUST: プレイヤー設計を個体情報のない再利用可能なPawn Designとして保存できる。
-- [REG-005 単一個体として保存](/pawn/reg-005-%E5%8D%98%E4%B8%80%E5%80%8B%E4%BD%93%E3%81%A8%E3%81%97%E3%81%A6%E4%BF%9D%E5%AD%98.md) — MUST: プレイヤー設計を名前とindividualIdを持つ一人のIndividual Archiveとして保存し、必要な時にその個体を生産できる。
-- [REG-006 Clone Source](/pawn/reg-006-%E8%A4%87%E8%A3%BD%E5%80%8B%E4%BD%93.md) — MUST: Registered Individual、Authored Individual、Saved Pawn DesignをClone Sourceに指定できる。

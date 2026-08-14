@@ -1,9 +1,10 @@
 # canonical 02
 
-範囲: 45. Human Weapons計画の実装境界〜INT-004 引渡し
+範囲: 44. Human Weapons計画（仮称）〜CON-004 上流設定
 
 ## 項目
 
+- [44. Human Weapons計画（仮称）](/design/44-Human-Weapons%E8%A8%88%E7%94%BB%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9.md) — Human Weapons計画（仮称）は、初期の対人類戦役で現地政権と協力者へ安価かつ迅速に供給できる、人間用の高性能火薬式火器を整備した同盟の調達計画である。
 - [45. Human Weapons計画の実装境界](/design/45-Human-Weapons%E8%A8%88%E7%94%BB%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — Human Weapons計画品を、品質を持たず、構造材だけで製造でき、結晶資源や常設電力を使わない人間用の独自火薬式火器として実装する。
 - [46. 装備アーカイブ番号体系](/design/46-%E8%A3%85%E5%82%99%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E7%95%AA%E5%8F%B7%E4%BD%93%E7%B3%BB.md) — 同盟の全装備は、三桁の分類番号と五桁の登録番号を空白で区切ったアーカイブ番号、および種類コードによって設計・型式単位で管理される。
 - [47. 装備アーカイブ番号の実装境界](/design/47-%E8%A3%85%E5%82%99%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E7%95%AA%E5%8F%B7%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 同盟装備の三桁分類番号、五桁登録番号、種類コードを安定した定義メタデータとして保持し、重複、形式不正、分類不一致を検証する。
@@ -18,6 +19,14 @@
 - [56. Shion標準遠征身体の実装仕様](/design/56-Shion%E6%A8%99%E6%BA%96%E9%81%A0%E5%BE%81%E8%BA%AB%E4%BD%93%E3%81%AE%E5%AE%9F%E8%A3%85%E4%BB%95%E6%A7%98.md) — Shion標準遠征身体の器官、能力値、欠損状態、休息、Anomaly拒絶、心情と将来拡張点を定める。
 - [57. レッドスター惑星戦役](/design/57-%E3%83%AC%E3%83%83%E3%83%89%E3%82%B9%E3%82%BF%E3%83%BC%E6%83%91%E6%98%9F%E6%88%A6%E5%BD%B9.md) — レッドスター惑星戦役は、無政府状態の辺境惑星で介入、抵抗、惑星統一の三路線を遊ぶ任意の段階制キャンペーンである。
 - [58. スカイフレア電気推進ジェットパック](/design/58-%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%95%E3%83%AC%E3%82%A2%E9%9B%BB%E6%B0%97%E6%8E%A8%E9%80%B2%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E3%83%91%E3%83%83%E3%82%AF.md) — スカイフレアは21世紀後半に登場し、改造によって歩兵一人ひとりへ必要な時だけ戦闘ヘリに似た能力を与えるまで成熟した個人飛行装備の祖型である。
+- [59. バニラ優先カエラヴィ種族実装境界](/design/59-%E3%83%90%E3%83%8B%E3%83%A9%E5%84%AA%E5%85%88%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E7%A8%AE%E6%97%8F%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — カエラヴィはHuman継承、BiotechのGeneとXenotype、標準Pawn描画、公式DLCの公開機構を用いる人型鳥類種族として実装する。
+- [60. カエラヴィ標準身体の実装仕様](/design/60-%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E6%A8%99%E6%BA%96%E8%BA%AB%E4%BD%93%E3%81%AE%E5%AE%9F%E8%A3%85%E4%BB%95%E6%A7%98.md) — カエラヴィ標準身体の人型基盤、基礎能力、機能翼、開放気嚢、Gene描画と系統別差分の接続点を定める。
+- [61. 遺伝性鳥類系統の共通Xenotype契約](/design/61-%E9%81%BA%E4%BC%9D%E6%80%A7%E9%B3%A5%E9%A1%9E%E7%B3%BB%E7%B5%B1%E3%81%AE%E5%85%B1%E9%80%9AXenotype%E5%A5%91%E7%B4%84.md) — 六つの遺伝性鳥類Xenotypeを、共通三Geneと長所・短所・外見を一体化した一つのatomic lineage Geneで構成する。
+- [62. カエラヴィ軍務ゼノジャーム共通実装契約](/design/62-%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E8%BB%8D%E5%8B%99%E3%82%BC%E3%83%8E%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%A0%E5%85%B1%E9%80%9A%E5%AE%9F%E8%A3%85%E5%A5%91%E7%B4%84.md) — 八つの軍務兵科を非遺伝性xenogermとして実装し、六つの遺伝性鳥類系統すべてと最終Met +2で合成する。
+- [63. フリーカ・コーラと軍用複合刺激剤の実装境界](/design/63-%E3%83%95%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%BB%E3%82%B3%E3%83%BC%E3%83%A9%E3%81%A8%E8%BB%8D%E7%94%A8%E8%A4%87%E5%90%88%E5%88%BA%E6%BF%80%E5%89%A4%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — フリーカ・コーラをバニラChocolateとBeerへ接続し、軍務適合者向け複合刺激剤を標準Drug、Chemical、Addiction、Withdrawalで実装する。
+- [64. カエラヴィ個人債務Scenario](/design/64-%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E5%80%8B%E4%BA%BA%E5%82%B5%E5%8B%99Scenario.md) — カエルム政府へ負う各カエラヴィの個人債務をInt64の台帳Recordとして開始し、Scenarioごとの初期支援、納税、返済へ接続する。
+- [65. 帝国軍務教範の状態機械](/design/65-%E5%B8%9D%E5%9B%BD%E8%BB%8D%E5%8B%99%E6%95%99%E7%AF%84%E3%81%AE%E7%8A%B6%E6%85%8B%E6%A9%9F%E6%A2%B0.md) — 帝国軍務教範は、平時、警戒、戦闘、復旧の希望態勢と実適用状態を分離し、検証済みの差分を有界キューで適用する。
+- [66. 帝国軍務教範の一括操作境界](/design/66-%E5%B8%9D%E5%9B%BD%E8%BB%8D%E5%8B%99%E6%95%99%E7%AF%84%E3%81%AE%E4%B8%80%E6%8B%AC%E6%93%8D%E4%BD%9C%E5%A2%83%E7%95%8C.md) — 帝国軍務教範は、可逆的なバニラ方針と登録済み命令を態勢遷移へ含め、政治的、不可逆、対象選択を伴う操作を別確認へ分離する。
 - [一件一ファイルとリンク規則](/governance/atomicity-and-links-%E4%B8%80%E4%BB%B6%E4%B8%80%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%A8%E3%83%AA%E3%83%B3%E3%82%AF%E8%A6%8F%E5%89%87.md) — 知識は、単独で参照・更新・廃止できる最小単位へ分ける。
 - [知識の権威順位とライフサイクル](/governance/authority-and-lifecycle-%E7%9F%A5%E8%AD%98%E3%81%AE%E6%A8%A9%E5%A8%81%E9%A0%86%E4%BD%8D%E3%81%A8%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB.md) — このOKFバンドルはRIMプロジェクト知識の入口であり、原子的な概念ファイルを現行の参照単位とする。
 - [コード解説の作成規則](/governance/code-explanation-policy-%E3%82%B3%E3%83%BC%E3%83%89%E8%A7%A3%E8%AA%AC%E3%81%AE%E4%BD%9C%E6%88%90%E8%A6%8F%E5%89%87.md) — コード変更には、非技術者が目的、処理の流れ、状態変更、失敗時結果、検査範囲を追える日本語解説を同じPull Requestで添える。
@@ -75,12 +84,3 @@
 - [CON-002 不明表示](/kombinat/requirements/con-002-%E4%B8%8D%E6%98%8E%E8%A1%A8%E7%A4%BA.md) — MUST: Core Storageの公開eventで観測できない消費範囲を不明として明示する。
 - [CON-003 流通目標](/kombinat/requirements/con-003-%E6%B5%81%E9%80%9A%E7%9B%AE%E6%A8%99.md) — MUST: Storage在庫とFacility需要について最低量、目標量、優先度を設定できる。
 - [CON-004 上流設定](/kombinat/requirements/con-004-%E4%B8%8A%E6%B5%81%E8%A8%AD%E5%AE%9A.md) — MUST: Core StorageのFilter、容量、Endpoint設定はCoreの公開契約で所有する。
-- [CUR-001 Account](/kombinat/requirements/cur-001-%E8%A6%81%E4%BB%B6.md) — MUST: 同盟通貨を物理Thing在庫と分離した64 bit整数残高として保存する。
-- [CUR-002 Transaction](/kombinat/requirements/cur-002-%E8%A6%81%E4%BB%B6.md) — MUST: 入金、支払、返金、取消はidempotency keyを持ち、全部成功または全部失敗する。
-- [CUR-003 Recipe禁止](/kombinat/requirements/cur-003-%E7%A6%81%E6%AD%A2.md) — MUST: 通貨を通常工業Recipeで発行しない。
-- [CUR-004 初期化](/kombinat/requirements/cur-004-%E5%88%9D%E6%9C%9F%E5%8C%96.md) — MUST: 独立開拓団開始時に一回だけProfile残高を適用し、途中失敗で部分残高を残さない。
-- [CUR-005 所在](/kombinat/requirements/cur-005-%E6%89%80%E5%9C%A8.md) — PENDING: αのAccount scope、複数Mapからの利用、Map wealthへの算入方法は実装前に確定する。
-- [INT-001 無改造](/kombinat/requirements/int-001-%E7%84%A1%E6%94%B9%E9%80%A0.md) — MUST: KombinatはCore独自保管基盤のprivate状態を変更または参照せず、公開Application境界だけを使う。
-- [INT-002 通常経路](/kombinat/requirements/int-002-%E9%80%9A%E5%B8%B8%E7%B5%8C%E8%B7%AF.md) — MUST: 物理Thingの受渡しにはCore独自基盤が公開する予約・commit・release契約だけを使う。
-- [INT-003 Storage予約](/kombinat/requirements/int-003-%E4%BA%88%E7%B4%84.md) — MUST: Kombinatが工程へ算入できるのは、Core StorageがThing IDと数量で予約した入力だけである。
-- [INT-004 引渡し](/kombinat/requirements/int-004-%E5%BC%95%E6%B8%A1%E3%81%97.md) — MUST: 生産出力はCore Storageへ直接生成し、Kombinat側の所有Thingを作らない。

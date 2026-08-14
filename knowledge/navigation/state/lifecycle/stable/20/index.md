@@ -1,9 +1,18 @@
 # stable 20
 
-範囲: SHION_A333 探査隊の縁境哨戒者〜SHION_A412 辺境行政府の巡察官
+範囲: SHION_A324 資材輸送隊の荷駄頭〜SHION_A403 建設隊の護衛兵
 
 ## 項目
 
+- [SHION_A324 資材輸送隊の荷駄頭](/reference/backstories/mastery/SHION_A324.md) — 資材輸送隊の荷駄頭では、荷を落とした話をされると、今でも少し身構える。
+- [SHION_A325 地質調査団の石割り](/reference/backstories/mastery/SHION_A325.md) — 地質調査というのは、星の日記を読む仕事に似ている。
+- [SHION_A326 大気改良班の空薄め師](/reference/backstories/mastery/SHION_A326.md) — 大気改良班の仕事は、装置を設置して数値を記録し、翌年また少し数値が動いたことを確認するだけの繰り返しだった。
+- [SHION_A327 通信中継班の中継守](/reference/backstories/mastery/SHION_A327.md) — 通信中継班の先任がよく言っていた、「届く声より、届かなかった沈黙の方を数えろ」と。
+- [SHION_A328 救難班の呼び出し手](/reference/backstories/mastery/SHION_A328.md) — 救難班の呼び出し手では、救難班にいた頃、合言葉は「声のする方へ」だった。
+- [SHION_A329 水利設計班の水割り師](/reference/backstories/mastery/SHION_A329.md) — 水利設計班の花形と呼ばれたことがある、皮肉なことに、それは水路の半分が最初の年に凍結で割れた後のことだった。
+- [SHION_A330 航路整備隊の星図引き](/reference/backstories/mastery/SHION_A330.md) — 星図というものが、完成すると思ったことがあるだろうか。
+- [SHION_A331 種苗管理班の発芽番](/reference/backstories/mastery/SHION_A331.md) — 種苗管理班の発芽番では、種苗管理班の仕事は地味だ。
+- [SHION_A332 入植地の屋根継ぎ](/reference/backstories/mastery/SHION_A332.md) — 入植地の屋根はどれも一度は雨漏りする、これは本人が最初に学んだことだった。
 - [SHION_A333 探査隊の縁境哨戒者](/reference/backstories/mastery/SHION_A333.md) — この星団の縁がどこにあるか、正確に答えられる者がいると思うか。
 - [SHION_A334 移住船団の百人料理番](/reference/backstories/mastery/SHION_A334.md) — 移住船団に同乗した外部居住者と、食文化へ参加するシオンの最初の百人分の食事を、限られた保存食だけで回していたのが本人だった。
 - [SHION_A335 甲板機関の整備工](/reference/backstories/mastery/SHION_A335.md) — 甲板機関の心臓部を止めず、文化的先達から継いだ工具と失敗記録を次の整備者へ渡した。
@@ -75,12 +84,3 @@
 - [SHION_A401 種子船の記録画工](/reference/backstories/mastery/SHION_A401.md) — 種子船の記録画工では、最初は退屈な仕事だと思っていました。
 - [SHION_A402 巡回医療隊の産婆](/reference/backstories/mastery/SHION_A402.md) — 巡回医療隊で外部居住者の出産を支え、師匠から受け継いだ観察と沈着さを次の担当者へ伝えた。
 - [SHION_A403 建設隊の護衛兵](/reference/backstories/mastery/SHION_A403.md) — 記録には英雄的な防衛戦みたいに書かれるかもしれんが、実際は違う。
-- [SHION_A404 第一次入植の仕立屋](/reference/backstories/mastery/SHION_A404.md) — 古い布を捨てるくらいなら本人に持ってきてほしい、それだけはずっと言い続けてきました。
-- [SHION_A405 地質調査隊の測地画家](/reference/backstories/mastery/SHION_A405.md) — 完成した地図の余白を、獣道を歩き、縮尺を測り、一本ずつ線を引いて埋めた。
-- [SHION_A406 港湾建設隊の荷役頭](/reference/backstories/mastery/SHION_A406.md) — なんで荷役の頭なんて損な役回りを引き受けたのかって。
-- [SHION_A407 通信中継隊の暗号係](/reference/backstories/mastery/SHION_A407.md) — 通信中継隊の暗号係では、覚えている数字が三つあります。
-- [SHION_A408 動植物馴化隊の獣医補](/reference/backstories/mastery/SHION_A408.md) — まず傷口を洗う、それから膿を確認する、それから薬を塗る、それから包帯を巻く。
-- [SHION_A409 灌漑隊の腕っぷし](/reference/backstories/mastery/SHION_A409.md) — 料理番のくせに喧嘩っ早いって、よくからかわれたよ。
-- [SHION_A410 星路建設隊の航路技師](/reference/backstories/mastery/SHION_A410.md) — 本人が打った航路標識は、数えていた頃で九百を超えていました。
-- [SHION_A411 交易船団の交渉員](/reference/backstories/mastery/SHION_A411.md) — 俺の仕事は簡単に言えば、初対面の開拓地相手に値切ることだ。
-- [SHION_A412 辺境行政府の巡察官](/reference/backstories/mastery/SHION_A412.md) — 開拓地が増えれば増えるほど、本人のところに届く訴えも増えました。

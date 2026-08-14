@@ -71,6 +71,8 @@ export const TOPICAL_TAGS = new Set([
   "body",
   "campaign",
   "cargo",
+  "caelavi",
+  "caelum",
   "catalog-guide",
   "cell",
   "character",
@@ -166,6 +168,12 @@ export const TOPICAL_TAGS = new Set([
 ]);
 
 export const TOPIC_DEFINITIONS = [
+  {
+    id: "caelum-caelavi",
+    label: "カエルム・カエラヴィ",
+    tags: ["caelum", "caelavi"],
+    pattern: /カエルム|カエラヴィ|Caelum|Caelavi/i,
+  },
   {
     id: "world-canon",
     label: "世界観・正史",

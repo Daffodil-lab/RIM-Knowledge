@@ -1,9 +1,18 @@
 # stable 12
 
-範囲: SHION_C112 水没観測所の射撃課程〜SHION_C191 非常令監視区の修理会
+範囲: SHION_C103 居住区坑道の見習い〜SHION_C182 帝国書庫塔の再会窓口
 
 ## 項目
 
+- [SHION_C103 居住区坑道の見習い](/reference/backstories/formation/SHION_C103.md) — 居住区坑道の見習いでは、地下は暗いから嫌いだろう、とよく言われます。
+- [SHION_C104 移動都市の共同食堂育ち](/reference/backstories/formation/SHION_C104.md) — 移動都市の共同食堂で、献立・香り・温度の記憶から失われた街路を語るようになった。
+- [SHION_C105 ヘイハルKombinatの菜園育ち](/reference/backstories/formation/SHION_C105.md) — ヘイハルKombinatの共同菜園で、誰でも直せる古い手押しポンプと停止時の共同作業を好んだ。
+- [SHION_C106 星間市場の動物診療助手](/reference/backstories/formation/SHION_C106.md) — 市場では誰もが値段を話しますが、診療台の獣だけは何も言いません。
+- [SHION_C107 帰還兵港の工具係](/reference/backstories/formation/SHION_C107.md) — 帰還兵の工具は、握りを見ればいつの時代から来たか分かりました。
+- [SHION_C108 自治評議区の舞台競技者](/reference/backstories/formation/SHION_C108.md) — 自治評議区の追悼劇で、死者の名を読む前に観客を笑わせ、最後まで席に残す役を担った。
+- [SHION_C109 共同祝宴堂の救護助手](/reference/backstories/formation/SHION_C109.md) — 共同祝宴堂の救護卓で、感覚反応と不安を分けて聞き、避難扉の不良も見つけた。
+- [SHION_C110 帝国安全研究院の案内係](/reference/backstories/formation/SHION_C110.md) — 最盛期の研究院は、門が多い代わりに理由も説明しました。
+- [SHION_C111 巡礼船記録院の見習い](/reference/backstories/formation/SHION_C111.md) — 巡礼船の記録院では、事実を黒、推測を青、後世の注釈を金で書き分けました。
 - [SHION_C112 水没観測所の射撃課程](/reference/backstories/formation/SHION_C112.md) — 水没観測所の射場は、標的より水面を見ている時間の方が長かった。
 - [SHION_C113 塔域の救出遊戯](/reference/backstories/formation/SHION_C113.md) — 塔の狭い保守路から人形を静かに運び出し、全員の帰還を数える救出遊戯を競った。
 - [SHION_C114 帝国共同住宅跡の補修助手](/reference/backstories/formation/SHION_C114.md) — 帝国共同住宅跡の補修助手では、共同住宅は整然としていました。
@@ -75,12 +84,3 @@
 - [SHION_C180 継承教室の問いかけ劇](/reference/backstories/formation/SHION_C180.md) — 継承教室の舞台で、故郷・復活・別れに単一の正解を与えず、観客へ問い返した。
 - [SHION_C181 帝国騎士訓練場の帰還付き添い](/reference/backstories/formation/SHION_C181.md) — 騎士訓練場で蘇生者へ付き添うのも、最盛期の長い修業の一つだった。
 - [SHION_C182 帝国書庫塔の再会窓口](/reference/backstories/formation/SHION_C182.md) — 書庫塔の窓口では、大声の歓迎は禁じられていました。
-- [SHION_C183 律法監察教室の余白記録](/reference/backstories/formation/SHION_C183.md) — 律法監察教室では、事実、推測、後世の注釈を別欄へ書きました。
-- [SHION_C184 革命連合後方区の射撃仲間](/reference/backstories/formation/SHION_C184.md) — 後方区の射場では、昨日まで別の党旗を掲げた者とも精度を競いました。
-- [SHION_C185 革命連合後方区の群衆警護](/reference/backstories/formation/SHION_C185.md) — 本人は気が短いので、武器を持たない警護練習を選びました。
-- [SHION_C186 計画都市の余白住宅](/reference/backstories/formation/SHION_C186.md) — 計画都市の余白住宅では、完成図の美しさには興味がありません。
-- [SHION_C187 地下灯祭の坑道飾り](/reference/backstories/formation/SHION_C187.md) — 地下灯祭では、坑道の亀裂へ灯りを置き、戻らなかった者の好きな形を壁へ彫りました。
-- [SHION_C188 装甲救援隊の帰還膳](/reference/backstories/formation/SHION_C188.md) — 装甲救援隊の帰還膳では、戻った者と戻らない者の器を同じ卓へ置きました。
-- [SHION_C189 封鎖観測地の種子監視](/reference/backstories/formation/SHION_C189.md) — 封鎖地の種は、色が変わっただけで処分を求められました。
-- [SHION_C190 帝国自治会跡の老獣番](/reference/backstories/formation/SHION_C190.md) — 自治会が解散した後も、役目を終えた動物だけは建物に残りました。
-- [SHION_C191 非常令監視区の修理会](/reference/backstories/formation/SHION_C191.md) — 非常令が出た時、最初に禁止されたのは武器ではなく、修理票の余白に書く冗談だった。

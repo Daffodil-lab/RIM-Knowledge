@@ -1,6 +1,6 @@
 # Kombinat・生産物流 01
 
-範囲: 8. 製品・内部モジュール別の責務境界〜10. 保存と原子性
+範囲: 8. 製品・内部モジュール別の責務境界〜9. UI
 
 ## 項目
 
@@ -58,6 +58,7 @@
 - [51. Core独自保管・接続システムの実装境界](/design/51-Core%E7%8B%AC%E8%87%AA%E4%BF%9D%E7%AE%A1%E6%8E%A5%E7%B6%9A%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — α版からCore独自のThing保管・接続・入出庫システムを正規基盤とし、設備間を直接転送し、内容物の任意排出を提供する。
 - [内政台帳とNetwork Storageの統合境界](/design/54-%E5%86%85%E6%94%BF%E5%8F%B0%E5%B8%B3%E3%81%A8Network-Storage%E3%81%AE%E7%B5%B1%E5%90%88%E5%A2%83%E7%95%8C.md) — 内政管理、Core独自Network Storage、Kombinat生産を一つの需給台帳へ統合し、工場を在庫を持たない設備能力として実装する。
 - [Core・公式DLC量産カタログ境界](/design/55-Core%E5%85%AC%E5%BC%8FDLC%E9%87%8F%E7%94%A3%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0%E5%A2%83%E7%95%8C.md) — Coreと五つの公式DLCに属する反復可能な通常Recipeから、Kombinatの無人量産カタログをDef駆動で生成する。
+- [63. フリーカ・コーラと軍用複合刺激剤の実装境界](/design/63-%E3%83%95%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%BB%E3%82%B3%E3%83%BC%E3%83%A9%E3%81%A8%E8%BB%8D%E7%94%A8%E8%A4%87%E5%90%88%E5%88%BA%E6%BF%80%E5%89%A4%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — フリーカ・コーラをバニラChocolateとBeerへ接続し、軍務適合者向け複合刺激剤を標準Drug、Chemical、Addiction、Withdrawalで実装する。
 - [知識所有者マップ](/governance/ownership-map-%E7%9F%A5%E8%AD%98%E6%89%80%E6%9C%89%E8%80%85%E3%83%9E%E3%83%83%E3%83%97.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
 - [0. 結論](/kombinat/audit/00-%E7%B5%90%E8%AB%96.md) — α版からCore独自保管基盤との予約・受渡し・確定を監査し、Kombinat固有状態の安全性を検証する。
 - [1. 監査原則](/kombinat/audit/01-%E7%9B%A3%E6%9F%BB%E5%8E%9F%E5%89%87.md) — 監査は所有者別に再現条件を分離し、Kombinatの複製・消失・二重処理・破壊的復旧をblockerとして扱う。
@@ -83,4 +84,3 @@
 - [7. 保管中の時間進行](/kombinat/core/07-Stasis-%E4%BF%9D%E7%AE%A1%E4%B8%AD%E3%81%AE%E6%99%82%E9%96%93%E9%80%B2%E8%A1%8C.md) — 保管中の時間進行方針はCore独自Storageが対象別に所有し、Kombinatはその判定を維持する。
 - [8. 消費と流通](/kombinat/core/08-%E6%B6%88%E8%B2%BB%E3%81%A8%E6%B5%81%E9%80%9A.md) — Kombinatは接続先保管基盤の内部消費を無断で監視せず、公開された観測境界だけを使う。
 - [9. UI](/kombinat/core/09-UI-%E6%93%8D%E4%BD%9C%E7%94%BB%E9%9D%A2.md) — Field Ledger Terminalを選択して全機能へ入る暗色のRimWorld管理Windowを基準とし、通常表示と最大化表示を同じDef駆動Page railで提供する。
-- [10. 保存と原子性](/kombinat/core/10-%E4%BF%9D%E5%AD%98%E3%81%A8%E5%8E%9F%E5%AD%90%E6%80%A7.md) — Kombinatは次だけを保存するという方針の適用範囲と条件を定める。

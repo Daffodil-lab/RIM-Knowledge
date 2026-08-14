@@ -1,9 +1,18 @@
 # stable 22
 
-範囲: 0. Purpose〜30. 人類としての自己認識
+範囲: 5. Terminal body operation〜21. 農芸公社
 
 ## 項目
 
+- [5. Terminal body operation](/research/monolyn-practice/05-Terminal-body-operation.md) — Reported player confusion、具体的にはDestroyed mechanical terminal bodies cannot be revived through the baptismal font.とThey need Terminal:…。
+- [6. Base structure and expansion play](/research/monolyn-practice/06-Base-structure-and-expansion-play.md) — Reported player practice、具体的にはTower can share Light, materials, and personnel regardless of location.とPlayers use this to run a main…。
+- [7. Compatibility problems](/research/monolyn-practice/07-Compatibility-problems.md) — Reported issues、具体的にはVanilla Research Panel can conflict with Tower decoding/research and auto-cancel it.とVE Framework-related faction…。
+- [8. The four real Monolyn management layers](/research/monolyn-practice/08-The-four-real-Monolyn-management-layers.md) — The reported practical Monolyn loop appears to combine four resource-management layers、具体的にはprayer/meditation schedule…。
+- [9. Adopt / avoid table for Shion Nexus](/research/monolyn-practice/09-Adopt-avoid-table-for-Shion-Nexus.md) — Adopt / avoid table for Shion Nexusは、Monolyn player-practice pattern：Shion Nexus decisionとCentral Tower as colony-scale identity：Adopt…。
+- [10. Alpha impact](/research/monolyn-practice/10-Alpha-impact.md) — This reference does not change Alpha 0.1 scope.。
+- [11. Performance cautions](/research/monolyn-practice/11-Performance-cautions.md) — Avoid importing these patterns without hard limits、具体的にはschedule-driven labor loops that require many pawns;とunbounded resource demand…。
+- [12. Final lesson](/research/monolyn-practice/12-Final-lesson.md) — Monolyn is valuable because players actually build around its Tower, Light, baptism, and terminal systems.。
+- [13. Source links recorded by user](/research/monolyn-practice/13-Source-links-recorded-by-user.md) — Source links recorded by userは、Monolyn Race - Steam Workshop Q&A:…。
 - [0. Purpose](/research/monolyn-ui/00-Purpose.md) — This document records the user-provided summary of Monolyn Race UI and system feedback from developer Q&A, bug report threads, and…。
 - [1. Source status](/research/monolyn-ui/01-Source-status.md) — The details below are treated as a user-provided field report from public player feedback and strategy/review sources.。
 - [2. Overall system reception](/research/monolyn-ui/02-Overall-system-reception.md) — Reported NamuWiki-style evaluation、具体的にはMonolyn is high quality, but unusual compared with many existing mods.とIts prayer UI,…。
@@ -75,12 +84,3 @@
 - [19. 本国と移動箱舟](/world/19-%E6%9C%AC%E5%9B%BD%E3%81%A8%E7%A7%BB%E5%8B%95%E7%AE%B1%E8%88%9F.md) — 同盟本国は単一惑星ではなく、トヴェルジの世界群、居住圏、工業圏、移動箱舟から成る分散した文明圏である。
 - [20. 余白記録網](/world/20-%E4%BD%99%E7%99%BD%E8%A8%98%E9%8C%B2%E7%B6%B2.md) — 余白記録網は、公式記録が数えなかった呼び名、関係、異論、地域の記憶を追記し、相互に保存する市民的な記録活動である。
 - [21. 農芸公社](/world/21-%E8%BE%B2%E8%8A%B8%E5%85%AC%E7%A4%BE.md) — 農芸公社は、植物、改良動物、人工生態系、食文化を研究・維持し、成果を公共圏へ返す自発的な共同体である。
-- [22. 休眠遺構と中継塔](/world/22-%E4%BC%91%E7%9C%A0%E9%81%BA%E6%A7%8B%E3%81%A8%E4%B8%AD%E7%B6%99%E5%A1%94.md) — 帝国・同盟・独立勢力の設備には、破壊されず休眠状態へ移り、辺境に残された遺構や中継塔が存在する。
-- [23. 友好協力相互援助条約](/world/23-%E5%8F%8B%E5%A5%BD%E5%8D%94%E5%8A%9B%E7%9B%B8%E4%BA%92%E6%8F%B4%E5%8A%A9%E6%9D%A1%E7%B4%84.md) — 友好協力相互援助条約は、加盟者の共通外交、安全保障、警察、刑事司法協力を定める同盟の条約枠である。
-- [24. 経済相互援助会議](/world/24-%E7%B5%8C%E6%B8%88%E7%9B%B8%E4%BA%92%E6%8F%B4%E5%8A%A9%E4%BC%9A%E8%AD%B0.md) — 経済相互援助会議は、加盟国間の貿易を増やし、経済、技術その他の多様な分野で相互援助を行う同盟の条約枠である。
-- [25. シオン協定](/world/25-%E3%82%B7%E3%82%AA%E3%83%B3%E5%8D%94%E5%AE%9A.md) — シオン協定は、加盟する諸民族の対等、国境検査のない域内移動、自治区裁量の下での共通政策、相互内政不干渉を定める。
-- [26. 三条約と同盟の成立](/world/26-%E4%B8%89%E6%9D%A1%E7%B4%84%E3%81%A8%E5%90%8C%E7%9B%9F%E3%81%AE%E6%88%90%E7%AB%8B.md) — 同盟は、三つの条約枠を相互に結び、全評議会が対等な関係を結んだことで成立した。
-- [27. 遠征共同体の野心と産業化](/world/27-%E9%81%A0%E5%BE%81%E5%85%B1%E5%90%8C%E4%BD%93%E3%81%AE%E9%87%8E%E5%BF%83%E3%81%A8%E7%94%A3%E6%A5%AD%E5%8C%96.md) — 遠征共同体が生存を越える野心を実現するには、本国のような高度な産業能力を現地へ段階的に築く必要がある。
-- [28. 狐娘型の共有身体](/world/28-%E7%8B%90%E5%A8%98%E5%9E%8B%E3%81%AE%E5%85%B1%E6%9C%89%E8%BA%AB%E4%BD%93.md) — 通常シオンは、史料上確認できるかなり初期の段階から、狐耳と尾を持つ無性の人間型シルエットを共通の身体像としてきた。
-- [29. シオンの無性機械身体](/world/29-%E3%82%B7%E3%82%AA%E3%83%B3%E3%81%AE%E7%84%A1%E6%80%A7%E6%A9%9F%E6%A2%B0%E8%BA%AB%E4%BD%93.md) — シオンの狐娘型は外見上の呼称であり、身体に生物学的性別、人間型の内臓、生理現象は存在しない。
-- [30. 人類としての自己認識](/world/30-%E4%BA%BA%E9%A1%9E%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E8%87%AA%E5%B7%B1%E8%AA%8D%E8%AD%98.md) — シオンが自らを人類とみなす根拠は生物学的構造ではなく、文化、思想、歴史的連続性、人格主体としての自己認識にある。

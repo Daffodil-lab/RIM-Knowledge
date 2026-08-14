@@ -1,6 +1,6 @@
 # リリース・実装 01
 
-範囲: 実装予約〜13. β
+範囲: 実装予約〜5. 発注と多段生産
 
 ## 項目
 
@@ -68,6 +68,14 @@
 - [52. バニラ優先Shion種族実装境界](/design/52-%E3%83%90%E3%83%8B%E3%83%A9%E5%84%AA%E5%85%88Shion%E7%A8%AE%E6%97%8F%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — Shion種族はHuman継承を維持し、Core所有の物理身体と公式DLCの公開機構で実装する。
 - [53. RimWorldログ・性能診断契約](/design/53-RimWorld%E3%83%AD%E3%82%B0%E3%83%BB%E6%80%A7%E8%83%BD%E8%A8%BA%E6%96%AD%E5%A5%91%E7%B4%84.md) — RimWorld 1.6の不具合ログ、クラッシュログ、Performance Analyzer測定を再現可能な証拠として取得し、Shion由来の負荷と既存エラーを分離する。
 - [56. Shion標準遠征身体の実装仕様](/design/56-Shion%E6%A8%99%E6%BA%96%E9%81%A0%E5%BE%81%E8%BA%AB%E4%BD%93%E3%81%AE%E5%AE%9F%E8%A3%85%E4%BB%95%E6%A7%98.md) — Shion標準遠征身体の器官、能力値、欠損状態、休息、Anomaly拒絶、心情と将来拡張点を定める。
+- [59. バニラ優先カエラヴィ種族実装境界](/design/59-%E3%83%90%E3%83%8B%E3%83%A9%E5%84%AA%E5%85%88%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E7%A8%AE%E6%97%8F%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — カエラヴィはHuman継承、BiotechのGeneとXenotype、標準Pawn描画、公式DLCの公開機構を用いる人型鳥類種族として実装する。
+- [60. カエラヴィ標準身体の実装仕様](/design/60-%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E6%A8%99%E6%BA%96%E8%BA%AB%E4%BD%93%E3%81%AE%E5%AE%9F%E8%A3%85%E4%BB%95%E6%A7%98.md) — カエラヴィ標準身体の人型基盤、基礎能力、機能翼、開放気嚢、Gene描画と系統別差分の接続点を定める。
+- [61. 遺伝性鳥類系統の共通Xenotype契約](/design/61-%E9%81%BA%E4%BC%9D%E6%80%A7%E9%B3%A5%E9%A1%9E%E7%B3%BB%E7%B5%B1%E3%81%AE%E5%85%B1%E9%80%9AXenotype%E5%A5%91%E7%B4%84.md) — 六つの遺伝性鳥類Xenotypeを、共通三Geneと長所・短所・外見を一体化した一つのatomic lineage Geneで構成する。
+- [62. カエラヴィ軍務ゼノジャーム共通実装契約](/design/62-%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E8%BB%8D%E5%8B%99%E3%82%BC%E3%83%8E%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%A0%E5%85%B1%E9%80%9A%E5%AE%9F%E8%A3%85%E5%A5%91%E7%B4%84.md) — 八つの軍務兵科を非遺伝性xenogermとして実装し、六つの遺伝性鳥類系統すべてと最終Met +2で合成する。
+- [63. フリーカ・コーラと軍用複合刺激剤の実装境界](/design/63-%E3%83%95%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%BB%E3%82%B3%E3%83%BC%E3%83%A9%E3%81%A8%E8%BB%8D%E7%94%A8%E8%A4%87%E5%90%88%E5%88%BA%E6%BF%80%E5%89%A4%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — フリーカ・コーラをバニラChocolateとBeerへ接続し、軍務適合者向け複合刺激剤を標準Drug、Chemical、Addiction、Withdrawalで実装する。
+- [64. カエラヴィ個人債務Scenario](/design/64-%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E5%80%8B%E4%BA%BA%E5%82%B5%E5%8B%99Scenario.md) — カエルム政府へ負う各カエラヴィの個人債務をInt64の台帳Recordとして開始し、Scenarioごとの初期支援、納税、返済へ接続する。
+- [65. 帝国軍務教範の状態機械](/design/65-%E5%B8%9D%E5%9B%BD%E8%BB%8D%E5%8B%99%E6%95%99%E7%AF%84%E3%81%AE%E7%8A%B6%E6%85%8B%E6%A9%9F%E6%A2%B0.md) — 帝国軍務教範は、平時、警戒、戦闘、復旧の希望態勢と実適用状態を分離し、検証済みの差分を有界キューで適用する。
+- [66. 帝国軍務教範の一括操作境界](/design/66-%E5%B8%9D%E5%9B%BD%E8%BB%8D%E5%8B%99%E6%95%99%E7%AF%84%E3%81%AE%E4%B8%80%E6%8B%AC%E6%93%8D%E4%BD%9C%E5%A2%83%E7%95%8C.md) — 帝国軍務教範は、可逆的なバニラ方針と登録済み命令を態勢遷移へ含め、政治的、不可逆、対象選択を伴う操作を別確認へ分離する。
 - [知識所有者マップ](/governance/ownership-map-%E7%9F%A5%E8%AD%98%E6%89%80%E6%9C%89%E8%80%85%E3%83%9E%E3%83%83%E3%83%97.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
 - [7. Release Gate](/kombinat/audit/07-Release-Gate-%E5%85%AC%E9%96%8B%E5%88%A4%E5%AE%9A.md) — α blockerはKX-001〜008とS2-001〜018のKombinat追加層部分である。
 - [0. 結論](/kombinat/core/00-%E7%B5%90%E8%AB%96.md) — Kombinatは発注、設備能力、生産進捗、消費表示、流通目標、同盟通貨を所有し、物理ThingをCore Storageへ一元化する。
@@ -76,11 +84,3 @@
 - [3. 物理Thingと通貨](/kombinat/core/03-%E7%89%A9%E7%90%86Thing%E3%81%A8%E9%80%9A%E8%B2%A8.md) — 物理材料、工業資源、食料、薬品、武器、防具、固有品は実在するRimWorld ThingDef／Thingである。
 - [4. Kombinat追加層の中核型](/kombinat/core/04-Kombinat%E8%BF%BD%E5%8A%A0%E5%B1%A4%E3%81%AE%E4%B8%AD%E6%A0%B8%E5%9E%8B.md) — KombinatはCore独自保管・接続システムに属する保管基盤型を再実装しない。
 - [5. 発注と多段生産](/kombinat/core/05-%E7%99%BA%E6%B3%A8%E3%81%A8%E5%A4%9A%E6%AE%B5%E7%94%9F%E7%94%A3.md) — αの発注は具体的なThingDef、Recipe、数量または目標在庫を基本とする。
-- [6. 無人生産](/kombinat/core/06-%E7%84%A1%E4%BA%BA%E7%94%9F%E7%94%A3.md) — Kombinat専用FactoryとKombinat専用Patternは、Pawnがいなくても電力、材料、設備状態を満たせば稼働できる。
-- [7. 保管中の時間進行](/kombinat/core/07-Stasis-%E4%BF%9D%E7%AE%A1%E4%B8%AD%E3%81%AE%E6%99%82%E9%96%93%E9%80%B2%E8%A1%8C.md) — 保管中の時間進行方針はCore独自Storageが対象別に所有し、Kombinatはその判定を維持する。
-- [8. 消費と流通](/kombinat/core/08-%E6%B6%88%E8%B2%BB%E3%81%A8%E6%B5%81%E9%80%9A.md) — Kombinatは接続先保管基盤の内部消費を無断で監視せず、公開された観測境界だけを使う。
-- [9. UI](/kombinat/core/09-UI-%E6%93%8D%E4%BD%9C%E7%94%BB%E9%9D%A2.md) — Field Ledger Terminalを選択して全機能へ入る暗色のRimWorld管理Windowを基準とし、通常表示と最大化表示を同じDef駆動Page railで提供する。
-- [10. 保存と原子性](/kombinat/core/10-%E4%BF%9D%E5%AD%98%E3%81%A8%E5%8E%9F%E5%AD%90%E6%80%A7.md) — Kombinatは次だけを保存するという方針の適用範囲と条件を定める。
-- [11. 欠陥の所有と切り分け](/kombinat/core/11-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E3%81%AE%E6%89%B1%E3%81%84.md) — Core StorageとKombinatの欠陥は再現条件と取引所有者から切り分け、各所有者のRelease Gateへ登録する。
-- [12. α完成条件](/kombinat/core/12-%CE%B1%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Kombinat αはShion種族実装に先行し、バニラHumanのfixtureでThingOwner間の直接転送、三段生産、任意排出を成立させる。
-- [13. β](/kombinat/core/13-%CE%B2-%E7%8F%BE%E8%A1%8C%E4%BB%95%E6%A7%98.md) — Equipment Familyは作者が明示登録した候補だけを使う。

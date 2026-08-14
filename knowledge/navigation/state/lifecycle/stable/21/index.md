@@ -1,9 +1,18 @@
 # stable 21
 
-範囲: SHION_A413 律法学舎の若きソフェル〜13. Source links recorded by user
+範囲: SHION_A404 第一次入植の仕立屋〜4. Baptism use and costs
 
 ## 項目
 
+- [SHION_A404 第一次入植の仕立屋](/reference/backstories/mastery/SHION_A404.md) — 古い布を捨てるくらいなら本人に持ってきてほしい、それだけはずっと言い続けてきました。
+- [SHION_A405 地質調査隊の測地画家](/reference/backstories/mastery/SHION_A405.md) — 完成した地図の余白を、獣道を歩き、縮尺を測り、一本ずつ線を引いて埋めた。
+- [SHION_A406 港湾建設隊の荷役頭](/reference/backstories/mastery/SHION_A406.md) — なんで荷役の頭なんて損な役回りを引き受けたのかって。
+- [SHION_A407 通信中継隊の暗号係](/reference/backstories/mastery/SHION_A407.md) — 通信中継隊の暗号係では、覚えている数字が三つあります。
+- [SHION_A408 動植物馴化隊の獣医補](/reference/backstories/mastery/SHION_A408.md) — まず傷口を洗う、それから膿を確認する、それから薬を塗る、それから包帯を巻く。
+- [SHION_A409 灌漑隊の腕っぷし](/reference/backstories/mastery/SHION_A409.md) — 料理番のくせに喧嘩っ早いって、よくからかわれたよ。
+- [SHION_A410 星路建設隊の航路技師](/reference/backstories/mastery/SHION_A410.md) — 本人が打った航路標識は、数えていた頃で九百を超えていました。
+- [SHION_A411 交易船団の交渉員](/reference/backstories/mastery/SHION_A411.md) — 俺の仕事は簡単に言えば、初対面の開拓地相手に値切ることだ。
+- [SHION_A412 辺境行政府の巡察官](/reference/backstories/mastery/SHION_A412.md) — 開拓地が増えれば増えるほど、本人のところに届く訴えも増えました。
 - [SHION_A413 律法学舎の若きソフェル](/reference/backstories/mastery/SHION_A413.md) — 律法の写本を任されるようになったのは、灯火番だった頃から数えて十年目のことである。
 - [SHION_A414 港湾都市の造船匠](/reference/backstories/mastery/SHION_A414.md) — わしが最初に組んだ竜骨は、今も外港に係留されたまま現役で使われとる。
 - [SHION_A415 種Cell研究所の培養手](/reference/backstories/mastery/SHION_A415.md) — 種Cellの増殖速度は、与える鉄の純度でわずかに変わります。
@@ -75,12 +84,3 @@
 - [2. Basic loop and onboarding problems](/research/monolyn-practice/02-Basic-loop-and-onboarding-problems.md) — Reported player issue、具体的にはPrayer is not handled as an ordinary Job.とPlayers assign Meditate through the Schedule tab.を扱う。
 - [3. Light management in real play](/research/monolyn-practice/03-Light-management-in-real-play.md) — Reported player issue、具体的にはThere is no direct electricity-to-Light conversion.とAs colony wealth/scale grows, Light income can fall…。
 - [4. Baptism use and costs](/research/monolyn-practice/04-Baptism-use-and-costs.md) — Reported player practice、具体的にはConverting other races through a baptismal font is a basic way to secure Monolyn personnel.とBaptism may…。
-- [5. Terminal body operation](/research/monolyn-practice/05-Terminal-body-operation.md) — Reported player confusion、具体的にはDestroyed mechanical terminal bodies cannot be revived through the baptismal font.とThey need Terminal:…。
-- [6. Base structure and expansion play](/research/monolyn-practice/06-Base-structure-and-expansion-play.md) — Reported player practice、具体的にはTower can share Light, materials, and personnel regardless of location.とPlayers use this to run a main…。
-- [7. Compatibility problems](/research/monolyn-practice/07-Compatibility-problems.md) — Reported issues、具体的にはVanilla Research Panel can conflict with Tower decoding/research and auto-cancel it.とVE Framework-related faction…。
-- [8. The four real Monolyn management layers](/research/monolyn-practice/08-The-four-real-Monolyn-management-layers.md) — The reported practical Monolyn loop appears to combine four resource-management layers、具体的にはprayer/meditation schedule…。
-- [9. Adopt / avoid table for Shion Nexus](/research/monolyn-practice/09-Adopt-avoid-table-for-Shion-Nexus.md) — Adopt / avoid table for Shion Nexusは、Monolyn player-practice pattern：Shion Nexus decisionとCentral Tower as colony-scale identity：Adopt…。
-- [10. Alpha impact](/research/monolyn-practice/10-Alpha-impact.md) — This reference does not change Alpha 0.1 scope.。
-- [11. Performance cautions](/research/monolyn-practice/11-Performance-cautions.md) — Avoid importing these patterns without hard limits、具体的にはschedule-driven labor loops that require many pawns;とunbounded resource demand…。
-- [12. Final lesson](/research/monolyn-practice/12-Final-lesson.md) — Monolyn is valuable because players actually build around its Tower, Light, baptism, and terminal systems.。
-- [13. Source links recorded by user](/research/monolyn-practice/13-Source-links-recorded-by-user.md) — Source links recorded by userは、Monolyn Race - Steam Workshop Q&A:…。

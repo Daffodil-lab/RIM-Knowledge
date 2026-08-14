@@ -1,9 +1,18 @@
 # stable 17
 
-範囲: SHION_A093 帰還船団救命長〜SHION_A172 地下維持区の動物義肢技師
+範囲: SHION_A084 多重勲章の親衛兵〜SHION_A163 帰還兵港の救護医
 
 ## 項目
 
+- [SHION_A084 多重勲章の親衛兵](/reference/backstories/mastery/SHION_A084.md) — 射撃と近接の双方で同族から勲章を受け、多数の暗殺と災害から評議員を守った。
+- [SHION_A085 独立星港建設者](/reference/backstories/mastery/SHION_A085.md) — 社会民主党員、旧共産党員、ファシスト離党者、帝国離反者、無党派が使う星港を建てた。
+- [SHION_A086 故郷種子の運び手](/reference/backstories/mastery/SHION_A086.md) — 回収された故郷から種子を運び、別の空の下へ同じ花を植えた。
+- [SHION_A087 辺境共同体史家](/reference/backstories/mastery/SHION_A087.md) — 党派の指導者より、井戸を掘った者、最初に冬を越した動物、喧嘩の後も残った料理を記録した。
+- [SHION_A088 蘇生設備の巡回工](/reference/backstories/mastery/SHION_A088.md) — 小集落を巡り、使われないことを願われる蘇生設備を整備した。
+- [SHION_A089 孤行開拓測量士](/reference/backstories/mastery/SHION_A089.md) — 無人天体を一人で測り、未来の共同体が住める谷と掘ってはいけない墓域を地図へ分けた。
+- [SHION_A090 時間災害工兵](/reference/backstories/mastery/SHION_A090.md) — 崩壊する時間区画へ入り、まだ起きていない爆発の瓦礫から避難路を掘った。
+- [SHION_A091 同盟親衛射手](/reference/backstories/mastery/SHION_A091.md) — 遠距離射撃で避難路を守り、同族からも稀な精度を認められた。
+- [SHION_A092 復活船団衛生長](/reference/backstories/mastery/SHION_A092.md) — 避難船で死者の保存、負傷者の治療、蘇生後の再会を一つの医療計画として扱った。
 - [SHION_A093 帰還船団救命長](/reference/backstories/mastery/SHION_A093.md) — 時間嵐で分断された帰還船団を追い、蘇生設備へ届く前の救命で多数を帰した。
 - [SHION_A094 帝国平和復元派](/reference/backstories/mastery/SHION_A094.md) — 最盛期の律法、公共秩序、豊かな暮らしを研究し、内戦後の圧政と切り離して復元しようとした。
 - [SHION_A095 全人類平和統一派](/reference/backstories/mastery/SHION_A095.md) — 終わらない戦争と喪失に耐えかね、全人類を一つの秩序へ強制的に統合すれば最盛期以上の平和が得られると考えた。
@@ -75,12 +84,3 @@
 - [SHION_A161 自治評議区の精密工](/reference/backstories/mastery/SHION_A161.md) — 自治評議区の工房では、党派ごとに道具の理想が違いました。
 - [SHION_A162 立入制限地の舞台演出家](/reference/backstories/mastery/SHION_A162.md) — 立入制限地の回収班で舞台を作り、危険遺物の密売摘発にも同行しました。
 - [SHION_A163 帰還兵港の救護医](/reference/backstories/mastery/SHION_A163.md) — 帰還兵港では、救護と危険技術の押収が同時に起きます。
-- [SHION_A164 開戦前残響域の討論調停人](/reference/backstories/mastery/SHION_A164.md) — 開戦前の残響を再現した討論大会で、停戦派と継戦派を調停しました。
-- [SHION_A165 計画都市の観測主任](/reference/backstories/mastery/SHION_A165.md) — 計画都市の配給統計からこぼれた孤立を見つけ、非公式広場へ水・屋根・食卓を追加した。
-- [SHION_A166 継承教室の護衛射手](/reference/backstories/mastery/SHION_A166.md) — 継承教室を護衛し、避難者と教師の位置を見て必要な時だけ射線を開きました。
-- [SHION_A167 残響深層の救助員](/reference/backstories/mastery/SHION_A167.md) — 残響深層には、過去の戦場が変わらない形で再現されていました。
-- [SHION_A168 継承教室の橋梁技師](/reference/backstories/mastery/SHION_A168.md) — 継承教室で古い橋の補修を学び、そのまま現場を任されました。
-- [SHION_A169 計画都市の地下救助員](/reference/backstories/mastery/SHION_A169.md) — 計画都市の地下救助員では、計画都市の図面は完璧だった。
-- [SHION_A170 海洋観測区の保存食職人](/reference/backstories/mastery/SHION_A170.md) — 海洋観測区の保存食職人では、海洋観測祭のため、航海者へ保存食を仕込みました。
-- [SHION_A171 空挺基地の種子管理官](/reference/backstories/mastery/SHION_A171.md) — 空挺基地で、故郷から運ばれた種子の来歴と分配を管理しました。
-- [SHION_A172 地下維持区の動物義肢技師](/reference/backstories/mastery/SHION_A172.md) — 地下維持区で動物義肢を作っていた時、自動設備が一斉に止まりました。

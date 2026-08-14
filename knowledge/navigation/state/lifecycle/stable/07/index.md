@@ -1,9 +1,10 @@
 # stable 07
 
-範囲: 確定#365：闇のアルコテックとの冷戦とThe Hiveの伝聞〜56. Shion標準遠征身体の実装仕様
+範囲: 確定#364：捕虜・占領地住民の素早い現場同化〜Core・公式DLC量産カタログ境界
 
 ## 項目
 
+- [確定#364：捕虜・占領地住民の素早い現場同化](/decisions/decision-0364.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
 - [確定#365：闇のアルコテックとの冷戦とThe Hiveの伝聞](/decisions/decision-0365.md) — 闇のアルコテックとの冷戦とThe Hiveの伝聞を確定した決定履歴。
 - [確定#366：帝国の時間操作と同盟時代の技術的成果](/decisions/decision-0366.md) — 帝国の時間操作と同盟時代の技術的成果を確定した決定履歴。
 - [確定#367：現実空間の本国規模とТвердьの回収](/decisions/decision-0367.md) — 現実空間の本国規模とТвердьの回収を確定した決定履歴。
@@ -83,4 +84,3 @@
 - [53. RimWorldログ・性能診断契約](/design/53-RimWorld%E3%83%AD%E3%82%B0%E3%83%BB%E6%80%A7%E8%83%BD%E8%A8%BA%E6%96%AD%E5%A5%91%E7%B4%84.md) — RimWorld 1.6の不具合ログ、クラッシュログ、Performance Analyzer測定を再現可能な証拠として取得し、Shion由来の負荷と既存エラーを分離する。
 - [内政台帳とNetwork Storageの統合境界](/design/54-%E5%86%85%E6%94%BF%E5%8F%B0%E5%B8%B3%E3%81%A8Network-Storage%E3%81%AE%E7%B5%B1%E5%90%88%E5%A2%83%E7%95%8C.md) — 内政管理、Core独自Network Storage、Kombinat生産を一つの需給台帳へ統合し、工場を在庫を持たない設備能力として実装する。
 - [Core・公式DLC量産カタログ境界](/design/55-Core%E5%85%AC%E5%BC%8FDLC%E9%87%8F%E7%94%A3%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0%E5%A2%83%E7%95%8C.md) — Coreと五つの公式DLCに属する反復可能な通常Recipeから、Kombinatの無人量産カタログをDef駆動で生成する。
-- [56. Shion標準遠征身体の実装仕様](/design/56-Shion%E6%A8%99%E6%BA%96%E9%81%A0%E5%BE%81%E8%BA%AB%E4%BD%93%E3%81%AE%E5%AE%9F%E8%A3%85%E4%BB%95%E6%A7%98.md) — Shion標準遠征身体の器官、能力値、欠損状態、休息、Anomaly拒絶、心情と将来拡張点を定める。

@@ -1,9 +1,18 @@
 # stable 18
 
-範囲: SHION_A173 要塞潜入路の精密工〜SHION_A252 帰還兵港の仮設建築士
+範囲: SHION_A164 開戦前残響域の討論調停人〜SHION_A243 自治評議区の共同農園技師
 
 ## 項目
 
+- [SHION_A164 開戦前残響域の討論調停人](/reference/backstories/mastery/SHION_A164.md) — 開戦前の残響を再現した討論大会で、停戦派と継戦派を調停しました。
+- [SHION_A165 計画都市の観測主任](/reference/backstories/mastery/SHION_A165.md) — 計画都市の配給統計からこぼれた孤立を見つけ、非公式広場へ水・屋根・食卓を追加した。
+- [SHION_A166 継承教室の護衛射手](/reference/backstories/mastery/SHION_A166.md) — 継承教室を護衛し、避難者と教師の位置を見て必要な時だけ射線を開きました。
+- [SHION_A167 残響深層の救助員](/reference/backstories/mastery/SHION_A167.md) — 残響深層には、過去の戦場が変わらない形で再現されていました。
+- [SHION_A168 継承教室の橋梁技師](/reference/backstories/mastery/SHION_A168.md) — 継承教室で古い橋の補修を学び、そのまま現場を任されました。
+- [SHION_A169 計画都市の地下救助員](/reference/backstories/mastery/SHION_A169.md) — 計画都市の地下救助員では、計画都市の図面は完璧だった。
+- [SHION_A170 海洋観測区の保存食職人](/reference/backstories/mastery/SHION_A170.md) — 海洋観測区の保存食職人では、海洋観測祭のため、航海者へ保存食を仕込みました。
+- [SHION_A171 空挺基地の種子管理官](/reference/backstories/mastery/SHION_A171.md) — 空挺基地で、故郷から運ばれた種子の来歴と分配を管理しました。
+- [SHION_A172 地下維持区の動物義肢技師](/reference/backstories/mastery/SHION_A172.md) — 地下維持区で動物義肢を作っていた時、自動設備が一斉に止まりました。
 - [SHION_A173 要塞潜入路の精密工](/reference/backstories/mastery/SHION_A173.md) — 要塞への潜入路で、少人数用の工具と停止機構を作りました。
 - [SHION_A174 孵育文化区の舞台演出家](/reference/backstories/mastery/SHION_A174.md) — 孵育文化区では、誰にでも快適な身体と部屋が用意されました。
 - [SHION_A175 星間市場の巡回医](/reference/backstories/mastery/SHION_A175.md) — 星間市場の巡回医では、星間市場を巡って診療しました。
@@ -75,12 +84,3 @@
 - [SHION_A241 低温研究区の地下救助員](/reference/backstories/mastery/SHION_A241.md) — 低温研究区で、最速ではなく壁と生存者を傷つけない救助坑掘削を競技化した。
 - [SHION_A242 ヘイハルKombinatの祝宴料理人](/reference/backstories/mastery/SHION_A242.md) — Kombinatの祝宴を任される前、本人は長距離偵察へ出ていた。
 - [SHION_A243 自治評議区の共同農園技師](/reference/backstories/mastery/SHION_A243.md) — 自治評議区で趣味から共同農園を始め、党派論争を畝幅・配水・通行条件の相談へ戻した。
-- [SHION_A244 制裁作戦監査室の動物義肢技師](/reference/backstories/mastery/SHION_A244.md) — 制裁作戦の後、周辺農場から負傷した動物が運ばれてきた。
-- [SHION_A245 ヘイハルKombinatの復旧精密工](/reference/backstories/mastery/SHION_A245.md) — ヘイハルKombinatが止まった夜、専用部品を待てという声を無視し、皆の工具で直せる継ぎ手を削った。
-- [SHION_A246 孵育文化区の合奏指導者](/reference/backstories/mastery/SHION_A246.md) — 孵育文化区では、快適な音量と調律まで制度が決めていた。
-- [SHION_A247 自治評議区の蘇生後療養医](/reference/backstories/mastery/SHION_A247.md) — 自治評議区で蘇生者を診ると、家族より先に旧党派の仲間が迎えに来ることがあった。
-- [SHION_A248 計画都市の再会連絡官](/reference/backstories/mastery/SHION_A248.md) — 計画都市の再会連絡官では、計画都市の再会式は、時刻も立ち位置も完璧だった。
-- [SHION_A249 塔域居住層の古文書研究者](/reference/backstories/mastery/SHION_A249.md) — 塔の古文書には、端末番号だけで住民を記した時代がある。
-- [SHION_A250 塔域居住層の射撃教官](/reference/backstories/mastery/SHION_A250.md) — 塔域の射撃大会で、命中数より存在区分の識別、不明時の不発砲、誤認訂正へ点を付けた。
-- [SHION_A251 後方支援庁の身体競技指導員](/reference/backstories/mastery/SHION_A251.md) — 後方支援庁で身体競技を教えると、遊んでいるように見られた。
-- [SHION_A252 帰還兵港の仮設建築士](/reference/backstories/mastery/SHION_A252.md) — 帰還兵港では、同じ日に出た二人がまるで違う年齢で戻る。

@@ -1,9 +1,18 @@
 # stable 10
 
-範囲: REC-004 Ephemeral最終削除〜SHION_C031 無人書庫の管理役
+範囲: INT-005 Ability Package〜SHION_C022 武具庫の読み上げ役
 
 ## 項目
 
+- [INT-005 Ability Package](/pawn/int-005-%E8%A6%81%E4%BB%B6.md) — MUST: 必要能力はBody Module、Gene、Trait、Skill、Passion、Ability、Hediff等の由来を区別して構成し、同じ効果を無関係な仕組みで暗黙代替しない。
+- [INT-006 取消と返却](/pawn/int-006-%E5%8F%96%E6%B6%88%E3%81%A8%E8%BF%94%E5%8D%B4.md) — MUST: 生産取消、設計変更、配備失敗時は、未消費資源、完成済み装備、部分完成Bodyを追跡し、複製せずCore独自保管・接続システムまたはMap上の受入先へ返却するか、Factory Buffer内で明示的に再利用する。
+- [PERF-001 Dormant停止](/pawn/perf-001-%E5%81%9C%E6%AD%A2.md) — MUST: Dormant PawnをRimWorld Pawn Tickまたは全件毎tick走査の対象にしない。
+- [PERF-002 Event更新](/pawn/perf-002-%E6%9B%B4%E6%96%B0.md) — MUST: Archive checkpoint、需要数、Clone活動数、回収状態をevent駆動で更新する。
+- [PERF-003 World Pawn漏れ](/pawn/perf-003-%E6%BC%8F%E3%82%8C.md) — MUST: Ephemeralを一万体生成・回収・再資源化するfixture後も、World Pawn、Relation、Tale、Archiveが生成総数に比例して残留しない。
+- [PERF-004 量産](/pawn/perf-004-%E9%87%8F%E7%94%A3.md) — MUST: 同一DesignまたはClone Sourceから100体を連続生産するfixtureで、ID重複、参照共有、装備複製、無制限履歴増加を起こさない。
+- [REC-001 低コスト修復](/pawn/rec-001-%E4%BD%8E%E3%82%B3%E3%82%B9%E3%83%88%E4%BF%AE%E5%BE%A9.md) — MUST: 生存Pawnの通常負傷、欠損、故障、交換可能Moduleを、標準新規Pawn生産より低い資源と時間で回復できる。
+- [REC-002 遺体回収](/pawn/rec-002-%E9%81%BA%E4%BD%93%E5%9B%9E%E5%8F%8E.md) — MUST: 回収したシオン遺体をRecovery Facilityへ受け入れ、再起動、Archive再実体化、再資源化の利用可能な選択を表示する。
+- [REC-003 Ephemeral再起動](/pawn/rec-003-%E5%86%8D%E8%B5%B7%E5%8B%95.md) — MUST: Ephemeral Pawnは、遺体とPawn instance情報が残る間、低コストで同じ現在個体を再起動できる。
 - [REC-004 Ephemeral最終削除](/pawn/rec-004-%E6%9C%80%E7%B5%82%E5%89%8A%E9%99%A4.md) — MUST: Ephemeral Pawnの遺体を再資源化した場合、Pawn、Corpse、World Pawn、Relation、Archive、個体参照付きTale／Log、未解決参照をセーブ正本から除去する。
 - [REC-005 Registered再実体化](/pawn/rec-005-%E5%86%8D%E5%AE%9F%E4%BD%93%E5%8C%96.md) — MUST: Registered Individualの死亡後は、回収時にArchiveをcheckpointし、遺体を再資源化した後も同じindividualIdで一体を再実体化できる。
 - [REC-006 Clone選択](/pawn/rec-006-%E9%81%B8%E6%8A%9E.md) — MUST: Registered Individualが活動中またはDormantである場合、同じ原型からの追加生産は再実体化ではなくCloneとして明示する。
@@ -75,12 +84,3 @@
 - [SHION_C020 夜の天文台通い](/reference/backstories/formation/SHION_C020.md) — 眠りの浅い本人は航路宿の夜番となり、屋根から星、雲、接近する灯火を見張った。
 - [SHION_C021 廃句読点収集家](/reference/backstories/formation/SHION_C021.md) — 改訂で使われなくなった句読点や記号を集め、古い手紙と教本から用例を書き写した。
 - [SHION_C022 武具庫の読み上げ役](/reference/backstories/formation/SHION_C022.md) — 古物市で鎧の傷、補修材、刻印を調べ、以前の持主と使われた時代を推定する手伝いをした。
-- [SHION_C023 旅する似顔絵師](/reference/backstories/formation/SHION_C023.md) — 移動市で似顔絵を描き、顔立ちだけでなく、道具の持ち方、立ち姿、修理痕まで画面へ収めた。
-- [SHION_C024 迷子案内人](/reference/backstories/formation/SHION_C024.md) — 大きな乗換所で迷った旅行者を案内し、目的地、乗継時刻、荷物の量に合わせて経路を選んだ。
-- [SHION_C025 休戦盤大会の常連](/reference/backstories/formation/SHION_C025.md) — 長い過渡期の避難区で、配給を待つ者たちへ盤上遊戯を教えた。
-- [SHION_C026 無言劇の代役](/reference/backstories/formation/SHION_C026.md) — 巡業劇団の台詞役が故障した夜、本人は急きょ代役となり、身振りだけで物語を繋いだ。
-- [SHION_C027 文字院の徒弟](/reference/backstories/formation/SHION_C027.md) — 帝国最盛期の文字院で、律法、契約、祈祷文の書式と校正を学んだ。
-- [SHION_C028 神殿侍祭](/reference/backstories/formation/SHION_C028.md) — 帝国最盛期の地方神殿で、灯火、香炉、参列者の案内、読み上げ順の確認を担当した。
-- [SHION_C029 修道院助手](/reference/backstories/formation/SHION_C029.md) — 帝国最盛期の修道院で、書棚の運搬、畑仕事、寝台の修理、食事の支度を順番に経験した。
-- [SHION_C030 騎士従士](/reference/backstories/formation/SHION_C030.md) — 帝国最盛期の騎士に仕え、武具の整備、訓練記録、儀礼と決闘の手順を学んだ。
-- [SHION_C031 無人書庫の管理役](/reference/backstories/formation/SHION_C031.md) — 帝国最盛期の無人書庫で、湿度、虫害、貸出記録、索引を管理した。
