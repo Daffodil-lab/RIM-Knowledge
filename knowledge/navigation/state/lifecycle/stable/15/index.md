@@ -1,9 +1,25 @@
 # stable 15
 
-範囲: SHION_C352 数え直すたびに一人減った〜SHION_A012 彫刻採掘師
+範囲: SHION_C336 甲板は狭くない〜SHION_C415 種Cell研究所の培養見習い
 
 ## 項目
 
+- [SHION_C336 甲板は狭くない](/reference/backstories/formation/SHION_C336.md) — 甲板は狭くないでは、狭かったなんて一度も思ったことはない。
+- [SHION_C337 三つの言語と一つの食卓](/reference/backstories/formation/SHION_C337.md) — 三つの言語と一つの食卓では、あたしは作られた民族、文化継承第三期よ。
+- [SHION_C338 平常運転の裏側](/reference/backstories/formation/SHION_C338.md) — 育ての親の一人は造水班で、壊れた濾過装置の修理中に事故で亡くなりました。
+- [SHION_C339 特に思い入れはない](/reference/backstories/formation/SHION_C339.md) — 特に思い入れはないでは、自分の子供時代に特別な思い入れはない。
+- [SHION_C340 船は貝殻だった](/reference/backstories/formation/SHION_C340.md) — 船は貝殻だったでは、礁の民文化を継いだ先達はよく、この船を貝殻に例えました。
+- [SHION_C341 逃げたわけじゃない](/reference/backstories/formation/SHION_C341.md) — 逃げたわけじゃないでは、逃げたわけじゃないんだ、本人は。
+- [SHION_C342 配給計算の手順](/reference/backstories/formation/SHION_C342.md) — 配給計算の手順では、配給計算は次の手順で行いました。
+- [SHION_C343 次の甲板を提案します](/reference/backstories/formation/SHION_C343.md) — うちが十歳のとき、学童班の遊び場が狭くて喧嘩が絶えなかったから、通路脇の空き区画を遊び場に使えないか大人に提案したの。
+- [SHION_C344 「儀礼班の子」ではありません](/reference/backstories/formation/SHION_C344.md) — 「儀礼班の子」ではありませんでは、「儀礼班の子」と呼ばれるが、それは正確じゃない。
+- [SHION_C345 灯を回す、灯を回す](/reference/backstories/formation/SHION_C345.md) — 意味がまだ定まらない時代から、隣へ灯を回す所作を反復し、後の律法形成を身体で覚えた。
+- [SHION_C346 「それは罪か」と聞いた](/reference/backstories/formation/SHION_C346.md) — 巡回してきた説教役に、俺は「配給を隠すのは罪か」って聞いたんだ。
+- [SHION_C347 なぜ経文がないのか](/reference/backstories/formation/SHION_C347.md) — どうして決まった経文がないんだろう、って先生によく聞いていました。
+- [SHION_C348 三つの誤解を正しておく](/reference/backstories/formation/SHION_C348.md) — 帝国律法の清書に携わった経験を、起草者・信仰者・完成形の証人という三つの誤解から語り直す。
+- [SHION_C349 一番上手く歌えた](/reference/backstories/formation/SHION_C349.md) — 自慢していいなら言わせてもらうけど、あたしは詠唱教室で一番うまく歌えた子供だった。
+- [SHION_C350 師の言葉を借りて話します](/reference/backstories/formation/SHION_C350.md) — 本人自身の言葉より、師の言葉を借りて話す方が正確だと思います。
+- [SHION_C351 あの区画の話はしません](/reference/backstories/formation/SHION_C351.md) — あの区画の話はしませんでは、その区画で何があったかは話しません。
 - [SHION_C352 数え直すたびに一人減った](/reference/backstories/formation/SHION_C352.md) — 子供の頃、うちの継承図には七人の名前がありました。
 - [SHION_C353 建国世代と呼ばないでほしい](/reference/backstories/formation/SHION_C353.md) — 俺のことを「建国世代」って呼ぶ奴がいるが、それは違う。
 - [SHION_C354 律法学舎の写本刀](/reference/backstories/formation/SHION_C354.md) — 律法学舎で、文字線を一定に削り出す写本刀の研ぎ方と刃角を厳しく学んだ。
@@ -68,19 +84,3 @@
 - [SHION_C413 律法学舎の灯火番](/reference/backstories/formation/SHION_C413.md) — 学舎の夜、写本机の灯りを絶やさないことが本人の役目だった。
 - [SHION_C414 港湾都市の潮見習い](/reference/backstories/formation/SHION_C414.md) — あたしの仕事は毎日決まった時間に港の潮位標を見に行くことだった。
 - [SHION_C415 種Cell研究所の培養見習い](/reference/backstories/formation/SHION_C415.md) — 主任研究員に渡された鉄粉の皿を、本人は毎朝そっと覗きに行った。
-- [SHION_C416 イェツィラー学舎の写経見習い](/reference/backstories/formation/SHION_C416.md) — 師は、見習いだった本人にマソレットの一文字も書かせず、まず完成済みの文字を読むことから教えた。
-- [SHION_C417 サイキック適性検査局の記録係](/reference/backstories/formation/SHION_C417.md) — 育ての親は適性検査局で、感応の強さを測る針の動きを記録する仕事をしていた。
-- [SHION_C418 帝国拡張艦隊の甲板整理](/reference/backstories/formation/SHION_C418.md) — 俺の仕事は艦隊の格納庫に転がった工具や部品を集めることだった。
-- [SHION_C419 秘文字工房の顔料挽き](/reference/backstories/formation/SHION_C419.md) — あたしの仕事は、秘文字を書くための顔料を挽くことだった。
-- [SHION_A001 地区設備技師](/reference/backstories/mastery/SHION_A001.md) — 集合居住区の電力、水、暖房、熱交換設備を担当する技師となった。
-- [SHION_A002 義肢調律師](/reference/backstories/mastery/SHION_A002.md) — 義手の握力、義眼の焦点、人工関節の歩調を利用者ごとに調整する技師となった。
-- [SHION_A003 公共食堂主任](/reference/backstories/mastery/SHION_A003.md) — 公共食堂の主任として、外部住民と動物の栄養、禁忌、シオンの感覚設定、文化としての食事を管理した。
-- [SHION_A004 記念庭園設計者](/reference/backstories/mastery/SHION_A004.md) — 死者や失われた共同体を記念する庭園を設計した、また遺族が望む植物、開花時期、訪問しやすい通路を聞き取り、一つの英雄像へ記憶をまとめすぎないようにした。
-- [SHION_A005 星図編纂者](/reference/backstories/mastery/SHION_A005.md) — 複数時代の星図を照合し、移動した衛星、消えた航路標識、閉鎖された港を最新の図へ反映した。
-- [SHION_A006 移動診療医](/reference/backstories/mastery/SHION_A006.md) — 車両一台の診療所で辺境を巡り、住民、動物、義肢や補助器官の故障を診た。
-- [SHION_A007 動物機工](/reference/backstories/mastery/SHION_A007.md) — 荷獣の鞍、義肢、自動給餌器を同じ工房で整備する動物機工となった。
-- [SHION_A008 構造聴診士](/reference/backstories/mastery/SHION_A008.md) — 壁や梁へ聴音器を当て、配管の脈動、岩盤の小さな破断、固定具の緩みを診断する構造聴診士となった。
-- [SHION_A009 物資台帳官](/reference/backstories/mastery/SHION_A009.md) — 同盟補給局で、台帳上の在庫と現場が実際に使える物資の差を調べた。
-- [SHION_A010 葬送司会者](/reference/backstories/mastery/SHION_A010.md) — 宗派や党派の異なる遺族のため、葬送の順番、弔辞、音楽、食事を調整する司会者となった。
-- [SHION_A011 気象観測主任](/reference/backstories/mastery/SHION_A011.md) — 農業観測所の主任として、雨、灰、毒霧、日照を測り、農家と居住区へ予報を伝えた。
-- [SHION_A012 彫刻採掘師](/reference/backstories/mastery/SHION_A012.md) — 岩を切り出す前に内部の模様、亀裂、材質を読み、建材に向く部分と彫刻へ使える部分を分ける採掘師となった。

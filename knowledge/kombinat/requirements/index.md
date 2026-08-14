@@ -2,7 +2,7 @@
 
 ## 項目
 
-- [1. 適用範囲](01-%E9%81%A9%E7%94%A8%E7%AF%84%E5%9B%B2.md) — 本書はKombinatが独自実装する発注、多段生産、設備能力、消費表示、流通目標、同盟通貨を扱う。
+- [1. 適用範囲](01-%E9%81%A9%E7%94%A8%E7%AF%84%E5%9B%B2.md) — 本書はKombinatが独自実装する発注、多段生産、設備能力、消費表示、流通目標、非貨幣の同盟Credit Accountを扱う。
 - [UX-001 発注](ux-001-発注.md) — MUST: 品目、数量または目標在庫、優先度だけで基本発注を作れる。
 - [UX-002 見積り](ux-002-見積り.md) — MUST: 確定前に、必要材料、Storage利用可能量、予約済み、中間品、設備、出力容量、概算時間を表示する。
 - [UX-003 状態語](ux-003-状態語.md) — MUST: 少なくとも次を区別するという方針の適用範囲と条件を定める。
@@ -29,11 +29,11 @@
 - [STA-001 意図した仕様](sta-001-意図した仕様.md) — MUST: Core独自Storage内の腐敗、温度、Thing Tick、Comp Tick、充放電、孵化等の時間進行方針を明示する。
 - [STA-002 追加制限禁止](sta-002-追加制限禁止.md) — MUST: Stasisによる時間停止だけを理由に、Kombinatから追加費用、危険分類、入庫拒否を行わない。
 - [STA-003 工場内在庫禁止](sta-003-工場内在庫禁止.md) — MUST: Kombinat Factoryは生産用ThingOwnerを持たず、材料、中間品、完成品をCore Storageへ一元化する。
-- [CUR-001 Account](cur-001-要件.md) — MUST: 同盟通貨を物理Thing在庫と分離した64 bit整数残高として保存する。
-- [CUR-002 Transaction](cur-002-要件.md) — MUST: 入金、支払、返金、取消はidempotency keyを持ち、全部成功または全部失敗する。
-- [CUR-003 Recipe禁止](cur-003-禁止.md) — MUST: 通貨を通常工業Recipeで発行しない。
-- [CUR-004 初期化](cur-004-初期化.md) — MUST: 独立開拓団開始時に一回だけProfile残高を適用し、途中失敗で部分残高を残さない。
-- [CUR-005 所在](cur-005-所在.md) — PENDING: αのAccount scope、複数Mapからの利用、Map wealthへの算入方法は実装前に確定する。
+- [CUR-001 Account](cur-001-要件.md) — MUST: 同盟Creditを非貨幣の認可Accountとして保存し、カエルムMark、債務、租税のLedgerおよび物理Thing在庫から分離する。
+- [CUR-002 Transaction](cur-002-要件.md) — MUST: Credit認定・予約・使用・返還と、Mark決済、債務返済、租税徴収、Thing受渡しはidempotency keyを持ち、全部成功または全部失敗する。
+- [CUR-003 台帳値のRecipe生成禁止](cur-003-禁止.md) — MUST: 同盟Credit、カエルムMark、債務、租税を通常工業Recipeで生成または消去しない。
+- [CUR-004 初期化](cur-004-初期化.md) — MUST: 開始時にProfileが宣言したCredit Accountと任意のMark・債務・租税Ledgerを一回だけ原子的に初期化する。
+- [CUR-005 所在と資産価値](cur-005-所在.md) — MUST: 非物理Account／Ledgerを組織単位のWorld状態として保存し、資産価値へ算入せず、複数Mapから同じIDで参照する。
 - [CON-001 観測範囲](con-001-観測範囲.md) — MUST: Kombinat自身のBuffer、Factory、Core API、正式な上流APIから得たeventだけを消費集計へ使う。
 - [CON-002 不明表示](con-002-不明表示.md) — MUST: Core Storageの公開eventで観測できない消費範囲を不明として明示する。
 - [CON-003 流通目標](con-003-流通目標.md) — MUST: Storage在庫とFacility需要について最低量、目標量、優先度を設定できる。
@@ -55,6 +55,6 @@
 - [G. 保管基盤不在](050-G-%E4%B8%8A%E6%B5%81%E4%B8%8D%E5%9C%A8.md) — Core独自保管基盤が欠落または不整合なら生産接続を停止し、保存状態を破壊的に初期化しない。
 - [H. 保管基盤欠陥分離](051-H-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E5%88%86%E9%9B%A2.md) — Core独自保管基盤単体の問題とKombinat接続の問題を再現条件で分離する。
 - [I. 保管中の時間進行](052-I-Stasis-保管中の時間進行.md) — Core独自Storageが定めた対象別時間進行方針を、Kombinatが上書きしない。
-- [J. 通貨](053-J-%E9%80%9A%E8%B2%A8.md) — 初期残高、支払、返金、連打、保存往復で残高差分が一致する。
+- [J. Creditと関連台帳](053-J-%E9%80%9A%E8%B2%A8.md) — Credit、Mark、債務、租税、Thing受渡しの初期化と原子的Transactionが、連打と保存往復でも一致する。
 - [12. α Release Gate](12-%CE%B1-Release-Gate-%E5%85%AC%E9%96%8B%E5%88%A4%E5%AE%9A.md) — α版はCore独自保管基盤との直接受渡し、三段生産、任意排出、保存・復旧をRelease Gateへ含める。
 - [13. β境界](13-%CE%B2%E5%A2%83%E7%95%8C.md) — β境界は、Pawn Foundry要求とEquipment Familyを扱う。

@@ -1,9 +1,25 @@
 # stable 19
 
-範囲: SHION_A253 残響深層の地下救助員〜SHION_A332 入植地の屋根継ぎ
+範囲: SHION_A237 計画都市の再検証主任〜SHION_A316 巡回医療隊の産婆
 
 ## 項目
 
+- [SHION_A237 計画都市の再検証主任](/reference/backstories/mastery/SHION_A237.md) — 計画都市では、不便があると言うと測定誤差を疑われた。
+- [SHION_A238 戦術教育環の射撃教官](/reference/backstories/mastery/SHION_A238.md) — 戦術教育環の射撃教官では、射撃は趣味として始めた。
+- [SHION_A239 立入制限地の身体競技指導員](/reference/backstories/mastery/SHION_A239.md) — 立入制限地へ入る者には、強さよりも安全に止まる技術が必要だと教えた。
+- [SHION_A240 海洋観測区の設備技師](/reference/backstories/mastery/SHION_A240.md) — 海洋観測区では、配管の唸りと海から聞こえる音を分けるのが難しかった。
+- [SHION_A241 低温研究区の地下救助員](/reference/backstories/mastery/SHION_A241.md) — 低温研究区で、最速ではなく壁と生存者を傷つけない救助坑掘削を競技化した。
+- [SHION_A242 ヘイハルKombinatの祝宴料理人](/reference/backstories/mastery/SHION_A242.md) — Kombinatの祝宴を任される前、本人は長距離偵察へ出ていた。
+- [SHION_A243 自治評議区の共同農園技師](/reference/backstories/mastery/SHION_A243.md) — 自治評議区で趣味から共同農園を始め、党派論争を畝幅・配水・通行条件の相談へ戻した。
+- [SHION_A244 制裁作戦監査室の動物義肢技師](/reference/backstories/mastery/SHION_A244.md) — 制裁作戦の後、周辺農場から負傷した動物が運ばれてきた。
+- [SHION_A245 ヘイハルKombinatの復旧精密工](/reference/backstories/mastery/SHION_A245.md) — ヘイハルKombinatが止まった夜、専用部品を待てという声を無視し、皆の工具で直せる継ぎ手を削った。
+- [SHION_A246 孵育文化区の合奏指導者](/reference/backstories/mastery/SHION_A246.md) — 孵育文化区では、快適な音量と調律まで制度が決めていた。
+- [SHION_A247 自治評議区の蘇生後療養医](/reference/backstories/mastery/SHION_A247.md) — 自治評議区で蘇生者を診ると、家族より先に旧党派の仲間が迎えに来ることがあった。
+- [SHION_A248 計画都市の再会連絡官](/reference/backstories/mastery/SHION_A248.md) — 計画都市の再会連絡官では、計画都市の再会式は、時刻も立ち位置も完璧だった。
+- [SHION_A249 塔域居住層の古文書研究者](/reference/backstories/mastery/SHION_A249.md) — 塔の古文書には、端末番号だけで住民を記した時代がある。
+- [SHION_A250 塔域居住層の射撃教官](/reference/backstories/mastery/SHION_A250.md) — 塔域の射撃大会で、命中数より存在区分の識別、不明時の不発砲、誤認訂正へ点を付けた。
+- [SHION_A251 後方支援庁の身体競技指導員](/reference/backstories/mastery/SHION_A251.md) — 後方支援庁で身体競技を教えると、遊んでいるように見られた。
+- [SHION_A252 帰還兵港の仮設建築士](/reference/backstories/mastery/SHION_A252.md) — 帰還兵港では、同じ日に出た二人がまるで違う年齢で戻る。
 - [SHION_A253 残響深層の地下救助員](/reference/backstories/mastery/SHION_A253.md) — 残響深層では、崩落した戦場が同じ瞬間を繰り返していた。
 - [SHION_A254 装甲救援隊の公共食堂の調理師](/reference/backstories/mastery/SHION_A254.md) — 装甲救援隊の食堂にいると、料理だけしていたとは思われない。
 - [SHION_A255 革命連合後方区の共同農園技師](/reference/backstories/mastery/SHION_A255.md) — 革命連合の後方農園には、社会民主党系も共産党系も帝国離反者も来た。
@@ -68,19 +84,3 @@
 - [SHION_A314 第一次入植の土地選定者](/reference/backstories/mastery/SHION_A314.md) — 自慢していいなら言わせてもらう、最初の百区画のうち作物が根付いたのは本人が選んだ土地だけだった。
 - [SHION_A315 越冬隊の灯守り](/reference/backstories/mastery/SHION_A315.md) — 氷原探査で装備・燃料・外部隊員用食糧を管理し、全員を救えなかった四度目の判断を今も記憶している。
 - [SHION_A316 巡回医療隊の産婆](/reference/backstories/mastery/SHION_A316.md) — 巡回医療隊で、外部居住者の出産を支え、母子の安全を静かな手順で守った。
-- [SHION_A317 採鉱団の坑道読み](/reference/backstories/mastery/SHION_A317.md) — 採鉱団の坑道読みでは、つるはしの柄は必ず自分で削った。
-- [SHION_A318 造成隊の地均し師](/reference/backstories/mastery/SHION_A318.md) — 造成隊の仕事を、更地を平らにするだけの単純作業だと思っている人が多いが、それは違う。
-- [SHION_A319 越冬隊の食糧番](/reference/backstories/mastery/SHION_A319.md) — 越冬隊の食糧番では、越冬隊での配給の話ならいくらでもできる。
-- [SHION_A320 灌漑組合の水路引き](/reference/backstories/mastery/SHION_A320.md) — 灌漑組合で水路を引いた区画は今も現役だが、正直に言うと設計は甘かった。
-- [SHION_A321 境界哨戒隊の見張り番](/reference/backstories/mastery/SHION_A321.md) — 今は哨戒に出ることはない、装備の点検を任されているだけだ。
-- [SHION_A322 育種班の選種人](/reference/backstories/mastery/SHION_A322.md) — 育種班の選種人では、試した品種は三十七、いや正確には三十八だった。
-- [SHION_A323 気象観測班の雲読み](/reference/backstories/mastery/SHION_A323.md) — 気象観測班の雲読みでは、気象観測班の仕事についてよくある誤解が三つある。
-- [SHION_A324 資材輸送隊の荷駄頭](/reference/backstories/mastery/SHION_A324.md) — 資材輸送隊の荷駄頭では、荷を落とした話をされると、今でも少し身構える。
-- [SHION_A325 地質調査団の石割り](/reference/backstories/mastery/SHION_A325.md) — 地質調査というのは、星の日記を読む仕事に似ている。
-- [SHION_A326 大気改良班の空薄め師](/reference/backstories/mastery/SHION_A326.md) — 大気改良班の仕事は、装置を設置して数値を記録し、翌年また少し数値が動いたことを確認するだけの繰り返しだった。
-- [SHION_A327 通信中継班の中継守](/reference/backstories/mastery/SHION_A327.md) — 通信中継班の先任がよく言っていた、「届く声より、届かなかった沈黙の方を数えろ」と。
-- [SHION_A328 救難班の呼び出し手](/reference/backstories/mastery/SHION_A328.md) — 救難班の呼び出し手では、救難班にいた頃、合言葉は「声のする方へ」だった。
-- [SHION_A329 水利設計班の水割り師](/reference/backstories/mastery/SHION_A329.md) — 水利設計班の花形と呼ばれたことがある、皮肉なことに、それは水路の半分が最初の年に凍結で割れた後のことだった。
-- [SHION_A330 航路整備隊の星図引き](/reference/backstories/mastery/SHION_A330.md) — 星図というものが、完成すると思ったことがあるだろうか。
-- [SHION_A331 種苗管理班の発芽番](/reference/backstories/mastery/SHION_A331.md) — 種苗管理班の発芽番では、種苗管理班の仕事は地味だ。
-- [SHION_A332 入植地の屋根継ぎ](/reference/backstories/mastery/SHION_A332.md) — 入植地の屋根はどれも一度は雨漏りする、これは本人が最初に学んだことだった。

@@ -1,9 +1,25 @@
 # stable 13
 
-範囲: SHION_C192 相互扶助区の共同壁画〜SHION_C271 英雄のいない地下救助
+範囲: SHION_C176 継承教室の再会膳〜SHION_C255 凍った菓子の研究記録
 
 ## 項目
 
+- [SHION_C176 継承教室の再会膳](/reference/backstories/formation/SHION_C176.md) — 再会の席と追悼の席を分けるべきだ、と教本にはありました。
+- [SHION_C177 低温研究区の種子避難](/reference/backstories/formation/SHION_C177.md) — 低温技術の用途を聞く前に、失敗した時どこまで凍るか尋ねました。
+- [SHION_C178 残響深層の動物保護](/reference/backstories/formation/SHION_C178.md) — 残響深層の動物は、再現された砲声の前で毎回同じように怯えました。
+- [SHION_C179 内務記録所の筆記具修理](/reference/backstories/formation/SHION_C179.md) — 内務記録所で直したのは、筆記具と照合器、それに警備用の照準具だった。
+- [SHION_C180 継承教室の問いかけ劇](/reference/backstories/formation/SHION_C180.md) — 継承教室の舞台で、故郷・復活・別れに単一の正解を与えず、観客へ問い返した。
+- [SHION_C181 帝国騎士訓練場の帰還付き添い](/reference/backstories/formation/SHION_C181.md) — 騎士訓練場で蘇生者へ付き添うのも、最盛期の長い修業の一つだった。
+- [SHION_C182 帝国書庫塔の再会窓口](/reference/backstories/formation/SHION_C182.md) — 書庫塔の窓口では、大声の歓迎は禁じられていました。
+- [SHION_C183 律法監察教室の余白記録](/reference/backstories/formation/SHION_C183.md) — 律法監察教室では、事実、推測、後世の注釈を別欄へ書きました。
+- [SHION_C184 革命連合後方区の射撃仲間](/reference/backstories/formation/SHION_C184.md) — 後方区の射場では、昨日まで別の党旗を掲げた者とも精度を競いました。
+- [SHION_C185 革命連合後方区の群衆警護](/reference/backstories/formation/SHION_C185.md) — 本人は気が短いので、武器を持たない警護練習を選びました。
+- [SHION_C186 計画都市の余白住宅](/reference/backstories/formation/SHION_C186.md) — 計画都市の余白住宅では、完成図の美しさには興味がありません。
+- [SHION_C187 地下灯祭の坑道飾り](/reference/backstories/formation/SHION_C187.md) — 地下灯祭では、坑道の亀裂へ灯りを置き、戻らなかった者の好きな形を壁へ彫りました。
+- [SHION_C188 装甲救援隊の帰還膳](/reference/backstories/formation/SHION_C188.md) — 装甲救援隊の帰還膳では、戻った者と戻らない者の器を同じ卓へ置きました。
+- [SHION_C189 封鎖観測地の種子監視](/reference/backstories/formation/SHION_C189.md) — 封鎖地の種は、色が変わっただけで処分を求められました。
+- [SHION_C190 帝国自治会跡の老獣番](/reference/backstories/formation/SHION_C190.md) — 自治会が解散した後も、役目を終えた動物だけは建物に残りました。
+- [SHION_C191 非常令監視区の修理会](/reference/backstories/formation/SHION_C191.md) — 非常令が出た時、最初に禁止されたのは武器ではなく、修理票の余白に書く冗談だった。
 - [SHION_C192 相互扶助区の共同壁画](/reference/backstories/formation/SHION_C192.md) — 相互扶助区の共同壁画へ、共同所有物に残る個人の握り傷と複数の証言を描いた。
 - [SHION_C193 相互扶助区の救護当番](/reference/backstories/formation/SHION_C193.md) — 相互扶助区の事故で「これは誰の設備だ」と聞いても、皆の物だとしか返らない。
 - [SHION_C194 移動都市の再会案内](/reference/backstories/formation/SHION_C194.md) — 移動都市の再会案内では、移動都市の地図は、再会相手ごとに違いました。
@@ -68,19 +84,3 @@
 - [SHION_C253 予測局跡の救助実習](/reference/backstories/formation/SHION_C253.md) — 内戦後の帝国予測局は、崩れた建物の中でも完璧な救助順を出し続けていました。
 - [SHION_C254 広場を巡る討論会](/reference/backstories/formation/SHION_C254.md) — 計画都市の討論会では、反論する前に相手の意見を言い直す決まりだった。
 - [SHION_C255 凍った菓子の研究記録](/reference/backstories/formation/SHION_C255.md) — 最盛期の帝国安全研究院では、未知の物質より記録の欠落を恐れろと教わりました。
-- [SHION_C256 自分で選んだ不便](/reference/backstories/formation/SHION_C256.md) — 孵育文化区では、誰にでも快適な部屋と健康な身体が用意されていました。
-- [SHION_C257 Kombinat横断競技](/reference/backstories/formation/SHION_C257.md) — ヘイハルKombinatの横断競技は、速さだけでは勝てません。
-- [SHION_C258 照合局の修繕見習い](/reference/backstories/formation/SHION_C258.md) — 内戦中の人格照合局で、本人は壁と避難路を直す班にいました。
-- [SHION_C259 毎日の坑道歩き](/reference/backstories/formation/SHION_C259.md) — 本国居住区の坑道を毎日歩き、亀裂と地層音を点検しながら壁画の変化も記録した。
-- [SHION_C260 残骸を読む共同食堂](/reference/backstories/formation/SHION_C260.md) — 対機械戦区の共同食堂で、本人は身体ごとに香りと温度を変えて配膳しました。
-- [SHION_C261 党派混植の菜園](/reference/backstories/formation/SHION_C261.md) — 自治評議区の菜園では、党派ごとに畝を分ける案が出ました。
-- [SHION_C262 都市を去ったあとの音楽](/reference/backstories/formation/SHION_C262.md) — 幸福都市の外縁で、本人は保護動物の世話をしていました。
-- [SHION_C263 色の残った観測具](/reference/backstories/formation/SHION_C263.md) — 封鎖観測地から戻った道具には、洗っても消えない色がありました。
-- [SHION_C264 雪中の小さな音楽会](/reference/backstories/formation/SHION_C264.md) — 帝国最終防衛圏では、音楽に使う電力も贅沢だと叱られました。
-- [SHION_C265 海洋観測院の救命実習](/reference/backstories/formation/SHION_C265.md) — 最盛期の海洋観測院では、事故が少ない時ほど救命実習を重ねました。
-- [SHION_C266 帰還者の時間討論](/reference/backstories/formation/SHION_C266.md) — 帝国帰還記録院で、異なる不在時間を生きた相手の話を言い直してから反論する作法を学んだ。
-- [SHION_C267 塔の三色記録帳](/reference/backstories/formation/SHION_C267.md) — 塔の記録院で、本人は事実を黒、推測を青、後世の注釈を赤で書き分けました。
-- [SHION_C268 盾の内側の息](/reference/backstories/formation/SHION_C268.md) — 装甲救援隊の射場で、本人は命中数より射線を塞ぐ位置を習いました。
-- [SHION_C269 機械音の消えた救出](/reference/backstories/formation/SHION_C269.md) — 地下維持区で自動設備が止まると、街から機械音が消えました。
-- [SHION_C270 騎士学校の古橋実習](/reference/backstories/formation/SHION_C270.md) — 最盛期の騎士学校では、空挺演習より先に古い橋を直しました。
-- [SHION_C271 英雄のいない地下救助](/reference/backstories/formation/SHION_C271.md) — 内戦後の帝国要塞で崩落が起きた時、公式命令は重要区画の保全を優先しました。

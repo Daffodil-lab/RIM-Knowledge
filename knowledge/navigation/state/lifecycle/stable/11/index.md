@@ -1,9 +1,25 @@
 # stable 11
 
-範囲: SHION_C032 儀礼行列の補欠〜SHION_C111 巡礼船記録院の見習い
+範囲: SHION_C016 図書館の配架手伝い〜SHION_C095 帝国人の隣席
 
 ## 項目
 
+- [SHION_C016 図書館の配架手伝い](/reference/backstories/formation/SHION_C016.md) — 増改築を重ねた帝国式書庫で、返却先の分からない本を正しい棚へ戻す仕事をした。
+- [SHION_C017 遊び場の仲裁役](/reference/backstories/formation/SHION_C017.md) — 居住区の盤上遊戯会で、説明書と地域ごとの慣習が食い違った時の仲裁を任された。
+- [SHION_C018 瓶詰め雲の収集家](/reference/backstories/formation/SHION_C018.md) — 旅先の空気を小瓶へ採り、日付、天候、土地の名を添えて集める趣味を持った。
+- [SHION_C019 鐘楼で暮らした](/reference/backstories/formation/SHION_C019.md) — 巡礼の途中で地方聖堂の鐘守一家に預けられ、鐘の時刻、金属の温度、綱の手入れを学んだ。
+- [SHION_C020 夜の天文台通い](/reference/backstories/formation/SHION_C020.md) — 眠りの浅い本人は航路宿の夜番となり、屋根から星、雲、接近する灯火を見張った。
+- [SHION_C021 廃句読点収集家](/reference/backstories/formation/SHION_C021.md) — 改訂で使われなくなった句読点や記号を集め、古い手紙と教本から用例を書き写した。
+- [SHION_C022 武具庫の読み上げ役](/reference/backstories/formation/SHION_C022.md) — 古物市で鎧の傷、補修材、刻印を調べ、以前の持主と使われた時代を推定する手伝いをした。
+- [SHION_C023 旅する似顔絵師](/reference/backstories/formation/SHION_C023.md) — 移動市で似顔絵を描き、顔立ちだけでなく、道具の持ち方、立ち姿、修理痕まで画面へ収めた。
+- [SHION_C024 迷子案内人](/reference/backstories/formation/SHION_C024.md) — 大きな乗換所で迷った旅行者を案内し、目的地、乗継時刻、荷物の量に合わせて経路を選んだ。
+- [SHION_C025 休戦盤大会の常連](/reference/backstories/formation/SHION_C025.md) — 長い過渡期の避難区で、配給を待つ者たちへ盤上遊戯を教えた。
+- [SHION_C026 無言劇の代役](/reference/backstories/formation/SHION_C026.md) — 巡業劇団の台詞役が故障した夜、本人は急きょ代役となり、身振りだけで物語を繋いだ。
+- [SHION_C027 文字院の徒弟](/reference/backstories/formation/SHION_C027.md) — 帝国最盛期の文字院で、律法、契約、祈祷文の書式と校正を学んだ。
+- [SHION_C028 神殿侍祭](/reference/backstories/formation/SHION_C028.md) — 帝国最盛期の地方神殿で、灯火、香炉、参列者の案内、読み上げ順の確認を担当した。
+- [SHION_C029 修道院助手](/reference/backstories/formation/SHION_C029.md) — 帝国最盛期の修道院で、書棚の運搬、畑仕事、寝台の修理、食事の支度を順番に経験した。
+- [SHION_C030 騎士従士](/reference/backstories/formation/SHION_C030.md) — 帝国最盛期の騎士に仕え、武具の整備、訓練記録、儀礼と決闘の手順を学んだ。
+- [SHION_C031 無人書庫の管理役](/reference/backstories/formation/SHION_C031.md) — 帝国最盛期の無人書庫で、湿度、虫害、貸出記録、索引を管理した。
 - [SHION_C032 儀礼行列の補欠](/reference/backstories/formation/SHION_C032.md) — 帝国最盛期の式典で欠員を補い、儀礼槍を持って隊列へ加わった。
 - [SHION_C033 聖像研磨工](/reference/backstories/formation/SHION_C033.md) — 帝国最盛期の神殿工房で、石と金属の聖像を洗浄し、表面の傷を整えた。
 - [SHION_C034 星暦院の観測徒](/reference/backstories/formation/SHION_C034.md) — 帝国最盛期の星暦院で、観測窓の清掃、時刻の読み取り、軌道表への記入を担当した。
@@ -68,19 +84,3 @@
 - [SHION_C093 革命旗の繕い手](/reference/backstories/formation/SHION_C093.md) — 社会民主派、共産派、無政府主義者、帝国離反者の旗を同じ作業台で繕った。
 - [SHION_C094 党派横断の炊事番](/reference/backstories/formation/SHION_C094.md) — 会議中も食事を止めず、敵対しかけた党派へ同じ鍋から配った。
 - [SHION_C095 帝国人の隣席](/reference/backstories/formation/SHION_C095.md) — 追放された帝国人、同盟の子、党派を諦めた教師と同じ教室で学んだ。
-- [SHION_C096 最盛期を超える作文](/reference/backstories/formation/SHION_C096.md) — 帝国最盛期の平和を褒め、その階級制を復元せずに暮らしだけを超える方法を書いた。
-- [SHION_C097 無味覚の香料師](/reference/backstories/formation/SHION_C097.md) — 味覚入力を閉じた身体で香料を調合し、友人の表情だけを計器にした。
-- [SHION_C098 帰らない昨日の友](/reference/backstories/formation/SHION_C098.md) — 時間事故で「昨日」に残った友人へ、毎日同じ場所から手紙を送った。
-- [SHION_C099 静止庭の観測者](/reference/backstories/formation/SHION_C099.md) — 一秒が何世代にも伸びる庭園で、花が開く瞬間を観測した。
-- [SHION_C100 異常封じ込め射撃課程](/reference/backstories/formation/SHION_C100.md) — 射場で最初に教わったのは、引き金ではなく退路の数え方だった。
-- [SHION_C101 封鎖観測地の搬出訓練](/reference/backstories/formation/SHION_C101.md) — 封鎖観測地で、色覚への不信を抱えながら負傷者搬出と動物観察を訓練し、失敗痕も教材として残した。
-- [SHION_C102 制裁監査室の補修助手](/reference/backstories/formation/SHION_C102.md) — 制裁監査室の補修助手では、監査室の配管は、会議より正直だった。
-- [SHION_C103 居住区坑道の見習い](/reference/backstories/formation/SHION_C103.md) — 居住区坑道の見習いでは、地下は暗いから嫌いだろう、とよく言われます。
-- [SHION_C104 移動都市の共同食堂育ち](/reference/backstories/formation/SHION_C104.md) — 移動都市の共同食堂で、献立・香り・温度の記憶から失われた街路を語るようになった。
-- [SHION_C105 ヘイハルKombinatの菜園育ち](/reference/backstories/formation/SHION_C105.md) — ヘイハルKombinatの共同菜園で、誰でも直せる古い手押しポンプと停止時の共同作業を好んだ。
-- [SHION_C106 星間市場の動物診療助手](/reference/backstories/formation/SHION_C106.md) — 市場では誰もが値段を話しますが、診療台の獣だけは何も言いません。
-- [SHION_C107 帰還兵港の工具係](/reference/backstories/formation/SHION_C107.md) — 帰還兵の工具は、握りを見ればいつの時代から来たか分かりました。
-- [SHION_C108 自治評議区の舞台競技者](/reference/backstories/formation/SHION_C108.md) — 自治評議区の追悼劇で、死者の名を読む前に観客を笑わせ、最後まで席に残す役を担った。
-- [SHION_C109 共同祝宴堂の救護助手](/reference/backstories/formation/SHION_C109.md) — 共同祝宴堂の救護卓で、感覚反応と不安を分けて聞き、避難扉の不良も見つけた。
-- [SHION_C110 帝国安全研究院の案内係](/reference/backstories/formation/SHION_C110.md) — 最盛期の研究院は、門が多い代わりに理由も説明しました。
-- [SHION_C111 巡礼船記録院の見習い](/reference/backstories/formation/SHION_C111.md) — 巡礼船の記録院では、事実を黒、推測を青、後世の注釈を金で書き分けました。

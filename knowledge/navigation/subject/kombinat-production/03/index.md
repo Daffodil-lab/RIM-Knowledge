@@ -1,9 +1,11 @@
 # Kombinat・生産物流 03
 
-範囲: SHION_C162 Kombinat避難区の仮設住宅〜39. 同盟通貨
+範囲: SHION_C158 ヘイハルKombinatの再会窓口〜62. フリーカ・コーラ
 
 ## 項目
 
+- [SHION_C158 ヘイハルKombinatの再会窓口](/reference/backstories/formation/SHION_C158.md) — Kombinatの再会窓口では、記憶差を故障表のように扱うな、と最初に教わりました。
+- [SHION_C160 ヘイハルKombinatの射撃同好会](/reference/backstories/formation/SHION_C160.md) — Kombinatの射撃同好会は、古い照準器を直して新型と競わせる変わった集まりだった。
 - [SHION_C162 Kombinat避難区の仮設住宅](/reference/backstories/formation/SHION_C162.md) — Kombinat停止夜に、避難者の身体構成と希望を現場で確かめながら仮設住宅を組んだ。
 - [SHION_C195 ヘイハルKombinatの旧工程読書会](/reference/backstories/formation/SHION_C195.md) — 古文書と言っても、本人たちが読んだのは旧式Kombinatの工程書である。
 - [SHION_C242 Kombinatの迷子案内](/reference/backstories/formation/SHION_C242.md) — ヘイハルKombinatは、初めて来た人には機械の国に見えます。
@@ -63,4 +65,5 @@
 - [8. 遠征共同体とレッドスター](/world/08-%E9%81%A0%E5%BE%81%E5%85%B1%E5%90%8C%E4%BD%93%E3%81%A8Red-Star.md) — コアMODは、独立団、漂着者、認可団、その他の遠征共同体など、複数の開始立場を許容する。
 - [9. The Hive](/world/09-The-Hive-%E3%82%B6%E3%83%BB%E3%83%8F%E3%82%A4%E3%83%B4.md) — The Hiveは、通常シオン社会の標準ではない、例外的な単一中枢運営を扱う。
 - [33. 代表工業資源](/world/33-%E4%BB%A3%E8%A1%A8%E5%B7%A5%E6%A5%AD%E8%B3%87%E6%BA%90.md) — Coreで反復して扱う五つの代表工業資源は、Cell、エネルギー結晶、構造材、保守資材、弾薬結晶である。
-- [39. 同盟通貨](/world/39-%E5%90%8C%E7%9B%9F%E9%80%9A%E8%B2%A8.md) — 同盟通貨は、共同体が保有、移転、支出できる金融上の残高であり、物理工業資源、名声、忠誠、人格権ではない。
+- [56. カエルムの工業化と技術転換](/world/56-%E3%82%AB%E3%82%A8%E3%83%AB%E3%83%A0%E3%81%AE%E5%B7%A5%E6%A5%AD%E5%8C%96%E3%81%A8%E6%8A%80%E8%A1%93%E8%BB%A2%E6%8F%9B.md) — カエルムは、遺物依存で不均衡だった中位文明から同盟支援によってグリッターワールド級の製品を反復生産できる文明へ急速に転換したが、産業基盤の弱さと地域差を残している。
+- [62. フリーカ・コーラ](/world/62-%E3%83%95%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%BB%E3%82%B3%E3%83%BC%E3%83%A9.md) — フリーカ・コーラは、チョコレートを中心に発酵飲料と覚醒成分を組み合わせたカエルムの菓子・飲料群であり、軍用複合刺激剤の標準基剤でもある。

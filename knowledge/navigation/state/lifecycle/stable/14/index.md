@@ -1,9 +1,25 @@
 # stable 14
 
-範囲: SHION_C272 冗談の消えた祝い膳〜SHION_C351 あの区画の話はしません
+範囲: SHION_C256 自分で選んだ不便〜SHION_C335 配管の熱を覚えている
 
 ## 項目
 
+- [SHION_C256 自分で選んだ不便](/reference/backstories/formation/SHION_C256.md) — 孵育文化区では、誰にでも快適な部屋と健康な身体が用意されていました。
+- [SHION_C257 Kombinat横断競技](/reference/backstories/formation/SHION_C257.md) — ヘイハルKombinatの横断競技は、速さだけでは勝てません。
+- [SHION_C258 照合局の修繕見習い](/reference/backstories/formation/SHION_C258.md) — 内戦中の人格照合局で、本人は壁と避難路を直す班にいました。
+- [SHION_C259 毎日の坑道歩き](/reference/backstories/formation/SHION_C259.md) — 本国居住区の坑道を毎日歩き、亀裂と地層音を点検しながら壁画の変化も記録した。
+- [SHION_C260 残骸を読む共同食堂](/reference/backstories/formation/SHION_C260.md) — 対機械戦区の共同食堂で、本人は身体ごとに香りと温度を変えて配膳しました。
+- [SHION_C261 党派混植の菜園](/reference/backstories/formation/SHION_C261.md) — 自治評議区の菜園では、党派ごとに畝を分ける案が出ました。
+- [SHION_C262 都市を去ったあとの音楽](/reference/backstories/formation/SHION_C262.md) — 幸福都市の外縁で、本人は保護動物の世話をしていました。
+- [SHION_C263 色の残った観測具](/reference/backstories/formation/SHION_C263.md) — 封鎖観測地から戻った道具には、洗っても消えない色がありました。
+- [SHION_C264 雪中の小さな音楽会](/reference/backstories/formation/SHION_C264.md) — 帝国最終防衛圏では、音楽に使う電力も贅沢だと叱られました。
+- [SHION_C265 海洋観測院の救命実習](/reference/backstories/formation/SHION_C265.md) — 最盛期の海洋観測院では、事故が少ない時ほど救命実習を重ねました。
+- [SHION_C266 帰還者の時間討論](/reference/backstories/formation/SHION_C266.md) — 帝国帰還記録院で、異なる不在時間を生きた相手の話を言い直してから反論する作法を学んだ。
+- [SHION_C267 塔の三色記録帳](/reference/backstories/formation/SHION_C267.md) — 塔の記録院で、本人は事実を黒、推測を青、後世の注釈を赤で書き分けました。
+- [SHION_C268 盾の内側の息](/reference/backstories/formation/SHION_C268.md) — 装甲救援隊の射場で、本人は命中数より射線を塞ぐ位置を習いました。
+- [SHION_C269 機械音の消えた救出](/reference/backstories/formation/SHION_C269.md) — 地下維持区で自動設備が止まると、街から機械音が消えました。
+- [SHION_C270 騎士学校の古橋実習](/reference/backstories/formation/SHION_C270.md) — 最盛期の騎士学校では、空挺演習より先に古い橋を直しました。
+- [SHION_C271 英雄のいない地下救助](/reference/backstories/formation/SHION_C271.md) — 内戦後の帝国要塞で崩落が起きた時、公式命令は重要区画の保全を優先しました。
 - [SHION_C272 冗談の消えた祝い膳](/reference/backstories/formation/SHION_C272.md) — 非常令監視区で祝い膳を作っていた頃、最初に消えたのは食料でも音楽でもなく、小さな冗談だった。
 - [SHION_C273 武器を置いた手と種子](/reference/backstories/formation/SHION_C273.md) — 開戦前の残響域で、本人は故郷の種子を保管していました。
 - [SHION_C274 訓練所の無言の患者](/reference/backstories/formation/SHION_C274.md) — 内戦後の帝国機械化訓練所で、装備稼働率からこぼれ落ちた運搬動物の痛みと飼料不足を記録した。
@@ -68,19 +84,3 @@
 - [SHION_C333 土に合わせる種](/reference/backstories/formation/SHION_C333.md) — 土に合わせる種では、種は土を選ばない、土が種を選ぶ。
 - [SHION_C334 数字を止めない役目](/reference/backstories/formation/SHION_C334.md) — 本人が入植初期の重要な決定に加わらなかったことを、怠慢だと言う人がいます。
 - [SHION_C335 配管の熱を覚えている](/reference/backstories/formation/SHION_C335.md) — 配管の熱を覚えているでは、手のひらに配管の熱がまだ残っている気がします。
-- [SHION_C336 甲板は狭くない](/reference/backstories/formation/SHION_C336.md) — 甲板は狭くないでは、狭かったなんて一度も思ったことはない。
-- [SHION_C337 三つの言語と一つの食卓](/reference/backstories/formation/SHION_C337.md) — 三つの言語と一つの食卓では、あたしは作られた民族、文化継承第三期よ。
-- [SHION_C338 平常運転の裏側](/reference/backstories/formation/SHION_C338.md) — 育ての親の一人は造水班で、壊れた濾過装置の修理中に事故で亡くなりました。
-- [SHION_C339 特に思い入れはない](/reference/backstories/formation/SHION_C339.md) — 特に思い入れはないでは、自分の子供時代に特別な思い入れはない。
-- [SHION_C340 船は貝殻だった](/reference/backstories/formation/SHION_C340.md) — 船は貝殻だったでは、礁の民文化を継いだ先達はよく、この船を貝殻に例えました。
-- [SHION_C341 逃げたわけじゃない](/reference/backstories/formation/SHION_C341.md) — 逃げたわけじゃないでは、逃げたわけじゃないんだ、本人は。
-- [SHION_C342 配給計算の手順](/reference/backstories/formation/SHION_C342.md) — 配給計算の手順では、配給計算は次の手順で行いました。
-- [SHION_C343 次の甲板を提案します](/reference/backstories/formation/SHION_C343.md) — うちが十歳のとき、学童班の遊び場が狭くて喧嘩が絶えなかったから、通路脇の空き区画を遊び場に使えないか大人に提案したの。
-- [SHION_C344 「儀礼班の子」ではありません](/reference/backstories/formation/SHION_C344.md) — 「儀礼班の子」ではありませんでは、「儀礼班の子」と呼ばれるが、それは正確じゃない。
-- [SHION_C345 灯を回す、灯を回す](/reference/backstories/formation/SHION_C345.md) — 意味がまだ定まらない時代から、隣へ灯を回す所作を反復し、後の律法形成を身体で覚えた。
-- [SHION_C346 「それは罪か」と聞いた](/reference/backstories/formation/SHION_C346.md) — 巡回してきた説教役に、俺は「配給を隠すのは罪か」って聞いたんだ。
-- [SHION_C347 なぜ経文がないのか](/reference/backstories/formation/SHION_C347.md) — どうして決まった経文がないんだろう、って先生によく聞いていました。
-- [SHION_C348 三つの誤解を正しておく](/reference/backstories/formation/SHION_C348.md) — 帝国律法の清書に携わった経験を、起草者・信仰者・完成形の証人という三つの誤解から語り直す。
-- [SHION_C349 一番上手く歌えた](/reference/backstories/formation/SHION_C349.md) — 自慢していいなら言わせてもらうけど、あたしは詠唱教室で一番うまく歌えた子供だった。
-- [SHION_C350 師の言葉を借りて話します](/reference/backstories/formation/SHION_C350.md) — 本人自身の言葉より、師の言葉を借りて話す方が正確だと思います。
-- [SHION_C351 あの区画の話はしません](/reference/backstories/formation/SHION_C351.md) — あの区画の話はしませんでは、その区画で何があったかは話しません。

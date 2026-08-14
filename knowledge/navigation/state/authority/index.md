@@ -2,8 +2,8 @@
 
 ## 小索引
 
-- [canonical](canonical/) — 351件
+- [canonical](canonical/) — 396件
 - [catalog](catalog/) — 845件
 - [historical](historical/) — 445件
 - [protected-draft](protected-draft/) — 12件
-- [reference](reference/) — 133件
+- [reference](reference/) — 134件
