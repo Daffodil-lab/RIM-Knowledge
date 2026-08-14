@@ -1,9 +1,10 @@
 # stable 18
 
-範囲: SHION_A158 帰還兵港の保存食職人〜SHION_A237 計画都市の再検証主任
+範囲: SHION_A157 相互扶助区の地下救助員〜SHION_A236 長期予測院の討論調停人
 
 ## 項目
 
+- [SHION_A157 相互扶助区の地下救助員](/reference/backstories/mastery/SHION_A157.md) — 相互扶助区の崩落で、共有工具を持って地下へ入りました。
 - [SHION_A158 帰還兵港の保存食職人](/reference/backstories/mastery/SHION_A158.md) — 帰還兵港で、食べる日へ合わせて保存食を仕込みました。
 - [SHION_A159 低温研究区の共同農園技師](/reference/backstories/mastery/SHION_A159.md) — 低温研究区の農園で、便利な冷却発明の影響を調べました。
 - [SHION_A160 後方支援庁の保護区飼育員](/reference/backstories/mastery/SHION_A160.md) — 後方支援庁で運搬動物を保護し、補給大会の審判もしました。
@@ -83,4 +84,3 @@
 - [SHION_A234 ヘイハルKombinatの公共壁画家](/reference/backstories/mastery/SHION_A234.md) — Kombinatの壁画へ完成品だけ描けと言われたが、本人は停止した夜を選んだ。
 - [SHION_A235 本国居住区の救護医](/reference/backstories/mastery/SHION_A235.md) — 本国居住区では、珍しい身体の事故も日常の転倒も同じ入口から運ばれてきた。
 - [SHION_A236 長期予測院の討論調停人](/reference/backstories/mastery/SHION_A236.md) — 長期予測院の討論では、遠い未来の多数と、目の前の一人がよく秤に掛けられた。
-- [SHION_A237 計画都市の再検証主任](/reference/backstories/mastery/SHION_A237.md) — 計画都市では、不便があると言うと測定誤差を疑われた。

@@ -1,9 +1,10 @@
 # stable 15
 
-範囲: SHION_C337 三つの言語と一つの食卓〜SHION_C416 イェツィラー学舎の写経見習い
+範囲: SHION_C336 甲板は狭くない〜SHION_C415 種Cell研究所の培養見習い
 
 ## 項目
 
+- [SHION_C336 甲板は狭くない](/reference/backstories/formation/SHION_C336.md) — 甲板は狭くないでは、狭かったなんて一度も思ったことはない。
 - [SHION_C337 三つの言語と一つの食卓](/reference/backstories/formation/SHION_C337.md) — 三つの言語と一つの食卓では、あたしは作られた民族、文化継承第三期よ。
 - [SHION_C338 平常運転の裏側](/reference/backstories/formation/SHION_C338.md) — 育ての親の一人は造水班で、壊れた濾過装置の修理中に事故で亡くなりました。
 - [SHION_C339 特に思い入れはない](/reference/backstories/formation/SHION_C339.md) — 特に思い入れはないでは、自分の子供時代に特別な思い入れはない。
@@ -83,4 +84,3 @@
 - [SHION_C413 律法学舎の灯火番](/reference/backstories/formation/SHION_C413.md) — 学舎の夜、写本机の灯りを絶やさないことが本人の役目だった。
 - [SHION_C414 港湾都市の潮見習い](/reference/backstories/formation/SHION_C414.md) — あたしの仕事は毎日決まった時間に港の潮位標を見に行くことだった。
 - [SHION_C415 種Cell研究所の培養見習い](/reference/backstories/formation/SHION_C415.md) — 主任研究員に渡された鉄粉の皿を、本人は毎朝そっと覗きに行った。
-- [SHION_C416 イェツィラー学舎の写経見習い](/reference/backstories/formation/SHION_C416.md) — 師は、見習いだった本人にマソレットの一文字も書かせず、まず完成済みの文字を読むことから教えた。

@@ -1,9 +1,10 @@
 # stable 17
 
-範囲: SHION_A078 評議会議長経験者〜SHION_A157 相互扶助区の地下救助員
+範囲: SHION_A077 評議会記憶官〜SHION_A156 戦術教育環の仮設建築士
 
 ## 項目
 
+- [SHION_A077 評議会記憶官](/reference/backstories/mastery/SHION_A077.md) — 採決結果だけでなく、少数意見と途中で撤回された提案も保存した。
 - [SHION_A078 評議会議長経験者](/reference/backstories/mastery/SHION_A078.md) — 相反する星域と党派をまとめ、最盛期の平和を超える長期計画を可決へ導いた。
 - [SHION_A079 三星域調停官](/reference/backstories/mastery/SHION_A079.md) — 時間流も法律も異なる三つの星域を往復し、同じ合意文を三通りの未来で成立させた。
 - [SHION_A080 十二功績章の現場代表](/reference/backstories/mastery/SHION_A080.md) — 十二の星域で生産崩壊を立て直し、功績章を受けるたび現場の共同名義へ書き換えた。
@@ -83,4 +84,3 @@
 - [SHION_A154 異常封じ込め隊の護衛射手](/reference/backstories/mastery/SHION_A154.md) — 異常封じ込め隊では、避難者と味方の位置を確かめてから射線を開きました。
 - [SHION_A155 無人構造物調査船の救助員](/reference/backstories/mastery/SHION_A155.md) — 趣味の調査航行が高じて、無人巨大構造物へ向かう船の救助員になりました。
 - [SHION_A156 戦術教育環の仮設建築士](/reference/backstories/mastery/SHION_A156.md) — 戦術教育環の仮設建築士では、戦術教育環で、演習後に休む仮設棟を作りました。
-- [SHION_A157 相互扶助区の地下救助員](/reference/backstories/mastery/SHION_A157.md) — 相互扶助区の崩落で、共有工具を持って地下へ入りました。

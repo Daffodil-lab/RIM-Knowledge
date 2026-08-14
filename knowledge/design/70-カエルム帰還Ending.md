@@ -56,6 +56,9 @@ generated:
 - 未返済元本が開始元本と同額でも達成できる。
 - Ending完了は軍務契約上の帰還許可であり、債務免除、完済、元本減額として記録しない。
 - 完了Recordは帰還時点の未返済元本と返済累計をそのまま保存する。
+- `DepartureCommitted`時、帰還Pawnの未返済`PersonalDebtRecord`は削除せず、債権者を変えずに`PostReturnPersonalDebt`状態へ移す。同時にEnding専用の契約改訂Recordを作り、帰還Pawnの`obligationId`だけを活動中の`ColonyRepaymentContract`から除外する。
+- 帰還後の個人債務はカエルム政府と本人・家門の関係として存続する。共同体に帰還後も支払いを続けさせる場合は、Ending前に別の継続代理返済契約を明示し、帰還Endingから黙って生成しない。
+- 帰還しないPawnと、その者に属する義務は活動中の共同体契約へ残す。全員帰還して対象義務がなくなった契約だけを`ClosedByAuthorizedReturn`へ移す。
 
 ## DebtFreeReturn
 
@@ -78,7 +81,8 @@ Ineligible → Eligible → ReturnAuthorized → Boarding → DepartureCommitted
 3. プレイヤーが帰還要請を確定すると`ReturnAuthorized` Recordを作る。
 4. 指定輸送へPawnと許可された積荷をプレイヤーが搭乗させる。
 5. 出発成立時にEnding用TransactionをCommitし、同じ出発を再処理しない。
-6. 完了Recordを保存し、経路別Creditsを開始する。
+6. ServiceReturnでは帰還Pawnの義務を`PostReturnPersonalDebt`へ移し、共同体契約のEnding改訂を同じTransactionでCommitする。
+7. 完了Recordを保存し、経路別Creditsを開始する。
 
 搭乗取消、輸送破壊、帰還対象不在、契約状態変化では`Completed`にせず、条件を再検証する。Ending判定は対象Pawnを強制搭乗させず、残留者と対象外義務を事前表示する。
 
@@ -97,6 +101,7 @@ Ineligible → Eligible → ReturnAuthorized → Boarding → DepartureCommitted
 - 完了時の軍功、開始元本、未返済元本、返済累計、税状態
 - 利用輸送と出発結果
 - `ServiceReturn`では債務未完済のまま帰還したこと
+- 帰還Pawnごとの`PostReturnPersonalDebt` ID、共同体契約から除外した義務ID、帰還後の債務者・債権者
 - `DebtFreeReturn`では対象元本が0であること
 
 Creditsは`軍功による帰還`または`完済による帰還`を明記し、支払額、軍功、帰還人数を表示する。ServiceReturnのCreditsへ`完済`または`債務免除`と表示しない。
@@ -109,6 +114,8 @@ Creditsは`軍功による帰還`または`完済による帰還`を明記し、
 - 通常宇宙船脱出と全バニラEndingで債務Recordと契約状態が変わらず、カエルム完了Recordが作られないことを確認する。
 - 同じ出発を保存・ロード後に再通知してもCompletion RecordとCreditsを二重生成しない。
 - Boarding中の債務追加、税状態変化、Gravship破壊、帰還取消で不正にCompletedへ進まないことを確認する。
+- ServiceReturn後も帰還Pawnの未返済元本、債権者、返済累計が`PostReturnPersonalDebt`へ同値で残り、活動中の共同体契約だけから除外されることを確認する。
+- 一部だけが帰還した場合、帰還しないPawnの義務と共同体代理返済契約を変更しないことを確認する。
 
 ## 関連項目
 
@@ -118,3 +125,4 @@ Creditsは`軍功による帰還`または`完済による帰還`を明記し、
 - 軍功認定: [カエルム軍功認定契約](/design/69-カエルム軍功認定契約.md)
 - 財務台帳: [Mark・Credit・債務・税のWorld台帳](/design/67-Mark・Credit・債務・税のWorld台帳.md)
 - 支援と帰還輸送: [カエルム支援注文と信用枠の状態機械](/design/68-カエルム支援注文と信用枠の状態機械.md)
+- 軍務履行のゲームループ: [総力進化戦争のIdeology・軍務履行ループ](/design/73-総力進化戦争のIdeology・軍務履行ループ.md)

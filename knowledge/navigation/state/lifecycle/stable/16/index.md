@@ -1,9 +1,10 @@
 # stable 16
 
-範囲: SHION_C417 サイキック適性検査局の記録係〜SHION_A077 評議会記憶官
+範囲: SHION_C416 イェツィラー学舎の写経見習い〜SHION_A076 帝国式装備詠唱師
 
 ## 項目
 
+- [SHION_C416 イェツィラー学舎の写経見習い](/reference/backstories/formation/SHION_C416.md) — 師は、見習いだった本人にマソレットの一文字も書かせず、まず完成済みの文字を読むことから教えた。
 - [SHION_C417 サイキック適性検査局の記録係](/reference/backstories/formation/SHION_C417.md) — 育ての親は適性検査局で、感応の強さを測る針の動きを記録する仕事をしていた。
 - [SHION_C418 帝国拡張艦隊の甲板整理](/reference/backstories/formation/SHION_C418.md) — 俺の仕事は艦隊の格納庫に転がった工具や部品を集めることだった。
 - [SHION_C419 秘文字工房の顔料挽き](/reference/backstories/formation/SHION_C419.md) — あたしの仕事は、秘文字を書くための顔料を挽くことだった。
@@ -83,4 +84,3 @@
 - [SHION_A074 ティクーン公共監査人](/reference/backstories/mastery/SHION_A074.md) — 異常現実改変が公共利益へ使われたか監査し、奇跡という呼び名で費用と被害を隠すことを許さなかった。
 - [SHION_A075 破損奇跡の修復者](/reference/backstories/mastery/SHION_A075.md) — 願いだけ叶えて代価を忘れた装置を修理し、使用者の望みを聞く前に停止機構を作った。
 - [SHION_A076 帝国式装備詠唱師](/reference/backstories/mastery/SHION_A076.md) — 最盛期の装備詠唱を現代素材へ適合させ、内戦後に加えられた服従句を全て除いた。
-- [SHION_A077 評議会記憶官](/reference/backstories/mastery/SHION_A077.md) — 採決結果だけでなく、少数意見と途中で撤回された提案も保存した。

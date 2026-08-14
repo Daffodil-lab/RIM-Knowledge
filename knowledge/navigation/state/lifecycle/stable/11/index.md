@@ -1,9 +1,10 @@
 # stable 11
 
-範囲: SHION_C017 遊び場の仲裁役〜SHION_C096 最盛期を超える作文
+範囲: SHION_C016 図書館の配架手伝い〜SHION_C095 帝国人の隣席
 
 ## 項目
 
+- [SHION_C016 図書館の配架手伝い](/reference/backstories/formation/SHION_C016.md) — 増改築を重ねた帝国式書庫で、返却先の分からない本を正しい棚へ戻す仕事をした。
 - [SHION_C017 遊び場の仲裁役](/reference/backstories/formation/SHION_C017.md) — 居住区の盤上遊戯会で、説明書と地域ごとの慣習が食い違った時の仲裁を任された。
 - [SHION_C018 瓶詰め雲の収集家](/reference/backstories/formation/SHION_C018.md) — 旅先の空気を小瓶へ採り、日付、天候、土地の名を添えて集める趣味を持った。
 - [SHION_C019 鐘楼で暮らした](/reference/backstories/formation/SHION_C019.md) — 巡礼の途中で地方聖堂の鐘守一家に預けられ、鐘の時刻、金属の温度、綱の手入れを学んだ。
@@ -83,4 +84,3 @@
 - [SHION_C093 革命旗の繕い手](/reference/backstories/formation/SHION_C093.md) — 社会民主派、共産派、無政府主義者、帝国離反者の旗を同じ作業台で繕った。
 - [SHION_C094 党派横断の炊事番](/reference/backstories/formation/SHION_C094.md) — 会議中も食事を止めず、敵対しかけた党派へ同じ鍋から配った。
 - [SHION_C095 帝国人の隣席](/reference/backstories/formation/SHION_C095.md) — 追放された帝国人、同盟の子、党派を諦めた教師と同じ教室で学んだ。
-- [SHION_C096 最盛期を超える作文](/reference/backstories/formation/SHION_C096.md) — 帝国最盛期の平和を褒め、その階級制を復元せずに暮らしだけを超える方法を書いた。

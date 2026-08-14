@@ -1,9 +1,10 @@
 # stable 19
 
-範囲: SHION_A238 戦術教育環の射撃教官〜SHION_A317 採鉱団の坑道読み
+範囲: SHION_A237 計画都市の再検証主任〜SHION_A316 巡回医療隊の産婆
 
 ## 項目
 
+- [SHION_A237 計画都市の再検証主任](/reference/backstories/mastery/SHION_A237.md) — 計画都市では、不便があると言うと測定誤差を疑われた。
 - [SHION_A238 戦術教育環の射撃教官](/reference/backstories/mastery/SHION_A238.md) — 戦術教育環の射撃教官では、射撃は趣味として始めた。
 - [SHION_A239 立入制限地の身体競技指導員](/reference/backstories/mastery/SHION_A239.md) — 立入制限地へ入る者には、強さよりも安全に止まる技術が必要だと教えた。
 - [SHION_A240 海洋観測区の設備技師](/reference/backstories/mastery/SHION_A240.md) — 海洋観測区では、配管の唸りと海から聞こえる音を分けるのが難しかった。
@@ -83,4 +84,3 @@
 - [SHION_A314 第一次入植の土地選定者](/reference/backstories/mastery/SHION_A314.md) — 自慢していいなら言わせてもらう、最初の百区画のうち作物が根付いたのは本人が選んだ土地だけだった。
 - [SHION_A315 越冬隊の灯守り](/reference/backstories/mastery/SHION_A315.md) — 氷原探査で装備・燃料・外部隊員用食糧を管理し、全員を救えなかった四度目の判断を今も記憶している。
 - [SHION_A316 巡回医療隊の産婆](/reference/backstories/mastery/SHION_A316.md) — 巡回医療隊で、外部居住者の出産を支え、母子の安全を静かな手順で守った。
-- [SHION_A317 採鉱団の坑道読み](/reference/backstories/mastery/SHION_A317.md) — 採鉱団の坑道読みでは、つるはしの柄は必ず自分で削った。

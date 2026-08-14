@@ -1,9 +1,10 @@
 # stable 20
 
-範囲: SHION_A318 造成隊の地均し師〜SHION_A397 給水隊の配管工
+範囲: SHION_A317 採鉱団の坑道読み〜SHION_A396 採掘隊の火薬係
 
 ## 項目
 
+- [SHION_A317 採鉱団の坑道読み](/reference/backstories/mastery/SHION_A317.md) — 採鉱団の坑道読みでは、つるはしの柄は必ず自分で削った。
 - [SHION_A318 造成隊の地均し師](/reference/backstories/mastery/SHION_A318.md) — 造成隊の仕事を、更地を平らにするだけの単純作業だと思っている人が多いが、それは違う。
 - [SHION_A319 越冬隊の食糧番](/reference/backstories/mastery/SHION_A319.md) — 越冬隊の食糧番では、越冬隊での配給の話ならいくらでもできる。
 - [SHION_A320 灌漑組合の水路引き](/reference/backstories/mastery/SHION_A320.md) — 灌漑組合で水路を引いた区画は今も現役だが、正直に言うと設計は甘かった。
@@ -83,4 +84,3 @@
 - [SHION_A394 港湾建設隊の潜水工](/reference/backstories/mastery/SHION_A394.md) — 耳の奥がぎゅうっと締まる感覚、あれを覚えると潜水の深さが分かるようになる。
 - [SHION_A395 通信中継隊の中継技官](/reference/backstories/mastery/SHION_A395.md) — 通信中継隊の中継技官では、中継塔の保守というのは、故障を待つ仕事である。
 - [SHION_A396 採掘隊の火薬係](/reference/backstories/mastery/SHION_A396.md) — 採掘隊の火薬係では、一番信用されない仕事だったよ、火薬係なんてのは。
-- [SHION_A397 給水隊の配管工](/reference/backstories/mastery/SHION_A397.md) — 配管の継ぎ手はもっと規格を統一するべきだと本人はずっと思っていました。

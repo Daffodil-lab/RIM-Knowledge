@@ -1,9 +1,10 @@
 # リリース・実装 03
 
-範囲: REC-002 遺体回収〜1. 権威と変更規則
+範囲: REC-001 低コスト修復〜0. 結論
 
 ## 項目
 
+- [REC-001 低コスト修復](/pawn/rec-001-%E4%BD%8E%E3%82%B3%E3%82%B9%E3%83%88%E4%BF%AE%E5%BE%A9.md) — MUST: 生存Pawnの通常負傷、欠損、故障、交換可能Moduleを、標準新規Pawn生産より低い資源と時間で回復できる。
 - [REC-002 遺体回収](/pawn/rec-002-%E9%81%BA%E4%BD%93%E5%9B%9E%E5%8F%8E.md) — MUST: 回収したシオン遺体をRecovery Facilityへ受け入れ、再起動、Archive再実体化、再資源化の利用可能な選択を表示する。
 - [REC-003 Ephemeral再起動](/pawn/rec-003-%E5%86%8D%E8%B5%B7%E5%8B%95.md) — MUST: Ephemeral Pawnは、遺体とPawn instance情報が残る間、低コストで同じ現在個体を再起動できる。
 - [REC-004 Ephemeral最終削除](/pawn/rec-004-%E6%9C%80%E7%B5%82%E5%89%8A%E9%99%A4.md) — MUST: Ephemeral Pawnの遺体を再資源化した場合、Pawn、Corpse、World Pawn、Relation、Archive、個体参照付きTale／Log、未解決参照をセーブ正本から除去する。
@@ -83,4 +84,3 @@
 - [1. 延期理由](/research/remote-logistics/01-%E5%BB%B6%E6%9C%9F%E7%90%86%E7%94%B1.md) — 延期理由は、αの完成条件をCoreの通常入出庫とKombinatの発注・多段自動生産へ集中させることにある。
 - [6. 再開ゲート](/research/remote-logistics/06-%E5%86%8D%E9%96%8B%E3%82%B2%E3%83%BC%E3%83%88.md) — 遠距離物流を再び計画へ入れるには、次を全て満たす。
 - [0. 結論](/roadmap/00-%E7%B5%90%E8%AB%96.md) — Coreは工業基盤を内部完成させてからShion種族を統合し、α、β、1.0の三段階で公開する。
-- [1. 権威と変更規則](/roadmap/01-%E6%A8%A9%E5%A8%81%E3%81%A8%E5%A4%89%E6%9B%B4%E8%A6%8F%E5%89%87.md) — 本書は、何を世界内の事実とするかではなく、どの段階で何を完成させるかを定める。

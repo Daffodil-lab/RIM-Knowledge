@@ -1,6 +1,6 @@
 # stable 08
 
-範囲: 56. Shion標準遠征身体の実装仕様〜INT-001 無改造
+範囲: 56. Shion標準遠征身体の実装仕様〜CUR-005 所在と資産価値
 
 ## 項目
 
@@ -21,6 +21,7 @@
 - [70. カエルム帰還Ending](/design/70-%E3%82%AB%E3%82%A8%E3%83%AB%E3%83%A0%E5%B8%B0%E9%82%84Ending.md) — 軍功閾値によるServiceReturnとMark元本完済によるDebtFreeReturnを別Endingとして判定し、通常のバニラ脱出ではカエルム契約を解消しない。
 - [71. カエルム文化輸出カタログ](/design/71-%E3%82%AB%E3%82%A8%E3%83%AB%E3%83%A0%E6%96%87%E5%8C%96%E8%BC%B8%E5%87%BA%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0.md) — カエルムの対同盟輸出を芸術、文化、料理、衣服、装飾、手工芸品の六部門へ分け、各製品をバニラ品質と既存Thing機構へ接続する。
 - [72. 買い手別文化輸出査定と源泉税](/design/72-%E8%B2%B7%E3%81%84%E6%89%8B%E5%88%A5%E6%96%87%E5%8C%96%E8%BC%B8%E5%87%BA%E6%9F%BB%E5%AE%9A%E3%81%A8%E6%BA%90%E6%B3%89%E7%A8%8E.md) — 真正なカエルム文化品を、同盟、カエルム、外部勢力ごとの倍率、決済通貨、Def調整可能な後援枠と源泉税で取引し、同盟は完成品の最終売却見積全体を十倍評価する。
+- [73. 総力進化戦争のIdeology・軍務履行ループ](/design/73-%E7%B7%8F%E5%8A%9B%E9%80%B2%E5%8C%96%E6%88%A6%E4%BA%89%E3%81%AEIdeology%E3%83%BB%E8%BB%8D%E5%8B%99%E5%B1%A5%E8%A1%8C%E3%83%AB%E3%83%BC%E3%83%97.md) — 総力進化戦争を、バニラIdeology、Raid軍功、帝国軍務教範、支援注文、具体的な政治前例、年次戦勝儀礼を接続する反復ゲームループとして表現する。
 - [一件一ファイルとリンク規則](/governance/atomicity-and-links-%E4%B8%80%E4%BB%B6%E4%B8%80%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%A8%E3%83%AA%E3%83%B3%E3%82%AF%E8%A6%8F%E5%89%87.md) — 知識は、単独で参照・更新・廃止できる最小単位へ分ける。
 - [知識の権威順位とライフサイクル](/governance/authority-and-lifecycle-%E7%9F%A5%E8%AD%98%E3%81%AE%E6%A8%A9%E5%A8%81%E9%A0%86%E4%BD%8D%E3%81%A8%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB.md) — このOKFバンドルはRIMプロジェクト知識の入口であり、原子的な概念ファイルを現行の参照単位とする。
 - [コード解説の作成規則](/governance/code-explanation-policy-%E3%82%B3%E3%83%BC%E3%83%89%E8%A7%A3%E8%AA%AC%E3%81%AE%E4%BD%9C%E6%88%90%E8%A6%8F%E5%89%87.md) — コード変更には、非技術者が目的、処理の流れ、状態変更、失敗時結果、検査範囲を追える日本語解説を同じPull Requestで添える。
@@ -83,4 +84,3 @@
 - [CUR-003 台帳値のRecipe生成禁止](/kombinat/requirements/cur-003-%E7%A6%81%E6%AD%A2.md) — MUST: 同盟Credit、カエルムMark、債務、租税を通常工業Recipeで生成または消去しない。
 - [CUR-004 初期化](/kombinat/requirements/cur-004-%E5%88%9D%E6%9C%9F%E5%8C%96.md) — MUST: 開始時にProfileが宣言したCredit Accountと任意のMark・債務・租税Ledgerを一回だけ原子的に初期化する。
 - [CUR-005 所在と資産価値](/kombinat/requirements/cur-005-%E6%89%80%E5%9C%A8.md) — MUST: 非物理Account／Ledgerを組織単位のWorld状態として保存し、資産価値へ算入せず、複数Mapから同じIDで参照する。
-- [INT-001 無改造](/kombinat/requirements/int-001-%E7%84%A1%E6%94%B9%E9%80%A0.md) — MUST: KombinatはCore独自保管基盤のprivate状態を変更または参照せず、公開Application境界だけを使う。

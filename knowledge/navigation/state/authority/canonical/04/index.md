@@ -1,9 +1,10 @@
 # canonical 04
 
-範囲: DOR-002 無料〜10. 変更管理
+範囲: DOR-001 Dormant化〜9. 次の作業順
 
 ## 項目
 
+- [DOR-001 Dormant化](/pawn/dor-001-%E5%8C%96.md) — MUST: 生存し、搬送可能で、禁止状態にないPawnをDormant Recordへ移せる。
 - [DOR-002 無料](/pawn/dor-002-%E7%84%A1%E6%96%99.md) — MUST: Dormant化、保管期間、再配備は資源、通貨、専用容量を消費しない。
 - [DOR-003 停止](/pawn/dor-003-%E5%81%9C%E6%AD%A2.md) — MUST: Dormant中はPawn Tick、Need、病気、出血、腐敗、充放電、Hediff経過、Ability cooldown、年齢進行を停止する。
 - [DOR-004 完全往復](/pawn/dor-004-%E5%AE%8C%E5%85%A8%E5%BE%80%E5%BE%A9.md) — MUST: 名前、load ID、individual ID、関係、技能、特性、遺伝情報、身体、内蔵Module、Hediff、Pawn設定をDormant化と再配備で維持する。
@@ -83,4 +84,3 @@
 - [7. バージョン運用](/roadmap/07-%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E9%81%8B%E7%94%A8.md) — バージョン番号だけで品質を主張しない、また各版は本書の完了条件と検証記録を伴う。
 - [8. 現在地](/roadmap/08-%E7%8F%BE%E5%9C%A8%E5%9C%B0.md) — 2026-08-02時点で工業基盤の実装作業は存在するが、工業完成マイルストーンとShion統合αは未完成である。
 - [9. 次の作業順](/roadmap/09-%E6%AC%A1%E3%81%AE%E4%BD%9C%E6%A5%AD%E9%A0%86.md) — 工業管理画面の基準画像とRimWorld 1.6画面契約を先に固定し、種族非依存の保管基盤とコンビナートを実装してからシオン種族と図像をα版へ統合する。
-- [10. 変更管理](/roadmap/10-%E5%A4%89%E6%9B%B4%E7%AE%A1%E7%90%86.md) — 本書を更新する場合、少なくとも次を記録するという方針の適用範囲と条件を定める。

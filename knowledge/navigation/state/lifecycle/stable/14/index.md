@@ -1,9 +1,10 @@
 # stable 14
 
-範囲: SHION_C257 Kombinat横断競技〜SHION_C336 甲板は狭くない
+範囲: SHION_C256 自分で選んだ不便〜SHION_C335 配管の熱を覚えている
 
 ## 項目
 
+- [SHION_C256 自分で選んだ不便](/reference/backstories/formation/SHION_C256.md) — 孵育文化区では、誰にでも快適な部屋と健康な身体が用意されていました。
 - [SHION_C257 Kombinat横断競技](/reference/backstories/formation/SHION_C257.md) — ヘイハルKombinatの横断競技は、速さだけでは勝てません。
 - [SHION_C258 照合局の修繕見習い](/reference/backstories/formation/SHION_C258.md) — 内戦中の人格照合局で、本人は壁と避難路を直す班にいました。
 - [SHION_C259 毎日の坑道歩き](/reference/backstories/formation/SHION_C259.md) — 本国居住区の坑道を毎日歩き、亀裂と地層音を点検しながら壁画の変化も記録した。
@@ -83,4 +84,3 @@
 - [SHION_C333 土に合わせる種](/reference/backstories/formation/SHION_C333.md) — 土に合わせる種では、種は土を選ばない、土が種を選ぶ。
 - [SHION_C334 数字を止めない役目](/reference/backstories/formation/SHION_C334.md) — 本人が入植初期の重要な決定に加わらなかったことを、怠慢だと言う人がいます。
 - [SHION_C335 配管の熱を覚えている](/reference/backstories/formation/SHION_C335.md) — 配管の熱を覚えているでは、手のひらに配管の熱がまだ残っている気がします。
-- [SHION_C336 甲板は狭くない](/reference/backstories/formation/SHION_C336.md) — 甲板は狭くないでは、狭かったなんて一度も思ったことはない。

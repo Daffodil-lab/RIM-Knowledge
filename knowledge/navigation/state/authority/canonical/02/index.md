@@ -1,6 +1,6 @@
 # canonical 02
 
-範囲: 44. Human Weapons計画（仮称）〜J. Creditと関連台帳
+範囲: 44. Human Weapons計画（仮称）〜I. 保管中の時間進行
 
 ## 項目
 
@@ -33,6 +33,7 @@
 - [70. カエルム帰還Ending](/design/70-%E3%82%AB%E3%82%A8%E3%83%AB%E3%83%A0%E5%B8%B0%E9%82%84Ending.md) — 軍功閾値によるServiceReturnとMark元本完済によるDebtFreeReturnを別Endingとして判定し、通常のバニラ脱出ではカエルム契約を解消しない。
 - [71. カエルム文化輸出カタログ](/design/71-%E3%82%AB%E3%82%A8%E3%83%AB%E3%83%A0%E6%96%87%E5%8C%96%E8%BC%B8%E5%87%BA%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0.md) — カエルムの対同盟輸出を芸術、文化、料理、衣服、装飾、手工芸品の六部門へ分け、各製品をバニラ品質と既存Thing機構へ接続する。
 - [72. 買い手別文化輸出査定と源泉税](/design/72-%E8%B2%B7%E3%81%84%E6%89%8B%E5%88%A5%E6%96%87%E5%8C%96%E8%BC%B8%E5%87%BA%E6%9F%BB%E5%AE%9A%E3%81%A8%E6%BA%90%E6%B3%89%E7%A8%8E.md) — 真正なカエルム文化品を、同盟、カエルム、外部勢力ごとの倍率、決済通貨、Def調整可能な後援枠と源泉税で取引し、同盟は完成品の最終売却見積全体を十倍評価する。
+- [73. 総力進化戦争のIdeology・軍務履行ループ](/design/73-%E7%B7%8F%E5%8A%9B%E9%80%B2%E5%8C%96%E6%88%A6%E4%BA%89%E3%81%AEIdeology%E3%83%BB%E8%BB%8D%E5%8B%99%E5%B1%A5%E8%A1%8C%E3%83%AB%E3%83%BC%E3%83%97.md) — 総力進化戦争を、バニラIdeology、Raid軍功、帝国軍務教範、支援注文、具体的な政治前例、年次戦勝儀礼を接続する反復ゲームループとして表現する。
 - [一件一ファイルとリンク規則](/governance/atomicity-and-links-%E4%B8%80%E4%BB%B6%E4%B8%80%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%A8%E3%83%AA%E3%83%B3%E3%82%AF%E8%A6%8F%E5%89%87.md) — 知識は、単独で参照・更新・廃止できる最小単位へ分ける。
 - [知識の権威順位とライフサイクル](/governance/authority-and-lifecycle-%E7%9F%A5%E8%AD%98%E3%81%AE%E6%A8%A9%E5%A8%81%E9%A0%86%E4%BD%8D%E3%81%A8%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB.md) — このOKFバンドルはRIMプロジェクト知識の入口であり、原子的な概念ファイルを現行の参照単位とする。
 - [コード解説の作成規則](/governance/code-explanation-policy-%E3%82%B3%E3%83%BC%E3%83%89%E8%A7%A3%E8%AA%AC%E3%81%AE%E4%BD%9C%E6%88%90%E8%A6%8F%E5%89%87.md) — コード変更には、非技術者が目的、処理の流れ、状態変更、失敗時結果、検査範囲を追える日本語解説を同じPull Requestで添える。
@@ -83,4 +84,3 @@
 - [G. 保管基盤不在](/kombinat/requirements/050-G-%E4%B8%8A%E6%B5%81%E4%B8%8D%E5%9C%A8.md) — Core独自保管基盤が欠落または不整合なら生産接続を停止し、保存状態を破壊的に初期化しない。
 - [H. 保管基盤欠陥分離](/kombinat/requirements/051-H-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E5%88%86%E9%9B%A2.md) — Core独自保管基盤単体の問題とKombinat接続の問題を再現条件で分離する。
 - [I. 保管中の時間進行](/kombinat/requirements/052-I-Stasis-%E4%BF%9D%E7%AE%A1%E4%B8%AD%E3%81%AE%E6%99%82%E9%96%93%E9%80%B2%E8%A1%8C.md) — Core独自Storageが定めた対象別時間進行方針を、Kombinatが上書きしない。
-- [J. Creditと関連台帳](/kombinat/requirements/053-J-%E9%80%9A%E8%B2%A8.md) — Credit、Mark、債務、租税、Thing受渡しの初期化と原子的Transactionが、連打と保存往復でも一致する。

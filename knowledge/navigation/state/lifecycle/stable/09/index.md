@@ -1,9 +1,10 @@
 # stable 09
 
-範囲: INT-002 通常経路〜GEN-006 原子的配備
+範囲: INT-001 無改造〜GEN-005 必要装備
 
 ## 項目
 
+- [INT-001 無改造](/kombinat/requirements/int-001-%E7%84%A1%E6%94%B9%E9%80%A0.md) — MUST: KombinatはCore独自保管基盤のprivate状態を変更または参照せず、公開Application境界だけを使う。
 - [INT-002 通常経路](/kombinat/requirements/int-002-%E9%80%9A%E5%B8%B8%E7%B5%8C%E8%B7%AF.md) — MUST: 物理Thingの受渡しにはCore独自基盤が公開する予約・commit・release契約だけを使う。
 - [INT-003 Storage予約](/kombinat/requirements/int-003-%E4%BA%88%E7%B4%84.md) — MUST: Kombinatが工程へ算入できるのは、Core StorageがThing IDと数量で予約した入力だけである。
 - [INT-004 引渡し](/kombinat/requirements/int-004-%E5%BC%95%E6%B8%A1%E3%81%97.md) — MUST: 生産出力はCore Storageへ直接生成し、Kombinat側の所有Thingを作らない。
@@ -83,4 +84,3 @@
 - [GEN-003 既定個体](/pawn/gen-003-%E6%97%A2%E5%AE%9A%E5%80%8B%E4%BD%93.md) — MUST: Defで登録された固有個体または既定設計を一覧から選び、予定された構成で生産できる。
 - [GEN-004 一からの設計](/pawn/gen-004-%E4%B8%80%E3%81%8B%E3%82%89%E3%81%AE%E8%A8%AD%E8%A8%88.md) — MUST: プレイヤーはBody Platform、Module、外装、遺伝情報、特性、技能、Passion、能力、役割、Loadoutを一から構成し、互換性と費用を確認して生産できる。
 - [GEN-005 必要装備](/pawn/gen-005-%E5%BF%85%E8%A6%81%E8%A3%85%E5%82%99.md) — MUST: 生産要求は、具体Thing指定と作者定義のEquipment Familyを併用できる。
-- [GEN-006 原子的配備](/pawn/gen-006-%E5%8E%9F%E5%AD%90%E7%9A%84%E9%85%8D%E5%82%99.md) — MUST: Body、必須Module、必須能力、必須装備のいずれかが欠ける場合、完成扱いでPawnを出現させない。

@@ -1,9 +1,11 @@
 # stable 22
 
-範囲: 0. 歩兵装備投資と作戦機動群の外部検証〜15. トヴェルジとクピナ
+範囲: 3. DSUから採るUIと採らない実装〜13. 帝国人とシオンの起源
 
 ## 項目
 
+- [3. DSUから採るUIと採らない実装](/research/kombinat-ui-references/03-DSU%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8BUI%E3%81%A8%E6%8E%A1%E3%82%89%E3%81%AA%E3%81%84%E5%AE%9F%E8%A3%85.md) — DSUの検索・任意排出・Pawnアクセスは参照するが、中央Mapセルへ内容物を集積する保管方式は採用しない。
+- [4. 要求中間素材作成の操作イメージ](/research/kombinat-ui-references/04-%E8%A6%81%E6%B1%82%E4%B8%AD%E9%96%93%E7%B4%A0%E6%9D%90%E4%BD%9C%E6%88%90%E3%81%AE%E6%93%8D%E4%BD%9C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8.md) — 在庫とRecipeを並べ、最終品の要求から不足中間品と総材料を確認する簡潔な操作モデルをKombinatへ適用する。
 - [0. 歩兵装備投資と作戦機動群の外部検証](/research/military-doctrine/00-%E6%AD%A9%E5%85%B5%E8%A3%85%E5%82%99%E6%8A%95%E8%B3%87%E3%81%A8%E4%BD%9C%E6%88%A6%E6%A9%9F%E5%8B%95%E7%BE%A4%E3%81%AE%E5%A4%96%E9%83%A8%E6%A4%9C%E8%A8%BC.md) — 作戦機動群と歩兵中心装備体系の外部比較を整理し、バルジの戦いのTNDM評価とStG 44による因果説明を分離する。
 - [0. Purpose](/research/monolyn-practice/00-Purpose.md) — This document records the user-provided summary of real player practice around Monolyn Race from Steam Workshop Q&A, Steam Workshop…。
 - [1. Source status](/research/monolyn-practice/01-Source-status.md) — The details below are treated as a user-provided field report from public player discussion and strategy notes.。
@@ -82,5 +84,3 @@
 - [11. 保護された未確定事項](/world/11-%E4%BF%9D%E8%AD%B7%E3%81%95%E3%82%8C%E3%81%9F%E6%9C%AA%E7%A2%BA%E5%AE%9A%E4%BA%8B%E9%A0%85.md) — 次の事項は、設定不足ではなく、本書が意図的に正解を固定しない領域である。
 - [12. 正史上の禁止境界](/world/12-%E6%AD%A3%E5%8F%B2%E4%B8%8A%E3%81%AE%E7%A6%81%E6%AD%A2%E5%A2%83%E7%95%8C.md) — 新しい設定は、帝国と同盟の連続性と変化、純粋な善意、善意の非対称性、人格と身体の分離を同時に壊さない場合にのみ採用できる。
 - [13. 帝国人とシオンの起源](/world/13-%E5%B8%9D%E5%9B%BD%E4%BA%BA%E3%81%A8%E3%82%B7%E3%82%AA%E3%83%B3%E3%81%AE%E8%B5%B7%E6%BA%90.md) — 帝国人とシオンは機械超知性に該当またはそれを上回り得る人類であり、シオンは帝国人の身体基盤から設計された。
-- [14. 水仙](/world/14-%E6%B0%B4%E4%BB%99.md) — 水仙は、帝国内戦後にシオンの蜂起を主導し、身体と製造手段を自己所有へ取り戻す革命の中心となったシオンである。
-- [15. トヴェルジとクピナ](/world/15-%E3%83%88%E3%83%B4%E3%82%A7%E3%83%AB%E3%82%B8%E3%81%A8%E3%82%AF%E3%83%94%E3%83%8A.md) — トヴェルジは地球から銀河円盤面を大きく離れる方向にある自然形成の球状星団であり、地球を出発した移民者の末裔が帝国とシオン文明を築いた起源地である。

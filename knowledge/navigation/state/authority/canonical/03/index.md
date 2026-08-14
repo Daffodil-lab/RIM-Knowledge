@@ -1,9 +1,10 @@
 # canonical 03
 
-範囲: 12. α Release Gate〜DOR-001 Dormant化
+範囲: J. Creditと関連台帳〜ADV-010 検証割当
 
 ## 項目
 
+- [J. Creditと関連台帳](/kombinat/requirements/053-J-%E9%80%9A%E8%B2%A8.md) — Credit、Mark、債務、租税、Thing受渡しの初期化と原子的Transactionが、連打と保存往復でも一致する。
 - [12. α Release Gate](/kombinat/requirements/12-%CE%B1-Release-Gate-%E5%85%AC%E9%96%8B%E5%88%A4%E5%AE%9A.md) — α版はCore独自保管基盤との直接受渡し、三段生産、任意排出、保存・復旧をRelease Gateへ含める。
 - [13. β境界](/kombinat/requirements/13-%CE%B2%E5%A2%83%E7%95%8C.md) — β境界は、Pawn Foundry要求とEquipment Familyを扱う。
 - [CON-001 観測範囲](/kombinat/requirements/con-001-%E8%A6%B3%E6%B8%AC%E7%AF%84%E5%9B%B2.md) — MUST: Kombinat自身のBuffer、Factory、Core API、正式な上流APIから得たeventだけを消費集計へ使う。
@@ -83,4 +84,3 @@
 - [ADV-008 Dormant wealth](/pawn/adv-008-%E8%A6%81%E4%BB%B6.md) — MUST: Dormant中の身体と内蔵Moduleを、そのRecordが属するMapまたはWorldObjectのwealthへ一度だけ算入する。
 - [ADV-009 全状態の保存と冪等性](/pawn/adv-009-%E5%85%A8%E7%8A%B6%E6%85%8B%E3%81%AE%E4%BF%9D%E5%AD%98%E3%81%A8%E5%86%AA%E7%AD%89%E6%80%A7.md) — MUST: 緊急再配備、着脱品返却、無人生産、参照解決、Manifest診断を途中保存できる。
 - [ADV-010 検証割当](/pawn/adv-010-%E6%A4%9C%E8%A8%BC%E5%89%B2%E5%BD%93.md) — MUST: 監査S-047〜060、S-064〜066を自動fixture、統合試験、手動試験のいずれかへ割り当て、対象build、DLC、外部MOD、操作、期待結果、物理費、ID、保存往復を記録する。
-- [DOR-001 Dormant化](/pawn/dor-001-%E5%8C%96.md) — MUST: 生存し、搬送可能で、禁止状態にないPawnをDormant Recordへ移せる。
