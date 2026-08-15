@@ -1,6 +1,6 @@
 # GitHub常時同期
 
-この仕組みは、作業中のファイルを5分ごとにPC専用の退避ブランチへ保存する。現在のブランチ、Git index、未コミット変更には触れない。
+この仕組みは、Codexのチャット開始時、各ターン終了時、チャット終了時に、作業中のファイルをPC専用の退避ブランチへ保存する。現在のブランチ、Git index、未コミット変更には触れない。AI APIを呼ばないため、同期自体はトークンを消費しない。
 
 ## 動作境界
 
@@ -9,6 +9,7 @@
 - GitHub側の変更は`fetch`するが、作業中ファイルへ自動mergeしない。
 - force pushを使わない。遠隔更新との競合、通信失敗、capture中の変更、秘密らしいファイルを検出した場合は停止し、次回へ回す。
 - これは作業退避であり、公開版・正本化ではない。公開は通常の検証、commit、Draft PRを通す。
+- 常駐processは置かない。各hookが短命のPowerShell processを起動し、同期完了後に自動終了する。
 
 `origin`が公開リポジトリの場合、退避ブランチも公開される。初回送信前に、`.gitignore`対象外のプロジェクトファイルを公開してよいか人が確認する。
 
@@ -26,7 +27,19 @@ powershell -NoProfile -File .\Scripts\Sync-GitHubCheckpoint.ps1 -DryRun
 powershell -NoProfile -File .\Scripts\Sync-GitHubCheckpoint.ps1
 ```
 
-## 定期実行の登録と解除
+## Codexチャットとの連動
+
+`.codex/hooks.json`が次のeventを処理する。
+
+- `SessionStart`: チャットの開始・再開時
+- `Stop`: Codexの各ターン終了時
+- `SessionEnd`: チャットのarchive・削除、Codex正常終了、または未接続のまま約30分経過した時
+
+project hookは、初回または定義変更後にCodexのhook画面で内容を確認して信頼する必要がある。信頼前は実行されない。
+
+## Windows定期タスクによる予備運用
+
+Codex hookを利用できない環境だけで、従来の5分間隔taskを使用する。
 
 タスクを登録せず、設定と安全検査だけを確認する:
 
