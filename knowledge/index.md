@@ -27,7 +27,7 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 - [矛盾監査](contradictions/) — 3件
 - [独立開拓団](colony/) — 30件
 - [決定履歴](decisions/) — 379件
-- [全体設計](design/) — 57件
+- [全体設計](design/) — 59件
 - [運用規則](governance/) — 8件
 - [外部連携境界](integrations/) — 8件
 - [Kombinat](kombinat/) — 86件
@@ -38,7 +38,7 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 - [リリース計画](roadmap/) — 12件
 - [退役済み出典識別台帳](sources/) — 削除済み原本・コード・図版の墓標
 - [OKF保守ツール](tools/) — 概念・索引・監査の保守
-- [正史・世界観](world/) — 44件
+- [正史・世界観](world/) — 45件
 
 ## 使い方
 

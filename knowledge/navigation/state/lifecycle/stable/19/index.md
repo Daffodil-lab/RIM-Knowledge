@@ -1,9 +1,11 @@
 # stable 19
 
-範囲: 9. UI〜2.1 補充可能性
+範囲: 7. Stasis〜14. β Definition of Done
 
 ## 項目
 
+- [7. Stasis](/kombinat/core/07-Stasis.md) — Core独自基盤は保管中の時間進行方針を自ら所有し、Matter NetworkのStasisを自動継承しない。
+- [8. 消費と流通](/kombinat/core/08-%E6%B6%88%E8%B2%BB%E3%81%A8%E6%B5%81%E9%80%9A.md) — Kombinatは接続先保管基盤の内部消費を無断で監視せず、公開された観測境界だけを使う。
 - [9. UI](/kombinat/core/09-UI.md) — Field Ledger Terminalを選択して全機能へ入る暗色のRimWorld管理Windowを基準とし、通常表示と最大化表示を同じDef駆動Page railで提供する。
 - [10. 保存と原子性](/kombinat/core/10-%E4%BF%9D%E5%AD%98%E3%81%A8%E5%8E%9F%E5%AD%90%E6%80%A7.md) — Kombinatは次だけを保存するという方針の適用範囲と条件を定める。
 - [11. 上流欠陥の扱い](/kombinat/core/11-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E3%81%AE%E6%89%B1%E3%81%84.md) — Matter Networkは必須経路にせず、将来の任意Adapterでだけ上流欠陥を分離する。
@@ -82,5 +84,3 @@
 - [J. 途中保存と再送](/pawn/077-J-%E9%80%94%E4%B8%AD%E4%BF%9D%E5%AD%98%E3%81%A8%E5%86%8D%E9%80%81.md) — J. 途中保存と再送は、生産、Dormant化、回収、再資源化、再実体化、Cloneの各段階で保存する。
 - [13. 完成図Hardening要件](/pawn/13-%E5%AE%8C%E6%88%90%E5%9B%B3Hardening%E8%A6%81%E4%BB%B6.md) — 本節は旧完成図監査から回収したPawn Foundry固有のHardening要件を、本書自身の拘束要件として維持する。
 - [14. β Definition of Done](/pawn/14-%CE%B2-Definition-of-Done.md) — 次を全て満たした時だけ、β版のPawn生産系を完成とする。
-- [15. 未確定のバランス値](/pawn/15-%E6%9C%AA%E7%A2%BA%E5%AE%9A%E3%81%AE%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9%E5%80%A4.md) — 次はβの実装fixtureで確定するという方針の適用範囲と条件を定める。
-- [2.1 補充可能性](/pawn/2-1-%E8%A3%9C%E5%85%85%E5%8F%AF%E8%83%BD%E6%80%A7.md) — 補充可能性は、通常シオンPawnに、世界で一度しか得られない必須材料や有限の生産回数を要求しない。

@@ -1,9 +1,11 @@
 # stable 21
 
-範囲: 短文〜2. Overall system reception
+範囲: 帝国と同盟を見せる方法〜0. Purpose
 
 ## 項目
 
+- [帝国と同盟を見せる方法](/player-facing/005-%E5%B8%9D%E5%9B%BD%E3%81%A8%E5%90%8C%E7%9B%9F%E3%82%92%E8%A6%8B%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95.md) — 帝国史を長く講義する必要はありません、また現在の暮らしに残る層で見せます。
+- [通常プレイで説明しないこと](/player-facing/006-%E9%80%9A%E5%B8%B8%E3%83%97%E3%83%AC%E3%82%A4%E3%81%A7%E8%AA%AC%E6%98%8E%E3%81%97%E3%81%AA%E3%81%84%E3%81%93%E3%81%A8.md) — 必要になった時、クエスト一件につき一つの中心問題だけを見せます。
 - [短文](/player-facing/007-%E7%9F%AD%E6%96%87.md) — 食事も仕事も身体も選べる狐型機械人シオンと、辺境に小さな楽園を築こう。
 - [長文](/player-facing/008-%E9%95%B7%E6%96%87.md) — シオンは、製品として作られた身体を自分たちの手へ取り戻した狐型の機械人です。
 - [Red Star紹介文](/player-facing/009-Red-Star%E7%B4%B9%E4%BB%8B%E6%96%87.md) — Red Starは、本国が正式に派遣する開拓団です。
@@ -82,5 +84,3 @@
 - [12. Final lesson](/research/monolyn-practice/12-Final-lesson.md) — Monolyn is valuable because players actually build around its Tower, Light, baptism, and terminal systems.。
 - [13. Source links recorded by user](/research/monolyn-practice/13-Source-links-recorded-by-user.md) — Source links recorded by userは、Monolyn Race - Steam Workshop Q&A:…。
 - [0. Purpose](/research/monolyn-ui/00-Purpose.md) — This document records the user-provided summary of Monolyn Race UI and system feedback from developer Q&A, bug report threads, and…。
-- [1. Source status](/research/monolyn-ui/01-Source-status.md) — The details below are treated as a user-provided field report from public player feedback and strategy/review sources.。
-- [2. Overall system reception](/research/monolyn-ui/02-Overall-system-reception.md) — Reported NamuWiki-style evaluation、具体的にはMonolyn is high quality, but unusual compared with many existing mods.とIts prayer UI,…。

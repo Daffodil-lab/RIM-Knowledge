@@ -3,4 +3,4 @@
 ## 小索引
 
 - [draft](draft/) — 10件
-- [stable](stable/) — 1770件
+- [stable](stable/) — 1773件

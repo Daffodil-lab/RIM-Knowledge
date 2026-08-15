@@ -1,6 +1,6 @@
 # stable 18
 
-範囲: 14. 装備、軍事、バランス〜8. 消費と流通
+範囲: 14. 装備、軍事、バランス〜6. 無人生産
 
 ## 項目
 
@@ -44,6 +44,8 @@
 - [Core・公式DLC量産カタログ境界](/design/55-Core%E5%85%AC%E5%BC%8FDLC%E9%87%8F%E7%94%A3%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0%E5%A2%83%E7%95%8C.md) — Coreと五つの公式DLCに属する反復可能な通常Recipeから、Kombinatの無人量産カタログをDef駆動で生成する。
 - [56. Shion標準遠征身体の実装仕様](/design/56-Shion%E6%A8%99%E6%BA%96%E9%81%A0%E5%BE%81%E8%BA%AB%E4%BD%93%E3%81%AE%E5%AE%9F%E8%A3%85%E4%BB%95%E6%A7%98.md) — Shion標準遠征身体の器官、能力値、欠損状態、休息、Anomaly拒絶、心情と将来拡張点を定める。
 - [57. レッドスター惑星戦役](/design/57-%E3%83%AC%E3%83%83%E3%83%89%E3%82%B9%E3%82%BF%E3%83%BC%E6%83%91%E6%98%9F%E6%88%A6%E5%BD%B9.md) — レッドスター惑星戦役は、無政府状態の辺境惑星で介入、抵抗、惑星統一の三路線を遊ぶ任意の段階制キャンペーンである。
+- [帝国軍務教範の状態機械](/design/58-%E5%B8%9D%E5%9B%BD%E8%BB%8D%E5%8B%99%E6%95%99%E7%AF%84%E3%81%AE%E7%8A%B6%E6%85%8B%E6%A9%9F%E6%A2%B0.md) — 帝国軍務教範は、平時、警戒、戦闘、復旧の希望態勢と実適用状態を分離し、検証済みの差分を有界キューで適用する。
+- [帝国軍務教範の一括操作境界](/design/59-%E5%B8%9D%E5%9B%BD%E8%BB%8D%E5%8B%99%E6%95%99%E7%AF%84%E3%81%AE%E4%B8%80%E6%8B%AC%E6%93%8D%E4%BD%9C%E5%A2%83%E7%95%8C.md) — 帝国軍務教範は、可逆的なバニラ方針と登録済み命令を態勢遷移へ含め、政治的、不可逆、対象選択を伴う操作を別確認へ分離する。
 - [一件一ファイルとリンク規則](/governance/atomicity-and-links.md) — 知識は、単独で参照・更新・廃止できる最小単位へ分ける。
 - [知識の権威順位とライフサイクル](/governance/authority-and-lifecycle.md) — このOKFバンドルはRIMプロジェクト知識の入口であり、原子的な概念ファイルを現行の参照単位とする。
 - [オーバーホール中の矛盾判定規則](/governance/contradiction-policy.md) — 改稿差分を誤って矛盾と判定せず、現行正本の衝突だけを止めるための規則。
@@ -82,5 +84,3 @@
 - [4. Kombinat追加層の中核型](/kombinat/core/04-Kombinat%E8%BF%BD%E5%8A%A0%E5%B1%A4%E3%81%AE%E4%B8%AD%E6%A0%B8%E5%9E%8B.md) — KombinatはCore独自保管・接続システムに属する保管基盤型を再実装しない。
 - [5. 発注と多段生産](/kombinat/core/05-%E7%99%BA%E6%B3%A8%E3%81%A8%E5%A4%9A%E6%AE%B5%E7%94%9F%E7%94%A3.md) — αの発注は具体的なThingDef、Recipe、数量または目標在庫を基本とする。
 - [6. 無人生産](/kombinat/core/06-%E7%84%A1%E4%BA%BA%E7%94%9F%E7%94%A3.md) — Kombinat専用FactoryとKombinat専用Patternは、Pawnがいなくても電力、材料、設備状態を満たせば稼働できる。
-- [7. Stasis](/kombinat/core/07-Stasis.md) — Core独自基盤は保管中の時間進行方針を自ら所有し、Matter NetworkのStasisを自動継承しない。
-- [8. 消費と流通](/kombinat/core/08-%E6%B6%88%E8%B2%BB%E3%81%A8%E6%B5%81%E9%80%9A.md) — Kombinatは接続先保管基盤の内部消費を無断で監視せず、公開された観測境界だけを使う。
