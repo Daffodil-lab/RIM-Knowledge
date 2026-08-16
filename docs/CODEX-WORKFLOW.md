@@ -102,3 +102,7 @@ GitHub checkpoint hooksはPowerShellとGitだけで動き、AIモデルを呼び
 project-localな`.codex`設定は、信頼済みプロジェクトで使用します。初回cloneではプロジェクトを信頼したうえで、CLIの`/hooks`を開き、実行コマンドを確認してhookを信頼します。hookの定義が変わるとhashが変わるため、再レビューが必要です。
 
 agentまたはconfigを変更した後は、新しいCodexセッションを開始して設定を再読込みします。開始後、必要に応じてCLIの`/agent`またはアプリのsubagent表示で、担当スレッドを確認します。
+
+## Project Data Spine
+
+Project AtlasはOKF正本を参照する単一repository用の機械可読索引とknowledge snapshot、bounded Context Packはtaskへ渡したowner-firstの入力集合、Run Ledgerはtaskの実行事実を記録する運用記録です。domain factの正本は引き続き`knowledge_role`と`canonical_for`で特定したOKF ownerであり、三成果物はそれを置き換えません。runtime書込みは`.git-sync/harness/`に限定し、token usageとcontext coverageを混同しません。Wave 1のartifact置換は一つのCodex process内だけで直列化し、複数process writerとprocess crash復旧は対象外です。

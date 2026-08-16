@@ -143,3 +143,13 @@ npm --prefix Tools/RimDevHarness run test:live-review
 - gate: 人間の証拠または承認がなければ通過しない境界。
 - game-loadable: RimWorldがMODをloadできた証拠。
 - scenario-tested: ゲーム内scenarioで期待動作まで確認した証拠。game-loadableとは別。
+
+## Project Data Spine (Wave 1)
+
+Project Atlas は OKF 概念を再定義せず、`knowledge_role` → `canonical_for` / `canonical_owner` → `authority` / `status` の順で所有を解決します。`canonical_for` は subject ID、`canonical_owner` は正本 document path、`canonical_scope` は grouping ID として扱います。`knowledge/navigation/` は入力から除外し、Atlas の出力は repository facts、owner edges、content SHA-256、限定的な implementation observation です。Wave 1は単一repositoryだけを受理し、`digestKind: knowledge-content-snapshot-v1`で生成時刻と絶対pathを除いた知識snapshotを識別します。
+
+Context Pack は task の入力集合です。projectionを収録する場合はcanonical ownerを先に収録し、上限内にownerが入らなければdependentも除外します。各fileには`knowledgeRole`、`canonicalFor`、`canonicalScope`、`authority`、`status`を保持します。Run Ledger は task の実行事実を記録します。token usage と context coverage は別概念であり、未指定の budget は発明しません。
+
+成果物は `.git-sync/harness/` 配下へ保存します。Wave 1の置換保証は同一process内の直列化と捕捉可能な失敗からのrollbackまでです。process crashからの自動復旧と複数processの同時writerは保証しないため、Codex Desktopから一つのwriterだけを実行します。domain factの正本はOKFに残り、これらのruntime成果物は正本ではありません。
+
+Wave 1 では Codex Desktop を実行・承認の中心とし、既存の GUI / server / chat の挙動は変更しません。既存 GUI/App Server harness は移行中の実行面であり、Project Data Spine の正本ではありません。

@@ -1,0 +1,22 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "run-ledger.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "runId", "taskId", "objective", "status", "phases", "validations", "tokenUsage", "contextCoverage", "createdAt", "updatedAt"],
+  "properties": {
+    "schemaVersion": { "const": 1 }, "runId": { "$ref": "#/$defs/id" }, "taskId": { "oneOf": [{ "$ref": "#/$defs/id" }, { "type": "null" }] }, "objective": { "type": "string", "minLength": 1 },
+    "status": { "enum": ["initialized", "running", "completed", "failed", "stopped", "blocked"] }, "budget": { "type": "integer", "minimum": 1 },
+    "phases": { "type": "array", "items": { "$ref": "#/$defs/phase" } }, "validations": { "type": "array", "items": { "$ref": "#/$defs/validation" } },
+    "tokenUsage": { "oneOf": [{ "$ref": "#/$defs/unavailableTokens" }, { "$ref": "#/$defs/observedTokens" }] }, "contextCoverage": { "$ref": "#/$defs/contextCoverage" },
+    "createdAt": { "type": "string", "format": "date-time" }, "updatedAt": { "type": "string", "format": "date-time" }
+  },
+  "$defs": {
+    "id": { "type": "string", "pattern": "^[A-Za-z0-9][A-Za-z0-9._-]{0,127}$" },
+    "phase": { "type": "object", "additionalProperties": false, "required": ["id", "name", "status"], "properties": { "id": { "$ref": "#/$defs/id" }, "name": { "type": "string", "minLength": 1 }, "status": { "enum": ["pending", "in_progress", "completed", "failed", "stopped", "blocked"] }, "agentRole": { "type": "string", "minLength": 1 }, "startedAt": { "type": "string", "format": "date-time" }, "endedAt": { "type": "string", "format": "date-time" } }, "allOf": [{ "if": { "properties": { "status": { "enum": ["completed", "failed", "stopped", "blocked"] } }, "required": ["status"] }, "then": { "required": ["endedAt"] } }] },
+    "validation": { "type": "object", "additionalProperties": false, "required": ["id", "command", "status"], "properties": { "id": { "$ref": "#/$defs/id" }, "command": { "type": "string", "minLength": 1 }, "status": { "enum": ["pending", "passed", "failed", "skipped"] }, "observedAt": { "type": "string", "format": "date-time" }, "evidence": { "type": "string", "minLength": 1 } }, "allOf": [{ "if": { "properties": { "status": { "enum": ["passed", "failed", "skipped"] } }, "required": ["status"] }, "then": { "required": ["observedAt", "evidence"] } }] },
+    "unavailableTokens": { "type": "object", "additionalProperties": false, "required": ["status", "source"], "properties": { "status": { "const": "unavailable" }, "source": { "type": "string", "minLength": 1 } } },
+    "observedTokens": { "type": "object", "additionalProperties": false, "required": ["status", "source", "total", "observedAt"], "properties": { "status": { "const": "observed" }, "source": { "type": "string", "minLength": 1, "pattern": "^(?!not-observed$).+" }, "total": { "type": "integer", "minimum": 0 }, "observedAt": { "type": "string", "format": "date-time" } } },
+    "contextCoverage": { "type": "object", "additionalProperties": false, "properties": { "atlasDigest": { "type": "string", "pattern": "^[a-f0-9]{64}$" }, "packTaskId": { "$ref": "#/$defs/id" }, "includedFiles": { "type": "integer", "minimum": 0 }, "includedBytes": { "type": "integer", "minimum": 0 }, "truncated": { "type": "boolean" } } }
+  }
+}
