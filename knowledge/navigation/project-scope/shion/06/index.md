@@ -1,0 +1,86 @@
+# シオン 06
+
+範囲: SAVE-004 途中状態〜SHION_C051 返却義肢の洗浄係
+
+## 項目
+
+- [SAVE-004 途中状態](/pawn/save-004-%E9%80%94%E4%B8%AD%E7%8A%B6%E6%85%8B.md) — MUST: 生産、Dormant化、再配備、回収、再起動、再資源化、再実体化、Cloneの各途中状態から安全に再開する。 【所属MOD: シオン】
+- [SAVE-005 ID一意性](/pawn/save-005-%E4%B8%80%E6%84%8F%E6%80%A7.md) — MUST: 保存・ロード後もdesignId、individualId、pawnInstanceId、lineageIdを重複させない。 【所属MOD: シオン】
+- [SAVE-006 Archive欠損](/pawn/save-006-%E6%AC%A0%E6%90%8D.md) — MUST: 欠落Def、破損Archive、利用不能Moduleを無言で置換しない。 【所属MOD: シオン】
+- [UX-001 Pawn Foundry](/pawn/ux-001-%E8%A6%81%E4%BB%B6.md) — MUST: Pawn Foundryの第一階層を次の三つにする。 【所属MOD: シオン】
+- [UX-002 費用Preview](/pawn/ux-002-%E8%B2%BB%E7%94%A8.md) — MUST: 生産前にBody、Module、能力、装備、時間、現在在庫、不足、代替、登録方式を表示する。 【所属MOD: シオン】
+- [UX-003 個体種別](/pawn/ux-003-%E5%80%8B%E4%BD%93%E7%A8%AE%E5%88%A5.md) — MUST: Ephemeral、Registered、Design output、Clone、Dormantを、色だけに依存せず文字とIconで区別する。 【所属MOD: シオン】
+- [UX-004 破壊的操作](/pawn/ux-004-%E7%A0%B4%E5%A3%8A%E7%9A%84%E6%93%8D%E4%BD%9C.md) — MUST: Ephemeral遺体の再資源化とArchive削除は、同じ個体を復元できなくなることを明示する。 【所属MOD: シオン】
+- [UX-005 Clone識別](/pawn/ux-005-%E8%AD%98%E5%88%A5.md) — MUST: 同名・同外見のCloneを許可しつつ、選択、医療、装備、命令で区別できる短い表示識別子を提供する。 【所属MOD: シオン】
+- [UX-006 簡易注文](/pawn/ux-006-%E7%B0%A1%E6%98%93%E6%B3%A8%E6%96%87.md) — MUST: プレイヤーが詳細設計を開かず、「建築担当を一人」「射手を四人」「この個体のCloneを十人」のような注文を行える。 【所属MOD: シオン】
+- [一文で言うなら](/player-facing/000-%E4%B8%80%E6%96%87%E3%81%A7%E8%A8%80%E3%81%86%E3%81%AA%E3%82%89.md) — 古い帝国の力と使命を受け継ぎながら、自由で俗世的な本物の理想郷を築いた狐型機械人が、辺境にも善い暮らしを作ろうとする物語。 【所属MOD: シオン】
+- [プレイヤーが最初から知ること](/player-facing/001-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%9C%80%E5%88%9D%E3%81%8B%E3%82%89%E7%9F%A5%E3%82%8B%E3%81%93%E3%81%A8.md) — シオンは、製造された身体を持つ機械の民であり、また一人ずつ別の人格を持ち、人工知能でも集合意識でもありません。 【所属MOD: シオン】
+- [β版のPawn工業](/player-facing/002-%CE%B2%E7%89%88%E3%81%AEPawn%E5%B7%A5%E6%A5%AD.md) — β版では、必要な仕事に適合するランダムなシオン、登録済みの個体、プレイヤーが一から設計した個体、既存個体のCloneをPawn Foundryから生産できます。 【所属MOD: シオン】
+- [善意とすれ違い](/player-facing/003-%E5%96%84%E6%84%8F%E3%81%A8%E3%81%99%E3%82%8C%E9%81%95%E3%81%84.md) — 帝国も同盟も、苦痛、欠乏、混乱を放置することを善しとしません。 【所属MOD: シオン】
+- [プレイヤーが感じる順序](/player-facing/004-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%84%9F%E3%81%98%E3%82%8B%E9%A0%86%E5%BA%8F.md) — この順序を逆転させない、また開始直後から同盟を残虐な秘密国家として見せると、作品は普通のディストピア暴露になる。 【所属MOD: シオン】
+- [帝国と同盟を見せる方法](/player-facing/005-%E5%B8%9D%E5%9B%BD%E3%81%A8%E5%90%8C%E7%9B%9F%E3%82%92%E8%A6%8B%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95.md) — 帝国史を長く講義する必要はありません、また現在の暮らしに残る層で見せます。 【所属MOD: シオン】
+- [通常プレイで説明しないこと](/player-facing/006-%E9%80%9A%E5%B8%B8%E3%83%97%E3%83%AC%E3%82%A4%E3%81%A7%E8%AA%AC%E6%98%8E%E3%81%97%E3%81%AA%E3%81%84%E3%81%93%E3%81%A8.md) — 必要になった時、クエスト一件につき一つの中心問題だけを見せます。 【所属MOD: シオン】
+- [短文](/player-facing/007-%E7%9F%AD%E6%96%87.md) — 食事も仕事も身体も選べる狐型機械人シオンと、辺境に小さな楽園を築こう。 【所属MOD: シオン】
+- [長文](/player-facing/008-%E9%95%B7%E6%96%87.md) — シオンは、製品として作られた身体を自分たちの手へ取り戻した狐型の機械人です。 【所属MOD: シオン】
+- [Red Star紹介文](/player-facing/009-Red-Star%E7%B4%B9%E4%BB%8B%E6%96%87.md) — Red Starは、本国が正式に派遣する開拓団です。 【所属MOD: シオン】
+- [文章の声](/player-facing/010-%E6%96%87%E7%AB%A0%E3%81%AE%E5%A3%B0.md) — 同盟人は、自国の矛盾を悪役のように解説しません。 【所属MOD: シオン】
+- [視覚と技術の基準](/player-facing/011-%E8%A6%96%E8%A6%9A%E3%81%A8%E6%8A%80%E8%A1%93%E3%81%AE%E5%9F%BA%E6%BA%96.md) — 未来性は、現代的な画面や軍用品ではなく、古い文明の手触りから不可能な結果が出ることで示します。 【所属MOD: シオン】
+- [最小用語集](/player-facing/012-%E6%9C%80%E5%B0%8F%E7%94%A8%E8%AA%9E%E9%9B%86.md) — これ以上の語は、登場するクエストや機能の中でその都度説明します。 【所属MOD: シオン】
+- [1. 読み方と能力尺度](/reference/backstories/01-%E8%AA%AD%E3%81%BF%E6%96%B9%E3%81%A8%E8%83%BD%E5%8A%9B%E5%B0%BA%E5%BA%A6.md) — 読み方と能力尺度は、Childhoodは生物学的幼年ではなく、起動後の形成期、教育、最初の手伝い、事故、趣味、所属集団を表す。 【所属MOD: シオン】
+- [4. 新規420稿の割当集計](/reference/backstories/04-%E6%96%B0%E8%A6%8F420%E7%A8%BF%E3%81%AE%E5%89%B2%E5%BD%93%E9%9B%86%E8%A8%88.md) — 各新規稿は主Pool一つとSourceModule一つへ同時算入する。 【所属MOD: シオン】
+- [5. 生成プール互換規則](/reference/backstories/05-%E7%94%9F%E6%88%90%E3%83%97%E3%83%BC%E3%83%AB%E4%BA%92%E6%8F%9B%E8%A6%8F%E5%89%87.md) — 生成プール互換規則は、原則として同一Eraの幼少期と成人期を組み合わせる。 【所属MOD: シオン】
+- [6. 参考資料としての区分](/reference/backstories/06-%E5%88%B6%E4%BD%9C%E4%B8%8A%E3%81%AE%E6%AD%A3%E5%8F%B2%E5%8C%BA%E5%88%86.md) — バックストーリーを参考資料として保持し、参考採否と正史・実装・出荷への採用を分離する。 【所属MOD: シオン】
+- [7. 拡張稿（§12 Phase A超過分）](/reference/backstories/07-%E6%8B%A1%E5%BC%B5%E7%A8%BF%C2%A712-Phase-A%E8%B6%85%E9%81%8E%E5%88%86.md) — §12拡張計画のPhase A（新設4時代の最初の稿）のうち、ColonizationEraとJourneyEraをドラフト件数から拡張して追加する。 【所属MOD: シオン】
+- [8. 世界観統一の再監査](/reference/backstories/08-%E4%B8%96%E7%95%8C%E8%A6%B3%E7%B5%B1%E4%B8%80%E3%81%AE%E5%86%8D%E7%9B%A3%E6%9F%BB.md) — 参考バックストーリーは具体的な生活場面を残し、実在政治の置換や用語集依存を再利用候補から外して再監査する。 【所属MOD: シオン】
+- [9. 設定本文と実装予約の分離](/reference/backstories/09-%E8%A8%AD%E5%AE%9A%E6%9C%AC%E6%96%87%E3%81%A8%E5%AE%9F%E8%A3%85%E4%BA%88%E7%B4%84%E3%81%AE%E5%88%86%E9%9B%A2.md) — バックストーリー記録では人物の経歴と口述を設定クラス、Pool、出現希少度、技能補正、組合せ規則を実装予約として分離する。 【所属MOD: シオン】
+- [SHION_C001 礼装工房の手伝い](/reference/backstories/formation/SHION_C001.md) — ソフェルの礼装を仕立てる工房で、採寸、布地の選別、刺繍図案の読み方を学んだ。 【所属MOD: シオン】
+- [SHION_C002 夜の食堂で育った](/reference/backstories/formation/SHION_C002.md) — 夜勤者や生物学的睡眠を必要としない住民が集まる食堂で、調理と給仕を手伝った。 【所属MOD: シオン】
+- [SHION_C003 雨量記録員](/reference/backstories/formation/SHION_C003.md) — 居住区の屋上で雨量、酸性度、粉塵、落下物を測り、農場と設備局へ報告した。 【所属MOD: シオン】
+- [SHION_C004 廃船解体場の見習い](/reference/backstories/formation/SHION_C004.md) — 廃船解体場で船体を槌と聴音器で調べ、亀裂、空洞、残留圧力の位置を記した。 【所属MOD: シオン】
+- [SHION_C005 動物診療所の手伝い](/reference/backstories/formation/SHION_C005.md) — 動物診療所で義足、嘴の補強具、角の保護具を作る助手になった。 【所属MOD: シオン】
+- [SHION_C006 記念庭園の園丁](/reference/backstories/formation/SHION_C006.md) — 死者の名を植物の配置で表す記念庭園を手入れした、また季節ごとの剪定と植替えを覚え、遺族が訪れる日には通路と休憩所を静かに整えた。 【所属MOD: シオン】
+- [SHION_C007 採掘場の石彫り](/reference/backstories/formation/SHION_C007.md) — 小惑星採掘場で岩を切り出し、作業後に残る壁面へ航路標識や事故犠牲者の記念像を彫った。 【所属MOD: シオン】
+- [SHION_C008 巡回修理屋](/reference/backstories/formation/SHION_C008.md) — 小さな居住区を巡り、扉、配管、暖房、義肢、通信機を修理する職人に同行した。 【所属MOD: シオン】
+- [SHION_C009 公文書室の手伝い](/reference/backstories/formation/SHION_C009.md) — 長い過渡期の文書工房で、廃棄公文書から封蝋と金属印章を回収した。 【所属MOD: シオン】
+- [SHION_C010 葬送卓の配膳係](/reference/backstories/formation/SHION_C010.md) — 葬送宴で料理を運び、参列者の席と献立を整えた、また死者が蘇生後に自分の宴へ出席することもあるため、驚かず本人用の席と食器を追加する手順を教わった。 【所属MOD: シオン】
+- [SHION_C011 物資倉庫の検品手伝い](/reference/backstories/formation/SHION_C011.md) — 巨大倉庫で油、菌、焦げた配線、腐敗した食料の匂いを覚え、保管棚の異常を探した。 【所属MOD: シオン】
+- [SHION_C012 充電庭の手入れ](/reference/backstories/formation/SHION_C012.md) — 公共充電庭で端子、椅子、植木、雨除けを清掃し、利用者が安全に休める状態を保った。 【所属MOD: シオン】
+- [SHION_C013 義眼工房の見習い](/reference/backstories/formation/SHION_C013.md) — 義眼工房で、交換用の発光色を依頼者の残った目や古い記録へ合わせた。 【所属MOD: シオン】
+- [SHION_C014 設備区画の見回り](/reference/backstories/formation/SHION_C014.md) — 居住区の熱交換設備を見回り、凍結しかけた管、過熱した弁、循環の偏りを点検した。 【所属MOD: シオン】
+- [SHION_C015 種子庫の記録助手](/reference/backstories/formation/SHION_C015.md) — 種子庫で品種、発芽率、収穫量、味、毒性、過去の栽培結果を台帳へ記した。 【所属MOD: シオン】
+- [SHION_C016 図書館の配架手伝い](/reference/backstories/formation/SHION_C016.md) — 増改築を重ねた帝国式書庫で、返却先の分からない本を正しい棚へ戻す仕事をした。 【所属MOD: シオン】
+- [SHION_C017 遊び場の仲裁役](/reference/backstories/formation/SHION_C017.md) — 居住区の盤上遊戯会で、説明書と地域ごとの慣習が食い違った時の仲裁を任された。 【所属MOD: シオン】
+- [SHION_C018 瓶詰め雲の収集家](/reference/backstories/formation/SHION_C018.md) — 旅先の空気を小瓶へ採り、日付、天候、土地の名を添えて集める趣味を持った。 【所属MOD: シオン】
+- [SHION_C019 鐘楼で暮らした](/reference/backstories/formation/SHION_C019.md) — 巡礼の途中で地方聖堂の鐘守一家に預けられ、鐘の時刻、金属の温度、綱の手入れを学んだ。 【所属MOD: シオン】
+- [SHION_C020 夜の天文台通い](/reference/backstories/formation/SHION_C020.md) — 眠りの浅い本人は航路宿の夜番となり、屋根から星、雲、接近する灯火を見張った。 【所属MOD: シオン】
+- [SHION_C021 廃句読点収集家](/reference/backstories/formation/SHION_C021.md) — 改訂で使われなくなった句読点や記号を集め、古い手紙と教本から用例を書き写した。 【所属MOD: シオン】
+- [SHION_C022 武具庫の読み上げ役](/reference/backstories/formation/SHION_C022.md) — 古物市で鎧の傷、補修材、刻印を調べ、以前の持主と使われた時代を推定する手伝いをした。 【所属MOD: シオン】
+- [SHION_C023 旅する似顔絵師](/reference/backstories/formation/SHION_C023.md) — 移動市で似顔絵を描き、顔立ちだけでなく、道具の持ち方、立ち姿、修理痕まで画面へ収めた。 【所属MOD: シオン】
+- [SHION_C024 迷子案内人](/reference/backstories/formation/SHION_C024.md) — 大きな乗換所で迷った旅行者を案内し、目的地、乗継時刻、荷物の量に合わせて経路を選んだ。 【所属MOD: シオン】
+- [SHION_C025 休戦盤大会の常連](/reference/backstories/formation/SHION_C025.md) — 長い過渡期の避難区で、配給を待つ者たちへ盤上遊戯を教えた。 【所属MOD: シオン】
+- [SHION_C026 無言劇の代役](/reference/backstories/formation/SHION_C026.md) — 巡業劇団の台詞役が故障した夜、本人は急きょ代役となり、身振りだけで物語を繋いだ。 【所属MOD: シオン】
+- [SHION_C027 文字院の徒弟](/reference/backstories/formation/SHION_C027.md) — 帝国最盛期の文字院で、律法、契約、祈祷文の書式と校正を学んだ。 【所属MOD: シオン】
+- [SHION_C028 神殿侍祭](/reference/backstories/formation/SHION_C028.md) — 帝国最盛期の地方神殿で、灯火、香炉、参列者の案内、読み上げ順の確認を担当した。 【所属MOD: シオン】
+- [SHION_C029 修道院助手](/reference/backstories/formation/SHION_C029.md) — 帝国最盛期の修道院で、書棚の運搬、畑仕事、寝台の修理、食事の支度を順番に経験した。 【所属MOD: シオン】
+- [SHION_C030 騎士従士](/reference/backstories/formation/SHION_C030.md) — 帝国最盛期の騎士に仕え、武具の整備、訓練記録、儀礼と決闘の手順を学んだ。 【所属MOD: シオン】
+- [SHION_C031 無人書庫の管理役](/reference/backstories/formation/SHION_C031.md) — 帝国最盛期の無人書庫で、湿度、虫害、貸出記録、索引を管理した。 【所属MOD: シオン】
+- [SHION_C032 儀礼行列の補欠](/reference/backstories/formation/SHION_C032.md) — 帝国最盛期の式典で欠員を補い、儀礼槍を持って隊列へ加わった。 【所属MOD: シオン】
+- [SHION_C033 聖像研磨工](/reference/backstories/formation/SHION_C033.md) — 帝国最盛期の神殿工房で、石と金属の聖像を洗浄し、表面の傷を整えた。 【所属MOD: シオン】
+- [SHION_C034 星暦院の観測徒](/reference/backstories/formation/SHION_C034.md) — 帝国最盛期の星暦院で、観測窓の清掃、時刻の読み取り、軌道表への記入を担当した。 【所属MOD: シオン】
+- [SHION_C035 遺物番の徒弟](/reference/backstories/formation/SHION_C035.md) — 内戦後帝国の神殿倉庫で、破損した遺物の番号、封印、貸出先を点検した。 【所属MOD: シオン】
+- [SHION_C036 誤った処刑名簿](/reference/backstories/formation/SHION_C036.md) — 内戦後帝国の地方内務局で、死亡者と処刑者の名簿を清書した。 【所属MOD: シオン】
+- [SHION_C037 避難書庫の運搬員](/reference/backstories/formation/SHION_C037.md) — 帝国人同士の内戦で都市網が分断された時、本人は書庫の避難班に加わり、書物と記憶媒体を地下保管庫へ運んだ。 【所属MOD: シオン】
+- [SHION_C038 停戦線の修復児](/reference/backstories/formation/SHION_C038.md) — 内戦中、短い停戦が結ばれるたび双方の技師と水路や発電設備を修理した。 【所属MOD: シオン】
+- [SHION_C039 内務省の誤配係](/reference/backstories/formation/SHION_C039.md) — 内戦後帝国の内務省で、封書を部署と地域ごとに仕分けた。 【所属MOD: シオン】
+- [SHION_C040 内戦の記録係](/reference/backstories/formation/SHION_C040.md) — 革命連合の部隊で、戦死者、離脱者、帰還者、行方不明者を同じ台帳へ記した。 【所属MOD: シオン】
+- [SHION_C041 連合軍の伝令](/reference/backstories/formation/SHION_C041.md) — 革命連合で、暗号規則と指揮系統の違う部隊間を往復する伝令となった。 【所属MOD: シオン】
+- [SHION_C042 律法を携えた離反者](/reference/backstories/formation/SHION_C042.md) — 内戦後帝国から離反する際、武器より先に最盛期の律法書を持ち出した。 【所属MOD: シオン】
+- [SHION_C043 五つの印章を持つ書記](/reference/backstories/formation/SHION_C043.md) — 長い過渡期に、社会民主党、共産党、ファシスト党、帝国離反者会、無党派評議会の印章を預かった。 【所属MOD: シオン】
+- [SHION_C044 渡り徒弟](/reference/backstories/formation/SHION_C044.md) — 定住地が解散するたび別の開拓団へ移り、農場、工房、警備所で働いた。 【所属MOD: シオン】
+- [SHION_C045 ティクーン試験生](/reference/backstories/formation/SHION_C045.md) — ティクーン初期課程で文章と人工知能の命令列を診断した。 【所属MOD: シオン】
+- [SHION_C046 鉄花園の園丁](/reference/backstories/formation/SHION_C046.md) — 放棄された温室で、金属を取り込んで硬い花弁を作る鉄花の世話を任された。 【所属MOD: シオン】
+- [SHION_C047 無名の登録者](/reference/backstories/formation/SHION_C047.md) — 本人の最初の公的記録には、識別番号、整備履歴、納税記録が揃っていたが、名前と登録者だけが欠けていた。 【所属MOD: シオン】
+- [SHION_C048 二つ目の影](/reference/backstories/formation/SHION_C048.md) — 採掘灯が一つしかない場所でも、本人には二つの影が見えることがあった。 【所属MOD: シオン】
+- [SHION_C049 転生受付の手伝い](/reference/backstories/formation/SHION_C049.md) — 再製造された市民を迎える受付で椅子と案内板を磨いた。 【所属MOD: シオン】
+- [SHION_C050 共同浴場の温度番](/reference/backstories/formation/SHION_C050.md) — 身体規格ごとに違う湯温を管理した、また熱を感じない客にも昔の習慣どおり湯気を用意し、閉館後は友人と足だけ浸した。 【所属MOD: シオン】
+- [SHION_C051 返却義肢の洗浄係](/reference/backstories/formation/SHION_C051.md) — 換装後に返された義肢を洗い、傷と持ち主の記録を照合した。 【所属MOD: シオン】

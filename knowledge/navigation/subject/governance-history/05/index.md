@@ -81,4 +81,5 @@
 - [OKF統合保守コード解説](/governance/okf-maintenance-code-guide-OKF%E7%B5%B1%E5%90%88%E4%BF%9D%E5%AE%88%E3%82%B3%E3%83%BC%E3%83%89%E8%A7%A3%E8%AA%AC.md) — maintain-okf.mjsは、OKF派生資料を固定順で更新し、構造、リンク、重複、矛盾を一括検査するローカル実行用の統合入口である。
 - [知識所有者マップ](/governance/ownership-map-%E7%9F%A5%E8%AD%98%E6%89%80%E6%9C%89%E8%80%85%E3%83%9E%E3%83%83%E3%83%97.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
 - [現行資料の正仕様記述](/governance/positive-specification-policy-%E7%8F%BE%E8%A1%8C%E8%B3%87%E6%96%99%E3%81%AE%E6%AD%A3%E4%BB%95%E6%A7%98%E8%A8%98%E8%BF%B0.md) — 履歴資料以外の文書は、採用済みの構造、状態、振る舞い、境界、失敗時結果、性能条件を正の仕様として記述する。
+- [共有・シオン・カエラヴィ区分](/governance/project-scope-%E5%85%B1%E6%9C%89%E3%83%BB%E3%82%B7%E3%82%AA%E3%83%B3%E3%83%BB%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E5%8C%BA%E5%88%86.md) — 概念を共有、シオン、カエラヴィのいずれか一つの所属MOD区分へ解決し、所属MODから探す派生索引を安定して生成する。
 - [Open Knowledge Format 0.2 日本語規範解説](/research/okf/00-Open-Knowledge-Format-v0.2-%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A7%A3%E8%AA%AC.md) — 公式Open Knowledge Format 0.2の必須構造、出典、検証、鮮度、実行証明とRIM拡張の関係を日本語で確認できる参照資料。

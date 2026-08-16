@@ -1,9 +1,10 @@
 # stable 13
 
-範囲: SHION_C176 継承教室の再会膳〜SHION_C255 凍った菓子の研究記録
+範囲: SHION_C175 孵育文化区の地下散策〜SHION_C254 広場を巡る討論会
 
 ## 項目
 
+- [SHION_C175 孵育文化区の地下散策](/reference/backstories/formation/SHION_C175.md) — 孵育文化区の地下散策では、孵育文化区の地上は、温度も光も最適で退屈だった。
 - [SHION_C176 継承教室の再会膳](/reference/backstories/formation/SHION_C176.md) — 再会の席と追悼の席を分けるべきだ、と教本にはありました。
 - [SHION_C177 低温研究区の種子避難](/reference/backstories/formation/SHION_C177.md) — 低温技術の用途を聞く前に、失敗した時どこまで凍るか尋ねました。
 - [SHION_C178 残響深層の動物保護](/reference/backstories/formation/SHION_C178.md) — 残響深層の動物は、再現された砲声の前で毎回同じように怯えました。
@@ -83,4 +84,3 @@
 - [SHION_C252 海面を描く壁画大会](/reference/backstories/formation/SHION_C252.md) — 海洋観測区の壁画大会で、本人は水面に現れた故郷らしい街を描きました。
 - [SHION_C253 予測局跡の救助実習](/reference/backstories/formation/SHION_C253.md) — 内戦後の帝国予測局は、崩れた建物の中でも完璧な救助順を出し続けていました。
 - [SHION_C254 広場を巡る討論会](/reference/backstories/formation/SHION_C254.md) — 計画都市の討論会では、反論する前に相手の意見を言い直す決まりだった。
-- [SHION_C255 凍った菓子の研究記録](/reference/backstories/formation/SHION_C255.md) — 最盛期の帝国安全研究院では、未知の物質より記録の欠落を恐れろと教わりました。

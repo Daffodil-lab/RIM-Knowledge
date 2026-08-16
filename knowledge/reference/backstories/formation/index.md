@@ -12,3 +12,4 @@
 - [組織別索引](/navigation/organization/)
 - [状態別索引](/navigation/state/)
 - [主題別索引](/navigation/subject/)
+- [バックストーリー・所属MOD別索引](/navigation/backstories/project-scope/)

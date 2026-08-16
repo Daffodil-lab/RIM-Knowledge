@@ -1,9 +1,10 @@
 # stable 20
 
-範囲: SHION_A317 採鉱団の坑道読み〜SHION_A396 採掘隊の火薬係
+範囲: SHION_A316 巡回医療隊の産婆〜SHION_A395 通信中継隊の中継技官
 
 ## 項目
 
+- [SHION_A316 巡回医療隊の産婆](/reference/backstories/mastery/SHION_A316.md) — 巡回医療隊で、外部居住者の出産を支え、母子の安全を静かな手順で守った。
 - [SHION_A317 採鉱団の坑道読み](/reference/backstories/mastery/SHION_A317.md) — 採鉱団の坑道読みでは、つるはしの柄は必ず自分で削った。
 - [SHION_A318 造成隊の地均し師](/reference/backstories/mastery/SHION_A318.md) — 造成隊の仕事を、更地を平らにするだけの単純作業だと思っている人が多いが、それは違う。
 - [SHION_A319 越冬隊の食糧番](/reference/backstories/mastery/SHION_A319.md) — 越冬隊の食糧番では、越冬隊での配給の話ならいくらでもできる。
@@ -83,4 +84,3 @@
 - [SHION_A393 地質調査隊の掘削夫](/reference/backstories/mastery/SHION_A393.md) — 地質調査隊の掘削夫では、特別な話なんて別にない。
 - [SHION_A394 港湾建設隊の潜水工](/reference/backstories/mastery/SHION_A394.md) — 耳の奥がぎゅうっと締まる感覚、あれを覚えると潜水の深さが分かるようになる。
 - [SHION_A395 通信中継隊の中継技官](/reference/backstories/mastery/SHION_A395.md) — 通信中継隊の中継技官では、中継塔の保守というのは、故障を待つ仕事である。
-- [SHION_A396 採掘隊の火薬係](/reference/backstories/mastery/SHION_A396.md) — 採掘隊の火薬係では、一番信用されない仕事だったよ、火薬係なんてのは。

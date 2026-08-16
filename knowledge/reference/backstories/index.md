@@ -6,6 +6,7 @@
 
 ## 下位領域
 
+- [バックストーリーを所属MODから探す](../../navigation/backstories/project-scope/) — 本文とfrontmatterを変更せず、派生resolverで所属MOD別に分類します。
 - [Formationレコード](../../reference/backstories/formation) — 419件
 - [Masteryレコード](../../reference/backstories/mastery) — 419件
 

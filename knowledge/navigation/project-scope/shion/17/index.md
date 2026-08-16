@@ -1,0 +1,85 @@
+# シオン 17
+
+範囲: 0. 出典と利用範囲〜44. 帝国と同盟の軍事ドクトリン
+
+## 項目
+
+- [0. 出典と利用範囲](/research/kombinat-ui-references/00-%E5%87%BA%E5%85%B8%E3%81%A8%E5%88%A9%E7%94%A8%E7%AF%84%E5%9B%B2.md) — ユーザー提供映像をKombinatのUI・操作研究に限定して利用し、画像・コード・固有表現のコピー元にはしない。 【所属MOD: シオン】
+- [1. MonolynのネットワークUIから採るもの](/research/kombinat-ui-references/01-Monolyn%E3%81%AE%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AFUI%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — Monolynの集中資源、生産一覧、選択時ネットワーク表示から、Kombinatへ採用する情報設計を抽出する。 【所属MOD: シオン】
+- [4. 要求中間素材作成の操作イメージ](/research/kombinat-ui-references/04-%E8%A6%81%E6%B1%82%E4%B8%AD%E9%96%93%E7%B4%A0%E6%9D%90%E4%BD%9C%E6%88%90%E3%81%AE%E6%93%8D%E4%BD%9C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8.md) — 在庫とRecipeを並べ、最終品の要求から不足中間品と総材料を確認する簡潔な操作モデルをKombinatへ適用する。 【所属MOD: シオン】
+- [9. Adopt / avoid table for Shion Nexus](/research/monolyn-practice/09-Adopt-avoid-table-for-Shion-Nexus.md) — Adopt / avoid table for Shion Nexusは、Monolyn player-practice pattern：Shion Nexus decisionとCentral Tower as colony-scale identity：Adopt…。 【所属MOD: シオン】
+- [10. Shion Nexus UI checklist](/research/monolyn-ui/10-Shion-Nexus-UI-checklist.md) — Before Alpha 0.1 release, confirm、具体的にはCore Inspect explains alive/damaged/destroyed state.とLedger Inspect shows CVE, capacity, shells,…。 【所属MOD: シオン】
+- [0. Purpose](/research/reference-mods/00-Purpose.md) — This document records how three existing RimWorld Workshop mods should be used as structural references for Shion Nexus.。 【所属MOD: シオン】
+- [4. Fleshbeast Colony structural lessons](/research/reference-mods/04-Fleshbeast-Colony-structural-lessons.md) — Fleshbeast Colony expands Anomaly's fleshbeast theme into a colony-scale organic infrastructure. Its public description emphasizes…。 【所属MOD: シオン】
+- [6. Combined structural extraction](/research/reference-mods/06-Combined-structural-extraction.md) — The three reference mods suggest the following useful structures、具体的にはCentral resource reservoir：Monolyn Light / Tower, Fleshbeast…。 【所属MOD: シオン】
+- [7. Shion Nexus non-copy rules](/research/reference-mods/07-Shion-Nexus-non-copy-rules.md) — Shion Nexus must not become、具体的にはMonolyn with foxes;とFleshbeast with machines;を扱う。 【所属MOD: シオン】
+- [9. Final rule](/research/reference-mods/09-Final-rule.md) — The reference mods prove that strong race/colony mods work best when they are not just pawns with stats. They need a colony-scale…。 【所属MOD: シオン】
+- [0. 目的](/research/remote-logistics/00-%E7%9B%AE%E7%9A%84.md) — 本書は、Coreのローカル保管とKombinatの自動生産から分離した遠距離物流を、将来の再検討まで保護する領域である。 【所属MOD: シオン】
+- [1. 延期理由](/research/remote-logistics/01-%E5%BB%B6%E6%9C%9F%E7%90%86%E7%94%B1.md) — 延期理由は、αの完成条件をCoreの通常入出庫とKombinatの発注・多段自動生産へ集中させることにある。 【所属MOD: シオン】
+- [2. 保全する概念](/research/remote-logistics/02-%E4%BF%9D%E5%85%A8%E3%81%99%E3%82%8B%E6%A6%82%E5%BF%B5.md) — 次は廃止ではなく、再検討候補として保全するという方針の適用範囲と条件を定める。 【所属MOD: シオン】
+- [3. 旧Transfer状態案](/research/remote-logistics/03-%E6%97%A7Transfer%E7%8A%B6%E6%85%8B%E6%A1%88.md) — 旧Transfer状態案の定義、境界、参照関係を示す資料。 【所属MOD: シオン】
+- [4. 旧要件の保全](/research/remote-logistics/04-%E6%97%A7%E8%A6%81%E4%BB%B6%E3%81%AE%E4%BF%9D%E5%85%A8.md) — Routeはsource、destination、scope、許可貨物、搬送手段、容量、所要時間、費用、優先度、危険、稼働状態を持つ。 【所属MOD: シオン】
+- [5. 保全する受入候補](/research/remote-logistics/05-%E4%BF%9D%E5%85%A8%E3%81%99%E3%82%8B%E5%8F%97%E5%85%A5%E5%80%99%E8%A3%9C.md) — 三つの独立Inventoryを二つ以上のRouteで結び、時間優先と費用優先を比較する。 【所属MOD: シオン】
+- [6. 再開ゲート](/research/remote-logistics/06-%E5%86%8D%E9%96%8B%E3%82%B2%E3%83%BC%E3%83%88.md) — 遠距離物流を再び計画へ入れるには、次を全て満たす。 【所属MOD: シオン】
+- [7. AE2系の距離拡張に対する境界](/research/remote-logistics/07-AE2%E7%B3%BB%E3%81%AE%E8%B7%9D%E9%9B%A2%E6%8B%A1%E5%BC%B5%E3%81%AB%E5%AF%BE%E3%81%99%E3%82%8B%E5%A2%83%E7%95%8C.md) — 無限距離Wireless Terminal、dimension間Terminal、量子Link、跨MapNetwork Connectorは、参考資料としてのみ保持する。 【所属MOD: シオン】
+- [台帳設備と輸送中Cargo](/research/remote-logistics/08-%E5%8F%B0%E5%B8%B3%E8%A8%AD%E5%82%99%E3%81%A8%E8%BC%B8%E9%80%81%E4%B8%ADCargo.md) — Map上の設備、宇宙船、本国施設、契約工場、交易拠点を共通のFacility台帳へ登録し、遠隔資源を時間付きCargoとして現地Network Storageへ届ける設計草案。 【所属MOD: シオン】
+- [2. 現行設定の判定](/research/theme-overhaul/02-%E7%8F%BE%E8%A1%8C%E8%A8%AD%E5%AE%9A%E3%81%AE%E5%88%A4%E5%AE%9A.md) — 現時点のKombinat実装は、5資源のWorld台帳、予約、コミット、返還、セーブ状態を持つ基盤であり、テーマ上はほぼ中立である。 【所属MOD: シオン】
+- [6. 実在参照と命名の処理](/research/theme-overhaul/06-%E5%AE%9F%E5%9C%A8%E5%8F%82%E7%85%A7%E3%81%A8%E5%91%BD%E5%90%8D%E3%81%AE%E5%87%A6%E7%90%86.md) — 以下はテーマ・トーン再審査ガイドQ0と、近未来／20世紀パスティーシュ回避の両方から優先度が高い。 【所属MOD: シオン】
+- [8. 文章サンプル](/research/theme-overhaul/08-%E6%96%87%E7%AB%A0%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB.md) — 食事も仕事も身体も選べる、狐型機械人シオンの開拓団。 【所属MOD: シオン】
+- [0. 結論](/roadmap/00-%E7%B5%90%E8%AB%96.md) — Coreは工業基盤を内部完成させてからShion種族を統合し、α、β、1.0の三段階で公開する。 【所属MOD: シオン】
+- [1. 権威と変更規則](/roadmap/01-%E6%A8%A9%E5%A8%81%E3%81%A8%E5%A4%89%E6%9B%B4%E8%A6%8F%E5%89%87.md) — 本書は、何を世界内の事実とするかではなく、どの段階で何を完成させるかを定める。 【所属MOD: シオン】
+- [2. 既知コードと再利用の方針](/roadmap/02-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A8%E5%86%8D%E5%88%A9%E7%94%A8%E3%81%AE%E6%96%B9%E9%87%9D.md) — コード再利用は現行責務、保存、試験、性能、依存方向、ライセンス、保守性を満たす単位だけに限定する。 【所属MOD: シオン】
+- [3. 1.0の最終完成像](/roadmap/03-1-0%E3%81%AE%E6%9C%80%E7%B5%82%E5%AE%8C%E6%88%90%E5%83%8F.md) — 最終的なCoreは、少なくとも次を一つの製品として成立させる。 【所属MOD: シオン】
+- [4. α版 — 最初の公開候補](/roadmap/04-%CE%B1%E7%89%88-%E2%80%94-%E6%9C%80%E5%88%9D%E3%81%AE%E5%85%AC%E9%96%8B%E5%80%99%E8%A3%9C.md) — α版は、内部完成した工業基盤へShion種族、図像、独立開始を最後に統合する最初の公開候補である。 【所属MOD: シオン】
+- [5. β版](/roadmap/05-%CE%B2%E7%89%88.md) — β版は、α版に含めなかったコアMODとレッドスターの要素を追加し、両製品を完成へ到達させる期間である。 【所属MOD: シオン】
+- [6. β終了／1.0完成条件](/roadmap/06-%CE%B2%E7%B5%82%E4%BA%86-1-0%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — 1.0以後も、身体、派閥、クエスト、装備、料理、動物、互換Adapter等を追加できる。 【所属MOD: シオン】
+- [7. バージョン運用](/roadmap/07-%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E9%81%8B%E7%94%A8.md) — バージョン番号だけで品質を主張しない、また各版は本書の完了条件と検証記録を伴う。 【所属MOD: シオン】
+- [8. 現在地](/roadmap/08-%E7%8F%BE%E5%9C%A8%E5%9C%B0.md) — 2026-08-02時点で工業基盤の実装作業は存在するが、工業完成マイルストーンとShion統合αは未完成である。 【所属MOD: シオン】
+- [9. 次の作業順](/roadmap/09-%E6%AC%A1%E3%81%AE%E4%BD%9C%E6%A5%AD%E9%A0%86.md) — 工業管理画面の基準画像とRimWorld 1.6画面契約を先に固定し、種族非依存の保管基盤とコンビナートを実装してからシオン種族と図像をα版へ統合する。 【所属MOD: シオン】
+- [10. 変更管理](/roadmap/10-%E5%A4%89%E6%9B%B4%E7%AE%A1%E7%90%86.md) — 本書を更新する場合、少なくとも次を記録するという方針の適用範囲と条件を定める。 【所属MOD: シオン】
+- [11. 工業先行開発マイルストーン](/roadmap/11-%E5%B7%A5%E6%A5%AD%E5%85%88%E8%A1%8C%E9%96%8B%E7%99%BA%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3.md) — シオン固有種族と図像の実装より先に、バニラ人間で検証できるコアMOD保管・コンビナート工業基盤を内部完成させる。 【所属MOD: シオン】
+- [0. 正史の優先順位](/world/00-%E6%AD%A3%E5%8F%B2%E3%81%AE%E5%84%AA%E5%85%88%E9%A0%86%E4%BD%8D.md) — 本書より下位の資料は、本書にない事実を自動的に正史化しない。 【所属MOD: シオン】
+- [1. 作品の中心命題](/world/01-%E4%BD%9C%E5%93%81%E3%81%AE%E4%B8%AD%E5%BF%83%E5%91%BD%E9%A1%8C.md) — 帝国と同盟は、苦痛、欠乏、混乱を放置せず、善き世界を現実へ実装しようとする文明である。 【所属MOD: シオン】
+- [2. 帝国から同盟へ](/world/02-%E5%B8%9D%E5%9B%BD%E3%81%8B%E3%82%89%E5%90%8C%E7%9B%9F%E3%81%B8.md) — 帝国最盛期は、律法的で厳格な社会だった、また同時に、平和、秩序、繁栄、庇護が本当に機能した善政でもあった。 【所属MOD: シオン】
+- [3. シオンという人類](/world/03-%E3%82%B7%E3%82%AA%E3%83%B3%E3%81%A8%E3%81%84%E3%81%86%E4%BA%BA%E9%A1%9E.md) — シオン/Shionは、製造された機械身体と機械超知性に相当する能力を持つ、独立人格の人類である。 【所属MOD: シオン】
+- [4. 同盟社会](/world/04-%E5%90%8C%E7%9B%9F%E7%A4%BE%E4%BC%9A.md) — 同盟本国は、普通に暮らす大多数にとって、本当に自由で豊かで安全な社会である。 【所属MOD: シオン】
+- [5. 善意の非対称性](/world/05-%E5%96%84%E6%84%8F%E3%81%AE%E9%9D%9E%E5%AF%BE%E7%A7%B0%E6%80%A7.md) — 同盟人は救われる側の幸福を本気で望む、また冷淡さ、残虐趣味、欺瞞、隠蔽を標準動機にしない。 【所属MOD: シオン】
+- [6. 人格記録、復活、同化](/world/06-%E4%BA%BA%E6%A0%BC%E8%A8%98%E9%8C%B2-%E5%BE%A9%E6%B4%BB-%E5%90%8C%E5%8C%96.md) — 同盟は、身体再製造、人格記録、復活、他身体への移行に相当する技術を持つ。 【所属MOD: シオン】
+- [7. 技術体系](/world/07-%E6%8A%80%E8%A1%93%E4%BD%93%E7%B3%BB.md) — 帝国と同盟の技術基盤は少なくともアルコテック級であり、既存の技術Tierで能力上限を固定できない。 【所属MOD: シオン】
+- [8. 遠征共同体とレッドスター](/world/08-%E9%81%A0%E5%BE%81%E5%85%B1%E5%90%8C%E4%BD%93%E3%81%A8Red-Star.md) — コアMODは、独立団、漂着者、認可団、その他の遠征共同体など、複数の開始立場を許容する。 【所属MOD: シオン】
+- [9. The Hive](/world/09-The-Hive-%E3%82%B6%E3%83%BB%E3%83%8F%E3%82%A4%E3%83%B4.md) — The Hiveは、通常シオン社会の標準ではない、例外的な単一中枢運営を扱う。 【所属MOD: シオン】
+- [10. 車輌と改良動物](/world/10-%E8%BB%8A%E8%BC%8C%E3%81%A8%E6%94%B9%E8%89%AF%E5%8B%95%E7%89%A9.md) — 旧帝国と現代同盟は、長期にわたる選抜育種、遺伝子調整、人工生態系への適応によって作られた多様な改良動物を利用している。 【所属MOD: シオン】
+- [11. 保護された未確定事項](/world/11-%E4%BF%9D%E8%AD%B7%E3%81%95%E3%82%8C%E3%81%9F%E6%9C%AA%E7%A2%BA%E5%AE%9A%E4%BA%8B%E9%A0%85.md) — 次の事項は、設定不足ではなく、本書が意図的に正解を固定しない領域である。 【所属MOD: シオン】
+- [12. 正史上の禁止境界](/world/12-%E6%AD%A3%E5%8F%B2%E4%B8%8A%E3%81%AE%E7%A6%81%E6%AD%A2%E5%A2%83%E7%95%8C.md) — 新しい設定は、帝国と同盟の連続性と変化、純粋な善意、善意の非対称性、人格と身体の分離を同時に壊さない場合にのみ採用できる。 【所属MOD: シオン】
+- [13. 帝国人とシオンの起源](/world/13-%E5%B8%9D%E5%9B%BD%E4%BA%BA%E3%81%A8%E3%82%B7%E3%82%AA%E3%83%B3%E3%81%AE%E8%B5%B7%E6%BA%90.md) — 帝国人とシオンは機械超知性に該当またはそれを上回り得る人類であり、シオンは帝国人の身体基盤から設計された。 【所属MOD: シオン】
+- [14. 水仙](/world/14-%E6%B0%B4%E4%BB%99.md) — 水仙は、帝国内戦後にシオンの蜂起を主導し、身体と製造手段を自己所有へ取り戻す革命の中心となったシオンである。 【所属MOD: シオン】
+- [15. トヴェルジとクピナ](/world/15-%E3%83%88%E3%83%B4%E3%82%A7%E3%83%AB%E3%82%B8%E3%81%A8%E3%82%AF%E3%83%94%E3%83%8A.md) — トヴェルジは地球から銀河円盤面を大きく離れる方向にある自然形成の球状星団であり、地球を出発した移民者の末裔が帝国とシオン文明を築いた起源地である。 【所属MOD: シオン】
+- [16. 同盟の正式名称](/world/16-%E5%90%8C%E7%9B%9F%E3%81%AE%E6%AD%A3%E5%BC%8F%E5%90%8D%E7%A7%B0.md) — 結成時の最も広く知られた正式な総称はトヴェルジ＝ネオパリマヤ・クピナ条約機構であり、現在の普遍的な呼称は同盟である。 【所属MOD: シオン】
+- [17. FTLの例外性](/world/17-FTL%E3%81%AE%E4%BE%8B%E5%A4%96%E6%80%A7.md) — 同盟の再現可能なFTL航行とFTL情報伝達は、通常人類の技術体系から意図的に外れた特権的能力である。 【所属MOD: シオン】
+- [18. 人工知能と自動化](/world/18-%E4%BA%BA%E5%B7%A5%E7%9F%A5%E8%83%BD%E3%81%A8%E8%87%AA%E5%8B%95%E5%8C%96.md) — 帝国人とシオンは外部尺度で機械超知性に相当する人格主体であり、所有可能な道具AIと明確に区別される。 【所属MOD: シオン】
+- [19. 本国と移動箱舟](/world/19-%E6%9C%AC%E5%9B%BD%E3%81%A8%E7%A7%BB%E5%8B%95%E7%AE%B1%E8%88%9F.md) — 同盟本国は単一惑星ではなく、トヴェルジの世界群、居住圏、工業圏、移動箱舟から成る分散した文明圏である。 【所属MOD: シオン】
+- [20. 余白記録網](/world/20-%E4%BD%99%E7%99%BD%E8%A8%98%E9%8C%B2%E7%B6%B2.md) — 余白記録網は、公式記録が数えなかった呼び名、関係、異論、地域の記憶を追記し、相互に保存する市民的な記録活動である。 【所属MOD: シオン】
+- [21. 農芸公社](/world/21-%E8%BE%B2%E8%8A%B8%E5%85%AC%E7%A4%BE.md) — 農芸公社は、植物、改良動物、人工生態系、食文化を研究・維持し、成果を公共圏へ返す自発的な共同体である。 【所属MOD: シオン】
+- [22. 休眠遺構と中継塔](/world/22-%E4%BC%91%E7%9C%A0%E9%81%BA%E6%A7%8B%E3%81%A8%E4%B8%AD%E7%B6%99%E5%A1%94.md) — 帝国・同盟・独立勢力の設備には、破壊されず休眠状態へ移り、辺境に残された遺構や中継塔が存在する。 【所属MOD: シオン】
+- [23. 友好協力相互援助条約](/world/23-%E5%8F%8B%E5%A5%BD%E5%8D%94%E5%8A%9B%E7%9B%B8%E4%BA%92%E6%8F%B4%E5%8A%A9%E6%9D%A1%E7%B4%84.md) — 友好協力相互援助条約は、加盟者の共通外交、安全保障、警察、刑事司法協力を定める同盟の条約枠である。 【所属MOD: シオン】
+- [24. 経済相互援助会議](/world/24-%E7%B5%8C%E6%B8%88%E7%9B%B8%E4%BA%92%E6%8F%B4%E5%8A%A9%E4%BC%9A%E8%AD%B0.md) — 経済相互援助会議は、加盟国間の貿易を増やし、経済、技術その他の多様な分野で相互援助を行う同盟の条約枠である。 【所属MOD: シオン】
+- [25. シオン協定](/world/25-%E3%82%B7%E3%82%AA%E3%83%B3%E5%8D%94%E5%AE%9A.md) — シオン協定は、加盟する諸民族の対等、国境検査のない域内移動、自治区裁量の下での共通政策、相互内政不干渉を定める。 【所属MOD: シオン】
+- [26. 三条約と同盟の成立](/world/26-%E4%B8%89%E6%9D%A1%E7%B4%84%E3%81%A8%E5%90%8C%E7%9B%9F%E3%81%AE%E6%88%90%E7%AB%8B.md) — 同盟は、三つの条約枠を相互に結び、全評議会が対等な関係を結んだことで成立した。 【所属MOD: シオン】
+- [27. 遠征共同体の野心と産業化](/world/27-%E9%81%A0%E5%BE%81%E5%85%B1%E5%90%8C%E4%BD%93%E3%81%AE%E9%87%8E%E5%BF%83%E3%81%A8%E7%94%A3%E6%A5%AD%E5%8C%96.md) — 遠征共同体が生存を越える野心を実現するには、本国のような高度な産業能力を現地へ段階的に築く必要がある。 【所属MOD: シオン】
+- [28. 狐娘型の共有身体](/world/28-%E7%8B%90%E5%A8%98%E5%9E%8B%E3%81%AE%E5%85%B1%E6%9C%89%E8%BA%AB%E4%BD%93.md) — 通常シオンは、史料上確認できるかなり初期の段階から、狐耳と尾を持つ無性の人間型シルエットを共通の身体像としてきた。 【所属MOD: シオン】
+- [29. シオンの無性機械身体](/world/29-%E3%82%B7%E3%82%AA%E3%83%B3%E3%81%AE%E7%84%A1%E6%80%A7%E6%A9%9F%E6%A2%B0%E8%BA%AB%E4%BD%93.md) — シオンの狐娘型は外見上の呼称であり、身体に生物学的性別、人間型の内臓、生理現象は存在しない。 【所属MOD: シオン】
+- [30. 人類としての自己認識](/world/30-%E4%BA%BA%E9%A1%9E%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E8%87%AA%E5%B7%B1%E8%AA%8D%E8%AD%98.md) — シオンが自らを人類とみなす根拠は生物学的構造ではなく、文化、思想、歴史的連続性、人格主体としての自己認識にある。 【所属MOD: シオン】
+- [31. 全てはまだ始まったばかり](/world/31-%E5%85%A8%E3%81%A6%E3%81%AF%E3%81%BE%E3%81%A0%E5%A7%8B%E3%81%BE%E3%81%A3%E3%81%9F%E3%81%B0%E3%81%8B%E3%82%8A.md) — シオンにとって人類統一は歴史の終着点ではなく、その先に続く未知の時代へ入るための一段階にすぎない。 【所属MOD: シオン】
+- [32. 勲章と顕彰](/world/32-%E5%8B%B2%E7%AB%A0%E3%81%A8%E9%A1%95%E5%BD%B0.md) — 帝国と同盟には功績や奉仕を記憶する勲章文化があるが、勲章は身分、能力、政治権限を自動的に付与する装置ではない。 【所属MOD: シオン】
+- [33. 代表工業資源](/world/33-%E4%BB%A3%E8%A1%A8%E5%B7%A5%E6%A5%AD%E8%B3%87%E6%BA%90.md) — Coreで反復して扱う五つの代表工業資源は、Cell、エネルギー結晶、構造材、保守資材、弾薬結晶である。 【所属MOD: シオン】
+- [34. Cell](/world/34-Cell-%E3%82%BB%E3%83%AB.md) — Cellは、帝国から継承された自己増殖可能な工業媒体であり、物質、身体、設備を構成・変更する基盤の一つである。 【所属MOD: シオン】
+- [35. 凝縮真空](/world/35-%E5%87%9D%E7%B8%AE%E7%9C%9F%E7%A9%BA.md) — 凝縮真空（CVE）は、エネルギー分野に属する同盟時代の既存技術または形態である。 【所属MOD: シオン】
+- [36. 構造材](/world/36-%E6%A7%8B%E9%80%A0%E6%9D%90.md) — 構造材は、建築、設備、基礎的な製造へ用いる、規格化された物理材料である。 【所属MOD: シオン】
+- [37. 保守資材](/world/37-%E4%BF%9D%E5%AE%88%E8%B3%87%E6%9D%90.md) — 保守資材は、設備、身体、装備の保守と修理へ投入する物理的な資材である。 【所属MOD: シオン】
+- [38. 弾薬結晶](/world/38-%E5%BC%BE%E8%96%AC%E7%B5%90%E6%99%B6.md) — 弾薬結晶は、その場で弾薬を製造するための物理資源であり、シオン装備体系の全遠距離武器が必要とする。 【所属MOD: シオン】
+- [39. 同盟Credit](/world/39-%E5%90%8C%E7%9B%9F%E9%80%9A%E8%B2%A8.md) — 同盟Creditは貨幣ではなく、個人または組織への信用、実績、能力評価に基づき、保有・運用・要請できる資源と権利の範囲を記録する制度である。 【所属MOD: シオン】
+- [40. エネルギー（仮称）](/world/40-%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC.md) — エネルギー（仮称）は、設備と身体を動かす力の発生、供給、蓄積、輸送をまとめて扱う上位ジャンルである。 【所属MOD: シオン】
+- [41. エネルギー結晶（仮称）](/world/41-%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC%E7%B5%90%E6%99%B6.md) — エネルギー結晶（仮称）は、エネルギーそのものを輸送・備蓄し、常設供給へ接続できない場所で身体や装備を稼働させる物理資源である。 【所属MOD: シオン】
+- [42. 帝国系と同盟系の製品系列（仮称）](/world/42-%E5%B8%9D%E5%9B%BD%E7%B3%BB%E3%81%A8%E5%90%8C%E7%9B%9F%E7%B3%BB%E3%81%AE%E8%A3%BD%E5%93%81%E7%B3%BB%E5%88%97.md) — 同盟で使われる多くの製品は、高性能だが高価で手加工を要する帝国系と、安価で品質が安定し量産・堅牢性に優れる同盟系へ大別される。 【所属MOD: シオン】
+- [43. 装備庫接続と近光速武器転送](/world/43-%E8%A3%85%E5%82%99%E5%BA%AB%E6%8E%A5%E7%B6%9A%E3%81%A8%E8%BF%91%E5%85%89%E9%80%9F%E6%AD%A6%E5%99%A8%E8%BB%A2%E9%80%81.md) — シオンは接続した装備庫との間で実物の武器をほぼ光速で転送し、多数の武器を携行せずに必要な時だけ取り出して使う。 【所属MOD: シオン】
+- [44. 帝国と同盟の軍事ドクトリン](/world/44-%E5%B8%9D%E5%9B%BD%E3%81%A8%E5%90%8C%E7%9B%9F%E3%81%AE%E8%BB%8D%E4%BA%8B%E3%83%89%E3%82%AF%E3%83%88%E3%83%AA%E3%83%B3.md) — 帝国と同盟では宇宙艦隊を軍事の中心とし、地上戦では飛行と地上戦を選べる歩兵、広義の砲兵、艦隊から直接投射される作戦機動群を軸に機動する。 【所属MOD: シオン】

@@ -1,9 +1,10 @@
 # stable 12
 
-範囲: SHION_C096 最盛期を超える作文〜SHION_C175 孵育文化区の地下散策
+範囲: SHION_C095 帝国人の隣席〜SHION_C174 継承教室の仮設棟実習
 
 ## 項目
 
+- [SHION_C095 帝国人の隣席](/reference/backstories/formation/SHION_C095.md) — 追放された帝国人、同盟の子、党派を諦めた教師と同じ教室で学んだ。
 - [SHION_C096 最盛期を超える作文](/reference/backstories/formation/SHION_C096.md) — 帝国最盛期の平和を褒め、その階級制を復元せずに暮らしだけを超える方法を書いた。
 - [SHION_C097 無味覚の香料師](/reference/backstories/formation/SHION_C097.md) — 味覚入力を閉じた身体で香料を調合し、友人の表情だけを計器にした。
 - [SHION_C098 帰らない昨日の友](/reference/backstories/formation/SHION_C098.md) — 時間事故で「昨日」に残った友人へ、毎日同じ場所から手紙を送った。
@@ -83,4 +84,3 @@
 - [SHION_C172 異常対応射撃の復習会](/reference/backstories/formation/SHION_C172.md) — 任務を離れても、本人は異常対応射撃の復習会へ通いました。
 - [SHION_C173 本国居住区の異体競技](/reference/backstories/formation/SHION_C173.md) — 本国居住区の身体競技で、共有狐娘型内部の構成差と動物参加者に応じた安全規則を作った。
 - [SHION_C174 継承教室の仮設棟実習](/reference/backstories/formation/SHION_C174.md) — 継承教室で渡された古い仮設棟の図面は、教師自身が「そのまま使うな」と言いました。
-- [SHION_C175 孵育文化区の地下散策](/reference/backstories/formation/SHION_C175.md) — 孵育文化区の地下散策では、孵育文化区の地上は、温度も光も最適で退屈だった。
