@@ -8,7 +8,7 @@ import { fileURLToPath } from 'node:url';
 import { atomicWrite, readArtifact, safePath } from '../lib/artifact-store.mjs';
 import { buildContextPack, validateContextPack } from '../lib/context-pack.mjs';
 import { buildProjectAtlas, validateProjectAtlas } from '../lib/project-atlas.mjs';
-import { initRunLedger, validateRunLedger } from '../lib/run-ledger.mjs';
+import { initRunLedger, loadRunLedger, saveRunLedger, validateRunLedger } from '../lib/run-ledger.mjs';
 import { main as projectDataMain } from '../scripts/project-data.mjs';
 
 const harnessRoot = path.resolve(path.dirname(fileURLToPath(import.meta.url)), '..');
@@ -242,6 +242,18 @@ test('Run Ledger omits invented budget and validates strict token, phase, and va
   assert.throws(() => validateRunLedger({ ...structuredClone(ledger), validations: [{ id: 'x', command: 'x', status: 'passed', observedAt: '2026-08-16T00:00:00Z' }] }), /evidence/);
   const stopped = { ...structuredClone(ledger), status: 'stopped', phases: [{ id: 'worker', name: 'Worker', status: 'stopped', endedAt: '2026-08-16T00:03:00Z' }] };
   assert.equal(validateRunLedger(stopped), stopped);
+});
+
+test('Run Ledger rejects undefined taskId before save and preserves schema-valid null taskId on round-trip', async () => {
+  const runtimeRoot = await fs.mkdtemp(path.join(os.tmpdir(), 'run-ledger-task-id-'));
+  const ledger = initRunLedger({ runId: 'task-id', objective: 'Task ID' });
+  const invalid = { ...ledger, taskId: undefined };
+  await assert.rejects(() => saveRunLedger(runtimeRoot, invalid), /invalid task id/);
+  await assert.rejects(() => fs.stat(path.join(runtimeRoot, 'run-ledger', 'task-id.json')), /ENOENT/);
+
+  const nullTaskLedger = initRunLedger({ runId: 'null-task-id', taskId: null, objective: 'Null Task ID' });
+  await saveRunLedger(runtimeRoot, nullTaskLedger);
+  assert.deepEqual(await loadRunLedger(runtimeRoot, 'null-task-id'), nullTaskLedger);
 });
 
 test('Artifact Store supports repeat and concurrent writes and restores the prior target on failure', async () => {

@@ -119,7 +119,7 @@ export function validateRunLedger(ledger) {
   }
   if (ledger.schemaVersion !== SCHEMA_VERSION) throw new Error('invalid Run Ledger schemaVersion');
   if (!ID.test(ledger.runId ?? '')) throw new Error('invalid run id');
-  if (ledger.taskId !== null && ledger.taskId !== undefined && !ID.test(ledger.taskId)) throw new Error('invalid task id');
+  if (ledger.taskId !== null && (typeof ledger.taskId !== 'string' || !ID.test(ledger.taskId))) throw new Error('invalid task id');
   nonEmptyString(ledger.objective, 'objective');
   if (!['initialized', 'running', 'completed', 'failed', 'stopped', 'blocked'].includes(ledger.status)) throw new Error('invalid ledger status');
   if (!Array.isArray(ledger.phases) || !Array.isArray(ledger.validations)) throw new Error('phases and validations are required');
