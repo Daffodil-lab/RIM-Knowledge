@@ -1,0 +1,11 @@
+{
+  "name": "rim-dev-harness",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "node server.mjs",
+    "test": "node --test test/protocol.test.mjs test/workflow.test.mjs test/server.test.mjs",
+    "test:live-review": "node scripts/live-review-smoke.mjs"
+  }
+}
