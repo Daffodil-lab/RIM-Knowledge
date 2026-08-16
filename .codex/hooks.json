@@ -1,0 +1,45 @@
+{
+  "description": "RIM project GitHub checkpoint hooks. Each command starts one detached, token-free Git sync and then exits.",
+  "hooks": {
+    "SessionStart": [
+      {
+        "matcher": "startup|resume|clear",
+        "hooks": [
+          {
+            "type": "command",
+            "command": "pwsh -NoLogo -NoProfile -NonInteractive -File \"$(git rev-parse --show-toplevel)/Scripts/Invoke-GitHubSyncHook.ps1\" -Mode Start",
+            "commandWindows": "powershell.exe -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command \"$repo = (& git rev-parse --show-toplevel); & (Join-Path $repo 'Scripts\\Invoke-GitHubSyncHook.ps1') -Mode Start\"",
+            "timeout": 10,
+            "statusMessage": "Starting GitHub checkpoint"
+          }
+        ]
+      }
+    ],
+    "Stop": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "pwsh -NoLogo -NoProfile -NonInteractive -File \"$(git rev-parse --show-toplevel)/Scripts/Invoke-GitHubSyncHook.ps1\" -Mode TurnEnd",
+            "commandWindows": "powershell.exe -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command \"$repo = (& git rev-parse --show-toplevel); & (Join-Path $repo 'Scripts\\Invoke-GitHubSyncHook.ps1') -Mode TurnEnd\"",
+            "timeout": 10,
+            "statusMessage": "Saving GitHub checkpoint"
+          }
+        ]
+      }
+    ],
+    "SessionEnd": [
+      {
+        "hooks": [
+          {
+            "type": "command",
+            "command": "pwsh -NoLogo -NoProfile -NonInteractive -File \"$(git rev-parse --show-toplevel)/Scripts/Invoke-GitHubSyncHook.ps1\" -Mode End",
+            "commandWindows": "powershell.exe -NoLogo -NoProfile -NonInteractive -ExecutionPolicy Bypass -Command \"$repo = (& git rev-parse --show-toplevel); & (Join-Path $repo 'Scripts\\Invoke-GitHubSyncHook.ps1') -Mode End\"",
+            "timeout": 3,
+            "statusMessage": "Saving final GitHub checkpoint"
+          }
+        ]
+      }
+    ]
+  }
+}
