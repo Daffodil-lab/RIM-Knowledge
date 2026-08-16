@@ -10,6 +10,9 @@ import {
   NODE_DEFS,
   answerAppApproval,
   applyProtocolEvent,
+  appendChat,
+  beginChatFollowup,
+  chatPhaseForRun,
   approvePlan,
   approveRepair,
   attachPhaseTurn,
@@ -23,10 +26,14 @@ import {
   node,
   protocolEventBelongsToRun,
   recordPublication,
+  recordChatApprovalDecision,
   recordValidation,
   recoverInterruptedRun,
+  restoreChatFollowup,
+  requireAppApproval,
   requireModels,
   setModelCatalog,
+  updateChatEntry,
 } from './lib/workflow.mjs';
 
 const MODULE_ROOT = path.dirname(fileURLToPath(import.meta.url));
@@ -40,15 +47,17 @@ const STATIC_FILES = new Map([
 ]);
 const CSP = "default-src 'self'; connect-src 'self'; img-src 'self' data:; script-src 'self'; style-src 'self'; frame-ancestors 'none'; base-uri 'none'; form-action 'self'";
 
-export function createHarnessServer({ repoRoot = discoverRepoRoot(process.cwd()), appServer } = {}) {
+export function createHarnessServer({ repoRoot = discoverRepoRoot(process.cwd()), appServer, shutdown } = {}) {
   const store = new RunStore(repoRoot);
   const codex = appServer ?? new AppServerClient({ cwd: repoRoot });
   const token = crypto.randomBytes(24).toString('hex');
+  const instanceId = crypto.randomBytes(16).toString('hex');
   const sseClients = new Set();
   let activeRun = null;
   let connected = false;
   let modelCatalog = [];
   let persistTimer = null;
+  let connectOperation = null;
   const restorePromise = store.loadCurrent().then(async (restored) => {
     if (!activeRun && restored) {
       const wasLive = ['running', 'waiting-app-approval'].includes(restored.status);
@@ -124,7 +133,7 @@ export function createHarnessServer({ repoRoot = discoverRepoRoot(process.cwd())
       }
 
       if (request.method === 'GET' && url.pathname === '/api/context') {
-        return sendJson(response, { repoRoot, connected, models: modelCatalog.map(publicModel) });
+        return sendJson(response, { repoRoot, connected, instanceId, pid: process.pid, models: modelCatalog.map(publicModel) });
       }
       if (request.method === 'GET' && url.pathname === '/api/runs/current') {
         return sendJson(response, activeRun);
@@ -142,19 +151,15 @@ export function createHarnessServer({ repoRoot = discoverRepoRoot(process.cwd())
         return sendJson(response, activeRun, 201);
       }
       if (request.method === 'POST' && url.pathname === '/api/codex/connect') {
-        if (!connected) {
-          if (!codex.child) codex.start();
-          if (!codex.initialized) await codex.initialize();
-          const result = await codex.request('model/list', { limit: 100, includeHidden: true });
-          modelCatalog = result?.data ?? [];
-          connected = true;
-          if (activeRun) {
-            setModelCatalog(activeRun, modelCatalog);
-            await persist();
-          }
-        }
+        await connectCodex();
         broadcast({ type: 'connection', connected: true, models: modelCatalog.map(publicModel) });
         return sendJson(response, { connected: true, models: modelCatalog.map(publicModel) });
+      }
+      if (request.method === 'POST' && url.pathname === '/api/shutdown') {
+        if (typeof shutdown !== 'function') throw httpError(409, 'shutdown is unavailable for this harness instance');
+        sendJson(response, { stopping: true, instanceId });
+        setImmediate(() => shutdown());
+        return;
       }
 
       if (request.method === 'POST' && url.pathname.startsWith('/api/actions/')) {
@@ -174,6 +179,9 @@ export function createHarnessServer({ repoRoot = discoverRepoRoot(process.cwd())
 
   async function dispatchAction(action, body) {
     switch (action) {
+      case 'chat/send':
+        await sendChatMessage(body);
+        return;
       case 'plan/start':
         await startTurnPhase('planner');
         return;
@@ -234,6 +242,17 @@ export function createHarnessServer({ repoRoot = discoverRepoRoot(process.cwd())
     if (!threadId) throw new Error('thread/start did not return thread.id');
 
     beginAgentPhase(activeRun, phase, { threadId, usesGoal: true });
+    const prompt = buildPrompt(activeRun, phase);
+    const clientUserMessageId = nextClientUserMessageId(activeRun, `phase-${phase}`);
+    const chatEntry = appendChat(activeRun, {
+      phase,
+      threadId,
+      clientUserMessageId,
+      role: 'user',
+      kind: 'prompt',
+      status: 'sending',
+      text: prompt,
+    });
     try {
       const goal = { threadId, objective: buildGoalObjective(activeRun, phase), status: 'active' };
       if (activeRun.tokenBudget !== undefined) goal.tokenBudget = activeRun.tokenBudget;
@@ -242,14 +261,20 @@ export function createHarnessServer({ repoRoot = discoverRepoRoot(process.cwd())
 
       const turnResult = await codex.request('turn/start', {
         threadId,
+        clientUserMessageId,
         model: definition.model,
         effort: definition.effort,
-        input: [{ type: 'text', text: buildPrompt(activeRun, phase) }],
+        input: [{ type: 'text', text: prompt, text_elements: [] }],
       });
       const turnId = turnResult?.turn?.id;
       if (!turnId) throw new Error('turn/start did not return turn.id');
       attachPhaseTurn(activeRun, phase, turnId);
+      updateChatEntry(activeRun, chatEntry.id, { status: 'sent', turnId });
     } catch (error) {
+      updateChatEntry(activeRun, chatEntry.id, {
+        status: activeRun.phaseThreads[phase]?.activeTurnId ? 'sent-unknown' : 'failed',
+        turnId: activeRun.phaseThreads[phase]?.activeTurnId,
+      });
       failAgentPhase(activeRun, phase, error);
       throw error;
     }
@@ -272,6 +297,14 @@ export function createHarnessServer({ repoRoot = discoverRepoRoot(process.cwd())
     const threadId = threadResult?.thread?.id;
     if (!threadId) throw new Error('thread/start did not return thread.id');
     beginAgentPhase(activeRun, 'review', { threadId, usesGoal: false });
+    const chatEntry = appendChat(activeRun, {
+      phase: 'review',
+      threadId,
+      role: 'system',
+      kind: 'prompt',
+      status: 'sending',
+      text: '未コミット差分を対象に、read-onlyの独立レビューを開始します。',
+    });
     try {
       const reviewResult = await codex.request('review/start', {
         threadId,
@@ -281,7 +314,12 @@ export function createHarnessServer({ repoRoot = discoverRepoRoot(process.cwd())
       const turnId = reviewResult?.turn?.id;
       if (!turnId) throw new Error('review/start did not return turn.id');
       attachPhaseTurn(activeRun, 'review', turnId);
+      updateChatEntry(activeRun, chatEntry.id, { status: 'sent', turnId });
     } catch (error) {
+      updateChatEntry(activeRun, chatEntry.id, {
+        status: activeRun.phaseThreads.review?.activeTurnId ? 'sent-unknown' : 'failed',
+        turnId: activeRun.phaseThreads.review?.activeTurnId,
+      });
       failAgentPhase(activeRun, 'review', error);
       throw error;
     }
@@ -289,7 +327,9 @@ export function createHarnessServer({ repoRoot = discoverRepoRoot(process.cwd())
 
   async function respondToAppApproval(body) {
     if (!['accept', 'decline', 'cancel'].includes(body.decision)) throw httpError(400, 'invalid approval decision');
+    requireAppApproval(activeRun, body.requestId);
     codex.answerApproval(body.requestId, { decision: body.decision });
+    recordChatApprovalDecision(activeRun, body.requestId, body.decision);
     answerAppApproval(activeRun, body.requestId);
     if (body.decision === 'cancel') await interruptTurn();
   }
@@ -309,7 +349,111 @@ export function createHarnessServer({ repoRoot = discoverRepoRoot(process.cwd())
         if (!/no active|not active|already (?:completed|finished)/i.test(error.message)) throw error;
       }
     }
-    interruptCurrentPhase(activeRun);
+    if (identifiers.chatResume || activeRun.currentNode === phase) {
+      interruptCurrentPhase(activeRun);
+    }
+  }
+
+  async function sendChatMessage(body) {
+    ensureConnected();
+    if (typeof body.text !== 'string') throw httpError(400, 'chat text must be a string');
+    const text = body.text.trim();
+    if (!text || text.length > 4_000) throw httpError(400, 'chat text must be 1..4000 characters');
+    if (body.clientUserMessageId !== undefined
+      && (typeof body.clientUserMessageId !== 'string' || body.clientUserMessageId.length > 128)) {
+      throw httpError(400, 'clientUserMessageId must be a string of at most 128 characters');
+    }
+    if (activeRun.waitingFor?.type === 'app-server') throw httpError(409, 'app approval is pending');
+
+    const phase = chatPhaseForRun(activeRun);
+    const runtime = phase ? activeRun.phaseThreads?.[phase] : null;
+    if (!runtime?.threadId) throw httpError(409, 'current gate has no known agent thread');
+    const clientUserMessageId = body.clientUserMessageId || nextClientUserMessageId(activeRun, 'user');
+    const definition = NODE_DEFS.find((entry) => entry.id === phase);
+
+    if (runtime.activeTurnId) {
+      if (phase === 'review') throw httpError(409, 'the active review turn cannot be steered');
+      const entry = appendChat(activeRun, {
+        phase,
+        threadId: runtime.threadId,
+        turnId: runtime.activeTurnId,
+        clientUserMessageId,
+        role: 'user',
+        kind: 'message',
+        status: 'sending',
+        text,
+      });
+      try {
+        await codex.request('turn/steer', {
+          threadId: runtime.threadId,
+          expectedTurnId: runtime.activeTurnId,
+          clientUserMessageId,
+          input: [{ type: 'text', text, text_elements: [] }],
+        });
+        updateChatEntry(activeRun, entry.id, { status: 'sent' });
+      } catch (error) {
+        updateChatEntry(activeRun, entry.id, { status: 'failed' });
+        await persist();
+        throw error;
+      }
+      return;
+    }
+
+    if (activeRun.phaseGoals?.[phase]?.status === 'active') {
+      throw httpError(409, 'goal continuation is between turns; wait for the next turn or pause it');
+    }
+
+    beginChatFollowup(activeRun, phase, clientUserMessageId);
+    const entry = appendChat(activeRun, {
+      phase,
+      threadId: runtime.threadId,
+      clientUserMessageId,
+      role: 'user',
+      kind: 'message',
+      status: 'sending',
+      text,
+    });
+    try {
+      const result = await codex.request('turn/start', {
+        threadId: runtime.threadId,
+        clientUserMessageId,
+        model: definition?.model,
+        effort: definition?.effort,
+        input: [{ type: 'text', text, text_elements: [] }],
+      });
+      const turnId = result?.turn?.id;
+      if (!turnId) throw new Error('turn/start did not return turn.id');
+      attachPhaseTurn(activeRun, phase, turnId);
+      updateChatEntry(activeRun, entry.id, { status: 'sent', turnId });
+    } catch (error) {
+      const activeTurnId = runtime.activeTurnId;
+      if (activeTurnId) {
+        updateChatEntry(activeRun, entry.id, { status: 'sent-unknown', turnId: activeTurnId });
+      } else {
+        restoreChatFollowup(activeRun, phase);
+        updateChatEntry(activeRun, entry.id, { status: 'failed' });
+      }
+      await persist();
+      throw error;
+    }
+  }
+
+  async function connectCodex() {
+    if (connected) return;
+    if (!connectOperation) {
+      connectOperation = (async () => {
+        if (!codex.child) codex.start();
+        if (!codex.initialized) await codex.initialize();
+        const result = await codex.request('model/list', { limit: 100, includeHidden: true });
+        modelCatalog = result?.data ?? [];
+        connected = true;
+        if (activeRun) {
+          setModelCatalog(activeRun, modelCatalog);
+          await persist();
+        }
+      })().finally(() => { connectOperation = null; });
+    }
+    await connectOperation;
   }
 
   function ensureConnected() {
@@ -324,11 +468,17 @@ export function createHarnessServer({ repoRoot = discoverRepoRoot(process.cwd())
     }
   }
 
+  function nextClientUserMessageId(run, prefix) {
+    const next = (run.chatSequence ?? 0) + 1;
+    return `${prefix}-${run.id}-${next}`.slice(0, 128);
+  }
+
   return {
     server,
     codex,
     store,
     token,
+    instanceId,
     getActiveRun: () => activeRun,
     getConnected: () => connected,
   };
@@ -422,9 +572,19 @@ export function discoverRepoRoot(startPath) {
 }
 
 if (process.argv[1] === fileURLToPath(import.meta.url)) {
-  const { server, token } = createHarnessServer();
-  server.listen(0, '127.0.0.1', () => {
-    const address = server.address();
-    console.log(JSON.stringify({ url: `http://127.0.0.1:${address.port}/#token=${token}` }));
+  let harness;
+  harness = createHarnessServer({
+    shutdown: () => setTimeout(async () => {
+      await harness.codex.stop().catch(() => {});
+      process.exit(0);
+    }, 50),
+  });
+  harness.server.listen(0, '127.0.0.1', () => {
+    const address = harness.server.address();
+    console.log(JSON.stringify({
+      url: `http://127.0.0.1:${address.port}/#token=${harness.token}`,
+      instanceId: harness.instanceId,
+      pid: process.pid,
+    }));
   });
 }

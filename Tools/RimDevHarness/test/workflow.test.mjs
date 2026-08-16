@@ -1,11 +1,12 @@
 import assert from 'node:assert/strict';
 import test from 'node:test';
-import { approvalRequestText, setText } from '../public/render-utils.mjs';
+import { approvalRequestText, chatAvailability, chatEntryHeading, setText } from '../public/render-utils.mjs';
 import {
   answerAppApproval,
   applyProtocolEvent,
   approvePlan,
   approveRepair,
+  beginChatFollowup,
   beginPhase,
   beginAgentPhase,
   buildGoalObjective,
@@ -17,9 +18,101 @@ import {
   recordPublication,
   recordValidation,
   recoverInterruptedRun,
+  restoreChatFollowup,
   requireModels,
   setModelCatalog,
 } from '../lib/workflow.mjs';
+import { appendChat, chatPhaseForRun } from '../lib/workflow.mjs';
+
+test('chat timeline is bounded and entries have unique ids', () => {
+  const run = createRun({ objective: 'chat' });
+  for (let i = 0; i < 210; i += 1) appendChat(run, { text: 'x'.repeat(40_000) });
+  assert.equal(run.chat.length, 200);
+  assert.equal(new Set(run.chat.map((entry) => entry.id)).size, 200);
+  assert.equal(run.chat.at(-1).text.length, 32 * 1024);
+});
+
+test('human gates map to their prior agent phase', () => {
+  const run = createRun({ objective: 'mapping' });
+  for (const [phase, gate] of [['planner', 'approval-plan'], ['worker', 'validation'], ['review', 'approval-repair'], ['repair', 'final-validation']]) {
+    run.phaseThreads[phase] = { threadId: `thread-${phase}` };
+    run.currentNode = gate;
+    assert.equal(chatPhaseForRun(run), phase);
+  }
+});
+
+test('agent and plan deltas coalesce while tool deltas stay out of chat', () => {
+  const run = createRun({ objective: 'delta' });
+  run.phaseThreads.planner = { threadId: 't', activeTurnId: 'u' };
+  applyProtocolEvent(run, { method: 'item/agentMessage/delta', params: { threadId: 't', turnId: 'u', itemId: 'i', delta: 'hello' } });
+  applyProtocolEvent(run, { method: 'item/agentMessage/delta', params: { threadId: 't', turnId: 'u', itemId: 'i', delta: ' world' } });
+  applyProtocolEvent(run, { method: 'item/completed', params: { threadId: 't', turnId: 'u', item: { id: 'i', type: 'agentMessage', text: 'final' } } });
+  applyProtocolEvent(run, { method: 'item/commandExecution/delta', params: { threadId: 't', turnId: 'u', itemId: 'secret', delta: 'secret-output' } });
+  assert.equal(run.chat.filter((entry) => entry.itemId === 'i').length, 1);
+  assert.equal(run.chat.find((entry) => entry.itemId === 'i').text, 'final');
+  assert.equal(run.chat.some((entry) => entry.itemId === 'secret'), false);
+});
+
+test('completed tools expose lifecycle metadata but never command output or patch bodies', () => {
+  const run = createRun({ objective: 'tool summary' });
+  run.phaseThreads.planner = { threadId: 't', activeTurnId: 'u' };
+  applyProtocolEvent(run, {
+    method: 'item/completed',
+    params: {
+      threadId: 't',
+      turnId: 'u',
+      item: {
+        id: 'tool',
+        type: 'commandExecution',
+        status: 'completed',
+        command: 'dotnet test',
+        cwd: 'C:\\repo',
+        aggregatedOutput: 'SECRET-OUTPUT',
+        changes: [{ path: 'Defs/Test.xml', diff: 'SECRET-DIFF' }],
+        exitCode: 0,
+      },
+    },
+  });
+  const summary = run.chat.find((entry) => entry.itemId === 'tool').toolSummary;
+  assert.match(summary, /command=dotnet test/);
+  assert.match(summary, /files=1/);
+  assert.match(summary, /exitCode=0/);
+  assert.doesNotMatch(summary, /SECRET/);
+});
+
+test('chat follow-ups restore every human gate exactly', () => {
+  const cases = [
+    ['planner', 'approval-plan', 'waiting-plan-approval', { type: 'human', kind: 'plan' }],
+    ['worker', 'validation', 'waiting-validation', { type: 'human', kind: 'validation' }],
+    ['review', 'approval-repair', 'waiting-repair-approval', { type: 'human', kind: 'repair-scope' }],
+    ['repair', 'final-validation', 'waiting-final-validation', { type: 'human', kind: 'final-validation' }],
+  ];
+  for (const [phase, gate, status, waitingFor] of cases) {
+    const run = createRun({ objective: phase });
+    run.phaseThreads[phase] = { threadId: `thread-${phase}`, activeTurnId: null };
+    node(run, phase).status = 'passed';
+    node(run, gate).status = 'waiting';
+    run.currentNode = gate;
+    run.status = status;
+    run.waitingFor = waitingFor;
+    const before = JSON.parse(JSON.stringify({ currentNode: run.currentNode, status: run.status, waitingFor: run.waitingFor, phase: node(run, phase).status, gate: node(run, gate).status }));
+    beginChatFollowup(run, phase, `client-${phase}`);
+    restoreChatFollowup(run, phase);
+    assert.deepEqual({ currentNode: run.currentNode, status: run.status, waitingFor: run.waitingFor, phase: node(run, phase).status, gate: node(run, gate).status }, before);
+  }
+});
+
+test('recovery interrupts queued and streaming chat without resend', () => {
+  const run = createRun({ objective: 'recover' });
+  run.status = 'running';
+  run.currentNode = 'planner';
+  run.phaseThreads.planner = { threadId: 'old', activeTurnId: 'turn' };
+  appendChat(run, { status: 'queued', text: 'one' });
+  appendChat(run, { status: 'streaming', text: 'two' });
+  recoverInterruptedRun(run);
+  assert.deepEqual(run.chat.map((entry) => entry.status), ['interrupted', 'interrupted']);
+  assert.equal(run.phaseThreads.planner.activeTurnId, null);
+});
 
 const models = [
   { id: 'gpt-5.6-sol', model: 'gpt-5.6-sol', displayName: 'Sol', supportedReasoningEfforts: [{ reasoningEffort: 'high' }] },
@@ -187,6 +280,28 @@ test('render helper treats markup as text', () => {
   const element = { textContent: '' };
   setText(element, '<img src=x onerror=alert(1)>');
   assert.equal(element.textContent, '<img src=x onerror=alert(1)>');
+});
+
+test('chat UI availability mirrors server safety gates', () => {
+  assert.equal(chatAvailability(null, true).enabled, false);
+  const run = createRun({ objective: 'UI gate' });
+  run.phaseThreads.planner = { threadId: 'planner-thread', activeTurnId: null };
+  run.currentNode = 'approval-plan';
+  assert.equal(chatAvailability(run, false).enabled, false);
+  assert.deepEqual(chatAvailability(run, true), {
+    enabled: true,
+    phase: 'planner',
+    message: 'plannerの同一threadで質問できます',
+  });
+  run.phaseThreads.planner.activeTurnId = 'turn';
+  assert.equal(chatAvailability(run, true).enabled, true);
+  run.waitingFor = { type: 'app-server' };
+  assert.equal(chatAvailability(run, true).enabled, false);
+  run.waitingFor = null;
+  run.phaseThreads.review = { threadId: 'review-thread', activeTurnId: 'review-turn' };
+  run.currentNode = 'review';
+  assert.equal(chatAvailability(run, true).enabled, false);
+  assert.equal(chatEntryHeading({ role: 'assistant', phase: 'review', status: 'streaming' }), 'Codex · review · streaming');
 });
 
 test('approval summary exposes paths and permission scope without file contents', () => {
