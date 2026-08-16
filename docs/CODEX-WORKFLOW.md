@@ -6,7 +6,7 @@ RIMでは、作業の規模と危険度に応じてCodexの担当を分けます
 
 `Tools/RimDevHarness/`は、この運用構成をRimWorld MOD開発向けのノードGUIとして実行・観測するローカルharnessです。公式`codex app-server`へstdio JSONLで接続し、Sol計画、計画承認、Luna実装、検証、Sol独立レビュー、修正範囲承認、Luna修正、最終検証、GitHub同期証拠を別々のnodeとして管理します。
 
-GUIのturn完了は検証PASSを意味しません。agent turnの終了後は人間の承認または証拠付き検証で停止し、command/fileの権限要求も別の承認欄へ表示します。起動、操作、保存場所、fakeと実接続の検証境界は[MOD開発GUI harness](RIM-DEV-HARNESS.md)を参照してください。
+GUIのturn完了は検証PASSを意味しません。agent turnの終了後は人間の承認または証拠付き検証で停止し、command/fileの権限要求も別の承認欄へ表示します。GUI内のChatは同じphase threadへの質問・追加入力に使えますが、現在のCodex Desktop taskとは別threadであり、承認や検証を自動通過しません。起動、操作、保存場所、fakeと実接続の検証境界は[MOD開発GUI harness](RIM-DEV-HARNESS.md)を参照してください。
 
 ## 担当
 

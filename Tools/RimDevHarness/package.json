@@ -6,6 +6,7 @@
   "scripts": {
     "start": "node server.mjs",
     "test": "node --test test/protocol.test.mjs test/workflow.test.mjs test/server.test.mjs",
-    "test:live-review": "node scripts/live-review-smoke.mjs"
+    "test:live-review": "node scripts/live-review-smoke.mjs",
+    "test:live-chat": "node scripts/live-chat-smoke.mjs"
   }
 }

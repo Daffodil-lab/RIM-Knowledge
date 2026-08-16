@@ -42,6 +42,8 @@ export function createRun({ id, objective, conditions, tokenBudget } = {}) {
     validations: [],
     reviews: [],
     events: [],
+    chat: [],
+    chatSequence: 0,
     unknownEvents: [],
     modelCatalog: [],
     publication: null,
@@ -86,8 +88,25 @@ export function applyProtocolEvent(run, event) {
       resumeStatus,
     };
     run.status = 'waiting-app-approval';
+    appendChat(run, {
+      itemId: `approval-${String(event.id)}`,
+      phase: phaseForEvent(run, event.params),
+      threadId: event.params?.threadId,
+      turnId: event.params?.turnId,
+      role: 'system',
+      kind: 'approval',
+      status: 'waiting',
+      toolSummary: summarizeApproval(event.params),
+    });
+  } else if (method === 'item/started') {
+    captureChatItem(run, event.params, false);
   } else if (method === 'item/completed') {
     captureCompletedItem(run, event.params);
+    captureChatItem(run, event.params, true);
+  } else if (method === 'item/agentMessage/delta') {
+    captureChatDelta(run, event.params, 'message');
+  } else if (method === 'item/plan/delta') {
+    captureChatDelta(run, event.params, 'plan');
   } else if (method === 'turn/completed') {
     completeTurn(run, event.params);
   } else if (method && !isKnownTransientEvent(method)) {
@@ -107,6 +126,12 @@ export function protocolEventBelongsToRun(run, event) {
   const threadId = params.threadId ?? params.thread?.id ?? params.conversationId;
   if (!threadId) return true;
   return Object.values(run.phaseThreads ?? {}).some((runtime) => runtime?.threadId === threadId);
+}
+
+export function chatPhaseForRun(run) {
+  const gateMap = { 'approval-plan': 'planner', validation: 'worker', 'approval-repair': 'review', 'final-validation': 'repair' };
+  const phase = gateMap[run?.currentNode] ?? run?.currentNode;
+  return run?.phaseThreads?.[phase]?.threadId ? phase : null;
 }
 
 export function setModelCatalog(run, models) {
@@ -216,13 +241,18 @@ export function approveRepair(run, scope) {
 }
 
 export function answerAppApproval(run, requestId) {
-  if (run.waitingFor?.type !== 'app-server' || String(run.waitingFor.requestId) !== String(requestId)) {
-    throw new Error('approval request does not match the active request');
-  }
+  requireAppApproval(run, requestId);
   const { resumeWaitingFor = null, resumeStatus = 'running' } = run.waitingFor;
   run.waitingFor = resumeWaitingFor;
   run.status = resumeStatus;
   touch(run);
+  return run;
+}
+
+export function requireAppApproval(run, requestId) {
+  if (run.waitingFor?.type !== 'app-server' || String(run.waitingFor.requestId) !== String(requestId)) {
+    throw new Error('approval request does not match the active request');
+  }
   return run;
 }
 
@@ -248,6 +278,22 @@ export function interruptCurrentPhase(run) {
     || (target.status !== 'running' && !runtime?.activeTurnId)) {
     throw new Error('no running agent phase to interrupt');
   }
+  if (runtime?.chatResume) {
+    const interruptedTurnId = runtime.activeTurnId;
+    restoreChatFollowup(run, target.id);
+    if (interruptedTurnId) {
+      runtime.ignoredChatTerminalTurnIds ??= [];
+      appendBounded(runtime.ignoredChatTerminalTurnIds, interruptedTurnId, 10);
+    }
+    for (const entry of run.chat ?? []) {
+      if (entry.turnId === interruptedTurnId
+        && ['sending', 'sent', 'sent-unknown', 'streaming', 'running'].includes(entry.status)) {
+        entry.status = 'interrupted';
+        entry.updatedAt = new Date().toISOString();
+      }
+    }
+    return run;
+  }
   target.status = 'stopped';
   if (runtime) runtime.activeTurnId = null;
   run.waitingFor = null;
@@ -259,8 +305,20 @@ export function interruptCurrentPhase(run) {
 export function recoverInterruptedRun(run) {
   const hasActiveTurn = Object.values(run?.phaseThreads ?? {}).some((runtime) => Boolean(runtime?.activeTurnId));
   if (!run || (!['running', 'waiting-app-approval'].includes(run.status) && !hasActiveTurn)) return run;
+  const chatFollowup = Object.entries(run.phaseThreads ?? {}).find(([, runtime]) => runtime?.chatResume);
+  if (chatFollowup) {
+    restoreChatFollowup(run, chatFollowup[0]);
+    markInterruptedChatEntries(run);
+    appendBounded(run.events ??= [], {
+      method: 'harness/recovered-chat-followup',
+      emittedAtMs: Date.now(),
+    }, 200);
+    touch(run);
+    return run;
+  }
   const target = run.nodes?.find((entry) => entry.id === run.currentNode);
   if (target?.status === 'running') target.status = 'stopped';
+  markInterruptedChatEntries(run);
   if (run.phaseThreads?.[run.currentNode]) run.phaseThreads[run.currentNode].activeTurnId = null;
   run.waitingFor = null;
   run.status = 'stopped';
@@ -270,6 +328,221 @@ export function recoverInterruptedRun(run) {
   }, 200);
   touch(run);
   return run;
+}
+
+export function appendChat(run, {
+  id,
+  phase,
+  threadId,
+  turnId,
+  itemId,
+  clientUserMessageId,
+  role = 'user',
+  kind = 'message',
+  status = 'completed',
+  text = '',
+  toolSummary = '',
+} = {}) {
+  run.chat ??= [];
+  run.chatSequence = (run.chatSequence ?? 0) + 1;
+  const now = new Date().toISOString();
+  const entry = {
+    id: id || `chat-${run.chatSequence}`,
+    phase: phase ?? null,
+    threadId: threadId ?? null,
+    turnId: turnId ?? null,
+    itemId: itemId ?? null,
+    clientUserMessageId: clientUserMessageId ?? null,
+    role,
+    kind,
+    status,
+    text: String(text ?? '').slice(0, 32 * 1024),
+    toolSummary: String(toolSummary ?? '').slice(0, 4 * 1024),
+    createdAt: now,
+    updatedAt: now,
+  };
+  run.chat.push(entry);
+  if (run.chat.length > 200) run.chat.splice(0, run.chat.length - 200);
+  return entry;
+}
+
+export function updateChatEntry(run, entryId, changes = {}) {
+  const entry = run.chat?.find((candidate) => candidate.id === entryId);
+  if (!entry) throw new Error(`unknown chat entry: ${entryId}`);
+  for (const key of ['status', 'turnId', 'itemId']) {
+    if (changes[key] !== undefined) entry[key] = changes[key];
+  }
+  if (changes.text !== undefined) entry.text = String(changes.text).slice(0, 32 * 1024);
+  if (changes.toolSummary !== undefined) entry.toolSummary = String(changes.toolSummary).slice(0, 4 * 1024);
+  entry.updatedAt = new Date().toISOString();
+  touch(run);
+  return entry;
+}
+
+export function recordChatApprovalDecision(run, requestId, decision) {
+  const waitingEntry = [...(run.chat ?? [])].reverse().find((entry) => (
+    entry.kind === 'approval'
+    && entry.status === 'waiting'
+    && entry.itemId === `approval-${String(requestId)}`
+  ));
+  if (waitingEntry) updateChatEntry(run, waitingEntry.id, { status: decision });
+  return appendChat(run, {
+    role: 'system',
+    kind: 'approval',
+    status: 'completed',
+    toolSummary: `requestId=${String(requestId).slice(0, 100)} decision=${String(decision).slice(0, 40)}`,
+  });
+}
+function captureChatDelta(run, params = {}, kind = 'message') {
+  const itemId = params.itemId;
+  if (!itemId || !params.delta) return;
+  const phase = phaseForEvent(run, params);
+  if (!phase) return;
+  const threadId = params.threadId ?? run.phaseThreads[phase]?.threadId;
+  const turnId = eventTurnId(params) ?? run.phaseThreads[phase]?.activeTurnId;
+  if (run.phaseThreads[phase]?.ignoredChatTerminalTurnIds?.includes(turnId)) return;
+  let entry = run.chat?.find((item) => item.itemId === itemId && item.threadId === threadId && item.turnId === turnId);
+  if (!entry) {
+    entry = appendChat(run, {
+      itemId,
+      phase,
+      threadId,
+      turnId,
+      role: 'assistant',
+      kind,
+      status: 'streaming',
+    });
+  }
+  entry.text = `${entry.text}${params.delta}`.slice(0, 32 * 1024);
+  entry.updatedAt = new Date().toISOString();
+}
+function captureChatItem(run, params = {}, final) {
+  const item = params.item ?? {};
+  if (!item.id) return;
+  const phase = phaseForEvent(run, params);
+  if (!phase) return;
+  const threadId = params.threadId ?? run.phaseThreads[phase]?.threadId;
+  const turnId = eventTurnId(params) ?? run.phaseThreads[phase]?.activeTurnId;
+  if (run.phaseThreads[phase]?.ignoredChatTerminalTurnIds?.includes(turnId)) return;
+  let entry = item.type === 'userMessage' && item.clientId
+    ? run.chat?.find((candidate) => candidate.clientUserMessageId === item.clientId && candidate.threadId === threadId)
+    : run.chat?.find((candidate) => candidate.itemId === item.id && candidate.threadId === threadId && candidate.turnId === turnId);
+  const isMessage = ['agentMessage', 'userMessage', 'plan'].includes(item.type);
+  const role = item.type === 'userMessage' ? 'user' : item.type === 'agentMessage' || item.type === 'plan' ? 'assistant' : 'tool';
+  const kind = item.type === 'plan' ? 'plan' : isMessage ? 'message' : 'tool';
+  const text = item.type === 'userMessage' ? userMessageText(item) : item.text;
+  if (!entry) {
+    entry = appendChat(run, {
+      itemId: item.id,
+      clientUserMessageId: item.clientId,
+      phase,
+      threadId,
+      turnId,
+      role,
+      kind,
+      status: final ? 'completed' : 'running',
+      text: isMessage ? text : '',
+      toolSummary: isMessage ? '' : summarizeToolItem(item),
+    });
+  } else {
+    entry.itemId = item.id;
+    entry.turnId = turnId ?? entry.turnId;
+  }
+  if (final) {
+    entry.status = 'completed';
+    if (isMessage) entry.text = String(text ?? entry.text).slice(0, 32 * 1024);
+    else entry.toolSummary = summarizeToolItem(item).slice(0, 4 * 1024);
+    entry.updatedAt = new Date().toISOString();
+  }
+}
+
+function summarizeToolItem(item) {
+  const fields = [];
+  if (item.type) fields.push(`type=${String(item.type).slice(0, 80)}`);
+  if (item.status) fields.push(`status=${String(item.status).slice(0, 80)}`);
+  if (item.command) fields.push(`command=${String(item.command).slice(0, 500)}`);
+  if (item.cwd) fields.push(`cwd=${String(item.cwd).slice(0, 500)}`);
+  if (Array.isArray(item.changes)) fields.push(`files=${item.changes.length}`);
+  if (item.server) fields.push(`server=${String(item.server).slice(0, 100)}`);
+  if (item.namespace) fields.push(`namespace=${String(item.namespace).slice(0, 100)}`);
+  if (item.tool) fields.push(`tool=${String(item.tool).slice(0, 100)}`);
+  if (item.exitCode !== undefined) fields.push(`exitCode=${item.exitCode}`);
+  if (item.durationMs !== undefined) fields.push(`durationMs=${item.durationMs}`);
+  return fields.join(' ');
+}
+
+function summarizeApproval(params = {}) {
+  const command = Array.isArray(params.command)
+    ? params.command.join(' ').slice(0, 500)
+    : String(params.command ?? '').slice(0, 500);
+  const cwd = String(params.cwd ?? '').slice(0, 500);
+  const reason = String(params.reason ?? '').slice(0, 500);
+  const paths = params.fileChanges && typeof params.fileChanges === 'object'
+    ? Object.keys(params.fileChanges).slice(0, 8).map((value) => String(value).slice(0, 300))
+    : [];
+  return [
+    command ? `command=${command}` : '',
+    cwd ? `cwd=${cwd}` : '',
+    reason ? `reason=${reason}` : '',
+    paths.length ? `paths=${paths.join(', ')}` : '',
+  ].filter(Boolean).join(' ');
+}
+
+export function beginChatFollowup(run, phase, clientUserMessageId) {
+  const runtime = run.phaseThreads[phase];
+  if (!runtime?.threadId) throw new Error(`phase thread is not initialized: ${phase}`);
+  if (runtime.chatResume) throw new Error(`chat follow-up is already active: ${phase}`);
+  const gateNodeId = run.currentNode;
+  runtime.chatResume = {
+    status: run.status,
+    currentNode: run.currentNode,
+    waitingFor: cloneJson(run.waitingFor),
+    phaseNodeStatus: node(run, phase).status,
+    gateNodeId,
+    gateNodeStatus: node(run, gateNodeId).status,
+  };
+  runtime.activeTurnId = null;
+  runtime.chatClientUserMessageId = clientUserMessageId;
+  node(run, phase).status = 'running';
+  run.currentNode = phase;
+  run.status = 'running';
+  touch(run);
+}
+
+export function restoreChatFollowup(run, phase) {
+  const runtime = run.phaseThreads[phase];
+  if (!runtime?.chatResume) return;
+  const resume = runtime.chatResume;
+  runtime.chatResume = null;
+  run.status = resume.status;
+  run.currentNode = resume.currentNode;
+  run.waitingFor = resume.waitingFor;
+  node(run, phase).status = resume.phaseNodeStatus;
+  node(run, resume.gateNodeId).status = resume.gateNodeStatus;
+  runtime.activeTurnId = null;
+  runtime.chatClientUserMessageId = null;
+  touch(run);
+}
+
+function userMessageText(item) {
+  return (item.content ?? [])
+    .filter((part) => part?.type === 'text')
+    .map((part) => part.text)
+    .join('\n');
+}
+
+function cloneJson(value) {
+  return value == null ? value : JSON.parse(JSON.stringify(value));
+}
+
+function markInterruptedChatEntries(run) {
+  const now = new Date().toISOString();
+  for (const entry of run.chat ?? []) {
+    if (['queued', 'sending', 'sent-unknown', 'streaming', 'running'].includes(entry.status)) {
+      entry.status = 'interrupted';
+      entry.updatedAt = now;
+    }
+  }
 }
 
 export function buildPrompt(run, phase) {
@@ -325,12 +598,26 @@ function completeTurn(run, params = {}) {
   const phase = phaseForEvent(run, params);
   if (!phase) return;
   const target = node(run, phase);
-  const output = finalAgentText(turn.items) || run.outputs[phase] || '';
-  run.outputs[phase] = output;
   const runtime = run.phaseThreads[phase] ?? {};
   const turnId = eventTurnId(params);
+  const ignoredIndex = runtime.ignoredChatTerminalTurnIds?.indexOf(turnId) ?? -1;
+  if (ignoredIndex >= 0) {
+    runtime.ignoredChatTerminalTurnIds.splice(ignoredIndex, 1);
+    return;
+  }
   runtime.lastTurnStatus = turn.status;
   if (runtime.activeTurnId === turnId) runtime.activeTurnId = null;
+
+  if (runtime.chatResume) {
+    if (turn.status === 'interrupted' || turn.status === 'failed' || turn.error) {
+      markTurnChatEntries(run, turnId, turn.status === 'interrupted' ? 'interrupted' : 'failed');
+    }
+    restoreChatFollowup(run, phase);
+    return;
+  }
+
+  const output = finalAgentText(turn.items) || run.outputs[phase] || '';
+  run.outputs[phase] = output;
 
   if (turn.status === 'interrupted') {
     target.status = 'stopped';
@@ -386,7 +673,22 @@ function captureCompletedItem(run, params = {}) {
   const item = params.item;
   const phase = phaseForEvent(run, params);
   if (!phase || item?.type !== 'agentMessage') return;
+  const runtime = run.phaseThreads[phase] ?? {};
+  const turnId = eventTurnId(params);
+  if (runtime.chatResume
+    || runtime.ignoredChatTerminalTurnIds?.includes(turnId)
+    || runtime.activeTurnId !== turnId) return;
   run.outputs[phase] = item.text;
+}
+
+function markTurnChatEntries(run, turnId, status) {
+  const now = new Date().toISOString();
+  for (const entry of run.chat ?? []) {
+    if (entry.turnId === turnId && ['sending', 'sent-unknown', 'streaming', 'running'].includes(entry.status)) {
+      entry.status = status;
+      entry.updatedAt = now;
+    }
+  }
 }
 
 function registerStartedTurn(run, params = {}) {

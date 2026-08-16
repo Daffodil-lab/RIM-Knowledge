@@ -69,6 +69,28 @@
           </div>
           <div id="graph" class="graph" aria-label="MOD開発フロー"></div>
         </section>
+
+        <section class="chat-shell" aria-labelledby="chat-title">
+          <div class="section-title chat-heading">
+            <div>
+              <span class="eyebrow">CODEX CHAT</span>
+              <h2 id="chat-title">現在phaseのCodexと相談</h2>
+            </div>
+            <span id="chat-availability" class="chip">runを作成してください</span>
+          </div>
+          <p class="chat-boundary">
+            この会話はRIM Dev Harnessが起動した別のCodex App Server threadです。現在開いているCodex Desktop taskとは同期しません。
+          </p>
+          <div id="chat-log" class="chat-log" aria-live="polite" aria-label="Codexとの会話履歴"></div>
+          <form id="chat-form" class="chat-form">
+            <label for="chat-input">メッセージ</label>
+            <textarea id="chat-input" maxlength="4000" rows="3" placeholder="現在の計画、実装、検証結果について質問・追加指示を送る"></textarea>
+            <div class="chat-form-footer">
+              <span>Ctrl + Enterで送信。承認・検証・公開ゲートは自動では進みません。</span>
+              <button id="chat-send" class="primary" type="submit">Codexへ送信</button>
+            </div>
+          </form>
+        </section>
       </section>
 
       <aside class="rail">

@@ -1,4 +1,10 @@
-import { approvalRequestText, createTextElement, setText } from './render-utils.mjs';
+import {
+  approvalRequestText,
+  chatAvailability,
+  chatEntryHeading,
+  createTextElement,
+  setText,
+} from './render-utils.mjs';
 
 const byId = (id) => document.getElementById(id);
 let sessionToken = sessionStorage.getItem('rim-harness-token');
@@ -8,11 +14,15 @@ let selectedNodeId = null;
 let eventSource = null;
 let bannerTimer = null;
 let newRunVisible = false;
+let eventStreamState = 'connecting';
+let codexConnectState = 'idle';
+let connectPromise = null;
 
 bootstrapToken();
 bindActions();
 await loadInitialState();
 connectEvents();
+await connectCodex({ retry: true });
 
 function bootstrapToken() {
   if (!sessionToken) {
@@ -29,6 +39,7 @@ function bootstrapToken() {
 async function loadInitialState() {
   try {
     context = await getJson('/api/context');
+    codexConnectState = context.connected ? 'online' : 'idle';
     run = await getJson('/api/runs/current');
     render();
   } catch (error) {
@@ -61,11 +72,7 @@ function bindActions() {
     if (newRunVisible) byId('objective').focus();
   });
 
-  byId('connect').addEventListener('click', () => perform(async () => {
-    const result = await postJson('/api/codex/connect');
-    context = { ...context, ...result };
-    connectEvents();
-  }));
+  byId('connect').addEventListener('click', () => connectCodex({ retry: true, announceFailure: true }));
   byId('plan-start').addEventListener('click', () => runAction('plan/start'));
   byId('plan-approve').addEventListener('click', () => runAction('plan/approve'));
   byId('implement-start').addEventListener('click', () => runAction('implement/start'));
@@ -116,10 +123,29 @@ function bindActions() {
     showBanner('現在の検証ゲートへ移動しました。証拠を入力してください。');
   });
   byId('clear-events').addEventListener('click', () => setText(byId('events'), ''));
+
+  byId('chat-form').addEventListener('submit', async (event) => {
+    event.preventDefault();
+    const input = byId('chat-input');
+    const text = input.value.trim();
+    if (!text) return;
+    const sent = await runAction('chat/send', {
+      text,
+      clientUserMessageId: `browser-${crypto.randomUUID()}`,
+    });
+    if (sent) input.value = '';
+    renderChat();
+  });
+  byId('chat-input').addEventListener('keydown', (event) => {
+    if (event.key === 'Enter' && event.ctrlKey) {
+      event.preventDefault();
+      byId('chat-form').requestSubmit();
+    }
+  });
 }
 
 async function runAction(action, payload = {}) {
-  await perform(async () => {
+  return perform(async () => {
     run = await postJson(`/api/actions/${action}`, payload);
     selectedNodeId = run.currentNode;
     if (['running', 'waiting-app-approval'].includes(run.status)) newRunVisible = false;
@@ -130,9 +156,46 @@ async function perform(operation) {
   try {
     await operation();
     render();
+    return true;
   } catch (error) {
     showBanner(error.message, true);
+    return false;
   }
+}
+
+async function connectCodex({ retry = false, announceFailure = false } = {}) {
+  if (context.connected) {
+    codexConnectState = 'online';
+    renderConnection();
+    return true;
+  }
+  if (connectPromise) return connectPromise;
+  const delays = retry ? [0, 500, 1_500] : [0];
+  connectPromise = (async () => {
+    let lastError = null;
+    for (const [attempt, delayMs] of delays.entries()) {
+      if (delayMs) await delay(delayMs);
+      codexConnectState = attempt === 0 ? 'connecting' : 'retrying';
+      renderConnection();
+      try {
+        const result = await postJson('/api/codex/connect');
+        context = { ...context, ...result };
+        codexConnectState = 'online';
+        render();
+        return true;
+      } catch (error) {
+        lastError = error;
+      }
+    }
+    context.connected = false;
+    codexConnectState = 'failed';
+    render();
+    if (announceFailure || lastError) {
+      showBanner(`Codexへ接続できませんでした: ${lastError?.message ?? '不明なエラー'}`, true);
+    }
+    return false;
+  })().finally(() => { connectPromise = null; });
+  return connectPromise;
 }
 
 function connectEvents() {
@@ -141,16 +204,20 @@ function connectEvents() {
     return;
   }
   eventSource?.close();
+  eventStreamState = 'connecting';
   eventSource = new EventSource(`/events?token=${encodeURIComponent(sessionToken)}`);
   eventSource.addEventListener('open', () => {
-    context.connected = true;
+    eventStreamState = 'online';
     renderConnection();
   });
   eventSource.addEventListener('message', (event) => {
     try {
       const payload = JSON.parse(event.data);
       if (payload.type === 'run') run = payload.run;
-      if (payload.type === 'connection') context = { ...context, ...payload };
+      if (payload.type === 'connection') {
+        context = { ...context, ...payload };
+        codexConnectState = payload.connected ? 'online' : 'failed';
+      }
       if (payload.type === 'stderr') appendEvent(`stderr: ${payload.line}`);
       if (payload.type === 'error') showBanner(payload.message, true);
       if (payload.type === 'event') {
@@ -163,9 +230,8 @@ function connectEvents() {
     }
   });
   eventSource.addEventListener('error', () => {
-    context.connected = false;
+    eventStreamState = 'reconnecting';
     renderConnection();
-    showBanner('Codex event接続が切断されました。再接続を待っています。', true);
   });
 }
 
@@ -210,14 +276,26 @@ function render() {
   renderHumanApproval();
   renderAppApproval();
   renderReviews();
+  renderChat();
   renderGates();
 }
 
 function renderConnection() {
   const element = byId('connection');
-  element.className = `chip ${context.connected ? 'chip-online' : 'chip-offline'}`;
-  setText(element, context.connected ? 'Codex 接続済み' : 'Codex 未接続');
-  byId('connect').disabled = context.connected;
+  const labels = {
+    connecting: 'Codex 接続中…',
+    retrying: 'Codex 再接続中…',
+    failed: 'Codex 接続失敗',
+    idle: 'Codex 未接続',
+    online: 'Codex 接続済み',
+  };
+  const state = context.connected ? 'online' : codexConnectState;
+  element.className = `chip ${state === 'online' ? 'chip-online' : state === 'failed' ? 'chip-failed' : 'chip-offline'}`;
+  setText(element, labels[state] ?? labels.idle);
+  element.title = `GUI event stream: ${eventStreamState}`;
+  const button = byId('connect');
+  button.disabled = state === 'online' || state === 'connecting' || state === 'retrying';
+  setText(button, state === 'failed' ? 'Codex再接続' : state === 'online' ? 'Codex接続済み' : 'Codex接続');
 }
 
 function renderHumanApproval() {
@@ -251,6 +329,39 @@ function renderReviews() {
   setText(byId('reviews'), reviews.length
     ? reviews.map((review, index) => `#${index + 1} ${review.at}\n${review.text}`).join('\n\n')
     : 'レビューはまだありません');
+}
+
+function renderChat() {
+  const log = byId('chat-log');
+  const stayAtBottom = log.scrollHeight - log.scrollTop - log.clientHeight < 72;
+  const previousScrollTop = log.scrollTop;
+  log.replaceChildren();
+  const entries = run?.chat ?? [];
+  if (!entries.length) {
+    log.append(createTextElement(document, 'p', 'chat-empty', '会話はまだありません。phaseを開始すると、送信内容とCodexの応答がここに表示されます。'));
+  }
+  for (const entry of entries) {
+    const safeRole = ['user', 'assistant', 'tool', 'system'].includes(entry.role) ? entry.role : 'system';
+    const article = document.createElement('article');
+    article.className = `chat-entry chat-role-${safeRole}`;
+    const header = document.createElement('header');
+    header.append(
+      createTextElement(document, 'strong', '', chatEntryHeading(entry)),
+      createTextElement(document, 'time', '', formatChatTime(entry.updatedAt ?? entry.createdAt)),
+    );
+    article.append(header);
+    if (entry.text) article.append(createTextElement(document, 'div', 'chat-text', entry.text));
+    if (entry.toolSummary) article.append(createTextElement(document, 'pre', 'chat-tool-summary', entry.toolSummary));
+    log.append(article);
+  }
+  if (stayAtBottom) log.scrollTop = log.scrollHeight;
+  else log.scrollTop = previousScrollTop;
+
+  const availability = chatAvailability(run, context.connected);
+  const status = byId('chat-availability');
+  status.className = `chip ${availability.enabled ? 'chip-online' : 'chip-offline'}`;
+  setText(status, availability.message);
+  byId('chat-send').disabled = !availability.enabled;
 }
 
 function renderGates() {
@@ -367,4 +478,13 @@ function truncate(value, limit) {
 
 function formatNumber(value) {
   return new Intl.NumberFormat('ja-JP').format(Number(value) || 0);
+}
+
+function formatChatTime(value) {
+  const date = new Date(value);
+  return Number.isNaN(date.valueOf()) ? '' : new Intl.DateTimeFormat('ja-JP', { hour: '2-digit', minute: '2-digit', second: '2-digit' }).format(date);
+}
+
+function delay(milliseconds) {
+  return new Promise((resolve) => setTimeout(resolve, milliseconds));
 }

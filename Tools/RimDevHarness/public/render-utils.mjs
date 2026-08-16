@@ -35,6 +35,46 @@ export function createTextElement(documentRef, tagName, className, value) {
   return setText(element, value);
 }
 
+export function chatAvailability(run, connected) {
+  if (!connected) return { enabled: false, phase: null, message: 'Codexへの接続を待っています' };
+  if (!run) return { enabled: false, phase: null, message: '開発runを作成してください' };
+  if (run.waitingFor?.type === 'app-server') {
+    return { enabled: false, phase: null, message: 'Codexの権限要求へ先に回答してください' };
+  }
+  const phase = chatPhase(run);
+  const runtime = phase ? run.phaseThreads?.[phase] : null;
+  if (!runtime?.threadId) return { enabled: false, phase, message: 'この段階には会話threadがありません' };
+  if (phase === 'review' && runtime.activeTurnId) {
+    return { enabled: false, phase, message: '独立レビュー実行中は追加入力できません' };
+  }
+  if (runtime.activeTurnId) return { enabled: true, phase, message: `${phase}の実行中turnへ追記できます` };
+  if (run.phaseGoals?.[phase]?.status === 'active') {
+    return { enabled: false, phase, message: 'goalの次turn開始を待っています' };
+  }
+  return { enabled: true, phase, message: `${phase}の同一threadで質問できます` };
+}
+
+export function chatEntryHeading(entry = {}) {
+  const role = entry.role === 'assistant'
+    ? 'Codex'
+    : entry.role === 'tool'
+      ? 'Tool'
+      : entry.role === 'system'
+        ? 'Harness'
+        : 'あなた';
+  return [role, entry.phase, entry.status].filter(Boolean).join(' · ');
+}
+
+function chatPhase(run) {
+  if (['planner', 'worker', 'review', 'repair'].includes(run.currentNode)) return run.currentNode;
+  return {
+    'approval-plan': 'planner',
+    validation: 'worker',
+    'approval-repair': 'review',
+    'final-validation': 'repair',
+  }[run.currentNode] ?? null;
+}
+
 function formatValue(value) {
   if (value == null) return '-';
   const text = typeof value === 'string' ? value : JSON.stringify(value);

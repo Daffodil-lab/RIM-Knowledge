@@ -29,6 +29,9 @@ test('HTTP surface protects mutations, serves a CSP-locked GUI, and runs the gat
   assert.equal(page.headers.get('x-content-type-options'), 'nosniff');
   assert.doesNotMatch(html, new RegExp(harness.token));
   assert.match(html, /RimWorld MOD 開発管制/);
+  const publicContext = await json(await get('/api/context'));
+  assert.equal(publicContext.instanceId, harness.instanceId);
+  assert.equal(publicContext.pid, process.pid);
   assert.equal((await get('/api/context', { Origin: 'https://evil.example' })).status, 403);
   assert.equal((await post('/api/runs', { objective: 'x' })).status, 401);
   assert.equal((await post('/api/anything', {}, auth)).status, 404);
@@ -121,6 +124,32 @@ test('HTTP surface protects mutations, serves a CSP-locked GUI, and runs the gat
   assert.equal((await post('/api/runs', huge, auth)).status, 413);
 });
 
+test('server-owned shutdown requires the session token and identifies the exact instance', async (context) => {
+  const repoRoot = await mkdtemp(path.join(tmpdir(), 'rim-harness-shutdown-'));
+  let shutdownCalls = 0;
+  const harness = createHarnessServer({
+    repoRoot,
+    appServer: new MockAppServer(),
+    shutdown: () => { shutdownCalls += 1; },
+  });
+  await listen(harness.server);
+  context.after(() => close(harness.server));
+  const origin = `http://127.0.0.1:${harness.server.address().port}`;
+  const post = (headers = {}) => fetch(`${origin}/api/shutdown`, {
+    method: 'POST',
+    headers: { 'Content-Type': 'application/json', ...headers },
+    body: '{}',
+  });
+
+  assert.equal((await post()).status, 401);
+  assert.equal(shutdownCalls, 0);
+  const response = await post({ 'X-Rim-Harness-Token': harness.token });
+  assert.equal(response.status, 200);
+  assert.deepEqual(await response.json(), { stopping: true, instanceId: harness.instanceId });
+  await tick();
+  assert.equal(shutdownCalls, 1);
+});
+
 test('missing required models fails explicitly instead of silently substituting', async (context) => {
   const repoRoot = await mkdtemp(path.join(tmpdir(), 'rim-harness-model-'));
   const codex = new MockAppServer({ includeLuna: false });
@@ -155,6 +184,195 @@ test('running agent turns can be explicitly interrupted', async (context) => {
   assert.equal(nodeStatus(stopped, 'planner'), 'stopped');
   assert.deepEqual(codex.find('thread/goal/set', -1).params, { threadId: running.phaseThreads.planner.threadId, status: 'paused' });
   assert.deepEqual(codex.find('turn/interrupt', -1).params, { threadId: running.phaseThreads.planner.threadId, turnId: 'actual-interrupt-turn' });
+});
+
+test('chat steers the exact active turn and records a bounded user message', async (context) => {
+  const repoRoot = await mkdtemp(path.join(tmpdir(), 'rim-harness-chat-steer-'));
+  const codex = new MockAppServer();
+  const harness = createHarnessServer({ repoRoot, appServer: codex });
+  await listen(harness.server);
+  context.after(() => close(harness.server));
+  const origin = `http://127.0.0.1:${harness.server.address().port}`;
+  const headers = { 'Content-Type': 'application/json', 'X-Rim-Harness-Token': harness.token };
+  const post = (url, body = {}) => fetch(`${origin}${url}`, { method: 'POST', headers, body: JSON.stringify(body) });
+
+  await post('/api/runs', { objective: 'chat steer' });
+  await post('/api/codex/connect');
+  const running = await json(await post('/api/actions/plan/start'));
+  const response = await json(await post('/api/actions/chat/send', { text: 'この条件を計画へ追加してください' }));
+
+  const steer = codex.find('turn/steer', -1);
+  assert.equal(steer.params.threadId, running.phaseThreads.planner.threadId);
+  assert.equal(steer.params.expectedTurnId, running.phaseThreads.planner.activeTurnId);
+  assert.equal(steer.params.input[0].text_elements.length, 0);
+  assert.equal(response.status, 'running');
+  assert.equal(response.chat.at(-1).text, 'この条件を計画へ追加してください');
+  assert.equal(response.chat.at(-1).status, 'sent');
+});
+
+test('idle chat follow-up reuses the phase thread and returns to the unchanged human gate', async (context) => {
+  const repoRoot = await mkdtemp(path.join(tmpdir(), 'rim-harness-chat-followup-'));
+  const codex = new MockAppServer();
+  const harness = createHarnessServer({ repoRoot, appServer: codex });
+  await listen(harness.server);
+  context.after(() => close(harness.server));
+  const origin = `http://127.0.0.1:${harness.server.address().port}`;
+  const headers = { 'Content-Type': 'application/json', 'X-Rim-Harness-Token': harness.token };
+  const post = (url, body = {}) => fetch(`${origin}${url}`, { method: 'POST', headers, body: JSON.stringify(body) });
+
+  await post('/api/runs', { objective: 'chat follow-up' });
+  await post('/api/codex/connect');
+  let run = await json(await post('/api/actions/plan/start'));
+  const plannerThread = run.phaseThreads.planner.threadId;
+  codex.completeGoal(plannerThread);
+  codex.complete(run.phaseThreads.planner.turnId, plannerThread, 'first plan');
+  await tick();
+
+  run = await json(await post('/api/actions/chat/send', { text: '停止条件をもう一度説明してください' }));
+  const followup = codex.find('turn/start', -1);
+  assert.equal(followup.params.threadId, plannerThread);
+  assert.equal(run.currentNode, 'planner');
+  assert.equal(nodeStatus(run, 'approval-plan'), 'waiting');
+  const followupTurnId = run.phaseThreads.planner.activeTurnId;
+  codex.completeItem(followupTurnId, plannerThread, 'clarified plan');
+  codex.complete(followupTurnId, plannerThread, 'clarified plan');
+  await tick();
+
+  run = await json(await fetch(`${origin}/api/runs/current`));
+  assert.equal(run.status, 'waiting-plan-approval');
+  assert.equal(run.currentNode, 'approval-plan');
+  assert.equal(run.waitingFor.kind, 'plan');
+  assert.equal(nodeStatus(run, 'approval-plan'), 'waiting');
+  assert.equal(run.phaseThreads.planner.threadId, plannerThread);
+  assert.equal(run.outputs.planner, 'first plan');
+  assert.equal(run.chat.some((entry) => entry.text === 'clarified plan' && entry.role === 'assistant'), true);
+});
+
+test('chat follow-up interrupt restores its gate when completion arrives before the interrupt response', async (context) => {
+  const repoRoot = await mkdtemp(path.join(tmpdir(), 'rim-harness-chat-interrupt-race-'));
+  const codex = new MockAppServer({ interruptCompletesBeforeResponse: true });
+  const harness = createHarnessServer({ repoRoot, appServer: codex });
+  await listen(harness.server);
+  context.after(() => close(harness.server));
+  const origin = `http://127.0.0.1:${harness.server.address().port}`;
+  const headers = { 'Content-Type': 'application/json', 'X-Rim-Harness-Token': harness.token };
+  const post = (url, body = {}) => fetch(`${origin}${url}`, { method: 'POST', headers, body: JSON.stringify(body) });
+
+  await post('/api/runs', { objective: 'chat interrupt race' });
+  await post('/api/codex/connect');
+  let run = await json(await post('/api/actions/plan/start'));
+  const plannerThread = run.phaseThreads.planner.threadId;
+  codex.completeGoal(plannerThread);
+  codex.complete(run.phaseThreads.planner.turnId, plannerThread, 'plan');
+  await tick();
+  run = await json(await post('/api/actions/chat/send', { text: '追加説明' }));
+  const followupTurnId = run.phaseThreads.planner.activeTurnId;
+  codex.agentDelta(followupTurnId, plannerThread, 'streaming answer');
+  await tick();
+  run = await json(await post('/api/actions/turn/interrupt'));
+
+  assert.equal(run.status, 'waiting-plan-approval');
+  assert.equal(run.currentNode, 'approval-plan');
+  assert.equal(run.waitingFor.kind, 'plan');
+  assert.equal(run.chat.find((entry) => entry.turnId === followupTurnId && entry.role === 'assistant').status, 'interrupted');
+});
+
+test('chat rejects unsafe states and validates payloads without exposing arbitrary RPC', async (context) => {
+  const repoRoot = await mkdtemp(path.join(tmpdir(), 'rim-harness-chat-guards-'));
+  const codex = new MockAppServer();
+  const harness = createHarnessServer({ repoRoot, appServer: codex });
+  await listen(harness.server);
+  context.after(() => close(harness.server));
+  const origin = `http://127.0.0.1:${harness.server.address().port}`;
+  const headers = { 'Content-Type': 'application/json', 'X-Rim-Harness-Token': harness.token };
+  const post = (url, body = {}) => fetch(`${origin}${url}`, { method: 'POST', headers, body: JSON.stringify(body) });
+
+  await post('/api/runs', { objective: 'chat guards' });
+  await post('/api/codex/connect');
+  assert.equal((await post('/api/actions/chat/send', { text: '' })).status, 400);
+  assert.equal((await post('/api/actions/chat/send', { text: { unsafe: true } })).status, 400);
+  assert.equal((await post('/api/actions/chat/send', { text: 'x'.repeat(4_001) })).status, 400);
+  assert.equal((await post('/api/actions/chat/send', { text: 'x', clientUserMessageId: {} })).status, 400);
+  assert.equal((await post('/api/actions/codex/request', { method: 'fs/remove' })).status, 404);
+
+  let run = await json(await post('/api/actions/plan/start'));
+  const threadId = run.phaseThreads.planner.threadId;
+  codex.complete(run.phaseThreads.planner.turnId, threadId, 'waiting for goal');
+  await tick();
+  assert.equal((await post('/api/actions/chat/send', { text: 'unsafe gap' })).status, 409);
+
+  codex.startTurn(threadId, 'approval-active-turn');
+  codex.approval(199, threadId, 'approval-active-turn');
+  await tick();
+  assert.equal((await post('/api/actions/chat/send', { text: 'approval pending' })).status, 409);
+  assert.equal((await post('/api/actions/approval/respond', { requestId: 198, decision: 'accept' })).status, 400);
+  assert.equal(codex.lastApproval, undefined);
+  run = await json(await fetch(`${origin}/api/runs/current`));
+  assert.equal(run.waitingFor.requestId, 199);
+});
+
+test('concurrent Codex connect requests share one server-side initialization', async (context) => {
+  const repoRoot = await mkdtemp(path.join(tmpdir(), 'rim-harness-connect-mutex-'));
+  const codex = new MockAppServer({ initializeDelayMs: 30 });
+  const harness = createHarnessServer({ repoRoot, appServer: codex });
+  await listen(harness.server);
+  context.after(() => close(harness.server));
+  const origin = `http://127.0.0.1:${harness.server.address().port}`;
+  const headers = { 'Content-Type': 'application/json', 'X-Rim-Harness-Token': harness.token };
+  const connect = () => fetch(`${origin}/api/codex/connect`, { method: 'POST', headers, body: '{}' });
+
+  const responses = await Promise.all([connect(), connect(), connect()]);
+  assert.deepEqual(responses.map((response) => response.status), [200, 200, 200]);
+  assert.equal(codex.startCalls, 1);
+  assert.equal(codex.initializeCalls, 1);
+  assert.equal(codex.requests.filter((request) => request.method === 'model/list').length, 1);
+});
+
+test('active independent review cannot be steered by chat', async (context) => {
+  const repoRoot = await mkdtemp(path.join(tmpdir(), 'rim-harness-chat-review-'));
+  const codex = new MockAppServer();
+  const harness = createHarnessServer({ repoRoot, appServer: codex });
+  await listen(harness.server);
+  context.after(() => close(harness.server));
+  const origin = `http://127.0.0.1:${harness.server.address().port}`;
+  const headers = { 'Content-Type': 'application/json', 'X-Rim-Harness-Token': harness.token };
+  const post = (url, body = {}) => fetch(`${origin}${url}`, { method: 'POST', headers, body: JSON.stringify(body) });
+
+  await post('/api/runs', { objective: 'review chat guard' });
+  await post('/api/codex/connect');
+  let run = await json(await post('/api/actions/plan/start'));
+  codex.completeGoal(run.phaseThreads.planner.threadId);
+  codex.complete(run.phaseThreads.planner.turnId, run.phaseThreads.planner.threadId, 'plan');
+  await tick();
+  await post('/api/actions/plan/approve');
+  run = await json(await post('/api/actions/implement/start'));
+  codex.completeGoal(run.phaseThreads.worker.threadId);
+  codex.complete(run.phaseThreads.worker.turnId, run.phaseThreads.worker.threadId, 'implementation');
+  await tick();
+  await post('/api/actions/validation/record', { outcome: 'pass', evidence: 'test evidence' });
+  run = await json(await post('/api/actions/review/start'));
+  assert.equal(run.currentNode, 'review');
+  assert.equal((await post('/api/actions/chat/send', { text: 'reviewへ割り込む' })).status, 409);
+  assert.equal(codex.requests.filter((request) => request.method === 'turn/steer').length, 0);
+});
+
+test('failed chat transport is persisted once and is never automatically retried', async (context) => {
+  const repoRoot = await mkdtemp(path.join(tmpdir(), 'rim-harness-chat-failure-'));
+  const codex = new MockAppServer({ steerFails: true });
+  const harness = createHarnessServer({ repoRoot, appServer: codex });
+  await listen(harness.server);
+  context.after(() => close(harness.server));
+  const origin = `http://127.0.0.1:${harness.server.address().port}`;
+  const headers = { 'Content-Type': 'application/json', 'X-Rim-Harness-Token': harness.token };
+  const post = (url, body = {}) => fetch(`${origin}${url}`, { method: 'POST', headers, body: JSON.stringify(body) });
+
+  await post('/api/runs', { objective: 'chat failure' });
+  await post('/api/codex/connect');
+  await post('/api/actions/plan/start');
+  assert.equal((await post('/api/actions/chat/send', { text: 'send once' })).status, 400);
+  const run = await json(await fetch(`${origin}/api/runs/current`));
+  assert.equal(run.chat.at(-1).status, 'failed');
+  assert.equal(codex.requests.filter((request) => request.method === 'turn/steer').length, 1);
 });
 
 test('canceling an app approval also pauses the goal and stops the current turn', async (context) => {
@@ -265,12 +483,16 @@ test('UTF-8 JSON remains valid when a Japanese character is split across HTTP ch
 });
 
 class MockAppServer extends EventEmitter {
-  constructor({ includeLuna = true, interruptCompletesBeforeResponse = false, turnStartFailsAfterStarted = false, approvalWriteFails = false } = {}) {
+  constructor({ includeLuna = true, interruptCompletesBeforeResponse = false, turnStartFailsAfterStarted = false, approvalWriteFails = false, steerFails = false, initializeDelayMs = 0 } = {}) {
     super();
     this.includeLuna = includeLuna;
     this.interruptCompletesBeforeResponse = interruptCompletesBeforeResponse;
     this.turnStartFailsAfterStarted = turnStartFailsAfterStarted;
     this.approvalWriteFails = approvalWriteFails;
+    this.steerFails = steerFails;
+    this.initializeDelayMs = initializeDelayMs;
+    this.startCalls = 0;
+    this.initializeCalls = 0;
     this.child = null;
     this.initialized = false;
     this.requests = [];
@@ -280,11 +502,14 @@ class MockAppServer extends EventEmitter {
   }
 
   start() {
+    this.startCalls += 1;
     this.child = {};
     return this;
   }
 
   async initialize() {
+    this.initializeCalls += 1;
+    if (this.initializeDelayMs) await new Promise((resolve) => setTimeout(resolve, this.initializeDelayMs));
     this.initialized = true;
     return { ok: true };
   }
@@ -318,6 +543,7 @@ class MockAppServer extends EventEmitter {
       throw new Error('simulated turn/start response failure');
     }
     if (method === 'turn/start') return { turn: { id: `turn-${++this.turnIndex}`, status: 'inProgress', items: [] } };
+    if (method === 'turn/steer' && this.steerFails) throw new Error('simulated turn/steer failure');
     if (method === 'review/start') return { reviewThreadId: params.threadId, turn: { id: `turn-${++this.turnIndex}`, status: 'inProgress', items: [] } };
     if (method === 'turn/interrupt' && this.interruptCompletesBeforeResponse) {
       this.emit('event', {
@@ -342,6 +568,20 @@ class MockAppServer extends EventEmitter {
     this.emit('event', {
       method: 'turn/completed',
       params: { threadId, turn: { id: turnId, status: 'completed', items: [{ id: `item-${turnId}`, type: 'agentMessage', text }] } },
+    });
+  }
+
+  completeItem(turnId, threadId, text) {
+    this.emit('event', {
+      method: 'item/completed',
+      params: { threadId, turnId, item: { id: `item-${turnId}`, type: 'agentMessage', text } },
+    });
+  }
+
+  agentDelta(turnId, threadId, delta) {
+    this.emit('event', {
+      method: 'item/agentMessage/delta',
+      params: { threadId, turnId, itemId: `stream-${turnId}`, delta },
     });
   }
 
