@@ -1,0 +1,86 @@
+# シオン 04
+
+範囲: KX-002 引渡し後の二重所有〜1. 権威と責務
+
+## 項目
+
+- [KX-002 引渡し後の二重所有](/kombinat/audit/kx-002-%E5%BC%95%E6%B8%A1%E3%81%97%E5%BE%8C%E3%81%AE%E4%BA%8C%E9%87%8D%E6%89%80%E6%9C%89.md) — 再現: Storage生産Commitの直後に例外が起き、同じOperation IDが再送される。 【所属MOD: シオン】
+- [KX-003 Network在庫の過剰約束](/kombinat/audit/kx-003-%E5%9C%A8%E5%BA%AB%E3%81%AE%E9%81%8E%E5%89%B0%E7%B4%84%E6%9D%9F.md) — 再現: Plannerが表示在庫を予約確定前に利用可能量へ算入し、二Jobへ同じ材料を約束する。 【所属MOD: シオン】
+- [KX-004 出力容量予約不能](/kombinat/audit/kx-004-%E5%87%BA%E5%8A%9B%E5%AE%B9%E9%87%8F%E4%BA%88%E7%B4%84%E4%B8%8D%E8%83%BD.md) — 再現: 納入先Storageに全出力を置ける容量がない状態で次Batchを開始する。 【所属MOD: シオン】
+- [KX-005 取消競合](/kombinat/audit/kx-005-%E5%8F%96%E6%B6%88%E7%AB%B6%E5%90%88.md) — 再現: Playerが取消、再注文、優先度変更を連打し、同時にIOが材料を搬入する。 【所属MOD: シオン】
+- [KX-006 Recipe副作用](/kombinat/audit/kx-006-%E5%89%AF%E4%BD%9C%E7%94%A8.md) — 再現: 外部Recipeを無人Factoryへ自動登録する。 【所属MOD: シオン】
+- [KX-007 通貨二重決済](/kombinat/audit/kx-007-%E9%80%9A%E8%B2%A8%E4%BA%8C%E9%87%8D%E6%B1%BA%E6%B8%88.md) — 再現: 支払確定後、報酬受取前に保存・ロードまたはUI再送する。 【所属MOD: シオン】
+- [KX-008 初期化二重適用](/kombinat/audit/kx-008-%E5%88%9D%E6%9C%9F%E5%8C%96%E4%BA%8C%E9%87%8D%E9%81%A9%E7%94%A8.md) — 再現: 独立開拓団開始中に例外または途中ロードを起こす。 【所属MOD: シオン】
+- [0. 結論](/kombinat/core/00-%E7%B5%90%E8%AB%96.md) — Kombinatは発注、設備能力、生産進捗、消費表示、流通目標、非貨幣の同盟Credit Accountを所有し、物理ThingをCore Storageへ一元化する。 【所属MOD: シオン】
+- [1. 製品境界](/kombinat/core/01-%E8%A3%BD%E5%93%81%E5%A2%83%E7%95%8C.md) — Kombinatはα版からCore独自保管・接続システムの公開入出庫境界へ接続し、保管内部を所有しない。 【所属MOD: シオン】
+- [2. 実装状態の参照](/kombinat/core/02-%E7%8A%B6%E6%85%8B%E5%88%86%E9%A1%9E.md) — Kombinatの実装状態はリリース計画の現在地が所有し、本節は中核仕様からその正本を参照する。 【所属MOD: シオン】
+- [3. 物理Thingと非物理台帳](/kombinat/core/03-%E7%89%A9%E7%90%86Thing%E3%81%A8%E9%80%9A%E8%B2%A8.md) — 物理材料と製品は実在するRimWorld Thingであり、同盟Credit、カエルムMark、債務、租税は意味と所有者を分けた非物理Account／Ledgerとして保存する。 【所属MOD: シオン】
+- [4. Kombinat追加層の中核型](/kombinat/core/04-Kombinat%E8%BF%BD%E5%8A%A0%E5%B1%A4%E3%81%AE%E4%B8%AD%E6%A0%B8%E5%9E%8B.md) — KombinatはCore独自保管・接続システムに属する保管基盤型を再実装しない。 【所属MOD: シオン】
+- [5. 発注と多段生産](/kombinat/core/05-%E7%99%BA%E6%B3%A8%E3%81%A8%E5%A4%9A%E6%AE%B5%E7%94%9F%E7%94%A3.md) — αの発注は具体的なThingDef、Recipe、数量または目標在庫を基本とする。 【所属MOD: シオン】
+- [6. 無人生産](/kombinat/core/06-%E7%84%A1%E4%BA%BA%E7%94%9F%E7%94%A3.md) — Kombinat専用FactoryとKombinat専用Patternは、Pawnがいなくても電力、材料、設備状態を満たせば稼働できる。 【所属MOD: シオン】
+- [7. 保管中の時間進行](/kombinat/core/07-Stasis-%E4%BF%9D%E7%AE%A1%E4%B8%AD%E3%81%AE%E6%99%82%E9%96%93%E9%80%B2%E8%A1%8C.md) — 保管中の時間進行方針はCore独自Storageが対象別に所有し、Kombinatはその判定を維持する。 【所属MOD: シオン】
+- [8. 消費と流通](/kombinat/core/08-%E6%B6%88%E8%B2%BB%E3%81%A8%E6%B5%81%E9%80%9A.md) — Kombinatは接続先保管基盤の内部消費を無断で監視せず、公開された観測境界だけを使う。 【所属MOD: シオン】
+- [9. UI](/kombinat/core/09-UI-%E6%93%8D%E4%BD%9C%E7%94%BB%E9%9D%A2.md) — Field Ledger Terminalを選択して全機能へ入る暗色のRimWorld管理Windowを基準とし、通常表示と最大化表示を同じDef駆動Page railで提供する。 【所属MOD: シオン】
+- [10. 保存と原子性](/kombinat/core/10-%E4%BF%9D%E5%AD%98%E3%81%A8%E5%8E%9F%E5%AD%90%E6%80%A7.md) — Kombinatは次だけを保存するという方針の適用範囲と条件を定める。 【所属MOD: シオン】
+- [11. 欠陥の所有と切り分け](/kombinat/core/11-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E3%81%AE%E6%89%B1%E3%81%84.md) — Core StorageとKombinatの欠陥は再現条件と取引所有者から切り分け、各所有者のRelease Gateへ登録する。 【所属MOD: シオン】
+- [12. α完成条件](/kombinat/core/12-%CE%B1%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Kombinat αはShion種族実装に先行し、バニラHumanのfixtureでThingOwner間の直接転送、三段生産、任意排出を成立させる。 【所属MOD: シオン】
+- [13. β](/kombinat/core/13-%CE%B2-%E7%8F%BE%E8%A1%8C%E4%BB%95%E6%A7%98.md) — Equipment Familyは作者が明示登録した候補だけを使う。 【所属MOD: シオン】
+- [14. 実装順](/kombinat/core/14-%E5%AE%9F%E8%A3%85%E9%A0%86.md) — 工業UIのRimWorld 1.6画面契約を先に固定し、Shion種族に先行してCore独自保管・接続システムとKombinatをバニラHumanのfixtureで完成させる。 【所属MOD: シオン】
+- [1. 適用範囲](/kombinat/requirements/01-%E9%81%A9%E7%94%A8%E7%AF%84%E5%9B%B2.md) — 本書はKombinatが独自実装する発注、多段生産、設備能力、消費表示、流通目標、非貨幣の同盟Credit Accountを扱う。 【所属MOD: シオン】
+- [A. 三段生産](/kombinat/requirements/044-A-%E4%B8%89%E6%AE%B5%E7%94%9F%E7%94%A3.md) — A. 三段生産は、Core Storage上の材料と出力容量を工程ごとに予約してCommitする。 【所属MOD: シオン】
+- [B. 材料不足](/kombinat/requirements/045-B-%E6%9D%90%E6%96%99%E4%B8%8D%E8%B6%B3.md) — 材料不足をNetwork在庫0と断定せず、Factoryへの搬入待ちとして表示する。 【所属MOD: シオン】
+- [C. 停電](/kombinat/requirements/046-C-%E5%81%9C%E9%9B%BB.md) — Factory停止中に入力、進捗、出力を複製・消失させず、復電後に再検証する。 【所属MOD: シオン】
+- [D. 出力満杯](/kombinat/requirements/047-D-%E5%87%BA%E5%8A%9B%E6%BA%80%E6%9D%AF.md) — 納入先Storageの出力容量を予約できない時は次Batchを開始せず、既存在庫を変更しない。 【所属MOD: シオン】
+- [E. 取消](/kombinat/requirements/048-E-%E5%8F%96%E6%B6%88.md) — 開始前、入力受領後、処理中、出力待ちの各段階で取消規則を確認する。 【所属MOD: シオン】
+- [F. 保存往復](/kombinat/requirements/049-F-%E4%BF%9D%E5%AD%98%E5%BE%80%E5%BE%A9.md) — 全Job状態と通貨Transaction途中で保存・ロードし、二重実行しない。 【所属MOD: シオン】
+- [G. 保管基盤不在](/kombinat/requirements/050-G-%E4%B8%8A%E6%B5%81%E4%B8%8D%E5%9C%A8.md) — Core独自保管基盤が欠落または不整合なら生産接続を停止し、保存状態を破壊的に初期化しない。 【所属MOD: シオン】
+- [H. 保管基盤欠陥分離](/kombinat/requirements/051-H-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E5%88%86%E9%9B%A2.md) — Core独自保管基盤単体の問題とKombinat接続の問題を再現条件で分離する。 【所属MOD: シオン】
+- [I. 保管中の時間進行](/kombinat/requirements/052-I-Stasis-%E4%BF%9D%E7%AE%A1%E4%B8%AD%E3%81%AE%E6%99%82%E9%96%93%E9%80%B2%E8%A1%8C.md) — Core独自Storageが定めた対象別時間進行方針を、Kombinatが上書きしない。 【所属MOD: シオン】
+- [J. Creditと関連台帳](/kombinat/requirements/053-J-%E9%80%9A%E8%B2%A8.md) — Credit、Mark、債務、租税、Thing受渡しの初期化と原子的Transactionが、連打と保存往復でも一致する。 【所属MOD: シオン】
+- [12. α Release Gate](/kombinat/requirements/12-%CE%B1-Release-Gate-%E5%85%AC%E9%96%8B%E5%88%A4%E5%AE%9A.md) — α版はCore独自保管基盤との直接受渡し、三段生産、任意排出、保存・復旧をRelease Gateへ含める。 【所属MOD: シオン】
+- [13. β境界](/kombinat/requirements/13-%CE%B2%E5%A2%83%E7%95%8C.md) — β境界は、Pawn Foundry要求とEquipment Familyを扱う。 【所属MOD: シオン】
+- [CON-001 観測範囲](/kombinat/requirements/con-001-%E8%A6%B3%E6%B8%AC%E7%AF%84%E5%9B%B2.md) — MUST: Kombinat自身のBuffer、Factory、Core API、正式な上流APIから得たeventだけを消費集計へ使う。 【所属MOD: シオン】
+- [CON-002 不明表示](/kombinat/requirements/con-002-%E4%B8%8D%E6%98%8E%E8%A1%A8%E7%A4%BA.md) — MUST: Core Storageの公開eventで観測できない消費範囲を不明として明示する。 【所属MOD: シオン】
+- [CON-003 流通目標](/kombinat/requirements/con-003-%E6%B5%81%E9%80%9A%E7%9B%AE%E6%A8%99.md) — MUST: Storage在庫とFacility需要について最低量、目標量、優先度を設定できる。 【所属MOD: シオン】
+- [CON-004 上流設定](/kombinat/requirements/con-004-%E4%B8%8A%E6%B5%81%E8%A8%AD%E5%AE%9A.md) — MUST: Core StorageのFilter、容量、Endpoint設定はCoreの公開契約で所有する。 【所属MOD: シオン】
+- [CUR-001 Account](/kombinat/requirements/cur-001-%E8%A6%81%E4%BB%B6.md) — MUST: 同盟Creditを非貨幣の認可Accountとして保存し、カエルムMark、債務、租税のLedgerおよび物理Thing在庫から分離する。 【所属MOD: シオン】
+- [CUR-002 Transaction](/kombinat/requirements/cur-002-%E8%A6%81%E4%BB%B6.md) — MUST: Credit認定・予約・使用・返還と、Mark決済、債務返済、租税徴収、Thing受渡しはidempotency keyを持ち、全部成功または全部失敗する。 【所属MOD: シオン】
+- [CUR-003 台帳値のRecipe生成禁止](/kombinat/requirements/cur-003-%E7%A6%81%E6%AD%A2.md) — MUST: 同盟Credit、カエルムMark、債務、租税を通常工業Recipeで生成または消去しない。 【所属MOD: シオン】
+- [CUR-004 初期化](/kombinat/requirements/cur-004-%E5%88%9D%E6%9C%9F%E5%8C%96.md) — MUST: 開始時にProfileが宣言したCredit Accountと任意のMark・債務・租税Ledgerを一回だけ原子的に初期化する。 【所属MOD: シオン】
+- [CUR-005 所在と資産価値](/kombinat/requirements/cur-005-%E6%89%80%E5%9C%A8.md) — MUST: 非物理Account／Ledgerを組織単位のWorld状態として保存し、資産価値へ算入せず、複数Mapから同じIDで参照する。 【所属MOD: シオン】
+- [INT-001 無改造](/kombinat/requirements/int-001-%E7%84%A1%E6%94%B9%E9%80%A0.md) — MUST: KombinatはCore独自保管基盤のprivate状態を変更または参照せず、公開Application境界だけを使う。 【所属MOD: シオン】
+- [INT-002 通常経路](/kombinat/requirements/int-002-%E9%80%9A%E5%B8%B8%E7%B5%8C%E8%B7%AF.md) — MUST: 物理Thingの受渡しにはCore独自基盤が公開する予約・commit・release契約だけを使う。 【所属MOD: シオン】
+- [INT-003 Storage予約](/kombinat/requirements/int-003-%E4%BA%88%E7%B4%84.md) — MUST: Kombinatが工程へ算入できるのは、Core StorageがThing IDと数量で予約した入力だけである。 【所属MOD: シオン】
+- [INT-004 引渡し](/kombinat/requirements/int-004-%E5%BC%95%E6%B8%A1%E3%81%97.md) — MUST: 生産出力はCore Storageへ直接生成し、Kombinat側の所有Thingを作らない。 【所属MOD: シオン】
+- [INT-005 接続不能](/kombinat/requirements/int-005-%E6%8E%A5%E7%B6%9A%E4%B8%8D%E8%83%BD.md) — MUST: Core独自Storageから供給または回収できない場合、Jobを転送待ちへ置く。 【所属MOD: シオン】
+- [INT-006 上流欠陥](/kombinat/requirements/int-006-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5.md) — MUST: Core独自保管基盤単体で再現する問題と、Kombinat接続だけで再現する問題を分離する。 【所属MOD: シオン】
+- [PERF-001 Event駆動](/kombinat/requirements/perf-001-%E9%A7%86%E5%8B%95.md) — MUST: Queue、Factory、Buffer、Accountの変化をeventで処理し、定常処理を索引と有界Queueから実行する。 【所属MOD: シオン】
+- [PERF-002 Planner](/kombinat/requirements/perf-002-%E8%A6%81%E4%BB%B6.md) — MUST: 一Planを最大200 node、100 ms以内、または一frame 4 ms以下の分割処理で終える暫定目標を持つ。 【所属MOD: シオン】
+- [PERF-003 長期](/kombinat/requirements/perf-003-%E9%95%B7%E6%9C%9F.md) — MUST: 60,000 tickの連続生産で、StorageのThing差分0、予約漏れ0、二重完了0、未回収終端処理0を確認する。 【所属MOD: シオン】
+- [PERF-004 保存](/kombinat/requirements/perf-004-%E4%BF%9D%E5%AD%98.md) — MUST: 500 Job、2,000 Batch履歴、10,000 Buffer Thingの保存・ロード時間、ファイル増分、GC allocationを記録する。 【所属MOD: シオン】
+- [PRD-001 定義](/kombinat/requirements/prd-001-%E5%AE%9A%E7%BE%A9.md) — MUST: Production Patternは次を持つ。 【所属MOD: シオン】
+- [PRD-002 入力Role](/kombinat/requirements/prd-002-%E5%85%A5%E5%8A%9B.md) — MUST: Consume、LockAndReturn、TransformAndReturn、ContainerReturnを区別する。 【所属MOD: シオン】
+- [PRD-003 Recipe分類](/kombinat/requirements/prd-003-%E5%88%86%E9%A1%9E.md) — MUST: RecipeをKombinat Automated、Vanilla Work Required、Official Adapter Required、Unsupportedへ分類する。 【所属MOD: シオン】
+- [PRD-004 Request](/kombinat/requirements/prd-004-%E8%A6%81%E4%BB%B6.md) — MUST: 具体ThingDef、Recipe、数量または目標在庫、優先度、出力先を指定できる。 【所属MOD: シオン】
+- [PRD-005 Plan](/kombinat/requirements/prd-005-%E8%A6%81%E4%BB%B6.md) — MUST: Recipe依存を有界DAGへ展開し、循環を検出する。 【所属MOD: シオン】
+- [PRD-006 複数経路](/kombinat/requirements/prd-006-%E8%A4%87%E6%95%B0%E7%B5%8C%E8%B7%AF.md) — MUST: 同じ出力を作れる複数Patternがある場合、作者優先度、完成可能性、設備、概算時間、stable IDの決定順を使う。 【所属MOD: シオン】
+- [PRD-007 Job](/kombinat/requirements/prd-007-%E8%A6%81%E4%BB%B6.md) — MUST: 承認済みPlanをJobとして保存し、Pattern version、選んだRecipe、入力条件、出力条件を固定する。 【所属MOD: シオン】
+- [PRD-008 Batch](/kombinat/requirements/prd-008-%E8%A6%81%E4%BB%B6.md) — MUST: 一Batchの全入力Thingと出力容量がCore Storageで予約され、設備が利用可能な時だけ開始する。 【所属MOD: シオン】
+- [PRD-009 Output Claim](/kombinat/requirements/prd-009-%E8%A6%81%E4%BB%B6.md) — MUST: 同じThingDefがどこかへ出現しただけでBatchを完了しない。 【所属MOD: シオン】
+- [PRD-010 中間品](/kombinat/requirements/prd-010-%E4%B8%AD%E9%96%93%E5%93%81.md) — MUST: 中間品をCore Storageへ直接Commitし、後段工程がThing単位で予約する。 【所属MOD: シオン】
+- [PRD-011 副産物](/kombinat/requirements/prd-011-%E5%89%AF%E7%94%A3%E7%89%A9.md) — MUST: 副産物の出力容量を開始前に確認し、満杯なら開始しない。 【所属MOD: シオン】
+- [PRD-012 取消](/kombinat/requirements/prd-012-%E5%8F%96%E6%B6%88.md) — MUST: 取消時は未Commitの入力予約、出力容量予約、通貨予約、設備割当を解放する。 【所属MOD: シオン】
+- [PRD-013 再計画](/kombinat/requirements/prd-013-%E5%86%8D%E8%A8%88%E7%94%BB.md) — MUST: 未開始Batchだけを再計画する、またcommit済みBatchを巻き戻さない。 【所属MOD: シオン】
+- [SAV-001 状態](/kombinat/requirements/sav-001-%E7%8A%B6%E6%85%8B.md) — MUST: Request、Pattern version、Plan summary、Job、Batch、Buffer、Output Claim、Account、Transaction、Consumption aggregateを保存する。 【所属MOD: シオン】
+- [SAV-002 非複製](/kombinat/requirements/sav-002-%E9%9D%9E%E8%A4%87%E8%A3%BD.md) — MUST: KombinatセーブはKombinat固有状態とCore取引参照だけを保持する。 【所属MOD: シオン】
+- [SAV-003 途中保存](/kombinat/requirements/sav-003-%E9%80%94%E4%B8%AD%E4%BF%9D%E5%AD%98.md) — MUST: 材料待ち、入力予約後、処理中、出力容量待ち、Commit前後、通貨保留中に保存・ロードできる。 【所属MOD: シオン】
+- [SAV-004 同一ビルド](/kombinat/requirements/sav-004-%E5%90%8C%E4%B8%80%E3%83%93%E3%83%AB%E3%83%89.md) — MUST: α／βでは同一ビルドの保存往復を保証する。 【所属MOD: シオン】
+- [STA-001 意図した仕様](/kombinat/requirements/sta-001-%E6%84%8F%E5%9B%B3%E3%81%97%E3%81%9F%E4%BB%95%E6%A7%98.md) — MUST: Core独自Storage内の腐敗、温度、Thing Tick、Comp Tick、充放電、孵化等の時間進行方針を明示する。 【所属MOD: シオン】
+- [STA-002 追加制限禁止](/kombinat/requirements/sta-002-%E8%BF%BD%E5%8A%A0%E5%88%B6%E9%99%90%E7%A6%81%E6%AD%A2.md) — MUST: Stasisによる時間停止だけを理由に、Kombinatから追加費用、危険分類、入庫拒否を行わない。 【所属MOD: シオン】
+- [STA-003 工場内在庫禁止](/kombinat/requirements/sta-003-%E5%B7%A5%E5%A0%B4%E5%86%85%E5%9C%A8%E5%BA%AB%E7%A6%81%E6%AD%A2.md) — MUST: Kombinat Factoryは生産用ThingOwnerを持たず、材料、中間品、完成品をCore Storageへ一元化する。 【所属MOD: シオン】
+- [UX-001 発注](/kombinat/requirements/ux-001-%E7%99%BA%E6%B3%A8.md) — MUST: 品目、数量または目標在庫、優先度だけで基本発注を作れる。 【所属MOD: シオン】
+- [UX-002 見積り](/kombinat/requirements/ux-002-%E8%A6%8B%E7%A9%8D%E3%82%8A.md) — MUST: 確定前に、必要材料、Storage利用可能量、予約済み、中間品、設備、出力容量、概算時間を表示する。 【所属MOD: シオン】
+- [UX-003 状態語](/kombinat/requirements/ux-003-%E7%8A%B6%E6%85%8B%E8%AA%9E.md) — MUST: 少なくとも次を区別するという方針の適用範囲と条件を定める。 【所属MOD: シオン】
+- [UX-004 上流UIの尊重](/kombinat/requirements/ux-004-%E4%B8%8A%E6%B5%81-%E3%81%AE%E5%B0%8A%E9%87%8D.md) — MUST: Storage、Filter、Endpoint、Network設定はCore独自基盤のUI責務とし、Kombinat内部へ複製しない。 【所属MOD: シオン】
+- [0. 結論](/pawn/00-%E7%B5%90%E8%AB%96.md) — β版では、シオンPawnを必要に応じて設計、生産、配備、無料保管、修復、回収、再生産できなければならない。 【所属MOD: シオン】
+- [1. 権威と責務](/pawn/01-%E6%A8%A9%E5%A8%81%E3%81%A8%E8%B2%AC%E5%8B%99.md) — Pawnの生成、人格・身体構成、登録、保管、死亡後削除、再実体化、Cloneについて矛盾がある場合、次の順を用いる。 【所属MOD: シオン】

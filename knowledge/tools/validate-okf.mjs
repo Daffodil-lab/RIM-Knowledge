@@ -6,6 +6,10 @@ import {
   TOPICAL_TAGS,
   descriptionProblems,
   parseFrontmatter as parseOkfFrontmatter,
+  PROJECT_SCOPE_VALUES,
+  loadProjectScopeOverrides,
+  readConcepts,
+  resolveProjectScope,
 } from "./lib/okf-utils.mjs";
 
 const ROOT = process.cwd();
@@ -66,6 +70,80 @@ function resolveLink(file, rawTarget) {
 if (!fs.existsSync(BUNDLE)) {
   console.error("knowledge/ does not exist. Restore the canonical knowledge bundle before validation.");
   process.exit(1);
+}
+
+let projectScopeOverrides = {};
+try {
+  projectScopeOverrides = loadProjectScopeOverrides(BUNDLE);
+} catch (error) {
+  errors.push(`project-scope overrides: ${error.message}`);
+}
+const scopeRecords = readConcepts(BUNDLE);
+const scopePaths = new Set(scopeRecords.map((record) => record.relative));
+for (const [relative, scope] of Object.entries(projectScopeOverrides)) {
+  if (!scopePaths.has(relative)) errors.push(`project-scope override points to missing concept: ${relative}`);
+  if (!PROJECT_SCOPE_VALUES.includes(scope)) errors.push(`project-scope override has invalid value: ${relative}=${scope}`);
+}
+const scopeCounts = new Map(PROJECT_SCOPE_VALUES.map((scope) => [scope, 0]));
+for (const record of scopeRecords) {
+  const resolution = resolveProjectScope(record, projectScopeOverrides);
+  if (!resolution.scope || !PROJECT_SCOPE_VALUES.includes(resolution.scope)) {
+    errors.push(`project_scope unresolved or invalid: ${record.relative} (${resolution.reason})`);
+  } else {
+    scopeCounts.set(resolution.scope, scopeCounts.get(resolution.scope) + 1);
+  }
+}
+for (const [relative, expected] of Object.entries({
+  "world/46-カエラヴィ.md": "caelavi",
+  "world/49-帝鷲系.md": "caelavi",
+  "world/58-カエルムの対同盟債務.md": "caelavi",
+  "world/59-カエルムの戦争依存経済.md": "caelavi",
+  "world/60-カエラヴィ個人債務.md": "caelavi",
+  "world/72-カエラヴィ民族主義.md": "caelavi",
+  "world/73-総力進化戦争論.md": "caelavi",
+  "design/59-バニラ優先カエラヴィ種族実装境界.md": "caelavi",
+  "design/60-カエラヴィ標準身体の実装仕様.md": "caelavi",
+  "world/55-カエルムと同盟の初期協定.md": "shared",
+  "world/67-CreditとMarkの二国間清算.md": "shared",
+  "design/67-Mark・Credit・債務・税のWorld台帳.md": "caelavi",
+  "world/03-シオンという人類.md": "shion",
+  "design/52-バニラ優先Shion種族実装境界.md": "shion",
+  "kombinat/core/12-α完成条件.md": "shion",
+})) {
+  const record = scopeRecords.find((candidate) => candidate.relative === relative);
+  if (!record) errors.push(`project_scope representative missing: ${relative}`);
+  else if (resolveProjectScope(record, projectScopeOverrides).scope !== expected) {
+    errors.push(`project_scope representative mismatch: ${relative}`);
+  }
+}
+
+const backstoryScopeRecords = scopeRecords.filter((record) => record.type === "Backstory Record");
+if (backstoryScopeRecords.length !== 838) {
+  errors.push(`project_scope backstory count is ${backstoryScopeRecords.length}; expected 838`);
+}
+const backstoryScopeCounts = new Map(PROJECT_SCOPE_VALUES.map((scope) => [scope, 0]));
+for (const record of backstoryScopeRecords) {
+  const scope = resolveProjectScope(record, projectScopeOverrides).scope;
+  if (scope) backstoryScopeCounts.set(scope, backstoryScopeCounts.get(scope) + 1);
+}
+if ([...backstoryScopeCounts.values()].reduce((sum, count) => sum + count, 0) !== backstoryScopeRecords.length) {
+  errors.push("project_scope backstory scope totals do not equal backstory count");
+}
+const c001 = backstoryScopeRecords.find((record) => /\/SHION_C001\.md$/.test(record.relative));
+if (!c001 || resolveProjectScope(c001, projectScopeOverrides).scope !== "shion") {
+  errors.push("project_scope backstory representative SHION_C001 must be shion");
+}
+const backstoryNavigation = path.join(BUNDLE, "navigation", "backstories", "project-scope");
+for (const scope of PROJECT_SCOPE_VALUES) {
+  if (!fs.existsSync(path.join(backstoryNavigation, scope, "index.md"))) {
+    errors.push(`missing backstory project_scope entry page: ${scope}`);
+  }
+}
+if (fs.existsSync(backstoryNavigation)) {
+  for (const file of walk(backstoryNavigation).filter((candidate) => candidate.endsWith(".md"))) {
+    const entries = fs.readFileSync(file, "utf8").match(/^[-] \[[^\]]+\]\(\/[^)]+\.md\)/gm) || [];
+    if (entries.length > 80) errors.push(`backstory project_scope page exceeds 80 entries: ${rel(file)}`);
+  }
 }
 
 const markdownFiles = walk(BUNDLE).filter((file) => file.endsWith(".md"));
@@ -360,4 +438,14 @@ console.log(
     .sort((a, b) => a[0].localeCompare(b[0]))
     .map(([role, count]) => `${role}=${count}`)
     .join(", ")}`,
+);
+console.log(
+  `Project scope: ${[...scopeCounts.entries()]
+    .map(([scope, count]) => `${scope}=${count}`)
+    .join(", ")} (total=${[...scopeCounts.values()].reduce((sum, count) => sum + count, 0)}).`,
+);
+console.log(
+  `Backstory project scope: ${[...backstoryScopeCounts.entries()]
+    .map(([scope, count]) => `${scope}=${count}`)
+    .join(", ")} (total=${backstoryScopeRecords.length}).`,
 );

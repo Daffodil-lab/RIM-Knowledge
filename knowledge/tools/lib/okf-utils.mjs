@@ -167,6 +167,77 @@ export const TOPICAL_TAGS = new Set([
   "world",
 ]);
 
+export const PROJECT_SCOPE_LABELS = {
+  shared: "共有",
+  shion: "シオン",
+  caelavi: "カエラヴィ",
+};
+
+export const PROJECT_SCOPE_VALUES = Object.keys(PROJECT_SCOPE_LABELS);
+
+export function resolveProjectScope(record, overrides = {}) {
+  const relative = toPosix(record.relative || "");
+  const override = overrides[relative];
+  if (override !== undefined) {
+    if (!PROJECT_SCOPE_VALUES.includes(override)) {
+      return { scope: null, reason: "invalid-override", signal: override };
+    }
+    return { scope: override, reason: "override", signal: relative };
+  }
+  const explicit = record.metadata?.project_scope;
+  if (explicit !== undefined) {
+    if (!PROJECT_SCOPE_VALUES.includes(explicit)) {
+      return { scope: null, reason: "invalid-explicit", signal: explicit };
+    }
+    return { scope: explicit, reason: "explicit", signal: relative };
+  }
+
+  const domain = relative.split("/")[0] || "";
+  const tags = new Set(record.tags || []);
+  const title = String(record.title || "");
+  const stableName = `${relative} ${title}`;
+  const caelavi =
+    tags.has("caelavi") ||
+    tags.has("caelum") ||
+    /caelavi|caelum|カエラヴィ|カエルム/i.test(stableName);
+  const shion =
+    ["kombinat", "pawn", "colony", "characters", "player-facing", "roadmap"].includes(domain) ||
+    ["shion", "kombinat", "independent-colony", "red-star", "the-hive", "anonymous-sofer", "player-facing"].some((tag) => tags.has(tag)) ||
+    /(?:^|[/_ -])shion(?:[/_ -]|$)|SHION_[CA]\d{3}|シオン/i.test(title);
+  const explicitCaelavi = tags.has("caelavi") || tags.has("caelum") || /caelavi|caelum|カエラヴィ|カエルム/i.test(title);
+  const explicitShion = tags.has("shion") || /(?:^|[/_ -])shion(?:[/_ -]|$)|SHION_[CA]\d{3}|シオン/i.test(title);
+  if (explicitCaelavi && !explicitShion && !["kombinat", "pawn", "colony", "characters", "player-facing", "roadmap"].includes(domain)) {
+    return { scope: "caelavi", reason: "caelavi-signal", signal: stableName };
+  }
+  if (caelavi && shion) return { scope: "shared", reason: "mixed-signals", signal: stableName };
+  if (caelavi) return { scope: "caelavi", reason: "caelavi-signal", signal: stableName };
+  if (shion) return { scope: "shion", reason: "shion-signal", signal: stableName };
+  if (["governance", "authoring", "contradictions", "decisions", "reference"].includes(domain)) {
+    return { scope: "shared", reason: "shared-domain", signal: domain };
+  }
+  if (domain === "research" && !caelavi && !shion) {
+    return { scope: "shared", reason: "shared-research", signal: domain };
+  }
+  if (["world", "design"].includes(domain)) {
+    return { scope: "shared", reason: "shared-general", signal: domain };
+  }
+  return { scope: null, reason: "unresolved", signal: relative };
+}
+
+export function loadProjectScopeOverrides(bundle) {
+  const file = path.join(bundle, "tools", "project-scope-overrides.json");
+  if (!fs.existsSync(file)) return {};
+  const parsed = JSON.parse(fs.readFileSync(file, "utf8"));
+  if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) {
+    throw new Error("project-scope-overrides.json must contain an object");
+  }
+  const overrides = parsed.overrides;
+  if (!overrides || typeof overrides !== "object" || Array.isArray(overrides)) {
+    throw new Error("project-scope-overrides.json must contain an overrides object");
+  }
+  return overrides;
+}
+
 export const TOPIC_DEFINITIONS = [
   {
     id: "caelum-caelavi",

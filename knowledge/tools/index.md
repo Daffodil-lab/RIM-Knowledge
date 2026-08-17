@@ -27,6 +27,7 @@ RIM固有構造検査は、全概念が一つ以上の登録済み主題荷札�
 - [統合更新・検査](maintain-okf.mjs)
 - [説明・ファセット整備](refine-okf-descriptions.mjs)
 - [横断ナビゲーション生成](build-okf-navigation.mjs)
+- [所属MOD区分のoverride台帳](project-scope-overrides.json)
 - [退役済み出典識別子の正規化](normalize-retired-source-links.mjs)
 - [OKF日時精度の正規化](normalize-okf-v02-datetimes.mjs)
 - [概念ファイル名の日本語併記](localize-okf-filenames.mjs)

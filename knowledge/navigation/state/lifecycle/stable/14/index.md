@@ -1,9 +1,10 @@
 # stable 14
 
-範囲: SHION_C256 自分で選んだ不便〜SHION_C335 配管の熱を覚えている
+範囲: SHION_C255 凍った菓子の研究記録〜SHION_C334 数字を止めない役目
 
 ## 項目
 
+- [SHION_C255 凍った菓子の研究記録](/reference/backstories/formation/SHION_C255.md) — 最盛期の帝国安全研究院では、未知の物質より記録の欠落を恐れろと教わりました。
 - [SHION_C256 自分で選んだ不便](/reference/backstories/formation/SHION_C256.md) — 孵育文化区では、誰にでも快適な部屋と健康な身体が用意されていました。
 - [SHION_C257 Kombinat横断競技](/reference/backstories/formation/SHION_C257.md) — ヘイハルKombinatの横断競技は、速さだけでは勝てません。
 - [SHION_C258 照合局の修繕見習い](/reference/backstories/formation/SHION_C258.md) — 内戦中の人格照合局で、本人は壁と避難路を直す班にいました。
@@ -83,4 +84,3 @@
 - [SHION_C332 匂いを確かめる癖](/reference/backstories/formation/SHION_C332.md) — 匂いを確かめる癖では、水質班の話は、正直あまりしたくありません。
 - [SHION_C333 土に合わせる種](/reference/backstories/formation/SHION_C333.md) — 土に合わせる種では、種は土を選ばない、土が種を選ぶ。
 - [SHION_C334 数字を止めない役目](/reference/backstories/formation/SHION_C334.md) — 本人が入植初期の重要な決定に加わらなかったことを、怠慢だと言う人がいます。
-- [SHION_C335 配管の熱を覚えている](/reference/backstories/formation/SHION_C335.md) — 配管の熱を覚えているでは、手のひらに配管の熱がまだ残っている気がします。

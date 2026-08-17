@@ -8,6 +8,8 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 
 ## 読み始め
 
+所属MODから探す: [共有](/navigation/project-scope/shared/)・[シオン](/navigation/project-scope/shion/)・[カエラヴィ](/navigation/project-scope/caelavi/)。各概念を知識上の所属MODへ一つ解決した派生索引です。
+
 1. [権威順位とライフサイクル](governance/authority-and-lifecycle-知識の権威順位とライフサイクル.md)
 2. [人間による承認境界](governance/human-approval-boundary-人間による承認境界.md)
 3. [コード解説の作成規則](governance/code-explanation-policy-コード解説の作成規則.md)
@@ -30,7 +32,7 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 - [独立開拓団](colony/) — 30件
 - [決定履歴](decisions/) — 386件
 - [全体設計](design/) — 73件
-- [運用規則](governance/) — 11件
+- [運用規則](governance/) — 12件
 - [Kombinat](kombinat/) — 85件
 - [横断ナビゲーション](navigation/) — 荷札から生成した派生索引
 - [Pawn生産・保管・再生](pawn/) — 91件

@@ -68,6 +68,7 @@ sources:
 - `eras`: この概念が明示的に属する時代ID。推測では付けない。
 - `organization_groups`: 横断索引用に正規化した組織大分類。複数指定可能。
 - `organization_names`: 出典に記録されたOrigin／Relation等の生の組織名。
+- `project_scope`: 知識上の所属MODを閲覧・整理する派生区分。`shared | shion | caelavi`の一つを明示できる。省略時は保守ツールがoverride台帳、明示荷札、領域、安定した相対パス・タイトルから解決する。packageId、実際のロード所有、依存関係を確定するメタデータではない。`tags`、`authority`、`status`、`knowledge_role`、`canonical_for`とは独立し、全概念を一意に区分する。
 - `conflict_class`、`conflict_state`、`blocking`: 矛盾監査台帳の分類、処置状態、完成阻害の有無。
 
 `verified`は実際に照合した事実だけを記録する。機械検査を`process:<id>`、人の確認を`human:<id>`として分離し、既存概念へ一括付与しない。

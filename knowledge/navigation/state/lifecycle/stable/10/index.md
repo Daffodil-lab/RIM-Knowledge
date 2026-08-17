@@ -1,9 +1,10 @@
 # stable 10
 
-範囲: GEN-006 原子的配備〜SHION_C015 種子庫の記録助手
+範囲: GEN-005 必要装備〜SHION_C014 設備区画の見回り
 
 ## 項目
 
+- [GEN-005 必要装備](/pawn/gen-005-%E5%BF%85%E8%A6%81%E8%A3%85%E5%82%99.md) — MUST: 生産要求は、具体Thing指定と作者定義のEquipment Familyを併用できる。
 - [GEN-006 原子的配備](/pawn/gen-006-%E5%8E%9F%E5%AD%90%E7%9A%84%E9%85%8D%E5%82%99.md) — MUST: Body、必須Module、必須能力、必須装備のいずれかが欠ける場合、完成扱いでPawnを出現させない。
 - [GEN-007 反復可能性](/pawn/gen-007-%E5%8F%8D%E5%BE%A9%E5%8F%AF%E8%83%BD%E6%80%A7.md) — MUST: 通常Pawnの生産へ一回限りのWorld Unique資源、有限許可回数、消滅する原型を要求しない。
 - [GEN-008 Repeat Order](/pawn/gen-008-%E8%A6%81%E4%BB%B6.md) — MUST: 適合条件、Design、Registered IndividualのCloneを数量指定または目標活動数で反復生産できる。
@@ -83,4 +84,3 @@
 - [SHION_C012 充電庭の手入れ](/reference/backstories/formation/SHION_C012.md) — 公共充電庭で端子、椅子、植木、雨除けを清掃し、利用者が安全に休める状態を保った。
 - [SHION_C013 義眼工房の見習い](/reference/backstories/formation/SHION_C013.md) — 義眼工房で、交換用の発光色を依頼者の残った目や古い記録へ合わせた。
 - [SHION_C014 設備区画の見回り](/reference/backstories/formation/SHION_C014.md) — 居住区の熱交換設備を見回り、凍結しかけた管、過熱した弁、循環の偏りを点検した。
-- [SHION_C015 種子庫の記録助手](/reference/backstories/formation/SHION_C015.md) — 種子庫で品種、発芽率、収穫量、味、毒性、過去の栽培結果を台帳へ記した。

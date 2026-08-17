@@ -1,9 +1,10 @@
 # stable 11
 
-範囲: SHION_C016 図書館の配架手伝い〜SHION_C095 帝国人の隣席
+範囲: SHION_C015 種子庫の記録助手〜SHION_C094 党派横断の炊事番
 
 ## 項目
 
+- [SHION_C015 種子庫の記録助手](/reference/backstories/formation/SHION_C015.md) — 種子庫で品種、発芽率、収穫量、味、毒性、過去の栽培結果を台帳へ記した。
 - [SHION_C016 図書館の配架手伝い](/reference/backstories/formation/SHION_C016.md) — 増改築を重ねた帝国式書庫で、返却先の分からない本を正しい棚へ戻す仕事をした。
 - [SHION_C017 遊び場の仲裁役](/reference/backstories/formation/SHION_C017.md) — 居住区の盤上遊戯会で、説明書と地域ごとの慣習が食い違った時の仲裁を任された。
 - [SHION_C018 瓶詰め雲の収集家](/reference/backstories/formation/SHION_C018.md) — 旅先の空気を小瓶へ採り、日付、天候、土地の名を添えて集める趣味を持った。
@@ -83,4 +84,3 @@
 - [SHION_C092 内戦後の帰還照合児](/reference/backstories/formation/SHION_C092.md) — 蘇生者の顔、記憶、古い友人の証言を照合した、また役所は同一人物と認定しても、再会した二人が以前と同じ距離へ戻れるとは限らない。
 - [SHION_C093 革命旗の繕い手](/reference/backstories/formation/SHION_C093.md) — 社会民主派、共産派、無政府主義者、帝国離反者の旗を同じ作業台で繕った。
 - [SHION_C094 党派横断の炊事番](/reference/backstories/formation/SHION_C094.md) — 会議中も食事を止めず、敵対しかけた党派へ同じ鍋から配った。
-- [SHION_C095 帝国人の隣席](/reference/backstories/formation/SHION_C095.md) — 追放された帝国人、同盟の子、党派を諦めた教師と同じ教室で学んだ。
