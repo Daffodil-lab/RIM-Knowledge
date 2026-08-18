@@ -4,9 +4,7 @@ title: "確定#25：空挺部隊＝各特殊部隊装備の軽量派生。重量
 description: "空挺部隊＝各特殊部隊装備の軽量派生を現行方針として確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

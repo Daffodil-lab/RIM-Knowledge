@@ -4,8 +4,6 @@ title: "確定#43：市民級「働く義務なし」＝労働余剰の創発状
 description: "市民級「働く義務なし」＝労働余剰の創発状態：ポーン数増＋労働英雄/連邦英雄が必要労働を賄って労働余剰に達した時、市民級が「人生を豊かにする権利」を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

@@ -4,11 +4,9 @@ title: "確定#143：独自開拓団 — CoreMODの中核アイデンティテ�
 description: "独自開拓団 — CoreMODの中核アイデンティティを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "red-star"
   - "equipment"
-  - "canon"
 organization_groups:
   - "red-star"
 status: deprecated

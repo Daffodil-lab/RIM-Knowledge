@@ -8,7 +8,6 @@ tags:
   - "architecture"
   - "summary-pointer"
   - "kombinat"
-  - "matter-network"
 organization_groups:
   - "kombinat-communities"
 status: stable
@@ -19,7 +18,6 @@ canonical_scope: "product-architecture"
 canonical_owner:
   - "/kombinat/core/index.md"
   - "/kombinat/requirements/index.md"
-  - "/integrations/matter-network/index.md"
 source_section: "9. Kombinat内部Runtime"
 generated:
   by: "process:rim-okf-migration"
@@ -38,7 +36,6 @@ sources:
 
 - Kombinat中核仕様: [Kombinat中核仕様](/kombinat/core/index.md)
 - Kombinat要件: [Kombinat要件](/kombinat/requirements/index.md)
-- Matter Network境界: [Matter Network境界](/integrations/matter-network/index.md)
 
 このファイルは旧見出しからの導線と出典追跡のために残す。
 
@@ -47,7 +44,6 @@ sources:
 - 上位索引: [design](/design/index.md)
 - 同じ出典の前項: [8. Baseモジュール](/design/08-Baseモジュール.md)
 - 同じ出典の次項: [10. The Hive内部モジュール（後期実装予約）](/design/10-The-Hive内部モジュール後期実装予約.md)
-- 連携境界: [連携境界](/integrations/matter-network/index.md)
 - Kombinat領域: [Kombinat領域](/kombinat/index.md)
 
 ## 出典

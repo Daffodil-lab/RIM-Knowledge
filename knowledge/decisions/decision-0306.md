@@ -4,8 +4,6 @@ title: "確定#306：「Shion Race: 無零花」を「Shion Race: 地場」へ�
 description: "「Shion Race: 無零花」を「Shion Race: 地場」へ改称し、正式な仕様書シオン/Shion地場仕様書v1.mdを新設——§12全内容をCoreMOD資料から物理移設を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

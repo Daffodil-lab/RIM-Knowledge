@@ -4,9 +4,7 @@ title: "確定#114：ここではそれは起こりえないの内戦終わりif
 description: "ここではそれは起こりえないの内戦終わりifを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

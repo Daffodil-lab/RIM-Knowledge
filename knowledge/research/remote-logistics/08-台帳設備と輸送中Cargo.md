@@ -8,7 +8,6 @@ tags:
   - "facility"
   - "cargo"
   - "red-star"
-  - "protected-draft"
 organization_groups:
   - "independent-frontier"
   - "kombinat-communities"
@@ -16,6 +15,7 @@ organization_groups:
 status: draft
 authority: protected-draft
 knowledge_role: draft-proposal
+reference_review: accepted
 granularity: concept
 generated:
   by: "process:codex-design-draft"

@@ -4,8 +4,6 @@ title: "確定#78：機動強襲部隊・宇宙特殊作戦群フォーカス拡
 description: "機動強襲部隊・宇宙特殊作戦群フォーカス拡張MOD「宝くじ」「最後の手段」の新設を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

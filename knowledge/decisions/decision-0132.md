@@ -4,9 +4,7 @@ title: "確定#132：発光する目は「集光率」を可変できる／訓�
 description: "発光する目は「集光率」を可変できる／訓練で意図的に抑制可能を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

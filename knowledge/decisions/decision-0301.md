@@ -4,10 +4,8 @@ title: "確定#301：MOD名称を「分身」へ改名／Nexus Core（ハイブ�
 description: "MOD名称を「分身」へ改名／Nexus Core（ハイブ）の正体＝自己複製した模範的な普通のシオン/Shion、法遵守ゆえに本国が扱いかねる存在、RimWorldでの同盟的行為が名声を通じ本国支援を事実上強制する構図（確定番号300を改訂）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "red-star"
-  - "canon"
 organization_groups:
   - "red-star"
 status: deprecated

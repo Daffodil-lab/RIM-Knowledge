@@ -4,8 +4,6 @@ title: "確定#188：時計仕掛けの狐人形の製造時間を有機機械�
 description: "時計仕掛けの狐人形の製造時間を有機機械の1.5倍に確定を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

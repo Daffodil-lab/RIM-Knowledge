@@ -4,10 +4,8 @@ title: "確定#97：無政府主義規格の内戦期階梯・職級の詳細版
 description: "無政府主義規格の内戦期階梯・職級の詳細版を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

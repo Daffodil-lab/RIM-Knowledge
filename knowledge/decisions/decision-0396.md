@@ -4,11 +4,9 @@ title: "確定#396：装備の抽象指定を装備ファミリー＋非物理�
 description: "装備の抽象指定を装備ファミリー＋非物理ポイントへ簡略化を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "kombinat"
   - "independent-colony"
   - "equipment"
-  - "canon"
   - "alpha"
   - "beta"
 organization_groups:

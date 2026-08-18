@@ -4,8 +4,6 @@ title: "確定#243：「必要素材種類数」仕様をプロジェクト全�
 description: "「必要素材種類数」仕様をプロジェクト全体から廃棄——確定番号169由来のTier別必要素材種類数表・関連文言をCoreMOD資料/バランス基準書/資源植物資料/コンセプト設計書の4資料から削除を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

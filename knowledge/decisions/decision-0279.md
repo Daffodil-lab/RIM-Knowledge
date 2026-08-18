@@ -4,9 +4,7 @@ title: "確定#279：TZOFEH/KESHER（§2.18）のMass・costList・製作スキ�
 description: "TZOFEH/KESHER（§2.18）のMass・costList・製作スキル・バフ倍率・武器スロット扱いを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

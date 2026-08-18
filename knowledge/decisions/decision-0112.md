@@ -4,8 +4,6 @@ title: "確定#112：真昼の暗黒の実装上の含意（インプラント�
 description: "真昼の暗黒の実装上の含意（インプラントのみで職級選択）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

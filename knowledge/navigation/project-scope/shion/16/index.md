@@ -1,0 +1,86 @@
+# シオン 16
+
+範囲: SHION_A353 帝国建国式典班の演出係〜Current status
+
+## 項目
+
+- [SHION_A353 帝国建国式典班の演出係](/reference/backstories/mastery/SHION_A353.md) — 帝国が成立した日の式典、あの照明はあたしが仕込んだのよ。 【所属MOD: シオン】
+- [SHION_A354 秩序維持隊の初代隊員](/reference/backstories/mastery/SHION_A354.md) — 秩序維持隊の初代選抜で、武器ではなく当事者双方の話を先に聞く役を担った。 【所属MOD: シオン】
+- [SHION_A355 律法院の下級書記](/reference/backstories/mastery/SHION_A355.md) — 俺が律法院の基礎を作った一人だなんて話は誰が広めたのか知らないが、訂正させてくれ。 【所属MOD: シオン】
+- [SHION_A356 甲板治安班の巡回員](/reference/backstories/mastery/SHION_A356.md) — 甲板治安班の巡回員では、巡回の仕事は単調だった。 【所属MOD: シオン】
+- [SHION_A357 帝国准備評議会の書類整理係](/reference/backstories/mastery/SHION_A357.md) — 帝国という名前が正式に決まる前、評議会には十以上の候補名があって、本人はその全部の書類を作り直す係だった。 【所属MOD: シオン】
+- [SHION_A358 帝国准民候補の農区監督](/reference/backstories/mastery/SHION_A358.md) — 旧い区画ごとに違っていた農区の作付け方式を、本人は一つの方式にまとめる役目を任された。 【所属MOD: シオン】
+- [SHION_A359 律法学舎最後の教師](/reference/backstories/mastery/SHION_A359.md) — 律法学舎の仮設天幕時代から最後の学年まで、身体更新と人格記録を継ぎながら教え続けた。 【所属MOD: シオン】
+- [SHION_A360 船体保守班の耳](/reference/backstories/mastery/SHION_A360.md) — 船体保守班で金属音から継ぎ目の緩みを聞き分け、先達から継いだ工具箱と聴覚技術を磨いた。 【所属MOD: シオン】
+- [SHION_A361 配給厨房の即興者](/reference/backstories/mastery/SHION_A361.md) — 「その根菜、皮ごと煮ちまいな」って厨房の先達がいつも言ってた。 【所属MOD: シオン】
+- [SHION_A362 織機の航海士](/reference/backstories/mastery/SHION_A362.md) — 織機の航海士では、布を織るのは航海と同じじゃとわしは思うとる。 【所属MOD: シオン】
+- [SHION_A363 水耕甲板の低温損傷](/reference/backstories/mastery/SHION_A363.md) — 低温の水耕甲板で触覚センサーと指先外装を傷め、計器を信頼する手順を身につけた。 【所属MOD: シオン】
+- [SHION_A364 壁画班の異論](/reference/backstories/mastery/SHION_A364.md) — 故郷の風景を描いて心を慰めた、とよく言われるけれど違う。 【所属MOD: シオン】
+- [SHION_A365 隔離区画の手順書](/reference/backstories/mastery/SHION_A365.md) — 医療隔離班で、外部居住者の感染症とシオンの汚染状態を分け、隔離・換気・記録を反復した。 【所属MOD: シオン】
+- [SHION_A366 巡回区画の三つの規則](/reference/backstories/mastery/SHION_A366.md) — 持ち場を離れない、武器を見せない、揉め事を数える前に止めるという三規則を守り続けた。 【所属MOD: シオン】
+- [SHION_A367 世帯調整員の台帳](/reference/backstories/mastery/SHION_A367.md) — 世帯調整局で、外部居住者の出生と全住民のパートナー関係・居住区割当を別台帳へ記録した。 【所属MOD: シオン】
+- [SHION_A368 家畜甲板の自慢話](/reference/backstories/mastery/SHION_A368.md) — うちの班が育てた家畜は船の中で一番機嫌が良かったって、これは自慢していいと思う。 【所属MOD: シオン】
+- [SHION_A369 律法以前の祈り手](/reference/backstories/mastery/SHION_A369.md) — 律法以前の祈り手では、まだ名前もなかった、本人たちがしていたことには。 【所属MOD: シオン】
+- [SHION_A370 共同礼拝堂の梁](/reference/backstories/mastery/SHION_A370.md) — 石工文化を継ぐ建築班で、分解・修理できる組継ぎを共同礼拝堂の梁へ採用した。 【所属MOD: シオン】
+- [SHION_A371 混成学舎の初年度](/reference/backstories/mastery/SHION_A371.md) — 最初の学舎は旧い出身圏ごとに教室を分けていた、それが間違いだったと今なら分かる。 【所属MOD: シオン】
+- [SHION_A372 採掘班の沈黙](/reference/backstories/mastery/SHION_A372.md) — 採掘班の沈黙では、その年のことは、あまり話すことがない。 【所属MOD: シオン】
+- [SHION_A373 混成世代の勘違い集](/reference/backstories/mastery/SHION_A373.md) — 混成世代の勘違い集では、よくある誤解が三つある。 【所属MOD: シオン】
+- [SHION_A374 亡き師の言葉を継ぐ厨房番](/reference/backstories/mastery/SHION_A374.md) — 「塩は最後、感謝は最初」って師匠がいつも言ってた。 【所属MOD: シオン】
+- [SHION_A375 医療班の告白](/reference/backstories/mastery/SHION_A375.md) — 医療班の告白では、巡回医療の経過は淡々と記していた。 【所属MOD: シオン】
+- [SHION_A376 仲裁人の想定問答](/reference/backstories/mastery/SHION_A376.md) — 甲板間の揉め事は、たいてい旧い作法と新しい律法のどちらを優先するかで起きた。 【所属MOD: シオン】
+- [SHION_A377 統合行政区の初日](/reference/backstories/mastery/SHION_A377.md) — 出身圏の旗を全部下ろした日のことを聞きたいのですか。 【所属MOD: シオン】
+- [SHION_A378 秩序維持隊の最終巡回](/reference/backstories/mastery/SHION_A378.md) — 秩序維持隊の最終巡回では、秩序維持隊の任務は単純だった。 【所属MOD: シオン】
+- [SHION_A379 帝国准民の自嘲](/reference/backstories/mastery/SHION_A379.md) — 帝国准民なんて肩書きがついた日、俺は道具箱の中身を数えていた。 【所属MOD: シオン】
+- [SHION_A380 農区統合の教訓](/reference/backstories/mastery/SHION_A380.md) — 農区統合の教訓では、自分は作られた民族文化を継ぐ。 【所属MOD: シオン】
+- [SHION_A381 処置を受けた医療班長](/reference/backstories/mastery/SHION_A381.md) — 今の本人は、あの頃の同僚がとうに見送った時間の先にいます。 【所属MOD: シオン】
+- [SHION_A382 帝国最初の設計技師](/reference/backstories/mastery/SHION_A382.md) — 帝国という言葉が公式に使われ始めた頃、俺は最初の統合議事堂の設計図を引いていた。 【所属MOD: シオン】
+- [SHION_A383 統合期の芸術評議員の弁明](/reference/backstories/mastery/SHION_A383.md) — 統合芸術評議班が旧い出身圏の様式をいくつも廃止したことを、今でも責められることがあります。 【所属MOD: シオン】
+- [SHION_A384 統合最後の証人](/reference/backstories/mastery/SHION_A384.md) — 帝国が成立したその日を、まだ覚えている者がどれだけ残っているでしょうか。 【所属MOD: シオン】
+- [SHION_A385 測量隊の杭打ち手](/reference/backstories/mastery/SHION_A385.md) — 本人が組んでいた測量儀は脚の一本がわずかに短くて、水平を取るのにいつも小石を挟んでいました。 【所属MOD: シオン】
+- [SHION_A386 種子船の育種番](/reference/backstories/mastery/SHION_A386.md) — 俺が育てた大豆は発芽率が九割を超えた年があってな、班長にも褒められた。 【所属MOD: シオン】
+- [SHION_A387 移住船団の機関整備工](/reference/backstories/mastery/SHION_A387.md) — あたしの仕事は簡単に言えば冷却管の詰まりを取ることだった。 【所属MOD: シオン】
+- [SHION_A388 巡回医療隊の外科助手](/reference/backstories/mastery/SHION_A388.md) — 手術灯が一つしかない出張診療所で、本人は器具を渡す役だった。 【所属MOD: シオン】
+- [SHION_A389 建設隊の型枠職人](/reference/backstories/mastery/SHION_A389.md) — 建設隊の型枠職人では、型枠は建物の見えない骨格だと本人は思っています。 【所属MOD: シオン】
+- [SHION_A390 第一次入植の炊事番](/reference/backstories/mastery/SHION_A390.md) — うちがやってたことを数えてみると、まず配給の穀物をふやかす時間の調整、次に塩を切らさないための交換交渉、それから鍋底が焦げないよう火加減を見張ること。 【所属MOD: シオン】
+- [SHION_A391 動植物馴化隊の調教師](/reference/backstories/mastery/SHION_A391.md) — 新しい星の獣を慣らす仕事は、扉を少しずつ開けるようなものだと自分は考えている。 【所属MOD: シオン】
+- [SHION_A392 灌漑隊の水路技師](/reference/backstories/mastery/SHION_A392.md) — 水路は真っ直ぐ引けばいいというものではありません。 【所属MOD: シオン】
+- [SHION_A393 地質調査隊の掘削夫](/reference/backstories/mastery/SHION_A393.md) — 地質調査隊の掘削夫では、特別な話なんて別にない。 【所属MOD: シオン】
+- [SHION_A394 港湾建設隊の潜水工](/reference/backstories/mastery/SHION_A394.md) — 耳の奥がぎゅうっと締まる感覚、あれを覚えると潜水の深さが分かるようになる。 【所属MOD: シオン】
+- [SHION_A395 通信中継隊の中継技官](/reference/backstories/mastery/SHION_A395.md) — 通信中継隊の中継技官では、中継塔の保守というのは、故障を待つ仕事である。 【所属MOD: シオン】
+- [SHION_A396 採掘隊の火薬係](/reference/backstories/mastery/SHION_A396.md) — 採掘隊の火薬係では、一番信用されない仕事だったよ、火薬係なんてのは。 【所属MOD: シオン】
+- [SHION_A397 給水隊の配管工](/reference/backstories/mastery/SHION_A397.md) — 配管の継ぎ手はもっと規格を統一するべきだと本人はずっと思っていました。 【所属MOD: シオン】
+- [SHION_A398 環境観測隊の気象観測員](/reference/backstories/mastery/SHION_A398.md) — 空を毎日見て何が分かるのかって聞かれるけど、分かるようになるまでが長いのよ。 【所属MOD: シオン】
+- [SHION_A399 開拓団の狩猟番](/reference/backstories/mastery/SHION_A399.md) — 獲物より先に風を読め、というのが自分の師匠の口癖だった。 【所属MOD: シオン】
+- [SHION_A400 移住船団の帳簿係](/reference/backstories/mastery/SHION_A400.md) — 「この数字、また合わないぞ」と班長に何度も詰め寄られました。 【所属MOD: シオン】
+- [SHION_A401 種子船の記録画工](/reference/backstories/mastery/SHION_A401.md) — 種子船の記録画工では、最初は退屈な仕事だと思っていました。 【所属MOD: シオン】
+- [SHION_A402 巡回医療隊の産婆](/reference/backstories/mastery/SHION_A402.md) — 巡回医療隊で外部居住者の出産を支え、師匠から受け継いだ観察と沈着さを次の担当者へ伝えた。 【所属MOD: シオン】
+- [SHION_A403 建設隊の護衛兵](/reference/backstories/mastery/SHION_A403.md) — 記録には英雄的な防衛戦みたいに書かれるかもしれんが、実際は違う。 【所属MOD: シオン】
+- [SHION_A404 第一次入植の仕立屋](/reference/backstories/mastery/SHION_A404.md) — 古い布を捨てるくらいなら本人に持ってきてほしい、それだけはずっと言い続けてきました。 【所属MOD: シオン】
+- [SHION_A405 地質調査隊の測地画家](/reference/backstories/mastery/SHION_A405.md) — 完成した地図の余白を、獣道を歩き、縮尺を測り、一本ずつ線を引いて埋めた。 【所属MOD: シオン】
+- [SHION_A406 港湾建設隊の荷役頭](/reference/backstories/mastery/SHION_A406.md) — なんで荷役の頭なんて損な役回りを引き受けたのかって。 【所属MOD: シオン】
+- [SHION_A407 通信中継隊の暗号係](/reference/backstories/mastery/SHION_A407.md) — 通信中継隊の暗号係では、覚えている数字が三つあります。 【所属MOD: シオン】
+- [SHION_A408 動植物馴化隊の獣医補](/reference/backstories/mastery/SHION_A408.md) — まず傷口を洗う、それから膿を確認する、それから薬を塗る、それから包帯を巻く。 【所属MOD: シオン】
+- [SHION_A409 灌漑隊の腕っぷし](/reference/backstories/mastery/SHION_A409.md) — 料理番のくせに喧嘩っ早いって、よくからかわれたよ。 【所属MOD: シオン】
+- [SHION_A410 星路建設隊の航路技師](/reference/backstories/mastery/SHION_A410.md) — 本人が打った航路標識は、数えていた頃で九百を超えていました。 【所属MOD: シオン】
+- [SHION_A411 交易船団の交渉員](/reference/backstories/mastery/SHION_A411.md) — 俺の仕事は簡単に言えば、初対面の開拓地相手に値切ることだ。 【所属MOD: シオン】
+- [SHION_A412 辺境行政府の巡察官](/reference/backstories/mastery/SHION_A412.md) — 開拓地が増えれば増えるほど、本人のところに届く訴えも増えました。 【所属MOD: シオン】
+- [SHION_A413 律法学舎の若きソフェル](/reference/backstories/mastery/SHION_A413.md) — 律法の写本を任されるようになったのは、灯火番だった頃から数えて十年目のことである。 【所属MOD: シオン】
+- [SHION_A414 港湾都市の造船匠](/reference/backstories/mastery/SHION_A414.md) — わしが最初に組んだ竜骨は、今も外港に係留されたまま現役で使われとる。 【所属MOD: シオン】
+- [SHION_A415 種Cell研究所の培養手](/reference/backstories/mastery/SHION_A415.md) — 種Cellの増殖速度は、与える鉄の純度でわずかに変わります。 【所属MOD: シオン】
+- [SHION_A416 イェツィラー学舎のマソレット講師](/reference/backstories/mastery/SHION_A416.md) — 本人が弟子に最初に教えるのは、文字の書き方ではなく、書き損じた紙を燃やす作法である。 【所属MOD: シオン】
+- [SHION_A417 サイキック適性検査局の検査官](/reference/backstories/mastery/SHION_A417.md) — 幼い頃、自分の針がほとんど振れなかったことを、本人はこの仕事に就いてから何度も思い出しました。 【所属MOD: シオン】
+- [SHION_A418 帝国拡張艦隊の航宙士](/reference/backstories/mastery/SHION_A418.md) — 格納庫で拾った工具の名前を全部覚えていたのが、今の仕事の始まりだったのかもしれません。 【所属MOD: シオン】
+- [SHION_A419 秘文字工房の彫り師](/reference/backstories/mastery/SHION_A419.md) — うちが挽いた顔料で書いた文字が光った日から、もう長い年月が経つ。 【所属MOD: シオン】
+- [5. Color translation from vanilla ruins to Shion Nexus](/research/archotech-ruins/05-Color-translation-from-vanilla-ruins-to-Shion-Nexus.md) — Vanilla-like archotech ruins often read through gray, olive, pale panels, and sparse glowing lines. Shion Nexus should shift that…。 【所属MOD: シオン】
+- [9. Art prompt direction, not image generation request](/research/archotech-ruins/09-Art-prompt-direction-not-image-generation-request.md) — RimWorld風Nexus Core Towerの形状、配色、材質、禁止表現を将来の画像資産向けに指定する。 【所属MOD: シオン】
+- [2. Shion Nexus relevance](/research/external-videos/02-Shion-Nexus-relevance.md) — Fleshbeast Colony remains a structural reference only.。 【所属MOD: シオン】
+- [7. Adopt / avoid table for Shion Nexus](/research/fleshbeast/07-Adopt-avoid-table-for-Shion-Nexus.md) — Adopt / avoid table for Shion Nexusは、Fleshbeast pattern：Shion Nexus decisionとSingle vulnerable core：Adopt structurally through Nexus…。 【所属MOD: シオン】
+- [Boundary](/research/known-code/000-Boundary.md) — Code-level reuse is limited to repositories owned by Daffodil. Monolyn Race, Fleshbeast Colony, Arachnae Swarm 2, Dolls Nest, RimWorld,…。 【所属MOD: シオン】
+- [Sources inspected](/research/known-code/001-Sources-inspected.md) — - Daffodil-lab/Meiko-Race-The-Manufactured-Utopia-A-Clockwork-Fox-Doll at indexed commit aed3ab77724fdab6cf9166abab80bf2dd22a9e96. -…。 【所属MOD: シオン】
+- [Adopted and ported](/research/known-code/002-Adopted-and-ported.md) — Adopted and portedは、Source：Reused idea：Kombinat resultとMeikoNexus.csproj：net472, Krafs.Rimworld.Ref, direct Assemblies…。 【所属MOD: シオン】
+- [Adapt, do not copy directly](/research/known-code/003-Adapt-do-not-copy-directly.md) — Adapt, do not copy directlyは、Legacy code：ReasonとCompNexusCore CVE and digital-material fields：Aggregate reservedCVE floats have no…。 【所属MOD: シオン】
+- [Rejected from the runtime](/research/known-code/004-Rejected-from-the-runtime.md) — - A monolithic Core building Comp as the owner of resource truth. - Separate aggregate reservation totals without reservation records.…。 【所属MOD: シオン】
+- [First vertical-slice guarantees](/research/known-code/005-First-vertical-slice-guarantees.md) — 1. Five canonical inventory resources are Defs; population, labor, bandwidth, capacity, research, fame, and defense readiness are not…。 【所属MOD: シオン】
+- [Next extraction](/research/known-code/006-Next-extraction.md) — The next safe port is the construction-site lifecycle. Replace its reservedCVE/reservedMaterials fields with one Kombinat reservation…。 【所属MOD: シオン】
+- [Build](/research/kombinat-prototype/000-Build.md) — The compiled prototype assembly is written to Assemblies/Kombinat.dll. Do not copy it into the Core package.。 【所属MOD: シオン】
+- [Current status](/research/kombinat-prototype/001-Current-status.md) — No v3 product component is implemented. The next task is to pin the Matter Network baseline, record the MIT notices and adopted files,…。 【所属MOD: シオン】

@@ -1,9 +1,20 @@
 # stable 17
 
-範囲: Next extraction〜8. 遠征共同体とレッドスター
+範囲: 6. Economy and raid-balance implication〜8. 現在地
 
 ## 項目
 
+- [6. Economy and raid-balance implication](/research/fleshbeast/06-Economy-and-raid-balance-implication.md) — The reported gameplay impression is that many creatures and flesh buildings may have low or poorly counted colony wealth, allowing a…。
+- [7. Adopt / avoid table for Shion Nexus](/research/fleshbeast/07-Adopt-avoid-table-for-Shion-Nexus.md) — Adopt / avoid table for Shion Nexusは、Fleshbeast pattern：Shion Nexus decisionとSingle vulnerable core：Adopt structurally through Nexus…。
+- [8. Alpha impact](/research/fleshbeast/08-Alpha-impact.md) — This reference does not change Alpha 0.1 scope.。
+- [9. Performance cautions](/research/fleshbeast/09-Performance-cautions.md) — Do not import these patterns into Shion Nexus without hard limits、具体的にはauto-expanding territory;とauto-capturing floor;を扱う。
+- [10. Final lesson](/research/fleshbeast/10-Final-lesson.md) — Fleshbeast Colony is a strong reference because it fully commits to being a different colony ecology.。
+- [Boundary](/research/known-code/000-Boundary.md) — Code-level reuse is limited to repositories owned by Daffodil. Monolyn Race, Fleshbeast Colony, Arachnae Swarm 2, Dolls Nest, RimWorld,…。
+- [Sources inspected](/research/known-code/001-Sources-inspected.md) — - Daffodil-lab/Meiko-Race-The-Manufactured-Utopia-A-Clockwork-Fox-Doll at indexed commit aed3ab77724fdab6cf9166abab80bf2dd22a9e96. -…。
+- [Adopted and ported](/research/known-code/002-Adopted-and-ported.md) — Adopted and portedは、Source：Reused idea：Kombinat resultとMeikoNexus.csproj：net472, Krafs.Rimworld.Ref, direct Assemblies…。
+- [Adapt, do not copy directly](/research/known-code/003-Adapt-do-not-copy-directly.md) — Adapt, do not copy directlyは、Legacy code：ReasonとCompNexusCore CVE and digital-material fields：Aggregate reservedCVE floats have no…。
+- [Rejected from the runtime](/research/known-code/004-Rejected-from-the-runtime.md) — - A monolithic Core building Comp as the owner of resource truth. - Separate aggregate reservation totals without reservation records.…。
+- [First vertical-slice guarantees](/research/known-code/005-First-vertical-slice-guarantees.md) — 1. Five canonical inventory resources are Defs; population, labor, bandwidth, capacity, research, fame, and defense readiness are not…。
 - [Next extraction](/research/known-code/006-Next-extraction.md) — The next safe port is the construction-site lifecycle. Replace its reservedCVE/reservedMaterials fields with one Kombinat reservation…。
 - [Build](/research/kombinat-prototype/000-Build.md) — The compiled prototype assembly is written to Assemblies/Kombinat.dll. Do not copy it into the Core package.。
 - [Current status](/research/kombinat-prototype/001-Current-status.md) — No v3 product component is implemented. The next task is to pin the Matter Network baseline, record the MIT notices and adopted files,…。
@@ -12,6 +23,7 @@
 - [2. Arsenal Codexの直接交換から採るもの](/research/kombinat-ui-references/02-Arsenal-Codex%E3%81%AE%E7%9B%B4%E6%8E%A5%E4%BA%A4%E6%8F%9B%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — 接続保管庫からPawnへ直接装備し、現在装備を同じ取引で返す操作を、Coreの原子的武器交換の参照とする。
 - [3. DSUから採るUIと採らない実装](/research/kombinat-ui-references/03-DSU%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8BUI%E3%81%A8%E6%8E%A1%E3%82%89%E3%81%AA%E3%81%84%E5%AE%9F%E8%A3%85.md) — DSUの検索・任意排出・Pawnアクセスは参照するが、中央Mapセルへ内容物を集積する保管方式は採用しない。
 - [4. 要求中間素材作成の操作イメージ](/research/kombinat-ui-references/04-%E8%A6%81%E6%B1%82%E4%B8%AD%E9%96%93%E7%B4%A0%E6%9D%90%E4%BD%9C%E6%88%90%E3%81%AE%E6%93%8D%E4%BD%9C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8.md) — 在庫とRecipeを並べ、最終品の要求から不足中間品と総材料を確認する簡潔な操作モデルをKombinatへ適用する。
+- [0. 歩兵装備投資と作戦機動群の外部検証](/research/military-doctrine/00-%E6%AD%A9%E5%85%B5%E8%A3%85%E5%82%99%E6%8A%95%E8%B3%87%E3%81%A8%E4%BD%9C%E6%88%A6%E6%A9%9F%E5%8B%95%E7%BE%A4%E3%81%AE%E5%A4%96%E9%83%A8%E6%A4%9C%E8%A8%BC.md) — 作戦機動群と歩兵中心装備体系の外部比較を整理し、バルジの戦いのTNDM評価とStG 44による因果説明を分離する。
 - [0. Purpose](/research/monolyn-practice/00-Purpose.md) — This document records the user-provided summary of real player practice around Monolyn Race from Steam Workshop Q&A, Steam Workshop…。
 - [1. Source status](/research/monolyn-practice/01-Source-status.md) — The details below are treated as a user-provided field report from public player discussion and strategy notes.。
 - [2. Basic loop and onboarding problems](/research/monolyn-practice/02-Basic-loop-and-onboarding-problems.md) — Reported player issue、具体的にはPrayer is not handled as an ordinary Job.とPlayers assign Meditate through the Schedule tab.を扱う。
@@ -63,24 +75,12 @@
 - [8. 文章サンプル](/research/theme-overhaul/08-%E6%96%87%E7%AB%A0%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB.md) — 食事も仕事も身体も選べる、狐型機械人シオンの開拓団。
 - [9. 実施順序](/research/theme-overhaul/09-%E5%AE%9F%E6%96%BD%E9%A0%86%E5%BA%8F.md) — 実施順序は、統合資料§1、§7.2、§11.1を中心命題に合わせて改稿する。
 - [10. 合否判定](/research/theme-overhaul/10-%E5%90%88%E5%90%A6%E5%88%A4%E5%AE%9A.md) — 新しい設定・文章・機能は、次の順で判定するという方針の適用範囲と条件を定める。
-- [0. 結論](/roadmap/00-%E7%B5%90%E8%AB%96.md) — 工業基盤を内部完成させてからShion種族を統合し、MVP／Foundationを独立した製品段階として出荷しない。
+- [0. 結論](/roadmap/00-%E7%B5%90%E8%AB%96.md) — Coreは工業基盤を内部完成させてからShion種族を統合し、α、β、1.0の三段階で公開する。
 - [1. 権威と変更規則](/roadmap/01-%E6%A8%A9%E5%A8%81%E3%81%A8%E5%A4%89%E6%9B%B4%E8%A6%8F%E5%89%87.md) — 本書は、何を世界内の事実とするかではなく、どの段階で何を完成させるかを定める。
-- [2. 既知コードと再利用の方針](/roadmap/02-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A8%E5%86%8D%E5%88%A9%E7%94%A8%E3%81%AE%E6%96%B9%E9%87%9D.md) — 既知コードの再利用率を目標にしない、また既存コード、旧リポジトリ、抽出記録は参考資料であり、最終設計を拘束する正本ではない。
+- [2. 既知コードと再利用の方針](/roadmap/02-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A8%E5%86%8D%E5%88%A9%E7%94%A8%E3%81%AE%E6%96%B9%E9%87%9D.md) — コード再利用は現行責務、保存、試験、性能、依存方向、ライセンス、保守性を満たす単位だけに限定する。
 - [3. 1.0の最終完成像](/roadmap/03-1-0%E3%81%AE%E6%9C%80%E7%B5%82%E5%AE%8C%E6%88%90%E5%83%8F.md) — 最終的なCoreは、少なくとも次を一つの製品として成立させる。
 - [4. α版 — 最初の公開候補](/roadmap/04-%CE%B1%E7%89%88-%E2%80%94-%E6%9C%80%E5%88%9D%E3%81%AE%E5%85%AC%E9%96%8B%E5%80%99%E8%A3%9C.md) — α版は、内部完成した工業基盤へShion種族、図像、独立開始を最後に統合する最初の公開候補である。
 - [5. β版](/roadmap/05-%CE%B2%E7%89%88.md) — β版は、α版に含めなかったコアMODとレッドスターの要素を追加し、両製品を完成へ到達させる期間である。
 - [6. β終了／1.0完成条件](/roadmap/06-%CE%B2%E7%B5%82%E4%BA%86-1-0%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — 1.0以後も、身体、派閥、クエスト、装備、料理、動物、互換Adapter等を追加できる。
 - [7. バージョン運用](/roadmap/07-%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E9%81%8B%E7%94%A8.md) — バージョン番号だけで品質を主張しない、また各版は本書の完了条件と検証記録を伴う。
 - [8. 現在地](/roadmap/08-%E7%8F%BE%E5%9C%A8%E5%9C%B0.md) — 2026-08-02時点で工業基盤の実装作業は存在するが、工業完成マイルストーンとShion統合αは未完成である。
-- [9. 次の作業順](/roadmap/09-%E6%AC%A1%E3%81%AE%E4%BD%9C%E6%A5%AD%E9%A0%86.md) — 工業管理画面の基準画像とRimWorld 1.6画面契約を先に固定し、種族非依存の保管基盤とコンビナートを実装してからシオン種族と図像をα版へ統合する。
-- [10. 変更管理](/roadmap/10-%E5%A4%89%E6%9B%B4%E7%AE%A1%E7%90%86.md) — 本書を更新する場合、少なくとも次を記録するという方針の適用範囲と条件を定める。
-- [11. 工業先行開発マイルストーン](/roadmap/11-%E5%B7%A5%E6%A5%AD%E5%85%88%E8%A1%8C%E9%96%8B%E7%99%BA%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3.md) — シオン固有種族と図像の実装より先に、バニラ人間で検証できるコアMOD保管・コンビナート工業基盤を内部完成させる。
-- [0. 正史の優先順位](/world/00-%E6%AD%A3%E5%8F%B2%E3%81%AE%E5%84%AA%E5%85%88%E9%A0%86%E4%BD%8D.md) — 本書より下位の資料は、本書にない事実を自動的に正史化しない。
-- [1. 作品の中心命題](/world/01-%E4%BD%9C%E5%93%81%E3%81%AE%E4%B8%AD%E5%BF%83%E5%91%BD%E9%A1%8C.md) — 帝国と同盟は、苦痛、欠乏、混乱を放置せず、善き世界を現実へ実装しようとする文明である。
-- [2. 帝国から同盟へ](/world/02-%E5%B8%9D%E5%9B%BD%E3%81%8B%E3%82%89%E5%90%8C%E7%9B%9F%E3%81%B8.md) — 帝国最盛期は、律法的で厳格な社会だった、また同時に、平和、秩序、繁栄、庇護が本当に機能した善政でもあった。
-- [3. シオンという人類](/world/03-%E3%82%B7%E3%82%AA%E3%83%B3%E3%81%A8%E3%81%84%E3%81%86%E4%BA%BA%E9%A1%9E.md) — シオン/Shionは、製造された身体を持つ独立人格の人類である。
-- [4. 同盟社会](/world/04-%E5%90%8C%E7%9B%9F%E7%A4%BE%E4%BC%9A.md) — 同盟本国は、普通に暮らす大多数にとって、本当に自由で豊かで安全な社会である。
-- [5. 善意の非対称性](/world/05-%E5%96%84%E6%84%8F%E3%81%AE%E9%9D%9E%E5%AF%BE%E7%A7%B0%E6%80%A7.md) — 同盟人は救われる側の幸福を本気で望む、また冷淡さ、残虐趣味、欺瞞、隠蔽を標準動機にしない。
-- [6. 人格記録、復活、同化](/world/06-%E4%BA%BA%E6%A0%BC%E8%A8%98%E9%8C%B2-%E5%BE%A9%E6%B4%BB-%E5%90%8C%E5%8C%96.md) — 同盟は、身体再製造、人格記録、復活、他身体への移行に相当する技術を持つ。
-- [7. 技術体系](/world/07-%E6%8A%80%E8%A1%93%E4%BD%93%E7%B3%BB.md) — 同盟は、現代技術を数百年発展させただけの文明ではない。
-- [8. 遠征共同体とレッドスター](/world/08-%E9%81%A0%E5%BE%81%E5%85%B1%E5%90%8C%E4%BD%93%E3%81%A8Red-Star.md) — コアMODは、独立団、漂着者、認可団、その他の遠征共同体など、複数の開始立場を許容する。

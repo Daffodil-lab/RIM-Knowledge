@@ -4,9 +4,7 @@ title: "確定#104：武器よさらば／ここではそれは起こりえな�
 description: "武器よさらば／ここではそれは起こりえないの開戦前限定の理由を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

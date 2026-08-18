@@ -4,9 +4,7 @@ title: "確定#115：ドクトル・ジバゴの史実の結末（皇族の死�
 description: "ドクトル・ジバゴの史実の結末（皇族の死に絶え）訂正を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

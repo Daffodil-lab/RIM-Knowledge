@@ -4,8 +4,6 @@ title: "確定#358：惑星個別史、FTL対価、水仙のFTL確立全経緯�
 description: "惑星個別史、FTL対価、水仙のFTL確立全経緯は扱わないを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

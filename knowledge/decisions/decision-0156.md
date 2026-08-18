@@ -4,9 +4,7 @@ title: "確定#156：Diaspora Tech company MODの構想概要"
 description: "Diaspora Tech company MODの構想概要を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

@@ -4,9 +4,7 @@ title: "確定#388：618種バックストーリー、人工知能定義、特�
 description: "種バックストーリー、人工知能定義、特殊部隊・市民文化を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "backstory"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record
@@ -43,7 +41,7 @@ sources:
 - 上位索引: [decisions](/decisions/index.md)
 - 同じ出典の前項: [確定#370：配置先に迷う場合のバックストーリー／研究フォールバック](/decisions/decision-0370.md)
 - 同じ出典の次項: [確定#389：MVP廃止、α公開候補、β終了条件、完成前セーブ互換](/decisions/decision-0389.md)
-- バックストーリー群: [バックストーリー群](/backstories/index.md)
+- バックストーリー群: [バックストーリー群](/reference/backstories/index.md)
 - 正史: [正史](/world/index.md)
 - 制作・開示規則: [制作・開示規則](/authoring/index.md)
 

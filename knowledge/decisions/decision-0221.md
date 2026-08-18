@@ -4,8 +4,6 @@ title: "確定#221：無零花の光源にコシダの代替として新品目�
 description: "無零花の光源にコシダの代替として新品目「太陽花」（ヒマワリ）を追加、カタログを101品目・303品種へ拡大を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

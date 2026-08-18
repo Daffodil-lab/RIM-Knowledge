@@ -1,7 +1,7 @@
 ---
 type: "Product Design"
-title: "11. レッドスター（製品境界保留）"
-description: "レッドスターは、本国が正式に承認・派遣した開拓団である。"
+title: "11. レッドスターの製品責務境界"
+description: "レッドスター拡張とコアMODが所有する機能、共通基盤、配布形態に依存しない境界を定める。"
 tags:
   - "shion"
   - "design"
@@ -10,7 +10,6 @@ tags:
   - "red-star"
   - "independent-colony"
   - "equipment"
-  - "canon"
 organization_groups:
   - "independent-frontier"
   - "kombinat-communities"
@@ -31,7 +30,7 @@ sources:
     title: "シオン／Shion 統合資料 — 本文優先・全体設計版 v2"
 ---
 
-# 11. レッドスター（製品境界保留）
+# 11. レッドスターの製品責務境界
 
 ## 11.1 固有性
 

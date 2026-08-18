@@ -4,8 +4,6 @@ title: "確定#343：同盟のサイキック技術は精神への直接干渉�
 description: "同盟のサイキック技術は精神への直接干渉より物理的な力への変換を得意とする（秘文字含む）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

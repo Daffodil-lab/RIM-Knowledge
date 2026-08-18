@@ -4,9 +4,7 @@ title: "確定#61：MODファミリー一覧の確定：CoreMOD＋多数の名�
 description: "MODファミリー一覧の確定：CoreMOD＋多数の名前付き拡張MOD（幼年期の終わり／われら／すばらしい新世界／宇宙からの色／所有せざる人々／機を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

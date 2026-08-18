@@ -4,8 +4,6 @@ title: "確定#296：秘文字はサイキック技術の特殊版——精神�
 description: "秘文字はサイキック技術の特殊版——精神感応性を要求しない（確定番号295を補足）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

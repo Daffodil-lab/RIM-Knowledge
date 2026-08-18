@@ -1,86 +1,86 @@
 # 装備・軍事 03
 
-範囲: 確定#278：クラスター弾をジャミング弾へ統合し、独立弾種としては廃止〜0. 結論
+範囲: 14. β Definition of Done〜SHION_A354 秩序維持隊の初代隊員
 
 ## 項目
 
-- [確定#278：クラスター弾をジャミング弾へ統合し、独立弾種としては廃止](/decisions/decision-0278.md) — クラスター弾をジャミング弾へ統合し、独立弾種としては廃止を確定した決定履歴。
-- [確定#279：TZOFEH/KESHER（§2.18）のMass・costList・製作スキル・バフ倍率・武器スロット扱いを確定](/decisions/decision-0279.md) — TZOFEH/KESHER（§2.18）のMass・costList・製作スキル・バフ倍率・武器スロット扱いを確定した決定履歴。
-- [確定#280：NISTAR/MISTOR/MAGENシリーズ（§2.19）のSharp/Blunt/Heat/Mass/costList・シールド値・ステルス性演算順序を確定](/decisions/decision-0280.md) — NISTAR/MISTOR/MAGENシリーズ（§2.19）のSharp/Blunt/Heat/Mass/costList・シールド値・ステルス性演算順序を確定した決定履歴。
-- [確定#281：SHOFAR（手榴弾ベルト）を装備数値表v1に新規収録し数値を確定](/decisions/decision-0281.md) — SHOFAR（手榴弾ベルト）を装備数値表v1に新規収録し数値を確定した決定履歴。
-- [確定#282：迫撃砲・MLRS弾種（§2.20）の全数値を口径別に確定、81/120/160mmは互換性なしと明記](/decisions/decision-0282.md) — 迫撃砲・MLRS弾種（§2.20）の全数値を口径別に確定、81/120/160mmは互換性なしと明記を確定した決定履歴。
-- [確定#294：資源名「液化メカナイト」を「cell」へ改名](/decisions/decision-0294.md) — 資源名「液化メカナイト」を「cell」へ改名を確定した決定履歴。
-- [確定#311：確定#310のCellの位置づけを修正——Cellは「橋渡し役」に加え、ステラリスの合金（Alloys）に相当する軍事・艦隊関連資源の役割も兼ねる](/decisions/decision-0311.md) — 確定番号310のCellの位置づけを修正——Cellは「橋渡し役」に加え、ステラリスの合金（Alloys）に相当する軍事・艦隊関連資源の役割も兼ねるを確定した決定履歴。
-- [確定#319：「Shion Race: 地場」自体が実装する技術範囲はグリッターワールド級までと確定——アルコテック級はCoreMOD・分身側の役割](/decisions/decision-0319.md) — 「Shion Race: 地場」自体が実装する技術範囲はグリッターワールド級までと確定——アルコテック級はCoreMOD・分身側の役割を確定した決定履歴。
-- [確定#320：確定#319を訂正——アルコテック級の実装はCoreMOD・分身が個別に行うのではなく、「Shion Race: 地場」の拡張（仮称・未命名）が担う。CoreMOD・分身どちらもこの拡張を導入すればアルコテック技術が追加される](/decisions/decision-0320.md) — 確定番号319を訂正——アルコテック級の実装はCoreMOD・分身が個別に行うのではなく、「Shion Race: 地場」の拡張（仮称・未命名）が担う。
-- [確定#326：探索⇄工業の循環（資源ノード発見）を確定——バニラ非製造資源・対応MOD資源の効率的な入手経路として位置づけ](/decisions/decision-0326.md) — 探索⇄工業の循環（資源ノード発見）を確定——バニラ非製造資源・対応MOD資源の効率的な入手経路として位置づけを確定した決定履歴。
-- [確定#338：仮称MOD名2件を文学作品名へ正式化——「スローターハウス5」「月を売った男」](/decisions/decision-0338.md) — 仮称MOD名2件を文学作品名へ正式化——「スローターハウス5」「月を売った男」を確定した決定履歴。
-- [確定#350：帝国人、シオンの廉価複製起源、内戦と蜂起、ソフェル参加、規格互換性](/decisions/decision-0350.md) — 帝国人、シオンの廉価複製起源、内戦と蜂起、ソフェル参加、規格互換性を確定した決定履歴。
-- [確定#359：Cellは帝国由来の粒子級自己増殖機械](/decisions/decision-0359.md) — Cellは帝国由来の粒子級自己増殖機械を確定した決定履歴。
-- [確定#389：MVP廃止、α公開候補、β終了条件、完成前セーブ互換](/decisions/decision-0389.md) — MVP廃止、α公開候補、β終了条件、完成前セーブ互換を確定した決定履歴。
-- [確定#393：β版Pawn Foundry、補充可能個体、登録再実体化、Clone Colony](/decisions/decision-0393.md) — β版Pawn Foundry、補充可能個体、登録再実体化、Clone Colonyを確定した決定履歴。
-- [確定#394：Kombinat完成図の仮想シミュレーション、未知MOD互換契約、復旧不能・無限容量の封鎖](/decisions/decision-0394.md) — Kombinat完成図の仮想シミュレーション、未知MOD互換契約、復旧不能・無限容量の封鎖を確定した決定履歴。
-- [確定#395：Matter NetworkをKombinat倉庫基盤として採用し、物理資源を実Thingへ統一](/decisions/decision-0395.md) — Matter NetworkをKombinat倉庫基盤として採用し、物理資源を実Thingへ統一を確定した決定履歴。
-- [確定#396：装備の抽象指定を装備ファミリー＋非物理ポイントへ簡略化](/decisions/decision-0396.md) — 装備の抽象指定を装備ファミリー＋非物理ポイントへ簡略化を確定した決定履歴。
-- [7. 製品ファミリーの新しい境界](/design/07-%E8%A3%BD%E5%93%81%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E5%A2%83%E7%95%8C.md) — CoreはDLC非依存製品として設計しない、また開発・配布・標準試験は、RimWorld 1.6にRoyalty、Ideology、Biotech、Anomaly、Odysseyを全て有効化した環境を前提とする。
-- [8. Baseモジュール](/design/08-Base%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB.md) — Core設定は複数の開始立場を許容するが、最初に遊べるα版は数人規模の独立開拓団へ固定する。
-- [11. レッドスター（製品境界保留）](/design/11-Red-Star%E8%A3%BD%E5%93%81%E5%A2%83%E7%95%8C%E4%BF%9D%E7%95%99.md) — レッドスターは、本国が正式に承認・派遣した開拓団である。
-- [12. その他の拡張群](/design/12-%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%8B%A1%E5%BC%B5%E7%BE%A4.md) — 旧内戦期拡張ファミリーは、回想、証言、断片記録、保存機械記録、残響を主な語り口とする候補を維持する。
-- [13. 個体設計](/design/13-%E5%80%8B%E4%BD%93%E8%A8%AD%E8%A8%88.md) — 旧資料には特性三層、コア特性番号1〜番号33、任意特性、Tier、Quality、改造ポイント、身体ロードアウト、製造ダイアログ、製造階級、職級、栄誉、研究ツリーがある。
-- [14. 装備、軍事、バランス](/design/14-%E8%A3%85%E5%82%99-%E8%BB%8D%E4%BA%8B-%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9.md) — 旧装備章を、設定クラスとカタログ、実装値と装備解決の二つの所有者へ分離して案内する。
-- [16. 主要人物・組織](/design/16-%E4%B8%BB%E8%A6%81%E4%BA%BA%E7%89%A9%E3%83%BB%E7%B5%84%E7%B9%94.md) — 水仙、余白記録網、農芸公社を改稿採用し、旧固有名と重複組織分類を不採用へ分離した。
-- [25. 検証シナリオ](/design/25-%E6%A4%9C%E8%A8%BC%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — 次をCore v2と本書だけから矛盾なく作れること。
-- [30. 対象外](/design/30-%E5%AF%BE%E8%B1%A1%E5%A4%96.md) — 今回のオーバーホールでは次を確定しないという方針の適用範囲と条件を定める。
-- [36. 装備設定クラスとカタログ](/design/36-%E8%A3%85%E5%82%99%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%A8%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0.md) — 装備カタログは、品の由来、発注、設計、開発、評価、現状、用途、物理仕様、外見、フレーバーを所有し、具体的なゲーム値を所有しない。
-- [37. 装備の実装境界](/design/37-%E8%A3%85%E5%82%99%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 装備実装は、Def、射程、性能、素材、Recipe、工数、製造時間、過熱、信頼性、支持装置、CE互換、入手条件、装備解決を所有し、設定カタログへ従う。
-- [42. エネルギー供給の実装境界](/design/42-%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC%E4%BE%9B%E7%B5%A6%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 常設エネルギー接続とエネルギー結晶による外地供給を分離し、改造身体・高度装備・設備の稼働条件を実装する。
-- [43. 帝国系と同盟系の製品系列の実装境界](/design/43-%E5%B8%9D%E5%9B%BD%E7%B3%BB%E3%81%A8%E5%90%8C%E7%9B%9F%E7%B3%BB%E3%81%AE%E8%A3%BD%E5%93%81%E7%B3%BB%E5%88%97%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 帝国系を高性能・高価格・高工数・品質差のある品、同盟系を安価・量産向け・品質固定・しばしば高耐久な品としてゲームへ投影する。
-- [44. Human Weapons計画（仮称）](/design/44-Human-Weapons%E8%A8%88%E7%94%BB%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9.md) — Human Weapons計画（仮称）は、初期の対人類戦役で現地政権と協力者へ安価かつ迅速に供給できる、人間用の高性能火薬式火器を整備した同盟の調達計画である。
-- [45. Human Weapons計画の実装境界](/design/45-Human-Weapons%E8%A8%88%E7%94%BB%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — Human Weapons計画品を、品質を持たず、構造材だけで製造でき、結晶資源や常設電力を使わない人間用の独自火薬式火器として実装する。
-- [46. 装備アーカイブ番号体系](/design/46-%E8%A3%85%E5%82%99%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E7%95%AA%E5%8F%B7%E4%BD%93%E7%B3%BB.md) — 同盟の全装備は、三桁の分類番号と五桁の登録番号を空白で区切ったアーカイブ番号、および種類コードによって設計・型式単位で管理される。
-- [47. 装備アーカイブ番号の実装境界](/design/47-%E8%A3%85%E5%82%99%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E7%95%AA%E5%8F%B7%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 同盟装備の三桁分類番号、五桁登録番号、種類コードを安定した定義メタデータとして保持し、重複、形式不正、分類不一致を検証する。
-- [48. HORIZON A1人間用制式小銃](/design/48-HORIZON-A1%E4%BA%BA%E9%96%93%E7%94%A8%E5%88%B6%E5%BC%8F%E5%B0%8F%E9%8A%83.md) — 139 04217 AR HORIZON A1は、Human Weapons計画が人間側部隊への大量配備用に設計した、6.6×41mm高圧弾を使う品質固定の第一制式小銃である。
-- [49. HORIZON A1の実装境界](/design/49-HORIZON-A1%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — HORIZON A1を、品質を持たず、構造材だけで量産でき、30発の6.6×41mm通常弾薬を使う人間用制式小銃として実装する。
-- [50. 装備庫接続と武器転送の実装境界](/design/50-%E8%A3%85%E5%82%99%E5%BA%AB%E6%8E%A5%E7%B6%9A%E3%81%A8%E6%AD%A6%E5%99%A8%E8%BB%A2%E9%80%81%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 接続装備庫が所有する実物武器を、複製せず状態を保ったまま活動中Pawnへほぼ即時に交換するCore側の取引として実装する。
-- [帝国軍務教範の状態機械](/design/58-%E5%B8%9D%E5%9B%BD%E8%BB%8D%E5%8B%99%E6%95%99%E7%AF%84%E3%81%AE%E7%8A%B6%E6%85%8B%E6%A9%9F%E6%A2%B0.md) — 帝国軍務教範は、平時、警戒、戦闘、復旧の希望態勢と実適用状態を分離し、検証済みの差分を有界キューで適用する。
-- [3. 物理Thingと通貨](/kombinat/core/03-%E7%89%A9%E7%90%86Thing%E3%81%A8%E9%80%9A%E8%B2%A8.md) — 物理材料、工業資源、食料、薬品、武器、防具、固有品は実在するRimWorld ThingDef／Thingである。
-- [5. 発注と多段生産](/kombinat/core/05-%E7%99%BA%E6%B3%A8%E3%81%A8%E5%A4%9A%E6%AE%B5%E7%94%9F%E7%94%A3.md) — αの発注は具体的なThingDef、Recipe、数量または目標在庫を基本とする。
-- [13. β](/kombinat/core/13-%CE%B2.md) — Equipment Familyは作者が明示登録した候補だけを使う。
-- [0. 結論](/pawn/00-%E7%B5%90%E8%AB%96.md) — β版では、シオンPawnを必要に応じて設計、生産、配備、無料保管、修復、回収、再生産できなければならない。
-- [1. 権威と責務](/pawn/01-%E6%A8%A9%E5%A8%81%E3%81%A8%E8%B2%AC%E5%8B%99.md) — Pawnの生成、人格・身体構成、登録、保管、死亡後削除、再実体化、Cloneについて矛盾がある場合、次の順を用いる。
-- [4. データ境界](/pawn/04-%E3%83%87%E3%83%BC%E3%82%BF%E5%A2%83%E7%95%8C.md) — データ境界は、境界：主な内容：保存とPawn Generation Request：適合条件、数量、登録方針、Loadout：完了までを扱う。
-- [B. 必要装備込みの配備](/pawn/069-B-%E5%BF%85%E8%A6%81%E8%A3%85%E5%82%99%E8%BE%BC%E3%81%BF%E3%81%AE%E9%85%8D%E5%82%99.md) — B. 必要装備込みの配備は、射手四体、互換する防具、遠距離武器、医療品を注文する。
-- [C. 一からの個体設計](/pawn/070-C-%E4%B8%80%E3%81%8B%E3%82%89%E3%81%AE%E5%80%8B%E4%BD%93%E8%A8%AD%E8%A8%88.md) — C. 一からの個体設計は、Body、Module、外装、技能、特性、能力、装備を選ぶ。
-- [E. Clone Colony](/pawn/072-E-Clone-Colony.md) — E. Clone Colonyは、一体のRegistered IndividualをClone Sourceにする。
-- [F. 無料保管](/pawn/073-F-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — F. 無料保管は、生存Pawnへ装備とinventory内Thingを持たせてDormant化する。
-- [I. Cloneと固有物](/pawn/076-I-Clone%E3%81%A8%E5%9B%BA%E6%9C%89%E7%89%A9.md) — I. Cloneと固有物は、名前付き武器、Quest参照、称号を持つRegistered IndividualをCloneする。
-- [J. 途中保存と再送](/pawn/077-J-%E9%80%94%E4%B8%AD%E4%BF%9D%E5%AD%98%E3%81%A8%E5%86%8D%E9%80%81.md) — J. 途中保存と再送は、生産、Dormant化、回収、再資源化、再実体化、Cloneの各段階で保存する。
-- [14. β Definition of Done](/pawn/14-%CE%B2-Definition-of-Done.md) — 次を全て満たした時だけ、β版のPawn生産系を完成とする。
+- [14. β Definition of Done](/pawn/14-%CE%B2-Definition-of-Done-%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — 次を全て満たした時だけ、β版のPawn生産系を完成とする。
 - [2.3 無料保管](/pawn/2-3-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — 生存PawnはPawn Foundryまたは対応設備からDormant状態へ移し、必要になるまで保管できる。
-- [3.1 Ephemeral Pawn](/pawn/3-1-Ephemeral-Pawn.md) — 適合生成の既定出力であり、また役割上必要な情報だけを指定し、それ以外をランダム生成する。
-- [3.2 Registered Individual](/pawn/3-2-Registered-Individual.md) — 既存Pawnをプレイヤーが登録すると、個体を再構築するためのIndividual Archiveを作る。
-- [3.3 Saved Pawn Design](/pawn/3-3-Saved-Pawn-Design.md) — 特定の一人ではなく、繰り返し使える製造設計である。
-- [3.4 Clone](/pawn/3-4-Clone.md) — 登録個体または保存設計をClone Sourceにできる。
-- [ADV-003 物理費と人格復元費](/pawn/adv-003.md) — MUST: Archiveが低コストで復元するのは人格・構成情報であり、失われた身体、内蔵Module、着脱装備を無償複製しない。
-- [ADV-009 全状態の保存と冪等性](/pawn/adv-009.md) — MUST: 緊急再配備、着脱品返却、無人生産、参照解決、Manifest診断を途中保存できる。
-- [DOR-007 装備](/pawn/dor-007.md) — MUST: 着脱可能な装備、衣服、工具、inventory内ThingはDormant化のtransaction内でCore独自保管・接続システムまたはMap上の受入先へ一度だけ返却する。
-- [GEN-005 必要装備](/pawn/gen-005.md) — MUST: 生産要求は、具体Thing指定と作者定義のEquipment Familyを併用できる。
-- [GEN-006 原子的配備](/pawn/gen-006.md) — MUST: Body、必須Module、必須能力、必須装備のいずれかが欠ける場合、完成扱いでPawnを出現させない。
-- [INT-001 Production Adapter](/pawn/int-001.md) — MUST: Pawn FoundryはBody、Module、装備、消耗品をKombinat Production Requestとして発注できる。
-- [INT-003 具体装備](/pawn/int-003.md) — MUST: 登録個体の固有装備、名前付き装備、Quest品は具体Thingとして追跡し、Clone時に複製しない。
-- [INT-004 装備ファミリー](/pawn/int-004.md) — MUST: 武器、防具、工具、医療品等のFamily指定は、作者が明示登録した同用途・同性能帯・同費用帯の候補から具体Thingへ解決する。
-- [INT-006 取消と返却](/pawn/int-006.md) — MUST: 生産取消、設計変更、配備失敗時は、未消費資源、完成済み装備、部分完成Bodyを追跡し、複製せずCore独自保管・接続システムまたはMap上の受入先へ返却するか、Factory Buffer内で明示的に再利用する。
-- [PERF-004 量産](/pawn/perf-004.md) — MUST: 同一DesignまたはClone Sourceから100体を連続生産するfixtureで、ID重複、参照共有、装備複製、無制限履歴増加を起こさない。
-- [REC-008 冪等性](/pawn/rec-008.md) — MUST: 回収、再起動、再資源化、再実体化のCommand再送で、Pawn、遺体、装備、資源を二重生成または二重回収しない。
-- [REG-008 Clone後の分岐](/pawn/reg-008.md) — MUST: Clone生成後の経験、関係、傷、改造、装備、登録状態を個別に保存し、元個体または他Cloneへ自動同期しない。
-- [REG-009 外部権利の複製](/pawn/reg-009.md) — MUST: Quest所有権、派閥役職、Royalty称号、固有WorldObject参照、固有装備、Bond等を能力と一緒に暗黙複製しない。
-- [UX-002 費用Preview](/pawn/ux-002.md) — MUST: 生産前にBody、Module、能力、装備、時間、現在在庫、不足、代替、登録方式を表示する。
-- [UX-005 Clone識別](/pawn/ux-005.md) — MUST: 同名・同外見のCloneを許可しつつ、選択、医療、装備、命令で区別できる短い表示識別子を提供する。
+- [3.1 Ephemeral Pawn](/pawn/3-1-Ephemeral-Pawn-%E4%B8%80%E6%99%82%E5%80%8B%E4%BD%93.md) — 適合生成の既定出力であり、また役割上必要な情報だけを指定し、それ以外をランダム生成する。
+- [3.2 Registered Individual](/pawn/3-2-Registered-Individual-%E7%99%BB%E9%8C%B2%E5%80%8B%E4%BD%93.md) — 既存Pawnをプレイヤーが登録すると、個体を再構築するためのIndividual Archiveを作る。
+- [3.3 Saved Pawn Design](/pawn/3-3-Saved-Pawn-Design-%E4%BF%9D%E5%AD%98%E5%80%8B%E4%BD%93%E8%A8%AD%E8%A8%88.md) — 特定の一人ではなく、繰り返し使える製造設計である。
+- [3.4 Clone](/pawn/3-4-Clone-%E8%A4%87%E8%A3%BD%E5%80%8B%E4%BD%93.md) — 登録個体または保存設計をClone Sourceにできる。
+- [ADV-003 物理費と人格復元費](/pawn/adv-003-%E7%89%A9%E7%90%86%E8%B2%BB%E3%81%A8%E4%BA%BA%E6%A0%BC%E5%BE%A9%E5%85%83%E8%B2%BB.md) — MUST: Archiveが低コストで復元するのは人格・構成情報であり、失われた身体、内蔵Module、着脱装備を無償複製しない。
+- [ADV-009 全状態の保存と冪等性](/pawn/adv-009-%E5%85%A8%E7%8A%B6%E6%85%8B%E3%81%AE%E4%BF%9D%E5%AD%98%E3%81%A8%E5%86%AA%E7%AD%89%E6%80%A7.md) — MUST: 緊急再配備、着脱品返却、無人生産、参照解決、Manifest診断を途中保存できる。
+- [DOR-007 装備](/pawn/dor-007-%E8%A3%85%E5%82%99.md) — MUST: 着脱可能な装備、衣服、工具、inventory内ThingはDormant化のtransaction内でCore独自保管・接続システムまたはMap上の受入先へ一度だけ返却する。
+- [GEN-005 必要装備](/pawn/gen-005-%E5%BF%85%E8%A6%81%E8%A3%85%E5%82%99.md) — MUST: 生産要求は、具体Thing指定と作者定義のEquipment Familyを併用できる。
+- [GEN-006 原子的配備](/pawn/gen-006-%E5%8E%9F%E5%AD%90%E7%9A%84%E9%85%8D%E5%82%99.md) — MUST: Body、必須Module、必須能力、必須装備のいずれかが欠ける場合、完成扱いでPawnを出現させない。
+- [INT-001 Production Adapter](/pawn/int-001-%E8%A6%81%E4%BB%B6.md) — MUST: Pawn FoundryはBody、Module、装備、消耗品をKombinat Production Requestとして発注できる。
+- [INT-003 具体装備](/pawn/int-003-%E5%85%B7%E4%BD%93%E8%A3%85%E5%82%99.md) — MUST: 登録個体の固有装備、名前付き装備、Quest品は具体Thingとして追跡し、Clone時に複製しない。
+- [INT-004 装備ファミリー](/pawn/int-004-%E8%A3%85%E5%82%99%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC.md) — MUST: 武器、防具、工具、医療品等のFamily指定は、作者が明示登録した同用途・同性能帯・同費用帯の候補から具体Thingへ解決する。
+- [INT-006 取消と返却](/pawn/int-006-%E5%8F%96%E6%B6%88%E3%81%A8%E8%BF%94%E5%8D%B4.md) — MUST: 生産取消、設計変更、配備失敗時は、未消費資源、完成済み装備、部分完成Bodyを追跡し、複製せずCore独自保管・接続システムまたはMap上の受入先へ返却するか、Factory Buffer内で明示的に再利用する。
+- [PERF-004 量産](/pawn/perf-004-%E9%87%8F%E7%94%A3.md) — MUST: 同一DesignまたはClone Sourceから100体を連続生産するfixtureで、ID重複、参照共有、装備複製、無制限履歴増加を起こさない。
+- [REC-008 冪等性](/pawn/rec-008-%E5%86%AA%E7%AD%89%E6%80%A7.md) — MUST: 回収、再起動、再資源化、再実体化のCommand再送で、Pawn、遺体、装備、資源を二重生成または二重回収しない。
+- [REG-008 Clone後の分岐](/pawn/reg-008-%E5%BE%8C%E3%81%AE%E5%88%86%E5%B2%90.md) — MUST: Clone生成後の経験、関係、傷、改造、装備、登録状態を個別に保存し、元個体または他Cloneへ自動同期しない。
+- [REG-009 外部権利の複製](/pawn/reg-009-%E5%A4%96%E9%83%A8%E6%A8%A9%E5%88%A9%E3%81%AE%E8%A4%87%E8%A3%BD.md) — MUST: Quest所有権、派閥役職、Royalty称号、固有WorldObject参照、固有装備、Bond等を能力と一緒に暗黙複製しない。
+- [UX-002 費用Preview](/pawn/ux-002-%E8%B2%BB%E7%94%A8.md) — MUST: 生産前にBody、Module、能力、装備、時間、現在在庫、不足、代替、登録方式を表示する。
+- [UX-005 Clone識別](/pawn/ux-005-%E8%AD%98%E5%88%A5.md) — MUST: 同名・同外見のCloneを許可しつつ、選択、医療、装備、命令で区別できる短い表示識別子を提供する。
 - [プレイヤーが最初から知ること](/player-facing/001-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%9C%80%E5%88%9D%E3%81%8B%E3%82%89%E7%9F%A5%E3%82%8B%E3%81%93%E3%81%A8.md) — シオンは、製造された身体を持つ機械の民であり、また一人ずつ別の人格を持ち、人工知能でも集合意識でもありません。
 - [β版のPawn工業](/player-facing/002-%CE%B2%E7%89%88%E3%81%AEPawn%E5%B7%A5%E6%A5%AD.md) — β版では、必要な仕事に適合するランダムなシオン、登録済みの個体、プレイヤーが一から設計した個体、既存個体のCloneをPawn Foundryから生産できます。
-- [2. Arsenal Codexの直接交換から採るもの](/research/kombinat-ui-references/02-Arsenal-Codex%E3%81%AE%E7%9B%B4%E6%8E%A5%E4%BA%A4%E6%8F%9B%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — 接続保管庫からPawnへ直接装備し、現在装備を同じ取引で返す操作を、Coreの原子的武器交換の参照とする。
-- [3. プレイヤーへ見せる情報の四層](/research/theme-overhaul/03-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%B8%E8%A6%8B%E3%81%9B%E3%82%8B%E6%83%85%E5%A0%B1%E3%81%AE%E5%9B%9B%E5%B1%A4.md) — プレイヤーが覚える必要のある核は四つだけにする。
-- [4. ゲーム内文章の情報予算](/research/theme-overhaul/04-%E3%82%B2%E3%83%BC%E3%83%A0%E5%86%85%E6%96%87%E7%AB%A0%E3%81%AE%E6%83%85%E5%A0%B1%E4%BA%88%E7%AE%97.md) — 既存838件は削除せず、作者用カタログとして保持する。
-- [5. チープな近未来SFを避ける規則](/research/theme-overhaul/05-%E3%83%81%E3%83%BC%E3%83%97%E3%81%AA%E8%BF%91%E6%9C%AA%E6%9D%A5SF%E3%82%92%E9%81%BF%E3%81%91%E3%82%8B%E8%A6%8F%E5%89%87.md) — 現実性は手触りであり、文明の上限ではないという方針の適用範囲と条件を定める。
-- [6. 実在参照と命名の処理](/research/theme-overhaul/06-%E5%AE%9F%E5%9C%A8%E5%8F%82%E7%85%A7%E3%81%A8%E5%91%BD%E5%90%8D%E3%81%AE%E5%87%A6%E7%90%86.md) — 以下はテーマ・トーン再審査ガイドQ0と、近未来／20世紀パスティーシュ回避の両方から優先度が高い。
-- [0. 結論](/roadmap/00-%E7%B5%90%E8%AB%96.md) — 工業基盤を内部完成させてからShion種族を統合し、MVP／Foundationを独立した製品段階として出荷しない。
+- [4. 新規420稿の割当集計](/reference/backstories/04-%E6%96%B0%E8%A6%8F420%E7%A8%BF%E3%81%AE%E5%89%B2%E5%BD%93%E9%9B%86%E8%A8%88.md) — 各新規稿は主Pool一つとSourceModule一つへ同時算入する。
+- [SHION_C001 礼装工房の手伝い](/reference/backstories/formation/SHION_C001.md) — ソフェルの礼装を仕立てる工房で、採寸、布地の選別、刺繍図案の読み方を学んだ。
+- [SHION_C013 義眼工房の見習い](/reference/backstories/formation/SHION_C013.md) — 義眼工房で、交換用の発光色を依頼者の残った目や古い記録へ合わせた。
+- [SHION_C042 律法を携えた離反者](/reference/backstories/formation/SHION_C042.md) — 内戦後帝国から離反する際、武器より先に最盛期の律法書を持ち出した。
+- [SHION_C057 閉館後の展示替え](/reference/backstories/formation/SHION_C057.md) — 閉館後、帝国と革命の展示を入れ替えた、また同じ剣が英雄の武器と圧政の道具の両方に置かれるため、説明札だけは二枚とも残した。
+- [SHION_C073 全技能基礎課程](/reference/backstories/formation/SHION_C073.md) — 戦闘、建設、農業、医療、芸術、対人を一通り学び、どの教師からも「専門はこれから」と評された。
+- [SHION_C082 鉄律の槍持ち](/reference/backstories/formation/SHION_C082.md) — 導師の槍を運び、稽古の前後に刃と条文を同じ布で磨いた。
+- [SHION_C086 平和軍の馬丁](/reference/backstories/formation/SHION_C086.md) — 出征しない騎兵隊の動物を世話した、また訓練は続いたが、長く戦闘命令は来なかった。
+- [SHION_C127 無人構造物の内部探査](/reference/backstories/formation/SHION_C127.md) — 巨大構造物へ入った時、皆が「歓迎された」「試されている」と言いました。
+- [SHION_C144 機械化訓練地の市民劇](/reference/backstories/formation/SHION_C144.md) — 機械化訓練地の舞台で、本人は装甲兵ではなく避難する市民を演じました。
+- [SHION_C159 平和軍演習院の記録実習](/reference/backstories/formation/SHION_C159.md) — 平和軍演習院では、事実を本文、推測を別紙、後世の注釈を余白へ書きました。
+- [SHION_C185 革命連合後方区の群衆警護](/reference/backstories/formation/SHION_C185.md) — 本人は気が短いので、武器を持たない警護練習を選びました。
+- [SHION_C187 地下灯祭の坑道飾り](/reference/backstories/formation/SHION_C187.md) — 地下灯祭では、坑道の亀裂へ灯りを置き、戻らなかった者の好きな形を壁へ彫りました。
+- [SHION_C191 非常令監視区の修理会](/reference/backstories/formation/SHION_C191.md) — 非常令が出た時、最初に禁止されたのは武器ではなく、修理票の余白に書く冗談だった。
+- [SHION_C200 立入制限地の遠征食](/reference/backstories/formation/SHION_C200.md) — 立入制限地へ持ち込む歓待・救援用の遠征食は、帰還予定日より長く保存できるよう作った。
+- [SHION_C201 開戦前残響域の停戦菜園](/reference/backstories/formation/SHION_C201.md) — 残響域では、戦争を止められたかもしれない瞬間が何度も再現されました。
+- [SHION_C204 特殊任務学校の合奏会](/reference/backstories/formation/SHION_C204.md) — 特殊任務学校の合奏で、軍事作戦と法執行の異なる待機・制止・交渉の間合いを打楽器で表した。
+- [SHION_C208 自治評議区の射撃討議](/reference/backstories/formation/SHION_C208.md) — 自治評議区の射場では、撃つ前に党歴の違う者へ中止条件を説明しました。
+- [SHION_C226 訓練地の保護区通い](/reference/backstories/formation/SHION_C226.md) — 機械化訓練地の保護区で、装甲車を怖がる動物を待つ姿勢を市民避難の誘導へ応用した。
+- [SHION_C232 帰還を競う護衛遊び](/reference/backstories/formation/SHION_C232.md) — 本人たちの遊びは、標的を倒す速さではなく、何人連れて帰れるかを競う護衛戦だった。
+- [SHION_C233 水上の異形競技](/reference/backstories/formation/SHION_C233.md) — 海洋観測区の大会では、共有狐娘型の内部構成や装備によって浮力と水中運動の異なる者が同じ組に入った。
+- [SHION_C245 Kombinat停止夜の誘導](/reference/backstories/formation/SHION_C245.md) — 長い過渡期、ヘイハルKombinatが全面停止した夜がありました。
+- [SHION_C259 毎日の坑道歩き](/reference/backstories/formation/SHION_C259.md) — 本国居住区の坑道を毎日歩き、亀裂と地層音を点検しながら壁画の変化も記録した。
+- [SHION_C273 武器を置いた手と種子](/reference/backstories/formation/SHION_C273.md) — 開戦前の残響域で、本人は故郷の種子を保管していました。
+- [SHION_C274 訓練所の無言の患者](/reference/backstories/formation/SHION_C274.md) — 内戦後の帝国機械化訓練所で、装備稼働率からこぼれ落ちた運搬動物の痛みと飼料不足を記録した。
+- [SHION_C281 鐘の夜の橋守り](/reference/backstories/formation/SHION_C281.md) — 革命連合の山岳連絡区で、本人は住民と荷役動物が渡る橋を守りました。
+- [SHION_C388 港湾護衛隊の帳面](/reference/backstories/formation/SHION_C388.md) — 船団護衛班の見張り番と武器庫の鍵を記録し、数字の厳密さを人を守る引継ぎとして受け継いだ。
+- [SHION_A017 鉄律の守護者](/reference/backstories/mastery/SHION_A017.md) — 鉄律の守護者として、工房、書庫、避難者の警護を担当した。
+- [SHION_A059 無音歌劇監督](/reference/backstories/mastery/SHION_A059.md) — 聴覚の異なる身体と真空環境の観客へ、振動と光だけの歌劇を演出した。
+- [SHION_A069 鉄律大導師](/reference/backstories/mastery/SHION_A069.md) — 無数の決闘を勝ち抜きながら、戦わずに終えた仲裁を最大の功績とした。
+- [SHION_A076 帝国式装備詠唱師](/reference/backstories/mastery/SHION_A076.md) — 最盛期の装備詠唱を現代素材へ適合させ、内戦後に加えられた服従句を全て除いた。
+- [SHION_A085 独立星港建設者](/reference/backstories/mastery/SHION_A085.md) — 社会民主党員、旧共産党員、ファシスト離党者、帝国離反者、無党派が使う星港を建てた。
+- [SHION_A091 同盟親衛射手](/reference/backstories/mastery/SHION_A091.md) — 遠距離射撃で避難路を守り、同族からも稀な精度を認められた。
+- [SHION_A107 共同祝宴堂の徒手警護員](/reference/backstories/mastery/SHION_A107.md) — 共同祝宴堂の混雑を武器なしでほどき、言葉を使わない動物の警告反応も警備情報として待った。
+- [SHION_A108 開戦前残響域の設備技師](/reference/backstories/mastery/SHION_A108.md) — 開戦前の残響が残る区画で、壁と配管と避難路を直しました。
+- [SHION_A119 機械化訓練地の救助員](/reference/backstories/mastery/SHION_A119.md) — 機械化訓練地で、転倒した装甲や狭い操縦区画から負傷者を引き出しました。
+- [SHION_A130 自治評議区の射撃教官](/reference/backstories/mastery/SHION_A130.md) — 自治評議区では、違う党歴を持つ住民へ射撃を教えました。
+- [SHION_A131 星間市場の徒手警護員](/reference/backstories/mastery/SHION_A131.md) — 星間市場の祭りで武器を使わず揉め事をほどき、翌日も取引できる信用と荷獣の安全を守った。
+- [SHION_A137 制裁作戦監査室の精密工](/reference/backstories/mastery/SHION_A137.md) — 制裁部隊の装備を監査しながら、技術大会の審判もしました。
+- [SHION_A148 離散船団の終生飼養員](/reference/backstories/mastery/SHION_A148.md) — 離散船団で、役目を終えた救助動物を最後まで世話しました。
+- [SHION_A162 立入制限地の舞台演出家](/reference/backstories/mastery/SHION_A162.md) — 立入制限地の回収班で舞台を作り、危険遺物の密売摘発にも同行しました。
+- [SHION_A164 開戦前残響域の討論調停人](/reference/backstories/mastery/SHION_A164.md) — 開戦前の残響を再現した討論大会で、停戦派と継戦派を調停しました。
+- [SHION_A173 要塞潜入路の精密工](/reference/backstories/mastery/SHION_A173.md) — 要塞への潜入路で、少人数用の工具と停止機構を作りました。
+- [SHION_A179 山岳連絡区の徒手警護員](/reference/backstories/mastery/SHION_A179.md) — 山岳連絡区の橋を守り、党派の違う部隊が喧嘩すれば武器を抜く前に抱えて離しました。
+- [SHION_A183 機械化訓練地の種子管理官](/reference/backstories/mastery/SHION_A183.md) — 訓練地で本人が守っていたのは、武器庫より種子庫だった。
+- [SHION_A191 塔域居住層の徒手警護員](/reference/backstories/mastery/SHION_A191.md) — 塔域居住層で人の流れを読み、武器を抜かず群衆を分け、端末投影と独立人格を混同しない確認を守った。
+- [SHION_A194 本国居住区の保存食職人](/reference/backstories/mastery/SHION_A194.md) — 本国居住区で、外部居住者の栄養条件とシオンの感覚文化の双方に応じた保存食を作った。
+- [SHION_A196 帰還兵港の動物義肢技師](/reference/backstories/mastery/SHION_A196.md) — 帰還兵港には、兵士だけでなく軍用動物も戻ってきた。
+- [SHION_A203 人格照合局の徒手警護員](/reference/backstories/mastery/SHION_A203.md) — 人格照合局では、外見が同じ者同士を見物しようと群衆が集まることがあった。
+- [SHION_A209 制裁作戦監査室の義肢調整師](/reference/backstories/mastery/SHION_A209.md) — 制裁作戦の後、本人は負傷者の義肢を調整し、同時に部隊の装備も監査した。
+- [SHION_A215 共同祝宴堂の会場警護員](/reference/backstories/mastery/SHION_A215.md) — 共同祝宴堂で武器を使わず衝突を止め、食事を必要としない者も同じ卓へ迎える会場を守った。
+- [SHION_A256 開戦前残響域の終生飼養員](/reference/backstories/mastery/SHION_A256.md) — 開戦前の残響域で、本人は役目を終えた動物の日課を守っていた。
+- [SHION_A263 対機械戦区の徒手警護員](/reference/backstories/mastery/SHION_A263.md) — 対機械戦区では、避難者と飼育動物を武器なしで誘導した。
+- [SHION_A299 旧党派収容記録所の徒手警護員](/reference/backstories/mastery/SHION_A299.md) — 旧党派収容記録所で、本人は武器を持たず収容者と見物人の間へ立った。
+- [SHION_A315 越冬隊の灯守り](/reference/backstories/mastery/SHION_A315.md) — 氷原探査で装備・燃料・外部隊員用食糧を管理し、全員を救えなかった四度目の判断を今も記憶している。
+- [SHION_A321 境界哨戒隊の見張り番](/reference/backstories/mastery/SHION_A321.md) — 今は哨戒に出ることはない、装備の点検を任されているだけだ。
+- [SHION_A354 秩序維持隊の初代隊員](/reference/backstories/mastery/SHION_A354.md) — 秩序維持隊の初代選抜で、武器ではなく当事者双方の話を先に聞く役を担った。

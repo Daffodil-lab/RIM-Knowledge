@@ -4,8 +4,6 @@ title: "確定#211：GregTech: New Horizons（およびTerraFirmaGreg）を参�
 description: "GregTech: New Horizons（およびTerraFirmaGreg）を参考に、メイン資源植物カタログと狐人形専用素材の両方を大幅増設——50品目から100品目・300品種へ拡大を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

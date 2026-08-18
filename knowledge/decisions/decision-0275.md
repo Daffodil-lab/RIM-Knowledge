@@ -4,9 +4,7 @@ title: "確定#275：GILGAL/ESH/SODOM/REHOVOT向けの弾種バリエーショ�
 description: "GILGAL/ESH/SODOM/REHOVOT向けの弾種バリエーションを新設、RAKIAを2バリエーションに明確化を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

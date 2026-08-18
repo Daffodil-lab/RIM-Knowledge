@@ -4,10 +4,8 @@ title: "確定#138：Diasporaシリーズ（民間開拓団装備・段0-1）新
 description: "Diasporaシリーズ（民間開拓団装備・段0-1）新設を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "red-star"
   - "equipment"
-  - "canon"
 organization_groups:
   - "red-star"
 status: deprecated

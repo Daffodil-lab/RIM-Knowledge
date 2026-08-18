@@ -33,6 +33,12 @@ generated:
 
 値の正誤を固定せず、人物像と実装値を分離する。したがって`hard-conflict`ではなく、旧案と現行設計の`overhaul-divergence`として解消する。
 
+## 時系列
+
+- 作成日不明 — 退役済み旧原本v1は、`Tier +12`と`Quality 1.10–1.20`を匿名のソフェルの確定値として扱っていた。
+- 2026-07-26 — 再監査で人物像と実装値を分離し、旧数値を歴史資料、TierとQualityを実装予約へ移した。この時点で本件を解決済みとした。
+- 2026-08-04 — 現行処置を正しい正本判断として再確認した。`conflict_state: resolved`、`blocking: false`を維持する。
+
 ## 処置
 
 - 人物像は[匿名のソフェル](/characters/anonymous-sofer/00-現行正史.md)へ統合した。
@@ -50,4 +56,4 @@ generated:
 - 現行処置: [匿名のソフェルの実装予約](/characters/anonymous-sofer/53-実装予約.md)
 - 正本: [保護された未確定事項](/world/11-保護された未確定事項.md)
 - 設計境界: [個体設計](/design/13-個体設計.md)
-- 判定規則: [オーバーホール中の矛盾判定規則](/governance/contradiction-policy.md)
+- 判定規則: [オーバーホール中の矛盾判定規則](/governance/contradiction-policy-オーバーホール中の矛盾判定規則.md)

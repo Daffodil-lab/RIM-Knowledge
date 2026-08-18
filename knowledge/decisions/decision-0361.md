@@ -4,11 +4,9 @@ title: "確定#361：内戦起源・自治構造・辺境警告譚の正史台�
 description: "内戦起源・自治構造・辺境警告譚の正史台帳反映を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "kombinat"
   - "pawn"
   - "independent-colony"
-  - "canon"
 organization_groups:
   - "independent-frontier"
   - "kombinat-communities"

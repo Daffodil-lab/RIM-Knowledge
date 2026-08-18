@@ -2,13 +2,17 @@
 
 ## 項目
 
-- [正本優先の通常参照方針](canonical-first-reading-policy.md) — RIMの通常読み込み入口を現行正本・カタログビューへ限定し、決定履歴と調査・参照資料を履歴・補助層として扱う。
-- [知識の権威順位とライフサイクル](authority-and-lifecycle.md) — このOKFバンドルはRIMプロジェクト知識の入口であり、原子的な概念ファイルを現行の参照単位とする。
-- [RIM OKFメタデータ契約](metadata-contract.md) — RIM概念ファイルのOKF 0.2標準メタデータと正本所有拡張の必須構造を定める。
-- [知識所有者マップ](ownership-map.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
-- [重複と異なる粒度の管理規則](duplication-policy.md) — 同じ内容を異なる粒度で必要とする場合でも、事実の所有者は一つにする。
-- [一件一ファイルとリンク規則](atomicity-and-links.md) — 知識は、単独で参照・更新・廃止できる最小単位へ分ける。
-- [OKF知識の更新手順](editing-workflow.md) — OKF知識の更新手順は、ルート索引から対象領域を選ぶ。
-- [現行資料の正仕様記述](positive-specification-policy.md) — 履歴資料以外の文書は、採用済みの構造、状態、振る舞い、境界、失敗時結果、性能条件を正の仕様として記述する。
-- [Google上流OKF追随方針](okf-upstream-following-policy.md) — GoogleCloudPlatform/knowledge-catalogのOKF規範とVisualize参照実装を確認し、RIM固有拡張をRIM側で所有する追随手順を定める。
-- [オーバーホール中の矛盾判定規則](contradiction-policy.md) — 改稿差分を誤って矛盾と判定せず、現行正本の衝突だけを止めるための規則。
+- [共有・シオン・カエラヴィ区分](project-scope-共有・シオン・カエラヴィ区分.md) — 概念を共有、シオン、カエラヴィのいずれか一つの所属MOD区分へ解決し、所属MODから探す派生索引を安定して生成する。
+- [知識の権威順位とライフサイクル](authority-and-lifecycle-知識の権威順位とライフサイクル.md) — このOKFバンドルはRIMプロジェクト知識の入口であり、原子的な概念ファイルを現行の参照単位とする。
+- [正本優先の通常参照方針](canonical-first-reading-policy-正本優先の通常参照方針.md) — RIMの通常読み込み入口を現行正本・カタログビューへ限定し、決定履歴と調査・参照資料を履歴・補助層として扱う。
+- [Google上流OKF追随方針](okf-upstream-following-policy-Google上流OKF追随方針.md) — GoogleCloudPlatform/knowledge-catalogのOKF規範とVisualize参照実装を確認し、RIM固有拡張をRIM側で所有する追随手順を定める。
+- [RIM OKFメタデータ契約](metadata-contract-メタデータ契約.md) — RIM概念ファイルのOKF 0.2標準メタデータと正本所有拡張の必須構造を定める。
+- [知識所有者マップ](ownership-map-知識所有者マップ.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
+- [重複と異なる粒度の管理規則](duplication-policy-重複と異なる粒度の管理規則.md) — 同じ内容を異なる粒度で必要とする場合でも、事実の所有者は一つにする。
+- [一件一ファイルとリンク規則](atomicity-and-links-一件一ファイルとリンク規則.md) — 知識は、単独で参照・更新・廃止できる最小単位へ分ける。
+- [OKF知識の更新手順](editing-workflow-知識の更新手順.md) — OKF知識の更新手順は、ルート索引から対象領域を選ぶ。
+- [人間による承認境界](human-approval-boundary-人間による承認境界.md) — RIM-Knowledgeでは、所有者が目的、正本、内容、影響、未確認事項、公開可否を判断し、コードの行単位理解を承認条件にしない。
+- [コード解説の作成規則](code-explanation-policy-コード解説の作成規則.md) — コード変更には、非技術者が目的、処理の流れ、状態変更、失敗時結果、検査範囲を追える日本語解説を同じPull Requestで添える。
+- [OKF統合保守コード解説](okf-maintenance-code-guide-OKF統合保守コード解説.md) — maintain-okf.mjsは、OKF派生資料を固定順で更新し、構造、リンク、重複、矛盾を一括検査するローカル実行用の統合入口である。
+- [現行資料の正仕様記述](positive-specification-policy-現行資料の正仕様記述.md) — 履歴資料以外の文書は、採用済みの構造、状態、振る舞い、境界、失敗時結果、性能条件を正の仕様として記述する。
+- [オーバーホール中の矛盾判定規則](contradiction-policy-オーバーホール中の矛盾判定規則.md) — 改稿差分を誤って矛盾と判定せず、現行正本の衝突だけを止めるための規則。

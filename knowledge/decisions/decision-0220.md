@@ -4,9 +4,7 @@ title: "確定#220：ゼロ点エネルギー機械一式（真空濃縮器・�
 description: "ゼロ点エネルギー機械一式（真空濃縮器・発電機・備蓄装置・パイプライン設備）は「同盟旧制式技術」ではなく「同盟民間最新技術」——同盟本国の巨大機械でしか同等出力を得られなかった時代からの新しい小型化技術と訂正を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "independent-colony"
-  - "canon"
 organization_groups:
   - "independent-frontier"
 status: deprecated

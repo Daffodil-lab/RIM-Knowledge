@@ -4,8 +4,6 @@ title: "確定#209：新勢力「サミズダート（Самиздат）」を�
 description: "新勢力「サミズダート（Самиздат）」を新設——狐人形素材加工とゼロ点エネルギー機械類の製造を担う非法人・分散型技師集団を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

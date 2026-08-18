@@ -4,8 +4,6 @@ title: "確定#223：CoreMOD資料§12.3「Tier別・品種別の消費量」を
 description: "CoreMOD資料§12.3「Tier別・品種別の消費量」をCoreMODから削除し資源植物資料§4.3へ差し戻し、後続§12.4〜12.12を§12.3〜12.11へ繰り上げを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

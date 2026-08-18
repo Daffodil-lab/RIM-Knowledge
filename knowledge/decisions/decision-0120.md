@@ -4,10 +4,8 @@ title: "確定#120：Leviathansの「最強の軍団」判定基準＝capstone�
 description: "Leviathansの「最強の軍団」判定基準＝capstone個体の撃破を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

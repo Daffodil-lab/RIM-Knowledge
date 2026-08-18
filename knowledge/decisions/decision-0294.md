@@ -4,9 +4,7 @@ title: "確定#294：資源名「液化メカナイト」を「cell」へ改名"
 description: "資源名「液化メカナイト」を「cell」へ改名を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

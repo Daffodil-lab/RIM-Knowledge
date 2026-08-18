@@ -4,8 +4,6 @@ title: "確定#226：CoreMOD§12.4「栽培条件」から、CoreMOD対象植物
 description: "CoreMOD§12.4「栽培条件」から、CoreMOD対象植物種の再確認文とНедраシリーズ（太陽花等）への参照・拡張MOD委任の注記を削除を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

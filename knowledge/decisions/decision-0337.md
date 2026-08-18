@@ -4,8 +4,6 @@ title: "確定#337：今回の開発目的をMVP（最小実行可能製品）�
 description: "今回の開発目的をMVP（最小実行可能製品）までと明記（対象：Tower Ledger統合工業システム§13）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

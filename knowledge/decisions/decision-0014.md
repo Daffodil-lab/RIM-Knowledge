@@ -4,8 +4,6 @@ title: "確定#14：弱点は資源で全消去できる（§5 バランス法�
 description: "弱点は資源で全消去できる（§5 バランス法則）。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

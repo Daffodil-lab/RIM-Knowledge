@@ -4,10 +4,8 @@ title: "確定#344：Tower Ledger／Nexus Core等の用語をA系統（Kombinat�
 description: "Tower Ledger／Nexus Core等の用語をA系統（Kombinat）／B系統（The Hive）で改称を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "kombinat"
   - "the-hive"
-  - "canon"
 organization_groups:
   - "kombinat-communities"
   - "the-hive"

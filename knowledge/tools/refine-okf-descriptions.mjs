@@ -29,11 +29,17 @@ const overrides = fs.existsSync(OVERRIDES_PATH)
   ? JSON.parse(fs.readFileSync(OVERRIDES_PATH, "utf8"))
   : {};
 const records = readConcepts(BUNDLE);
+const FROZEN_REFERENCE_AUTHORITIES = new Set([
+  "reference",
+  "historical",
+  "catalog",
+]);
 const changes = [];
 const errors = [];
 const domainSamples = new Map();
 
 for (const record of records) {
+  if (FROZEN_REFERENCE_AUTHORITIES.has(record.metadata.authority)) continue;
   const generic = GENERIC_DESCRIPTION_PATTERNS.some((pattern) =>
     pattern.test(record.description),
   );
@@ -44,7 +50,7 @@ for (const record of records) {
     );
   const generatedBackstoryCandidate =
     record.type === "Backstory Record" &&
-    record.metadata.canon_review === "candidate";
+    record.metadata.reference_review === "candidate";
   const currentProblems = descriptionProblems(record.description);
   const description =
     generic ||

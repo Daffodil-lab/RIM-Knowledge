@@ -4,9 +4,7 @@ title: "確定#272：観測・通信装備（TZOFEH/KESHER）とステルス装�
 description: "観測・通信装備（TZOFEH/KESHER）とステルス装備（NISTAR/MISTOR/MAGENシリーズ）を新設、既存装備にステルス性補正を追加を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

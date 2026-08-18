@@ -4,9 +4,7 @@ title: "確定#170：コア特性を6種へ縮小、残り21種＋新規負特�
 description: "コア特性を6種へ縮小、残り21種＋新規負特性4種を任意付与特性プールへ再配置を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

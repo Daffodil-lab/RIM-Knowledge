@@ -4,9 +4,7 @@ title: "確定#108：終点のスケール分離＝ミクロとマクロは別MO
 description: "終点のスケール分離＝ミクロとマクロは別MODに／誰が為に鐘がなるか新設を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

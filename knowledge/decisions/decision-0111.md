@@ -4,10 +4,8 @@ title: "確定#111：ゲームプレイ機構＝バニラ準拠の別マップ�
 description: "ゲームプレイ機構＝バニラ準拠の別マップ転送を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

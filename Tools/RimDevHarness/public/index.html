@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="ja">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="color-scheme" content="dark">
+    <title>RIM Dev Harness</title>
+    <link rel="stylesheet" href="/styles.css">
+  </head>
+  <body>
+    <header class="topbar">
+      <div class="brand">
+        <span class="eyebrow">RIM DEV HARNESS</span>
+        <h1>RimWorld MOD 開発管制</h1>
+      </div>
+      <div class="context">
+        <span id="repo" class="repo">対象repoを確認中</span>
+        <span id="connection" class="chip chip-offline">Codex 未接続</span>
+        <span class="token-chip">Tokens <strong id="tokens">0</strong></span>
+      </div>
+      <div class="toolbar">
+        <button id="new-run-toggle" type="button">新規run</button>
+        <button id="copy-repo" type="button">repoパスをコピー</button>
+        <button id="inspect-current" type="button">現在ノードを検査</button>
+        <button id="overall-validation" type="button">総合検証</button>
+        <button id="connect" class="primary" type="button">Codex接続</button>
+      </div>
+    </header>
+
+    <main class="layout">
+      <section class="workspace">
+        <form id="new-run" class="run-form">
+          <div class="form-heading">
+            <div>
+              <span class="eyebrow">NEW RUN</span>
+              <h2>実装契約を先に定義</h2>
+            </div>
+            <span>stateは <code>.git-sync/harness</code> へ自動保存</span>
+          </div>
+          <label>目的
+            <input id="objective" required placeholder="例: Shion Coreのproduction smokeを再現可能にする">
+          </label>
+          <div class="condition-grid">
+            <label>完了条件
+              <textarea id="completion" placeholder="RimWorld 1.6でloadable&#10;対象テストがPASS&#10;runtime evidenceを保存"></textarea>
+            </label>
+            <label>調査条件
+              <textarea id="investigation" placeholder="Verse APIのversion差異&#10;reservation pathが未確定"></textarea>
+            </label>
+            <label>停止条件
+              <textarea id="stop" placeholder="同一失敗を新情報なしで2回&#10;人間承認なしの破壊操作"></textarea>
+            </label>
+          </div>
+          <div class="run-form-footer">
+            <label>Agent phaseごとのgoal token budget（任意）
+              <input id="budget" type="number" min="1" step="1" placeholder="未入力なら設定しない">
+            </label>
+            <button class="primary" type="submit">開発runを作成</button>
+          </div>
+        </form>
+
+        <section class="graph-shell" aria-labelledby="graph-title">
+          <div class="section-title">
+            <div>
+              <span class="eyebrow">WORKFLOW GRAPH</span>
+              <h2 id="graph-title">計画 → 実装 → 検証 → 独立レビュー</h2>
+            </div>
+            <span id="run-status" class="chip">run未作成</span>
+          </div>
+          <div id="graph" class="graph" aria-label="MOD開発フロー"></div>
+        </section>
+
+        <section class="chat-shell" aria-labelledby="chat-title">
+          <div class="section-title chat-heading">
+            <div>
+              <span class="eyebrow">CODEX CHAT</span>
+              <h2 id="chat-title">現在phaseのCodexと相談</h2>
+            </div>
+            <span id="chat-availability" class="chip">runを作成してください</span>
+          </div>
+          <p class="chat-boundary">
+            この会話はRIM Dev Harnessが起動した別のCodex App Server threadです。現在開いているCodex Desktop taskとは同期しません。
+          </p>
+          <div id="chat-log" class="chat-log" aria-live="polite" aria-label="Codexとの会話履歴"></div>
+          <form id="chat-form" class="chat-form">
+            <label for="chat-input">メッセージ</label>
+            <textarea id="chat-input" maxlength="4000" rows="3" placeholder="現在の計画、実装、検証結果について質問・追加指示を送る"></textarea>
+            <div class="chat-form-footer">
+              <span>Ctrl + Enterで送信。承認・検証・公開ゲートは自動では進みません。</span>
+              <button id="chat-send" class="primary" type="submit">Codexへ送信</button>
+            </div>
+          </form>
+        </section>
+      </section>
+
+      <aside class="rail">
+        <section>
+          <div class="tab-title"><span>Inspector</span><span id="selected-id">—</span></div>
+          <div id="inspector" class="panel muted">ノードを選択してください</div>
+        </section>
+
+        <section>
+          <div class="tab-title"><span>Run actions</span><span>明示操作のみ</span></div>
+          <div class="panel action-stack">
+            <button id="plan-start" class="primary" type="button">Solで計画開始</button>
+            <button id="plan-approve" type="button">計画を承認</button>
+            <button id="implement-start" type="button">Lunaで実装開始</button>
+            <button id="review-start" type="button">Sol独立レビュー開始</button>
+            <button id="repair-start" type="button">Lunaで承認範囲を修正</button>
+            <button id="turn-interrupt" class="danger" type="button">現在turnを停止</button>
+          </div>
+        </section>
+
+        <section id="validation-section">
+          <div class="tab-title"><span>Validation</span><span>証拠必須</span></div>
+          <form id="validation-form" class="panel compact-form">
+            <select id="validation-outcome" aria-label="検証結果">
+              <option value="pass">PASS</option>
+              <option value="fail">FAIL</option>
+              <option value="investigate">調査へ</option>
+              <option value="stop">停止</option>
+            </select>
+            <textarea id="validation-evidence" placeholder="実行コマンド、ログ、runtime証拠"></textarea>
+            <button type="submit">実装検証を記録</button>
+          </form>
+          <form id="final-validation-form" class="panel compact-form">
+            <select id="final-outcome" aria-label="最終検証結果">
+              <option value="pass">PASS</option>
+              <option value="fail">FAIL</option>
+              <option value="investigate">調査へ</option>
+              <option value="stop">停止</option>
+            </select>
+            <textarea id="final-evidence" placeholder="修正後の最終証拠"></textarea>
+            <button type="submit">最終検証を記録</button>
+          </form>
+        </section>
+
+        <section id="human-approval-section">
+          <div class="tab-title"><span>Human approval</span><span>workflow境界</span></div>
+          <div id="human-approval" class="panel muted">内部承認待ちはありません</div>
+          <form id="repair-approval-form" class="panel compact-form">
+            <textarea id="repair-scope" placeholder="レビュー後に、人間が許可する修正範囲"></textarea>
+            <button type="submit">修正範囲を承認</button>
+          </form>
+        </section>
+
+        <section id="app-approval-section">
+          <div class="tab-title danger-title"><span>Codex approval</span><span>command / file</span></div>
+          <div id="app-approval" class="panel approval-card muted">Codexからの権限要求はありません</div>
+          <div class="decision-row">
+            <button id="approval-decline" type="button">拒否</button>
+            <button id="approval-cancel" class="danger" type="button">キャンセルしてturn停止</button>
+            <button id="approval-accept" class="primary" type="button">今回だけ承認</button>
+          </div>
+        </section>
+
+        <section>
+          <div class="tab-title"><span>Review</span><span id="review-count">0</span></div>
+          <pre id="reviews" class="panel output">レビューはまだありません</pre>
+        </section>
+
+        <section>
+          <div class="tab-title"><span>GitHub sync evidence</span><span>公開pushはしない</span></div>
+          <form id="publish-form" class="panel compact-form">
+            <textarea id="publish-evidence" placeholder="remote SHA、Draft PR、Actions結果"></textarea>
+            <button type="submit">同期証拠を記録</button>
+          </form>
+        </section>
+
+        <section>
+          <div class="tab-title"><span>Events</span><button id="clear-events" type="button">消去</button></div>
+          <pre id="events" class="events"></pre>
+        </section>
+      </aside>
+    </main>
+
+    <div id="banner" class="banner" hidden></div>
+    <script type="module" src="/app.mjs"></script>
+  </body>
+</html>

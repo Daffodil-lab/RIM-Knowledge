@@ -4,8 +4,6 @@ title: "確定#285：FTL航法（ワープ）危険性のイメージ元＝ウ�
 description: "FTL航法（ワープ）危険性のイメージ元＝ウォーハンマー40,000のウォープ航法、同盟自身はこれを防ぐ対抗技術を保有を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

@@ -4,9 +4,7 @@ title: "確定#57：MODスコープの分離＝エンドコンテンツは拡張
 description: "MODスコープの分離＝エンドコンテンツは拡張MOD（後日実装）へ：本体MOD＝種族/製造/遺伝子/特性/職級/層A装備(段0-2)/基本研究で完を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

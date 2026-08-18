@@ -4,9 +4,7 @@ title: "確定#311：確定#310のCellの位置づけを修正——Cellは「�
 description: "確定番号310のCellの位置づけを修正——Cellは「橋渡し役」に加え、ステラリスの合金（Alloys）に相当する軍事・艦隊関連資源の役割も兼ねるを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

@@ -6,6 +6,6 @@
 
 | 状態 | 件数 |
 |---|---:|
-| [candidate（新規正史候補）](candidate/) | 0 |
-| [re-audit（旧稿再監査）](re-audit/) | 0 |
+| [candidate（参考候補）](candidate/) | 0 |
+| [re-audit（参考再監査）](re-audit/) | 0 |
 | [under-review（オーバーホール中）](under-review/) | 0 |

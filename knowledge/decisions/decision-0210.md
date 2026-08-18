@@ -4,9 +4,7 @@ title: "確定#210：時計仕掛けの狐人形専用素材Tier1〜10を現実�
 description: "時計仕掛けの狐人形専用素材Tier1〜10を現実の生体医工学史準拠で、Tier11〜20をGregTech: New Horizonsエンドコンテンツ準拠（+「明らかにそうはならん」代物路線）で確定を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

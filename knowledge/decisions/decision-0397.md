@@ -4,13 +4,11 @@ title: "確定#397：Matter Networkを無改造の必須依存へ固定し、上
 description: "Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "kombinat"
   - "matter-network"
   - "pawn"
   - "red-star"
   - "independent-colony"
-  - "canon"
   - "beta"
 organization_groups:
   - "independent-frontier"
@@ -56,7 +54,7 @@ sources:
 - 上位索引: [decisions](/decisions/index.md)
 - 同じ出典の前項: [確定#396：装備の抽象指定を装備ファミリー＋非物理ポイントへ簡略化](/decisions/decision-0396.md)
 - 後続決定: [確定#398：α版からCore独自保管・接続基盤を採用する](/decisions/decision-0398.md)
-- 連携境界: [連携境界](/integrations/matter-network/index.md)
+- 終了案件の参考入口: [旧Matter Network統合検討](/reference/matter-network/00-旧統合検討.md)
 - Kombinat領域: [Kombinat領域](/kombinat/index.md)
 - Pawn領域: [Pawn領域](/pawn/index.md)
 - 独立開拓団: [独立開拓団](/colony/index.md)

@@ -4,8 +4,6 @@ title: "確定#249：Hoi4データWiki（1.17.3時点・ユーザー貼付）で
 description: "Hoi4データWiki（1.17.3時点・ユーザー貼付）で系統名「機甲」を公式和訳「装甲車両」に訂正、サブドクトリンを各系統の全候補（歩兵9・砲兵支援8・装甲車両6・作戦8）へ拡充、習熟度の「初期→レベル1〜5」段階構造を明記を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

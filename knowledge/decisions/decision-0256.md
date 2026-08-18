@@ -4,9 +4,7 @@ title: "確定#256：装備段1・段2の解禁研究をそれぞれ「Diaspora 
 description: "装備段1・段2の解禁研究をそれぞれ「Diaspora Tech company」「旧式装備」として新設・分離を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

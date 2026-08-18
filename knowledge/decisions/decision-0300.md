@@ -4,10 +4,8 @@ title: "確定#300：新規拡張MOD「叛逆航路」（原題：Ancillary Just
 description: "新規拡張MOD「叛逆航路」（原題：Ancillary Justice・旧称/開発コード：Shion Nexus）を登録——単一Nexus Core運営という例外的ゲームプレイ、既存loreとの4件の競合を解決を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "the-hive"
-  - "canon"
 organization_groups:
   - "the-hive"
 status: deprecated

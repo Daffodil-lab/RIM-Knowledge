@@ -4,9 +4,7 @@ title: "確定#315：「労務資本」を「人口」と「労働者」の2資�
 description: "「労務資本」を「人口」と「労働者」の2資源へ分割——基礎資源は7種へを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

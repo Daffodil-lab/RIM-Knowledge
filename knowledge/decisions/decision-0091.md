@@ -4,9 +4,7 @@ title: "確定#91：装備段8-10（カタロニア讃歌で追加）"
 description: "装備段8-10（カタロニア讃歌で追加）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

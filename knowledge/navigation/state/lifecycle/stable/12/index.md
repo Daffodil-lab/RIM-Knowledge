@@ -1,86 +1,86 @@
 # stable 12
 
-範囲: 3. Tier＋12の意味〜28. Definition of Done
+範囲: SHION_A060 局所時間技師〜SHION_A139 装甲救援隊の蘇生後療養医
 
 ## 項目
 
-- [3. Tier＋12の意味](/characters/anonymous-sofer/03-Tier-12%E3%81%AE%E6%84%8F%E5%91%B3.md) — 旧数値案: 身体体系のTierとQualityは現行正史では未確定です。
-- [4. 製造目的](/characters/anonymous-sofer/04-%E8%A3%BD%E9%80%A0%E7%9B%AE%E7%9A%84.md) — 匿名のソフェルは、ImperialPeakにおいて、学究・巡回・記録実務を兼ねるソフェルとして製造された。
-- [5. 律法の専門性](/characters/anonymous-sofer/05-%E5%BE%8B%E6%B3%95%E3%81%AE%E5%B0%82%E9%96%80%E6%80%A7.md) — 匿名のソフェルは、律法について非常に高い熟練を持つ。
-- [6. イェツィラーの専門性](/characters/anonymous-sofer/06-%E3%82%A4%E3%82%A7%E3%83%84%E3%82%A3%E3%83%A9%E3%83%BC%E3%81%AE%E5%B0%82%E9%96%80%E6%80%A7.md) — 匿名のソフェルは、優れたイェツィラー使いである。
-- [7. 一般教養](/characters/anonymous-sofer/07-%E4%B8%80%E8%88%AC%E6%95%99%E9%A4%8A.md) — 匿名のソフェルは、最低限の事柄をほぼ全て知っている。
-- [8. 軍事能力](/characters/anonymous-sofer/08-%E8%BB%8D%E4%BA%8B%E8%83%BD%E5%8A%9B.md) — 匿名のソフェルは、一般的な正規兵士と同程度の軍事技術を持つ。
-- [9. 表面的な性格](/characters/anonymous-sofer/09-%E8%A1%A8%E9%9D%A2%E7%9A%84%E3%81%AA%E6%80%A7%E6%A0%BC.md) — 匿名のソフェルは次のように振る舞う、また礼儀正しい 古風な言葉遣いが残る 声を荒らげない 相手が話し終わるまで待つ 訂正する時は確認形式を使う 自分の知識を誇示しない 必要な時は長く説明する 軽い皮肉や乾いた冗談を使う 自分の名や過去を尋ねられると話題を戻す…。
-- [10. 内面的な性格](/characters/anonymous-sofer/10-%E5%86%85%E9%9D%A2%E7%9A%84%E3%81%AA%E6%80%A7%E6%A0%BC.md) — 内面的な性格は、記録を失うことを強く嫌うと他者の証言を勝手に完成させないを扱う。
-- [11. 欠点](/characters/anonymous-sofer/11-%E6%AC%A0%E7%82%B9.md) — 失われる可能性がある資料を放置できない、また危険な場所へ戻る判断をすることがある。
-- [12. ImperialPeak](/characters/anonymous-sofer/12-ImperialPeak.md) — 匿名のソフェルはImperialPeakに製造された。
-- [13. ImperialCivilWar](/characters/anonymous-sofer/13-ImperialCivilWar.md) — 内戦開始後は、次の任務に従事した、また記録保全 住民避難 通信復旧 施設防衛 負傷者搬送 封印の解除と再設定 軍事文書の整理 破損した人格記録の保護 戦争を英雄的に美化しない。
-- [14. PostCivilWarEmpire](/characters/anonymous-sofer/14-PostCivilWarEmpire.md) — 帝国が自らの律法と制度を破る過程を目撃する、また違法命令 公文書の改竄 証言の削除 秘密警察 責任の転嫁 制度名を利用した圧政 記録の非公開化 この経験によって、公式記録だけを信用しない姿勢が形成される。
-- [15. RevolutionaryWar](/characters/anonymous-sofer/15-RevolutionaryWar.md) — 特定政党の中心人物にはならない、また次の勢力と接触する。
-- [16. LongTransition](/characters/anonymous-sofer/16-LongTransition.md) — 同盟建国後、次の資料を接続する仕事へ参加する、また旧帝国資料 革命各党派の文書 地方共同体の記録 軍の報告 新しい同盟制度 改訂された律法解釈 構成諸民族の証言 矛盾を消すのではなく、異なる呼称と立場を並記する編纂方法を確立する。
-- [17. ModernUnion](/characters/anonymous-sofer/17-ModernUnion.md) — 現在は、プレイヤー向けロア資料とバックストーリー群を編纂している。
-- [18. 匿名である理由](/characters/anonymous-sofer/18-%E5%8C%BF%E5%90%8D%E3%81%A7%E3%81%82%E3%82%8B%E7%90%86%E7%94%B1.md) — 匿名は、一つの事件だけに由来しない、また次の理由が重なっている。
-- [19. 専用Formation Record](/characters/anonymous-sofer/19-%E5%B0%82%E7%94%A8Formation-Record.md) — Era： ImperialPeak Slot： Formation 人物限定： 匿名のソフェル。
-- [20. 専用Mastery Record](/characters/anonymous-sofer/20-%E5%B0%82%E7%94%A8Mastery-Record.md) — Era： ModernUnion Slot： Mastery 人物限定： 匿名のソフェル。
-- [21. 基本ゲームデータ](/characters/anonymous-sofer/21-%E5%9F%BA%E6%9C%AC%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%87%E3%83%BC%E3%82%BF.md) — 旧実装案: 以下は人物像をゲームへ投影するための候補値です。
-- [22. 推奨技能値](/characters/anonymous-sofer/22-%E6%8E%A8%E5%A5%A8%E6%8A%80%E8%83%BD%E5%80%A4.md) — 旧実装案: 以下は能力像を示す候補値であり、現行の確定仕様ではありません。
-- [23. 固有特性構成](/characters/anonymous-sofer/23-%E5%9B%BA%E6%9C%89%E7%89%B9%E6%80%A7%E6%A7%8B%E6%88%90.md) — 固定特性は次の4件を推奨する、また1. 博識のソフェル 2. 名を記さない者 3. 記録を捨てない 4. 鉄の意志 Vanillaの「物覚えが早い」「勤労者」は、固有特性と重複するため使用しない。
-- [24. 固有特性：博識のソフェル](/characters/anonymous-sofer/24-%E5%9B%BA%E6%9C%89%E7%89%B9%E6%80%A7-%E5%8D%9A%E8%AD%98%E3%81%AE%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB.md) — この者は律法とイェツィラーに熟練し、帝国最盛期から多様な分野を学び続けてきた。
-- [25. 固有特性：名を記さない者](/characters/anonymous-sofer/25-%E5%9B%BA%E6%9C%89%E7%89%B9%E6%80%A7-%E5%90%8D%E3%82%92%E8%A8%98%E3%81%95%E3%81%AA%E3%81%84%E8%80%85.md) — この者は証言者の名を残し、自分の名を残さない、また称賛や権威よりも、記録の継続と証言者からの信頼を重んじている。
-- [26. 固有特性：記録を捨てない](/characters/anonymous-sofer/26-%E5%9B%BA%E6%9C%89%E7%89%B9%E6%80%A7-%E8%A8%98%E9%8C%B2%E3%82%92%E6%8D%A8%E3%81%A6%E3%81%AA%E3%81%84.md) — 記録は再現できるとは限らない、またこの者は、その事実を知りすぎている。
-- [27. Vanilla特性：鉄の意志](/characters/anonymous-sofer/27-Vanilla%E7%89%B9%E6%80%A7-%E9%89%84%E3%81%AE%E6%84%8F%E5%BF%97.md) — 長い歴史、戦争、帝国崩壊、革命、編纂活動を継続できた精神性を表す。
-- [28. 能力設計方針](/characters/anonymous-sofer/28-%E8%83%BD%E5%8A%9B%E8%A8%AD%E8%A8%88%E6%96%B9%E9%87%9D.md) — 匿名のソフェルは、直接火力による殲滅を主目的としない。
-- [29. 語義照合](/characters/anonymous-sofer/29-%E8%AA%9E%E7%BE%A9%E7%85%A7%E5%90%88.md) — 原則なし、また匿名のソフェルの中心能力として扱う。
-- [30. 律法的保護](/characters/anonymous-sofer/30-%E5%BE%8B%E6%B3%95%E7%9A%84%E4%BF%9D%E8%AD%B7.md) — 対象Pawn一人へ短時間の保護を与えるという方針の適用範囲と条件を定める。
-- [31. 記録復元](/characters/anonymous-sofer/31-%E8%A8%98%E9%8C%B2%E5%BE%A9%E5%85%83.md) — 破損した物体、端末、死体、記録媒体から情報を回収する。
-- [32. 静かな訂正](/characters/anonymous-sofer/32-%E9%9D%99%E3%81%8B%E3%81%AA%E8%A8%82%E6%AD%A3.md) — 敵対Pawnまたは精神異常状態のPawnへ使用する短距離能力。
-- [33. 撤退路の記述](/characters/anonymous-sofer/33-%E6%92%A4%E9%80%80%E8%B7%AF%E3%81%AE%E8%A8%98%E8%BF%B0.md) — 範囲内の味方を生存させるための戦闘支援能力という方針の適用範囲と条件を定める。
-- [34. 推奨装備](/characters/anonymous-sofer/34-%E6%8E%A8%E5%A5%A8%E8%A3%85%E5%82%99.md) — 推奨装備は、同盟標準ライフルと中距離精密小銃を扱う。
-- [35. 戦闘時の役割](/characters/anonymous-sofer/35-%E6%88%A6%E9%97%98%E6%99%82%E3%81%AE%E5%BD%B9%E5%89%B2.md) — 1. 後衛射撃 2. 律法的保護 3. 精神異常の鎮静 4. 負傷者救助 5. 情報解析 6. 記録媒体回収 7. 撤退支援 前衛重装兵や主力火力にはしない。
-- [36. 頂点専門家ではない](/characters/anonymous-sofer/36-%E9%A0%82%E7%82%B9%E5%B0%82%E9%96%80%E5%AE%B6%E3%81%A7%E3%81%AF%E3%81%AA%E3%81%84.md) — 匿名のソフェルは複数分野で優秀だが、次の専門Pawnには負ける。
-- [37. 過熱](/characters/anonymous-sofer/37-%E9%81%8E%E7%86%B1.md) — Tier＋12に対応する過熱脆弱性を持つ、またイェツィラー能力を連続使用すると、次の症状が発生する。
-- [38. 倫理的拒否](/characters/anonymous-sofer/38-%E5%80%AB%E7%90%86%E7%9A%84%E6%8B%92%E5%90%A6.md) — 匿名のソフェルは作業不能を持たないが、特定行為には専用反応を持つ。
-- [39. 閉架整理](/characters/anonymous-sofer/39-%E9%96%89%E6%9E%B6%E6%95%B4%E7%90%86.md) — 軽度Mental Break、また匿名のソフェルが書庫、研究室、端末付近で記録整理を続ける。
-- [40. 証言照合](/characters/anonymous-sofer/40-%E8%A8%BC%E8%A8%80%E7%85%A7%E5%90%88.md) — 中度Mental Break、また矛盾した証言や記録へ過剰に集中する。
-- [41. 通常会話](/characters/anonymous-sofer/41-%E9%80%9A%E5%B8%B8%E4%BC%9A%E8%A9%B1.md) — 通常会話は、証言を聞くと用語を確認するを扱うという方針の適用範囲と条件を定める。
-- [42. 対象Pawnの心情](/characters/anonymous-sofer/42-%E5%AF%BE%E8%B1%A1Pawn%E3%81%AE%E5%BF%83%E6%83%85.md) — 思い出したくなかった：−3 記録へ残したくなかった：−4 帝国時代を誤解された：−2 党派について詰問された：−3 匿名のソフェルは拒否を失敗として扱わない。
-- [43. 匿名ソフェル側の心情](/characters/anonymous-sofer/43-%E5%8C%BF%E5%90%8D%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E5%81%B4%E3%81%AE%E5%BF%83%E6%83%85.md) — 匿名ソフェル側の心情は、有用な証言：＋3と失われていた記録を回収：＋6を扱う。
-- [44. 通常加入させない](/characters/anonymous-sofer/44-%E9%80%9A%E5%B8%B8%E5%8A%A0%E5%85%A5%E3%81%95%E3%81%9B%E3%81%AA%E3%81%84.md) — 匿名のソフェルは通常のランダムPawnとして出現させない。
-- [45. 加入クエスト案](/characters/anonymous-sofer/45-%E5%8A%A0%E5%85%A5%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E6%A1%88.md) — 匿名のソフェルが、コロニー住民への聞き取りと記録整理のため一定期間滞在する。
-- [46. 永久加入の条件](/characters/anonymous-sofer/46-%E6%B0%B8%E4%B9%85%E5%8A%A0%E5%85%A5%E3%81%AE%E6%9D%A1%E4%BB%B6.md) — 単なる高評価ではなく、匿名のソフェルがプレイヤーコロニーを編纂対象として重要だと判断することを条件とする。
-- [47. 自身の古い署名](/characters/anonymous-sofer/47-%E8%87%AA%E8%BA%AB%E3%81%AE%E5%8F%A4%E3%81%84%E7%BD%B2%E5%90%8D.md) — ImperialPeakの遺跡から、匿名のソフェルと同じ筆跡を持つ署名入り文書が発見される。
-- [48. 訂正依頼](/characters/anonymous-sofer/48-%E8%A8%82%E6%AD%A3%E4%BE%9D%E9%A0%BC.md) — 過去に作成したバックストーリーの証言者が現れ、記録の訂正を求める。
-- [49. 古代の証言者](/characters/anonymous-sofer/49-%E5%8F%A4%E4%BB%A3%E3%81%AE%E8%A8%BC%E8%A8%80%E8%80%85.md) — JourneyEra出身者がコロニーへ現れる、また匿名のソフェルは通常より慎重になり、現代用語を避ける。
-- [50. 失われた秘文字](/characters/anonymous-sofer/50-%E5%A4%B1%E3%82%8F%E3%82%8C%E3%81%9F%E7%A7%98%E6%96%87%E5%AD%97.md) — 匿名のソフェルには読めるが、公開すべきでない秘文字が発見される。
-- [51. 外見の方向性](/characters/anonymous-sofer/51-%E5%A4%96%E8%A6%8B%E3%81%AE%E6%96%B9%E5%90%91%E6%80%A7.md) — 匿名のソフェルは、他のソフェルより極端に豪華な外見にはしない。
-- [52. 会話演出](/characters/anonymous-sofer/52-%E4%BC%9A%E8%A9%B1%E6%BC%94%E5%87%BA.md) — 会話演出は、文章は簡潔と必要な場合のみ専門的を扱う。
-- [匿名のソフェルの実装予約](/characters/anonymous-sofer/53-%E5%AE%9F%E8%A3%85%E4%BA%88%E7%B4%84.md) — 匿名のソフェルの人物像は正史とするが、身体値、技能値、能力、装備、加入方法は担当実装まで固定しない。
-- [0. 結論](/colony/00-%E7%B5%90%E8%AB%96.md) — Coreの最初のプレイ可能対象を、本国政府の正規指揮系統と保証された補給へ恒常的に属さず、自分たちの判断と共同資産で辺境に暮らしを作る小規模な独立開拓団へ固定する。
-- [1. 文書状態と判断の強さ](/colony/01-%E6%96%87%E6%9B%B8%E7%8A%B6%E6%85%8B%E3%81%A8%E5%88%A4%E6%96%AD%E3%81%AE%E5%BC%B7%E3%81%95.md) — 文書状態と判断の強さは、ユーザーの最新決定とシオンShion正史コアv2.mdを扱う。
-- [2. 「独立」の定義](/colony/02-%E7%8B%AC%E7%AB%8B%E3%81%AE%E5%AE%9A%E7%BE%A9.md) — 独立開拓団は、規模、統治制度、職業、思想ではなく、次の本国関係を満たす組織の大分類である。
-- [3. 標準Core開拓団](/colony/03-%E6%A8%99%E6%BA%96Core%E9%96%8B%E6%8B%93%E5%9B%A3.md) — Core α版の標準団は、本人たちの合意で組織された民間の小規模開拓団である。
-- [4. 共同体の原則](/colony/04-%E5%85%B1%E5%90%8C%E4%BD%93%E3%81%AE%E5%8E%9F%E5%89%87.md) — 全独立開拓団に同一憲法を正史化しない、またCore α版の標準団だけが共有する簡易盟約として、次を採用する。
-- [5. 技術と物質的制約](/colony/05-%E6%8A%80%E8%A1%93%E3%81%A8%E7%89%A9%E8%B3%AA%E7%9A%84%E5%88%B6%E7%B4%84.md) — Core α版の標準三人団は次を持ち得るという方針の適用範囲と条件を定める。
-- [6. 日常と俗世性](/colony/06-%E6%97%A5%E5%B8%B8%E3%81%A8%E4%BF%97%E4%B8%96%E6%80%A7.md) — 独立開拓団の魅力を、欠乏と工業だけにしない、また生活を作る行為そのものをCoreの早期ゲームへ置く。
-- [7. 現地住民、救援、善意の非対称性](/colony/07-%E7%8F%BE%E5%9C%B0%E4%BD%8F%E6%B0%91-%E6%95%91%E6%8F%B4-%E5%96%84%E6%84%8F%E3%81%AE%E9%9D%9E%E5%AF%BE%E7%A7%B0%E6%80%A7.md) — Core α版の標準団は国家代表ではないが、同盟文明の善意を持つ。
-- [8. 標準開始シナリオ](/colony/08-%E6%A8%99%E6%BA%96%E9%96%8B%E5%A7%8B%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — Core α決定: 仮の表示名を次とするという方針の適用範囲と条件を定める。
-- [9. α版ゲームループとβ予約](/colony/09-%CE%B1%E7%89%88%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%AB%E3%83%BC%E3%83%97%E3%81%A8%CE%B2%E4%BA%88%E7%B4%84.md) — 長い設定説明より、開始状況と現在の不足を先に見せる。
-- [10. α／βの境界](/colony/10-%CE%B1-%CE%B2%E3%81%AE%E5%A2%83%E7%95%8C.md) — 工業基盤を内部完成させてからShion独立開拓団をαへ統合し、独立したMVP／Foundation製品は設けない。
-- [11. 現在の実装状態](/colony/11-%E7%8F%BE%E5%9C%A8%E3%81%AE%E5%AE%9F%E8%A3%85%E7%8A%B6%E6%85%8B.md) — 2026-07-25時点で、Core製品として受入済みの実装はない。
-- [12. 目標パッケージ構造](/colony/12-%E7%9B%AE%E6%A8%99%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E6%A7%8B%E9%80%A0.md) — CoreはRimWorld 1.6、Royalty、Ideology、Biotech、Anomaly、Odysseyを必須とする。
-- [13. Assembly責務](/colony/13-Assembly%E8%B2%AC%E5%8B%99.md) — αでは、Kombinatとの開始接続、最低限の初期化、エラー表示に必要な責務だけを実装する。
-- [14. 最小データモデル](/colony/14-%E6%9C%80%E5%B0%8F%E3%83%87%E3%83%BC%E3%82%BF%E3%83%A2%E3%83%87%E3%83%AB.md) — 開始立場と初期工業状態をデータ駆動にするという方針の適用範囲と条件を定める。
-- [15. ScenarioDefとPawn生成](/colony/15-ScenarioDef%E3%81%A8Pawn%E7%94%9F%E6%88%90.md) — XMLで表現できるThing、人数、文章をC番号へ直書きしない。
-- [16. 工業管制塔](/colony/16-Field-Ledger-Terminal.md) — コアMODからコンビナートへ入る最初の可視入口とする。
-- [17. Field Workshopのαコンテンツ](/colony/17-Field-Workshop%E3%81%AE%CE%B1%E3%82%B3%E3%83%B3%E3%83%86%E3%83%B3%E3%83%84.md) — Core独自Storageと、Kombinat追加層の発注・多段生産・消費・流通・通貨、独立開拓団用の代表的な三段閉路を同じα公開候補で完成させる。
-- [18. 独立状態のUI](/colony/18-%E7%8B%AC%E7%AB%8B%E7%8A%B6%E6%85%8B%E3%81%AEUI.md) — 複雑な外交画面をα版へ作らない、また開始情報または簡易情報カードで次を示す。
-- [19. 救援クエスト縦切り](/colony/19-%E6%95%91%E6%8F%B4%E3%82%AF%E3%82%A8%E3%82%B9%E3%83%88%E7%B8%A6%E5%88%87%E3%82%8A.md) — 一件目は、魂や復活ではなく物質的に分かりやすい救援にする。
-- [20. バックストーリー最小セット](/colony/20-%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC%E6%9C%80%E5%B0%8F%E3%82%BB%E3%83%83%E3%83%88.md) — 全カタログをCoreへ一括投入しないという方針の適用範囲と条件を定める。
-- [21. α版の実装フェーズ](/colony/21-%CE%B1%E7%89%88%E3%81%AE%E5%AE%9F%E8%A3%85%E3%83%95%E3%82%A7%E3%83%BC%E3%82%BA.md) — Phase 0〜4で工業基盤を内部完成させ、Phase 5でShion種族と独立開始を統合し、Phase 6でα公開候補を検証する。
-- [22. 検証仕様](/colony/22-%E6%A4%9C%E8%A8%BC%E4%BB%95%E6%A7%98.md) — 検証仕様は、独立を反乱、追放、犯罪として固定していない。
-- [23. 失敗時の規則](/colony/23-%E5%A4%B1%E6%95%97%E6%99%82%E3%81%AE%E8%A6%8F%E5%89%87.md) — エラー時にRed Star支援やHive機能を代替起動しない。
-- [24. 暫定調整項目](/colony/24-%E6%9A%AB%E5%AE%9A%E8%AA%BF%E6%95%B4%E9%A0%85%E7%9B%AE.md) — 次は実プレイで決める、また本文正史へ固定しない。
-- [25. 保護候補と廃止](/colony/25-%E4%BF%9D%E8%AD%B7%E5%80%99%E8%A3%9C%E3%81%A8%E5%BB%83%E6%AD%A2.md) — 採用時は固有名、外部参照、現テーマとの整合を再監査する。
-- [26. レッドスターとの比較](/colony/26-Red-Star%E3%81%A8%E3%81%AE%E6%AF%94%E8%BC%83.md) — レッドスターの支援は、物語上の看板や低確率イベントではない。
-- [27. The Hiveとの境界](/colony/27-The-Hive%E3%81%A8%E3%81%AE%E5%A2%83%E7%95%8C.md) — The Hiveの設定資料は保存するが、独立開拓団実装の抽象化要件にしない。
-- [28. Definition of Done](/colony/28-Definition-of-Done.md) — Core独立開拓団α版は、次を全て満たした時に完成する。
+- [SHION_A060 局所時間技師](/reference/backstories/mastery/SHION_A060.md) — 病院、農場、航路ごとに異なる時間流を接続し、住民の一日が行政の一日から滑り落ちないよう保守した。
+- [SHION_A061 人格連続性医](/reference/backstories/mastery/SHION_A061.md) — 蘇生後の記憶欠損を治療しながら、欠けた部分を家族の望む物語で埋めないよう注意した。
+- [SHION_A062 星域農学者](/reference/backstories/mastery/SHION_A062.md) — 恒星ごとに異なる季節を繋ぎ、飢饉のない輪作を設計した。
+- [SHION_A063 多構成身体建築士](/reference/backstories/mastery/SHION_A063.md) — 同じ狐娘型でも重量、感覚、可動域、保守条件の異なる身体と、外部住民が同じ建物を使えるよう設計した。
+- [SHION_A064 記憶気象学者](/reference/backstories/mastery/SHION_A064.md) — 故郷の雨を気象記録と住民の記憶から再現した、また数値上は同じ雨でも、友人が待っていた軒先がなければ違う天気だと報告書へ記した。
+- [SHION_A065 復活獣医](/reference/backstories/mastery/SHION_A065.md) — 絶滅動物を蘇らせるだけでなく、戻った個体が以前の群れへ馴染めるまで付き添った。
+- [SHION_A066 因果事故調査員](/reference/backstories/mastery/SHION_A066.md) — 原因より先に結果が届いた事故を調べ、未来の報告書を証拠品として封印した。
+- [SHION_A067 恒温生態設計者](/reference/backstories/mastery/SHION_A067.md) — 時間流の異なる住民と動植物が共存できる恒温圏を設計した。
+- [SHION_A068 マソレット大書記](/reference/backstories/mastery/SHION_A068.md) — 複数文明の秘文字写本を照合し、意味が一致しても歴史の傷まで均してしまわない校訂を行った。
+- [SHION_A069 鉄律大導師](/reference/backstories/mastery/SHION_A069.md) — 無数の決闘を勝ち抜きながら、戦わずに終えた仲裁を最大の功績とした。
+- [SHION_A070 死者対話の校正者](/reference/backstories/mastery/SHION_A070.md) — 保存人格から生成された返答と、生前に本人が残した言葉を区別して遺族へ示した。
+- [SHION_A071 帝国祈祷復元者](/reference/backstories/mastery/SHION_A071.md) — 最盛期の祈祷を、内戦後の命令文と混同されない形で復元した。
+- [SHION_A072 身体秘文字医](/reference/backstories/mastery/SHION_A072.md) — 人工身体の秘文字配列を治療し、痛覚を消す前に本人がその痛みへ与えた意味を尋ねた。
+- [SHION_A073 星界マソレット](/reference/backstories/mastery/SHION_A073.md) — 星域を跨ぐ秘文字体系を校訂し、時間流の異なる写本を一つの儀式へ接続した。
+- [SHION_A074 ティクーン公共監査人](/reference/backstories/mastery/SHION_A074.md) — 異常現実改変が公共利益へ使われたか監査し、奇跡という呼び名で費用と被害を隠すことを許さなかった。
+- [SHION_A075 破損奇跡の修復者](/reference/backstories/mastery/SHION_A075.md) — 願いだけ叶えて代価を忘れた装置を修理し、使用者の望みを聞く前に停止機構を作った。
+- [SHION_A076 帝国式装備詠唱師](/reference/backstories/mastery/SHION_A076.md) — 最盛期の装備詠唱を現代素材へ適合させ、内戦後に加えられた服従句を全て除いた。
+- [SHION_A077 評議会記憶官](/reference/backstories/mastery/SHION_A077.md) — 採決結果だけでなく、少数意見と途中で撤回された提案も保存した。
+- [SHION_A078 評議会議長経験者](/reference/backstories/mastery/SHION_A078.md) — 相反する星域と党派をまとめ、最盛期の平和を超える長期計画を可決へ導いた。
+- [SHION_A079 三星域調停官](/reference/backstories/mastery/SHION_A079.md) — 時間流も法律も異なる三つの星域を往復し、同じ合意文を三通りの未来で成立させた。
+- [SHION_A080 十二功績章の現場代表](/reference/backstories/mastery/SHION_A080.md) — 十二の星域で生産崩壊を立て直し、功績章を受けるたび現場の共同名義へ書き換えた。
+- [SHION_A081 本国公共医療功労者](/reference/backstories/mastery/SHION_A081.md) — 所属や身体規格を問わない医療網を築き、蘇生後の長期支援を治療の一部にした。
+- [SHION_A082 星域救難総監](/reference/backstories/mastery/SHION_A082.md) — 崩壊航路、時間災害、内戦遺構から多数の住民を救い、星域救難功労章を重ねた。
+- [SHION_A083 百回帰還の外交官](/reference/backstories/mastery/SHION_A083.md) — 敵対圏へ何度も戻り、古い友人と新しい政府の双方へ話した。
+- [SHION_A084 多重勲章の親衛兵](/reference/backstories/mastery/SHION_A084.md) — 射撃と近接の双方で同族から勲章を受け、多数の暗殺と災害から評議員を守った。
+- [SHION_A085 独立星港建設者](/reference/backstories/mastery/SHION_A085.md) — 社会民主党員、旧共産党員、ファシスト離党者、帝国離反者、無党派が使う星港を建てた。
+- [SHION_A086 故郷種子の運び手](/reference/backstories/mastery/SHION_A086.md) — 回収された故郷から種子を運び、別の空の下へ同じ花を植えた。
+- [SHION_A087 辺境共同体史家](/reference/backstories/mastery/SHION_A087.md) — 党派の指導者より、井戸を掘った者、最初に冬を越した動物、喧嘩の後も残った料理を記録した。
+- [SHION_A088 蘇生設備の巡回工](/reference/backstories/mastery/SHION_A088.md) — 小集落を巡り、使われないことを願われる蘇生設備を整備した。
+- [SHION_A089 孤行開拓測量士](/reference/backstories/mastery/SHION_A089.md) — 無人天体を一人で測り、未来の共同体が住める谷と掘ってはいけない墓域を地図へ分けた。
+- [SHION_A090 時間災害工兵](/reference/backstories/mastery/SHION_A090.md) — 崩壊する時間区画へ入り、まだ起きていない爆発の瓦礫から避難路を掘った。
+- [SHION_A091 同盟親衛射手](/reference/backstories/mastery/SHION_A091.md) — 遠距離射撃で避難路を守り、同族からも稀な精度を認められた。
+- [SHION_A092 復活船団衛生長](/reference/backstories/mastery/SHION_A092.md) — 避難船で死者の保存、負傷者の治療、蘇生後の再会を一つの医療計画として扱った。
+- [SHION_A093 帰還船団救命長](/reference/backstories/mastery/SHION_A093.md) — 時間嵐で分断された帰還船団を追い、蘇生設備へ届く前の救命で多数を帰した。
+- [SHION_A094 帝国平和復元派](/reference/backstories/mastery/SHION_A094.md) — 最盛期の律法、公共秩序、豊かな暮らしを研究し、内戦後の圧政と切り離して復元しようとした。
+- [SHION_A095 全人類平和統一派](/reference/backstories/mastery/SHION_A095.md) — 終わらない戦争と喪失に耐えかね、全人類を一つの秩序へ強制的に統合すれば最盛期以上の平和が得られると考えた。
+- [SHION_A096 小共同体優先論者](/reference/backstories/mastery/SHION_A096.md) — 宇宙全体の理想より、目の前の開拓地で誰も飢えず友人が帰れる一日を優先した。
+- [SHION_A097 記録だけの復古者](/reference/backstories/mastery/SHION_A097.md) — 帝国最盛期から継ぐべきものを、制度ではなく平和の記録、技術、歌、食卓の作法に限った。
+- [SHION_A098 明日の遺族代表](/reference/backstories/mastery/SHION_A098.md) — 未来の事故で友を失うと知り、まだ生きている本人と遺族会へ出席した。
+- [SHION_A099 帰還しない時間医](/reference/backstories/mastery/SHION_A099.md) — 外の一瞬が院内の長い時代になる隔離区へ入り、患者を全員看取るまで帰らなかった。
+- [SHION_A100 本国居住区の動物義肢技師](/reference/backstories/mastery/SHION_A100.md) — 本国居住区の動物義肢技師では、本国居住区で動物用の義肢を作っていました。
+- [SHION_A101 ヘイハルKombinatの精密工](/reference/backstories/mastery/SHION_A101.md) — ヘイハルKombinatで精密部品を仕上げていました。
+- [SHION_A102 帰還兵港の舞台演出家](/reference/backstories/mastery/SHION_A102.md) — 帰還兵港の舞台演出家では、帰還兵港の舞台を任されました。
+- [SHION_A103 共同祝宴堂の臨床医](/reference/backstories/mastery/SHION_A103.md) — 共同祝宴堂の臨床医では、共同祝宴堂で臨床医をしていました。
+- [SHION_A104 機動強襲群の公共案内官](/reference/backstories/mastery/SHION_A104.md) — 機動強襲群の基地で、市民向けの案内をしていました。
+- [SHION_A105 人格照合局の記録官](/reference/backstories/mastery/SHION_A105.md) — 人格照合局では、事実、推測、後世の注釈を別の欄へ分けました。
+- [SHION_A106 長期予測院の射撃教官](/reference/backstories/mastery/SHION_A106.md) — 長期予測院の射撃教官では、長期予測院で射撃を教えていました。
+- [SHION_A107 共同祝宴堂の徒手警護員](/reference/backstories/mastery/SHION_A107.md) — 共同祝宴堂の混雑を武器なしでほどき、言葉を使わない動物の警告反応も警備情報として待った。
+- [SHION_A108 開戦前残響域の設備技師](/reference/backstories/mastery/SHION_A108.md) — 開戦前の残響が残る区画で、壁と配管と避難路を直しました。
+- [SHION_A109 離散船団の坑道監督](/reference/backstories/mastery/SHION_A109.md) — 離散船団が資源天体へ停泊するたび、本人は坑道を任されました。
+- [SHION_A110 攻勢命令審査線の公共食堂の調理師](/reference/backstories/mastery/SHION_A110.md) — 攻勢命令を審査する前線で、公共食堂を回していました。
+- [SHION_A111 計画都市の共同農園技師](/reference/backstories/mastery/SHION_A111.md) — 計画都市の共同農園技師では、計画都市の共同農園で、土、水、光を管理しました。
+- [SHION_A112 異常封じ込め隊の動物義肢技師](/reference/backstories/mastery/SHION_A112.md) — 異常封じ込め隊で、傷ついた動物の義肢を作っていました。
+- [SHION_A113 幸福都市外縁の精密工](/reference/backstories/mastery/SHION_A113.md) — 幸福都市外縁の精密工では、幸福都市の外縁工房で精密部品を作っていました。
+- [SHION_A114 封鎖観測地の舞台演出家](/reference/backstories/mastery/SHION_A114.md) — 封鎖観測地の舞台演出家では、封鎖観測地で見た変色を、舞台へ移しました。
+- [SHION_A115 共同祝宴堂の救護医](/reference/backstories/mastery/SHION_A115.md) — 共同祝宴堂の救護医では、共同祝宴堂の救護を担当していました。
+- [SHION_A116 相互扶助区の公共案内官](/reference/backstories/mastery/SHION_A116.md) — 相互扶助区で来訪者を案内し、災害時には避難路を担当しました。
+- [SHION_A117 長期予測院の観測主任](/reference/backstories/mastery/SHION_A117.md) — 長期予測院の観測主任では、長期予測院で観測主任を務めました。
+- [SHION_A118 月面事業区の射撃教官](/reference/backstories/mastery/SHION_A118.md) — 月面事業区の射撃教官では、月面事業区で射撃を教えました。
+- [SHION_A119 機械化訓練地の救助員](/reference/backstories/mastery/SHION_A119.md) — 機械化訓練地で、転倒した装甲や狭い操縦区画から負傷者を引き出しました。
+- [SHION_A120 共同祝宴堂の設備技師](/reference/backstories/mastery/SHION_A120.md) — 共同祝宴堂の設備技師では、共同祝宴堂の壁、配管、避難路を見ていました。
+- [SHION_A121 装甲救援隊の坑道監督](/reference/backstories/mastery/SHION_A121.md) — 装甲救援隊の坑道監督では、装甲救援隊で坑道を預かりました。
+- [SHION_A122 革命連合後方区の公共食堂の調理師](/reference/backstories/mastery/SHION_A122.md) — 革命連合の後方食堂で、党派ではなく感覚設定・傷・外部隊員の栄養条件に応じて配膳した。
+- [SHION_A123 塔域居住層の共同農園技師](/reference/backstories/mastery/SHION_A123.md) — 塔域居住層の農園を、大規模改築ではなく照明・水路・利用時刻の調整で支えた。
+- [SHION_A124 透明居住区の動物義肢技師](/reference/backstories/mastery/SHION_A124.md) — 透明居住区では、治療記録も作業場も皆から見えました。
+- [SHION_A125 塔域居住層の古道具修復師](/reference/backstories/mastery/SHION_A125.md) — 塔域で古道具の機能を直しながら、持主が記憶する傷や印は希望に応じて残した。
+- [SHION_A126 相互扶助区の公共壁画家](/reference/backstories/mastery/SHION_A126.md) — 相互扶助区の公共壁画家では、相互扶助区の壁へ、共同体の歴史を描きました。
+- [SHION_A127 星間市場の臨床医](/reference/backstories/mastery/SHION_A127.md) — 星間市場の臨床医では、星間市場で旅人と商人を診ました。
+- [SHION_A128 機動強襲群の討論調停人](/reference/backstories/mastery/SHION_A128.md) — 機動強襲群の帰還祭で、兵科間の公開討論を仕切りました。
+- [SHION_A129 長期予測院の古文書研究者](/reference/backstories/mastery/SHION_A129.md) — 長期予測院の古文書研究者では、長期予測院で古文書を読んでいました。
+- [SHION_A130 自治評議区の射撃教官](/reference/backstories/mastery/SHION_A130.md) — 自治評議区では、違う党歴を持つ住民へ射撃を教えました。
+- [SHION_A131 星間市場の徒手警護員](/reference/backstories/mastery/SHION_A131.md) — 星間市場の祭りで武器を使わず揉め事をほどき、翌日も取引できる信用と荷獣の安全を守った。
+- [SHION_A132 自治評議区の仮設建築士](/reference/backstories/mastery/SHION_A132.md) — 自治評議区で帰還者用の仮設住宅を組み、入居者が答えを変えられるよう間取りを繰り返し直した。
+- [SHION_A133 戦術教育環の坑道監督](/reference/backstories/mastery/SHION_A133.md) — 戦術教育環の坑道監督では、戦術教育環の地下演習路を管理しました。
+- [SHION_A134 海洋観測区の公共食堂の調理師](/reference/backstories/mastery/SHION_A134.md) — 海洋観測区の食堂では、外部居住者である研究者の食欲と、シオンの食卓参加の変化も観測していました。
+- [SHION_A135 空挺基地の共同農園技師](/reference/backstories/mastery/SHION_A135.md) — 空挺基地の共同農園技師では、空挺基地の共同農園を任されました。
+- [SHION_A136 離散船団の保護区飼育員](/reference/backstories/mastery/SHION_A136.md) — 離散船団の保護区には、いくつもの故郷から動物が集まりました。
+- [SHION_A137 制裁作戦監査室の精密工](/reference/backstories/mastery/SHION_A137.md) — 制裁部隊の装備を監査しながら、技術大会の審判もしました。
+- [SHION_A138 透明居住区の公共壁画家](/reference/backstories/mastery/SHION_A138.md) — 透明居住区では、記録も壁も隠さないことが美徳だった。
+- [SHION_A139 装甲救援隊の蘇生後療養医](/reference/backstories/mastery/SHION_A139.md) — 装甲救援隊で、蘇生者が自ら退路を歩き、再会相手を選べるまで療養を支えた。

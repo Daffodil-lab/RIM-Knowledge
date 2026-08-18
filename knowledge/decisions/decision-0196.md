@@ -4,8 +4,6 @@ title: "確定#196：表記・読み・原義が完全一致する重複語を�
 description: "表記・読み・原義が完全一致する重複語を系統統合、個人名プールを約4504語→約3894語へ整理を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

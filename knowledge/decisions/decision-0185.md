@@ -4,8 +4,6 @@ title: "確定#185：確定#174①の「特性スロット数上限」を撤回�
 description: "確定番号174①の「特性スロット数上限」を撤回、スタッカブル重ね掛け上限方式へ置換を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

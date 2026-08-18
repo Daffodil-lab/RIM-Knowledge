@@ -4,9 +4,7 @@ title: "確定#166：体力システムの機械化（冷媒漏出・技師修�
 description: "体力システムの機械化（冷媒漏出・技師修理）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

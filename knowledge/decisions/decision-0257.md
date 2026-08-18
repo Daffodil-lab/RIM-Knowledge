@@ -4,9 +4,7 @@ title: "確定#257：Diaspora装備17品目（KVUTZA／SHTETL／HAGANAH／SINAI�
 description: "Diaspora装備17品目（KVUTZA／SHTETL／HAGANAH／SINAI／NER…。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

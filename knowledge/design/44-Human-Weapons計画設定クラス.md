@@ -4,7 +4,6 @@ title: "44. Human Weapons計画（仮称）"
 description: "Human Weapons計画（仮称）は、初期の対人類戦役で現地政権と協力者へ安価かつ迅速に供給できる、人間用の高性能火薬式火器を整備した同盟の調達計画である。"
 tags:
   - "shion"
-  - "canon"
   - "design"
   - "equipment"
   - "firearms"

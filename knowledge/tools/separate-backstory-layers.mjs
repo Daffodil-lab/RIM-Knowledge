@@ -1,13 +1,17 @@
 import fs from "node:fs";
 import path from "node:path";
 
+throw new Error(
+  "実行禁止: 参考バックストーリーは凍結されています。参考資料の本文を一括変更しないでください。",
+);
+
 const root = process.cwd();
 const groups = ["formation", "mastery"];
 const planned = [];
 
 for (const group of groups) {
   const dir = path.join(root, "knowledge", "backstories", group);
-  const files = fs.readdirSync(dir).filter((name) => /^SHION_[CA]\d{3}\.md$/.test(name));
+  const files = fs.readdirSync(dir).filter((name) => /^SHION_[CA]\d{3}(?:-[^.]+)?\.md$/.test(name));
   for (const name of files) {
     const file = path.join(dir, name);
     const text = fs.readFileSync(file, "utf8");

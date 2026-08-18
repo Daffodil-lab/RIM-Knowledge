@@ -4,10 +4,8 @@ title: "確定#356：人口の99%以上を占めるシオン/Shionと、ほぼ�
 description: "人口の99%以上を占めるシオン/Shionと、ほぼ不在の構成諸民族を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "independent-colony"
-  - "canon"
 organization_groups:
   - "independent-frontier"
 status: deprecated

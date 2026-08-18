@@ -4,12 +4,10 @@ title: "確定#390：Kombinat停止保存、資産価値、破壊時保全、性
 description: "Kombinat停止保存、資産価値、破壊時保全、性能優先方式を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "kombinat"
   - "red-star"
   - "the-hive"
   - "independent-colony"
-  - "canon"
   - "alpha"
 organization_groups:
   - "independent-frontier"

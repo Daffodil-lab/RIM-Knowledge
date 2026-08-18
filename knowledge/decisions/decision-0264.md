@@ -4,9 +4,7 @@ title: "確定#264：将来構想・独自開拓団の「開拓戦争」（毒�
 description: "将来構想・独自開拓団の「開拓戦争」（毒ガス＋ステルスクローク突撃部隊、未着手）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

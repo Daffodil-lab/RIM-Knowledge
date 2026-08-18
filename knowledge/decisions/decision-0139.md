@@ -4,9 +4,7 @@ title: "確定#139：Diasporaフルカタログ・シールド仕様"
 description: "Diasporaフルカタログ・シールド仕様を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

@@ -4,9 +4,7 @@ title: "確定#237：ユニット設計ダイアログに「設計ドクトリ�
 description: "ユニット設計ダイアログに「設計ドクトリン」を新設——②③④タブの推奨値を一括提案する、Tier/特性/温度帯を横断する目的・方法論ベースの指針を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

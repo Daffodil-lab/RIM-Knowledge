@@ -4,9 +4,7 @@ title: "確定#269：液化メカナイトも濃縮真空エネルギーと同�
 description: "液化メカナイトも濃縮真空エネルギーと同じパイプライン関連設備を共用するを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

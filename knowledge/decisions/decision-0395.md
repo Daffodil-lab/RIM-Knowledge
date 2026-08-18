@@ -4,12 +4,10 @@ title: "確定#395：Matter NetworkをKombinat倉庫基盤として採用し、�
 description: "Matter NetworkをKombinat倉庫基盤として採用し、物理資源を実Thingへ統一を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "kombinat"
   - "matter-network"
   - "independent-colony"
   - "equipment"
-  - "canon"
   - "alpha"
 organization_groups:
   - "independent-frontier"
@@ -57,7 +55,7 @@ sources:
 - 上位索引: [decisions](/decisions/index.md)
 - 同じ出典の前項: [確定#394：Kombinat完成図の仮想シミュレーション、未知MOD互換契約、復旧不能・無限容量の封鎖](/decisions/decision-0394.md)
 - 同じ出典の次項: [確定#396：装備の抽象指定を装備ファミリー＋非物理ポイントへ簡略化](/decisions/decision-0396.md)
-- 連携境界: [連携境界](/integrations/matter-network/index.md)
+- 終了案件の参考入口: [旧Matter Network統合検討](/reference/matter-network/00-旧統合検討.md)
 - Kombinat領域: [Kombinat領域](/kombinat/index.md)
 - 独立開拓団: [独立開拓団](/colony/index.md)
 - 正史: [正史](/world/index.md)

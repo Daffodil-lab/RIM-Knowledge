@@ -73,7 +73,7 @@ XMLで表現できるThing、人数、文章をC#へ直書きしない。
 
 - 上位索引: [colony](/colony/index.md)
 - 同じ出典の前項: [14. 最小データモデル](/colony/14-最小データモデル.md)
-- 同じ出典の次項: [16. Field Ledger Terminal](/colony/16-Field-Ledger-Terminal.md)
+- 同じ出典の次項: [16. Field Ledger Terminal](/colony/16-Field-Ledger-Terminal-工業管制塔.md)
 - Kombinat領域: [Kombinat領域](/kombinat/index.md)
 - Pawn領域: [Pawn領域](/pawn/index.md)
 

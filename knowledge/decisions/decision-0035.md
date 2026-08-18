@@ -4,10 +4,8 @@ title: "確定#35：研究：アルコテック技術（archite 生産・評議�
 description: "研究：アルコテック技術（archite 生産・評議員〔栄誉〕・段7 を解放）と capstone 最高指導者レプリカ（アルコテック技術＋全Racを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

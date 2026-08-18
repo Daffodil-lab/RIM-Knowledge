@@ -4,10 +4,8 @@ title: "確定#265：参考記録・競合RaceMOD比較で得られた設計上�
 description: "参考記録・競合RaceMOD比較で得られた設計上の示唆を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

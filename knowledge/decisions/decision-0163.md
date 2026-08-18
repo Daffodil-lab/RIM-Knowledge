@@ -4,10 +4,8 @@ title: "確定#163：対物銃・ESTHER/MIGDALの隠し裏設定（アウトレ�
 description: "対物銃・ESTHER/MIGDALの隠し裏設定（アウトレンジを許さない）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "independent-colony"
   - "equipment"
-  - "canon"
 organization_groups:
   - "independent-frontier"
 status: deprecated

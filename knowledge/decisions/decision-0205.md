@@ -4,8 +4,6 @@ title: "確定#205：ゼロ点エネルギー地場の24時間自然回復、錦
 description: "ゼロ点エネルギー地場の24時間自然回復、錦の美観・気分上昇効果を追加を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

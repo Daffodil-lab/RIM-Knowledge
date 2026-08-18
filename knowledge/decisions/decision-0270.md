@@ -4,9 +4,7 @@ title: "確定#270：3Dプリンターの無人稼働仕様を確定、新設・
 description: "Dプリンターの無人稼働仕様を確定、新設・液体装薬注入機を追加を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

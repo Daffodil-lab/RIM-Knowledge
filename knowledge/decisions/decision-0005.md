@@ -4,8 +4,6 @@ title: "確定#5：パワーカーブ＝最初は弱い（高単価ゆえ数を�
 description: "パワーカーブ＝最初は弱い（高単価ゆえ数を揃えられない）→ 研究で1体の天井が GD5/CeleTech 級まで。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

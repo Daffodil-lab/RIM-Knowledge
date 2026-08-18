@@ -4,9 +4,7 @@ title: "確定#190：技師修理の資源コスト計算式を確定（生産�
 description: "技師修理の資源コスト計算式を確定（生産コスト×欠損率÷2、欠損率は死体欠損から算出）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

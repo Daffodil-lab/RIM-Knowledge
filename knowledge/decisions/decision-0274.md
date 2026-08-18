@@ -4,10 +4,8 @@ title: "確定#274：TZOFEH/KESHERによる観測行為はステルス性の露�
 description: "TZOFEH/KESHERによる観測行為はステルス性の露見条件から除外するを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

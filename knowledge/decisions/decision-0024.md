@@ -4,8 +4,6 @@ title: "確定#24：上位互換：特殊部隊＝段3 現代の完全上位／�
 description: "上位互換：特殊部隊＝段3 現代の完全上位／装甲突撃隊＝段4 機械化の完全上位（車両無し）。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

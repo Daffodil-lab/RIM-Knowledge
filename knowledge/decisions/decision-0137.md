@@ -4,8 +4,6 @@ title: "確定#137：パナマハット／アフガンカ・水兵服・射撃�
 description: "パナマハット／アフガンカ・水兵服・射撃対応シールドベルトを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

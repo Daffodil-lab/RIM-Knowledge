@@ -4,13 +4,11 @@ title: "確定#389：MVP廃止、α公開候補、β終了条件、完成前セ�
 description: "MVP廃止、α公開候補、β終了条件、完成前セーブ互換を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "kombinat"
   - "red-star"
   - "the-hive"
   - "independent-colony"
   - "equipment"
-  - "canon"
   - "alpha"
   - "beta"
 organization_groups:

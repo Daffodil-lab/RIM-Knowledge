@@ -53,7 +53,7 @@ sources:
 - 上位索引: [characters/anonymous-sofer](/characters/anonymous-sofer/index.md)
 - 同じ出典の前項: [16. LongTransition](/characters/anonymous-sofer/16-LongTransition.md)
 - 同じ出典の次項: [18. 匿名である理由](/characters/anonymous-sofer/18-匿名である理由.md)
-- バックストーリー群: [バックストーリー群](/backstories/index.md)
+- バックストーリー群: [バックストーリー群](/reference/backstories/index.md)
 - 独立開拓団: [独立開拓団](/colony/index.md)
 - 制作・開示規則: [制作・開示規則](/authoring/index.md)
 

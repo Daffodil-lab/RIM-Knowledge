@@ -4,6 +4,12 @@ import path from "node:path";
 const ROOT = process.cwd();
 const BUNDLE = path.join(ROOT, "knowledge");
 const CASES = path.join(BUNDLE, "contradictions");
+const INDEX = path.join(CASES, "index.md");
+const args = new Set(process.argv.slice(2));
+const unknownArgs = [...args].filter(
+  (arg) => !new Set(["--write", "--check"]).has(arg),
+);
+const mode = args.has("--write") ? "write" : "check";
 const errors = [];
 const warnings = [];
 const classCounts = new Map();
@@ -11,7 +17,15 @@ const stateCounts = new Map();
 let concepts = 0;
 let underReview = 0;
 let cases = 0;
-const canonReviewCounts = new Map();
+let unresolvedBlocking = 0;
+const referenceReviewCounts = new Map();
+
+if (unknownArgs.length || (args.has("--write") && args.has("--check"))) {
+  console.error(
+    "Usage: node knowledge/tools/audit-okf-contradictions.mjs [--write|--check]",
+  );
+  process.exit(2);
+}
 
 const allowedClasses = new Set([
   "hard-conflict",
@@ -26,6 +40,13 @@ const allowedStates = new Set([
   "quarantined",
   "resolved",
   "accepted-unresolved",
+]);
+const allowedReferenceReviewStates = new Set([
+  "candidate",
+  "re-audit",
+  "reference-only",
+  "accepted",
+  "rejected",
 ]);
 
 function walk(dir) {
@@ -83,20 +104,33 @@ for (const file of walk(BUNDLE)) {
     meta.knowledge_role === "catalog-record" &&
     meta.canonical_scope?.startsWith("backstory-")
   ) {
-    const allowedReviewStates = new Set([
-      "candidate",
-      "re-audit",
-      "accepted",
-      "rejected",
-    ]);
-    if (!allowedReviewStates.has(meta.canon_review)) {
+    if (!allowedReferenceReviewStates.has(meta.reference_review)) {
       errors.push(
-        `${relative(file)}: backstory catalog record requires a valid canon_review`,
+        `${relative(file)}: backstory catalog record requires a valid reference_review`,
       );
     } else {
-      canonReviewCounts.set(
-        meta.canon_review,
-        (canonReviewCounts.get(meta.canon_review) || 0) + 1,
+      referenceReviewCounts.set(
+        meta.reference_review,
+        (referenceReviewCounts.get(meta.reference_review) || 0) + 1,
+      );
+    }
+  }
+
+  if (meta.authority === "protected-draft") {
+    const expected = {
+      status: "draft",
+      knowledge_role: "draft-proposal",
+    };
+    for (const [key, value] of Object.entries(expected)) {
+      if (meta[key] !== value) {
+        errors.push(
+          `${relative(file)}: protected-draft requires ${key}: ${value}`,
+        );
+      }
+    }
+    if (!allowedReferenceReviewStates.has(meta.reference_review)) {
+      errors.push(
+        `${relative(file)}: protected-draft requires a valid reference_review`,
       );
     }
   }
@@ -129,6 +163,7 @@ for (const file of walk(BUNDLE)) {
       );
     }
     if (meta.conflict_state === "active" && meta.blocking === "true") {
+      unresolvedBlocking += 1;
       errors.push(`${relative(file)}: unresolved blocking contradiction`);
     }
   }
@@ -150,12 +185,44 @@ for (const file of walk(BUNDLE)) {
 if (cases === 0) errors.push("no contradiction cases found");
 if (underReview === 0) warnings.push("no concepts are marked under-review");
 
+function countSummary(counts) {
+  return [...counts.entries()]
+    .sort((a, b) => a[0].localeCompare(b[0]))
+    .map(([key, value]) => `\`${key}\` ${value}件`)
+    .join("、");
+}
+
+const summary = [
+  "<!-- contradiction-summary:start -->",
+  `- 登録済みケース: ${cases}件`,
+  `- 状態: ${countSummary(stateCounts)}`,
+  `- 分類: ${countSummary(classCounts)}`,
+  `- 完成を阻害する未解決矛盾: ${unresolvedBlocking}件`,
+  "<!-- contradiction-summary:end -->",
+].join("\n");
+const indexText = fs.readFileSync(INDEX, "utf8").replace(/\r\n?/g, "\n");
+const summaryPattern =
+  /<!-- contradiction-summary:start -->[\s\S]*?<!-- contradiction-summary:end -->/;
+const currentSummary = indexText.match(summaryPattern)?.[0];
+
+if (!currentSummary) {
+  errors.push(`${relative(INDEX)}: contradiction summary markers are missing`);
+} else if (currentSummary !== summary) {
+  if (mode === "write") {
+    fs.writeFileSync(INDEX, indexText.replace(summaryPattern, summary), "utf8");
+  } else {
+    errors.push(
+      `${relative(INDEX)}: contradiction summary is stale; run maintain-okf.mjs --write`,
+    );
+  }
+}
+
 console.log("# OKF contradiction audit");
 console.log(`Concepts inspected: ${concepts}`);
 console.log(`Contradiction cases: ${cases}`);
 console.log(`Concepts quarantined for overhaul: ${underReview}`);
 console.log(
-  `Backstory canon review: ${[...canonReviewCounts.entries()]
+  `Backstory reference review: ${[...referenceReviewCounts.entries()]
     .sort((a, b) => a[0].localeCompare(b[0]))
     .map(([key, value]) => `${key}=${value}`)
     .join(", ")}`,
@@ -172,7 +239,6 @@ console.log(
     .map(([key, value]) => `${key}=${value}`)
     .join(", ")}`,
 );
-
 if (warnings.length) {
   console.warn(`Warnings (${warnings.length}):`);
   for (const warning of warnings) console.warn(`- ${warning}`);
@@ -183,4 +249,5 @@ if (errors.length) {
   process.exit(1);
 }
 
+console.log(`Contradiction index summary: ${mode} passed.`);
 console.log("Contradiction audit passed: no unresolved blocking contradiction.");

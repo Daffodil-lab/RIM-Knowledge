@@ -4,9 +4,7 @@ title: "確定#277：§2.20全11弾種の各行備考に液体装薬注入機の
 description: "§2.20全11弾種の各行備考に液体装薬注入機の明記が漏れていたため個別に追記（確定番号276の補完）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

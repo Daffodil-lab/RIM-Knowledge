@@ -1,6 +1,6 @@
 # 運用・履歴 05
 
-範囲: 確定#323：秘文字の使い手の名称を「ソフェル」に確定〜Open Knowledge Format 0.2 日本語規範解説
+範囲: 確定#323：秘文字の使い手の名称を「ソフェル」に確定〜共有・シオン・カエラヴィ区分
 
 ## 項目
 
@@ -63,14 +63,24 @@
 - [確定#396：装備の抽象指定を装備ファミリー＋非物理ポイントへ簡略化](/decisions/decision-0396.md) — 装備の抽象指定を装備ファミリー＋非物理ポイントへ簡略化を確定した決定履歴。
 - [確定#397：Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外](/decisions/decision-0397.md) — Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外を確定した決定履歴。
 - [確定#398：α版からCore独自保管・接続基盤を採用する](/decisions/decision-0398.md) — Matter Network必須依存を撤回し、α版から通常Map空間を経由しない独自保管・接続基盤と任意排出を採用した決定履歴。
-- [一件一ファイルとリンク規則](/governance/atomicity-and-links.md) — 知識は、単独で参照・更新・廃止できる最小単位へ分ける。
-- [知識の権威順位とライフサイクル](/governance/authority-and-lifecycle.md) — このOKFバンドルはRIMプロジェクト知識の入口であり、原子的な概念ファイルを現行の参照単位とする。
-- [正本優先の通常参照方針](/governance/canonical-first-reading-policy.md) — RIMの通常読み込み入口を現行正本・カタログビューへ限定し、決定履歴と調査・参照資料を履歴・補助層として扱う。
-- [オーバーホール中の矛盾判定規則](/governance/contradiction-policy.md) — 改稿差分を誤って矛盾と判定せず、現行正本の衝突だけを止めるための規則。
-- [重複と異なる粒度の管理規則](/governance/duplication-policy.md) — 同じ内容を異なる粒度で必要とする場合でも、事実の所有者は一つにする。
-- [OKF知識の更新手順](/governance/editing-workflow.md) — OKF知識の更新手順は、ルート索引から対象領域を選ぶ。
-- [RIM OKFメタデータ契約](/governance/metadata-contract.md) — RIM概念ファイルのOKF 0.2標準メタデータと正本所有拡張の必須構造を定める。
-- [Google上流OKF追随方針](/governance/okf-upstream-following-policy.md) — GoogleCloudPlatform/knowledge-catalogのOKF規範とVisualize参照実装を確認し、RIM固有拡張をRIM側で所有する追随手順を定める。
-- [知識所有者マップ](/governance/ownership-map.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
-- [現行資料の正仕様記述](/governance/positive-specification-policy.md) — 履歴資料以外の文書は、採用済みの構造、状態、振る舞い、境界、失敗時結果、性能条件を正の仕様として記述する。
-- [Open Knowledge Format 0.2 日本語規範解説](/research/okf/00-Open-Knowledge-Format-v0.2-%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A7%A3%E8%AA%AC.md) — 公式Open Knowledge Format 0.2の必須構造、出典、検証、鮮度、実行証明とRIM拡張の関係を日本語で確認できる参照資料。
+- [確定#399：装備カタログをフレーバー先行方式へ改める](/decisions/decision-0399.md) — 装備ごとの必須欄を網羅する方式をやめ、一文の核と少数の補助事実から設定を作るフレーバー先行方式へ改めた決定履歴。
+- [確定#400：個人飛行装備の普及と空中歩兵の優越](/decisions/decision-0400.md) — 飛行用個人装備が帝国と同盟の民間・軍事へ広く普及し、空中歩兵が他兵科への優越を証明し続けていることを確定した決定履歴。
+- [確定#401：スカイフレア初期型の欠陥と新機軸](/decisions/decision-0401.md) — 21世紀後半の初期スカイフレアが多数の欠陥と新機軸を併せ持ち、継続改造によって全欠陥を解決したことを確定した決定履歴。
+- [確定#402：帝国と同盟の軍事ドクトリン](/decisions/decision-0402.md) — 宇宙艦隊を軍事の中心、歩兵と広義の砲兵を地上戦の中心とし、機甲戦力を費用対効果の限られた補助戦力とする帝国・同盟共通のドクトリンを確定した決定履歴。
+- [確定#403：空輸型作戦機動群と歩兵装備の限界効果](/decisions/decision-0403.md) — 空輸によって地上補給拠点への拘束を弱めた作戦機動群、要塞環境でも戦える歩兵、歩兵装備投資の高い限界効果を確定した決定履歴。
+- [確定#404：宇宙輸送と歩兵装備体系](/decisions/decision-0404.md) — 空輸に宇宙艦隊から惑星面への直接輸送を含め、歩兵装備を個人装具ではなく師団指揮下の支援火器まで含む装備体系として確定した決定履歴。
+- [確定#405：飛行を選べる歩兵と対空脅威](/decisions/decision-0405.md) — 歩兵全員が戦闘ヘリに似た能力を必要時に発揮できる一方、防空陣地や敵航空戦力の下では地上戦を選ぶ運用を確定した決定履歴。
+- [一件一ファイルとリンク規則](/governance/atomicity-and-links-%E4%B8%80%E4%BB%B6%E4%B8%80%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%A8%E3%83%AA%E3%83%B3%E3%82%AF%E8%A6%8F%E5%89%87.md) — 知識は、単独で参照・更新・廃止できる最小単位へ分ける。
+- [知識の権威順位とライフサイクル](/governance/authority-and-lifecycle-%E7%9F%A5%E8%AD%98%E3%81%AE%E6%A8%A9%E5%A8%81%E9%A0%86%E4%BD%8D%E3%81%A8%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB.md) — このOKFバンドルはRIMプロジェクト知識の入口であり、原子的な概念ファイルを現行の参照単位とする。
+- [正本優先の通常参照方針](/governance/canonical-first-reading-policy-%E6%AD%A3%E6%9C%AC%E5%84%AA%E5%85%88%E3%81%AE%E9%80%9A%E5%B8%B8%E5%8F%82%E7%85%A7%E6%96%B9%E9%87%9D.md) — RIMの通常読み込み入口を現行正本・カタログビューへ限定し、決定履歴と調査・参照資料を履歴・補助層として扱う。
+- [コード解説の作成規則](/governance/code-explanation-policy-%E3%82%B3%E3%83%BC%E3%83%89%E8%A7%A3%E8%AA%AC%E3%81%AE%E4%BD%9C%E6%88%90%E8%A6%8F%E5%89%87.md) — コード変更には、非技術者が目的、処理の流れ、状態変更、失敗時結果、検査範囲を追える日本語解説を同じPull Requestで添える。
+- [オーバーホール中の矛盾判定規則](/governance/contradiction-policy-%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%9B%E3%83%BC%E3%83%AB%E4%B8%AD%E3%81%AE%E7%9F%9B%E7%9B%BE%E5%88%A4%E5%AE%9A%E8%A6%8F%E5%89%87.md) — 改稿差分を誤って矛盾と判定せず、現行正本の衝突だけを止めるための規則。
+- [重複と異なる粒度の管理規則](/governance/duplication-policy-%E9%87%8D%E8%A4%87%E3%81%A8%E7%95%B0%E3%81%AA%E3%82%8B%E7%B2%92%E5%BA%A6%E3%81%AE%E7%AE%A1%E7%90%86%E8%A6%8F%E5%89%87.md) — 同じ内容を異なる粒度で必要とする場合でも、事実の所有者は一つにする。
+- [OKF知識の更新手順](/governance/editing-workflow-%E7%9F%A5%E8%AD%98%E3%81%AE%E6%9B%B4%E6%96%B0%E6%89%8B%E9%A0%86.md) — OKF知識の更新手順は、ルート索引から対象領域を選ぶ。
+- [人間による承認境界](/governance/human-approval-boundary-%E4%BA%BA%E9%96%93%E3%81%AB%E3%82%88%E3%82%8B%E6%89%BF%E8%AA%8D%E5%A2%83%E7%95%8C.md) — RIM-Knowledgeでは、所有者が目的、正本、内容、影響、未確認事項、公開可否を判断し、コードの行単位理解を承認条件にしない。
+- [RIM OKFメタデータ契約](/governance/metadata-contract-%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E5%A5%91%E7%B4%84.md) — RIM概念ファイルのOKF 0.2標準メタデータと正本所有拡張の必須構造を定める。
+- [OKF統合保守コード解説](/governance/okf-maintenance-code-guide-OKF%E7%B5%B1%E5%90%88%E4%BF%9D%E5%AE%88%E3%82%B3%E3%83%BC%E3%83%89%E8%A7%A3%E8%AA%AC.md) — maintain-okf.mjsは、OKF派生資料を固定順で更新し、構造、リンク、重複、矛盾を一括検査するローカル実行用の統合入口である。
+- [Google上流OKF追随方針](/governance/okf-upstream-following-policy-Google%E4%B8%8A%E6%B5%81OKF%E8%BF%BD%E9%9A%8F%E6%96%B9%E9%87%9D.md) — GoogleCloudPlatform/knowledge-catalogのOKF規範とVisualize参照実装を確認し、RIM固有拡張をRIM側で所有する追随手順を定める。
+- [知識所有者マップ](/governance/ownership-map-%E7%9F%A5%E8%AD%98%E6%89%80%E6%9C%89%E8%80%85%E3%83%9E%E3%83%83%E3%83%97.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
+- [現行資料の正仕様記述](/governance/positive-specification-policy-%E7%8F%BE%E8%A1%8C%E8%B3%87%E6%96%99%E3%81%AE%E6%AD%A3%E4%BB%95%E6%A7%98%E8%A8%98%E8%BF%B0.md) — 履歴資料以外の文書は、採用済みの構造、状態、振る舞い、境界、失敗時結果、性能条件を正の仕様として記述する。
+- [共有・シオン・カエラヴィ区分](/governance/project-scope-%E5%85%B1%E6%9C%89%E3%83%BB%E3%82%B7%E3%82%AA%E3%83%B3%E3%83%BB%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E5%8C%BA%E5%88%86.md) — 概念を共有、シオン、カエラヴィのいずれか一つの所属MOD区分へ解決し、所属MODから探す派生索引を安定して生成する。

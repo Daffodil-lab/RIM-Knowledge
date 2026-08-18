@@ -1,86 +1,86 @@
 # stable 03
 
-範囲: SHION_C122 塔域の再会受付〜SHION_C201 開戦前残響域の停戦菜園
+範囲: 42. エネルギー供給の実装境界〜D. 出力満杯
 
 ## 項目
 
-- [SHION_C122 塔域の再会受付](/backstories/formation/SHION_C122.md) — 塔域の再会受付で、記憶欠落、複製後の差、不在時間を歓迎より先に説明した。
-- [SHION_C123 人格照合局の記録見習い](/backstories/formation/SHION_C123.md) — 内戦中、外見や性能だけで存在を分類するのは危険だった。
-- [SHION_C124 監査室の護衛遊戯](/backstories/formation/SHION_C124.md) — 監査室の護衛遊戯では、監査室の護衛競技が趣味だった。
-- [SHION_C125 空挺基地の捜索競技](/backstories/formation/SHION_C125.md) — 降下競技では、着地の美しさより仲間を見つける速さを競いました。
-- [SHION_C126 内務記録所の補修見習い](/backstories/formation/SHION_C126.md) — 内戦後帝国の内務記録所で、名前を削られた台帳と改竄の痕跡を補修作業の中で見つけた。
-- [SHION_C127 無人構造物の内部探査](/backstories/formation/SHION_C127.md) — 巨大構造物へ入った時、皆が「歓迎された」「試されている」と言いました。
-- [SHION_C128 孵育文化区の食堂育ち](/backstories/formation/SHION_C128.md) — 孵育文化区の食堂で、制度が定める最適な味だけでなく、本人が断り選び直せる注文欄を作った。
-- [SHION_C129 帝国配給区の種子番](/backstories/formation/SHION_C129.md) — 内戦後帝国の配給区で、倉庫外観より発芽床と水路を優先し、許可外の修繕を行った。
-- [SHION_C130 本国居住区の老いた動物の世話](/backstories/formation/SHION_C130.md) — 役目を終えた動物を、効率だけで交換するのが嫌だった。
-- [SHION_C131 帰還兵港の古道具直し](/backstories/formation/SHION_C131.md) — 帰還兵港では、新品を渡す方が早い道具まで修理しました。
-- [SHION_C132 最終防衛圏の雪中劇](/backstories/formation/SHION_C132.md) — 最終防衛圏の雪中劇では、最終防衛圏で、本人たちは崩れる帝国を演じました。
-- [SHION_C133 残響深層の救護助手](/backstories/formation/SHION_C133.md) — 残響深層では、過去の戦場が何度でも同じ順番で再現されました。
-- [SHION_C134 帰還兵港の再会案内](/backstories/formation/SHION_C134.md) — 帰還兵港の受付では、到着時刻より本人が生きた時間を確認しました。
-- [SHION_C135 計画都市の余白記録](/backstories/formation/SHION_C135.md) — 計画都市を歩いて、完成図にない物だけ集めるのが趣味だった。
-- [SHION_C136 後方支援庁の識別射撃](/backstories/formation/SHION_C136.md) — 後方支援庁の識別射撃では、前線の英雄ではありません。
-- [SHION_C137 本国居住区の救出訓練](/backstories/formation/SHION_C137.md) — 不人気だった居住区救出訓練へ人を集め、身体構成と動物に応じて取手・搬送法・合図を直した。
-- [SHION_C138 特殊任務学校の施設助手](/backstories/formation/SHION_C138.md) — 特殊任務学校で本人が直したのは、射撃装置より扉と配管だった。
-- [SHION_C139 月面事業区の採掘遠足](/backstories/formation/SHION_C139.md) — 月を売るような宣伝文句に釣られて、採掘遠足へ参加しました。
-- [SHION_C140 帝国書庫塔の食堂育ち](/backstories/formation/SHION_C140.md) — 帝国書庫塔の食堂では、頁をめくる音より大きな声を出さないのが礼儀だった。
-- [SHION_C141 異常対応隊の種子記録](/backstories/formation/SHION_C141.md) — 異常対応隊の種子記録では、異常対応隊で種子を扱うのは奇妙に聞こえますか。
-- [SHION_C142 Kombinat保護区の再稼働祭](/backstories/formation/SHION_C142.md) — Kombinatの再稼働祭では、保護区の動物も工程ごとに歩かせました。
-- [SHION_C143 孵育文化区の古道具直し](/backstories/formation/SHION_C143.md) — 孵育文化区では、傷んだ品を出せば最適な新品が届きました。
-- [SHION_C144 機械化訓練地の市民劇](/backstories/formation/SHION_C144.md) — 機械化訓練地の舞台で、本人は装甲兵ではなく避難する市民を演じました。
-- [SHION_C145 帝国災害研究隊の救護訓練](/backstories/formation/SHION_C145.md) — 帝国災害研究隊の救護課程は長く、選別理由を一件ずつ説明させられました。
-- [SHION_C146 装甲救援隊の討論競技](/backstories/formation/SHION_C146.md) — 討論競技では、反論の前に相手の主張を本人が納得する形で言い直します。
-- [SHION_C147 自治評議区の観測実習](/backstories/formation/SHION_C147.md) — 自治評議区で、一度の異常値を党派の勝利へ利用せず、条件を変えて再観測した。
-- [SHION_C148 対機械戦区の識別課程](/backstories/formation/SHION_C148.md) — 対機械戦区では、動く物を全部「敵の人格」と呼ぶ者がいました。
-- [SHION_C149 革命連合後方区の搬出班](/backstories/formation/SHION_C149.md) — 革命連合後方区の搬出班では、党派同士の挨拶は苦手だった。
-- [SHION_C150 塔域居住層の仮設住宅づくり](/backstories/formation/SHION_C150.md) — 塔域の帰還者へ歓迎式より先に休息場所を用意し、身体構成と本人の希望に合わせて仮設住宅を直した。
-- [SHION_C151 星間市場の資源調査](/backstories/formation/SHION_C151.md) — 星間市場の資源調査は、値札より坑道の方が信用できました。
-- [SHION_C152 海洋観測区の保存食づくり](/backstories/formation/SHION_C152.md) — 海洋観測区へ行った理由は研究ではなく、保存食作りが好きだったからである。
-- [SHION_C153 継承教室の菜園仲間](/backstories/formation/SHION_C153.md) — 継承教室の菜園仲間では、継承教室の教師は、最後の授業で答えを伏せました。
-- [SHION_C154 相互扶助区の動物診療](/backstories/formation/SHION_C154.md) — 相互扶助区では、動物も道具も「皆のもの」と言われました。
-- [SHION_C155 革命連合後方区の古道具直し](/backstories/formation/SHION_C155.md) — 革命連合の後方では、同じ工具に三つの党派印が重ねて刻まれていました。
-- [SHION_C156 孵育文化区の音楽会通い](/backstories/formation/SHION_C156.md) — 孵育文化区の音楽会通いでは、音楽は必要ありません。
-- [SHION_C157 立入制限地の救護小屋](/backstories/formation/SHION_C157.md) — 立入制限地の救護小屋では、立入制限地へ行くのは好きだった。
-- [SHION_C158 ヘイハルKombinatの再会窓口](/backstories/formation/SHION_C158.md) — Kombinatの再会窓口では、記憶差を故障表のように扱うな、と最初に教わりました。
-- [SHION_C159 平和軍演習院の記録実習](/backstories/formation/SHION_C159.md) — 平和軍演習院では、事実を本文、推測を別紙、後世の注釈を余白へ書きました。
-- [SHION_C160 ヘイハルKombinatの射撃同好会](/backstories/formation/SHION_C160.md) — Kombinatの射撃同好会は、古い照準器を直して新型と競わせる変わった集まりだった。
-- [SHION_C161 革命連合後方区の身体競技](/backstories/formation/SHION_C161.md) — 本人は後方区の身体競技で、勝つより相手を壊さず投げる方が得意だった。
-- [SHION_C162 Kombinat避難区の仮設住宅](/backstories/formation/SHION_C162.md) — Kombinat停止夜に、避難者の身体構成と希望を現場で確かめながら仮設住宅を組んだ。
-- [SHION_C163 帝国後方倉庫の採掘手伝い](/backstories/formation/SHION_C163.md) — 後方倉庫は「帝国の豊富な備蓄」と看板にありました。
-- [SHION_C164 透明居住区の保存食づくり](/backstories/formation/SHION_C164.md) — 透明居住区では、献立も健康状態も皆が閲覧できました。
-- [SHION_C165 戦術教育環の種子保管](/backstories/formation/SHION_C165.md) — 戦術教育環になぜ種子庫があるのか、と本人も聞きました。
-- [SHION_C166 星間市場の老いた動物の世話](/backstories/formation/SHION_C166.md) — 星間市場では、働けなくなった荷役獣は取引価値を失います。
-- [SHION_C167 戦術教育環の義肢工作](/backstories/formation/SHION_C167.md) — 戦術教育環の義肢工作では、義肢は「元へ戻す」ためだけの物ではありません。
-- [SHION_C168 最終防衛圏の証言壁画](/backstories/formation/SHION_C168.md) — 最終防衛圏の証言壁画では、最終防衛圏の壁へ、同じ戦いを四通り描きました。
-- [SHION_C169 人格照合局の帰還付き添い](/backstories/formation/SHION_C169.md) — 蘇生した者へ最初から「おかえり」と言わないで求めた。
-- [SHION_C170 本国居住区の井戸端討論](/backstories/formation/SHION_C170.md) — 本国居住区の井戸端討論では、討論会というより、給水所の長話だった。
-- [SHION_C171 透明居住区の古文書の読み手](/backstories/formation/SHION_C171.md) — 透明居住区で古文書を読むのは、制度に隠れて秘密を持つ遊びだった。
-- [SHION_C172 異常対応射撃の復習会](/backstories/formation/SHION_C172.md) — 任務を離れても、本人は異常対応射撃の復習会へ通いました。
-- [SHION_C173 本国居住区の異体競技](/backstories/formation/SHION_C173.md) — 本国居住区の身体競技で、共有狐娘型内部の構成差と動物参加者に応じた安全規則を作った。
-- [SHION_C174 継承教室の仮設棟実習](/backstories/formation/SHION_C174.md) — 継承教室で渡された古い仮設棟の図面は、教師自身が「そのまま使うな」と言いました。
-- [SHION_C175 孵育文化区の地下散策](/backstories/formation/SHION_C175.md) — 孵育文化区の地下散策では、孵育文化区の地上は、温度も光も最適で退屈だった。
-- [SHION_C176 継承教室の再会膳](/backstories/formation/SHION_C176.md) — 再会の席と追悼の席を分けるべきだ、と教本にはありました。
-- [SHION_C177 低温研究区の種子避難](/backstories/formation/SHION_C177.md) — 低温技術の用途を聞く前に、失敗した時どこまで凍るか尋ねました。
-- [SHION_C178 残響深層の動物保護](/backstories/formation/SHION_C178.md) — 残響深層の動物は、再現された砲声の前で毎回同じように怯えました。
-- [SHION_C179 内務記録所の筆記具修理](/backstories/formation/SHION_C179.md) — 内務記録所で直したのは、筆記具と照合器、それに警備用の照準具だった。
-- [SHION_C180 継承教室の問いかけ劇](/backstories/formation/SHION_C180.md) — 継承教室の舞台で、故郷・復活・別れに単一の正解を与えず、観客へ問い返した。
-- [SHION_C181 帝国騎士訓練場の帰還付き添い](/backstories/formation/SHION_C181.md) — 騎士訓練場で蘇生者へ付き添うのも、最盛期の長い修業の一つだった。
-- [SHION_C182 帝国書庫塔の再会窓口](/backstories/formation/SHION_C182.md) — 書庫塔の窓口では、大声の歓迎は禁じられていました。
-- [SHION_C183 律法監察教室の余白記録](/backstories/formation/SHION_C183.md) — 律法監察教室では、事実、推測、後世の注釈を別欄へ書きました。
-- [SHION_C184 革命連合後方区の射撃仲間](/backstories/formation/SHION_C184.md) — 後方区の射場では、昨日まで別の党旗を掲げた者とも精度を競いました。
-- [SHION_C185 革命連合後方区の群衆警護](/backstories/formation/SHION_C185.md) — 本人は気が短いので、武器を持たない警護練習を選びました。
-- [SHION_C186 計画都市の余白住宅](/backstories/formation/SHION_C186.md) — 計画都市の余白住宅では、完成図の美しさには興味がありません。
-- [SHION_C187 地下灯祭の坑道飾り](/backstories/formation/SHION_C187.md) — 地下灯祭では、坑道の亀裂へ灯りを置き、戻らなかった者の好きな形を壁へ彫りました。
-- [SHION_C188 装甲救援隊の帰還膳](/backstories/formation/SHION_C188.md) — 装甲救援隊の帰還膳では、戻った者と戻らない者の器を同じ卓へ置きました。
-- [SHION_C189 封鎖観測地の種子監視](/backstories/formation/SHION_C189.md) — 封鎖地の種は、色が変わっただけで処分を求められました。
-- [SHION_C190 帝国自治会跡の老獣番](/backstories/formation/SHION_C190.md) — 自治会が解散した後も、役目を終えた動物だけは建物に残りました。
-- [SHION_C191 非常令監視区の修理会](/backstories/formation/SHION_C191.md) — 非常令が出た時、最初に禁止されたのは武器ではなく、修理票の余白に書く冗談だった。
-- [SHION_C192 相互扶助区の共同壁画](/backstories/formation/SHION_C192.md) — 相互扶助区の共同壁画へ、共同所有物に残る個人の握り傷と複数の証言を描いた。
-- [SHION_C193 相互扶助区の救護当番](/backstories/formation/SHION_C193.md) — 相互扶助区の事故で「これは誰の設備だ」と聞いても、皆の物だとしか返らない。
-- [SHION_C194 移動都市の再会案内](/backstories/formation/SHION_C194.md) — 移動都市の再会案内では、移動都市の地図は、再会相手ごとに違いました。
-- [SHION_C195 ヘイハルKombinatの旧工程読書会](/backstories/formation/SHION_C195.md) — 古文書と言っても、本人たちが読んだのは旧式Kombinatの工程書である。
-- [SHION_C196 相互扶助区の共同射場](/backstories/formation/SHION_C196.md) — 相互扶助区の共同射場では、射場の銃は皆の物だった。
-- [SHION_C197 要塞潜入路の搬出実習](/backstories/formation/SHION_C197.md) — 要塞潜入路の搬出実習では、要塞の正面を破る案は立派だった。
-- [SHION_C198 特殊任務学校の退避棟実習](/backstories/formation/SHION_C198.md) — 特殊任務学校で、本人は帰還者と保護対象が休む退避棟を組みました。
-- [SHION_C199 共同祝宴堂の食材採掘](/backstories/formation/SHION_C199.md) — 祝宴堂の食材には、岩塩や鉱物性の香料もありました。
-- [SHION_C200 立入制限地の遠征食](/backstories/formation/SHION_C200.md) — 立入制限地へ持ち込む歓待・救援用の遠征食は、帰還予定日より長く保存できるよう作った。
-- [SHION_C201 開戦前残響域の停戦菜園](/backstories/formation/SHION_C201.md) — 残響域では、戦争を止められたかもしれない瞬間が何度も再現されました。
+- [42. エネルギー供給の実装境界](/design/42-%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC%E4%BE%9B%E7%B5%A6%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 常設エネルギー接続とエネルギー結晶による外地供給を分離し、改造身体・高度装備・設備の稼働条件を実装する。
+- [43. 帝国系と同盟系の製品系列の実装境界](/design/43-%E5%B8%9D%E5%9B%BD%E7%B3%BB%E3%81%A8%E5%90%8C%E7%9B%9F%E7%B3%BB%E3%81%AE%E8%A3%BD%E5%93%81%E7%B3%BB%E5%88%97%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 帝国系を高性能・高価格・高工数・品質差のある品、同盟系を安価・量産向け・品質固定・しばしば高耐久な品としてゲームへ投影する。
+- [44. Human Weapons計画（仮称）](/design/44-Human-Weapons%E8%A8%88%E7%94%BB%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9.md) — Human Weapons計画（仮称）は、初期の対人類戦役で現地政権と協力者へ安価かつ迅速に供給できる、人間用の高性能火薬式火器を整備した同盟の調達計画である。
+- [45. Human Weapons計画の実装境界](/design/45-Human-Weapons%E8%A8%88%E7%94%BB%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — Human Weapons計画品を、品質を持たず、構造材だけで製造でき、結晶資源や常設電力を使わない人間用の独自火薬式火器として実装する。
+- [46. 装備アーカイブ番号体系](/design/46-%E8%A3%85%E5%82%99%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E7%95%AA%E5%8F%B7%E4%BD%93%E7%B3%BB.md) — 同盟の全装備は、三桁の分類番号と五桁の登録番号を空白で区切ったアーカイブ番号、および種類コードによって設計・型式単位で管理される。
+- [47. 装備アーカイブ番号の実装境界](/design/47-%E8%A3%85%E5%82%99%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E7%95%AA%E5%8F%B7%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 同盟装備の三桁分類番号、五桁登録番号、種類コードを安定した定義メタデータとして保持し、重複、形式不正、分類不一致を検証する。
+- [48. HORIZON A1人間用制式小銃](/design/48-HORIZON-A1%E4%BA%BA%E9%96%93%E7%94%A8%E5%88%B6%E5%BC%8F%E5%B0%8F%E9%8A%83.md) — 139 04217 AR HORIZON A1は、Human Weapons計画が人間側部隊への大量配備用に設計した、6.6×41mm高圧弾を使う品質固定の第一制式小銃である。
+- [49. HORIZON A1の実装境界](/design/49-HORIZON-A1%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — HORIZON A1を、品質を持たず、構造材だけで量産でき、30発の6.6×41mm通常弾薬を使う人間用制式小銃として実装する。
+- [50. 装備庫接続と武器転送の実装境界](/design/50-%E8%A3%85%E5%82%99%E5%BA%AB%E6%8E%A5%E7%B6%9A%E3%81%A8%E6%AD%A6%E5%99%A8%E8%BB%A2%E9%80%81%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 接続装備庫が所有する実物武器を、複製せず状態を保ったまま活動中Pawnへほぼ即時に交換するCore側の取引として実装する。
+- [51. Core独自保管・接続システムの実装境界](/design/51-Core%E7%8B%AC%E8%87%AA%E4%BF%9D%E7%AE%A1%E6%8E%A5%E7%B6%9A%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — α版からCore独自のThing保管・接続・入出庫システムを正規基盤とし、設備間を直接転送し、内容物の任意排出を提供する。
+- [52. バニラ優先Shion種族実装境界](/design/52-%E3%83%90%E3%83%8B%E3%83%A9%E5%84%AA%E5%85%88Shion%E7%A8%AE%E6%97%8F%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — Shion種族はHuman継承を維持し、Core所有の物理身体と公式DLCの公開機構で実装する。
+- [53. RimWorldログ・性能診断契約](/design/53-RimWorld%E3%83%AD%E3%82%B0%E3%83%BB%E6%80%A7%E8%83%BD%E8%A8%BA%E6%96%AD%E5%A5%91%E7%B4%84.md) — RimWorld 1.6の不具合ログ、クラッシュログ、Performance Analyzer測定を再現可能な証拠として取得し、Shion由来の負荷と既存エラーを分離する。
+- [内政台帳とNetwork Storageの統合境界](/design/54-%E5%86%85%E6%94%BF%E5%8F%B0%E5%B8%B3%E3%81%A8Network-Storage%E3%81%AE%E7%B5%B1%E5%90%88%E5%A2%83%E7%95%8C.md) — 内政管理、Core独自Network Storage、Kombinat生産を一つの需給台帳へ統合し、工場を在庫を持たない設備能力として実装する。
+- [Core・公式DLC量産カタログ境界](/design/55-Core%E5%85%AC%E5%BC%8FDLC%E9%87%8F%E7%94%A3%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0%E5%A2%83%E7%95%8C.md) — Coreと五つの公式DLCに属する反復可能な通常Recipeから、Kombinatの無人量産カタログをDef駆動で生成する。
+- [56. Shion標準遠征身体の実装仕様](/design/56-Shion%E6%A8%99%E6%BA%96%E9%81%A0%E5%BE%81%E8%BA%AB%E4%BD%93%E3%81%AE%E5%AE%9F%E8%A3%85%E4%BB%95%E6%A7%98.md) — Shion標準遠征身体の器官、能力値、欠損状態、休息、Anomaly拒絶、心情と将来拡張点を定める。
+- [57. レッドスター惑星戦役](/design/57-%E3%83%AC%E3%83%83%E3%83%89%E3%82%B9%E3%82%BF%E3%83%BC%E6%83%91%E6%98%9F%E6%88%A6%E5%BD%B9.md) — レッドスター惑星戦役は、無政府状態の辺境惑星で介入、抵抗、惑星統一の三路線を遊ぶ任意の段階制キャンペーンである。
+- [58. スカイフレア電気推進ジェットパック](/design/58-%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%95%E3%83%AC%E3%82%A2%E9%9B%BB%E6%B0%97%E6%8E%A8%E9%80%B2%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E3%83%91%E3%83%83%E3%82%AF.md) — スカイフレアは21世紀後半に登場し、改造によって歩兵一人ひとりへ必要な時だけ戦闘ヘリに似た能力を与えるまで成熟した個人飛行装備の祖型である。
+- [59. バニラ優先カエラヴィ種族実装境界](/design/59-%E3%83%90%E3%83%8B%E3%83%A9%E5%84%AA%E5%85%88%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E7%A8%AE%E6%97%8F%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — カエラヴィはHuman継承、BiotechのGeneとXenotype、標準Pawn描画、公式DLCの公開機構を用いる人型鳥類種族として実装する。
+- [60. カエラヴィ標準身体の実装仕様](/design/60-%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E6%A8%99%E6%BA%96%E8%BA%AB%E4%BD%93%E3%81%AE%E5%AE%9F%E8%A3%85%E4%BB%95%E6%A7%98.md) — カエラヴィ標準身体の人型基盤、基礎能力、機能翼、開放気嚢、Gene描画と系統別差分の接続点を定める。
+- [61. 遺伝性鳥類系統の共通Xenotype契約](/design/61-%E9%81%BA%E4%BC%9D%E6%80%A7%E9%B3%A5%E9%A1%9E%E7%B3%BB%E7%B5%B1%E3%81%AE%E5%85%B1%E9%80%9AXenotype%E5%A5%91%E7%B4%84.md) — 六つの遺伝性鳥類Xenotypeを、共通三Geneと長所・短所・外見を一体化した一つのatomic lineage Geneで構成する。
+- [62. カエラヴィ軍務ゼノジャーム共通実装契約](/design/62-%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E8%BB%8D%E5%8B%99%E3%82%BC%E3%83%8E%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%A0%E5%85%B1%E9%80%9A%E5%AE%9F%E8%A3%85%E5%A5%91%E7%B4%84.md) — 八つの軍務兵科を非遺伝性xenogermとして実装し、六つの遺伝性鳥類系統すべてと最終Met +2で合成する。
+- [63. フリーカ・コーラと軍用複合刺激剤の実装境界](/design/63-%E3%83%95%E3%83%AA%E3%83%BC%E3%82%AB%E3%83%BB%E3%82%B3%E3%83%BC%E3%83%A9%E3%81%A8%E8%BB%8D%E7%94%A8%E8%A4%87%E5%90%88%E5%88%BA%E6%BF%80%E5%89%A4%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — フリーカ・コーラをバニラChocolateとBeerへ接続し、軍務適合者向け複合刺激剤を標準Drug、Chemical、Addiction、Withdrawalで実装する。
+- [64. カエラヴィ個人債務Scenario](/design/64-%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E5%80%8B%E4%BA%BA%E5%82%B5%E5%8B%99Scenario.md) — カエラヴィ個人債務Scenarioは、身分または家門のDebtProfileからMark建て義務を明示的に解決し、共同体が本人に代わって返済する契約として開始する。
+- [65. 帝国軍務教範の状態機械](/design/65-%E5%B8%9D%E5%9B%BD%E8%BB%8D%E5%8B%99%E6%95%99%E7%AF%84%E3%81%AE%E7%8A%B6%E6%85%8B%E6%A9%9F%E6%A2%B0.md) — 帝国軍務教範は、平時、警戒、戦闘、復旧の希望態勢と実適用状態を分離し、検証済みの差分を有界キューで適用する。
+- [66. 帝国軍務教範の一括操作境界](/design/66-%E5%B8%9D%E5%9B%BD%E8%BB%8D%E5%8B%99%E6%95%99%E7%AF%84%E3%81%AE%E4%B8%80%E6%8B%AC%E6%93%8D%E4%BD%9C%E5%A2%83%E7%95%8C.md) — 帝国軍務教範は、可逆的なバニラ方針と登録済み命令を態勢遷移へ含め、政治的、不可逆、対象選択を伴う操作を別確認へ分離する。
+- [67. Mark・Credit・債務・税のWorld台帳](/design/67-Mark%E3%83%BBCredit%E3%83%BB%E5%82%B5%E5%8B%99%E3%83%BB%E7%A8%8E%E3%81%AEWorld%E5%8F%B0%E5%B8%B3.md) — カエルム経済のMark、同盟Credit、個人債務、税義務を非Thingの固定小数World台帳へ集約し、専用口座と冪等Transactionで決済する。
+- [68. カエルム支援注文と信用枠の状態機械](/design/68-%E3%82%AB%E3%82%A8%E3%83%AB%E3%83%A0%E6%94%AF%E6%8F%B4%E6%B3%A8%E6%96%87%E3%81%A8%E4%BF%A1%E7%94%A8%E6%9E%A0%E3%81%AE%E7%8A%B6%E6%85%8B%E6%A9%9F%E6%A2%B0.md) — カエルムおよび同盟への支援要請を、既存残高または明示的な追加債務で決済し、物資、人員、生殖支援をGravshipで冪等に引き渡す。
+- [69. カエルム軍功認定契約](/design/69-%E3%82%AB%E3%82%A8%E3%83%AB%E3%83%A0%E8%BB%8D%E5%8A%9F%E8%AA%8D%E5%AE%9A%E5%A5%91%E7%B4%84.md) — 敵対Raidの成立時pointsとバニラQuest成功時pointsだけを一対一で軍功認定し、撃破数を数えず、債務元本とは分離して保存する。
+- [70. カエルム帰還Ending](/design/70-%E3%82%AB%E3%82%A8%E3%83%AB%E3%83%A0%E5%B8%B0%E9%82%84Ending.md) — 軍功閾値によるServiceReturnとMark元本完済によるDebtFreeReturnを別Endingとして判定し、通常のバニラ脱出ではカエルム契約を解消しない。
+- [71. カエルム文化輸出カタログ](/design/71-%E3%82%AB%E3%82%A8%E3%83%AB%E3%83%A0%E6%96%87%E5%8C%96%E8%BC%B8%E5%87%BA%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0.md) — カエルムの対同盟輸出を芸術、文化、料理、衣服、装飾、手工芸品の六部門へ分け、各製品をバニラ品質と既存Thing機構へ接続する。
+- [72. 買い手別文化輸出査定と源泉税](/design/72-%E8%B2%B7%E3%81%84%E6%89%8B%E5%88%A5%E6%96%87%E5%8C%96%E8%BC%B8%E5%87%BA%E6%9F%BB%E5%AE%9A%E3%81%A8%E6%BA%90%E6%B3%89%E7%A8%8E.md) — 真正なカエルム文化品を、同盟、カエルム、外部勢力ごとの倍率、決済通貨、Def調整可能な後援枠と源泉税で取引し、同盟は完成品の最終売却見積全体を十倍評価する。
+- [73. 総力進化戦争のIdeology・軍務履行ループ](/design/73-%E7%B7%8F%E5%8A%9B%E9%80%B2%E5%8C%96%E6%88%A6%E4%BA%89%E3%81%AEIdeology%E3%83%BB%E8%BB%8D%E5%8B%99%E5%B1%A5%E8%A1%8C%E3%83%AB%E3%83%BC%E3%83%97.md) — 総力進化戦争を、バニラIdeology、Raid軍功、帝国軍務教範、支援注文、具体的な政治前例、年次戦勝儀礼を接続する反復ゲームループとして表現する。
+- [一件一ファイルとリンク規則](/governance/atomicity-and-links-%E4%B8%80%E4%BB%B6%E4%B8%80%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%A8%E3%83%AA%E3%83%B3%E3%82%AF%E8%A6%8F%E5%89%87.md) — 知識は、単独で参照・更新・廃止できる最小単位へ分ける。
+- [知識の権威順位とライフサイクル](/governance/authority-and-lifecycle-%E7%9F%A5%E8%AD%98%E3%81%AE%E6%A8%A9%E5%A8%81%E9%A0%86%E4%BD%8D%E3%81%A8%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB.md) — このOKFバンドルはRIMプロジェクト知識の入口であり、原子的な概念ファイルを現行の参照単位とする。
+- [正本優先の通常参照方針](/governance/canonical-first-reading-policy-%E6%AD%A3%E6%9C%AC%E5%84%AA%E5%85%88%E3%81%AE%E9%80%9A%E5%B8%B8%E5%8F%82%E7%85%A7%E6%96%B9%E9%87%9D.md) — RIMの通常読み込み入口を現行正本・カタログビューへ限定し、決定履歴と調査・参照資料を履歴・補助層として扱う。
+- [コード解説の作成規則](/governance/code-explanation-policy-%E3%82%B3%E3%83%BC%E3%83%89%E8%A7%A3%E8%AA%AC%E3%81%AE%E4%BD%9C%E6%88%90%E8%A6%8F%E5%89%87.md) — コード変更には、非技術者が目的、処理の流れ、状態変更、失敗時結果、検査範囲を追える日本語解説を同じPull Requestで添える。
+- [オーバーホール中の矛盾判定規則](/governance/contradiction-policy-%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%9B%E3%83%BC%E3%83%AB%E4%B8%AD%E3%81%AE%E7%9F%9B%E7%9B%BE%E5%88%A4%E5%AE%9A%E8%A6%8F%E5%89%87.md) — 改稿差分を誤って矛盾と判定せず、現行正本の衝突だけを止めるための規則。
+- [重複と異なる粒度の管理規則](/governance/duplication-policy-%E9%87%8D%E8%A4%87%E3%81%A8%E7%95%B0%E3%81%AA%E3%82%8B%E7%B2%92%E5%BA%A6%E3%81%AE%E7%AE%A1%E7%90%86%E8%A6%8F%E5%89%87.md) — 同じ内容を異なる粒度で必要とする場合でも、事実の所有者は一つにする。
+- [OKF知識の更新手順](/governance/editing-workflow-%E7%9F%A5%E8%AD%98%E3%81%AE%E6%9B%B4%E6%96%B0%E6%89%8B%E9%A0%86.md) — OKF知識の更新手順は、ルート索引から対象領域を選ぶ。
+- [人間による承認境界](/governance/human-approval-boundary-%E4%BA%BA%E9%96%93%E3%81%AB%E3%82%88%E3%82%8B%E6%89%BF%E8%AA%8D%E5%A2%83%E7%95%8C.md) — RIM-Knowledgeでは、所有者が目的、正本、内容、影響、未確認事項、公開可否を判断し、コードの行単位理解を承認条件にしない。
+- [RIM OKFメタデータ契約](/governance/metadata-contract-%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E5%A5%91%E7%B4%84.md) — RIM概念ファイルのOKF 0.2標準メタデータと正本所有拡張の必須構造を定める。
+- [OKF統合保守コード解説](/governance/okf-maintenance-code-guide-OKF%E7%B5%B1%E5%90%88%E4%BF%9D%E5%AE%88%E3%82%B3%E3%83%BC%E3%83%89%E8%A7%A3%E8%AA%AC.md) — maintain-okf.mjsは、OKF派生資料を固定順で更新し、構造、リンク、重複、矛盾を一括検査するローカル実行用の統合入口である。
+- [Google上流OKF追随方針](/governance/okf-upstream-following-policy-Google%E4%B8%8A%E6%B5%81OKF%E8%BF%BD%E9%9A%8F%E6%96%B9%E9%87%9D.md) — GoogleCloudPlatform/knowledge-catalogのOKF規範とVisualize参照実装を確認し、RIM固有拡張をRIM側で所有する追随手順を定める。
+- [知識所有者マップ](/governance/ownership-map-%E7%9F%A5%E8%AD%98%E6%89%80%E6%9C%89%E8%80%85%E3%83%9E%E3%83%83%E3%83%97.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
+- [現行資料の正仕様記述](/governance/positive-specification-policy-%E7%8F%BE%E8%A1%8C%E8%B3%87%E6%96%99%E3%81%AE%E6%AD%A3%E4%BB%95%E6%A7%98%E8%A8%98%E8%BF%B0.md) — 履歴資料以外の文書は、採用済みの構造、状態、振る舞い、境界、失敗時結果、性能条件を正の仕様として記述する。
+- [共有・シオン・カエラヴィ区分](/governance/project-scope-%E5%85%B1%E6%9C%89%E3%83%BB%E3%82%B7%E3%82%AA%E3%83%B3%E3%83%BB%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E5%8C%BA%E5%88%86.md) — 概念を共有、シオン、カエラヴィのいずれか一つの所属MOD区分へ解決し、所属MODから探す派生索引を安定して生成する。
+- [0. 結論](/kombinat/audit/00-%E7%B5%90%E8%AB%96.md) — α版からCore独自保管基盤との予約・受渡し・確定を監査し、Kombinat固有状態の安全性を検証する。
+- [1. 監査原則](/kombinat/audit/01-%E7%9B%A3%E6%9F%BB%E5%8E%9F%E5%89%87.md) — 監査は所有者別に再現条件を分離し、Kombinatの複製・消失・二重処理・破壊的復旧をblockerとして扱う。
+- [4. シナリオ](/kombinat/audit/04-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — S2シナリオは三段生産、保存、取消、容量、停電、破壊、通貨、長期運用をCore Storageとの公開契約で検証する。
+- [5. 未知MOD](/kombinat/audit/05-%E6%9C%AA%E7%9F%A5MOD.md) — 未知MODのThingとRecipeはCore Storageの互換判定とKombinatのRecipe分類を通し、安全な公開契約だけへ接続する。
+- [6. 破壊的操作](/kombinat/audit/06-%E7%A0%B4%E5%A3%8A%E7%9A%84%E6%93%8D%E4%BD%9C.md) — 破壊的操作は、操作：Kombinatが守るものとRequest連打：Jobを二重生成しないを扱う。
+- [7. Release Gate](/kombinat/audit/07-Release-Gate-%E5%85%AC%E9%96%8B%E5%88%A4%E5%AE%9A.md) — α blockerはKX-001〜008とS2-001〜018のKombinat追加層部分である。
+- [KX-001 入力二重予約](/kombinat/audit/kx-001-%E5%85%A5%E5%8A%9B%E4%BA%8C%E9%87%8D%E4%BA%88%E7%B4%84.md) — 再現: 入力予約直後に保存し、ロード後に同じOperation IDが再送される。
+- [KX-002 引渡し後の二重所有](/kombinat/audit/kx-002-%E5%BC%95%E6%B8%A1%E3%81%97%E5%BE%8C%E3%81%AE%E4%BA%8C%E9%87%8D%E6%89%80%E6%9C%89.md) — 再現: Storage生産Commitの直後に例外が起き、同じOperation IDが再送される。
+- [KX-003 Network在庫の過剰約束](/kombinat/audit/kx-003-%E5%9C%A8%E5%BA%AB%E3%81%AE%E9%81%8E%E5%89%B0%E7%B4%84%E6%9D%9F.md) — 再現: Plannerが表示在庫を予約確定前に利用可能量へ算入し、二Jobへ同じ材料を約束する。
+- [KX-004 出力容量予約不能](/kombinat/audit/kx-004-%E5%87%BA%E5%8A%9B%E5%AE%B9%E9%87%8F%E4%BA%88%E7%B4%84%E4%B8%8D%E8%83%BD.md) — 再現: 納入先Storageに全出力を置ける容量がない状態で次Batchを開始する。
+- [KX-005 取消競合](/kombinat/audit/kx-005-%E5%8F%96%E6%B6%88%E7%AB%B6%E5%90%88.md) — 再現: Playerが取消、再注文、優先度変更を連打し、同時にIOが材料を搬入する。
+- [KX-006 Recipe副作用](/kombinat/audit/kx-006-%E5%89%AF%E4%BD%9C%E7%94%A8.md) — 再現: 外部Recipeを無人Factoryへ自動登録する。
+- [KX-007 通貨二重決済](/kombinat/audit/kx-007-%E9%80%9A%E8%B2%A8%E4%BA%8C%E9%87%8D%E6%B1%BA%E6%B8%88.md) — 再現: 支払確定後、報酬受取前に保存・ロードまたはUI再送する。
+- [KX-008 初期化二重適用](/kombinat/audit/kx-008-%E5%88%9D%E6%9C%9F%E5%8C%96%E4%BA%8C%E9%87%8D%E9%81%A9%E7%94%A8.md) — 再現: 独立開拓団開始中に例外または途中ロードを起こす。
+- [0. 結論](/kombinat/core/00-%E7%B5%90%E8%AB%96.md) — Kombinatは発注、設備能力、生産進捗、消費表示、流通目標、非貨幣の同盟Credit Accountを所有し、物理ThingをCore Storageへ一元化する。
+- [1. 製品境界](/kombinat/core/01-%E8%A3%BD%E5%93%81%E5%A2%83%E7%95%8C.md) — Kombinatはα版からCore独自保管・接続システムの公開入出庫境界へ接続し、保管内部を所有しない。
+- [2. 実装状態の参照](/kombinat/core/02-%E7%8A%B6%E6%85%8B%E5%88%86%E9%A1%9E.md) — Kombinatの実装状態はリリース計画の現在地が所有し、本節は中核仕様からその正本を参照する。
+- [3. 物理Thingと非物理台帳](/kombinat/core/03-%E7%89%A9%E7%90%86Thing%E3%81%A8%E9%80%9A%E8%B2%A8.md) — 物理材料と製品は実在するRimWorld Thingであり、同盟Credit、カエルムMark、債務、租税は意味と所有者を分けた非物理Account／Ledgerとして保存する。
+- [4. Kombinat追加層の中核型](/kombinat/core/04-Kombinat%E8%BF%BD%E5%8A%A0%E5%B1%A4%E3%81%AE%E4%B8%AD%E6%A0%B8%E5%9E%8B.md) — KombinatはCore独自保管・接続システムに属する保管基盤型を再実装しない。
+- [5. 発注と多段生産](/kombinat/core/05-%E7%99%BA%E6%B3%A8%E3%81%A8%E5%A4%9A%E6%AE%B5%E7%94%9F%E7%94%A3.md) — αの発注は具体的なThingDef、Recipe、数量または目標在庫を基本とする。
+- [6. 無人生産](/kombinat/core/06-%E7%84%A1%E4%BA%BA%E7%94%9F%E7%94%A3.md) — Kombinat専用FactoryとKombinat専用Patternは、Pawnがいなくても電力、材料、設備状態を満たせば稼働できる。
+- [7. 保管中の時間進行](/kombinat/core/07-Stasis-%E4%BF%9D%E7%AE%A1%E4%B8%AD%E3%81%AE%E6%99%82%E9%96%93%E9%80%B2%E8%A1%8C.md) — 保管中の時間進行方針はCore独自Storageが対象別に所有し、Kombinatはその判定を維持する。
+- [8. 消費と流通](/kombinat/core/08-%E6%B6%88%E8%B2%BB%E3%81%A8%E6%B5%81%E9%80%9A.md) — Kombinatは接続先保管基盤の内部消費を無断で監視せず、公開された観測境界だけを使う。
+- [9. UI](/kombinat/core/09-UI-%E6%93%8D%E4%BD%9C%E7%94%BB%E9%9D%A2.md) — Field Ledger Terminalを選択して全機能へ入る暗色のRimWorld管理Windowを基準とし、通常表示と最大化表示を同じDef駆動Page railで提供する。
+- [10. 保存と原子性](/kombinat/core/10-%E4%BF%9D%E5%AD%98%E3%81%A8%E5%8E%9F%E5%AD%90%E6%80%A7.md) — Kombinatは次だけを保存するという方針の適用範囲と条件を定める。
+- [11. 欠陥の所有と切り分け](/kombinat/core/11-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E3%81%AE%E6%89%B1%E3%81%84.md) — Core StorageとKombinatの欠陥は再現条件と取引所有者から切り分け、各所有者のRelease Gateへ登録する。
+- [12. α完成条件](/kombinat/core/12-%CE%B1%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Kombinat αはShion種族実装に先行し、バニラHumanのfixtureでThingOwner間の直接転送、三段生産、任意排出を成立させる。
+- [13. β](/kombinat/core/13-%CE%B2-%E7%8F%BE%E8%A1%8C%E4%BB%95%E6%A7%98.md) — Equipment Familyは作者が明示登録した候補だけを使う。
+- [14. 実装順](/kombinat/core/14-%E5%AE%9F%E8%A3%85%E9%A0%86.md) — 工業UIのRimWorld 1.6画面契約を先に固定し、Shion種族に先行してCore独自保管・接続システムとKombinatをバニラHumanのfixtureで完成させる。
+- [1. 適用範囲](/kombinat/requirements/01-%E9%81%A9%E7%94%A8%E7%AF%84%E5%9B%B2.md) — 本書はKombinatが独自実装する発注、多段生産、設備能力、消費表示、流通目標、非貨幣の同盟Credit Accountを扱う。
+- [A. 三段生産](/kombinat/requirements/044-A-%E4%B8%89%E6%AE%B5%E7%94%9F%E7%94%A3.md) — A. 三段生産は、Core Storage上の材料と出力容量を工程ごとに予約してCommitする。
+- [B. 材料不足](/kombinat/requirements/045-B-%E6%9D%90%E6%96%99%E4%B8%8D%E8%B6%B3.md) — 材料不足をNetwork在庫0と断定せず、Factoryへの搬入待ちとして表示する。
+- [C. 停電](/kombinat/requirements/046-C-%E5%81%9C%E9%9B%BB.md) — Factory停止中に入力、進捗、出力を複製・消失させず、復電後に再検証する。
+- [D. 出力満杯](/kombinat/requirements/047-D-%E5%87%BA%E5%8A%9B%E6%BA%80%E6%9D%AF.md) — 納入先Storageの出力容量を予約できない時は次Batchを開始せず、既存在庫を変更しない。

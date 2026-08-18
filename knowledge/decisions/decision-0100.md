@@ -4,9 +4,7 @@ title: "確定#100：武器よさらば（社会民主党フォーカス拡張MO
 description: "武器よさらば（社会民主党フォーカス拡張MOD）新設を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

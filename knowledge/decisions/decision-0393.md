@@ -4,12 +4,10 @@ title: "確定#393：β版Pawn Foundry、補充可能個体、登録再実体化
 description: "β版Pawn Foundry、補充可能個体、登録再実体化、Clone Colonyを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "kombinat"
   - "pawn"
   - "independent-colony"
   - "equipment"
-  - "canon"
   - "beta"
 organization_groups:
   - "independent-frontier"

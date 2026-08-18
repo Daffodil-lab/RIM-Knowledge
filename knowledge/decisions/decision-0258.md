@@ -4,9 +4,7 @@ title: "確定#258：CoreMOD資料v1§4.3・無制限スタック特性に整数
 description: "CoreMOD資料v1§4.3・無制限スタック特性に整数上限式を新設を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

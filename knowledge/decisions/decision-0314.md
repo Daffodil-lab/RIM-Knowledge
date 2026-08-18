@@ -4,8 +4,6 @@ title: "確定#314：消費財に「生活水準」システムを追加——�
 description: "消費財に「生活水準」システムを追加——ステラリスの生活水準（消費財消費倍率とバフのトレードオフ）を参考に、労働資本/ポーン当たりの設備生産性バフを消費財消費と引き換えに得る仕組みを導入を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

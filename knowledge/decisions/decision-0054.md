@@ -4,8 +4,6 @@ title: "確定#54：防衛はロジスティクスの試験＋全投資完了で
 description: "防衛はロジスティクスの試験＋全投資完了でOPMOD級と対等：攻勢＝質の投資曲線、防衛＝数（−Tier量産）と蘇生の継続でロジスティクス管理を\"詰を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

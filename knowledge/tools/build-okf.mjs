@@ -1037,7 +1037,7 @@ addGovernance();
 const designPointerRules = {
   "最初に読む：今回のオーバーホールで何を変えたか": {
     owners: [
-      { label: "知識所有者マップ", path: "/governance/ownership-map.md" },
+      { label: "知識所有者マップ", path: "/governance/ownership-map-知識所有者マップ.md" },
       { label: "移行元カタログ", path: "/sources/index.md" },
     ],
   },
@@ -1045,9 +1045,9 @@ const designPointerRules = {
     owners: [
       {
         label: "知識の権威順位とライフサイクル",
-        path: "/governance/authority-and-lifecycle.md",
+        path: "/governance/authority-and-lifecycle-知識の権威順位とライフサイクル.md",
       },
-      { label: "知識所有者マップ", path: "/governance/ownership-map.md" },
+      { label: "知識所有者マップ", path: "/governance/ownership-map-知識所有者マップ.md" },
     ],
   },
   "1. 中心命題": {
@@ -1132,14 +1132,14 @@ const designPointerRules = {
     owners: [
       {
         label: "知識の権威順位とライフサイクル",
-        path: "/governance/authority-and-lifecycle.md",
+        path: "/governance/authority-and-lifecycle-知識の権威順位とライフサイクル.md",
       },
       { label: "移行元カタログ", path: "/sources/index.md" },
     ],
   },
   "29. 文書責務": {
     owners: [
-      { label: "知識所有者マップ", path: "/governance/ownership-map.md" },
+      { label: "知識所有者マップ", path: "/governance/ownership-map-知識所有者マップ.md" },
     ],
   },
   "31. 完成条件": {

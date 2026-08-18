@@ -4,8 +4,6 @@ title: "確定#348：FTLの例外性、対価、統一後の用途、および�
 description: "FTLの例外性、対価、統一後の用途、および旧帝国／同盟の機械文明としての格付けを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

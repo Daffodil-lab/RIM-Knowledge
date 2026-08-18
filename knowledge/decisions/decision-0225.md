@@ -4,8 +4,6 @@ title: "確定#225：ゼロ点エネルギー発電機の「『旧制式』で�
 description: "ゼロ点エネルギー発電機の「『旧制式』ではなく『最新』である理由」説明ブロックを削除を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

@@ -4,8 +4,6 @@ title: "確定#23：段4 機械化部隊＝大規模通常戦力（大砲・装�
 description: "段4 機械化部隊＝大規模通常戦力（大砲・装甲車・歩兵多数・短射程）。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

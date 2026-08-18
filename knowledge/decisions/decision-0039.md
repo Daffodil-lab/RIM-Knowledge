@@ -4,8 +4,6 @@ title: "確定#39：〔#40に置換〕「翰林級」へ改称（旧・評議員
 description: "〔番号40に置換〕「翰林級」へ改称（旧・評議員級）：中間案。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

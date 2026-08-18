@@ -4,9 +4,7 @@ title: "確定#52：オーバーホール回数でコスト基準が切替：1�
 description: "オーバーホール回数でコスト基準が切替：1〜5回目＝元コスト半額固定、6回目以降＝現在品質相当の新規製造コストの半額へ都度切替。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

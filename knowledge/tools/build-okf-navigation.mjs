@@ -5,8 +5,12 @@ import {
   ERA_ORDER,
   ORGANIZATION_LABELS,
   TOPIC_DEFINITIONS,
+  PROJECT_SCOPE_LABELS,
+  PROJECT_SCOPE_VALUES,
+  loadProjectScopeOverrides,
   readConcepts,
   recordTopics,
+  resolveProjectScope,
   toPosix,
   walk,
 } from "./lib/okf-utils.mjs";
@@ -26,10 +30,12 @@ if (!mode) {
   process.exit(2);
 }
 
-const records = readConcepts(BUNDLE).map((record) => ({
-  ...record,
-  topics: recordTopics(record),
-}));
+const projectScopeOverrides = loadProjectScopeOverrides(BUNDLE);
+const records = readConcepts(BUNDLE).map((record) => {
+  const resolution = resolveProjectScope(record, projectScopeOverrides);
+  if (!resolution.scope) throw new Error(`Unresolved project_scope: ${record.relative} (${resolution.reason})`);
+  return { ...record, topics: recordTopics(record), projectScope: resolution.scope };
+});
 const output = new Map();
 const managedIndexes = new Map();
 
@@ -45,7 +51,10 @@ function entry(record, options = {}) {
   const details = options.showOrganizations && record.organizationNames.length
     ? ` （${record.organizationNames.join(" / ")}）`
     : "";
-  return `- [${record.title}](/${encodeURI(record.relative)}) — ${record.description}${details}`;
+  const scope = options.showProjectScope
+    ? ` 【所属MOD: ${PROJECT_SCOPE_LABELS[record.projectScope]}】`
+    : "";
+  return `- [${record.title}](/${encodeURI(record.relative)}) — ${record.description}${details}${scope}`;
 }
 
 function put(relative, lines) {
@@ -120,14 +129,14 @@ function groupBy(values, selector) {
 
 function renderFacetDimension(base, title, groups, labels, order, options = {}) {
   const keys = order
-    ? [...order].filter((key) => groups.has(key))
+    ? [...order].filter((key) => options.includeEmptyGroups || groups.has(key))
     : [...groups.keys()].sort((a, b) =>
         (labels[a] || a).localeCompare(labels[b] || b, "ja"),
       );
   const hub = [`# ${title}`, "", "## 小索引", ""];
   for (const key of keys) {
     const label = labels[key] || key;
-    const values = groups.get(key);
+    const values = groups.get(key) || [];
     const target = `${base}/${slug(key)}`;
     hub.push(`- [${label}](${slug(key)}/) — ${values.length}件`);
     renderRecordSet(target, label, values, options);
@@ -170,11 +179,32 @@ renderFacetDimension(
   [...TOPIC_DEFINITIONS.map((topic) => topic.id), "other"],
 );
 
+const projectScopeGroups = groupBy(records, (record) => record.projectScope);
+renderFacetDimension(
+  "project-scope",
+  "所属MOD別索引",
+  projectScopeGroups,
+  PROJECT_SCOPE_LABELS,
+  PROJECT_SCOPE_VALUES,
+  { showProjectScope: true },
+);
+
+const backstoryRecords = records.filter((record) => record.type === "Backstory Record");
+const backstoryScopeGroups = groupBy(backstoryRecords, (record) => record.projectScope);
+renderFacetDimension(
+  "backstories/project-scope",
+  "バックストーリー・所属MOD別索引",
+  backstoryScopeGroups,
+  PROJECT_SCOPE_LABELS,
+  PROJECT_SCOPE_VALUES,
+  { showProjectScope: true, includeEmptyGroups: true },
+);
+
 const lifecycleGroups = groupBy(records, (record) => record.metadata.status);
 const authorityGroups = groupBy(records, (record) => record.metadata.authority);
-const canonReviewGroups = groupBy(
-  records.filter((record) => record.metadata.canon_review),
-  (record) => record.metadata.canon_review,
+const referenceReviewGroups = groupBy(
+  records.filter((record) => record.metadata.reference_review),
+  (record) => record.metadata.reference_review,
 );
 const overhaulGroups = groupBy(
   records.filter((record) => record.metadata.overhaul_state),
@@ -193,9 +223,9 @@ renderFacetDimension(
   {},
 );
 renderFacetDimension(
-  "state/canon-review",
-  "正史審査状態別索引",
-  canonReviewGroups,
+  "state/reference-review",
+  "参考審査状態別索引",
+  referenceReviewGroups,
   {},
 );
 renderFacetDimension(
@@ -209,24 +239,24 @@ put("state/index.md", [
   "",
   "- [ライフサイクル](lifecycle/)",
   "- [権威](authority/)",
-  "- [正史審査状態](canon-review/)",
+  "- [参考審査状態](reference-review/)",
   "- [オーバーホール状態](overhaul/)",
 ]);
 
 const overhaulStates = {
   candidate: records.filter(
-    (record) => record.metadata.canon_review === "candidate",
+    (record) => record.metadata.reference_review === "candidate",
   ),
   "re-audit": records.filter(
-    (record) => record.metadata.canon_review === "re-audit",
+    (record) => record.metadata.reference_review === "re-audit",
   ),
   "under-review": records.filter(
     (record) => record.metadata.overhaul_state === "under-review",
   ),
 };
 const overhaulLabels = {
-  candidate: "candidate（新規正史候補）",
-  "re-audit": "re-audit（旧稿再監査）",
+  candidate: "candidate（参考候補）",
+  "re-audit": "re-audit（参考再監査）",
   "under-review": "under-review（オーバーホール中）",
 };
 
@@ -323,6 +353,9 @@ for (const [directory, values] of byDirectory) {
     "- [組織別索引](/navigation/organization/)",
     "- [状態別索引](/navigation/state/)",
     "- [主題別索引](/navigation/subject/)",
+    ...(directory === "reference/backstories/formation" || directory === "reference/backstories/mastery"
+      ? ["- [バックストーリー・所属MOD別索引](/navigation/backstories/project-scope/)"]
+      : []),
   ];
   managedIndexes.set(
     existingPath,
@@ -391,6 +424,8 @@ put("index.md", [
   "- [組織別索引](organization/)",
   "- [状態別索引](state/)",
   "- [主題別索引](subject/)",
+  "- [所属MOD別索引](project-scope/)",
+  "- [バックストーリー・所属MOD別索引](backstories/project-scope/)",
   "- [長大領域の小索引](collection/)",
 ]);
 
@@ -463,7 +498,7 @@ for (const [file, content] of expectedNavigation) {
 
 const eraBackstories = records.filter(
   (record) =>
-    /^backstories\/(?:formation|mastery)\/SHION_[CA]\d{3}\.md$/.test(
+    /^reference\/backstories\/(?:formation|mastery)\/SHION_[CA]\d{3}\.md$/.test(
       record.relative,
     ),
 );

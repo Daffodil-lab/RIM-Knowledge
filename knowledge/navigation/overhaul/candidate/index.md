@@ -1,4 +1,4 @@
-# candidate（新規正史候補）
+# candidate（参考候補）
 
 0件。
 

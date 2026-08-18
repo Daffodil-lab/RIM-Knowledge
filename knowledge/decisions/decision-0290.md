@@ -4,8 +4,6 @@ title: "確定#290：ゲラーフィールド相当の防護技術は艦船内�
 description: "ゲラーフィールド相当の防護技術は艦船内・特別設備の保護下でのみ有効——巡洋艦以上が設置する\"アンカー\"で後続艦隊は安全に増援可能、初回到達（アンカー無し）は依然として危険（確定番号285を補足・未解決課題を解決）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

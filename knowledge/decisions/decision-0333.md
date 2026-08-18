@@ -4,8 +4,6 @@ title: "確定#333：遠隔拠点にコア設置を必須化——メイン拠�
 description: "遠隔拠点にコア設置を必須化——メイン拠点はNexus Core、遠隔拠点は専用の「Nexusサブコア」（旧称：第二コア）が必要を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

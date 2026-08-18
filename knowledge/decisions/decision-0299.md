@@ -4,9 +4,7 @@ title: "確定#299：用語定義「同盟人」＝政治的に興味のない�
 description: "用語定義「同盟人」＝政治的に興味のない普通のシオン/Shion——人間とシオン/Shionの隔たりは人間とアリ程度（基本的な生物ロジックに縛られる点で本質は大差ない）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

@@ -4,8 +4,6 @@ title: "確定#305：分身固有の工業メカニクス（Tower Ledger等）�
 description: "分身固有の工業メカニクス（Tower Ledger等）をShion Race: 無零花の単一工業システムへ統合——Shion Race: 無零花は大幅な改変を予定を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

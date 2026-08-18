@@ -4,9 +4,7 @@ title: "確定#263：装備数値表v1・スポッター連動の狙撃システ
 description: "装備数値表v1・スポッター連動の狙撃システム＋最優先目標指定コマンドを検討開始（未実装）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

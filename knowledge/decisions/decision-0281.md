@@ -4,9 +4,7 @@ title: "確定#281：SHOFAR（手榴弾ベルト）を装備数値表v1に新規
 description: "SHOFAR（手榴弾ベルト）を装備数値表v1に新規収録し数値を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

@@ -4,8 +4,6 @@ title: "確定#353：サイキックの精神干渉可能性、秘文字との�
 description: "サイキックの精神干渉可能性、秘文字との区別、非因果的・非時間的作用を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

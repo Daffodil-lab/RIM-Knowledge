@@ -4,10 +4,8 @@ title: "確定#238：CoreMODの「職級を持たない汎用個体」に、職�
 description: "CoreMODの「職級を持たない汎用個体」に、職級より緩く効果も小さい「任務」ラベルを新設——⑤識別・命名タブで役割を自己申告できる仕組みを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "independent-colony"
-  - "canon"
 organization_groups:
   - "independent-frontier"
 status: deprecated

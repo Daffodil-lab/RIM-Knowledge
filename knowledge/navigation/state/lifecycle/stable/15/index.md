@@ -1,86 +1,86 @@
 # stable 15
 
-範囲: STA-001 意図した仕様〜REG-004 Design保存
+範囲: SHION_A300 対機械戦区の設備技師〜SHION_A379 帝国准民の自嘲
 
 ## 項目
 
-- [STA-001 意図した仕様](/kombinat/requirements/sta-001.md) — MUST: Core独自Storage内の腐敗、温度、Thing Tick、Comp Tick、充放電、孵化等の時間進行方針を明示する。
-- [STA-002 追加制限禁止](/kombinat/requirements/sta-002.md) — MUST: Stasisによる時間停止だけを理由に、Kombinatから追加費用、危険分類、入庫拒否を行わない。
-- [STA-003 工場内在庫禁止](/kombinat/requirements/sta-003.md) — MUST: Kombinat Factoryは生産用ThingOwnerを持たず、材料、中間品、完成品をCore Storageへ一元化する。
-- [UX-001 発注](/kombinat/requirements/ux-001.md) — MUST: 品目、数量または目標在庫、優先度だけで基本発注を作れる。
-- [UX-002 見積り](/kombinat/requirements/ux-002.md) — MUST: 確定前に、必要材料、Storage利用可能量、予約済み、中間品、設備、出力容量、概算時間を表示する。
-- [UX-003 状態語](/kombinat/requirements/ux-003.md) — MUST: 少なくとも次を区別するという方針の適用範囲と条件を定める。
-- [UX-004 上流UIの尊重](/kombinat/requirements/ux-004.md) — MUST: Storage、Filter、Endpoint、Network設定はCore独自基盤のUI責務とし、Kombinat内部へ複製しない。
-- [0. 結論](/pawn/00-%E7%B5%90%E8%AB%96.md) — β版では、シオンPawnを必要に応じて設計、生産、配備、無料保管、修復、回収、再生産できなければならない。
-- [1. 権威と責務](/pawn/01-%E6%A8%A9%E5%A8%81%E3%81%A8%E8%B2%AC%E5%8B%99.md) — Pawnの生成、人格・身体構成、登録、保管、死亡後削除、再実体化、Cloneについて矛盾がある場合、次の順を用いる。
-- [3. 個体分類](/pawn/03-%E5%80%8B%E4%BD%93%E5%88%86%E9%A1%9E.md) — 個体分類は、Ephemeral Pawn：なし：遺体情報が残る間だけ低コスト再起動可能：不可：再資源化完了時に個体情報を削除とRegistered Individual：Individual Archive：一体だけ可能：可能：Archiveを残し、Pawn…。
-- [4. データ境界](/pawn/04-%E3%83%87%E3%83%BC%E3%82%BF%E5%A2%83%E7%95%8C.md) — データ境界は、境界：主な内容：保存とPawn Generation Request：適合条件、数量、登録方針、Loadout：完了までを扱う。
-- [A. ランダム適合個体](/pawn/068-A-%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E9%81%A9%E5%90%88%E5%80%8B%E4%BD%93.md) — A. ランダム適合個体は、建築能力と運搬能力を条件に一体注文する。
-- [B. 必要装備込みの配備](/pawn/069-B-%E5%BF%85%E8%A6%81%E8%A3%85%E5%82%99%E8%BE%BC%E3%81%BF%E3%81%AE%E9%85%8D%E5%82%99.md) — B. 必要装備込みの配備は、射手四体、互換する防具、遠距離武器、医療品を注文する。
-- [C. 一からの個体設計](/pawn/070-C-%E4%B8%80%E3%81%8B%E3%82%89%E3%81%AE%E5%80%8B%E4%BD%93%E8%A8%AD%E8%A8%88.md) — C. 一からの個体設計は、Body、Module、外装、技能、特性、能力、装備を選ぶ。
-- [D. 単一個体の登録と再実体化](/pawn/071-D-%E5%8D%98%E4%B8%80%E5%80%8B%E4%BD%93%E3%81%AE%E7%99%BB%E9%8C%B2%E3%81%A8%E5%86%8D%E5%AE%9F%E4%BD%93%E5%8C%96.md) — D. 単一個体の登録と再実体化は、活動中Pawnを登録する。
-- [E. Clone Colony](/pawn/072-E-Clone-Colony.md) — E. Clone Colonyは、一体のRegistered IndividualをClone Sourceにする。
-- [F. 無料保管](/pawn/073-F-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — F. 無料保管は、生存Pawnへ装備とinventory内Thingを持たせてDormant化する。
-- [G. 負傷と遺体回収](/pawn/074-G-%E8%B2%A0%E5%82%B7%E3%81%A8%E9%81%BA%E4%BD%93%E5%9B%9E%E5%8F%8E.md) — G. 負傷と遺体回収は、重傷Pawnを低コスト修復する。
-- [H. Ephemeral完全削除](/pawn/075-H-Ephemeral%E5%AE%8C%E5%85%A8%E5%89%8A%E9%99%A4.md) — H. Ephemeral完全削除は、大量のEphemeral Pawnを死亡、回収、再資源化する。
-- [I. Cloneと固有物](/pawn/076-I-Clone%E3%81%A8%E5%9B%BA%E6%9C%89%E7%89%A9.md) — I. Cloneと固有物は、名前付き武器、Quest参照、称号を持つRegistered IndividualをCloneする。
-- [J. 途中保存と再送](/pawn/077-J-%E9%80%94%E4%B8%AD%E4%BF%9D%E5%AD%98%E3%81%A8%E5%86%8D%E9%80%81.md) — J. 途中保存と再送は、生産、Dormant化、回収、再資源化、再実体化、Cloneの各段階で保存する。
-- [13. 完成図Hardening要件](/pawn/13-%E5%AE%8C%E6%88%90%E5%9B%B3Hardening%E8%A6%81%E4%BB%B6.md) — 本節は旧完成図監査から回収したPawn Foundry固有のHardening要件を、本書自身の拘束要件として維持する。
-- [14. β Definition of Done](/pawn/14-%CE%B2-Definition-of-Done.md) — 次を全て満たした時だけ、β版のPawn生産系を完成とする。
-- [15. 未確定のバランス値](/pawn/15-%E6%9C%AA%E7%A2%BA%E5%AE%9A%E3%81%AE%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9%E5%80%A4.md) — 次はβの実装fixtureで確定するという方針の適用範囲と条件を定める。
-- [2.1 補充可能性](/pawn/2-1-%E8%A3%9C%E5%85%85%E5%8F%AF%E8%83%BD%E6%80%A7.md) — 補充可能性は、通常シオンPawnに、世界で一度しか得られない必須材料や有限の生産回数を要求しない。
-- [2.2 人格とゲームユニット](/pawn/2-2-%E4%BA%BA%E6%A0%BC%E3%81%A8%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88.md) — 人格とゲームユニットは、ゲーム上のPawnは生産、保管、交換、補充できるコマである。
-- [2.3 無料保管](/pawn/2-3-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — 生存PawnはPawn Foundryまたは対応設備からDormant状態へ移し、必要になるまで保管できる。
-- [3.1 Ephemeral Pawn](/pawn/3-1-Ephemeral-Pawn.md) — 適合生成の既定出力であり、また役割上必要な情報だけを指定し、それ以外をランダム生成する。
-- [3.2 Registered Individual](/pawn/3-2-Registered-Individual.md) — 既存Pawnをプレイヤーが登録すると、個体を再構築するためのIndividual Archiveを作る。
-- [3.3 Saved Pawn Design](/pawn/3-3-Saved-Pawn-Design.md) — 特定の一人ではなく、繰り返し使える製造設計である。
-- [3.4 Clone](/pawn/3-4-Clone.md) — 登録個体または保存設計をClone Sourceにできる。
-- [4.1 ID](/pawn/4-1-ID.md) — 再実体化ではindividualIdを維持し、pawnInstanceIdを更新できる。
-- [ADV-001 緊急一体再配備](/pawn/adv-001.md) — MUST: 同一Mapで活動可能なプレイヤーPawnが0体になった場合、Dormant Recordから一体だけを、電力、Pawn作業、通常の配備Queueなしで安全地点へ復帰できるfail-safeを持つ。
-- [ADV-002 無人Foundry](/pawn/adv-002.md) — MUST: 電力、材料、健全な設備がある時、少なくとも一系統のPawn Foundry工程は生存Pawnの作業なしで一体を完成できる。
-- [ADV-003 物理費と人格復元費](/pawn/adv-003.md) — MUST: Archiveが低コストで復元するのは人格・構成情報であり、失われた身体、内蔵Module、着脱装備を無償複製しない。
-- [ADV-004 Pawn要素別安全性](/pawn/adv-004.md) — MUST: Gene、Hediff、Ability、Comp、Royalty、Ideology、Quest、外部MODデータをDormant Safe、Archive Safe、Clone Safeの要素別に判定する。
-- [ADV-005 Ephemeral参照解決](/pawn/adv-005.md) — MUST: Ephemeral Pawnの完全削除前に、Relation、Mood Memory、Tale、Quest、Lord、Faction、World Pawn、Bond、外部参照を解決、匿名化、終端記録へ変換する。
-- [ADV-006 Design version pin](/pawn/adv-006.md) — MUST: Generation Requestは開始時のPawn Design、Clone Source checkpoint、Loadout Profile、Gene／Ability候補、Adapter versionをpinする。
-- [ADV-007 Pawn依存Manifest](/pawn/adv-007.md) — MUST: Dormant Record、Individual Archive、Pawn Design、Clone Sourceが依存するpackageId、version、Def、class、Adapterを有限Manifestとして保存する。
-- [ADV-008 Dormant wealth](/pawn/adv-008.md) — MUST: Dormant中の身体と内蔵Moduleを、そのRecordが属するMapまたはWorldObjectのwealthへ一度だけ算入する。
-- [ADV-009 全状態の保存と冪等性](/pawn/adv-009.md) — MUST: 緊急再配備、着脱品返却、無人生産、参照解決、Manifest診断を途中保存できる。
-- [ADV-010 検証割当](/pawn/adv-010.md) — MUST: 監査S-047〜060、S-064〜066を自動fixture、統合試験、手動試験のいずれかへ割り当て、対象build、DLC、外部MOD、操作、期待結果、物理費、ID、保存往復を記録する。
-- [DOR-001 Dormant化](/pawn/dor-001.md) — MUST: 生存し、搬送可能で、禁止状態にないPawnをDormant Recordへ移せる。
-- [DOR-002 無料](/pawn/dor-002.md) — MUST: Dormant化、保管期間、再配備は資源、通貨、専用容量を消費しない。
-- [DOR-003 停止](/pawn/dor-003.md) — MUST: Dormant中はPawn Tick、Need、病気、出血、腐敗、充放電、Hediff経過、Ability cooldown、年齢進行を停止する。
-- [DOR-004 完全往復](/pawn/dor-004.md) — MUST: 名前、load ID、individual ID、関係、技能、特性、遺伝情報、身体、内蔵Module、Hediff、Pawn設定をDormant化と再配備で維持する。
-- [DOR-005 同時所在](/pawn/dor-005.md) — MUST: 同じPawnがMap、Caravan、World Pawn、Dormant Recordの複数へ同時に存在しない。
-- [DOR-006 参照安全性](/pawn/dor-006.md) — MUST: Quest、Lord、Faction、Ideology、Royalty、Gene、Bond、外部MOD参照を検査し、安全にDormant化できない理由を明示する。
-- [DOR-007 装備](/pawn/dor-007.md) — MUST: 着脱可能な装備、衣服、工具、inventory内ThingはDormant化のtransaction内でCore独自保管・接続システムまたはMap上の受入先へ一度だけ返却する。
-- [GEN-001 適合生成](/pawn/gen-001.md) — MUST: プレイヤーは役割、必須作業、最低技能、必要能力、許可する身体、数量を指定し、条件へ適合するランダムPawnを生成できる。
-- [GEN-002 ランダム範囲](/pawn/gen-002.md) — MUST: 指定されていない名前、外見、性格、技能差、趣味等は許可範囲からランダム化する。
-- [GEN-003 既定個体](/pawn/gen-003.md) — MUST: Defで登録された固有個体または既定設計を一覧から選び、予定された構成で生産できる。
-- [GEN-004 一からの設計](/pawn/gen-004.md) — MUST: プレイヤーはBody Platform、Module、外装、遺伝情報、特性、技能、Passion、能力、役割、Loadoutを一から構成し、互換性と費用を確認して生産できる。
-- [GEN-005 必要装備](/pawn/gen-005.md) — MUST: 生産要求は、具体Thing指定と作者定義のEquipment Familyを併用できる。
-- [GEN-006 原子的配備](/pawn/gen-006.md) — MUST: Body、必須Module、必須能力、必須装備のいずれかが欠ける場合、完成扱いでPawnを出現させない。
-- [GEN-007 反復可能性](/pawn/gen-007.md) — MUST: 通常Pawnの生産へ一回限りのWorld Unique資源、有限許可回数、消滅する原型を要求しない。
-- [GEN-008 Repeat Order](/pawn/gen-008.md) — MUST: 適合条件、Design、Registered IndividualのCloneを数量指定または目標活動数で反復生産できる。
-- [INT-001 Production Adapter](/pawn/int-001.md) — MUST: Pawn FoundryはBody、Module、装備、消耗品をKombinat Production Requestとして発注できる。
-- [INT-002 三主題の維持](/pawn/int-002.md) — MUST: Kombinat側ではPawn要求を生産対象、Pawn需要を消費予測、Foundryへの引渡しを流通として表示する。
-- [INT-003 具体装備](/pawn/int-003.md) — MUST: 登録個体の固有装備、名前付き装備、Quest品は具体Thingとして追跡し、Clone時に複製しない。
-- [INT-004 装備ファミリー](/pawn/int-004.md) — MUST: 武器、防具、工具、医療品等のFamily指定は、作者が明示登録した同用途・同性能帯・同費用帯の候補から具体Thingへ解決する。
-- [INT-005 Ability Package](/pawn/int-005.md) — MUST: 必要能力はBody Module、Gene、Trait、Skill、Passion、Ability、Hediff等の由来を区別して構成し、同じ効果を無関係な仕組みで暗黙代替しない。
-- [INT-006 取消と返却](/pawn/int-006.md) — MUST: 生産取消、設計変更、配備失敗時は、未消費資源、完成済み装備、部分完成Bodyを追跡し、複製せずCore独自保管・接続システムまたはMap上の受入先へ返却するか、Factory Buffer内で明示的に再利用する。
-- [PERF-001 Dormant停止](/pawn/perf-001.md) — MUST: Dormant PawnをRimWorld Pawn Tickまたは全件毎tick走査の対象にしない。
-- [PERF-002 Event更新](/pawn/perf-002.md) — MUST: Archive checkpoint、需要数、Clone活動数、回収状態をevent駆動で更新する。
-- [PERF-003 World Pawn漏れ](/pawn/perf-003.md) — MUST: Ephemeralを一万体生成・回収・再資源化するfixture後も、World Pawn、Relation、Tale、Archiveが生成総数に比例して残留しない。
-- [PERF-004 量産](/pawn/perf-004.md) — MUST: 同一DesignまたはClone Sourceから100体を連続生産するfixtureで、ID重複、参照共有、装備複製、無制限履歴増加を起こさない。
-- [REC-001 低コスト修復](/pawn/rec-001.md) — MUST: 生存Pawnの通常負傷、欠損、故障、交換可能Moduleを、標準新規Pawn生産より低い資源と時間で回復できる。
-- [REC-002 遺体回収](/pawn/rec-002.md) — MUST: 回収したシオン遺体をRecovery Facilityへ受け入れ、再起動、Archive再実体化、再資源化の利用可能な選択を表示する。
-- [REC-003 Ephemeral再起動](/pawn/rec-003.md) — MUST: Ephemeral Pawnは、遺体とPawn instance情報が残る間、低コストで同じ現在個体を再起動できる。
-- [REC-004 Ephemeral最終削除](/pawn/rec-004.md) — MUST: Ephemeral Pawnの遺体を再資源化した場合、Pawn、Corpse、World Pawn、Relation、Archive、個体参照付きTale／Log、未解決参照をセーブ正本から除去する。
-- [REC-005 Registered再実体化](/pawn/rec-005.md) — MUST: Registered Individualの死亡後は、回収時にArchiveをcheckpointし、遺体を再資源化した後も同じindividualIdで一体を再実体化できる。
-- [REC-006 Clone選択](/pawn/rec-006.md) — MUST: Registered Individualが活動中またはDormantである場合、同じ原型からの追加生産は再実体化ではなくCloneとして明示する。
-- [REC-007 回収不能](/pawn/rec-007.md) — MUST: 遺体が消滅したEphemeral Pawnは同じ個体として復元できない。
-- [REC-008 冪等性](/pawn/rec-008.md) — MUST: 回収、再起動、再資源化、再実体化のCommand再送で、Pawn、遺体、装備、資源を二重生成または二重回収しない。
-- [REC-009 Quest参照](/pawn/rec-009.md) — MUST: Ephemeral最終削除の前にQuest、Lord、Relation、Faction、World Pawn、外部Adapterへ終了通知を送り、参照を解決する。
-- [REG-001 既存Pawn登録](/pawn/reg-001.md) — MUST: 活動中またはDormantのシオンPawnをRegistered Individualへ変更できる。
-- [REG-002 Archive更新](/pawn/reg-002.md) — MUST: Archiveは登録時、Dormant化時、手動保存時、死亡回収時にevent駆動でcheckpointする。
-- [REG-003 単一個体制約](/pawn/reg-003.md) — MUST: 同じindividualIdを持つ活動中またはDormantの実体を二体作らない。
-- [REG-004 Design保存](/pawn/reg-004.md) — MUST: プレイヤー設計を個体情報のない再利用可能なPawn Designとして保存できる。
+- [SHION_A300 対機械戦区の設備技師](/reference/backstories/mastery/SHION_A300.md) — 対機械戦区では、敵性機械の意図を論じる会議が長引いた。
+- [SHION_A301 ヘイハルKombinatの坑道監督](/reference/backstories/mastery/SHION_A301.md) — ヘイハルKombinatの坑道では、銃を持つより地層の音を聞く方が安心できた。
+- [SHION_A302 本国居住区の公共食堂の調理師](/reference/backstories/mastery/SHION_A302.md) — 本国の公共食堂は、救難隊の出発点と帰還場所でもあった。
+- [SHION_A303 異常封じ込め隊の共同農園技師](/reference/backstories/mastery/SHION_A303.md) — 異常封じ込め隊の農園は、観測用の植物と住民の食料を同じ土で育てていた。
+- [SHION_A304 透明居住区の終生飼養員](/reference/backstories/mastery/SHION_A304.md) — 透明居住区では、老いた動物の寝床まで見えるようにしようという案があった。
+- [SHION_A305 帝国最終防衛圏の古道具修復師](/reference/backstories/mastery/SHION_A305.md) — 帝国最終防衛圏では、国家の命令と住民を守る責任がもう一致していなかった。
+- [SHION_A306 月面事業区の舞台演出家](/reference/backstories/mastery/SHION_A306.md) — 月面事業の記念劇では、偉大な責任者を舞台の端へ追いやり、最初の不揃いな足跡を主役にした。
+- [SHION_A307 機動強襲群の臨床医](/reference/backstories/mastery/SHION_A307.md) — 機動強襲群では、危険な任務を抽選で割り当てれば公平だという案が出た。
+- [SHION_A308 塔域居住層の公共案内官](/reference/backstories/mastery/SHION_A308.md) — 塔へ来た人には、案内図だけ渡さず窓口まで一緒に歩いた。
+- [SHION_A309 孵育文化区の古文書研究者](/reference/backstories/mastery/SHION_A309.md) — 孵育文化区の記録には、制度が与えた幸福だけが残りやすかった。
+- [SHION_A310 造成班の測量手](/reference/backstories/mastery/SHION_A310.md) — 造成班の測量手では、測量の手順は毎回同じだった。
+- [SHION_A311 山稜路の道普請師](/reference/backstories/mastery/SHION_A311.md) — 山岳測量点を刻み、凍結による機体損傷の危険があっても岩の割れ方を触覚で読んだ。
+- [SHION_A312 船団医療班の縫合手](/reference/backstories/mastery/SHION_A312.md) — 「針が足りない、代わりは何がある」と船医に聞かれたとき、本人は魚の骨を煮沸したものを渡した。
+- [SHION_A313 気象班の嵐読み](/reference/backstories/mastery/SHION_A313.md) — 気象班の嵐読みでは、嵐の兆候は匂いでわかる、と本人は言い切っている。
+- [SHION_A314 第一次入植の土地選定者](/reference/backstories/mastery/SHION_A314.md) — 自慢していいなら言わせてもらう、最初の百区画のうち作物が根付いたのは本人が選んだ土地だけだった。
+- [SHION_A315 越冬隊の灯守り](/reference/backstories/mastery/SHION_A315.md) — 氷原探査で装備・燃料・外部隊員用食糧を管理し、全員を救えなかった四度目の判断を今も記憶している。
+- [SHION_A316 巡回医療隊の産婆](/reference/backstories/mastery/SHION_A316.md) — 巡回医療隊で、外部居住者の出産を支え、母子の安全を静かな手順で守った。
+- [SHION_A317 採鉱団の坑道読み](/reference/backstories/mastery/SHION_A317.md) — 採鉱団の坑道読みでは、つるはしの柄は必ず自分で削った。
+- [SHION_A318 造成隊の地均し師](/reference/backstories/mastery/SHION_A318.md) — 造成隊の仕事を、更地を平らにするだけの単純作業だと思っている人が多いが、それは違う。
+- [SHION_A319 越冬隊の食糧番](/reference/backstories/mastery/SHION_A319.md) — 越冬隊の食糧番では、越冬隊での配給の話ならいくらでもできる。
+- [SHION_A320 灌漑組合の水路引き](/reference/backstories/mastery/SHION_A320.md) — 灌漑組合で水路を引いた区画は今も現役だが、正直に言うと設計は甘かった。
+- [SHION_A321 境界哨戒隊の見張り番](/reference/backstories/mastery/SHION_A321.md) — 今は哨戒に出ることはない、装備の点検を任されているだけだ。
+- [SHION_A322 育種班の選種人](/reference/backstories/mastery/SHION_A322.md) — 育種班の選種人では、試した品種は三十七、いや正確には三十八だった。
+- [SHION_A323 気象観測班の雲読み](/reference/backstories/mastery/SHION_A323.md) — 気象観測班の雲読みでは、気象観測班の仕事についてよくある誤解が三つある。
+- [SHION_A324 資材輸送隊の荷駄頭](/reference/backstories/mastery/SHION_A324.md) — 資材輸送隊の荷駄頭では、荷を落とした話をされると、今でも少し身構える。
+- [SHION_A325 地質調査団の石割り](/reference/backstories/mastery/SHION_A325.md) — 地質調査というのは、星の日記を読む仕事に似ている。
+- [SHION_A326 大気改良班の空薄め師](/reference/backstories/mastery/SHION_A326.md) — 大気改良班の仕事は、装置を設置して数値を記録し、翌年また少し数値が動いたことを確認するだけの繰り返しだった。
+- [SHION_A327 通信中継班の中継守](/reference/backstories/mastery/SHION_A327.md) — 通信中継班の先任がよく言っていた、「届く声より、届かなかった沈黙の方を数えろ」と。
+- [SHION_A328 救難班の呼び出し手](/reference/backstories/mastery/SHION_A328.md) — 救難班の呼び出し手では、救難班にいた頃、合言葉は「声のする方へ」だった。
+- [SHION_A329 水利設計班の水割り師](/reference/backstories/mastery/SHION_A329.md) — 水利設計班の花形と呼ばれたことがある、皮肉なことに、それは水路の半分が最初の年に凍結で割れた後のことだった。
+- [SHION_A330 航路整備隊の星図引き](/reference/backstories/mastery/SHION_A330.md) — 星図というものが、完成すると思ったことがあるだろうか。
+- [SHION_A331 種苗管理班の発芽番](/reference/backstories/mastery/SHION_A331.md) — 種苗管理班の発芽番では、種苗管理班の仕事は地味だ。
+- [SHION_A332 入植地の屋根継ぎ](/reference/backstories/mastery/SHION_A332.md) — 入植地の屋根はどれも一度は雨漏りする、これは本人が最初に学んだことだった。
+- [SHION_A333 探査隊の縁境哨戒者](/reference/backstories/mastery/SHION_A333.md) — この星団の縁がどこにあるか、正確に答えられる者がいると思うか。
+- [SHION_A334 移住船団の百人料理番](/reference/backstories/mastery/SHION_A334.md) — 移住船団に同乗した外部居住者と、食文化へ参加するシオンの最初の百人分の食事を、限られた保存食だけで回していたのが本人だった。
+- [SHION_A335 甲板機関の整備工](/reference/backstories/mastery/SHION_A335.md) — 甲板機関の心臓部を止めず、文化的先達から継いだ工具と失敗記録を次の整備者へ渡した。
+- [SHION_A336 種子庫の女管理人](/reference/backstories/mastery/SHION_A336.md) — 指先の触覚センサーが不調になるほどの冷気が、種子庫の記憶そのものだ。
+- [SHION_A337 甲板食堂の調理人](/reference/backstories/mastery/SHION_A337.md) — 甲板食堂の調理人では、あたしは常夏の民文化の育ち。
+- [SHION_A338 居住区の家庭教師](/reference/backstories/mastery/SHION_A338.md) — 居住区で大河の民の言語と子守唄を教え、使う機会の少ない文化記憶を少数の継承者へ渡した。
+- [SHION_A339 甲板建築班の左官](/reference/backstories/mastery/SHION_A339.md) — 甲板建築班の左官では、わしが使うコテは三種類しかない。
+- [SHION_A340 航行記録班の観測員](/reference/backstories/mastery/SHION_A340.md) — 航行記録班の観測員では、観測手順は三段階だった。
+- [SHION_A341 旧内陸連合圏の密造酒職人](/reference/backstories/mastery/SHION_A341.md) — 旧内陸連合圏の密造酒職人では、船内で酒を造るのは規則違反だった。
+- [SHION_A342 医療分隊の助産師](/reference/backstories/mastery/SHION_A342.md) — 医療分隊で外部居住者の出産を支え、凍土文化の先達から継いだ知見を医療手順の余白へ残した。
+- [SHION_A343 旧山岳部族圏の狩猟指導員](/reference/backstories/mastery/SHION_A343.md) — 船の中に獲物なんているわけないだろう、って最初はみんなに笑われたよ。
+- [SHION_A344 律法草稿班の写字生](/reference/backstories/mastery/SHION_A344.md) — 律法を書き写す仕事は、種を一粒ずつ植えるのに似ている。
+- [SHION_A345 混成家族区画の調停役](/reference/backstories/mastery/SHION_A345.md) — 混成家族区画の調停役では、俺が律法の番人だったなんて話は大げさすぎる。
+- [SHION_A346 儀礼歌唱団の指導者](/reference/backstories/mastery/SHION_A346.md) — 儀礼歌唱団の指導者では、声を合わせる、それが本人の仕事だった。
+- [SHION_A347 医療儀礼班の消毒係](/reference/backstories/mastery/SHION_A347.md) — 消毒液の匂いは律法の儀式にも使われるようになった。
+- [SHION_A348 旧慣習継承者の織物職人](/reference/backstories/mastery/SHION_A348.md) — 師匠はいつも「糸は嘘をつかない、織り手が嘘をつくだけだ」と言っていた。
+- [SHION_A349 種子祭祀班の司祭見習い](/reference/backstories/mastery/SHION_A349.md) — 種子祭祀班の司祭見習いでは、あたしは実りの民の文化を継ぐ。
+- [SHION_A350 儀礼班の道具管理人](/reference/backstories/mastery/SHION_A350.md) — 儀礼班の道具管理人では、儀礼班が使う道具は年々増えていった。
+- [SHION_A351 混住区の水利管理人](/reference/backstories/mastery/SHION_A351.md) — 混住区の水利管理人では、俺は継ぎ接ぎの民の文化を継ぐ。
+- [SHION_A352 統合戸籍局の記録係](/reference/backstories/mastery/SHION_A352.md) — 旧い区画名が消えて、番号だけの住所に変わった日のことは、あまり話したくない。
+- [SHION_A353 帝国建国式典班の演出係](/reference/backstories/mastery/SHION_A353.md) — 帝国が成立した日の式典、あの照明はあたしが仕込んだのよ。
+- [SHION_A354 秩序維持隊の初代隊員](/reference/backstories/mastery/SHION_A354.md) — 秩序維持隊の初代選抜で、武器ではなく当事者双方の話を先に聞く役を担った。
+- [SHION_A355 律法院の下級書記](/reference/backstories/mastery/SHION_A355.md) — 俺が律法院の基礎を作った一人だなんて話は誰が広めたのか知らないが、訂正させてくれ。
+- [SHION_A356 甲板治安班の巡回員](/reference/backstories/mastery/SHION_A356.md) — 甲板治安班の巡回員では、巡回の仕事は単調だった。
+- [SHION_A357 帝国准備評議会の書類整理係](/reference/backstories/mastery/SHION_A357.md) — 帝国という名前が正式に決まる前、評議会には十以上の候補名があって、本人はその全部の書類を作り直す係だった。
+- [SHION_A358 帝国准民候補の農区監督](/reference/backstories/mastery/SHION_A358.md) — 旧い区画ごとに違っていた農区の作付け方式を、本人は一つの方式にまとめる役目を任された。
+- [SHION_A359 律法学舎最後の教師](/reference/backstories/mastery/SHION_A359.md) — 律法学舎の仮設天幕時代から最後の学年まで、身体更新と人格記録を継ぎながら教え続けた。
+- [SHION_A360 船体保守班の耳](/reference/backstories/mastery/SHION_A360.md) — 船体保守班で金属音から継ぎ目の緩みを聞き分け、先達から継いだ工具箱と聴覚技術を磨いた。
+- [SHION_A361 配給厨房の即興者](/reference/backstories/mastery/SHION_A361.md) — 「その根菜、皮ごと煮ちまいな」って厨房の先達がいつも言ってた。
+- [SHION_A362 織機の航海士](/reference/backstories/mastery/SHION_A362.md) — 織機の航海士では、布を織るのは航海と同じじゃとわしは思うとる。
+- [SHION_A363 水耕甲板の低温損傷](/reference/backstories/mastery/SHION_A363.md) — 低温の水耕甲板で触覚センサーと指先外装を傷め、計器を信頼する手順を身につけた。
+- [SHION_A364 壁画班の異論](/reference/backstories/mastery/SHION_A364.md) — 故郷の風景を描いて心を慰めた、とよく言われるけれど違う。
+- [SHION_A365 隔離区画の手順書](/reference/backstories/mastery/SHION_A365.md) — 医療隔離班で、外部居住者の感染症とシオンの汚染状態を分け、隔離・換気・記録を反復した。
+- [SHION_A366 巡回区画の三つの規則](/reference/backstories/mastery/SHION_A366.md) — 持ち場を離れない、武器を見せない、揉め事を数える前に止めるという三規則を守り続けた。
+- [SHION_A367 世帯調整員の台帳](/reference/backstories/mastery/SHION_A367.md) — 世帯調整局で、外部居住者の出生と全住民のパートナー関係・居住区割当を別台帳へ記録した。
+- [SHION_A368 家畜甲板の自慢話](/reference/backstories/mastery/SHION_A368.md) — うちの班が育てた家畜は船の中で一番機嫌が良かったって、これは自慢していいと思う。
+- [SHION_A369 律法以前の祈り手](/reference/backstories/mastery/SHION_A369.md) — 律法以前の祈り手では、まだ名前もなかった、本人たちがしていたことには。
+- [SHION_A370 共同礼拝堂の梁](/reference/backstories/mastery/SHION_A370.md) — 石工文化を継ぐ建築班で、分解・修理できる組継ぎを共同礼拝堂の梁へ採用した。
+- [SHION_A371 混成学舎の初年度](/reference/backstories/mastery/SHION_A371.md) — 最初の学舎は旧い出身圏ごとに教室を分けていた、それが間違いだったと今なら分かる。
+- [SHION_A372 採掘班の沈黙](/reference/backstories/mastery/SHION_A372.md) — 採掘班の沈黙では、その年のことは、あまり話すことがない。
+- [SHION_A373 混成世代の勘違い集](/reference/backstories/mastery/SHION_A373.md) — 混成世代の勘違い集では、よくある誤解が三つある。
+- [SHION_A374 亡き師の言葉を継ぐ厨房番](/reference/backstories/mastery/SHION_A374.md) — 「塩は最後、感謝は最初」って師匠がいつも言ってた。
+- [SHION_A375 医療班の告白](/reference/backstories/mastery/SHION_A375.md) — 医療班の告白では、巡回医療の経過は淡々と記していた。
+- [SHION_A376 仲裁人の想定問答](/reference/backstories/mastery/SHION_A376.md) — 甲板間の揉め事は、たいてい旧い作法と新しい律法のどちらを優先するかで起きた。
+- [SHION_A377 統合行政区の初日](/reference/backstories/mastery/SHION_A377.md) — 出身圏の旗を全部下ろした日のことを聞きたいのですか。
+- [SHION_A378 秩序維持隊の最終巡回](/reference/backstories/mastery/SHION_A378.md) — 秩序維持隊の最終巡回では、秩序維持隊の任務は単純だった。
+- [SHION_A379 帝国准民の自嘲](/reference/backstories/mastery/SHION_A379.md) — 帝国准民なんて肩書きがついた日、俺は道具箱の中身を数えていた。

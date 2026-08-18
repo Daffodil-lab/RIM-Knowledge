@@ -4,11 +4,9 @@ title: "確定#339：仮称2件を最終確定——「Shion Race: 地場」→�
 description: "仮称2件を最終確定——「Shion Race: 地場」→「Shion Race: Kombinat」、「分身」→「Shion Race: The Hive」を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "kombinat"
   - "red-star"
   - "the-hive"
-  - "canon"
 organization_groups:
   - "kombinat-communities"
   - "red-star"

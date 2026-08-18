@@ -1,0 +1,8 @@
+{
+  "schema": "rim-project-scope-overrides-1",
+  "description": "所属MODを表すproject_scope resolverの完全一致例外。概念本文のメタデータや正本所有関係を変更しない。",
+  "overrides": {
+    "world/55-カエルムと同盟の初期協定.md": "shared",
+    "world/67-CreditとMarkの二国間清算.md": "shared"
+  }
+}

@@ -4,8 +4,6 @@ title: "確定#154：確定#153の国籍制限は本編Diasporaカタログ限�
 description: "確定番号153の国籍制限は本編Diasporaカタログ限定を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

@@ -4,8 +4,6 @@ title: "確定#10：イデオロギー関連は全てプリセット経由（種
 description: "イデオロギー関連は全てプリセット経由（種族固有思考ではない）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

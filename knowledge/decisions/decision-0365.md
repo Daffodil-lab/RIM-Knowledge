@@ -4,9 +4,7 @@ title: "確定#365：闇のアルコテックとの冷戦とThe Hiveの伝聞"
 description: "闇のアルコテックとの冷戦とThe Hiveの伝聞を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "the-hive"
-  - "canon"
 organization_groups:
   - "the-hive"
 status: deprecated

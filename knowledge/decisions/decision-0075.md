@@ -4,8 +4,6 @@ title: "確定#75：段3「現代軍」の正式名称確定（同盟労農者�
 description: "段3「現代軍」の正式名称確定（同盟労農者人民解放軍）＋専用戦争ゲーム風拡張MODの新設を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

@@ -4,8 +4,6 @@ title: "確定#73：§9イデオロギー仕掛けをWillpower（われら）拡
 description: "§9イデオロギー仕掛けをWillpower（われら）拡張MODへ再区分を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

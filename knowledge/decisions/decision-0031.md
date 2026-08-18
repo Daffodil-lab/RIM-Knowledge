@@ -4,9 +4,7 @@ title: "確定#31：評議員（栄誉）の上に 評議会議長（役職）�
 description: "評議員（栄誉）の上に 評議会議長（役職）と最高指導者（全評議会承認・人の身でアルコテック級）。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

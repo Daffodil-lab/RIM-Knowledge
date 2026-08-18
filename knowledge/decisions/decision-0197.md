@@ -4,8 +4,6 @@ title: "確定#197：個人名プールに地形・地域（§2-29）と工業�
 description: "個人名プールに地形・地域（§2-29）と工業都市（§2-30）の2系統を追加、個人名プールを約3894語→約3930語へ拡大を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

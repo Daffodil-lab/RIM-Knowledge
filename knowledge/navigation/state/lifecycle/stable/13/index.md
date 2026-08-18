@@ -1,86 +1,86 @@
 # stable 13
 
-範囲: 29. 野心と産業進行〜7. 試験境界
+範囲: SHION_A140 継承教室の公共案内官〜SHION_A219 本国居住区の種子管理官
 
 ## 項目
 
-- [29. 野心と産業進行](/colony/29-%E9%87%8E%E5%BF%83%E3%81%A8%E7%94%A3%E6%A5%AD%E9%80%B2%E8%A1%8C.md) — ゲームクリア級の目標は、遠征共同体が目標に必要な産業能力を現地で構築し、継続運用できることを要求する。
-- [C-0001 ソフェルの種族分類](/contradictions/C-0001-%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AE%E7%A8%AE%E6%97%8F%E5%88%86%E9%A1%9E.md) — 匿名のソフェル資料で専門職を種族として併記していた不整合。
-- [C-0002 匿名ソフェルのTierとQuality](/contradictions/C-0002-%E5%8C%BF%E5%90%8D%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AETier%E3%81%A8Quality.md) — 旧人物資料の確定値と、身体体系を未確定とする現行正史の境界。
-- [C-0003 匿名ソフェルのゲーム実装値](/contradictions/C-0003-%E5%8C%BF%E5%90%8D%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AE%E3%82%B2%E3%83%BC%E3%83%A0%E5%AE%9F%E8%A3%85%E5%80%A4.md) — 旧人物資料の技能・装備・能力案と、現行の実装予約との関係。
-- [0. 権威順位と状態語](/design/00-%E6%A8%A9%E5%A8%81%E9%A0%86%E4%BD%8D%E3%81%A8%E7%8A%B6%E6%85%8B%E8%AA%9E.md) — 0. 権威順位と状態語の重複本文を除き、唯一の知識所有者へ案内する項目。
-- [最初に読む：今回のオーバーホールで何を変えたか](/design/000-%E6%9C%80%E5%88%9D%E3%81%AB%E8%AA%AD%E3%82%80-%E4%BB%8A%E5%9B%9E%E3%81%AE%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%9B%E3%83%BC%E3%83%AB%E3%81%A7%E4%BD%95%E3%82%92%E5%A4%89%E3%81%88%E3%81%9F%E3%81%8B.md) — 最初に読む：今回のオーバーホールで何を変えたかの重複本文を除き、唯一の知識所有者へ案内する項目。
-- [1. 中心命題](/design/01-%E4%B8%AD%E5%BF%83%E5%91%BD%E9%A1%8C.md) — 1. 中心命題の重複本文を除き、唯一の知識所有者へ案内する項目。
-- [2. 帝国と同盟：同一文明の二形態](/design/02-%E5%B8%9D%E5%9B%BD%E3%81%A8%E5%90%8C%E7%9B%9F-%E5%90%8C%E4%B8%80%E6%96%87%E6%98%8E%E3%81%AE%E4%BA%8C%E5%BD%A2%E6%85%8B.md) — 2. 帝国と同盟：同一文明の二形態の重複本文を除き、唯一の知識所有者へ案内する項目。
-- [3. シオンの人格と身体](/design/03-%E3%82%B7%E3%82%AA%E3%83%B3%E3%81%AE%E4%BA%BA%E6%A0%BC%E3%81%A8%E8%BA%AB%E4%BD%93.md) — 3. シオンの人格と身体の重複本文を除き、唯一の知識所有者へ案内する項目。
-- [結論](/design/033-%E7%B5%90%E8%AB%96.md) — シオンの製品全体は、一つのCore、分離された内部Runtime、後期の任意例外モジュール、固有の本国支援開始 として再構成する。
-- [付録A. オーバーホール元の識別](/design/034-%E4%BB%98%E9%8C%B2A-%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%9B%E3%83%BC%E3%83%AB%E5%85%83%E3%81%AE%E8%AD%98%E5%88%A5.md) — 本書は次の原資料を全文監査して作成した、また原資料の固有カタログ、決定ログ、矛盾台帳は履歴として保持し、本書§26から回収する。
-- [4. 善意の非対称性を物語へ変換する](/design/04-%E5%96%84%E6%84%8F%E3%81%AE%E9%9D%9E%E5%AF%BE%E7%A7%B0%E6%80%A7%E3%82%92%E7%89%A9%E8%AA%9E%E3%81%B8%E5%A4%89%E6%8F%9B%E3%81%99%E3%82%8B.md) — 4. 善意の非対称性を物語へ変換するの重複本文を除き、唯一の知識所有者へ案内する項目。
-- [5. 技術体系と文明的制約](/design/05-%E6%8A%80%E8%A1%93%E4%BD%93%E7%B3%BB%E3%81%A8%E6%96%87%E6%98%8E%E7%9A%84%E5%88%B6%E7%B4%84.md) — 5. 技術体系と文明的制約の重複本文を除き、唯一の知識所有者へ案内する項目。
-- [6. 世界、地理、歴史詳細の保全状態](/design/06-%E4%B8%96%E7%95%8C-%E5%9C%B0%E7%90%86-%E6%AD%B4%E5%8F%B2%E8%A9%B3%E7%B4%B0%E3%81%AE%E4%BF%9D%E5%85%A8%E7%8A%B6%E6%85%8B.md) — 起源地理と移動箱舟は正史へ再採用し、惑星・巨大建造物の一括カタログは候補または不採用へ分離した。
-- [7. 製品ファミリーの新しい境界](/design/07-%E8%A3%BD%E5%93%81%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E5%A2%83%E7%95%8C.md) — CoreはDLC非依存製品として設計しない、また開発・配布・標準試験は、RimWorld 1.6にRoyalty、Ideology、Biotech、Anomaly、Odysseyを全て有効化した環境を前提とする。
-- [8. Baseモジュール](/design/08-Base%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB.md) — Core設定は複数の開始立場を許容するが、最初に遊べるα版は数人規模の独立開拓団へ固定する。
-- [9. Kombinat内部Runtime](/design/09-Kombinat%E5%86%85%E9%83%A8Runtime.md) — 9. Kombinat内部Runtimeの重複本文を除き、唯一の知識所有者へ案内する項目。
-- [10. The Hive内部モジュール（後期実装予約）](/design/10-The-Hive%E5%86%85%E9%83%A8%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E5%BE%8C%E6%9C%9F%E5%AE%9F%E8%A3%85%E4%BA%88%E7%B4%84.md) — The Hiveは設計・正史を保護するが、現行の実装対象から外す。
-- [11. レッドスター（製品境界保留）](/design/11-Red-Star%E8%A3%BD%E5%93%81%E5%A2%83%E7%95%8C%E4%BF%9D%E7%95%99.md) — レッドスターは、本国が正式に承認・派遣した開拓団である。
-- [12. その他の拡張群](/design/12-%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%8B%A1%E5%BC%B5%E7%BE%A4.md) — 旧内戦期拡張ファミリーは、回想、証言、断片記録、保存機械記録、残響を主な語り口とする候補を維持する。
-- [13. 個体設計](/design/13-%E5%80%8B%E4%BD%93%E8%A8%AD%E8%A8%88.md) — 旧資料には特性三層、コア特性番号1〜番号33、任意特性、Tier、Quality、改造ポイント、身体ロードアウト、製造ダイアログ、製造階級、職級、栄誉、研究ツリーがある。
-- [14. 装備、軍事、バランス](/design/14-%E8%A3%85%E5%82%99-%E8%BB%8D%E4%BA%8B-%E3%83%90%E3%83%A9%E3%83%B3%E3%82%B9.md) — 旧装備章を、設定クラスとカタログ、実装値と装備解決の二つの所有者へ分離して案内する。
-- [15. 名前、言語、象徴](/design/15-%E5%90%8D%E5%89%8D-%E8%A8%80%E8%AA%9E-%E8%B1%A1%E5%BE%B4.md) — 旧名称群は候補カタログとして保持し、起源地理以外は登場時に一件ずつ採用する。
-- [16. 主要人物・組織](/design/16-%E4%B8%BB%E8%A6%81%E4%BA%BA%E7%89%A9%E3%83%BB%E7%B5%84%E7%B9%94.md) — 水仙、余白記録網、農芸公社を改稿採用し、旧固有名と重複組織分類を不採用へ分離した。
-- [17. 匿名のソフェル](/design/17-%E5%8C%BF%E5%90%8D%E3%81%AE%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB.md) — 匿名のソフェルの重複本文を除き、現行人物像、実装予約、物語候補の所有者へ案内する項目。
-- [18. バックストーリー生成システム](/design/18-%E3%83%90%E3%83%83%E3%82%AF%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AA%E3%83%BC%E7%94%9F%E6%88%90%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0.md) — 旧§31のFormation Record／Mastery Record、メタデータ、三軸タグ、Era、ThemeModule、希少度、AI生成、監査、実装規則は制作資産として保持する。
-- [19. 現在のリポジトリ事実](/design/19-%E7%8F%BE%E5%9C%A8%E3%81%AE%E3%83%AA%E3%83%9D%E3%82%B8%E3%83%88%E3%83%AA%E4%BA%8B%E5%AE%9F.md) — 19. 現在のリポジトリ事実の重複本文を除き、唯一の知識所有者へ案内する項目。
-- [20. 目標パッケージ構造](/design/20-%E7%9B%AE%E6%A8%99%E3%83%91%E3%83%83%E3%82%B1%E3%83%BC%E3%82%B8%E6%A7%8B%E9%80%A0.md) — 実際のRimWorldバージョン別フォルダは対応対象が決まった時点で追加する。
-- [21. 保存と版間互換](/design/21-%E4%BF%9D%E5%AD%98%E3%81%A8%E7%89%88%E9%96%93%E4%BA%92%E6%8F%9B.md) — 21. 保存と版間互換の重複本文を除き、唯一の知識所有者へ案内する項目。
-- [22. リリース段階](/design/22-%E3%83%AA%E3%83%AA%E3%83%BC%E3%82%B9%E6%AE%B5%E9%9A%8E.md) — 22. リリース段階の重複本文を除き、唯一の知識所有者へ案内する項目。
-- [23. 性能方針](/design/23-%E3%83%91%E3%83%95%E3%82%A9%E3%83%BC%E3%83%9E%E3%83%B3%E3%82%B9%E6%96%B9%E9%87%9D.md) — シオン関連システムは、正本状態と表示用索引を分離し、イベント駆動の増分更新と有界処理によって大規模プレイを維持する。
-- [24. 操作画面と情報予算](/design/24-UI%E3%81%A8%E6%83%85%E5%A0%B1%E4%BA%88%E7%AE%97.md) — 最初から帝国全史、魂の議論、惑星120件、全組織、全技術を説明しない。
-- [25. 検証シナリオ](/design/25-%E6%A4%9C%E8%A8%BC%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — 次をCore v2と本書だけから矛盾なく作れること。
-- [26. 旧31章クロスウォーク](/design/26-%E6%97%A731%E7%AB%A0%E3%82%AF%E3%83%AD%E3%82%B9%E3%82%A6%E3%82%A9%E3%83%BC%E3%82%AF.md) — 26. 旧31章クロスウォークの重複本文を除き、唯一の知識所有者へ案内する項目。
-- [27. 今回の廃止・変更台帳](/design/27-%E4%BB%8A%E5%9B%9E%E3%81%AE%E5%BB%83%E6%AD%A2%E3%83%BB%E5%A4%89%E6%9B%B4%E5%8F%B0%E5%B8%B3.md) — 27. 今回の廃止・変更台帳の重複本文を除き、唯一の知識所有者へ案内する項目。
-- [28. 旧資料の利用手順](/design/28-%E6%97%A7%E8%B3%87%E6%96%99%E3%81%AE%E5%88%A9%E7%94%A8%E6%89%8B%E9%A0%86.md) — 28. 旧資料の利用手順の重複本文を除き、唯一の知識所有者へ案内する項目。
-- [29. 文書責務](/design/29-%E6%96%87%E6%9B%B8%E8%B2%AC%E5%8B%99.md) — 29. 文書責務の重複本文を除き、唯一の知識所有者へ案内する項目。
-- [30. 対象外](/design/30-%E5%AF%BE%E8%B1%A1%E5%A4%96.md) — 今回のオーバーホールでは次を確定しないという方針の適用範囲と条件を定める。
-- [31. 完成条件](/design/31-%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — 31. 完成条件の重複本文を除き、唯一の知識所有者へ案内する項目。
-- [36. 装備設定クラスとカタログ](/design/36-%E8%A3%85%E5%82%99%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9%E3%81%A8%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0.md) — 装備カタログは、品の由来、発注、設計、開発、評価、現状、用途、物理仕様、外見、フレーバーを所有し、具体的なゲーム値を所有しない。
-- [37. 装備の実装境界](/design/37-%E8%A3%85%E5%82%99%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 装備実装は、Def、射程、性能、素材、Recipe、工数、製造時間、過熱、信頼性、支持装置、CE互換、入手条件、装備解決を所有し、設定カタログへ従う。
-- [38. 代表工業資源の実装境界](/design/38-%E4%BB%A3%E8%A1%A8%E5%B7%A5%E6%A5%AD%E8%B3%87%E6%BA%90%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 五つの代表工業資源を実Thingへ変換するDef、物性、Recipe、工数、保存、流通の実装契約を所有する。
-- [39. 工業管制塔設定クラス](/design/39-Field-Ledger-Terminal%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9.md) — 工業管制塔は、独立遠征共同体がコンビナートの生産、消費、流通と同盟通貨へ触れるための現地端末である。
-- [40. Field Workshop設定クラス](/design/40-Field-Workshop%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9.md) — Field Workshopは、独立遠征共同体が現地資源と労働から生活・保守用の実用品を生産する現地工場である。
-- [41. Pawn Foundry設定クラス](/design/41-Pawn-Foundry%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9.md) — Pawn Foundryは、シオンの身体と配備構成を設計・生産し、個体記録、休眠保管、回収再生を扱うCoreの施設である。
-- [42. エネルギー供給の実装境界](/design/42-%E3%82%A8%E3%83%8D%E3%83%AB%E3%82%AE%E3%83%BC%E4%BE%9B%E7%B5%A6%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 常設エネルギー接続とエネルギー結晶による外地供給を分離し、改造身体・高度装備・設備の稼働条件を実装する。
-- [43. 帝国系と同盟系の製品系列の実装境界](/design/43-%E5%B8%9D%E5%9B%BD%E7%B3%BB%E3%81%A8%E5%90%8C%E7%9B%9F%E7%B3%BB%E3%81%AE%E8%A3%BD%E5%93%81%E7%B3%BB%E5%88%97%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 帝国系を高性能・高価格・高工数・品質差のある品、同盟系を安価・量産向け・品質固定・しばしば高耐久な品としてゲームへ投影する。
-- [44. Human Weapons計画（仮称）](/design/44-Human-Weapons%E8%A8%88%E7%94%BB%E8%A8%AD%E5%AE%9A%E3%82%AF%E3%83%A9%E3%82%B9.md) — Human Weapons計画（仮称）は、初期の対人類戦役で現地政権と協力者へ安価かつ迅速に供給できる、人間用の高性能火薬式火器を整備した同盟の調達計画である。
-- [45. Human Weapons計画の実装境界](/design/45-Human-Weapons%E8%A8%88%E7%94%BB%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — Human Weapons計画品を、品質を持たず、構造材だけで製造でき、結晶資源や常設電力を使わない人間用の独自火薬式火器として実装する。
-- [46. 装備アーカイブ番号体系](/design/46-%E8%A3%85%E5%82%99%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E7%95%AA%E5%8F%B7%E4%BD%93%E7%B3%BB.md) — 同盟の全装備は、三桁の分類番号と五桁の登録番号を空白で区切ったアーカイブ番号、および種類コードによって設計・型式単位で管理される。
-- [47. 装備アーカイブ番号の実装境界](/design/47-%E8%A3%85%E5%82%99%E3%82%A2%E3%83%BC%E3%82%AB%E3%82%A4%E3%83%96%E7%95%AA%E5%8F%B7%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 同盟装備の三桁分類番号、五桁登録番号、種類コードを安定した定義メタデータとして保持し、重複、形式不正、分類不一致を検証する。
-- [48. HORIZON A1人間用制式小銃](/design/48-HORIZON-A1%E4%BA%BA%E9%96%93%E7%94%A8%E5%88%B6%E5%BC%8F%E5%B0%8F%E9%8A%83.md) — 139 04217 AR HORIZON A1は、Human Weapons計画が人間側部隊への大量配備用に設計した、6.6×41mm高圧弾を使う品質固定の第一制式小銃である。
-- [49. HORIZON A1の実装境界](/design/49-HORIZON-A1%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — HORIZON A1を、品質を持たず、構造材だけで量産でき、30発の6.6×41mm通常弾薬を使う人間用制式小銃として実装する。
-- [50. 装備庫接続と武器転送の実装境界](/design/50-%E8%A3%85%E5%82%99%E5%BA%AB%E6%8E%A5%E7%B6%9A%E3%81%A8%E6%AD%A6%E5%99%A8%E8%BB%A2%E9%80%81%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — 接続装備庫が所有する実物武器を、複製せず状態を保ったまま活動中Pawnへほぼ即時に交換するCore側の取引として実装する。
-- [51. Core独自保管・接続システムの実装境界](/design/51-Core%E7%8B%AC%E8%87%AA%E4%BF%9D%E7%AE%A1%E6%8E%A5%E7%B6%9A%E3%82%B7%E3%82%B9%E3%83%86%E3%83%A0%E3%81%AE%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — α版からCore独自のThing保管・接続・入出庫システムを正規基盤とし、設備間を直接転送し、内容物の任意排出を提供する。
-- [52. バニラ優先Shion種族実装境界](/design/52-%E3%83%90%E3%83%8B%E3%83%A9%E5%84%AA%E5%85%88Shion%E7%A8%AE%E6%97%8F%E5%AE%9F%E8%A3%85%E5%A2%83%E7%95%8C.md) — Shion種族はHuman継承を維持し、Core所有の物理身体と公式DLCの公開機構で実装してHumanoid Alien Racesへ依存しない。
-- [53. RimWorldログ・性能診断契約](/design/53-RimWorld%E3%83%AD%E3%82%B0%E3%83%BB%E6%80%A7%E8%83%BD%E8%A8%BA%E6%96%AD%E5%A5%91%E7%B4%84.md) — RimWorld 1.6の不具合ログ、クラッシュログ、Performance Analyzer測定を再現可能な証拠として取得し、Shion由来の負荷と既存エラーを分離する。
-- [内政台帳とNetwork Storageの統合境界](/design/54-%E5%86%85%E6%94%BF%E5%8F%B0%E5%B8%B3%E3%81%A8Network-Storage%E3%81%AE%E7%B5%B1%E5%90%88%E5%A2%83%E7%95%8C.md) — 内政管理、Core独自Network Storage、Kombinat生産を一つの需給台帳へ統合し、工場を在庫を持たない設備能力として実装する。
-- [Core・公式DLC量産カタログ境界](/design/55-Core%E5%85%AC%E5%BC%8FDLC%E9%87%8F%E7%94%A3%E3%82%AB%E3%82%BF%E3%83%AD%E3%82%B0%E5%A2%83%E7%95%8C.md) — Coreと五つの公式DLCに属する反復可能な通常Recipeから、Kombinatの無人量産カタログをDef駆動で生成する。
-- [56. Shion標準遠征身体の実装仕様](/design/56-Shion%E6%A8%99%E6%BA%96%E9%81%A0%E5%BE%81%E8%BA%AB%E4%BD%93%E3%81%AE%E5%AE%9F%E8%A3%85%E4%BB%95%E6%A7%98.md) — Shion標準遠征身体の器官、能力値、欠損状態、休息、Anomaly拒絶、心情と将来拡張点を定める。
-- [57. レッドスター惑星戦役](/design/57-%E3%83%AC%E3%83%83%E3%83%89%E3%82%B9%E3%82%BF%E3%83%BC%E6%83%91%E6%98%9F%E6%88%A6%E5%BD%B9.md) — レッドスター惑星戦役は、無政府状態の辺境惑星で介入、抵抗、惑星統一の三路線を遊ぶ任意の段階制キャンペーンである。
-- [帝国軍務教範の状態機械](/design/58-%E5%B8%9D%E5%9B%BD%E8%BB%8D%E5%8B%99%E6%95%99%E7%AF%84%E3%81%AE%E7%8A%B6%E6%85%8B%E6%A9%9F%E6%A2%B0.md) — 帝国軍務教範は、平時、警戒、戦闘、復旧の希望態勢と実適用状態を分離し、検証済みの差分を有界キューで適用する。
-- [帝国軍務教範の一括操作境界](/design/59-%E5%B8%9D%E5%9B%BD%E8%BB%8D%E5%8B%99%E6%95%99%E7%AF%84%E3%81%AE%E4%B8%80%E6%8B%AC%E6%93%8D%E4%BD%9C%E5%A2%83%E7%95%8C.md) — 帝国軍務教範は、可逆的なバニラ方針と登録済み命令を態勢遷移へ含め、政治的、不可逆、対象選択を伴う操作を別確認へ分離する。
-- [一件一ファイルとリンク規則](/governance/atomicity-and-links.md) — 知識は、単独で参照・更新・廃止できる最小単位へ分ける。
-- [知識の権威順位とライフサイクル](/governance/authority-and-lifecycle.md) — このOKFバンドルはRIMプロジェクト知識の入口であり、原子的な概念ファイルを現行の参照単位とする。
-- [正本優先の通常参照方針](/governance/canonical-first-reading-policy.md) — RIMの通常読み込み入口を現行正本・カタログビューへ限定し、決定履歴と調査・参照資料を履歴・補助層として扱う。
-- [オーバーホール中の矛盾判定規則](/governance/contradiction-policy.md) — 改稿差分を誤って矛盾と判定せず、現行正本の衝突だけを止めるための規則。
-- [重複と異なる粒度の管理規則](/governance/duplication-policy.md) — 同じ内容を異なる粒度で必要とする場合でも、事実の所有者は一つにする。
-- [OKF知識の更新手順](/governance/editing-workflow.md) — OKF知識の更新手順は、ルート索引から対象領域を選ぶ。
-- [RIM OKFメタデータ契約](/governance/metadata-contract.md) — RIM概念ファイルのOKF 0.2標準メタデータと正本所有拡張の必須構造を定める。
-- [Google上流OKF追随方針](/governance/okf-upstream-following-policy.md) — GoogleCloudPlatform/knowledge-catalogのOKF規範とVisualize参照実装を確認し、RIM固有拡張をRIM側で所有する追随手順を定める。
-- [知識所有者マップ](/governance/ownership-map.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
-- [現行資料の正仕様記述](/governance/positive-specification-policy.md) — 履歴資料以外の文書は、採用済みの構造、状態、振る舞い、境界、失敗時結果、性能条件を正の仕様として記述する。
-- [1. 決定](/integrations/matter-network/01-%E6%B1%BA%E5%AE%9A.md) — Matter Networkは必須依存にせず、公開された安定APIが存在する場合だけ任意互換Adapterを検討する。
-- [2. 保護される上流領域](/integrations/matter-network/02-%E4%BF%9D%E8%AD%B7%E3%81%95%E3%82%8C%E3%82%8B%E4%B8%8A%E6%B5%81%E9%A0%98%E5%9F%9F.md) — Matter Networkの上流内部は、任意互換を検討する場合もCoreとKombinatの設計・Release Gate・欠陥修正対象から除外する。
-- [3. 上流由来の欠陥](/integrations/matter-network/03-%E4%B8%8A%E6%B5%81%E7%94%B1%E6%9D%A5%E3%81%AE%E6%AC%A0%E9%99%A5.md) — 任意互換Adapterの試験でMatter Network単体に再現する問題は、CoreまたはKombinatの欠陥に分類しない。
-- [4. Stasis](/integrations/matter-network/04-Stasis.md) — Matter NetworkのStasis挙動は上流固有の参考情報であり、Core独自システムへ自動継承しない。
-- [5. Kombinatが追加できる領域](/integrations/matter-network/05-Kombinat%E3%81%8C%E8%BF%BD%E5%8A%A0%E3%81%A7%E3%81%8D%E3%82%8B%E9%A0%98%E5%9F%9F.md) — KombinatはCore独自保管システムの外側で発注・生産・通貨を所有し、Matter Network互換は任意Adapterへ隔離する。
-- [6. 配布と版](/integrations/matter-network/06-%E9%85%8D%E5%B8%83%E3%81%A8%E7%89%88.md) — Matter NetworkをCoreの必須依存や同梱物にせず、将来の任意互換Adapterだけを別配布する。
-- [7. 試験境界](/integrations/matter-network/07-%E8%A9%A6%E9%A8%93%E5%A2%83%E7%95%8C.md) — Matter Network関連試験は任意互換Adapterへ限定し、Core独自システムのRelease Gateから分離する。
+- [SHION_A140 継承教室の公共案内官](/reference/backstories/mastery/SHION_A140.md) — 継承教室では来訪者を席へ案内し、古い世代の教師とつなぎました。
+- [SHION_A141 対機械戦区の記録官](/reference/backstories/mastery/SHION_A141.md) — 対機械戦区の記録官では、対機械戦区で記録を担当しました。
+- [SHION_A142 帝国最終防衛圏の射撃教官](/reference/backstories/mastery/SHION_A142.md) — 帝国最終防衛圏の射撃教官では、内戦後帝国の最終防衛圏で射撃を教えました。
+- [SHION_A143 自治評議区の身体競技指導員](/reference/backstories/mastery/SHION_A143.md) — 自治評議区で、共有狐娘型内部の質量・出力差と外部参加者の身体差に応じた競技規則を教えた。
+- [SHION_A144 封鎖観測地の仮設建築士](/reference/backstories/mastery/SHION_A144.md) — 封鎖観測地の仮設建築士では、封鎖観測地の外に、帰還者用の仮設棟を建てました。
+- [SHION_A145 塔域居住層の地下救助員](/reference/backstories/mastery/SHION_A145.md) — 塔域の崩落では、壁の振動を聞いて救助坑を掘りました。
+- [SHION_A146 山岳連絡区の公共食堂の調理師](/reference/backstories/mastery/SHION_A146.md) — 山岳連絡区で食堂を開き、橋を守る連絡員へ温かい物を運びました。
+- [SHION_A147 星間市場の記念庭園師](/reference/backstories/mastery/SHION_A147.md) — 星間市場の記念庭園師では、星間市場に記念庭園を作りました。
+- [SHION_A148 離散船団の終生飼養員](/reference/backstories/mastery/SHION_A148.md) — 離散船団で、役目を終えた救助動物を最後まで世話しました。
+- [SHION_A149 移動都市群の精密工](/reference/backstories/mastery/SHION_A149.md) — 移動都市群の精密工では、移動都市群を巡り、祭りの機構と道具を直しました。
+- [SHION_A150 革命連合後方区の公共壁画家](/reference/backstories/mastery/SHION_A150.md) — 革命連合後方区の公共壁画家では、革命連合の後方壁へ、戦争を描きました。
+- [SHION_A151 透明居住区の救護医](/reference/backstories/mastery/SHION_A151.md) — 透明居住区では事故現場も治療記録も公開されました。
+- [SHION_A152 後方支援庁の公共案内官](/reference/backstories/mastery/SHION_A152.md) — 後方支援庁の公共案内官では、後方支援庁の案内窓口にいました。
+- [SHION_A153 特殊任務学校の記録官](/reference/backstories/mastery/SHION_A153.md) — 特殊任務学校の記録官では、特殊任務学校で記録を教えました。
+- [SHION_A154 異常封じ込め隊の護衛射手](/reference/backstories/mastery/SHION_A154.md) — 異常封じ込め隊では、避難者と味方の位置を確かめてから射線を開きました。
+- [SHION_A155 無人構造物調査船の救助員](/reference/backstories/mastery/SHION_A155.md) — 趣味の調査航行が高じて、無人巨大構造物へ向かう船の救助員になりました。
+- [SHION_A156 戦術教育環の仮設建築士](/reference/backstories/mastery/SHION_A156.md) — 戦術教育環の仮設建築士では、戦術教育環で、演習後に休む仮設棟を作りました。
+- [SHION_A157 相互扶助区の地下救助員](/reference/backstories/mastery/SHION_A157.md) — 相互扶助区の崩落で、共有工具を持って地下へ入りました。
+- [SHION_A158 帰還兵港の保存食職人](/reference/backstories/mastery/SHION_A158.md) — 帰還兵港で、食べる日へ合わせて保存食を仕込みました。
+- [SHION_A159 低温研究区の共同農園技師](/reference/backstories/mastery/SHION_A159.md) — 低温研究区の農園で、便利な冷却発明の影響を調べました。
+- [SHION_A160 後方支援庁の保護区飼育員](/reference/backstories/mastery/SHION_A160.md) — 後方支援庁で運搬動物を保護し、補給大会の審判もしました。
+- [SHION_A161 自治評議区の精密工](/reference/backstories/mastery/SHION_A161.md) — 自治評議区の工房では、党派ごとに道具の理想が違いました。
+- [SHION_A162 立入制限地の舞台演出家](/reference/backstories/mastery/SHION_A162.md) — 立入制限地の回収班で舞台を作り、危険遺物の密売摘発にも同行しました。
+- [SHION_A163 帰還兵港の救護医](/reference/backstories/mastery/SHION_A163.md) — 帰還兵港では、救護と危険技術の押収が同時に起きます。
+- [SHION_A164 開戦前残響域の討論調停人](/reference/backstories/mastery/SHION_A164.md) — 開戦前の残響を再現した討論大会で、停戦派と継戦派を調停しました。
+- [SHION_A165 計画都市の観測主任](/reference/backstories/mastery/SHION_A165.md) — 計画都市の配給統計からこぼれた孤立を見つけ、非公式広場へ水・屋根・食卓を追加した。
+- [SHION_A166 継承教室の護衛射手](/reference/backstories/mastery/SHION_A166.md) — 継承教室を護衛し、避難者と教師の位置を見て必要な時だけ射線を開きました。
+- [SHION_A167 残響深層の救助員](/reference/backstories/mastery/SHION_A167.md) — 残響深層には、過去の戦場が変わらない形で再現されていました。
+- [SHION_A168 継承教室の橋梁技師](/reference/backstories/mastery/SHION_A168.md) — 継承教室で古い橋の補修を学び、そのまま現場を任されました。
+- [SHION_A169 計画都市の地下救助員](/reference/backstories/mastery/SHION_A169.md) — 計画都市の地下救助員では、計画都市の図面は完璧だった。
+- [SHION_A170 海洋観測区の保存食職人](/reference/backstories/mastery/SHION_A170.md) — 海洋観測区の保存食職人では、海洋観測祭のため、航海者へ保存食を仕込みました。
+- [SHION_A171 空挺基地の種子管理官](/reference/backstories/mastery/SHION_A171.md) — 空挺基地で、故郷から運ばれた種子の来歴と分配を管理しました。
+- [SHION_A172 地下維持区の動物義肢技師](/reference/backstories/mastery/SHION_A172.md) — 地下維持区で動物義肢を作っていた時、自動設備が一斉に止まりました。
+- [SHION_A173 要塞潜入路の精密工](/reference/backstories/mastery/SHION_A173.md) — 要塞への潜入路で、少人数用の工具と停止機構を作りました。
+- [SHION_A174 孵育文化区の舞台演出家](/reference/backstories/mastery/SHION_A174.md) — 孵育文化区では、誰にでも快適な身体と部屋が用意されました。
+- [SHION_A175 星間市場の巡回医](/reference/backstories/mastery/SHION_A175.md) — 星間市場の巡回医では、星間市場を巡って診療しました。
+- [SHION_A176 無人構造物調査船の討論調停人](/reference/backstories/mastery/SHION_A176.md) — 無人巨大構造物を巡り、調査員の討論をまとめました。
+- [SHION_A177 自治評議区の観測主任](/reference/backstories/mastery/SHION_A177.md) — 自治評議区の法執行観測を担当し、占拠された公共施設の奪還にも入りました。
+- [SHION_A178 攻勢命令審査線の護衛射手](/reference/backstories/mastery/SHION_A178.md) — 攻勢命令の審査線を護衛し、避難者と味方が射線へ入らない時だけ撃ちました。
+- [SHION_A179 山岳連絡区の徒手警護員](/reference/backstories/mastery/SHION_A179.md) — 山岳連絡区の橋を守り、党派の違う部隊が喧嘩すれば武器を抜く前に抱えて離しました。
+- [SHION_A180 旧党派収容記録所の設備技師](/reference/backstories/mastery/SHION_A180.md) — 旧党派の収容記録所で、壁と配管と避難路を直しました。
+- [SHION_A181 要塞潜入路の資源測量士](/reference/backstories/mastery/SHION_A181.md) — 要塞へ入る道は、掘れば見つかるというものではない。
+- [SHION_A182 移動都市群の保存食職人](/reference/backstories/mastery/SHION_A182.md) — 移動都市で、外部旅人の栄養条件とシオンの感覚上の好みに合わせ、到着後の食卓を先に準備した。
+- [SHION_A183 機械化訓練地の種子管理官](/reference/backstories/mastery/SHION_A183.md) — 訓練地で本人が守っていたのは、武器庫より種子庫だった。
+- [SHION_A184 継承教室の動物義肢技師](/reference/backstories/mastery/SHION_A184.md) — 継承教室で動物義肢を作り、教本の寸法より目の前の動物の反応を優先するようになった。
+- [SHION_A185 塔域居住層の精密工](/reference/backstories/mastery/SHION_A185.md) — 塔の救難具を利用者の身体構成と操作習慣に合わせ、暗闇でも触れて判別できるよう調整した。
+- [SHION_A186 自治評議区の合奏指導者](/reference/backstories/mastery/SHION_A186.md) — 自治評議区で、身体と党歴の異なる奏者のずれを一つの拍へ押し込めず、曲の一部としてまとめた。
+- [SHION_A187 装甲救援隊の救護医](/reference/backstories/mastery/SHION_A187.md) — 装甲救援隊の救護医では、装甲は敵を倒すためだけのものじゃない。
+- [SHION_A188 幸福都市外縁の討論調停人](/reference/backstories/mastery/SHION_A188.md) — その都市の幸福が一人の苦痛に支えられていると知った日、本人はすぐには去れなかった。
+- [SHION_A189 移動都市群の古文書研究者](/reference/backstories/mastery/SHION_A189.md) — 古文書の欠けた一行を、もっともらしい物語で埋めるのは簡単だ。
+- [SHION_A190 海洋観測区の監視射手](/reference/backstories/mastery/SHION_A190.md) — 海洋観測区で、未識別の現象を敵・漂流物・生物と急いで断定せず、不発砲のまま観測した。
+- [SHION_A191 塔域居住層の徒手警護員](/reference/backstories/mastery/SHION_A191.md) — 塔域居住層で人の流れを読み、武器を抜かず群衆を分け、端末投影と独立人格を混同しない確認を守った。
+- [SHION_A192 機械化訓練地の橋梁技師](/reference/backstories/mastery/SHION_A192.md) — 機械化訓練地の橋梁技師では、機械化部隊の荷重試験は橋に厳しい。
+- [SHION_A193 立入制限地の資源測量士](/reference/backstories/mastery/SHION_A193.md) — 制限地では、価値がありそうだから拾う、という考えが一番危ない。
+- [SHION_A194 本国居住区の保存食職人](/reference/backstories/mastery/SHION_A194.md) — 本国居住区で、外部居住者の栄養条件とシオンの感覚文化の双方に応じた保存食を作った。
+- [SHION_A195 地下維持区の種子管理官](/reference/backstories/mastery/SHION_A195.md) — 地下区画では発芽まで自動設備へ任せるのが普通だった。
+- [SHION_A196 帰還兵港の動物義肢技師](/reference/backstories/mastery/SHION_A196.md) — 帰還兵港には、兵士だけでなく軍用動物も戻ってきた。
+- [SHION_A197 移動都市群の外勤精密工](/reference/backstories/mastery/SHION_A197.md) — 移動都市の外壁は、住民が語るよりずっと頻繁に形を変える。
+- [SHION_A198 革命連合後方区の合奏指導者](/reference/backstories/mastery/SHION_A198.md) — 革命連合の後方では、党派の違う者が同じ曲を演奏した。
+- [SHION_A199 低温研究区の蘇生後療養医](/reference/backstories/mastery/SHION_A199.md) — 低温研究区の蘇生後療養医では、蘇生が成功した、と研究員はよく言った。
+- [SHION_A200 地下維持区の再会連絡官](/reference/backstories/mastery/SHION_A200.md) — 再会祭では、会わせれば終わりというわけにいかない。
+- [SHION_A201 空挺基地の古文書研究者](/reference/backstories/mastery/SHION_A201.md) — 空挺基地の古文書は、立派な戦史より汚れた献立表の方が役に立った。
+- [SHION_A202 制裁作戦監査室の護衛射手](/reference/backstories/mastery/SHION_A202.md) — 制裁作戦監査室の護衛射手では、制裁部隊の監査には、記録を守る護衛が必要だった。
+- [SHION_A203 人格照合局の徒手警護員](/reference/backstories/mastery/SHION_A203.md) — 人格照合局では、外見が同じ者同士を見物しようと群衆が集まることがあった。
+- [SHION_A204 本国居住区の橋梁技師](/reference/backstories/mastery/SHION_A204.md) — 本国の古い橋は、図面どおりに直すと使いにくくなる。
+- [SHION_A205 月面事業区の資源測量士](/reference/backstories/mastery/SHION_A205.md) — 月面事業の宣伝図には、危険な斜面も粉塵の流れも描かれていなかった。
+- [SHION_A206 ヘイハルKombinatの保存食職人](/reference/backstories/mastery/SHION_A206.md) — ヘイハルKombinatでは、部品より食事の方が長い旅をすることがある。
+- [SHION_A207 ヘイハルKombinatの記念庭園師](/reference/backstories/mastery/SHION_A207.md) — Kombinatの記念庭園に、壊れない記念碑は置かなかった。
+- [SHION_A208 本国居住区の帰還者担当義肢技師](/reference/backstories/mastery/SHION_A208.md) — 帰還者の中には、戦地から連れ帰った動物を先に治してほしいと言う者が多かった。
+- [SHION_A209 制裁作戦監査室の義肢調整師](/reference/backstories/mastery/SHION_A209.md) — 制裁作戦の後、本人は負傷者の義肢を調整し、同時に部隊の装備も監査した。
+- [SHION_A210 孵育文化区の公共壁画家](/reference/backstories/mastery/SHION_A210.md) — 孵育文化区の壁は、皆が幸福に暮らす同じ顔で埋めるよう求められた。
+- [SHION_A211 無人構造物調査船の救護医](/reference/backstories/mastery/SHION_A211.md) — 無人構造物へ入った時、皆が作り手の目的を知りたがった。
+- [SHION_A212 地下維持区の公共案内官](/reference/backstories/mastery/SHION_A212.md) — 地下維持区の案内板は正確だったが、初めて来た者には役立たなかった。
+- [SHION_A213 戦術教育環の古文書研究者](/reference/backstories/mastery/SHION_A213.md) — 戦術教育環では、勝った側の記録だけを教材にする習慣があった。
+- [SHION_A214 計画都市の射撃教官](/reference/backstories/mastery/SHION_A214.md) — 計画都市の訓練場は、何もかも完璧な位置に置かれていた。
+- [SHION_A215 共同祝宴堂の会場警護員](/reference/backstories/mastery/SHION_A215.md) — 共同祝宴堂で武器を使わず衝突を止め、食事を必要としない者も同じ卓へ迎える会場を守った。
+- [SHION_A216 非常令監視区の設備技師](/reference/backstories/mastery/SHION_A216.md) — 非常令が出た時、最初に変わったのは大きな法律ではなかった。
+- [SHION_A217 残響深層の資源測量士](/reference/backstories/mastery/SHION_A217.md) — 残響深層で再現された戦場を測量し、英雄像ではなく実際に迷った救難路を地図へ残した。
+- [SHION_A218 封鎖観測地の祝宴料理人](/reference/backstories/mastery/SHION_A218.md) — 封鎖観測地の祝宴では、戻った者と戻らなかった者の皿を同じ卓へ置いた。
+- [SHION_A219 本国居住区の種子管理官](/reference/backstories/mastery/SHION_A219.md) — 本国の種子庫には、もう地図にない故郷から運ばれた種がある。

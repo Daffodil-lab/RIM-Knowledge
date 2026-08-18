@@ -1,0 +1,70 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "project-atlas.schema.json",
+  "type": "object",
+  "additionalProperties": false,
+  "required": ["schemaVersion", "digestKind", "digest", "generatedAt", "repositories", "concepts", "ownerDocuments", "subjectOwners", "ownerEdges", "scopeMemberships", "implementationMarkers", "implementationObservation", "diagnostics"],
+  "properties": {
+    "schemaVersion": { "const": 1 },
+    "digestKind": { "const": "knowledge-content-snapshot-v1" },
+    "digest": { "type": "string", "pattern": "^[a-f0-9]{64}$" },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "repositories": { "type": "array", "minItems": 1, "maxItems": 1, "items": { "$ref": "#/$defs/repository" } },
+    "concepts": { "type": "array", "items": { "$ref": "#/$defs/concept" } },
+    "ownerDocuments": { "type": "array", "items": { "$ref": "#/$defs/ownerDocument" } },
+    "subjectOwners": { "type": "object", "additionalProperties": { "type": "string", "minLength": 1 } },
+    "ownerEdges": { "type": "array", "items": { "$ref": "#/$defs/ownerEdge" } },
+    "scopeMemberships": { "type": "object", "additionalProperties": { "type": "array", "items": { "type": "string", "minLength": 1 }, "uniqueItems": true } },
+    "implementationMarkers": { "type": "array", "items": { "$ref": "#/$defs/pathRecord" } },
+    "implementationObservation": { "enum": ["observed", "not-observed-in-configured-repositories"] },
+    "diagnostics": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["duplicateSubjects", "missingOwners", "ownerCycles"],
+      "properties": {
+        "duplicateSubjects": { "type": "array", "maxItems": 0 },
+        "missingOwners": { "type": "array", "maxItems": 0 },
+        "ownerCycles": { "type": "array", "maxItems": 0 }
+      }
+    }
+  },
+  "$defs": {
+    "nullableString": { "type": ["string", "null"], "minLength": 1 },
+    "pathRecord": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["repositoryId", "path"],
+      "properties": { "repositoryId": { "type": "string", "minLength": 1 }, "path": { "type": "string", "minLength": 1 } }
+    },
+    "repository": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["id", "kind", "path", "knowledgeRoot", "implementationRoots", "gitObserved", "head", "branch", "dirtyPaths"],
+      "properties": {
+        "id": { "type": "string", "minLength": 1 }, "kind": { "type": "string", "minLength": 1 }, "path": { "type": "string", "minLength": 1 }, "knowledgeRoot": { "type": "string", "minLength": 1 },
+        "implementationRoots": { "type": "array", "items": { "type": "string", "minLength": 1 } }, "gitObserved": { "type": "boolean" }, "head": { "$ref": "#/$defs/nullableString" }, "branch": { "$ref": "#/$defs/nullableString" },
+        "dirtyPaths": { "type": "array", "items": { "type": "string" } }
+      },
+      "allOf": [{ "if": { "properties": { "gitObserved": { "const": true } }, "required": ["gitObserved"] }, "then": { "properties": { "head": { "type": "string", "minLength": 1 } } } }]
+    },
+    "concept": {
+      "type": "object",
+      "additionalProperties": false,
+      "required": ["repositoryId", "path", "bytes", "sha256", "domain", "knowledgeRole", "canonicalFor", "canonicalScope", "canonicalOwners", "authority", "status", "title"],
+      "properties": {
+        "repositoryId": { "type": "string", "minLength": 1 }, "path": { "type": "string", "minLength": 1 }, "bytes": { "type": "integer", "minimum": 0 }, "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }, "domain": { "type": "string", "minLength": 1 },
+        "knowledgeRole": { "$ref": "#/$defs/nullableString" }, "canonicalFor": { "$ref": "#/$defs/nullableString" }, "canonicalScope": { "$ref": "#/$defs/nullableString" }, "canonicalOwners": { "type": "array", "items": { "type": "string", "minLength": 1 } },
+        "authority": { "$ref": "#/$defs/nullableString" }, "status": { "$ref": "#/$defs/nullableString" }, "title": { "type": "string", "minLength": 1 }
+      }
+    },
+    "ownerDocument": {
+      "type": "object", "additionalProperties": false,
+      "required": ["repositoryId", "path", "bytes", "sha256", "domain", "title", "documentRole"],
+      "properties": { "repositoryId": { "type": "string", "minLength": 1 }, "path": { "type": "string", "minLength": 1 }, "bytes": { "type": "integer", "minimum": 0 }, "sha256": { "type": "string", "pattern": "^[a-f0-9]{64}$" }, "domain": { "type": "string", "minLength": 1 }, "title": { "type": "string", "minLength": 1 }, "documentRole": { "const": "canonical-owner-target" } }
+    },
+    "ownerEdge": {
+      "type": "object", "additionalProperties": false, "required": ["repositoryId", "from", "to"],
+      "properties": { "repositoryId": { "type": "string", "minLength": 1 }, "from": { "type": "string", "minLength": 1 }, "to": { "type": "string", "minLength": 1 } }
+    }
+  }
+}

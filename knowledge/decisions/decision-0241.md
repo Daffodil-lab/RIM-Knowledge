@@ -4,8 +4,6 @@ title: "確定#241：ドクトリン軌道「機甲」のCoreMOD対応効果を�
 description: "ドクトリン軌道「機甲」のCoreMOD対応効果を具体化——個人重装甲の装甲値強化＋重装甲特有の移動デバフ軽減（移動バフ）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

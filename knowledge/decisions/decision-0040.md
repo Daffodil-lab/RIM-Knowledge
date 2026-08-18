@@ -4,8 +4,6 @@ title: "確定#40：頂点職級の廃止＝栄誉ベースへ再構成（#39を
 description: "頂点職級の廃止＝栄誉ベースへ再構成（番号39を上書き）：製造される職級は 技師級／兵級／市民級／変換市民級 の4つ。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

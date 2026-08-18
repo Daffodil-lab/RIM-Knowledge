@@ -4,8 +4,6 @@ title: "確定#17：全て製造可能：入手のみ＝不採用。クエスト
 description: "全て製造可能：入手のみ＝不採用を現行方針として確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

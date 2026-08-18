@@ -4,9 +4,7 @@ title: "確定#140：Shion Race: Red Star新設・独自開拓団へCoreMODを�
 description: "Shion Race: Red Star新設・独自開拓団へCoreMODを縮小を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "red-star"
-  - "canon"
 organization_groups:
   - "red-star"
 status: deprecated

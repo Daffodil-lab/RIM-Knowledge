@@ -12,7 +12,6 @@ tags:
   - "the-hive"
   - "independent-colony"
   - "equipment"
-  - "canon"
   - "alpha"
   - "beta"
 organization_groups:

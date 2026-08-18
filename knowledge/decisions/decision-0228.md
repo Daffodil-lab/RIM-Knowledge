@@ -4,9 +4,7 @@ title: "確定#228：CoreMOD§12.7「社会的受容・俗称」（濃縮真空�
 description: "CoreMOD§12.7「社会的受容・俗称」（濃縮真空エネルギーの俗称「瓶詰めの奇跡」・漏出事故・サミズダート自主安全基準）をシオン/Shionコンセプト設計書v2.md§18新設「ゼロ点エネルギー地場システム — 世界観・逸話」へ移設…。"
 tags:
   - "decision-log"
-  - "historical"
   - "independent-colony"
-  - "canon"
 organization_groups:
   - "independent-frontier"
 status: deprecated

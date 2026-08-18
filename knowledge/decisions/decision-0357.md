@@ -4,10 +4,8 @@ title: "確定#357：非シオン人口は数十兆超、ほぼ全員が本国�
 description: "非シオン人口は数十兆超、ほぼ全員が本国在住を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "red-star"
   - "independent-colony"
-  - "canon"
 organization_groups:
   - "independent-frontier"
   - "red-star"

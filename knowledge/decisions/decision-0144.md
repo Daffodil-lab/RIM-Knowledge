@@ -4,9 +4,7 @@ title: "確定#144：Diaspora段0/段1の割当確定"
 description: "Diaspora段0/段1の割当確定を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

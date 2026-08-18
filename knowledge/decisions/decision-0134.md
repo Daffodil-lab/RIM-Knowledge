@@ -4,10 +4,8 @@ title: "確定#134：同盟派遣開拓団の公式ビジュアル参考（雪�
 description: "同盟派遣開拓団の公式ビジュアル参考（雪山コンセプトアート）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

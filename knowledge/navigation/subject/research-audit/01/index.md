@@ -1,31 +1,34 @@
 # 調査・監査 01
 
-範囲: 19. 基幹旧資料の採否台帳〜0. Purpose
+範囲: 19. 基幹旧資料の採否台帳〜1. MonolynのネットワークUIから採るもの
 
 ## 項目
 
 - [19. 基幹旧資料の採否台帳](/authoring/19-%E5%9F%BA%E5%B9%B9%E6%97%A7%E8%B3%87%E6%96%99%E3%81%AE%E6%8E%A1%E5%90%A6%E5%8F%B0%E5%B8%B3.md) — 旧資料を文書単位で復活させず、概念ごとに採用、改稿採用、設定クラス限定、実装予約、廃止、新規補完へ仕分けた監査記録。
 - [21. 旧資料退役監査](/authoring/21-%E6%97%A7%E8%B3%87%E6%96%99%E9%80%80%E5%BD%B9%E7%9B%A3%E6%9F%BB.md) — OKF移行前の統合原本・カタログ・補助原本を退役・削除し、由来を墓標識別子へ固定した監査記録。
 - [22. 化石資料二冊の最終採否](/authoring/22-%E5%8C%96%E7%9F%B3%E8%B3%87%E6%96%99%E4%BA%8C%E5%86%8A%E3%81%AE%E6%9C%80%E7%B5%82%E6%8E%A1%E5%90%A6.md) — 旧コンセプト設計書v2と旧実装計画書v1は、勲章の設定クラスだけを継承し、その他の旧記述を放棄または現行所有者による別設計へ置き換える。
-- [C-0001 ソフェルの種族分類](/contradictions/C-0001-%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AE%E7%A8%AE%E6%97%8F%E5%88%86%E9%A1%9E.md) — 匿名のソフェル資料で専門職を種族として併記していた不整合。
+- [C-0001 ソフェルの種族分類](/contradictions/C-0001-%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AE%E7%A8%AE%E6%97%8F%E5%88%86%E9%A1%9E.md) — 監査前の匿名ソフェル旧原本で専門職を種族として併記していた不整合。
 - [C-0002 匿名ソフェルのTierとQuality](/contradictions/C-0002-%E5%8C%BF%E5%90%8D%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AETier%E3%81%A8Quality.md) — 旧人物資料の確定値と、身体体系を未確定とする現行正史の境界。
 - [C-0003 匿名ソフェルのゲーム実装値](/contradictions/C-0003-%E5%8C%BF%E5%90%8D%E3%82%BD%E3%83%95%E3%82%A7%E3%83%AB%E3%81%AE%E3%82%B2%E3%83%BC%E3%83%A0%E5%AE%9F%E8%A3%85%E5%80%A4.md) — 旧人物資料の技能・装備・能力案と、現行の実装予約との関係。
-- [オーバーホール中の矛盾判定規則](/governance/contradiction-policy.md) — 改稿差分を誤って矛盾と判定せず、現行正本の衝突だけを止めるための規則。
-- [0. 結論](/kombinat/audit/00-%E7%B5%90%E8%AB%96.md) — α版からCore独自保管基盤との受渡しを監査し、Matter Networkは任意互換Adapterの試験だけへ隔離する。
-- [1. 監査原則](/kombinat/audit/01-%E7%9B%A3%E6%9F%BB%E5%8E%9F%E5%89%87.md) — 監査原則は、Matter Network単体で再現する問題は終了する。
-- [3. 正常として受け入れる上流挙動](/kombinat/audit/03-%E6%AD%A3%E5%B8%B8%E3%81%A8%E3%81%97%E3%81%A6%E5%8F%97%E3%81%91%E5%85%A5%E3%82%8C%E3%82%8B%E4%B8%8A%E6%B5%81%E6%8C%99%E5%8B%95.md) — 次はKombinatの問題として登録しないという方針の適用範囲と条件を定める。
-- [4. シナリオ](/kombinat/audit/04-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — シナリオは、S2-001：一つの三段Job：実入力と実出力が一致するとS2-002：材料が上流にあるが搬入されない：IO待ち。
-- [5. 未知MOD](/kombinat/audit/05-%E6%9C%AA%E7%9F%A5MOD.md) — 未知MODのThingをMatter Networkがどう保管するかは上流責務である。
+- [コード解説の作成規則](/governance/code-explanation-policy-%E3%82%B3%E3%83%BC%E3%83%89%E8%A7%A3%E8%AA%AC%E3%81%AE%E4%BD%9C%E6%88%90%E8%A6%8F%E5%89%87.md) — コード変更には、非技術者が目的、処理の流れ、状態変更、失敗時結果、検査範囲を追える日本語解説を同じPull Requestで添える。
+- [オーバーホール中の矛盾判定規則](/governance/contradiction-policy-%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%9B%E3%83%BC%E3%83%AB%E4%B8%AD%E3%81%AE%E7%9F%9B%E7%9B%BE%E5%88%A4%E5%AE%9A%E8%A6%8F%E5%89%87.md) — 改稿差分を誤って矛盾と判定せず、現行正本の衝突だけを止めるための規則。
+- [人間による承認境界](/governance/human-approval-boundary-%E4%BA%BA%E9%96%93%E3%81%AB%E3%82%88%E3%82%8B%E6%89%BF%E8%AA%8D%E5%A2%83%E7%95%8C.md) — RIM-Knowledgeでは、所有者が目的、正本、内容、影響、未確認事項、公開可否を判断し、コードの行単位理解を承認条件にしない。
+- [OKF統合保守コード解説](/governance/okf-maintenance-code-guide-OKF%E7%B5%B1%E5%90%88%E4%BF%9D%E5%AE%88%E3%82%B3%E3%83%BC%E3%83%89%E8%A7%A3%E8%AA%AC.md) — maintain-okf.mjsは、OKF派生資料を固定順で更新し、構造、リンク、重複、矛盾を一括検査するローカル実行用の統合入口である。
+- [Google上流OKF追随方針](/governance/okf-upstream-following-policy-Google%E4%B8%8A%E6%B5%81OKF%E8%BF%BD%E9%9A%8F%E6%96%B9%E9%87%9D.md) — GoogleCloudPlatform/knowledge-catalogのOKF規範とVisualize参照実装を確認し、RIM固有拡張をRIM側で所有する追随手順を定める。
+- [0. 結論](/kombinat/audit/00-%E7%B5%90%E8%AB%96.md) — α版からCore独自保管基盤との予約・受渡し・確定を監査し、Kombinat固有状態の安全性を検証する。
+- [1. 監査原則](/kombinat/audit/01-%E7%9B%A3%E6%9F%BB%E5%8E%9F%E5%89%87.md) — 監査は所有者別に再現条件を分離し、Kombinatの複製・消失・二重処理・破壊的復旧をblockerとして扱う。
+- [4. シナリオ](/kombinat/audit/04-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — S2シナリオは三段生産、保存、取消、容量、停電、破壊、通貨、長期運用をCore Storageとの公開契約で検証する。
+- [5. 未知MOD](/kombinat/audit/05-%E6%9C%AA%E7%9F%A5MOD.md) — 未知MODのThingとRecipeはCore Storageの互換判定とKombinatのRecipe分類を通し、安全な公開契約だけへ接続する。
 - [6. 破壊的操作](/kombinat/audit/06-%E7%A0%B4%E5%A3%8A%E7%9A%84%E6%93%8D%E4%BD%9C.md) — 破壊的操作は、操作：Kombinatが守るものとRequest連打：Jobを二重生成しないを扱う。
-- [7. Release Gate](/kombinat/audit/07-Release-Gate.md) — α blockerはKX-001〜008とS2-001〜020のKombinat追加層部分である。
-- [KX-001 入力二重予約](/kombinat/audit/kx-001.md) — 再現: 入力予約直後に保存し、ロード後に同じOperation IDが再送される。
-- [KX-002 引渡し後の二重所有](/kombinat/audit/kx-002.md) — 再現: Storage生産Commitの直後に例外が起き、同じOperation IDが再送される。
-- [KX-003 Network在庫の過剰約束](/kombinat/audit/kx-003.md) — 再現: PlannerがMatter Network画面の数量を見積りに使い、実際のBuffer搬入前に二Jobへ同じ材料を約束する。
-- [KX-004 出力容量予約不能](/kombinat/audit/kx-004.md) — 再現: 納入先Storageに全出力を置ける容量がない状態で次Batchを開始する。
-- [KX-005 取消競合](/kombinat/audit/kx-005.md) — 再現: Playerが取消、再注文、優先度変更を連打し、同時にIOが材料を搬入する。
-- [KX-006 Recipe副作用](/kombinat/audit/kx-006.md) — 再現: 外部Recipeを無人Factoryへ自動登録する。
-- [KX-007 通貨二重決済](/kombinat/audit/kx-007.md) — 再現: 支払確定後、報酬受取前に保存・ロードまたはUI再送する。
-- [KX-008 初期化二重適用](/kombinat/audit/kx-008.md) — 再現: 独立開拓団開始中に例外または途中ロードを起こす。
+- [7. Release Gate](/kombinat/audit/07-Release-Gate-%E5%85%AC%E9%96%8B%E5%88%A4%E5%AE%9A.md) — α blockerはKX-001〜008とS2-001〜018のKombinat追加層部分である。
+- [KX-001 入力二重予約](/kombinat/audit/kx-001-%E5%85%A5%E5%8A%9B%E4%BA%8C%E9%87%8D%E4%BA%88%E7%B4%84.md) — 再現: 入力予約直後に保存し、ロード後に同じOperation IDが再送される。
+- [KX-002 引渡し後の二重所有](/kombinat/audit/kx-002-%E5%BC%95%E6%B8%A1%E3%81%97%E5%BE%8C%E3%81%AE%E4%BA%8C%E9%87%8D%E6%89%80%E6%9C%89.md) — 再現: Storage生産Commitの直後に例外が起き、同じOperation IDが再送される。
+- [KX-003 Network在庫の過剰約束](/kombinat/audit/kx-003-%E5%9C%A8%E5%BA%AB%E3%81%AE%E9%81%8E%E5%89%B0%E7%B4%84%E6%9D%9F.md) — 再現: Plannerが表示在庫を予約確定前に利用可能量へ算入し、二Jobへ同じ材料を約束する。
+- [KX-004 出力容量予約不能](/kombinat/audit/kx-004-%E5%87%BA%E5%8A%9B%E5%AE%B9%E9%87%8F%E4%BA%88%E7%B4%84%E4%B8%8D%E8%83%BD.md) — 再現: 納入先Storageに全出力を置ける容量がない状態で次Batchを開始する。
+- [KX-005 取消競合](/kombinat/audit/kx-005-%E5%8F%96%E6%B6%88%E7%AB%B6%E5%90%88.md) — 再現: Playerが取消、再注文、優先度変更を連打し、同時にIOが材料を搬入する。
+- [KX-006 Recipe副作用](/kombinat/audit/kx-006-%E5%89%AF%E4%BD%9C%E7%94%A8.md) — 再現: 外部Recipeを無人Factoryへ自動登録する。
+- [KX-007 通貨二重決済](/kombinat/audit/kx-007-%E9%80%9A%E8%B2%A8%E4%BA%8C%E9%87%8D%E6%B1%BA%E6%B8%88.md) — 再現: 支払確定後、報酬受取前に保存・ロードまたはUI再送する。
+- [KX-008 初期化二重適用](/kombinat/audit/kx-008-%E5%88%9D%E6%9C%9F%E5%8C%96%E4%BA%8C%E9%87%8D%E9%81%A9%E7%94%A8.md) — 再現: 独立開拓団開始中に例外または途中ロードを起こす。
 - [0. Purpose](/research/anomaly-monolith/00-Purpose.md) — This document records user-provided screenshots of RimWorld Anomaly-style monolith structures as a visual reference for the redesigned…。
 - [1. Why Anomaly monoliths are useful](/research/anomaly-monolith/01-Why-Anomaly-monoliths-are-useful.md) — Anomaly monolith visuals are useful because they communicate、具体的にはa unique central object;とdormant mystery;を扱う。
 - [2. What to adopt](/research/anomaly-monolith/02-What-to-adopt.md) — Adopt structurally、具体的にはone strong central block;とside supports or buttresses;を扱う。
@@ -58,6 +61,7 @@
 - [2. Shion Nexus relevance](/research/external-videos/02-Shion-Nexus-relevance.md) — Fleshbeast Colony remains a structural reference only.。
 - [3. Performance review checklist](/research/external-videos/03-Performance-review-checklist.md) — When reviewing the videos, note、具体的にはwhether the system appears to add many active pawns;とwhether routine work is abstracted or…。
 - [4. Final rule](/research/external-videos/04-Final-rule.md) — These videos are reference evidence for how Fleshbeast Colony feels in play, not a mandate to copy its systems.。
+- [5. カエラヴィ民族主義・総力戦思想の参照動画](/research/external-videos/05-%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E6%B0%91%E6%97%8F%E4%B8%BB%E7%BE%A9%E3%83%BB%E7%B7%8F%E5%8A%9B%E6%88%A6%E6%80%9D%E6%83%B3%E3%81%AE%E5%8F%82%E7%85%A7%E5%8B%95%E7%94%BB.md) — ユーザーがカエラヴィ民族主義、科学化された社会進化論、総力戦と国家形成の制作参考として提示した三本の動画を、正史とは分離して記録する。
 - [0. Purpose](/research/fleshbeast/00-Purpose.md) — This document records the user-provided analysis of the three-part gameplay videos for Fleshbeast Colony / フレッシュビースト・コロニー and…。
 - [1. Source status](/research/fleshbeast/01-Source-status.md) — The details below are treated as a user-provided field report from gameplay videos.。
 - [2. Core resource and territory system](/research/fleshbeast/02-Core-resource-and-territory-system.md) — Fleshbeast Colony appears to replace ordinary colony economy with Hemogel, a biomass-like resource used for creature production, flesh…。
@@ -80,7 +84,3 @@
 - [Current status](/research/kombinat-prototype/001-Current-status.md) — No v3 product component is implemented. The next task is to pin the Matter Network baseline, record the MIT notices and adopted files,…。
 - [0. 出典と利用範囲](/research/kombinat-ui-references/00-%E5%87%BA%E5%85%B8%E3%81%A8%E5%88%A9%E7%94%A8%E7%AF%84%E5%9B%B2.md) — ユーザー提供映像をKombinatのUI・操作研究に限定して利用し、画像・コード・固有表現のコピー元にはしない。
 - [1. MonolynのネットワークUIから採るもの](/research/kombinat-ui-references/01-Monolyn%E3%81%AE%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AFUI%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — Monolynの集中資源、生産一覧、選択時ネットワーク表示から、Kombinatへ採用する情報設計を抽出する。
-- [2. Arsenal Codexの直接交換から採るもの](/research/kombinat-ui-references/02-Arsenal-Codex%E3%81%AE%E7%9B%B4%E6%8E%A5%E4%BA%A4%E6%8F%9B%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — 接続保管庫からPawnへ直接装備し、現在装備を同じ取引で返す操作を、Coreの原子的武器交換の参照とする。
-- [3. DSUから採るUIと採らない実装](/research/kombinat-ui-references/03-DSU%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8BUI%E3%81%A8%E6%8E%A1%E3%82%89%E3%81%AA%E3%81%84%E5%AE%9F%E8%A3%85.md) — DSUの検索・任意排出・Pawnアクセスは参照するが、中央Mapセルへ内容物を集積する保管方式は採用しない。
-- [4. 要求中間素材作成の操作イメージ](/research/kombinat-ui-references/04-%E8%A6%81%E6%B1%82%E4%B8%AD%E9%96%93%E7%B4%A0%E6%9D%90%E4%BD%9C%E6%88%90%E3%81%AE%E6%93%8D%E4%BD%9C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8.md) — 在庫とRecipeを並べ、最終品の要求から不足中間品と総材料を確認する簡潔な操作モデルをKombinatへ適用する。
-- [0. Purpose](/research/monolyn-practice/00-Purpose.md) — This document records the user-provided summary of real player practice around Monolyn Race from Steam Workshop Q&A, Steam Workshop…。

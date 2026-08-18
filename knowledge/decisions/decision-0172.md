@@ -4,9 +4,7 @@ title: "確定#172：有機機械の基本効果を確定（基本代謝効率50
 description: "有機機械の基本効果を確定（基本代謝効率50%＝食料消費2倍、付属特性なし）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

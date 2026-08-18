@@ -4,8 +4,6 @@ title: "確定#103：ここではそれは起こりえない（ファシスト�
 description: "ここではそれは起こりえない（ファシスト党フォーカス拡張MOD）新設を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

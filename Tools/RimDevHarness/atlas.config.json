@@ -1,0 +1,6 @@
+{
+  "schemaVersion": 1,
+  "repositories": [
+    {"id":"rim-knowledge","kind":"knowledge","path":".","knowledgeRoot":"knowledge","implementationRoots":[]}
+  ]
+}

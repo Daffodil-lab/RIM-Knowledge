@@ -4,8 +4,6 @@ title: "確定#248：想定運用温度帯（段階1）の効果を意識±20%�
 description: "想定運用温度帯（段階1）の効果を意識±20%に確定——適切な環境内は意識+20%ボーナス、外れると意識−20%ペナルティへ反転。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

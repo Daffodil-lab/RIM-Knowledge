@@ -4,8 +4,6 @@ title: "確定#233：CoreMOD§12.6「ゼロ点エネルギー地場備蓄装置�
 description: "CoreMOD§12.6「ゼロ点エネルギー地場備蓄装置」に、無零花・豊穂種運用時の保険としての役割を明記を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

@@ -4,9 +4,7 @@ title: "確定#124：MODジャンル分類（6ジャンルへの再分類）"
 description: "MODジャンル分類（6ジャンルへの再分類）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "red-star"
-  - "canon"
 organization_groups:
   - "red-star"
 status: deprecated

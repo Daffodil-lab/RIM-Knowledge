@@ -4,8 +4,6 @@ title: "確定#68：カタロニア讃歌共通基盤＝内戦期製造規格の
 description: "カタロニア讃歌共通基盤＝内戦期製造規格の証拠特性＋新規研究による設計ダイアログ解禁：①内戦期製造規格の証拠特性5種（社会民主党/共産党/ファシスを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

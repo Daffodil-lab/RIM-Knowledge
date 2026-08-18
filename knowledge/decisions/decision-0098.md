@@ -4,9 +4,7 @@ title: "確定#98：崩壊のドラマ＝理想から技術官僚制への変質
 description: "崩壊のドラマ＝理想から技術官僚制への変質（三段階の時系列）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

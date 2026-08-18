@@ -5,7 +5,6 @@ description: "KombinatはCore独自保管・接続システムに属する保管
 tags:
   - "kombinat"
   - "implementation"
-  - "matter-network"
 organization_groups:
   - "kombinat-communities"
 status: stable
@@ -39,8 +38,9 @@ sources:
 | `OutputClaim` | BatchとStorageへCommitした実Thingの対応 |
 | `ConsumptionRecord` | Kombinatが観測できた消費eventの有限集計 |
 | `DistributionGoal` | Kombinat Factoryまたは公開接続面に対する目標量 |
-| `CurrencyAccount` | 同盟通貨残高 |
-| `Transaction` | Kombinat追加層と通貨の冪等変更 |
+| `AllianceCreditAccount` | 能力、実績、制度的信用に基づく同盟資源・権限の利用可能量と予約量 |
+| `FinancialLedger` | Scenario固有のカエルムMark、債務、租税をCreditから分離した台帳 |
+| `Transaction` | Credit認定・使用、Mark決済、債務返済、租税納付、Thing受渡しの原子的かつ冪等な変更 |
 
 Core独自保管・接続システムのStorage、Network graph、検索索引、保存RecordをKombinatへ複製せず、公開Application境界から利用する。
 
@@ -49,7 +49,6 @@ Core独自保管・接続システムのStorage、Network graph、検索索引�
 - 上位索引: [kombinat/core](/kombinat/core/index.md)
 - 同じ出典の前項: [3. 物理Thingと通貨](/kombinat/core/03-物理Thingと通貨.md)
 - 同じ出典の次項: [5. 発注と多段生産](/kombinat/core/05-発注と多段生産.md)
-- 連携境界: [連携境界](/integrations/matter-network/index.md)
 - 正規保管仕様: [Core独自保管・接続システムの実装境界](/design/51-Core独自保管接続システムの実装境界.md)
 - 統合境界: [内政台帳とNetwork Storageの統合境界](/design/54-内政台帳とNetwork-Storageの統合境界.md)
 

@@ -4,8 +4,6 @@ title: "確定#203：「公社」を名乗るが正式な公社組織ではな�
 description: "「公社」を名乗るが正式な公社組織ではないという小ネタを追加を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

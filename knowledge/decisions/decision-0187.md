@@ -4,8 +4,6 @@ title: "確定#187：時計仕掛けの狐人形の基本stat原則を確定（�
 description: "時計仕掛けの狐人形の基本stat原則を確定（両方のデメリットを負い、メリットは特性投資で獲得）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

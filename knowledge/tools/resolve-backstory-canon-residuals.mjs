@@ -1,6 +1,10 @@
 import fs from "node:fs";
 import path from "node:path";
 
+throw new Error(
+  "実行禁止: 参考バックストーリーは凍結されています。正史化する内容は現行所有者へ新規作成してください。",
+);
+
 const root = process.cwd();
 
 const edits = {

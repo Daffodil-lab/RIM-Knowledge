@@ -4,8 +4,6 @@ title: "確定#287：同盟自身も多くが人間に理解不能な存在で�
 description: "同盟自身も多くが人間に理解不能な存在であること・目的の平易な説明とその限界・内戦前からの頂点(旧指導部)の謎・真空エネルギー技術に見る限定的な民間進歩（確定番号286の補足）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

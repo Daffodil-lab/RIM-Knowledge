@@ -4,9 +4,7 @@ title: "確定#45：究極点＝不滅の一騎当千（イレギュラー）：
 description: "究極点＝不滅の一騎当千（イレギュラー）：§13-14レプリカ＝アルコテック級個体。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

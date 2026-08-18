@@ -4,8 +4,6 @@ title: "確定#126：食文化は生存目的を離れ文化・娯楽・手触�
 description: "食文化は生存目的を離れ文化・娯楽・手触りとして独自に発達を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

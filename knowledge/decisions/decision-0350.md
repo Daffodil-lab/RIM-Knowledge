@@ -4,10 +4,8 @@ title: "確定#350：帝国人、シオンの廉価複製起源、内戦と蜂�
 description: "帝国人、シオンの廉価複製起源、内戦と蜂起、ソフェル参加、規格互換性を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

@@ -1,86 +1,86 @@
 # stable 14
 
-範囲: 8. 文書優先〜SAV-004 同一ビルド
+範囲: SHION_A220 封鎖観測地の動物義肢技師〜SHION_A299 旧党派収容記録所の徒手警護員
 
 ## 項目
 
-- [8. 文書優先](/integrations/matter-network/08-%E6%96%87%E6%9B%B8%E5%84%AA%E5%85%88.md) — 本書制定前の資料にある次の記述は廃止するという方針の適用範囲と条件を定める。
-- [0. 結論](/kombinat/audit/00-%E7%B5%90%E8%AB%96.md) — α版からCore独自保管基盤との受渡しを監査し、Matter Networkは任意互換Adapterの試験だけへ隔離する。
-- [1. 監査原則](/kombinat/audit/01-%E7%9B%A3%E6%9F%BB%E5%8E%9F%E5%89%87.md) — 監査原則は、Matter Network単体で再現する問題は終了する。
-- [3. 正常として受け入れる上流挙動](/kombinat/audit/03-%E6%AD%A3%E5%B8%B8%E3%81%A8%E3%81%97%E3%81%A6%E5%8F%97%E3%81%91%E5%85%A5%E3%82%8C%E3%82%8B%E4%B8%8A%E6%B5%81%E6%8C%99%E5%8B%95.md) — 次はKombinatの問題として登録しないという方針の適用範囲と条件を定める。
-- [4. シナリオ](/kombinat/audit/04-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — シナリオは、S2-001：一つの三段Job：実入力と実出力が一致するとS2-002：材料が上流にあるが搬入されない：IO待ち。
-- [5. 未知MOD](/kombinat/audit/05-%E6%9C%AA%E7%9F%A5MOD.md) — 未知MODのThingをMatter Networkがどう保管するかは上流責務である。
-- [6. 破壊的操作](/kombinat/audit/06-%E7%A0%B4%E5%A3%8A%E7%9A%84%E6%93%8D%E4%BD%9C.md) — 破壊的操作は、操作：Kombinatが守るものとRequest連打：Jobを二重生成しないを扱う。
-- [7. Release Gate](/kombinat/audit/07-Release-Gate.md) — α blockerはKX-001〜008とS2-001〜020のKombinat追加層部分である。
-- [KX-001 入力二重予約](/kombinat/audit/kx-001.md) — 再現: 入力予約直後に保存し、ロード後に同じOperation IDが再送される。
-- [KX-002 引渡し後の二重所有](/kombinat/audit/kx-002.md) — 再現: Storage生産Commitの直後に例外が起き、同じOperation IDが再送される。
-- [KX-003 Network在庫の過剰約束](/kombinat/audit/kx-003.md) — 再現: PlannerがMatter Network画面の数量を見積りに使い、実際のBuffer搬入前に二Jobへ同じ材料を約束する。
-- [KX-004 出力容量予約不能](/kombinat/audit/kx-004.md) — 再現: 納入先Storageに全出力を置ける容量がない状態で次Batchを開始する。
-- [KX-005 取消競合](/kombinat/audit/kx-005.md) — 再現: Playerが取消、再注文、優先度変更を連打し、同時にIOが材料を搬入する。
-- [KX-006 Recipe副作用](/kombinat/audit/kx-006.md) — 再現: 外部Recipeを無人Factoryへ自動登録する。
-- [KX-007 通貨二重決済](/kombinat/audit/kx-007.md) — 再現: 支払確定後、報酬受取前に保存・ロードまたはUI再送する。
-- [KX-008 初期化二重適用](/kombinat/audit/kx-008.md) — 再現: 独立開拓団開始中に例外または途中ロードを起こす。
-- [0. 結論](/kombinat/core/00-%E7%B5%90%E8%AB%96.md) — Kombinatは発注、設備能力、生産進捗、消費表示、流通目標、同盟通貨を所有し、物理ThingをCore Storageへ一元化する。
-- [1. 製品境界](/kombinat/core/01-%E8%A3%BD%E5%93%81%E5%A2%83%E7%95%8C.md) — Kombinatはα版からCore独自保管・接続システムの公開入出庫境界へ接続し、保管内部を所有しない。
-- [2. 状態分類](/kombinat/core/02-%E7%8A%B6%E6%85%8B%E5%88%86%E9%A1%9E.md) — 状態分類は、対象：状態とAhHanie/Matter-Network：外部で実装済みの必須依存。
-- [3. 物理Thingと通貨](/kombinat/core/03-%E7%89%A9%E7%90%86Thing%E3%81%A8%E9%80%9A%E8%B2%A8.md) — 物理材料、工業資源、食料、薬品、武器、防具、固有品は実在するRimWorld ThingDef／Thingである。
-- [4. Kombinat追加層の中核型](/kombinat/core/04-Kombinat%E8%BF%BD%E5%8A%A0%E5%B1%A4%E3%81%AE%E4%B8%AD%E6%A0%B8%E5%9E%8B.md) — KombinatはCore独自保管・接続システムに属する保管基盤型を再実装しない。
-- [5. 発注と多段生産](/kombinat/core/05-%E7%99%BA%E6%B3%A8%E3%81%A8%E5%A4%9A%E6%AE%B5%E7%94%9F%E7%94%A3.md) — αの発注は具体的なThingDef、Recipe、数量または目標在庫を基本とする。
-- [6. 無人生産](/kombinat/core/06-%E7%84%A1%E4%BA%BA%E7%94%9F%E7%94%A3.md) — Kombinat専用FactoryとKombinat専用Patternは、Pawnがいなくても電力、材料、設備状態を満たせば稼働できる。
-- [7. Stasis](/kombinat/core/07-Stasis.md) — Core独自基盤は保管中の時間進行方針を自ら所有し、Matter NetworkのStasisを自動継承しない。
-- [8. 消費と流通](/kombinat/core/08-%E6%B6%88%E8%B2%BB%E3%81%A8%E6%B5%81%E9%80%9A.md) — Kombinatは接続先保管基盤の内部消費を無断で監視せず、公開された観測境界だけを使う。
-- [9. UI](/kombinat/core/09-UI.md) — Field Ledger Terminalを選択して全機能へ入る暗色のRimWorld管理Windowを基準とし、通常表示と最大化表示を同じDef駆動Page railで提供する。
-- [10. 保存と原子性](/kombinat/core/10-%E4%BF%9D%E5%AD%98%E3%81%A8%E5%8E%9F%E5%AD%90%E6%80%A7.md) — Kombinatは次だけを保存するという方針の適用範囲と条件を定める。
-- [11. 上流欠陥の扱い](/kombinat/core/11-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E3%81%AE%E6%89%B1%E3%81%84.md) — Matter Networkは必須経路にせず、将来の任意Adapterでだけ上流欠陥を分離する。
-- [12. α完成条件](/kombinat/core/12-%CE%B1%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Kombinat αはShion種族実装に先行し、バニラHumanのfixtureでThingOwner間の直接転送、三段生産、任意排出を成立させる。
-- [13. β](/kombinat/core/13-%CE%B2.md) — Equipment Familyは作者が明示登録した候補だけを使う。
-- [14. 実装順](/kombinat/core/14-%E5%AE%9F%E8%A3%85%E9%A0%86.md) — 工業UIのRimWorld 1.6画面契約を先に固定し、Shion種族に先行してCore独自保管・接続システムとKombinatをバニラHumanのfixtureで完成させる。
-- [1. 適用範囲](/kombinat/requirements/01-%E9%81%A9%E7%94%A8%E7%AF%84%E5%9B%B2.md) — 本書はKombinatが独自実装する発注、多段生産、設備能力、消費表示、流通目標、同盟通貨を扱う。
-- [A. 三段生産](/kombinat/requirements/044-A-%E4%B8%89%E6%AE%B5%E7%94%9F%E7%94%A3.md) — A. 三段生産は、Core Storage上の材料と出力容量を工程ごとに予約してCommitする。
-- [B. 材料不足](/kombinat/requirements/045-B-%E6%9D%90%E6%96%99%E4%B8%8D%E8%B6%B3.md) — 材料不足をNetwork在庫0と断定せず、Factoryへの搬入待ちとして表示する。
-- [C. 停電](/kombinat/requirements/046-C-%E5%81%9C%E9%9B%BB.md) — Factory停止中に入力、進捗、出力を複製・消失させず、復電後に再検証する。
-- [D. 出力満杯](/kombinat/requirements/047-D-%E5%87%BA%E5%8A%9B%E6%BA%80%E6%9D%AF.md) — 納入先Storageの出力容量を予約できない時は次Batchを開始せず、既存在庫を変更しない。
-- [E. 取消](/kombinat/requirements/048-E-%E5%8F%96%E6%B6%88.md) — 開始前、入力受領後、処理中、出力待ちの各段階で取消規則を確認する。
-- [F. 保存往復](/kombinat/requirements/049-F-%E4%BF%9D%E5%AD%98%E5%BE%80%E5%BE%A9.md) — 全Job状態と通貨Transaction途中で保存・ロードし、二重実行しない。
-- [G. 保管基盤不在](/kombinat/requirements/050-G-%E4%B8%8A%E6%B5%81%E4%B8%8D%E5%9C%A8.md) — Core独自保管基盤が欠落または不整合なら生産接続を停止し、保存状態を破壊的に初期化しない。
-- [H. 保管基盤欠陥分離](/kombinat/requirements/051-H-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E5%88%86%E9%9B%A2.md) — Core独自保管基盤単体の問題とKombinat接続の問題を再現条件で分離する。
-- [I. 保管中の時間進行](/kombinat/requirements/052-I-Stasis.md) — Core独自Storageが定めた対象別時間進行方針を、Kombinatが上書きしない。
-- [J. 通貨](/kombinat/requirements/053-J-%E9%80%9A%E8%B2%A8.md) — 初期残高、支払、返金、連打、保存往復で残高差分が一致する。
-- [12. α Release Gate](/kombinat/requirements/12-%CE%B1-Release-Gate.md) — α版はCore独自保管基盤との直接受渡し、三段生産、任意排出、保存・復旧をRelease Gateへ含める。
-- [13. β境界](/kombinat/requirements/13-%CE%B2%E5%A2%83%E7%95%8C.md) — β境界は、Pawn Foundry要求とEquipment Familyを扱う。
-- [CON-001 観測範囲](/kombinat/requirements/con-001.md) — MUST: Kombinat自身のBuffer、Factory、Core API、正式な上流APIから得たeventだけを消費集計へ使う。
-- [CON-002 不明表示](/kombinat/requirements/con-002.md) — MUST: Matter Network内部の全消費を観測できない場合は、不明範囲を明示する。
-- [CON-003 流通目標](/kombinat/requirements/con-003.md) — MUST: Storage在庫とFacility需要について最低量、目標量、優先度を設定できる。
-- [CON-004 上流設定](/kombinat/requirements/con-004.md) — MUST: Matter NetworkのFilter、Disk、IO Port設定をKombinatから直接変更しない。
-- [CUR-001 Account](/kombinat/requirements/cur-001.md) — MUST: 同盟通貨を物理Thing在庫と分離した64 bit整数残高として保存する。
-- [CUR-002 Transaction](/kombinat/requirements/cur-002.md) — MUST: 入金、支払、返金、取消はidempotency keyを持ち、全部成功または全部失敗する。
-- [CUR-003 Recipe禁止](/kombinat/requirements/cur-003.md) — MUST: 通貨を通常工業Recipeで発行しない。
-- [CUR-004 初期化](/kombinat/requirements/cur-004.md) — MUST: 独立開拓団開始時に一回だけProfile残高を適用し、途中失敗で部分残高を残さない。
-- [CUR-005 所在](/kombinat/requirements/cur-005.md) — PENDING: αのAccount scope、複数Mapからの利用、Map wealthへの算入方法は実装前に確定する。
-- [INT-001 無改造](/kombinat/requirements/int-001.md) — MUST: KombinatはCore独自保管基盤のprivate状態を変更または参照せず、公開Application境界だけを使う。
-- [INT-002 通常経路](/kombinat/requirements/int-002.md) — MUST: 物理Thingの受渡しにはCore独自基盤が公開する予約・commit・release契約だけを使う。
-- [INT-003 Storage予約](/kombinat/requirements/int-003.md) — MUST: Kombinatが工程へ算入できるのは、Core StorageがThing IDと数量で予約した入力だけである。
-- [INT-004 引渡し](/kombinat/requirements/int-004.md) — MUST: 生産出力はCore Storageへ直接生成し、Kombinat側の所有Thingを作らない。
-- [INT-005 接続不能](/kombinat/requirements/int-005.md) — MUST: Core独自Storageから供給または回収できない場合、Jobを転送待ちへ置く。
-- [INT-006 上流欠陥](/kombinat/requirements/int-006.md) — MUST: Core独自保管基盤単体で再現する問題と、Kombinat接続だけで再現する問題を分離する。
-- [PERF-001 Event駆動](/kombinat/requirements/perf-001.md) — MUST: Queue、Factory、Buffer、Accountの変化をeventで処理し、毎tick全Job・全Recipe・Matter Network内部在庫を走査しない。
-- [PERF-002 Planner](/kombinat/requirements/perf-002.md) — MUST: 一Planを最大200 node、100 ms以内、または一frame 4 ms以下の分割処理で終える暫定目標を持つ。
-- [PERF-003 長期](/kombinat/requirements/perf-003.md) — MUST: 60,000 tickの連続生産で、StorageのThing差分0、予約漏れ0、二重完了0、未回収終端処理0を確認する。
-- [PERF-004 保存](/kombinat/requirements/perf-004.md) — MUST: 500 Job、2,000 Batch履歴、10,000 Buffer Thingの保存・ロード時間、ファイル増分、GC allocationを記録する。
-- [PRD-001 定義](/kombinat/requirements/prd-001.md) — MUST: Production Patternは次を持つ。
-- [PRD-002 入力Role](/kombinat/requirements/prd-002.md) — MUST: Consume、LockAndReturn、TransformAndReturn、ContainerReturnを区別する。
-- [PRD-003 Recipe分類](/kombinat/requirements/prd-003.md) — MUST: RecipeをKombinat Automated、Vanilla Work Required、Official Adapter Required、Unsupportedへ分類する。
-- [PRD-004 Request](/kombinat/requirements/prd-004.md) — MUST: 具体ThingDef、Recipe、数量または目標在庫、優先度、出力先を指定できる。
-- [PRD-005 Plan](/kombinat/requirements/prd-005.md) — MUST: Recipe依存を有界DAGへ展開し、循環を検出する。
-- [PRD-006 複数経路](/kombinat/requirements/prd-006.md) — MUST: 同じ出力を作れる複数Patternがある場合、作者優先度、完成可能性、設備、概算時間、stable IDの決定順を使う。
-- [PRD-007 Job](/kombinat/requirements/prd-007.md) — MUST: 承認済みPlanをJobとして保存し、Pattern version、選んだRecipe、入力条件、出力条件を固定する。
-- [PRD-008 Batch](/kombinat/requirements/prd-008.md) — MUST: 一Batchの全入力Thingと出力容量がCore Storageで予約され、設備が利用可能な時だけ開始する。
-- [PRD-009 Output Claim](/kombinat/requirements/prd-009.md) — MUST: 同じThingDefがどこかへ出現しただけでBatchを完了しない。
-- [PRD-010 中間品](/kombinat/requirements/prd-010.md) — MUST: 中間品をCore Storageへ直接Commitし、後段工程がThing単位で予約する。
-- [PRD-011 副産物](/kombinat/requirements/prd-011.md) — MUST: 副産物の出力容量を開始前に確認し、満杯なら開始しない。
-- [PRD-012 取消](/kombinat/requirements/prd-012.md) — MUST: 取消時は未Commitの入力予約、出力容量予約、通貨予約、設備割当を解放する。
-- [PRD-013 再計画](/kombinat/requirements/prd-013.md) — MUST: 未開始Batchだけを再計画する、またcommit済みBatchを巻き戻さない。
-- [SAV-001 状態](/kombinat/requirements/sav-001.md) — MUST: Request、Pattern version、Plan summary、Job、Batch、Buffer、Output Claim、Account、Transaction、Consumption aggregateを保存する。
-- [SAV-002 非複製](/kombinat/requirements/sav-002.md) — MUST: Matter Network内部状態をKombinatセーブへ複製しない。
-- [SAV-003 途中保存](/kombinat/requirements/sav-003.md) — MUST: 材料待ち、入力予約後、処理中、出力容量待ち、Commit前後、通貨保留中に保存・ロードできる。
-- [SAV-004 同一ビルド](/kombinat/requirements/sav-004.md) — MUST: α／βでは同一ビルドの保存往復を保証する。
+- [SHION_A220 封鎖観測地の動物義肢技師](/reference/backstories/mastery/SHION_A220.md) — 封鎖地の動物は、脚の傷だけでなく毛や皮膚の色まで変わっていた。
+- [SHION_A221 離散船団の精密工](/reference/backstories/mastery/SHION_A221.md) — 離散船団の競技会では、同じ規格の道具を配る方が不公平だった。
+- [SHION_A222 共同祝宴堂の合奏指導者](/reference/backstories/mastery/SHION_A222.md) — 祝宴堂の合奏は、評議が行き詰まった時ほど賑やかになった。
+- [SHION_A223 機動強襲群の救護医](/reference/backstories/mastery/SHION_A223.md) — 強襲群の作戦会議で、危険な区画へ入る部隊を抽選で決めようという案が出た。
+- [SHION_A224 相互扶助区の来訪者案内官](/reference/backstories/mastery/SHION_A224.md) — 相互扶助区へ来た人には、「ここでは誰の物でもない」と説明する者がいた。
+- [SHION_A225 特殊任務学校の観測主任](/reference/backstories/mastery/SHION_A225.md) — 特殊任務学校で最初に教えたのは、銃の違いではない。
+- [SHION_A226 長期予測院の射撃訓練官](/reference/backstories/mastery/SHION_A226.md) — 長期予測院では、遠い未来の危機まで表に載せられた。
+- [SHION_A227 特殊任務学校の身体競技指導員](/reference/backstories/mastery/SHION_A227.md) — 特殊任務学校で、相手を壊さず止めるための受け身と力加減を実演中心で教えた。
+- [SHION_A228 星間市場の仮設建築士](/reference/backstories/mastery/SHION_A228.md) — 星間市場の仮設住宅は、契約書より早く建てる必要があった。
+- [SHION_A229 封鎖観測地の資源測量士](/reference/backstories/mastery/SHION_A229.md) — 封鎖地では地面の色が日ごとに変わり、昨日の安全標識まで信用できなかった。
+- [SHION_A230 機械化訓練地の公共食堂の調理師](/reference/backstories/mastery/SHION_A230.md) — 機械化訓練地の公共食堂の調理師では、機械化訓練地の食堂には、装甲兵も近隣住民も来た。
+- [SHION_A231 ヘイハルKombinatの共同農園技師](/reference/backstories/mastery/SHION_A231.md) — Kombinatの共同農園は、生産効率だけなら機械へ閉じた方がよかった。
+- [SHION_A232 星間市場の終生飼養員](/reference/backstories/mastery/SHION_A232.md) — 星間市場では、働けなくなった動物をすぐ交換しようとする商人がいた。
+- [SHION_A233 無人構造物調査船の精密工](/reference/backstories/mastery/SHION_A233.md) — 無人構造物へ持ち込む工具は、触れた先で何が起きるか分からない。
+- [SHION_A234 ヘイハルKombinatの公共壁画家](/reference/backstories/mastery/SHION_A234.md) — Kombinatの壁画へ完成品だけ描けと言われたが、本人は停止した夜を選んだ。
+- [SHION_A235 本国居住区の救護医](/reference/backstories/mastery/SHION_A235.md) — 本国居住区では、珍しい身体の事故も日常の転倒も同じ入口から運ばれてきた。
+- [SHION_A236 長期予測院の討論調停人](/reference/backstories/mastery/SHION_A236.md) — 長期予測院の討論では、遠い未来の多数と、目の前の一人がよく秤に掛けられた。
+- [SHION_A237 計画都市の再検証主任](/reference/backstories/mastery/SHION_A237.md) — 計画都市では、不便があると言うと測定誤差を疑われた。
+- [SHION_A238 戦術教育環の射撃教官](/reference/backstories/mastery/SHION_A238.md) — 戦術教育環の射撃教官では、射撃は趣味として始めた。
+- [SHION_A239 立入制限地の身体競技指導員](/reference/backstories/mastery/SHION_A239.md) — 立入制限地へ入る者には、強さよりも安全に止まる技術が必要だと教えた。
+- [SHION_A240 海洋観測区の設備技師](/reference/backstories/mastery/SHION_A240.md) — 海洋観測区では、配管の唸りと海から聞こえる音を分けるのが難しかった。
+- [SHION_A241 低温研究区の地下救助員](/reference/backstories/mastery/SHION_A241.md) — 低温研究区で、最速ではなく壁と生存者を傷つけない救助坑掘削を競技化した。
+- [SHION_A242 ヘイハルKombinatの祝宴料理人](/reference/backstories/mastery/SHION_A242.md) — Kombinatの祝宴を任される前、本人は長距離偵察へ出ていた。
+- [SHION_A243 自治評議区の共同農園技師](/reference/backstories/mastery/SHION_A243.md) — 自治評議区で趣味から共同農園を始め、党派論争を畝幅・配水・通行条件の相談へ戻した。
+- [SHION_A244 制裁作戦監査室の動物義肢技師](/reference/backstories/mastery/SHION_A244.md) — 制裁作戦の後、周辺農場から負傷した動物が運ばれてきた。
+- [SHION_A245 ヘイハルKombinatの復旧精密工](/reference/backstories/mastery/SHION_A245.md) — ヘイハルKombinatが止まった夜、専用部品を待てという声を無視し、皆の工具で直せる継ぎ手を削った。
+- [SHION_A246 孵育文化区の合奏指導者](/reference/backstories/mastery/SHION_A246.md) — 孵育文化区では、快適な音量と調律まで制度が決めていた。
+- [SHION_A247 自治評議区の蘇生後療養医](/reference/backstories/mastery/SHION_A247.md) — 自治評議区で蘇生者を診ると、家族より先に旧党派の仲間が迎えに来ることがあった。
+- [SHION_A248 計画都市の再会連絡官](/reference/backstories/mastery/SHION_A248.md) — 計画都市の再会連絡官では、計画都市の再会式は、時刻も立ち位置も完璧だった。
+- [SHION_A249 塔域居住層の古文書研究者](/reference/backstories/mastery/SHION_A249.md) — 塔の古文書には、端末番号だけで住民を記した時代がある。
+- [SHION_A250 塔域居住層の射撃教官](/reference/backstories/mastery/SHION_A250.md) — 塔域の射撃大会で、命中数より存在区分の識別、不明時の不発砲、誤認訂正へ点を付けた。
+- [SHION_A251 後方支援庁の身体競技指導員](/reference/backstories/mastery/SHION_A251.md) — 後方支援庁で身体競技を教えると、遊んでいるように見られた。
+- [SHION_A252 帰還兵港の仮設建築士](/reference/backstories/mastery/SHION_A252.md) — 帰還兵港では、同じ日に出た二人がまるで違う年齢で戻る。
+- [SHION_A253 残響深層の地下救助員](/reference/backstories/mastery/SHION_A253.md) — 残響深層では、崩落した戦場が同じ瞬間を繰り返していた。
+- [SHION_A254 装甲救援隊の公共食堂の調理師](/reference/backstories/mastery/SHION_A254.md) — 装甲救援隊の食堂にいると、料理だけしていたとは思われない。
+- [SHION_A255 革命連合後方区の共同農園技師](/reference/backstories/mastery/SHION_A255.md) — 革命連合の後方農園には、社会民主党系も共産党系も帝国離反者も来た。
+- [SHION_A256 開戦前残響域の終生飼養員](/reference/backstories/mastery/SHION_A256.md) — 開戦前の残響域で、本人は役目を終えた動物の日課を守っていた。
+- [SHION_A257 革命連合後方区の古道具修復師](/reference/backstories/mastery/SHION_A257.md) — 革命連合の後方では、同じ型の道具でも党派ごとに違う印が刻まれていた。
+- [SHION_A258 立入制限地の記録舞台演出家](/reference/backstories/mastery/SHION_A258.md) — 立入制限地の記録を舞台にするなら、悲鳴と死者だけでは足りない。
+- [SHION_A259 自治評議区の救護医](/reference/backstories/mastery/SHION_A259.md) — 自治評議区の事故では、救護所へ着く前から党派同士が責任を押し付け合っていた。
+- [SHION_A260 人格照合局の再会連絡官](/reference/backstories/mastery/SHION_A260.md) — 人格照合局で再会を手伝う時、本人は「以前と同じ本人です」とは約束しなかった。
+- [SHION_A261 月面事業区の古文書研究者](/reference/backstories/mastery/SHION_A261.md) — 月面事業の公式記録は、最初から成功する予定だったように書かれていた。
+- [SHION_A262 封鎖観測地の監視射手](/reference/backstories/mastery/SHION_A262.md) — 封鎖地では、変色した草が風で揺れるたび照準を合わせた。
+- [SHION_A263 対機械戦区の徒手警護員](/reference/backstories/mastery/SHION_A263.md) — 対機械戦区では、避難者と飼育動物を武器なしで誘導した。
+- [SHION_A264 移動都市群の仮設建築士](/reference/backstories/mastery/SHION_A264.md) — 移動都市の帰還者へ家を作ると、地図と本人の記憶がよく喧嘩した。
+- [SHION_A265 人格照合局の坑道監督](/reference/backstories/mastery/SHION_A265.md) — 人格照合局の地下保管庫を広げる時、本人は地層の音を聞き、戻れる順番で掘らせた。
+- [SHION_A266 帰還兵港の祝宴料理人](/reference/backstories/mastery/SHION_A266.md) — 帰還兵港の祝宴では、一つの「懐かしい味」を決めなかった。
+- [SHION_A267 特殊任務学校の共同農園技師](/reference/backstories/mastery/SHION_A267.md) — 特殊任務学校の共同農園技師では、特殊任務学校の農園は教材でもあった。
+- [SHION_A268 透明居住区の動物治療具技師](/reference/backstories/mastery/SHION_A268.md) — 透明居住区では、治療記録まで皆に見えるのが善だとされた。
+- [SHION_A269 異常封じ込め隊の義肢調整師](/reference/backstories/mastery/SHION_A269.md) — 異常封じ込め隊では、重火器を撃つより退路を作る方が多かった。
+- [SHION_A270 継承教室の公共壁画家](/reference/backstories/mastery/SHION_A270.md) — 継承教室の壁画には、一つの出来事を三つの姿で描いた。
+- [SHION_A271 塔域居住層の蘇生後療養医](/reference/backstories/mastery/SHION_A271.md) — 塔で蘇生した者を、本人はすぐ元の部屋へ戻さなかった。
+- [SHION_A272 革命連合後方区の再会連絡官](/reference/backstories/mastery/SHION_A272.md) — 革命連合の後方で再会を取り持つには、友人を探すだけでは足りなかった。
+- [SHION_A273 対機械戦区の古文書研究者](/reference/backstories/mastery/SHION_A273.md) — 対機械戦区で回収した記録は、英雄譚にも悲劇にも仕立てなかった。
+- [SHION_A274 移動都市群の監視射手](/reference/backstories/mastery/SHION_A274.md) — 移動都市を監視する時、遠くの輪郭だけで同じ町と決めてはいけない。
+- [SHION_A275 本国居住区の救助員](/reference/backstories/mastery/SHION_A275.md) — 本国の復興祭で、共有狐娘型内部の構成差、外部居住者、動物が通れる救助経路を整えた。
+- [SHION_A276 空挺基地の設備技師](/reference/backstories/mastery/SHION_A276.md) — 空挺基地の帰還祭では、配管も合図灯も飾りの一部に見える。
+- [SHION_A277 後方支援庁の坑道監督](/reference/backstories/mastery/SHION_A277.md) — 後方支援の坑道は、誰にも見られないほど成功とされた。
+- [SHION_A278 自治評議区の公共食堂の調理師](/reference/backstories/mastery/SHION_A278.md) — 自治評議区の食堂では、古い党派の議論が毎日の香辛料だった。
+- [SHION_A279 相互扶助区の種子管理官](/reference/backstories/mastery/SHION_A279.md) — 相互扶助区の種子は共有だったが、誰の故郷から来たかを消さなかった。
+- [SHION_A280 本国居住区の保護区飼育員](/reference/backstories/mastery/SHION_A280.md) — 本国居住区の保護区で、役目を終えた動物にも日課と隠れ場所を用意し、信頼されるまで待った。
+- [SHION_A281 継承教室の義肢調整師](/reference/backstories/mastery/SHION_A281.md) — 継承教室で義肢を教える時、本人は古い設計と新しい部品を同じ机へ置いた。
+- [SHION_A282 低温研究区の舞台演出家](/reference/backstories/mastery/SHION_A282.md) — 低温事故を舞台にした時、研究員は厳粛な追悼劇を望んだ。
+- [SHION_A283 要塞潜入路の救護医](/reference/backstories/mastery/SHION_A283.md) — 要塞へ正面から入れば早かったが、民間区画まで崩れる。
+- [SHION_A284 攻勢命令審査線の再会連絡官](/reference/backstories/mastery/SHION_A284.md) — 攻勢命令審査線の再会連絡官では、攻勢命令には「許容損耗」と書かれていた。
+- [SHION_A285 本国居住区の古文書研究者](/reference/backstories/mastery/SHION_A285.md) — 本国の古文書を読むと、帝国最盛期の律法と豊かさだけでなく、祝日の献立や退屈な修繕記録まで残っていた。
+- [SHION_A286 要塞潜入路の射撃教官](/reference/backstories/mastery/SHION_A286.md) — 要塞潜入の射撃訓練では、標的を倒す点より民間区画へ線を通さない点を重くした。
+- [SHION_A287 塔域居住層の身体競技指導員](/reference/backstories/mastery/SHION_A287.md) — 塔域の身体競技では、全員を同じ規格へ合わせる案を評議会で退けた。
+- [SHION_A288 海洋観測区の仮設建築士](/reference/backstories/mastery/SHION_A288.md) — 海洋観測区の仮設住宅は、帰還者が水面を見なくて済む向きに建てた。
+- [SHION_A289 孵育文化区の坑道監督](/reference/backstories/mastery/SHION_A289.md) — 孵育文化区の地下通路は、最も快適な経路へ統一する計画だった。
+- [SHION_A290 非常令監視区の保存食職人](/reference/backstories/mastery/SHION_A290.md) — 非常令監視区で保存食を作っていると、制度の変化は瓶のラベルへ先に現れた。
+- [SHION_A291 海洋観測区の記念庭園師](/reference/backstories/mastery/SHION_A291.md) — 海洋観測区の庭には、死者と帰還者の名を分けずに置いた。
+- [SHION_A292 山岳連絡区の終生飼養員](/reference/backstories/mastery/SHION_A292.md) — 山岳連絡区では、党派の違う部隊が同じ橋を奪い合った。
+- [SHION_A293 相互扶助区の義肢調整師](/reference/backstories/mastery/SHION_A293.md) — 相互扶助区の義肢調整師では、相互扶助区では義肢の部品も共同管理だった。
+- [SHION_A294 透明居住区の記録壁画家](/reference/backstories/mastery/SHION_A294.md) — 透明居住区では、壁画へ全員の記憶を公開するよう求められた。
+- [SHION_A295 孵育文化区の蘇生後療養医](/reference/backstories/mastery/SHION_A295.md) — 孵育文化区の療養計画は、蘇生者へ最も快適な部屋と仕事を自動で割り当てた。
+- [SHION_A296 ヘイハルKombinatの討論調停人](/reference/backstories/mastery/SHION_A296.md) — ヘイハルKombinatの会議では、生産班と保守班が同じ言葉を別の意味で使っていた。
+- [SHION_A297 ヘイハルKombinatの古文書研究者](/reference/backstories/mastery/SHION_A297.md) — Kombinat史を美しい壁画へまとめろと言われたが、本人は断った。
+- [SHION_A298 長期予測院の監視射手](/reference/backstories/mastery/SHION_A298.md) — 長期予測院の監視任務では、未来の危険度と目の前の動きを同じ画面で見た。
+- [SHION_A299 旧党派収容記録所の徒手警護員](/reference/backstories/mastery/SHION_A299.md) — 旧党派収容記録所で、本人は武器を持たず収容者と見物人の間へ立った。

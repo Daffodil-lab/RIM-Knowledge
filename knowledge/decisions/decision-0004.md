@@ -4,8 +4,6 @@ title: "確定#4：外交＝世界中に嫌われるが経済依存で取引的�
 description: "外交＝世界中に嫌われるが経済依存で取引的平和を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

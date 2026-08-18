@@ -4,8 +4,6 @@ title: "確定#30：グレード別ステータス差を数値化（§15-A）：
 description: "グレード別ステータス差を数値化（§15-A）：−Tier 約−15%／+Tier 約+20%、弱点は−Tierで被害+50%・+Tierでほぼ無を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

@@ -4,11 +4,9 @@ title: "確定#130：ローカライズ言語セットへのスペイン語追�
 description: "ローカライズ言語セットへのスペイン語追加（9言語目）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
   - "backstory"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record
@@ -166,7 +164,7 @@ sources:
 - 同じ出典の前項: [確定#129：外見メカ要素は取り急ぎ光る目のみに簡素化](/decisions/decision-0129.md)
 - 同じ出典の次項: [確定#131：Combat Extended互換パッチ](/decisions/decision-0131.md)
 - Pawn領域: [Pawn領域](/pawn/index.md)
-- バックストーリー群: [バックストーリー群](/backstories/index.md)
+- バックストーリー群: [バックストーリー群](/reference/backstories/index.md)
 - 正史: [正史](/world/index.md)
 - リリース計画: [リリース計画](/roadmap/index.md)
 

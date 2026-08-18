@@ -4,9 +4,7 @@ title: "確定#147：Diaspora段1品目のフレーバーテキスト"
 description: "Diaspora段1品目のフレーバーテキストを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

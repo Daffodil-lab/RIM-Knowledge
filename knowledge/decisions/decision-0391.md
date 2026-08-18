@@ -4,11 +4,9 @@ title: "確定#391：Kombinat遠距離物流の保護延期、AE2系準拠、α�
 description: "Kombinat遠距離物流の保護延期、AE2系準拠、αのローカルNetwork再構成を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "kombinat"
   - "red-star"
   - "independent-colony"
-  - "canon"
   - "alpha"
   - "beta"
 organization_groups:

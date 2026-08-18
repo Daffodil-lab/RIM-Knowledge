@@ -4,9 +4,7 @@ title: "確定#341：同盟のサイキック技術＝帝国の廉価版（属�
 description: "同盟のサイキック技術＝帝国の廉価版（属人性→機械化）、秘文字の帝国由来の起源と精神感応性不要化を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "pawn"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

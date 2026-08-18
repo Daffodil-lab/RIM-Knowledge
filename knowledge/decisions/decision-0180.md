@@ -4,8 +4,6 @@ title: "確定#180：時計仕掛けの狐人形限定の負特性2種「不思�
 description: "時計仕掛けの狐人形限定の負特性2種「不思議な時計仕掛け」「狐人形」を新設、選択肢名を必ずフルネームで統一を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

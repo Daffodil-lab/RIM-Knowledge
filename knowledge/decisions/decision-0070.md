@@ -4,8 +4,6 @@ title: "確定#70：カタロニア讃歌：内戦期の階梯（詳細ランク
 description: "カタロニア讃歌：内戦期の階梯（詳細ランク名称体系）の新設：基礎階級（人民/旧式/標準/上級）×機械化×親衛/近衛の組み合わせ。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

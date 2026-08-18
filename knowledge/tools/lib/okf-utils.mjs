@@ -52,7 +52,199 @@ export const ORGANIZATION_LABELS = {
   "unaffiliated-unknown": "無所属・不明",
 };
 
+export const TOPICAL_TAGS = new Set([
+  "administration",
+  "aic",
+  "alpha",
+  "ammunition",
+  "anomalous-system",
+  "anomaly",
+  "anonymous-sofer",
+  "architecture",
+  "archotech",
+  "astronomy",
+  "audit",
+  "authoring",
+  "backstory",
+  "beta",
+  "biotech",
+  "body",
+  "campaign",
+  "cargo",
+  "caelavi",
+  "caelum",
+  "catalog-guide",
+  "cell",
+  "character",
+  "code-reference",
+  "contradiction",
+  "culture",
+  "currency",
+  "cve",
+  "decision-log",
+  "design",
+  "diagnostics",
+  "disclosure",
+  "dlc",
+  "earth",
+  "economy",
+  "empire",
+  "endfield",
+  "energy",
+  "equipment",
+  "facility",
+  "firearms",
+  "fleshbeast",
+  "formation",
+  "fox",
+  "ftl",
+  "gameplay",
+  "governance",
+  "har",
+  "history",
+  "honor",
+  "human-weapons",
+  "humanity",
+  "implementation",
+  "independent-colony",
+  "industry",
+  "japanese",
+  "kombinat",
+  "legacy",
+  "localization",
+  "logging",
+  "logistics",
+  "maintenance",
+  "mastery",
+  "material",
+  "matter-network",
+  "medal",
+  "monolyn",
+  "naming",
+  "network",
+  "okf",
+  "origin",
+  "overhaul",
+  "pawn",
+  "performance",
+  "personhood",
+  "player-facing",
+  "player-practice",
+  "production",
+  "prototype",
+  "quality",
+  "quest",
+  "race",
+  "red-star",
+  "reference-mod",
+  "release",
+  "remote-logistics",
+  "rendering",
+  "requirements",
+  "research",
+  "retirement",
+  "rimworld",
+  "roadmap",
+  "setting",
+  "shion",
+  "specification",
+  "storage",
+  "storage-network",
+  "story-hook",
+  "summary-pointer",
+  "superintelligence",
+  "technology",
+  "the-hive",
+  "theme",
+  "tier",
+  "tone",
+  "ui",
+  "union",
+  "verification",
+  "victory",
+  "video",
+  "visual",
+  "world",
+]);
+
+export const PROJECT_SCOPE_LABELS = {
+  shared: "共有",
+  shion: "シオン",
+  caelavi: "カエラヴィ",
+};
+
+export const PROJECT_SCOPE_VALUES = Object.keys(PROJECT_SCOPE_LABELS);
+
+export function resolveProjectScope(record, overrides = {}) {
+  const relative = toPosix(record.relative || "");
+  const override = overrides[relative];
+  if (override !== undefined) {
+    if (!PROJECT_SCOPE_VALUES.includes(override)) {
+      return { scope: null, reason: "invalid-override", signal: override };
+    }
+    return { scope: override, reason: "override", signal: relative };
+  }
+  const explicit = record.metadata?.project_scope;
+  if (explicit !== undefined) {
+    if (!PROJECT_SCOPE_VALUES.includes(explicit)) {
+      return { scope: null, reason: "invalid-explicit", signal: explicit };
+    }
+    return { scope: explicit, reason: "explicit", signal: relative };
+  }
+
+  const domain = relative.split("/")[0] || "";
+  const tags = new Set(record.tags || []);
+  const title = String(record.title || "");
+  const stableName = `${relative} ${title}`;
+  const caelavi =
+    tags.has("caelavi") ||
+    tags.has("caelum") ||
+    /caelavi|caelum|カエラヴィ|カエルム/i.test(stableName);
+  const shion =
+    ["kombinat", "pawn", "colony", "characters", "player-facing", "roadmap"].includes(domain) ||
+    ["shion", "kombinat", "independent-colony", "red-star", "the-hive", "anonymous-sofer", "player-facing"].some((tag) => tags.has(tag)) ||
+    /(?:^|[/_ -])shion(?:[/_ -]|$)|SHION_[CA]\d{3}|シオン/i.test(title);
+  const explicitCaelavi = tags.has("caelavi") || tags.has("caelum") || /caelavi|caelum|カエラヴィ|カエルム/i.test(title);
+  const explicitShion = tags.has("shion") || /(?:^|[/_ -])shion(?:[/_ -]|$)|SHION_[CA]\d{3}|シオン/i.test(title);
+  if (explicitCaelavi && !explicitShion && !["kombinat", "pawn", "colony", "characters", "player-facing", "roadmap"].includes(domain)) {
+    return { scope: "caelavi", reason: "caelavi-signal", signal: stableName };
+  }
+  if (caelavi && shion) return { scope: "shared", reason: "mixed-signals", signal: stableName };
+  if (caelavi) return { scope: "caelavi", reason: "caelavi-signal", signal: stableName };
+  if (shion) return { scope: "shion", reason: "shion-signal", signal: stableName };
+  if (["governance", "authoring", "contradictions", "decisions", "reference"].includes(domain)) {
+    return { scope: "shared", reason: "shared-domain", signal: domain };
+  }
+  if (domain === "research" && !caelavi && !shion) {
+    return { scope: "shared", reason: "shared-research", signal: domain };
+  }
+  if (["world", "design"].includes(domain)) {
+    return { scope: "shared", reason: "shared-general", signal: domain };
+  }
+  return { scope: null, reason: "unresolved", signal: relative };
+}
+
+export function loadProjectScopeOverrides(bundle) {
+  const file = path.join(bundle, "tools", "project-scope-overrides.json");
+  if (!fs.existsSync(file)) return {};
+  const parsed = JSON.parse(fs.readFileSync(file, "utf8"));
+  if (!parsed || typeof parsed !== "object" || Array.isArray(parsed)) {
+    throw new Error("project-scope-overrides.json must contain an object");
+  }
+  const overrides = parsed.overrides;
+  if (!overrides || typeof overrides !== "object" || Array.isArray(overrides)) {
+    throw new Error("project-scope-overrides.json must contain an overrides object");
+  }
+  return overrides;
+}
+
 export const TOPIC_DEFINITIONS = [
+  {
+    id: "caelum-caelavi",
+    label: "カエルム・カエラヴィ",
+    tags: ["caelum", "caelavi"],
+    pattern: /カエルム|カエラヴィ|Caelum|Caelavi/i,
+  },
   {
     id: "world-canon",
     label: "世界観・正史",
@@ -60,15 +252,21 @@ export const TOPIC_DEFINITIONS = [
     domains: ["world", "player-facing"],
   },
   {
+    id: "origin-astronomy",
+    label: "起源・天文",
+    tags: ["origin", "astronomy", "earth", "anomalous-system"],
+    pattern: /トヴェルジ|クピナ|地球|銀河円盤|球状星団/i,
+  },
+  {
     id: "personhood-body",
     label: "身体・人格",
-    tags: ["pawn", "character"],
+    tags: ["pawn", "character", "personhood", "humanity", "superintelligence"],
     pattern: /身体|人格|Clone|クローン|復活|同化|休眠/i,
   },
   {
     id: "technology-yetzirah",
     label: "技術・イェツィラー",
-    tags: ["archotech"],
+    tags: ["technology", "archotech", "ftl", "superintelligence"],
     pattern: /技術|イェツィラー|ソフェル|Cell|凝縮真空/i,
   },
   {
@@ -91,7 +289,7 @@ export const TOPIC_DEFINITIONS = [
   {
     id: "matter-network-integration",
     label: "Matter Network・外部連携",
-    tags: ["matter-network", "integration"],
+    tags: ["matter-network"],
     domains: ["integrations"],
   },
   {
@@ -127,7 +325,7 @@ export const TOPIC_DEFINITIONS = [
     id: "characters-backstories",
     label: "人物・バックストーリー",
     tags: ["character", "anonymous-sofer", "backstory", "formation", "mastery"],
-    domains: ["characters", "backstories"],
+    domains: ["characters"],
   },
   {
     id: "research-audit",
@@ -138,7 +336,7 @@ export const TOPIC_DEFINITIONS = [
   {
     id: "governance-history",
     label: "運用・履歴",
-    tags: ["governance", "decision-log", "historical"],
+    tags: ["governance", "decision-log"],
     domains: ["governance", "decisions"],
   },
 ];
@@ -406,11 +604,11 @@ function genericDescription(title, body) {
 }
 
 function backstoryDescription(title, body) {
-  const preserved = body.match(
-    /^-\s*PreservedCanonPoints:\s*(.+)$/m,
+  const potential = body.match(
+    /^-\s*(?:PotentialReferencePoints|PreservedCanonPoints):\s*(.+)$/m,
   )?.[1];
-  const points = preserved
-    ? preserved
+  const points = potential
+    ? potential
         .split(/\s+\/\s+/)
         .map((point) => stripMarkdown(point).replace(/^本人は/, ""))
         .filter(Boolean)
@@ -458,12 +656,12 @@ export function deriveDescription(record, overrides = {}) {
   let description;
   if (
     record.type === "Backstory Record" ||
-    /^backstories\/(?:formation|mastery)\//.test(key)
+    /^reference\/backstories\/(?:formation|mastery)\//.test(key)
   ) {
     description = backstoryDescription(record.title, record.body);
   } else if (
     record.type === "Decision Log Entry" ||
-    /^decisions\/decision-\d+\.md$/.test(key)
+    /^decisions\/decision-\d+(?:-[^/]+)?\.md$/.test(key)
   ) {
     description = decisionDescription(record.title, record.body);
   } else {
@@ -473,12 +671,12 @@ export function deriveDescription(record, overrides = {}) {
     const base = description.replace(/[。！？]+$/g, "");
     if (
       record.type === "Backstory Record" ||
-      /^backstories\/(?:formation|mastery)\//.test(key)
+      /^reference\/backstories\/(?:formation|mastery)\//.test(key)
     ) {
       description = ensureSentence(`${base}という経験を持つ経歴`);
     } else if (
       record.type === "Decision Log Entry" ||
-      /^decisions\/decision-\d+\.md$/.test(key)
+      /^decisions\/decision-\d+(?:-[^/]+)?\.md$/.test(key)
     ) {
       description = ensureSentence(`${base}を現行方針として確定した決定履歴`);
     } else {

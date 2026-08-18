@@ -4,9 +4,7 @@ title: "確定#159：段1対物ライフル系の大口径拡張（14.5mm/20mm/2
 description: "段1対物ライフル系の大口径拡張（14.5mm/20mm/23mm）を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
   - "equipment"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

@@ -156,13 +156,13 @@ CIは通常モードを使う。既存資料を一括して`verified`へ変更�
 
 `okf/SPEC.md`がGoogleCloudPlatform/knowledge-catalogにおけるOKF 0.2の上流規範である。上流の`okf/src/reference_agent/viewer`と`okf/src/reference_agent/cli.py`は、OKFを読むVisualize（consumer PoC）の参照実装として扱う。Visualizeは仕様適合を補助する消費側の実装であり、OKF 0.2の必須仕様ではない。
 
-RIMは、上流の概念構造を参照しつつ、RIM固有の`canonical_for`、`canonical_owner`、`knowledge_role`、`authority`などをRIM側の拡張として管理する。上流追随の所有境界と確認頻度は[Google上流OKF追随方針](/governance/okf-upstream-following-policy.md)で定める。原資料はApache License 2.0で公開されているため、出典とライセンスを保持し、上流コードをRIM正本へ自動取り込みしない。
+RIMは、上流の概念構造を参照しつつ、RIM固有の`canonical_for`、`canonical_owner`、`knowledge_role`、`authority`などをRIM側の拡張として管理する。上流追随の所有境界と確認頻度は[Google上流OKF追随方針](/governance/okf-upstream-following-policy-Google上流OKF追随方針.md)で定める。原資料はApache License 2.0で公開されているため、出典とライセンスを保持し、上流コードをRIM正本へ自動取り込みしない。
 
 ## 関連項目
 
-- RIMのメタデータ正本: [RIM OKFメタデータ契約](/governance/metadata-contract.md)
-- 更新手順: [OKF知識の更新手順](/governance/editing-workflow.md)
+- RIMのメタデータ正本: [RIM OKFメタデータ契約](/governance/metadata-contract-メタデータ契約.md)
+- 更新手順: [OKF知識の更新手順](/governance/editing-workflow-知識の更新手順.md)
 - 検証コマンド: [OKF保守ツール](/tools/index.md)
 - 公式英語版: [Open Knowledge Format 0.2](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/fe3268a70e8ca5110a43a8f1dfdf6d1a458cf79f/okf/SPEC.md)
-- 上流追随方針: [Google上流OKF追随方針](/governance/okf-upstream-following-policy.md)
+- 上流追随方針: [Google上流OKF追随方針](/governance/okf-upstream-following-policy-Google上流OKF追随方針.md)
 - ライセンス: [Apache License 2.0](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/LICENSE.md)

@@ -4,8 +4,6 @@ title: "確定#8：過熱深刻度＝火傷×日数、未整備と累積。"
 description: "過熱深刻度＝火傷×日数、未整備と累積を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

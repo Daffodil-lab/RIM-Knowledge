@@ -4,8 +4,6 @@ title: "確定#313：基礎資源に食料・消費財を追加し6種へ拡張�
 description: "基礎資源に食料・消費財を追加し6種へ拡張——食料はCVEが代替、消費財は同盟本国の名声・シルバー獲得手段を兼ねるを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

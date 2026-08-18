@@ -4,8 +4,6 @@ title: "確定#323：秘文字の使い手の名称を「ソフェル」に確�
 description: "秘文字の使い手の名称を「ソフェル」に確定を確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record

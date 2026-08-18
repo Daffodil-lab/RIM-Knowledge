@@ -4,8 +4,6 @@ title: "確定#245：身体ロードアウトのインプラント（標準を�
 description: "身体ロードアウトのインプラント（標準を除く）は必ず濃縮真空エネルギー＋液化メカナイトを消費するを確定した決定履歴。"
 tags:
   - "decision-log"
-  - "historical"
-  - "canon"
 status: deprecated
 authority: historical
 knowledge_role: historical-record
