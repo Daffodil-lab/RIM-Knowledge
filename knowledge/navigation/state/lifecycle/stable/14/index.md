@@ -1,86 +1,86 @@
 # stable 14
 
-範囲: 確定#77：空挺部隊フォーカス拡張MOD「バンド・オブ・ブラザース（旧・我らが空挺軍 空から参上！）」の新設。〜確定#158：段2品目の段1対応全カテゴリへの拡張
+範囲: 8. 文書優先〜SAV-004 同一ビルド
 
 ## 項目
 
-- [確定#77：空挺部隊フォーカス拡張MOD「バンド・オブ・ブラザース（旧・我らが空挺軍 空から参上！）」の新設。](/decisions/decision-0077.md) — 空挺部隊フォーカス拡張MOD「バンド・オブ・ブラザース（旧・我らが空挺軍 空から参上。
-- [確定#78：機動強襲部隊・宇宙特殊作戦群フォーカス拡張MOD「宝くじ」「最後の手段」の新設。](/decisions/decision-0078.md) — 機動強襲部隊・宇宙特殊作戦群フォーカス拡張MOD「宝くじ」「最後の手段」の新設を確定した決定履歴。
-- [確定#79：横断ドクトリン6種フォーカス拡張MODの新設：日の名残り／バーサーカー／忘れられた兵士／西部戦線異状なし／アキレスの盾／闇の奥。](/decisions/decision-0079.md) — 横断ドクトリン6種フォーカス拡張MODの新設：日の名残り／バーサーカー／忘れられた兵士／西部戦線異状なし／アキレスの盾／闇の奥を確定した決定履歴。
-- [確定#80：確定#53 Tier改造ポイント制の中間値問題を部分的に解決：+5〜+10区間は非線形の加速区間、−6〜−10区間は素材種類数の減少という別軸で](/decisions/decision-0080.md) — 確定番号53 Tier改造ポイント制の中間値問題を部分的に解決：+5〜+10区間は非線形の加速区間、−6〜−10区間は素材種類数の減少という別軸でを確定した決定履歴。
-- [確定#81：階梯連動スタッカブル特性表の新設：+5〜+10区間は同一特性を何度も重ねられるスタッカブル特性（新素材要求・強み弱みペア構造の非適用・miles](/decisions/decision-0081.md) — 階梯連動スタッカブル特性表の新設：+5〜+10区間は同一特性を何度も重ねられるスタッカブル特性（新素材要求・強み弱みペア構造の非適用・milesを確定した決定履歴。
-- [確定#82：−Tier下限フロアの具体的ベンチマーク確定：Lily the Death Flowerの「システム抑制」弱点（命中−2.0/−2.0・回避−5](/decisions/decision-0082.md) — −Tier下限フロアの具体的ベンチマーク確定：Lily the Death Flowerの「システム抑制」弱点（命中−2.0/−2.0・回避−5を確定した決定履歴。
-- [確定#83：宇宙のランデヴー（旧称：First Contact）の新設：同盟という文明レベルでの「最初の一歩」を描く導入クエスト連鎖拡張MOD。](/decisions/decision-0083.md) — 宇宙のランデヴー（旧称：First Contact）の新設：同盟という文明レベルでの「最初の一歩」を描く導入クエスト連鎖拡張MODを確定した決定履歴。
-- [確定#84：CoreMODを「普通のRaceMOD相当」へ最小化：維持（世界観lore・命名/言語・パワーカーブ指針・特性26個・製造コスト＋ダイアログ・外](/decisions/decision-0084.md) — CoreMODを「普通のRaceMOD相当」へ最小化：維持（世界観lore・命名/言語・パワーカーブ指針・特性26個・製造コスト＋ダイアログ・外を確定した決定履歴。
-- [確定#85：独自輸出品・固有レリック・娯楽設備の移管先を専用新設MODへ変更：独自輸出品→MegaCorp（後の宇宙商人）、固有レリック→Ancient R](/decisions/decision-0085.md) — 独自輸出品・固有レリック・娯楽設備の移管先を専用新設MODへ変更：独自輸出品→MegaCorp（後の宇宙商人）、固有レリック→Ancient Rを確定した決定履歴。
-- [確定#86：ソラリス（旧称：Astral Planes）新設・同盟のサイキック技術・FTL航法](/decisions/decision-0086.md) — ソラリス（旧称：Astral Planes）新設・同盟のサイキック技術・FTL航法を確定した決定履歴。
-- [確定#87：緑と黄色の照明・配色＝アルコテック由来の実利色（確定#86の改訂）](/decisions/decision-0087.md) — 緑と黄色の照明・配色＝アルコテック由来の実利色（確定番号86の改訂）を確定した決定履歴。
-- [確定#88：FTL航法の危険性・到着時の混乱・亜光速航行](/decisions/decision-0088.md) — FTL航法の危険性・到着時の混乱・亜光速航行を確定した決定履歴。
-- [確定#89：FTL到着時の混乱は通信機経由で同盟に賠償請求できる](/decisions/decision-0089.md) — FTL到着時の混乱は通信機経由で同盟に賠償請求できるを確定した決定履歴。
-- [確定#90：Leviathansの前提条件（カタロニア讃歌＋政治派閥4子MODのクリア＋最強の軍団）](/decisions/decision-0090.md) — Leviathansの前提条件（カタロニア讃歌＋政治派閥4子MODのクリア＋最強の軍団）を確定した決定履歴。
-- [確定#91：装備段8-10（カタロニア讃歌で追加）](/decisions/decision-0091.md) — 装備段8-10（カタロニア讃歌で追加）を確定した決定履歴。
-- [確定#92：帝国（旧体制の中核）](/decisions/decision-0092.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#93：拡張MOD群を文学名へ改名](/decisions/decision-0093.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#94：「誰も知らぬ"戦争"」改名を『黄衣の王』から『忘れられた兵士』へ再差し替え](/decisions/decision-0094.md) — 「誰も知らぬ"戦争"」改名を『黄衣の王』から『忘れられた兵士』へ再差し替えを確定した決定履歴。
-- [確定#95：真昼の暗黒（内戦期無政府主義同盟フォーカス拡張MOD）新設](/decisions/decision-0095.md) — 真昼の暗黒（内戦期無政府主義同盟フォーカス拡張MOD）新設を確定した決定履歴。
-- [確定#96：Leviathansの前提に真昼の暗黒を追加](/decisions/decision-0096.md) — Leviathansの前提に真昼の暗黒を追加を確定した決定履歴。
-- [確定#97：無政府主義規格の内戦期階梯・職級の詳細版](/decisions/decision-0097.md) — 無政府主義規格の内戦期階梯・職級の詳細版を確定した決定履歴。
-- [確定#98：崩壊のドラマ＝理想から技術官僚制への変質（三段階の時系列）](/decisions/decision-0098.md) — 崩壊のドラマ＝理想から技術官僚制への変質（三段階の時系列）を確定した決定履歴。
-- [確定#99：大目標の現状 — 終わらない戦争](/decisions/decision-0099.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#100：武器よさらば（社会民主党フォーカス拡張MOD）新設](/decisions/decision-0100.md) — 武器よさらば（社会民主党フォーカス拡張MOD）新設を確定した決定履歴。
-- [確定#101：武器よさらばの時代設定＝明確に内戦前](/decisions/decision-0101.md) — 武器よさらばの時代設定＝明確に内戦前を確定した決定履歴。
-- [確定#102：カタロニア讃歌ファミリー共通の語り口](/decisions/decision-0102.md) — カタロニア讃歌ファミリー共通の語り口を確定した決定履歴。
-- [確定#103：ここではそれは起こりえない（ファシスト党フォーカス拡張MOD）新設](/decisions/decision-0103.md) — ここではそれは起こりえない（ファシスト党フォーカス拡張MOD）新設を確定した決定履歴。
-- [確定#104：武器よさらば／ここではそれは起こりえないの開戦前限定の理由](/decisions/decision-0104.md) — 武器よさらば／ここではそれは起こりえないの開戦前限定の理由を確定した決定履歴。
-- [確定#105：ドクトル・ジバゴ（帝国フォーカス拡張MOD）新設](/decisions/decision-0105.md) — ドクトル・ジバゴ（帝国フォーカス拡張MOD）新設を確定した決定履歴。
-- [確定#106：ドクトル・ジバゴの構造＝Leviathansに近い／史実の完敗と"if"ストーリー](/decisions/decision-0106.md) — ドクトル・ジバゴの構造＝Leviathansに近い／史実の完敗と"if"ストーリーを確定した決定履歴。
-- [確定#107：カタロニア讃歌ファミリー全体の主題](/decisions/decision-0107.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#108：終点のスケール分離＝ミクロとマクロは別MODに／誰が為に鐘がなるか新設](/decisions/decision-0108.md) — 終点のスケール分離＝ミクロとマクロは別MODに／誰が為に鐘がなるか新設を確定した決定履歴。
-- [確定#109：Leviathansの具体的な構造＝追想録と残響討伐](/decisions/decision-0109.md) — Leviathansの具体的な構造＝追想録と残響討伐を確定した決定履歴。
-- [確定#110：戦闘・"if"は残響の中でのみ可能](/decisions/decision-0110.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#111：ゲームプレイ機構＝バニラ準拠の別マップ転送](/decisions/decision-0111.md) — ゲームプレイ機構＝バニラ準拠の別マップ転送を確定した決定履歴。
-- [確定#112：真昼の暗黒の実装上の含意（インプラントのみで職級選択）](/decisions/decision-0112.md) — 真昼の暗黒の実装上の含意（インプラントのみで職級選択）を確定した決定履歴。
-- [確定#113：共有クエスト群「防げたかも知れない戦争」](/decisions/decision-0113.md) — 共有クエスト群「防げたかも知れない戦争」を確定した決定履歴。
-- [確定#114：ここではそれは起こりえないの内戦終わりif](/decisions/decision-0114.md) — ここではそれは起こりえないの内戦終わりifを確定した決定履歴。
-- [確定#115：ドクトル・ジバゴの史実の結末（皇族の死に絶え）訂正](/decisions/decision-0115.md) — ドクトル・ジバゴの史実の結末（皇族の死に絶え）訂正を確定した決定履歴。
-- [確定#116：Leviathansの前提はハードゲートでなく難易度によるソフトゲート](/decisions/decision-0116.md) — Leviathansの前提はハードゲートでなく難易度によるソフトゲートを確定した決定履歴。
-- [確定#117：FTL時間旅行・亜光速航行は純粋なlore/設定であり実装不要](/decisions/decision-0117.md) — FTL時間旅行・亜光速航行は純粋なlore/設定であり実装不要を確定した決定履歴。
-- [確定#118：既存loreとの接続（ドクトル・ジバゴ・帝国最後の戦い）](/decisions/decision-0118.md) — 既存loreとの接続（ドクトル・ジバゴ・帝国最後の戦い）を確定した決定履歴。
-- [確定#119：ドクトル・ジバゴのシナリオ設計の下敷き＝史実の「本土決戦」型](/decisions/decision-0119.md) — ドクトル・ジバゴのシナリオ設計の下敷き＝史実の「本土決戦」型を確定した決定履歴。
-- [確定#120：Leviathansの「最強の軍団」判定基準＝capstone個体の撃破](/decisions/decision-0120.md) — Leviathansの「最強の軍団」判定基準＝capstone個体の撃破を確定した決定履歴。
-- [確定#121：Shion Race: Red Star（旧・遠征艦隊）新設・拡張シナリオ「同盟派遣開拓団」](/decisions/decision-0121.md) — Shion Race: Red Star（旧・遠征艦隊）新設・拡張シナリオ「同盟派遣開拓団」を確定した決定履歴。
-- [確定#122：支援要請システムの3本柱](/decisions/decision-0122.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#123：同盟派遣開拓団＝上位互換的な特別スタート](/decisions/decision-0123.md) — 同盟派遣開拓団＝上位互換的な特別スタートを確定した決定履歴。
-- [確定#124：MODジャンル分類（6ジャンルへの再分類）](/decisions/decision-0124.md) — MODジャンル分類（6ジャンルへの再分類）を確定した決定履歴。
-- [確定#125：拡張MOD「バベットの晩餐会」新設](/decisions/decision-0125.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#126：食文化は生存目的を離れ文化・娯楽・手触りとして独自に発達](/decisions/decision-0126.md) — 食文化は生存目的を離れ文化・娯楽・手触りとして独自に発達を確定した決定履歴。
-- [確定#128：CoreMOD副題「A Clockwork Fox Doll」の由来解決](/decisions/decision-0128.md) — CoreMOD副題「A Clockwork Fox Doll」の由来解決を確定した決定履歴。
-- [確定#129：外見メカ要素は取り急ぎ光る目のみに簡素化](/decisions/decision-0129.md) — 外見メカ要素は取り急ぎ光る目のみに簡素化を確定した決定履歴。
-- [確定#130：ローカライズ言語セットへのスペイン語追加（9言語目）](/decisions/decision-0130.md) — ローカライズ言語セットへのスペイン語追加（9言語目）を確定した決定履歴。
-- [確定#131：Combat Extended互換パッチ](/decisions/decision-0131.md) — Combat Extended互換パッチを確定した決定履歴。
-- [確定#132：発光する目は「集光率」を可変できる／訓練で意図的に抑制可能](/decisions/decision-0132.md) — 発光する目は「集光率」を可変できる／訓練で意図的に抑制可能を確定した決定履歴。
-- [確定#133：バベットの晩餐会の嗜好品/ドラッグ品目](/decisions/decision-0133.md) — バベットの晩餐会の嗜好品/ドラッグ品目を確定した決定履歴。
-- [確定#134：同盟派遣開拓団の公式ビジュアル参考（雪山コンセプトアート）](/decisions/decision-0134.md) — 同盟派遣開拓団の公式ビジュアル参考（雪山コンセプトアート）を確定した決定履歴。
-- [確定#135：同盟派遣開拓団の公式ビジュアル参考（廃墟都市コンセプトアート）](/decisions/decision-0135.md) — 同盟派遣開拓団の公式ビジュアル参考（廃墟都市コンセプトアート）を確定した決定履歴。
-- [確定#136：同盟派遣開拓団の公式ビジュアル参考（砂漠コンセプトアート）](/decisions/decision-0136.md) — 同盟派遣開拓団の公式ビジュアル参考（砂漠コンセプトアート）を確定した決定履歴。
-- [確定#137：パナマハット／アフガンカ・水兵服・射撃対応シールドベルト](/decisions/decision-0137.md) — パナマハット／アフガンカ・水兵服・射撃対応シールドベルトを確定した決定履歴。
-- [確定#138：Diasporaシリーズ（民間開拓団装備・段0-1）新設](/decisions/decision-0138.md) — Diasporaシリーズ（民間開拓団装備・段0-1）新設を確定した決定履歴。
-- [確定#139：Diasporaフルカタログ・シールド仕様](/decisions/decision-0139.md) — Diasporaフルカタログ・シールド仕様を確定した決定履歴。
-- [確定#140：Shion Race: Red Star新設・独自開拓団へCoreMODを縮小](/decisions/decision-0140.md) — Shion Race: Red Star新設・独自開拓団へCoreMODを縮小を確定した決定履歴。
-- [確定#141：同盟とRimWorldの関係（艦隊は数光年離れて不干渉・侵入は侵攻の合図）](/decisions/decision-0141.md) — 同盟とRimWorldの関係（艦隊は数光年離れて不干渉・侵入は侵攻の合図）を確定した決定履歴。
-- [確定#142：支援要請システムに「限定介入」を新設＋艦隊到着までの経路とタイムラグ](/decisions/decision-0142.md) — 支援要請システムに「限定介入」を新設＋艦隊到着までの経路とタイムラグを確定した決定履歴。
-- [確定#143：独自開拓団 — CoreMODの中核アイデンティティ](/decisions/decision-0143.md) — 独自開拓団 — CoreMODの中核アイデンティティを確定した決定履歴。
-- [確定#144：Diaspora段0/段1の割当確定](/decisions/decision-0144.md) — Diaspora段0/段1の割当確定を確定した決定履歴。
-- [確定#145：段2装備 — 同盟旧制式装備 新設](/decisions/decision-0145.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#146：具体品・フレーバーテキスト集／段0品目](/decisions/decision-0146.md) — 具体品・フレーバーテキスト集／段0品目を確定した決定履歴。
-- [確定#147：Diaspora段1品目のフレーバーテキスト](/decisions/decision-0147.md) — Diaspora段1品目のフレーバーテキストを確定した決定履歴。
-- [確定#148：段2品目のフレーバーテキスト](/decisions/decision-0148.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#150：Diaspora社の創業秘話](/decisions/decision-0150.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#151：Diaspora段0/段1品目の拡張](/decisions/decision-0151.md) — Diaspora段0/段1品目の拡張を確定した決定履歴。
-- [確定#152：Diaspora Tech companyの正式名称確定](/decisions/decision-0152.md) — Diaspora Tech companyの正式名称確定を確定した決定履歴。
-- [確定#153：Diaspora製品の実銃モチーフ国籍制限（イスラエル/西側製が原則）](/decisions/decision-0153.md) — Diaspora製品の実銃モチーフ国籍制限（イスラエル/西側製が原則）を確定した決定履歴。
-- [確定#154：確定#153の国籍制限は本編Diasporaカタログ限定](/decisions/decision-0154.md) — 確定番号153の国籍制限は本編Diasporaカタログ限定を確定した決定履歴。
-- [確定#155：Diaspora口径・装弾数一覧（CE互換パッチ向け）](/decisions/decision-0155.md) — Diaspora口径・装弾数一覧（CE互換パッチ向け）を確定した決定履歴。
-- [確定#156：Diaspora Tech company MODの構想概要](/decisions/decision-0156.md) — Diaspora Tech company MODの構想概要を確定した決定履歴。
-- [確定#157：段0/段1品目のさらなる拡張](/decisions/decision-0157.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#158：段2品目の段1対応全カテゴリへの拡張](/decisions/decision-0158.md) — 段2品目の段1対応全カテゴリへの拡張を確定した決定履歴。
+- [8. 文書優先](/integrations/matter-network/08-%E6%96%87%E6%9B%B8%E5%84%AA%E5%85%88.md) — 本書制定前の資料にある次の記述は廃止するという方針の適用範囲と条件を定める。
+- [0. 結論](/kombinat/audit/00-%E7%B5%90%E8%AB%96.md) — α版からCore独自保管基盤との受渡しを監査し、Matter Networkは任意互換Adapterの試験だけへ隔離する。
+- [1. 監査原則](/kombinat/audit/01-%E7%9B%A3%E6%9F%BB%E5%8E%9F%E5%89%87.md) — 監査原則は、Matter Network単体で再現する問題は終了する。
+- [3. 正常として受け入れる上流挙動](/kombinat/audit/03-%E6%AD%A3%E5%B8%B8%E3%81%A8%E3%81%97%E3%81%A6%E5%8F%97%E3%81%91%E5%85%A5%E3%82%8C%E3%82%8B%E4%B8%8A%E6%B5%81%E6%8C%99%E5%8B%95.md) — 次はKombinatの問題として登録しないという方針の適用範囲と条件を定める。
+- [4. シナリオ](/kombinat/audit/04-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — シナリオは、S2-001：一つの三段Job：実入力と実出力が一致するとS2-002：材料が上流にあるが搬入されない：IO待ち。
+- [5. 未知MOD](/kombinat/audit/05-%E6%9C%AA%E7%9F%A5MOD.md) — 未知MODのThingをMatter Networkがどう保管するかは上流責務である。
+- [6. 破壊的操作](/kombinat/audit/06-%E7%A0%B4%E5%A3%8A%E7%9A%84%E6%93%8D%E4%BD%9C.md) — 破壊的操作は、操作：Kombinatが守るものとRequest連打：Jobを二重生成しないを扱う。
+- [7. Release Gate](/kombinat/audit/07-Release-Gate.md) — α blockerはKX-001〜008とS2-001〜020のKombinat追加層部分である。
+- [KX-001 入力二重予約](/kombinat/audit/kx-001.md) — 再現: 入力予約直後に保存し、ロード後に同じOperation IDが再送される。
+- [KX-002 引渡し後の二重所有](/kombinat/audit/kx-002.md) — 再現: Storage生産Commitの直後に例外が起き、同じOperation IDが再送される。
+- [KX-003 Network在庫の過剰約束](/kombinat/audit/kx-003.md) — 再現: PlannerがMatter Network画面の数量を見積りに使い、実際のBuffer搬入前に二Jobへ同じ材料を約束する。
+- [KX-004 出力容量予約不能](/kombinat/audit/kx-004.md) — 再現: 納入先Storageに全出力を置ける容量がない状態で次Batchを開始する。
+- [KX-005 取消競合](/kombinat/audit/kx-005.md) — 再現: Playerが取消、再注文、優先度変更を連打し、同時にIOが材料を搬入する。
+- [KX-006 Recipe副作用](/kombinat/audit/kx-006.md) — 再現: 外部Recipeを無人Factoryへ自動登録する。
+- [KX-007 通貨二重決済](/kombinat/audit/kx-007.md) — 再現: 支払確定後、報酬受取前に保存・ロードまたはUI再送する。
+- [KX-008 初期化二重適用](/kombinat/audit/kx-008.md) — 再現: 独立開拓団開始中に例外または途中ロードを起こす。
+- [0. 結論](/kombinat/core/00-%E7%B5%90%E8%AB%96.md) — Kombinatは発注、設備能力、生産進捗、消費表示、流通目標、同盟通貨を所有し、物理ThingをCore Storageへ一元化する。
+- [1. 製品境界](/kombinat/core/01-%E8%A3%BD%E5%93%81%E5%A2%83%E7%95%8C.md) — Kombinatはα版からCore独自保管・接続システムの公開入出庫境界へ接続し、保管内部を所有しない。
+- [2. 状態分類](/kombinat/core/02-%E7%8A%B6%E6%85%8B%E5%88%86%E9%A1%9E.md) — 状態分類は、対象：状態とAhHanie/Matter-Network：外部で実装済みの必須依存。
+- [3. 物理Thingと通貨](/kombinat/core/03-%E7%89%A9%E7%90%86Thing%E3%81%A8%E9%80%9A%E8%B2%A8.md) — 物理材料、工業資源、食料、薬品、武器、防具、固有品は実在するRimWorld ThingDef／Thingである。
+- [4. Kombinat追加層の中核型](/kombinat/core/04-Kombinat%E8%BF%BD%E5%8A%A0%E5%B1%A4%E3%81%AE%E4%B8%AD%E6%A0%B8%E5%9E%8B.md) — KombinatはCore独自保管・接続システムに属する保管基盤型を再実装しない。
+- [5. 発注と多段生産](/kombinat/core/05-%E7%99%BA%E6%B3%A8%E3%81%A8%E5%A4%9A%E6%AE%B5%E7%94%9F%E7%94%A3.md) — αの発注は具体的なThingDef、Recipe、数量または目標在庫を基本とする。
+- [6. 無人生産](/kombinat/core/06-%E7%84%A1%E4%BA%BA%E7%94%9F%E7%94%A3.md) — Kombinat専用FactoryとKombinat専用Patternは、Pawnがいなくても電力、材料、設備状態を満たせば稼働できる。
+- [7. Stasis](/kombinat/core/07-Stasis.md) — Core独自基盤は保管中の時間進行方針を自ら所有し、Matter NetworkのStasisを自動継承しない。
+- [8. 消費と流通](/kombinat/core/08-%E6%B6%88%E8%B2%BB%E3%81%A8%E6%B5%81%E9%80%9A.md) — Kombinatは接続先保管基盤の内部消費を無断で監視せず、公開された観測境界だけを使う。
+- [9. UI](/kombinat/core/09-UI.md) — Field Ledger Terminalを選択して全機能へ入る暗色のRimWorld管理Windowを基準とし、通常表示と最大化表示を同じDef駆動Page railで提供する。
+- [10. 保存と原子性](/kombinat/core/10-%E4%BF%9D%E5%AD%98%E3%81%A8%E5%8E%9F%E5%AD%90%E6%80%A7.md) — Kombinatは次だけを保存するという方針の適用範囲と条件を定める。
+- [11. 上流欠陥の扱い](/kombinat/core/11-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E3%81%AE%E6%89%B1%E3%81%84.md) — Matter Networkは必須経路にせず、将来の任意Adapterでだけ上流欠陥を分離する。
+- [12. α完成条件](/kombinat/core/12-%CE%B1%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — Kombinat αはShion種族実装に先行し、バニラHumanのfixtureでThingOwner間の直接転送、三段生産、任意排出を成立させる。
+- [13. β](/kombinat/core/13-%CE%B2.md) — Equipment Familyは作者が明示登録した候補だけを使う。
+- [14. 実装順](/kombinat/core/14-%E5%AE%9F%E8%A3%85%E9%A0%86.md) — 工業UIのRimWorld 1.6画面契約を先に固定し、Shion種族に先行してCore独自保管・接続システムとKombinatをバニラHumanのfixtureで完成させる。
+- [1. 適用範囲](/kombinat/requirements/01-%E9%81%A9%E7%94%A8%E7%AF%84%E5%9B%B2.md) — 本書はKombinatが独自実装する発注、多段生産、設備能力、消費表示、流通目標、同盟通貨を扱う。
+- [A. 三段生産](/kombinat/requirements/044-A-%E4%B8%89%E6%AE%B5%E7%94%9F%E7%94%A3.md) — A. 三段生産は、Core Storage上の材料と出力容量を工程ごとに予約してCommitする。
+- [B. 材料不足](/kombinat/requirements/045-B-%E6%9D%90%E6%96%99%E4%B8%8D%E8%B6%B3.md) — 材料不足をNetwork在庫0と断定せず、Factoryへの搬入待ちとして表示する。
+- [C. 停電](/kombinat/requirements/046-C-%E5%81%9C%E9%9B%BB.md) — Factory停止中に入力、進捗、出力を複製・消失させず、復電後に再検証する。
+- [D. 出力満杯](/kombinat/requirements/047-D-%E5%87%BA%E5%8A%9B%E6%BA%80%E6%9D%AF.md) — 納入先Storageの出力容量を予約できない時は次Batchを開始せず、既存在庫を変更しない。
+- [E. 取消](/kombinat/requirements/048-E-%E5%8F%96%E6%B6%88.md) — 開始前、入力受領後、処理中、出力待ちの各段階で取消規則を確認する。
+- [F. 保存往復](/kombinat/requirements/049-F-%E4%BF%9D%E5%AD%98%E5%BE%80%E5%BE%A9.md) — 全Job状態と通貨Transaction途中で保存・ロードし、二重実行しない。
+- [G. 保管基盤不在](/kombinat/requirements/050-G-%E4%B8%8A%E6%B5%81%E4%B8%8D%E5%9C%A8.md) — Core独自保管基盤が欠落または不整合なら生産接続を停止し、保存状態を破壊的に初期化しない。
+- [H. 保管基盤欠陥分離](/kombinat/requirements/051-H-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E5%88%86%E9%9B%A2.md) — Core独自保管基盤単体の問題とKombinat接続の問題を再現条件で分離する。
+- [I. 保管中の時間進行](/kombinat/requirements/052-I-Stasis.md) — Core独自Storageが定めた対象別時間進行方針を、Kombinatが上書きしない。
+- [J. 通貨](/kombinat/requirements/053-J-%E9%80%9A%E8%B2%A8.md) — 初期残高、支払、返金、連打、保存往復で残高差分が一致する。
+- [12. α Release Gate](/kombinat/requirements/12-%CE%B1-Release-Gate.md) — α版はCore独自保管基盤との直接受渡し、三段生産、任意排出、保存・復旧をRelease Gateへ含める。
+- [13. β境界](/kombinat/requirements/13-%CE%B2%E5%A2%83%E7%95%8C.md) — β境界は、Pawn Foundry要求とEquipment Familyを扱う。
+- [CON-001 観測範囲](/kombinat/requirements/con-001.md) — MUST: Kombinat自身のBuffer、Factory、Core API、正式な上流APIから得たeventだけを消費集計へ使う。
+- [CON-002 不明表示](/kombinat/requirements/con-002.md) — MUST: Matter Network内部の全消費を観測できない場合は、不明範囲を明示する。
+- [CON-003 流通目標](/kombinat/requirements/con-003.md) — MUST: Storage在庫とFacility需要について最低量、目標量、優先度を設定できる。
+- [CON-004 上流設定](/kombinat/requirements/con-004.md) — MUST: Matter NetworkのFilter、Disk、IO Port設定をKombinatから直接変更しない。
+- [CUR-001 Account](/kombinat/requirements/cur-001.md) — MUST: 同盟通貨を物理Thing在庫と分離した64 bit整数残高として保存する。
+- [CUR-002 Transaction](/kombinat/requirements/cur-002.md) — MUST: 入金、支払、返金、取消はidempotency keyを持ち、全部成功または全部失敗する。
+- [CUR-003 Recipe禁止](/kombinat/requirements/cur-003.md) — MUST: 通貨を通常工業Recipeで発行しない。
+- [CUR-004 初期化](/kombinat/requirements/cur-004.md) — MUST: 独立開拓団開始時に一回だけProfile残高を適用し、途中失敗で部分残高を残さない。
+- [CUR-005 所在](/kombinat/requirements/cur-005.md) — PENDING: αのAccount scope、複数Mapからの利用、Map wealthへの算入方法は実装前に確定する。
+- [INT-001 無改造](/kombinat/requirements/int-001.md) — MUST: KombinatはCore独自保管基盤のprivate状態を変更または参照せず、公開Application境界だけを使う。
+- [INT-002 通常経路](/kombinat/requirements/int-002.md) — MUST: 物理Thingの受渡しにはCore独自基盤が公開する予約・commit・release契約だけを使う。
+- [INT-003 Storage予約](/kombinat/requirements/int-003.md) — MUST: Kombinatが工程へ算入できるのは、Core StorageがThing IDと数量で予約した入力だけである。
+- [INT-004 引渡し](/kombinat/requirements/int-004.md) — MUST: 生産出力はCore Storageへ直接生成し、Kombinat側の所有Thingを作らない。
+- [INT-005 接続不能](/kombinat/requirements/int-005.md) — MUST: Core独自Storageから供給または回収できない場合、Jobを転送待ちへ置く。
+- [INT-006 上流欠陥](/kombinat/requirements/int-006.md) — MUST: Core独自保管基盤単体で再現する問題と、Kombinat接続だけで再現する問題を分離する。
+- [PERF-001 Event駆動](/kombinat/requirements/perf-001.md) — MUST: Queue、Factory、Buffer、Accountの変化をeventで処理し、毎tick全Job・全Recipe・Matter Network内部在庫を走査しない。
+- [PERF-002 Planner](/kombinat/requirements/perf-002.md) — MUST: 一Planを最大200 node、100 ms以内、または一frame 4 ms以下の分割処理で終える暫定目標を持つ。
+- [PERF-003 長期](/kombinat/requirements/perf-003.md) — MUST: 60,000 tickの連続生産で、StorageのThing差分0、予約漏れ0、二重完了0、未回収終端処理0を確認する。
+- [PERF-004 保存](/kombinat/requirements/perf-004.md) — MUST: 500 Job、2,000 Batch履歴、10,000 Buffer Thingの保存・ロード時間、ファイル増分、GC allocationを記録する。
+- [PRD-001 定義](/kombinat/requirements/prd-001.md) — MUST: Production Patternは次を持つ。
+- [PRD-002 入力Role](/kombinat/requirements/prd-002.md) — MUST: Consume、LockAndReturn、TransformAndReturn、ContainerReturnを区別する。
+- [PRD-003 Recipe分類](/kombinat/requirements/prd-003.md) — MUST: RecipeをKombinat Automated、Vanilla Work Required、Official Adapter Required、Unsupportedへ分類する。
+- [PRD-004 Request](/kombinat/requirements/prd-004.md) — MUST: 具体ThingDef、Recipe、数量または目標在庫、優先度、出力先を指定できる。
+- [PRD-005 Plan](/kombinat/requirements/prd-005.md) — MUST: Recipe依存を有界DAGへ展開し、循環を検出する。
+- [PRD-006 複数経路](/kombinat/requirements/prd-006.md) — MUST: 同じ出力を作れる複数Patternがある場合、作者優先度、完成可能性、設備、概算時間、stable IDの決定順を使う。
+- [PRD-007 Job](/kombinat/requirements/prd-007.md) — MUST: 承認済みPlanをJobとして保存し、Pattern version、選んだRecipe、入力条件、出力条件を固定する。
+- [PRD-008 Batch](/kombinat/requirements/prd-008.md) — MUST: 一Batchの全入力Thingと出力容量がCore Storageで予約され、設備が利用可能な時だけ開始する。
+- [PRD-009 Output Claim](/kombinat/requirements/prd-009.md) — MUST: 同じThingDefがどこかへ出現しただけでBatchを完了しない。
+- [PRD-010 中間品](/kombinat/requirements/prd-010.md) — MUST: 中間品をCore Storageへ直接Commitし、後段工程がThing単位で予約する。
+- [PRD-011 副産物](/kombinat/requirements/prd-011.md) — MUST: 副産物の出力容量を開始前に確認し、満杯なら開始しない。
+- [PRD-012 取消](/kombinat/requirements/prd-012.md) — MUST: 取消時は未Commitの入力予約、出力容量予約、通貨予約、設備割当を解放する。
+- [PRD-013 再計画](/kombinat/requirements/prd-013.md) — MUST: 未開始Batchだけを再計画する、またcommit済みBatchを巻き戻さない。
+- [SAV-001 状態](/kombinat/requirements/sav-001.md) — MUST: Request、Pattern version、Plan summary、Job、Batch、Buffer、Output Claim、Account、Transaction、Consumption aggregateを保存する。
+- [SAV-002 非複製](/kombinat/requirements/sav-002.md) — MUST: Matter Network内部状態をKombinatセーブへ複製しない。
+- [SAV-003 途中保存](/kombinat/requirements/sav-003.md) — MUST: 材料待ち、入力予約後、処理中、出力容量待ち、Commit前後、通貨保留中に保存・ロードできる。
+- [SAV-004 同一ビルド](/kombinat/requirements/sav-004.md) — MUST: α／βでは同一ビルドの保存往復を保証する。

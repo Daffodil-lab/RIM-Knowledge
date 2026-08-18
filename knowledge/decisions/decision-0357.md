@@ -11,7 +11,7 @@ tags:
 organization_groups:
   - "independent-frontier"
   - "red-star"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

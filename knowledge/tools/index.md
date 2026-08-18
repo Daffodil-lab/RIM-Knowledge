@@ -34,11 +34,24 @@ node knowledge/tools/audit-okf-contradictions.mjs
 - [公式OKF 0.2互換性検査（日本語）](validate-okf-v02.mjs)
 - [領域横断重複監査](audit-okf-overlap.mjs)
 - [設定矛盾監査](audit-okf-contradictions.mjs)
+- [Google上流OKF追随チェック](check-okf-upstream.mjs)
+- [RIM-native Visualize](visualize-okf.mjs)
 - [バックストーリー審査確定](finalize-backstory-review.mjs)
 - [バックストーリー正史残件処理](resolve-backstory-canon-residuals.mjs)
 - [バックストーリー層分離](separate-backstory-layers.mjs)
 
 `build-okf.mjs`は削除済み原本から初回移行するための旧生成器であり、現在は実行禁止である。現行`knowledge/`の再生成や上書きには使用しない。
+
+## Google上流チェックとVisualize
+
+```powershell
+node knowledge/tools/check-okf-upstream.mjs --self-test
+node knowledge/tools/check-okf-upstream.mjs --check
+node knowledge/tools/visualize-okf.mjs --self-test
+node knowledge/tools/visualize-okf.mjs
+```
+
+上流チェックは`knowledge/tools/okf-upstream.json`の固定commitとGitHub API上の`main` commitをread-onlyで比較する。Visualizeは`knowledge/`の概念をRIM-nativeなHTMLへ変換し、既定では`knowledge/navigation/okf-viz.html`へ出力する。上流のVisualizeはOKF必須仕様ではない。
 
 ## 公式OKF 0.2互換性検査
 

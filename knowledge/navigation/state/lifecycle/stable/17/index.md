@@ -1,86 +1,86 @@
 # stable 17
 
-範囲: 確定#319：「Shion Race: 地場」自体が実装する技術範囲はグリッターワールド級までと確定——アルコテック級はCoreMOD・分身側の役割〜13. 個体設計
+範囲: Next extraction〜8. 遠征共同体とレッドスター
 
 ## 項目
 
-- [確定#319：「Shion Race: 地場」自体が実装する技術範囲はグリッターワールド級までと確定——アルコテック級はCoreMOD・分身側の役割](/decisions/decision-0319.md) — 「Shion Race: 地場」自体が実装する技術範囲はグリッターワールド級までと確定——アルコテック級はCoreMOD・分身側の役割を確定した決定履歴。
-- [確定#320：確定#319を訂正——アルコテック級の実装はCoreMOD・分身が個別に行うのではなく、「Shion Race: 地場」の拡張（仮称・未命名）が担う。CoreMOD・分身どちらもこの拡張を導入すればアルコテック技術が追加される](/decisions/decision-0320.md) — 確定番号319を訂正——アルコテック級の実装はCoreMOD・分身が個別に行うのではなく、「Shion Race: 地場」の拡張（仮称・未命名）が担う。
-- [確定#321：確定#320を訂正——「地場の拡張」の正体は既存MOD「Shion Race: Red Star」。Red Starの前提を「CoreMOD OR Shion Race: 地場」（どちらか一方で起動可能）へ変更し、分身の独立性（確定#300）と両立させる](/decisions/decision-0321.md) — 確定番号320を訂正——「地場の拡張」の正体は既存MOD「Shion Race: Red Star」。
-- [確定#322：確定#321を補足訂正——地場のみ（CoreMOD無し）でも遠征艦隊要素は機能する。名声を用いた限定的な艦隊支援が可能。完全版の遠征艦隊要素にはCoreMODが必要](/decisions/decision-0322.md) — 確定番号321を補足訂正——地場のみ（CoreMOD無し）でも遠征艦隊要素は機能する。
-- [確定#323：秘文字の使い手の名称を「ソフェル」に確定](/decisions/decision-0323.md) — 秘文字の使い手の名称を「ソフェル」に確定を確定した決定履歴。
-- [確定#324：Tower Ledger統合工業システムのRecommendations項目3「休眠遺構の再起動」を確定——気まぐれなシオン/Shionが残した施設を中継塔で再接続、ローカル/ワールドマップの二段構え](/decisions/decision-0324.md) — Tower Ledger統合工業システムのRecommendations項目3「休眠遺構の再起動」を確定——気まぐれなシオン/Shionが残した施設を中継塔で再接続、ローカル/ワールドマップの二段構えを確定した決定履歴。
-- [確定#325：中継塔をワールドマップ規模へ拡張——タイル間の流通網を敷設し接続設備と生産を連携、ポーンも流通網で高速移動可能に](/decisions/decision-0325.md) — 中継塔をワールドマップ規模へ拡張——タイル間の流通網を敷設し接続設備と生産を連携、ポーンも流通網で高速移動可能にを確定した決定履歴。
-- [確定#326：探索⇄工業の循環（資源ノード発見）を確定——バニラ非製造資源・対応MOD資源の効率的な入手経路として位置づけ](/decisions/decision-0326.md) — 探索⇄工業の循環（資源ノード発見）を確定——バニラ非製造資源・対応MOD資源の効率的な入手経路として位置づけを確定した決定履歴。
-- [確定#327：地域開発度（Regional Development）メトリクスを追加。ワールドマップ大規模遺構コンプレックスの代替発生経路「変わり者の工場長」イベントを追加](/decisions/decision-0327.md) — 地域開発度（Regional Development）メトリクスを追加。
-- [確定#328：遠隔拠点（第二マップを生成しない工場/設備展開）を追加——資源ノード対応生産・非対応時の扱い・砲兵陣地/航空基地/軌道エレベーター等の設備群](/decisions/decision-0328.md) — 遠隔拠点（第二マップを生成しない工場/設備展開）を追加——資源ノード対応生産・非対応時の扱い・砲兵陣地/航空基地/軌道エレベーター等の設備群を確定した決定履歴。
-- [確定#329：第二コアの機能として「本拠点消滅時の再出発拠点」を確定](/decisions/decision-0329.md) — 第二コアの機能として「本拠点消滅時の再出発拠点」を確定した決定履歴。
-- [確定#330：Recommendations項目4「ブループリント/プリセット」を確定——ブループリントは非実装（生産は黒字設計で代替）、プリセットは遠隔拠点建築のみ（手動選択も可）](/decisions/decision-0330.md) — Recommendations項目4「ブループリント/プリセット」を確定——ブループリントは非実装（生産は黒字設計で代替）、プリセットは遠隔拠点建築のみ（手動選択も可）を確定した決定履歴。
-- [確定#331：Recommendations項目5「必須だが調整可能」の二段構えを確定——遠隔拠点＋休眠遺構の再起動だけで簡易ルートとして成立させる](/decisions/decision-0331.md) — Recommendations項目5「必須だが調整可能」の二段構えを確定——遠隔拠点＋休眠遺構の再起動だけで簡易ルートとして成立させるを確定した決定履歴。
-- [確定#332：Recommendations項目6「リセット型進行」は本MODに非該当と結論——AIC設計分析レポートの全6項目が§13.1〜13.9として出揃う](/decisions/decision-0332.md) — Recommendations項目6「リセット型進行」は本MODに非該当と結論——AIC設計分析レポートの全6項目が§13.1〜13.9として出揃うを確定した決定履歴。
-- [確定#333：遠隔拠点にコア設置を必須化——メイン拠点はNexus Core、遠隔拠点は専用の「Nexusサブコア」（旧称：第二コア）が必要](/decisions/decision-0333.md) — 遠隔拠点にコア設置を必須化——メイン拠点はNexus Core、遠隔拠点は専用の「Nexusサブコア」（旧称：第二コア）が必要を確定した決定履歴。
-- [確定#334：コア必須要件をTower Ledger統合工業システム全体の一般原則として明記（§13.6固有のルールではない）](/decisions/decision-0334.md) — コア必須要件をTower Ledger統合工業システム全体の一般原則として明記（§13.6固有のルールではない）を確定した決定履歴。
-- [確定#335：抽象的資源の3枠目「影響力」を廃し、確定#313で既に導入済みの「名声」へ統合](/decisions/decision-0335.md) — 抽象的資源の3枠目「影響力」を廃し、確定番号313で既に導入済みの「名声」へ統合を確定した決定履歴。
-- [確定#336：新規コア（Nexus Core／Nexusサブコア）はプレイヤーが直接製造できず、回収または名声購入で入手する](/decisions/decision-0336.md) — 新規コア（Nexus Core／Nexusサブコア）はプレイヤーが直接製造できず、回収または名声購入で入手するを確定した決定履歴。
-- [確定#337：今回の開発目的をMVP（最小実行可能製品）までと明記（対象：Tower Ledger統合工業システム§13）](/decisions/decision-0337.md) — 今回の開発目的をMVP（最小実行可能製品）までと明記（対象：Tower Ledger統合工業システム§13）を確定した決定履歴。
-- [確定#338：仮称MOD名2件を文学作品名へ正式化——「スローターハウス5」「月を売った男」](/decisions/decision-0338.md) — 仮称MOD名2件を文学作品名へ正式化——「スローターハウス5」「月を売った男」を確定した決定履歴。
-- [確定#339：仮称2件を最終確定——「Shion Race: 地場」→「Shion Race: Kombinat」、「分身」→「Shion Race: The Hive」](/decisions/decision-0339.md) — 仮称2件を最終確定——「Shion Race: 地場」→「Shion Race: Kombinat」、「分身」→「Shion Race: The Hive」を確定した決定履歴。
-- [確定#340：母星「Купина」・球状星団「Твердь」の命名、および旧帝国の真アルコテック文明設定](/decisions/decision-0340.md) — 母星「Купина」・球状星団「Твердь」の命名、および旧帝国の真アルコテック文明設定を確定した決定履歴。
-- [確定#341：同盟のサイキック技術＝帝国の廉価版（属人性→機械化）、秘文字の帝国由来の起源と精神感応性不要化](/decisions/decision-0341.md) — 同盟のサイキック技術＝帝国の廉価版（属人性→機械化）、秘文字の帝国由来の起源と精神感応性不要化を確定した決定履歴。
-- [確定#342：旧帝国は末期までFTL歪曲空間支配技術を実用化できなかった](/decisions/decision-0342.md) — 旧帝国は末期までFTL歪曲空間支配技術を実用化できなかったを確定した決定履歴。
-- [確定#343：同盟のサイキック技術は精神への直接干渉より物理的な力への変換を得意とする（秘文字含む）](/decisions/decision-0343.md) — 同盟のサイキック技術は精神への直接干渉より物理的な力への変換を得意とする（秘文字含む）を確定した決定履歴。
-- [確定#344：Tower Ledger／Nexus Core等の用語をA系統（Kombinat）／B系統（The Hive）で改称](/decisions/decision-0344.md) — Tower Ledger／Nexus Core等の用語をA系統（Kombinat）／B系統（The Hive）で改称を確定した決定履歴。
-- [確定#345：同盟の正式条約名＝クピナー条約機構](/decisions/decision-0345.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#346：クピナー条約機構の正式名称を訂正——Твердь及びНеопалимая Купина条約機構、日常はほぼ「条約機構」または「同盟」](/decisions/decision-0346.md) — クピナー条約機構の正式名称を訂正——Твердь及びНеопалимая Купина条約機構、日常はほぼ「条約機構」または「同盟」を確定した決定履歴。
-- [確定#347：帝国由来の惑星名26語を追加](/decisions/decision-0347.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#348：FTLの例外性、対価、統一後の用途、および旧帝国／同盟の機械文明としての格付け](/decisions/decision-0348.md) — FTLの例外性、対価、統一後の用途、および旧帝国／同盟の機械文明としての格付けを確定した決定履歴。
-- [確定#349：プレイヤー向け注解者を匿名のソフェルに変更](/decisions/decision-0349.md) — プレイヤー向け注解者を匿名のソフェルに変更を確定した決定履歴。
-- [確定#350：帝国人、シオンの廉価複製起源、内戦と蜂起、ソフェル参加、規格互換性](/decisions/decision-0350.md) — 帝国人、シオンの廉価複製起源、内戦と蜂起、ソフェル参加、規格互換性を確定した決定履歴。
-- [確定#351：アルコテック呼称の否定と、帝国期シオンの自己改善能力・ASI級知性](/decisions/decision-0351.md) — アルコテック呼称の否定と、帝国期シオンの自己改善能力・ASI級知性を確定した決定履歴。
-- [確定#352：Archotech級人工知能を製造・保有しながら、ほとんど使わない文化](/decisions/decision-0352.md) — Archotech級人工知能を製造・保有しながら、ほとんど使わない文化を確定した決定履歴。
-- [確定#353：サイキックの精神干渉可能性、秘文字との区別、非因果的・非時間的作用](/decisions/decision-0353.md) — サイキックの精神干渉可能性、秘文字との区別、非因果的・非時間的作用を確定した決定履歴。
-- [確定#354：公開ロアを用途別の十一分冊と索引へ細分化](/decisions/decision-0354.md) — 公開ロアを用途別の十一分冊と索引へ細分化を確定した決定履歴。
-- [確定#355：回収飛行士と別人の編纂ソフェルによる避難民回収案内](/decisions/decision-0355.md) — 回収飛行士と別人の編纂ソフェルによる避難民回収案内を確定した決定履歴。
-- [確定#356：人口の99%以上を占めるシオン/Shionと、ほぼ不在の構成諸民族](/decisions/decision-0356.md) — 人口の99%以上を占めるシオン/Shionと、ほぼ不在の構成諸民族を確定した決定履歴。
-- [確定#357：非シオン人口は数十兆超、ほぼ全員が本国在住](/decisions/decision-0357.md) — 非シオン人口は数十兆超、ほぼ全員が本国在住を確定した決定履歴。
-- [確定#358：惑星個別史、FTL対価、水仙のFTL確立全経緯は扱わない](/decisions/decision-0358.md) — 惑星個別史、FTL対価、水仙のFTL確立全経緯は扱わないを確定した決定履歴。
-- [確定#359：Cellは帝国由来の粒子級自己増殖機械](/decisions/decision-0359.md) — Cellは帝国由来の粒子級自己増殖機械を確定した決定履歴。
-- [確定#360：多系統エネルギー研究とFTL必要量の壁](/decisions/decision-0360.md) — 多系統エネルギー研究とFTL必要量の壁を確定した決定履歴。
-- [確定#361：内戦起源・自治構造・辺境警告譚の正史台帳反映](/decisions/decision-0361.md) — 内戦起源・自治構造・辺境警告譚の正史台帳反映を確定した決定履歴。
-- [確定#362：同盟の交戦規則（ROE）](/decisions/decision-0362.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#363：占領回収・死者復活・ソフェルの魂観](/decisions/decision-0363.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#364：捕虜・占領地住民の素早い現場同化](/decisions/decision-0364.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#365：闇のアルコテックとの冷戦とThe Hiveの伝聞](/decisions/decision-0365.md) — 闇のアルコテックとの冷戦とThe Hiveの伝聞を確定した決定履歴。
-- [確定#366：帝国の時間操作と同盟時代の技術的成果](/decisions/decision-0366.md) — 帝国の時間操作と同盟時代の技術的成果を確定した決定履歴。
-- [確定#367：現実空間の本国規模とТвердьの回収](/decisions/decision-0367.md) — 現実空間の本国規模とТвердьの回収を確定した決定履歴。
-- [確定#368：帝国の降伏、吸収、ソフェル継承、帝国式建築](/decisions/decision-0368.md) — 帝国の降伏、吸収、ソフェル継承、帝国式建築を確定した決定履歴。
-- [確定#369：ロアからゲーム内フレーバーへの変換台帳](/decisions/decision-0369.md) — ロアからゲーム内フレーバーへの変換台帳を確定した決定履歴。
-- [確定#370：配置先に迷う場合のバックストーリー／研究フォールバック](/decisions/decision-0370.md) — 配置先に迷う場合のバックストーリー／研究フォールバックを確定した決定履歴。
-- [確定#388：618種バックストーリー、人工知能定義、特殊部隊・市民文化](/decisions/decision-0388.md) — 種バックストーリー、人工知能定義、特殊部隊・市民文化を確定した決定履歴。
-- [確定#389：MVP廃止、α公開候補、β終了条件、完成前セーブ互換](/decisions/decision-0389.md) — MVP廃止、α公開候補、β終了条件、完成前セーブ互換を確定した決定履歴。
-- [確定#390：Kombinat停止保存、資産価値、破壊時保全、性能優先方式](/decisions/decision-0390.md) — Kombinat停止保存、資産価値、破壊時保全、性能優先方式を確定した決定履歴。
-- [確定#391：Kombinat遠距離物流の保護延期、AE2系準拠、αのローカルNetwork再構成](/decisions/decision-0391.md) — Kombinat遠距離物流の保護延期、AE2系準拠、αのローカルNetwork再構成を確定した決定履歴。
-- [確定#392：Kombinatを生産・消費・流通へ集約した汎用工業とする](/decisions/decision-0392.md) — Kombinatを生産・消費・流通へ集約した汎用工業とするを確定した決定履歴。
-- [確定#393：β版Pawn Foundry、補充可能個体、登録再実体化、Clone Colony](/decisions/decision-0393.md) — β版Pawn Foundry、補充可能個体、登録再実体化、Clone Colonyを確定した決定履歴。
-- [確定#394：Kombinat完成図の仮想シミュレーション、未知MOD互換契約、復旧不能・無限容量の封鎖](/decisions/decision-0394.md) — Kombinat完成図の仮想シミュレーション、未知MOD互換契約、復旧不能・無限容量の封鎖を確定した決定履歴。
-- [確定#395：Matter NetworkをKombinat倉庫基盤として採用し、物理資源を実Thingへ統一](/decisions/decision-0395.md) — Matter NetworkをKombinat倉庫基盤として採用し、物理資源を実Thingへ統一を確定した決定履歴。
-- [確定#396：装備の抽象指定を装備ファミリー＋非物理ポイントへ簡略化](/decisions/decision-0396.md) — 装備の抽象指定を装備ファミリー＋非物理ポイントへ簡略化を確定した決定履歴。
-- [確定#397：Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外](/decisions/decision-0397.md) — Matter Networkを無改造の必須依存へ固定し、上流欠陥とStasisをKombinat監査から除外を確定した決定履歴。
-- [確定#398：α版からCore独自保管・接続基盤を採用する](/decisions/decision-0398.md) — Matter Network必須依存を撤回し、α版から通常Map空間を経由しない独自保管・接続基盤と任意排出を採用した決定履歴。
-- [0. 権威順位と状態語](/design/00-%E6%A8%A9%E5%A8%81%E9%A0%86%E4%BD%8D%E3%81%A8%E7%8A%B6%E6%85%8B%E8%AA%9E.md) — 0. 権威順位と状態語の重複本文を除き、唯一の知識所有者へ案内する項目。
-- [最初に読む：今回のオーバーホールで何を変えたか](/design/000-%E6%9C%80%E5%88%9D%E3%81%AB%E8%AA%AD%E3%82%80-%E4%BB%8A%E5%9B%9E%E3%81%AE%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%9B%E3%83%BC%E3%83%AB%E3%81%A7%E4%BD%95%E3%82%92%E5%A4%89%E3%81%88%E3%81%9F%E3%81%8B.md) — 最初に読む：今回のオーバーホールで何を変えたかの重複本文を除き、唯一の知識所有者へ案内する項目。
-- [1. 中心命題](/design/01-%E4%B8%AD%E5%BF%83%E5%91%BD%E9%A1%8C.md) — 1. 中心命題の重複本文を除き、唯一の知識所有者へ案内する項目。
-- [2. 帝国と同盟：同一文明の二形態](/design/02-%E5%B8%9D%E5%9B%BD%E3%81%A8%E5%90%8C%E7%9B%9F-%E5%90%8C%E4%B8%80%E6%96%87%E6%98%8E%E3%81%AE%E4%BA%8C%E5%BD%A2%E6%85%8B.md) — 2. 帝国と同盟：同一文明の二形態の重複本文を除き、唯一の知識所有者へ案内する項目。
-- [3. シオンの人格と身体](/design/03-%E3%82%B7%E3%82%AA%E3%83%B3%E3%81%AE%E4%BA%BA%E6%A0%BC%E3%81%A8%E8%BA%AB%E4%BD%93.md) — 3. シオンの人格と身体の重複本文を除き、唯一の知識所有者へ案内する項目。
-- [結論](/design/033-%E7%B5%90%E8%AB%96.md) — シオンの製品全体は、一つのCore、分離された内部Runtime、後期の任意例外モジュール、固有の本国支援開始 として再構成する。
-- [付録A. オーバーホール元の識別](/design/034-%E4%BB%98%E9%8C%B2A-%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%9B%E3%83%BC%E3%83%AB%E5%85%83%E3%81%AE%E8%AD%98%E5%88%A5.md) — 本書は次の原資料を全文監査して作成した、また原資料の固有カタログ、決定ログ、矛盾台帳は履歴として保持し、本書§26から回収する。
-- [4. 善意の非対称性を物語へ変換する](/design/04-%E5%96%84%E6%84%8F%E3%81%AE%E9%9D%9E%E5%AF%BE%E7%A7%B0%E6%80%A7%E3%82%92%E7%89%A9%E8%AA%9E%E3%81%B8%E5%A4%89%E6%8F%9B%E3%81%99%E3%82%8B.md) — 4. 善意の非対称性を物語へ変換するの重複本文を除き、唯一の知識所有者へ案内する項目。
-- [5. 技術体系と文明的制約](/design/05-%E6%8A%80%E8%A1%93%E4%BD%93%E7%B3%BB%E3%81%A8%E6%96%87%E6%98%8E%E7%9A%84%E5%88%B6%E7%B4%84.md) — 5. 技術体系と文明的制約の重複本文を除き、唯一の知識所有者へ案内する項目。
-- [6. 世界、地理、歴史詳細の保全状態](/design/06-%E4%B8%96%E7%95%8C-%E5%9C%B0%E7%90%86-%E6%AD%B4%E5%8F%B2%E8%A9%B3%E7%B4%B0%E3%81%AE%E4%BF%9D%E5%85%A8%E7%8A%B6%E6%85%8B.md) — 起源地理と移動箱舟は正史へ再採用し、惑星・巨大建造物の一括カタログは候補または不採用へ分離した。
-- [7. 製品ファミリーの新しい境界](/design/07-%E8%A3%BD%E5%93%81%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC%E3%81%AE%E6%96%B0%E3%81%97%E3%81%84%E5%A2%83%E7%95%8C.md) — CoreはDLC非依存製品として設計しない、また開発・配布・標準試験は、RimWorld 1.6にRoyalty、Ideology、Biotech、Anomaly、Odysseyを全て有効化した環境を前提とする。
-- [8. Baseモジュール](/design/08-Base%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB.md) — Core設定は複数の開始立場を許容するが、最初に遊べるα版は数人規模の独立開拓団へ固定する。
-- [9. Kombinat内部Runtime](/design/09-Kombinat%E5%86%85%E9%83%A8Runtime.md) — 9. Kombinat内部Runtimeの重複本文を除き、唯一の知識所有者へ案内する項目。
-- [10. The Hive内部モジュール（後期実装予約）](/design/10-The-Hive%E5%86%85%E9%83%A8%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E5%BE%8C%E6%9C%9F%E5%AE%9F%E8%A3%85%E4%BA%88%E7%B4%84.md) — The Hiveは設計・正史を保護するが、現行の実装対象から外す。
-- [11. レッドスター（製品境界保留）](/design/11-Red-Star%E8%A3%BD%E5%93%81%E5%A2%83%E7%95%8C%E4%BF%9D%E7%95%99.md) — レッドスターは、本国が正式に承認・派遣した開拓団である。
-- [12. その他の拡張群](/design/12-%E3%81%9D%E3%81%AE%E4%BB%96%E3%81%AE%E6%8B%A1%E5%BC%B5%E7%BE%A4.md) — 旧内戦期拡張ファミリーは、回想、証言、断片記録、保存機械記録、残響を主な語り口とする候補を維持する。
-- [13. 個体設計](/design/13-%E5%80%8B%E4%BD%93%E8%A8%AD%E8%A8%88.md) — 旧資料には特性三層、コア特性番号1〜番号33、任意特性、Tier、Quality、改造ポイント、身体ロードアウト、製造ダイアログ、製造階級、職級、栄誉、研究ツリーがある。
+- [Next extraction](/research/known-code/006-Next-extraction.md) — The next safe port is the construction-site lifecycle. Replace its reservedCVE/reservedMaterials fields with one Kombinat reservation…。
+- [Build](/research/kombinat-prototype/000-Build.md) — The compiled prototype assembly is written to Assemblies/Kombinat.dll. Do not copy it into the Core package.。
+- [Current status](/research/kombinat-prototype/001-Current-status.md) — No v3 product component is implemented. The next task is to pin the Matter Network baseline, record the MIT notices and adopted files,…。
+- [0. 出典と利用範囲](/research/kombinat-ui-references/00-%E5%87%BA%E5%85%B8%E3%81%A8%E5%88%A9%E7%94%A8%E7%AF%84%E5%9B%B2.md) — ユーザー提供映像をKombinatのUI・操作研究に限定して利用し、画像・コード・固有表現のコピー元にはしない。
+- [1. MonolynのネットワークUIから採るもの](/research/kombinat-ui-references/01-Monolyn%E3%81%AE%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AFUI%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — Monolynの集中資源、生産一覧、選択時ネットワーク表示から、Kombinatへ採用する情報設計を抽出する。
+- [2. Arsenal Codexの直接交換から採るもの](/research/kombinat-ui-references/02-Arsenal-Codex%E3%81%AE%E7%9B%B4%E6%8E%A5%E4%BA%A4%E6%8F%9B%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — 接続保管庫からPawnへ直接装備し、現在装備を同じ取引で返す操作を、Coreの原子的武器交換の参照とする。
+- [3. DSUから採るUIと採らない実装](/research/kombinat-ui-references/03-DSU%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8BUI%E3%81%A8%E6%8E%A1%E3%82%89%E3%81%AA%E3%81%84%E5%AE%9F%E8%A3%85.md) — DSUの検索・任意排出・Pawnアクセスは参照するが、中央Mapセルへ内容物を集積する保管方式は採用しない。
+- [4. 要求中間素材作成の操作イメージ](/research/kombinat-ui-references/04-%E8%A6%81%E6%B1%82%E4%B8%AD%E9%96%93%E7%B4%A0%E6%9D%90%E4%BD%9C%E6%88%90%E3%81%AE%E6%93%8D%E4%BD%9C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8.md) — 在庫とRecipeを並べ、最終品の要求から不足中間品と総材料を確認する簡潔な操作モデルをKombinatへ適用する。
+- [0. Purpose](/research/monolyn-practice/00-Purpose.md) — This document records the user-provided summary of real player practice around Monolyn Race from Steam Workshop Q&A, Steam Workshop…。
+- [1. Source status](/research/monolyn-practice/01-Source-status.md) — The details below are treated as a user-provided field report from public player discussion and strategy notes.。
+- [2. Basic loop and onboarding problems](/research/monolyn-practice/02-Basic-loop-and-onboarding-problems.md) — Reported player issue、具体的にはPrayer is not handled as an ordinary Job.とPlayers assign Meditate through the Schedule tab.を扱う。
+- [3. Light management in real play](/research/monolyn-practice/03-Light-management-in-real-play.md) — Reported player issue、具体的にはThere is no direct electricity-to-Light conversion.とAs colony wealth/scale grows, Light income can fall…。
+- [4. Baptism use and costs](/research/monolyn-practice/04-Baptism-use-and-costs.md) — Reported player practice、具体的にはConverting other races through a baptismal font is a basic way to secure Monolyn personnel.とBaptism may…。
+- [5. Terminal body operation](/research/monolyn-practice/05-Terminal-body-operation.md) — Reported player confusion、具体的にはDestroyed mechanical terminal bodies cannot be revived through the baptismal font.とThey need Terminal:…。
+- [6. Base structure and expansion play](/research/monolyn-practice/06-Base-structure-and-expansion-play.md) — Reported player practice、具体的にはTower can share Light, materials, and personnel regardless of location.とPlayers use this to run a main…。
+- [7. Compatibility problems](/research/monolyn-practice/07-Compatibility-problems.md) — Reported issues、具体的にはVanilla Research Panel can conflict with Tower decoding/research and auto-cancel it.とVE Framework-related faction…。
+- [8. The four real Monolyn management layers](/research/monolyn-practice/08-The-four-real-Monolyn-management-layers.md) — The reported practical Monolyn loop appears to combine four resource-management layers、具体的にはprayer/meditation schedule…。
+- [9. Adopt / avoid table for Shion Nexus](/research/monolyn-practice/09-Adopt-avoid-table-for-Shion-Nexus.md) — Adopt / avoid table for Shion Nexusは、Monolyn player-practice pattern：Shion Nexus decisionとCentral Tower as colony-scale identity：Adopt…。
+- [10. Alpha impact](/research/monolyn-practice/10-Alpha-impact.md) — This reference does not change Alpha 0.1 scope.。
+- [11. Performance cautions](/research/monolyn-practice/11-Performance-cautions.md) — Avoid importing these patterns without hard limits、具体的にはschedule-driven labor loops that require many pawns;とunbounded resource demand…。
+- [12. Final lesson](/research/monolyn-practice/12-Final-lesson.md) — Monolyn is valuable because players actually build around its Tower, Light, baptism, and terminal systems.。
+- [13. Source links recorded by user](/research/monolyn-practice/13-Source-links-recorded-by-user.md) — Source links recorded by userは、Monolyn Race - Steam Workshop Q&A:…。
+- [0. Purpose](/research/monolyn-ui/00-Purpose.md) — This document records the user-provided summary of Monolyn Race UI and system feedback from developer Q&A, bug report threads, and…。
+- [1. Source status](/research/monolyn-ui/01-Source-status.md) — The details below are treated as a user-provided field report from public player feedback and strategy/review sources.。
+- [2. Overall system reception](/research/monolyn-ui/02-Overall-system-reception.md) — Reported NamuWiki-style evaluation、具体的にはMonolyn is high quality, but unusual compared with many existing mods.とIts prayer UI,…。
+- [3. Delayed or opaque feedback](/research/monolyn-ui/03-Delayed-or-opaque-feedback.md) — Reported issue、具体的にはA player can interact with the Tower and receive a vague message like something has happened, but see no immediate…。
+- [4. Icon and description ambiguity](/research/monolyn-ui/04-Icon-and-description-ambiguity.md) — Reported issue、具体的にはGuardian Flare and Radiant Flare appear to have identical or near-identical descriptions.とDeveloper clarifies their…。
+- [5. Research tab stability](/research/monolyn-ui/05-Research-tab-stability.md) — Reported issue、具体的にはClicking a dedicated research tab such as Shinsung Engineering can cause the description area to disappear, though…。
+- [6. Other compatibility and implementation issues](/research/monolyn-ui/06-Other-compatibility-and-implementation-issues.md) — Reported examples、具体的にはHats Display Selection conflict can make hat-wearing pawns invisible under roofs and cause lag; disabling a…。
+- [7. UI/system strengths to learn from](/research/monolyn-ui/07-UI-system-strengths-to-learn-from.md) — Monolyn strengths reported by players/review、具体的にはstrong faction identity;とTower-centered operation;を扱う。
+- [8. UI/system failures to avoid](/research/monolyn-ui/08-UI-system-failures-to-avoid.md) — Avoid in Shion Nexus alpha、具体的にはcentral actions with delayed invisible outcomes;とprogress that says inactive while active;を扱う。
+- [9. Alpha impact](/research/monolyn-ui/09-Alpha-impact.md) — This reference reinforces current Alpha 0.1 rules.。
+- [10. Shion Nexus UI checklist](/research/monolyn-ui/10-Shion-Nexus-UI-checklist.md) — Before Alpha 0.1 release, confirm、具体的にはCore Inspect explains alive/damaged/destroyed state.とLedger Inspect shows CVE, capacity, shells,…。
+- [11. Performance cautions](/research/monolyn-ui/11-Performance-cautions.md) — UI and feedback systems must not introduce hidden cost.。
+- [12. Final lesson](/research/monolyn-ui/12-Final-lesson.md) — Monolyn's system design is strong because its Tower, Light, Codex, implants, buildings, and terminals form a coherent identity.。
+- [13. Source links recorded by user](/research/monolyn-ui/13-Source-links-recorded-by-user.md) — Source links recorded by userは、NamuWiki Monolyn page:…。
+- [Open Knowledge Format 0.2 日本語規範解説](/research/okf/00-Open-Knowledge-Format-v0.2-%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A7%A3%E8%AA%AC.md) — 公式Open Knowledge Format 0.2の必須構造、出典、検証、鮮度、実行証明とRIM拡張の関係を日本語で確認できる参照資料。
+- [0. Purpose](/research/reference-mods/00-Purpose.md) — This document records how three existing RimWorld Workshop mods should be used as structural references for Shion Nexus.。
+- [1. Source links](/research/reference-mods/01-Source-links.md) — Source linksは、Monolyn Race - Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3742031864とFleshbeast Colony -…。
+- [2. High-level comparison](/research/reference-mods/02-High-level-comparison.md) — High-level comparisonは、Mod：Public core idea：Shion Nexus reference value：Do not copyとMonolyn Race：Tower gathers Light through prayer and…。
+- [3. Monolyn Race structural lessons](/research/reference-mods/03-Monolyn-Race-structural-lessons.md) — Monolyn Race is useful because it presents a complete central-resource colony model.。
+- [4. Fleshbeast Colony structural lessons](/research/reference-mods/04-Fleshbeast-Colony-structural-lessons.md) — Fleshbeast Colony expands Anomaly's fleshbeast theme into a colony-scale organic infrastructure. Its public description emphasizes…。
+- [5. Arachnae Swarm 2 structural lessons](/research/reference-mods/05-Arachnae-Swarm-2-structural-lessons.md) — Arachnae Swarm 2 publicly describes a Gestalt consciousness colony centered on a Queen. The Queen commands Overlords, and Overlords…。
+- [6. Combined structural extraction](/research/reference-mods/06-Combined-structural-extraction.md) — The three reference mods suggest the following useful structures、具体的にはCentral resource reservoir：Monolyn Light / Tower, Fleshbeast…。
+- [7. Shion Nexus non-copy rules](/research/reference-mods/07-Shion-Nexus-non-copy-rules.md) — Shion Nexus must not become、具体的にはMonolyn with foxes;とFleshbeast with machines;を扱う。
+- [8. First playable reference priorities](/research/reference-mods/08-First-playable-reference-priorities.md) — First playable reference prioritiesは、Monolyn-style central resource and Tower automation.とMonolyn-style colony support through central…。
+- [9. Final rule](/research/reference-mods/09-Final-rule.md) — The reference mods prove that strong race/colony mods work best when they are not just pawns with stats. They need a colony-scale…。
+- [10. Vivi Raceの非HAR種族実装パターン](/research/reference-mods/10-Vivi-Race%E9%9D%9EHAR%E7%A8%AE%E6%97%8F%E5%AE%9F%E8%A3%85%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3.md) — Vivi RaceがHARを必須所有者にせず、バニラ人型処理、Biotech、独自身体、Pawn render tree、任意HAR互換を組み合わせる構成をShion向けに分類する。
+- [0. 結論](/research/theme-overhaul/00-%E7%B5%90%E8%AB%96.md) — 世界観の根本を捨てる必要はない、また核となる発想は強い。
+- [1. 正式な中心命題](/research/theme-overhaul/01-%E6%AD%A3%E5%BC%8F%E3%81%AA%E4%B8%AD%E5%BF%83%E5%91%BD%E9%A1%8C.md) — 今後は、以下を全コンテンツに優先するという方針の適用範囲と条件を定める。
+- [2. 現行設定の判定](/research/theme-overhaul/02-%E7%8F%BE%E8%A1%8C%E8%A8%AD%E5%AE%9A%E3%81%AE%E5%88%A4%E5%AE%9A.md) — 現時点のKombinat実装は、5資源のWorld台帳、予約、コミット、返還、セーブ状態を持つ基盤であり、テーマ上はほぼ中立である。
+- [3. プレイヤーへ見せる情報の四層](/research/theme-overhaul/03-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%B8%E8%A6%8B%E3%81%9B%E3%82%8B%E6%83%85%E5%A0%B1%E3%81%AE%E5%9B%9B%E5%B1%A4.md) — プレイヤーが覚える必要のある核は四つだけにする。
+- [4. ゲーム内文章の情報予算](/research/theme-overhaul/04-%E3%82%B2%E3%83%BC%E3%83%A0%E5%86%85%E6%96%87%E7%AB%A0%E3%81%AE%E6%83%85%E5%A0%B1%E4%BA%88%E7%AE%97.md) — 既存838件は削除せず、作者用カタログとして保持する。
+- [5. チープな近未来SFを避ける規則](/research/theme-overhaul/05-%E3%83%81%E3%83%BC%E3%83%97%E3%81%AA%E8%BF%91%E6%9C%AA%E6%9D%A5SF%E3%82%92%E9%81%BF%E3%81%91%E3%82%8B%E8%A6%8F%E5%89%87.md) — 現実性は手触りであり、文明の上限ではないという方針の適用範囲と条件を定める。
+- [6. 実在参照と命名の処理](/research/theme-overhaul/06-%E5%AE%9F%E5%9C%A8%E5%8F%82%E7%85%A7%E3%81%A8%E5%91%BD%E5%90%8D%E3%81%AE%E5%87%A6%E7%90%86.md) — 以下はテーマ・トーン再審査ガイドQ0と、近未来／20世紀パスティーシュ回避の両方から優先度が高い。
+- [7. プレイヤーがテーマを意識せず受け取るゲーム表現](/research/theme-overhaul/07-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E3%83%86%E3%83%BC%E3%83%9E%E3%82%92%E6%84%8F%E8%AD%98%E3%81%9B%E3%81%9A%E5%8F%97%E3%81%91%E5%8F%96%E3%82%8B%E3%82%B2%E3%83%BC%E3%83%A0%E8%A1%A8%E7%8F%BE.md) — プレイヤーがテーマを意識せず受け取るゲーム表現は、食事不要のシオンが料理へ時間を使い、効率低下にならないと働かない市民がデバフも非難も受けず、趣味から小さな利益を生むことがあるを扱う。
+- [8. 文章サンプル](/research/theme-overhaul/08-%E6%96%87%E7%AB%A0%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB.md) — 食事も仕事も身体も選べる、狐型機械人シオンの開拓団。
+- [9. 実施順序](/research/theme-overhaul/09-%E5%AE%9F%E6%96%BD%E9%A0%86%E5%BA%8F.md) — 実施順序は、統合資料§1、§7.2、§11.1を中心命題に合わせて改稿する。
+- [10. 合否判定](/research/theme-overhaul/10-%E5%90%88%E5%90%A6%E5%88%A4%E5%AE%9A.md) — 新しい設定・文章・機能は、次の順で判定するという方針の適用範囲と条件を定める。
+- [0. 結論](/roadmap/00-%E7%B5%90%E8%AB%96.md) — 工業基盤を内部完成させてからShion種族を統合し、MVP／Foundationを独立した製品段階として出荷しない。
+- [1. 権威と変更規則](/roadmap/01-%E6%A8%A9%E5%A8%81%E3%81%A8%E5%A4%89%E6%9B%B4%E8%A6%8F%E5%89%87.md) — 本書は、何を世界内の事実とするかではなく、どの段階で何を完成させるかを定める。
+- [2. 既知コードと再利用の方針](/roadmap/02-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A8%E5%86%8D%E5%88%A9%E7%94%A8%E3%81%AE%E6%96%B9%E9%87%9D.md) — 既知コードの再利用率を目標にしない、また既存コード、旧リポジトリ、抽出記録は参考資料であり、最終設計を拘束する正本ではない。
+- [3. 1.0の最終完成像](/roadmap/03-1-0%E3%81%AE%E6%9C%80%E7%B5%82%E5%AE%8C%E6%88%90%E5%83%8F.md) — 最終的なCoreは、少なくとも次を一つの製品として成立させる。
+- [4. α版 — 最初の公開候補](/roadmap/04-%CE%B1%E7%89%88-%E2%80%94-%E6%9C%80%E5%88%9D%E3%81%AE%E5%85%AC%E9%96%8B%E5%80%99%E8%A3%9C.md) — α版は、内部完成した工業基盤へShion種族、図像、独立開始を最後に統合する最初の公開候補である。
+- [5. β版](/roadmap/05-%CE%B2%E7%89%88.md) — β版は、α版に含めなかったコアMODとレッドスターの要素を追加し、両製品を完成へ到達させる期間である。
+- [6. β終了／1.0完成条件](/roadmap/06-%CE%B2%E7%B5%82%E4%BA%86-1-0%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — 1.0以後も、身体、派閥、クエスト、装備、料理、動物、互換Adapter等を追加できる。
+- [7. バージョン運用](/roadmap/07-%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E9%81%8B%E7%94%A8.md) — バージョン番号だけで品質を主張しない、また各版は本書の完了条件と検証記録を伴う。
+- [8. 現在地](/roadmap/08-%E7%8F%BE%E5%9C%A8%E5%9C%B0.md) — 2026-08-02時点で工業基盤の実装作業は存在するが、工業完成マイルストーンとShion統合αは未完成である。
+- [9. 次の作業順](/roadmap/09-%E6%AC%A1%E3%81%AE%E4%BD%9C%E6%A5%AD%E9%A0%86.md) — 工業管理画面の基準画像とRimWorld 1.6画面契約を先に固定し、種族非依存の保管基盤とコンビナートを実装してからシオン種族と図像をα版へ統合する。
+- [10. 変更管理](/roadmap/10-%E5%A4%89%E6%9B%B4%E7%AE%A1%E7%90%86.md) — 本書を更新する場合、少なくとも次を記録するという方針の適用範囲と条件を定める。
+- [11. 工業先行開発マイルストーン](/roadmap/11-%E5%B7%A5%E6%A5%AD%E5%85%88%E8%A1%8C%E9%96%8B%E7%99%BA%E3%83%9E%E3%82%A4%E3%83%AB%E3%82%B9%E3%83%88%E3%83%BC%E3%83%B3.md) — シオン固有種族と図像の実装より先に、バニラ人間で検証できるコアMOD保管・コンビナート工業基盤を内部完成させる。
+- [0. 正史の優先順位](/world/00-%E6%AD%A3%E5%8F%B2%E3%81%AE%E5%84%AA%E5%85%88%E9%A0%86%E4%BD%8D.md) — 本書より下位の資料は、本書にない事実を自動的に正史化しない。
+- [1. 作品の中心命題](/world/01-%E4%BD%9C%E5%93%81%E3%81%AE%E4%B8%AD%E5%BF%83%E5%91%BD%E9%A1%8C.md) — 帝国と同盟は、苦痛、欠乏、混乱を放置せず、善き世界を現実へ実装しようとする文明である。
+- [2. 帝国から同盟へ](/world/02-%E5%B8%9D%E5%9B%BD%E3%81%8B%E3%82%89%E5%90%8C%E7%9B%9F%E3%81%B8.md) — 帝国最盛期は、律法的で厳格な社会だった、また同時に、平和、秩序、繁栄、庇護が本当に機能した善政でもあった。
+- [3. シオンという人類](/world/03-%E3%82%B7%E3%82%AA%E3%83%B3%E3%81%A8%E3%81%84%E3%81%86%E4%BA%BA%E9%A1%9E.md) — シオン/Shionは、製造された身体を持つ独立人格の人類である。
+- [4. 同盟社会](/world/04-%E5%90%8C%E7%9B%9F%E7%A4%BE%E4%BC%9A.md) — 同盟本国は、普通に暮らす大多数にとって、本当に自由で豊かで安全な社会である。
+- [5. 善意の非対称性](/world/05-%E5%96%84%E6%84%8F%E3%81%AE%E9%9D%9E%E5%AF%BE%E7%A7%B0%E6%80%A7.md) — 同盟人は救われる側の幸福を本気で望む、また冷淡さ、残虐趣味、欺瞞、隠蔽を標準動機にしない。
+- [6. 人格記録、復活、同化](/world/06-%E4%BA%BA%E6%A0%BC%E8%A8%98%E9%8C%B2-%E5%BE%A9%E6%B4%BB-%E5%90%8C%E5%8C%96.md) — 同盟は、身体再製造、人格記録、復活、他身体への移行に相当する技術を持つ。
+- [7. 技術体系](/world/07-%E6%8A%80%E8%A1%93%E4%BD%93%E7%B3%BB.md) — 同盟は、現代技術を数百年発展させただけの文明ではない。
+- [8. 遠征共同体とレッドスター](/world/08-%E9%81%A0%E5%BE%81%E5%85%B1%E5%90%8C%E4%BD%93%E3%81%A8Red-Star.md) — コアMODは、独立団、漂着者、認可団、その他の遠征共同体など、複数の開始立場を許容する。

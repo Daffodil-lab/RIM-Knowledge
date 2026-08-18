@@ -7,7 +7,7 @@ tags:
   - "historical"
   - "backstory"
   - "canon"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

@@ -1,86 +1,86 @@
 # stable 16
 
-範囲: 確定#239：確定#237「設計ドクトリン」（個体単位・非拘束）とは別に、コロニー全体で一度だけ選ぶHoi4式排他選択「コロニードクトリン」（物量/機動戦/火力偏重/堅陣防御の4択）を新設〜確定#318：後回しにした戦略資源・特殊素材のうち、特筆すべき対応関係のみ先行記録（生体金属・ナノマシン・ズィロ・ダークマター・出土品）
+範囲: REG-005 単一個体として保存〜First vertical-slice guarantees
 
 ## 項目
 
-- [確定#239：確定#237「設計ドクトリン」（個体単位・非拘束）とは別に、コロニー全体で一度だけ選ぶHoi4式排他選択「コロニードクトリン」（物量/機動戦/火力偏重/堅陣防御の4択）を新設](/decisions/decision-0239.md) — 確定番号237「設計ドクトリン」（個体単位・非拘束）とは別に、コロニー全体で一度だけ選ぶHoi4式排他選択「コロニードクトリン」（物量/機動戦/火力偏重/堅陣防御の4択）を新設を確定した決定履歴。
-- [確定#240：コロニードクトリンをHoi4 2026年時点の最新仕様（1.17+「No Compromise, No Surrender」後のドクトリン再編）に合わせて二層構造へ更新——グランドドクトリン（4択・排他）＋ドクトリン軌道（4分野・独立選択・習熟度制）](/decisions/decision-0240.md) — コロニードクトリンをHoi4 2026年時点の最新仕様（1.17+「No Compromise, No Surrender」後のドクトリン再編）に合わせて二層構造へ更新——グランドドクトリン（4択・排他）＋ドクトリン軌道（4分野・独立選択・習熟度制）を確定した決定履歴。
-- [確定#241：ドクトリン軌道「機甲」のCoreMOD対応効果を具体化——個人重装甲の装甲値強化＋重装甲特有の移動デバフ軽減（移動バフ）](/decisions/decision-0241.md) — ドクトリン軌道「機甲」のCoreMOD対応効果を具体化——個人重装甲の装甲値強化＋重装甲特有の移動デバフ軽減（移動バフ）を確定した決定履歴。
-- [確定#242：身体ロードアウト制（CoreMOD資料v1§8）を全面詳細化——枠数のTier別具体表、部位別インプラントカタログ、種族間非対称性の数値化（効果量80%・施術時間1.5倍）、換装コスト・維持費連動式を新設](/decisions/decision-0242.md) — 身体ロードアウト制（CoreMOD資料v1§8）を全面詳細化——枠数のTier別具体表、部位別インプラントカタログ、種族間非対称性の数値化（効果量80%・施術時間1.5倍）、換装コスト・維持費連動式を新設を確定した決定履歴。
-- [確定#243：「必要素材種類数」仕様をプロジェクト全体から廃棄——確定#169由来のTier別必要素材種類数表・関連文言をCoreMOD資料/バランス基準書/資源植物資料/コンセプト設計書の4資料から削除](/decisions/decision-0243.md) — 「必要素材種類数」仕様をプロジェクト全体から廃棄——確定番号169由来のTier別必要素材種類数表・関連文言をCoreMOD資料/バランス基準書/資源植物資料/コンセプト設計書の4資料から削除を確定した決定履歴。
-- [確定#244：Tierによる全ステータス補正ルールを修正——特性を考慮しない基礎ステータスは人間（Tier0基準値）を下回らない、−Tierは+10%/Tierボーナスが単に無いだけで追加のマイナス補正は掛からない](/decisions/decision-0244.md) — Tierによる全ステータス補正ルールを修正——特性を考慮しない基礎ステータスは人間（Tier0基準値）を下回らない、−Tierは+10%/Tierボーナスが単に無いだけで追加のマイナス補正は掛からないを確定した決定履歴。
-- [確定#245：身体ロードアウトのインプラント（標準を除く）は必ず濃縮真空エネルギー＋液化メカナイトを消費すると確定](/decisions/decision-0245.md) — 身体ロードアウトのインプラント（標準を除く）は必ず濃縮真空エネルギー＋液化メカナイトを消費するを確定した決定履歴。
-- [確定#246：「ドクトリン軌道」を「サブドクトリン」に改称、Hoi4本家の実在サブドクトリン名を調査し各系統に代表3例を新設](/decisions/decision-0246.md) — 「ドクトリン軌道」を「サブドクトリン」に改称、Hoi4本家の実在サブドクトリン名を調査し各系統に代表3例を新設を確定した決定履歴。
-- [確定#247：CoreMOD資料v1§11「最小限の基礎研究」を現行仕様に同期——身体ロードアウト工学・技師修理術・ゼロ点エネルギー工学・高度ゼロ点エネルギー技術・コロニードクトリン（グランド／サブ）の5研究を新設し前提関係を表で明記](/decisions/decision-0247.md) — CoreMOD資料v1§11「最小限の基礎研究」を現行仕様に同期——身体ロードアウト工学・技師修理術・ゼロ点エネルギー工学・高度ゼロ点エネルギー技術・コロニードクトリン（グランド／サブ）の5研究を新設し前提関係を表で明記を確定した決定履歴。
-- [確定#248：想定運用温度帯（段階1）の効果を意識±20%に確定——適切な環境内は意識+20%ボーナス、外れると意識−20%ペナルティへ反転。旧・燃焼時間+5秒/照準+50%/射撃−5/視力−50の仮リストは撤回](/decisions/decision-0248.md) — 想定運用温度帯（段階1）の効果を意識±20%に確定——適切な環境内は意識+20%ボーナス、外れると意識−20%ペナルティへ反転。
-- [確定#249：Hoi4データWiki（1.17.3時点・ユーザー貼付）で系統名「機甲」を公式和訳「装甲車両」に訂正、サブドクトリンを各系統の全候補（歩兵9・砲兵支援8・装甲車両6・作戦8）へ拡充、習熟度の「初期→レベル1〜5」段階構造を明記](/decisions/decision-0249.md) — Hoi4データWiki（1.17.3時点・ユーザー貼付）で系統名「機甲」を公式和訳「装甲車両」に訂正、サブドクトリンを各系統の全候補（歩兵9・砲兵支援8・装甲車両6・作戦8）へ拡充、習熟度の「初期→レベル1〜5」段階構造を明記を確定した決定履歴。
-- [確定#250：コロニードクトリンの数値設計アンカーをバランス基準書v1§4.3（C90）として新設——単一ステータス+10〜25%レンジ・多種類のステータスへ分散、という原則を確定](/decisions/decision-0250.md) — コロニードクトリンの数値設計アンカーをバランス基準書v1§4.3（C90）として新設——単一ステータス+10〜25%レンジ・多種類のステータスへ分散、という原則を確定した決定履歴。
-- [確定#251：コロニードクトリンによるユニット製造コスト補正、および3Dプリンターのレシピ自動生成＋変換効率の可変化を確定](/decisions/decision-0251.md) — コロニードクトリンによるユニット製造コスト補正、および3Dプリンターのレシピ自動生成＋変換効率の可変化を確定した決定履歴。
-- [確定#252：個人名/セル暗号/読みをバニラNameTriple（名前/姓/ニックネーム）へ正式対応づけ——単一名整形方式を撤回](/decisions/decision-0252.md) — 個人名/セル暗号/読みをバニラNameTriple（名前/姓/ニックネーム）へ正式対応づけ——単一名整形方式を撤回を確定した決定履歴。
-- [確定#253：研究「ペルソナコア修理」を「ユニット修理」に改称](/decisions/decision-0253.md) — 研究「ペルソナコア修理」を「ユニット修理」に改称を確定した決定履歴。
-- [確定#254：研究「コア精錬」「弱点対抗ツリー」「熱エンジン制御」の3研究を「統合されたシステム」1研究へ完全統合、関連する§13番号を全面的に連番化](/decisions/decision-0254.md) — 研究「コア精錬」「弱点対抗ツリー」「熱エンジン制御」の3研究を「統合されたシステム」1研究へ完全統合、関連する§13番号を全面的に連番化を確定した決定履歴。
-- [確定#255：研究「評議会工学（基礎）」を廃止し「ユニット製造プロトコル」へ統合、関連する§13番号を再度全面連番化](/decisions/decision-0255.md) — 研究「評議会工学（基礎）」を廃止し「ユニット製造プロトコル」へ統合、関連する§13番号を再度全面連番化を確定した決定履歴。
-- [確定#256：装備段1・段2の解禁研究をそれぞれ「Diaspora Tech company」「旧式装備」として新設・分離](/decisions/decision-0256.md) — 装備段1・段2の解禁研究をそれぞれ「Diaspora Tech company」「旧式装備」として新設・分離を確定した決定履歴。
-- [確定#257：Diaspora装備17品目（KVUTZA／SHTETL／HAGANAH／SINAI／NER TAMID／HAVDALAH／ZION／GALUTH／BRIT／MEZUZAH／DANIEL／ARON／YESHIVA／CHUTZPAH／MASADA／PURIM／SHALVA）を段1から段0へ再分類](/decisions/decision-0257.md) — Diaspora装備17品目（KVUTZA／SHTETL／HAGANAH／SINAI／NER…。
-- [確定#258：CoreMOD資料v1§4.3・無制限スタック特性に整数上限式を新設](/decisions/decision-0258.md) — CoreMOD資料v1§4.3・無制限スタック特性に整数上限式を新設を確定した決定履歴。
-- [確定#259：CoreMOD資料v1§6・Tier強化（後天的なTier昇格）を新設](/decisions/decision-0259.md) — CoreMOD資料v1§6・Tier強化（後天的なTier昇格）を新設を確定した決定履歴。
-- [確定#260：バランス基準書v1の既存懸念5件は設計意図と確認、CoreMOD資料v1§4の任意pt記述を訂正](/decisions/decision-0260.md) — バランス基準書v1の既存懸念5件は設計意図と確認、CoreMOD資料v1§4の任意pt記述を訂正を確定した決定履歴。
-- [確定#261：装備数値表v1・銃搭載バイポットによる展開システムを検討開始（未実装）](/decisions/decision-0261.md) — 装備数値表v1・銃搭載バイポットによる展開システムを検討開始（未実装）を確定した決定履歴。
-- [確定#262：装備数値表v1・迫撃砲の梱包/展開運用をFFF Deployable Itemで確定、「野戦簡易型」新設は撤回](/decisions/decision-0262.md) — 装備数値表v1・迫撃砲の梱包/展開運用をFFF Deployable Itemで確定、「野戦簡易型」新設は撤回を確定した決定履歴。
-- [確定#263：装備数値表v1・スポッター連動の狙撃システム＋最優先目標指定コマンドを検討開始（未実装）](/decisions/decision-0263.md) — 装備数値表v1・スポッター連動の狙撃システム＋最優先目標指定コマンドを検討開始（未実装）を確定した決定履歴。
-- [確定#264：将来構想・独自開拓団の「開拓戦争」（毒ガス＋ステルスクローク突撃部隊、未着手）](/decisions/decision-0264.md) — 将来構想・独自開拓団の「開拓戦争」（毒ガス＋ステルスクローク突撃部隊、未着手）を確定した決定履歴。
-- [確定#265：参考記録・競合RaceMOD比較で得られた設計上の示唆](/decisions/decision-0265.md) — 参考記録・競合RaceMOD比較で得られた設計上の示唆を確定した決定履歴。
-- [確定#266：CoreMOD資料v1§7.3・コロニードクトリンをCoreMODスコープから除外し、拡張MOD「エンダーのゲーム」へ移管](/decisions/decision-0266.md) — CoreMOD資料v1§7.3・コロニードクトリンをCoreMODスコープから除外し、拡張MOD「エンダーのゲーム」へ移管を確定した決定履歴。
-- [確定#267：CoreMOD資料v1§13新設・ステルス性メカニクス（距離依存の被発見システム）](/decisions/decision-0267.md) — CoreMOD資料v1§13新設・ステルス性メカニクス（距離依存の被発見システム）を確定した決定履歴。
-- [確定#268：ステルス性メカニクスの夜間補正を確定——安全接近距離を煙幕と同じ×0.5に](/decisions/decision-0268.md) — ステルス性メカニクスの夜間補正を確定——安全接近距離を煙幕と同じ×0.5にを確定した決定履歴。
-- [確定#269：液化メカナイトも濃縮真空エネルギーと同じパイプライン関連設備を共用すると確定](/decisions/decision-0269.md) — 液化メカナイトも濃縮真空エネルギーと同じパイプライン関連設備を共用するを確定した決定履歴。
-- [確定#270：3Dプリンターの無人稼働仕様を確定、新設・液体装薬注入機を追加](/decisions/decision-0270.md) — Dプリンターの無人稼働仕様を確定、新設・液体装薬注入機を追加を確定した決定履歴。
-- [確定#271：3Dプリンター・液体装薬注入機は有人稼働／無人稼働の二種類を持つと確定](/decisions/decision-0271.md) — Dプリンター・液体装薬注入機は有人稼働／無人稼働の二種類を持つを確定した決定履歴。
-- [確定#272：観測・通信装備（TZOFEH/KESHER）とステルス装備（NISTAR/MISTOR/MAGENシリーズ）を新設、既存装備にステルス性補正を追加](/decisions/decision-0272.md) — 観測・通信装備（TZOFEH/KESHER）とステルス装備（NISTAR/MISTOR/MAGENシリーズ）を新設、既存装備にステルス性補正を追加を確定した決定履歴。
-- [確定#273：ステルス性は数値が低いほど良いと訂正、既存の×0.9/×0.8/−1補正はすべて有利なボーナスと確定](/decisions/decision-0273.md) — ステルス性は数値が低いほど良いと訂正、既存の×0.9/×0.8/−1補正はすべて有利なボーナスを確定した決定履歴。
-- [確定#274：TZOFEH/KESHERによる観測行為はステルス性の露見条件から除外すると確定](/decisions/decision-0274.md) — TZOFEH/KESHERによる観測行為はステルス性の露見条件から除外するを確定した決定履歴。
-- [確定#275：GILGAL/ESH/SODOM/REHOVOT向けの弾種バリエーションを新設、RAKIAを2バリエーションに明確化](/decisions/decision-0275.md) — GILGAL/ESH/SODOM/REHOVOT向けの弾種バリエーションを新設、RAKIAを2バリエーションに明確化を確定した決定履歴。
-- [確定#276：GILGAL/ESH/SODOM/REHOVOT全弾種は例外なく液体装薬注入機で加工すると確定](/decisions/decision-0276.md) — GILGAL/ESH/SODOM/REHOVOT全弾種は例外なく液体装薬注入機で加工するを確定した決定履歴。
-- [確定#277：§2.20全11弾種の各行備考に液体装薬注入機の明記が漏れていたため個別に追記（確定#276の補完）](/decisions/decision-0277.md) — §2.20全11弾種の各行備考に液体装薬注入機の明記が漏れていたため個別に追記（確定番号276の補完）を確定した決定履歴。
-- [確定#278：クラスター弾をジャミング弾へ統合し、独立弾種としては廃止](/decisions/decision-0278.md) — クラスター弾をジャミング弾へ統合し、独立弾種としては廃止を確定した決定履歴。
-- [確定#279：TZOFEH/KESHER（§2.18）のMass・costList・製作スキル・バフ倍率・武器スロット扱いを確定](/decisions/decision-0279.md) — TZOFEH/KESHER（§2.18）のMass・costList・製作スキル・バフ倍率・武器スロット扱いを確定した決定履歴。
-- [確定#280：NISTAR/MISTOR/MAGENシリーズ（§2.19）のSharp/Blunt/Heat/Mass/costList・シールド値・ステルス性演算順序を確定](/decisions/decision-0280.md) — NISTAR/MISTOR/MAGENシリーズ（§2.19）のSharp/Blunt/Heat/Mass/costList・シールド値・ステルス性演算順序を確定した決定履歴。
-- [確定#281：SHOFAR（手榴弾ベルト）を装備数値表v1に新規収録し数値を確定](/decisions/decision-0281.md) — SHOFAR（手榴弾ベルト）を装備数値表v1に新規収録し数値を確定した決定履歴。
-- [確定#282：迫撃砲・MLRS弾種（§2.20）の全数値を口径別に確定、81/120/160mmは互換性なしと明記](/decisions/decision-0282.md) — 迫撃砲・MLRS弾種（§2.20）の全数値を口径別に確定、81/120/160mmは互換性なしと明記を確定した決定履歴。
-- [確定#283：同盟のFTL技術の規模多様性・物流基盤としての中核性・亜空間内主観時間の超長期化と艦船の永続設計要件](/decisions/decision-0283.md) — 同盟のFTL技術の規模多様性・物流基盤としての中核性・亜空間内主観時間の超長期化と艦船の永続設計要件を確定した決定履歴。
-- [確定#284：同盟本国の所在＝亜空間（別次元）に存在する巨大艦隊群、3次元居住者の稀少性、超長期滞在が生む"奇行"（祭り・大会・RimWorld入植）](/decisions/decision-0284.md) — 同盟本国の所在＝亜空間（別次元）に存在する巨大艦隊群、3次元居住者の稀少性、超長期滞在が生む"奇行"（祭り・大会・RimWorld入植）を確定した決定履歴。
-- [確定#285：FTL航法（ワープ）危険性のイメージ元＝ウォーハンマー40,000のウォープ航法、同盟自身はこれを防ぐ対抗技術を保有](/decisions/decision-0285.md) — FTL航法（ワープ）危険性のイメージ元＝ウォーハンマー40,000のウォープ航法、同盟自身はこれを防ぐ対抗技術を保有を確定した決定履歴。
-- [確定#286：大型艦艇が星系内に直接FTL帰還しない理由（星系破壊/更なる惨事のリスク・他アルコテックとの関係悪化）——ただしin-universeの推測に留まる](/decisions/decision-0286.md) — 大型艦艇が星系内に直接FTL帰還しない理由（星系破壊/更なる惨事のリスク・他アルコテックとの関係悪化）——ただしin-universeの推測に留まるを確定した決定履歴。
-- [確定#287：同盟自身も多くが人間に理解不能な存在であること・目的の平易な説明とその限界・内戦前からの頂点(旧指導部)の謎・真空エネルギー技術に見る限定的な民間進歩（確定#286の補足）](/decisions/decision-0287.md) — 同盟自身も多くが人間に理解不能な存在であること・目的の平易な説明とその限界・内戦前からの頂点(旧指導部)の謎・真空エネルギー技術に見る限定的な民間進歩（確定番号286の補足）を確定した決定履歴。
-- [確定#288：同盟本国が存在する空間はFTLの歪曲空間（亜空間）とは別物——指導部の説明では「完璧に管理された空間」（ユーザー訂正で確定#284を改訂）](/decisions/decision-0288.md) — 同盟本国が存在する空間はFTLの歪曲空間（亜空間）とは別物——指導部の説明では「完璧に管理された空間」（ユーザー訂正で確定番号284を改訂）を確定した決定履歴。
-- [確定#289：同盟本国の機械は既定現実（通常の3次元空間）での稼働を想定しておらず、技術水準の高さに反して故障率が極めて高く生産性も低い](/decisions/decision-0289.md) — 同盟本国の機械は既定現実（通常の3次元空間）での稼働を想定しておらず、技術水準の高さに反して故障率が極めて高く生産性も低いを確定した決定履歴。
-- [確定#290：ゲラーフィールド相当の防護技術は艦船内・特別設備の保護下でのみ有効——巡洋艦以上が設置する"アンカー"で後続艦隊は安全に増援可能、初回到達（アンカー無し）は依然として危険（確定#285を補足・未解決課題を解決）](/decisions/decision-0290.md) — ゲラーフィールド相当の防護技術は艦船内・特別設備の保護下でのみ有効——巡洋艦以上が設置する"アンカー"で後続艦隊は安全に増援可能、初回到達（アンカー無し）は依然として危険（確定番号285を補足・未解決課題を解決）を確定した決定履歴。
-- [確定#291：同盟人の対外心理——無自覚の絶対的優位・同胞化勧誘の恣意的な同意判定・ペット的扱い・"躾"としての善意介入](/decisions/decision-0291.md) — 同盟人の対外心理——無自覚の絶対的優位・同胞化勧誘の恣意的な同意判定・ペット的扱い・"躾"としての善意介入を確定した決定履歴。
-- [確定#292：気まぐれなシオン/Shionと現地コミュニティ——好かれ、勝手な同胞化が分断を生み、最悪の場合本国介入で"地獄"と化す著名な顛末](/decisions/decision-0292.md) — 気まぐれなシオン/Shionと現地コミュニティ——好かれ、勝手な同胞化が分断を生み、最悪の場合本国介入で"地獄"と化す著名な顛末を確定した決定履歴。
-- [確定#293：独立開拓団は"普通の"人間性を保持し、同盟人と異なり人間らしく非合理的に反応する——価値観の違いは開拓環境ゆえ（確定#291を補足）](/decisions/decision-0293.md) — 独立開拓団は"普通の"人間性を保持し、同盟人と異なり人間らしく非合理的に反応する——価値観の違いは開拓環境ゆえ（確定番号291を補足）を確定した決定履歴。
-- [確定#294：資源名「液化メカナイト」を「cell」へ改名](/decisions/decision-0294.md) — 資源名「液化メカナイト」を「cell」へ改名を確定した決定履歴。
-- [確定#295：新技術「秘文字」を新設——cellとエネルギーで発動する魔法技術（アークナイツ「アーツ」参考・要訓練・要才能・シオン/Shionには無害）](/decisions/decision-0295.md) — 新技術「秘文字」を新設——cellとエネルギーで発動する魔法技術（アークナイツ「アーツ」参考・要訓練・要才能・シオン/Shionには無害）を確定した決定履歴。
-- [確定#296：秘文字はサイキック技術の特殊版——精神感応性を要求しない（確定#295を補足）](/decisions/decision-0296.md) — 秘文字はサイキック技術の特殊版——精神感応性を要求しない（確定番号295を補足）を確定した決定履歴。
-- [確定#297：秘文字は基本的にシオン/Shionにしか理解できない技術——他のアルコテック存在なら理解できるだろう（確定#295/#296を補足）](/decisions/decision-0297.md) — 秘文字は基本的にシオン/Shionにしか理解できない技術——他のアルコテック存在なら理解できるだろう（確定番号295/番号296を補足）を確定した決定履歴。
-- [確定#298：秘文字の技術は歴史が非常に浅い（確定#295〜#297を補足）](/decisions/decision-0298.md) — 秘文字の技術は歴史が非常に浅い（確定番号295〜番号297を補足）を確定した決定履歴。
-- [確定#299：用語定義「同盟人」＝政治的に興味のない普通のシオン/Shion——人間とシオン/Shionの隔たりは人間とアリ程度（基本的な生物ロジックに縛られる点で本質は大差ない）](/decisions/decision-0299.md) — 用語定義「同盟人」＝政治的に興味のない普通のシオン/Shion——人間とシオン/Shionの隔たりは人間とアリ程度（基本的な生物ロジックに縛られる点で本質は大差ない）を確定した決定履歴。
-- [確定#300：新規拡張MOD「叛逆航路」（原題：Ancillary Justice・旧称/開発コード：Shion Nexus）を登録——単一Nexus Core運営という例外的ゲームプレイ、既存loreとの4件の競合を解決](/decisions/decision-0300.md) — 新規拡張MOD「叛逆航路」（原題：Ancillary Justice・旧称/開発コード：Shion Nexus）を登録——単一Nexus Core運営という例外的ゲームプレイ、既存loreとの4件の競合を解決を確定した決定履歴。
-- [確定#301：MOD名称を「分身」へ改名／Nexus Core（ハイブ）の正体＝自己複製した模範的な普通のシオン/Shion、法遵守ゆえに本国が扱いかねる存在、RimWorldでの同盟的行為が名声を通じ本国支援を事実上強制する構図（確定#300を改訂）](/decisions/decision-0301.md) — MOD名称を「分身」へ改名／Nexus Core（ハイブ）の正体＝自己複製した模範的な普通のシオン/Shion、法遵守ゆえに本国が扱いかねる存在、RimWorldでの同盟的行為が名声を通じ本国支援を事実上強制する構図（確定番号300を改訂）を確定した決定履歴。
-- [確定#302：「分身」の基本的なバランス調整はVanilla Expandedシリーズを参考にする](/decisions/decision-0302.md) — 「分身」の基本的なバランス調整はVanilla Expandedシリーズを参考にするを確定した決定履歴。
-- [確定#303：外部リファレンス「アークナイツ:エンドフィールド AICシステム設計分析レポート」を新規資料として追加](/decisions/decision-0303.md) — 外部リファレンス「アークナイツ:エンドフィールド AICシステム設計分析レポート」を新規資料として追加を確定した決定履歴。
-- [確定#304：工業（§12ゼロ点エネルギー地場システム・cell・パイプライン関連設備）をCoreMODから分離し、新設「Shion Race:」冠称の共有前提MOD「Shion Race: 無零花」（仮称）へ移管](/decisions/decision-0304.md) — 工業（§12ゼロ点エネルギー地場システム・cell・パイプライン関連設備）をCoreMODから分離し、新設「Shion Race:」冠称の共有前提MOD「Shion Race: 無零花」（仮称）へ移管を確定した決定履歴。
-- [確定#305：分身固有の工業メカニクス（Tower Ledger等）をShion Race: 無零花の単一工業システムへ統合——Shion Race: 無零花は大幅な改変を予定](/decisions/decision-0305.md) — 分身固有の工業メカニクス（Tower Ledger等）をShion Race: 無零花の単一工業システムへ統合——Shion Race: 無零花は大幅な改変を予定を確定した決定履歴。
-- [確定#306：「Shion Race: 無零花」を「Shion Race: 地場」へ改称し、正式な仕様書シオン/Shion_地場_仕様書_v1.mdを新設——§12全内容をCoreMOD資料から物理移設](/decisions/decision-0306.md) — 「Shion Race: 無零花」を「Shion Race: 地場」へ改称し、正式な仕様書シオン/Shion地場仕様書v1.mdを新設——§12全内容をCoreMOD資料から物理移設を確定した決定履歴。
-- [確定#307：シオン/Shion_地場_仕様書_v1.md§12（旧12.1〜12.13：地場濃度ゲージ・無零花・発電機・濃縮真空エネルギー・cell・パイプライン設備・3Dプリンター・液体装薬注入機、全て）を原則放棄し、Tower Ledger統合工業システム（§13）へ全面統合](/decisions/decision-0307.md) — シオン/Shion地場仕様書v1.md§12（旧12.1〜12.13：地場濃度ゲージ・無零花・発電機・濃縮真空エネルギー・cell・パイプライン設備・3Dプリンター・液体装薬注入機、全て）を原則放棄し、Tower…。
-- [確定#308：確定#307の放棄範囲を修正——3Dプリンター・液体装薬注入機はTower Ledger統合工業の設備として存続、cell/CVEは台帳スカラー方式に統一、PAC/パイプライン系は独立システムとして廃止](/decisions/decision-0308.md) — 確定番号307の放棄範囲を修正——3Dプリンター・液体装薬注入機はTower Ledger統合工業の設備として存続、cell/CVEは台帳スカラー方式に統一、PAC/パイプライン系は独立システムとして廃止を確定した決定履歴。
-- [確定#309：Tower Ledger統合工業システムの詳細設計を「アークナイツ:エンドフィールドAIC設計分析レポート」のRecommendationsに沿って1項目ずつ確定する方針を採用——第1項目「中継塔（統合物流ノード）」を確定](/decisions/decision-0309.md) — Tower Ledger統合工業システムの詳細設計を「アークナイツ:エンドフィールドAIC設計分析レポート」のRecommendationsに沿って1項目ずつ確定する方針を採用——第1項目「中継塔（統合物流ノード）」を確定した決定履歴。
-- [確定#310：Tower Ledger統合工業システムの基礎資源をCVE・デジタル資材・労務資本・Cellの4種へ絞り込み（ステラリスの資源体系を参考）——戦略資源・特殊素材は後回し](/decisions/decision-0310.md) — Tower Ledger統合工業システムの基礎資源をCVE・デジタル資材・労務資本・Cellの4種へ絞り込み（ステラリスの資源体系を参考）——戦略資源・特殊素材は後回しを確定した決定履歴。
-- [確定#311：確定#310のCellの位置づけを修正——Cellは「橋渡し役」に加え、ステラリスの合金（Alloys）に相当する軍事・艦隊関連資源の役割も兼ねる](/decisions/decision-0311.md) — 確定番号310のCellの位置づけを修正——Cellは「橋渡し役」に加え、ステラリスの合金（Alloys）に相当する軍事・艦隊関連資源の役割も兼ねるを確定した決定履歴。
-- [確定#312：基礎資源「デジタル資材」を「構造材料」へ改称](/decisions/decision-0312.md) — 基礎資源「デジタル資材」を「構造材料」へ改称を確定した決定履歴。
-- [確定#313：基礎資源に食料・消費財を追加し6種へ拡張——食料はCVEが代替、消費財は同盟本国の名声・シルバー獲得手段を兼ねる](/decisions/decision-0313.md) — 基礎資源に食料・消費財を追加し6種へ拡張——食料はCVEが代替、消費財は同盟本国の名声・シルバー獲得手段を兼ねるを確定した決定履歴。
-- [確定#314：消費財に「生活水準」システムを追加——ステラリスの生活水準（消費財消費倍率とバフのトレードオフ）を参考に、労働資本/ポーン当たりの設備生産性バフを消費財消費と引き換えに得る仕組みを導入](/decisions/decision-0314.md) — 消費財に「生活水準」システムを追加——ステラリスの生活水準（消費財消費倍率とバフのトレードオフ）を参考に、労働資本/ポーン当たりの設備生産性バフを消費財消費と引き換えに得る仕組みを導入を確定した決定履歴。
-- [確定#315：「労務資本」を「人口」と「労働者」の2資源へ分割——基礎資源は7種へ](/decisions/decision-0315.md) — 「労務資本」を「人口」と「労働者」の2資源へ分割——基礎資源は7種へを確定した決定履歴。
-- [確定#316：ステラリスの抽象的な資源（研究力・統合力・影響力）を資源枠として予約——研究力は毎朝8時にバニラ研究を自動進行、統合力は役職相当バフ付与等、影響力はワールドマップ機能用](/decisions/decision-0316.md) — ステラリスの抽象的な資源（研究力・統合力・影響力）を資源枠として予約——研究力は毎朝8時にバニラ研究を自動進行、統合力は役職相当バフ付与等、影響力はワールドマップ機能用を確定した決定履歴。
-- [確定#317：研究力＋統合力を両方消費してアノマリー研究／アルコテック技術研究の2ポイントへ変換——Anomaly非必須化のため分離、アルコテック技術はCoreMODとNexus Coreで性能差](/decisions/decision-0317.md) — 研究力＋統合力を両方消費してアノマリー研究／アルコテック技術研究の2ポイントへ変換——Anomaly非必須化のため分離、アルコテック技術はCoreMODとNexus Coreで性能差を確定した決定履歴。
-- [確定#318：後回しにした戦略資源・特殊素材のうち、特筆すべき対応関係のみ先行記録（生体金属・ナノマシン・ズィロ・ダークマター・出土品）](/decisions/decision-0318.md) — 後回しにした戦略資源・特殊素材のうち、特筆すべき対応関係のみ先行記録（生体金属・ナノマシン・ズィロ・ダークマター・出土品）を確定した決定履歴。
+- [REG-005 単一個体として保存](/pawn/reg-005.md) — MUST: プレイヤー設計を名前とindividualIdを持つ一人のIndividual Archiveとして保存し、必要な時にその個体を生産できる。
+- [REG-006 Clone Source](/pawn/reg-006.md) — MUST: Registered Individual、Authored Individual、Saved Pawn DesignをClone Sourceに指定できる。
+- [REG-007 Clone同時存在](/pawn/reg-007.md) — MUST: 同じClone Sourceから複数Pawnを同時に活動させられる。
+- [REG-008 Clone後の分岐](/pawn/reg-008.md) — MUST: Clone生成後の経験、関係、傷、改造、装備、登録状態を個別に保存し、元個体または他Cloneへ自動同期しない。
+- [REG-009 外部権利の複製](/pawn/reg-009.md) — MUST: Quest所有権、派閥役職、Royalty称号、固有WorldObject参照、固有装備、Bond等を能力と一緒に暗黙複製しない。
+- [REG-010 登録解除](/pawn/reg-010.md) — MUST: Archiveを削除する操作は対象個体、失われる再実体化能力、活動中・Dormant実体、Clone Source参照を表示し、明示確認を要求する。
+- [SAVE-001 保存正本](/pawn/save-001.md) — MUST: Pawn Design、Individual Archive、Clone Lineage、Dormant Record、Generation Request、Recovery Record、各ID、途中状態を保存する。
+- [SAVE-002 Ephemeral不在](/pawn/save-002.md) — MUST: 再資源化済みEphemeral Pawnは、保存・ロード後にWorld Pawn、Relation、Corpse、Archive、参照付き履歴として復活しない。
+- [SAVE-003 同一ビルド往復](/pawn/save-003.md) — MUST: β期間中も同一ビルドの途中保存・ロードを保証する。
+- [SAVE-004 途中状態](/pawn/save-004.md) — MUST: 生産、Dormant化、再配備、回収、再起動、再資源化、再実体化、Cloneの各途中状態から安全に再開する。
+- [SAVE-005 ID一意性](/pawn/save-005.md) — MUST: 保存・ロード後もdesignId、individualId、pawnInstanceId、lineageIdを重複させない。
+- [SAVE-006 Archive欠損](/pawn/save-006.md) — MUST: 欠落Def、破損Archive、利用不能Moduleを無言で置換しない。
+- [UX-001 Pawn Foundry](/pawn/ux-001.md) — MUST: Pawn Foundryの第一階層を次の三つにする。
+- [UX-002 費用Preview](/pawn/ux-002.md) — MUST: 生産前にBody、Module、能力、装備、時間、現在在庫、不足、代替、登録方式を表示する。
+- [UX-003 個体種別](/pawn/ux-003.md) — MUST: Ephemeral、Registered、Design output、Clone、Dormantを、色だけに依存せず文字とIconで区別する。
+- [UX-004 破壊的操作](/pawn/ux-004.md) — MUST: Ephemeral遺体の再資源化とArchive削除は、同じ個体を復元できなくなることを明示する。
+- [UX-005 Clone識別](/pawn/ux-005.md) — MUST: 同名・同外見のCloneを許可しつつ、選択、医療、装備、命令で区別できる短い表示識別子を提供する。
+- [UX-006 簡易注文](/pawn/ux-006.md) — MUST: プレイヤーが詳細設計を開かず、「建築担当を一人」「射手を四人」「この個体のCloneを十人」のような注文を行える。
+- [一文で言うなら](/player-facing/000-%E4%B8%80%E6%96%87%E3%81%A7%E8%A8%80%E3%81%86%E3%81%AA%E3%82%89.md) — 古い帝国の力と使命を受け継ぎながら、自由で俗世的な本物の理想郷を築いた狐型機械人が、辺境にも善い暮らしを作ろうとする物語。
+- [プレイヤーが最初から知ること](/player-facing/001-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%9C%80%E5%88%9D%E3%81%8B%E3%82%89%E7%9F%A5%E3%82%8B%E3%81%93%E3%81%A8.md) — シオンは、製造された身体を持つ機械の民であり、また一人ずつ別の人格を持ち、人工知能でも集合意識でもありません。
+- [β版のPawn工業](/player-facing/002-%CE%B2%E7%89%88%E3%81%AEPawn%E5%B7%A5%E6%A5%AD.md) — β版では、必要な仕事に適合するランダムなシオン、登録済みの個体、プレイヤーが一から設計した個体、既存個体のCloneをPawn Foundryから生産できます。
+- [善意とすれ違い](/player-facing/003-%E5%96%84%E6%84%8F%E3%81%A8%E3%81%99%E3%82%8C%E9%81%95%E3%81%84.md) — 帝国も同盟も、苦痛、欠乏、混乱を放置することを善しとしません。
+- [プレイヤーが感じる順序](/player-facing/004-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%84%9F%E3%81%98%E3%82%8B%E9%A0%86%E5%BA%8F.md) — この順序を逆転させない、また開始直後から同盟を残虐な秘密国家として見せると、作品は普通のディストピア暴露になる。
+- [帝国と同盟を見せる方法](/player-facing/005-%E5%B8%9D%E5%9B%BD%E3%81%A8%E5%90%8C%E7%9B%9F%E3%82%92%E8%A6%8B%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95.md) — 帝国史を長く講義する必要はありません、また現在の暮らしに残る層で見せます。
+- [通常プレイで説明しないこと](/player-facing/006-%E9%80%9A%E5%B8%B8%E3%83%97%E3%83%AC%E3%82%A4%E3%81%A7%E8%AA%AC%E6%98%8E%E3%81%97%E3%81%AA%E3%81%84%E3%81%93%E3%81%A8.md) — 必要になった時、クエスト一件につき一つの中心問題だけを見せます。
+- [短文](/player-facing/007-%E7%9F%AD%E6%96%87.md) — 食事も仕事も身体も選べる狐型機械人シオンと、辺境に小さな楽園を築こう。
+- [長文](/player-facing/008-%E9%95%B7%E6%96%87.md) — シオンは、製品として作られた身体を自分たちの手へ取り戻した狐型の機械人です。
+- [Red Star紹介文](/player-facing/009-Red-Star%E7%B4%B9%E4%BB%8B%E6%96%87.md) — Red Starは、本国が正式に派遣する開拓団です。
+- [文章の声](/player-facing/010-%E6%96%87%E7%AB%A0%E3%81%AE%E5%A3%B0.md) — 同盟人は、自国の矛盾を悪役のように解説しません。
+- [視覚と技術の基準](/player-facing/011-%E8%A6%96%E8%A6%9A%E3%81%A8%E6%8A%80%E8%A1%93%E3%81%AE%E5%9F%BA%E6%BA%96.md) — 未来性は、現代的な画面や軍用品ではなく、古い文明の手触りから不可能な結果が出ることで示します。
+- [最小用語集](/player-facing/012-%E6%9C%80%E5%B0%8F%E7%94%A8%E8%AA%9E%E9%9B%86.md) — これ以上の語は、登場するクエストや機能の中でその都度説明します。
+- [0. Purpose](/research/anomaly-monolith/00-Purpose.md) — This document records user-provided screenshots of RimWorld Anomaly-style monolith structures as a visual reference for the redesigned…。
+- [1. Why Anomaly monoliths are useful](/research/anomaly-monolith/01-Why-Anomaly-monoliths-are-useful.md) — Anomaly monolith visuals are useful because they communicate、具体的にはa unique central object;とdormant mystery;を扱う。
+- [2. What to adopt](/research/anomaly-monolith/02-What-to-adopt.md) — Adopt structurally、具体的にはone strong central block;とside supports or buttresses;を扱う。
+- [3. What not to copy](/research/anomaly-monolith/03-What-not-to-copy.md) — Shion Nexus is not Anomaly horror. It is a quiet ceramic clockwork singularity.。
+- [4. Three-state Core visual lesson](/research/anomaly-monolith/04-Three-state-Core-visual-lesson.md) — The screenshots suggest a useful three-stage language、具体的にはBroken/dormant slab：Dormant Core: dark aperture, sealed face, no strong…。
+- [5. Shape options influenced by Anomaly monoliths](/research/anomaly-monolith/05-Shape-options-influenced-by-Anomaly-monoliths.md) — Shape options influenced by Anomaly monolithsは、central raised slab;とbroad lower platform;を扱う。
+- [6. Color translation](/research/anomaly-monolith/06-Color-translation.md) — Default Nexus Core must not be red. Default is white/void/blue-violet.。
+- [7. Relationship to existing references](/research/anomaly-monolith/07-Relationship-to-existing-references.md) — This reference complements、具体的にはdocs/27VANILLAARCHOTECHRUINSVISUALREFERENCE.mdとdocs/26COLORTHEMEANDEQUIPMENTPALETTE.mdを扱う。
+- [8. Performance and implementation notes](/research/anomaly-monolith/08-Performance-and-implementation-notes.md) — Anomaly-style stage readability should be implemented as static state variants, not animation-heavy effects.。
+- [9. Updated Core prompt guidance](/research/anomaly-monolith/09-Updated-Core-prompt-guidance.md) — Japanese guidance:という方針の適用範囲と条件を定める。
+- [10. Final rule](/research/anomaly-monolith/10-Final-rule.md) — Use Anomaly monoliths as a reference for central-object weight and state escalation, not for horror identity.。
+- [0. Purpose](/research/archotech-ruins/00-Purpose.md) — This document records the visual direction taken from user-provided screenshots of vanilla-style archotech ruins and translates it into…。
+- [1. Why the current complex Core panel direction should change](/research/archotech-ruins/01-Why-the-current-complex-Core-panel-direction-should-change.md) — The previous Nexus Core visual direction risked looking like、具体的にはa complex circuit-board panel;とa generic equipment block;を扱う。
+- [2. Vanilla archotech ruin lessons](/research/archotech-ruins/02-Vanilla-archotech-ruin-lessons.md) — The supplied reference images suggest these useful visual traits、具体的にはlarge simple block masses;とthick black outlines;を扱う。
+- [3. Core visual direction change](/research/archotech-ruins/03-Core-visual-direction-change.md) — Preferred alpha form、具体的にはsimple central vertical mass;とbroad dark base or plinth;を扱う。
+- [4. Three acceptable Core silhouette options](/research/archotech-ruins/04-Three-acceptable-Core-silhouette-options.md) — Preferred alpha choice、具体的にはCore Tower：3x3 tower-like sealed monolith with crown fins and central aperture.：Preferred alpha Core.：Must…。
+- [5. Color translation from vanilla ruins to Shion Nexus](/research/archotech-ruins/05-Color-translation-from-vanilla-ruins-to-Shion-Nexus.md) — Vanilla-like archotech ruins often read through gray, olive, pale panels, and sparse glowing lines. Shion Nexus should shift that…。
+- [6. Updated Nexus Core palette](/research/archotech-ruins/06-Updated-Nexus-Core-palette.md) — Core Tower should use、具体的にはdominant: Enamel White / Pale Ceramic Ivory;とlower support: Blue-Black Navy or dark gray support block;を扱う。
+- [7. Per-state Core visual rules](/research/archotech-ruins/07-Per-state-Core-visual-rules.md) — Per-state Core visual rulesは、State：Visual directionとDormant：dark lens, closed tower face, no ledger line except faint mark.を扱う。
+- [8. Relationship to other alpha buildings](/research/archotech-ruins/08-Relationship-to-other-alpha-buildings.md) — The Core Tower must be visually more important than every other alpha building.。
+- [9. Art prompt direction, not image generation request](/research/archotech-ruins/09-Art-prompt-direction-not-image-generation-request.md) — RimWorld風Nexus Core Towerの形状、配色、材質、禁止表現を将来の画像資産向けに指定する。
+- [10. Final visual rule](/research/archotech-ruins/10-Final-visual-rule.md) — Nexus Core should look like a quiet archotech-like ceramic Core Tower: simple, heavy, readable, and irreplaceable.。
+- [TL;DR](/research/endfield-aic/000-TL;DR.md) — TL;DRは、AIC(Automated Industry Complex／統合工業システム)は、2026年1月22日にグローバル正式リリースされたEndfieldの「ゲームの半分」を占める中核工場システムで…。
+- [Key Findings](/research/endfield-aic/001-Key-Findings.md) — Key Findingsは、PAC(Protocol Anchor Core／Protocol Automation-Core)が全ての中心。
+- [Details(設計分析としての示唆)](/research/endfield-aic/002-Details%E8%A8%AD%E8%A8%88%E5%88%86%E6%9E%90%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E7%A4%BA%E5%94%86.md) — Endfieldの最大の設計的発明は「工場を独立したミニゲームにせず、進行の必須経路に組み込んだ」点にある。
+- [Recommendations(RimWorld種族MOD設計への段階的提言)](/research/endfield-aic/003-RecommendationsRimWorld%E7%A8%AE%E6%97%8FMOD%E8%A8%AD%E8%A8%88%E3%81%B8%E3%81%AE%E6%AE%B5%E9%9A%8E%E7%9A%84%E6%8F%90%E8%A8%80.md) — Recommendations(RimWorld種族MOD設計への段階的提言)は、まず「固定スループット＋詰まり可視化」を核に据える。
+- [Caveats](/research/endfield-aic/004-Caveats.md) — Caveatsは、数値仕様の出典:ベルト速度30個/分、パイプ2 unit/秒、電力値(Thermal Bank/バッテリー)、制御ポート上限1〜5000等は、公式コミュニティwiki(endfield.wiki.gg)とGame8/GameWith等の攻略サイト…。
+- [0. Purpose](/research/external-videos/00-Purpose.md) — This document records external video references that may inform Shion Nexus design.。
+- [1. Fleshbeast Colony gameplay videos](/research/external-videos/01-Fleshbeast-Colony-gameplay-videos.md) — The following URLs were identified by the user as Fleshbeast Colony gameplay videos.。
+- [2. Shion Nexus relevance](/research/external-videos/02-Shion-Nexus-relevance.md) — Fleshbeast Colony remains a structural reference only.。
+- [3. Performance review checklist](/research/external-videos/03-Performance-review-checklist.md) — When reviewing the videos, note、具体的にはwhether the system appears to add many active pawns;とwhether routine work is abstracted or…。
+- [4. Final rule](/research/external-videos/04-Final-rule.md) — These videos are reference evidence for how Fleshbeast Colony feels in play, not a mandate to copy its systems.。
+- [0. Purpose](/research/fleshbeast/00-Purpose.md) — This document records the user-provided analysis of the three-part gameplay videos for Fleshbeast Colony / フレッシュビースト・コロニー and…。
+- [1. Source status](/research/fleshbeast/01-Source-status.md) — The details below are treated as a user-provided field report from gameplay videos.。
+- [2. Core resource and territory system](/research/fleshbeast/02-Core-resource-and-territory-system.md) — Fleshbeast Colony appears to replace ordinary colony economy with Hemogel, a biomass-like resource used for creature production, flesh…。
+- [3. Human mutation, core creation, and division loop](/research/fleshbeast/03-Human-mutation-core-creation-and-division-loop.md) — A mutated human can become a one-per-map Flesh Heart that serves as the colony core and produces Hemogel passively.。
+- [4. Creature system and fusion progression](/research/fleshbeast/04-Creature-system-and-fusion-progression.md) — Creatures can apparently be assigned to a master-like pawn group, similar in feel to mech escort commands: follow, attack, guard, or…。
+- [5. Buildings and infrastructure](/research/fleshbeast/05-Buildings-and-infrastructure.md) — Flesh walls/doors appear instantly from the ground when ordered and consume Hemogel. Flesh doors regenerate extremely quickly and can…。
+- [6. Economy and raid-balance implication](/research/fleshbeast/06-Economy-and-raid-balance-implication.md) — The reported gameplay impression is that many creatures and flesh buildings may have low or poorly counted colony wealth, allowing a…。
+- [7. Adopt / avoid table for Shion Nexus](/research/fleshbeast/07-Adopt-avoid-table-for-Shion-Nexus.md) — Adopt / avoid table for Shion Nexusは、Fleshbeast pattern：Shion Nexus decisionとSingle vulnerable core：Adopt structurally through Nexus…。
+- [8. Alpha impact](/research/fleshbeast/08-Alpha-impact.md) — This reference does not change Alpha 0.1 scope.。
+- [9. Performance cautions](/research/fleshbeast/09-Performance-cautions.md) — Do not import these patterns into Shion Nexus without hard limits、具体的にはauto-expanding territory;とauto-capturing floor;を扱う。
+- [10. Final lesson](/research/fleshbeast/10-Final-lesson.md) — Fleshbeast Colony is a strong reference because it fully commits to being a different colony ecology.。
+- [Boundary](/research/known-code/000-Boundary.md) — Code-level reuse is limited to repositories owned by Daffodil. Monolyn Race, Fleshbeast Colony, Arachnae Swarm 2, Dolls Nest, RimWorld,…。
+- [Sources inspected](/research/known-code/001-Sources-inspected.md) — - Daffodil-lab/Meiko-Race-The-Manufactured-Utopia-A-Clockwork-Fox-Doll at indexed commit aed3ab77724fdab6cf9166abab80bf2dd22a9e96. -…。
+- [Adopted and ported](/research/known-code/002-Adopted-and-ported.md) — Adopted and portedは、Source：Reused idea：Kombinat resultとMeikoNexus.csproj：net472, Krafs.Rimworld.Ref, direct Assemblies…。
+- [Adapt, do not copy directly](/research/known-code/003-Adapt-do-not-copy-directly.md) — Adapt, do not copy directlyは、Legacy code：ReasonとCompNexusCore CVE and digital-material fields：Aggregate reservedCVE floats have no…。
+- [Rejected from the runtime](/research/known-code/004-Rejected-from-the-runtime.md) — - A monolithic Core building Comp as the owner of resource truth. - Separate aggregate reservation totals without reservation records.…。
+- [First vertical-slice guarantees](/research/known-code/005-First-vertical-slice-guarantees.md) — 1. Five canonical inventory resources are Defs; population, labor, bandwidth, capacity, research, fame, and defense readiness are not…。

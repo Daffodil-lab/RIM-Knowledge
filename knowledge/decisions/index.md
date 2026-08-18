@@ -1,4 +1,4 @@
-# 決定履歴
+# 決定履歴（authority: historical / status: deprecated のリンク維持履歴層）
 
 379件を80件以下の小索引へ分割しています。概念ファイルのURLは変更していません。
 

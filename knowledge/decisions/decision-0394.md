@@ -13,7 +13,7 @@ tags:
   - "beta"
 organization_groups:
   - "kombinat-communities"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

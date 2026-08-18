@@ -17,14 +17,14 @@ generated:
   at: "2026-08-04T18:44:05+09:00"
 sources:
   - id: "official-okf-v02"
-    resource: "https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md"
+    resource: "https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/fe3268a70e8ca5110a43a8f1dfdf6d1a458cf79f/okf/SPEC.md"
     title: "Open Knowledge Format (OKF) Version 0.2"
-    last_modified: "2026-07-24"
+    last_modified: "2026-08-14"
 ---
 
 # Open Knowledge Format 0.2 日本語規範解説
 
-この文書は、GoogleCloudPlatformの公式英語版Open Knowledge Format 0.2を、RIMで使う人が日本語で判断できるように整理した非公式の日本語解説である。解釈が食い違う場合は、固定コミットの[公式仕様](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md)を優先する。
+この文書は、GoogleCloudPlatformの公式英語版Open Knowledge Format 0.2を、RIMで使う人が日本語で判断できるように整理した非公式の日本語解説である。解釈が食い違う場合は、固定コミットの[公式仕様](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/fe3268a70e8ca5110a43a8f1dfdf6d1a458cf79f/okf/SPEC.md)を優先する。
 
 原資料はApache License 2.0で公開されている。この文書は原資料を日本語化し、RIM固有の運用との対応を追記した派生資料であり、公式訳ではない。
 
@@ -152,10 +152,17 @@ node knowledge/tools/validate-okf-v02.mjs --json
 
 CIは通常モードを使う。既存資料を一括して`verified`へ変更せず、実際に出典照合した概念だけへ検証イベントを追加する。
 
+## 9. 上流仕様とVisualize参照実装
+
+`okf/SPEC.md`がGoogleCloudPlatform/knowledge-catalogにおけるOKF 0.2の上流規範である。上流の`okf/src/reference_agent/viewer`と`okf/src/reference_agent/cli.py`は、OKFを読むVisualize（consumer PoC）の参照実装として扱う。Visualizeは仕様適合を補助する消費側の実装であり、OKF 0.2の必須仕様ではない。
+
+RIMは、上流の概念構造を参照しつつ、RIM固有の`canonical_for`、`canonical_owner`、`knowledge_role`、`authority`などをRIM側の拡張として管理する。上流追随の所有境界と確認頻度は[Google上流OKF追随方針](/governance/okf-upstream-following-policy.md)で定める。原資料はApache License 2.0で公開されているため、出典とライセンスを保持し、上流コードをRIM正本へ自動取り込みしない。
+
 ## 関連項目
 
 - RIMのメタデータ正本: [RIM OKFメタデータ契約](/governance/metadata-contract.md)
 - 更新手順: [OKF知識の更新手順](/governance/editing-workflow.md)
 - 検証コマンド: [OKF保守ツール](/tools/index.md)
-- 公式英語版: [Open Knowledge Format 0.2](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/3fcbb9f828c2f23d109c855ee403c3a4c81f3a96/okf/SPEC.md)
+- 公式英語版: [Open Knowledge Format 0.2](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/fe3268a70e8ca5110a43a8f1dfdf6d1a458cf79f/okf/SPEC.md)
+- 上流追随方針: [Google上流OKF追随方針](/governance/okf-upstream-following-policy.md)
 - ライセンス: [Apache License 2.0](https://github.com/GoogleCloudPlatform/knowledge-catalog/blob/main/LICENSE.md)
