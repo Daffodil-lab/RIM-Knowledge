@@ -1,9 +1,10 @@
 # stable 17
 
-範囲: 6. Economy and raid-balance implication〜8. 現在地
+範囲: 5. Buildings and infrastructure〜7. バージョン運用
 
 ## 項目
 
+- [5. Buildings and infrastructure](/research/fleshbeast/05-Buildings-and-infrastructure.md) — Flesh walls/doors appear instantly from the ground when ordered and consume Hemogel. Flesh doors regenerate extremely quickly and can…。
 - [6. Economy and raid-balance implication](/research/fleshbeast/06-Economy-and-raid-balance-implication.md) — The reported gameplay impression is that many creatures and flesh buildings may have low or poorly counted colony wealth, allowing a…。
 - [7. Adopt / avoid table for Shion Nexus](/research/fleshbeast/07-Adopt-avoid-table-for-Shion-Nexus.md) — Adopt / avoid table for Shion Nexusは、Fleshbeast pattern：Shion Nexus decisionとSingle vulnerable core：Adopt structurally through Nexus…。
 - [8. Alpha impact](/research/fleshbeast/08-Alpha-impact.md) — This reference does not change Alpha 0.1 scope.。
@@ -83,4 +84,3 @@
 - [5. β版](/roadmap/05-%CE%B2%E7%89%88.md) — β版は、α版に含めなかったコアMODとレッドスターの要素を追加し、両製品を完成へ到達させる期間である。
 - [6. β終了／1.0完成条件](/roadmap/06-%CE%B2%E7%B5%82%E4%BA%86-1-0%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — 1.0以後も、身体、派閥、クエスト、装備、料理、動物、互換Adapter等を追加できる。
 - [7. バージョン運用](/roadmap/07-%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E9%81%8B%E7%94%A8.md) — バージョン番号だけで品質を主張しない、また各版は本書の完了条件と検証記録を伴う。
-- [8. 現在地](/roadmap/08-%E7%8F%BE%E5%9C%A8%E5%9C%B0.md) — 2026-08-02時点で工業基盤の実装作業は存在するが、工業完成マイルストーンとShion統合αは未完成である。

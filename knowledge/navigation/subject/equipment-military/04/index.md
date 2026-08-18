@@ -1,9 +1,10 @@
 # 装備・軍事 04
 
-範囲: SHION_A366 巡回区画の三つの規則〜71. 軍務貢献認定と帰還権
+範囲: SHION_A354 秩序維持隊の初代隊員〜71. 軍務貢献認定と帰還権
 
 ## 項目
 
+- [SHION_A354 秩序維持隊の初代隊員](/reference/backstories/mastery/SHION_A354.md) — 秩序維持隊の初代選抜で、武器ではなく当事者双方の話を先に聞く役を担った。
 - [SHION_A366 巡回区画の三つの規則](/reference/backstories/mastery/SHION_A366.md) — 持ち場を離れない、武器を見せない、揉め事を数える前に止めるという三規則を守り続けた。
 - [SHION_A407 通信中継隊の暗号係](/reference/backstories/mastery/SHION_A407.md) — 通信中継隊の暗号係では、覚えている数字が三つあります。
 - [2. Arsenal Codexの直接交換から採るもの](/research/kombinat-ui-references/02-Arsenal-Codex%E3%81%AE%E7%9B%B4%E6%8E%A5%E4%BA%A4%E6%8F%9B%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — 接続保管庫からPawnへ直接装備し、現在装備を同じ取引で返す操作を、Coreの原子的武器交換の参照とする。

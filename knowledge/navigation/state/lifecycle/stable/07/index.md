@@ -1,9 +1,10 @@
 # stable 07
 
-範囲: SHION_C079 法衣の内側を読む者〜SHION_C158 ヘイハルKombinatの再会窓口
+範囲: SHION_C078 初めての秘文字校正〜SHION_C157 立入制限地の救護小屋
 
 ## 項目
 
+- [SHION_C078 初めての秘文字校正](/reference/backstories/formation/SHION_C078.md) — 祈祷文そのものではなく、写し間違いを探す役から修業を始めた。
 - [SHION_C079 法衣の内側を読む者](/reference/backstories/formation/SHION_C079.md) — 法衣の表に輝く章句より、裏地へ縫われた修繕記録を好んだ。
 - [SHION_C080 ゴーレム名付け助手](/reference/backstories/formation/SHION_C080.md) — 新しいゴーレムへ識別番号と呼び名の両方を与えた、また命令に必要なのは番号だけだったが、帰還時に皆が呼ぶのは名前だった。
 - [SHION_C081 逆因果句の清掃員](/reference/backstories/formation/SHION_C081.md) — 実習後、床に残った「まだ書かれていない文字」を消す係だった。
@@ -83,4 +84,3 @@
 - [SHION_C155 革命連合後方区の古道具直し](/reference/backstories/formation/SHION_C155.md) — 革命連合の後方では、同じ工具に三つの党派印が重ねて刻まれていました。
 - [SHION_C156 孵育文化区の音楽会通い](/reference/backstories/formation/SHION_C156.md) — 孵育文化区の音楽会通いでは、音楽は必要ありません。
 - [SHION_C157 立入制限地の救護小屋](/reference/backstories/formation/SHION_C157.md) — 立入制限地の救護小屋では、立入制限地へ行くのは好きだった。
-- [SHION_C158 ヘイハルKombinatの再会窓口](/reference/backstories/formation/SHION_C158.md) — Kombinatの再会窓口では、記憶差を故障表のように扱うな、と最初に教わりました。

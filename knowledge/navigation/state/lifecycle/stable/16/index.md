@@ -1,9 +1,10 @@
 # stable 16
 
-範囲: SHION_A380 農区統合の教訓〜5. Buildings and infrastructure
+範囲: SHION_A379 帝国准民の自嘲〜4. Creature system and fusion progression
 
 ## 項目
 
+- [SHION_A379 帝国准民の自嘲](/reference/backstories/mastery/SHION_A379.md) — 帝国准民なんて肩書きがついた日、俺は道具箱の中身を数えていた。
 - [SHION_A380 農区統合の教訓](/reference/backstories/mastery/SHION_A380.md) — 農区統合の教訓では、自分は作られた民族文化を継ぐ。
 - [SHION_A381 処置を受けた医療班長](/reference/backstories/mastery/SHION_A381.md) — 今の本人は、あの頃の同僚がとうに見送った時間の先にいます。
 - [SHION_A382 帝国最初の設計技師](/reference/backstories/mastery/SHION_A382.md) — 帝国という言葉が公式に使われ始めた頃、俺は最初の統合議事堂の設計図を引いていた。
@@ -83,4 +84,3 @@
 - [2. Core resource and territory system](/research/fleshbeast/02-Core-resource-and-territory-system.md) — Fleshbeast Colony appears to replace ordinary colony economy with Hemogel, a biomass-like resource used for creature production, flesh…。
 - [3. Human mutation, core creation, and division loop](/research/fleshbeast/03-Human-mutation-core-creation-and-division-loop.md) — A mutated human can become a one-per-map Flesh Heart that serves as the colony core and produces Hemogel passively.。
 - [4. Creature system and fusion progression](/research/fleshbeast/04-Creature-system-and-fusion-progression.md) — Creatures can apparently be assigned to a master-like pawn group, similar in feel to mech escort commands: follow, attack, guard, or…。
-- [5. Buildings and infrastructure](/research/fleshbeast/05-Buildings-and-infrastructure.md) — Flesh walls/doors appear instantly from the ground when ordered and consume Hemogel. Flesh doors regenerate extremely quickly and can…。

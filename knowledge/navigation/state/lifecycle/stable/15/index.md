@@ -1,9 +1,10 @@
 # stable 15
 
-範囲: SHION_A300 対機械戦区の設備技師〜SHION_A379 帝国准民の自嘲
+範囲: SHION_A299 旧党派収容記録所の徒手警護員〜SHION_A378 秩序維持隊の最終巡回
 
 ## 項目
 
+- [SHION_A299 旧党派収容記録所の徒手警護員](/reference/backstories/mastery/SHION_A299.md) — 旧党派収容記録所で、本人は武器を持たず収容者と見物人の間へ立った。
 - [SHION_A300 対機械戦区の設備技師](/reference/backstories/mastery/SHION_A300.md) — 対機械戦区では、敵性機械の意図を論じる会議が長引いた。
 - [SHION_A301 ヘイハルKombinatの坑道監督](/reference/backstories/mastery/SHION_A301.md) — ヘイハルKombinatの坑道では、銃を持つより地層の音を聞く方が安心できた。
 - [SHION_A302 本国居住区の公共食堂の調理師](/reference/backstories/mastery/SHION_A302.md) — 本国の公共食堂は、救難隊の出発点と帰還場所でもあった。
@@ -83,4 +84,3 @@
 - [SHION_A376 仲裁人の想定問答](/reference/backstories/mastery/SHION_A376.md) — 甲板間の揉め事は、たいてい旧い作法と新しい律法のどちらを優先するかで起きた。
 - [SHION_A377 統合行政区の初日](/reference/backstories/mastery/SHION_A377.md) — 出身圏の旗を全部下ろした日のことを聞きたいのですか。
 - [SHION_A378 秩序維持隊の最終巡回](/reference/backstories/mastery/SHION_A378.md) — 秩序維持隊の最終巡回では、秩序維持隊の任務は単純だった。
-- [SHION_A379 帝国准民の自嘲](/reference/backstories/mastery/SHION_A379.md) — 帝国准民なんて肩書きがついた日、俺は道具箱の中身を数えていた。

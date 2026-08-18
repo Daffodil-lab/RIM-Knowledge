@@ -1,6 +1,6 @@
 # ゲームプレイ・UI
 
-69件。
+70件。
 
 ## 項目
 
@@ -41,6 +41,7 @@
 - [69. カエルム軍功認定契約](/design/69-%E3%82%AB%E3%82%A8%E3%83%AB%E3%83%A0%E8%BB%8D%E5%8A%9F%E8%AA%8D%E5%AE%9A%E5%A5%91%E7%B4%84.md) — 敵対Raidの成立時pointsとバニラQuest成功時pointsだけを一対一で軍功認定し、撃破数を数えず、債務元本とは分離して保存する。
 - [70. カエルム帰還Ending](/design/70-%E3%82%AB%E3%82%A8%E3%83%AB%E3%83%A0%E5%B8%B0%E9%82%84Ending.md) — 軍功閾値によるServiceReturnとMark元本完済によるDebtFreeReturnを別Endingとして判定し、通常のバニラ脱出ではカエルム契約を解消しない。
 - [73. 総力進化戦争のIdeology・軍務履行ループ](/design/73-%E7%B7%8F%E5%8A%9B%E9%80%B2%E5%8C%96%E6%88%A6%E4%BA%89%E3%81%AEIdeology%E3%83%BB%E8%BB%8D%E5%8B%99%E5%B1%A5%E8%A1%8C%E3%83%AB%E3%83%BC%E3%83%97.md) — 総力進化戦争を、バニラIdeology、Raid軍功、帝国軍務教範、支援注文、具体的な政治前例、年次戦勝儀礼を接続する反復ゲームループとして表現する。
+- [74. カエラヴィMODのCore・拡張製品境界](/design/74-%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3MOD%E3%81%AECore%E3%83%BB%E6%8B%A1%E5%BC%B5%E8%A3%BD%E5%93%81%E5%A2%83%E7%95%8C.md) — カエラヴィMODは、バニラと公式DLCの既存状態へ単体で投影できる種族・身体・通常装備をCoreへ置き、横断状態、台帳、政治前例、戦役、自動化を拡張MODへ分離する。
 - [0. 出典と利用範囲](/research/kombinat-ui-references/00-%E5%87%BA%E5%85%B8%E3%81%A8%E5%88%A9%E7%94%A8%E7%AF%84%E5%9B%B2.md) — ユーザー提供映像をKombinatのUI・操作研究に限定して利用し、画像・コード・固有表現のコピー元にはしない。
 - [1. MonolynのネットワークUIから採るもの](/research/kombinat-ui-references/01-Monolyn%E3%81%AE%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AFUI%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — Monolynの集中資源、生産一覧、選択時ネットワーク表示から、Kombinatへ採用する情報設計を抽出する。
 - [3. DSUから採るUIと採らない実装](/research/kombinat-ui-references/03-DSU%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8BUI%E3%81%A8%E6%8E%A1%E3%82%89%E3%81%AA%E3%81%84%E5%AE%9F%E8%A3%85.md) — DSUの検索・任意排出・Pawnアクセスは参照するが、中央Mapセルへ内容物を集積する保管方式は採用しない。

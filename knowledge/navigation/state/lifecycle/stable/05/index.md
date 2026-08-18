@@ -1,9 +1,10 @@
 # stable 05
 
-範囲: ADV-006 Design version pin〜7. 拡張稿（§12 Phase A超過分）
+範囲: ADV-005 Ephemeral参照解決〜6. 参考資料としての区分
 
 ## 項目
 
+- [ADV-005 Ephemeral参照解決](/pawn/adv-005-%E5%8F%82%E7%85%A7%E8%A7%A3%E6%B1%BA.md) — MUST: Ephemeral Pawnの完全削除前に、Relation、Mood Memory、Tale、Quest、Lord、Faction、World Pawn、Bond、外部参照を解決、匿名化、終端記録へ変換する。
 - [ADV-006 Design version pin](/pawn/adv-006-%E8%A6%81%E4%BB%B6.md) — MUST: Generation Requestは開始時のPawn Design、Clone Source checkpoint、Loadout Profile、Gene／Ability候補、Adapter versionをpinする。
 - [ADV-007 Pawn依存Manifest](/pawn/adv-007-%E4%BE%9D%E5%AD%98.md) — MUST: Dormant Record、Individual Archive、Pawn Design、Clone Sourceが依存するpackageId、version、Def、class、Adapterを有限Manifestとして保存する。
 - [ADV-008 Dormant wealth](/pawn/adv-008-%E8%A6%81%E4%BB%B6.md) — MUST: Dormant中の身体と内蔵Moduleを、そのRecordが属するMapまたはWorldObjectのwealthへ一度だけ算入する。
@@ -83,4 +84,3 @@
 - [4. 新規420稿の割当集計](/reference/backstories/04-%E6%96%B0%E8%A6%8F420%E7%A8%BF%E3%81%AE%E5%89%B2%E5%BD%93%E9%9B%86%E8%A8%88.md) — 各新規稿は主Pool一つとSourceModule一つへ同時算入する。
 - [5. 生成プール互換規則](/reference/backstories/05-%E7%94%9F%E6%88%90%E3%83%97%E3%83%BC%E3%83%AB%E4%BA%92%E6%8F%9B%E8%A6%8F%E5%89%87.md) — 生成プール互換規則は、原則として同一Eraの幼少期と成人期を組み合わせる。
 - [6. 参考資料としての区分](/reference/backstories/06-%E5%88%B6%E4%BD%9C%E4%B8%8A%E3%81%AE%E6%AD%A3%E5%8F%B2%E5%8C%BA%E5%88%86.md) — バックストーリーを参考資料として保持し、参考採否と正史・実装・出荷への採用を分離する。
-- [7. 拡張稿（§12 Phase A超過分）](/reference/backstories/07-%E6%8B%A1%E5%BC%B5%E7%A8%BF%C2%A712-Phase-A%E8%B6%85%E9%81%8E%E5%88%86.md) — §12拡張計画のPhase A（新設4時代の最初の稿）のうち、ColonizationEraとJourneyEraをドラフト件数から拡張して追加する。

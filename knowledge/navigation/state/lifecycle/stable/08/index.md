@@ -1,9 +1,10 @@
 # stable 08
 
-範囲: SHION_C159 平和軍演習院の記録実習〜SHION_C238 遅い時計と老いた動物
+範囲: SHION_C158 ヘイハルKombinatの再会窓口〜SHION_C237 海辺の観測菜園
 
 ## 項目
 
+- [SHION_C158 ヘイハルKombinatの再会窓口](/reference/backstories/formation/SHION_C158.md) — Kombinatの再会窓口では、記憶差を故障表のように扱うな、と最初に教わりました。
 - [SHION_C159 平和軍演習院の記録実習](/reference/backstories/formation/SHION_C159.md) — 平和軍演習院では、事実を本文、推測を別紙、後世の注釈を余白へ書きました。
 - [SHION_C160 ヘイハルKombinatの射撃同好会](/reference/backstories/formation/SHION_C160.md) — Kombinatの射撃同好会は、古い照準器を直して新型と競わせる変わった集まりだった。
 - [SHION_C161 革命連合後方区の身体競技](/reference/backstories/formation/SHION_C161.md) — 本人は後方区の身体競技で、勝つより相手を壊さず投げる方が得意だった。
@@ -83,4 +84,3 @@
 - [SHION_C235 自治会跡の採掘調査](/reference/backstories/formation/SHION_C235.md) — 自治会館が崩れたあと、その地下から生活区を直す資材を採りました。
 - [SHION_C236 評議区の持ち寄り膳](/reference/backstories/formation/SHION_C236.md) — 評議区の持ち寄り膳では、社会民主党の煮込みの隣へ共産党のパンが置かれ、元ファシストの漬物だけ少し離されていました。
 - [SHION_C237 海辺の観測菜園](/reference/backstories/formation/SHION_C237.md) — 革命連合の観測区で、本人は党派ごとに一本ずつ畝を任せる菜園を作りました。
-- [SHION_C238 遅い時計と老いた動物](/reference/backstories/formation/SHION_C238.md) — 最盛期の共同居住区には、街の時刻よりいつも遅い時計が一つありました。

@@ -1,9 +1,10 @@
 # stable 09
 
-範囲: SHION_C239 星間市場の道具工房〜SHION_C318 石に彫った順番表
+範囲: SHION_C238 遅い時計と老いた動物〜SHION_C317 傷を測る力
 
 ## 項目
 
+- [SHION_C238 遅い時計と老いた動物](/reference/backstories/formation/SHION_C238.md) — 最盛期の共同居住区には、街の時刻よりいつも遅い時計が一つありました。
 - [SHION_C239 星間市場の道具工房](/reference/backstories/formation/SHION_C239.md) — 星間市場の工房では、同じ道具でも持ち主ごとに握りを変えました。
 - [SHION_C240 封鎖地の夕焼け芝居](/reference/backstories/formation/SHION_C240.md) — 封鎖観測地で、本人たちは夕焼けを題材にした芝居を作りました。
 - [SHION_C241 蘇生者との散歩](/reference/backstories/formation/SHION_C241.md) — 対機械戦区で、蘇生された友の散歩へ毎日付き添いました。
@@ -83,4 +84,3 @@
 - [SHION_C315 次に渡す配合表](/reference/backstories/formation/SHION_C315.md) — 種子船で目的地の土に合わなかった品種と配合も、次の船団が失敗の続きから始められるよう残した。
 - [SHION_C316 名もなき開墾の手](/reference/backstories/formation/SHION_C316.md) — 最初の入植地を切り開いたのは英雄的な少人数だった、とよく言われますが違います。
 - [SHION_C317 傷を測る力](/reference/backstories/formation/SHION_C317.md) — 傷を測る力では、傷口を洗う水の冷たさから話を始めます。
-- [SHION_C318 石に彫った順番表](/reference/backstories/formation/SHION_C318.md) — 灌漑隊で配水順を石へ刻み、涸れた川を感傷ではなく反復測量と水路修繕で戻した。

@@ -1,9 +1,10 @@
 # 身体・人格 05
 
-範囲: SHION_A143 自治評議区の身体競技指導員〜73. 総力進化戦争論
+範囲: SHION_A112 異常封じ込め隊の動物義肢技師〜73. 総力進化戦争論
 
 ## 項目
 
+- [SHION_A112 異常封じ込め隊の動物義肢技師](/reference/backstories/mastery/SHION_A112.md) — 異常封じ込め隊で、傷ついた動物の義肢を作っていました。
 - [SHION_A143 自治評議区の身体競技指導員](/reference/backstories/mastery/SHION_A143.md) — 自治評議区で、共有狐娘型内部の質量・出力差と外部参加者の身体差に応じた競技規則を教えた。
 - [SHION_A148 離散船団の終生飼養員](/reference/backstories/mastery/SHION_A148.md) — 離散船団で、役目を終えた救助動物を最後まで世話しました。
 - [SHION_A174 孵育文化区の舞台演出家](/reference/backstories/mastery/SHION_A174.md) — 孵育文化区では、誰にでも快適な身体と部屋が用意されました。

@@ -1,6 +1,6 @@
 # 身体・人格 03
 
-範囲: 41. Pawn Foundry設定クラス〜PERF-004 量産
+範囲: 41. Pawn Foundry設定クラス〜PERF-003 World Pawn漏れ
 
 ## 項目
 
@@ -13,6 +13,7 @@
 - [60. カエラヴィ標準身体の実装仕様](/design/60-%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E6%A8%99%E6%BA%96%E8%BA%AB%E4%BD%93%E3%81%AE%E5%AE%9F%E8%A3%85%E4%BB%95%E6%A7%98.md) — カエラヴィ標準身体の人型基盤、基礎能力、機能翼、開放気嚢、Gene描画と系統別差分の接続点を定める。
 - [61. 遺伝性鳥類系統の共通Xenotype契約](/design/61-%E9%81%BA%E4%BC%9D%E6%80%A7%E9%B3%A5%E9%A1%9E%E7%B3%BB%E7%B5%B1%E3%81%AE%E5%85%B1%E9%80%9AXenotype%E5%A5%91%E7%B4%84.md) — 六つの遺伝性鳥類Xenotypeを、共通三Geneと長所・短所・外見を一体化した一つのatomic lineage Geneで構成する。
 - [62. カエラヴィ軍務ゼノジャーム共通実装契約](/design/62-%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E8%BB%8D%E5%8B%99%E3%82%BC%E3%83%8E%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%A0%E5%85%B1%E9%80%9A%E5%AE%9F%E8%A3%85%E5%A5%91%E7%B4%84.md) — 八つの軍務兵科を非遺伝性xenogermとして実装し、六つの遺伝性鳥類系統すべてと最終Met +2で合成する。
+- [74. カエラヴィMODのCore・拡張製品境界](/design/74-%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3MOD%E3%81%AECore%E3%83%BB%E6%8B%A1%E5%BC%B5%E8%A3%BD%E5%93%81%E5%A2%83%E7%95%8C.md) — カエラヴィMODは、バニラと公式DLCの既存状態へ単体で投影できる種族・身体・通常装備をCoreへ置き、横断状態、台帳、政治前例、戦役、自動化を拡張MODへ分離する。
 - [知識所有者マップ](/governance/ownership-map-%E7%9F%A5%E8%AD%98%E6%89%80%E6%9C%89%E8%80%85%E3%83%9E%E3%83%83%E3%83%97.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
 - [4. シナリオ](/kombinat/audit/04-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — S2シナリオは三段生産、保存、取消、容量、停電、破壊、通貨、長期運用をCore Storageとの公開契約で検証する。
 - [5. 未知MOD](/kombinat/audit/05-%E6%9C%AA%E7%9F%A5MOD.md) — 未知MODのThingとRecipeはCore Storageの互換判定とKombinatのRecipe分類を通し、安全な公開契約だけへ接続する。
@@ -83,4 +84,3 @@
 - [PERF-001 Dormant停止](/pawn/perf-001-%E5%81%9C%E6%AD%A2.md) — MUST: Dormant PawnをRimWorld Pawn Tickまたは全件毎tick走査の対象にしない。
 - [PERF-002 Event更新](/pawn/perf-002-%E6%9B%B4%E6%96%B0.md) — MUST: Archive checkpoint、需要数、Clone活動数、回収状態をevent駆動で更新する。
 - [PERF-003 World Pawn漏れ](/pawn/perf-003-%E6%BC%8F%E3%82%8C.md) — MUST: Ephemeralを一万体生成・回収・再資源化するfixture後も、World Pawn、Relation、Tale、Archiveが生成総数に比例して残留しない。
-- [PERF-004 量産](/pawn/perf-004-%E9%87%8F%E7%94%A3.md) — MUST: 同一DesignまたはClone Sourceから100体を連続生産するfixtureで、ID重複、参照共有、装備複製、無制限履歴増加を起こさない。

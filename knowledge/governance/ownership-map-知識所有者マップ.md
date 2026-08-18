@@ -36,6 +36,7 @@ generated:
 |---|---|---|
 | 世界内の確定事実 | [正史・世界観](/world/index.md) | 制作上の要約、プレイヤー向け投影 |
 | 製品構造・モジュール境界 | [全体設計](/design/index.md) | ロードマップや個別仕様からの参照 |
+| カエラヴィMODのCore／拡張製品配置 | [カエラヴィMODのCore・拡張製品境界](/design/74-カエラヴィMODのCore・拡張製品境界.md) | Core、拡張MOD、対象MOD別互換アドオンの配置と依存方向 |
 | α・β・1.0、版運用、現在地 | [リリース計画](/roadmap/index.md) | 各仕様のRelease Gate |
 | 独立開拓団固有の設定とゲーム設計 | [独立開拓団](/colony/index.md) | 正史の一般原則への参照 |
 | Kombinatの追加層境界 | [Kombinat中核仕様](/kombinat/core/index.md) | 全体設計の要約 |
