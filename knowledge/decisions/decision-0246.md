@@ -4,7 +4,7 @@ title: "確定#246：「ドクトリン軌道」を「サブドクトリン」�
 description: "「ドクトリン軌道」を「サブドクトリン」に改称、Hoi4本家の実在サブドクトリン名を調査し各系統に代表3例を新設を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

@@ -4,7 +4,7 @@ title: "確定#22：車両・砲兵・火炎投射器は制裁部隊の専有（
 description: "車両・砲兵・火炎投射器は制裁部隊の専有（横断ドクトリン内）。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

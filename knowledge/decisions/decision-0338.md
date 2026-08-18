@@ -5,7 +5,7 @@ description: "仮称MOD名2件を文学作品名へ正式化——「スロー�
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

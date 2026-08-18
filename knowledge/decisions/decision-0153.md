@@ -4,7 +4,7 @@ title: "確定#153：Diaspora製品の実銃モチーフ国籍制限（イスラ
 description: "Diaspora製品の実銃モチーフ国籍制限（イスラエル/西側製が原則）を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

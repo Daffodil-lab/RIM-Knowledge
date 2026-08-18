@@ -4,7 +4,7 @@ title: "確定#55：プレイ進行の4段階を明文化：序盤（迅速に�
 description: "プレイ進行の4段階を明文化：序盤（迅速に抜けるべき最も辛い時期）→中盤（資源無限化と数的優越の起点）→終盤①（層Aの出口＝宇宙船脱出 or 層Bを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

@@ -5,7 +5,7 @@ description: "Dプリンターの無人稼働仕様を確定、新設・液体�
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

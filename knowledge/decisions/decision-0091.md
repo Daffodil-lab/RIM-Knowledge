@@ -5,7 +5,7 @@ description: "装備段8-10（カタロニア讃歌で追加）を確定した�
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

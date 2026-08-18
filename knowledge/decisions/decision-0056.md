@@ -5,7 +5,7 @@ description: "内戦の影の英雄＝上級機械化近衛兵と失われた機
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

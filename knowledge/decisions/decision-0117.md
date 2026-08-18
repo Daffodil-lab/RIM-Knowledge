@@ -4,7 +4,7 @@ title: "確定#117：FTL時間旅行・亜光速航行は純粋なlore/設定で
 description: "FTL時間旅行・亜光速航行は純粋なlore/設定であり実装不要を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

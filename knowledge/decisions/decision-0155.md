@@ -5,7 +5,7 @@ description: "Diaspora口径・装弾数一覧（CE互換パッチ向け）を�
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

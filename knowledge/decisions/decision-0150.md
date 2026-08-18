@@ -4,7 +4,7 @@ title: "確定#150：Diaspora社の創業秘話"
 description: "履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

@@ -5,7 +5,7 @@ description: "崩壊のドラマ＝理想から技術官僚制への変質（三
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

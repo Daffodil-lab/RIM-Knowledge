@@ -4,7 +4,7 @@ title: "確定#59：DLC/フレームワーク別モジュール分離：真の�
 description: "DLC/フレームワーク別モジュール分離：真のコア依存＝Harmony＋HAR＋VEFのみ。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

@@ -4,7 +4,7 @@ title: "確定#236：CoreMOD§12.6「ゼロ点エネルギー地場備蓄装置�
 description: "CoreMOD§12.6「ゼロ点エネルギー地場備蓄装置」の具体数値を10倍に引き上げ——最大貯蔵量200%相当→2000%相当、自動吸収・放出速度20%/日→200%/日を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

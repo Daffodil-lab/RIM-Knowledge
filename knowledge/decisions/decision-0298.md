@@ -4,7 +4,7 @@ title: "確定#298：秘文字の技術は歴史が非常に浅い（確定#295�
 description: "秘文字の技術は歴史が非常に浅い（確定番号295〜番号297を補足）を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

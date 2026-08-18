@@ -5,7 +5,7 @@ description: "Web調査によるイラン製実銃の正式採用（Shaher/Arash
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

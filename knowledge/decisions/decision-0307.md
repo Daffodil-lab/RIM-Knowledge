@@ -4,7 +4,7 @@ title: "確定#307：シオン/Shion_地場_仕様書_v1.md§12（旧12.1〜12.1
 description: "シオン/Shion地場仕様書v1.md§12（旧12.1〜12.13：地場濃度ゲージ・無零花・発電機・濃縮真空エネルギー・cell・パイプライン設備・3Dプリンター・液体装薬注入機、全て）を原則放棄し、Tower…。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

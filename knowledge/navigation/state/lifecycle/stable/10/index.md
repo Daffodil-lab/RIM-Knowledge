@@ -1,86 +1,86 @@
 # stable 10
 
-範囲: GEN-005 必要装備〜SHION_C014 設備区画の見回り
+範囲: SHION_C319 六段目の岩棚〜SHION_C398 醸造隊の樽番
 
 ## 項目
 
-- [GEN-005 必要装備](/pawn/gen-005-%E5%BF%85%E8%A6%81%E8%A3%85%E5%82%99.md) — MUST: 生産要求は、具体Thing指定と作者定義のEquipment Familyを併用できる。
-- [GEN-006 原子的配備](/pawn/gen-006-%E5%8E%9F%E5%AD%90%E7%9A%84%E9%85%8D%E5%82%99.md) — MUST: Body、必須Module、必須能力、必須装備のいずれかが欠ける場合、完成扱いでPawnを出現させない。
-- [GEN-007 反復可能性](/pawn/gen-007-%E5%8F%8D%E5%BE%A9%E5%8F%AF%E8%83%BD%E6%80%A7.md) — MUST: 通常Pawnの生産へ一回限りのWorld Unique資源、有限許可回数、消滅する原型を要求しない。
-- [GEN-008 Repeat Order](/pawn/gen-008-%E8%A6%81%E4%BB%B6.md) — MUST: 適合条件、Design、Registered IndividualのCloneを数量指定または目標活動数で反復生産できる。
-- [INT-001 Production Adapter](/pawn/int-001-%E8%A6%81%E4%BB%B6.md) — MUST: Pawn FoundryはBody、Module、装備、消耗品をKombinat Production Requestとして発注できる。
-- [INT-002 三主題の維持](/pawn/int-002-%E4%B8%89%E4%B8%BB%E9%A1%8C%E3%81%AE%E7%B6%AD%E6%8C%81.md) — MUST: Kombinat側ではPawn要求を生産対象、Pawn需要を消費予測、Foundryへの引渡しを流通として表示する。
-- [INT-003 具体装備](/pawn/int-003-%E5%85%B7%E4%BD%93%E8%A3%85%E5%82%99.md) — MUST: 登録個体の固有装備、名前付き装備、Quest品は具体Thingとして追跡し、Clone時に複製しない。
-- [INT-004 装備ファミリー](/pawn/int-004-%E8%A3%85%E5%82%99%E3%83%95%E3%82%A1%E3%83%9F%E3%83%AA%E3%83%BC.md) — MUST: 武器、防具、工具、医療品等のFamily指定は、作者が明示登録した同用途・同性能帯・同費用帯の候補から具体Thingへ解決する。
-- [INT-005 Ability Package](/pawn/int-005-%E8%A6%81%E4%BB%B6.md) — MUST: 必要能力はBody Module、Gene、Trait、Skill、Passion、Ability、Hediff等の由来を区別して構成し、同じ効果を無関係な仕組みで暗黙代替しない。
-- [INT-006 取消と返却](/pawn/int-006-%E5%8F%96%E6%B6%88%E3%81%A8%E8%BF%94%E5%8D%B4.md) — MUST: 生産取消、設計変更、配備失敗時は、未消費資源、完成済み装備、部分完成Bodyを追跡し、複製せずCore独自保管・接続システムまたはMap上の受入先へ返却するか、Factory Buffer内で明示的に再利用する。
-- [PERF-001 Dormant停止](/pawn/perf-001-%E5%81%9C%E6%AD%A2.md) — MUST: Dormant PawnをRimWorld Pawn Tickまたは全件毎tick走査の対象にしない。
-- [PERF-002 Event更新](/pawn/perf-002-%E6%9B%B4%E6%96%B0.md) — MUST: Archive checkpoint、需要数、Clone活動数、回収状態をevent駆動で更新する。
-- [PERF-003 World Pawn漏れ](/pawn/perf-003-%E6%BC%8F%E3%82%8C.md) — MUST: Ephemeralを一万体生成・回収・再資源化するfixture後も、World Pawn、Relation、Tale、Archiveが生成総数に比例して残留しない。
-- [PERF-004 量産](/pawn/perf-004-%E9%87%8F%E7%94%A3.md) — MUST: 同一DesignまたはClone Sourceから100体を連続生産するfixtureで、ID重複、参照共有、装備複製、無制限履歴増加を起こさない。
-- [REC-001 低コスト修復](/pawn/rec-001-%E4%BD%8E%E3%82%B3%E3%82%B9%E3%83%88%E4%BF%AE%E5%BE%A9.md) — MUST: 生存Pawnの通常負傷、欠損、故障、交換可能Moduleを、標準新規Pawn生産より低い資源と時間で回復できる。
-- [REC-002 遺体回収](/pawn/rec-002-%E9%81%BA%E4%BD%93%E5%9B%9E%E5%8F%8E.md) — MUST: 回収したシオン遺体をRecovery Facilityへ受け入れ、再起動、Archive再実体化、再資源化の利用可能な選択を表示する。
-- [REC-003 Ephemeral再起動](/pawn/rec-003-%E5%86%8D%E8%B5%B7%E5%8B%95.md) — MUST: Ephemeral Pawnは、遺体とPawn instance情報が残る間、低コストで同じ現在個体を再起動できる。
-- [REC-004 Ephemeral最終削除](/pawn/rec-004-%E6%9C%80%E7%B5%82%E5%89%8A%E9%99%A4.md) — MUST: Ephemeral Pawnの遺体を再資源化した場合、Pawn、Corpse、World Pawn、Relation、Archive、個体参照付きTale／Log、未解決参照をセーブ正本から除去する。
-- [REC-005 Registered再実体化](/pawn/rec-005-%E5%86%8D%E5%AE%9F%E4%BD%93%E5%8C%96.md) — MUST: Registered Individualの死亡後は、回収時にArchiveをcheckpointし、遺体を再資源化した後も同じindividualIdで一体を再実体化できる。
-- [REC-006 Clone選択](/pawn/rec-006-%E9%81%B8%E6%8A%9E.md) — MUST: Registered Individualが活動中またはDormantである場合、同じ原型からの追加生産は再実体化ではなくCloneとして明示する。
-- [REC-007 回収不能](/pawn/rec-007-%E5%9B%9E%E5%8F%8E%E4%B8%8D%E8%83%BD.md) — MUST: 遺体が消滅したEphemeral Pawnは同じ個体として復元できない。
-- [REC-008 冪等性](/pawn/rec-008-%E5%86%AA%E7%AD%89%E6%80%A7.md) — MUST: 回収、再起動、再資源化、再実体化のCommand再送で、Pawn、遺体、装備、資源を二重生成または二重回収しない。
-- [REC-009 Quest参照](/pawn/rec-009-%E5%8F%82%E7%85%A7.md) — MUST: Ephemeral最終削除の前にQuest、Lord、Relation、Faction、World Pawn、外部Adapterへ終了通知を送り、参照を解決する。
-- [REG-001 既存Pawn登録](/pawn/reg-001-%E6%97%A2%E5%AD%98-%E7%99%BB%E9%8C%B2.md) — MUST: 活動中またはDormantのシオンPawnをRegistered Individualへ変更できる。
-- [REG-002 Archive更新](/pawn/reg-002-%E6%9B%B4%E6%96%B0.md) — MUST: Archiveは登録時、Dormant化時、手動保存時、死亡回収時にevent駆動でcheckpointする。
-- [REG-003 単一個体制約](/pawn/reg-003-%E5%8D%98%E4%B8%80%E5%80%8B%E4%BD%93%E5%88%B6%E7%B4%84.md) — MUST: 同じindividualIdを持つ活動中またはDormantの実体を二体作らない。
-- [REG-004 Design保存](/pawn/reg-004-%E4%BF%9D%E5%AD%98.md) — MUST: プレイヤー設計を個体情報のない再利用可能なPawn Designとして保存できる。
-- [REG-005 単一個体として保存](/pawn/reg-005-%E5%8D%98%E4%B8%80%E5%80%8B%E4%BD%93%E3%81%A8%E3%81%97%E3%81%A6%E4%BF%9D%E5%AD%98.md) — MUST: プレイヤー設計を名前とindividualIdを持つ一人のIndividual Archiveとして保存し、必要な時にその個体を生産できる。
-- [REG-006 Clone Source](/pawn/reg-006-%E8%A4%87%E8%A3%BD%E5%80%8B%E4%BD%93.md) — MUST: Registered Individual、Authored Individual、Saved Pawn DesignをClone Sourceに指定できる。
-- [REG-007 Clone同時存在](/pawn/reg-007-%E5%90%8C%E6%99%82%E5%AD%98%E5%9C%A8.md) — MUST: 同じClone Sourceから複数Pawnを同時に活動させられる。
-- [REG-008 Clone後の分岐](/pawn/reg-008-%E5%BE%8C%E3%81%AE%E5%88%86%E5%B2%90.md) — MUST: Clone生成後の経験、関係、傷、改造、装備、登録状態を個別に保存し、元個体または他Cloneへ自動同期しない。
-- [REG-009 外部権利の複製](/pawn/reg-009-%E5%A4%96%E9%83%A8%E6%A8%A9%E5%88%A9%E3%81%AE%E8%A4%87%E8%A3%BD.md) — MUST: Quest所有権、派閥役職、Royalty称号、固有WorldObject参照、固有装備、Bond等を能力と一緒に暗黙複製しない。
-- [REG-010 登録解除](/pawn/reg-010-%E7%99%BB%E9%8C%B2%E8%A7%A3%E9%99%A4.md) — MUST: Archiveを削除する操作は対象個体、失われる再実体化能力、活動中・Dormant実体、Clone Source参照を表示し、明示確認を要求する。
-- [SAVE-001 保存正本](/pawn/save-001-%E4%BF%9D%E5%AD%98%E6%AD%A3%E6%9C%AC.md) — MUST: Pawn Design、Individual Archive、Clone Lineage、Dormant Record、Generation Request、Recovery Record、各ID、途中状態を保存する。
-- [SAVE-002 Ephemeral不在](/pawn/save-002-%E4%B8%8D%E5%9C%A8.md) — MUST: 再資源化済みEphemeral Pawnは、保存・ロード後にWorld Pawn、Relation、Corpse、Archive、参照付き履歴として復活しない。
-- [SAVE-003 同一ビルド往復](/pawn/save-003-%E5%90%8C%E4%B8%80%E3%83%93%E3%83%AB%E3%83%89%E5%BE%80%E5%BE%A9.md) — MUST: β期間中も同一ビルドの途中保存・ロードを保証する。
-- [SAVE-004 途中状態](/pawn/save-004-%E9%80%94%E4%B8%AD%E7%8A%B6%E6%85%8B.md) — MUST: 生産、Dormant化、再配備、回収、再起動、再資源化、再実体化、Cloneの各途中状態から安全に再開する。
-- [SAVE-005 ID一意性](/pawn/save-005-%E4%B8%80%E6%84%8F%E6%80%A7.md) — MUST: 保存・ロード後もdesignId、individualId、pawnInstanceId、lineageIdを重複させない。
-- [SAVE-006 Archive欠損](/pawn/save-006-%E6%AC%A0%E6%90%8D.md) — MUST: 欠落Def、破損Archive、利用不能Moduleを無言で置換しない。
-- [UX-001 Pawn Foundry](/pawn/ux-001-%E8%A6%81%E4%BB%B6.md) — MUST: Pawn Foundryの第一階層を次の三つにする。
-- [UX-002 費用Preview](/pawn/ux-002-%E8%B2%BB%E7%94%A8.md) — MUST: 生産前にBody、Module、能力、装備、時間、現在在庫、不足、代替、登録方式を表示する。
-- [UX-003 個体種別](/pawn/ux-003-%E5%80%8B%E4%BD%93%E7%A8%AE%E5%88%A5.md) — MUST: Ephemeral、Registered、Design output、Clone、Dormantを、色だけに依存せず文字とIconで区別する。
-- [UX-004 破壊的操作](/pawn/ux-004-%E7%A0%B4%E5%A3%8A%E7%9A%84%E6%93%8D%E4%BD%9C.md) — MUST: Ephemeral遺体の再資源化とArchive削除は、同じ個体を復元できなくなることを明示する。
-- [UX-005 Clone識別](/pawn/ux-005-%E8%AD%98%E5%88%A5.md) — MUST: 同名・同外見のCloneを許可しつつ、選択、医療、装備、命令で区別できる短い表示識別子を提供する。
-- [UX-006 簡易注文](/pawn/ux-006-%E7%B0%A1%E6%98%93%E6%B3%A8%E6%96%87.md) — MUST: プレイヤーが詳細設計を開かず、「建築担当を一人」「射手を四人」「この個体のCloneを十人」のような注文を行える。
-- [一文で言うなら](/player-facing/000-%E4%B8%80%E6%96%87%E3%81%A7%E8%A8%80%E3%81%86%E3%81%AA%E3%82%89.md) — 古い帝国の力と使命を受け継ぎながら、自由で俗世的な本物の理想郷を築いた狐型機械人が、辺境にも善い暮らしを作ろうとする物語。
-- [プレイヤーが最初から知ること](/player-facing/001-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%9C%80%E5%88%9D%E3%81%8B%E3%82%89%E7%9F%A5%E3%82%8B%E3%81%93%E3%81%A8.md) — シオンは、製造された身体を持つ機械の民であり、また一人ずつ別の人格を持ち、人工知能でも集合意識でもありません。
-- [β版のPawn工業](/player-facing/002-%CE%B2%E7%89%88%E3%81%AEPawn%E5%B7%A5%E6%A5%AD.md) — β版では、必要な仕事に適合するランダムなシオン、登録済みの個体、プレイヤーが一から設計した個体、既存個体のCloneをPawn Foundryから生産できます。
-- [善意とすれ違い](/player-facing/003-%E5%96%84%E6%84%8F%E3%81%A8%E3%81%99%E3%82%8C%E9%81%95%E3%81%84.md) — 帝国も同盟も、苦痛、欠乏、混乱を放置することを善しとしません。
-- [プレイヤーが感じる順序](/player-facing/004-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E6%84%9F%E3%81%98%E3%82%8B%E9%A0%86%E5%BA%8F.md) — この順序を逆転させない、また開始直後から同盟を残虐な秘密国家として見せると、作品は普通のディストピア暴露になる。
-- [帝国と同盟を見せる方法](/player-facing/005-%E5%B8%9D%E5%9B%BD%E3%81%A8%E5%90%8C%E7%9B%9F%E3%82%92%E8%A6%8B%E3%81%9B%E3%82%8B%E6%96%B9%E6%B3%95.md) — 帝国史を長く講義する必要はありません、また現在の暮らしに残る層で見せます。
-- [通常プレイで説明しないこと](/player-facing/006-%E9%80%9A%E5%B8%B8%E3%83%97%E3%83%AC%E3%82%A4%E3%81%A7%E8%AA%AC%E6%98%8E%E3%81%97%E3%81%AA%E3%81%84%E3%81%93%E3%81%A8.md) — 必要になった時、クエスト一件につき一つの中心問題だけを見せます。
-- [短文](/player-facing/007-%E7%9F%AD%E6%96%87.md) — 食事も仕事も身体も選べる狐型機械人シオンと、辺境に小さな楽園を築こう。
-- [長文](/player-facing/008-%E9%95%B7%E6%96%87.md) — シオンは、製品として作られた身体を自分たちの手へ取り戻した狐型の機械人です。
-- [Red Star紹介文](/player-facing/009-Red-Star%E7%B4%B9%E4%BB%8B%E6%96%87.md) — Red Starは、本国が正式に派遣する開拓団です。
-- [文章の声](/player-facing/010-%E6%96%87%E7%AB%A0%E3%81%AE%E5%A3%B0.md) — 同盟人は、自国の矛盾を悪役のように解説しません。
-- [視覚と技術の基準](/player-facing/011-%E8%A6%96%E8%A6%9A%E3%81%A8%E6%8A%80%E8%A1%93%E3%81%AE%E5%9F%BA%E6%BA%96.md) — 未来性は、現代的な画面や軍用品ではなく、古い文明の手触りから不可能な結果が出ることで示します。
-- [最小用語集](/player-facing/012-%E6%9C%80%E5%B0%8F%E7%94%A8%E8%AA%9E%E9%9B%86.md) — これ以上の語は、登場するクエストや機能の中でその都度説明します。
-- [参考資料の利用境界](/reference/00-%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99%E3%81%AE%E5%88%A9%E7%94%A8%E5%A2%83%E7%95%8C.md) — 参考資料を原則不変で凍結し、直接採用せず、必要な要素だけを現行所有者で新規に再設計するための利用境界。
-- [1. 読み方と能力尺度](/reference/backstories/01-%E8%AA%AD%E3%81%BF%E6%96%B9%E3%81%A8%E8%83%BD%E5%8A%9B%E5%B0%BA%E5%BA%A6.md) — 読み方と能力尺度は、Childhoodは生物学的幼年ではなく、起動後の形成期、教育、最初の手伝い、事故、趣味、所属集団を表す。
-- [4. 新規420稿の割当集計](/reference/backstories/04-%E6%96%B0%E8%A6%8F420%E7%A8%BF%E3%81%AE%E5%89%B2%E5%BD%93%E9%9B%86%E8%A8%88.md) — 各新規稿は主Pool一つとSourceModule一つへ同時算入する。
-- [5. 生成プール互換規則](/reference/backstories/05-%E7%94%9F%E6%88%90%E3%83%97%E3%83%BC%E3%83%AB%E4%BA%92%E6%8F%9B%E8%A6%8F%E5%89%87.md) — 生成プール互換規則は、原則として同一Eraの幼少期と成人期を組み合わせる。
-- [6. 参考資料としての区分](/reference/backstories/06-%E5%88%B6%E4%BD%9C%E4%B8%8A%E3%81%AE%E6%AD%A3%E5%8F%B2%E5%8C%BA%E5%88%86.md) — バックストーリーを参考資料として保持し、参考採否と正史・実装・出荷への採用を分離する。
-- [7. 拡張稿（§12 Phase A超過分）](/reference/backstories/07-%E6%8B%A1%E5%BC%B5%E7%A8%BF%C2%A712-Phase-A%E8%B6%85%E9%81%8E%E5%88%86.md) — §12拡張計画のPhase A（新設4時代の最初の稿）のうち、ColonizationEraとJourneyEraをドラフト件数から拡張して追加する。
-- [8. 世界観統一の再監査](/reference/backstories/08-%E4%B8%96%E7%95%8C%E8%A6%B3%E7%B5%B1%E4%B8%80%E3%81%AE%E5%86%8D%E7%9B%A3%E6%9F%BB.md) — 参考バックストーリーは具体的な生活場面を残し、実在政治の置換や用語集依存を再利用候補から外して再監査する。
-- [9. 設定本文と実装予約の分離](/reference/backstories/09-%E8%A8%AD%E5%AE%9A%E6%9C%AC%E6%96%87%E3%81%A8%E5%AE%9F%E8%A3%85%E4%BA%88%E7%B4%84%E3%81%AE%E5%88%86%E9%9B%A2.md) — バックストーリー記録では人物の経歴と口述を設定クラス、Pool、出現希少度、技能補正、組合せ規則を実装予約として分離する。
-- [SHION_C001 礼装工房の手伝い](/reference/backstories/formation/SHION_C001.md) — ソフェルの礼装を仕立てる工房で、採寸、布地の選別、刺繍図案の読み方を学んだ。
-- [SHION_C002 夜の食堂で育った](/reference/backstories/formation/SHION_C002.md) — 夜勤者や生物学的睡眠を必要としない住民が集まる食堂で、調理と給仕を手伝った。
-- [SHION_C003 雨量記録員](/reference/backstories/formation/SHION_C003.md) — 居住区の屋上で雨量、酸性度、粉塵、落下物を測り、農場と設備局へ報告した。
-- [SHION_C004 廃船解体場の見習い](/reference/backstories/formation/SHION_C004.md) — 廃船解体場で船体を槌と聴音器で調べ、亀裂、空洞、残留圧力の位置を記した。
-- [SHION_C005 動物診療所の手伝い](/reference/backstories/formation/SHION_C005.md) — 動物診療所で義足、嘴の補強具、角の保護具を作る助手になった。
-- [SHION_C006 記念庭園の園丁](/reference/backstories/formation/SHION_C006.md) — 死者の名を植物の配置で表す記念庭園を手入れした、また季節ごとの剪定と植替えを覚え、遺族が訪れる日には通路と休憩所を静かに整えた。
-- [SHION_C007 採掘場の石彫り](/reference/backstories/formation/SHION_C007.md) — 小惑星採掘場で岩を切り出し、作業後に残る壁面へ航路標識や事故犠牲者の記念像を彫った。
-- [SHION_C008 巡回修理屋](/reference/backstories/formation/SHION_C008.md) — 小さな居住区を巡り、扉、配管、暖房、義肢、通信機を修理する職人に同行した。
-- [SHION_C009 公文書室の手伝い](/reference/backstories/formation/SHION_C009.md) — 長い過渡期の文書工房で、廃棄公文書から封蝋と金属印章を回収した。
-- [SHION_C010 葬送卓の配膳係](/reference/backstories/formation/SHION_C010.md) — 葬送宴で料理を運び、参列者の席と献立を整えた、また死者が蘇生後に自分の宴へ出席することもあるため、驚かず本人用の席と食器を追加する手順を教わった。
-- [SHION_C011 物資倉庫の検品手伝い](/reference/backstories/formation/SHION_C011.md) — 巨大倉庫で油、菌、焦げた配線、腐敗した食料の匂いを覚え、保管棚の異常を探した。
-- [SHION_C012 充電庭の手入れ](/reference/backstories/formation/SHION_C012.md) — 公共充電庭で端子、椅子、植木、雨除けを清掃し、利用者が安全に休める状態を保った。
-- [SHION_C013 義眼工房の見習い](/reference/backstories/formation/SHION_C013.md) — 義眼工房で、交換用の発光色を依頼者の残った目や古い記録へ合わせた。
-- [SHION_C014 設備区画の見回り](/reference/backstories/formation/SHION_C014.md) — 居住区の熱交換設備を見回り、凍結しかけた管、過熱した弁、循環の偏りを点検した。
+- [SHION_C319 六段目の岩棚](/reference/backstories/formation/SHION_C319.md) — 地質調査隊で岩石標本を数え、独自基準で六段目の棚を分類し続けた。
+- [SHION_C320 曲がらない杭](/reference/backstories/formation/SHION_C320.md) — 港湾建設隊の見習いとして潮位と木材の反りを読み、百十四本の杭を一本も傾けず打った。
+- [SHION_C321 聞こえますか](/reference/backstories/formation/SHION_C321.md) — 「聞こえますか」、本人はその言葉を一日に何百回も繰り返しました。
+- [SHION_C322 壁を頼る歩幅](/reference/backstories/formation/SHION_C322.md) — 坑道の奥で光を失ったらどうするか、考えたことはありますか。
+- [SHION_C323 順番ごと残る名](/reference/backstories/formation/SHION_C323.md) — 一滴の水がどれほど重いか、あなたに分かるとは思いません。
+- [SHION_C324 才能ではなく時間](/reference/backstories/formation/SHION_C324.md) — 本人が動物に好かれる特別な才能を持っていた、という話を聞いたことがあるかもしれません。
+- [SHION_C325 灯より先の足場](/reference/backstories/formation/SHION_C325.md) — 航路標識の仕事について、よくある誤解が三つあります。
+- [SHION_C326 先達の小刀](/reference/backstories/formation/SHION_C326.md) — 先達はよく言っていました、「見張りは何も起きない夜こそ良い夜だ」と。
+- [SHION_C327 引き返した安堵](/reference/backstories/formation/SHION_C327.md) — 引き返した安堵では、先遣班に必要だったものを挙げます。
+- [SHION_C328 豆しかない理由](/reference/backstories/formation/SHION_C328.md) — 台所番というのは、入植地で一番地味な役目です、少なくとも本人はそう思っていました。
+- [SHION_C329 星の名を付け替えた頃](/reference/backstories/formation/SHION_C329.md) — 今の本人は落ち着いて話せますが、それは船が着いてからの話である。
+- [SHION_C330 三時間の風音](/reference/backstories/formation/SHION_C330.md) — 三時間の風音では、観測塔の仕事は淡々としたものだった。
+- [SHION_C331 閉じても見える火花](/reference/backstories/formation/SHION_C331.md) — 閉じても見える火花では、溶接の火花は美しいものである。
+- [SHION_C332 匂いを確かめる癖](/reference/backstories/formation/SHION_C332.md) — 匂いを確かめる癖では、水質班の話は、正直あまりしたくありません。
+- [SHION_C333 土に合わせる種](/reference/backstories/formation/SHION_C333.md) — 土に合わせる種では、種は土を選ばない、土が種を選ぶ。
+- [SHION_C334 数字を止めない役目](/reference/backstories/formation/SHION_C334.md) — 本人が入植初期の重要な決定に加わらなかったことを、怠慢だと言う人がいます。
+- [SHION_C335 配管の熱を覚えている](/reference/backstories/formation/SHION_C335.md) — 配管の熱を覚えているでは、手のひらに配管の熱がまだ残っている気がします。
+- [SHION_C336 甲板は狭くない](/reference/backstories/formation/SHION_C336.md) — 甲板は狭くないでは、狭かったなんて一度も思ったことはない。
+- [SHION_C337 三つの言語と一つの食卓](/reference/backstories/formation/SHION_C337.md) — 三つの言語と一つの食卓では、あたしは作られた民族、文化継承第三期よ。
+- [SHION_C338 平常運転の裏側](/reference/backstories/formation/SHION_C338.md) — 育ての親の一人は造水班で、壊れた濾過装置の修理中に事故で亡くなりました。
+- [SHION_C339 特に思い入れはない](/reference/backstories/formation/SHION_C339.md) — 特に思い入れはないでは、自分の子供時代に特別な思い入れはない。
+- [SHION_C340 船は貝殻だった](/reference/backstories/formation/SHION_C340.md) — 船は貝殻だったでは、礁の民文化を継いだ先達はよく、この船を貝殻に例えました。
+- [SHION_C341 逃げたわけじゃない](/reference/backstories/formation/SHION_C341.md) — 逃げたわけじゃないでは、逃げたわけじゃないんだ、本人は。
+- [SHION_C342 配給計算の手順](/reference/backstories/formation/SHION_C342.md) — 配給計算の手順では、配給計算は次の手順で行いました。
+- [SHION_C343 次の甲板を提案します](/reference/backstories/formation/SHION_C343.md) — うちが十歳のとき、学童班の遊び場が狭くて喧嘩が絶えなかったから、通路脇の空き区画を遊び場に使えないか大人に提案したの。
+- [SHION_C344 「儀礼班の子」ではありません](/reference/backstories/formation/SHION_C344.md) — 「儀礼班の子」ではありませんでは、「儀礼班の子」と呼ばれるが、それは正確じゃない。
+- [SHION_C345 灯を回す、灯を回す](/reference/backstories/formation/SHION_C345.md) — 意味がまだ定まらない時代から、隣へ灯を回す所作を反復し、後の律法形成を身体で覚えた。
+- [SHION_C346 「それは罪か」と聞いた](/reference/backstories/formation/SHION_C346.md) — 巡回してきた説教役に、俺は「配給を隠すのは罪か」って聞いたんだ。
+- [SHION_C347 なぜ経文がないのか](/reference/backstories/formation/SHION_C347.md) — どうして決まった経文がないんだろう、って先生によく聞いていました。
+- [SHION_C348 三つの誤解を正しておく](/reference/backstories/formation/SHION_C348.md) — 帝国律法の清書に携わった経験を、起草者・信仰者・完成形の証人という三つの誤解から語り直す。
+- [SHION_C349 一番上手く歌えた](/reference/backstories/formation/SHION_C349.md) — 自慢していいなら言わせてもらうけど、あたしは詠唱教室で一番うまく歌えた子供だった。
+- [SHION_C350 師の言葉を借りて話します](/reference/backstories/formation/SHION_C350.md) — 本人自身の言葉より、師の言葉を借りて話す方が正確だと思います。
+- [SHION_C351 あの区画の話はしません](/reference/backstories/formation/SHION_C351.md) — あの区画の話はしませんでは、その区画で何があったかは話しません。
+- [SHION_C352 数え直すたびに一人減った](/reference/backstories/formation/SHION_C352.md) — 子供の頃、うちの継承図には七人の名前がありました。
+- [SHION_C353 建国世代と呼ばないでほしい](/reference/backstories/formation/SHION_C353.md) — 俺のことを「建国世代」って呼ぶ奴がいるが、それは違う。
+- [SHION_C354 律法学舎の写本刀](/reference/backstories/formation/SHION_C354.md) — 律法学舎で、文字線を一定に削り出す写本刀の研ぎ方と刃角を厳しく学んだ。
+- [SHION_C355 帝国とは何かと聞かれて](/reference/backstories/formation/SHION_C355.md) — 帝国とは何か、と聞かれても本人にはうまく説明できません。
+- [SHION_C356 秩序は毎朝作り直すもの](/reference/backstories/formation/SHION_C356.md) — 自分は秩序維持隊の分隊に十三歳から補助として加わりました。
+- [SHION_C357 この話は書き残してほしい](/reference/backstories/formation/SHION_C357.md) — この話は書き残してほしいでは、一つ、はっきりお願いしておきたいことがあります。
+- [SHION_C358 帝国最初の落第兵](/reference/backstories/formation/SHION_C358.md) — うちは多分、成立したての帝国で最初に隊列を乱した子供の一人だと思う。
+- [SHION_C359 今日から遡って話します](/reference/backstories/formation/SHION_C359.md) — 今日から遡って話しますでは、今日から遡って話しましょう。
+- [SHION_C360 甲板の錆と最初の家](/reference/backstories/formation/SHION_C360.md) — 甲板の錆と最初の家では、俺の故郷は地図のどこにもない。
+- [SHION_C361 味噌と水耕の甲板](/reference/backstories/formation/SHION_C361.md) — 味噌と水耕の甲板では、指先にまだ生姜の匂いが残っている気がします。
+- [SHION_C362 国旗を畳んだ日](/reference/backstories/formation/SHION_C362.md) — 「その布、もう畳んでいいんじゃない」って、あたしは互助会の年寄りに言ったの。
+- [SHION_C363 配線図を読む指](/reference/backstories/formation/SHION_C363.md) — 配線は色でなく、被覆の巻き方の癖で見分けるんである。
+- [SHION_C364 七つの病室を覚えている](/reference/backstories/formation/SHION_C364.md) — 七つの病室を覚えているでは、七つ、いや八つだったかのう。
+- [SHION_C365 採掘倉庫の温度管理](/reference/backstories/formation/SHION_C365.md) — 貨物甲板の採掘資材倉庫は摂氏四度に保つ規定だった。
+- [SHION_C366 下手な似顔絵と船内新聞](/reference/backstories/formation/SHION_C366.md) — 本人の似顔絵は、本人よりタコに似ていると保育班中で有名だった。
+- [SHION_C367 檻の外で聞いた鳴き声](/reference/backstories/formation/SHION_C367.md) — 檻の外で聞いた鳴き声では、飼育区画のことは、あまり話したくない。
+- [SHION_C368 先達が最後に数えた星](/reference/backstories/formation/SHION_C368.md) — 先達はよく「窓の外の星は数えるものじゃない、覚えるものだ」と言っていました。
+- [SHION_C369 律法はまだ石板ではなかった](/reference/backstories/formation/SHION_C369.md) — 律法はもう厳格な決まりだったと思われがちですが、それは違います。
+- [SHION_C370 灯を三度回す子ら](/reference/backstories/formation/SHION_C370.md) — 灯火の民の文化を継ぐ共同体で、灯を三度回す朝の所作を習慣として受け継いだ。
+- [SHION_C371 誰が最初に祈ったのか](/reference/backstories/formation/SHION_C371.md) — 誰が最初に祈ったのかでは、最初に祈り始めたのって、誰だったんだろうね。
+- [SHION_C372 工房で覚えた三つの禁忌](/reference/backstories/formation/SHION_C372.md) — 工房で覚えた三つの禁忌では、俺は木匠の民の文化を継ぐ。
+- [SHION_C373 三つの思い込みについて](/reference/backstories/formation/SHION_C373.md) — 律法起草補助・儀式楽団・時代認識について、自身へ向けられた三つの誤解を訂正した。
+- [SHION_C374 巡礼団随一の料理番](/reference/backstories/formation/SHION_C374.md) — 自分は巡礼随行団で一番の料理番だったと、今でも胸を張って言えます。
+- [SHION_C375 儀礼の裏で泣いた夜](/reference/backstories/formation/SHION_C375.md) — 第二世代信徒会の儀式伝承係として、養育者を送る夜に唱えられなかった言葉を他者へ継いでもらった。
+- [SHION_C376 縫い目のような世代](/reference/backstories/formation/SHION_C376.md) — わしらの世代は、船体の継ぎ目のようなものじゃった。
+- [SHION_C377 秩序班の見習いだった頃](/reference/backstories/formation/SHION_C377.md) — 本人は統合甲板管理局の見習いとして、まだ制度も定まらない秩序維持の訓練を受けていました。
+- [SHION_C378 建国式典の足場を組んだ手](/reference/backstories/formation/SHION_C378.md) — 今の帝国の式典会場を見るたび、俺は自分が組んだ足場を思い出す。
+- [SHION_C379 律法学舎を三度落第した話](/reference/backstories/formation/SHION_C379.md) — 学舎を三度落第したことについて、本人には言い分があります。
+- [SHION_C380 統合暦二期生の教室](/reference/backstories/formation/SHION_C380.md) — 統合暦二期生というのは、単に稼働開始年で振り分けられた区分である。
+- [SHION_C381 治安見習い隊の靴音](/reference/backstories/formation/SHION_C381.md) — 治安見習い隊の靴音では、見習い隊の靴音は、揃うまでに一年かかりました。
+- [SHION_C382 舞台化粧と最後の旧語](/reference/backstories/formation/SHION_C382.md) — 舞台化粧と最後の旧語では、あたしは流浪の民の文化を継ぐ。
+- [SHION_C383 「最後の移民」と呼ばれた子](/reference/backstories/formation/SHION_C383.md) — 本人は「最後の移民世代」と呼ばれることがありますが、その呼び方には抵抗があります。
+- [SHION_C384 帝国という言葉を初めて書いた日](/reference/backstories/formation/SHION_C384.md) — 「帝国」って字を、俺は記録補助班で初めて紙に書いた。
+- [SHION_C385 灌漑の刻印](/reference/backstories/formation/SHION_C385.md) — 育ての親から水路勾配と流水音の違いを教わり、指と聴覚で灌漑路を読むようになった。
+- [SHION_C386 種子船の寡黙な整備工](/reference/backstories/formation/SHION_C386.md) — 種子船の寡黙な整備工では、種子船の冷凍庫の配管は継ぎ目が七箇所ある。
+- [SHION_C387 測量士の弟子](/reference/backstories/formation/SHION_C387.md) — 測量隊で杭運び、杭打ち、角度読み、記録係を順に学び、土地の形を覚えた。
+- [SHION_C388 港湾護衛隊の帳面](/reference/backstories/formation/SHION_C388.md) — 船団護衛班の見張り番と武器庫の鍵を記録し、数字の厳密さを人を守る引継ぎとして受け継いだ。
+- [SHION_C389 通信中継塔の夜警見習い](/reference/backstories/formation/SHION_C389.md) — 通信中継塔の夜警見習いでは、鉄塔の階段は九十八段。
+- [SHION_C390 採掘坑の口笛吹き](/reference/backstories/formation/SHION_C390.md) — 坑道の奥まで届く口笛で、ガス検知と休憩の合図を伝えた。
+- [SHION_C391 動植物馴化隊の観察日誌](/reference/backstories/formation/SHION_C391.md) — 動植物馴化隊の観察日誌では、記録すること自体が仕事だった。
+- [SHION_C392 建設隊の釘拾い](/reference/backstories/formation/SHION_C392.md) — 落ちた釘を拾うだけの仕事だったよ、特に語ることもない。
+- [SHION_C393 給水塔の子](/reference/backstories/formation/SHION_C393.md) — 育ての親が働く給水塔の下で形成期を過ごし、水音と塔の影を覚えている。
+- [SHION_C394 地質調査隊の岩標本](/reference/backstories/formation/SHION_C394.md) — 地質調査隊の先達が残した五段の標本箱で、未知の石を入れる最後の段を埋めた。
+- [SHION_C395 森林造成隊の苗運び](/reference/backstories/formation/SHION_C395.md) — 森林造成隊の苗運びでは、木を植えるのに一番大事なことって何だと思う。
+- [SHION_C396 気象観測所の風読み](/reference/backstories/formation/SHION_C396.md) — 気圧計の針は一時間で二目盛り動けば嵐が来る合図だった。
+- [SHION_C397 織物工房の糸くず](/reference/backstories/formation/SHION_C397.md) — 誤解しないでほしいんだけど、本人は織物が下手だったわけじゃない。
+- [SHION_C398 醸造隊の樽番](/reference/backstories/formation/SHION_C398.md) — 俺の化学感覚器は樽番のときに鍛えられたんだ、これは自慢していい話だと思う。

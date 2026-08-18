@@ -4,7 +4,7 @@ title: "確定#342：旧帝国は末期までFTL歪曲空間支配技術を実�
 description: "旧帝国は末期までFTL歪曲空間支配技術を実用化できなかったを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

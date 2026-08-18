@@ -4,7 +4,7 @@ title: "確定#316：ステラリスの抽象的な資源（研究力・統合�
 description: "ステラリスの抽象的な資源（研究力・統合力・影響力）を資源枠として予約——研究力は毎朝8時にバニラ研究を自動進行、統合力は役職相当バフ付与等、影響力はワールドマップ機能用を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

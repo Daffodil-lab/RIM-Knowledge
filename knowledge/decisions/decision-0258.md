@@ -5,7 +5,7 @@ description: "CoreMOD資料v1§4.3・無制限スタック特性に整数上限�
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

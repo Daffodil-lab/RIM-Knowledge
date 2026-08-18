@@ -4,7 +4,7 @@ title: "確定#60：Royaltyモジュールの内容確定：①水仙・評議�
 description: "Royaltyモジュールの内容確定：①水仙・評議員のpsycast②称号のPermit/Favor化③後天的サイキック技術の広い開放（第三の強さを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

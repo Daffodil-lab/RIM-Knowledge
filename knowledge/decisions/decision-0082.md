@@ -4,7 +4,7 @@ title: "確定#82：−Tier下限フロアの具体的ベンチマーク確定�
 description: "−Tier下限フロアの具体的ベンチマーク確定：Lily the Death Flowerの「システム抑制」弱点（命中−2.0/−2.0・回避−5を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

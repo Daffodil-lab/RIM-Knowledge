@@ -1,4 +1,6 @@
-# 調査・参照
+# 調査・参照（荷札に従う補助層）
+
+ここは一律の権威層ではなく、各ファイルの`knowledge_role`と`authority`に従う補助層です。`authority: reference`は外部出典、ライセンス、固定コミットなどの証拠・来歴を保持し、`authority: protected-draft`は未確定・保護された案を保持します。research全体を現行仕様や検証根拠の所有者として扱わず、現行の事実や採用済み仕様は`canonical_owner`または`canonical_for`を先に辿って確認してください。
 
 ## 下位領域
 

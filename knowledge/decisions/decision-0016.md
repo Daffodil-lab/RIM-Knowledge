@@ -4,7 +4,7 @@ title: "確定#16：後天的強化：能力は製造時固定なし。資源で
 description: "後天的強化：能力は製造時固定なしを現行方針として確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

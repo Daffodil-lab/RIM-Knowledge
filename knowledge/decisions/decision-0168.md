@@ -4,7 +4,7 @@ title: "確定#168：任意付与特性プールに正13種・負14種を追加�
 description: "任意付与特性プールに正13種・負14種を追加（正35：負26の構成に調整）を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

@@ -4,7 +4,7 @@ title: "確定#213：シオン/Shion_資源植物_ミチューリン農芸公社
 description: "シオン/Shion資源植物ミチューリン農芸公社資料v1.mdはCoreMOD非同梱と確定——§1〜4はバベットの晩餐会、§5〜7は宇宙商人が実装を担当を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

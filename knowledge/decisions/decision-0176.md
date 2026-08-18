@@ -4,7 +4,7 @@ title: "確定#176：必須排他選択に第三の選択肢「狐人形」（�
 description: "必須排他選択に第三の選択肢「狐人形」（機械と生物の融合）を新設、時計仕掛け限定/有機機械限定の両特性プールに越境アクセスを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

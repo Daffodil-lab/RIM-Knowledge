@@ -5,7 +5,7 @@ description: "確定番号319を訂正——アルコテック級の実装はCor
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

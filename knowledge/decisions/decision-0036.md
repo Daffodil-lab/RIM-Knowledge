@@ -4,7 +4,7 @@ title: "確定#36：固定年表は作らない（曖昧さは仕様）：絶対
 description: "固定年表は作らない（曖昧さは仕様）：絶対年数や詳細な年代記は定めない。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

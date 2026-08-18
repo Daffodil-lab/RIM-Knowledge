@@ -4,7 +4,7 @@ title: "確定#328：遠隔拠点（第二マップを生成しない工場/設�
 description: "遠隔拠点（第二マップを生成しない工場/設備展開）を追加——資源ノード対応生産・非対応時の扱い・砲兵陣地/航空基地/軌道エレベーター等の設備群を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

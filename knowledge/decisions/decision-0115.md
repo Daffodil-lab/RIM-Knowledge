@@ -5,7 +5,7 @@ description: "ドクトル・ジバゴの史実の結末（皇族の死に絶え
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

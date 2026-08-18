@@ -4,7 +4,7 @@ title: "確定#194：§2-25「Diasporaブランド語彙の個人名転用」の
 description: "§2-25「Diasporaブランド語彙の個人名転用」の位置づけを訂正、対象語を10→22語へ拡大を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

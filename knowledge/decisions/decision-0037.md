@@ -4,7 +4,7 @@ title: "確定#37：命名確定：MOD名＝Shion Race: The Manufactured Utopia 
 description: "命名確定：MOD名＝Shion Race: The Manufactured Utopia – A Clockwork Fox Doll／種族正を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

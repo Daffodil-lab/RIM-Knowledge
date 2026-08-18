@@ -5,7 +5,7 @@ description: "用語定義「同盟人」＝政治的に興味のない普通の
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

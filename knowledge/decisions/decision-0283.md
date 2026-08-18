@@ -4,7 +4,7 @@ title: "確定#283：同盟のFTL技術の規模多様性・物流基盤とし�
 description: "同盟のFTL技術の規模多様性・物流基盤としての中核性・亜空間内主観時間の超長期化と艦船の永続設計要件を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

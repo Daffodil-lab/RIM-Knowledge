@@ -5,7 +5,7 @@ description: "Diaspora段1品目のフレーバーテキストを確定した決
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

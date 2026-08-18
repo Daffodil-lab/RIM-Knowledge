@@ -4,7 +4,7 @@ title: "確定#3：大目標＝全人類を「同盟」へ統一。全派閥併�
 description: "大目標＝全人類を「同盟」へ統一を現行方針として確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

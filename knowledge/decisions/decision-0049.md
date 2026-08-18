@@ -4,7 +4,7 @@ title: "確定#49：ユニット設計ダイアログの新設：製造を外観
 description: "ユニット設計ダイアログの新設：製造を外観プレビュー＋モデルタイプ＋細部調整＋品質確率プレビューを備えた専用ダイアログに刷新（§8.2-A）。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

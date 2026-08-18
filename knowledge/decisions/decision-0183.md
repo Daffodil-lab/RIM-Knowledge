@@ -4,7 +4,7 @@ title: "確定#183：狐人形の弱点負債ptは通常の任意ptと別軸・�
 description: "狐人形の弱点負債ptは通常の任意ptと別軸・相殺不可を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

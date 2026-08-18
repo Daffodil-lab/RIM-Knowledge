@@ -4,7 +4,7 @@ title: "確定#89：FTL到着時の混乱は通信機経由で同盟に賠償請
 description: "FTL到着時の混乱は通信機経由で同盟に賠償請求できるを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

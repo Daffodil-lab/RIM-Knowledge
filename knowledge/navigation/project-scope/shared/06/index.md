@@ -1,9 +1,11 @@
 # 共有 06
 
-範囲: 0. Purpose〜67. CreditとMarkの二国間清算
+範囲: 12. Final lesson〜67. CreditとMarkの二国間清算
 
 ## 項目
 
+- [12. Final lesson](/research/monolyn-practice/12-Final-lesson.md) — Monolyn is valuable because players actually build around its Tower, Light, baptism, and terminal systems.。 【所属MOD: 共有】
+- [13. Source links recorded by user](/research/monolyn-practice/13-Source-links-recorded-by-user.md) — Source links recorded by userは、Monolyn Race - Steam Workshop Q&A:…。 【所属MOD: 共有】
 - [0. Purpose](/research/monolyn-ui/00-Purpose.md) — This document records the user-provided summary of Monolyn Race UI and system feedback from developer Q&A, bug report threads, and…。 【所属MOD: 共有】
 - [1. Source status](/research/monolyn-ui/01-Source-status.md) — The details below are treated as a user-provided field report from public player feedback and strategy/review sources.。 【所属MOD: 共有】
 - [2. Overall system reception](/research/monolyn-ui/02-Overall-system-reception.md) — Reported NamuWiki-style evaluation、具体的にはMonolyn is high quality, but unusual compared with many existing mods.とIts prayer UI,…。 【所属MOD: 共有】

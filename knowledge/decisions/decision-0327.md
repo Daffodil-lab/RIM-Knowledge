@@ -5,7 +5,7 @@ description: "地域開発度（Regional Development）メトリクスを追加�
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

@@ -5,7 +5,7 @@ description: "ここではそれは起こりえないの内戦終わりifを確�
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

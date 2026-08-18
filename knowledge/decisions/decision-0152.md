@@ -4,7 +4,7 @@ title: "確定#152：Diaspora Tech companyの正式名称確定"
 description: "Diaspora Tech companyの正式名称確定を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

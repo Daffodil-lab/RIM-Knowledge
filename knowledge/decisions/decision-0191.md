@@ -4,7 +4,7 @@ title: "確定#191：有機機械側のスタッカブル重ね掛け上限は�
 description: "有機機械側のスタッカブル重ね掛け上限は基本的に10〜50の範囲を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

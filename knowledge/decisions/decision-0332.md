@@ -4,7 +4,7 @@ title: "確定#332：Recommendations項目6「リセット型進行」は本MOD�
 description: "Recommendations項目6「リセット型進行」は本MODに非該当と結論——AIC設計分析レポートの全6項目が§13.1〜13.9として出揃うを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

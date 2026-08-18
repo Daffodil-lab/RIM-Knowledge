@@ -4,7 +4,7 @@ title: "確定#64：Dialog_ManufacturePawnの拡張性設計：Def+Workerパタ�
 description: "DialogManufacturePawnの拡張性設計：Def+Workerパターン（DesignDialogTabDef／BodyLoadoを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

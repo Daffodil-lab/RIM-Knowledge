@@ -2,5 +2,6 @@
 
 ## 小索引
 
+- [deprecated](deprecated/) — 386件
 - [draft](draft/) — 12件
-- [stable](stable/) — 1821件
+- [stable](stable/) — 1437件

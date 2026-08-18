@@ -5,7 +5,7 @@ description: "具体品・フレーバーテキスト集／段0品目を確定�
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

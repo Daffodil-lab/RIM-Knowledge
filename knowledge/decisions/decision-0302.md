@@ -4,7 +4,7 @@ title: "確定#302：「分身」の基本的なバランス調整はVanilla Exp
 description: "「分身」の基本的なバランス調整はVanilla Expandedシリーズを参考にするを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

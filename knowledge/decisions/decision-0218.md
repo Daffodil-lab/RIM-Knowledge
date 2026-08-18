@@ -4,7 +4,7 @@ title: "確定#218：発電機と真空濃縮器の役割を分離——発電�
 description: "発電機と真空濃縮器の役割を分離——発電機は濃縮真空エネルギーを燃料消費、真空濃縮器が地場濃度からの唯一の生成手段、発電量は地場濃度×100（上限10000W）を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

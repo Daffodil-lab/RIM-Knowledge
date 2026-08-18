@@ -4,7 +4,7 @@ title: "確定#286：大型艦艇が星系内に直接FTL帰還しない理由�
 description: "大型艦艇が星系内に直接FTL帰還しない理由（星系破壊/更なる惨事のリスク・他アルコテックとの関係悪化）——ただしin-universeの推測に留まるを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

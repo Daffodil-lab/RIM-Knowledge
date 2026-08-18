@@ -4,7 +4,7 @@ title: "確定#119：ドクトル・ジバゴのシナリオ設計の下敷き�
 description: "ドクトル・ジバゴのシナリオ設計の下敷き＝史実の「本土決戦」型を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

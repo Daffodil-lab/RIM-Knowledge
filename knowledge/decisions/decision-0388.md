@@ -5,7 +5,7 @@ description: "種バックストーリー、人工知能定義、特殊部隊・
 tags:
   - "decision-log"
   - "backstory"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

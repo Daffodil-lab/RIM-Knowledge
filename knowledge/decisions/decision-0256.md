@@ -5,7 +5,7 @@ description: "装備段1・段2の解禁研究をそれぞれ「Diaspora Tech co
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

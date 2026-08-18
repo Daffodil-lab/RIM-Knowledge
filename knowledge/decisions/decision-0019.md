@@ -4,7 +4,7 @@ title: "確定#19：特性 #24 遺伝子の運び手：機械ながら Biotech �
 description: "特性 番号24 遺伝子の運び手：機械ながら Biotech 遺伝子を後天的に移植・発現（基底ゲノムと別層）。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

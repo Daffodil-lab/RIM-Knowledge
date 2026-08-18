@@ -4,7 +4,7 @@ title: "確定#207：無零花・コシダの配置間隔・照度閾値を太�
 description: "無零花・コシダの配置間隔・照度閾値を太陽灯基準で確定、Мастерская以降の基準消費量の個別値割当方式（線形式）を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

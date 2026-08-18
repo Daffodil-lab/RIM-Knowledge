@@ -4,7 +4,7 @@ title: "確定#253：研究「ペルソナコア修理」を「ユニット修�
 description: "研究「ペルソナコア修理」を「ユニット修理」に改称を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

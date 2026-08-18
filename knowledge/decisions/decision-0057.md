@@ -5,7 +5,7 @@ description: "MODスコープの分離＝エンドコンテンツは拡張MOD（
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

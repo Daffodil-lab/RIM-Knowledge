@@ -5,7 +5,7 @@ description: "段2品目の段1対応全カテゴリへの拡張を確定した�
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

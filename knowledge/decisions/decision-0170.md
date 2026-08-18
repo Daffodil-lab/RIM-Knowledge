@@ -5,7 +5,7 @@ description: "コア特性を6種へ縮小、残り21種＋新規負特性4種�
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

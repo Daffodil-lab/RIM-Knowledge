@@ -4,7 +4,7 @@ title: "確定#18：グレード＝±Tier バンド（+Tier 優等／Tier0 標�
 description: "グレード＝±Tier バンド（+Tier 優等／Tier0 標準／−Tier 粗悪・数用）。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

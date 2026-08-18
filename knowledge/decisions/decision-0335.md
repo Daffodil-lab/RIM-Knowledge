@@ -4,7 +4,7 @@ title: "確定#335：抽象的資源の3枠目「影響力」を廃し、確定#
 description: "抽象的資源の3枠目「影響力」を廃し、確定番号313で既に導入済みの「名声」へ統合を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

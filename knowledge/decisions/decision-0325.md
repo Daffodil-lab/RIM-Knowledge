@@ -4,7 +4,7 @@ title: "確定#325：中継塔をワールドマップ規模へ拡張——タ�
 description: "中継塔をワールドマップ規模へ拡張——タイル間の流通網を敷設し接続設備と生産を連携、ポーンも流通網で高速移動可能にを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

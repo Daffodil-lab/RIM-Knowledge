@@ -4,7 +4,7 @@ title: "確定#250：コロニードクトリンの数値設計アンカーを�
 description: "コロニードクトリンの数値設計アンカーをバランス基準書v1§4.3（C90）として新設——単一ステータス+10〜25%レンジ・多種類のステータスへ分散、という原則を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

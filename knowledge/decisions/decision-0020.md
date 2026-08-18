@@ -5,7 +5,7 @@ description: "装備ティア8段（一般服→火薬銃→前世代→現代�
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

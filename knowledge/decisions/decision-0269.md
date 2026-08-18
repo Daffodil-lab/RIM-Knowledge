@@ -5,7 +5,7 @@ description: "液化メカナイトも濃縮真空エネルギーと同じパイ
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

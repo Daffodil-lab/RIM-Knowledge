@@ -4,7 +4,7 @@ title: "確定#15：参照移植 A〜E 全採用（§15）：A 製造グレー�
 description: "参照移植 A〜E 全採用（§15）：A 製造グレード／B 職級（闇の機械化・昇格可）／C 固有レリック（再生産可）／D 身体ロードアウト（哲学のを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

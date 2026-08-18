@@ -5,7 +5,7 @@ description: "装備数値表v1・銃搭載バイポットによる展開シス�
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

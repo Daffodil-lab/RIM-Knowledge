@@ -4,7 +4,7 @@ title: "確定#252：個人名/セル暗号/読みをバニラNameTriple（名�
 description: "個人名/セル暗号/読みをバニラNameTriple（名前/姓/ニックネーム）へ正式対応づけ——単一名整形方式を撤回を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

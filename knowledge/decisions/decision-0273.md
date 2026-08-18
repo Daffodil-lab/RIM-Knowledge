@@ -5,7 +5,7 @@ description: "ステルス性は数値が低いほど良いと訂正、既存の
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

@@ -4,6 +4,8 @@
 
 - [共有・シオン・カエラヴィ区分](project-scope-共有・シオン・カエラヴィ区分.md) — 概念を共有、シオン、カエラヴィのいずれか一つの所属MOD区分へ解決し、所属MODから探す派生索引を安定して生成する。
 - [知識の権威順位とライフサイクル](authority-and-lifecycle-知識の権威順位とライフサイクル.md) — このOKFバンドルはRIMプロジェクト知識の入口であり、原子的な概念ファイルを現行の参照単位とする。
+- [正本優先の通常参照方針](canonical-first-reading-policy-正本優先の通常参照方針.md) — RIMの通常読み込み入口を現行正本・カタログビューへ限定し、決定履歴と調査・参照資料を履歴・補助層として扱う。
+- [Google上流OKF追随方針](okf-upstream-following-policy-Google上流OKF追随方針.md) — GoogleCloudPlatform/knowledge-catalogのOKF規範とVisualize参照実装を確認し、RIM固有拡張をRIM側で所有する追随手順を定める。
 - [RIM OKFメタデータ契約](metadata-contract-メタデータ契約.md) — RIM概念ファイルのOKF 0.2標準メタデータと正本所有拡張の必須構造を定める。
 - [知識所有者マップ](ownership-map-知識所有者マップ.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
 - [重複と異なる粒度の管理規則](duplication-policy-重複と異なる粒度の管理規則.md) — 同じ内容を異なる粒度で必要とする場合でも、事実の所有者は一つにする。

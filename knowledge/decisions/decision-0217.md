@@ -4,7 +4,7 @@ title: "確定#217：§5.12「輸送タンク車」を「携帯タンク」に�
 description: "§5.12「輸送タンク車」を「携帯タンク」に改称を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

@@ -5,7 +5,7 @@ description: "体力システムの機械化（冷媒漏出・技師修理）を
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

@@ -4,7 +4,7 @@ title: "確定#189：有機機械限定特性リストは現状で十分と確�
 description: "有機機械限定特性リストは現状で十分と確定（「非機械であること」で足りる）を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

@@ -4,7 +4,7 @@ title: "確定#65：Shadows of the Shroud（後の宇宙からの色）の内容
 description: "Shadows of the Shroud（後の宇宙からの色）の内容確定：新設異常（無音の合唱／餓えたコア／観測者の影／鏡狐）・新技術/儀式・新を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

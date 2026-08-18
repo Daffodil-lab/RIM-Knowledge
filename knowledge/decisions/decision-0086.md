@@ -4,7 +4,7 @@ title: "確定#86：ソラリス（旧称：Astral Planes）新設・同盟の�
 description: "ソラリス（旧称：Astral Planes）新設・同盟のサイキック技術・FTL航法を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

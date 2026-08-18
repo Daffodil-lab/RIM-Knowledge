@@ -4,7 +4,7 @@ title: "確定#169：Tier−6〜−10の改造ポイントを線形延長とし�
 description: "Tier−6〜−10の改造ポイントを線形延長として確定、スタッカブル弱点特性の重ね掛け上限は混在方式に確定を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

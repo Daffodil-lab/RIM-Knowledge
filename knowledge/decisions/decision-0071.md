@@ -5,7 +5,7 @@ description: "カタロニア讃歌：階梯を全系統15階梯に統一＋例�
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

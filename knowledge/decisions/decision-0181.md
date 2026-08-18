@@ -4,7 +4,7 @@ title: "確定#181：不思議な時計仕掛けの「恐ろしい力」をHedif
 description: "不思議な時計仕掛けの「恐ろしい力」をHediff「魔法の力」として確定（Fibrous mechanites＋Luciferiumの合成バフ）を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

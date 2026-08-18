@@ -4,7 +4,7 @@ title: "確定#331：Recommendations項目5「必須だが調整可能」の二�
 description: "Recommendations項目5「必須だが調整可能」の二段構えを確定——遠隔拠点＋休眠遺構の再起動だけで簡易ルートとして成立させるを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

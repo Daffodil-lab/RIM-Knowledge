@@ -5,7 +5,7 @@ description: "迫撃砲・MLRS弾種（§2.20）の全数値を口径別に確�
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

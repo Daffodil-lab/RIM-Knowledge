@@ -5,7 +5,7 @@ description: "確定番号310のCellの位置づけを修正——Cellは「橋�
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

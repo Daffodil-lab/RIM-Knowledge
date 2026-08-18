@@ -4,7 +4,7 @@ title: "確定#128：CoreMOD副題「A Clockwork Fox Doll」の由来解決"
 description: "CoreMOD副題「A Clockwork Fox Doll」の由来解決を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

@@ -1,9 +1,11 @@
 # canonical 03
 
-範囲: I. 保管中の時間進行〜ADV-009 全状態の保存と冪等性
+範囲: G. 保管基盤不在〜ADV-007 Pawn依存Manifest
 
 ## 項目
 
+- [G. 保管基盤不在](/kombinat/requirements/050-G-%E4%B8%8A%E6%B5%81%E4%B8%8D%E5%9C%A8.md) — Core独自保管基盤が欠落または不整合なら生産接続を停止し、保存状態を破壊的に初期化しない。
+- [H. 保管基盤欠陥分離](/kombinat/requirements/051-H-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E5%88%86%E9%9B%A2.md) — Core独自保管基盤単体の問題とKombinat接続の問題を再現条件で分離する。
 - [I. 保管中の時間進行](/kombinat/requirements/052-I-Stasis-%E4%BF%9D%E7%AE%A1%E4%B8%AD%E3%81%AE%E6%99%82%E9%96%93%E9%80%B2%E8%A1%8C.md) — Core独自Storageが定めた対象別時間進行方針を、Kombinatが上書きしない。
 - [J. Creditと関連台帳](/kombinat/requirements/053-J-%E9%80%9A%E8%B2%A8.md) — Credit、Mark、債務、租税、Thing受渡しの初期化と原子的Transactionが、連打と保存往復でも一致する。
 - [12. α Release Gate](/kombinat/requirements/12-%CE%B1-Release-Gate-%E5%85%AC%E9%96%8B%E5%88%A4%E5%AE%9A.md) — α版はCore独自保管基盤との直接受渡し、三段生産、任意排出、保存・復旧をRelease Gateへ含める。
@@ -82,5 +84,3 @@
 - [ADV-005 Ephemeral参照解決](/pawn/adv-005-%E5%8F%82%E7%85%A7%E8%A7%A3%E6%B1%BA.md) — MUST: Ephemeral Pawnの完全削除前に、Relation、Mood Memory、Tale、Quest、Lord、Faction、World Pawn、Bond、外部参照を解決、匿名化、終端記録へ変換する。
 - [ADV-006 Design version pin](/pawn/adv-006-%E8%A6%81%E4%BB%B6.md) — MUST: Generation Requestは開始時のPawn Design、Clone Source checkpoint、Loadout Profile、Gene／Ability候補、Adapter versionをpinする。
 - [ADV-007 Pawn依存Manifest](/pawn/adv-007-%E4%BE%9D%E5%AD%98.md) — MUST: Dormant Record、Individual Archive、Pawn Design、Clone Sourceが依存するpackageId、version、Def、class、Adapterを有限Manifestとして保存する。
-- [ADV-008 Dormant wealth](/pawn/adv-008-%E8%A6%81%E4%BB%B6.md) — MUST: Dormant中の身体と内蔵Moduleを、そのRecordが属するMapまたはWorldObjectのwealthへ一度だけ算入する。
-- [ADV-009 全状態の保存と冪等性](/pawn/adv-009-%E5%85%A8%E7%8A%B6%E6%85%8B%E3%81%AE%E4%BF%9D%E5%AD%98%E3%81%A8%E5%86%AA%E7%AD%89%E6%80%A7.md) — MUST: 緊急再配備、着脱品返却、無人生産、参照解決、Manifest診断を途中保存できる。

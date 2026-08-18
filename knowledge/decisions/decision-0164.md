@@ -4,7 +4,7 @@ title: "確定#164：GOLIATHのモチーフをマクミランTAC-50系（ボル�
 description: "GOLIATHのモチーフをマクミランTAC-50系（ボルトアクション）へ変更を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

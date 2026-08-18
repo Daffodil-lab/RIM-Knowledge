@@ -4,7 +4,7 @@ title: "確定#184：狐人形の必要素材種類数に専用素材が追加�
 description: "狐人形の必要素材種類数に専用素材が追加されるを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

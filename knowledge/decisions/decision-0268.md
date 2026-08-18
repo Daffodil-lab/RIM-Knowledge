@@ -4,7 +4,7 @@ title: "確定#268：ステルス性メカニクスの夜間補正を確定—�
 description: "ステルス性メカニクスの夜間補正を確定——安全接近距離を煙幕と同じ×0.5にを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

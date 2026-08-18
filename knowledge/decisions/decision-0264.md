@@ -5,7 +5,7 @@ description: "将来構想・独自開拓団の「開拓戦争」（毒ガス＋
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

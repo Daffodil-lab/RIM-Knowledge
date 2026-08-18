@@ -4,7 +4,7 @@ title: "確定#242：身体ロードアウト制（CoreMOD資料v1§8）を全�
 description: "身体ロードアウト制（CoreMOD資料v1§8）を全面詳細化——枠数のTier別具体表、部位別インプラントカタログ、種族間非対称性の数値化（効果量80%・施術時間1.5倍）、換装コスト・維持費連動式を新設を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

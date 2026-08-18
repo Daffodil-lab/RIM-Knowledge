@@ -5,7 +5,7 @@ description: "クラスター弾をジャミング弾へ統合し、独立弾種
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

@@ -5,7 +5,7 @@ description: "Tower Ledger統合工業システムの基礎資源をCVE・デジ
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

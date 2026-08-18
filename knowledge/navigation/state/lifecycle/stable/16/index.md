@@ -1,86 +1,86 @@
 # stable 16
 
-範囲: SHION_C415 種Cell研究所の培養見習い〜SHION_A075 破損奇跡の修復者
+範囲: SHION_A380 農区統合の教訓〜5. Buildings and infrastructure
 
 ## 項目
 
-- [SHION_C415 種Cell研究所の培養見習い](/reference/backstories/formation/SHION_C415.md) — 主任研究員に渡された鉄粉の皿を、本人は毎朝そっと覗きに行った。
-- [SHION_C416 イェツィラー学舎の写経見習い](/reference/backstories/formation/SHION_C416.md) — 師は、見習いだった本人にマソレットの一文字も書かせず、まず完成済みの文字を読むことから教えた。
-- [SHION_C417 サイキック適性検査局の記録係](/reference/backstories/formation/SHION_C417.md) — 育ての親は適性検査局で、感応の強さを測る針の動きを記録する仕事をしていた。
-- [SHION_C418 帝国拡張艦隊の甲板整理](/reference/backstories/formation/SHION_C418.md) — 俺の仕事は艦隊の格納庫に転がった工具や部品を集めることだった。
-- [SHION_C419 秘文字工房の顔料挽き](/reference/backstories/formation/SHION_C419.md) — あたしの仕事は、秘文字を書くための顔料を挽くことだった。
-- [SHION_A001 地区設備技師](/reference/backstories/mastery/SHION_A001.md) — 集合居住区の電力、水、暖房、熱交換設備を担当する技師となった。
-- [SHION_A002 義肢調律師](/reference/backstories/mastery/SHION_A002.md) — 義手の握力、義眼の焦点、人工関節の歩調を利用者ごとに調整する技師となった。
-- [SHION_A003 公共食堂主任](/reference/backstories/mastery/SHION_A003.md) — 公共食堂の主任として、外部住民と動物の栄養、禁忌、シオンの感覚設定、文化としての食事を管理した。
-- [SHION_A004 記念庭園設計者](/reference/backstories/mastery/SHION_A004.md) — 死者や失われた共同体を記念する庭園を設計した、また遺族が望む植物、開花時期、訪問しやすい通路を聞き取り、一つの英雄像へ記憶をまとめすぎないようにした。
-- [SHION_A005 星図編纂者](/reference/backstories/mastery/SHION_A005.md) — 複数時代の星図を照合し、移動した衛星、消えた航路標識、閉鎖された港を最新の図へ反映した。
-- [SHION_A006 移動診療医](/reference/backstories/mastery/SHION_A006.md) — 車両一台の診療所で辺境を巡り、住民、動物、義肢や補助器官の故障を診た。
-- [SHION_A007 動物機工](/reference/backstories/mastery/SHION_A007.md) — 荷獣の鞍、義肢、自動給餌器を同じ工房で整備する動物機工となった。
-- [SHION_A008 構造聴診士](/reference/backstories/mastery/SHION_A008.md) — 壁や梁へ聴音器を当て、配管の脈動、岩盤の小さな破断、固定具の緩みを診断する構造聴診士となった。
-- [SHION_A009 物資台帳官](/reference/backstories/mastery/SHION_A009.md) — 同盟補給局で、台帳上の在庫と現場が実際に使える物資の差を調べた。
-- [SHION_A010 葬送司会者](/reference/backstories/mastery/SHION_A010.md) — 宗派や党派の異なる遺族のため、葬送の順番、弔辞、音楽、食事を調整する司会者となった。
-- [SHION_A011 気象観測主任](/reference/backstories/mastery/SHION_A011.md) — 農業観測所の主任として、雨、灰、毒霧、日照を測り、農家と居住区へ予報を伝えた。
-- [SHION_A012 彫刻採掘師](/reference/backstories/mastery/SHION_A012.md) — 岩を切り出す前に内部の模様、亀裂、材質を読み、建材に向く部分と彫刻へ使える部分を分ける採掘師となった。
-- [SHION_A013 書庫復元員](/reference/backstories/mastery/SHION_A013.md) — 焼けた頁、破損した記憶媒体、重複する索引から書庫を復元した。
-- [SHION_A014 多言語仲裁人](/reference/backstories/mastery/SHION_A014.md) — 言葉だけでなく、沈黙、贈答、席順、身振りの意味まで訳す仲裁人となった。
-- [SHION_A015 マソレット写字生](/reference/backstories/mastery/SHION_A015.md) — マソレットの写字生として、原文、異本、後世の注釈を区別して書き写した。
-- [SHION_A016 ティクーン文法工](/reference/backstories/mastery/SHION_A016.md) — 人工知能の命令列と機械制御を修復した、また修復範囲と依頼者の責任を先に定めた。
-- [SHION_A017 鉄律の守護者](/reference/backstories/mastery/SHION_A017.md) — 鉄律の守護者として、工房、書庫、避難者の警護を担当した。
-- [SHION_A018 死者名簿の編纂者](/reference/backstories/mastery/SHION_A018.md) — 各党派、帝国軍、無所属避難民の死者名簿を照合した。
-- [SHION_A019 辺境の校正者](/reference/backstories/mastery/SHION_A019.md) — 辺境を巡り、契約書、墓碑、機械命令、学校教材の誤りを直す校正者となった。
-- [SHION_A020 評議会注解者](/reference/backstories/mastery/SHION_A020.md) — 評議会決議へ適用範囲、反対意見、再検討条件を付す注解者となった。
-- [SHION_A021 帝国遺構の番人](/reference/backstories/mastery/SHION_A021.md) — 帝国遺構を盗掘と無責任な復元から守り、最盛期の礼拝所、内戦施設、内戦後の拘禁室を時代別に管理した。
-- [SHION_A022 破門校正官](/reference/backstories/mastery/SHION_A022.md) — 修復対象の拒否を依頼人の命令より優先し、所属していた校正学派から破門された。
-- [SHION_A023 儀式教師](/reference/backstories/mastery/SHION_A023.md) — 祈り、葬送、成人式を、信仰や文化の異なる生徒へ教える儀式教師となった。
-- [SHION_A024 身体文章設計者](/reference/backstories/mastery/SHION_A024.md) — 利用者の新しい身体を、強度や出力だけでなく、感覚、癖、外見、生活習慣まで含めて設計した。
-- [SHION_A025 独立開拓者](/reference/backstories/mastery/SHION_A025.md) — 行政圏外の谷で、出身の異なる移住者と住居、畑、発電設備を築いた。
-- [SHION_A026 キャラバン修理師](/reference/backstories/mastery/SHION_A026.md) — キャラバンに同行し、車軸、鞍、冷却器、調理設備を移動中に修理した。
-- [SHION_A027 開拓地調停人](/reference/backstories/mastery/SHION_A027.md) — 開拓地で土地、水、配給、旧党派の旗を巡る争いを仲裁した。
-- [SHION_A028 辺境農芸師](/reference/backstories/mastery/SHION_A028.md) — 土地の毒性、昼の長さ、利用できる水、住民の食文化に合わせて作物を選ぶ農芸師となった。
-- [SHION_A029 遺物回収屋](/reference/backstories/mastery/SHION_A029.md) — 廃墟から工具、医薬品、記録媒体、再利用できる建材を回収した。
-- [SHION_A030 救難記録編纂者](/reference/backstories/mastery/SHION_A030.md) — 救難信号、捜索範囲、目撃情報、発見物を地図へまとめ、次の隊が同じ場所を無駄に探さないようにした。
-- [SHION_A031 通信塔夜番](/reference/backstories/mastery/SHION_A031.md) — 夜間の通信塔で、救難信号、商取引、定時連絡、住民の私信を受信した。
-- [SHION_A032 植民地万能工](/reference/backstories/mastery/SHION_A032.md) — 小さな植民地で本人は壁を直し、畑を刈り、動物を追い、夕食を作った。
-- [SHION_A033 鉄塊護衛](/reference/backstories/mastery/SHION_A033.md) — 重装甲を着込み、キャラバンや避難者の隊列で最も脆い側を守る護衛となった。
-- [SHION_A034 戦場衛生技師](/reference/backstories/mastery/SHION_A034.md) — 革命連合の衛生隊で、外部居住者の銃創、熱傷、感染と、シオンの外装・機能部損傷を所属に関係なく処置した。
-- [SHION_A035 防塞工兵](/reference/backstories/mastery/SHION_A035.md) — 帝国内戦中、地下へ防壁、退避路、崩落防止構造を築く工兵となった。
-- [SHION_A036 長距離斥候](/reference/backstories/mastery/SHION_A036.md) — 集落やキャラバンより先行し、毒性降下物、獣道、待伏せ跡、安全な水場を調べる長距離斥候となった。
-- [SHION_A037 補給監査官](/reference/backstories/mastery/SHION_A037.md) — 内戦後帝国の補給部門で、弾薬、食料、医薬品の入出庫を監査した。
-- [SHION_A038 異常対応員](/reference/backstories/mastery/SHION_A038.md) — 原因不明の設備、生物、信号を調べる異常対応員となった。
-- [SHION_A039 内部改革者](/reference/backstories/mastery/SHION_A039.md) — 同盟に残り、配給審査、代表選出、監査公開の仕組みを内側から改めようとした。
-- [SHION_A040 外からの社会改良者](/reference/backstories/mastery/SHION_A040.md) — 同盟の役職を辞め、外部で診療所、食堂、労働相談所を運営した。
-- [SHION_A041 自主離脱者](/reference/backstories/mastery/SHION_A041.md) — 旧共産党系の工房で共同運営に参加したが、異論を怠業として処分する方針へ反対し、自ら組織を離れた。
-- [SHION_A042 追放された旧派員](/reference/backstories/mastery/SHION_A042.md) — 革命期のファシスト党で補給を担当し、強制徴発にも署名した。
-- [SHION_A043 旗を畳んだ義勇兵](/reference/backstories/mastery/SHION_A043.md) — 革命連合の義勇兵として旗を運び、戦後の党派分裂を見届けた。
-- [SHION_A044 灰色旗への転向者](/reference/backstories/mastery/SHION_A044.md) — 度重なる襲撃と同盟行政の失敗で共同体を失った本人は、秩序と即応を約束する後世のファシスト小派へ加わった。
-- [SHION_A045 優先順位を拒んだ衛生兵](/reference/backstories/mastery/SHION_A045.md) — ファシスト党系部隊の衛生兵だったが、党員を民間人より先に治療せよという命令を拒んだ。
-- [SHION_A046 帝国を二度去った者](/reference/backstories/mastery/SHION_A046.md) — 内戦後帝国の違法命令を拒み、革命連合へ離反した、また戦後、帝国再建派が最盛期の律法秩序を戻すと約束すると、監査役として一度復帰した。
-- [SHION_A047 拾われた古旗](/reference/backstories/mastery/SHION_A047.md) — 廃墟で旧ファシスト党の旗を拾い、由来を知らず防寒布として使った。
-- [SHION_A048 昨日の修理者](/reference/backstories/mastery/SHION_A048.md) — 本人が集落へ到着すると、故障設備の一部は前日に同じ署名と工具痕で修理されていた。
-- [SHION_A049 復活者住宅の管理人](/reference/backstories/mastery/SHION_A049.md) — 蘇生直後の住民が暮らす住宅を管理し、本人より先に戻った家具と、本人より遅れて戻る記憶を同じ部屋で待った。
-- [SHION_A050 記憶料理の研究員](/reference/backstories/mastery/SHION_A050.md) — 失われた故郷の料理を、遺族の曖昧な説明から再現した。
-- [SHION_A051 帰郷祭の舞台監督](/reference/backstories/mastery/SHION_A051.md) — 回収されたТвердьの景色を舞台へ写し、帰れなかった者の席も客席に残した。
-- [SHION_A052 遺族連絡官](/reference/backstories/mastery/SHION_A052.md) — 死亡通知だけでなく、蘇生の見込みと不完全な記憶の可能性まで家族へ伝えた。
-- [SHION_A053 時間差郵便局長](/reference/backstories/mastery/SHION_A053.md) — 発送前に届く手紙、差出人の蘇生後に戻る小包、消えた時刻からの葉書を仕分けた。
-- [SHION_A054 古服再生師](/reference/backstories/mastery/SHION_A054.md) — 持主が何度も身体を替えた後も、最初の外套を直し続けた。
-- [SHION_A055 動物終生保護官](/reference/backstories/mastery/SHION_A055.md) — 短命な動物を複製で置き換えず、一生ごとの癖を記録して看取った。
-- [SHION_A056 故郷模型都市家](/reference/backstories/mastery/SHION_A056.md) — 帝国最盛期の故郷を都市模型へ再現したが、宮殿より友人と迷った路地へ多くの時間を使った。
-- [SHION_A057 祝祭調律師](/reference/backstories/mastery/SHION_A057.md) — 異なる主観時間から帰還した住民が、同じ拍子で踊れる音楽を作った。
-- [SHION_A058 蘇生後職業相談員](/reference/backstories/mastery/SHION_A058.md) — 蘇生前と同じ仕事へ戻れない者に、能力ではなく今したいことを尋ねた。
-- [SHION_A059 無音歌劇監督](/reference/backstories/mastery/SHION_A059.md) — 聴覚の異なる身体と真空環境の観客へ、振動と光だけの歌劇を演出した。
-- [SHION_A060 局所時間技師](/reference/backstories/mastery/SHION_A060.md) — 病院、農場、航路ごとに異なる時間流を接続し、住民の一日が行政の一日から滑り落ちないよう保守した。
-- [SHION_A061 人格連続性医](/reference/backstories/mastery/SHION_A061.md) — 蘇生後の記憶欠損を治療しながら、欠けた部分を家族の望む物語で埋めないよう注意した。
-- [SHION_A062 星域農学者](/reference/backstories/mastery/SHION_A062.md) — 恒星ごとに異なる季節を繋ぎ、飢饉のない輪作を設計した。
-- [SHION_A063 多構成身体建築士](/reference/backstories/mastery/SHION_A063.md) — 同じ狐娘型でも重量、感覚、可動域、保守条件の異なる身体と、外部住民が同じ建物を使えるよう設計した。
-- [SHION_A064 記憶気象学者](/reference/backstories/mastery/SHION_A064.md) — 故郷の雨を気象記録と住民の記憶から再現した、また数値上は同じ雨でも、友人が待っていた軒先がなければ違う天気だと報告書へ記した。
-- [SHION_A065 復活獣医](/reference/backstories/mastery/SHION_A065.md) — 絶滅動物を蘇らせるだけでなく、戻った個体が以前の群れへ馴染めるまで付き添った。
-- [SHION_A066 因果事故調査員](/reference/backstories/mastery/SHION_A066.md) — 原因より先に結果が届いた事故を調べ、未来の報告書を証拠品として封印した。
-- [SHION_A067 恒温生態設計者](/reference/backstories/mastery/SHION_A067.md) — 時間流の異なる住民と動植物が共存できる恒温圏を設計した。
-- [SHION_A068 マソレット大書記](/reference/backstories/mastery/SHION_A068.md) — 複数文明の秘文字写本を照合し、意味が一致しても歴史の傷まで均してしまわない校訂を行った。
-- [SHION_A069 鉄律大導師](/reference/backstories/mastery/SHION_A069.md) — 無数の決闘を勝ち抜きながら、戦わずに終えた仲裁を最大の功績とした。
-- [SHION_A070 死者対話の校正者](/reference/backstories/mastery/SHION_A070.md) — 保存人格から生成された返答と、生前に本人が残した言葉を区別して遺族へ示した。
-- [SHION_A071 帝国祈祷復元者](/reference/backstories/mastery/SHION_A071.md) — 最盛期の祈祷を、内戦後の命令文と混同されない形で復元した。
-- [SHION_A072 身体秘文字医](/reference/backstories/mastery/SHION_A072.md) — 人工身体の秘文字配列を治療し、痛覚を消す前に本人がその痛みへ与えた意味を尋ねた。
-- [SHION_A073 星界マソレット](/reference/backstories/mastery/SHION_A073.md) — 星域を跨ぐ秘文字体系を校訂し、時間流の異なる写本を一つの儀式へ接続した。
-- [SHION_A074 ティクーン公共監査人](/reference/backstories/mastery/SHION_A074.md) — 異常現実改変が公共利益へ使われたか監査し、奇跡という呼び名で費用と被害を隠すことを許さなかった。
-- [SHION_A075 破損奇跡の修復者](/reference/backstories/mastery/SHION_A075.md) — 願いだけ叶えて代価を忘れた装置を修理し、使用者の望みを聞く前に停止機構を作った。
+- [SHION_A380 農区統合の教訓](/reference/backstories/mastery/SHION_A380.md) — 農区統合の教訓では、自分は作られた民族文化を継ぐ。
+- [SHION_A381 処置を受けた医療班長](/reference/backstories/mastery/SHION_A381.md) — 今の本人は、あの頃の同僚がとうに見送った時間の先にいます。
+- [SHION_A382 帝国最初の設計技師](/reference/backstories/mastery/SHION_A382.md) — 帝国という言葉が公式に使われ始めた頃、俺は最初の統合議事堂の設計図を引いていた。
+- [SHION_A383 統合期の芸術評議員の弁明](/reference/backstories/mastery/SHION_A383.md) — 統合芸術評議班が旧い出身圏の様式をいくつも廃止したことを、今でも責められることがあります。
+- [SHION_A384 統合最後の証人](/reference/backstories/mastery/SHION_A384.md) — 帝国が成立したその日を、まだ覚えている者がどれだけ残っているでしょうか。
+- [SHION_A385 測量隊の杭打ち手](/reference/backstories/mastery/SHION_A385.md) — 本人が組んでいた測量儀は脚の一本がわずかに短くて、水平を取るのにいつも小石を挟んでいました。
+- [SHION_A386 種子船の育種番](/reference/backstories/mastery/SHION_A386.md) — 俺が育てた大豆は発芽率が九割を超えた年があってな、班長にも褒められた。
+- [SHION_A387 移住船団の機関整備工](/reference/backstories/mastery/SHION_A387.md) — あたしの仕事は簡単に言えば冷却管の詰まりを取ることだった。
+- [SHION_A388 巡回医療隊の外科助手](/reference/backstories/mastery/SHION_A388.md) — 手術灯が一つしかない出張診療所で、本人は器具を渡す役だった。
+- [SHION_A389 建設隊の型枠職人](/reference/backstories/mastery/SHION_A389.md) — 建設隊の型枠職人では、型枠は建物の見えない骨格だと本人は思っています。
+- [SHION_A390 第一次入植の炊事番](/reference/backstories/mastery/SHION_A390.md) — うちがやってたことを数えてみると、まず配給の穀物をふやかす時間の調整、次に塩を切らさないための交換交渉、それから鍋底が焦げないよう火加減を見張ること。
+- [SHION_A391 動植物馴化隊の調教師](/reference/backstories/mastery/SHION_A391.md) — 新しい星の獣を慣らす仕事は、扉を少しずつ開けるようなものだと自分は考えている。
+- [SHION_A392 灌漑隊の水路技師](/reference/backstories/mastery/SHION_A392.md) — 水路は真っ直ぐ引けばいいというものではありません。
+- [SHION_A393 地質調査隊の掘削夫](/reference/backstories/mastery/SHION_A393.md) — 地質調査隊の掘削夫では、特別な話なんて別にない。
+- [SHION_A394 港湾建設隊の潜水工](/reference/backstories/mastery/SHION_A394.md) — 耳の奥がぎゅうっと締まる感覚、あれを覚えると潜水の深さが分かるようになる。
+- [SHION_A395 通信中継隊の中継技官](/reference/backstories/mastery/SHION_A395.md) — 通信中継隊の中継技官では、中継塔の保守というのは、故障を待つ仕事である。
+- [SHION_A396 採掘隊の火薬係](/reference/backstories/mastery/SHION_A396.md) — 採掘隊の火薬係では、一番信用されない仕事だったよ、火薬係なんてのは。
+- [SHION_A397 給水隊の配管工](/reference/backstories/mastery/SHION_A397.md) — 配管の継ぎ手はもっと規格を統一するべきだと本人はずっと思っていました。
+- [SHION_A398 環境観測隊の気象観測員](/reference/backstories/mastery/SHION_A398.md) — 空を毎日見て何が分かるのかって聞かれるけど、分かるようになるまでが長いのよ。
+- [SHION_A399 開拓団の狩猟番](/reference/backstories/mastery/SHION_A399.md) — 獲物より先に風を読め、というのが自分の師匠の口癖だった。
+- [SHION_A400 移住船団の帳簿係](/reference/backstories/mastery/SHION_A400.md) — 「この数字、また合わないぞ」と班長に何度も詰め寄られました。
+- [SHION_A401 種子船の記録画工](/reference/backstories/mastery/SHION_A401.md) — 種子船の記録画工では、最初は退屈な仕事だと思っていました。
+- [SHION_A402 巡回医療隊の産婆](/reference/backstories/mastery/SHION_A402.md) — 巡回医療隊で外部居住者の出産を支え、師匠から受け継いだ観察と沈着さを次の担当者へ伝えた。
+- [SHION_A403 建設隊の護衛兵](/reference/backstories/mastery/SHION_A403.md) — 記録には英雄的な防衛戦みたいに書かれるかもしれんが、実際は違う。
+- [SHION_A404 第一次入植の仕立屋](/reference/backstories/mastery/SHION_A404.md) — 古い布を捨てるくらいなら本人に持ってきてほしい、それだけはずっと言い続けてきました。
+- [SHION_A405 地質調査隊の測地画家](/reference/backstories/mastery/SHION_A405.md) — 完成した地図の余白を、獣道を歩き、縮尺を測り、一本ずつ線を引いて埋めた。
+- [SHION_A406 港湾建設隊の荷役頭](/reference/backstories/mastery/SHION_A406.md) — なんで荷役の頭なんて損な役回りを引き受けたのかって。
+- [SHION_A407 通信中継隊の暗号係](/reference/backstories/mastery/SHION_A407.md) — 通信中継隊の暗号係では、覚えている数字が三つあります。
+- [SHION_A408 動植物馴化隊の獣医補](/reference/backstories/mastery/SHION_A408.md) — まず傷口を洗う、それから膿を確認する、それから薬を塗る、それから包帯を巻く。
+- [SHION_A409 灌漑隊の腕っぷし](/reference/backstories/mastery/SHION_A409.md) — 料理番のくせに喧嘩っ早いって、よくからかわれたよ。
+- [SHION_A410 星路建設隊の航路技師](/reference/backstories/mastery/SHION_A410.md) — 本人が打った航路標識は、数えていた頃で九百を超えていました。
+- [SHION_A411 交易船団の交渉員](/reference/backstories/mastery/SHION_A411.md) — 俺の仕事は簡単に言えば、初対面の開拓地相手に値切ることだ。
+- [SHION_A412 辺境行政府の巡察官](/reference/backstories/mastery/SHION_A412.md) — 開拓地が増えれば増えるほど、本人のところに届く訴えも増えました。
+- [SHION_A413 律法学舎の若きソフェル](/reference/backstories/mastery/SHION_A413.md) — 律法の写本を任されるようになったのは、灯火番だった頃から数えて十年目のことである。
+- [SHION_A414 港湾都市の造船匠](/reference/backstories/mastery/SHION_A414.md) — わしが最初に組んだ竜骨は、今も外港に係留されたまま現役で使われとる。
+- [SHION_A415 種Cell研究所の培養手](/reference/backstories/mastery/SHION_A415.md) — 種Cellの増殖速度は、与える鉄の純度でわずかに変わります。
+- [SHION_A416 イェツィラー学舎のマソレット講師](/reference/backstories/mastery/SHION_A416.md) — 本人が弟子に最初に教えるのは、文字の書き方ではなく、書き損じた紙を燃やす作法である。
+- [SHION_A417 サイキック適性検査局の検査官](/reference/backstories/mastery/SHION_A417.md) — 幼い頃、自分の針がほとんど振れなかったことを、本人はこの仕事に就いてから何度も思い出しました。
+- [SHION_A418 帝国拡張艦隊の航宙士](/reference/backstories/mastery/SHION_A418.md) — 格納庫で拾った工具の名前を全部覚えていたのが、今の仕事の始まりだったのかもしれません。
+- [SHION_A419 秘文字工房の彫り師](/reference/backstories/mastery/SHION_A419.md) — うちが挽いた顔料で書いた文字が光った日から、もう長い年月が経つ。
+- [旧Matter Network統合検討](/reference/matter-network/00-%E6%97%A7%E7%B5%B1%E5%90%88%E6%A4%9C%E8%A8%8E.md) — Matter Network統合検討は終了した過去案件であり、判断経緯を探すための参考入口だけを保持する。
+- [0. Purpose](/research/anomaly-monolith/00-Purpose.md) — This document records user-provided screenshots of RimWorld Anomaly-style monolith structures as a visual reference for the redesigned…。
+- [1. Why Anomaly monoliths are useful](/research/anomaly-monolith/01-Why-Anomaly-monoliths-are-useful.md) — Anomaly monolith visuals are useful because they communicate、具体的にはa unique central object;とdormant mystery;を扱う。
+- [2. What to adopt](/research/anomaly-monolith/02-What-to-adopt.md) — Adopt structurally、具体的にはone strong central block;とside supports or buttresses;を扱う。
+- [3. What not to copy](/research/anomaly-monolith/03-What-not-to-copy.md) — Shion Nexus is not Anomaly horror. It is a quiet ceramic clockwork singularity.。
+- [4. Three-state Core visual lesson](/research/anomaly-monolith/04-Three-state-Core-visual-lesson.md) — The screenshots suggest a useful three-stage language、具体的にはBroken/dormant slab：Dormant Core: dark aperture, sealed face, no strong…。
+- [5. Shape options influenced by Anomaly monoliths](/research/anomaly-monolith/05-Shape-options-influenced-by-Anomaly-monoliths.md) — Shape options influenced by Anomaly monolithsは、central raised slab;とbroad lower platform;を扱う。
+- [6. Color translation](/research/anomaly-monolith/06-Color-translation.md) — Default Nexus Core must not be red. Default is white/void/blue-violet.。
+- [7. Relationship to existing references](/research/anomaly-monolith/07-Relationship-to-existing-references.md) — This reference complements、具体的にはdocs/27VANILLAARCHOTECHRUINSVISUALREFERENCE.mdとdocs/26COLORTHEMEANDEQUIPMENTPALETTE.mdを扱う。
+- [8. Performance and implementation notes](/research/anomaly-monolith/08-Performance-and-implementation-notes.md) — Anomaly-style stage readability should be implemented as static state variants, not animation-heavy effects.。
+- [9. Updated Core prompt guidance](/research/anomaly-monolith/09-Updated-Core-prompt-guidance.md) — Japanese guidance:という方針の適用範囲と条件を定める。
+- [10. Final rule](/research/anomaly-monolith/10-Final-rule.md) — Use Anomaly monoliths as a reference for central-object weight and state escalation, not for horror identity.。
+- [0. Purpose](/research/archotech-ruins/00-Purpose.md) — This document records the visual direction taken from user-provided screenshots of vanilla-style archotech ruins and translates it into…。
+- [1. Why the current complex Core panel direction should change](/research/archotech-ruins/01-Why-the-current-complex-Core-panel-direction-should-change.md) — The previous Nexus Core visual direction risked looking like、具体的にはa complex circuit-board panel;とa generic equipment block;を扱う。
+- [2. Vanilla archotech ruin lessons](/research/archotech-ruins/02-Vanilla-archotech-ruin-lessons.md) — The supplied reference images suggest these useful visual traits、具体的にはlarge simple block masses;とthick black outlines;を扱う。
+- [3. Core visual direction change](/research/archotech-ruins/03-Core-visual-direction-change.md) — Preferred alpha form、具体的にはsimple central vertical mass;とbroad dark base or plinth;を扱う。
+- [4. Three acceptable Core silhouette options](/research/archotech-ruins/04-Three-acceptable-Core-silhouette-options.md) — Preferred alpha choice、具体的にはCore Tower：3x3 tower-like sealed monolith with crown fins and central aperture.：Preferred alpha Core.：Must…。
+- [5. Color translation from vanilla ruins to Shion Nexus](/research/archotech-ruins/05-Color-translation-from-vanilla-ruins-to-Shion-Nexus.md) — Vanilla-like archotech ruins often read through gray, olive, pale panels, and sparse glowing lines. Shion Nexus should shift that…。
+- [6. Updated Nexus Core palette](/research/archotech-ruins/06-Updated-Nexus-Core-palette.md) — Core Tower should use、具体的にはdominant: Enamel White / Pale Ceramic Ivory;とlower support: Blue-Black Navy or dark gray support block;を扱う。
+- [7. Per-state Core visual rules](/research/archotech-ruins/07-Per-state-Core-visual-rules.md) — Per-state Core visual rulesは、State：Visual directionとDormant：dark lens, closed tower face, no ledger line except faint mark.を扱う。
+- [8. Relationship to other alpha buildings](/research/archotech-ruins/08-Relationship-to-other-alpha-buildings.md) — The Core Tower must be visually more important than every other alpha building.。
+- [9. Art prompt direction, not image generation request](/research/archotech-ruins/09-Art-prompt-direction-not-image-generation-request.md) — RimWorld風Nexus Core Towerの形状、配色、材質、禁止表現を将来の画像資産向けに指定する。
+- [10. Final visual rule](/research/archotech-ruins/10-Final-visual-rule.md) — Nexus Core should look like a quiet archotech-like ceramic Core Tower: simple, heavy, readable, and irreplaceable.。
+- [TL;DR](/research/endfield-aic/000-TL;DR.md) — TL;DRは、AIC(Automated Industry Complex／統合工業システム)は、2026年1月22日にグローバル正式リリースされたEndfieldの「ゲームの半分」を占める中核工場システムで…。
+- [Key Findings](/research/endfield-aic/001-Key-Findings.md) — Key Findingsは、PAC(Protocol Anchor Core／Protocol Automation-Core)が全ての中心。
+- [Details(設計分析としての示唆)](/research/endfield-aic/002-Details%E8%A8%AD%E8%A8%88%E5%88%86%E6%9E%90%E3%81%A8%E3%81%97%E3%81%A6%E3%81%AE%E7%A4%BA%E5%94%86.md) — Endfieldの最大の設計的発明は「工場を独立したミニゲームにせず、進行の必須経路に組み込んだ」点にある。
+- [Recommendations(RimWorld種族MOD設計への段階的提言)](/research/endfield-aic/003-RecommendationsRimWorld%E7%A8%AE%E6%97%8FMOD%E8%A8%AD%E8%A8%88%E3%81%B8%E3%81%AE%E6%AE%B5%E9%9A%8E%E7%9A%84%E6%8F%90%E8%A8%80.md) — Recommendations(RimWorld種族MOD設計への段階的提言)は、まず「固定スループット＋詰まり可視化」を核に据える。
+- [Caveats](/research/endfield-aic/004-Caveats.md) — Caveatsは、数値仕様の出典:ベルト速度30個/分、パイプ2 unit/秒、電力値(Thermal Bank/バッテリー)、制御ポート上限1〜5000等は、公式コミュニティwiki(endfield.wiki.gg)とGame8/GameWith等の攻略サイト…。
+- [0. Purpose](/research/external-videos/00-Purpose.md) — This document records external video references that may inform Shion Nexus design.。
+- [1. Fleshbeast Colony gameplay videos](/research/external-videos/01-Fleshbeast-Colony-gameplay-videos.md) — The following URLs were identified by the user as Fleshbeast Colony gameplay videos.。
+- [2. Shion Nexus relevance](/research/external-videos/02-Shion-Nexus-relevance.md) — Fleshbeast Colony remains a structural reference only.。
+- [3. Performance review checklist](/research/external-videos/03-Performance-review-checklist.md) — When reviewing the videos, note、具体的にはwhether the system appears to add many active pawns;とwhether routine work is abstracted or…。
+- [4. Final rule](/research/external-videos/04-Final-rule.md) — These videos are reference evidence for how Fleshbeast Colony feels in play, not a mandate to copy its systems.。
+- [5. カエラヴィ民族主義・総力戦思想の参照動画](/research/external-videos/05-%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E6%B0%91%E6%97%8F%E4%B8%BB%E7%BE%A9%E3%83%BB%E7%B7%8F%E5%8A%9B%E6%88%A6%E6%80%9D%E6%83%B3%E3%81%AE%E5%8F%82%E7%85%A7%E5%8B%95%E7%94%BB.md) — ユーザーがカエラヴィ民族主義、科学化された社会進化論、総力戦と国家形成の制作参考として提示した三本の動画を、正史とは分離して記録する。
+- [0. Purpose](/research/fleshbeast/00-Purpose.md) — This document records the user-provided analysis of the three-part gameplay videos for Fleshbeast Colony / フレッシュビースト・コロニー and…。
+- [1. Source status](/research/fleshbeast/01-Source-status.md) — The details below are treated as a user-provided field report from gameplay videos.。
+- [2. Core resource and territory system](/research/fleshbeast/02-Core-resource-and-territory-system.md) — Fleshbeast Colony appears to replace ordinary colony economy with Hemogel, a biomass-like resource used for creature production, flesh…。
+- [3. Human mutation, core creation, and division loop](/research/fleshbeast/03-Human-mutation-core-creation-and-division-loop.md) — A mutated human can become a one-per-map Flesh Heart that serves as the colony core and produces Hemogel passively.。
+- [4. Creature system and fusion progression](/research/fleshbeast/04-Creature-system-and-fusion-progression.md) — Creatures can apparently be assigned to a master-like pawn group, similar in feel to mech escort commands: follow, attack, guard, or…。
+- [5. Buildings and infrastructure](/research/fleshbeast/05-Buildings-and-infrastructure.md) — Flesh walls/doors appear instantly from the ground when ordered and consume Hemogel. Flesh doors regenerate extremely quickly and can…。

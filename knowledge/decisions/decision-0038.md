@@ -4,7 +4,7 @@ title: "確定#38：「カースト」→「職級」に改称：in-universe の
 description: "「カースト」→「職級」に改称：in-universe の公式呼称は成果で登れる等級＝「職級」で統一（§15-B）。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

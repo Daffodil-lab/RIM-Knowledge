@@ -4,7 +4,7 @@ title: "確定#355：回収飛行士と別人の編纂ソフェルによる避�
 description: "回収飛行士と別人の編纂ソフェルによる避難民回収案内を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

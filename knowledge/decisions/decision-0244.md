@@ -5,7 +5,7 @@ description: "Tierによる全ステータス補正ルールを修正——特�
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

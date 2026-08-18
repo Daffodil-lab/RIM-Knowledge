@@ -5,7 +5,7 @@ description: "履歴項目であり、また現行仕様との競合時は、正
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

@@ -5,7 +5,7 @@ description: "CoreMODを「普通のRaceMOD相当」へ最小化：維持（世�
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

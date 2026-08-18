@@ -5,7 +5,7 @@ description: "観測・通信装備（TZOFEH/KESHER）とステルス装備（NI
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

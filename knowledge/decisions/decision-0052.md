@@ -5,7 +5,7 @@ description: "オーバーホール回数でコスト基準が切替：1〜5回�
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

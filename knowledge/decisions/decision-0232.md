@@ -4,7 +4,7 @@ title: "確定#232：CoreMOD§12.7「真空濃縮器」の説明に、地場濃�
 description: "CoreMOD§12.7「真空濃縮器」の説明に、地場濃度ゲージ・消費量ともに0〜100%の範囲に収まる旨の明記を追加を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

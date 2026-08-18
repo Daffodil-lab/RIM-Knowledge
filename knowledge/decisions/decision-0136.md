@@ -5,7 +5,7 @@ description: "同盟派遣開拓団の公式ビジュアル参考（砂漠コン
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

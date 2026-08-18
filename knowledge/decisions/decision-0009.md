@@ -4,7 +4,7 @@ title: "確定#9：作業速度上限＝「完璧+35%」据え置き。"
 description: "作業速度上限＝「完璧+35%」据え置きを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

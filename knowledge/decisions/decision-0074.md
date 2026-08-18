@@ -4,7 +4,7 @@ title: "確定#74：§11派閥・外交をFederations（ファウンデーショ
 description: "§11派閥・外交をFederations（ファウンデーション）新設MODへ、シナリオをロストデイズ系へ再区分を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

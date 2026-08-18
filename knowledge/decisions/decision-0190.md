@@ -5,7 +5,7 @@ description: "技師修理の資源コスト計算式を確定（生産コスト
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

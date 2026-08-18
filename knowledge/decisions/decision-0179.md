@@ -4,7 +4,7 @@ title: "確定#179：狐人形の正式名称を「時計仕掛けの狐人形�
 description: "狐人形の正式名称を「時計仕掛けの狐人形（A Clockwork Fox Doll）」に確定、MOD副題との統合を明記を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

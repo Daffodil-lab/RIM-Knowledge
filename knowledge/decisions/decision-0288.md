@@ -4,7 +4,7 @@ title: "確定#288：同盟本国が存在する空間はFTLの歪曲空間（�
 description: "同盟本国が存在する空間はFTLの歪曲空間（亜空間）とは別物——指導部の説明では「完璧に管理された空間」（ユーザー訂正で確定番号284を改訂）を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

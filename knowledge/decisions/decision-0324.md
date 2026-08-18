@@ -4,7 +4,7 @@ title: "確定#324：Tower Ledger統合工業システムのRecommendations項�
 description: "Tower Ledger統合工業システムのRecommendations項目3「休眠遺構の再起動」を確定——気まぐれなシオン/Shionが残した施設を中継塔で再接続、ローカル/ワールドマップの二段構えを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

@@ -5,7 +5,7 @@ description: "カタロニア讃歌ファミリー共通の語り口を確定し
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

@@ -5,7 +5,7 @@ description: "CoreMOD資料v1§7.3・コロニードクトリンをCoreMODスコ
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

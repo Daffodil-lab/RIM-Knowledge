@@ -5,7 +5,7 @@ description: "空挺部隊＝各特殊部隊装備の軽量派生を現行方針
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

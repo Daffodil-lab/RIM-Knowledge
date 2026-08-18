@@ -4,7 +4,7 @@ title: "確定#62：ユニット設計ダイアログの可視化＋パネル4�
 description: "ユニット設計ダイアログの可視化＋パネル4分割→2分割＋モデルタイプ意匠刷新：ビジュアルモックアップ生成、2パネル構成へ統合、3職級バッジ意匠を刷を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

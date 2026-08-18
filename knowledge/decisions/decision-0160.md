@@ -4,7 +4,7 @@ title: "確定#160：Diaspora実銃モチーフ国籍制限にイランを例外
 description: "Diaspora実銃モチーフ国籍制限にイランを例外追加を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

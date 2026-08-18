@@ -4,7 +4,7 @@ title: "確定#231：CoreMODの無零花メカニクスが直接参照する光�
 description: "CoreMODの無零花メカニクスが直接参照する光源植物を「コシダ」から新設のCoreMOD専用植物「少陽花」に差し替え。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

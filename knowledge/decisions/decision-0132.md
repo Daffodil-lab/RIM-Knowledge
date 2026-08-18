@@ -5,7 +5,7 @@ description: "発光する目は「集光率」を可変できる／訓練で意
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

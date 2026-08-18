@@ -4,7 +4,7 @@ title: "確定#329：第二コアの機能として「本拠点消滅時の再�
 description: "第二コアの機能として「本拠点消滅時の再出発拠点」を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

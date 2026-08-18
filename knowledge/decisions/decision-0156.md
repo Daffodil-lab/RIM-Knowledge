@@ -5,7 +5,7 @@ description: "Diaspora Tech company MODの構想概要を確定した決定履�
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

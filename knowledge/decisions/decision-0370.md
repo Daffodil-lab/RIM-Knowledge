@@ -5,7 +5,7 @@ description: "配置先に迷う場合のバックストーリー／研究フォ
 tags:
   - "decision-log"
   - "backstory"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

@@ -4,7 +4,7 @@ title: "確定#212：メカナイト化資源（抽象化パイプライン通�
 description: "メカナイト化資源（抽象化パイプライン通貨）を新設——全100品目・全Tierの産出物をTier N→(N+1)単位の線形レートで単一資源へ変換、変換コストは§5.3のTier別基準消費量式を流用してTierバランスを維持を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

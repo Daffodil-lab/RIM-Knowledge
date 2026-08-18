@@ -5,7 +5,7 @@ description: "新資材「液化メカナイト」を新設——シオン/Shion
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

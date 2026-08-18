@@ -5,7 +5,7 @@ description: "政治派閥4拡張MODの前提をロストデイズに統一：�
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

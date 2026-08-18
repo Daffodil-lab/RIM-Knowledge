@@ -4,7 +4,7 @@ title: "確定#204：全141品種の栽培レシピ・収穫量数値をバニ�
 description: "全141品種の栽培レシピ・収穫量数値をバニラRimWorld準拠で確定を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

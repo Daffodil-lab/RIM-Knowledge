@@ -5,7 +5,7 @@ description: "Diaspora装備17品目（KVUTZA／SHTETL／HAGANAH／SINAI／NER�
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

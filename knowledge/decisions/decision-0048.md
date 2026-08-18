@@ -5,7 +5,7 @@ description: "番号9過熱の脆弱性＝「想定運用温度帯」設計制�
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

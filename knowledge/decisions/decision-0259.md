@@ -5,7 +5,7 @@ description: "CoreMOD資料v1§6・Tier強化（後天的なTier昇格）を新�
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

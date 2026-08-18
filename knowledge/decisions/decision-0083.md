@@ -4,7 +4,7 @@ title: "確定#83：宇宙のランデヴー（旧称：First Contact）の新�
 description: "宇宙のランデヴー（旧称：First Contact）の新設：同盟という文明レベルでの「最初の一歩」を描く導入クエスト連鎖拡張MODを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

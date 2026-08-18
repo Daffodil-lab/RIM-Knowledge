@@ -4,7 +4,7 @@ title: "確定#1：軸＝技術官僚社会主義ユートピア（サン＝シ�
 description: "軸＝技術官僚社会主義ユートピア（サン＝シモン主義）。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

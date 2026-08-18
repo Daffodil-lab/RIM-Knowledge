@@ -4,7 +4,7 @@ title: "確定#309：Tower Ledger統合工業システムの詳細設計を「�
 description: "Tower Ledger統合工業システムの詳細設計を「アークナイツ:エンドフィールドAIC設計分析レポート」のRecommendationsに沿って1項目ずつ確定する方針を採用——第1項目「中継塔（統合物流ノード）」を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

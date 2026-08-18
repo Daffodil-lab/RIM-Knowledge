@@ -5,7 +5,7 @@ description: "バベットの晩餐会の嗜好品/ドラッグ品目を確定�
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

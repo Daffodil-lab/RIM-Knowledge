@@ -4,7 +4,7 @@ title: "確定#27：職級能力プロファイル（§17）：評議員〔栄�
 description: "職級能力プロファイル（§17）：評議員〔栄誉〕（知性・指揮・データリンク＝栄誉報酬で earn）／技師級（生産・研究・整備・メカニター）／兵級（を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

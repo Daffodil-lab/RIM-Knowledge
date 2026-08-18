@@ -5,7 +5,7 @@ description: "任意付与特性プールを「機械名／有機名」ニコイ
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

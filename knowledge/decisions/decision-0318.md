@@ -4,7 +4,7 @@ title: "確定#318：後回しにした戦略資源・特殊素材のうち、�
 description: "後回しにした戦略資源・特殊素材のうち、特筆すべき対応関係のみ先行記録（生体金属・ナノマシン・ズィロ・ダークマター・出土品）を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

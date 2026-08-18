@@ -5,7 +5,7 @@ description: "「労務資本」を「人口」と「労働者」の2資源へ�
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

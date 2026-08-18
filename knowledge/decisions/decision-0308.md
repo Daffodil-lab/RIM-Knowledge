@@ -4,7 +4,7 @@ title: "確定#308：確定#307の放棄範囲を修正——3Dプリンター�
 description: "確定番号307の放棄範囲を修正——3Dプリンター・液体装薬注入機はTower Ledger統合工業の設備として存続、cell/CVEは台帳スカラー方式に統一、PAC/パイプライン系は独立システムとして廃止を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

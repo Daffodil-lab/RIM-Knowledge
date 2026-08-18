@@ -5,7 +5,7 @@ description: "評議員（栄誉）の上に 評議会議長（役職）と最�
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

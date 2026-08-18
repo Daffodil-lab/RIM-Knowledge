@@ -5,7 +5,7 @@ description: "武器よさらば／ここではそれは起こりえないの開
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

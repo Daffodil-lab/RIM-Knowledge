@@ -4,7 +4,7 @@ title: "確定#42：バランス天井の正当化＋想定プレイ：弱点ゼ
 description: "バランス天井の正当化＋想定プレイ：弱点ゼロ／+Tier／アルコテック級は宇宙船完成≒クリア期に解禁＝道中を壊さない。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

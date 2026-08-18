@@ -4,7 +4,7 @@ title: "確定#87：緑と黄色の照明・配色＝アルコテック由来の
 description: "緑と黄色の照明・配色＝アルコテック由来の実利色（確定番号86の改訂）を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

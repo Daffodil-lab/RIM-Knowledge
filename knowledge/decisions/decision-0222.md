@@ -4,7 +4,7 @@ title: "確定#222：ゼロ点エネルギー地場システム（ゲージ・�
 description: "ゼロ点エネルギー地場システム（ゲージ・インシデント・無零花・発電機/真空濃縮器/備蓄装置/濃縮真空エネルギー・液化メカナイト・パイプライン設備）を資源植物資料からCoreMOD資料§12へ物理的に統合…。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

@@ -4,7 +4,7 @@ title: "確定#368：帝国の降伏、吸収、ソフェル継承、帝国式�
 description: "帝国の降伏、吸収、ソフェル継承、帝国式建築を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

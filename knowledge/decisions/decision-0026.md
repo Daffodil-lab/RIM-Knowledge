@@ -4,7 +4,7 @@ title: "確定#26：宇宙特殊作戦群＝全部隊の完全上位互換にし
 description: "宇宙特殊作戦群＝全部隊の完全上位互換にして頂点。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

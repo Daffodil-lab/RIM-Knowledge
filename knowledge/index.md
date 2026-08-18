@@ -11,6 +11,7 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 所属MODから探す: [共有](/navigation/project-scope/shared/)・[シオン](/navigation/project-scope/shion/)・[カエラヴィ](/navigation/project-scope/caelavi/)。各概念を知識上の所属MODへ一つ解決した派生索引です。
 
 1. [権威順位とライフサイクル](governance/authority-and-lifecycle-知識の権威順位とライフサイクル.md)
+2. [正本優先の通常参照方針](governance/canonical-first-reading-policy-正本優先の通常参照方針.md)
 2. [人間による承認境界](governance/human-approval-boundary-人間による承認境界.md)
 3. [コード解説の作成規則](governance/code-explanation-policy-コード解説の作成規則.md)
 4. [Open Knowledge Format 0.2 日本語規範解説](research/okf/00-Open-Knowledge-Format-v0.2-日本語解説.md)
@@ -30,9 +31,9 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 - [人物](characters/) — 55件
 - [矛盾監査](contradictions/) — 3件
 - [独立開拓団](colony/) — 30件
-- [決定履歴](decisions/) — 386件
+- [決定履歴](decisions/) — 386件、`authority: historical`かつ`knowledge_role: historical-record` / `status: deprecated`の履歴層
 - [全体設計](design/) — 73件
-- [運用規則](governance/) — 12件
+- [運用規則](governance/) — 14件
 - [Kombinat](kombinat/) — 85件
 - [横断ナビゲーション](navigation/) — 荷札から生成した派生索引
 - [Pawn生産・保管・再生](pawn/) — 91件
@@ -48,7 +49,8 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 
 - ファイル先頭の荷札（YAML frontmatter）で種別・状態・権威・出典を判定する。
 - `tags`は主題を探すための横断荷札であり、正史性や資料状態の判定に使わない。権威は`knowledge_role`、`canonical_for`、`authority`、`status`から判定する。
-- 同じ主題が複数に現れる場合は、`knowledge_role`と`canonical_owner`から唯一の所有者を辿る。
+- 同じ主題が複数に現れる場合は、`knowledge_role`と`canonical_owner` / `canonical_for`から唯一の所有者を辿る。
+- 現行の事実は正本所有者を先に解決し、決定履歴・調査・参照資料は補助層として確認する。通常参照の手順は[正本優先の通常参照方針](governance/canonical-first-reading-policy-正本優先の通常参照方針.md)に従う。
 - 本文末尾の「関連項目」からグラフを辿る。
 - 削除済み原本の由来は[退役済み出典識別台帳](sources/)の墓標識別子で確認する。原本文面や実体ファイルは参照できない。
 - 現行仕様と履歴が競合する場合は、`authority`と`status`を優先する。

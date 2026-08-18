@@ -5,7 +5,7 @@ description: "MODファミリー一覧の確定：CoreMOD＋多数の名前付�
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

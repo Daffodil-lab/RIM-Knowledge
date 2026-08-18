@@ -1,86 +1,86 @@
 # stable 17
 
-範囲: SHION_A076 帝国式装備詠唱師〜SHION_A155 無人構造物調査船の救助員
+範囲: 6. Economy and raid-balance implication〜8. 現在地
 
 ## 項目
 
-- [SHION_A076 帝国式装備詠唱師](/reference/backstories/mastery/SHION_A076.md) — 最盛期の装備詠唱を現代素材へ適合させ、内戦後に加えられた服従句を全て除いた。
-- [SHION_A077 評議会記憶官](/reference/backstories/mastery/SHION_A077.md) — 採決結果だけでなく、少数意見と途中で撤回された提案も保存した。
-- [SHION_A078 評議会議長経験者](/reference/backstories/mastery/SHION_A078.md) — 相反する星域と党派をまとめ、最盛期の平和を超える長期計画を可決へ導いた。
-- [SHION_A079 三星域調停官](/reference/backstories/mastery/SHION_A079.md) — 時間流も法律も異なる三つの星域を往復し、同じ合意文を三通りの未来で成立させた。
-- [SHION_A080 十二功績章の現場代表](/reference/backstories/mastery/SHION_A080.md) — 十二の星域で生産崩壊を立て直し、功績章を受けるたび現場の共同名義へ書き換えた。
-- [SHION_A081 本国公共医療功労者](/reference/backstories/mastery/SHION_A081.md) — 所属や身体規格を問わない医療網を築き、蘇生後の長期支援を治療の一部にした。
-- [SHION_A082 星域救難総監](/reference/backstories/mastery/SHION_A082.md) — 崩壊航路、時間災害、内戦遺構から多数の住民を救い、星域救難功労章を重ねた。
-- [SHION_A083 百回帰還の外交官](/reference/backstories/mastery/SHION_A083.md) — 敵対圏へ何度も戻り、古い友人と新しい政府の双方へ話した。
-- [SHION_A084 多重勲章の親衛兵](/reference/backstories/mastery/SHION_A084.md) — 射撃と近接の双方で同族から勲章を受け、多数の暗殺と災害から評議員を守った。
-- [SHION_A085 独立星港建設者](/reference/backstories/mastery/SHION_A085.md) — 社会民主党員、旧共産党員、ファシスト離党者、帝国離反者、無党派が使う星港を建てた。
-- [SHION_A086 故郷種子の運び手](/reference/backstories/mastery/SHION_A086.md) — 回収された故郷から種子を運び、別の空の下へ同じ花を植えた。
-- [SHION_A087 辺境共同体史家](/reference/backstories/mastery/SHION_A087.md) — 党派の指導者より、井戸を掘った者、最初に冬を越した動物、喧嘩の後も残った料理を記録した。
-- [SHION_A088 蘇生設備の巡回工](/reference/backstories/mastery/SHION_A088.md) — 小集落を巡り、使われないことを願われる蘇生設備を整備した。
-- [SHION_A089 孤行開拓測量士](/reference/backstories/mastery/SHION_A089.md) — 無人天体を一人で測り、未来の共同体が住める谷と掘ってはいけない墓域を地図へ分けた。
-- [SHION_A090 時間災害工兵](/reference/backstories/mastery/SHION_A090.md) — 崩壊する時間区画へ入り、まだ起きていない爆発の瓦礫から避難路を掘った。
-- [SHION_A091 同盟親衛射手](/reference/backstories/mastery/SHION_A091.md) — 遠距離射撃で避難路を守り、同族からも稀な精度を認められた。
-- [SHION_A092 復活船団衛生長](/reference/backstories/mastery/SHION_A092.md) — 避難船で死者の保存、負傷者の治療、蘇生後の再会を一つの医療計画として扱った。
-- [SHION_A093 帰還船団救命長](/reference/backstories/mastery/SHION_A093.md) — 時間嵐で分断された帰還船団を追い、蘇生設備へ届く前の救命で多数を帰した。
-- [SHION_A094 帝国平和復元派](/reference/backstories/mastery/SHION_A094.md) — 最盛期の律法、公共秩序、豊かな暮らしを研究し、内戦後の圧政と切り離して復元しようとした。
-- [SHION_A095 全人類平和統一派](/reference/backstories/mastery/SHION_A095.md) — 終わらない戦争と喪失に耐えかね、全人類を一つの秩序へ強制的に統合すれば最盛期以上の平和が得られると考えた。
-- [SHION_A096 小共同体優先論者](/reference/backstories/mastery/SHION_A096.md) — 宇宙全体の理想より、目の前の開拓地で誰も飢えず友人が帰れる一日を優先した。
-- [SHION_A097 記録だけの復古者](/reference/backstories/mastery/SHION_A097.md) — 帝国最盛期から継ぐべきものを、制度ではなく平和の記録、技術、歌、食卓の作法に限った。
-- [SHION_A098 明日の遺族代表](/reference/backstories/mastery/SHION_A098.md) — 未来の事故で友を失うと知り、まだ生きている本人と遺族会へ出席した。
-- [SHION_A099 帰還しない時間医](/reference/backstories/mastery/SHION_A099.md) — 外の一瞬が院内の長い時代になる隔離区へ入り、患者を全員看取るまで帰らなかった。
-- [SHION_A100 本国居住区の動物義肢技師](/reference/backstories/mastery/SHION_A100.md) — 本国居住区の動物義肢技師では、本国居住区で動物用の義肢を作っていました。
-- [SHION_A101 ヘイハルKombinatの精密工](/reference/backstories/mastery/SHION_A101.md) — ヘイハルKombinatで精密部品を仕上げていました。
-- [SHION_A102 帰還兵港の舞台演出家](/reference/backstories/mastery/SHION_A102.md) — 帰還兵港の舞台演出家では、帰還兵港の舞台を任されました。
-- [SHION_A103 共同祝宴堂の臨床医](/reference/backstories/mastery/SHION_A103.md) — 共同祝宴堂の臨床医では、共同祝宴堂で臨床医をしていました。
-- [SHION_A104 機動強襲群の公共案内官](/reference/backstories/mastery/SHION_A104.md) — 機動強襲群の基地で、市民向けの案内をしていました。
-- [SHION_A105 人格照合局の記録官](/reference/backstories/mastery/SHION_A105.md) — 人格照合局では、事実、推測、後世の注釈を別の欄へ分けました。
-- [SHION_A106 長期予測院の射撃教官](/reference/backstories/mastery/SHION_A106.md) — 長期予測院の射撃教官では、長期予測院で射撃を教えていました。
-- [SHION_A107 共同祝宴堂の徒手警護員](/reference/backstories/mastery/SHION_A107.md) — 共同祝宴堂の混雑を武器なしでほどき、言葉を使わない動物の警告反応も警備情報として待った。
-- [SHION_A108 開戦前残響域の設備技師](/reference/backstories/mastery/SHION_A108.md) — 開戦前の残響が残る区画で、壁と配管と避難路を直しました。
-- [SHION_A109 離散船団の坑道監督](/reference/backstories/mastery/SHION_A109.md) — 離散船団が資源天体へ停泊するたび、本人は坑道を任されました。
-- [SHION_A110 攻勢命令審査線の公共食堂の調理師](/reference/backstories/mastery/SHION_A110.md) — 攻勢命令を審査する前線で、公共食堂を回していました。
-- [SHION_A111 計画都市の共同農園技師](/reference/backstories/mastery/SHION_A111.md) — 計画都市の共同農園技師では、計画都市の共同農園で、土、水、光を管理しました。
-- [SHION_A112 異常封じ込め隊の動物義肢技師](/reference/backstories/mastery/SHION_A112.md) — 異常封じ込め隊で、傷ついた動物の義肢を作っていました。
-- [SHION_A113 幸福都市外縁の精密工](/reference/backstories/mastery/SHION_A113.md) — 幸福都市外縁の精密工では、幸福都市の外縁工房で精密部品を作っていました。
-- [SHION_A114 封鎖観測地の舞台演出家](/reference/backstories/mastery/SHION_A114.md) — 封鎖観測地の舞台演出家では、封鎖観測地で見た変色を、舞台へ移しました。
-- [SHION_A115 共同祝宴堂の救護医](/reference/backstories/mastery/SHION_A115.md) — 共同祝宴堂の救護医では、共同祝宴堂の救護を担当していました。
-- [SHION_A116 相互扶助区の公共案内官](/reference/backstories/mastery/SHION_A116.md) — 相互扶助区で来訪者を案内し、災害時には避難路を担当しました。
-- [SHION_A117 長期予測院の観測主任](/reference/backstories/mastery/SHION_A117.md) — 長期予測院の観測主任では、長期予測院で観測主任を務めました。
-- [SHION_A118 月面事業区の射撃教官](/reference/backstories/mastery/SHION_A118.md) — 月面事業区の射撃教官では、月面事業区で射撃を教えました。
-- [SHION_A119 機械化訓練地の救助員](/reference/backstories/mastery/SHION_A119.md) — 機械化訓練地で、転倒した装甲や狭い操縦区画から負傷者を引き出しました。
-- [SHION_A120 共同祝宴堂の設備技師](/reference/backstories/mastery/SHION_A120.md) — 共同祝宴堂の設備技師では、共同祝宴堂の壁、配管、避難路を見ていました。
-- [SHION_A121 装甲救援隊の坑道監督](/reference/backstories/mastery/SHION_A121.md) — 装甲救援隊の坑道監督では、装甲救援隊で坑道を預かりました。
-- [SHION_A122 革命連合後方区の公共食堂の調理師](/reference/backstories/mastery/SHION_A122.md) — 革命連合の後方食堂で、党派ではなく感覚設定・傷・外部隊員の栄養条件に応じて配膳した。
-- [SHION_A123 塔域居住層の共同農園技師](/reference/backstories/mastery/SHION_A123.md) — 塔域居住層の農園を、大規模改築ではなく照明・水路・利用時刻の調整で支えた。
-- [SHION_A124 透明居住区の動物義肢技師](/reference/backstories/mastery/SHION_A124.md) — 透明居住区では、治療記録も作業場も皆から見えました。
-- [SHION_A125 塔域居住層の古道具修復師](/reference/backstories/mastery/SHION_A125.md) — 塔域で古道具の機能を直しながら、持主が記憶する傷や印は希望に応じて残した。
-- [SHION_A126 相互扶助区の公共壁画家](/reference/backstories/mastery/SHION_A126.md) — 相互扶助区の公共壁画家では、相互扶助区の壁へ、共同体の歴史を描きました。
-- [SHION_A127 星間市場の臨床医](/reference/backstories/mastery/SHION_A127.md) — 星間市場の臨床医では、星間市場で旅人と商人を診ました。
-- [SHION_A128 機動強襲群の討論調停人](/reference/backstories/mastery/SHION_A128.md) — 機動強襲群の帰還祭で、兵科間の公開討論を仕切りました。
-- [SHION_A129 長期予測院の古文書研究者](/reference/backstories/mastery/SHION_A129.md) — 長期予測院の古文書研究者では、長期予測院で古文書を読んでいました。
-- [SHION_A130 自治評議区の射撃教官](/reference/backstories/mastery/SHION_A130.md) — 自治評議区では、違う党歴を持つ住民へ射撃を教えました。
-- [SHION_A131 星間市場の徒手警護員](/reference/backstories/mastery/SHION_A131.md) — 星間市場の祭りで武器を使わず揉め事をほどき、翌日も取引できる信用と荷獣の安全を守った。
-- [SHION_A132 自治評議区の仮設建築士](/reference/backstories/mastery/SHION_A132.md) — 自治評議区で帰還者用の仮設住宅を組み、入居者が答えを変えられるよう間取りを繰り返し直した。
-- [SHION_A133 戦術教育環の坑道監督](/reference/backstories/mastery/SHION_A133.md) — 戦術教育環の坑道監督では、戦術教育環の地下演習路を管理しました。
-- [SHION_A134 海洋観測区の公共食堂の調理師](/reference/backstories/mastery/SHION_A134.md) — 海洋観測区の食堂では、外部居住者である研究者の食欲と、シオンの食卓参加の変化も観測していました。
-- [SHION_A135 空挺基地の共同農園技師](/reference/backstories/mastery/SHION_A135.md) — 空挺基地の共同農園技師では、空挺基地の共同農園を任されました。
-- [SHION_A136 離散船団の保護区飼育員](/reference/backstories/mastery/SHION_A136.md) — 離散船団の保護区には、いくつもの故郷から動物が集まりました。
-- [SHION_A137 制裁作戦監査室の精密工](/reference/backstories/mastery/SHION_A137.md) — 制裁部隊の装備を監査しながら、技術大会の審判もしました。
-- [SHION_A138 透明居住区の公共壁画家](/reference/backstories/mastery/SHION_A138.md) — 透明居住区では、記録も壁も隠さないことが美徳だった。
-- [SHION_A139 装甲救援隊の蘇生後療養医](/reference/backstories/mastery/SHION_A139.md) — 装甲救援隊で、蘇生者が自ら退路を歩き、再会相手を選べるまで療養を支えた。
-- [SHION_A140 継承教室の公共案内官](/reference/backstories/mastery/SHION_A140.md) — 継承教室では来訪者を席へ案内し、古い世代の教師とつなぎました。
-- [SHION_A141 対機械戦区の記録官](/reference/backstories/mastery/SHION_A141.md) — 対機械戦区の記録官では、対機械戦区で記録を担当しました。
-- [SHION_A142 帝国最終防衛圏の射撃教官](/reference/backstories/mastery/SHION_A142.md) — 帝国最終防衛圏の射撃教官では、内戦後帝国の最終防衛圏で射撃を教えました。
-- [SHION_A143 自治評議区の身体競技指導員](/reference/backstories/mastery/SHION_A143.md) — 自治評議区で、共有狐娘型内部の質量・出力差と外部参加者の身体差に応じた競技規則を教えた。
-- [SHION_A144 封鎖観測地の仮設建築士](/reference/backstories/mastery/SHION_A144.md) — 封鎖観測地の仮設建築士では、封鎖観測地の外に、帰還者用の仮設棟を建てました。
-- [SHION_A145 塔域居住層の地下救助員](/reference/backstories/mastery/SHION_A145.md) — 塔域の崩落では、壁の振動を聞いて救助坑を掘りました。
-- [SHION_A146 山岳連絡区の公共食堂の調理師](/reference/backstories/mastery/SHION_A146.md) — 山岳連絡区で食堂を開き、橋を守る連絡員へ温かい物を運びました。
-- [SHION_A147 星間市場の記念庭園師](/reference/backstories/mastery/SHION_A147.md) — 星間市場の記念庭園師では、星間市場に記念庭園を作りました。
-- [SHION_A148 離散船団の終生飼養員](/reference/backstories/mastery/SHION_A148.md) — 離散船団で、役目を終えた救助動物を最後まで世話しました。
-- [SHION_A149 移動都市群の精密工](/reference/backstories/mastery/SHION_A149.md) — 移動都市群の精密工では、移動都市群を巡り、祭りの機構と道具を直しました。
-- [SHION_A150 革命連合後方区の公共壁画家](/reference/backstories/mastery/SHION_A150.md) — 革命連合後方区の公共壁画家では、革命連合の後方壁へ、戦争を描きました。
-- [SHION_A151 透明居住区の救護医](/reference/backstories/mastery/SHION_A151.md) — 透明居住区では事故現場も治療記録も公開されました。
-- [SHION_A152 後方支援庁の公共案内官](/reference/backstories/mastery/SHION_A152.md) — 後方支援庁の公共案内官では、後方支援庁の案内窓口にいました。
-- [SHION_A153 特殊任務学校の記録官](/reference/backstories/mastery/SHION_A153.md) — 特殊任務学校の記録官では、特殊任務学校で記録を教えました。
-- [SHION_A154 異常封じ込め隊の護衛射手](/reference/backstories/mastery/SHION_A154.md) — 異常封じ込め隊では、避難者と味方の位置を確かめてから射線を開きました。
-- [SHION_A155 無人構造物調査船の救助員](/reference/backstories/mastery/SHION_A155.md) — 趣味の調査航行が高じて、無人巨大構造物へ向かう船の救助員になりました。
+- [6. Economy and raid-balance implication](/research/fleshbeast/06-Economy-and-raid-balance-implication.md) — The reported gameplay impression is that many creatures and flesh buildings may have low or poorly counted colony wealth, allowing a…。
+- [7. Adopt / avoid table for Shion Nexus](/research/fleshbeast/07-Adopt-avoid-table-for-Shion-Nexus.md) — Adopt / avoid table for Shion Nexusは、Fleshbeast pattern：Shion Nexus decisionとSingle vulnerable core：Adopt structurally through Nexus…。
+- [8. Alpha impact](/research/fleshbeast/08-Alpha-impact.md) — This reference does not change Alpha 0.1 scope.。
+- [9. Performance cautions](/research/fleshbeast/09-Performance-cautions.md) — Do not import these patterns into Shion Nexus without hard limits、具体的にはauto-expanding territory;とauto-capturing floor;を扱う。
+- [10. Final lesson](/research/fleshbeast/10-Final-lesson.md) — Fleshbeast Colony is a strong reference because it fully commits to being a different colony ecology.。
+- [Boundary](/research/known-code/000-Boundary.md) — Code-level reuse is limited to repositories owned by Daffodil. Monolyn Race, Fleshbeast Colony, Arachnae Swarm 2, Dolls Nest, RimWorld,…。
+- [Sources inspected](/research/known-code/001-Sources-inspected.md) — - Daffodil-lab/Meiko-Race-The-Manufactured-Utopia-A-Clockwork-Fox-Doll at indexed commit aed3ab77724fdab6cf9166abab80bf2dd22a9e96. -…。
+- [Adopted and ported](/research/known-code/002-Adopted-and-ported.md) — Adopted and portedは、Source：Reused idea：Kombinat resultとMeikoNexus.csproj：net472, Krafs.Rimworld.Ref, direct Assemblies…。
+- [Adapt, do not copy directly](/research/known-code/003-Adapt-do-not-copy-directly.md) — Adapt, do not copy directlyは、Legacy code：ReasonとCompNexusCore CVE and digital-material fields：Aggregate reservedCVE floats have no…。
+- [Rejected from the runtime](/research/known-code/004-Rejected-from-the-runtime.md) — - A monolithic Core building Comp as the owner of resource truth. - Separate aggregate reservation totals without reservation records.…。
+- [First vertical-slice guarantees](/research/known-code/005-First-vertical-slice-guarantees.md) — 1. Five canonical inventory resources are Defs; population, labor, bandwidth, capacity, research, fame, and defense readiness are not…。
+- [Next extraction](/research/known-code/006-Next-extraction.md) — The next safe port is the construction-site lifecycle. Replace its reservedCVE/reservedMaterials fields with one Kombinat reservation…。
+- [Build](/research/kombinat-prototype/000-Build.md) — The compiled prototype assembly is written to Assemblies/Kombinat.dll. Do not copy it into the Core package.。
+- [Current status](/research/kombinat-prototype/001-Current-status.md) — No v3 product component is implemented. The next task is to pin the Matter Network baseline, record the MIT notices and adopted files,…。
+- [0. 出典と利用範囲](/research/kombinat-ui-references/00-%E5%87%BA%E5%85%B8%E3%81%A8%E5%88%A9%E7%94%A8%E7%AF%84%E5%9B%B2.md) — ユーザー提供映像をKombinatのUI・操作研究に限定して利用し、画像・コード・固有表現のコピー元にはしない。
+- [1. MonolynのネットワークUIから採るもの](/research/kombinat-ui-references/01-Monolyn%E3%81%AE%E3%83%8D%E3%83%83%E3%83%88%E3%83%AF%E3%83%BC%E3%82%AFUI%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — Monolynの集中資源、生産一覧、選択時ネットワーク表示から、Kombinatへ採用する情報設計を抽出する。
+- [2. Arsenal Codexの直接交換から採るもの](/research/kombinat-ui-references/02-Arsenal-Codex%E3%81%AE%E7%9B%B4%E6%8E%A5%E4%BA%A4%E6%8F%9B%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8B%E3%82%82%E3%81%AE.md) — 接続保管庫からPawnへ直接装備し、現在装備を同じ取引で返す操作を、Coreの原子的武器交換の参照とする。
+- [3. DSUから採るUIと採らない実装](/research/kombinat-ui-references/03-DSU%E3%81%8B%E3%82%89%E6%8E%A1%E3%82%8BUI%E3%81%A8%E6%8E%A1%E3%82%89%E3%81%AA%E3%81%84%E5%AE%9F%E8%A3%85.md) — DSUの検索・任意排出・Pawnアクセスは参照するが、中央Mapセルへ内容物を集積する保管方式は採用しない。
+- [4. 要求中間素材作成の操作イメージ](/research/kombinat-ui-references/04-%E8%A6%81%E6%B1%82%E4%B8%AD%E9%96%93%E7%B4%A0%E6%9D%90%E4%BD%9C%E6%88%90%E3%81%AE%E6%93%8D%E4%BD%9C%E3%82%A4%E3%83%A1%E3%83%BC%E3%82%B8.md) — 在庫とRecipeを並べ、最終品の要求から不足中間品と総材料を確認する簡潔な操作モデルをKombinatへ適用する。
+- [0. 歩兵装備投資と作戦機動群の外部検証](/research/military-doctrine/00-%E6%AD%A9%E5%85%B5%E8%A3%85%E5%82%99%E6%8A%95%E8%B3%87%E3%81%A8%E4%BD%9C%E6%88%A6%E6%A9%9F%E5%8B%95%E7%BE%A4%E3%81%AE%E5%A4%96%E9%83%A8%E6%A4%9C%E8%A8%BC.md) — 作戦機動群と歩兵中心装備体系の外部比較を整理し、バルジの戦いのTNDM評価とStG 44による因果説明を分離する。
+- [0. Purpose](/research/monolyn-practice/00-Purpose.md) — This document records the user-provided summary of real player practice around Monolyn Race from Steam Workshop Q&A, Steam Workshop…。
+- [1. Source status](/research/monolyn-practice/01-Source-status.md) — The details below are treated as a user-provided field report from public player discussion and strategy notes.。
+- [2. Basic loop and onboarding problems](/research/monolyn-practice/02-Basic-loop-and-onboarding-problems.md) — Reported player issue、具体的にはPrayer is not handled as an ordinary Job.とPlayers assign Meditate through the Schedule tab.を扱う。
+- [3. Light management in real play](/research/monolyn-practice/03-Light-management-in-real-play.md) — Reported player issue、具体的にはThere is no direct electricity-to-Light conversion.とAs colony wealth/scale grows, Light income can fall…。
+- [4. Baptism use and costs](/research/monolyn-practice/04-Baptism-use-and-costs.md) — Reported player practice、具体的にはConverting other races through a baptismal font is a basic way to secure Monolyn personnel.とBaptism may…。
+- [5. Terminal body operation](/research/monolyn-practice/05-Terminal-body-operation.md) — Reported player confusion、具体的にはDestroyed mechanical terminal bodies cannot be revived through the baptismal font.とThey need Terminal:…。
+- [6. Base structure and expansion play](/research/monolyn-practice/06-Base-structure-and-expansion-play.md) — Reported player practice、具体的にはTower can share Light, materials, and personnel regardless of location.とPlayers use this to run a main…。
+- [7. Compatibility problems](/research/monolyn-practice/07-Compatibility-problems.md) — Reported issues、具体的にはVanilla Research Panel can conflict with Tower decoding/research and auto-cancel it.とVE Framework-related faction…。
+- [8. The four real Monolyn management layers](/research/monolyn-practice/08-The-four-real-Monolyn-management-layers.md) — The reported practical Monolyn loop appears to combine four resource-management layers、具体的にはprayer/meditation schedule…。
+- [9. Adopt / avoid table for Shion Nexus](/research/monolyn-practice/09-Adopt-avoid-table-for-Shion-Nexus.md) — Adopt / avoid table for Shion Nexusは、Monolyn player-practice pattern：Shion Nexus decisionとCentral Tower as colony-scale identity：Adopt…。
+- [10. Alpha impact](/research/monolyn-practice/10-Alpha-impact.md) — This reference does not change Alpha 0.1 scope.。
+- [11. Performance cautions](/research/monolyn-practice/11-Performance-cautions.md) — Avoid importing these patterns without hard limits、具体的にはschedule-driven labor loops that require many pawns;とunbounded resource demand…。
+- [12. Final lesson](/research/monolyn-practice/12-Final-lesson.md) — Monolyn is valuable because players actually build around its Tower, Light, baptism, and terminal systems.。
+- [13. Source links recorded by user](/research/monolyn-practice/13-Source-links-recorded-by-user.md) — Source links recorded by userは、Monolyn Race - Steam Workshop Q&A:…。
+- [0. Purpose](/research/monolyn-ui/00-Purpose.md) — This document records the user-provided summary of Monolyn Race UI and system feedback from developer Q&A, bug report threads, and…。
+- [1. Source status](/research/monolyn-ui/01-Source-status.md) — The details below are treated as a user-provided field report from public player feedback and strategy/review sources.。
+- [2. Overall system reception](/research/monolyn-ui/02-Overall-system-reception.md) — Reported NamuWiki-style evaluation、具体的にはMonolyn is high quality, but unusual compared with many existing mods.とIts prayer UI,…。
+- [3. Delayed or opaque feedback](/research/monolyn-ui/03-Delayed-or-opaque-feedback.md) — Reported issue、具体的にはA player can interact with the Tower and receive a vague message like something has happened, but see no immediate…。
+- [4. Icon and description ambiguity](/research/monolyn-ui/04-Icon-and-description-ambiguity.md) — Reported issue、具体的にはGuardian Flare and Radiant Flare appear to have identical or near-identical descriptions.とDeveloper clarifies their…。
+- [5. Research tab stability](/research/monolyn-ui/05-Research-tab-stability.md) — Reported issue、具体的にはClicking a dedicated research tab such as Shinsung Engineering can cause the description area to disappear, though…。
+- [6. Other compatibility and implementation issues](/research/monolyn-ui/06-Other-compatibility-and-implementation-issues.md) — Reported examples、具体的にはHats Display Selection conflict can make hat-wearing pawns invisible under roofs and cause lag; disabling a…。
+- [7. UI/system strengths to learn from](/research/monolyn-ui/07-UI-system-strengths-to-learn-from.md) — Monolyn strengths reported by players/review、具体的にはstrong faction identity;とTower-centered operation;を扱う。
+- [8. UI/system failures to avoid](/research/monolyn-ui/08-UI-system-failures-to-avoid.md) — Avoid in Shion Nexus alpha、具体的にはcentral actions with delayed invisible outcomes;とprogress that says inactive while active;を扱う。
+- [9. Alpha impact](/research/monolyn-ui/09-Alpha-impact.md) — This reference reinforces current Alpha 0.1 rules.。
+- [10. Shion Nexus UI checklist](/research/monolyn-ui/10-Shion-Nexus-UI-checklist.md) — Before Alpha 0.1 release, confirm、具体的にはCore Inspect explains alive/damaged/destroyed state.とLedger Inspect shows CVE, capacity, shells,…。
+- [11. Performance cautions](/research/monolyn-ui/11-Performance-cautions.md) — UI and feedback systems must not introduce hidden cost.。
+- [12. Final lesson](/research/monolyn-ui/12-Final-lesson.md) — Monolyn's system design is strong because its Tower, Light, Codex, implants, buildings, and terminals form a coherent identity.。
+- [13. Source links recorded by user](/research/monolyn-ui/13-Source-links-recorded-by-user.md) — Source links recorded by userは、NamuWiki Monolyn page:…。
+- [Open Knowledge Format 0.2 日本語規範解説](/research/okf/00-Open-Knowledge-Format-v0.2-%E6%97%A5%E6%9C%AC%E8%AA%9E%E8%A7%A3%E8%AA%AC.md) — 公式Open Knowledge Format 0.2の必須構造、出典、検証、鮮度、実行証明とRIM拡張の関係を日本語で確認できる参照資料。
+- [0. Purpose](/research/reference-mods/00-Purpose.md) — This document records how three existing RimWorld Workshop mods should be used as structural references for Shion Nexus.。
+- [1. Source links](/research/reference-mods/01-Source-links.md) — Source linksは、Monolyn Race - Steam Workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=3742031864とFleshbeast Colony -…。
+- [2. High-level comparison](/research/reference-mods/02-High-level-comparison.md) — High-level comparisonは、Mod：Public core idea：Shion Nexus reference value：Do not copyとMonolyn Race：Tower gathers Light through prayer and…。
+- [3. Monolyn Race structural lessons](/research/reference-mods/03-Monolyn-Race-structural-lessons.md) — Monolyn Race is useful because it presents a complete central-resource colony model.。
+- [4. Fleshbeast Colony structural lessons](/research/reference-mods/04-Fleshbeast-Colony-structural-lessons.md) — Fleshbeast Colony expands Anomaly's fleshbeast theme into a colony-scale organic infrastructure. Its public description emphasizes…。
+- [5. Arachnae Swarm 2 structural lessons](/research/reference-mods/05-Arachnae-Swarm-2-structural-lessons.md) — Arachnae Swarm 2 publicly describes a Gestalt consciousness colony centered on a Queen. The Queen commands Overlords, and Overlords…。
+- [6. Combined structural extraction](/research/reference-mods/06-Combined-structural-extraction.md) — The three reference mods suggest the following useful structures、具体的にはCentral resource reservoir：Monolyn Light / Tower, Fleshbeast…。
+- [7. Shion Nexus non-copy rules](/research/reference-mods/07-Shion-Nexus-non-copy-rules.md) — Shion Nexus must not become、具体的にはMonolyn with foxes;とFleshbeast with machines;を扱う。
+- [8. First playable reference priorities](/research/reference-mods/08-First-playable-reference-priorities.md) — First playable reference prioritiesは、Monolyn-style central resource and Tower automation.とMonolyn-style colony support through central…。
+- [9. Final rule](/research/reference-mods/09-Final-rule.md) — The reference mods prove that strong race/colony mods work best when they are not just pawns with stats. They need a colony-scale…。
+- [10. Vivi Raceの非HAR種族実装パターン](/research/reference-mods/10-Vivi-Race%E9%9D%9EHAR%E7%A8%AE%E6%97%8F%E5%AE%9F%E8%A3%85%E3%83%91%E3%82%BF%E3%83%BC%E3%83%B3.md) — Vivi RaceがHARを必須所有者にせず、バニラ人型処理、Biotech、独自身体、Pawn render tree、任意HAR互換を組み合わせる構成をShion向けに分類する。
+- [0. 結論](/research/theme-overhaul/00-%E7%B5%90%E8%AB%96.md) — 世界観の根本を捨てる必要はない、また核となる発想は強い。
+- [1. 正式な中心命題](/research/theme-overhaul/01-%E6%AD%A3%E5%BC%8F%E3%81%AA%E4%B8%AD%E5%BF%83%E5%91%BD%E9%A1%8C.md) — 今後は、以下を全コンテンツに優先するという方針の適用範囲と条件を定める。
+- [2. 現行設定の判定](/research/theme-overhaul/02-%E7%8F%BE%E8%A1%8C%E8%A8%AD%E5%AE%9A%E3%81%AE%E5%88%A4%E5%AE%9A.md) — 現時点のKombinat実装は、5資源のWorld台帳、予約、コミット、返還、セーブ状態を持つ基盤であり、テーマ上はほぼ中立である。
+- [3. プレイヤーへ見せる情報の四層](/research/theme-overhaul/03-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%B8%E8%A6%8B%E3%81%9B%E3%82%8B%E6%83%85%E5%A0%B1%E3%81%AE%E5%9B%9B%E5%B1%A4.md) — プレイヤーが覚える必要のある核は四つだけにする。
+- [4. ゲーム内文章の情報予算](/research/theme-overhaul/04-%E3%82%B2%E3%83%BC%E3%83%A0%E5%86%85%E6%96%87%E7%AB%A0%E3%81%AE%E6%83%85%E5%A0%B1%E4%BA%88%E7%AE%97.md) — 既存838件は削除せず、作者用カタログとして保持する。
+- [5. チープな近未来SFを避ける規則](/research/theme-overhaul/05-%E3%83%81%E3%83%BC%E3%83%97%E3%81%AA%E8%BF%91%E6%9C%AA%E6%9D%A5SF%E3%82%92%E9%81%BF%E3%81%91%E3%82%8B%E8%A6%8F%E5%89%87.md) — 現実性は手触りであり、文明の上限ではないという方針の適用範囲と条件を定める。
+- [6. 実在参照と命名の処理](/research/theme-overhaul/06-%E5%AE%9F%E5%9C%A8%E5%8F%82%E7%85%A7%E3%81%A8%E5%91%BD%E5%90%8D%E3%81%AE%E5%87%A6%E7%90%86.md) — 以下はテーマ・トーン再審査ガイドQ0と、近未来／20世紀パスティーシュ回避の両方から優先度が高い。
+- [7. プレイヤーがテーマを意識せず受け取るゲーム表現](/research/theme-overhaul/07-%E3%83%97%E3%83%AC%E3%82%A4%E3%83%A4%E3%83%BC%E3%81%8C%E3%83%86%E3%83%BC%E3%83%9E%E3%82%92%E6%84%8F%E8%AD%98%E3%81%9B%E3%81%9A%E5%8F%97%E3%81%91%E5%8F%96%E3%82%8B%E3%82%B2%E3%83%BC%E3%83%A0%E8%A1%A8%E7%8F%BE.md) — プレイヤーがテーマを意識せず受け取るゲーム表現は、食事不要のシオンが料理へ時間を使い、効率低下にならないと働かない市民がデバフも非難も受けず、趣味から小さな利益を生むことがあるを扱う。
+- [8. 文章サンプル](/research/theme-overhaul/08-%E6%96%87%E7%AB%A0%E3%82%B5%E3%83%B3%E3%83%97%E3%83%AB.md) — 食事も仕事も身体も選べる、狐型機械人シオンの開拓団。
+- [9. 実施順序](/research/theme-overhaul/09-%E5%AE%9F%E6%96%BD%E9%A0%86%E5%BA%8F.md) — 実施順序は、統合資料§1、§7.2、§11.1を中心命題に合わせて改稿する。
+- [10. 合否判定](/research/theme-overhaul/10-%E5%90%88%E5%90%A6%E5%88%A4%E5%AE%9A.md) — 新しい設定・文章・機能は、次の順で判定するという方針の適用範囲と条件を定める。
+- [0. 結論](/roadmap/00-%E7%B5%90%E8%AB%96.md) — Coreは工業基盤を内部完成させてからShion種族を統合し、α、β、1.0の三段階で公開する。
+- [1. 権威と変更規則](/roadmap/01-%E6%A8%A9%E5%A8%81%E3%81%A8%E5%A4%89%E6%9B%B4%E8%A6%8F%E5%89%87.md) — 本書は、何を世界内の事実とするかではなく、どの段階で何を完成させるかを定める。
+- [2. 既知コードと再利用の方針](/roadmap/02-%E6%97%A2%E7%9F%A5%E3%82%B3%E3%83%BC%E3%83%89%E3%81%A8%E5%86%8D%E5%88%A9%E7%94%A8%E3%81%AE%E6%96%B9%E9%87%9D.md) — コード再利用は現行責務、保存、試験、性能、依存方向、ライセンス、保守性を満たす単位だけに限定する。
+- [3. 1.0の最終完成像](/roadmap/03-1-0%E3%81%AE%E6%9C%80%E7%B5%82%E5%AE%8C%E6%88%90%E5%83%8F.md) — 最終的なCoreは、少なくとも次を一つの製品として成立させる。
+- [4. α版 — 最初の公開候補](/roadmap/04-%CE%B1%E7%89%88-%E2%80%94-%E6%9C%80%E5%88%9D%E3%81%AE%E5%85%AC%E9%96%8B%E5%80%99%E8%A3%9C.md) — α版は、内部完成した工業基盤へShion種族、図像、独立開始を最後に統合する最初の公開候補である。
+- [5. β版](/roadmap/05-%CE%B2%E7%89%88.md) — β版は、α版に含めなかったコアMODとレッドスターの要素を追加し、両製品を完成へ到達させる期間である。
+- [6. β終了／1.0完成条件](/roadmap/06-%CE%B2%E7%B5%82%E4%BA%86-1-0%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — 1.0以後も、身体、派閥、クエスト、装備、料理、動物、互換Adapter等を追加できる。
+- [7. バージョン運用](/roadmap/07-%E3%83%90%E3%83%BC%E3%82%B8%E3%83%A7%E3%83%B3%E9%81%8B%E7%94%A8.md) — バージョン番号だけで品質を主張しない、また各版は本書の完了条件と検証記録を伴う。
+- [8. 現在地](/roadmap/08-%E7%8F%BE%E5%9C%A8%E5%9C%B0.md) — 2026-08-02時点で工業基盤の実装作業は存在するが、工業完成マイルストーンとShion統合αは未完成である。

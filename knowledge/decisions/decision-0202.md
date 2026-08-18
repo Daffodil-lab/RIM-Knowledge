@@ -4,7 +4,7 @@ title: "確定#202：ミチューリン農芸公社とРомашка個人に同
 description: "ミチューリン農芸公社とРомашка個人に同盟への全アクセス権を付与（Diaspora Tech companyとの対比）を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

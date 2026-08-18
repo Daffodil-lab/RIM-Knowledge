@@ -9,7 +9,7 @@ tags:
 organization_groups:
   - "independent-frontier"
   - "the-hive"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

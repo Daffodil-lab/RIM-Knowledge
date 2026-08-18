@@ -5,7 +5,7 @@ description: "時計仕掛けを有機機械との必須排他選択へ変更、
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

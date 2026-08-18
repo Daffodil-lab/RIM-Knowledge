@@ -5,7 +5,7 @@ description: "有機機械の基本効果を確定（基本代謝効率50%＝食
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

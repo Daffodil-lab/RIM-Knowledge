@@ -4,7 +4,7 @@ title: "確定#123：同盟派遣開拓団＝上位互換的な特別スター�
 description: "同盟派遣開拓団＝上位互換的な特別スタートを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

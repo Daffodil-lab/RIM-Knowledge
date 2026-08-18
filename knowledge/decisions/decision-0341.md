@@ -5,7 +5,7 @@ description: "同盟のサイキック技術＝帝国の廉価版（属人性→
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

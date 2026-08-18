@@ -4,7 +4,7 @@ title: "確定#178：ニコイチの有機名をStellaris原語トレイト名�
 description: "ニコイチの有機名をStellaris原語トレイト名そのままへ差し替えを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

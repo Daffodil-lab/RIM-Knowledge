@@ -5,7 +5,7 @@ description: "グレード(Tier)と品質(Quality)を別軸に分離：①Tier�
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

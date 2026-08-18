@@ -5,7 +5,7 @@ description: "TZOFEH/KESHER（§2.18）のMass・costList・製作スキル・�
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

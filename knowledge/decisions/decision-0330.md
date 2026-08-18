@@ -4,7 +4,7 @@ title: "確定#330：Recommendations項目4「ブループリント/プリセッ
 description: "Recommendations項目4「ブループリント/プリセット」を確定——ブループリントは非実装（生産は黒字設計で代替）、プリセットは遠隔拠点建築のみ（手動選択も可）を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

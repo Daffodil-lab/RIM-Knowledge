@@ -1,6 +1,6 @@
 # 共有 05
 
-範囲: 確定#366：帝国の時間操作と同盟時代の技術的成果〜13. Source links recorded by user
+範囲: 確定#366：帝国の時間操作と同盟時代の技術的成果〜11. Performance cautions
 
 ## 項目
 
@@ -18,6 +18,7 @@
 - [確定#405：飛行を選べる歩兵と対空脅威](/decisions/decision-0405.md) — 歩兵全員が戦闘ヘリに似た能力を必要時に発揮できる一方、防空陣地や敵航空戦力の下では地上戦を選ぶ運用を確定した決定履歴。 【所属MOD: 共有】
 - [一件一ファイルとリンク規則](/governance/atomicity-and-links-%E4%B8%80%E4%BB%B6%E4%B8%80%E3%83%95%E3%82%A1%E3%82%A4%E3%83%AB%E3%81%A8%E3%83%AA%E3%83%B3%E3%82%AF%E8%A6%8F%E5%89%87.md) — 知識は、単独で参照・更新・廃止できる最小単位へ分ける。 【所属MOD: 共有】
 - [知識の権威順位とライフサイクル](/governance/authority-and-lifecycle-%E7%9F%A5%E8%AD%98%E3%81%AE%E6%A8%A9%E5%A8%81%E9%A0%86%E4%BD%8D%E3%81%A8%E3%83%A9%E3%82%A4%E3%83%95%E3%82%B5%E3%82%A4%E3%82%AF%E3%83%AB.md) — このOKFバンドルはRIMプロジェクト知識の入口であり、原子的な概念ファイルを現行の参照単位とする。 【所属MOD: 共有】
+- [正本優先の通常参照方針](/governance/canonical-first-reading-policy-%E6%AD%A3%E6%9C%AC%E5%84%AA%E5%85%88%E3%81%AE%E9%80%9A%E5%B8%B8%E5%8F%82%E7%85%A7%E6%96%B9%E9%87%9D.md) — RIMの通常読み込み入口を現行正本・カタログビューへ限定し、決定履歴と調査・参照資料を履歴・補助層として扱う。 【所属MOD: 共有】
 - [コード解説の作成規則](/governance/code-explanation-policy-%E3%82%B3%E3%83%BC%E3%83%89%E8%A7%A3%E8%AA%AC%E3%81%AE%E4%BD%9C%E6%88%90%E8%A6%8F%E5%89%87.md) — コード変更には、非技術者が目的、処理の流れ、状態変更、失敗時結果、検査範囲を追える日本語解説を同じPull Requestで添える。 【所属MOD: 共有】
 - [オーバーホール中の矛盾判定規則](/governance/contradiction-policy-%E3%82%AA%E3%83%BC%E3%83%90%E3%83%BC%E3%83%9B%E3%83%BC%E3%83%AB%E4%B8%AD%E3%81%AE%E7%9F%9B%E7%9B%BE%E5%88%A4%E5%AE%9A%E8%A6%8F%E5%89%87.md) — 改稿差分を誤って矛盾と判定せず、現行正本の衝突だけを止めるための規則。 【所属MOD: 共有】
 - [重複と異なる粒度の管理規則](/governance/duplication-policy-%E9%87%8D%E8%A4%87%E3%81%A8%E7%95%B0%E3%81%AA%E3%82%8B%E7%B2%92%E5%BA%A6%E3%81%AE%E7%AE%A1%E7%90%86%E8%A6%8F%E5%89%87.md) — 同じ内容を異なる粒度で必要とする場合でも、事実の所有者は一つにする。 【所属MOD: 共有】
@@ -25,6 +26,7 @@
 - [人間による承認境界](/governance/human-approval-boundary-%E4%BA%BA%E9%96%93%E3%81%AB%E3%82%88%E3%82%8B%E6%89%BF%E8%AA%8D%E5%A2%83%E7%95%8C.md) — RIM-Knowledgeでは、所有者が目的、正本、内容、影響、未確認事項、公開可否を判断し、コードの行単位理解を承認条件にしない。 【所属MOD: 共有】
 - [RIM OKFメタデータ契約](/governance/metadata-contract-%E3%83%A1%E3%82%BF%E3%83%87%E3%83%BC%E3%82%BF%E5%A5%91%E7%B4%84.md) — RIM概念ファイルのOKF 0.2標準メタデータと正本所有拡張の必須構造を定める。 【所属MOD: 共有】
 - [OKF統合保守コード解説](/governance/okf-maintenance-code-guide-OKF%E7%B5%B1%E5%90%88%E4%BF%9D%E5%AE%88%E3%82%B3%E3%83%BC%E3%83%89%E8%A7%A3%E8%AA%AC.md) — maintain-okf.mjsは、OKF派生資料を固定順で更新し、構造、リンク、重複、矛盾を一括検査するローカル実行用の統合入口である。 【所属MOD: 共有】
+- [Google上流OKF追随方針](/governance/okf-upstream-following-policy-Google%E4%B8%8A%E6%B5%81OKF%E8%BF%BD%E9%9A%8F%E6%96%B9%E9%87%9D.md) — GoogleCloudPlatform/knowledge-catalogのOKF規範とVisualize参照実装を確認し、RIM固有拡張をRIM側で所有する追随手順を定める。 【所属MOD: 共有】
 - [現行資料の正仕様記述](/governance/positive-specification-policy-%E7%8F%BE%E8%A1%8C%E8%B3%87%E6%96%99%E3%81%AE%E6%AD%A3%E4%BB%95%E6%A7%98%E8%A8%98%E8%BF%B0.md) — 履歴資料以外の文書は、採用済みの構造、状態、振る舞い、境界、失敗時結果、性能条件を正の仕様として記述する。 【所属MOD: 共有】
 - [共有・シオン・カエラヴィ区分](/governance/project-scope-%E5%85%B1%E6%9C%89%E3%83%BB%E3%82%B7%E3%82%AA%E3%83%B3%E3%83%BB%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E5%8C%BA%E5%88%86.md) — 概念を共有、シオン、カエラヴィのいずれか一つの所属MOD区分へ解決し、所属MODから探す派生索引を安定して生成する。 【所属MOD: 共有】
 - [参考資料の利用境界](/reference/00-%E5%8F%82%E8%80%83%E8%B3%87%E6%96%99%E3%81%AE%E5%88%A9%E7%94%A8%E5%A2%83%E7%95%8C.md) — 参考資料を原則不変で凍結し、直接採用せず、必要な要素だけを現行所有者で新規に再設計するための利用境界。 【所属MOD: 共有】
@@ -82,5 +84,3 @@
 - [8. The four real Monolyn management layers](/research/monolyn-practice/08-The-four-real-Monolyn-management-layers.md) — The reported practical Monolyn loop appears to combine four resource-management layers、具体的にはprayer/meditation schedule…。 【所属MOD: 共有】
 - [10. Alpha impact](/research/monolyn-practice/10-Alpha-impact.md) — This reference does not change Alpha 0.1 scope.。 【所属MOD: 共有】
 - [11. Performance cautions](/research/monolyn-practice/11-Performance-cautions.md) — Avoid importing these patterns without hard limits、具体的にはschedule-driven labor loops that require many pawns;とunbounded resource demand…。 【所属MOD: 共有】
-- [12. Final lesson](/research/monolyn-practice/12-Final-lesson.md) — Monolyn is valuable because players actually build around its Tower, Light, baptism, and terminal systems.。 【所属MOD: 共有】
-- [13. Source links recorded by user](/research/monolyn-practice/13-Source-links-recorded-by-user.md) — Source links recorded by userは、Monolyn Race - Steam Workshop Q&A:…。 【所属MOD: 共有】

@@ -4,7 +4,7 @@ title: "確定#346：クピナー条約機構の正式名称を訂正——Тв�
 description: "クピナー条約機構の正式名称を訂正——Твердь及びНеопалимая Купина条約機構、日常はほぼ「条約機構」または「同盟」を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

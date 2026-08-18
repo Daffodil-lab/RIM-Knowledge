@@ -4,7 +4,7 @@ title: "確定#32：変換市民級はごく少数（WMD で現地人がほぼ�
 description: "変換市民級はごく少数（WMD で現地人がほぼ絶滅→変換は稀）。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

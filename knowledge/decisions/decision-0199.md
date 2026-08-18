@@ -4,7 +4,7 @@ title: "確定#199：無零花の品種別インシデント確率・休眠時�
 description: "無零花の品種別インシデント確率・休眠時間、○○植物工場（生産効率20〜100倍）、無零花専用工場の特殊仕様を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

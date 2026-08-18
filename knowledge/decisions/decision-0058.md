@@ -4,7 +4,7 @@ title: "確定#58：拡張MODは別理念で動く＋確定#56の実装方針転
 description: "拡張MODは別理念で動く＋確定番号56の実装方針転換：確定番号56は拡張MODで実装する方針へ改訂（本体はlore言及のみ）。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

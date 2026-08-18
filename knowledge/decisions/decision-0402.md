@@ -9,7 +9,7 @@ tags:
   - "equipment"
   - "technology"
   - "logistics"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

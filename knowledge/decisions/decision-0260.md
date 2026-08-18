@@ -4,7 +4,7 @@ title: "確定#260：バランス基準書v1の既存懸念5件は設計意図�
 description: "バランス基準書v1の既存懸念5件は設計意図と確認、CoreMOD資料v1§4の任意pt記述を訂正を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

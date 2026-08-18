@@ -5,7 +5,7 @@ description: "段1カタログの拡張・モチーフ差し替え（NESHER/ESH/
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

@@ -4,7 +4,7 @@ title: "確定#295：新技術「秘文字」を新設——cellとエネルギ�
 description: "新技術「秘文字」を新設——cellとエネルギーで発動する魔法技術（アークナイツ「アーツ」参考・要訓練・要才能・シオン/Shionには無害）を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

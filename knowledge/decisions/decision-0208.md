@@ -4,7 +4,7 @@ title: "確定#208：ノイバラ／アステカ煙草／地中海原種芥子�
 description: "ノイバラ／アステカ煙草／地中海原種芥子からバラ／タバコ／ケシへ至るTier間依存クラフトレシピは存在しないと明確化を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

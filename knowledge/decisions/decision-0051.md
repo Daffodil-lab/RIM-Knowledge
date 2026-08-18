@@ -4,7 +4,7 @@ title: "確定#51：オーバーホール＝Qualityの再調整：元の製造�
 description: "オーバーホール＝Qualityの再調整：元の製造コスト半額程度でQualityを再ロールできる（上振れも下振れもある博打）。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

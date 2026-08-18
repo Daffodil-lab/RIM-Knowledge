@@ -5,7 +5,7 @@ description: "終点のスケール分離＝ミクロとマクロは別MODに／
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

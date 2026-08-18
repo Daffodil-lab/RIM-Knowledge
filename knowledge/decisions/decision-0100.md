@@ -5,7 +5,7 @@ description: "武器よさらば（社会民主党フォーカス拡張MOD）新
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

@@ -5,7 +5,7 @@ description: "時計仕掛けの狐人形専用素材Tier1〜10を現実の生�
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

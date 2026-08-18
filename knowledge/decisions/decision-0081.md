@@ -4,7 +4,7 @@ title: "確定#81：階梯連動スタッカブル特性表の新設：+5〜+10�
 description: "階梯連動スタッカブル特性表の新設：+5〜+10区間は同一特性を何度も重ねられるスタッカブル特性（新素材要求・強み弱みペア構造の非適用・milesを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

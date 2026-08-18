@@ -5,7 +5,7 @@ description: "究極点＝不滅の一騎当千（イレギュラー）：§13-1
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

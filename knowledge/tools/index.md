@@ -35,6 +35,15 @@ RIM固有構造検査は、全概念が一つ以上の登録済み主題荷札�
 - [公式OKF 0.2互換性検査（日本語）](validate-okf-v02.mjs)
 - [領域横断重複監査](audit-okf-overlap.mjs)
 - [設定矛盾監査](audit-okf-contradictions.mjs)
+- [Google上流OKF追随チェック](check-okf-upstream.mjs)
+- [RIM-native Visualize](visualize-okf.mjs)
+
+上流追随と可視化の自己検査は次で実行する。可視化HTMLは標準保守では生成しない。
+
+```powershell
+node knowledge/tools/check-okf-upstream.mjs --self-test
+node knowledge/tools/visualize-okf.mjs --self-test
+```
 
 `build-okf.mjs`は削除済み原本から初回移行するための旧生成器であり、現在は実行禁止である。現行`knowledge/`の再生成や上書きには使用しない。
 

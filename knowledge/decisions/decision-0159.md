@@ -5,7 +5,7 @@ description: "段1対物ライフル系の大口径拡張（14.5mm/20mm/23mm）�
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

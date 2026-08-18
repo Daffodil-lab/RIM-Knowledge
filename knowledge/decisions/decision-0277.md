@@ -5,7 +5,7 @@ description: "§2.20全11弾種の各行備考に液体装薬注入機の明記�
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

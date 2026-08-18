@@ -5,7 +5,7 @@ description: "Dプリンター・液体装薬注入機は有人稼働／無人�
 tags:
   - "decision-log"
   - "pawn"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

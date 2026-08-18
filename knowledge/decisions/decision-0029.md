@@ -4,7 +4,7 @@ title: "確定#29：市民級＝同盟の文民多数派・文化力の象徴（
 description: "市民級＝同盟の文民多数派・文化力の象徴（働く義務なし／創作・自作・辺境入植を選好）。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

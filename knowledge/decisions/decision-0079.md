@@ -4,7 +4,7 @@ title: "確定#79：横断ドクトリン6種フォーカス拡張MODの新設�
 description: "横断ドクトリン6種フォーカス拡張MODの新設：日の名残り／バーサーカー／忘れられた兵士／西部戦線異状なし／アキレスの盾／闇の奥を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

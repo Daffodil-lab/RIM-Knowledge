@@ -4,7 +4,7 @@ title: "確定#312：基礎資源「デジタル資材」を「構造材料」�
 description: "基礎資源「デジタル資材」を「構造材料」へ改称を確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

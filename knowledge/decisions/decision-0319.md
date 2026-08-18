@@ -5,7 +5,7 @@ description: "「Shion Race: 地場」自体が実装する技術範囲はグリ
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

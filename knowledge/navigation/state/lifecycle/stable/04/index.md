@@ -1,86 +1,86 @@
 # stable 04
 
-範囲: 確定#122：支援要請システムの3本柱〜確定#203：「公社」を名乗るが正式な公社組織ではないという小ネタを追加
+範囲: E. 取消〜ADV-005 Ephemeral参照解決
 
 ## 項目
 
-- [確定#122：支援要請システムの3本柱](/decisions/decision-0122.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#123：同盟派遣開拓団＝上位互換的な特別スタート](/decisions/decision-0123.md) — 同盟派遣開拓団＝上位互換的な特別スタートを確定した決定履歴。
-- [確定#124：MODジャンル分類（6ジャンルへの再分類）](/decisions/decision-0124.md) — MODジャンル分類（6ジャンルへの再分類）を確定した決定履歴。
-- [確定#125：拡張MOD「バベットの晩餐会」新設](/decisions/decision-0125.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#126：食文化は生存目的を離れ文化・娯楽・手触りとして独自に発達](/decisions/decision-0126.md) — 食文化は生存目的を離れ文化・娯楽・手触りとして独自に発達を確定した決定履歴。
-- [確定#128：CoreMOD副題「A Clockwork Fox Doll」の由来解決](/decisions/decision-0128.md) — CoreMOD副題「A Clockwork Fox Doll」の由来解決を確定した決定履歴。
-- [確定#129：外見メカ要素は取り急ぎ光る目のみに簡素化](/decisions/decision-0129.md) — 外見メカ要素は取り急ぎ光る目のみに簡素化を確定した決定履歴。
-- [確定#130：ローカライズ言語セットへのスペイン語追加（9言語目）](/decisions/decision-0130.md) — ローカライズ言語セットへのスペイン語追加（9言語目）を確定した決定履歴。
-- [確定#131：Combat Extended互換パッチ](/decisions/decision-0131.md) — Combat Extended互換パッチを確定した決定履歴。
-- [確定#132：発光する目は「集光率」を可変できる／訓練で意図的に抑制可能](/decisions/decision-0132.md) — 発光する目は「集光率」を可変できる／訓練で意図的に抑制可能を確定した決定履歴。
-- [確定#133：バベットの晩餐会の嗜好品/ドラッグ品目](/decisions/decision-0133.md) — バベットの晩餐会の嗜好品/ドラッグ品目を確定した決定履歴。
-- [確定#134：同盟派遣開拓団の公式ビジュアル参考（雪山コンセプトアート）](/decisions/decision-0134.md) — 同盟派遣開拓団の公式ビジュアル参考（雪山コンセプトアート）を確定した決定履歴。
-- [確定#135：同盟派遣開拓団の公式ビジュアル参考（廃墟都市コンセプトアート）](/decisions/decision-0135.md) — 同盟派遣開拓団の公式ビジュアル参考（廃墟都市コンセプトアート）を確定した決定履歴。
-- [確定#136：同盟派遣開拓団の公式ビジュアル参考（砂漠コンセプトアート）](/decisions/decision-0136.md) — 同盟派遣開拓団の公式ビジュアル参考（砂漠コンセプトアート）を確定した決定履歴。
-- [確定#137：パナマハット／アフガンカ・水兵服・射撃対応シールドベルト](/decisions/decision-0137.md) — パナマハット／アフガンカ・水兵服・射撃対応シールドベルトを確定した決定履歴。
-- [確定#138：Diasporaシリーズ（民間開拓団装備・段0-1）新設](/decisions/decision-0138.md) — Diasporaシリーズ（民間開拓団装備・段0-1）新設を確定した決定履歴。
-- [確定#139：Diasporaフルカタログ・シールド仕様](/decisions/decision-0139.md) — Diasporaフルカタログ・シールド仕様を確定した決定履歴。
-- [確定#140：Shion Race: Red Star新設・独自開拓団へCoreMODを縮小](/decisions/decision-0140.md) — Shion Race: Red Star新設・独自開拓団へCoreMODを縮小を確定した決定履歴。
-- [確定#141：同盟とRimWorldの関係（艦隊は数光年離れて不干渉・侵入は侵攻の合図）](/decisions/decision-0141.md) — 同盟とRimWorldの関係（艦隊は数光年離れて不干渉・侵入は侵攻の合図）を確定した決定履歴。
-- [確定#142：支援要請システムに「限定介入」を新設＋艦隊到着までの経路とタイムラグ](/decisions/decision-0142.md) — 支援要請システムに「限定介入」を新設＋艦隊到着までの経路とタイムラグを確定した決定履歴。
-- [確定#143：独自開拓団 — CoreMODの中核アイデンティティ](/decisions/decision-0143.md) — 独自開拓団 — CoreMODの中核アイデンティティを確定した決定履歴。
-- [確定#144：Diaspora段0/段1の割当確定](/decisions/decision-0144.md) — Diaspora段0/段1の割当確定を確定した決定履歴。
-- [確定#145：段2装備 — 同盟旧制式装備 新設](/decisions/decision-0145.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#146：具体品・フレーバーテキスト集／段0品目](/decisions/decision-0146.md) — 具体品・フレーバーテキスト集／段0品目を確定した決定履歴。
-- [確定#147：Diaspora段1品目のフレーバーテキスト](/decisions/decision-0147.md) — Diaspora段1品目のフレーバーテキストを確定した決定履歴。
-- [確定#148：段2品目のフレーバーテキスト](/decisions/decision-0148.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#150：Diaspora社の創業秘話](/decisions/decision-0150.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#151：Diaspora段0/段1品目の拡張](/decisions/decision-0151.md) — Diaspora段0/段1品目の拡張を確定した決定履歴。
-- [確定#152：Diaspora Tech companyの正式名称確定](/decisions/decision-0152.md) — Diaspora Tech companyの正式名称確定を確定した決定履歴。
-- [確定#153：Diaspora製品の実銃モチーフ国籍制限（イスラエル/西側製が原則）](/decisions/decision-0153.md) — Diaspora製品の実銃モチーフ国籍制限（イスラエル/西側製が原則）を確定した決定履歴。
-- [確定#154：確定#153の国籍制限は本編Diasporaカタログ限定](/decisions/decision-0154.md) — 確定番号153の国籍制限は本編Diasporaカタログ限定を確定した決定履歴。
-- [確定#155：Diaspora口径・装弾数一覧（CE互換パッチ向け）](/decisions/decision-0155.md) — Diaspora口径・装弾数一覧（CE互換パッチ向け）を確定した決定履歴。
-- [確定#156：Diaspora Tech company MODの構想概要](/decisions/decision-0156.md) — Diaspora Tech company MODの構想概要を確定した決定履歴。
-- [確定#157：段0/段1品目のさらなる拡張](/decisions/decision-0157.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#158：段2品目の段1対応全カテゴリへの拡張](/decisions/decision-0158.md) — 段2品目の段1対応全カテゴリへの拡張を確定した決定履歴。
-- [確定#159：段1対物ライフル系の大口径拡張（14.5mm/20mm/23mm）](/decisions/decision-0159.md) — 段1対物ライフル系の大口径拡張（14.5mm/20mm/23mm）を確定した決定履歴。
-- [確定#160：Diaspora実銃モチーフ国籍制限にイランを例外追加](/decisions/decision-0160.md) — Diaspora実銃モチーフ国籍制限にイランを例外追加を確定した決定履歴。
-- [確定#161：Web調査によるイラン製実銃の正式採用（Shaher/Arash/Baher-23）](/decisions/decision-0161.md) — Web調査によるイラン製実銃の正式採用（Shaher/Arash/Baher-23）を確定した決定履歴。
-- [確定#162：段1カタログの拡張・モチーフ差し替え（NESHER/ESH/SODOM新設ほか）](/decisions/decision-0162.md) — 段1カタログの拡張・モチーフ差し替え（NESHER/ESH/SODOM新設ほか）を確定した決定履歴。
-- [確定#163：対物銃・ESTHER/MIGDALの隠し裏設定（アウトレンジを許さない）](/decisions/decision-0163.md) — 対物銃・ESTHER/MIGDALの隠し裏設定（アウトレンジを許さない）を確定した決定履歴。
-- [確定#164：GOLIATHのモチーフをマクミランTAC-50系（ボルトアクション）へ変更](/decisions/decision-0164.md) — GOLIATHのモチーフをマクミランTAC-50系（ボルトアクション）へ変更を確定した決定履歴。
-- [確定#165：Tier別pt予算（Tier0=任意pt3〜Tier+20=任意pt60）](/decisions/decision-0165.md) — Tier別pt予算（Tier0=任意pt3〜Tier+20=任意pt60）を確定した決定履歴。
-- [確定#166：体力システムの機械化（冷媒漏出・技師修理）](/decisions/decision-0166.md) — 体力システムの機械化（冷媒漏出・技師修理）を確定した決定履歴。
-- [確定#167：任意付与特性プールの拡張](/decisions/decision-0167.md) — 履歴項目であり、また現行仕様との競合時は、正史コアと現在の仕様概念を優先してくださいを確定した決定履歴。
-- [確定#168：任意付与特性プールに正13種・負14種を追加（正35：負26の構成に調整）](/decisions/decision-0168.md) — 任意付与特性プールに正13種・負14種を追加（正35：負26の構成に調整）を確定した決定履歴。
-- [確定#169：Tier−6〜−10の改造ポイントを線形延長として確定、スタッカブル弱点特性の重ね掛け上限は混在方式に確定](/decisions/decision-0169.md) — Tier−6〜−10の改造ポイントを線形延長として確定、スタッカブル弱点特性の重ね掛け上限は混在方式に確定を確定した決定履歴。
-- [確定#170：コア特性を6種へ縮小、残り21種＋新規負特性4種を任意付与特性プールへ再配置](/decisions/decision-0170.md) — コア特性を6種へ縮小、残り21種＋新規負特性4種を任意付与特性プールへ再配置を確定した決定履歴。
-- [確定#171：時計仕掛けを有機機械との必須排他選択へ変更、有機機械限定特性をStellaris有機種族特性から翻案して新設](/decisions/decision-0171.md) — 時計仕掛けを有機機械との必須排他選択へ変更、有機機械限定特性をStellaris有機種族特性から翻案して新設を確定した決定履歴。
-- [確定#172：有機機械の基本効果を確定（基本代謝効率50%＝食料消費2倍、付属特性なし）](/decisions/decision-0172.md) — 有機機械の基本効果を確定（基本代謝効率50%＝食料消費2倍、付属特性なし）を確定した決定履歴。
-- [確定#173：確定#172の食料消費の向きを訂正、時計仕掛け/有機機械の総合バランス構図を確定](/decisions/decision-0173.md) — 確定番号172の食料消費の向きを訂正、時計仕掛け/有機機械の総合バランス構図を確定した決定履歴。
-- [確定#174：有機機械の特性スロット数上限・製造時間の追加ペナルティを確定](/decisions/decision-0174.md) — 有機機械の特性スロット数上限・製造時間の追加ペナルティを確定した決定履歴。
-- [確定#175：有機機械限定特性を任意付与特性プールへ統合、生物的な名称（血モチーフ）へ改名](/decisions/decision-0175.md) — 有機機械限定特性を任意付与特性プールへ統合、生物的な名称（血モチーフ）へ改名を確定した決定履歴。
-- [確定#176：必須排他選択に第三の選択肢「狐人形」（機械と生物の融合）を新設、時計仕掛け限定/有機機械限定の両特性プールに越境アクセス](/decisions/decision-0176.md) — 必須排他選択に第三の選択肢「狐人形」（機械と生物の融合）を新設、時計仕掛け限定/有機機械限定の両特性プールに越境アクセスを確定した決定履歴。
-- [確定#177：任意付与特性プールを「機械名／有機名」ニコイチ方式へ再編](/decisions/decision-0177.md) — 任意付与特性プールを「機械名／有機名」ニコイチ方式へ再編を確定した決定履歴。
-- [確定#178：ニコイチの有機名をStellaris原語トレイト名そのままへ差し替え](/decisions/decision-0178.md) — ニコイチの有機名をStellaris原語トレイト名そのままへ差し替えを確定した決定履歴。
-- [確定#179：狐人形の正式名称を「時計仕掛けの狐人形（A Clockwork Fox Doll）」に確定、MOD副題との統合を明記](/decisions/decision-0179.md) — 狐人形の正式名称を「時計仕掛けの狐人形（A Clockwork Fox Doll）」に確定、MOD副題との統合を明記を確定した決定履歴。
-- [確定#180：時計仕掛けの狐人形限定の負特性2種「不思議な時計仕掛け」「狐人形」を新設、選択肢名を必ずフルネームで統一](/decisions/decision-0180.md) — 時計仕掛けの狐人形限定の負特性2種「不思議な時計仕掛け」「狐人形」を新設、選択肢名を必ずフルネームで統一を確定した決定履歴。
-- [確定#181：不思議な時計仕掛けの「恐ろしい力」をHediff「魔法の力」として確定（Fibrous mechanites＋Luciferiumの合成バフ）](/decisions/decision-0181.md) — 不思議な時計仕掛けの「恐ろしい力」をHediff「魔法の力」として確定（Fibrous mechanites＋Luciferiumの合成バフ）を確定した決定履歴。
-- [確定#182：時計仕掛けの狐人形のTier構造の特例を確定（−Tierなし・必要素材種類数固定・Tier比例の弱点負債pt）](/decisions/decision-0182.md) — 時計仕掛けの狐人形のTier構造の特例を確定（−Tierなし・必要素材種類数固定・Tier比例の弱点負債pt）を確定した決定履歴。
-- [確定#183：狐人形の弱点負債ptは通常の任意ptと別軸・相殺不可と確定](/decisions/decision-0183.md) — 狐人形の弱点負債ptは通常の任意ptと別軸・相殺不可を確定した決定履歴。
-- [確定#184：狐人形の必要素材種類数に専用素材が追加されると確定](/decisions/decision-0184.md) — 狐人形の必要素材種類数に専用素材が追加されるを確定した決定履歴。
-- [確定#185：確定#174①の「特性スロット数上限」を撤回、スタッカブル重ね掛け上限方式へ置換](/decisions/decision-0185.md) — 確定番号174①の「特性スロット数上限」を撤回、スタッカブル重ね掛け上限方式へ置換を確定した決定履歴。
-- [確定#186：両義特性「病気に強い・機械に弱い」を正特性「病気に強い」と負特性「機械に弱い」に分離](/decisions/decision-0186.md) — 両義特性「病気に強い・機械に弱い」を正特性「病気に強い」と負特性「機械に弱い」に分離を確定した決定履歴。
-- [確定#187：時計仕掛けの狐人形の基本stat原則を確定（両方のデメリットを負い、メリットは特性投資で獲得）](/decisions/decision-0187.md) — 時計仕掛けの狐人形の基本stat原則を確定（両方のデメリットを負い、メリットは特性投資で獲得）を確定した決定履歴。
-- [確定#188：時計仕掛けの狐人形の製造時間を有機機械の1.5倍に確定](/decisions/decision-0188.md) — 時計仕掛けの狐人形の製造時間を有機機械の1.5倍に確定を確定した決定履歴。
-- [確定#189：有機機械限定特性リストは現状で十分と確定（「非機械であること」で足りる）](/decisions/decision-0189.md) — 有機機械限定特性リストは現状で十分と確定（「非機械であること」で足りる）を確定した決定履歴。
-- [確定#190：技師修理の資源コスト計算式を確定（生産コスト×欠損率÷2、欠損率は死体欠損から算出）](/decisions/decision-0190.md) — 技師修理の資源コスト計算式を確定（生産コスト×欠損率÷2、欠損率は死体欠損から算出）を確定した決定履歴。
-- [確定#191：有機機械側のスタッカブル重ね掛け上限は基本的に10〜50の範囲と確定](/decisions/decision-0191.md) — 有機機械側のスタッカブル重ね掛け上限は基本的に10〜50の範囲を確定した決定履歴。
-- [確定#192：個人名プール（§2）にユダヤ/アラブ/イラン/トルコ/独/仏/伊/豪/イスラム関連の9系統を追加、約310語→約480語へ拡大](/decisions/decision-0192.md) — 個人名プール（§2）にユダヤ/アラブ/イラン/トルコ/独/仏/伊/豪/イスラム関連の9系統を追加、約310語→約480語へ拡大を確定した決定履歴。
-- [確定#193：個人名プール（§2）にオーストリア/ユーゴスラビア諸国/チェコ/スロバキア/スウェーデン/バルト三国/ポーランド＋Diasporaブランド転用/聖書/律法/コーランの11系統を追加、約480語→約660語へ拡大](/decisions/decision-0193.md) — 個人名プール（§2）にオーストリア/ユーゴスラビア諸国/チェコ/スロバキア/スウェーデン/バルト三国/ポーランド＋Diasporaブランド転用/聖書/律法/コーランの11系統を追加、約480語→約660語へ拡大を確定した決定履歴。
-- [確定#194：§2-25「Diasporaブランド語彙の個人名転用」の位置づけを訂正、対象語を10→22語へ拡大](/decisions/decision-0194.md) — §2-25「Diasporaブランド語彙の個人名転用」の位置づけを訂正、対象語を10→22語へ拡大を確定した決定履歴。
-- [確定#195：§2-1〜2-8の既存語彙（固有名詞除く）を全19言語系統へ翻訳、個人名プールを約672語→約4504語へ拡大](/decisions/decision-0195.md) — §2-1〜2-8の既存語彙（固有名詞除く）を全19言語系統へ翻訳、個人名プールを約672語→約4504語へ拡大を確定した決定履歴。
-- [確定#196：表記・読み・原義が完全一致する重複語を系統統合、個人名プールを約4504語→約3894語へ整理](/decisions/decision-0196.md) — 表記・読み・原義が完全一致する重複語を系統統合、個人名プールを約4504語→約3894語へ整理を確定した決定履歴。
-- [確定#197：個人名プールに地形・地域（§2-29）と工業都市（§2-30）の2系統を追加、個人名プールを約3894語→約3930語へ拡大](/decisions/decision-0197.md) — 個人名プールに地形・地域（§2-29）と工業都市（§2-30）の2系統を追加、個人名プールを約3894語→約3930語へ拡大を確定した決定履歴。
-- [確定#198：ゼロ点エネルギー発電機・地場備蓄装置・濃縮真空エネルギー（VEF PipeSystem）を新設、Мастерская以降の基準消費量を一桁増、バラ/タバコ/ケシの下位品をНедраへ追加](/decisions/decision-0198.md) — ゼロ点エネルギー発電機・地場備蓄装置・濃縮真空エネルギー（VEF PipeSystem）を新設、Мастерская以降の基準消費量を一桁増、バラ/タバコ/ケシの下位品をНедраへ追加を確定した決定履歴。
-- [確定#199：無零花の品種別インシデント確率・休眠時間、○○植物工場（生産効率20〜100倍）、無零花専用工場の特殊仕様を確定](/decisions/decision-0199.md) — 無零花の品種別インシデント確率・休眠時間、○○植物工場（生産効率20〜100倍）、無零花専用工場の特殊仕様を確定した決定履歴。
-- [確定#200：濃縮真空エネルギー1単位の基準をガソリンから天然ガス（LNG）換算へ変更、地場濃度55%に確定](/decisions/decision-0200.md) — 濃縮真空エネルギー1単位の基準をガソリンから天然ガス（LNG）換算へ変更、地場濃度55%に確定を確定した決定履歴。
-- [確定#201：ゼロ点エネルギーは本国の核融合炉より高効率だが工業惑星規模の危険性ゆえ不使用、Ромашка氏とミチューリン農芸公社への叙勲を新設](/decisions/decision-0201.md) — ゼロ点エネルギーは本国の核融合炉より高効率だが工業惑星規模の危険性ゆえ不使用、Ромашка氏とミチューリン農芸公社への叙勲を新設を確定した決定履歴。
-- [確定#202：ミチューリン農芸公社とРомашка個人に同盟への全アクセス権を付与（Diaspora Tech companyとの対比）](/decisions/decision-0202.md) — ミチューリン農芸公社とРомашка個人に同盟への全アクセス権を付与（Diaspora Tech companyとの対比）を確定した決定履歴。
-- [確定#203：「公社」を名乗るが正式な公社組織ではないという小ネタを追加](/decisions/decision-0203.md) — 「公社」を名乗るが正式な公社組織ではないという小ネタを追加を確定した決定履歴。
+- [E. 取消](/kombinat/requirements/048-E-%E5%8F%96%E6%B6%88.md) — 開始前、入力受領後、処理中、出力待ちの各段階で取消規則を確認する。
+- [F. 保存往復](/kombinat/requirements/049-F-%E4%BF%9D%E5%AD%98%E5%BE%80%E5%BE%A9.md) — 全Job状態と通貨Transaction途中で保存・ロードし、二重実行しない。
+- [G. 保管基盤不在](/kombinat/requirements/050-G-%E4%B8%8A%E6%B5%81%E4%B8%8D%E5%9C%A8.md) — Core独自保管基盤が欠落または不整合なら生産接続を停止し、保存状態を破壊的に初期化しない。
+- [H. 保管基盤欠陥分離](/kombinat/requirements/051-H-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5%E5%88%86%E9%9B%A2.md) — Core独自保管基盤単体の問題とKombinat接続の問題を再現条件で分離する。
+- [I. 保管中の時間進行](/kombinat/requirements/052-I-Stasis-%E4%BF%9D%E7%AE%A1%E4%B8%AD%E3%81%AE%E6%99%82%E9%96%93%E9%80%B2%E8%A1%8C.md) — Core独自Storageが定めた対象別時間進行方針を、Kombinatが上書きしない。
+- [J. Creditと関連台帳](/kombinat/requirements/053-J-%E9%80%9A%E8%B2%A8.md) — Credit、Mark、債務、租税、Thing受渡しの初期化と原子的Transactionが、連打と保存往復でも一致する。
+- [12. α Release Gate](/kombinat/requirements/12-%CE%B1-Release-Gate-%E5%85%AC%E9%96%8B%E5%88%A4%E5%AE%9A.md) — α版はCore独自保管基盤との直接受渡し、三段生産、任意排出、保存・復旧をRelease Gateへ含める。
+- [13. β境界](/kombinat/requirements/13-%CE%B2%E5%A2%83%E7%95%8C.md) — β境界は、Pawn Foundry要求とEquipment Familyを扱う。
+- [CON-001 観測範囲](/kombinat/requirements/con-001-%E8%A6%B3%E6%B8%AC%E7%AF%84%E5%9B%B2.md) — MUST: Kombinat自身のBuffer、Factory、Core API、正式な上流APIから得たeventだけを消費集計へ使う。
+- [CON-002 不明表示](/kombinat/requirements/con-002-%E4%B8%8D%E6%98%8E%E8%A1%A8%E7%A4%BA.md) — MUST: Core Storageの公開eventで観測できない消費範囲を不明として明示する。
+- [CON-003 流通目標](/kombinat/requirements/con-003-%E6%B5%81%E9%80%9A%E7%9B%AE%E6%A8%99.md) — MUST: Storage在庫とFacility需要について最低量、目標量、優先度を設定できる。
+- [CON-004 上流設定](/kombinat/requirements/con-004-%E4%B8%8A%E6%B5%81%E8%A8%AD%E5%AE%9A.md) — MUST: Core StorageのFilter、容量、Endpoint設定はCoreの公開契約で所有する。
+- [CUR-001 Account](/kombinat/requirements/cur-001-%E8%A6%81%E4%BB%B6.md) — MUST: 同盟Creditを非貨幣の認可Accountとして保存し、カエルムMark、債務、租税のLedgerおよび物理Thing在庫から分離する。
+- [CUR-002 Transaction](/kombinat/requirements/cur-002-%E8%A6%81%E4%BB%B6.md) — MUST: Credit認定・予約・使用・返還と、Mark決済、債務返済、租税徴収、Thing受渡しはidempotency keyを持ち、全部成功または全部失敗する。
+- [CUR-003 台帳値のRecipe生成禁止](/kombinat/requirements/cur-003-%E7%A6%81%E6%AD%A2.md) — MUST: 同盟Credit、カエルムMark、債務、租税を通常工業Recipeで生成または消去しない。
+- [CUR-004 初期化](/kombinat/requirements/cur-004-%E5%88%9D%E6%9C%9F%E5%8C%96.md) — MUST: 開始時にProfileが宣言したCredit Accountと任意のMark・債務・租税Ledgerを一回だけ原子的に初期化する。
+- [CUR-005 所在と資産価値](/kombinat/requirements/cur-005-%E6%89%80%E5%9C%A8.md) — MUST: 非物理Account／Ledgerを組織単位のWorld状態として保存し、資産価値へ算入せず、複数Mapから同じIDで参照する。
+- [INT-001 無改造](/kombinat/requirements/int-001-%E7%84%A1%E6%94%B9%E9%80%A0.md) — MUST: KombinatはCore独自保管基盤のprivate状態を変更または参照せず、公開Application境界だけを使う。
+- [INT-002 通常経路](/kombinat/requirements/int-002-%E9%80%9A%E5%B8%B8%E7%B5%8C%E8%B7%AF.md) — MUST: 物理Thingの受渡しにはCore独自基盤が公開する予約・commit・release契約だけを使う。
+- [INT-003 Storage予約](/kombinat/requirements/int-003-%E4%BA%88%E7%B4%84.md) — MUST: Kombinatが工程へ算入できるのは、Core StorageがThing IDと数量で予約した入力だけである。
+- [INT-004 引渡し](/kombinat/requirements/int-004-%E5%BC%95%E6%B8%A1%E3%81%97.md) — MUST: 生産出力はCore Storageへ直接生成し、Kombinat側の所有Thingを作らない。
+- [INT-005 接続不能](/kombinat/requirements/int-005-%E6%8E%A5%E7%B6%9A%E4%B8%8D%E8%83%BD.md) — MUST: Core独自Storageから供給または回収できない場合、Jobを転送待ちへ置く。
+- [INT-006 上流欠陥](/kombinat/requirements/int-006-%E4%B8%8A%E6%B5%81%E6%AC%A0%E9%99%A5.md) — MUST: Core独自保管基盤単体で再現する問題と、Kombinat接続だけで再現する問題を分離する。
+- [PERF-001 Event駆動](/kombinat/requirements/perf-001-%E9%A7%86%E5%8B%95.md) — MUST: Queue、Factory、Buffer、Accountの変化をeventで処理し、定常処理を索引と有界Queueから実行する。
+- [PERF-002 Planner](/kombinat/requirements/perf-002-%E8%A6%81%E4%BB%B6.md) — MUST: 一Planを最大200 node、100 ms以内、または一frame 4 ms以下の分割処理で終える暫定目標を持つ。
+- [PERF-003 長期](/kombinat/requirements/perf-003-%E9%95%B7%E6%9C%9F.md) — MUST: 60,000 tickの連続生産で、StorageのThing差分0、予約漏れ0、二重完了0、未回収終端処理0を確認する。
+- [PERF-004 保存](/kombinat/requirements/perf-004-%E4%BF%9D%E5%AD%98.md) — MUST: 500 Job、2,000 Batch履歴、10,000 Buffer Thingの保存・ロード時間、ファイル増分、GC allocationを記録する。
+- [PRD-001 定義](/kombinat/requirements/prd-001-%E5%AE%9A%E7%BE%A9.md) — MUST: Production Patternは次を持つ。
+- [PRD-002 入力Role](/kombinat/requirements/prd-002-%E5%85%A5%E5%8A%9B.md) — MUST: Consume、LockAndReturn、TransformAndReturn、ContainerReturnを区別する。
+- [PRD-003 Recipe分類](/kombinat/requirements/prd-003-%E5%88%86%E9%A1%9E.md) — MUST: RecipeをKombinat Automated、Vanilla Work Required、Official Adapter Required、Unsupportedへ分類する。
+- [PRD-004 Request](/kombinat/requirements/prd-004-%E8%A6%81%E4%BB%B6.md) — MUST: 具体ThingDef、Recipe、数量または目標在庫、優先度、出力先を指定できる。
+- [PRD-005 Plan](/kombinat/requirements/prd-005-%E8%A6%81%E4%BB%B6.md) — MUST: Recipe依存を有界DAGへ展開し、循環を検出する。
+- [PRD-006 複数経路](/kombinat/requirements/prd-006-%E8%A4%87%E6%95%B0%E7%B5%8C%E8%B7%AF.md) — MUST: 同じ出力を作れる複数Patternがある場合、作者優先度、完成可能性、設備、概算時間、stable IDの決定順を使う。
+- [PRD-007 Job](/kombinat/requirements/prd-007-%E8%A6%81%E4%BB%B6.md) — MUST: 承認済みPlanをJobとして保存し、Pattern version、選んだRecipe、入力条件、出力条件を固定する。
+- [PRD-008 Batch](/kombinat/requirements/prd-008-%E8%A6%81%E4%BB%B6.md) — MUST: 一Batchの全入力Thingと出力容量がCore Storageで予約され、設備が利用可能な時だけ開始する。
+- [PRD-009 Output Claim](/kombinat/requirements/prd-009-%E8%A6%81%E4%BB%B6.md) — MUST: 同じThingDefがどこかへ出現しただけでBatchを完了しない。
+- [PRD-010 中間品](/kombinat/requirements/prd-010-%E4%B8%AD%E9%96%93%E5%93%81.md) — MUST: 中間品をCore Storageへ直接Commitし、後段工程がThing単位で予約する。
+- [PRD-011 副産物](/kombinat/requirements/prd-011-%E5%89%AF%E7%94%A3%E7%89%A9.md) — MUST: 副産物の出力容量を開始前に確認し、満杯なら開始しない。
+- [PRD-012 取消](/kombinat/requirements/prd-012-%E5%8F%96%E6%B6%88.md) — MUST: 取消時は未Commitの入力予約、出力容量予約、通貨予約、設備割当を解放する。
+- [PRD-013 再計画](/kombinat/requirements/prd-013-%E5%86%8D%E8%A8%88%E7%94%BB.md) — MUST: 未開始Batchだけを再計画する、またcommit済みBatchを巻き戻さない。
+- [SAV-001 状態](/kombinat/requirements/sav-001-%E7%8A%B6%E6%85%8B.md) — MUST: Request、Pattern version、Plan summary、Job、Batch、Buffer、Output Claim、Account、Transaction、Consumption aggregateを保存する。
+- [SAV-002 非複製](/kombinat/requirements/sav-002-%E9%9D%9E%E8%A4%87%E8%A3%BD.md) — MUST: KombinatセーブはKombinat固有状態とCore取引参照だけを保持する。
+- [SAV-003 途中保存](/kombinat/requirements/sav-003-%E9%80%94%E4%B8%AD%E4%BF%9D%E5%AD%98.md) — MUST: 材料待ち、入力予約後、処理中、出力容量待ち、Commit前後、通貨保留中に保存・ロードできる。
+- [SAV-004 同一ビルド](/kombinat/requirements/sav-004-%E5%90%8C%E4%B8%80%E3%83%93%E3%83%AB%E3%83%89.md) — MUST: α／βでは同一ビルドの保存往復を保証する。
+- [STA-001 意図した仕様](/kombinat/requirements/sta-001-%E6%84%8F%E5%9B%B3%E3%81%97%E3%81%9F%E4%BB%95%E6%A7%98.md) — MUST: Core独自Storage内の腐敗、温度、Thing Tick、Comp Tick、充放電、孵化等の時間進行方針を明示する。
+- [STA-002 追加制限禁止](/kombinat/requirements/sta-002-%E8%BF%BD%E5%8A%A0%E5%88%B6%E9%99%90%E7%A6%81%E6%AD%A2.md) — MUST: Stasisによる時間停止だけを理由に、Kombinatから追加費用、危険分類、入庫拒否を行わない。
+- [STA-003 工場内在庫禁止](/kombinat/requirements/sta-003-%E5%B7%A5%E5%A0%B4%E5%86%85%E5%9C%A8%E5%BA%AB%E7%A6%81%E6%AD%A2.md) — MUST: Kombinat Factoryは生産用ThingOwnerを持たず、材料、中間品、完成品をCore Storageへ一元化する。
+- [UX-001 発注](/kombinat/requirements/ux-001-%E7%99%BA%E6%B3%A8.md) — MUST: 品目、数量または目標在庫、優先度だけで基本発注を作れる。
+- [UX-002 見積り](/kombinat/requirements/ux-002-%E8%A6%8B%E7%A9%8D%E3%82%8A.md) — MUST: 確定前に、必要材料、Storage利用可能量、予約済み、中間品、設備、出力容量、概算時間を表示する。
+- [UX-003 状態語](/kombinat/requirements/ux-003-%E7%8A%B6%E6%85%8B%E8%AA%9E.md) — MUST: 少なくとも次を区別するという方針の適用範囲と条件を定める。
+- [UX-004 上流UIの尊重](/kombinat/requirements/ux-004-%E4%B8%8A%E6%B5%81-%E3%81%AE%E5%B0%8A%E9%87%8D.md) — MUST: Storage、Filter、Endpoint、Network設定はCore独自基盤のUI責務とし、Kombinat内部へ複製しない。
+- [0. 結論](/pawn/00-%E7%B5%90%E8%AB%96.md) — β版では、シオンPawnを必要に応じて設計、生産、配備、無料保管、修復、回収、再生産できなければならない。
+- [1. 権威と責務](/pawn/01-%E6%A8%A9%E5%A8%81%E3%81%A8%E8%B2%AC%E5%8B%99.md) — Pawnの生成、人格・身体構成、登録、保管、死亡後削除、再実体化、Cloneについて矛盾がある場合、次の順を用いる。
+- [3. 個体分類](/pawn/03-%E5%80%8B%E4%BD%93%E5%88%86%E9%A1%9E.md) — 個体分類は、Ephemeral Pawn：なし：遺体情報が残る間だけ低コスト再起動可能：不可：再資源化完了時に個体情報を削除とRegistered Individual：Individual Archive：一体だけ可能：可能：Archiveを残し、Pawn…。
+- [4. データ境界](/pawn/04-%E3%83%87%E3%83%BC%E3%82%BF%E5%A2%83%E7%95%8C.md) — データ境界は、境界：主な内容：保存とPawn Generation Request：適合条件、数量、登録方針、Loadout：完了までを扱う。
+- [A. ランダム適合個体](/pawn/068-A-%E3%83%A9%E3%83%B3%E3%83%80%E3%83%A0%E9%81%A9%E5%90%88%E5%80%8B%E4%BD%93.md) — A. ランダム適合個体は、建築能力と運搬能力を条件に一体注文する。
+- [B. 必要装備込みの配備](/pawn/069-B-%E5%BF%85%E8%A6%81%E8%A3%85%E5%82%99%E8%BE%BC%E3%81%BF%E3%81%AE%E9%85%8D%E5%82%99.md) — B. 必要装備込みの配備は、射手四体、互換する防具、遠距離武器、医療品を注文する。
+- [C. 一からの個体設計](/pawn/070-C-%E4%B8%80%E3%81%8B%E3%82%89%E3%81%AE%E5%80%8B%E4%BD%93%E8%A8%AD%E8%A8%88.md) — C. 一からの個体設計は、Body、Module、外装、技能、特性、能力、装備を選ぶ。
+- [D. 単一個体の登録と再実体化](/pawn/071-D-%E5%8D%98%E4%B8%80%E5%80%8B%E4%BD%93%E3%81%AE%E7%99%BB%E9%8C%B2%E3%81%A8%E5%86%8D%E5%AE%9F%E4%BD%93%E5%8C%96.md) — D. 単一個体の登録と再実体化は、活動中Pawnを登録する。
+- [E. Clone Colony](/pawn/072-E-Clone-Colony-%E8%A4%87%E8%A3%BD%E5%80%8B%E4%BD%93%E3%82%B3%E3%83%AD%E3%83%8B%E3%83%BC.md) — E. Clone Colonyは、一体のRegistered IndividualをClone Sourceにする。
+- [F. 無料保管](/pawn/073-F-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — F. 無料保管は、生存Pawnへ装備とinventory内Thingを持たせてDormant化する。
+- [G. 負傷と遺体回収](/pawn/074-G-%E8%B2%A0%E5%82%B7%E3%81%A8%E9%81%BA%E4%BD%93%E5%9B%9E%E5%8F%8E.md) — G. 負傷と遺体回収は、重傷Pawnを低コスト修復する。
+- [H. Ephemeral完全削除](/pawn/075-H-Ephemeral%E5%AE%8C%E5%85%A8%E5%89%8A%E9%99%A4.md) — H. Ephemeral完全削除は、大量のEphemeral Pawnを死亡、回収、再資源化する。
+- [I. Cloneと固有物](/pawn/076-I-Clone%E3%81%A8%E5%9B%BA%E6%9C%89%E7%89%A9.md) — I. Cloneと固有物は、名前付き武器、Quest参照、称号を持つRegistered IndividualをCloneする。
+- [J. 途中保存と再送](/pawn/077-J-%E9%80%94%E4%B8%AD%E4%BF%9D%E5%AD%98%E3%81%A8%E5%86%8D%E9%80%81.md) — J. 途中保存と再送は、生産、Dormant化、回収、再資源化、再実体化、Cloneの各段階で保存する。
+- [13. 完成図Hardening要件](/pawn/13-%E5%AE%8C%E6%88%90%E5%9B%B3Hardening%E8%A6%81%E4%BB%B6.md) — 本節は旧完成図監査から回収したPawn Foundry固有のHardening要件を、本書自身の拘束要件として維持する。
+- [14. β Definition of Done](/pawn/14-%CE%B2-Definition-of-Done-%E5%AE%8C%E6%88%90%E6%9D%A1%E4%BB%B6.md) — 次を全て満たした時だけ、β版のPawn生産系を完成とする。
+- [2.1 補充可能性](/pawn/2-1-%E8%A3%9C%E5%85%85%E5%8F%AF%E8%83%BD%E6%80%A7.md) — 補充可能性は、通常シオンPawnに、世界で一度しか得られない必須材料や有限の生産回数を要求しない。
+- [2.2 人格とゲームユニット](/pawn/2-2-%E4%BA%BA%E6%A0%BC%E3%81%A8%E3%82%B2%E3%83%BC%E3%83%A0%E3%83%A6%E3%83%8B%E3%83%83%E3%83%88.md) — 人格とゲームユニットは、ゲーム上のPawnは生産、保管、交換、補充できるコマである。
+- [2.3 無料保管](/pawn/2-3-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — 生存PawnはPawn Foundryまたは対応設備からDormant状態へ移し、必要になるまで保管できる。
+- [3.1 Ephemeral Pawn](/pawn/3-1-Ephemeral-Pawn-%E4%B8%80%E6%99%82%E5%80%8B%E4%BD%93.md) — 適合生成の既定出力であり、また役割上必要な情報だけを指定し、それ以外をランダム生成する。
+- [3.2 Registered Individual](/pawn/3-2-Registered-Individual-%E7%99%BB%E9%8C%B2%E5%80%8B%E4%BD%93.md) — 既存Pawnをプレイヤーが登録すると、個体を再構築するためのIndividual Archiveを作る。
+- [3.3 Saved Pawn Design](/pawn/3-3-Saved-Pawn-Design-%E4%BF%9D%E5%AD%98%E5%80%8B%E4%BD%93%E8%A8%AD%E8%A8%88.md) — 特定の一人ではなく、繰り返し使える製造設計である。
+- [3.4 Clone](/pawn/3-4-Clone-%E8%A4%87%E8%A3%BD%E5%80%8B%E4%BD%93.md) — 登録個体または保存設計をClone Sourceにできる。
+- [4.1 ID](/pawn/4-1-ID-%E8%AD%98%E5%88%A5%E5%AD%90.md) — 再実体化ではindividualIdを維持し、pawnInstanceIdを更新できる。
+- [ADV-001 緊急一体再配備](/pawn/adv-001-%E7%B7%8A%E6%80%A5%E4%B8%80%E4%BD%93%E5%86%8D%E9%85%8D%E5%82%99.md) — MUST: 同一Mapで活動可能なプレイヤーPawnが0体になった場合、Dormant Recordから一体だけを、電力、Pawn作業、通常の配備Queueなしで安全地点へ復帰できるfail-safeを持つ。
+- [ADV-002 無人Foundry](/pawn/adv-002-%E7%84%A1%E4%BA%BA.md) — MUST: 電力、材料、健全な設備がある時、少なくとも一系統のPawn Foundry工程は生存Pawnの作業なしで一体を完成できる。
+- [ADV-003 物理費と人格復元費](/pawn/adv-003-%E7%89%A9%E7%90%86%E8%B2%BB%E3%81%A8%E4%BA%BA%E6%A0%BC%E5%BE%A9%E5%85%83%E8%B2%BB.md) — MUST: Archiveが低コストで復元するのは人格・構成情報であり、失われた身体、内蔵Module、着脱装備を無償複製しない。
+- [ADV-004 Pawn要素別安全性](/pawn/adv-004-%E8%A6%81%E7%B4%A0%E5%88%A5%E5%AE%89%E5%85%A8%E6%80%A7.md) — MUST: Gene、Hediff、Ability、Comp、Royalty、Ideology、Quest、外部MODデータをDormant Safe、Archive Safe、Clone Safeの要素別に判定する。
+- [ADV-005 Ephemeral参照解決](/pawn/adv-005-%E5%8F%82%E7%85%A7%E8%A7%A3%E6%B1%BA.md) — MUST: Ephemeral Pawnの完全削除前に、Relation、Mood Memory、Tale、Quest、Lord、Faction、World Pawn、Bond、外部参照を解決、匿名化、終端記録へ変換する。

@@ -4,7 +4,7 @@ title: "確定#44：栄誉＝実績、強制授与は宇宙船級コスト：栄
 description: "栄誉＝実績、強制授与は宇宙船級コスト：栄誉称号は本来プレイヤーへの実績（achievement）。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

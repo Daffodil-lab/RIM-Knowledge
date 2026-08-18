@@ -5,7 +5,7 @@ description: "Diaspora段0/段1の割当確定を確定した決定履歴。"
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

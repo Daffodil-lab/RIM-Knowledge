@@ -4,7 +4,7 @@ title: "確定#47：ローカライズ言語＝社会主義連想国セット：
 description: "ローカライズ言語＝社会主義連想国セット：日本語（一次）＋英語・ロシア語・簡体字中国語・繁体字中国語・韓国語・ドイツ語・フランス語の計8言語（後のを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

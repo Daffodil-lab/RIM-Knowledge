@@ -5,7 +5,7 @@ description: "GILGAL/ESH/SODOM/REHOVOT全弾種は例外なく液体装薬注入
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

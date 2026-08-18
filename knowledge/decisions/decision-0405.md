@@ -9,7 +9,7 @@ tags:
   - "formation"
   - "equipment"
   - "technology"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

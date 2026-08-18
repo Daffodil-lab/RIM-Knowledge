@@ -4,7 +4,7 @@ title: "確定#85：独自輸出品・固有レリック・娯楽設備の移管
 description: "独自輸出品・固有レリック・娯楽設備の移管先を専用新設MODへ変更：独自輸出品→MegaCorp（後の宇宙商人）、固有レリック→Ancient Rを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

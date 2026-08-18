@@ -4,7 +4,7 @@ title: "確定#289：同盟本国の機械は既定現実（通常の3次元空�
 description: "同盟本国の機械は既定現実（通常の3次元空間）での稼働を想定しておらず、技術水準の高さに反して故障率が極めて高く生産性も低いを確定した決定履歴。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

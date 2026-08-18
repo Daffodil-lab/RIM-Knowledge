@@ -5,7 +5,7 @@ description: "研究「コア精錬」「弱点対抗ツリー」「熱エンジ
 tags:
   - "decision-log"
   - "equipment"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision

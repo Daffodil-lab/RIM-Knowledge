@@ -4,7 +4,7 @@ title: "確定#53：Tier連動の改造ポイント制＋自動弱点付与：�
 description: "Tier連動の改造ポイント制＋自動弱点付与：−Tierの代償を「弱点の強制付与」に集約。"
 tags:
   - "decision-log"
-status: stable
+status: deprecated
 authority: historical
 knowledge_role: historical-record
 granularity: decision
