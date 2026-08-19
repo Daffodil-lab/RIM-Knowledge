@@ -1,9 +1,10 @@
 # リリース・実装 02
 
-範囲: 知識所有者マップ〜PERF-003 World Pawn漏れ
+範囲: 75. カエラヴィ完全独自Race昇格構想〜PERF-002 Event更新
 
 ## 項目
 
+- [75. カエラヴィ完全独自Race昇格構想](/design/75-%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E5%AE%8C%E5%85%A8%E7%8B%AC%E8%87%AARace%E6%98%87%E6%A0%BC%E6%A7%8B%E6%83%B3.md) — Human継承で検証したカエラヴィを、安定ID、Biotech、通常の健康・仕事・装備を維持しながら、独自RaceProperties、BodyDef、PawnRenderTreeDefを所有する非HAR種族へ昇格する構想。
 - [知識所有者マップ](/governance/ownership-map-%E7%9F%A5%E8%AD%98%E6%89%80%E6%9C%89%E8%80%85%E3%83%9E%E3%83%83%E3%83%97.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
 - [7. Release Gate](/kombinat/audit/07-Release-Gate-%E5%85%AC%E9%96%8B%E5%88%A4%E5%AE%9A.md) — α blockerはKX-001〜008とS2-001〜018のKombinat追加層部分である。
 - [0. 結論](/kombinat/core/00-%E7%B5%90%E8%AB%96.md) — Kombinatは発注、設備能力、生産進捗、消費表示、流通目標、非貨幣の同盟Credit Accountを所有し、物理ThingをCore Storageへ一元化する。
@@ -83,4 +84,3 @@
 - [INT-006 取消と返却](/pawn/int-006-%E5%8F%96%E6%B6%88%E3%81%A8%E8%BF%94%E5%8D%B4.md) — MUST: 生産取消、設計変更、配備失敗時は、未消費資源、完成済み装備、部分完成Bodyを追跡し、複製せずCore独自保管・接続システムまたはMap上の受入先へ返却するか、Factory Buffer内で明示的に再利用する。
 - [PERF-001 Dormant停止](/pawn/perf-001-%E5%81%9C%E6%AD%A2.md) — MUST: Dormant PawnをRimWorld Pawn Tickまたは全件毎tick走査の対象にしない。
 - [PERF-002 Event更新](/pawn/perf-002-%E6%9B%B4%E6%96%B0.md) — MUST: Archive checkpoint、需要数、Clone活動数、回収状態をevent駆動で更新する。
-- [PERF-003 World Pawn漏れ](/pawn/perf-003-%E6%BC%8F%E3%82%8C.md) — MUST: Ephemeralを一万体生成・回収・再資源化するfixture後も、World Pawn、Relation、Tale、Archiveが生成総数に比例して残留しない。

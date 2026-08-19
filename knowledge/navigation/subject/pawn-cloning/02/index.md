@@ -1,6 +1,6 @@
 # Pawn・生産・複製 02
 
-範囲: 確定#327：地域開発度（Regional Development）メトリクスを追加。ワールドマップ大規模遺構コンプレックスの代替発生経路「変わり者の工場長」イベントを追加〜GEN-001 適合生成
+範囲: 確定#327：地域開発度（Regional Development）メトリクスを追加。ワールドマップ大規模遺構コンプレックスの代替発生経路「変わり者の工場長」イベントを追加〜DOR-007 装備
 
 ## 項目
 
@@ -30,6 +30,7 @@
 - [60. カエラヴィ標準身体の実装仕様](/design/60-%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E6%A8%99%E6%BA%96%E8%BA%AB%E4%BD%93%E3%81%AE%E5%AE%9F%E8%A3%85%E4%BB%95%E6%A7%98.md) — カエラヴィ標準身体の人型基盤、基礎能力、機能翼、開放気嚢、Gene描画と系統別差分の接続点を定める。
 - [61. 遺伝性鳥類系統の共通Xenotype契約](/design/61-%E9%81%BA%E4%BC%9D%E6%80%A7%E9%B3%A5%E9%A1%9E%E7%B3%BB%E7%B5%B1%E3%81%AE%E5%85%B1%E9%80%9AXenotype%E5%A5%91%E7%B4%84.md) — 六つの遺伝性鳥類Xenotypeを、共通三Geneと長所・短所・外見を一体化した一つのatomic lineage Geneで構成する。
 - [62. カエラヴィ軍務ゼノジャーム共通実装契約](/design/62-%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E8%BB%8D%E5%8B%99%E3%82%BC%E3%83%8E%E3%82%B8%E3%83%A3%E3%83%BC%E3%83%A0%E5%85%B1%E9%80%9A%E5%AE%9F%E8%A3%85%E5%A5%91%E7%B4%84.md) — 八つの軍務兵科を非遺伝性xenogermとして実装し、六つの遺伝性鳥類系統すべてと最終Met +2で合成する。
+- [75. カエラヴィ完全独自Race昇格構想](/design/75-%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E5%AE%8C%E5%85%A8%E7%8B%AC%E8%87%AARace%E6%98%87%E6%A0%BC%E6%A7%8B%E6%83%B3.md) — Human継承で検証したカエラヴィを、安定ID、Biotech、通常の健康・仕事・装備を維持しながら、独自RaceProperties、BodyDef、PawnRenderTreeDefを所有する非HAR種族へ昇格する構想。
 - [知識所有者マップ](/governance/ownership-map-%E7%9F%A5%E8%AD%98%E6%89%80%E6%9C%89%E8%80%85%E3%83%9E%E3%83%83%E3%83%97.md) — 同じ事実を複数の正本へ持たせない、また詳細度の違う説明が必要な場合、事実は一つの所有者へ置き、他は要約または投影としてリンクする。
 - [4. シナリオ](/kombinat/audit/04-%E3%82%B7%E3%83%8A%E3%83%AA%E3%82%AA.md) — S2シナリオは三段生産、保存、取消、容量、停電、破壊、通貨、長期運用をCore Storageとの公開契約で検証する。
 - [5. 未知MOD](/kombinat/audit/05-%E6%9C%AA%E7%9F%A5MOD.md) — 未知MODのThingとRecipeはCore Storageの互換判定とKombinatのRecipe分類を通し、安全な公開契約だけへ接続する。
@@ -83,4 +84,3 @@
 - [DOR-005 同時所在](/pawn/dor-005-%E5%90%8C%E6%99%82%E6%89%80%E5%9C%A8.md) — MUST: 同じPawnがMap、Caravan、World Pawn、Dormant Recordの複数へ同時に存在しない。
 - [DOR-006 参照安全性](/pawn/dor-006-%E5%8F%82%E7%85%A7%E5%AE%89%E5%85%A8%E6%80%A7.md) — MUST: Quest、Lord、Faction、Ideology、Royalty、Gene、Bond、外部MOD参照を検査し、安全にDormant化できない理由を明示する。
 - [DOR-007 装備](/pawn/dor-007-%E8%A3%85%E5%82%99.md) — MUST: 着脱可能な装備、衣服、工具、inventory内ThingはDormant化のtransaction内でCore独自保管・接続システムまたはMap上の受入先へ一度だけ返却する。
-- [GEN-001 適合生成](/pawn/gen-001-%E9%81%A9%E5%90%88%E7%94%9F%E6%88%90.md) — MUST: プレイヤーは役割、必須作業、最低技能、必要能力、許可する身体、数量を指定し、条件へ適合するランダムPawnを生成できる。

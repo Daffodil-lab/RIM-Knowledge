@@ -1,6 +1,6 @@
 # 装備・軍事 02
 
-範囲: 確定#157：段0/段1品目のさらなる拡張〜I. Cloneと固有物
+範囲: 確定#157：段0/段1品目のさらなる拡張〜F. 無料保管
 
 ## 項目
 
@@ -73,6 +73,7 @@
 - [58. スカイフレア電気推進ジェットパック](/design/58-%E3%82%B9%E3%82%AB%E3%82%A4%E3%83%95%E3%83%AC%E3%82%A2%E9%9B%BB%E6%B0%97%E6%8E%A8%E9%80%B2%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88%E3%83%91%E3%83%83%E3%82%AF.md) — スカイフレアは21世紀後半に登場し、改造によって歩兵一人ひとりへ必要な時だけ戦闘ヘリに似た能力を与えるまで成熟した個人飛行装備の祖型である。
 - [65. 帝国軍務教範の状態機械](/design/65-%E5%B8%9D%E5%9B%BD%E8%BB%8D%E5%8B%99%E6%95%99%E7%AF%84%E3%81%AE%E7%8A%B6%E6%85%8B%E6%A9%9F%E6%A2%B0.md) — 帝国軍務教範は、平時、警戒、戦闘、復旧の希望態勢と実適用状態を分離し、検証済みの差分を有界キューで適用する。
 - [74. カエラヴィMODのCore・拡張製品境界](/design/74-%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3MOD%E3%81%AECore%E3%83%BB%E6%8B%A1%E5%BC%B5%E8%A3%BD%E5%93%81%E5%A2%83%E7%95%8C.md) — カエラヴィMODは、バニラと公式DLCの既存状態へ単体で投影できる種族・身体・通常装備をCoreへ置き、横断状態、台帳、政治前例、戦役、自動化を拡張MODへ分離する。
+- [75. カエラヴィ完全独自Race昇格構想](/design/75-%E3%82%AB%E3%82%A8%E3%83%A9%E3%83%B4%E3%82%A3%E5%AE%8C%E5%85%A8%E7%8B%AC%E8%87%AARace%E6%98%87%E6%A0%BC%E6%A7%8B%E6%83%B3.md) — Human継承で検証したカエラヴィを、安定ID、Biotech、通常の健康・仕事・装備を維持しながら、独自RaceProperties、BodyDef、PawnRenderTreeDefを所有する非HAR種族へ昇格する構想。
 - [3. 物理Thingと非物理台帳](/kombinat/core/03-%E7%89%A9%E7%90%86Thing%E3%81%A8%E9%80%9A%E8%B2%A8.md) — 物理材料と製品は実在するRimWorld Thingであり、同盟Credit、カエルムMark、債務、租税は意味と所有者を分けた非物理Account／Ledgerとして保存する。
 - [5. 発注と多段生産](/kombinat/core/05-%E7%99%BA%E6%B3%A8%E3%81%A8%E5%A4%9A%E6%AE%B5%E7%94%9F%E7%94%A3.md) — αの発注は具体的なThingDef、Recipe、数量または目標在庫を基本とする。
 - [13. β](/kombinat/core/13-%CE%B2-%E7%8F%BE%E8%A1%8C%E4%BB%95%E6%A7%98.md) — Equipment Familyは作者が明示登録した候補だけを使う。
@@ -83,4 +84,3 @@
 - [C. 一からの個体設計](/pawn/070-C-%E4%B8%80%E3%81%8B%E3%82%89%E3%81%AE%E5%80%8B%E4%BD%93%E8%A8%AD%E8%A8%88.md) — C. 一からの個体設計は、Body、Module、外装、技能、特性、能力、装備を選ぶ。
 - [E. Clone Colony](/pawn/072-E-Clone-Colony-%E8%A4%87%E8%A3%BD%E5%80%8B%E4%BD%93%E3%82%B3%E3%83%AD%E3%83%8B%E3%83%BC.md) — E. Clone Colonyは、一体のRegistered IndividualをClone Sourceにする。
 - [F. 無料保管](/pawn/073-F-%E7%84%A1%E6%96%99%E4%BF%9D%E7%AE%A1.md) — F. 無料保管は、生存Pawnへ装備とinventory内Thingを持たせてDormant化する。
-- [I. Cloneと固有物](/pawn/076-I-Clone%E3%81%A8%E5%9B%BA%E6%9C%89%E7%89%A9.md) — I. Cloneと固有物は、名前付き武器、Quest参照、称号を持つRegistered IndividualをCloneする。
