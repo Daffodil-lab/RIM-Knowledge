@@ -1,9 +1,10 @@
 # stable 14
 
-範囲: SHION_A220 封鎖観測地の動物義肢技師〜SHION_A299 旧党派収容記録所の徒手警護員
+範囲: SHION_A219 本国居住区の種子管理官〜SHION_A298 長期予測院の監視射手
 
 ## 項目
 
+- [SHION_A219 本国居住区の種子管理官](/reference/backstories/mastery/SHION_A219.md) — 本国の種子庫には、もう地図にない故郷から運ばれた種がある。
 - [SHION_A220 封鎖観測地の動物義肢技師](/reference/backstories/mastery/SHION_A220.md) — 封鎖地の動物は、脚の傷だけでなく毛や皮膚の色まで変わっていた。
 - [SHION_A221 離散船団の精密工](/reference/backstories/mastery/SHION_A221.md) — 離散船団の競技会では、同じ規格の道具を配る方が不公平だった。
 - [SHION_A222 共同祝宴堂の合奏指導者](/reference/backstories/mastery/SHION_A222.md) — 祝宴堂の合奏は、評議が行き詰まった時ほど賑やかになった。
@@ -83,4 +84,3 @@
 - [SHION_A296 ヘイハルKombinatの討論調停人](/reference/backstories/mastery/SHION_A296.md) — ヘイハルKombinatの会議では、生産班と保守班が同じ言葉を別の意味で使っていた。
 - [SHION_A297 ヘイハルKombinatの古文書研究者](/reference/backstories/mastery/SHION_A297.md) — Kombinat史を美しい壁画へまとめろと言われたが、本人は断った。
 - [SHION_A298 長期予測院の監視射手](/reference/backstories/mastery/SHION_A298.md) — 長期予測院の監視任務では、未来の危険度と目の前の動きを同じ画面で見た。
-- [SHION_A299 旧党派収容記録所の徒手警護員](/reference/backstories/mastery/SHION_A299.md) — 旧党派収容記録所で、本人は武器を持たず収容者と見物人の間へ立った。

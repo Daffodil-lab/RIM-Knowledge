@@ -1,9 +1,10 @@
 # stable 13
 
-範囲: SHION_A140 継承教室の公共案内官〜SHION_A219 本国居住区の種子管理官
+範囲: SHION_A139 装甲救援隊の蘇生後療養医〜SHION_A218 封鎖観測地の祝宴料理人
 
 ## 項目
 
+- [SHION_A139 装甲救援隊の蘇生後療養医](/reference/backstories/mastery/SHION_A139.md) — 装甲救援隊で、蘇生者が自ら退路を歩き、再会相手を選べるまで療養を支えた。
 - [SHION_A140 継承教室の公共案内官](/reference/backstories/mastery/SHION_A140.md) — 継承教室では来訪者を席へ案内し、古い世代の教師とつなぎました。
 - [SHION_A141 対機械戦区の記録官](/reference/backstories/mastery/SHION_A141.md) — 対機械戦区の記録官では、対機械戦区で記録を担当しました。
 - [SHION_A142 帝国最終防衛圏の射撃教官](/reference/backstories/mastery/SHION_A142.md) — 帝国最終防衛圏の射撃教官では、内戦後帝国の最終防衛圏で射撃を教えました。
@@ -83,4 +84,3 @@
 - [SHION_A216 非常令監視区の設備技師](/reference/backstories/mastery/SHION_A216.md) — 非常令が出た時、最初に変わったのは大きな法律ではなかった。
 - [SHION_A217 残響深層の資源測量士](/reference/backstories/mastery/SHION_A217.md) — 残響深層で再現された戦場を測量し、英雄像ではなく実際に迷った救難路を地図へ残した。
 - [SHION_A218 封鎖観測地の祝宴料理人](/reference/backstories/mastery/SHION_A218.md) — 封鎖観測地の祝宴では、戻った者と戻らなかった者の皿を同じ卓へ置いた。
-- [SHION_A219 本国居住区の種子管理官](/reference/backstories/mastery/SHION_A219.md) — 本国の種子庫には、もう地図にない故郷から運ばれた種がある。

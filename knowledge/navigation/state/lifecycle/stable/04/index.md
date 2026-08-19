@@ -1,9 +1,10 @@
 # stable 04
 
-範囲: E. 取消〜ADV-005 Ephemeral参照解決
+範囲: D. 出力満杯〜ADV-004 Pawn要素別安全性
 
 ## 項目
 
+- [D. 出力満杯](/kombinat/requirements/047-D-%E5%87%BA%E5%8A%9B%E6%BA%80%E6%9D%AF.md) — 納入先Storageの出力容量を予約できない時は次Batchを開始せず、既存在庫を変更しない。
 - [E. 取消](/kombinat/requirements/048-E-%E5%8F%96%E6%B6%88.md) — 開始前、入力受領後、処理中、出力待ちの各段階で取消規則を確認する。
 - [F. 保存往復](/kombinat/requirements/049-F-%E4%BF%9D%E5%AD%98%E5%BE%80%E5%BE%A9.md) — 全Job状態と通貨Transaction途中で保存・ロードし、二重実行しない。
 - [G. 保管基盤不在](/kombinat/requirements/050-G-%E4%B8%8A%E6%B5%81%E4%B8%8D%E5%9C%A8.md) — Core独自保管基盤が欠落または不整合なら生産接続を停止し、保存状態を破壊的に初期化しない。
@@ -83,4 +84,3 @@
 - [ADV-002 無人Foundry](/pawn/adv-002-%E7%84%A1%E4%BA%BA.md) — MUST: 電力、材料、健全な設備がある時、少なくとも一系統のPawn Foundry工程は生存Pawnの作業なしで一体を完成できる。
 - [ADV-003 物理費と人格復元費](/pawn/adv-003-%E7%89%A9%E7%90%86%E8%B2%BB%E3%81%A8%E4%BA%BA%E6%A0%BC%E5%BE%A9%E5%85%83%E8%B2%BB.md) — MUST: Archiveが低コストで復元するのは人格・構成情報であり、失われた身体、内蔵Module、着脱装備を無償複製しない。
 - [ADV-004 Pawn要素別安全性](/pawn/adv-004-%E8%A6%81%E7%B4%A0%E5%88%A5%E5%AE%89%E5%85%A8%E6%80%A7.md) — MUST: Gene、Hediff、Ability、Comp、Royalty、Ideology、Quest、外部MODデータをDormant Safe、Archive Safe、Clone Safeの要素別に判定する。
-- [ADV-005 Ephemeral参照解決](/pawn/adv-005-%E5%8F%82%E7%85%A7%E8%A7%A3%E6%B1%BA.md) — MUST: Ephemeral Pawnの完全削除前に、Relation、Mood Memory、Tale、Quest、Lord、Faction、World Pawn、Bond、外部参照を解決、匿名化、終端記録へ変換する。

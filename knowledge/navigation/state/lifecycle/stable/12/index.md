@@ -1,9 +1,10 @@
 # stable 12
 
-範囲: SHION_A060 局所時間技師〜SHION_A139 装甲救援隊の蘇生後療養医
+範囲: SHION_A059 無音歌劇監督〜SHION_A138 透明居住区の公共壁画家
 
 ## 項目
 
+- [SHION_A059 無音歌劇監督](/reference/backstories/mastery/SHION_A059.md) — 聴覚の異なる身体と真空環境の観客へ、振動と光だけの歌劇を演出した。
 - [SHION_A060 局所時間技師](/reference/backstories/mastery/SHION_A060.md) — 病院、農場、航路ごとに異なる時間流を接続し、住民の一日が行政の一日から滑り落ちないよう保守した。
 - [SHION_A061 人格連続性医](/reference/backstories/mastery/SHION_A061.md) — 蘇生後の記憶欠損を治療しながら、欠けた部分を家族の望む物語で埋めないよう注意した。
 - [SHION_A062 星域農学者](/reference/backstories/mastery/SHION_A062.md) — 恒星ごとに異なる季節を繋ぎ、飢饉のない輪作を設計した。
@@ -83,4 +84,3 @@
 - [SHION_A136 離散船団の保護区飼育員](/reference/backstories/mastery/SHION_A136.md) — 離散船団の保護区には、いくつもの故郷から動物が集まりました。
 - [SHION_A137 制裁作戦監査室の精密工](/reference/backstories/mastery/SHION_A137.md) — 制裁部隊の装備を監査しながら、技術大会の審判もしました。
 - [SHION_A138 透明居住区の公共壁画家](/reference/backstories/mastery/SHION_A138.md) — 透明居住区では、記録も壁も隠さないことが美徳だった。
-- [SHION_A139 装甲救援隊の蘇生後療養医](/reference/backstories/mastery/SHION_A139.md) — 装甲救援隊で、蘇生者が自ら退路を歩き、再会相手を選べるまで療養を支えた。

@@ -1,9 +1,10 @@
 # stable 06
 
-範囲: 8. 世界観統一の再監査〜SHION_C078 初めての秘文字校正
+範囲: 7. 拡張稿（§12 Phase A超過分）〜SHION_C077 未来設計作文
 
 ## 項目
 
+- [7. 拡張稿（§12 Phase A超過分）](/reference/backstories/07-%E6%8B%A1%E5%BC%B5%E7%A8%BF%C2%A712-Phase-A%E8%B6%85%E9%81%8E%E5%88%86.md) — §12拡張計画のPhase A（新設4時代の最初の稿）のうち、ColonizationEraとJourneyEraをドラフト件数から拡張して追加する。
 - [8. 世界観統一の再監査](/reference/backstories/08-%E4%B8%96%E7%95%8C%E8%A6%B3%E7%B5%B1%E4%B8%80%E3%81%AE%E5%86%8D%E7%9B%A3%E6%9F%BB.md) — 参考バックストーリーは具体的な生活場面を残し、実在政治の置換や用語集依存を再利用候補から外して再監査する。
 - [9. 設定本文と実装予約の分離](/reference/backstories/09-%E8%A8%AD%E5%AE%9A%E6%9C%AC%E6%96%87%E3%81%A8%E5%AE%9F%E8%A3%85%E4%BA%88%E7%B4%84%E3%81%AE%E5%88%86%E9%9B%A2.md) — バックストーリー記録では人物の経歴と口述を設定クラス、Pool、出現希少度、技能補正、組合せ規則を実装予約として分離する。
 - [SHION_C001 礼装工房の手伝い](/reference/backstories/formation/SHION_C001.md) — ソフェルの礼装を仕立てる工房で、採寸、布地の選別、刺繍図案の読み方を学んだ。
@@ -83,4 +84,3 @@
 - [SHION_C075 多身体体育員](/reference/backstories/formation/SHION_C075.md) — 狐娘型の軽量構成、高荷重構成、部品交換者が同じ競技へ参加できる規則を試した。
 - [SHION_C076 星域歴史の復習者](/reference/backstories/formation/SHION_C076.md) — 帝国最盛期を、楽園とも圧政とも決めつけず学び直した。
 - [SHION_C077 未来設計作文](/reference/backstories/formation/SHION_C077.md) — 「帝国最盛期よりよい一日」を題に、戦争のない朝と友人が必ず帰る夕食を書いた。
-- [SHION_C078 初めての秘文字校正](/reference/backstories/formation/SHION_C078.md) — 祈祷文そのものではなく、写し間違いを探す役から修業を始めた。

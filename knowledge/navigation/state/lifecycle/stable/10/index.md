@@ -1,9 +1,10 @@
 # stable 10
 
-範囲: SHION_C319 六段目の岩棚〜SHION_C398 醸造隊の樽番
+範囲: SHION_C318 石に彫った順番表〜SHION_C397 織物工房の糸くず
 
 ## 項目
 
+- [SHION_C318 石に彫った順番表](/reference/backstories/formation/SHION_C318.md) — 灌漑隊で配水順を石へ刻み、涸れた川を感傷ではなく反復測量と水路修繕で戻した。
 - [SHION_C319 六段目の岩棚](/reference/backstories/formation/SHION_C319.md) — 地質調査隊で岩石標本を数え、独自基準で六段目の棚を分類し続けた。
 - [SHION_C320 曲がらない杭](/reference/backstories/formation/SHION_C320.md) — 港湾建設隊の見習いとして潮位と木材の反りを読み、百十四本の杭を一本も傾けず打った。
 - [SHION_C321 聞こえますか](/reference/backstories/formation/SHION_C321.md) — 「聞こえますか」、本人はその言葉を一日に何百回も繰り返しました。
@@ -83,4 +84,3 @@
 - [SHION_C395 森林造成隊の苗運び](/reference/backstories/formation/SHION_C395.md) — 森林造成隊の苗運びでは、木を植えるのに一番大事なことって何だと思う。
 - [SHION_C396 気象観測所の風読み](/reference/backstories/formation/SHION_C396.md) — 気圧計の針は一時間で二目盛り動けば嵐が来る合図だった。
 - [SHION_C397 織物工房の糸くず](/reference/backstories/formation/SHION_C397.md) — 誤解しないでほしいんだけど、本人は織物が下手だったわけじゃない。
-- [SHION_C398 醸造隊の樽番](/reference/backstories/formation/SHION_C398.md) — 俺の化学感覚器は樽番のときに鍛えられたんだ、これは自慢していい話だと思う。

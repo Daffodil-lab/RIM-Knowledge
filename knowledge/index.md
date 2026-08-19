@@ -32,7 +32,7 @@ Shion Race: Core、Kombinat、関連する世界設定・仕様・履歴を一�
 - [矛盾監査](contradictions/) — 3件
 - [独立開拓団](colony/) — 30件
 - [決定履歴](decisions/) — 386件、`authority: historical`かつ`knowledge_role: historical-record` / `status: deprecated`の履歴層
-- [全体設計](design/) — 73件
+- [全体設計](design/) — 74件
 - [運用規則](governance/) — 14件
 - [Kombinat](kombinat/) — 85件
 - [横断ナビゲーション](navigation/) — 荷札から生成した派生索引
