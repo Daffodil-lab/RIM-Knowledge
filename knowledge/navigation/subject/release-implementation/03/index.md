@@ -1,9 +1,10 @@
 # リリース・実装 03
 
-範囲: PERF-004 量産〜6. 再開ゲート
+範囲: PERF-003 World Pawn漏れ〜1. 延期理由
 
 ## 項目
 
+- [PERF-003 World Pawn漏れ](/pawn/perf-003-%E6%BC%8F%E3%82%8C.md) — MUST: Ephemeralを一万体生成・回収・再資源化するfixture後も、World Pawn、Relation、Tale、Archiveが生成総数に比例して残留しない。
 - [PERF-004 量産](/pawn/perf-004-%E9%87%8F%E7%94%A3.md) — MUST: 同一DesignまたはClone Sourceから100体を連続生産するfixtureで、ID重複、参照共有、装備複製、無制限履歴増加を起こさない。
 - [REC-001 低コスト修復](/pawn/rec-001-%E4%BD%8E%E3%82%B3%E3%82%B9%E3%83%88%E4%BF%AE%E5%BE%A9.md) — MUST: 生存Pawnの通常負傷、欠損、故障、交換可能Moduleを、標準新規Pawn生産より低い資源と時間で回復できる。
 - [REC-002 遺体回収](/pawn/rec-002-%E9%81%BA%E4%BD%93%E5%9B%9E%E5%8F%8E.md) — MUST: 回収したシオン遺体をRecovery Facilityへ受け入れ、再起動、Archive再実体化、再資源化の利用可能な選択を表示する。
@@ -83,4 +84,3 @@
 - [10. Shion Nexus UI checklist](/research/monolyn-ui/10-Shion-Nexus-UI-checklist.md) — Before Alpha 0.1 release, confirm、具体的にはCore Inspect explains alive/damaged/destroyed state.とLedger Inspect shows CVE, capacity, shells,…。
 - [0. 目的](/research/remote-logistics/00-%E7%9B%AE%E7%9A%84.md) — 本書は、Coreのローカル保管とKombinatの自動生産から分離した遠距離物流を、将来の再検討まで保護する領域である。
 - [1. 延期理由](/research/remote-logistics/01-%E5%BB%B6%E6%9C%9F%E7%90%86%E7%94%B1.md) — 延期理由は、αの完成条件をCoreの通常入出庫とKombinatの発注・多段自動生産へ集中させることにある。
-- [6. 再開ゲート](/research/remote-logistics/06-%E5%86%8D%E9%96%8B%E3%82%B2%E3%83%BC%E3%83%88.md) — 遠距離物流を再び計画へ入れるには、次を全て満たす。

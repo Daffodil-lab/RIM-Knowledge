@@ -1,4 +1,4 @@
-# candidate（参考候補）
+# candidate
 
 2件。
 
