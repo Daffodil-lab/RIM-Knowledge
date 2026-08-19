@@ -40,7 +40,7 @@ normative_basis:
 
 本設計図は、カエラヴィCoreを知識仕様だけが存在する状態から、RimWorld 1.6で配布できる1.0製品へ進める実装順、段階状態、成果物、停止条件、検証証拠を定める。世界設定、Race値、Gene構成、系統効果、軍務ゼノジャーム、薬物、製品境界の内容は既存の各正本が所有し、本設計図はそれらを変更せず完成までの接続順だけを扱う。
 
-カエラヴィCoreは、Human継承で検証する初期Raceから、独自RaceProperties、BodyDef、PawnRenderTreeDefを所有する完全独自Raceへ昇格し、六つの遺伝性鳥類系統、飛行と環境弱点、通常の生成と開始、軍務ゼノジャーム、Core所属の通常コンテンツ、日本語表示、保存、診断、性能を一つの配布物として成立させる。World台帳、債務、軍務教範の横断状態、政治前例、戦役、自動化、専用管理画面はCore完成条件へ含めず、Core前提の拡張MODが所有する。
+カエラヴィCoreは、Human継承で検証する初期Raceから、独自RaceProperties、BodyDef、PawnRenderTreeDefを所有する完全独自Raceへ昇格し、自然生得型六系統、広用途・国産配備のカエラヴィ改造型、高難度軍務・限定配備の同盟支援型、飛行と環境弱点、通常の生成と開始、軍務ゼノジャーム、Core所属の通常コンテンツ、日本語表示、保存、診断、性能を一つの配布物として成立させる。World台帳、債務、軍務教範の横断状態、政治前例、戦役、自動化、専用管理画面はCore完成条件へ含めず、Core前提の拡張MODが所有する。
 
 ## 計画の可変性
 
@@ -101,7 +101,9 @@ Caelavi Core 1.0
 │  ├─ CA_Caelavi・BasePawn基盤の独自RaceProperties
 │  ├─ CA_CaelaviBody・CA_CaelaviRenderTree
 │  ├─ CA_FunctionalWings・CA_OpenAirSacs
-│  ├─ 六つの遺伝性Xenotype
+│  ├─ 自然生得型六Xenotype
+│  ├─ カエラヴィ改造型template・xenogerm（広用途・国産配備）
+│  ├─ 同盟支援型の改造・作製template（高難度軍務・限定配備）
 │  └─ 標準健康・仕事・Need・装備・社会関係・Portrait
 ├─ Flight and Environment
 │  ├─ 飛行選択・発令・着地・安全停止
@@ -113,7 +115,8 @@ Caelavi Core 1.0
 │  └─ Core内容表にある通常装備・食事・薬物・研究・Recipe
 ├─ Military Xenogerms
 │  ├─ 八兵科の非遺伝性xenogerm
-│  └─ 六系統との48組合せ
+│  ├─ 自然生得型六系統との基準48組合せ
+│  └─ 出自・任務・適合契約による追加派生（48を上限としない）
 └─ Quality
    ├─ 日本語・必要な英語識別子
    ├─ 保存・ロード・Def検証・診断
@@ -128,8 +131,8 @@ Caelavi Core 1.0
 | 初期種族識別とHuman継承 | `/design/59-バニラ優先カエラヴィ種族実装境界.md` | 初期`ThingDef`、Pawn生成時のrace参照、標準接続の比較基準 |
 | 完全独自Raceへの昇格 | `/design/75-カエラヴィ完全独自Race昇格構想.md` | 独自RaceProperties、BodyDef、PawnRenderTreeDef、互換表、migration |
 | Race基礎値、翼、気嚢、描画層 | `/design/60-カエラヴィ標準身体の実装仕様.md` | Race XML、共通Gene XML、Ability XML、Gene Runtime、texture |
-| 六つの遺伝性系統 | `/design/61-遺伝性鳥類系統の共通Xenotype契約.md` | 六Xenotype、六atomic lineage Gene、系統texture、条件効果 |
-| 軍務ゼノジャーム | `/design/62-カエラヴィ軍務ゼノジャーム共通実装契約.md` | 八xenogerm、共通軍務Gene、適合・合計検証、48組合せ試験 |
+| 三つの遺伝的出自と六系統 | `/design/61-遺伝性鳥類系統の共通Xenotype契約.md` | 自然生得型六Xenotype、広用途の国内改造template、高難度軍務用の同盟支援型改造・作製template、系統texture、条件効果 |
+| 軍務ゼノジャーム | `/design/62-カエラヴィ軍務ゼノジャーム共通実装契約.md` | 八xenogerm、高難度任務の資格接続、共通軍務Gene、適合・合計検証、基準48組合せと追加適合契約の試験 |
 | 食事と軍用刺激剤 | `/design/63-フリーカ・コーラと軍用複合刺激剤の実装境界.md` | Thing、Drug、Chemical、Hediff、Recipe、Policy接続 |
 | Coreと拡張の配置 | `/design/74-カエラヴィMODのCore・拡張製品境界.md` | Assembly依存、配布境界、互換アドオン境界 |
 | 実装順と完成状態 | 本設計図 | phase gate、build evidence、release checklist |
@@ -201,16 +204,16 @@ Phase 2は`game-loadable`を成立させる。
 ### XML成果物
 
 - `Race_Caelavi.xml`: `ThingDef ParentName="Human"`、`CA_Caelavi`、採用済みの七つのRace基礎値。
-- `Genes_Common.xml`: `CA_FunctionalWings`、`CA_OpenAirSacs`。
+- `Genes_Common.xml`: `CA_ClosedGermline`、`CA_FunctionalWings`、`CA_OpenAirSacs`。
 - `Genes_Lineages.xml`: 帝鷲系atomic lineage Gene一件。
-- `Xenotypes_Caelavi.xml`: `CA_Xeno_ImperialEagle`一件。
+- `Xenotypes_Caelavi.xml`: `CA_Xeno_Native_ImperialEagle`一件。
 - `PawnKinds_Caelavi.xml`: 検証用の明示的なカエラヴィPawnKind一件。
 - `Languages/Japanese/DefInjected`: 上記Defの名前と説明。
 
 ### Runtime成果物
 
 - race Def比較だけを使用する`Caelavi`判定。
-- Def読込時に共通Gene、lineage Gene、Met、Cpx、Archite、exclusion tag、texture参照を検査するvalidator。
+- Def読込時に共通Gene、lineage Gene、Met、Archite、exclusion tag、texture参照を検査するvalidator。
 - XMLだけで表現できない処理を接続する最小のGeneまたはAbility class。
 
 ### 完了条件
@@ -278,7 +281,7 @@ Phase 4は遺伝性系統の実装を完成する。
 
 ### 完了条件
 
-- 六Xenotypeが共通三Geneと正しいlineage Gene一つを持ち、Met 0、Cpx 5、Archite 0になる。
+- 六Xenotypeが共通四Geneと正しいlineage Gene一つを持ち、Met +2、Archite 0になる。複雑性は設計上の受入条件にしない。
 - 各系統の利益、負担、器官、外見がatomic lineage Geneと同時に有効・無効になる。
 - 六系統の全方向、Portrait、apparel、出生または遺伝、休眠、保存・ロードを通す。
 - 旅鳩系の人数条件はSpawn、Despawn、Faction変更、Map移動、Caravan構成変更で更新される。
@@ -332,7 +335,7 @@ Phase 6が未成立の場合はHuman継承版を最後の検証済み比較対�
 
 ## Phase 7 — 軍務ゼノジャームを完成する
 
-Phase 7は八兵科と六系統の合成を完全独自Race上で完成する。
+Phase 7は八兵科と自然生得型六系統の基準合成を完全独自Race上で完成し、通常軍務へ広く配備するカエラヴィ改造型とは分けて、高高度偵察飛行、弾道弾迎撃、SEAD、超長期飛行、特殊部隊・エリート部隊の同盟支援型へ適合契約を通して拡張する。六系統×八兵科の48組合せは基準行列であり、出自、任務、部隊、性能要求に応じた追加派生を含む総数を制限しない。
 
 ### 成果物
 
@@ -345,9 +348,9 @@ Phase 7は八兵科と六系統の合成を完全独自Race上で完成する。
 ### 完了条件
 
 - 各軍務xenogermが単体Met +5になる。
-- 六系統×八兵科の48組合せが最終Met +2になる。
+- 自然生得型六系統×八兵科の基準48組合せが最終Met +4になる。
 - `Robust`が`Delicate`を停止し、`Breathless`相当が`CA_OpenAirSacs`を削除せず公式曝露を0にする。
-- 48組合せについて生成、移植、保存、ロード後のlineageとxenogeneを維持する。
+- 基準48組合せと、個別適合契約を持つ追加組合せについて、生成、移植、保存、ロード後のlineageとxenogeneを維持する。追加組合せは48を上限とせず、未承認組合せ、通常軍務、民間用途からの同盟支援要求は移植を拒否する。
 - 不適合Race、欠落Gene、範囲外Met、誤った排他を移植成功として扱わない。
 
 兵科固有Geneの正本が未採用の兵科は完成Defとして公開しない。兵科名だけから能力を補完しない。
@@ -396,8 +399,8 @@ Phase 10は一つの固定buildを`release-candidate`へ進める。修正後は
 - XML well-formed、Def cross-reference、重複DefName、translation key、texture path、Assembly class解決。
 - About、project参照、Assembly、Defs、Patches、保存識別子のHAR必須依存監査。
 - 完全独自RaceのRaceProperties互換表、BodyDef参照、render tree node、health／recipe import、migration検証。
-- 六XenotypeのGene構成とBiostat検証。
-- 六系統×八兵科の48組合せ検証。
+- 自然生得型六Xenotype、カエラヴィ改造型、同盟支援型templateのGene構成とBiostat検証。
+- 自然生得型六系統×八兵科の基準48組合せ、および48を超え得る追加出自・任務別適合契約の検証。
 - source format、test、配布zip内容、`git diff --check`。
 
 ### 実ゲーム試験
@@ -406,10 +409,10 @@ Phase 10は一つの固定buildを`release-candidate`へ進める。修正後は
 |---|---|
 | ロード | 必須環境、HAR無効、通常load order、赤エラーなし |
 | Race構造 | `BasePawn`基盤、`CA_CaelaviBody`、`CA_CaelaviRenderTree`、Human互換表 |
-| 生成 | 六系統、通常開始、NPC、加入、捕虜、Caravan |
+| 生成 | 六系統、国産改造型の通常開始・NPC・加入・捕虜・Caravan、同盟支援型の高難度軍務検証Scenario |
 | 描画 | 四方向、Portrait、睡眠、downed、drafted、apparel、帽子、武器、遺体 |
 | 健康 | 通常負傷、治療、死亡、採用済みの場合は翼損傷と手術 |
-| Gene | 遺伝、混成、休眠、xenogerm移植、48軍務組合せ |
+| Gene | 遺伝、混成、休眠、国産改造xenogerm移植、資格付き同盟支援xenogerm、基準48軍務組合せ、追加適合契約 |
 | 飛行 | 成功、禁止区域、屋内、積載超過、無効着地、着地失効、安全停止 |
 | 環境 | 有毒ガス、毒性環境、真空、防護、Breathless相当 |
 | 保存 | 生成直後、飛行前後、移植前後、Caravan、負傷、死亡を保存・ロード |
@@ -517,7 +520,7 @@ RimWorld本体または公式DLCの更新を検知した時点で、更新後の
 - 上位索引: [リリース計画](/roadmap/index.md)
 - 種族実装境界: [バニラ優先カエラヴィ種族実装境界](/design/59-バニラ優先カエラヴィ種族実装境界.md)
 - 標準身体: [カエラヴィ標準身体の実装仕様](/design/60-カエラヴィ標準身体の実装仕様.md)
-- 遺伝性系統: [遺伝性鳥類系統の共通Xenotype契約](/design/61-遺伝性鳥類系統の共通Xenotype契約.md)
+- 出自・系統: [カエラヴィXenotype出自階層契約](/design/61-遺伝性鳥類系統の共通Xenotype契約.md)
 - 軍務ゼノジャーム: [カエラヴィ軍務ゼノジャーム共通実装契約](/design/62-カエラヴィ軍務ゼノジャーム共通実装契約.md)
 - Core配置境界: [カエラヴィMODのCore・拡張製品境界](/design/74-カエラヴィMODのCore・拡張製品境界.md)
 - 完全独自Race: [カエラヴィ完全独自Race昇格構想](/design/75-カエラヴィ完全独自Race昇格構想.md)

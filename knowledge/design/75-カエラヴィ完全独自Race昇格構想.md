@@ -36,7 +36,7 @@ normative_basis:
 
 # 75. カエラヴィ完全独自Race昇格構想
 
-カエラヴィCoreの長期完成像は、HARを必須所有者にせず、`CA_Caelavi`自身が人型鳥類Race、共通身体、描画tree、保存境界を所有する完全独自Race構造である。初期開発では`ThingDef ParentName="Human"`によってバニラ接続を検証し、六系統、飛行、環境弱点、通常生成、apparel、健康、Portrait、保存が`scenario-tested`になった後、独自Race構造へ昇格する。
+カエラヴィCoreの長期完成像は、HARを必須所有者にせず、`CA_Caelavi`自身が人型鳥類Race、共通身体、描画tree、保存境界を所有する完全独自Race構造である。初期開発では`ThingDef ParentName="Human"`によってバニラ接続を検証し、自然生得型六系統、広用途・国産配備のカエラヴィ改造型、高難度軍務・限定配備の同盟支援型、飛行、環境弱点、通常生成、apparel、健康、Portrait、保存が`scenario-tested`になった後、独自Race構造へ昇格する。
 
 昇格は外見差分の追加ではない。RaceProperties、BodyDef、PawnRenderTreeDef、健康・手術、apparel、年齢、生成、Gene、Portrait、保存を一つのRaceとして成立させる所有移行である。昇格後も通常の仕事、Need、装備、社会関係、Biotech Gene／Xenotypeと公式DLCの公開機構を使用する。
 
@@ -141,12 +141,12 @@ Humanの健康、手術、仕事、Need、装備をコードコピーで所有�
 ## 生成とBiotech接続
 
 - PawnKind、Faction、Scenarioは`CA_Caelavi`を明示的に指定する。
-- 六つの遺伝性Xenotypeは共通Geneとatomic lineage Geneを維持する。
+- 自然生得型六Xenotypeは共通Geneとatomic lineage Geneを維持し、カエラヴィ改造型・同盟支援型のtemplateは出自階層契約のGene構成を維持する。
 - 軍務xenogermはRace移行後も標準gene trackerへ保存される。
 - 出生、成長、老化、妊娠、生殖、xenogerm移植、Gene上書き、休眠、死亡、蘇生を通常の公式trackerへ接続する。
 - 種族判定は移行前後とも`pawn.def == CA_Caelavi`の定数時間比較を維持する。
 
-完全独自Race化は六系統を別Raceへ分割しない。Raceはカエラヴィ一つ、遺伝性系統はXenotypeとGene、軍務改造はxenogeneとして直交させる。
+完全独自Race化は六系統や三つの遺伝的出自を別Raceへ分割しない。Raceはカエラヴィ一つ、自然系統とtemplate改造はXenotypeとGene、個体へのカエラヴィ改造・同盟支援改造・軍務改造はxenogeneとして直交させる。
 
 ## 健康・手術・apparel・仕事の互換表
 
@@ -182,12 +182,12 @@ Humanの健康、手術、仕事、Need、装備をコードコピーで所有�
 
 完全独自Raceを通常配布へ入れるには、次を全て満たす。
 
-1. Human継承版が一系統縦切りと六系統について`scenario-tested`である。
+1. Human継承版が一系統縦切り、自然生得型六系統、広用途のカエラヴィ改造型一例、高難度軍務の同盟支援型の改造・作製各一例について`scenario-tested`である。
 2. RaceProperties互換表に未分類項目がない。
 3. `CA_CaelaviBody`のcoverage、Capacity、健康、手術、欠損、遺体、蘇生が実ゲームで成立する。
 4. `CA_CaelaviRenderTree`が描画受入範囲を通す。
 5. 通常apparel、髪、帽子、武器、Portrait、仕事、Need、年齢、社会関係を維持する。
-6. 六系統、未分類混成、八軍務xenogerm、48組合せを維持する。
+6. 三つの遺伝的出自、六系統、未分類混成、八軍務xenogerm、自然生得型を基準とした48組合せを維持する。48は基準行列であって全Xenotype・xenogerm数の上限ではなく、追加出自、任務別、部隊別の軍務適用は個別適合契約で検証する。
 7. 新規開始と採用する旧build保存の双方で、保存・ロード・再ロードを通す。
 8. HAR無効環境でRace、Body、renderer、Gene、保存が成立する。
 9. Human継承版との同一セーブ比較で、描画、Pawn Tick、Needs、Thing Comps、保存、ロードの性能予算を満たす。

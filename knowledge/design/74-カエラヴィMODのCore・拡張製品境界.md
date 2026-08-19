@@ -26,6 +26,7 @@ generated:
 normative_basis:
   - "/design/07-製品ファミリーの新しい境界.md"
   - "/design/59-バニラ優先カエラヴィ種族実装境界.md"
+  - "/design/61-遺伝性鳥類系統の共通Xenotype契約.md"
   - "/design/62-カエラヴィ軍務ゼノジャーム共通実装契約.md"
   - "/design/63-フリーカ・コーラと軍用複合刺激剤の実装境界.md"
   - "/design/64-カエラヴィ個人債務Scenario.md"
@@ -83,8 +84,8 @@ Coreは拡張MODを要求しない。拡張MODはCoreの公開Def、安定ID、�
 | 要素 | 配置 | 境界 |
 |---|---|---|
 | `CA_Caelavi`、Human継承、標準Pawn、通常健康・仕事・装備・Portrait | Core | `ThingDef ParentName="Human"`と標準Pawn処理を維持する。種族識別、Gene描画、保存は既存の種族実装ownerへ従う。 |
-| 六系統のGene／Xenotype、`CA_FunctionalWings`、`CA_OpenAirSacs` | Core | Biotechの`GeneDef`、`XenotypeDef`、標準render node、公式環境評価へ投影する。独自の全Pawn常駐状態や並行曝露を持たない。 |
-| 軍務ゼノジャームのGene、xenogerm工程、排他・代謝規則 | Core | 既存のBiotech xenogerm工程とGene効果として単体Pawnへ適用する。軍務教範の部隊状態や軍功台帳は所有しない。 |
+| 三つの遺伝的出自、六系統のGene／Xenotype、`CA_FunctionalWings`、`CA_OpenAirSacs` | Core | Biotechの`GeneDef`、`XenotypeDef`、xenogerm、標準render node、公式環境評価へ投影する。国産改造型は広用途の通常コンテンツ、同盟支援型は高難度軍務用の特殊コンテンツとして分け、出自・継承性・改造目的を一つへ圧縮しない。 |
+| 軍務ゼノジャームのGene、xenogerm工程、排他・代謝規則 | Core | 既存のBiotech xenogerm工程とGene効果として単体Pawnへ適用する。高難度軍務の資格・任務命令、部隊配備、軍務教範の状態、軍功台帳は拡張側の正本へ接続し、Coreが軍事以外へ同盟支援型を自動配備しない。 |
 | 通常の武器、防具、服、家具、食事、設備、Recipe、通常研究 | Core | 通常の`ThingDef`、`RecipeDef`、Bill、WorkGiver、研究、資産価値へ接続する。専用Relayや横断在庫台帳は含めない。 |
 | フリーカ・コーラ、軍用複合刺激剤、通常の薬物方針 | Core | バニラの薬物、Hediff、Ingest、Recipe、DrugPolicyを拡張する単体コンテンツとして扱う。軍務態勢からの一括服用は拡張側へ置く。 |
 | バニラIdeologyの既存Meme、Precept、Role、Ritualの単体利用 | Core | 既存のIdeology正本へ投影し、国家全体の政治状態や前例台帳を追加しない。 |
